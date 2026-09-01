@@ -1,1 +1,40 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB0eXBlIHt9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1zdGFydCI7CmltcG9ydCB7IGdldFBlYWtDb3VudHJpZXMsIGdldFNpdGVtYXBQZWFrcyB9IGZyb20gIkAvbGliL3BlYWstZGlyZWN0b3J5LmZ1bmN0aW9ucyI7Cgpjb25zdCBCQVNFX1VSTCA9ICJodHRwczovL3RpY2tsZWxpc3Qub3JnIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL3NpdGVtYXAtcGVha3MueG1sIikoewogIHNlcnZlcjogewogICAgaGFuZGxlcnM6IHsKICAgICAgR0VUOiBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgW2NvdW50cmllcywgcGVha3NdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgICAgICAgZ2V0UGVha0NvdW50cmllcygpLmNhdGNoKCgpID0+IFtdKSwKICAgICAgICAgIGdldFNpdGVtYXBQZWFrcygpLmNhdGNoKCgpID0+IFtdKSwKICAgICAgICBdKTsKCiAgICAgICAgY29uc3QgbG9jcyA9IFsKICAgICAgICAgIGAke0JBU0VfVVJMfS9wZWFrc2AsCiAgICAgICAgICAuLi5jb3VudHJpZXMubWFwKChjKSA9PiBgJHtCQVNFX1VSTH0vcGVha3MvY291bnRyeS8ke2MuY29kZS50b0xvd2VyQ2FzZSgpfWApLAogICAgICAgICAgLi4ucGVha3MubWFwKChwKSA9PiBgJHtCQVNFX1VSTH0vcGVha3MvJHtwLmlkfWApLAogICAgICAgIF07CgogICAgICAgIGNvbnN0IHhtbCA9IFsKICAgICAgICAgIGA8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJVVEYtOCI/PmAsCiAgICAgICAgICBgPHVybHNldCB4bWxucz0iaHR0cDovL3d3dy5zaXRlbWFwcy5vcmcvc2NoZW1hcy9zaXRlbWFwLzAuOSI+YCwKICAgICAgICAgIC4uLmxvY3MubWFwKAogICAgICAgICAgICAobG9jKSA9PiBgICA8dXJsPlxuICAgIDxsb2M+JHtsb2N9PC9sb2M+XG4gICAgPGNoYW5nZWZyZXE+bW9udGhseTwvY2hhbmdlZnJlcT5cbiAgPC91cmw+YCwKICAgICAgICAgICksCiAgICAgICAgICBgPC91cmxzZXQ+YCwKICAgICAgICBdLmpvaW4oIlxuIik7CgogICAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UoeG1sLCB7CiAgICAgICAgICBoZWFkZXJzOiB7CiAgICAgICAgICAgICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24veG1sIiwKICAgICAgICAgICAgIkNhY2hlLUNvbnRyb2wiOiAicHVibGljLCBtYXgtYWdlPTM2MDAiLAogICAgICAgICAgfSwKICAgICAgICB9KTsKICAgICAgfSwKICAgIH0sCiAgfSwKfSk7Cg==
+import { createFileRoute } from "@tanstack/react-router";
+import type {} from "@tanstack/react-start";
+import { getPeakCountries, getSitemapPeaks } from "@/lib/peak-directory.functions";
+
+const BASE_URL = "https://ticklelist.org";
+
+export const Route = createFileRoute("/sitemap-peaks.xml")({
+  server: {
+    handlers: {
+      GET: async () => {
+        const [countries, peaks] = await Promise.all([
+          getPeakCountries().catch(() => []),
+          getSitemapPeaks().catch(() => []),
+        ]);
+
+        const locs = [
+          `${BASE_URL}/peaks`,
+          ...countries.map((c) => `${BASE_URL}/peaks/country/${c.code.toLowerCase()}`),
+          ...peaks.map((p) => `${BASE_URL}/peaks/${p.id}`),
+        ];
+
+        const xml = [
+          `<?xml version="1.0" encoding="UTF-8"?>`,
+          `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`,
+          ...locs.map(
+            (loc) => `  <url>\n    <loc>${loc}</loc>\n    <changefreq>monthly</changefreq>\n  </url>`,
+          ),
+          `</urlset>`,
+        ].join("\n");
+
+        return new Response(xml, {
+          headers: {
+            "Content-Type": "application/xml",
+            "Cache-Control": "public, max-age=3600",
+          },
+        });
+      },
+    },
+  },
+});
