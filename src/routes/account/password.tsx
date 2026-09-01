@@ -1,1 +1,6 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBDaGFuZ2VQYXNzd29yZCBmcm9tICJAL3BhZ2VzL0NoYW5nZVBhc3N3b3JkIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL2FjY291bnQvcGFzc3dvcmQiKSh7CiAgY29tcG9uZW50OiBDaGFuZ2VQYXNzd29yZCwKfSk7Cg==
+import { createFileRoute } from "@tanstack/react-router";
+import ChangePassword from "@/pages/ChangePassword";
+
+export const Route = createFileRoute("/account/password")({
+  component: ChangePassword,
+});

@@ -1,1 +1,262 @@
-aW1wb3J0IHsgdXNlTWVtbywgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IEF3YXJkIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgY29tcHV0ZUJhZGdlcywgY29tcHV0ZVN0YXRzLCByYW5rRm9yLCB0eXBlIEJhZGdlIH0gZnJvbSAiQC9saWIvYmFkZ2VzIjsKaW1wb3J0IHsgaG9ub3VyQmFkZ2VzLCByYXJpdHlDbGFzcywgYm9udXNUaXRsZUJ5SWQsIHR5cGUgSG9ub3VyQmFkZ2UgfSBmcm9tICJAL2xpYi9ib251cy10aXRsZXMiOwppbXBvcnQgeyBEaWFsb2csIERpYWxvZ0NvbnRlbnQsIERpYWxvZ0Rlc2NyaXB0aW9uLCBEaWFsb2dIZWFkZXIsIERpYWxvZ1RpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IHVzZUJvbnVzVGl0bGVzIH0gZnJvbSAiQC9ob29rcy91c2VCb251c1RpdGxlcyI7CmltcG9ydCBCb251c1RpdGxlQ2xhaW0gZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9Cb251c1RpdGxlQ2xhaW0iOwppbXBvcnQgeyBjb21wdXRlWHAsIGZvcm1hdFhwLCBMSVNUX0NPTVBMRVRJT05fQk9OVVMgfSBmcm9tICJAL2xpYi94cCI7CmltcG9ydCB7IGNvbXB1dGVFeHBsb3JlclhwIH0gZnJvbSAiQC9saWIvZXhwbG9yZXIteHAiOwppbXBvcnQgdHlwZSB7IFZpc2l0IH0gZnJvbSAiQC9kYXRhL3BsYWNlcyI7CmltcG9ydCB0eXBlIHsgQXNjZW50IH0gZnJvbSAiQC9saWIvcGVhay1jYXRhbG9nIjsKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyI7CgppbnRlcmZhY2UgUHJvcHMgewogIGFzY2VudHM6IEFzY2VudFtdOwogIHZpc2l0cz86IFZpc2l0W107CiAgbmFtZT86IHN0cmluZzsKICAvKiogTWVtYmVyIHRoZSBwYW5lbCBiZWxvbmdzIHRvIOKAlCBlbmFibGVzIGhvbm91ciBiYWRnZXMuICovCiAgdXNlcklkPzogc3RyaW5nOwogIC8qKiBTaG93IHRoZSBjbGFpbSBjb250cm9scyAob3duIHByb2ZpbGUpLiAqLwogIGVkaXRhYmxlPzogYm9vbGVhbjsKICBjbGFzc05hbWU/OiBzdHJpbmc7Cn0KCi8qKiBSYW5rIGxhZGRlciArIGJhZGdlIGdyaWQgZGVyaXZlZCBmcm9tIGEgY2xpbWJlcidzIGxvZ2dlZCBhc2NlbnRzLiAqLwpjb25zdCBCYWRnZXNQYW5lbCA9ICh7IGFzY2VudHMsIHZpc2l0cyA9IFtdLCBuYW1lID0gIlRoaXMgY2xpbWJlciIsIHVzZXJJZCwgZWRpdGFibGUgPSBmYWxzZSwgY2xhc3NOYW1lIH06IFByb3BzKSA9PiB7CiAgY29uc3QgeyByb3dzOiBob25vdXJSb3dzLCByZWxvYWQ6IHJlbG9hZEhvbm91cnMgfSA9IHVzZUJvbnVzVGl0bGVzKHVzZXJJZCk7CiAgY29uc3QgW3NlbGVjdGVkLCBzZXRTZWxlY3RlZF0gPSB1c2VTdGF0ZTx7IGI6IEJhZGdlIHwgSG9ub3VyQmFkZ2U7IGhvbm91cjogSG9ub3VyQmFkZ2UgfCBudWxsIH0gfCBudWxsPihudWxsKTsKICBjb25zdCBob25vdXJzID0gdXNlTWVtbygoKSA9PiBob25vdXJCYWRnZXMoaG9ub3VyUm93cyksIFtob25vdXJSb3dzXSk7CiAgY29uc3Qgc3RhdHMgPSB1c2VNZW1vKCgpID0+IGNvbXB1dGVTdGF0cyhhc2NlbnRzKSwgW2FzY2VudHNdKTsKICBjb25zdCB7IGN1cnJlbnQsIG5leHQgfSA9IHJhbmtGb3Ioc3RhdHMudG90YWwpOwogIGNvbnN0IHhwID0gdXNlTWVtbygoKSA9PiBjb21wdXRlWHAoYXNjZW50cyksIFthc2NlbnRzXSk7CiAgY29uc3QgZXhwbG9yZXIgPSB1c2VNZW1vKCgpID0+IGNvbXB1dGVFeHBsb3JlclhwKHZpc2l0cyksIFt2aXNpdHNdKTsKICBjb25zdCBiYWRnZXMgPSB1c2VNZW1vKCgpID0+IGNvbXB1dGVCYWRnZXMoc3RhdHMsIHhwLnRvdGFsICsgZXhwbG9yZXIudG90YWwpLCBbc3RhdHMsIHhwLnRvdGFsLCBleHBsb3Jlci50b3RhbF0pOwoKICBjb25zdCBzcGFuID0gbmV4dCA/IG5leHQubWluIC0gY3VycmVudC5taW4gOiAxOwogIGNvbnN0IHBjdCA9IG5leHQgPyBNYXRoLm1pbigxMDAsIE1hdGgucm91bmQoKChzdGF0cy50b3RhbCAtIGN1cnJlbnQubWluKSAvIHNwYW4pICogMTAwKSkgOiAxMDA7CiAgY29uc3QgZWFybmVkID0gYmFkZ2VzLmZpbHRlcigoYikgPT4gYi5lYXJuZWQpOwogIGNvbnN0IGxvY2tlZCA9IGJhZGdlcy5maWx0ZXIoKGIpID0+ICFiLmVhcm5lZCk7CgogIHJldHVybiAoCiAgICA8c2VjdGlvbiBjbGFzc05hbWU9e2NuKCJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQgcC01IiwgY2xhc3NOYW1lKX0+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC14bCB0cmFja2luZy13aWRlciBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICA8QXdhcmQgY2xhc3NOYW1lPSJ3LTUgaC01IHRleHQtcHJpbWFyeSIgLz4gUmFuayAmIGJhZGdlcwogICAgICAgIDwvaDI+CiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7ZWFybmVkLmxlbmd0aCArIGhvbm91cnMubGVuZ3RofS97YmFkZ2VzLmxlbmd0aCArIGhvbm91cnMubGVuZ3RofSBiYWRnZXMgZWFybmVkCiAgICAgICAgPC9zcGFuPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC00Ij4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1iYXNlbGluZSBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdHJhY2tpbmctd2lkZXIgdGV4dC1sZyB0ZXh0LXByaW1hcnkiPntjdXJyZW50Lm5hbWV9PC9wPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHtuZXh0ID8gYCR7bmV4dC5taW4gLSBzdGF0cy50b3RhbH0gbW9yZSBhc2NlbnQke25leHQubWluIC0gc3RhdHMudG90YWwgPT09IDEgPyAiIiA6ICIifSB0byAke25leHQubmFtZX1gIDogIlRvcCByYW5rIHJlYWNoZWQifQogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMSI+e2N1cnJlbnQuYmx1cmJ9PC9wPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0yIGgtMS41IHJvdW5kZWQtZnVsbCBiZy1zZWNvbmRhcnkgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJoLWZ1bGwgYmctcHJpbWFyeSB0cmFuc2l0aW9uLWFsbCIgc3R5bGU9e3sgd2lkdGg6IGAke3BjdH0lYCB9fSAvPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC01IGdyaWQgZ2FwLTMgbWQ6Z3JpZC1jb2xzLTIgaXRlbXMtc3RhcnQiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLXByaW1hcnkvMzAgYmctcHJpbWFyeS81IHAtNCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGl0ZW1zLWJhc2VsaW5lIGp1c3RpZnktYmV0d2VlbiBnYXAtMiI+CiAgICAgICAgICA8cCBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlciB0ZXh0LWxnIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXByaW1hcnkiPkxldmVsIHt4cC5sZXZlbC5sZXZlbH08L3NwYW4+IMK3IHt4cC5sZXZlbC50aXRsZX0KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGVyIHRleHQtcHJpbWFyeSI+e2Zvcm1hdFhwKHhwLnRvdGFsKX0gWFA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTIgaC0xLjUgcm91bmRlZC1mdWxsIGJnLXNlY29uZGFyeSBvdmVyZmxvdy1oaWRkZW4iPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImgtZnVsbCBiZy1wcmltYXJ5IHRyYW5zaXRpb24tYWxsIiBzdHlsZT17eyB3aWR0aDogYCR7eHAucGN0fSVgIH19IC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMiI+CiAgICAgICAgICB7eHAubmV4dAogICAgICAgICAgICA/IGAke2Zvcm1hdFhwKHhwLm5leHQubWluIC0geHAudG90YWwpfSBYUCB0byBMZXZlbCAke3hwLm5leHQubGV2ZWx9IMK3ICR7eHAubmV4dC50aXRsZX1gCiAgICAgICAgICAgIDogIk1heCBsZXZlbCDigJQgbm90aGluZyBsZWZ0IHRvIGNsaW1iIGJ1dCB0aGUgc2FtZSBwZWFrcyBhZ2Fpbi4ifQogICAgICAgICAge3hwLmJlc3QgJiYgYCDCtyBCZXN0IHN1bW1pdDogJHt4cC5iZXN0Lm5hbWV9ICgrJHtmb3JtYXRYcCh4cC5iZXN0LnhwKX0pYH0KICAgICAgICA8L3A+CiAgICAgICAge3hwLmxpc3RCb251cyA+IDAgJiYgKAogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LXByaW1hcnkgbXQtMSI+CiAgICAgICAgICAgICt7Zm9ybWF0WHAoeHAubGlzdEJvbnVzKX0gWFAgbGlzdCBib251cyDigJQgY29tcGxldGVkOiB7eHAuY29tcGxldGVkTGlzdHMuam9pbigiLCAiKX0KICAgICAgICAgIDwvcD4KICAgICAgICApfQogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG10LTEiPgogICAgICAgICAgQ2xpbWJlciBYUCBzY2FsZXMgd2l0aCBhbHRpdHVkZSBhbmQgZGlmZmljdWx0eSDigJQgcmVwZWF0cyBvZiB0aGUgc2FtZSBwZWFrIGNvdW50IGZvciAyNSUsIGFuZCBldmVyeQogICAgICAgICAgY29tcGxldGVkIHRpY2sgbGlzdCBhZGRzIHtmb3JtYXRYcChMSVNUX0NPTVBMRVRJT05fQk9OVVMpfSBYUC4KICAgICAgICA8L3A+CgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYWNjZW50LzMwIGJnLWFjY2VudC81IHAtNCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGl0ZW1zLWJhc2VsaW5lIGp1c3RpZnktYmV0d2VlbiBnYXAtMiI+CiAgICAgICAgICA8cCBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlciB0ZXh0LWxnIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWFjY2VudCI+RXhwbG9yZXIge2V4cGxvcmVyLmxldmVsLmxldmVsfTwvc3Bhbj4gwrcge2V4cGxvcmVyLmxldmVsLnRpdGxlfQogICAgICAgICAgPC9wPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdHJhY2tpbmctd2lkZXIgdGV4dC1hY2NlbnQiPntmb3JtYXRYcChleHBsb3Jlci50b3RhbCl9IFhQPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0yIGgtMS41IHJvdW5kZWQtZnVsbCBiZy1zZWNvbmRhcnkgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJoLWZ1bGwgYmctYWNjZW50IHRyYW5zaXRpb24tYWxsIiBzdHlsZT17eyB3aWR0aDogYCR7ZXhwbG9yZXIucGN0fSVgIH19IC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMiI+CiAgICAgICAgICB7ZXhwbG9yZXIubmV4dAogICAgICAgICAgICA/IGAke2Zvcm1hdFhwKGV4cGxvcmVyLm5leHQubWluIC0gZXhwbG9yZXIudG90YWwpfSBYUCB0byBFeHBsb3JlciAke2V4cGxvcmVyLm5leHQubGV2ZWx9IMK3ICR7ZXhwbG9yZXIubmV4dC50aXRsZX1gCiAgICAgICAgICAgIDogIk1heCBleHBsb3JlciBsZXZlbCDigJQgdGhlIG1hcCBoYXMgcnVuIG91dCBvZiBibGFuayBiaXRzLiJ9CiAgICAgICAgPC9wPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG10LTEiPgogICAgICAgICAge2V4cGxvcmVyLmNvdW50cmllc30gY291bnRyaWVzIMK3IHtleHBsb3Jlci5wbGFjZXN9IG90aGVyIHBsYWNlcyDCtyB7ZXhwbG9yZXIuY29udGluZW50c30gY29udGluZW50cwogICAgICAgICAge2V4cGxvcmVyLmNvbnRpbmVudEJvbnVzID4gMCAmJiBgICgrJHtmb3JtYXRYcChleHBsb3Jlci5jb250aW5lbnRCb251cyl9IFhQIGNvbnRpbmVudCBib251cylgfQogICAgICAgIDwvcD4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC0xIj4KICAgICAgICAgIEEgc2VwYXJhdGUgdHJhY2sgZnJvbSBjbGltYmluZyDigJQgcG9sZXMgYW5kIHdvbmRlcnMgcGF5IHRoZSBtb3N0LgogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPGRsIGNsYXNzTmFtZT0ibXQtNSBncmlkIGdyaWQtY29scy0yIHNtOmdyaWQtY29scy00IGdhcC0zIHRleHQtY2VudGVyIj4KICAgICAgICB7WwogICAgICAgICAgeyBsYWJlbDogIkFzY2VudHMiLCB2YWx1ZTogc3RhdHMudG90YWwgfSwKICAgICAgICAgIHsgbGFiZWw6ICJIaWdoIHBvaW50cyIsIHZhbHVlOiBzdGF0cy5oaWdocG9pbnRzIH0sCiAgICAgICAgICB7IGxhYmVsOiAiQ291bnRyaWVzIiwgdmFsdWU6IHN0YXRzLmNvdW50cmllcyB9LAogICAgICAgICAgeyBsYWJlbDogIlhQIiwgdmFsdWU6IGZvcm1hdFhwKHhwLnRvdGFsKSB9LAogICAgICAgIF0ubWFwKChzKSA9PiAoCiAgICAgICAgICA8ZGl2IGtleT17cy5sYWJlbH0gY2xhc3NOYW1lPSJyb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIHAtMyI+CiAgICAgICAgICAgIDxkdCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy1bMC4yZW1dIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3MubGFiZWx9PC9kdD4KICAgICAgICAgICAgPGRkIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQteGwgdHJhY2tpbmctd2lkZXIgbXQtMSI+e3MudmFsdWV9PC9kZD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICkpfQogICAgICA8L2RsPgoKICAgICAgPHAgY2xhc3NOYW1lPSJtdC01IHRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+VGFwIGEgYmFkZ2UgdG8gc2VlIHdoYXQgaXQgbWVhbnMuPC9wPgogICAgICA8dWwgY2xhc3NOYW1lPSJtdC0yIGdyaWQgc206Z3JpZC1jb2xzLTIgZ2FwLTIiPgogICAgICAgIHtbCiAgICAgICAgICAuLi5ob25vdXJzLm1hcCgoaCkgPT4gKHsgYjogaCBhcyBIb25vdXJCYWRnZSwgaG9ub3VyOiBoIGFzIEhvbm91ckJhZGdlIHwgbnVsbCB9KSksCiAgICAgICAgICAuLi5bLi4uZWFybmVkLCAuLi5sb2NrZWRdLm1hcCgoeCkgPT4gKHsgYjogeCwgaG9ub3VyOiBudWxsIGFzIEhvbm91ckJhZGdlIHwgbnVsbCB9KSksCiAgICAgICAgXS5tYXAoKHsgYiwgaG9ub3VyIH0pID0+IHsKICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICA8bGkga2V5PXtiLmlkfT4KICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRTZWxlY3RlZCh7IGIsIGhvbm91ciB9KX0KICAgICAgICAgICAgICBhcmlhLWxhYmVsPXtgQWJvdXQgdGhlICR7Yi5uYW1lfSBiYWRnZWB9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAgICAgICAgICJ3LWZ1bGwgdGV4dC1sZWZ0IHJvdW5kZWQtbWQgYm9yZGVyIHAtMyBmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0zIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJvcmRlci1wcmltYXJ5LzYwIiwKICAgICAgICAgICAgICAgIGhvbm91cgogICAgICAgICAgICAgICAgICA/IHJhcml0eUNsYXNzW2hvbm91ci5yYXJpdHldCiAgICAgICAgICAgICAgICAgIDogYi5lYXJuZWQKICAgICAgICAgICAgICAgICAgICA/ICJib3JkZXItcHJpbWFyeS80MCBiZy1wcmltYXJ5LzUiCiAgICAgICAgICAgICAgICAgICAgOiAiYm9yZGVyLWJvcmRlciBvcGFjaXR5LTYwIiwKICAgICAgICAgICAgICApfQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhsIGxlYWRpbmctbm9uZSIgYXJpYS1oaWRkZW4+e2IuaWNvbn08L3NwYW4+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1pbi13LTAgZmxleC0xIj4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWRpc3BsYXkgdHJhY2tpbmctd2lkZXIiPgogICAgICAgICAgICAgICAgICB7Yi5uYW1lfQogICAgICAgICAgICAgICAgICB7aG9ub3VyPy52ZXJpZmllZCAmJiA8c3BhbiBjbGFzc05hbWU9Im1sLTEgdGV4dC1wcmltYXJ5IHRleHQteHMiPuKckzwvc3Bhbj59CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57Yi5kZXNjcmlwdGlvbn08L3A+CiAgICAgICAgICAgICAgICB7IWIuZWFybmVkICYmICgKICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMSI+CiAgICAgICAgICAgICAgICAgICAge2IucHJvZ3Jlc3N9L3tiLnRhcmdldH0KICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICA8L2xpPgogICAgICAgICAgKTsKICAgICAgICB9KX0KICAgICAgPC91bD4KCiAgICAgIDxEaWFsb2cgb3Blbj17ISFzZWxlY3RlZH0gb25PcGVuQ2hhbmdlPXsobykgPT4gIW8gJiYgc2V0U2VsZWN0ZWQobnVsbCl9PgogICAgICAgIDxEaWFsb2dDb250ZW50IGNsYXNzTmFtZT0ibWF4LXctbWQiPgogICAgICAgICAge3NlbGVjdGVkICYmICgKICAgICAgICAgICAgPD4KICAgICAgICAgICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgICAgICAgICAgPERpYWxvZ1RpdGxlIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGVyIGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgPHNwYW4gYXJpYS1oaWRkZW4+e3NlbGVjdGVkLmIuaWNvbn08L3NwYW4+IHtzZWxlY3RlZC5iLm5hbWV9CiAgICAgICAgICAgICAgICA8L0RpYWxvZ1RpdGxlPgogICAgICAgICAgICAgICAgPERpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgICAgICAgICAgICB7c2VsZWN0ZWQuaG9ub3VyCiAgICAgICAgICAgICAgICAgICAgPyBgSG9ub3VyIGJhZGdlIMK3ICR7c2VsZWN0ZWQuaG9ub3VyLnJhcml0eX0gwrcgJHtzZWxlY3RlZC5ob25vdXIudmVyaWZpZWQgPyAidmVyaWZpZWQgYnkgYW4gYWRtaW4iIDogInNlbGYtY2xhaW1lZCJ9YAogICAgICAgICAgICAgICAgICAgIDogc2VsZWN0ZWQuYi5lYXJuZWQKICAgICAgICAgICAgICAgICAgICAgID8gIkVhcm5lZCIKICAgICAgICAgICAgICAgICAgICAgIDogIk5vdCBlYXJuZWQgeWV0In0KICAgICAgICAgICAgICAgIDwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICAgICAgPC9EaWFsb2dIZWFkZXI+CgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMgdGV4dC1zbSI+CiAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy1bMC4yZW1dIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+SG93IGl0J3MgZWFybmVkPC9wPgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC0xIj4KICAgICAgICAgICAgICAgICAgICB7c2VsZWN0ZWQuaG9ub3VyCiAgICAgICAgICAgICAgICAgICAgICA/IGJvbnVzVGl0bGVCeUlkKHNlbGVjdGVkLmhvbm91ci5pZC5yZXBsYWNlKCJob25vdXI6IiwgIiIpKT8uY3JpdGVyaWEKICAgICAgICAgICAgICAgICAgICAgIDogc2VsZWN0ZWQuYi5kZXNjcmlwdGlvbn0KICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgeyFzZWxlY3RlZC5ob25vdXIgJiYgImRldGFpbCIgaW4gc2VsZWN0ZWQuYiAmJiBzZWxlY3RlZC5iLmRldGFpbCAmJiAoCiAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB1cHBlcmNhc2UgdHJhY2tpbmctWzAuMmVtXSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPldoYXQgY291bnRzPC9wPgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG10LTEiPntzZWxlY3RlZC5iLmRldGFpbH08L3A+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgKX0KCiAgICAgICAgICAgICAgICB7IXNlbGVjdGVkLmhvbm91ciAmJiAiY291bnRlZCIgaW4gc2VsZWN0ZWQuYiAmJiAoc2VsZWN0ZWQuYi5jb3VudGVkPy5sZW5ndGggPz8gMCkgPiAwICYmICgKICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy1bMC4yZW1dIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgICB7c2VsZWN0ZWQuYi5jb3VudGVkTGFiZWwgPz8gIkNvdW50aW5nIHNvIGZhciJ9ICh7c2VsZWN0ZWQuYi5jb3VudGVkIS5sZW5ndGh9KQogICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJtdC0xIG1heC1oLTQ4IG92ZXJmbG93LXktYXV0byBzcGFjZS15LTAuNSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgICB7c2VsZWN0ZWQuYi5jb3VudGVkIS5tYXAoKGMsIGkpID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgPGxpIGtleT17YCR7Y30tJHtpfWB9IGNsYXNzTmFtZT0iZmxleCBnYXAtMiI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXByaW1hcnkgc2hyaW5rLTAiPntpICsgMX0uPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idHJ1bmNhdGUiPntjfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgKX0KCiAgICAgICAgICAgICAgICB7c2VsZWN0ZWQuaG9ub3VyID8gKAogICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdXBwZXJjYXNlIHRyYWNraW5nLVswLjJlbV0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5UaGUgc3Rvcnk8L3A+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMSB3aGl0ZXNwYWNlLXByZS1saW5lIj4KICAgICAgICAgICAgICAgICAgICAgIHtzZWxlY3RlZC5iLmRlc2NyaXB0aW9ufQogICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdXBwZXJjYXNlIHRyYWNraW5nLVswLjJlbV0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5Qcm9ncmVzczwvcD4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC0xIj4KICAgICAgICAgICAgICAgICAgICAgIHtzZWxlY3RlZC5iLnByb2dyZXNzfS97c2VsZWN0ZWQuYi50YXJnZXR9CiAgICAgICAgICAgICAgICAgICAgICB7IXNlbGVjdGVkLmIuZWFybmVkICYmIGAgwrcgJHtNYXRoLm1heCgwLCBzZWxlY3RlZC5iLnRhcmdldCAtIHNlbGVjdGVkLmIucHJvZ3Jlc3MpfSB0byBnb2B9CiAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0yIGgtMS41IHJvdW5kZWQtZnVsbCBiZy1zZWNvbmRhcnkgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJoLWZ1bGwgYmctcHJpbWFyeSIKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgd2lkdGg6IGAke01hdGgubWluKDEwMCwgTWF0aC5yb3VuZCgoc2VsZWN0ZWQuYi5wcm9ncmVzcyAvIE1hdGgubWF4KDEsIHNlbGVjdGVkLmIudGFyZ2V0KSkgKiAxMDApKX0lYCB9fQogICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8Lz4KICAgICAgICAgICl9CiAgICAgICAgPC9EaWFsb2dDb250ZW50PgogICAgICA8L0RpYWxvZz4KCiAgICAgIHtlZGl0YWJsZSAmJiB1c2VySWQgJiYgKAogICAgICAgIDxCb251c1RpdGxlQ2xhaW0gdXNlcklkPXt1c2VySWR9IHJvd3M9e2hvbm91clJvd3N9IG9uQ2hhbmdlZD17cmVsb2FkSG9ub3Vyc30gLz4KICAgICAgKX0KCiAgICAgIHtzdGF0cy50b3RhbCA9PT0gMCAmJiAoCiAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC00IHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57bmFtZX0gaGFzbid0IGxvZ2dlZCBhbnkgYXNjZW50cyB5ZXQuPC9wPgogICAgICApfQogICAgPC9zZWN0aW9uPgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBCYWRnZXNQYW5lbDsK
+import { useMemo, useState } from "react";
+import { Award } from "lucide-react";
+import { computeBadges, computeStats, rankFor, type Badge } from "@/lib/badges";
+import { honourBadges, rarityClass, bonusTitleById, type HonourBadge } from "@/lib/bonus-titles";
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { useBonusTitles } from "@/hooks/useBonusTitles";
+import BonusTitleClaim from "@/components/community/BonusTitleClaim";
+import { computeXp, formatXp, LIST_COMPLETION_BONUS } from "@/lib/xp";
+import { computeExplorerXp } from "@/lib/explorer-xp";
+import type { Visit } from "@/data/places";
+import type { Ascent } from "@/lib/peak-catalog";
+import { cn } from "@/lib/utils";
+
+interface Props {
+  ascents: Ascent[];
+  visits?: Visit[];
+  name?: string;
+  /** Member the panel belongs to — enables honour badges. */
+  userId?: string;
+  /** Show the claim controls (own profile). */
+  editable?: boolean;
+  className?: string;
+}
+
+/** Rank ladder + badge grid derived from a climber's logged ascents. */
+const BadgesPanel = ({ ascents, visits = [], name = "This climber", userId, editable = false, className }: Props) => {
+  const { rows: honourRows, reload: reloadHonours } = useBonusTitles(userId);
+  const [selected, setSelected] = useState<{ b: Badge | HonourBadge; honour: HonourBadge | null } | null>(null);
+  const honours = useMemo(() => honourBadges(honourRows), [honourRows]);
+  const stats = useMemo(() => computeStats(ascents), [ascents]);
+  const { current, next } = rankFor(stats.total);
+  const xp = useMemo(() => computeXp(ascents), [ascents]);
+  const explorer = useMemo(() => computeExplorerXp(visits), [visits]);
+  const badges = useMemo(() => computeBadges(stats, xp.total + explorer.total), [stats, xp.total, explorer.total]);
+
+  const span = next ? next.min - current.min : 1;
+  const pct = next ? Math.min(100, Math.round(((stats.total - current.min) / span) * 100)) : 100;
+  const earned = badges.filter((b) => b.earned);
+  const locked = badges.filter((b) => !b.earned);
+
+  return (
+    <section className={cn("rounded-lg border border-border bg-card p-5", className)}>
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <h2 className="font-display text-xl tracking-wider flex items-center gap-2">
+          <Award className="w-5 h-5 text-primary" /> Rank & badges
+        </h2>
+        <span className="text-xs text-muted-foreground">
+          {earned.length + honours.length}/{badges.length + honours.length} badges earned
+        </span>
+      </div>
+
+      <div className="mt-4">
+        <div className="flex items-baseline justify-between gap-3">
+          <p className="font-display tracking-wider text-lg text-primary">{current.name}</p>
+          <p className="text-xs text-muted-foreground">
+            {next ? `${next.min - stats.total} more ascent${next.min - stats.total === 1 ? "" : ""} to ${next.name}` : "Top rank reached"}
+          </p>
+        </div>
+        <p className="text-xs text-muted-foreground mt-1">{current.blurb}</p>
+        <div className="mt-2 h-1.5 rounded-full bg-secondary overflow-hidden">
+          <div className="h-full bg-primary transition-all" style={{ width: `${pct}%` }} />
+        </div>
+      </div>
+
+      <div className="mt-5 grid gap-3 md:grid-cols-2 items-start">
+      <div className="rounded-md border border-primary/30 bg-primary/5 p-4">
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <p className="font-display tracking-wider text-lg">
+            <span className="text-primary">Level {xp.level.level}</span> · {xp.level.title}
+          </p>
+          <p className="font-display tracking-wider text-primary">{formatXp(xp.total)} XP</p>
+        </div>
+        <div className="mt-2 h-1.5 rounded-full bg-secondary overflow-hidden">
+          <div className="h-full bg-primary transition-all" style={{ width: `${xp.pct}%` }} />
+        </div>
+        <p className="text-[11px] text-muted-foreground mt-2">
+          {xp.next
+            ? `${formatXp(xp.next.min - xp.total)} XP to Level ${xp.next.level} · ${xp.next.title}`
+            : "Max level — nothing left to climb but the same peaks again."}
+          {xp.best && ` · Best summit: ${xp.best.name} (+${formatXp(xp.best.xp)})`}
+        </p>
+        {xp.listBonus > 0 && (
+          <p className="text-[11px] text-primary mt-1">
+            +{formatXp(xp.listBonus)} XP list bonus — completed: {xp.completedLists.join(", ")}
+          </p>
+        )}
+        <p className="text-[11px] text-muted-foreground mt-1">
+          Climber XP scales with altitude and difficulty — repeats of the same peak count for 25%, and every
+          completed tick list adds {formatXp(LIST_COMPLETION_BONUS)} XP.
+        </p>
+
+      </div>
+
+      <div className="rounded-md border border-accent/30 bg-accent/5 p-4">
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <p className="font-display tracking-wider text-lg">
+            <span className="text-accent">Explorer {explorer.level.level}</span> · {explorer.level.title}
+          </p>
+          <p className="font-display tracking-wider text-accent">{formatXp(explorer.total)} XP</p>
+        </div>
+        <div className="mt-2 h-1.5 rounded-full bg-secondary overflow-hidden">
+          <div className="h-full bg-accent transition-all" style={{ width: `${explorer.pct}%` }} />
+        </div>
+        <p className="text-[11px] text-muted-foreground mt-2">
+          {explorer.next
+            ? `${formatXp(explorer.next.min - explorer.total)} XP to Explorer ${explorer.next.level} · ${explorer.next.title}`
+            : "Max explorer level — the map has run out of blank bits."}
+        </p>
+        <p className="text-[11px] text-muted-foreground mt-1">
+          {explorer.countries} countries · {explorer.places} other places · {explorer.continents} continents
+          {explorer.continentBonus > 0 && ` (+${formatXp(explorer.continentBonus)} XP continent bonus)`}
+        </p>
+        <p className="text-[11px] text-muted-foreground mt-1">
+          A separate track from climbing — poles and wonders pay the most.
+        </p>
+      </div>
+      </div>
+
+      <dl className="mt-5 grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+        {[
+          { label: "Ascents", value: stats.total },
+          { label: "High points", value: stats.highpoints },
+          { label: "Countries", value: stats.countries },
+          { label: "XP", value: formatXp(xp.total) },
+        ].map((s) => (
+          <div key={s.label} className="rounded-md border border-border p-3">
+            <dt className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">{s.label}</dt>
+            <dd className="font-display text-xl tracking-wider mt-1">{s.value}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <p className="mt-5 text-[11px] text-muted-foreground">Tap a badge to see what it means.</p>
+      <ul className="mt-2 grid sm:grid-cols-2 gap-2">
+        {[
+          ...honours.map((h) => ({ b: h as HonourBadge, honour: h as HonourBadge | null })),
+          ...[...earned, ...locked].map((x) => ({ b: x, honour: null as HonourBadge | null })),
+        ].map(({ b, honour }) => {
+          return (
+          <li key={b.id}>
+            <button
+              type="button"
+              onClick={() => setSelected({ b, honour })}
+              aria-label={`About the ${b.name} badge`}
+              className={cn(
+                "w-full text-left rounded-md border p-3 flex items-start gap-3 transition-colors hover:border-primary/60",
+                honour
+                  ? rarityClass[honour.rarity]
+                  : b.earned
+                    ? "border-primary/40 bg-primary/5"
+                    : "border-border opacity-60",
+              )}
+            >
+              <span className="text-xl leading-none" aria-hidden>{b.icon}</span>
+              <div className="min-w-0 flex-1">
+                <p className="text-sm font-display tracking-wider">
+                  {b.name}
+                  {honour?.verified && <span className="ml-1 text-primary text-xs">✓</span>}
+                </p>
+                <p className="text-xs text-muted-foreground">{b.description}</p>
+                {!b.earned && (
+                  <p className="text-[11px] text-muted-foreground mt-1">
+                    {b.progress}/{b.target}
+                  </p>
+                )}
+              </div>
+            </button>
+          </li>
+          );
+        })}
+      </ul>
+
+      <Dialog open={!!selected} onOpenChange={(o) => !o && setSelected(null)}>
+        <DialogContent className="max-w-md">
+          {selected && (
+            <>
+              <DialogHeader>
+                <DialogTitle className="font-display tracking-wider flex items-center gap-2">
+                  <span aria-hidden>{selected.b.icon}</span> {selected.b.name}
+                </DialogTitle>
+                <DialogDescription>
+                  {selected.honour
+                    ? `Honour badge · ${selected.honour.rarity} · ${selected.honour.verified ? "verified by an admin" : "self-claimed"}`
+                    : selected.b.earned
+                      ? "Earned"
+                      : "Not earned yet"}
+                </DialogDescription>
+              </DialogHeader>
+
+              <div className="space-y-3 text-sm">
+                <div>
+                  <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">How it's earned</p>
+                  <p className="text-muted-foreground mt-1">
+                    {selected.honour
+                      ? bonusTitleById(selected.honour.id.replace("honour:", ""))?.criteria
+                      : selected.b.description}
+                  </p>
+                </div>
+
+                {!selected.honour && "detail" in selected.b && selected.b.detail && (
+                  <div>
+                    <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">What counts</p>
+                    <p className="text-muted-foreground mt-1">{selected.b.detail}</p>
+                  </div>
+                )}
+
+                {!selected.honour && "counted" in selected.b && (selected.b.counted?.length ?? 0) > 0 && (
+                  <div>
+                    <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
+                      {selected.b.countedLabel ?? "Counting so far"} ({selected.b.counted!.length})
+                    </p>
+                    <ul className="mt-1 max-h-48 overflow-y-auto space-y-0.5 text-xs text-muted-foreground">
+                      {selected.b.counted!.map((c, i) => (
+                        <li key={`${c}-${i}`} className="flex gap-2">
+                          <span className="text-primary shrink-0">{i + 1}.</span>
+                          <span className="truncate">{c}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+
+                {selected.honour ? (
+                  <div>
+                    <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">The story</p>
+                    <p className="text-muted-foreground mt-1 whitespace-pre-line">
+                      {selected.b.description}
+                    </p>
+                  </div>
+                ) : (
+                  <div>
+                    <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Progress</p>
+                    <p className="text-muted-foreground mt-1">
+                      {selected.b.progress}/{selected.b.target}
+                      {!selected.b.earned && ` · ${Math.max(0, selected.b.target - selected.b.progress)} to go`}
+                    </p>
+                    <div className="mt-2 h-1.5 rounded-full bg-secondary overflow-hidden">
+                      <div
+                        className="h-full bg-primary"
+                        style={{ width: `${Math.min(100, Math.round((selected.b.progress / Math.max(1, selected.b.target)) * 100))}%` }}
+                      />
+                    </div>
+                  </div>
+                )}
+              </div>
+            </>
+          )}
+        </DialogContent>
+      </Dialog>
+
+      {editable && userId && (
+        <BonusTitleClaim userId={userId} rows={honourRows} onChanged={reloadHonours} />
+      )}
+
+      {stats.total === 0 && (
+        <p className="mt-4 text-xs text-muted-foreground">{name} hasn't logged any ascents yet.</p>
+      )}
+    </section>
+  );
+};
+
+export default BadgesPanel;

@@ -1,1 +1,76 @@
-aW1wb3J0IHsgaXNVbkNvdW50cnkgfSBmcm9tICJAL2xpYi9wcm9maWxlLWdvYWxzIjsKaW1wb3J0IHsgdXNlTWVtbyB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwoKaW1wb3J0IHsgTW91bnRhaW4sIFVzZXJzLCBGbGFnLCBDYWxlbmRhckRheXMgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBwZWFrTGlzdHMgfSBmcm9tICJAL2RhdGEvcGVhay1saXN0cyI7CmltcG9ydCB0eXBlIHsgQXNjZW50IH0gZnJvbSAiQC9saWIvcGVhay1jYXRhbG9nIjsKaW1wb3J0IHR5cGUgeyBBZHZlbnR1cmUsIFB1YmxpY1Byb2ZpbGUgfSBmcm9tICJAL2xpYi9jb21tdW5pdHkiOwoKaW50ZXJmYWNlIFByb3BzIHsKICBhc2NlbnRzOiBBc2NlbnRbXTsKICBhZHZlbnR1cmVzOiBBZHZlbnR1cmVbXTsKICBwcm9maWxlczogUmVjb3JkPHN0cmluZywgUHVibGljUHJvZmlsZT47Cn0KCmNvbnN0IENvbW11bml0eVN0YXRzID0gKHsgYXNjZW50cywgYWR2ZW50dXJlcywgcHJvZmlsZXMgfTogUHJvcHMpID0+IHsKICBjb25zdCBzdGF0cyA9IHVzZU1lbW8oKCkgPT4gewogICAgY29uc3QgY2xpbWJlcnMgPSBuZXcgU2V0KGFzY2VudHMubWFwKChhKSA9PiBhLnVzZXJfaWQpKTsKICAgIGNvbnN0IGhpZ2hQb2ludHMgPSBuZXcgU2V0KAogICAgICBhc2NlbnRzCiAgICAgICAgLmZpbHRlcigoYSkgPT4gYS5wZWFrX3R5cGUgPT09ICJjb3VudHJ5X2hpZ2hwb2ludCIgJiYgaXNVbkNvdW50cnkoYS5jb3VudHJ5ID8/IGEucGVha19uYW1lKSkKICAgICAgICAubWFwKChhKSA9PiBhLmNvdW50cnkgPz8gYS5wZWFrX25hbWUpLAogICAgKTsKCiAgICBjb25zdCBrZXlzQnlVc2VyID0gbmV3IE1hcDxzdHJpbmcsIFNldDxzdHJpbmc+PigpOwogICAgZm9yIChjb25zdCBhIG9mIGFzY2VudHMpIHsKICAgICAgaWYgKCFrZXlzQnlVc2VyLmhhcyhhLnVzZXJfaWQpKSBrZXlzQnlVc2VyLnNldChhLnVzZXJfaWQsIG5ldyBTZXQoKSk7CiAgICAgIGtleXNCeVVzZXIuZ2V0KGEudXNlcl9pZCkhLmFkZCgKICAgICAgICBhLnBlYWtfdHlwZSA9PT0gImNvdW50cnlfaGlnaHBvaW50IiA/IGBocDoke2EuY291bnRyeSA/PyBhLnBlYWtfbmFtZX1gIDogYGZwOiR7YS5wZWFrX25hbWV9YCwKICAgICAgKTsKICAgIH0KICAgIGxldCBsaXN0c0NvbXBsZXRlZCA9IDA7CiAgICBmb3IgKGNvbnN0IGtleXMgb2Yga2V5c0J5VXNlci52YWx1ZXMoKSkgewogICAgICBmb3IgKGNvbnN0IGxpc3Qgb2YgcGVha0xpc3RzKSB7CiAgICAgICAgY29uc3QgZG9uZSA9IGxpc3QuZW50cmllcy5ldmVyeSgKICAgICAgICAgIChlKSA9PiBrZXlzLmhhcyhlLmtleSkgfHwgKGUuYWx0ID8/IFtdKS5zb21lKChrKSA9PiBrZXlzLmhhcyhrKSksCiAgICAgICAgKTsKICAgICAgICBpZiAoZG9uZSkgbGlzdHNDb21wbGV0ZWQgKz0gMTsKICAgICAgfQogICAgfQoKICAgIHJldHVybiB7CiAgICAgIG1lbWJlcnM6IE1hdGgubWF4KE9iamVjdC5rZXlzKHByb2ZpbGVzKS5sZW5ndGgsIGNsaW1iZXJzLnNpemUpLAogICAgICBhc2NlbnRzOiBhc2NlbnRzLmxlbmd0aCwKICAgICAgaGlnaFBvaW50czogaGlnaFBvaW50cy5zaXplLAogICAgICBhZHZlbnR1cmVzOiBhZHZlbnR1cmVzLmxlbmd0aCwKICAgICAgbGlzdHNDb21wbGV0ZWQsCiAgICB9OwogIH0sIFthc2NlbnRzLCBhZHZlbnR1cmVzLCBwcm9maWxlc10pOwoKICBjb25zdCBpdGVtcyA9IFsKICAgIHsgaWNvbjogVXNlcnMsIGxhYmVsOiAiTWVtYmVycyIsIHZhbHVlOiBzdGF0cy5tZW1iZXJzLCB0bzogIi9jb21tdW5pdHkvbWVtYmVycyIgfSwKICAgIHsgaWNvbjogTW91bnRhaW4sIGxhYmVsOiAiQXNjZW50cyBsb2dnZWQiLCB2YWx1ZTogc3RhdHMuYXNjZW50cywgdG86ICIvY29tbXVuaXR5L2FzY2VudHMiIH0sCiAgICB7IGljb246IEZsYWcsIGxhYmVsOiAiVU4gaGlnaCBwb2ludHMgY292ZXJlZCIsIHZhbHVlOiBgJHtzdGF0cy5oaWdoUG9pbnRzfS8xOTNgLCB0bzogIi9jb21tdW5pdHkvbGlzdHMiIH0sCiAgICB7IGljb246IENhbGVuZGFyRGF5cywgbGFiZWw6ICJBZHZlbnR1cmVzIiwgdmFsdWU6IHN0YXRzLmFkdmVudHVyZXMsIHRvOiAiL2NvbW11bml0eS9hZHZlbnR1cmVzIiB9LAogIF07CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBtZDpncmlkLWNvbHMtNCBnYXAtMyI+CiAgICAgIHtpdGVtcy5tYXAoKHsgaWNvbjogSWNvbiwgbGFiZWwsIHZhbHVlLCB0byB9KSA9PiAoCiAgICAgICAgPExpbmsKICAgICAgICAgIGtleT17bGFiZWx9CiAgICAgICAgICB0bz17dG99CiAgICAgICAgICBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBwLTQgYmxvY2sgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6Ym9yZGVyLXByaW1hcnkvNjAgYWN0aXZlOmJvcmRlci1wcmltYXJ5IgogICAgICAgID4KICAgICAgICAgIDxJY29uIGNsYXNzTmFtZT0idy00IGgtNCB0ZXh0LXByaW1hcnkgbWItMiIgLz4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQteGwgdHJhY2tpbmctd2lkZXIgdGFidWxhci1udW1zIj57dmFsdWV9PC9wPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXN0IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC0xIj57bGFiZWx9PC9wPgogICAgICAgIDwvTGluaz4KICAgICAgKSl9CiAgICA8L2Rpdj4KICApOwoKfTsKCmV4cG9ydCBkZWZhdWx0IENvbW11bml0eVN0YXRzOwo=
+import { isUnCountry } from "@/lib/profile-goals";
+import { useMemo } from "react";
+import { Link } from "@/lib/router-compat";
+
+import { Mountain, Users, Flag, CalendarDays } from "lucide-react";
+import { peakLists } from "@/data/peak-lists";
+import type { Ascent } from "@/lib/peak-catalog";
+import type { Adventure, PublicProfile } from "@/lib/community";
+
+interface Props {
+  ascents: Ascent[];
+  adventures: Adventure[];
+  profiles: Record<string, PublicProfile>;
+}
+
+const CommunityStats = ({ ascents, adventures, profiles }: Props) => {
+  const stats = useMemo(() => {
+    const climbers = new Set(ascents.map((a) => a.user_id));
+    const highPoints = new Set(
+      ascents
+        .filter((a) => a.peak_type === "country_highpoint" && isUnCountry(a.country ?? a.peak_name))
+        .map((a) => a.country ?? a.peak_name),
+    );
+
+    const keysByUser = new Map<string, Set<string>>();
+    for (const a of ascents) {
+      if (!keysByUser.has(a.user_id)) keysByUser.set(a.user_id, new Set());
+      keysByUser.get(a.user_id)!.add(
+        a.peak_type === "country_highpoint" ? `hp:${a.country ?? a.peak_name}` : `fp:${a.peak_name}`,
+      );
+    }
+    let listsCompleted = 0;
+    for (const keys of keysByUser.values()) {
+      for (const list of peakLists) {
+        const done = list.entries.every(
+          (e) => keys.has(e.key) || (e.alt ?? []).some((k) => keys.has(k)),
+        );
+        if (done) listsCompleted += 1;
+      }
+    }
+
+    return {
+      members: Math.max(Object.keys(profiles).length, climbers.size),
+      ascents: ascents.length,
+      highPoints: highPoints.size,
+      adventures: adventures.length,
+      listsCompleted,
+    };
+  }, [ascents, adventures, profiles]);
+
+  const items = [
+    { icon: Users, label: "Members", value: stats.members, to: "/community/members" },
+    { icon: Mountain, label: "Ascents logged", value: stats.ascents, to: "/community/ascents" },
+    { icon: Flag, label: "UN high points covered", value: `${stats.highPoints}/193`, to: "/community/lists" },
+    { icon: CalendarDays, label: "Adventures", value: stats.adventures, to: "/community/adventures" },
+  ];
+
+  return (
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+      {items.map(({ icon: Icon, label, value, to }) => (
+        <Link
+          key={label}
+          to={to}
+          className="rounded-lg border border-border bg-card p-4 block transition-colors hover:border-primary/60 active:border-primary"
+        >
+          <Icon className="w-4 h-4 text-primary mb-2" />
+          <p className="font-display text-xl tracking-wider tabular-nums">{value}</p>
+          <p className="text-[11px] uppercase tracking-widest text-muted-foreground mt-1">{label}</p>
+        </Link>
+      ))}
+    </div>
+  );
+
+};
+
+export default CommunityStats;

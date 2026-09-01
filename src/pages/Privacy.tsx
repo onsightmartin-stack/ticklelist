@@ -1,1 +1,141 @@
-aW1wb3J0IHsgU2hpZWxkIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwoKY29uc3QgUHJpdmFjeSA9ICgpID0+IHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy1iYWNrZ3JvdW5kIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgIDxuYXYgY2xhc3NOYW1lPSJib3JkZXItYiBib3JkZXItYm9yZGVyIGJnLWJhY2tncm91bmQvODAgYmFja2Ryb3AtYmx1ci1tZCBzdGlja3kgdG9wLTAgei01MCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciBteC1hdXRvIHB4LTQgcHktMyI+CiAgICAgICAgICA8TGluayB0bz0iLyIgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBmb250LWRpc3BsYXkgdHJhY2tpbmctd2lkZXIiPgogICAgICAgICAgICA8U2hpZWxkIGNsYXNzTmFtZT0idy01IGgtNSB0ZXh0LXByaW1hcnkiIC8+CiAgICAgICAgICAgIDxzcGFuPk9uc2lnaHQgTWFydGluPC9zcGFuPgogICAgICAgICAgPC9MaW5rPgogICAgICAgIDwvZGl2PgogICAgICA8L25hdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXIgbXgtYXV0byBweC00IHB5LTEyIG1heC13LTN4bCI+CiAgICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC0zeGwgc206dGV4dC00eGwgZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGUgdGV4dC1wcmltYXJ5IG1iLTIiPgogICAgICAgICAgUHJpdmFjeSBQb2xpY3kKICAgICAgICA8L2gxPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbWItOCI+TGFzdCB1cGRhdGVkOiBBdWd1c3QgMTIsIDIwMjY8L3A+CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTYgdGV4dC1zbSBzbTp0ZXh0LWJhc2UgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGxlYWRpbmctcmVsYXhlZCI+CiAgICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LWRpc3BsYXkgdGV4dC1mb3JlZ3JvdW5kIG1iLTIiPjEuIE92ZXJ2aWV3PC9oMj4KICAgICAgICAgICAgPHA+CiAgICAgICAgICAgICAgT25zaWdodCBNYXJ0aW4gKCJ3ZSIsICJ1cyIsIG9yICJvdXIiKSBvcGVyYXRlcyB0aGUgd2Vic2l0ZSBhdAogICAgICAgICAgICAgIG9uc2lnaHRtYXJ0aW4uY29tIGFuZCB0aGUgVGlja2xlbGlzdCBtb2JpbGUgYXBwLiBUaGlzIHBvbGljeQogICAgICAgICAgICAgIGV4cGxhaW5zIHdoYXQgZGF0YSB3ZSBjb2xsZWN0LCBob3cgd2UgdXNlIGl0LCBhbmQgeW91ciByaWdodHMuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LWRpc3BsYXkgdGV4dC1mb3JlZ3JvdW5kIG1iLTIiPjIuIEFjY291bnRzICYgQXV0aGVudGljYXRpb248L2gyPgogICAgICAgICAgICA8cD4KICAgICAgICAgICAgICBXaGVuIHlvdSBjcmVhdGUgYSBUaWNrbGVsaXN0IGFjY291bnQsIHdlIGNvbGxlY3QgeW91ciBlbWFpbAogICAgICAgICAgICAgIGFkZHJlc3MgYW5kIGRpc3BsYXkgbmFtZS4gQXV0aGVudGljYXRpb24gaXMgaGFuZGxlZCBieSBvdXIgYmFja2VuZAogICAgICAgICAgICAgIHByb3ZpZGVyIChTdXBhYmFzZSkuIFdlIGRvIG5vdCBzdG9yZSBwYXNzd29yZHMgZGlyZWN0bHkg4oCUIG9ubHkgYQogICAgICAgICAgICAgIHNlY3VyZSBoYXNoIG1hbmFnZWQgYnkgdGhlIGF1dGggcHJvdmlkZXIuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0yIj4KICAgICAgICAgICAgICBZb3UgbWF5IHNpZ24gaW4gd2l0aCBHb29nbGUgT0F1dGguIFdlIHJlY2VpdmUgeW91ciBuYW1lIGFuZCBlbWFpbAogICAgICAgICAgICAgIGZyb20gR29vZ2xlIGJ1dCBkbyBub3QgYWNjZXNzIHlvdXIgR29vZ2xlIGNvbnRhY3RzIG9yIG90aGVyIEdvb2dsZQogICAgICAgICAgICAgIGRhdGEuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LWRpc3BsYXkgdGV4dC1mb3JlZ3JvdW5kIG1iLTIiPjMuIENvbnRlbnQgWW91IFVwbG9hZDwvaDI+CiAgICAgICAgICAgIDxwPgogICAgICAgICAgICAgIElmIHlvdSBsb2cgYXNjZW50cywgcG9zdCBjb21tZW50cywgdXBsb2FkIHBob3Rvcywgb3IgY3VzdG9taXplIGFuCiAgICAgICAgICAgICAgYXZhdGFyLCB0aGF0IGNvbnRlbnQgaXMgc3RvcmVkIG9uIG91ciBzZXJ2ZXJzIGFuZCBhc3NvY2lhdGVkIHdpdGgKICAgICAgICAgICAgICB5b3VyIGFjY291bnQuIFBob3RvcyB5b3UgdXBsb2FkIGFyZSBzdG9yZWQgaW4gb3VyIGZpbGUgc3RvcmFnZSBhbmQKICAgICAgICAgICAgICBtYXkgYmUgcHVibGljbHkgdmlzaWJsZSBpZiB5b3UgY2hvb3NlIHRvIHNoYXJlIHRoZW0gb24geW91ciBwcm9maWxlCiAgICAgICAgICAgICAgb3IgaW4gdGhlIGFjdGl2aXR5IGZlZWQuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LWRpc3BsYXkgdGV4dC1mb3JlZ3JvdW5kIG1iLTIiPjQuIExvY2F0aW9uIERhdGE8L2gyPgogICAgICAgICAgICA8cD4KICAgICAgICAgICAgICBUaGUgVGlja2xlbGlzdCBhcHAgZG9lcyBub3QgdHJhY2sgeW91ciBsb2NhdGlvbiBhdXRvbWF0aWNhbGx5LgogICAgICAgICAgICAgIExvY2F0aW9uIGRhdGEgc2hvd24gb24gdGhlICJXaGVyZSBpcyBNYXJ0aW4/IiBtYXAgaXMgTWFydGluJ3MKICAgICAgICAgICAgICBHUFMtdHJhY2tlZCB2YW4gbG9jYXRpb24sIG5vdCB5b3Vycy4gQ29tbXVuaXR5IG1lbWJlcnMgZG8gbm90IHNoYXJlCiAgICAgICAgICAgICAgdGhlaXIgbG9jYXRpb24gdW5sZXNzIHRoZXkgdm9sdW50YXJpbHkgaW5jbHVkZSBpdCBpbiBhIHBvc3Qgb3IKICAgICAgICAgICAgICBwcm9maWxlLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgICAgPHNlY3Rpb24+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtbGcgZm9udC1kaXNwbGF5IHRleHQtZm9yZWdyb3VuZCBtYi0yIj41LiBBbmFseXRpY3MgJiBDb29raWVzPC9oMj4KICAgICAgICAgICAgPHA+CiAgICAgICAgICAgICAgV2UgdXNlIGxpZ2h0d2VpZ2h0IGFuYWx5dGljcyB0byBjb3VudCBwYWdlIHZpZXdzIGFuZCB1bmRlcnN0YW5kCiAgICAgICAgICAgICAgdHJhZmZpYyBwYXR0ZXJucy4gQSB2aXNpdG9yIGNvdW50ZXIgdHJhY2tzIHRvdGFsIHNpdGUgdmlzaXRzCiAgICAgICAgICAgICAgd2l0aG91dCBpZGVudGlmeWluZyBpbmRpdmlkdWFscy4gV2UgZG8gbm90IHNlbGwgb3Igc2hhcmUKICAgICAgICAgICAgICBhbmFseXRpY3MgZGF0YSB3aXRoIHRoaXJkIHBhcnRpZXMuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LWRpc3BsYXkgdGV4dC1mb3JlZ3JvdW5kIG1iLTIiPjYuIFRoaXJkLVBhcnR5IFNlcnZpY2VzPC9oMj4KICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT0ibGlzdC1kaXNjIGxpc3QtaW5zaWRlIHNwYWNlLXktMSI+CiAgICAgICAgICAgICAgPGxpPjxzdHJvbmc+U3VwYWJhc2U8L3N0cm9uZz4g4oCUIGF1dGhlbnRpY2F0aW9uIGFuZCBkYXRhYmFzZSBob3N0aW5nPC9saT4KICAgICAgICAgICAgICA8bGk+PHN0cm9uZz5Hb29nbGU8L3N0cm9uZz4g4oCUIE9BdXRoIHNpZ24taW4sIFlvdVR1YmUgZW1iZWRzLCBHb29nbGUgUGxheTwvbGk+CiAgICAgICAgICAgICAgPGxpPjxzdHJvbmc+WW91VHViZTwvc3Ryb25nPiDigJQgZW1iZWRkZWQgdmlkZW8gY29udGVudDwvbGk+CiAgICAgICAgICAgICAgPGxpPjxzdHJvbmc+TGVhZmxldCAvIE9wZW5TdHJlZXRNYXA8L3N0cm9uZz4g4oCUIG1hcCByZW5kZXJpbmc8L2xpPgogICAgICAgICAgICA8L3VsPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIiPgogICAgICAgICAgICAgIEVhY2ggdGhpcmQgcGFydHkgaGFzIGl0cyBvd24gcHJpdmFjeSBwb2xpY3kuIFdlIG9ubHkgc2hhcmUgdGhlCiAgICAgICAgICAgICAgbWluaW11bSBkYXRhIG5lZWRlZCB0byBwcm92aWRlIHRoZXNlIHNlcnZpY2VzLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgICAgPHNlY3Rpb24+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtbGcgZm9udC1kaXNwbGF5IHRleHQtZm9yZWdyb3VuZCBtYi0yIj43LiBZb3VyIFJpZ2h0czwvaDI+CiAgICAgICAgICAgIDxwPgogICAgICAgICAgICAgIFlvdSBjYW4gcmVxdWVzdCBhIGNvcHkgb2YgeW91ciBkYXRhLCBjb3JyZWN0IGl0LCBvciBkZWxldGUgeW91cgogICAgICAgICAgICAgIGFjY291bnQgYXQgYW55IHRpbWUuIFRvIGV4ZXJjaXNlIHRoZXNlIHJpZ2h0cywgY29udGFjdCB1cyBhdAogICAgICAgICAgICAgIDxhIGhyZWY9Im1haWx0bzpoZWxsb0BvbnNpZ2h0bWFydGluLmNvbSIgY2xhc3NOYW1lPSJ0ZXh0LXByaW1hcnkgaG92ZXI6dW5kZXJsaW5lIj4gaGVsbG9Ab25zaWdodG1hcnRpbi5jb208L2E+LgogICAgICAgICAgICAgIERlbGV0aW5nIHlvdXIgYWNjb3VudCByZW1vdmVzIHlvdXIgcHJvZmlsZSwgYXNjZW50cywgY29tbWVudHMsIGFuZAogICAgICAgICAgICAgIHVwbG9hZGVkIHBob3Rvcy4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICAgIDxzZWN0aW9uPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtZGlzcGxheSB0ZXh0LWZvcmVncm91bmQgbWItMiI+OC4gQ2hpbGRyZW4ncyBQcml2YWN5PC9oMj4KICAgICAgICAgICAgPHA+CiAgICAgICAgICAgICAgVGlja2xlbGlzdCBpcyBub3QgZGlyZWN0ZWQgYXQgY2hpbGRyZW4gdW5kZXIgMTMuIFdlIGRvIG5vdAogICAgICAgICAgICAgIGtub3dpbmdseSBjb2xsZWN0IGRhdGEgZnJvbSBhbnlvbmUgdW5kZXIgMTMuIElmIHlvdSBiZWxpZXZlIGEKICAgICAgICAgICAgICBtaW5vciBoYXMgcmVnaXN0ZXJlZCwgY29udGFjdCB1cyBhbmQgd2Ugd2lsbCBkZWxldGUgdGhlIGFjY291bnQuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LWRpc3BsYXkgdGV4dC1mb3JlZ3JvdW5kIG1iLTIiPjkuIENoYW5nZXM8L2gyPgogICAgICAgICAgICA8cD4KICAgICAgICAgICAgICBXZSBtYXkgdXBkYXRlIHRoaXMgcG9saWN5IGFzIHRoZSBhcHAgZXZvbHZlcy4gV2Ugd2lsbCBwb3N0IHRoZQogICAgICAgICAgICAgIHVwZGF0ZWQgdmVyc2lvbiBoZXJlIHdpdGggYSBuZXcgZGF0ZS4gQ29udGludWVkIHVzZSBhZnRlciBjaGFuZ2VzCiAgICAgICAgICAgICAgY29uc3RpdHV0ZXMgYWNjZXB0YW5jZS4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICAgIDxzZWN0aW9uPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtZGlzcGxheSB0ZXh0LWZvcmVncm91bmQgbWItMiI+MTAuIENvbnRhY3Q8L2gyPgogICAgICAgICAgICA8cD4KICAgICAgICAgICAgICBRdWVzdGlvbnMgYWJvdXQgdGhpcyBwb2xpY3k/IEVtYWlsCiAgICAgICAgICAgICAgPGEgaHJlZj0ibWFpbHRvOmhlbGxvQG9uc2lnaHRtYXJ0aW4uY29tIiBjbGFzc05hbWU9InRleHQtcHJpbWFyeSBob3Zlcjp1bmRlcmxpbmUiPiBoZWxsb0BvbnNpZ2h0bWFydGluLmNvbTwvYT4uCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvc2VjdGlvbj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEyIHB0LTggYm9yZGVyLXQgYm9yZGVyLWJvcmRlciI+CiAgICAgICAgICA8TGluayB0bz0iLyIgY2xhc3NOYW1lPSJ0ZXh0LXByaW1hcnkgaG92ZXI6dW5kZXJsaW5lIHRleHQtc20iPgogICAgICAgICAgICDihpAgQmFjayB0byBPbnNpZ2h0IE1hcnRpbgogICAgICAgICAgPC9MaW5rPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBQcml2YWN5Owo=
+import { Shield } from "lucide-react";
+import { Link } from "@/lib/router-compat";
+
+const Privacy = () => {
+  return (
+    <div className="min-h-screen bg-background text-foreground">
+      <nav className="border-b border-border bg-background/80 backdrop-blur-md sticky top-0 z-50">
+        <div className="container mx-auto px-4 py-3">
+          <Link to="/" className="flex items-center gap-2 font-display tracking-wider">
+            <Shield className="w-5 h-5 text-primary" />
+            <span>Onsight Martin</span>
+          </Link>
+        </div>
+      </nav>
+
+      <div className="container mx-auto px-4 py-12 max-w-3xl">
+        <h1 className="text-3xl sm:text-4xl font-display tracking-wide text-primary mb-2">
+          Privacy Policy
+        </h1>
+        <p className="text-sm text-muted-foreground mb-8">Last updated: August 12, 2026</p>
+
+        <div className="space-y-6 text-sm sm:text-base text-muted-foreground leading-relaxed">
+          <section>
+            <h2 className="text-lg font-display text-foreground mb-2">1. Overview</h2>
+            <p>
+              Onsight Martin ("we", "us", or "our") operates the website at
+              onsightmartin.com and the Ticklelist mobile app. This policy
+              explains what data we collect, how we use it, and your rights.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-display text-foreground mb-2">2. Accounts & Authentication</h2>
+            <p>
+              When you create a Ticklelist account, we collect your email
+              address and display name. Authentication is handled by our backend
+              provider (Supabase). We do not store passwords directly — only a
+              secure hash managed by the auth provider.
+            </p>
+            <p className="mt-2">
+              You may sign in with Google OAuth. We receive your name and email
+              from Google but do not access your Google contacts or other Google
+              data.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-display text-foreground mb-2">3. Content You Upload</h2>
+            <p>
+              If you log ascents, post comments, upload photos, or customize an
+              avatar, that content is stored on our servers and associated with
+              your account. Photos you upload are stored in our file storage and
+              may be publicly visible if you choose to share them on your profile
+              or in the activity feed.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-display text-foreground mb-2">4. Location Data</h2>
+            <p>
+              The Ticklelist app does not track your location automatically.
+              Location data shown on the "Where is Martin?" map is Martin's
+              GPS-tracked van location, not yours. Community members do not share
+              their location unless they voluntarily include it in a post or
+              profile.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-display text-foreground mb-2">5. Analytics & Cookies</h2>
+            <p>
+              We use lightweight analytics to count page views and understand
+              traffic patterns. A visitor counter tracks total site visits
+              without identifying individuals. We do not sell or share
+              analytics data with third parties.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-display text-foreground mb-2">6. Third-Party Services</h2>
+            <ul className="list-disc list-inside space-y-1">
+              <li><strong>Supabase</strong> — authentication and database hosting</li>
+              <li><strong>Google</strong> — OAuth sign-in, YouTube embeds, Google Play</li>
+              <li><strong>YouTube</strong> — embedded video content</li>
+              <li><strong>Leaflet / OpenStreetMap</strong> — map rendering</li>
+            </ul>
+            <p className="mt-2">
+              Each third party has its own privacy policy. We only share the
+              minimum data needed to provide these services.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-display text-foreground mb-2">7. Your Rights</h2>
+            <p>
+              You can request a copy of your data, correct it, or delete your
+              account at any time. To exercise these rights, contact us at
+              <a href="mailto:hello@onsightmartin.com" className="text-primary hover:underline"> hello@onsightmartin.com</a>.
+              Deleting your account removes your profile, ascents, comments, and
+              uploaded photos.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-display text-foreground mb-2">8. Children's Privacy</h2>
+            <p>
+              Ticklelist is not directed at children under 13. We do not
+              knowingly collect data from anyone under 13. If you believe a
+              minor has registered, contact us and we will delete the account.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-display text-foreground mb-2">9. Changes</h2>
+            <p>
+              We may update this policy as the app evolves. We will post the
+              updated version here with a new date. Continued use after changes
+              constitutes acceptance.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-display text-foreground mb-2">10. Contact</h2>
+            <p>
+              Questions about this policy? Email
+              <a href="mailto:hello@onsightmartin.com" className="text-primary hover:underline"> hello@onsightmartin.com</a>.
+            </p>
+          </section>
+        </div>
+
+        <div className="mt-12 pt-8 border-t border-border">
+          <Link to="/" className="text-primary hover:underline text-sm">
+            ← Back to Onsight Martin
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Privacy;

@@ -1,1 +1,166 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlTWVtbywgdXNlUmVmIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgTCBmcm9tICJsZWFmbGV0IjsKaW1wb3J0ICJsZWFmbGV0L2Rpc3QvbGVhZmxldC5jc3MiOwppbXBvcnQgeyBNYXhpbWl6ZTIgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKCmltcG9ydCB7IGNvb3Jkc0ZvcktleSB9IGZyb20gIkAvZGF0YS9wZWFrLWNvb3JkaW5hdGVzIjsKaW1wb3J0IHsgZmluZFBlYWsgfSBmcm9tICJAL2xpYi9wZWFrLWNhdGFsb2ciOwppbXBvcnQgdHlwZSB7IFBlYWtMaXN0IH0gZnJvbSAiQC9kYXRhL3BlYWstbGlzdHMiOwoKY29uc3QgQkFTRV9USUxFX1VSTCA9CiAgImh0dHBzOi8ve3N9LmJhc2VtYXBzLmNhcnRvY2RuLmNvbS9yYXN0ZXJ0aWxlcy92b3lhZ2VyX25vbGFiZWxzL3t6fS97eH0ve3l9e3J9LnBuZyI7CmNvbnN0IExBQkVMU19VUkwgPSAiaHR0cHM6Ly97c30uYmFzZW1hcHMuY2FydG9jZG4uY29tL2Rhcmtfb25seV9sYWJlbHMve3p9L3t4fS97eX17cn0ucG5nIjsKY29uc3QgVElMRV9BVFRSSUJVVElPTiA9CiAgJyZjb3B5OyA8YSBocmVmPSJodHRwczovL3d3dy5vcGVuc3RyZWV0bWFwLm9yZy9jb3B5cmlnaHQiPk9wZW5TdHJlZXRNYXA8L2E+IHwgPGEgaHJlZj0iaHR0cHM6Ly9jYXJ0by5jb20vIj5DQVJUTzwvYT4nOwoKaW50ZXJmYWNlIFByb3BzIHsKICBsaXN0OiBQZWFrTGlzdDsKICAvKiogQ2F0YWxvZyBrZXlzIHRoZSBjdXJyZW50IG1lbWJlciBoYXMgdGlja2VkLiAqLwogIGNsaW1iZWRLZXlzOiBTZXQ8c3RyaW5nPjsKfQoKaW50ZXJmYWNlIE1hcFBvaW50IHsKICBrZXk6IHN0cmluZzsKICBsYWJlbDogc3RyaW5nOwogIGVsZXZhdGlvbj86IHN0cmluZyB8IHVuZGVmaW5lZDsKICBsYXQ6IG51bWJlcjsKICBsbmc6IG51bWJlcjsKICBjbGltYmVkOiBib29sZWFuOwp9Cgpjb25zdCBzdW1taXRJY29uID0gKGNsaW1iZWQ6IGJvb2xlYW4pID0+CiAgTC5kaXZJY29uKHsKICAgIGNsYXNzTmFtZTogIiIsCiAgICBodG1sOiBgPGRpdiBzdHlsZT0iCiAgICAgIHdpZHRoOiR7Y2xpbWJlZCA/IDE2IDogMTJ9cHg7aGVpZ2h0OiR7Y2xpbWJlZCA/IDE2IDogMTJ9cHg7Ym9yZGVyLXJhZGl1czo5OTk5cHg7CiAgICAgIGJhY2tncm91bmQ6JHtjbGltYmVkID8gImhzbCh2YXIoLS1wcmltYXJ5KSkiIDogImhzbCh2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKSkifTsKICAgICAgYm9yZGVyOjJweCBzb2xpZCBoc2wodmFyKC0tYmFja2dyb3VuZCkpOwogICAgICBvcGFjaXR5OiR7Y2xpbWJlZCA/IDEgOiAwLjc1fTsKICAgICAgYm94LXNoYWRvdzowIDAgJHtjbGltYmVkID8gIjEwcHggaHNsKHZhcigtLXByaW1hcnkpKSIgOiAiNHB4IHJnYmEoMCwwLDAsMC41KSJ9OwogICAgIj48L2Rpdj5gLAogICAgaWNvblNpemU6IFtjbGltYmVkID8gMTYgOiAxMiwgY2xpbWJlZCA/IDE2IDogMTJdLAogICAgaWNvbkFuY2hvcjogW2NsaW1iZWQgPyA4IDogNiwgY2xpbWJlZCA/IDggOiA2XSwKICB9KTsKCmNvbnN0IExpc3RNYXAgPSAoeyBsaXN0LCBjbGltYmVkS2V5cyB9OiBQcm9wcykgPT4gewogIGNvbnN0IGNvbnRhaW5lclJlZiA9IHVzZVJlZjxIVE1MRGl2RWxlbWVudCB8IG51bGw+KG51bGwpOwogIGNvbnN0IG1hcFJlZiA9IHVzZVJlZjxMLk1hcCB8IG51bGw+KG51bGwpOwogIGNvbnN0IGxheWVyUmVmID0gdXNlUmVmPEwuTGF5ZXJHcm91cCB8IG51bGw+KG51bGwpOwoKICBjb25zdCBwb2ludHMgPSB1c2VNZW1vPE1hcFBvaW50W10+KCgpID0+IHsKICAgIGNvbnN0IG91dDogTWFwUG9pbnRbXSA9IFtdOwogICAgZm9yIChjb25zdCBlbnRyeSBvZiBsaXN0LmVudHJpZXMpIHsKICAgICAgY29uc3QgY29vcmRzID0gY29vcmRzRm9yS2V5KGVudHJ5LmtleSk7CiAgICAgIGlmICghY29vcmRzKSBjb250aW51ZTsKICAgICAgY29uc3QgcGVhayA9IGZpbmRQZWFrKGVudHJ5LmtleSk7CiAgICAgIGNvbnN0IGNsaW1iZWQgPQogICAgICAgIGNsaW1iZWRLZXlzLmhhcyhlbnRyeS5rZXkpIHx8IChlbnRyeS5hbHQgPz8gW10pLnNvbWUoKGspID0+IGNsaW1iZWRLZXlzLmhhcyhrKSk7CiAgICAgIG91dC5wdXNoKHsKICAgICAgICBrZXk6IGVudHJ5LmtleSwKICAgICAgICBsYWJlbDogcGVhawogICAgICAgICAgPyBwZWFrLnR5cGUgPT09ICJjb3VudHJ5X2hpZ2hwb2ludCIKICAgICAgICAgICAgPyBgJHtwZWFrLmNvdW50cnl9IOKAlCAke3BlYWsubmFtZX1gCiAgICAgICAgICAgIDogcGVhay5uYW1lCiAgICAgICAgICA6IGVudHJ5LmtleS5zbGljZSgzKSwKICAgICAgICBlbGV2YXRpb246IHBlYWs/LmVsZXZhdGlvbiwKICAgICAgICBsYXQ6IGNvb3Jkcy5sYXQsCiAgICAgICAgbG5nOiBjb29yZHMubG5nLAogICAgICAgIGNsaW1iZWQsCiAgICAgIH0pOwogICAgfQogICAgcmV0dXJuIG91dDsKICB9LCBbbGlzdCwgY2xpbWJlZEtleXNdKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnN0IGNvbnRhaW5lciA9IGNvbnRhaW5lclJlZi5jdXJyZW50OwogICAgaWYgKCFjb250YWluZXIgfHwgbWFwUmVmLmN1cnJlbnQpIHJldHVybjsKCiAgICBjb25zdCBtYXAgPSBMLm1hcChjb250YWluZXIsIHsgc2Nyb2xsV2hlZWxab29tOiBmYWxzZSwgd29ybGRDb3B5SnVtcDogdHJ1ZSB9KS5zZXRWaWV3KFsyMCwgMTBdLCAyKTsKICAgIEwudGlsZUxheWVyKEJBU0VfVElMRV9VUkwsIHsgYXR0cmlidXRpb246IFRJTEVfQVRUUklCVVRJT04gfSkuYWRkVG8obWFwKTsKICAgIGNvbnN0IGxhYmVsc1BhbmUgPSBtYXAuY3JlYXRlUGFuZSgibGlzdExhYmVscyIpOwogICAgbGFiZWxzUGFuZS5zdHlsZS56SW5kZXggPSAiNDUwIjsKICAgIGxhYmVsc1BhbmUuc3R5bGUucG9pbnRlckV2ZW50cyA9ICJub25lIjsKICAgIEwudGlsZUxheWVyKExBQkVMU19VUkwsIHsgcGFuZTogImxpc3RMYWJlbHMiLCBjbGFzc05hbWU6ICJtYXAtbGFiZWxzLXdoaXRlIiB9KS5hZGRUbyhtYXApOwoKICAgIGxheWVyUmVmLmN1cnJlbnQgPSBMLmxheWVyR3JvdXAoKS5hZGRUbyhtYXApOwogICAgbWFwUmVmLmN1cnJlbnQgPSBtYXA7CgogICAgcmV0dXJuICgpID0+IHsKICAgICAgbWFwLnJlbW92ZSgpOwogICAgICBtYXBSZWYuY3VycmVudCA9IG51bGw7CiAgICAgIGxheWVyUmVmLmN1cnJlbnQgPSBudWxsOwogICAgfTsKICB9LCBbXSk7CgogIGNvbnN0IGZpdEFsbCA9IHVzZUNhbGxiYWNrKCgpID0+IHsKICAgIGNvbnN0IG1hcCA9IG1hcFJlZi5jdXJyZW50OwogICAgaWYgKCFtYXAgfHwgcG9pbnRzLmxlbmd0aCA9PT0gMCkgcmV0dXJuOwogICAgbWFwLmZpdEJvdW5kcyhMLmxhdExuZ0JvdW5kcyhwb2ludHMubWFwKChwKSA9PiBbcC5sYXQsIHAubG5nXSBhcyBbbnVtYmVyLCBudW1iZXJdKSksIHsKICAgICAgcGFkZGluZzogWzMwLCAzMF0sCiAgICAgIG1heFpvb206IDgsCiAgICAgIGFuaW1hdGU6IHRydWUsCiAgICB9KTsKICB9LCBbcG9pbnRzXSk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCBtYXAgPSBtYXBSZWYuY3VycmVudDsKICAgIGNvbnN0IGxheWVyID0gbGF5ZXJSZWYuY3VycmVudDsKICAgIGlmICghbWFwIHx8ICFsYXllcikgcmV0dXJuOwoKICAgIGxheWVyLmNsZWFyTGF5ZXJzKCk7CiAgICBmb3IgKGNvbnN0IHAgb2YgcG9pbnRzKSB7CiAgICAgIGNvbnN0IG1hcmtlciA9IEwubWFya2VyKFtwLmxhdCwgcC5sbmddLCB7CiAgICAgICAgaWNvbjogc3VtbWl0SWNvbihwLmNsaW1iZWQpLAogICAgICAgIHpJbmRleE9mZnNldDogcC5jbGltYmVkID8gNTAwIDogMCwKICAgICAgfSk7CiAgICAgIG1hcmtlci5iaW5kUG9wdXAoCiAgICAgICAgYDxzdHJvbmc+JHtwLmxhYmVsfTwvc3Ryb25nPjxiciAvPiR7cC5lbGV2YXRpb24gPz8gIiJ9JHtwLmVsZXZhdGlvbiA/ICI8YnIgLz4iIDogIiJ9JHsKICAgICAgICAgIHAuY2xpbWJlZCA/ICLinIUgQ2xpbWJlZCIgOiAi4puw77iPIE5vdCB5ZXQiCiAgICAgICAgfWAsCiAgICAgICk7CiAgICAgIG1hcmtlci5hZGRUbyhsYXllcik7CiAgICB9CgogICAgZml0QWxsKCk7CiAgICAvLyBMZWFmbGV0IG5lZWRzIGEgbnVkZ2Ugd2hlbiB0aGUgY29udGFpbmVyIHdhcyBoaWRkZW4gd2hpbGUgY29sbGFwc2VkCiAgICBzZXRUaW1lb3V0KCgpID0+IG1hcC5pbnZhbGlkYXRlU2l6ZSgpLCA1MCk7CiAgfSwgW3BvaW50cywgZml0QWxsXSk7CgogIGNvbnN0IG1hcHBlZCA9IHBvaW50cy5sZW5ndGg7CiAgY29uc3QgY2xpbWJlZCA9IHBvaW50cy5maWx0ZXIoKHApID0+IHAuY2xpbWJlZCkubGVuZ3RoOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSI+CiAgICAgICAgPGRpdiByZWY9e2NvbnRhaW5lclJlZn0gY2xhc3NOYW1lPSJoLVszMjBweF0gdy1mdWxsIHJvdW5kZWQtbGcgb3ZlcmZsb3ctaGlkZGVuIGJvcmRlciBib3JkZXItYm9yZGVyIHotMCIgLz4KICAgICAgICA8QnV0dG9uCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgIHZhcmlhbnQ9InNlY29uZGFyeSIKICAgICAgICAgIG9uQ2xpY2s9e2ZpdEFsbH0KICAgICAgICAgIGRpc2FibGVkPXttYXBwZWQgPT09IDB9CiAgICAgICAgICBjbGFzc05hbWU9ImFic29sdXRlIHRvcC0yIHJpZ2h0LTIgei1bNDAwXSBnYXAtMS41IHNoYWRvdy1tZCIKICAgICAgICA+CiAgICAgICAgICA8TWF4aW1pemUyIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUiIC8+CiAgICAgICAgICBGaXQgdG8gYWxsIGhpZ2ggcG9pbnRzCiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTQgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgZmxleC13cmFwIj4KICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUiPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ3LTMgaC0zIHJvdW5kZWQtZnVsbCBiZy1wcmltYXJ5IGlubGluZS1ibG9jayIgLz4gQ2xpbWJlZCAoe2NsaW1iZWR9KQogICAgICAgIDwvc3Bhbj4KICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUiPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ3LTIuNSBoLTIuNSByb3VuZGVkLWZ1bGwgYmctbXV0ZWQtZm9yZWdyb3VuZCBpbmxpbmUtYmxvY2siIC8+IFJlbWFpbmluZyAoCiAgICAgICAgICB7bWFwcGVkIC0gY2xpbWJlZH0pCiAgICAgICAgPC9zcGFuPgogICAgICAgIHttYXBwZWQgPCBsaXN0LmVudHJpZXMubGVuZ3RoICYmICgKICAgICAgICAgIDxzcGFuPntsaXN0LmVudHJpZXMubGVuZ3RoIC0gbWFwcGVkfSBzdW1taXRzIHdpdGhvdXQgY29vcmRpbmF0ZXMgeWV0PC9zcGFuPgogICAgICAgICl9CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKCn07CgpleHBvcnQgZGVmYXVsdCBMaXN0TWFwOwo=
+import { useCallback, useEffect, useMemo, useRef } from "react";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
+import { Maximize2 } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+import { coordsForKey } from "@/data/peak-coordinates";
+import { findPeak } from "@/lib/peak-catalog";
+import type { PeakList } from "@/data/peak-lists";
+
+const BASE_TILE_URL =
+  "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png";
+const LABELS_URL = "https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png";
+const TILE_ATTRIBUTION =
+  '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | <a href="https://carto.com/">CARTO</a>';
+
+interface Props {
+  list: PeakList;
+  /** Catalog keys the current member has ticked. */
+  climbedKeys: Set<string>;
+}
+
+interface MapPoint {
+  key: string;
+  label: string;
+  elevation?: string | undefined;
+  lat: number;
+  lng: number;
+  climbed: boolean;
+}
+
+const summitIcon = (climbed: boolean) =>
+  L.divIcon({
+    className: "",
+    html: `<div style="
+      width:${climbed ? 16 : 12}px;height:${climbed ? 16 : 12}px;border-radius:9999px;
+      background:${climbed ? "hsl(var(--primary))" : "hsl(var(--muted-foreground))"};
+      border:2px solid hsl(var(--background));
+      opacity:${climbed ? 1 : 0.75};
+      box-shadow:0 0 ${climbed ? "10px hsl(var(--primary))" : "4px rgba(0,0,0,0.5)"};
+    "></div>`,
+    iconSize: [climbed ? 16 : 12, climbed ? 16 : 12],
+    iconAnchor: [climbed ? 8 : 6, climbed ? 8 : 6],
+  });
+
+const ListMap = ({ list, climbedKeys }: Props) => {
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  const mapRef = useRef<L.Map | null>(null);
+  const layerRef = useRef<L.LayerGroup | null>(null);
+
+  const points = useMemo<MapPoint[]>(() => {
+    const out: MapPoint[] = [];
+    for (const entry of list.entries) {
+      const coords = coordsForKey(entry.key);
+      if (!coords) continue;
+      const peak = findPeak(entry.key);
+      const climbed =
+        climbedKeys.has(entry.key) || (entry.alt ?? []).some((k) => climbedKeys.has(k));
+      out.push({
+        key: entry.key,
+        label: peak
+          ? peak.type === "country_highpoint"
+            ? `${peak.country} — ${peak.name}`
+            : peak.name
+          : entry.key.slice(3),
+        elevation: peak?.elevation,
+        lat: coords.lat,
+        lng: coords.lng,
+        climbed,
+      });
+    }
+    return out;
+  }, [list, climbedKeys]);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container || mapRef.current) return;
+
+    const map = L.map(container, { scrollWheelZoom: false, worldCopyJump: true }).setView([20, 10], 2);
+    L.tileLayer(BASE_TILE_URL, { attribution: TILE_ATTRIBUTION }).addTo(map);
+    const labelsPane = map.createPane("listLabels");
+    labelsPane.style.zIndex = "450";
+    labelsPane.style.pointerEvents = "none";
+    L.tileLayer(LABELS_URL, { pane: "listLabels", className: "map-labels-white" }).addTo(map);
+
+    layerRef.current = L.layerGroup().addTo(map);
+    mapRef.current = map;
+
+    return () => {
+      map.remove();
+      mapRef.current = null;
+      layerRef.current = null;
+    };
+  }, []);
+
+  const fitAll = useCallback(() => {
+    const map = mapRef.current;
+    if (!map || points.length === 0) return;
+    map.fitBounds(L.latLngBounds(points.map((p) => [p.lat, p.lng] as [number, number])), {
+      padding: [30, 30],
+      maxZoom: 8,
+      animate: true,
+    });
+  }, [points]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    const layer = layerRef.current;
+    if (!map || !layer) return;
+
+    layer.clearLayers();
+    for (const p of points) {
+      const marker = L.marker([p.lat, p.lng], {
+        icon: summitIcon(p.climbed),
+        zIndexOffset: p.climbed ? 500 : 0,
+      });
+      marker.bindPopup(
+        `<strong>${p.label}</strong><br />${p.elevation ?? ""}${p.elevation ? "<br />" : ""}${
+          p.climbed ? "✅ Climbed" : "⛰️ Not yet"
+        }`,
+      );
+      marker.addTo(layer);
+    }
+
+    fitAll();
+    // Leaflet needs a nudge when the container was hidden while collapsed
+    setTimeout(() => map.invalidateSize(), 50);
+  }, [points, fitAll]);
+
+  const mapped = points.length;
+  const climbed = points.filter((p) => p.climbed).length;
+
+  return (
+    <div className="space-y-2">
+      <div className="relative">
+        <div ref={containerRef} className="h-[320px] w-full rounded-lg overflow-hidden border border-border z-0" />
+        <Button
+          type="button"
+          size="sm"
+          variant="secondary"
+          onClick={fitAll}
+          disabled={mapped === 0}
+          className="absolute top-2 right-2 z-[400] gap-1.5 shadow-md"
+        >
+          <Maximize2 className="w-3.5 h-3.5" />
+          Fit to all high points
+        </Button>
+      </div>
+      <div className="flex items-center gap-4 text-xs text-muted-foreground flex-wrap">
+        <span className="flex items-center gap-1.5">
+          <span className="w-3 h-3 rounded-full bg-primary inline-block" /> Climbed ({climbed})
+        </span>
+        <span className="flex items-center gap-1.5">
+          <span className="w-2.5 h-2.5 rounded-full bg-muted-foreground inline-block" /> Remaining (
+          {mapped - climbed})
+        </span>
+        {mapped < list.entries.length && (
+          <span>{list.entries.length - mapped} summits without coordinates yet</span>
+        )}
+      </div>
+    </div>
+  );
+
+};
+
+export default ListMap;

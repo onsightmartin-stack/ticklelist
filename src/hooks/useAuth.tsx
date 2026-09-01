@@ -1,1 +1,139 @@
-aW1wb3J0IHsgY3JlYXRlQ29udGV4dCwgdXNlQ29udGV4dCwgdXNlRWZmZWN0LCB1c2VTdGF0ZSwgdXNlUmVmLCBSZWFjdE5vZGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB0eXBlIHsgU2Vzc2lvbiwgVXNlciB9IGZyb20gIkBzdXBhYmFzZS9zdXBhYmFzZS1qcyI7CmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IHsgaWRsZUxpbWl0TXMsIHNob3VsZERyb3BUcmFuc2llbnRTZXNzaW9uLCBzZXRSZW1lbWJlck1lIH0gZnJvbSAiQC9saWIvc2Vzc2lvbi1wb2xpY3kiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkAvaG9va3MvdXNlLXRvYXN0IjsKCmV4cG9ydCBpbnRlcmZhY2UgUHJvZmlsZSB7CiAgaWQ6IHN0cmluZzsKICBkaXNwbGF5X25hbWU6IHN0cmluZzsKICBiaW86IHN0cmluZyB8IG51bGw7CiAgY291bnRyeTogc3RyaW5nIHwgbnVsbDsKICBhdmF0YXJfdXJsOiBzdHJpbmcgfCBudWxsOwp9CgppbnRlcmZhY2UgQXV0aENvbnRleHRWYWx1ZSB7CiAgdXNlcjogVXNlciB8IG51bGw7CiAgc2Vzc2lvbjogU2Vzc2lvbiB8IG51bGw7CiAgcHJvZmlsZTogUHJvZmlsZSB8IG51bGw7CiAgbG9hZGluZzogYm9vbGVhbjsKICBpc0FkbWluOiBib29sZWFuOwogIHJlZnJlc2hQcm9maWxlOiAoKSA9PiBQcm9taXNlPHZvaWQ+OwogIHNpZ25PdXQ6ICgpID0+IFByb21pc2U8dm9pZD47Cn0KCmNvbnN0IEF1dGhDb250ZXh0ID0gY3JlYXRlQ29udGV4dDxBdXRoQ29udGV4dFZhbHVlPih7CiAgdXNlcjogbnVsbCwKICBzZXNzaW9uOiBudWxsLAogIHByb2ZpbGU6IG51bGwsCiAgbG9hZGluZzogdHJ1ZSwKICBpc0FkbWluOiBmYWxzZSwKICByZWZyZXNoUHJvZmlsZTogYXN5bmMgKCkgPT4ge30sCiAgc2lnbk91dDogYXN5bmMgKCkgPT4ge30sCn0pOwoKZXhwb3J0IGNvbnN0IEF1dGhQcm92aWRlciA9ICh7IGNoaWxkcmVuIH06IHsgY2hpbGRyZW46IFJlYWN0Tm9kZSB9KSA9PiB7CiAgY29uc3QgW3Nlc3Npb24sIHNldFNlc3Npb25dID0gdXNlU3RhdGU8U2Vzc2lvbiB8IG51bGw+KG51bGwpOwogIGNvbnN0IFt1c2VyLCBzZXRVc2VyXSA9IHVzZVN0YXRlPFVzZXIgfCBudWxsPihudWxsKTsKICBjb25zdCBbcHJvZmlsZSwgc2V0UHJvZmlsZV0gPSB1c2VTdGF0ZTxQcm9maWxlIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW2xvYWRpbmcsIHNldExvYWRpbmddID0gdXNlU3RhdGUodHJ1ZSk7CiAgY29uc3QgW2lzQWRtaW4sIHNldElzQWRtaW5dID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IGxhc3RBY3Rpdml0eSA9IHVzZVJlZihEYXRlLm5vdygpKTsKCiAgY29uc3QgbG9hZFJvbGUgPSBhc3luYyAodWlkOiBzdHJpbmcpID0+IHsKICAgIGNvbnN0IHsgZGF0YSB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgLmZyb20oInVzZXJfcm9sZXMiKQogICAgICAuc2VsZWN0KCJyb2xlIikKICAgICAgLmVxKCJ1c2VyX2lkIiwgdWlkKQogICAgICAuZXEoInJvbGUiLCAiYWRtaW4iKQogICAgICAubWF5YmVTaW5nbGUoKTsKICAgIHNldElzQWRtaW4oISFkYXRhKTsKICB9OwoKICBjb25zdCBsb2FkUHJvZmlsZSA9IGFzeW5jICh1aWQ6IHN0cmluZykgPT4gewogICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAuZnJvbSgicHJvZmlsZXMiKQogICAgICAuc2VsZWN0KCJpZCwgZGlzcGxheV9uYW1lLCBiaW8sIGNvdW50cnksIGF2YXRhcl91cmwiKQogICAgICAuZXEoImlkIiwgdWlkKQogICAgICAubWF5YmVTaW5nbGUoKTsKICAgIHNldFByb2ZpbGUoKGRhdGEgYXMgUHJvZmlsZSkgPz8gbnVsbCk7CiAgfTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnN0IHsgZGF0YTogc3ViIH0gPSBzdXBhYmFzZS5hdXRoLm9uQXV0aFN0YXRlQ2hhbmdlKChfZXZlbnQsIG5ld1Nlc3Npb24pID0+IHsKICAgICAgc2V0U2Vzc2lvbihuZXdTZXNzaW9uKTsKICAgICAgc2V0VXNlcihuZXdTZXNzaW9uPy51c2VyID8/IG51bGwpOwogICAgICBzZXRMb2FkaW5nKGZhbHNlKTsKICAgICAgaWYgKG5ld1Nlc3Npb24/LnVzZXIpIHsKICAgICAgICBzZXRUaW1lb3V0KCgpID0+IHsKICAgICAgICAgIGxvYWRQcm9maWxlKG5ld1Nlc3Npb24udXNlci5pZCk7CiAgICAgICAgICBsb2FkUm9sZShuZXdTZXNzaW9uLnVzZXIuaWQpOwogICAgICAgIH0sIDApOwogICAgICB9IGVsc2UgewogICAgICAgIHNldFByb2ZpbGUobnVsbCk7CiAgICAgICAgc2V0SXNBZG1pbihmYWxzZSk7CiAgICAgIH0KICAgIH0pOwoKICAgIHN1cGFiYXNlLmF1dGguZ2V0U2Vzc2lvbigpLnRoZW4oKHsgZGF0YSB9KSA9PiB7CiAgICAgIC8vICJSZW1lbWJlciBtZSIgb2ZmICsgYnJvd3NlciBmdWxseSBjbG9zZWQg4oaSIGRyb3AgdGhlIHNlc3Npb24uCiAgICAgIGlmIChkYXRhLnNlc3Npb24gJiYgc2hvdWxkRHJvcFRyYW5zaWVudFNlc3Npb24oKSkgewogICAgICAgIHN1cGFiYXNlLmF1dGguc2lnbk91dCgpOwogICAgICAgIHNldExvYWRpbmcoZmFsc2UpOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBzZXRTZXNzaW9uKGRhdGEuc2Vzc2lvbik7CiAgICAgIHNldFVzZXIoZGF0YS5zZXNzaW9uPy51c2VyID8/IG51bGwpOwogICAgICBzZXRMb2FkaW5nKGZhbHNlKTsKICAgICAgaWYgKGRhdGEuc2Vzc2lvbj8udXNlcikgewogICAgICAgIGxvYWRQcm9maWxlKGRhdGEuc2Vzc2lvbi51c2VyLmlkKTsKICAgICAgICBsb2FkUm9sZShkYXRhLnNlc3Npb24udXNlci5pZCk7CiAgICAgIH0KICAgIH0pOwoKICAgIC8vIElkbGUgYXV0by1sb2dvdXQKICAgIGNvbnN0IGJ1bXAgPSAoKSA9PiB7IGxhc3RBY3Rpdml0eS5jdXJyZW50ID0gRGF0ZS5ub3coKTsgfTsKICAgIGNvbnN0IGV2ZW50cyA9IFsibW91c2Vtb3ZlIiwgImtleWRvd24iLCAiY2xpY2siLCAic2Nyb2xsIiwgInRvdWNoc3RhcnQiLCAidmlzaWJpbGl0eWNoYW5nZSJdOwogICAgZXZlbnRzLmZvckVhY2goKGUpID0+IHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKGUsIGJ1bXAsIHsgcGFzc2l2ZTogdHJ1ZSB9KSk7CgogICAgY29uc3QgaW50ZXJ2YWwgPSB3aW5kb3cuc2V0SW50ZXJ2YWwoYXN5bmMgKCkgPT4gewogICAgICBjb25zdCB7IGRhdGEgfSA9IGF3YWl0IHN1cGFiYXNlLmF1dGguZ2V0U2Vzc2lvbigpOwogICAgICBpZiAoIWRhdGEuc2Vzc2lvbikgcmV0dXJuOwogICAgICBpZiAoRGF0ZS5ub3coKSAtIGxhc3RBY3Rpdml0eS5jdXJyZW50ID49IGlkbGVMaW1pdE1zKCkpIHsKICAgICAgICBsYXN0QWN0aXZpdHkuY3VycmVudCA9IERhdGUubm93KCk7CiAgICAgICAgYXdhaXQgc3VwYWJhc2UuYXV0aC5zaWduT3V0KCk7CiAgICAgICAgc2V0UHJvZmlsZShudWxsKTsKICAgICAgICBzZXRJc0FkbWluKGZhbHNlKTsKICAgICAgICB0b2FzdCh7IHRpdGxlOiAiU2lnbmVkIG91dCIsIGRlc2NyaXB0aW9uOiAiWW91IHdlcmUgaW5hY3RpdmUsIHNvIHdlIGVuZGVkIHRoZSBzZXNzaW9uIGZvciBzYWZldHkuIiB9KTsKICAgICAgfQogICAgfSwgNjBfMDAwKTsKCiAgICByZXR1cm4gKCkgPT4gewogICAgICBzdWIuc3Vic2NyaXB0aW9uLnVuc3Vic2NyaWJlKCk7CiAgICAgIGV2ZW50cy5mb3JFYWNoKChlKSA9PiB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcihlLCBidW1wKSk7CiAgICAgIHdpbmRvdy5jbGVhckludGVydmFsKGludGVydmFsKTsKICAgIH07CiAgfSwgW10pOwoKICBjb25zdCB2YWx1ZTogQXV0aENvbnRleHRWYWx1ZSA9IHsKICAgIHVzZXIsCiAgICBzZXNzaW9uLAogICAgcHJvZmlsZSwKICAgIGxvYWRpbmcsCiAgICBpc0FkbWluLAogICAgcmVmcmVzaFByb2ZpbGU6IGFzeW5jICgpID0+IHsKICAgICAgaWYgKHVzZXIpIGF3YWl0IGxvYWRQcm9maWxlKHVzZXIuaWQpOwogICAgfSwKICAgIHNpZ25PdXQ6IGFzeW5jICgpID0+IHsKICAgICAgYXdhaXQgc3VwYWJhc2UuYXV0aC5zaWduT3V0KCk7CiAgICAgIHNldFJlbWVtYmVyTWUoZmFsc2UpOwogICAgICBzZXRQcm9maWxlKG51bGwpOwogICAgICBzZXRJc0FkbWluKGZhbHNlKTsKICAgIH0sCiAgfTsKCiAgcmV0dXJuIDxBdXRoQ29udGV4dC5Qcm92aWRlciB2YWx1ZT17dmFsdWV9PntjaGlsZHJlbn08L0F1dGhDb250ZXh0LlByb3ZpZGVyPjsKfTsKCi8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSByZWFjdC1yZWZyZXNoL29ubHktZXhwb3J0LWNvbXBvbmVudHMKZXhwb3J0IGNvbnN0IHVzZUF1dGggPSAoKSA9PiB1c2VDb250ZXh0KEF1dGhDb250ZXh0KTsK
+import { createContext, useContext, useEffect, useState, useRef, ReactNode } from "react";
+import type { Session, User } from "@supabase/supabase-js";
+import { supabase } from "@/integrations/supabase/client";
+import { idleLimitMs, shouldDropTransientSession, setRememberMe } from "@/lib/session-policy";
+import { toast } from "@/hooks/use-toast";
+
+export interface Profile {
+  id: string;
+  display_name: string;
+  bio: string | null;
+  country: string | null;
+  avatar_url: string | null;
+}
+
+interface AuthContextValue {
+  user: User | null;
+  session: Session | null;
+  profile: Profile | null;
+  loading: boolean;
+  isAdmin: boolean;
+  refreshProfile: () => Promise<void>;
+  signOut: () => Promise<void>;
+}
+
+const AuthContext = createContext<AuthContextValue>({
+  user: null,
+  session: null,
+  profile: null,
+  loading: true,
+  isAdmin: false,
+  refreshProfile: async () => {},
+  signOut: async () => {},
+});
+
+export const AuthProvider = ({ children }: { children: ReactNode }) => {
+  const [session, setSession] = useState<Session | null>(null);
+  const [user, setUser] = useState<User | null>(null);
+  const [profile, setProfile] = useState<Profile | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [isAdmin, setIsAdmin] = useState(false);
+  const lastActivity = useRef(Date.now());
+
+  const loadRole = async (uid: string) => {
+    const { data } = await supabase
+      .from("user_roles")
+      .select("role")
+      .eq("user_id", uid)
+      .eq("role", "admin")
+      .maybeSingle();
+    setIsAdmin(!!data);
+  };
+
+  const loadProfile = async (uid: string) => {
+    const { data } = await supabase
+      .from("profiles")
+      .select("id, display_name, bio, country, avatar_url")
+      .eq("id", uid)
+      .maybeSingle();
+    setProfile((data as Profile) ?? null);
+  };
+
+  useEffect(() => {
+    const { data: sub } = supabase.auth.onAuthStateChange((_event, newSession) => {
+      setSession(newSession);
+      setUser(newSession?.user ?? null);
+      setLoading(false);
+      if (newSession?.user) {
+        setTimeout(() => {
+          loadProfile(newSession.user.id);
+          loadRole(newSession.user.id);
+        }, 0);
+      } else {
+        setProfile(null);
+        setIsAdmin(false);
+      }
+    });
+
+    supabase.auth.getSession().then(({ data }) => {
+      // "Remember me" off + browser fully closed → drop the session.
+      if (data.session && shouldDropTransientSession()) {
+        supabase.auth.signOut();
+        setLoading(false);
+        return;
+      }
+      setSession(data.session);
+      setUser(data.session?.user ?? null);
+      setLoading(false);
+      if (data.session?.user) {
+        loadProfile(data.session.user.id);
+        loadRole(data.session.user.id);
+      }
+    });
+
+    // Idle auto-logout
+    const bump = () => { lastActivity.current = Date.now(); };
+    const events = ["mousemove", "keydown", "click", "scroll", "touchstart", "visibilitychange"];
+    events.forEach((e) => window.addEventListener(e, bump, { passive: true }));
+
+    const interval = window.setInterval(async () => {
+      const { data } = await supabase.auth.getSession();
+      if (!data.session) return;
+      if (Date.now() - lastActivity.current >= idleLimitMs()) {
+        lastActivity.current = Date.now();
+        await supabase.auth.signOut();
+        setProfile(null);
+        setIsAdmin(false);
+        toast({ title: "Signed out", description: "You were inactive, so we ended the session for safety." });
+      }
+    }, 60_000);
+
+    return () => {
+      sub.subscription.unsubscribe();
+      events.forEach((e) => window.removeEventListener(e, bump));
+      window.clearInterval(interval);
+    };
+  }, []);
+
+  const value: AuthContextValue = {
+    user,
+    session,
+    profile,
+    loading,
+    isAdmin,
+    refreshProfile: async () => {
+      if (user) await loadProfile(user.id);
+    },
+    signOut: async () => {
+      await supabase.auth.signOut();
+      setRememberMe(false);
+      setProfile(null);
+      setIsAdmin(false);
+    },
+  };
+
+  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+};
+
+// eslint-disable-next-line react-refresh/only-export-components
+export const useAuth = () => useContext(AuthContext);

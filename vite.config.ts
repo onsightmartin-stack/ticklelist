@@ -1,1 +1,15 @@
-Ly8gQGxvdmFibGUuZGV2L3ZpdGUtdGFuc3RhY2stY29uZmlnIGFscmVhZHkgaW5jbHVkZXMgdGhlIGZvbGxvd2luZyDigJQgZG8gTk9UIGFkZCB0aGVtIG1hbnVhbGx5Ci8vIG9yIHRoZSBhcHAgd2lsbCBicmVhayB3aXRoIGR1cGxpY2F0ZSBwbHVnaW5zOgovLyAgIC0gVGFuU3RhY2sgZGV2dG9vbHMgKGRldi1vbmx5LCBmaXJzdCksIHRhbnN0YWNrU3RhcnQsIHZpdGVSZWFjdCwgdGFpbHdpbmRjc3MsIHRzQ29uZmlnUGF0aHMsCi8vICAgICBuaXRybyAoYnVpbGQtb25seSB1c2luZyBjbG91ZGZsYXJlIGFzIGEgZGVmYXVsdCB0YXJnZXQpLCBWSVRFXyogZW52IGluamVjdGlvbiwgQCBwYXRoIGFsaWFzLAovLyAgICAgUmVhY3QvVGFuU3RhY2sgZGVkdXBlLCBlcnJvciBsb2dnZXIgcGx1Z2lucywgYW5kIHNhbmRib3ggZGV0ZWN0aW9uIChwb3J0L2hvc3Qvc3RyaWN0UG9ydCkuCi8vIFlvdSBjYW4gcGFzcyBhZGRpdGlvbmFsIGNvbmZpZyB2aWEgZGVmaW5lQ29uZmlnKHsgdml0ZTogeyAuLi4gfSwgZXRjLi4uIH0pIGlmIG5lZWRlZC4KaW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAiQGxvdmFibGUuZGV2L3ZpdGUtdGFuc3RhY2stY29uZmlnIjsKCi8vIE5PVEU6IHZpdGUgaXMgcGlubmVkIHRvIGFuIGV4YWN0IHZlcnNpb24gKDguMS41KSBvbiBwdXJwb3NlLgovLyBWaXRlIDguMi54IHNoaXBzIGEgcm9sbGRvd24gY2h1bmstc3BsaXR0aW5nIGJ1ZyB0aGF0IHByb2R1Y2VkIGEgYnJva2VuCi8vIHByb2R1Y3Rpb24gU1NSIGJ1bmRsZSAoY2lyY3VsYXIgY2h1bmtzIC0+ICJjcmVhdGVNaWRkbGV3YXJlIGlzIG5vdCBhIGZ1bmN0aW9uIiwKLy8gYW5kIGFuICJFeHBvcnQgJ3Nzcl9leHBvcnRzJyBpcyBub3QgZGVmaW5lZCBpbiBtb2R1bGUiIHdvcmtlciBib290IGNyYXNoKSwKLy8gbWFraW5nIGV2ZXJ5IHB1Ymxpc2hlZCByZXF1ZXN0IHJldHVybiA1MDAuIERvIG5vdCB3aWRlbiB0aGlzIHJhbmdlIHdpdGhvdXQKLy8gdmVyaWZ5aW5nIGBidW4gcnVuIGJ1aWxkYCArIGEgd3JhbmdsZXIgcnVuIG9mIGRpc3Qvc2VydmVyLgpleHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoe30pOwo=
+// @lovable.dev/vite-tanstack-config already includes the following — do NOT add them manually
+// or the app will break with duplicate plugins:
+//   - TanStack devtools (dev-only, first), tanstackStart, viteReact, tailwindcss, tsConfigPaths,
+//     nitro (build-only using cloudflare as a default target), VITE_* env injection, @ path alias,
+//     React/TanStack dedupe, error logger plugins, and sandbox detection (port/host/strictPort).
+// You can pass additional config via defineConfig({ vite: { ... }, etc... }) if needed.
+import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+
+// NOTE: vite is pinned to an exact version (8.1.5) on purpose.
+// Vite 8.2.x ships a rolldown chunk-splitting bug that produced a broken
+// production SSR bundle (circular chunks -> "createMiddleware is not a function",
+// and an "Export 'ssr_exports' is not defined in module" worker boot crash),
+// making every published request return 500. Do not widen this range without
+// verifying `bun run build` + a wrangler run of dist/server.
+export default defineConfig({});

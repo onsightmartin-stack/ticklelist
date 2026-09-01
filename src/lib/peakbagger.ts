@@ -1,1 +1,129 @@
-aW1wb3J0IHsgcGVha0NhdGFsb2csIHR5cGUgQ2F0YWxvZ1BlYWsgfSBmcm9tICJAL2xpYi9wZWFrLWNhdGFsb2ciOwoKZXhwb3J0IGludGVyZmFjZSBQZWFrYmFnZ2VyUm93IHsKICAvKiogUGVhayBuYW1lIGV4YWN0bHkgYXMgaXQgYXBwZWFycyBvbiBQZWFrYmFnZ2VyICovCiAgcGVhazogc3RyaW5nOwogIC8qKiBJU08gZGF0ZSAoWVlZWS1NTS1ERCkgb2YgdGhlIGFzY2VudCAqLwogIGRhdGU6IHN0cmluZzsKICAvKiogTG9jYXRpb24gY29sdW1uLCBpZiBwcmVzZW50ICovCiAgbG9jYXRpb24/OiBzdHJpbmcgfCB1bmRlZmluZWQ7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgTWF0Y2hlZEFzY2VudCB7CiAgcm93OiBQZWFrYmFnZ2VyUm93OwogIG1hdGNoZXM6IENhdGFsb2dQZWFrW107Cn0KCi8qKiBMb3dlci1jYXNlLCBzdHJpcCBkaWFjcml0aWNzL3B1bmN0dWF0aW9uIHNvICJHcm/Dn2dsb2NrbmVyIiDiiYggIkdyb3NzZ2xvY2tuZXIiLiAqLwpleHBvcnQgY29uc3Qgbm9ybWFsaXplUGVha05hbWUgPSAobmFtZTogc3RyaW5nKTogc3RyaW5nID0+CiAgbmFtZQogICAgLnRvTG93ZXJDYXNlKCkKICAgIC5yZXBsYWNlKC/Dny9nLCAic3MiKQogICAgLnJlcGxhY2UoL8O4L2csICJvIikKICAgIC5yZXBsYWNlKC/Dpi9nLCAiYWUiKQogICAgLnJlcGxhY2UoL8OlL2csICJhIikKICAgIC5ub3JtYWxpemUoIk5GRCIpCiAgICAucmVwbGFjZSgvW1x1MDMwMC1cdTAzNmZdL2csICIiKQogICAgLnJlcGxhY2UoL1woW14pXSpcKS9nLCAiICIpCiAgICAucmVwbGFjZSgvXGIobW91bnR8bXR8bW9udHxtb250ZXxwZWFrfHBpY298cGljfGNlcnJvfGd1bnVuZ3xqZWJlbHxtb3VudFwuKVxiL2csICIgIikKICAgIC5yZXBsYWNlKC9bXmEtejAtOV0rL2csICIgIikKICAgIC50cmltKCk7Cgpjb25zdCBNT05USFM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgamFuOiAiMDEiLCBmZWI6ICIwMiIsIG1hcjogIjAzIiwgYXByOiAiMDQiLCBtYXk6ICIwNSIsIGp1bjogIjA2IiwKICBqdWw6ICIwNyIsIGF1ZzogIjA4Iiwgc2VwOiAiMDkiLCBvY3Q6ICIxMCIsIG5vdjogIjExIiwgZGVjOiAiMTIiLAp9OwoKLyoqIFB1bGwgYW4gSVNPIGRhdGUgb3V0IG9mIGEgUGVha2JhZ2dlciByb3cgKCIyMDI2LTA3LTExIiwgIkp1bCAxMSwgMjAyNiIsICIxMSBKdWwgMjAyNiIpLiAqLwpleHBvcnQgY29uc3QgZXh0cmFjdERhdGUgPSAodGV4dDogc3RyaW5nKTogc3RyaW5nIHwgbnVsbCA9PiB7CiAgY29uc3QgaXNvID0gdGV4dC5tYXRjaCgvKFxkezR9KS0oXGR7Mn0pLShcZHsyfSkvKTsKICBpZiAoaXNvKSByZXR1cm4gYCR7aXNvWzFdfS0ke2lzb1syXX0tJHtpc29bM119YDsKCiAgY29uc3QgbWR5ID0gdGV4dC5tYXRjaCgvKFtBLVphLXpdezN9KVthLXpdKlwuP1xzKyhcZHsxLDJ9KSw/XHMrKFxkezR9KS8pOwogIGlmIChtZHkgJiYgTU9OVEhTW21keVsxXSEudG9Mb3dlckNhc2UoKV0pIHsKICAgIHJldHVybiBgJHttZHlbM119LSR7TU9OVEhTW21keVsxXSEudG9Mb3dlckNhc2UoKV19LSR7bWR5WzJdIS5wYWRTdGFydCgyLCAiMCIpfWA7CiAgfQoKICBjb25zdCBkbXkgPSB0ZXh0Lm1hdGNoKC8oXGR7MSwyfSlccysoW0EtWmEtel17M30pW2Etel0qXC4/XHMrKFxkezR9KS8pOwogIGlmIChkbXkgJiYgTU9OVEhTW2RteVsyXSEudG9Mb3dlckNhc2UoKV0pIHsKICAgIHJldHVybiBgJHtkbXlbM119LSR7TU9OVEhTW2RteVsyXSEudG9Mb3dlckNhc2UoKV19LSR7ZG15WzFdIS5wYWRTdGFydCgyLCAiMCIpfWA7CiAgfQogIHJldHVybiBudWxsOwp9OwoKLyoqCiAqIFBhcnNlIGEgcGFzdGVkIFBlYWtiYWdnZXIgYXNjZW50IGxpc3QuIEhhbmRsZXMgdGFiLXNlcGFyYXRlZCB0YWJsZSBjb3BpZXMgYXMKICogd2VsbCBhcyBwbGFpbiB0ZXh0IGxpbmVzIOKAlCBhbnl0aGluZyB3aXRoIGEgcGVhayBuYW1lIGFuZCBhIGRhdGUgd29ya3MuCiAqLwpleHBvcnQgY29uc3QgcGFyc2VQZWFrYmFnZ2VyVGV4dCA9ICh0ZXh0OiBzdHJpbmcpOiBQZWFrYmFnZ2VyUm93W10gPT4gewogIGNvbnN0IHJvd3M6IFBlYWtiYWdnZXJSb3dbXSA9IFtdOwoKICBmb3IgKGNvbnN0IHJhd0xpbmUgb2YgdGV4dC5zcGxpdCgvXHI/XG4vKSkgewogICAgY29uc3QgbGluZSA9IHJhd0xpbmUudHJpbSgpOwogICAgaWYgKCFsaW5lKSBjb250aW51ZTsKCiAgICBjb25zdCBkYXRlID0gZXh0cmFjdERhdGUobGluZSk7CiAgICBpZiAoIWRhdGUpIGNvbnRpbnVlOwoKICAgIC8vIFByZWZlciBjb2x1bW4gc3RydWN0dXJlIHdoZW4gdGhlIHBhc3RlIGtlcHQgdGFicyAvIG11bHRpcGxlIHNwYWNlcy4KICAgIGNvbnN0IGNvbHMgPSBsaW5lLnNwbGl0KC9cdHxcc3syLH0vKS5tYXAoKGMpID0+IGMudHJpbSgpKS5maWx0ZXIoQm9vbGVhbik7CiAgICBsZXQgcGVhayA9ICIiOwogICAgbGV0IGxvY2F0aW9uOiBzdHJpbmcgfCB1bmRlZmluZWQ7CgogICAgaWYgKGNvbHMubGVuZ3RoID4gMSkgewogICAgICAvLyBUaGUgcGVhayBuYW1lIGlzIHRoZSBmaXJzdCBjb2x1bW4gdGhhdCBpcyBub3QgYSBudW1iZXIsIHJhbmsgb3IgZGF0ZS4KICAgICAgcGVhayA9IGNvbHMuZmluZCgoYykgPT4gIS9eXGRbXGQsLidcc10qJC8udGVzdChjKSAmJiAhZXh0cmFjdERhdGUoYykpID8/IGNvbHNbMF0hOwogICAgICBsb2NhdGlvbiA9IGNvbHMuZmluZCgoYykgPT4gYyAhPT0gcGVhayAmJiAhL15bXGQsLidcc10qJC8udGVzdChjKSAmJiAhZXh0cmFjdERhdGUoYykpOwogICAgfSBlbHNlIHsKICAgICAgcGVhayA9IGxpbmUucmVwbGFjZSgvKFxkezR9LVxkezJ9LVxkezJ9KS4qJC8sICIiKS50cmltKCk7CiAgICAgIHBlYWsgPSBwZWFrLnJlcGxhY2UoL1tcZCwuJyJcLeKAk+KAlHxdKyQvLCAiIikudHJpbSgpOwogICAgfQoKICAgIHBlYWsgPSBwZWFrLnJlcGxhY2UoL15cZCtbKS5cc10rLywgIiIpLnRyaW0oKTsKICAgIGlmIChwZWFrLmxlbmd0aCA8IDIpIGNvbnRpbnVlOwoKICAgIHJvd3MucHVzaCh7IHBlYWssIGRhdGUsIGxvY2F0aW9uIH0pOwogIH0KCiAgLy8gRGVkdXBlIGlkZW50aWNhbCBwZWFrICsgZGF0ZSBwYWlycy4KICBjb25zdCBzZWVuID0gbmV3IFNldDxzdHJpbmc+KCk7CiAgcmV0dXJuIHJvd3MuZmlsdGVyKChyKSA9PiB7CiAgICBjb25zdCBrID0gYCR7bm9ybWFsaXplUGVha05hbWUoci5wZWFrKX18JHtyLmRhdGV9YDsKICAgIGlmIChzZWVuLmhhcyhrKSkgcmV0dXJuIGZhbHNlOwogICAgc2Vlbi5hZGQoayk7CiAgICByZXR1cm4gdHJ1ZTsKICB9KTsKfTsKCmNvbnN0IGNhdGFsb2dJbmRleCA9IHBlYWtDYXRhbG9nLmZsYXRNYXAoKHApID0+CiAgW3AubmFtZSwgLi4uKHAuYWx0TmFtZXMgPz8gW10pXS5tYXAoKG4pID0+ICh7IHBlYWs6IHAsIG5vcm06IG5vcm1hbGl6ZVBlYWtOYW1lKG4pIH0pKSwKKTsKCi8qKiBNYXRjaCBhIFBlYWtiYWdnZXIgcGVhayBuYW1lIHRvIGNhdGFsb2cgZW50cmllcyAoYSBzaGFyZWQgc3VtbWl0IGNhbiBtYXRjaCBzZXZlcmFsIGNvdW50cmllcykuICovCmV4cG9ydCBjb25zdCBtYXRjaFBlYWsgPSAobmFtZTogc3RyaW5nLCBsb2NhdGlvbj86IHN0cmluZyk6IENhdGFsb2dQZWFrW10gPT4gewogIGNvbnN0IG4gPSBub3JtYWxpemVQZWFrTmFtZShuYW1lKTsKICBpZiAoIW4pIHJldHVybiBbXTsKCiAgbGV0IGhpdHMgPSBbLi4ubmV3IFNldChjYXRhbG9nSW5kZXguZmlsdGVyKChjKSA9PiBjLm5vcm0gPT09IG4pLm1hcCgoYykgPT4gYy5wZWFrKSldOwogIGlmIChoaXRzLmxlbmd0aCA9PT0gMCkgewogICAgaGl0cyA9IFsKICAgICAgLi4ubmV3IFNldCgKICAgICAgICBjYXRhbG9nSW5kZXgKICAgICAgICAgIC5maWx0ZXIoKGMpID0+IGMubm9ybS5sZW5ndGggPiAzICYmIChjLm5vcm0uaW5jbHVkZXMobikgfHwgbi5pbmNsdWRlcyhjLm5vcm0pKSkKICAgICAgICAgIC5tYXAoKGMpID0+IGMucGVhayksCiAgICAgICksCiAgICBdOwogIH0KCiAgLy8gQSBzaGFyZWQgc3VtbWl0IGxpc3RlZCB3aXRoIGEgbG9jYXRpb24gbmFycm93cyBkb3duIHRvIHRoYXQgY291bnRyeS4KICBpZiAoaGl0cy5sZW5ndGggPiAxICYmIGxvY2F0aW9uKSB7CiAgICBjb25zdCBsb2MgPSBsb2NhdGlvbi50b0xvd2VyQ2FzZSgpOwogICAgY29uc3QgbmFycm93ZWQgPSBoaXRzLmZpbHRlcigoaCkgPT4gbG9jLmluY2x1ZGVzKGguY291bnRyeS50b0xvd2VyQ2FzZSgpKSk7CiAgICBpZiAobmFycm93ZWQubGVuZ3RoID4gMCkgcmV0dXJuIG5hcnJvd2VkOwogIH0KICByZXR1cm4gaGl0czsKfTsKCi8qKiBNYXRjaCBldmVyeSBwYXJzZWQgcm93IGFnYWluc3QgdGhlIGxvZ2FiYmxlIHBlYWsgY2F0YWxvZy4gKi8KZXhwb3J0IGNvbnN0IG1hdGNoUGVha2JhZ2dlclJvd3MgPSAocm93czogUGVha2JhZ2dlclJvd1tdKTogTWF0Y2hlZEFzY2VudFtdID0+CiAgcm93cy5tYXAoKHJvdykgPT4gKHsgcm93LCBtYXRjaGVzOiBtYXRjaFBlYWsocm93LnBlYWssIHJvdy5sb2NhdGlvbikgfSkpOwo=
+import { peakCatalog, type CatalogPeak } from "@/lib/peak-catalog";
+
+export interface PeakbaggerRow {
+  /** Peak name exactly as it appears on Peakbagger */
+  peak: string;
+  /** ISO date (YYYY-MM-DD) of the ascent */
+  date: string;
+  /** Location column, if present */
+  location?: string | undefined;
+}
+
+export interface MatchedAscent {
+  row: PeakbaggerRow;
+  matches: CatalogPeak[];
+}
+
+/** Lower-case, strip diacritics/punctuation so "Großglockner" ≈ "Grossglockner". */
+export const normalizePeakName = (name: string): string =>
+  name
+    .toLowerCase()
+    .replace(/ß/g, "ss")
+    .replace(/ø/g, "o")
+    .replace(/æ/g, "ae")
+    .replace(/å/g, "a")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\([^)]*\)/g, " ")
+    .replace(/\b(mount|mt|mont|monte|peak|pico|pic|cerro|gunung|jebel|mount\.)\b/g, " ")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+
+const MONTHS: Record<string, string> = {
+  jan: "01", feb: "02", mar: "03", apr: "04", may: "05", jun: "06",
+  jul: "07", aug: "08", sep: "09", oct: "10", nov: "11", dec: "12",
+};
+
+/** Pull an ISO date out of a Peakbagger row ("2026-07-11", "Jul 11, 2026", "11 Jul 2026"). */
+export const extractDate = (text: string): string | null => {
+  const iso = text.match(/(\d{4})-(\d{2})-(\d{2})/);
+  if (iso) return `${iso[1]}-${iso[2]}-${iso[3]}`;
+
+  const mdy = text.match(/([A-Za-z]{3})[a-z]*\.?\s+(\d{1,2}),?\s+(\d{4})/);
+  if (mdy && MONTHS[mdy[1]!.toLowerCase()]) {
+    return `${mdy[3]}-${MONTHS[mdy[1]!.toLowerCase()]}-${mdy[2]!.padStart(2, "0")}`;
+  }
+
+  const dmy = text.match(/(\d{1,2})\s+([A-Za-z]{3})[a-z]*\.?\s+(\d{4})/);
+  if (dmy && MONTHS[dmy[2]!.toLowerCase()]) {
+    return `${dmy[3]}-${MONTHS[dmy[2]!.toLowerCase()]}-${dmy[1]!.padStart(2, "0")}`;
+  }
+  return null;
+};
+
+/**
+ * Parse a pasted Peakbagger ascent list. Handles tab-separated table copies as
+ * well as plain text lines — anything with a peak name and a date works.
+ */
+export const parsePeakbaggerText = (text: string): PeakbaggerRow[] => {
+  const rows: PeakbaggerRow[] = [];
+
+  for (const rawLine of text.split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line) continue;
+
+    const date = extractDate(line);
+    if (!date) continue;
+
+    // Prefer column structure when the paste kept tabs / multiple spaces.
+    const cols = line.split(/\t|\s{2,}/).map((c) => c.trim()).filter(Boolean);
+    let peak = "";
+    let location: string | undefined;
+
+    if (cols.length > 1) {
+      // The peak name is the first column that is not a number, rank or date.
+      peak = cols.find((c) => !/^\d[\d,.'\s]*$/.test(c) && !extractDate(c)) ?? cols[0]!;
+      location = cols.find((c) => c !== peak && !/^[\d,.'\s]*$/.test(c) && !extractDate(c));
+    } else {
+      peak = line.replace(/(\d{4}-\d{2}-\d{2}).*$/, "").trim();
+      peak = peak.replace(/[\d,.'"\-–—|]+$/, "").trim();
+    }
+
+    peak = peak.replace(/^\d+[).\s]+/, "").trim();
+    if (peak.length < 2) continue;
+
+    rows.push({ peak, date, location });
+  }
+
+  // Dedupe identical peak + date pairs.
+  const seen = new Set<string>();
+  return rows.filter((r) => {
+    const k = `${normalizePeakName(r.peak)}|${r.date}`;
+    if (seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
+};
+
+const catalogIndex = peakCatalog.flatMap((p) =>
+  [p.name, ...(p.altNames ?? [])].map((n) => ({ peak: p, norm: normalizePeakName(n) })),
+);
+
+/** Match a Peakbagger peak name to catalog entries (a shared summit can match several countries). */
+export const matchPeak = (name: string, location?: string): CatalogPeak[] => {
+  const n = normalizePeakName(name);
+  if (!n) return [];
+
+  let hits = [...new Set(catalogIndex.filter((c) => c.norm === n).map((c) => c.peak))];
+  if (hits.length === 0) {
+    hits = [
+      ...new Set(
+        catalogIndex
+          .filter((c) => c.norm.length > 3 && (c.norm.includes(n) || n.includes(c.norm)))
+          .map((c) => c.peak),
+      ),
+    ];
+  }
+
+  // A shared summit listed with a location narrows down to that country.
+  if (hits.length > 1 && location) {
+    const loc = location.toLowerCase();
+    const narrowed = hits.filter((h) => loc.includes(h.country.toLowerCase()));
+    if (narrowed.length > 0) return narrowed;
+  }
+  return hits;
+};
+
+/** Match every parsed row against the logabble peak catalog. */
+export const matchPeakbaggerRows = (rows: PeakbaggerRow[]): MatchedAscent[] =>
+  rows.map((row) => ({ row, matches: matchPeak(row.peak, row.location) }));

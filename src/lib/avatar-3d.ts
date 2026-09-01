@@ -1,1 +1,418 @@
-LyoqCiAqIExvdy1wb2x5LCBOaW50ZW5kbyA2NCBmbGF2b3VyZWQgM0QgY2xpbWJlciBhdmF0YXJzLgogKgogKiBCdWlsZHMgYSByZWFsIHRocmVlLmpzIGNoYXJhY3RlciByaWcgZnJvbSB0aGUgc2FtZSBgQXZhdGFyQ29uZmlnYCB0aGUgU1ZHCiAqIGF2YXRhcnMgdXNlLCBzbyBub3RoaW5nIGFib3V0IHN0b3JhZ2UsIHVubG9ja3Mgb3IgcGlja2VycyBjaGFuZ2VzIOKAlCBvbmx5IHRoZQogKiByZW5kZXJpbmcuIEV2ZXJ5dGhpbmcgaXMgYm94ZXMgYW5kIHByaXNtcyB3aXRoIGZsYXQgc2hhZGluZyBhbmQgbmVhcmVzdAogKiBmaWx0ZXJlZCBwaXhlbCB0ZXh0dXJlcywgZGVsaWJlcmF0ZWx5IGNodW5reSBsaWtlIGEgY2FydHJpZGdlLWVyYSBtb2RlbC4KICoKICogVGhpcyBtb2R1bGUgaW1wb3J0cyB0aHJlZS5qcyBhbmQgbXVzdCBvbmx5IGJlIGxvYWRlZCBmcm9tIHRoZSBicm93c2VyCiAqIChkeW5hbWljIGBpbXBvcnQoKWAgaW5zaWRlIGFuIGVmZmVjdCksIG5ldmVyIGF0IFNTUiBtb2R1bGUgc2NvcGUuCiAqLwoKaW1wb3J0ICogYXMgVEhSRUUgZnJvbSAidGhyZWUiOwppbXBvcnQgeyBhdmF0YXJQYXJ0cywgdHlwZSBBdmF0YXJDb25maWcsIHR5cGUgQXZhdGFyUGFydHMgfSBmcm9tICJAL2xpYi9hdmF0YXItYnVpbGRlciI7Cgpjb25zdCBjb2xvck9mID0gKGtleToga2V5b2YgQXZhdGFyUGFydHMsIGlkOiBzdHJpbmcsIGZhbGxiYWNrOiBzdHJpbmcpID0+CiAgYXZhdGFyUGFydHMuZmluZCgocCkgPT4gcC5rZXkgPT09IGtleSk/Lm9wdGlvbnMuZmluZCgobykgPT4gby5pZCA9PT0gaWQpPy5jb2xvciA/PyBmYWxsYmFjazsKCi8qKiBGbGF0LXNoYWRlZCwgdW5saXQtaXNoIG1hdGVyaWFsIOKAlCB0aGUgTjY0IGxvb2sgY2FtZSBmcm9tIHZlcnRleCBsaWdodGluZy4gKi8KY29uc3QgbWF0ID0gKGNvbG9yOiBUSFJFRS5Db2xvclJlcHJlc2VudGF0aW9uLCBvcHRzOiB7IHNoaW55PzogYm9vbGVhbiB9ID0ge30pID0+CiAgbmV3IFRIUkVFLk1lc2hMYW1iZXJ0TWF0ZXJpYWwoewogICAgY29sb3IsCiAgICBmbGF0U2hhZGluZzogdHJ1ZSwKICAgIGVtaXNzaXZlOiBuZXcgVEhSRUUuQ29sb3IoY29sb3IpLm11bHRpcGx5U2NhbGFyKG9wdHMuc2hpbnkgPyAwLjI1IDogMC4xMiksCiAgfSk7Cgpjb25zdCBib3ggPSAoCiAgdzogbnVtYmVyLAogIGg6IG51bWJlciwKICBkOiBudW1iZXIsCiAgbWF0ZXJpYWw6IFRIUkVFLk1hdGVyaWFsIHwgVEhSRUUuTWF0ZXJpYWxbXSwKICBwb3M6IFtudW1iZXIsIG51bWJlciwgbnVtYmVyXSA9IFswLCAwLCAwXSwKKSA9PiB7CiAgY29uc3QgbSA9IG5ldyBUSFJFRS5NZXNoKG5ldyBUSFJFRS5Cb3hHZW9tZXRyeSh3LCBoLCBkKSwgbWF0ZXJpYWwpOwogIG0ucG9zaXRpb24uc2V0KC4uLnBvcyk7CiAgbS5jYXN0U2hhZG93ID0gdHJ1ZTsKICByZXR1cm4gbTsKfTsKCmNvbnN0IHNoYWRlID0gKGhleDogc3RyaW5nLCBhbW91bnQ6IG51bWJlcikgPT4gewogIGNvbnN0IGMgPSBuZXcgVEhSRUUuQ29sb3IoaGV4KTsKICBjLm11bHRpcGx5U2NhbGFyKGFtb3VudCk7CiAgcmV0dXJuIGAjJHtjLmdldEhleFN0cmluZygpfWA7Cn07CgovKiAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIGZhY2UgdGV4dHVyZSAqLwoKY29uc3QgRkFDRV9QWCA9IDY0OwoKLyoqIFBpeGVsLWFydCBmYWNlIHBhaW50ZWQgb250byB0aGUgZnJvbnQgb2YgdGhlIGhlYWQgY3ViZS4gKi8KY29uc3QgZmFjZVRleHR1cmUgPSAoY29uZmlnOiBBdmF0YXJDb25maWcpOiBUSFJFRS5UZXh0dXJlID0+IHsKICBjb25zdCBjYW52YXMgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCJjYW52YXMiKTsKICBjYW52YXMud2lkdGggPSBGQUNFX1BYOwogIGNhbnZhcy5oZWlnaHQgPSBGQUNFX1BYOwogIGNvbnN0IGN0eCA9IGNhbnZhcy5nZXRDb250ZXh0KCIyZCIpITsKICBjb25zdCBza2luID0gY29sb3JPZigic2tpbiIsIGNvbmZpZy5za2luLCAiI2UwYWM4NiIpOwogIGNvbnN0IGhhaXIgPSBjb2xvck9mKCJoYWlyQ29sb3IiLCBjb25maWcuaGFpckNvbG9yLCAiIzVhM2EyMiIpOwoKICBjdHguaW1hZ2VTbW9vdGhpbmdFbmFibGVkID0gZmFsc2U7CiAgY3R4LmZpbGxTdHlsZSA9IHNraW47CiAgY3R4LmZpbGxSZWN0KDAsIDAsIEZBQ0VfUFgsIEZBQ0VfUFgpOwoKICAvLyBDaGVlayBibHVzaCArIGphdyBzaGFkaW5nLCBjaHVua3kgcGl4ZWwgYmxvY2tzLgogIGN0eC5maWxsU3R5bGUgPSBzaGFkZShza2luLCAwLjg2KTsKICBjdHguZmlsbFJlY3QoMCwgNDYsIEZBQ0VfUFgsIDE4KTsKICBjdHguZmlsbFN0eWxlID0gc2hhZGUoc2tpbiwgMS4xMik7CiAgY3R4LmZpbGxSZWN0KDQsIDYsIEZBQ0VfUFggLSA4LCA4KTsKCiAgY29uc3QgZXllID0gKHg6IG51bWJlcikgPT4gewogICAgc3dpdGNoIChjb25maWcuZXllcykgewogICAgICBjYXNlICJoYXBweSI6CiAgICAgICAgY3R4LmZpbGxTdHlsZSA9ICIjMTAxODIwIjsKICAgICAgICBjdHguZmlsbFJlY3QoeCAtIDYsIDI4LCA0LCA0KTsKICAgICAgICBjdHguZmlsbFJlY3QoeCAtIDIsIDI0LCA2LCA0KTsKICAgICAgICBjdHguZmlsbFJlY3QoeCArIDQsIDI4LCA0LCA0KTsKICAgICAgICBicmVhazsKICAgICAgY2FzZSAiZm9jdXNlZCI6CiAgICAgICAgY3R4LmZpbGxTdHlsZSA9ICIjMTAxODIwIjsKICAgICAgICBjdHguZmlsbFJlY3QoeCAtIDgsIDIyLCAxNiwgNCk7CiAgICAgICAgY3R4LmZpbGxTdHlsZSA9ICIjZjhmYWZjIjsKICAgICAgICBjdHguZmlsbFJlY3QoeCAtIDcsIDI3LCAxNCwgNyk7CiAgICAgICAgY3R4LmZpbGxTdHlsZSA9ICIjZjU5ZTBiIjsKICAgICAgICBjdHguZmlsbFJlY3QoeCAtIDIsIDI3LCA1LCA3KTsKICAgICAgICBicmVhazsKICAgICAgZGVmYXVsdDoKICAgICAgICBjdHguZmlsbFN0eWxlID0gIiMxMDE4MjAiOwogICAgICAgIGN0eC5maWxsUmVjdCh4IC0gOCwgMjEsIDE2LCAzKTsKICAgICAgICBjdHguZmlsbFN0eWxlID0gIiNmOGZhZmMiOwogICAgICAgIGN0eC5maWxsUmVjdCh4IC0gNywgMjUsIDE0LCAxMCk7CiAgICAgICAgY3R4LmZpbGxTdHlsZSA9ICIjMzhiZGY4IjsKICAgICAgICBjdHguZmlsbFJlY3QoeCAtIDMsIDI1LCA2LCAxMCk7CiAgICAgICAgY3R4LmZpbGxTdHlsZSA9ICIjMTAxODIwIjsKICAgICAgICBjdHguZmlsbFJlY3QoeCAtIDEsIDI3LCAzLCA2KTsKICAgICAgICBjdHguZmlsbFN0eWxlID0gIiNmZmZmZmYiOwogICAgICAgIGN0eC5maWxsUmVjdCh4ICsgMiwgMjYsIDIsIDIpOwogICAgfQogIH07CgogIGlmIChjb25maWcuZXllcyA9PT0gInNoYWRlcyIgfHwgY29uZmlnLmV5ZXMgPT09ICJnbGFjaWVyIikgewogICAgY3R4LmZpbGxTdHlsZSA9ICIjMGIxMjIwIjsKICAgIGN0eC5maWxsUmVjdCg2LCAyMiwgNTIsIDE0KTsKICAgIGN0eC5maWxsU3R5bGUgPSBjb25maWcuZXllcyA9PT0gImdsYWNpZXIiID8gIiM0YjU1NjMiIDogIiMxZjI5MzciOwogICAgY3R4LmZpbGxSZWN0KDI4LCAyNSwgOCwgNik7CiAgICBjdHguZmlsbFN0eWxlID0gIiNmZmZmZmYyMiI7CiAgICBjdHguZmlsbFJlY3QoMTAsIDI1LCAxNCwgNCk7CiAgfSBlbHNlIGlmIChjb25maWcuZXllcyA9PT0gImdvZ2dsZXMiKSB7CiAgICBjdHguZmlsbFN0eWxlID0gIiMwZjE3MmEiOwogICAgY3R4LmZpbGxSZWN0KDIsIDE4LCA2MCwgMjApOwogICAgY3R4LmZpbGxTdHlsZSA9ICIjMjJkM2VlIjsKICAgIGN0eC5maWxsUmVjdCg2LCAyMiwgNTIsIDEyKTsKICAgIGN0eC5maWxsU3R5bGUgPSAiI2ZmZmZmZjY2IjsKICAgIGN0eC5maWxsUmVjdCgxMCwgMjQsIDE4LCA0KTsKICB9IGVsc2UgewogICAgZXllKDIwKTsKICAgIGV5ZSg0NCk7CiAgfQoKICAvLyBOb3NlCiAgY3R4LmZpbGxTdHlsZSA9IHNoYWRlKHNraW4sIDAuOCk7CiAgY3R4LmZpbGxSZWN0KDMwLCAzOCwgNCwgNik7CgogIC8vIE1vdXRoCiAgY3R4LmZpbGxTdHlsZSA9ICIjN2YxZDFkIjsKICBzd2l0Y2ggKGNvbmZpZy5tb3V0aCkgewogICAgY2FzZSAibmV1dHJhbCI6CiAgICAgIGN0eC5maWxsUmVjdCgyNiwgNTAsIDEyLCAzKTsKICAgICAgYnJlYWs7CiAgICBjYXNlICJncmluIjoKICAgICAgY3R4LmZpbGxSZWN0KDIzLCA0OCwgMTgsIDYpOwogICAgICBjdHguZmlsbFN0eWxlID0gIiNmOGZhZmMiOwogICAgICBjdHguZmlsbFJlY3QoMjQsIDQ5LCAxNiwgMik7CiAgICAgIGJyZWFrOwogICAgY2FzZSAic2hvdXQiOgogICAgICBjdHguZmlsbFJlY3QoMjUsIDQ2LCAxNCwgMTIpOwogICAgICBjdHguZmlsbFN0eWxlID0gIiNmOGZhZmMiOwogICAgICBjdHguZmlsbFJlY3QoMjYsIDQ3LCAxMiwgMyk7CiAgICAgIGJyZWFrOwogICAgZGVmYXVsdDoKICAgICAgY3R4LmZpbGxSZWN0KDI1LCA1MCwgMTQsIDMpOwogICAgICBjdHguZmlsbFJlY3QoMjMsIDQ3LCAzLCAzKTsKICAgICAgY3R4LmZpbGxSZWN0KDM4LCA0NywgMywgMyk7CiAgfQoKICAvLyBCZWFyZCBkcmF3biBzdHJhaWdodCBvdmVyIHRoZSBsb3dlciBmYWNlIHBpeGVscy4KICBpZiAoY29uZmlnLmJlYXJkICE9PSAibm9uZSIpIHsKICAgIGN0eC5maWxsU3R5bGUgPSBoYWlyOwogICAgaWYgKGNvbmZpZy5iZWFyZCA9PT0gInN0dWJibGUiKSB7CiAgICAgIGN0eC5nbG9iYWxBbHBoYSA9IDAuNDsKICAgICAgY3R4LmZpbGxSZWN0KDYsIDQ0LCA1MiwgMjApOwogICAgICBjdHguZ2xvYmFsQWxwaGEgPSAxOwogICAgfSBlbHNlIGlmIChjb25maWcuYmVhcmQgPT09ICJnb2F0ZWUiKSB7CiAgICAgIGN0eC5maWxsUmVjdCgyNCwgNTQsIDE2LCAxMCk7CiAgICB9IGVsc2UgewogICAgICBjdHguZmlsbFJlY3QoNCwgNDQsIDU2LCAyMCk7CiAgICAgIGN0eC5maWxsU3R5bGUgPSAiIzdmMWQxZCI7CiAgICAgIGlmIChjb25maWcubW91dGggIT09ICJzaG91dCIpIGN0eC5maWxsUmVjdCgyNSwgNTAsIDE0LCAzKTsKICAgIH0KICB9CgogIGNvbnN0IHRleCA9IG5ldyBUSFJFRS5DYW52YXNUZXh0dXJlKGNhbnZhcyk7CiAgdGV4Lm1hZ0ZpbHRlciA9IFRIUkVFLk5lYXJlc3RGaWx0ZXI7CiAgdGV4Lm1pbkZpbHRlciA9IFRIUkVFLk5lYXJlc3RGaWx0ZXI7CiAgdGV4LmNvbG9yU3BhY2UgPSBUSFJFRS5TUkdCQ29sb3JTcGFjZTsKICByZXR1cm4gdGV4Owp9OwoKLyogLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHJpZyBwYXJ0cyAqLwoKZXhwb3J0IGludGVyZmFjZSBBdmF0YXJSaWcgewogIHJvb3Q6IFRIUkVFLkdyb3VwOwogIGhlYWQ6IFRIUkVFLkdyb3VwOwogIHRvcnNvOiBUSFJFRS5Hcm91cDsKICBhcm1MOiBUSFJFRS5Hcm91cDsKICBhcm1SOiBUSFJFRS5Hcm91cDsKICBsZWdMOiBUSFJFRS5Hcm91cDsKICBsZWdSOiBUSFJFRS5Hcm91cDsKICBkaXNwb3NlOiAoKSA9PiB2b2lkOwp9Cgpjb25zdCBoYWlyR3JvdXAgPSAoY29uZmlnOiBBdmF0YXJDb25maWcsIGhhaXJNYXQ6IFRIUkVFLk1hdGVyaWFsKSA9PiB7CiAgY29uc3QgZyA9IG5ldyBUSFJFRS5Hcm91cCgpOwogIHN3aXRjaCAoY29uZmlnLmhhaXIpIHsKICAgIGNhc2UgIm5vbmUiOgogICAgICBicmVhazsKICAgIGNhc2UgImJ1enoiOgogICAgICBnLmFkZChib3goMS4xMiwgMC4xNCwgMS4xMiwgaGFpck1hdCwgWzAsIDAuNTYsIDBdKSk7CiAgICAgIGJyZWFrOwogICAgY2FzZSAiY3VybHkiOgogICAgICBmb3IgKGNvbnN0IFt4LCB6XSBvZiBbWy0wLjM2LCAtMC4zXSwgWzAuMzYsIC0wLjNdLCBbLTAuMzYsIDAuMzRdLCBbMC4zNiwgMC4zNF0sIFswLCAwXV0gYXMgY29uc3QpIHsKICAgICAgICBnLmFkZChib3goMC41LCAwLjM0LCAwLjUsIGhhaXJNYXQsIFt4LCAwLjYsIHpdKSk7CiAgICAgIH0KICAgICAgYnJlYWs7CiAgICBjYXNlICJwb255dGFpbCI6CiAgICAgIGcuYWRkKGJveCgxLjE2LCAwLjI0LCAxLjE2LCBoYWlyTWF0LCBbMCwgMC42LCAwXSkpOwogICAgICBnLmFkZChib3goMC4zLCAwLjksIDAuMywgaGFpck1hdCwgWzAsIDAuMjUsIC0wLjY4XSkpOwogICAgICBicmVhazsKICAgIGNhc2UgImxvbmciOgogICAgICBnLmFkZChib3goMS4xOCwgMC4yNiwgMS4xOCwgaGFpck1hdCwgWzAsIDAuNiwgMF0pKTsKICAgICAgZy5hZGQoYm94KDAuMiwgMS4xLCAxLjEsIGhhaXJNYXQsIFstMC42LCAwLjA1LCAwXSkpOwogICAgICBnLmFkZChib3goMC4yLCAxLjEsIDEuMSwgaGFpck1hdCwgWzAuNiwgMC4wNSwgMF0pKTsKICAgICAgZy5hZGQoYm94KDEuMSwgMS4wLCAwLjIsIGhhaXJNYXQsIFswLCAwLjA1LCAtMC42XSkpOwogICAgICBicmVhazsKICAgIGNhc2UgIm1vaGF3ayI6CiAgICAgIGcuYWRkKGJveCgwLjIyLCAwLjYyLCAxLjAsIGhhaXJNYXQsIFswLCAwLjg2LCAwXSkpOwogICAgICBicmVhazsKICAgIGNhc2UgImRyZWFkcyI6CiAgICAgIGcuYWRkKGJveCgxLjE2LCAwLjIsIDEuMTYsIGhhaXJNYXQsIFswLCAwLjYsIDBdKSk7CiAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgNjsgaSsrKSB7CiAgICAgICAgY29uc3QgYSA9IChpIC8gNikgKiBNYXRoLlBJICogMjsKICAgICAgICBnLmFkZChib3goMC4xNiwgMC44LCAwLjE2LCBoYWlyTWF0LCBbTWF0aC5zaW4oYSkgKiAwLjUsIDAuMTUsIE1hdGguY29zKGEpICogMC41XSkpOwogICAgICB9CiAgICAgIGJyZWFrOwogICAgZGVmYXVsdDoKICAgICAgZy5hZGQoYm94KDEuMTYsIDAuMywgMS4xNiwgaGFpck1hdCwgWzAsIDAuNTUsIDBdKSk7CiAgICAgIGcuYWRkKGJveCgwLjE4LCAwLjQsIDEuMSwgaGFpck1hdCwgWy0wLjU4LCAwLjI1LCAwXSkpOwogICAgICBnLmFkZChib3goMC4xOCwgMC40LCAxLjEsIGhhaXJNYXQsIFswLjU4LCAwLjI1LCAwXSkpOwogIH0KICByZXR1cm4gZzsKfTsKCmNvbnN0IGhlYWR3ZWFyR3JvdXAgPSAoY29uZmlnOiBBdmF0YXJDb25maWcsIGphY2tldDogc3RyaW5nKSA9PiB7CiAgY29uc3QgZyA9IG5ldyBUSFJFRS5Hcm91cCgpOwogIGNvbnN0IGogPSBtYXQoamFja2V0KTsKICBzd2l0Y2ggKGNvbmZpZy5oZWFkd2VhcikgewogICAgY2FzZSAiYmVhbmllIjoKICAgICAgZy5hZGQoYm94KDEuMjQsIDAuNDIsIDEuMjQsIGosIFswLCAwLjY2LCAwXSkpOwogICAgICBnLmFkZChib3goMS4yOCwgMC4xNiwgMS4yOCwgbWF0KHNoYWRlKGphY2tldCwgMC42KSksIFswLCAwLjQ2LCAwXSkpOwogICAgICBnLmFkZChib3goMC4yNCwgMC4yNCwgMC4yNCwgbWF0KCIjZjhmYWZjIiksIFswLCAwLjk0LCAwXSkpOwogICAgICBicmVhazsKICAgIGNhc2UgImNhcCI6CiAgICAgIGcuYWRkKGJveCgxLjI0LCAwLjM0LCAxLjI0LCBqLCBbMCwgMC42MiwgMF0pKTsKICAgICAgZy5hZGQoYm94KDEuMCwgMC4xLCAwLjUsIG1hdChzaGFkZShqYWNrZXQsIDAuNzUpKSwgWzAsIDAuNDgsIDAuODJdKSk7CiAgICAgIGJyZWFrOwogICAgY2FzZSAiaGVsbWV0IjoKICAgICAgZy5hZGQoYm94KDEuMywgMC41LCAxLjMsIG1hdCgiI2YxZjVmOSIpLCBbMCwgMC42OCwgMF0pKTsKICAgICAgZy5hZGQoYm94KDEuMzQsIDAuMTIsIDEuMzQsIG1hdCgiIzBlYTVlOSIpLCBbMCwgMC40NiwgMF0pKTsKICAgICAgYnJlYWs7CiAgICBjYXNlICJob29kIjoKICAgICAgZy5hZGQoYm94KDEuNCwgMS4yLCAxLjQsIG1hdChzaGFkZShqYWNrZXQsIDAuOSkpLCBbMCwgMC4zLCAtMC4xNl0pKTsKICAgICAgZy5hZGQoYm94KDEuMSwgMS4wLCAwLjIsIG1hdCgiIzBiMTIyMCIpLCBbMCwgMC4yNCwgMC42Ml0pKTsKICAgICAgYnJlYWs7CiAgICBjYXNlICJveHlnZW4iOgogICAgICBnLmFkZChib3goMS4yNiwgMC4zNiwgMS4yNiwgbWF0KCIjZjk3MzE2IiksIFswLCAwLjY0LCAwXSkpOwogICAgICBnLmFkZChib3goMC44LCAwLjUsIDAuMywgbWF0KCIjZTJlOGYwIiksIFswLCAtMC4xOCwgMC41OF0pKTsKICAgICAgZy5hZGQoYm94KDAuMTIsIDAuNSwgMC4xMiwgbWF0KCIjNDc1NTY5IiksIFswLjUsIC0wLjUsIDAuNV0pKTsKICAgICAgYnJlYWs7CiAgICBjYXNlICJjcm93biI6IHsKICAgICAgZy5hZGQoYm94KDEuMjQsIDAuMiwgMS4yNCwgbWF0KCIjY2E4YTA0IiwgeyBzaGlueTogdHJ1ZSB9KSwgWzAsIDAuNTgsIDBdKSk7CiAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgNDsgaSsrKSB7CiAgICAgICAgY29uc3QgYSA9IChpIC8gNCkgKiBNYXRoLlBJICogMiArIE1hdGguUEkgLyA0OwogICAgICAgIGcuYWRkKGJveCgwLjE4LCAwLjMsIDAuMTgsIG1hdCgiI2VhYjMwOCIsIHsgc2hpbnk6IHRydWUgfSksIFtNYXRoLnNpbihhKSAqIDAuNDgsIDAuOCwgTWF0aC5jb3MoYSkgKiAwLjQ4XSkpOwogICAgICB9CiAgICAgIGJyZWFrOwogICAgfQogICAgZGVmYXVsdDoKICAgICAgYnJlYWs7CiAgfQogIHJldHVybiBnOwp9OwoKY29uc3QgYWNjZXNzb3J5Rm9yID0gKGNvbmZpZzogQXZhdGFyQ29uZmlnKSA9PiB7CiAgY29uc3QgZyA9IG5ldyBUSFJFRS5Hcm91cCgpOwogIHN3aXRjaCAoY29uZmlnLmFjY2Vzc29yeSkgewogICAgY2FzZSAicG9sZXMiOgogICAgICBnLmFkZChib3goMC4wOCwgMS45LCAwLjA4LCBtYXQoIiM5NGEzYjgiKSwgWy0wLjk1LCAtMC41NSwgMC4xXSkpOwogICAgICBnLmFkZChib3goMC4wOCwgMS45LCAwLjA4LCBtYXQoIiM5NGEzYjgiKSwgWzAuOTUsIC0wLjU1LCAwLjFdKSk7CiAgICAgIGJyZWFrOwogICAgY2FzZSAiYXhlIjoKICAgICAgZy5hZGQoYm94KDAuMSwgMS41LCAwLjEsIG1hdCgiIzBmMTcyYSIpLCBbLTAuOTUsIC0wLjUsIDAuMTRdKSk7CiAgICAgIGcuYWRkKGJveCgwLjYsIDAuMTIsIDAuMTIsIG1hdCgiI2NiZDVlMSIsIHsgc2hpbnk6IHRydWUgfSksIFstMC43LCAwLjIsIDAuMTRdKSk7CiAgICAgIGcuYWRkKGJveCgwLjEsIDAuMjQsIDAuMSwgbWF0KCIjY2JkNWUxIiksIFstMC45NSwgLTEuMywgMC4xNF0pKTsKICAgICAgYnJlYWs7CiAgICBjYXNlICJyb3BlIjogewogICAgICBjb25zdCBnZW8gPSBuZXcgVEhSRUUuVG9ydXNHZW9tZXRyeSgwLjM0LCAwLjA5LCA0LCAxMCk7CiAgICAgIGNvbnN0IHQgPSBuZXcgVEhSRUUuTWVzaChnZW8sIG1hdCgiIzIyZDNlZSIpKTsKICAgICAgdC5yb3RhdGlvbi55ID0gTWF0aC5QSSAvIDI7CiAgICAgIHQucG9zaXRpb24uc2V0KDAuODUsIC0wLjUsIDApOwogICAgICBnLmFkZCh0KTsKICAgICAgYnJlYWs7CiAgICB9CiAgICBjYXNlICJmbGFnIjoKICAgICAgZy5hZGQoYm94KDAuMDgsIDIuMiwgMC4wOCwgbWF0KCIjZTJlOGYwIiksIFswLjk1LCAtMC4yLCAwXSkpOwogICAgICBnLmFkZChib3goMC4wNiwgMC41NSwgMC44NSwgbWF0KCIjMjJkM2VlIiksIFswLjk1LCAwLjcyLCAwLjVdKSk7CiAgICAgIGJyZWFrOwogICAgZGVmYXVsdDoKICAgICAgYnJlYWs7CiAgfQogIHJldHVybiBnOwp9OwoKLyogLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gdGhlIGNsaW1iZXIgKi8KCi8qKiBBc3NlbWJsZXMgdGhlIGZ1bGwgbG93LXBvbHkgY2xpbWJlci4gVW5pdHM6IH4xID0gYSBoZWFkIHdpZHRoLiAqLwpleHBvcnQgY29uc3QgYnVpbGRBdmF0YXJSaWcgPSAoY29uZmlnOiBBdmF0YXJDb25maWcpOiBBdmF0YXJSaWcgPT4gewogIGNvbnN0IGRpc3Bvc2FibGVzOiBBcnJheTx7IGRpc3Bvc2U6ICgpID0+IHZvaWQgfT4gPSBbXTsKICBjb25zdCB0cmFjayA9IDxUIGV4dGVuZHMgVEhSRUUuT2JqZWN0M0Q+KG86IFQpID0+IHsKICAgIG8udHJhdmVyc2UoKGMpID0+IHsKICAgICAgY29uc3QgbSA9IGMgYXMgVEhSRUUuTWVzaDsKICAgICAgaWYgKG0uZ2VvbWV0cnkpIGRpc3Bvc2FibGVzLnB1c2gobS5nZW9tZXRyeSk7CiAgICAgIGlmIChtLm1hdGVyaWFsKSB7CiAgICAgICAgY29uc3QgbGlzdCA9IEFycmF5LmlzQXJyYXkobS5tYXRlcmlhbCkgPyBtLm1hdGVyaWFsIDogW20ubWF0ZXJpYWxdOwogICAgICAgIGZvciAoY29uc3QgbW0gb2YgbGlzdCkgZGlzcG9zYWJsZXMucHVzaChtbSk7CiAgICAgIH0KICAgIH0pOwogICAgcmV0dXJuIG87CiAgfTsKCiAgY29uc3Qgc2tpbiA9IGNvbG9yT2YoInNraW4iLCBjb25maWcuc2tpbiwgIiNlMGFjODYiKTsKICBjb25zdCBqYWNrZXQgPSBjb2xvck9mKCJqYWNrZXQiLCBjb25maWcuamFja2V0LCAiI2RjMjYyNiIpOwogIGNvbnN0IGhhaXIgPSBjb2xvck9mKCJoYWlyQ29sb3IiLCBjb25maWcuaGFpckNvbG9yLCAiIzVhM2EyMiIpOwoKICBjb25zdCBza2luTWF0ID0gbWF0KHNraW4pOwogIGNvbnN0IGphY2tldE1hdCA9IG1hdChqYWNrZXQsIHsgc2hpbnk6IGNvbmZpZy5qYWNrZXQgPT09ICJnb2xkIiB9KTsKICBjb25zdCBqYWNrZXREYXJrID0gbWF0KHNoYWRlKGphY2tldCwgMC43KSk7CiAgY29uc3QgaGFpck1hdCA9IG1hdChoYWlyKTsKICBjb25zdCBwYW50c01hdCA9IG1hdCgiIzFmMjkzNyIpOwogIGNvbnN0IGJvb3RNYXQgPSBtYXQoIiMwZjE3MmEiKTsKCiAgY29uc3Qgcm9vdCA9IG5ldyBUSFJFRS5Hcm91cCgpOwoKICAvLyBUb3JzbyArIGhpcHMKICBjb25zdCB0b3JzbyA9IG5ldyBUSFJFRS5Hcm91cCgpOwogIHRvcnNvLnBvc2l0aW9uLnkgPSAwLjM1OwogIHRvcnNvLmFkZChib3goMS41LCAxLjYsIDAuODUsIGphY2tldE1hdCkpOwogIHRvcnNvLmFkZChib3goMS41NCwgMC4zLCAwLjg4LCBqYWNrZXREYXJrLCBbMCwgLTAuNzIsIDBdKSk7IC8vIGhlbQogIHRvcnNvLmFkZChib3goMC4xNiwgMS4yLCAwLjA2LCBtYXQoc2hhZGUoamFja2V0LCAwLjQ1KSksIFswLCAwLjE1LCAwLjQ0XSkpOyAvLyB6aXAKICBpZiAoY29uZmlnLmphY2tldCA9PT0gImRvd24iIHx8IGNvbmZpZy5qYWNrZXQgPT09ICJnb2xkIikgewogICAgZm9yIChjb25zdCB5IG9mIFswLjUsIDAuMDUsIC0wLjRdKSB7CiAgICAgIHRvcnNvLmFkZChib3goMS41NiwgMC4wOCwgMC45LCBqYWNrZXREYXJrLCBbMCwgeSwgMF0pKTsKICAgIH0KICB9CiAgLy8gQmFja3BhY2sg4oCUIGV2ZXJ5IGNsaW1iZXIgY2FycmllcyBvbmUuCiAgdG9yc28uYWRkKGJveCgxLjAsIDEuMSwgMC40LCBtYXQoIiMzMzQxNTUiKSwgWzAsIDAuMSwgLTAuNl0pKTsKICB0b3Jzby5hZGQoYm94KDEuMDUsIDAuMTQsIDAuNDQsIG1hdCgiIzIyZDNlZSIpLCBbMCwgLTAuMywgLTAuNjFdKSk7CiAgcm9vdC5hZGQodG9yc28pOwoKICAvLyBIZWFkCiAgY29uc3QgaGVhZCA9IG5ldyBUSFJFRS5Hcm91cCgpOwogIGhlYWQucG9zaXRpb24ueSA9IDEuNjI7CiAgY29uc3QgZmFjZVRleCA9IGZhY2VUZXh0dXJlKGNvbmZpZyk7CiAgZGlzcG9zYWJsZXMucHVzaChmYWNlVGV4KTsKICBjb25zdCBzaWRlID0gbWF0KHNraW4pOwogIGNvbnN0IGhlYWRNYXRzOiBUSFJFRS5NYXRlcmlhbFtdID0gWwogICAgc2lkZSwgLy8gK3gKICAgIHNpZGUsIC8vIC14CiAgICBtYXQoc2hhZGUoc2tpbiwgMS4xKSksIC8vICt5CiAgICBtYXQoc2hhZGUoc2tpbiwgMC43NSkpLCAvLyAteQogICAgbmV3IFRIUkVFLk1lc2hMYW1iZXJ0TWF0ZXJpYWwoeyBtYXA6IGZhY2VUZXgsIGZsYXRTaGFkaW5nOiB0cnVlIH0pLCAvLyAreiAoZmFjZSkKICAgIG1hdChzaGFkZShza2luLCAwLjkpKSwgLy8gLXoKICBdOwogIGhlYWQuYWRkKGJveCgxLjE1LCAxLjE1LCAxLjEsIGhlYWRNYXRzKSk7CiAgaGVhZC5hZGQoYm94KDAuMTQsIDAuMzQsIDAuMjQsIHNraW5NYXQsIFstMC42MiwgLTAuMDUsIDBdKSk7IC8vIGVhcnMKICBoZWFkLmFkZChib3goMC4xNCwgMC4zNCwgMC4yNCwgc2tpbk1hdCwgWzAuNjIsIC0wLjA1LCAwXSkpOwogIGhlYWQuYWRkKGhhaXJHcm91cChjb25maWcsIGhhaXJNYXQpKTsKICBoZWFkLmFkZChoZWFkd2Vhckdyb3VwKGNvbmZpZywgamFja2V0KSk7CiAgcm9vdC5hZGQoaGVhZCk7CgogIC8vIE5lY2sKICByb290LmFkZChib3goMC40NSwgMC4zLCAwLjQ1LCBtYXQoc2hhZGUoc2tpbiwgMC44NSkpLCBbMCwgMS4wNSwgMF0pKTsKCiAgLy8gQXJtcyDigJQgcGl2b3QgYXQgdGhlIHNob3VsZGVyIHNvIHRoZXkgY2FuIHN3aW5nLgogIGNvbnN0IG1ha2VBcm0gPSAoc2lnbjogbnVtYmVyKSA9PiB7CiAgICBjb25zdCBnID0gbmV3IFRIUkVFLkdyb3VwKCk7CiAgICBnLnBvc2l0aW9uLnNldChzaWduICogMC45MiwgMS4wLCAwKTsKICAgIGcuYWRkKGJveCgwLjQyLCAxLjEsIDAuNDIsIGphY2tldE1hdCwgWzAsIC0wLjUsIDBdKSk7CiAgICBnLmFkZChib3goMC40NCwgMC4zNiwgMC40NCwgc2tpbk1hdCwgWzAsIC0xLjE4LCAwXSkpOyAvLyBnbG92ZS9oYW5kCiAgICByZXR1cm4gZzsKICB9OwogIGNvbnN0IGFybUwgPSBtYWtlQXJtKC0xKTsKICBjb25zdCBhcm1SID0gbWFrZUFybSgxKTsKICByb290LmFkZChhcm1MLCBhcm1SKTsKCiAgLy8gTGVncwogIGNvbnN0IG1ha2VMZWcgPSAoc2lnbjogbnVtYmVyKSA9PiB7CiAgICBjb25zdCBnID0gbmV3IFRIUkVFLkdyb3VwKCk7CiAgICBnLnBvc2l0aW9uLnNldChzaWduICogMC4zNiwgLTAuNDUsIDApOwogICAgZy5hZGQoYm94KDAuNSwgMS4yLCAwLjUsIHBhbnRzTWF0LCBbMCwgLTAuNiwgMF0pKTsKICAgIGcuYWRkKGJveCgwLjU2LCAwLjI4LCAwLjc1LCBib290TWF0LCBbMCwgLTEuMzIsIDAuMTJdKSk7CiAgICByZXR1cm4gZzsKICB9OwogIGNvbnN0IGxlZ0wgPSBtYWtlTGVnKC0xKTsKICBjb25zdCBsZWdSID0gbWFrZUxlZygxKTsKICByb290LmFkZChsZWdMLCBsZWdSKTsKCiAgcm9vdC5hZGQoYWNjZXNzb3J5Rm9yKGNvbmZpZykpOwoKICB0cmFjayhyb290KTsKICByb290LnBvc2l0aW9uLnkgPSAxLjU7CgogIHJldHVybiB7CiAgICByb290LAogICAgaGVhZCwKICAgIHRvcnNvLAogICAgYXJtTCwKICAgIGFybVIsCiAgICBsZWdMLAogICAgbGVnUiwKICAgIGRpc3Bvc2U6ICgpID0+IGRpc3Bvc2FibGVzLmZvckVhY2goKGQpID0+IGQuZGlzcG9zZSgpKSwKICB9Owp9OwoKLyoqIEJhY2tkcm9wIGNvbG91cnMgcmV1c2VkIGZyb20gdGhlIDJEIGF2YXRhciBiYWNrZHJvcHMuICovCmV4cG9ydCBjb25zdCBiYWNrZHJvcENvbG9ycyA9IChpZDogc3RyaW5nKTogeyB0b3A6IHN0cmluZzsgYm90dG9tOiBzdHJpbmc7IGdyb3VuZDogc3RyaW5nIH0gPT4gewogIHN3aXRjaCAoaWQpIHsKICAgIGNhc2UgImdsYWNpZXIiOgogICAgICByZXR1cm4geyB0b3A6ICIjMGU3NDkwIiwgYm90dG9tOiAiI2E1ZjNmYyIsIGdyb3VuZDogIiM2N2U4ZjkiIH07CiAgICBjYXNlICJzdW5zZXQiOgogICAgICByZXR1cm4geyB0b3A6ICIjZmI3MTg1IiwgYm90dG9tOiAiIzdjMmQxMiIsIGdyb3VuZDogIiM3YzJkMTIiIH07CiAgICBjYXNlICJuaWdodCI6CiAgICAgIHJldHVybiB7IHRvcDogIiMwYjEyMjAiLCBib3R0b206ICIjMTExODI3IiwgZ3JvdW5kOiAiIzExMTgyNyIgfTsKICAgIGNhc2UgImF1cm9yYSI6CiAgICAgIHJldHVybiB7IHRvcDogIiMwYjEyMjAiLCBib3R0b206ICIjMDY1ZjQ2IiwgZ3JvdW5kOiAiIzEzNGU0YSIgfTsKICAgIGNhc2UgInBsYWluIjoKICAgICAgcmV0dXJuIHsgdG9wOiAiIzFlMjkzYiIsIGJvdHRvbTogIiMzMzQxNTUiLCBncm91bmQ6ICIjMzM0MTU1IiB9OwogICAgZGVmYXVsdDoKICAgICAgcmV0dXJuIHsgdG9wOiAiIzBmMTcyYSIsIGJvdHRvbTogIiMxZTI5M2IiLCBncm91bmQ6ICIjMWUyOTNiIiB9OwogIH0KfTsK
+/**
+ * Low-poly, Nintendo 64 flavoured 3D climber avatars.
+ *
+ * Builds a real three.js character rig from the same `AvatarConfig` the SVG
+ * avatars use, so nothing about storage, unlocks or pickers changes — only the
+ * rendering. Everything is boxes and prisms with flat shading and nearest
+ * filtered pixel textures, deliberately chunky like a cartridge-era model.
+ *
+ * This module imports three.js and must only be loaded from the browser
+ * (dynamic `import()` inside an effect), never at SSR module scope.
+ */
+
+import * as THREE from "three";
+import { avatarParts, type AvatarConfig, type AvatarParts } from "@/lib/avatar-builder";
+
+const colorOf = (key: keyof AvatarParts, id: string, fallback: string) =>
+  avatarParts.find((p) => p.key === key)?.options.find((o) => o.id === id)?.color ?? fallback;
+
+/** Flat-shaded, unlit-ish material — the N64 look came from vertex lighting. */
+const mat = (color: THREE.ColorRepresentation, opts: { shiny?: boolean } = {}) =>
+  new THREE.MeshLambertMaterial({
+    color,
+    flatShading: true,
+    emissive: new THREE.Color(color).multiplyScalar(opts.shiny ? 0.25 : 0.12),
+  });
+
+const box = (
+  w: number,
+  h: number,
+  d: number,
+  material: THREE.Material | THREE.Material[],
+  pos: [number, number, number] = [0, 0, 0],
+) => {
+  const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), material);
+  m.position.set(...pos);
+  m.castShadow = true;
+  return m;
+};
+
+const shade = (hex: string, amount: number) => {
+  const c = new THREE.Color(hex);
+  c.multiplyScalar(amount);
+  return `#${c.getHexString()}`;
+};
+
+/* ------------------------------------------------------------- face texture */
+
+const FACE_PX = 64;
+
+/** Pixel-art face painted onto the front of the head cube. */
+const faceTexture = (config: AvatarConfig): THREE.Texture => {
+  const canvas = document.createElement("canvas");
+  canvas.width = FACE_PX;
+  canvas.height = FACE_PX;
+  const ctx = canvas.getContext("2d")!;
+  const skin = colorOf("skin", config.skin, "#e0ac86");
+  const hair = colorOf("hairColor", config.hairColor, "#5a3a22");
+
+  ctx.imageSmoothingEnabled = false;
+  ctx.fillStyle = skin;
+  ctx.fillRect(0, 0, FACE_PX, FACE_PX);
+
+  // Cheek blush + jaw shading, chunky pixel blocks.
+  ctx.fillStyle = shade(skin, 0.86);
+  ctx.fillRect(0, 46, FACE_PX, 18);
+  ctx.fillStyle = shade(skin, 1.12);
+  ctx.fillRect(4, 6, FACE_PX - 8, 8);
+
+  const eye = (x: number) => {
+    switch (config.eyes) {
+      case "happy":
+        ctx.fillStyle = "#101820";
+        ctx.fillRect(x - 6, 28, 4, 4);
+        ctx.fillRect(x - 2, 24, 6, 4);
+        ctx.fillRect(x + 4, 28, 4, 4);
+        break;
+      case "focused":
+        ctx.fillStyle = "#101820";
+        ctx.fillRect(x - 8, 22, 16, 4);
+        ctx.fillStyle = "#f8fafc";
+        ctx.fillRect(x - 7, 27, 14, 7);
+        ctx.fillStyle = "#f59e0b";
+        ctx.fillRect(x - 2, 27, 5, 7);
+        break;
+      default:
+        ctx.fillStyle = "#101820";
+        ctx.fillRect(x - 8, 21, 16, 3);
+        ctx.fillStyle = "#f8fafc";
+        ctx.fillRect(x - 7, 25, 14, 10);
+        ctx.fillStyle = "#38bdf8";
+        ctx.fillRect(x - 3, 25, 6, 10);
+        ctx.fillStyle = "#101820";
+        ctx.fillRect(x - 1, 27, 3, 6);
+        ctx.fillStyle = "#ffffff";
+        ctx.fillRect(x + 2, 26, 2, 2);
+    }
+  };
+
+  if (config.eyes === "shades" || config.eyes === "glacier") {
+    ctx.fillStyle = "#0b1220";
+    ctx.fillRect(6, 22, 52, 14);
+    ctx.fillStyle = config.eyes === "glacier" ? "#4b5563" : "#1f2937";
+    ctx.fillRect(28, 25, 8, 6);
+    ctx.fillStyle = "#ffffff22";
+    ctx.fillRect(10, 25, 14, 4);
+  } else if (config.eyes === "goggles") {
+    ctx.fillStyle = "#0f172a";
+    ctx.fillRect(2, 18, 60, 20);
+    ctx.fillStyle = "#22d3ee";
+    ctx.fillRect(6, 22, 52, 12);
+    ctx.fillStyle = "#ffffff66";
+    ctx.fillRect(10, 24, 18, 4);
+  } else {
+    eye(20);
+    eye(44);
+  }
+
+  // Nose
+  ctx.fillStyle = shade(skin, 0.8);
+  ctx.fillRect(30, 38, 4, 6);
+
+  // Mouth
+  ctx.fillStyle = "#7f1d1d";
+  switch (config.mouth) {
+    case "neutral":
+      ctx.fillRect(26, 50, 12, 3);
+      break;
+    case "grin":
+      ctx.fillRect(23, 48, 18, 6);
+      ctx.fillStyle = "#f8fafc";
+      ctx.fillRect(24, 49, 16, 2);
+      break;
+    case "shout":
+      ctx.fillRect(25, 46, 14, 12);
+      ctx.fillStyle = "#f8fafc";
+      ctx.fillRect(26, 47, 12, 3);
+      break;
+    default:
+      ctx.fillRect(25, 50, 14, 3);
+      ctx.fillRect(23, 47, 3, 3);
+      ctx.fillRect(38, 47, 3, 3);
+  }
+
+  // Beard drawn straight over the lower face pixels.
+  if (config.beard !== "none") {
+    ctx.fillStyle = hair;
+    if (config.beard === "stubble") {
+      ctx.globalAlpha = 0.4;
+      ctx.fillRect(6, 44, 52, 20);
+      ctx.globalAlpha = 1;
+    } else if (config.beard === "goatee") {
+      ctx.fillRect(24, 54, 16, 10);
+    } else {
+      ctx.fillRect(4, 44, 56, 20);
+      ctx.fillStyle = "#7f1d1d";
+      if (config.mouth !== "shout") ctx.fillRect(25, 50, 14, 3);
+    }
+  }
+
+  const tex = new THREE.CanvasTexture(canvas);
+  tex.magFilter = THREE.NearestFilter;
+  tex.minFilter = THREE.NearestFilter;
+  tex.colorSpace = THREE.SRGBColorSpace;
+  return tex;
+};
+
+/* --------------------------------------------------------------- rig parts */
+
+export interface AvatarRig {
+  root: THREE.Group;
+  head: THREE.Group;
+  torso: THREE.Group;
+  armL: THREE.Group;
+  armR: THREE.Group;
+  legL: THREE.Group;
+  legR: THREE.Group;
+  dispose: () => void;
+}
+
+const hairGroup = (config: AvatarConfig, hairMat: THREE.Material) => {
+  const g = new THREE.Group();
+  switch (config.hair) {
+    case "none":
+      break;
+    case "buzz":
+      g.add(box(1.12, 0.14, 1.12, hairMat, [0, 0.56, 0]));
+      break;
+    case "curly":
+      for (const [x, z] of [[-0.36, -0.3], [0.36, -0.3], [-0.36, 0.34], [0.36, 0.34], [0, 0]] as const) {
+        g.add(box(0.5, 0.34, 0.5, hairMat, [x, 0.6, z]));
+      }
+      break;
+    case "ponytail":
+      g.add(box(1.16, 0.24, 1.16, hairMat, [0, 0.6, 0]));
+      g.add(box(0.3, 0.9, 0.3, hairMat, [0, 0.25, -0.68]));
+      break;
+    case "long":
+      g.add(box(1.18, 0.26, 1.18, hairMat, [0, 0.6, 0]));
+      g.add(box(0.2, 1.1, 1.1, hairMat, [-0.6, 0.05, 0]));
+      g.add(box(0.2, 1.1, 1.1, hairMat, [0.6, 0.05, 0]));
+      g.add(box(1.1, 1.0, 0.2, hairMat, [0, 0.05, -0.6]));
+      break;
+    case "mohawk":
+      g.add(box(0.22, 0.62, 1.0, hairMat, [0, 0.86, 0]));
+      break;
+    case "dreads":
+      g.add(box(1.16, 0.2, 1.16, hairMat, [0, 0.6, 0]));
+      for (let i = 0; i < 6; i++) {
+        const a = (i / 6) * Math.PI * 2;
+        g.add(box(0.16, 0.8, 0.16, hairMat, [Math.sin(a) * 0.5, 0.15, Math.cos(a) * 0.5]));
+      }
+      break;
+    default:
+      g.add(box(1.16, 0.3, 1.16, hairMat, [0, 0.55, 0]));
+      g.add(box(0.18, 0.4, 1.1, hairMat, [-0.58, 0.25, 0]));
+      g.add(box(0.18, 0.4, 1.1, hairMat, [0.58, 0.25, 0]));
+  }
+  return g;
+};
+
+const headwearGroup = (config: AvatarConfig, jacket: string) => {
+  const g = new THREE.Group();
+  const j = mat(jacket);
+  switch (config.headwear) {
+    case "beanie":
+      g.add(box(1.24, 0.42, 1.24, j, [0, 0.66, 0]));
+      g.add(box(1.28, 0.16, 1.28, mat(shade(jacket, 0.6)), [0, 0.46, 0]));
+      g.add(box(0.24, 0.24, 0.24, mat("#f8fafc"), [0, 0.94, 0]));
+      break;
+    case "cap":
+      g.add(box(1.24, 0.34, 1.24, j, [0, 0.62, 0]));
+      g.add(box(1.0, 0.1, 0.5, mat(shade(jacket, 0.75)), [0, 0.48, 0.82]));
+      break;
+    case "helmet":
+      g.add(box(1.3, 0.5, 1.3, mat("#f1f5f9"), [0, 0.68, 0]));
+      g.add(box(1.34, 0.12, 1.34, mat("#0ea5e9"), [0, 0.46, 0]));
+      break;
+    case "hood":
+      g.add(box(1.4, 1.2, 1.4, mat(shade(jacket, 0.9)), [0, 0.3, -0.16]));
+      g.add(box(1.1, 1.0, 0.2, mat("#0b1220"), [0, 0.24, 0.62]));
+      break;
+    case "oxygen":
+      g.add(box(1.26, 0.36, 1.26, mat("#f97316"), [0, 0.64, 0]));
+      g.add(box(0.8, 0.5, 0.3, mat("#e2e8f0"), [0, -0.18, 0.58]));
+      g.add(box(0.12, 0.5, 0.12, mat("#475569"), [0.5, -0.5, 0.5]));
+      break;
+    case "crown": {
+      g.add(box(1.24, 0.2, 1.24, mat("#ca8a04", { shiny: true }), [0, 0.58, 0]));
+      for (let i = 0; i < 4; i++) {
+        const a = (i / 4) * Math.PI * 2 + Math.PI / 4;
+        g.add(box(0.18, 0.3, 0.18, mat("#eab308", { shiny: true }), [Math.sin(a) * 0.48, 0.8, Math.cos(a) * 0.48]));
+      }
+      break;
+    }
+    default:
+      break;
+  }
+  return g;
+};
+
+const accessoryFor = (config: AvatarConfig) => {
+  const g = new THREE.Group();
+  switch (config.accessory) {
+    case "poles":
+      g.add(box(0.08, 1.9, 0.08, mat("#94a3b8"), [-0.95, -0.55, 0.1]));
+      g.add(box(0.08, 1.9, 0.08, mat("#94a3b8"), [0.95, -0.55, 0.1]));
+      break;
+    case "axe":
+      g.add(box(0.1, 1.5, 0.1, mat("#0f172a"), [-0.95, -0.5, 0.14]));
+      g.add(box(0.6, 0.12, 0.12, mat("#cbd5e1", { shiny: true }), [-0.7, 0.2, 0.14]));
+      g.add(box(0.1, 0.24, 0.1, mat("#cbd5e1"), [-0.95, -1.3, 0.14]));
+      break;
+    case "rope": {
+      const geo = new THREE.TorusGeometry(0.34, 0.09, 4, 10);
+      const t = new THREE.Mesh(geo, mat("#22d3ee"));
+      t.rotation.y = Math.PI / 2;
+      t.position.set(0.85, -0.5, 0);
+      g.add(t);
+      break;
+    }
+    case "flag":
+      g.add(box(0.08, 2.2, 0.08, mat("#e2e8f0"), [0.95, -0.2, 0]));
+      g.add(box(0.06, 0.55, 0.85, mat("#22d3ee"), [0.95, 0.72, 0.5]));
+      break;
+    default:
+      break;
+  }
+  return g;
+};
+
+/* -------------------------------------------------------------- the climber */
+
+/** Assembles the full low-poly climber. Units: ~1 = a head width. */
+export const buildAvatarRig = (config: AvatarConfig): AvatarRig => {
+  const disposables: Array<{ dispose: () => void }> = [];
+  const track = <T extends THREE.Object3D>(o: T) => {
+    o.traverse((c) => {
+      const m = c as THREE.Mesh;
+      if (m.geometry) disposables.push(m.geometry);
+      if (m.material) {
+        const list = Array.isArray(m.material) ? m.material : [m.material];
+        for (const mm of list) disposables.push(mm);
+      }
+    });
+    return o;
+  };
+
+  const skin = colorOf("skin", config.skin, "#e0ac86");
+  const jacket = colorOf("jacket", config.jacket, "#dc2626");
+  const hair = colorOf("hairColor", config.hairColor, "#5a3a22");
+
+  const skinMat = mat(skin);
+  const jacketMat = mat(jacket, { shiny: config.jacket === "gold" });
+  const jacketDark = mat(shade(jacket, 0.7));
+  const hairMat = mat(hair);
+  const pantsMat = mat("#1f2937");
+  const bootMat = mat("#0f172a");
+
+  const root = new THREE.Group();
+
+  // Torso + hips
+  const torso = new THREE.Group();
+  torso.position.y = 0.35;
+  torso.add(box(1.5, 1.6, 0.85, jacketMat));
+  torso.add(box(1.54, 0.3, 0.88, jacketDark, [0, -0.72, 0])); // hem
+  torso.add(box(0.16, 1.2, 0.06, mat(shade(jacket, 0.45)), [0, 0.15, 0.44])); // zip
+  if (config.jacket === "down" || config.jacket === "gold") {
+    for (const y of [0.5, 0.05, -0.4]) {
+      torso.add(box(1.56, 0.08, 0.9, jacketDark, [0, y, 0]));
+    }
+  }
+  // Backpack — every climber carries one.
+  torso.add(box(1.0, 1.1, 0.4, mat("#334155"), [0, 0.1, -0.6]));
+  torso.add(box(1.05, 0.14, 0.44, mat("#22d3ee"), [0, -0.3, -0.61]));
+  root.add(torso);
+
+  // Head
+  const head = new THREE.Group();
+  head.position.y = 1.62;
+  const faceTex = faceTexture(config);
+  disposables.push(faceTex);
+  const side = mat(skin);
+  const headMats: THREE.Material[] = [
+    side, // +x
+    side, // -x
+    mat(shade(skin, 1.1)), // +y
+    mat(shade(skin, 0.75)), // -y
+    new THREE.MeshLambertMaterial({ map: faceTex, flatShading: true }), // +z (face)
+    mat(shade(skin, 0.9)), // -z
+  ];
+  head.add(box(1.15, 1.15, 1.1, headMats));
+  head.add(box(0.14, 0.34, 0.24, skinMat, [-0.62, -0.05, 0])); // ears
+  head.add(box(0.14, 0.34, 0.24, skinMat, [0.62, -0.05, 0]));
+  head.add(hairGroup(config, hairMat));
+  head.add(headwearGroup(config, jacket));
+  root.add(head);
+
+  // Neck
+  root.add(box(0.45, 0.3, 0.45, mat(shade(skin, 0.85)), [0, 1.05, 0]));
+
+  // Arms — pivot at the shoulder so they can swing.
+  const makeArm = (sign: number) => {
+    const g = new THREE.Group();
+    g.position.set(sign * 0.92, 1.0, 0);
+    g.add(box(0.42, 1.1, 0.42, jacketMat, [0, -0.5, 0]));
+    g.add(box(0.44, 0.36, 0.44, skinMat, [0, -1.18, 0])); // glove/hand
+    return g;
+  };
+  const armL = makeArm(-1);
+  const armR = makeArm(1);
+  root.add(armL, armR);
+
+  // Legs
+  const makeLeg = (sign: number) => {
+    const g = new THREE.Group();
+    g.position.set(sign * 0.36, -0.45, 0);
+    g.add(box(0.5, 1.2, 0.5, pantsMat, [0, -0.6, 0]));
+    g.add(box(0.56, 0.28, 0.75, bootMat, [0, -1.32, 0.12]));
+    return g;
+  };
+  const legL = makeLeg(-1);
+  const legR = makeLeg(1);
+  root.add(legL, legR);
+
+  root.add(accessoryFor(config));
+
+  track(root);
+  root.position.y = 1.5;
+
+  return {
+    root,
+    head,
+    torso,
+    armL,
+    armR,
+    legL,
+    legR,
+    dispose: () => disposables.forEach((d) => d.dispose()),
+  };
+};
+
+/** Backdrop colours reused from the 2D avatar backdrops. */
+export const backdropColors = (id: string): { top: string; bottom: string; ground: string } => {
+  switch (id) {
+    case "glacier":
+      return { top: "#0e7490", bottom: "#a5f3fc", ground: "#67e8f9" };
+    case "sunset":
+      return { top: "#fb7185", bottom: "#7c2d12", ground: "#7c2d12" };
+    case "night":
+      return { top: "#0b1220", bottom: "#111827", ground: "#111827" };
+    case "aurora":
+      return { top: "#0b1220", bottom: "#065f46", ground: "#134e4a" };
+    case "plain":
+      return { top: "#1e293b", bottom: "#334155", ground: "#334155" };
+    default:
+      return { top: "#0f172a", bottom: "#1e293b", ground: "#1e293b" };
+  }
+};

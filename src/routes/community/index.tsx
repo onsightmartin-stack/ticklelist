@@ -1,1 +1,25 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBDb21tdW5pdHlIb21lIGZyb20gIkAvcGFnZXMvY29tbXVuaXR5L0NvbW11bml0eUhvbWUiOwoKY29uc3QgdGl0bGUgPSAiVGlja2xlbGlzdCDigJQgWW91ciBhZHZlbnR1cmUgYnVja2V0bGlzdCBhbmQgcGVha2JhZ2dpbmcgY29tbXVuaXR5ISI7CmNvbnN0IGRlc2NyaXB0aW9uID0KICAiRnJvbSB0aGUgaGlnaHBvaW50IG9mIHRoZSBNYWxkaXZlcyB0byB0aGUgdG9wIG9mIEV2ZXJlc3QsIFZhdGljYW4gQ2l0eSB0byB0aGUgVGFqIE1haGFsIOKAlCBkb2N1bWVudCB5b3VyIGFkdmVudHVyZXMsIHBsYW4gdHJpcHMgd2l0aCBmcmllbmRzIGFuZCBjb21wZXRlIHdpdGggWFAgYW5kIGxldmVscy4iOwoKZXhwb3J0IGNvbnN0IFJvdXRlID0gY3JlYXRlRmlsZVJvdXRlKCIvY29tbXVuaXR5LyIpKHsKICBjb21wb25lbnQ6IENvbW11bml0eUhvbWUsCiAgaGVhZDogKCkgPT4gKHsKICAgIG1ldGE6IFsKICAgICAgeyB0aXRsZSB9LAogICAgICB7IG5hbWU6ICJkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6IGRlc2NyaXB0aW9uIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0aXRsZSIsIGNvbnRlbnQ6IHRpdGxlIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzpkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6IGRlc2NyaXB0aW9uIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0eXBlIiwgY29udGVudDogIndlYnNpdGUiIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp1cmwiLCBjb250ZW50OiAiaHR0cHM6Ly90aWNrbGVsaXN0Lm9yZy9jb21tdW5pdHkiIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzppbWFnZSIsIGNvbnRlbnQ6ICJodHRwczovL3RpY2tsZWxpc3Qub3JnL29nLWltYWdlLXRpY2tsZWxpc3QuanBnIiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6c2l0ZV9uYW1lIiwgY29udGVudDogIlRpY2tsZWxpc3QiIH0sCiAgICAgIHsgbmFtZTogInR3aXR0ZXI6Y2FyZCIsIGNvbnRlbnQ6ICJzdW1tYXJ5X2xhcmdlX2ltYWdlIiB9LAogICAgICB7IG5hbWU6ICJ0d2l0dGVyOmltYWdlIiwgY29udGVudDogImh0dHBzOi8vdGlja2xlbGlzdC5vcmcvb2ctaW1hZ2UtdGlja2xlbGlzdC5qcGciIH0sCiAgICBdLAogICAgbGlua3M6IFt7IHJlbDogImNhbm9uaWNhbCIsIGhyZWY6ICJodHRwczovL3RpY2tsZWxpc3Qub3JnL2NvbW11bml0eSIgfV0sCiAgfSksCn0pOwo=
+import { createFileRoute } from "@tanstack/react-router";
+import CommunityHome from "@/pages/community/CommunityHome";
+
+const title = "Ticklelist — Your adventure bucketlist and peakbagging community!";
+const description =
+  "From the highpoint of the Maldives to the top of Everest, Vatican City to the Taj Mahal — document your adventures, plan trips with friends and compete with XP and levels.";
+
+export const Route = createFileRoute("/community/")({
+  component: CommunityHome,
+  head: () => ({
+    meta: [
+      { title },
+      { name: "description", content: description },
+      { property: "og:title", content: title },
+      { property: "og:description", content: description },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://ticklelist.org/community" },
+      { property: "og:image", content: "https://ticklelist.org/og-image-ticklelist.jpg" },
+      { property: "og:site_name", content: "Ticklelist" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: "https://ticklelist.org/og-image-ticklelist.jpg" },
+    ],
+    links: [{ rel: "canonical", href: "https://ticklelist.org/community" }],
+  }),
+});

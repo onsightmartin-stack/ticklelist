@@ -1,1 +1,26 @@
-aW1wb3J0IHsgY3JlYXRlTWlkZGxld2FyZSB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1zdGFydCI7CgovKioKICogQ2xpZW50LXNpZGUgZnVuY3Rpb24gbWlkZGxld2FyZSB0aGF0IGZvcndhcmRzIHRoZSBjdXJyZW50IFN1cGFiYXNlIHNlc3Npb24ncwogKiBhY2Nlc3MgdG9rZW4gYXMgYW4gQXV0aG9yaXphdGlvbiBoZWFkZXIgb24gZXZlcnkgc2VydmVyLWZ1bmN0aW9uIFJQQywgc28KICogc2VydmVyLXNpZGUgYXV0aCBjaGVja3MgKG1lcmdlLWdvb2dsZS1hY2NvdW50LCBwZWFrYmFnZ2VyLWltcG9ydCkgY2FuCiAqIGlkZW50aWZ5IHRoZSBjYWxsZXIuIFRoZSBTdXBhYmFzZSBjbGllbnQgaXMgaW1wb3J0ZWQgbGF6aWx5IHNvIHRoaXMgbW9kdWxlCiAqIHN0YXlzIHNpZGUtZWZmZWN0LWZyZWUgb24gdGhlIHNlcnZlci93b3JrZXIuCiAqLwpleHBvcnQgY29uc3QgYXR0YWNoU3VwYWJhc2VBdXRoID0gY3JlYXRlTWlkZGxld2FyZSh7IHR5cGU6ICJmdW5jdGlvbiIgfSkuY2xpZW50KAogIGFzeW5jICh7IG5leHQgfSkgPT4gewogICAgbGV0IHRva2VuOiBzdHJpbmcgfCB1bmRlZmluZWQ7CiAgICBpZiAodHlwZW9mIHdpbmRvdyAhPT0gInVuZGVmaW5lZCIpIHsKICAgICAgdHJ5IHsKICAgICAgICBjb25zdCB7IHN1cGFiYXNlIH0gPSBhd2FpdCBpbXBvcnQoIi4vY2xpZW50Iik7CiAgICAgICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZS5hdXRoLmdldFNlc3Npb24oKTsKICAgICAgICB0b2tlbiA9IGRhdGEuc2Vzc2lvbj8uYWNjZXNzX3Rva2VuOwogICAgICB9IGNhdGNoIHsKICAgICAgICB0b2tlbiA9IHVuZGVmaW5lZDsKICAgICAgfQogICAgfQogICAgcmV0dXJuIG5leHQoewogICAgICBoZWFkZXJzOiB0b2tlbiA/IHsgQXV0aG9yaXphdGlvbjogYEJlYXJlciAke3Rva2VufWAgfSA6IHt9LAogICAgfSk7CiAgfSwKKTsK
+import { createMiddleware } from "@tanstack/react-start";
+
+/**
+ * Client-side function middleware that forwards the current Supabase session's
+ * access token as an Authorization header on every server-function RPC, so
+ * server-side auth checks (merge-google-account, peakbagger-import) can
+ * identify the caller. The Supabase client is imported lazily so this module
+ * stays side-effect-free on the server/worker.
+ */
+export const attachSupabaseAuth = createMiddleware({ type: "function" }).client(
+  async ({ next }) => {
+    let token: string | undefined;
+    if (typeof window !== "undefined") {
+      try {
+        const { supabase } = await import("./client");
+        const { data } = await supabase.auth.getSession();
+        token = data.session?.access_token;
+      } catch {
+        token = undefined;
+      }
+    }
+    return next({
+      headers: token ? { Authorization: `Bearer ${token}` } : {},
+    });
+  },
+);

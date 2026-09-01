@@ -1,1 +1,137 @@
-aW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHVzZUxpc3REZW5zaXR5IH0gZnJvbSAiQC9ob29rcy91c2VMaXN0RGVuc2l0eSI7CmltcG9ydCBEZW5zaXR5VG9nZ2xlIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvRGVuc2l0eVRvZ2dsZSI7CmltcG9ydCBTZW8gZnJvbSAiQC9jb21wb25lbnRzL1NlbyI7CmltcG9ydCB7IFBsdXMgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgQ29tbXVuaXR5TGF5b3V0IGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvQ29tbXVuaXR5TGF5b3V0IjsKaW1wb3J0IE1lbWJlcnNPbmx5IGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvTWVtYmVyc09ubHkiOwppbXBvcnQgQWR2ZW50dXJlQ2FyZCBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L0FkdmVudHVyZUNhcmQiOwppbXBvcnQgQWR2ZW50dXJlRm9ybSBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L0FkdmVudHVyZUZvcm0iOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvaG9va3MvdXNlQXV0aCI7CmltcG9ydCB7IHVzZUNvbW11bml0eURhdGEgfSBmcm9tICJAL2hvb2tzL3VzZUNvbW11bml0eURhdGEiOwppbXBvcnQgeyBzdXBhYmFzZSB9IGZyb20gIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudCI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQC9ob29rcy91c2UtdG9hc3QiOwoKY29uc3QgQWR2ZW50dXJlc1BhZ2UgPSAoKSA9PiB7CiAgY29uc3QgeyB1c2VyIH0gPSB1c2VBdXRoKCk7CiAgY29uc3QgeyBhZHZlbnR1cmVzLCBzaWdudXBzLCBwcm9maWxlcywgZmV0Y2hpbmcsIHJlbG9hZCB9ID0gdXNlQ29tbXVuaXR5RGF0YSgpOwogIGNvbnN0IFtzaG93Rm9ybSwgc2V0U2hvd0Zvcm1dID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtkZW5zaXR5LCBzZXREZW5zaXR5XSA9IHVzZUxpc3REZW5zaXR5KCJhZHZlbnR1cmVzIiwgYWR2ZW50dXJlcy5sZW5ndGgpOwoKICBjb25zdCBoYW5kbGVTaWduVXAgPSBhc3luYyAoYWR2ZW50dXJlSWQ6IHN0cmluZywgc3RhdHVzOiAiaW50ZXJlc3RlZCIgfCAiam9pbmluZyIpID0+IHsKICAgIGlmICghdXNlcikgcmV0dXJuOwogICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgLmZyb20oImFkdmVudHVyZV9zaWdudXBzIikKICAgICAgLnVwc2VydCh7IGFkdmVudHVyZV9pZDogYWR2ZW50dXJlSWQsIHVzZXJfaWQ6IHVzZXIuaWQsIHN0YXR1cyB9LCB7IG9uQ29uZmxpY3Q6ICJhZHZlbnR1cmVfaWQsdXNlcl9pZCIgfSk7CiAgICBpZiAoZXJyb3IpIHsKICAgICAgdG9hc3QoeyB0aXRsZTogIkNvdWxkIG5vdCBzaWduIHVwIiwgZGVzY3JpcHRpb246IGVycm9yLm1lc3NhZ2UsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHJlbG9hZCgpOwogIH07CgogIGNvbnN0IGhhbmRsZVdpdGhkcmF3ID0gYXN5bmMgKGFkdmVudHVyZUlkOiBzdHJpbmcpID0+IHsKICAgIGlmICghdXNlcikgcmV0dXJuOwogICAgYXdhaXQgc3VwYWJhc2UuZnJvbSgiYWR2ZW50dXJlX3NpZ251cHMiKS5kZWxldGUoKS5lcSgiYWR2ZW50dXJlX2lkIiwgYWR2ZW50dXJlSWQpLmVxKCJ1c2VyX2lkIiwgdXNlci5pZCk7CiAgICByZWxvYWQoKTsKICB9OwoKICBjb25zdCBoYW5kbGVEZWxldGUgPSBhc3luYyAoYWR2ZW50dXJlSWQ6IHN0cmluZykgPT4gewogICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgiYWR2ZW50dXJlcyIpLmRlbGV0ZSgpLmVxKCJpZCIsIGFkdmVudHVyZUlkKTsKICAgIGlmIChlcnJvcikgewogICAgICB0b2FzdCh7IHRpdGxlOiAiQ291bGQgbm90IGRlbGV0ZSIsIGRlc2NyaXB0aW9uOiBlcnJvci5tZXNzYWdlLCB2YXJpYW50OiAiZGVzdHJ1Y3RpdmUiIH0pOwogICAgICByZXR1cm47CiAgICB9CiAgICB0b2FzdCh7IHRpdGxlOiAiQWR2ZW50dXJlIHJlbW92ZWQiIH0pOwogICAgcmVsb2FkKCk7CiAgfTsKCiAgaWYgKCF1c2VyKSB7CiAgICByZXR1cm4gKAogICAgICA8Q29tbXVuaXR5TGF5b3V0PgogICAgICA8U2VvCiAgICAgICAgdGl0bGU9IkNsaW1iaW5nIFBhcnRuZXJzICYgUGxhbm5lZCBUcmlwcyDigJQgVGlja2xlbGlzdCIKICAgICAgICBkZXNjcmlwdGlvbj0iQnJvd3NlIHVwY29taW5nIGV4cGVkaXRpb25zIHBvc3RlZCBieSBUaWNrbGVsaXN0IG1lbWJlcnMgYW5kIHNpZ24gdXAgYXMgaW50ZXJlc3RlZCBvciBjb21taXR0ZWQgdG8gam9pbiB0aGUgcm9wZSB0ZWFtLiIKICAgICAgICBub2luZGV4CiAgICAgIC8+CiAgICAgICAgPE1lbWJlcnNPbmx5IHRpdGxlPSJBZHZlbnR1cmVzIGFyZSBtZW1iZXJzIG9ubHkiIGRlc2NyaXB0aW9uPSJTaWduIGluIHRvIHNlZSBwbGFubmVkIHRyaXBzIGFuZCBzaWduIHVwIGFzIGludGVyZXN0ZWQgb3IgY29tbWl0dGVkLiIgLz4KICAgICAgPC9Db21tdW5pdHlMYXlvdXQ+CiAgICApOwogIH0KCiAgcmV0dXJuICgKICAgIDxDb21tdW5pdHlMYXlvdXQ+CiAgICAgIDxTZW8KICAgICAgICB0aXRsZT0iQ2xpbWJpbmcgUGFydG5lcnMgJiBQbGFubmVkIFRyaXBzIOKAlCBUaWNrbGVsaXN0IgogICAgICAgIGRlc2NyaXB0aW9uPSJCcm93c2UgdXBjb21pbmcgZXhwZWRpdGlvbnMgcG9zdGVkIGJ5IFRpY2tsZWxpc3QgbWVtYmVycyBhbmQgc2lnbiB1cCBhcyBpbnRlcmVzdGVkIG9yIGNvbW1pdHRlZCB0byBqb2luIHRoZSByb3BlIHRlYW0uIgogICAgICAgIG5vaW5kZXgKICAgICAgLz4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIG1iLTYiPgogICAgICAgIDxoMSBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTJ4bCB0cmFja2luZy13aWRlciI+UGxhbiAvIEpvaW4gYWR2ZW50dXJlczwvaDE+CiAgICAgICAge3VzZXIgJiYgKAogICAgICAgICAgPEJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBzZXRTaG93Rm9ybSgodikgPT4gIXYpfT4KICAgICAgICAgICAgPFBsdXMgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTEiIC8+IFBvc3QgYW4gYWR2ZW50dXJlCiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICApfQogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTYiPgogICAgICAgIHtzaG93Rm9ybSAmJiB1c2VyICYmICgKICAgICAgICAgIDxBZHZlbnR1cmVGb3JtIHVzZXJJZD17dXNlci5pZH0gb25DcmVhdGVkPXsoKSA9PiB7IHNldFNob3dGb3JtKGZhbHNlKTsgcmVsb2FkKCk7IH19IG9uQ2FuY2VsPXsoKSA9PiBzZXRTaG93Rm9ybShmYWxzZSl9IC8+CiAgICAgICAgKX0KCiAgICAgICAge2ZldGNoaW5nID8gKAogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgdGV4dC1zbSI+TG9hZGluZyBhZHZlbnR1cmVz4oCmPC9wPgogICAgICAgICkgOiBhZHZlbnR1cmVzLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItZGFzaGVkIGJvcmRlci1ib3JkZXIgcC0xMCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlciB0ZXh0LWxnIj5ObyBhZHZlbnR1cmVzIHBvc3RlZCB5ZXQ8L2gyPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG10LTIiPkJlIHRoZSBmaXJzdCDigJQgcG9zdCBhIHBlYWsgeW91IHdhbnQgdG8gY2xpbWIgYW5kIHNlZSB3aG8gam9pbnMuPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKSA6ICgKICAgICAgICAgIDw+CiAgICAgICAgICAgIHthZHZlbnR1cmVzLmxlbmd0aCA+IDMgJiYgKAogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWVuZCI+CiAgICAgICAgICAgICAgICA8RGVuc2l0eVRvZ2dsZSB2YWx1ZT17ZGVuc2l0eX0gb25DaGFuZ2U9e3NldERlbnNpdHl9IC8+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CiAgICAgICAgICAgIHtkZW5zaXR5ICE9PSAibGFyZ2UiID8gKAogICAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9ImdyaWQgc206Z3JpZC1jb2xzLTIgZ2FwLTIiPgogICAgICAgICAgICAgICAge2FkdmVudHVyZXMubWFwKChhKSA9PiAoCiAgICAgICAgICAgICAgICAgIDxsaSBrZXk9e2EuaWR9PgogICAgICAgICAgICAgICAgICAgIDxBZHZlbnR1cmVDYXJkCiAgICAgICAgICAgICAgICAgICAgICBkZW5zaXR5PXtkZW5zaXR5fQogICAgICAgICAgICAgICAgICAgICAgYWR2ZW50dXJlPXthfQogICAgICAgICAgICAgICAgICAgICAgc2lnbnVwcz17c2lnbnVwcy5maWx0ZXIoKHMpID0+IHMuYWR2ZW50dXJlX2lkID09PSBhLmlkKX0KICAgICAgICAgICAgICAgICAgICAgIHByb2ZpbGVzPXtwcm9maWxlc30KICAgICAgICAgICAgICAgICAgICAgIGN1cnJlbnRVc2VySWQ9e3VzZXI/LmlkID8/IG51bGx9CiAgICAgICAgICAgICAgICAgICAgICBvblNpZ25VcD17aGFuZGxlU2lnblVwfQogICAgICAgICAgICAgICAgICAgICAgb25XaXRoZHJhdz17aGFuZGxlV2l0aGRyYXd9CiAgICAgICAgICAgICAgICAgICAgICBvbkRlbGV0ZT17aGFuZGxlRGVsZXRlfQogICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICApIDogKAogICAgICAgICAgICAgIGFkdmVudHVyZXMubWFwKChhKSA9PiAoCiAgICAgICAgICAgICAgICA8QWR2ZW50dXJlQ2FyZAogICAgICAgICAgICAgICAgICBrZXk9e2EuaWR9CiAgICAgICAgICAgICAgICAgIGFkdmVudHVyZT17YX0KICAgICAgICAgICAgICAgICAgc2lnbnVwcz17c2lnbnVwcy5maWx0ZXIoKHMpID0+IHMuYWR2ZW50dXJlX2lkID09PSBhLmlkKX0KICAgICAgICAgICAgICAgICAgcHJvZmlsZXM9e3Byb2ZpbGVzfQogICAgICAgICAgICAgICAgICBjdXJyZW50VXNlcklkPXt1c2VyPy5pZCA/PyBudWxsfQogICAgICAgICAgICAgICAgICBvblNpZ25VcD17aGFuZGxlU2lnblVwfQogICAgICAgICAgICAgICAgICBvbldpdGhkcmF3PXtoYW5kbGVXaXRoZHJhd30KICAgICAgICAgICAgICAgICAgb25EZWxldGU9e2hhbmRsZURlbGV0ZX0KICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgKX0KICAgICAgICAgIDwvPgogICAgICAgICl9CiAgICAgIDwvZGl2PgogICAgPC9Db21tdW5pdHlMYXlvdXQ+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IEFkdmVudHVyZXNQYWdlOwo=
+import { useState } from "react";
+import { useListDensity } from "@/hooks/useListDensity";
+import DensityToggle from "@/components/community/DensityToggle";
+import Seo from "@/components/Seo";
+import { Plus } from "lucide-react";
+import CommunityLayout from "@/components/community/CommunityLayout";
+import MembersOnly from "@/components/community/MembersOnly";
+import AdventureCard from "@/components/community/AdventureCard";
+import AdventureForm from "@/components/community/AdventureForm";
+import { Button } from "@/components/ui/button";
+import { useAuth } from "@/hooks/useAuth";
+import { useCommunityData } from "@/hooks/useCommunityData";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "@/hooks/use-toast";
+
+const AdventuresPage = () => {
+  const { user } = useAuth();
+  const { adventures, signups, profiles, fetching, reload } = useCommunityData();
+  const [showForm, setShowForm] = useState(false);
+  const [density, setDensity] = useListDensity("adventures", adventures.length);
+
+  const handleSignUp = async (adventureId: string, status: "interested" | "joining") => {
+    if (!user) return;
+    const { error } = await supabase
+      .from("adventure_signups")
+      .upsert({ adventure_id: adventureId, user_id: user.id, status }, { onConflict: "adventure_id,user_id" });
+    if (error) {
+      toast({ title: "Could not sign up", description: error.message, variant: "destructive" });
+      return;
+    }
+    reload();
+  };
+
+  const handleWithdraw = async (adventureId: string) => {
+    if (!user) return;
+    await supabase.from("adventure_signups").delete().eq("adventure_id", adventureId).eq("user_id", user.id);
+    reload();
+  };
+
+  const handleDelete = async (adventureId: string) => {
+    const { error } = await supabase.from("adventures").delete().eq("id", adventureId);
+    if (error) {
+      toast({ title: "Could not delete", description: error.message, variant: "destructive" });
+      return;
+    }
+    toast({ title: "Adventure removed" });
+    reload();
+  };
+
+  if (!user) {
+    return (
+      <CommunityLayout>
+      <Seo
+        title="Climbing Partners & Planned Trips — Ticklelist"
+        description="Browse upcoming expeditions posted by Ticklelist members and sign up as interested or committed to join the rope team."
+        noindex
+      />
+        <MembersOnly title="Adventures are members only" description="Sign in to see planned trips and sign up as interested or committed." />
+      </CommunityLayout>
+    );
+  }
+
+  return (
+    <CommunityLayout>
+      <Seo
+        title="Climbing Partners & Planned Trips — Ticklelist"
+        description="Browse upcoming expeditions posted by Ticklelist members and sign up as interested or committed to join the rope team."
+        noindex
+      />
+
+      <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
+        <h1 className="font-display text-2xl tracking-wider">Plan / Join adventures</h1>
+        {user && (
+          <Button onClick={() => setShowForm((v) => !v)}>
+            <Plus className="w-4 h-4 mr-1" /> Post an adventure
+          </Button>
+        )}
+      </div>
+
+      <div className="space-y-6">
+        {showForm && user && (
+          <AdventureForm userId={user.id} onCreated={() => { setShowForm(false); reload(); }} onCancel={() => setShowForm(false)} />
+        )}
+
+        {fetching ? (
+          <p className="text-muted-foreground text-sm">Loading adventures…</p>
+        ) : adventures.length === 0 ? (
+          <div className="rounded-lg border border-dashed border-border p-10 text-center">
+            <h2 className="font-display tracking-wider text-lg">No adventures posted yet</h2>
+            <p className="text-sm text-muted-foreground mt-2">Be the first — post a peak you want to climb and see who joins.</p>
+          </div>
+        ) : (
+          <>
+            {adventures.length > 3 && (
+              <div className="flex items-center justify-end">
+                <DensityToggle value={density} onChange={setDensity} />
+              </div>
+            )}
+            {density !== "large" ? (
+              <ul className="grid sm:grid-cols-2 gap-2">
+                {adventures.map((a) => (
+                  <li key={a.id}>
+                    <AdventureCard
+                      density={density}
+                      adventure={a}
+                      signups={signups.filter((s) => s.adventure_id === a.id)}
+                      profiles={profiles}
+                      currentUserId={user?.id ?? null}
+                      onSignUp={handleSignUp}
+                      onWithdraw={handleWithdraw}
+                      onDelete={handleDelete}
+                    />
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              adventures.map((a) => (
+                <AdventureCard
+                  key={a.id}
+                  adventure={a}
+                  signups={signups.filter((s) => s.adventure_id === a.id)}
+                  profiles={profiles}
+                  currentUserId={user?.id ?? null}
+                  onSignUp={handleSignUp}
+                  onWithdraw={handleWithdraw}
+                  onDelete={handleDelete}
+                />
+              ))
+            )}
+          </>
+        )}
+      </div>
+    </CommunityLayout>
+  );
+};
+
+export default AdventuresPage;

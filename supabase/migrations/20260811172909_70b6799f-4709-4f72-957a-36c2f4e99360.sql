@@ -1,1 +1,1 @@
-dXBkYXRlIHB1YmxpYy55b3V0dWJlX2NsaW1icyBzZXQgc3RhdHVzID0gJ2NvbmZpcm1lZCcsIHBlYWtfbmFtZSA9ICdCZW4gTmV2aXMnLCBjb3VudHJ5ID0gJ1VuaXRlZCBLaW5nZG9tJyB3aGVyZSB2aWRlb19pZCA9ICctSUxyTF9BdzJQayc7
+update public.youtube_climbs set status = 'confirmed', peak_name = 'Ben Nevis', country = 'United Kingdom' where video_id = '-ILrL_Aw2Pk';

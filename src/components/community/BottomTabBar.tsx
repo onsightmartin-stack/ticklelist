@@ -1,1 +1,69 @@
-aW1wb3J0IHsgTmF2TGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBIb21lLCBNb3VudGFpbiwgVXNlcnMsIFBsdXMgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwoKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvaG9va3MvdXNlQXV0aCI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiOwoKdHlwZSBUYWIgPSB7IHRvOiBzdHJpbmc7IGxhYmVsOiBzdHJpbmc7IGljb246IHR5cGVvZiBIb21lOyBlbmQ/OiBib29sZWFuIH07Cgpjb25zdCB0YWJzOiBUYWJbXSA9IFsKICB7IHRvOiAiL2NvbW11bml0eSIsIGxhYmVsOiAiRmVlZCIsIGljb246IEhvbWUsIGVuZDogdHJ1ZSB9LAogIHsgdG86ICIvY29tbXVuaXR5L2FzY2VudHMiLCBsYWJlbDogIkFsbCBhc2NlbnRzIiwgaWNvbjogTW91bnRhaW4gfSwKICB7IHRvOiAiL2NvbW11bml0eS9tZW1iZXJzIiwgbGFiZWw6ICJNZW1iZXJzIiwgaWNvbjogVXNlcnMgfSwKXTsKCi8qKgogKiBOYXRpdmUtYXBwIHN0eWxlIGJvdHRvbSB0YWIgYmFyLiBNb2JpbGUgb25seSDigJQgZGVza3RvcCBrZWVwcyB0aGUgaGVhZGVyIG5hdi4KICovCmNvbnN0IEJvdHRvbVRhYkJhciA9ICgpID0+IHsKICBjb25zdCB7IHVzZXIgfSA9IHVzZUF1dGgoKTsKCiAgcmV0dXJuICgKICAgIDxuYXYKICAgICAgYXJpYS1sYWJlbD0iUHJpbWFyeSIKICAgICAgY2xhc3NOYW1lPSJtZDpoaWRkZW4gZml4ZWQgYm90dG9tLTAgaW5zZXQteC0wIHotNTAgYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBiZy1iYWNrZ3JvdW5kLzk1IGJhY2tkcm9wLWJsdXItbWQiCiAgICAgIHN0eWxlPXt7IHBhZGRpbmdCb3R0b206ICJlbnYoc2FmZS1hcmVhLWluc2V0LWJvdHRvbSkiIH19CiAgICA+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBncmlkIGdyaWQtY29scy01IGl0ZW1zLWVuZCI+CiAgICAgICAge3RhYnMuc2xpY2UoMCwgMikubWFwKCh0KSA9PiAoCiAgICAgICAgICA8VGFiTGluayBrZXk9e3QudG99IHRhYj17dH0gLz4KICAgICAgICApKX0KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgPE5hdkxpbmsKICAgICAgICAgICAgdG89e3VzZXIgPyAiL2NvbW11bml0eS9hc2NlbnRzP25ldz0xIiA6ICIvYXV0aCJ9CiAgICAgICAgICAgIGFyaWEtbGFiZWw9IkxvZyBhbiBhc2NlbnQiCiAgICAgICAgICAgIGNsYXNzTmFtZT0iLW10LTUgaC0xMiB3LTEyIHJvdW5kZWQtZnVsbCBiZy1wcmltYXJ5IHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIGdyaWQgcGxhY2UtaXRlbXMtY2VudGVyIHNoYWRvdy1sZyBzaGFkb3ctcHJpbWFyeS8zMCBhY3RpdmU6c2NhbGUtOTUgdHJhbnNpdGlvbi10cmFuc2Zvcm0iCiAgICAgICAgICA+CiAgICAgICAgICAgIDxQbHVzIGNsYXNzTmFtZT0idy02IGgtNiIgLz4KICAgICAgICAgIDwvTmF2TGluaz4KICAgICAgICA8L2Rpdj4KCiAgICAgICAge3RhYnMuc2xpY2UoMikubWFwKCh0KSA9PiAoCiAgICAgICAgICA8VGFiTGluayBrZXk9e3QudG99IHRhYj17dH0gLz4KICAgICAgICApKX0KICAgICAgPC9kaXY+CiAgICA8L25hdj4KICApOwp9OwoKY29uc3QgVGFiTGluayA9ICh7IHRhYiB9OiB7IHRhYjogVGFiIH0pID0+IHsKICBjb25zdCBJY29uID0gdGFiLmljb247CiAgcmV0dXJuICgKICAgIDxOYXZMaW5rCiAgICAgIHRvPXt0YWIudG99CiAgICAgIGVuZD17dGFiLmVuZH0KICAgICAgY2xhc3NOYW1lPXsoeyBpc0FjdGl2ZSB9OiB7IGlzQWN0aXZlOiBib29sZWFuIH0pID0+CiAgICAgICAgY24oCiAgICAgICAgICAiZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIgZ2FwLTAuNSBweS0yIHB4LTEgdGV4dC1bMTBweF0gdHJhY2tpbmctd2lkZSB3aGl0ZXNwYWNlLW5vd3JhcCB0cmFuc2l0aW9uLWNvbG9ycyIsCiAgICAgICAgICBpc0FjdGl2ZSA/ICJ0ZXh0LXByaW1hcnkiIDogInRleHQtbXV0ZWQtZm9yZWdyb3VuZCIsCiAgICAgICAgKQogICAgICB9CiAgICA+CiAgICAgIDxJY29uIGNsYXNzTmFtZT0idy01IGgtNSIgLz4KICAgICAgPHNwYW4+e3RhYi5sYWJlbH08L3NwYW4+CiAgICA8L05hdkxpbms+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IEJvdHRvbVRhYkJhcjsK
+import { NavLink } from "@/lib/router-compat";
+import { Home, Mountain, Users, Plus } from "lucide-react";
+
+import { useAuth } from "@/hooks/useAuth";
+import { cn } from "@/lib/utils";
+
+type Tab = { to: string; label: string; icon: typeof Home; end?: boolean };
+
+const tabs: Tab[] = [
+  { to: "/community", label: "Feed", icon: Home, end: true },
+  { to: "/community/ascents", label: "All ascents", icon: Mountain },
+  { to: "/community/members", label: "Members", icon: Users },
+];
+
+/**
+ * Native-app style bottom tab bar. Mobile only — desktop keeps the header nav.
+ */
+const BottomTabBar = () => {
+  const { user } = useAuth();
+
+  return (
+    <nav
+      aria-label="Primary"
+      className="md:hidden fixed bottom-0 inset-x-0 z-50 border-t border-border bg-background/95 backdrop-blur-md"
+      style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
+    >
+      <div className="relative grid grid-cols-5 items-end">
+        {tabs.slice(0, 2).map((t) => (
+          <TabLink key={t.to} tab={t} />
+        ))}
+
+        <div className="flex justify-center">
+          <NavLink
+            to={user ? "/community/ascents?new=1" : "/auth"}
+            aria-label="Log an ascent"
+            className="-mt-5 h-12 w-12 rounded-full bg-primary text-primary-foreground grid place-items-center shadow-lg shadow-primary/30 active:scale-95 transition-transform"
+          >
+            <Plus className="w-6 h-6" />
+          </NavLink>
+        </div>
+
+        {tabs.slice(2).map((t) => (
+          <TabLink key={t.to} tab={t} />
+        ))}
+      </div>
+    </nav>
+  );
+};
+
+const TabLink = ({ tab }: { tab: Tab }) => {
+  const Icon = tab.icon;
+  return (
+    <NavLink
+      to={tab.to}
+      end={tab.end}
+      className={({ isActive }: { isActive: boolean }) =>
+        cn(
+          "flex flex-col items-center gap-0.5 py-2 px-1 text-[10px] tracking-wide whitespace-nowrap transition-colors",
+          isActive ? "text-primary" : "text-muted-foreground",
+        )
+      }
+    >
+      <Icon className="w-5 h-5" />
+      <span>{tab.label}</span>
+    </NavLink>
+  );
+};
+
+export default BottomTabBar;

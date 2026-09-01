@@ -1,1 +1,17 @@
-Q1JFQVRFIEVYVEVOU0lPTiBJRiBOT1QgRVhJU1RTIHBnX2Nyb247CkNSRUFURSBFWFRFTlNJT04gSUYgTk9UIEVYSVNUUyBwZ19uZXQ7CgpTRUxFQ1QgY3Jvbi51bnNjaGVkdWxlKCdkYWlseS1wZWFrYmFnZ2VyLXNjcmFwZScpIFdIRVJFIEVYSVNUUyAoU0VMRUNUIDEgRlJPTSBjcm9uLmpvYiBXSEVSRSBqb2JuYW1lID0gJ2RhaWx5LXBlYWtiYWdnZXItc2NyYXBlJyk7CgpTRUxFQ1QgY3Jvbi5zY2hlZHVsZSgKICAnZGFpbHktcGVha2JhZ2dlci1zY3JhcGUnLAogICcyMCAzICogKiAqJywKICAkJAogIFNFTEVDVCBuZXQuaHR0cF9wb3N0KAogICAgdXJsIDo9ICdodHRwczovL3RpY2tsZWxpc3Qub3JnL2FwaS9wdWJsaWMvaG9va3Mvc2NyYXBlLXBlYWtiYWdnZXI/bGltaXQ9MTInLAogICAgaGVhZGVycyA6PSAneyJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIsICJhcGlrZXkiOiAiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW5ONGFuZHZkWE4yYUdoMGNuTmlhbVZ2YjJacklpd2ljbTlzWlNJNkltRnViMjRpTENKcFlYUWlPakUzTnpRMU5UTTFNVGtzSW1WNGNDSTZNakE1TURFeU9UVXhPWDAud3dzbllRY2xwU2JVZG9ETV9pNkRrUGxicFl5T2p0MFlRNWFkY3NFOEwwRSJ9Jzo6anNvbmIsCiAgICBib2R5IDo9ICd7InNvdXJjZSI6ICJjcm9uIn0nOjpqc29uYiwKICAgIHRpbWVvdXRfbWlsbGlzZWNvbmRzIDo9IDEyMDAwMAogICk7CiAgJCQKKTs=
+CREATE EXTENSION IF NOT EXISTS pg_cron;
+CREATE EXTENSION IF NOT EXISTS pg_net;
+
+SELECT cron.unschedule('daily-peakbagger-scrape') WHERE EXISTS (SELECT 1 FROM cron.job WHERE jobname = 'daily-peakbagger-scrape');
+
+SELECT cron.schedule(
+  'daily-peakbagger-scrape',
+  '20 3 * * *',
+  $$
+  SELECT net.http_post(
+    url := 'https://ticklelist.org/api/public/hooks/scrape-peakbagger?limit=12',
+    headers := '{"Content-Type": "application/json", "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN4andvdXN2aGh0cnNiamVvb2ZrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ1NTM1MTksImV4cCI6MjA5MDEyOTUxOX0.wwsnYQclpSbUdoDM_i6DkPlbpYyOjt0YQ5adcsE8L0E"}'::jsonb,
+    body := '{"source": "cron"}'::jsonb,
+    timeout_milliseconds := 120000
+  );
+  $$
+);

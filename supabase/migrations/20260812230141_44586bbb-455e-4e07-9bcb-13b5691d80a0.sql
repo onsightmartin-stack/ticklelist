@@ -1,1 +1,76 @@
-Q1JFQVRFIFRBQkxFIHB1YmxpYy5jb250ZW50X3JlcG9ydHMgKAogIGlkIHV1aWQgTk9UIE5VTEwgREVGQVVMVCBnZW5fcmFuZG9tX3V1aWQoKSBQUklNQVJZIEtFWSwKICByZXBvcnRlcl9pZCB1dWlkIE5PVCBOVUxMIFJFRkVSRU5DRVMgYXV0aC51c2VycyhpZCkgT04gREVMRVRFIENBU0NBREUsCiAgdGFyZ2V0X3R5cGUgdGV4dCBOT1QgTlVMTCwKICB0YXJnZXRfaWQgdXVpZCBOT1QgTlVMTCwKICByZWFzb24gdGV4dCBOT1QgTlVMTCwKICBkZXRhaWxzIHRleHQsCiAgc3RhdHVzIHRleHQgTk9UIE5VTEwgREVGQVVMVCAnb3BlbicsCiAgcmV2aWV3ZWRfYnkgdXVpZCBSRUZFUkVOQ0VTIGF1dGgudXNlcnMoaWQpIE9OIERFTEVURSBTRVQgTlVMTCwKICByZXZpZXdlZF9hdCB0aW1lc3RhbXAgd2l0aCB0aW1lIHpvbmUsCiAgY3JlYXRlZF9hdCB0aW1lc3RhbXAgd2l0aCB0aW1lIHpvbmUgTk9UIE5VTEwgREVGQVVMVCBub3coKSwKICB1cGRhdGVkX2F0IHRpbWVzdGFtcCB3aXRoIHRpbWUgem9uZSBOT1QgTlVMTCBERUZBVUxUIG5vdygpLAogIFVOSVFVRSAocmVwb3J0ZXJfaWQsIHRhcmdldF90eXBlLCB0YXJnZXRfaWQpCik7CgpDUkVBVEUgSU5ERVggY29udGVudF9yZXBvcnRzX3N0YXR1c19pZHggT04gcHVibGljLmNvbnRlbnRfcmVwb3J0cyAoc3RhdHVzLCBjcmVhdGVkX2F0IERFU0MpOwoKR1JBTlQgU0VMRUNULCBJTlNFUlQsIFVQREFURSBPTiBwdWJsaWMuY29udGVudF9yZXBvcnRzIFRPIGF1dGhlbnRpY2F0ZWQ7CkdSQU5UIEFMTCBPTiBwdWJsaWMuY29udGVudF9yZXBvcnRzIFRPIHNlcnZpY2Vfcm9sZTsKCkFMVEVSIFRBQkxFIHB1YmxpYy5jb250ZW50X3JlcG9ydHMgRU5BQkxFIFJPVyBMRVZFTCBTRUNVUklUWTsKCkNSRUFURSBQT0xJQ1kgIk1lbWJlcnMgY2FuIHJlcG9ydCBjb250ZW50IgpPTiBwdWJsaWMuY29udGVudF9yZXBvcnRzIEZPUiBJTlNFUlQgVE8gYXV0aGVudGljYXRlZApXSVRIIENIRUNLICgKICBhdXRoLnVpZCgpID0gcmVwb3J0ZXJfaWQKICBBTkQgdGFyZ2V0X3R5cGUgSU4gKCdwb3N0JywnY29tbWVudCcpCiAgQU5EIHJlYXNvbiBJTiAoJ3NwYW0nLCdoYXJhc3NtZW50JywnbnVkaXR5JywndmlvbGVuY2UnLCdtaXNpbmZvcm1hdGlvbicsJ290aGVyJykKICBBTkQgc3RhdHVzID0gJ29wZW4nCik7CgpDUkVBVEUgUE9MSUNZICJSZXBvcnRlcnMgY2FuIHZpZXcgdGhlaXIgb3duIHJlcG9ydHMiCk9OIHB1YmxpYy5jb250ZW50X3JlcG9ydHMgRk9SIFNFTEVDVCBUTyBhdXRoZW50aWNhdGVkClVTSU5HIChhdXRoLnVpZCgpID0gcmVwb3J0ZXJfaWQpOwoKQ1JFQVRFIFBPTElDWSAiQWRtaW5zIGNhbiB2aWV3IGFsbCByZXBvcnRzIgpPTiBwdWJsaWMuY29udGVudF9yZXBvcnRzIEZPUiBTRUxFQ1QgVE8gYXV0aGVudGljYXRlZApVU0lORyAocHVibGljLmhhc19yb2xlKGF1dGgudWlkKCksICdhZG1pbic6OmFwcF9yb2xlKSk7CgpDUkVBVEUgUE9MSUNZICJBZG1pbnMgY2FuIHJldmlldyByZXBvcnRzIgpPTiBwdWJsaWMuY29udGVudF9yZXBvcnRzIEZPUiBVUERBVEUgVE8gYXV0aGVudGljYXRlZApVU0lORyAocHVibGljLmhhc19yb2xlKGF1dGgudWlkKCksICdhZG1pbic6OmFwcF9yb2xlKSkKV0lUSCBDSEVDSyAocHVibGljLmhhc19yb2xlKGF1dGgudWlkKCksICdhZG1pbic6OmFwcF9yb2xlKSk7CgpDUkVBVEUgVFJJR0dFUiB1cGRhdGVfY29udGVudF9yZXBvcnRzX3VwZGF0ZWRfYXQKQkVGT1JFIFVQREFURSBPTiBwdWJsaWMuY29udGVudF9yZXBvcnRzCkZPUiBFQUNIIFJPVyBFWEVDVVRFIEZVTkNUSU9OIHB1YmxpYy51cGRhdGVfdXBkYXRlZF9hdF9jb2x1bW4oKTsKCkNSRUFURSBPUiBSRVBMQUNFIEZVTkNUSU9OIHB1YmxpYy52YWxpZGF0ZV9jb250ZW50X3JlcG9ydCgpClJFVFVSTlMgdHJpZ2dlcgpMQU5HVUFHRSBwbHBnc3FsClNFQ1VSSVRZIERFRklORVIKU0VUIHNlYXJjaF9wYXRoIFRPICdwdWJsaWMnCkFTICQkCkJFR0lOCiAgSUYgTkVXLnRhcmdldF90eXBlID0gJ3Bvc3QnIFRIRU4KICAgIElGIE5PVCBFWElTVFMgKFNFTEVDVCAxIEZST00gcHVibGljLnBvc3RzIHAgV0hFUkUgcC5pZCA9IE5FVy50YXJnZXRfaWQpIFRIRU4KICAgICAgUkFJU0UgRVhDRVBUSU9OICdQb3N0IG5vdCBmb3VuZCc7CiAgICBFTkQgSUY7CiAgRUxTSUYgTkVXLnRhcmdldF90eXBlID0gJ2NvbW1lbnQnIFRIRU4KICAgIElGIE5PVCBFWElTVFMgKFNFTEVDVCAxIEZST00gcHVibGljLnBvc3RfY29tbWVudHMgYyBXSEVSRSBjLmlkID0gTkVXLnRhcmdldF9pZCkgVEhFTgogICAgICBSQUlTRSBFWENFUFRJT04gJ0NvbW1lbnQgbm90IGZvdW5kJzsKICAgIEVORCBJRjsKICBFTFNFCiAgICBSQUlTRSBFWENFUFRJT04gJ0ludmFsaWQgdGFyZ2V0IHR5cGUnOwogIEVORCBJRjsKICBORVcuZGV0YWlscyA9IGxlZnQoY29hbGVzY2UoTkVXLmRldGFpbHMsICcnKSwgNTAwKTsKICBSRVRVUk4gTkVXOwpFTkQ7CiQkOwoKUkVWT0tFIEVYRUNVVEUgT04gRlVOQ1RJT04gcHVibGljLnZhbGlkYXRlX2NvbnRlbnRfcmVwb3J0KCkgRlJPTSBhbm9uLCBhdXRoZW50aWNhdGVkOwoKQ1JFQVRFIFRSSUdHRVIgdmFsaWRhdGVfY29udGVudF9yZXBvcnRfYmVmb3JlX2luc2VydApCRUZPUkUgSU5TRVJUIE9OIHB1YmxpYy5jb250ZW50X3JlcG9ydHMKRk9SIEVBQ0ggUk9XIEVYRUNVVEUgRlVOQ1RJT04gcHVibGljLnZhbGlkYXRlX2NvbnRlbnRfcmVwb3J0KCk7
+CREATE TABLE public.content_reports (
+  id uuid NOT NULL DEFAULT gen_random_uuid() PRIMARY KEY,
+  reporter_id uuid NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
+  target_type text NOT NULL,
+  target_id uuid NOT NULL,
+  reason text NOT NULL,
+  details text,
+  status text NOT NULL DEFAULT 'open',
+  reviewed_by uuid REFERENCES auth.users(id) ON DELETE SET NULL,
+  reviewed_at timestamp with time zone,
+  created_at timestamp with time zone NOT NULL DEFAULT now(),
+  updated_at timestamp with time zone NOT NULL DEFAULT now(),
+  UNIQUE (reporter_id, target_type, target_id)
+);
+
+CREATE INDEX content_reports_status_idx ON public.content_reports (status, created_at DESC);
+
+GRANT SELECT, INSERT, UPDATE ON public.content_reports TO authenticated;
+GRANT ALL ON public.content_reports TO service_role;
+
+ALTER TABLE public.content_reports ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Members can report content"
+ON public.content_reports FOR INSERT TO authenticated
+WITH CHECK (
+  auth.uid() = reporter_id
+  AND target_type IN ('post','comment')
+  AND reason IN ('spam','harassment','nudity','violence','misinformation','other')
+  AND status = 'open'
+);
+
+CREATE POLICY "Reporters can view their own reports"
+ON public.content_reports FOR SELECT TO authenticated
+USING (auth.uid() = reporter_id);
+
+CREATE POLICY "Admins can view all reports"
+ON public.content_reports FOR SELECT TO authenticated
+USING (public.has_role(auth.uid(), 'admin'::app_role));
+
+CREATE POLICY "Admins can review reports"
+ON public.content_reports FOR UPDATE TO authenticated
+USING (public.has_role(auth.uid(), 'admin'::app_role))
+WITH CHECK (public.has_role(auth.uid(), 'admin'::app_role));
+
+CREATE TRIGGER update_content_reports_updated_at
+BEFORE UPDATE ON public.content_reports
+FOR EACH ROW EXECUTE FUNCTION public.update_updated_at_column();
+
+CREATE OR REPLACE FUNCTION public.validate_content_report()
+RETURNS trigger
+LANGUAGE plpgsql
+SECURITY DEFINER
+SET search_path TO 'public'
+AS $$
+BEGIN
+  IF NEW.target_type = 'post' THEN
+    IF NOT EXISTS (SELECT 1 FROM public.posts p WHERE p.id = NEW.target_id) THEN
+      RAISE EXCEPTION 'Post not found';
+    END IF;
+  ELSIF NEW.target_type = 'comment' THEN
+    IF NOT EXISTS (SELECT 1 FROM public.post_comments c WHERE c.id = NEW.target_id) THEN
+      RAISE EXCEPTION 'Comment not found';
+    END IF;
+  ELSE
+    RAISE EXCEPTION 'Invalid target type';
+  END IF;
+  NEW.details = left(coalesce(NEW.details, ''), 500);
+  RETURN NEW;
+END;
+$$;
+
+REVOKE EXECUTE ON FUNCTION public.validate_content_report() FROM anon, authenticated;
+
+CREATE TRIGGER validate_content_report_before_insert
+BEFORE INSERT ON public.content_reports
+FOR EACH ROW EXECUTE FUNCTION public.validate_content_report();

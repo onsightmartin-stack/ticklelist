@@ -1,1 +1,352 @@
-aW1wb3J0IHsgdXNlTWVtbywgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IENoZWNrLCBNaW51cywgUGVuY2lsLCBQbHVzLCBTYXZlLCBUcmFzaDIsIFdyZW5jaCwgWCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CgppbXBvcnQgeyBjb3VudHJpZXMgfSBmcm9tICJAL2RhdGEvY291bnRyaWVzIjsKaW1wb3J0IHsgcGVha0NhdGFsb2cgfSBmcm9tICJAL2xpYi9wZWFrLWNhdGFsb2ciOwppbXBvcnQgewogIGNvdW50cnlEZWZpbml0aW9ucywKICBjb3VudHJ5U2V0Rm9yLAogIGRlbGV0ZVByZXNldCwKICBsaXN0UHJlc2V0cywKICBzYXZlUHJlc2V0LAogIHR5cGUgQ291bnRyeURlZmluaXRpb25JZCwKICB0eXBlIEN1c3RvbVByZXNldCwKfSBmcm9tICJAL2xpYi9kZWZpbml0aW9ucyI7CmltcG9ydCB7IHVzZURlZmluaXRpb25zIH0gZnJvbSAiQC9ob29rcy91c2VEZWZpbml0aW9ucyI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gInNvbm5lciI7Cgp0eXBlIERyYWZ0ID0gT21pdDxDdXN0b21QcmVzZXQsICJpZCI+ICYgeyBpZD86IHN0cmluZyB9OwoKY29uc3QgZW1wdHlEcmFmdCA9ICgpOiBEcmFmdCA9PiAoewogIG5hbWU6ICJNeSBkZWZpbml0aW9uIiwKICBiYXNlOiAidW4iLAogIGluY2x1ZGU6IFtdLAogIGV4Y2x1ZGU6IFtdLAogIHBlYWtzOiBbXSwKfSk7Cgpjb25zdCBhbGxDb3VudHJ5TmFtZXMgPSBbLi4ubmV3IFNldChjb3VudHJpZXMubWFwKChjKSA9PiBjLmNvdW50cnkpKV0uc29ydCgoYSwgYikgPT4gYS5sb2NhbGVDb21wYXJlKGIpKTsKY29uc3QgZmFtb3VzUGVha3MgPSBwZWFrQ2F0YWxvZy5maWx0ZXIoKHApID0+IHAudHlwZSA9PT0gImZhbW91c19wZWFrIik7CgovKiogQnVpbGRzIGFuZCBzdG9yZXMgbWVtYmVyLW1hZGUgY291bnRyeSBkZWZpbml0aW9ucyBvbiB0aGlzIGRldmljZS4gKi8KY29uc3QgQ3VzdG9tRGVmaW5pdGlvbkJ1aWxkZXIgPSAoKSA9PiB7CiAgY29uc3QgW2RlZnMsIHVwZGF0ZV0gPSB1c2VEZWZpbml0aW9ucygpOwogIGNvbnN0IFtkcmFmdCwgc2V0RHJhZnRdID0gdXNlU3RhdGU8RHJhZnQgfCBudWxsPihudWxsKTsKICBjb25zdCBbY291bnRyeVF1ZXJ5LCBzZXRDb3VudHJ5UXVlcnldID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtwZWFrUXVlcnksIHNldFBlYWtRdWVyeV0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW3ZlcnNpb24sIHNldFZlcnNpb25dID0gdXNlU3RhdGUoMCk7CgogIGNvbnN0IHByZXNldHMgPSB1c2VNZW1vKCgpID0+IGxpc3RQcmVzZXRzKCksIFt2ZXJzaW9uLCBkZWZzXSk7CgogIGNvbnN0IGJhc2VTZXQgPSB1c2VNZW1vKAogICAgKCkgPT4gKGRyYWZ0ID8gY291bnRyeVNldEZvcihkcmFmdC5iYXNlIGFzIENvdW50cnlEZWZpbml0aW9uSWQpIDogbmV3IFNldDxzdHJpbmc+KCkpLAogICAgW2RyYWZ0XSwKICApOwogIGNvbnN0IHJlc3VsdFNldCA9IHVzZU1lbW8oKCkgPT4gewogICAgaWYgKCFkcmFmdCkgcmV0dXJuIG5ldyBTZXQ8c3RyaW5nPigpOwogICAgY29uc3Qgc2V0ID0gbmV3IFNldChiYXNlU2V0KTsKICAgIGRyYWZ0LmluY2x1ZGUuZm9yRWFjaCgoYykgPT4gc2V0LmFkZChjKSk7CiAgICBkcmFmdC5leGNsdWRlLmZvckVhY2goKGMpID0+IHNldC5kZWxldGUoYykpOwogICAgcmV0dXJuIHNldDsKICB9LCBbZHJhZnQsIGJhc2VTZXRdKTsKCiAgY29uc3QgY291bnRyeU1hdGNoZXMgPSB1c2VNZW1vKCgpID0+IHsKICAgIGNvbnN0IHEgPSBjb3VudHJ5UXVlcnkudHJpbSgpLnRvTG93ZXJDYXNlKCk7CiAgICBpZiAoIXEpIHJldHVybiBbXTsKICAgIHJldHVybiBhbGxDb3VudHJ5TmFtZXMuZmlsdGVyKChjKSA9PiBjLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMocSkpLnNsaWNlKDAsIDgpOwogIH0sIFtjb3VudHJ5UXVlcnldKTsKCiAgY29uc3QgcGVha01hdGNoZXMgPSB1c2VNZW1vKCgpID0+IHsKICAgIGNvbnN0IHEgPSBwZWFrUXVlcnkudHJpbSgpLnRvTG93ZXJDYXNlKCk7CiAgICBpZiAoIXEpIHJldHVybiBbXTsKICAgIHJldHVybiBmYW1vdXNQZWFrcy5maWx0ZXIoKHApID0+IHAubmFtZS50b0xvd2VyQ2FzZSgpLmluY2x1ZGVzKHEpKS5zbGljZSgwLCA4KTsKICB9LCBbcGVha1F1ZXJ5XSk7CgogIGNvbnN0IHRvZ2dsZUNvdW50cnkgPSAoY291bnRyeTogc3RyaW5nKSA9PiB7CiAgICBpZiAoIWRyYWZ0KSByZXR1cm47CiAgICBjb25zdCBpbkJhc2UgPSBiYXNlU2V0Lmhhcyhjb3VudHJ5KTsKICAgIHNldERyYWZ0KHsKICAgICAgLi4uZHJhZnQsCiAgICAgIGluY2x1ZGU6IGluQmFzZQogICAgICAgID8gZHJhZnQuaW5jbHVkZS5maWx0ZXIoKGMpID0+IGMgIT09IGNvdW50cnkpCiAgICAgICAgOiBkcmFmdC5pbmNsdWRlLmluY2x1ZGVzKGNvdW50cnkpCiAgICAgICAgICA/IGRyYWZ0LmluY2x1ZGUuZmlsdGVyKChjKSA9PiBjICE9PSBjb3VudHJ5KQogICAgICAgICAgOiBbLi4uZHJhZnQuaW5jbHVkZSwgY291bnRyeV0sCiAgICAgIGV4Y2x1ZGU6IGluQmFzZQogICAgICAgID8gZHJhZnQuZXhjbHVkZS5pbmNsdWRlcyhjb3VudHJ5KQogICAgICAgICAgPyBkcmFmdC5leGNsdWRlLmZpbHRlcigoYykgPT4gYyAhPT0gY291bnRyeSkKICAgICAgICAgIDogWy4uLmRyYWZ0LmV4Y2x1ZGUsIGNvdW50cnldCiAgICAgICAgOiBkcmFmdC5leGNsdWRlLmZpbHRlcigoYykgPT4gYyAhPT0gY291bnRyeSksCiAgICB9KTsKICAgIHNldENvdW50cnlRdWVyeSgiIik7CiAgfTsKCiAgY29uc3QgdG9nZ2xlUGVhayA9IChrZXk6IHN0cmluZykgPT4gewogICAgaWYgKCFkcmFmdCkgcmV0dXJuOwogICAgc2V0RHJhZnQoewogICAgICAuLi5kcmFmdCwKICAgICAgcGVha3M6IGRyYWZ0LnBlYWtzLmluY2x1ZGVzKGtleSkgPyBkcmFmdC5wZWFrcy5maWx0ZXIoKGspID0+IGsgIT09IGtleSkgOiBbLi4uZHJhZnQucGVha3MsIGtleV0sCiAgICB9KTsKICAgIHNldFBlYWtRdWVyeSgiIik7CiAgfTsKCiAgY29uc3Qgc2F2ZSA9ICgpID0+IHsKICAgIGlmICghZHJhZnQpIHJldHVybjsKICAgIGNvbnN0IG5hbWUgPSBkcmFmdC5uYW1lLnRyaW0oKSB8fCAiTXkgZGVmaW5pdGlvbiI7CiAgICBjb25zdCBzYXZlZCA9IHNhdmVQcmVzZXQoeyAuLi5kcmFmdCwgbmFtZSB9KTsKICAgIHVwZGF0ZSh7IGNvdW50cmllczogYGN1c3RvbToke3NhdmVkLmlkfWAgfSk7CiAgICBzZXREcmFmdChudWxsKTsKICAgIHNldFZlcnNpb24oKHYpID0+IHYgKyAxKTsKICAgIHRvYXN0LnN1Y2Nlc3MoYFNhdmVkICIke3NhdmVkLm5hbWV9IiDigJQgJHtjb3VudHJ5U2V0Rm9yKGBjdXN0b206JHtzYXZlZC5pZH1gKS5zaXplfSBjb3VudHJpZXNgKTsKICB9OwoKICBjb25zdCByZW1vdmUgPSAocHJlc2V0OiBDdXN0b21QcmVzZXQpID0+IHsKICAgIGRlbGV0ZVByZXNldChwcmVzZXQuaWQpOwogICAgc2V0VmVyc2lvbigodikgPT4gdiArIDEpOwogICAgdG9hc3Quc3VjY2VzcyhgRGVsZXRlZCAiJHtwcmVzZXQubmFtZX0iYCk7CiAgfTsKCiAgcmV0dXJuICgKICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkIHAtNSI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgPFdyZW5jaCBjbGFzc05hbWU9InctNCBoLTQgdGV4dC1wcmltYXJ5IiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy1bMC4yZW1dIHRleHQtcHJpbWFyeSBmb250LWRpc3BsYXkiPgogICAgICAgICAgQnVpbGQgeW91ciBvd24gZGVmaW5pdGlvbgogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CiAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMSBtYi00Ij4KICAgICAgICBTdGFydCBmcm9tIGEgcHJlc2V0LCB0aGVuIGFkZCBvciBkcm9wIGluZGl2aWR1YWwgY291bnRyaWVzIGFuZCB0aHJvdyBpbiBhbnkgZXh0cmEgcGVha3MgeW91CiAgICAgICAgd2FudCBjb3VudGVkLiBTYXZlIGl0IGFuZCBpdCBhcHBlYXJzIGFsb25nc2lkZSB0aGUgYnVpbHQtaW4gZGVmaW5pdGlvbnMuCiAgICAgIDwvcD4KCiAgICAgIHtwcmVzZXRzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdhcC0yIG1iLTQiPgogICAgICAgICAge3ByZXNldHMubWFwKChwKSA9PiB7CiAgICAgICAgICAgIGNvbnN0IGFjdGl2ZSA9IGRlZnMuY291bnRyaWVzID09PSBgY3VzdG9tOiR7cC5pZH1gOwogICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGtleT17cC5pZH0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAgICAgICAgICJyb3VuZGVkLWxnIGJvcmRlciBwLTMgZmxleCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiLAogICAgICAgICAgICAgICAgICBhY3RpdmUgPyAiYm9yZGVyLXByaW1hcnkgYmctcHJpbWFyeS8xMCIgOiAiYm9yZGVyLWJvcmRlciBiZy1iYWNrZ3JvdW5kIiwKICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1sZWZ0IGZsZXgtMSIKICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gdXBkYXRlKHsgY291bnRyaWVzOiBgY3VzdG9tOiR7cC5pZH1gIH0pfQogICAgICAgICAgICAgICAgICBhcmlhLXByZXNzZWQ9e2FjdGl2ZX0KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdHJhY2tpbmctd2lkZXIgdGV4dC1zbSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICAgICAge3AubmFtZX0KICAgICAgICAgICAgICAgICAgICB7YWN0aXZlICYmIDxDaGVjayBjbGFzc05hbWU9InctNCBoLTQgdGV4dC1wcmltYXJ5IiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz59CiAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC0xIj4KICAgICAgICAgICAgICAgICAgICB7Y291bnRyeVNldEZvcihgY3VzdG9tOiR7cC5pZH1gKS5zaXplfSBjb3VudHJpZXMKICAgICAgICAgICAgICAgICAgICB7cC5wZWFrcy5sZW5ndGggPiAwICYmIGAgKyAke3AucGVha3MubGVuZ3RofSBleHRyYSBwZWFrJHtwLnBlYWtzLmxlbmd0aCA+IDEgPyAicyIgOiAiIn1gfQogICAgICAgICAgICAgICAgICAgIHtwLmluY2x1ZGUubGVuZ3RoID4gMCAmJiBgIMK3IGFkZGVkICR7cC5pbmNsdWRlLmpvaW4oIiwgIil9YH0KICAgICAgICAgICAgICAgICAgICB7cC5leGNsdWRlLmxlbmd0aCA+IDAgJiYgYCDCtyBkcm9wcGVkICR7cC5leGNsdWRlLmpvaW4oIiwgIil9YH0KICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMSBzaHJpbmstMCI+CiAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgICAgICAgICAgICAgICBzaXplPSJpY29uIgogICAgICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9e2BFZGl0ICR7cC5uYW1lfWB9CiAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0RHJhZnQoeyAuLi5wIH0pfQogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPFBlbmNpbCBjbGFzc05hbWU9InctNCBoLTQiIC8+CiAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICAgICAgICAgICAgc2l6ZT0iaWNvbiIKICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsPXtgRGVsZXRlICR7cC5uYW1lfWB9CiAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gcmVtb3ZlKHApfQogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPFRyYXNoMiBjbGFzc05hbWU9InctNCBoLTQiIC8+CiAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICk7CiAgICAgICAgICB9KX0KICAgICAgICA8L2Rpdj4KICAgICAgKX0KCiAgICAgIHshZHJhZnQgPyAoCiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJzZWNvbmRhcnkiIHNpemU9InNtIiBvbkNsaWNrPXsoKSA9PiBzZXREcmFmdChlbXB0eURyYWZ0KCkpfT4KICAgICAgICAgIDxQbHVzIGNsYXNzTmFtZT0idy00IGgtNCBtci0xIiAvPiBOZXcgY3VzdG9tIGRlZmluaXRpb24KICAgICAgICA8L0J1dHRvbj4KICAgICAgKSA6ICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1iYWNrZ3JvdW5kIHAtNCBzcGFjZS15LTQiPgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiIGh0bWxGb3I9InByZXNldC1uYW1lIj4KICAgICAgICAgICAgICBOYW1lCiAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgIGlkPSJwcmVzZXQtbmFtZSIKICAgICAgICAgICAgICB2YWx1ZT17ZHJhZnQubmFtZX0KICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldERyYWZ0KHsgLi4uZHJhZnQsIG5hbWU6IGUudGFyZ2V0LnZhbHVlIH0pfQogICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJVTiArIEFudGFyY3RpY2EgKyBWYXRpY2FuIgogICAgICAgICAgICAgIGNsYXNzTmFtZT0ibXQtMSIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgbWItMSI+U3RhcnQgZnJvbTwvcD4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0yIj4KICAgICAgICAgICAgICB7Y291bnRyeURlZmluaXRpb25zLm1hcCgoZCkgPT4gKAogICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICBrZXk9e2QuaWR9CiAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0RHJhZnQoeyAuLi5kcmFmdCwgYmFzZTogZC5pZCBhcyBEcmFmdFsiYmFzZSJdIH0pfQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2NuKAogICAgICAgICAgICAgICAgICAgICJ0ZXh0LXhzIHJvdW5kZWQtZnVsbCBib3JkZXIgcHgtMyBweS0xIHRyYW5zaXRpb24tY29sb3JzIiwKICAgICAgICAgICAgICAgICAgICBkcmFmdC5iYXNlID09PSBkLmlkCiAgICAgICAgICAgICAgICAgICAgICA/ICJib3JkZXItcHJpbWFyeSBiZy1wcmltYXJ5LzEwIHRleHQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgICAgICAgIDogImJvcmRlci1ib3JkZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGhvdmVyOmJvcmRlci1wcmltYXJ5LzUwIiwKICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAge2QubmFtZX0gKHtjb3VudHJ5U2V0Rm9yKGQuaWQpLnNpemV9KQogICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtYi0xIj5BZGQgb3IgZHJvcCBjb3VudHJpZXM8L3A+CiAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgIHZhbHVlPXtjb3VudHJ5UXVlcnl9CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRDb3VudHJ5UXVlcnkoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJTZWFyY2ggYSBjb3VudHJ5IOKAlCBlLmcuIFZhdGljYW4gQ2l0eSIKICAgICAgICAgICAgLz4KICAgICAgICAgICAge2NvdW50cnlNYXRjaGVzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0yIGdyaWQgZ2FwLTEiPgogICAgICAgICAgICAgICAge2NvdW50cnlNYXRjaGVzLm1hcCgoYykgPT4gewogICAgICAgICAgICAgICAgICBjb25zdCBpbmNsdWRlZCA9IHJlc3VsdFNldC5oYXMoYyk7CiAgICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAga2V5PXtjfQogICAgICAgICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gdG9nZ2xlQ291bnRyeShjKX0KICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgcHgtMyBweS0yIHRleHQtc20gaG92ZXI6Ym9yZGVyLXByaW1hcnkvNTAiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPHNwYW4+e2N9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgICAgICAgICAgICAgIHtpbmNsdWRlZCA/ICgKICAgICAgICAgICAgICAgICAgICAgICAgICA8PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPE1pbnVzIGNsYXNzTmFtZT0idy0zIGgtMyIgLz4gZHJvcAogICAgICAgICAgICAgICAgICAgICAgICAgIDwvPgogICAgICAgICAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8UGx1cyBjbGFzc05hbWU9InctMyBoLTMiIC8+IGFkZAogICAgICAgICAgICAgICAgICAgICAgICAgIDwvPgogICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgfSl9CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CiAgICAgICAgICAgIHsoZHJhZnQuaW5jbHVkZS5sZW5ndGggPiAwIHx8IGRyYWZ0LmV4Y2x1ZGUubGVuZ3RoID4gMCkgJiYgKAogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMSBtdC0yIj4KICAgICAgICAgICAgICAgIHtkcmFmdC5pbmNsdWRlLm1hcCgoYykgPT4gKAogICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAga2V5PXtgaW4tJHtjfWB9CiAgICAgICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldERyYWZ0KHsgLi4uZHJhZnQsIGluY2x1ZGU6IGRyYWZ0LmluY2x1ZGUuZmlsdGVyKCh4KSA9PiB4ICE9PSBjKSB9KX0KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtWzExcHhdIHJvdW5kZWQtZnVsbCBib3JkZXIgYm9yZGVyLXByaW1hcnkvNjAgYmctcHJpbWFyeS8xMCBweC0yIHB5LTAuNSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICsge2N9IDxYIGNsYXNzTmFtZT0idy0zIGgtMyIgLz4KICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgIHtkcmFmdC5leGNsdWRlLm1hcCgoYykgPT4gKAogICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAga2V5PXtgZXgtJHtjfWB9CiAgICAgICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldERyYWZ0KHsgLi4uZHJhZnQsIGV4Y2x1ZGU6IGRyYWZ0LmV4Y2x1ZGUuZmlsdGVyKCh4KSA9PiB4ICE9PSBjKSB9KX0KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtWzExcHhdIHJvdW5kZWQtZnVsbCBib3JkZXIgYm9yZGVyLWRlc3RydWN0aXZlLzYwIGJnLWRlc3RydWN0aXZlLzEwIHB4LTIgcHktMC41IGZsZXggaXRlbXMtY2VudGVyIGdhcC0xIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAg4oiSIHtjfSA8WCBjbGFzc05hbWU9InctMyBoLTMiIC8+CiAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1iLTEiPkV4dHJhIHBlYWtzIHRoYXQgY291bnQgKG9wdGlvbmFsKTwvcD4KICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgdmFsdWU9e3BlYWtRdWVyeX0KICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFBlYWtRdWVyeShlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IlNlYXJjaCBhIHBlYWsg4oCUIGUuZy4gTW9udCBCbGFuYyIKICAgICAgICAgICAgLz4KICAgICAgICAgICAge3BlYWtNYXRjaGVzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0yIGdyaWQgZ2FwLTEiPgogICAgICAgICAgICAgICAge3BlYWtNYXRjaGVzLm1hcCgocCkgPT4gKAogICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAga2V5PXtwLmtleX0KICAgICAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gdG9nZ2xlUGVhayhwLmtleSl9CiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlciBweC0zIHB5LTIgdGV4dC1zbSBob3Zlcjpib3JkZXItcHJpbWFyeS81MCIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxzcGFuPgogICAgICAgICAgICAgICAgICAgICAge3AubmFtZX0gPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3AuZWxldmF0aW9ufTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgICAgICAgICAgICB7ZHJhZnQucGVha3MuaW5jbHVkZXMocC5rZXkpID8gKAogICAgICAgICAgICAgICAgICAgICAgICA8PgogICAgICAgICAgICAgICAgICAgICAgICAgIDxNaW51cyBjbGFzc05hbWU9InctMyBoLTMiIC8+IHJlbW92ZQogICAgICAgICAgICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPFBsdXMgY2xhc3NOYW1lPSJ3LTMgaC0zIiAvPiBhZGQKICAgICAgICAgICAgICAgICAgICAgICAgPC8+CiAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KICAgICAgICAgICAge2RyYWZ0LnBlYWtzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMSBtdC0yIj4KICAgICAgICAgICAgICAgIHtkcmFmdC5wZWFrcy5tYXAoKGspID0+ICgKICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgIGtleT17a30KICAgICAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gdG9nZ2xlUGVhayhrKX0KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtWzExcHhdIHJvdW5kZWQtZnVsbCBib3JkZXIgYm9yZGVyLXByaW1hcnkvNjAgYmctcHJpbWFyeS8xMCBweC0yIHB5LTAuNSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHtrLnJlcGxhY2UoL15mcDovLCAiIil9IDxYIGNsYXNzTmFtZT0idy0zIGgtMyIgLz4KICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5UaGlzIGRlZmluaXRpb24gY291bnRzIDwvc3Bhbj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdHJhY2tpbmctd2lkZXIgdGV4dC1wcmltYXJ5Ij57cmVzdWx0U2V0LnNpemV9IGNvdW50cmllczwvc3Bhbj4KICAgICAgICAgICAge2RyYWZ0LnBlYWtzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4gKyB7ZHJhZnQucGVha3MubGVuZ3RofSBleHRyYSBwZWFrczwvc3Bhbj4KICAgICAgICAgICAgKX0KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPiDigJQge3Jlc3VsdFNldC5zaXplICsgZHJhZnQucGVha3MubGVuZ3RofSBib3hlcy48L3NwYW4+CiAgICAgICAgICA8L3A+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTIiPgogICAgICAgICAgICA8QnV0dG9uIHNpemU9InNtIiBvbkNsaWNrPXtzYXZlfT4KICAgICAgICAgICAgICA8U2F2ZSBjbGFzc05hbWU9InctNCBoLTQgbXItMSIgLz4gU2F2ZSAmIHVzZQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0ic20iIG9uQ2xpY2s9eygpID0+IHNldERyYWZ0KG51bGwpfT4KICAgICAgICAgICAgICBDYW5jZWwKICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgKX0KICAgIDwvc2VjdGlvbj4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgQ3VzdG9tRGVmaW5pdGlvbkJ1aWxkZXI7Cg==
+import { useMemo, useState } from "react";
+import { Check, Minus, Pencil, Plus, Save, Trash2, Wrench, X } from "lucide-react";
+
+import { countries } from "@/data/countries";
+import { peakCatalog } from "@/lib/peak-catalog";
+import {
+  countryDefinitions,
+  countrySetFor,
+  deletePreset,
+  listPresets,
+  savePreset,
+  type CountryDefinitionId,
+  type CustomPreset,
+} from "@/lib/definitions";
+import { useDefinitions } from "@/hooks/useDefinitions";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { cn } from "@/lib/utils";
+import { toast } from "sonner";
+
+type Draft = Omit<CustomPreset, "id"> & { id?: string };
+
+const emptyDraft = (): Draft => ({
+  name: "My definition",
+  base: "un",
+  include: [],
+  exclude: [],
+  peaks: [],
+});
+
+const allCountryNames = [...new Set(countries.map((c) => c.country))].sort((a, b) => a.localeCompare(b));
+const famousPeaks = peakCatalog.filter((p) => p.type === "famous_peak");
+
+/** Builds and stores member-made country definitions on this device. */
+const CustomDefinitionBuilder = () => {
+  const [defs, update] = useDefinitions();
+  const [draft, setDraft] = useState<Draft | null>(null);
+  const [countryQuery, setCountryQuery] = useState("");
+  const [peakQuery, setPeakQuery] = useState("");
+  const [version, setVersion] = useState(0);
+
+  const presets = useMemo(() => listPresets(), [version, defs]);
+
+  const baseSet = useMemo(
+    () => (draft ? countrySetFor(draft.base as CountryDefinitionId) : new Set<string>()),
+    [draft],
+  );
+  const resultSet = useMemo(() => {
+    if (!draft) return new Set<string>();
+    const set = new Set(baseSet);
+    draft.include.forEach((c) => set.add(c));
+    draft.exclude.forEach((c) => set.delete(c));
+    return set;
+  }, [draft, baseSet]);
+
+  const countryMatches = useMemo(() => {
+    const q = countryQuery.trim().toLowerCase();
+    if (!q) return [];
+    return allCountryNames.filter((c) => c.toLowerCase().includes(q)).slice(0, 8);
+  }, [countryQuery]);
+
+  const peakMatches = useMemo(() => {
+    const q = peakQuery.trim().toLowerCase();
+    if (!q) return [];
+    return famousPeaks.filter((p) => p.name.toLowerCase().includes(q)).slice(0, 8);
+  }, [peakQuery]);
+
+  const toggleCountry = (country: string) => {
+    if (!draft) return;
+    const inBase = baseSet.has(country);
+    setDraft({
+      ...draft,
+      include: inBase
+        ? draft.include.filter((c) => c !== country)
+        : draft.include.includes(country)
+          ? draft.include.filter((c) => c !== country)
+          : [...draft.include, country],
+      exclude: inBase
+        ? draft.exclude.includes(country)
+          ? draft.exclude.filter((c) => c !== country)
+          : [...draft.exclude, country]
+        : draft.exclude.filter((c) => c !== country),
+    });
+    setCountryQuery("");
+  };
+
+  const togglePeak = (key: string) => {
+    if (!draft) return;
+    setDraft({
+      ...draft,
+      peaks: draft.peaks.includes(key) ? draft.peaks.filter((k) => k !== key) : [...draft.peaks, key],
+    });
+    setPeakQuery("");
+  };
+
+  const save = () => {
+    if (!draft) return;
+    const name = draft.name.trim() || "My definition";
+    const saved = savePreset({ ...draft, name });
+    update({ countries: `custom:${saved.id}` });
+    setDraft(null);
+    setVersion((v) => v + 1);
+    toast.success(`Saved "${saved.name}" — ${countrySetFor(`custom:${saved.id}`).size} countries`);
+  };
+
+  const remove = (preset: CustomPreset) => {
+    deletePreset(preset.id);
+    setVersion((v) => v + 1);
+    toast.success(`Deleted "${preset.name}"`);
+  };
+
+  return (
+    <section className="rounded-lg border border-border bg-card p-5">
+      <div className="flex items-center gap-2">
+        <Wrench className="w-4 h-4 text-primary" aria-hidden="true" />
+        <p className="text-[10px] uppercase tracking-[0.2em] text-primary font-display">
+          Build your own definition
+        </p>
+      </div>
+      <p className="text-sm text-muted-foreground mt-1 mb-4">
+        Start from a preset, then add or drop individual countries and throw in any extra peaks you
+        want counted. Save it and it appears alongside the built-in definitions.
+      </p>
+
+      {presets.length > 0 && (
+        <div className="grid gap-2 mb-4">
+          {presets.map((p) => {
+            const active = defs.countries === `custom:${p.id}`;
+            return (
+              <div
+                key={p.id}
+                className={cn(
+                  "rounded-lg border p-3 flex items-start justify-between gap-3",
+                  active ? "border-primary bg-primary/10" : "border-border bg-background",
+                )}
+              >
+                <button
+                  type="button"
+                  className="text-left flex-1"
+                  onClick={() => update({ countries: `custom:${p.id}` })}
+                  aria-pressed={active}
+                >
+                  <p className="font-display tracking-wider text-sm flex items-center gap-2">
+                    {p.name}
+                    {active && <Check className="w-4 h-4 text-primary" aria-hidden="true" />}
+                  </p>
+                  <p className="text-xs text-muted-foreground mt-1">
+                    {countrySetFor(`custom:${p.id}`).size} countries
+                    {p.peaks.length > 0 && ` + ${p.peaks.length} extra peak${p.peaks.length > 1 ? "s" : ""}`}
+                    {p.include.length > 0 && ` · added ${p.include.join(", ")}`}
+                    {p.exclude.length > 0 && ` · dropped ${p.exclude.join(", ")}`}
+                  </p>
+                </button>
+                <div className="flex gap-1 shrink-0">
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    aria-label={`Edit ${p.name}`}
+                    onClick={() => setDraft({ ...p })}
+                  >
+                    <Pencil className="w-4 h-4" />
+                  </Button>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    aria-label={`Delete ${p.name}`}
+                    onClick={() => remove(p)}
+                  >
+                    <Trash2 className="w-4 h-4" />
+                  </Button>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      {!draft ? (
+        <Button variant="secondary" size="sm" onClick={() => setDraft(emptyDraft())}>
+          <Plus className="w-4 h-4 mr-1" /> New custom definition
+        </Button>
+      ) : (
+        <div className="rounded-lg border border-border bg-background p-4 space-y-4">
+          <div>
+            <label className="text-xs text-muted-foreground" htmlFor="preset-name">
+              Name
+            </label>
+            <Input
+              id="preset-name"
+              value={draft.name}
+              onChange={(e) => setDraft({ ...draft, name: e.target.value })}
+              placeholder="UN + Antarctica + Vatican"
+              className="mt-1"
+            />
+          </div>
+
+          <div>
+            <p className="text-xs text-muted-foreground mb-1">Start from</p>
+            <div className="flex flex-wrap gap-2">
+              {countryDefinitions.map((d) => (
+                <button
+                  key={d.id}
+                  type="button"
+                  onClick={() => setDraft({ ...draft, base: d.id as Draft["base"] })}
+                  className={cn(
+                    "text-xs rounded-full border px-3 py-1 transition-colors",
+                    draft.base === d.id
+                      ? "border-primary bg-primary/10 text-foreground"
+                      : "border-border text-muted-foreground hover:border-primary/50",
+                  )}
+                >
+                  {d.name} ({countrySetFor(d.id).size})
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <p className="text-xs text-muted-foreground mb-1">Add or drop countries</p>
+            <Input
+              value={countryQuery}
+              onChange={(e) => setCountryQuery(e.target.value)}
+              placeholder="Search a country — e.g. Vatican City"
+            />
+            {countryMatches.length > 0 && (
+              <div className="mt-2 grid gap-1">
+                {countryMatches.map((c) => {
+                  const included = resultSet.has(c);
+                  return (
+                    <button
+                      key={c}
+                      type="button"
+                      onClick={() => toggleCountry(c)}
+                      className="flex items-center justify-between rounded-md border border-border px-3 py-2 text-sm hover:border-primary/50"
+                    >
+                      <span>{c}</span>
+                      <span className="text-xs text-muted-foreground flex items-center gap-1">
+                        {included ? (
+                          <>
+                            <Minus className="w-3 h-3" /> drop
+                          </>
+                        ) : (
+                          <>
+                            <Plus className="w-3 h-3" /> add
+                          </>
+                        )}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            )}
+            {(draft.include.length > 0 || draft.exclude.length > 0) && (
+              <div className="flex flex-wrap gap-1 mt-2">
+                {draft.include.map((c) => (
+                  <button
+                    key={`in-${c}`}
+                    type="button"
+                    onClick={() => setDraft({ ...draft, include: draft.include.filter((x) => x !== c) })}
+                    className="text-[11px] rounded-full border border-primary/60 bg-primary/10 px-2 py-0.5 flex items-center gap-1"
+                  >
+                    + {c} <X className="w-3 h-3" />
+                  </button>
+                ))}
+                {draft.exclude.map((c) => (
+                  <button
+                    key={`ex-${c}`}
+                    type="button"
+                    onClick={() => setDraft({ ...draft, exclude: draft.exclude.filter((x) => x !== c) })}
+                    className="text-[11px] rounded-full border border-destructive/60 bg-destructive/10 px-2 py-0.5 flex items-center gap-1"
+                  >
+                    − {c} <X className="w-3 h-3" />
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
+          <div>
+            <p className="text-xs text-muted-foreground mb-1">Extra peaks that count (optional)</p>
+            <Input
+              value={peakQuery}
+              onChange={(e) => setPeakQuery(e.target.value)}
+              placeholder="Search a peak — e.g. Mont Blanc"
+            />
+            {peakMatches.length > 0 && (
+              <div className="mt-2 grid gap-1">
+                {peakMatches.map((p) => (
+                  <button
+                    key={p.key}
+                    type="button"
+                    onClick={() => togglePeak(p.key)}
+                    className="flex items-center justify-between rounded-md border border-border px-3 py-2 text-sm hover:border-primary/50"
+                  >
+                    <span>
+                      {p.name} <span className="text-xs text-muted-foreground">{p.elevation}</span>
+                    </span>
+                    <span className="text-xs text-muted-foreground flex items-center gap-1">
+                      {draft.peaks.includes(p.key) ? (
+                        <>
+                          <Minus className="w-3 h-3" /> remove
+                        </>
+                      ) : (
+                        <>
+                          <Plus className="w-3 h-3" /> add
+                        </>
+                      )}
+                    </span>
+                  </button>
+                ))}
+              </div>
+            )}
+            {draft.peaks.length > 0 && (
+              <div className="flex flex-wrap gap-1 mt-2">
+                {draft.peaks.map((k) => (
+                  <button
+                    key={k}
+                    type="button"
+                    onClick={() => togglePeak(k)}
+                    className="text-[11px] rounded-full border border-primary/60 bg-primary/10 px-2 py-0.5 flex items-center gap-1"
+                  >
+                    {k.replace(/^fp:/, "")} <X className="w-3 h-3" />
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
+          <p className="text-sm">
+            <span className="text-muted-foreground">This definition counts </span>
+            <span className="font-display tracking-wider text-primary">{resultSet.size} countries</span>
+            {draft.peaks.length > 0 && (
+              <span className="text-muted-foreground"> + {draft.peaks.length} extra peaks</span>
+            )}
+            <span className="text-muted-foreground"> — {resultSet.size + draft.peaks.length} boxes.</span>
+          </p>
+
+          <div className="flex gap-2">
+            <Button size="sm" onClick={save}>
+              <Save className="w-4 h-4 mr-1" /> Save & use
+            </Button>
+            <Button variant="ghost" size="sm" onClick={() => setDraft(null)}>
+              Cancel
+            </Button>
+          </div>
+        </div>
+      )}
+    </section>
+  );
+};
+
+export default CustomDefinitionBuilder;

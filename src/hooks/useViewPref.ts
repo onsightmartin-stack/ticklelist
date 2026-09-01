@@ -1,1 +1,40 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7Cgpjb25zdCBQUkVGSVggPSAib25zaWdodC12aWV3OiI7CgovKioKICogUmVtZW1iZXJzIGEgcGVyLWRldmljZSB2aWV3IHByZWZlcmVuY2UgKGUuZy4gY29tcGFjdCB2cyBkZXRhaWxlZCBsaXN0cykuCiAqIFN0YXJ0cyBmcm9tIHRoZSBkZWZhdWx0IHNvIFNTUiBtYXJrdXAgbWF0Y2hlcywgdGhlbiBoeWRyYXRlcyBmcm9tIHN0b3JhZ2UuCiAqLwpleHBvcnQgZnVuY3Rpb24gdXNlVmlld1ByZWYoCiAga2V5OiBzdHJpbmcsCiAgZGVmYXVsdFZhbHVlOiBib29sZWFuLAopOiBbYm9vbGVhbiwgKG5leHQ6IGJvb2xlYW4gfCAoKGN1cnJlbnQ6IGJvb2xlYW4pID0+IGJvb2xlYW4pKSA9PiB2b2lkXSB7CiAgY29uc3QgW3ZhbHVlLCBzZXRWYWx1ZV0gPSB1c2VTdGF0ZShkZWZhdWx0VmFsdWUpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgdHJ5IHsKICAgICAgY29uc3Qgc3RvcmVkID0gd2luZG93LmxvY2FsU3RvcmFnZS5nZXRJdGVtKFBSRUZJWCArIGtleSk7CiAgICAgIGlmIChzdG9yZWQgPT09ICIxIiB8fCBzdG9yZWQgPT09ICIwIikgc2V0VmFsdWUoc3RvcmVkID09PSAiMSIpOwogICAgfSBjYXRjaCB7CiAgICAgIC8qIHN0b3JhZ2UgdW5hdmFpbGFibGUgKi8KICAgIH0KICB9LCBba2V5XSk7CgogIGNvbnN0IHVwZGF0ZSA9IHVzZUNhbGxiYWNrKAogICAgKG5leHQ6IGJvb2xlYW4gfCAoKGN1cnJlbnQ6IGJvb2xlYW4pID0+IGJvb2xlYW4pKSA9PiB7CiAgICAgIHNldFZhbHVlKChjdXJyZW50KSA9PiB7CiAgICAgICAgY29uc3QgcmVzb2x2ZWQgPSB0eXBlb2YgbmV4dCA9PT0gImZ1bmN0aW9uIiA/IG5leHQoY3VycmVudCkgOiBuZXh0OwogICAgICAgIHRyeSB7CiAgICAgICAgICB3aW5kb3cubG9jYWxTdG9yYWdlLnNldEl0ZW0oUFJFRklYICsga2V5LCByZXNvbHZlZCA/ICIxIiA6ICIwIik7CiAgICAgICAgfSBjYXRjaCB7CiAgICAgICAgICAvKiBzdG9yYWdlIHVuYXZhaWxhYmxlICovCiAgICAgICAgfQogICAgICAgIHJldHVybiByZXNvbHZlZDsKICAgICAgfSk7CiAgICB9LAogICAgW2tleV0sCiAgKTsKCiAgcmV0dXJuIFt2YWx1ZSwgdXBkYXRlXTsKfQo=
+import { useCallback, useEffect, useState } from "react";
+
+const PREFIX = "onsight-view:";
+
+/**
+ * Remembers a per-device view preference (e.g. compact vs detailed lists).
+ * Starts from the default so SSR markup matches, then hydrates from storage.
+ */
+export function useViewPref(
+  key: string,
+  defaultValue: boolean,
+): [boolean, (next: boolean | ((current: boolean) => boolean)) => void] {
+  const [value, setValue] = useState(defaultValue);
+
+  useEffect(() => {
+    try {
+      const stored = window.localStorage.getItem(PREFIX + key);
+      if (stored === "1" || stored === "0") setValue(stored === "1");
+    } catch {
+      /* storage unavailable */
+    }
+  }, [key]);
+
+  const update = useCallback(
+    (next: boolean | ((current: boolean) => boolean)) => {
+      setValue((current) => {
+        const resolved = typeof next === "function" ? next(current) : next;
+        try {
+          window.localStorage.setItem(PREFIX + key, resolved ? "1" : "0");
+        } catch {
+          /* storage unavailable */
+        }
+        return resolved;
+      });
+    },
+    [key],
+  );
+
+  return [value, update];
+}

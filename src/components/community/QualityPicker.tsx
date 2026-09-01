@@ -1,1 +1,157 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBDaGVjaywgR2F1Z2UsIExvYWRlcjIgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgewogIERFRkFVTFRfUVVBTElUWSwKICBkZXRlY3RRdWFsaXR5LAogIGdldEF1dG9UaWVyLAogIGdldFN0b3JlZFF1YWxpdHksCiAgc2V0QXV0b1RpZXIsCiAgQVVUT19USUVSX0VWRU5ULAogIFFVQUxJVFlfT1BUSU9OUywKICBzZXRRdWFsaXR5LAogIHR5cGUgUXVhbGl0eVByZWYsCn0gZnJvbSAiQC9saWIvcXVhbGl0eSI7CmltcG9ydCB7IHJ1blF1YWxpdHlCZW5jaG1hcmssIHR5cGUgQmVuY2htYXJrUmVzdWx0IH0gZnJvbSAiQC9saWIvYmVuY2htYXJrIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7Cgpjb25zdCBUSUVSX05BTUU6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgaGlnaDogIkhpZ2ggZGV0YWlsIiwKICBiYWxhbmNlZDogIkJhbGFuY2VkIiwKICBsb3c6ICJQZXJmb3JtYW5jZSIsCn07Cgpjb25zdCBRdWFsaXR5UGlja2VyID0gKCkgPT4gewogIGNvbnN0IFthY3RpdmUsIHNldEFjdGl2ZV0gPSB1c2VTdGF0ZTxRdWFsaXR5UHJlZj4oREVGQVVMVF9RVUFMSVRZKTsKICBjb25zdCBbZGV0ZWN0ZWQsIHNldERldGVjdGVkXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpOwogIGNvbnN0IFt0aWVyLCBzZXRUaWVyXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtydW5uaW5nLCBzZXRSdW5uaW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbcHJvZ3Jlc3MsIHNldFByb2dyZXNzXSA9IHVzZVN0YXRlKDApOwogIGNvbnN0IFtyZXN1bHQsIHNldFJlc3VsdF0gPSB1c2VTdGF0ZTxCZW5jaG1hcmtSZXN1bHQgfCBudWxsPihudWxsKTsKICBjb25zdCBhbGl2ZSA9IHVzZVJlZih0cnVlKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGFsaXZlLmN1cnJlbnQgPSB0cnVlOwogICAgc2V0QWN0aXZlKGdldFN0b3JlZFF1YWxpdHkoKSk7CiAgICBzZXREZXRlY3RlZChkZXRlY3RRdWFsaXR5KCkpOwogICAgc2V0VGllcihnZXRBdXRvVGllcigpKTsKICAgIGNvbnN0IG9uVGllciA9ICgpID0+IHNldFRpZXIoZ2V0QXV0b1RpZXIoKSk7CiAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcihBVVRPX1RJRVJfRVZFTlQsIG9uVGllcik7CiAgICByZXR1cm4gKCkgPT4gewogICAgICBhbGl2ZS5jdXJyZW50ID0gZmFsc2U7CiAgICAgIHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKEFVVE9fVElFUl9FVkVOVCwgb25UaWVyKTsKICAgIH07CiAgfSwgW10pOwoKICBjb25zdCBjaG9vc2UgPSAoaWQ6IFF1YWxpdHlQcmVmKSA9PiB7CiAgICBzZXRRdWFsaXR5KGlkKTsKICAgIHNldEFjdGl2ZShpZCk7CiAgfTsKCiAgLyoqIE1lYXN1cmUgdGhpcyBkZXZpY2UsIHRoZW4gc3dpdGNoIHN0cmFpZ2h0IHRvIHRoZSB0aWVyIGl0IGNhbiBoYW5kbGUuICovCiAgY29uc3QgcnVuVGVzdCA9IGFzeW5jICgpID0+IHsKICAgIGlmIChydW5uaW5nKSByZXR1cm47CiAgICBzZXRSdW5uaW5nKHRydWUpOwogICAgc2V0UHJvZ3Jlc3MoMCk7CiAgICBzZXRSZXN1bHQobnVsbCk7CiAgICBjb25zdCBvdXRjb21lID0gYXdhaXQgcnVuUXVhbGl0eUJlbmNobWFyaygocCkgPT4gewogICAgICBpZiAoYWxpdmUuY3VycmVudCkgc2V0UHJvZ3Jlc3MocCk7CiAgICB9KTsKICAgIGlmICghYWxpdmUuY3VycmVudCkgcmV0dXJuOwogICAgc2V0UmVzdWx0KG91dGNvbWUpOwogICAgLy8gS2VlcCAiYXV0byIgYWRhcHRpdmUgYnV0IHNlZWQgaXQgd2l0aCB0aGUgbWVhc3VyZWQgdGllcjsgb3RoZXJ3aXNlIHBpbiBpdC4KICAgIGlmIChnZXRTdG9yZWRRdWFsaXR5KCkgPT09ICJhdXRvIikgc2V0QXV0b1RpZXIob3V0Y29tZS50aWVyKTsKICAgIGVsc2UgY2hvb3NlKG91dGNvbWUudGllcik7CiAgICBzZXRUaWVyKGdldEF1dG9UaWVyKCkpOwogICAgc2V0UnVubmluZyhmYWxzZSk7CiAgfTsKCgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS00Ij4KICAgICAgPGRpdiByb2xlPSJyYWRpb2dyb3VwIiBhcmlhLWxhYmVsPSJHcmFwaGljcyBxdWFsaXR5IiBjbGFzc05hbWU9ImdyaWQgZ2FwLTMgc206Z3JpZC1jb2xzLTIiPgogICAgICAgIHtRVUFMSVRZX09QVElPTlMubWFwKChvcHRpb24pID0+IHsKICAgICAgICAgIGNvbnN0IHNlbGVjdGVkID0gb3B0aW9uLmlkID09PSBhY3RpdmU7CiAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAga2V5PXtvcHRpb24uaWR9CiAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgIHJvbGU9InJhZGlvIgogICAgICAgICAgICAgIGFyaWEtY2hlY2tlZD17c2VsZWN0ZWR9CiAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gY2hvb3NlKG9wdGlvbi5pZCl9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgdGV4dC1sZWZ0IHJvdW5kZWQtbGcgYm9yZGVyIHAtNCB0cmFuc2l0aW9uLWNvbG9ycyAkewogICAgICAgICAgICAgICAgc2VsZWN0ZWQKICAgICAgICAgICAgICAgICAgPyAiYm9yZGVyLXByaW1hcnkgYmctcHJpbWFyeS8xMCIKICAgICAgICAgICAgICAgICAgOiAiYm9yZGVyLWJvcmRlciBiZy1jYXJkIGhvdmVyOmJvcmRlci1wcmltYXJ5LzUwIgogICAgICAgICAgICAgIH1gfQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMyI+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlciB0ZXh0LXNtIHVwcGVyY2FzZSI+e29wdGlvbi5uYW1lfTwvc3Bhbj4KICAgICAgICAgICAgICAgIHtzZWxlY3RlZCAmJiA8Q2hlY2sgY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtcHJpbWFyeSBzaHJpbmstMCIgYXJpYS1oaWRkZW49InRydWUiIC8+fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMyI+e29wdGlvbi5kZXNjcmlwdGlvbn08L3A+CiAgICAgICAgICAgICAge29wdGlvbi5pZCA9PT0gImF1dG8iICYmIGRldGVjdGVkICYmICgKICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC1wcmltYXJ5LzgwIG10LTIgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIj4KICAgICAgICAgICAgICAgICAgVGhpcyBkZXZpY2U6IHtkZXRlY3RlZH0KICAgICAgICAgICAgICAgICAge3RpZXIgJiYgdGllciAhPT0gZGV0ZWN0ZWQgPyBgIMK3IG5vdyBydW5uaW5nOiAke3RpZXJ9YCA6ICIifQogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgKTsKICAgICAgICB9KX0KICAgICAgPC9kaXY+CgogICAgICB7LyogT25lLXRhcCBiZW5jaG1hcms6IG1lYXN1cmVzIHRoaXMgZGV2aWNlLCB0aGVuIGFwcGxpZXMgdGhlIGJlc3QgdGllci4gKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQgcC00Ij4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMyI+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8cCBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LXNtIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciI+VGVzdCBwZXJmb3JtYW5jZTwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC0xIj4KICAgICAgICAgICAgICBSdW5zIGEgfjEuNSBzZWNvbmQgZ3JhcGhpY3MgYmVuY2htYXJrIGFuZCBhcHBsaWVzIHRoZSBzZXR0aW5ncyB5b3VyIGRldmljZSBoYW5kbGVzCiAgICAgICAgICAgICAgc21vb3RobHkuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPEJ1dHRvbiB0eXBlPSJidXR0b24iIG9uQ2xpY2s9e3J1blRlc3R9IGRpc2FibGVkPXtydW5uaW5nfSBjbGFzc05hbWU9InNocmluay0wIj4KICAgICAgICAgICAge3J1bm5pbmcgPyAoCiAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgIDxMb2FkZXIyIGNsYXNzTmFtZT0iaC00IHctNCBhbmltYXRlLXNwaW4iIGFyaWEtaGlkZGVuPSJ0cnVlIiAvPgogICAgICAgICAgICAgICAgVGVzdGluZ+KApgogICAgICAgICAgICAgIDwvPgogICAgICAgICAgICApIDogKAogICAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAgICA8R2F1Z2UgY2xhc3NOYW1lPSJoLTQgdy00IiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4KICAgICAgICAgICAgICAgIFRlc3QgcGVyZm9ybWFuY2UKICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgoKICAgICAgICB7cnVubmluZyAmJiAoCiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzTmFtZT0ibXQtMyBoLTEuNSB3LWZ1bGwgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtZnVsbCBiZy1tdXRlZCIKICAgICAgICAgICAgcm9sZT0icHJvZ3Jlc3NiYXIiCiAgICAgICAgICAgIGFyaWEtdmFsdWVub3c9e01hdGgucm91bmQocHJvZ3Jlc3MgKiAxMDApfQogICAgICAgICAgICBhcmlhLXZhbHVlbWluPXswfQogICAgICAgICAgICBhcmlhLXZhbHVlbWF4PXsxMDB9CiAgICAgICAgICAgIGFyaWEtbGFiZWw9IkJlbmNobWFyayBwcm9ncmVzcyIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIGNsYXNzTmFtZT0iaC1mdWxsIHJvdW5kZWQtZnVsbCBiZy1wcmltYXJ5IHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTE1MCIKICAgICAgICAgICAgICBzdHlsZT17eyB3aWR0aDogYCR7TWF0aC5yb3VuZChwcm9ncmVzcyAqIDEwMCl9JWAgfX0KICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CgogICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMyB0ZXh0LXhzIHRleHQtcHJpbWFyeS85MCIgYXJpYS1saXZlPSJwb2xpdGUiPgogICAgICAgICAge3Jlc3VsdAogICAgICAgICAgICA/IHJlc3VsdC5mYWxsYmFjawogICAgICAgICAgICAgID8gIjNEIGlzbid0IGF2YWlsYWJsZSBvbiB0aGlzIGRldmljZSDigJQgc3dpdGNoZWQgdG8gUGVyZm9ybWFuY2UuIgogICAgICAgICAgICAgIDogYE1lYXN1cmVkICR7cmVzdWx0LmZwc30gZnBzIMK3IGFwcGxpZWQgJHtUSUVSX05BTUVbcmVzdWx0LnRpZXJdID8/IHJlc3VsdC50aWVyfS5gCiAgICAgICAgICAgIDogIiJ9CiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cgp9OwoKZXhwb3J0IGRlZmF1bHQgUXVhbGl0eVBpY2tlcjsK
+import { useEffect, useRef, useState } from "react";
+import { Check, Gauge, Loader2 } from "lucide-react";
+import {
+  DEFAULT_QUALITY,
+  detectQuality,
+  getAutoTier,
+  getStoredQuality,
+  setAutoTier,
+  AUTO_TIER_EVENT,
+  QUALITY_OPTIONS,
+  setQuality,
+  type QualityPref,
+} from "@/lib/quality";
+import { runQualityBenchmark, type BenchmarkResult } from "@/lib/benchmark";
+import { Button } from "@/components/ui/button";
+
+const TIER_NAME: Record<string, string> = {
+  high: "High detail",
+  balanced: "Balanced",
+  low: "Performance",
+};
+
+const QualityPicker = () => {
+  const [active, setActive] = useState<QualityPref>(DEFAULT_QUALITY);
+  const [detected, setDetected] = useState<string | null>(null);
+  const [tier, setTier] = useState<string | null>(null);
+  const [running, setRunning] = useState(false);
+  const [progress, setProgress] = useState(0);
+  const [result, setResult] = useState<BenchmarkResult | null>(null);
+  const alive = useRef(true);
+
+  useEffect(() => {
+    alive.current = true;
+    setActive(getStoredQuality());
+    setDetected(detectQuality());
+    setTier(getAutoTier());
+    const onTier = () => setTier(getAutoTier());
+    window.addEventListener(AUTO_TIER_EVENT, onTier);
+    return () => {
+      alive.current = false;
+      window.removeEventListener(AUTO_TIER_EVENT, onTier);
+    };
+  }, []);
+
+  const choose = (id: QualityPref) => {
+    setQuality(id);
+    setActive(id);
+  };
+
+  /** Measure this device, then switch straight to the tier it can handle. */
+  const runTest = async () => {
+    if (running) return;
+    setRunning(true);
+    setProgress(0);
+    setResult(null);
+    const outcome = await runQualityBenchmark((p) => {
+      if (alive.current) setProgress(p);
+    });
+    if (!alive.current) return;
+    setResult(outcome);
+    // Keep "auto" adaptive but seed it with the measured tier; otherwise pin it.
+    if (getStoredQuality() === "auto") setAutoTier(outcome.tier);
+    else choose(outcome.tier);
+    setTier(getAutoTier());
+    setRunning(false);
+  };
+
+
+  return (
+    <div className="space-y-4">
+      <div role="radiogroup" aria-label="Graphics quality" className="grid gap-3 sm:grid-cols-2">
+        {QUALITY_OPTIONS.map((option) => {
+          const selected = option.id === active;
+          return (
+            <button
+              key={option.id}
+              type="button"
+              role="radio"
+              aria-checked={selected}
+              onClick={() => choose(option.id)}
+              className={`text-left rounded-lg border p-4 transition-colors ${
+                selected
+                  ? "border-primary bg-primary/10"
+                  : "border-border bg-card hover:border-primary/50"
+              }`}
+            >
+              <div className="flex items-center justify-between gap-3">
+                <span className="font-display tracking-wider text-sm uppercase">{option.name}</span>
+                {selected && <Check className="w-4 h-4 text-primary shrink-0" aria-hidden="true" />}
+              </div>
+              <p className="text-xs text-muted-foreground mt-3">{option.description}</p>
+              {option.id === "auto" && detected && (
+                <p className="text-[11px] text-primary/80 mt-2 uppercase tracking-wider">
+                  This device: {detected}
+                  {tier && tier !== detected ? ` · now running: ${tier}` : ""}
+                </p>
+              )}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* One-tap benchmark: measures this device, then applies the best tier. */}
+      <div className="rounded-lg border border-border bg-card p-4">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <p className="font-display text-sm uppercase tracking-wider">Test performance</p>
+            <p className="text-xs text-muted-foreground mt-1">
+              Runs a ~1.5 second graphics benchmark and applies the settings your device handles
+              smoothly.
+            </p>
+          </div>
+          <Button type="button" onClick={runTest} disabled={running} className="shrink-0">
+            {running ? (
+              <>
+                <Loader2 className="h-4 w-4 animate-spin" aria-hidden="true" />
+                Testing…
+              </>
+            ) : (
+              <>
+                <Gauge className="h-4 w-4" aria-hidden="true" />
+                Test performance
+              </>
+            )}
+          </Button>
+        </div>
+
+        {running && (
+          <div
+            className="mt-3 h-1.5 w-full overflow-hidden rounded-full bg-muted"
+            role="progressbar"
+            aria-valuenow={Math.round(progress * 100)}
+            aria-valuemin={0}
+            aria-valuemax={100}
+            aria-label="Benchmark progress"
+          >
+            <div
+              className="h-full rounded-full bg-primary transition-all duration-150"
+              style={{ width: `${Math.round(progress * 100)}%` }}
+            />
+          </div>
+        )}
+
+        <p className="mt-3 text-xs text-primary/90" aria-live="polite">
+          {result
+            ? result.fallback
+              ? "3D isn't available on this device — switched to Performance."
+              : `Measured ${result.fps} fps · applied ${TIER_NAME[result.tier] ?? result.tier}.`
+            : ""}
+        </p>
+      </div>
+    </div>
+  );
+
+};
+
+export default QualityPicker;

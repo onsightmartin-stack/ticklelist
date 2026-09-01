@@ -1,1 +1,81 @@
-Y3JlYXRlIHRhYmxlIGlmIG5vdCBleGlzdHMgcHVibGljLmJ1Z19yZXBvcnRzICgKICBpZCB1dWlkIHByaW1hcnkga2V5IGRlZmF1bHQgZ2VuX3JhbmRvbV91dWlkKCksCiAgcmVwb3J0ZXJfaWQgdXVpZCByZWZlcmVuY2VzIGF1dGgudXNlcnMoaWQpIG9uIGRlbGV0ZSBzZXQgbnVsbCwKICBjb250YWN0X2VtYWlsIHRleHQsCiAgcGFnZV9wYXRoIHRleHQsCiAgY2F0ZWdvcnkgdGV4dCBub3QgbnVsbCBkZWZhdWx0ICdidWcnLAogIHN1YmplY3QgdGV4dCBub3QgbnVsbCwKICBkZXRhaWxzIHRleHQgbm90IG51bGwsCiAgc3RhdHVzIHRleHQgbm90IG51bGwgZGVmYXVsdCAnb3BlbicsCiAgY3JlYXRlZF9hdCB0aW1lc3RhbXB0eiBub3QgbnVsbCBkZWZhdWx0IG5vdygpLAogIHVwZGF0ZWRfYXQgdGltZXN0YW1wdHogbm90IG51bGwgZGVmYXVsdCBub3coKSwKICBjb25zdHJhaW50IGJ1Z19yZXBvcnRzX2NhdGVnb3J5X2NoZWNrIGNoZWNrIChjYXRlZ29yeSBpbiAoJ2J1ZycsJ2lkZWEnLCdxdWVzdGlvbicsJ290aGVyJykpLAogIGNvbnN0cmFpbnQgYnVnX3JlcG9ydHNfc3RhdHVzX2NoZWNrIGNoZWNrIChzdGF0dXMgaW4gKCdvcGVuJywnaW5fcHJvZ3Jlc3MnLCdyZXNvbHZlZCcsJ2Nsb3NlZCcpKQopOwoKZ3JhbnQgc2VsZWN0LCBpbnNlcnQgb24gcHVibGljLmJ1Z19yZXBvcnRzIHRvIGF1dGhlbnRpY2F0ZWQ7CmdyYW50IGluc2VydCBvbiBwdWJsaWMuYnVnX3JlcG9ydHMgdG8gYW5vbjsKZ3JhbnQgYWxsIG9uIHB1YmxpYy5idWdfcmVwb3J0cyB0byBzZXJ2aWNlX3JvbGU7CmdyYW50IHVwZGF0ZSAoc3RhdHVzKSBvbiBwdWJsaWMuYnVnX3JlcG9ydHMgdG8gYXV0aGVudGljYXRlZDsKCmFsdGVyIHRhYmxlIHB1YmxpYy5idWdfcmVwb3J0cyBlbmFibGUgcm93IGxldmVsIHNlY3VyaXR5OwoKZHJvcCBwb2xpY3kgaWYgZXhpc3RzICJNZW1iZXJzIGNhbiBmaWxlIHJlcG9ydHMiIG9uIHB1YmxpYy5idWdfcmVwb3J0czsKY3JlYXRlIHBvbGljeSAiTWVtYmVycyBjYW4gZmlsZSByZXBvcnRzIiBvbiBwdWJsaWMuYnVnX3JlcG9ydHMKICBmb3IgaW5zZXJ0IHRvIGF1dGhlbnRpY2F0ZWQKICB3aXRoIGNoZWNrIChyZXBvcnRlcl9pZCA9IGF1dGgudWlkKCkpOwoKZHJvcCBwb2xpY3kgaWYgZXhpc3RzICJHdWVzdHMgY2FuIGZpbGUgcmVwb3J0cyIgb24gcHVibGljLmJ1Z19yZXBvcnRzOwpjcmVhdGUgcG9saWN5ICJHdWVzdHMgY2FuIGZpbGUgcmVwb3J0cyIgb24gcHVibGljLmJ1Z19yZXBvcnRzCiAgZm9yIGluc2VydCB0byBhbm9uCiAgd2l0aCBjaGVjayAocmVwb3J0ZXJfaWQgaXMgbnVsbCk7Cgpkcm9wIHBvbGljeSBpZiBleGlzdHMgIlJlcG9ydGVycyByZWFkIG93biByZXBvcnRzIiBvbiBwdWJsaWMuYnVnX3JlcG9ydHM7CmNyZWF0ZSBwb2xpY3kgIlJlcG9ydGVycyByZWFkIG93biByZXBvcnRzIiBvbiBwdWJsaWMuYnVnX3JlcG9ydHMKICBmb3Igc2VsZWN0IHRvIGF1dGhlbnRpY2F0ZWQKICB1c2luZyAocmVwb3J0ZXJfaWQgPSBhdXRoLnVpZCgpKTsKCmRyb3AgcG9saWN5IGlmIGV4aXN0cyAiQWRtaW5zIHJlYWQgYWxsIHJlcG9ydHMiIG9uIHB1YmxpYy5idWdfcmVwb3J0czsKY3JlYXRlIHBvbGljeSAiQWRtaW5zIHJlYWQgYWxsIHJlcG9ydHMiIG9uIHB1YmxpYy5idWdfcmVwb3J0cwogIGZvciBzZWxlY3QgdG8gYXV0aGVudGljYXRlZAogIHVzaW5nIChwdWJsaWMuaGFzX3JvbGUoYXV0aC51aWQoKSwgJ2FkbWluJykpOwoKZHJvcCBwb2xpY3kgaWYgZXhpc3RzICJBZG1pbnMgdXBkYXRlIHJlcG9ydHMiIG9uIHB1YmxpYy5idWdfcmVwb3J0czsKY3JlYXRlIHBvbGljeSAiQWRtaW5zIHVwZGF0ZSByZXBvcnRzIiBvbiBwdWJsaWMuYnVnX3JlcG9ydHMKICBmb3IgdXBkYXRlIHRvIGF1dGhlbnRpY2F0ZWQKICB1c2luZyAocHVibGljLmhhc19yb2xlKGF1dGgudWlkKCksICdhZG1pbicpKQogIHdpdGggY2hlY2sgKHB1YmxpYy5oYXNfcm9sZShhdXRoLnVpZCgpLCAnYWRtaW4nKSk7Cgpkcm9wIHRyaWdnZXIgaWYgZXhpc3RzIGJ1Z19yZXBvcnRzX3VwZGF0ZWRfYXQgb24gcHVibGljLmJ1Z19yZXBvcnRzOwpjcmVhdGUgdHJpZ2dlciBidWdfcmVwb3J0c191cGRhdGVkX2F0IGJlZm9yZSB1cGRhdGUgb24gcHVibGljLmJ1Z19yZXBvcnRzCiAgZm9yIGVhY2ggcm93IGV4ZWN1dGUgZnVuY3Rpb24gcHVibGljLnVwZGF0ZV91cGRhdGVkX2F0X2NvbHVtbigpOwoKYWx0ZXIgdGFibGUgcHVibGljLm5vdGlmaWNhdGlvbnMgZHJvcCBjb25zdHJhaW50IGlmIGV4aXN0cyBub3RpZmljYXRpb25zX2tpbmRfY2hlY2s7CmFsdGVyIHRhYmxlIHB1YmxpYy5ub3RpZmljYXRpb25zIGFkZCBjb25zdHJhaW50IG5vdGlmaWNhdGlvbnNfa2luZF9jaGVjawogIGNoZWNrIChraW5kID0gYW55IChhcnJheVsnZm9sbG93JywnbGlrZScsJ2NvbW1lbnQnLCdtZW50aW9uJywnY2hlZXInLCdidWcnXSkpOwoKY3JlYXRlIG9yIHJlcGxhY2UgZnVuY3Rpb24gcHVibGljLm5vdGlmeV9hZG1pbnNfb2ZfYnVnX3JlcG9ydCgpCnJldHVybnMgdHJpZ2dlcgpsYW5ndWFnZSBwbHBnc3FsCnNlY3VyaXR5IGRlZmluZXIKc2V0IHNlYXJjaF9wYXRoID0gcHVibGljCmFzICQkCmJlZ2luCiAgaWYgbmV3LnJlcG9ydGVyX2lkIGlzIG51bGwgdGhlbgogICAgcmV0dXJuIG5ldzsKICBlbmQgaWY7CiAgaW5zZXJ0IGludG8gcHVibGljLm5vdGlmaWNhdGlvbnMgKHJlY2lwaWVudF9pZCwgYWN0b3JfaWQsIGtpbmQsIGJvZHksIGxpbmspCiAgc2VsZWN0IHVyLnVzZXJfaWQsIG5ldy5yZXBvcnRlcl9pZCwgJ2J1ZycsCiAgICAgICAgIGxlZnQoJ05ldyAnIHx8IG5ldy5jYXRlZ29yeSB8fCAnIHJlcG9ydDogJyB8fCBuZXcuc3ViamVjdCwgMzAwKSwKICAgICAgICAgJy9jb21tdW5pdHkvaGVscCcKICBmcm9tIHB1YmxpYy51c2VyX3JvbGVzIHVyCiAgd2hlcmUgdXIucm9sZSA9ICdhZG1pbicgYW5kIHVyLnVzZXJfaWQgPD4gbmV3LnJlcG9ydGVyX2lkOwogIHJldHVybiBuZXc7CmVuZDsKJCQ7CgpyZXZva2UgZXhlY3V0ZSBvbiBmdW5jdGlvbiBwdWJsaWMubm90aWZ5X2FkbWluc19vZl9idWdfcmVwb3J0KCkgZnJvbSBhbm9uLCBhdXRoZW50aWNhdGVkOwoKZHJvcCB0cmlnZ2VyIGlmIGV4aXN0cyBidWdfcmVwb3J0c19ub3RpZnlfYWRtaW5zIG9uIHB1YmxpYy5idWdfcmVwb3J0czsKY3JlYXRlIHRyaWdnZXIgYnVnX3JlcG9ydHNfbm90aWZ5X2FkbWlucyBhZnRlciBpbnNlcnQgb24gcHVibGljLmJ1Z19yZXBvcnRzCiAgZm9yIGVhY2ggcm93IGV4ZWN1dGUgZnVuY3Rpb24gcHVibGljLm5vdGlmeV9hZG1pbnNfb2ZfYnVnX3JlcG9ydCgpOw==
+create table if not exists public.bug_reports (
+  id uuid primary key default gen_random_uuid(),
+  reporter_id uuid references auth.users(id) on delete set null,
+  contact_email text,
+  page_path text,
+  category text not null default 'bug',
+  subject text not null,
+  details text not null,
+  status text not null default 'open',
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  constraint bug_reports_category_check check (category in ('bug','idea','question','other')),
+  constraint bug_reports_status_check check (status in ('open','in_progress','resolved','closed'))
+);
+
+grant select, insert on public.bug_reports to authenticated;
+grant insert on public.bug_reports to anon;
+grant all on public.bug_reports to service_role;
+grant update (status) on public.bug_reports to authenticated;
+
+alter table public.bug_reports enable row level security;
+
+drop policy if exists "Members can file reports" on public.bug_reports;
+create policy "Members can file reports" on public.bug_reports
+  for insert to authenticated
+  with check (reporter_id = auth.uid());
+
+drop policy if exists "Guests can file reports" on public.bug_reports;
+create policy "Guests can file reports" on public.bug_reports
+  for insert to anon
+  with check (reporter_id is null);
+
+drop policy if exists "Reporters read own reports" on public.bug_reports;
+create policy "Reporters read own reports" on public.bug_reports
+  for select to authenticated
+  using (reporter_id = auth.uid());
+
+drop policy if exists "Admins read all reports" on public.bug_reports;
+create policy "Admins read all reports" on public.bug_reports
+  for select to authenticated
+  using (public.has_role(auth.uid(), 'admin'));
+
+drop policy if exists "Admins update reports" on public.bug_reports;
+create policy "Admins update reports" on public.bug_reports
+  for update to authenticated
+  using (public.has_role(auth.uid(), 'admin'))
+  with check (public.has_role(auth.uid(), 'admin'));
+
+drop trigger if exists bug_reports_updated_at on public.bug_reports;
+create trigger bug_reports_updated_at before update on public.bug_reports
+  for each row execute function public.update_updated_at_column();
+
+alter table public.notifications drop constraint if exists notifications_kind_check;
+alter table public.notifications add constraint notifications_kind_check
+  check (kind = any (array['follow','like','comment','mention','cheer','bug']));
+
+create or replace function public.notify_admins_of_bug_report()
+returns trigger
+language plpgsql
+security definer
+set search_path = public
+as $$
+begin
+  if new.reporter_id is null then
+    return new;
+  end if;
+  insert into public.notifications (recipient_id, actor_id, kind, body, link)
+  select ur.user_id, new.reporter_id, 'bug',
+         left('New ' || new.category || ' report: ' || new.subject, 300),
+         '/community/help'
+  from public.user_roles ur
+  where ur.role = 'admin' and ur.user_id <> new.reporter_id;
+  return new;
+end;
+$$;
+
+revoke execute on function public.notify_admins_of_bug_report() from anon, authenticated;
+
+drop trigger if exists bug_reports_notify_admins on public.bug_reports;
+create trigger bug_reports_notify_admins after insert on public.bug_reports
+  for each row execute function public.notify_admins_of_bug_report();

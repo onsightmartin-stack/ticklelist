@@ -1,1 +1,37 @@
-aW1wb3J0IHsgR3JpcFZlcnRpY2FsIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0ICogYXMgUmVzaXphYmxlUHJpbWl0aXZlIGZyb20gInJlYWN0LXJlc2l6YWJsZS1wYW5lbHMiOwoKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyI7Cgpjb25zdCBSZXNpemFibGVQYW5lbEdyb3VwID0gKHsgY2xhc3NOYW1lLCAuLi5wcm9wcyB9OiBSZWFjdC5Db21wb25lbnRQcm9wczx0eXBlb2YgUmVzaXphYmxlUHJpbWl0aXZlLkdyb3VwPikgPT4gKAogIDxSZXNpemFibGVQcmltaXRpdmUuR3JvdXAKICAgIGNsYXNzTmFtZT17Y24oImZsZXggaC1mdWxsIHctZnVsbCBkYXRhLVtwYW5lbC1ncm91cC1kaXJlY3Rpb249dmVydGljYWxdOmZsZXgtY29sIiwgY2xhc3NOYW1lKX0KICAgIHsuLi5wcm9wc30KICAvPgopOwoKY29uc3QgUmVzaXphYmxlUGFuZWwgPSBSZXNpemFibGVQcmltaXRpdmUuUGFuZWw7Cgpjb25zdCBSZXNpemFibGVIYW5kbGUgPSAoewogIHdpdGhIYW5kbGUsCiAgY2xhc3NOYW1lLAogIC4uLnByb3BzCn06IFJlYWN0LkNvbXBvbmVudFByb3BzPHR5cGVvZiBSZXNpemFibGVQcmltaXRpdmUuU2VwYXJhdG9yPiAmIHsKICB3aXRoSGFuZGxlPzogYm9vbGVhbiB8IHVuZGVmaW5lZDsKfSkgPT4gKAogIDxSZXNpemFibGVQcmltaXRpdmUuU2VwYXJhdG9yCiAgICBjbGFzc05hbWU9e2NuKAogICAgICAicmVsYXRpdmUgZmxleCB3LXB4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBiZy1ib3JkZXIgYWZ0ZXI6YWJzb2x1dGUgYWZ0ZXI6aW5zZXQteS0wIGFmdGVyOmxlZnQtMS8yIGFmdGVyOnctMSBhZnRlcjotdHJhbnNsYXRlLXgtMS8yIGRhdGEtW3BhbmVsLWdyb3VwLWRpcmVjdGlvbj12ZXJ0aWNhbF06aC1weCBkYXRhLVtwYW5lbC1ncm91cC1kaXJlY3Rpb249dmVydGljYWxdOnctZnVsbCBkYXRhLVtwYW5lbC1ncm91cC1kaXJlY3Rpb249dmVydGljYWxdOmFmdGVyOmxlZnQtMCBkYXRhLVtwYW5lbC1ncm91cC1kaXJlY3Rpb249dmVydGljYWxdOmFmdGVyOmgtMSBkYXRhLVtwYW5lbC1ncm91cC1kaXJlY3Rpb249dmVydGljYWxdOmFmdGVyOnctZnVsbCBkYXRhLVtwYW5lbC1ncm91cC1kaXJlY3Rpb249dmVydGljYWxdOmFmdGVyOi10cmFuc2xhdGUteS0xLzIgZGF0YS1bcGFuZWwtZ3JvdXAtZGlyZWN0aW9uPXZlcnRpY2FsXTphZnRlcjp0cmFuc2xhdGUteC0wIGZvY3VzLXZpc2libGU6b3V0bGluZS1oaWRkZW4gZm9jdXMtdmlzaWJsZTpyaW5nLTEgZm9jdXMtdmlzaWJsZTpyaW5nLXJpbmcgZm9jdXMtdmlzaWJsZTpyaW5nLW9mZnNldC0xIFsmW2RhdGEtcGFuZWwtZ3JvdXAtZGlyZWN0aW9uPXZlcnRpY2FsXT5kaXZdOnJvdGF0ZS05MCIsCiAgICAgIGNsYXNzTmFtZSwKICAgICl9CiAgICB7Li4ucHJvcHN9CiAgPgogICAge3dpdGhIYW5kbGUgJiYgKAogICAgICA8ZGl2IGNsYXNzTmFtZT0iei0xMCBmbGV4IGgtNCB3LTMgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQteHMgYm9yZGVyIGJnLWJvcmRlciI+CiAgICAgICAgPEdyaXBWZXJ0aWNhbCBjbGFzc05hbWU9ImgtMi41IHctMi41IiAvPgogICAgICA8L2Rpdj4KICAgICl9CiAgPC9SZXNpemFibGVQcmltaXRpdmUuU2VwYXJhdG9yPgopOwoKZXhwb3J0IHsgUmVzaXphYmxlUGFuZWxHcm91cCwgUmVzaXphYmxlUGFuZWwsIFJlc2l6YWJsZUhhbmRsZSB9Owo=
+import { GripVertical } from "lucide-react";
+import * as ResizablePrimitive from "react-resizable-panels";
+
+import { cn } from "@/lib/utils";
+
+const ResizablePanelGroup = ({ className, ...props }: React.ComponentProps<typeof ResizablePrimitive.Group>) => (
+  <ResizablePrimitive.Group
+    className={cn("flex h-full w-full data-[panel-group-direction=vertical]:flex-col", className)}
+    {...props}
+  />
+);
+
+const ResizablePanel = ResizablePrimitive.Panel;
+
+const ResizableHandle = ({
+  withHandle,
+  className,
+  ...props
+}: React.ComponentProps<typeof ResizablePrimitive.Separator> & {
+  withHandle?: boolean | undefined;
+}) => (
+  <ResizablePrimitive.Separator
+    className={cn(
+      "relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 data-[panel-group-direction=vertical]:h-px data-[panel-group-direction=vertical]:w-full data-[panel-group-direction=vertical]:after:left-0 data-[panel-group-direction=vertical]:after:h-1 data-[panel-group-direction=vertical]:after:w-full data-[panel-group-direction=vertical]:after:-translate-y-1/2 data-[panel-group-direction=vertical]:after:translate-x-0 focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 [&[data-panel-group-direction=vertical]>div]:rotate-90",
+      className,
+    )}
+    {...props}
+  >
+    {withHandle && (
+      <div className="z-10 flex h-4 w-3 items-center justify-center rounded-xs border bg-border">
+        <GripVertical className="h-2.5 w-2.5" />
+      </div>
+    )}
+  </ResizablePrimitive.Separator>
+);
+
+export { ResizablePanelGroup, ResizablePanel, ResizableHandle };

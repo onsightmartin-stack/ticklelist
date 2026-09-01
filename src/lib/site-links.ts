@@ -1,1 +1,54 @@
-LyoqCiAqIENyb3NzLXNpdGUgbGluayBjb25maWcuCiAqCiAqIFRpY2tsZWxpc3QgKHRoZSBjb21tdW5pdHkpIGFuZCBPbnNpZ2h0IE1hcnRpbiAodGhlIG1haW4gc2l0ZSkgYXJlIHR3bwogKiBzZXBhcmF0ZSBleHBlcmllbmNlcy4gVGhleSBhcmUgY3Jvc3MtbGlua2VkLCBuZXZlciBtZXJnZWQuCiAqCiAqIFNldCBWSVRFX0NPTU1VTklUWV9VUkwgKGUuZy4gaHR0cHM6Ly90aWNrbGVsaXN0Lm9yZykgb25jZSB0aGUgY29tbXVuaXR5CiAqIGxpdmVzIG9uIGl0cyBvd24gZG9tYWluIOKAlCBldmVyeSAiQ29tbXVuaXR5IiBsaW5rIHRoZW4gcG9pbnRzIG9mZi1zaXRlIGFuZAogKiBvcGVucyBpbiBhIG5ldyB0YWIuIFdpdGhvdXQgaXQsIGxpbmtzIHN0YXkgb24gdGhlIGluLWFwcCAvY29tbXVuaXR5IHBhdGguCiAqLwoKY29uc3QgcmF3ID0gKHY6IHVua25vd24pID0+ICh0eXBlb2YgdiA9PT0gInN0cmluZyIgPyB2LnRyaW0oKS5yZXBsYWNlKC9cLyskLywgIiIpIDogIiIpOwoKZXhwb3J0IGNvbnN0IENPTU1VTklUWV9PUklHSU4gPSByYXcoaW1wb3J0Lm1ldGEuZW52WydWSVRFX0NPTU1VTklUWV9VUkwnXSk7CmV4cG9ydCBjb25zdCBNQUlOX1NJVEVfT1JJR0lOID0gcmF3KGltcG9ydC5tZXRhLmVudlsnVklURV9NQUlOX1NJVEVfVVJMJ10pIHx8ICJodHRwczovL29uc2lnaHRtYXJ0aW4uY29tIjsKCi8qKiBUcnVlIHdoZW4gdGhlIGNvbW11bml0eSBpcyBzZXJ2ZWQgZnJvbSBpdHMgb3duIGRvbWFpbi4gKi8KZXhwb3J0IGNvbnN0IENPTU1VTklUWV9JU19FWFRFUk5BTCA9IENPTU1VTklUWV9PUklHSU4ubGVuZ3RoID4gMDsKCi8qKiBIb3N0bmFtZXMgdGhhdCBzZXJ2ZSB0aGUgY29tbXVuaXR5IChiYXJlICsgd3d3KS4gRW1wdHkgd2hlbiBubyBjb21tdW5pdHkgZG9tYWluIGlzIHNldC4gKi8KZXhwb3J0IGZ1bmN0aW9uIGNvbW11bml0eUhvc3RuYW1lcygpOiBzdHJpbmdbXSB7CiAgaWYgKCFDT01NVU5JVFlfT1JJR0lOKSByZXR1cm4gW107CiAgdHJ5IHsKICAgIGNvbnN0IGggPSBuZXcgVVJMKENPTU1VTklUWV9PUklHSU4pLmhvc3RuYW1lLnRvTG93ZXJDYXNlKCk7CiAgICByZXR1cm4gW2gsIGB3d3cuJHtofWBdOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIFtdOwogIH0KfQoKLyoqIFRydWUgd2hlbiB0aGUgY3VycmVudCBwYWdlIGlzIGJlaW5nIHNlcnZlZCBmcm9tIHRoZSBjb21tdW5pdHkgZG9tYWluLiAqLwpleHBvcnQgZnVuY3Rpb24gaXNPbkNvbW11bml0eU9yaWdpbigpOiBib29sZWFuIHsKICBpZiAoIUNPTU1VTklUWV9JU19FWFRFUk5BTCB8fCB0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIikgcmV0dXJuIGZhbHNlOwogIHRyeSB7CiAgICByZXR1cm4gbmV3IFVSTChDT01NVU5JVFlfT1JJR0lOKS5ob3N0ID09PSB3aW5kb3cubG9jYXRpb24uaG9zdDsKICB9IGNhdGNoIHsKICAgIHJldHVybiBmYWxzZTsKICB9Cn0KCi8qKiBMaW5rIHRvIGEgcGFnZSBpbnNpZGUgdGhlIGNvbW11bml0eSAocGF0aCByZWxhdGl2ZSB0byAvY29tbXVuaXR5KS4gKi8KZXhwb3J0IGZ1bmN0aW9uIGNvbW11bml0eUhyZWYocGF0aCA9ICIvIik6IHN0cmluZyB7CiAgY29uc3QgcCA9IHBhdGggPT09ICIvIiA/ICIiIDogcGF0aC5zdGFydHNXaXRoKCIvIikgPyBwYXRoIDogYC8ke3BhdGh9YDsKICByZXR1cm4gQ09NTVVOSVRZX0lTX0VYVEVSTkFMID8gYCR7Q09NTVVOSVRZX09SSUdJTn0ke3AgfHwgIi8ifWAgOiBgL2NvbW11bml0eSR7cH1gOwp9CgovKiogTGluayB0byBhIHBhZ2Ugb24gdGhlIG1haW4gT25zaWdodCBNYXJ0aW4gc2l0ZS4gKi8KZXhwb3J0IGZ1bmN0aW9uIG1haW5TaXRlSHJlZihwYXRoID0gIi8iKTogc3RyaW5nIHsKICBjb25zdCBwID0gcGF0aC5zdGFydHNXaXRoKCIvIikgPyBwYXRoIDogYC8ke3BhdGh9YDsKICByZXR1cm4gQ09NTVVOSVRZX0lTX0VYVEVSTkFMIHx8IGlzT25Db21tdW5pdHlPcmlnaW4oKSA/IGAke01BSU5fU0lURV9PUklHSU59JHtwfWAgOiBwOwp9CgpleHBvcnQgY29uc3QgQ09NTVVOSVRZX05BTUUgPSAiVGlja2xlbGlzdCI7CmV4cG9ydCBjb25zdCBNQUlOX1NJVEVfTkFNRSA9ICJPbnNpZ2h0IE1hcnRpbiI7Cg==
+/**
+ * Cross-site link config.
+ *
+ * Ticklelist (the community) and Onsight Martin (the main site) are two
+ * separate experiences. They are cross-linked, never merged.
+ *
+ * Set VITE_COMMUNITY_URL (e.g. https://ticklelist.org) once the community
+ * lives on its own domain — every "Community" link then points off-site and
+ * opens in a new tab. Without it, links stay on the in-app /community path.
+ */
+
+const raw = (v: unknown) => (typeof v === "string" ? v.trim().replace(/\/+$/, "") : "");
+
+export const COMMUNITY_ORIGIN = raw(import.meta.env['VITE_COMMUNITY_URL']);
+export const MAIN_SITE_ORIGIN = raw(import.meta.env['VITE_MAIN_SITE_URL']) || "https://onsightmartin.com";
+
+/** True when the community is served from its own domain. */
+export const COMMUNITY_IS_EXTERNAL = COMMUNITY_ORIGIN.length > 0;
+
+/** Hostnames that serve the community (bare + www). Empty when no community domain is set. */
+export function communityHostnames(): string[] {
+  if (!COMMUNITY_ORIGIN) return [];
+  try {
+    const h = new URL(COMMUNITY_ORIGIN).hostname.toLowerCase();
+    return [h, `www.${h}`];
+  } catch {
+    return [];
+  }
+}
+
+/** True when the current page is being served from the community domain. */
+export function isOnCommunityOrigin(): boolean {
+  if (!COMMUNITY_IS_EXTERNAL || typeof window === "undefined") return false;
+  try {
+    return new URL(COMMUNITY_ORIGIN).host === window.location.host;
+  } catch {
+    return false;
+  }
+}
+
+/** Link to a page inside the community (path relative to /community). */
+export function communityHref(path = "/"): string {
+  const p = path === "/" ? "" : path.startsWith("/") ? path : `/${path}`;
+  return COMMUNITY_IS_EXTERNAL ? `${COMMUNITY_ORIGIN}${p || "/"}` : `/community${p}`;
+}
+
+/** Link to a page on the main Onsight Martin site. */
+export function mainSiteHref(path = "/"): string {
+  const p = path.startsWith("/") ? path : `/${path}`;
+  return COMMUNITY_IS_EXTERNAL || isOnCommunityOrigin() ? `${MAIN_SITE_ORIGIN}${p}` : p;
+}
+
+export const COMMUNITY_NAME = "Ticklelist";
+export const MAIN_SITE_NAME = "Onsight Martin";

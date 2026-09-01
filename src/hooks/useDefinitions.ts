@@ -1,1 +1,30 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKCmltcG9ydCB7CiAgREVGSU5JVElPTlNfRVZFTlQsCiAgZGVmYXVsdERlZmluaXRpb25zLAogIGdldERlZmluaXRpb25zLAogIHJlYWRTdG9yZWREZWZpbml0aW9ucywKICByZWxvYWRQcmVzZXRzLAogIHNldERlZmluaXRpb25zLAogIHR5cGUgRGVmaW5pdGlvbnMsCn0gZnJvbSAiQC9saWIvZGVmaW5pdGlvbnMiOwoKLyoqCiAqIFRoZSBtZW1iZXIncyBjaG9zZW4gY2hhbGxlbmdlIGRlZmluaXRpb25zIChjb3VudHJ5IGxpc3QsIFNldmVuIFN1bW1pdHMpLgogKiBTdGFydHMgZnJvbSB0aGUgZGVmYXVsdHMgc28gU1NSIG1hdGNoZXMsIHRoZW4gaHlkcmF0ZXMgZnJvbSBzdG9yYWdlLgogKi8KZXhwb3J0IGNvbnN0IHVzZURlZmluaXRpb25zID0gKCk6IFtEZWZpbml0aW9ucywgKG5leHQ6IFBhcnRpYWw8RGVmaW5pdGlvbnM+KSA9PiB2b2lkXSA9PiB7CiAgY29uc3QgW2RlZnMsIHNldERlZnNdID0gdXNlU3RhdGU8RGVmaW5pdGlvbnM+KGRlZmF1bHREZWZpbml0aW9ucyk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCBzeW5jID0gKCkgPT4gc2V0RGVmcyhnZXREZWZpbml0aW9ucygpKTsKICAgIHJlbG9hZFByZXNldHMoKTsKICAgIHNldERlZmluaXRpb25zKHJlYWRTdG9yZWREZWZpbml0aW9ucygpKTsKICAgIHN5bmMoKTsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKERFRklOSVRJT05TX0VWRU5ULCBzeW5jKTsKICAgIHJldHVybiAoKSA9PiB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcihERUZJTklUSU9OU19FVkVOVCwgc3luYyk7CiAgfSwgW10pOwoKICByZXR1cm4gW2RlZnMsIHNldERlZmluaXRpb25zXTsKfTsK
+import { useEffect, useState } from "react";
+
+import {
+  DEFINITIONS_EVENT,
+  defaultDefinitions,
+  getDefinitions,
+  readStoredDefinitions,
+  reloadPresets,
+  setDefinitions,
+  type Definitions,
+} from "@/lib/definitions";
+
+/**
+ * The member's chosen challenge definitions (country list, Seven Summits).
+ * Starts from the defaults so SSR matches, then hydrates from storage.
+ */
+export const useDefinitions = (): [Definitions, (next: Partial<Definitions>) => void] => {
+  const [defs, setDefs] = useState<Definitions>(defaultDefinitions);
+
+  useEffect(() => {
+    const sync = () => setDefs(getDefinitions());
+    reloadPresets();
+    setDefinitions(readStoredDefinitions());
+    sync();
+    window.addEventListener(DEFINITIONS_EVENT, sync);
+    return () => window.removeEventListener(DEFINITIONS_EVENT, sync);
+  }, []);
+
+  return [defs, setDefinitions];
+};

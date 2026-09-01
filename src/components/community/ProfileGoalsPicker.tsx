@@ -1,1 +1,154 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VNZW1vLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQ2hlY2ssIFNwYXJrbGVzLCBUYXJnZXQgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIjsKaW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkAvaG9va3MvdXNlLXRvYXN0IjsKaW1wb3J0IHsgZnV6enlNYXRjaCB9IGZyb20gIkAvbGliL2Z1enp5IjsKaW1wb3J0IHsgTUFYX1BST0ZJTEVfR09BTFMsIGRlZmF1bHRHb2FscywgZ29hbERlZnMsIHN1Z2dlc3RHb2FscyB9IGZyb20gIkAvbGliL3Byb2ZpbGUtZ29hbHMiOwppbXBvcnQgdHlwZSB7IEFzY2VudCB9IGZyb20gIkAvbGliL3BlYWstY2F0YWxvZyI7CmltcG9ydCB0eXBlIHsgVmlzaXQgfSBmcm9tICJAL2RhdGEvcGxhY2VzIjsKCmludGVyZmFjZSBQcm9wcyB7CiAgdXNlcklkOiBzdHJpbmc7CiAgaW5pdGlhbD86IHN0cmluZ1tdIHwgbnVsbCB8IHVuZGVmaW5lZDsKICBvblNhdmVkPzogKGdvYWxzOiBzdHJpbmdbXSkgPT4gdm9pZDsKfQoKLyoqIExldHMgYSBtZW1iZXIgY2hvb3NlIHVwIHRvIGZvdXIgcHJvZ3Jlc3MgYm94ZXMgc2hvd24gb24gdGhlaXIgcHJvZmlsZS4gKi8KY29uc3QgUHJvZmlsZUdvYWxzUGlja2VyID0gKHsgdXNlcklkLCBpbml0aWFsLCBvblNhdmVkIH06IFByb3BzKSA9PiB7CiAgY29uc3QgW3NlbGVjdGVkLCBzZXRTZWxlY3RlZF0gPSB1c2VTdGF0ZTxzdHJpbmdbXT4oaW5pdGlhbD8ubGVuZ3RoID8gaW5pdGlhbCA6IGRlZmF1bHRHb2Fscyk7CiAgY29uc3QgW3F1ZXJ5LCBzZXRRdWVyeV0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW3NhdmluZywgc2V0U2F2aW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbc3VnZ2VzdGluZywgc2V0U3VnZ2VzdGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CgogIGNvbnN0IHN1Z2dlc3QgPSBhc3luYyAoKSA9PiB7CiAgICBzZXRTdWdnZXN0aW5nKHRydWUpOwogICAgY29uc3QgW3sgZGF0YTogYXNjZW50cyB9LCB7IGRhdGE6IHZpc2l0cyB9XSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICAgICAgc3VwYWJhc2UuZnJvbSgiYXNjZW50cyIpLnNlbGVjdCgiKiIpLmVxKCJ1c2VyX2lkIiwgdXNlcklkKSwKICAgICAgc3VwYWJhc2UuZnJvbSgidmlzaXRzIikuc2VsZWN0KCIqIikuZXEoInVzZXJfaWQiLCB1c2VySWQpLAogICAgXSk7CiAgICBjb25zdCBwaWNrcyA9IHN1Z2dlc3RHb2FscygoYXNjZW50cyBhcyBBc2NlbnRbXSkgPz8gW10sICh2aXNpdHMgYXMgVmlzaXRbXSkgPz8gW10pOwogICAgc2V0U3VnZ2VzdGluZyhmYWxzZSk7CiAgICBzZXRTZWxlY3RlZChwaWNrcyk7CiAgICBjb25zdCBuYW1lcyA9IHBpY2tzLm1hcCgoaWQpID0+IGdvYWxEZWZzLmZpbmQoKGcpID0+IGcuaWQgPT09IGlkKT8uc2hvcnQgPz8gaWQpLmpvaW4oIiwgIik7CiAgICB0b2FzdCh7IHRpdGxlOiAiSGVyZSBhcmUgZm91ciBnb2FscyBmb3IgeW91IiwgZGVzY3JpcHRpb246IGAke25hbWVzfSDigJQgdHdlYWsgdGhlbSwgdGhlbiBzYXZlLmAgfSk7CiAgfTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmIChpbml0aWFsPy5sZW5ndGgpIHNldFNlbGVjdGVkKGluaXRpYWwpOwogIH0sIFtpbml0aWFsXSk7CgogIGNvbnN0IGdyb3VwcyA9IHVzZU1lbW8oKCkgPT4gewogICAgY29uc3QgcSA9IHF1ZXJ5LnRyaW0oKTsKICAgIGNvbnN0IG1hdGNoZWQgPSBxID8gZ29hbERlZnMuZmlsdGVyKChnKSA9PiBmdXp6eU1hdGNoKHEsIGcubGFiZWwsIGcuZ3JvdXApKSA6IGdvYWxEZWZzOwogICAgY29uc3QgbWFwID0gbmV3IE1hcDxzdHJpbmcsIHR5cGVvZiBnb2FsRGVmcz4oKTsKICAgIG1hdGNoZWQuZm9yRWFjaCgoZykgPT4gewogICAgICBjb25zdCBhcnIgPSBtYXAuZ2V0KGcuZ3JvdXApID8/IFtdOwogICAgICBhcnIucHVzaChnKTsKICAgICAgbWFwLnNldChnLmdyb3VwLCBhcnIpOwogICAgfSk7CiAgICByZXR1cm4gWy4uLm1hcC5lbnRyaWVzKCldOwogIH0sIFtxdWVyeV0pOwoKICBjb25zdCB0b2dnbGUgPSAoaWQ6IHN0cmluZykgPT4gewogICAgc2V0U2VsZWN0ZWQoKHByZXYpID0+IHsKICAgICAgaWYgKHByZXYuaW5jbHVkZXMoaWQpKSByZXR1cm4gcHJldi5maWx0ZXIoKHgpID0+IHggIT09IGlkKTsKICAgICAgaWYgKHByZXYubGVuZ3RoID49IE1BWF9QUk9GSUxFX0dPQUxTKSB7CiAgICAgICAgdG9hc3QoeyB0aXRsZTogYFBpY2sgdXAgdG8gJHtNQVhfUFJPRklMRV9HT0FMU30gZ29hbHNgLCBkZXNjcmlwdGlvbjogIlJlbW92ZSBvbmUgZmlyc3QuIiB9KTsKICAgICAgICByZXR1cm4gcHJldjsKICAgICAgfQogICAgICByZXR1cm4gWy4uLnByZXYsIGlkXTsKICAgIH0pOwogIH07CgogIGNvbnN0IHNhdmUgPSBhc3luYyAoKSA9PiB7CiAgICBzZXRTYXZpbmcodHJ1ZSk7CiAgICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCJwcm9maWxlcyIpLnVwZGF0ZSh7IHByb2ZpbGVfZ29hbHM6IHNlbGVjdGVkIH0pLmVxKCJpZCIsIHVzZXJJZCk7CiAgICBzZXRTYXZpbmcoZmFsc2UpOwogICAgaWYgKGVycm9yKSB7CiAgICAgIHRvYXN0KHsgdGl0bGU6ICJDb3VsZCBub3Qgc2F2ZSBnb2FscyIsIGRlc2NyaXB0aW9uOiBlcnJvci5tZXNzYWdlLCB2YXJpYW50OiAiZGVzdHJ1Y3RpdmUiIH0pOwogICAgICByZXR1cm47CiAgICB9CiAgICB0b2FzdCh7IHRpdGxlOiAiUHJvZmlsZSBnb2FscyBzYXZlZCIgfSk7CiAgICBvblNhdmVkPy4oc2VsZWN0ZWQpOwogIH07CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkIHAtNSI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgPFRhcmdldCBjbGFzc05hbWU9InctNCBoLTQgdGV4dC1wcmltYXJ5IiAvPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdXBwZXJjYXNlIHRyYWNraW5nLVswLjJlbV0gdGV4dC1wcmltYXJ5IGZvbnQtZGlzcGxheSI+UHJvZmlsZSBnb2FsczwvcD4KICAgICAgPC9kaXY+CiAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMSBtYi0zIj4KICAgICAgICBDaG9vc2UgdXAgdG8ge01BWF9QUk9GSUxFX0dPQUxTfSBnb2FscyB0byBzaG93IGFzIHByb2dyZXNzIGJveGVzIG9uIHlvdXIgcHVibGljIHByb2ZpbGUuCiAgICAgIDwvcD4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMS41IG1iLTMiPgogICAgICAgIHtzZWxlY3RlZC5tYXAoKGlkKSA9PiB7CiAgICAgICAgICBjb25zdCBkZWYgPSBnb2FsRGVmcy5maW5kKChnKSA9PiBnLmlkID09PSBpZCk7CiAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAga2V5PXtpZH0KICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB0b2dnbGUoaWQpfQogICAgICAgICAgICAgIGNsYXNzTmFtZT0icm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItcHJpbWFyeS81MCBiZy1wcmltYXJ5LzEwIHRleHQtcHJpbWFyeSBweC0yLjUgcHktMSB0ZXh0LXhzIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge2RlZj8uc2hvcnQgPz8gaWR9IMOXCiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgKTsKICAgICAgICB9KX0KICAgICAgICB7c2VsZWN0ZWQubGVuZ3RoID09PSAwICYmIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPk5vdGhpbmcgcGlja2VkIHlldC48L3A+fQogICAgICA8L2Rpdj4KCiAgICAgIDxJbnB1dAogICAgICAgIHZhbHVlPXtxdWVyeX0KICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFF1ZXJ5KGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICBwbGFjZWhvbGRlcj0iU2VhcmNoIGdvYWxzIOKAlCA3IHN1bW1pdHMsIHZvbGNhbmljLCB3b25kZXJz4oCmIgogICAgICAgIGFyaWEtbGFiZWw9IlNlYXJjaCBnb2FscyIKICAgICAgICBjbGFzc05hbWU9Im1iLTMiCiAgICAgIC8+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LWgtNzIgb3ZlcmZsb3cteS1hdXRvIHByLTEgc3BhY2UteS0zIj4KICAgICAgICB7Z3JvdXBzLm1hcCgoW2dyb3VwLCBkZWZzXSkgPT4gKAogICAgICAgICAgPGRpdiBrZXk9e2dyb3VwfT4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB1cHBlcmNhc2UgdHJhY2tpbmctWzAuMmVtXSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbWItMSI+e2dyb3VwfTwvcD4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0xLjUiPgogICAgICAgICAgICAgIHtkZWZzLm1hcCgoZykgPT4gewogICAgICAgICAgICAgICAgY29uc3Qgb24gPSBzZWxlY3RlZC5pbmNsdWRlcyhnLmlkKTsKICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICBrZXk9e2cuaWR9CiAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gdG9nZ2xlKGcuaWQpfQogICAgICAgICAgICAgICAgICAgIGFyaWEtcHJlc3NlZD17b259CiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAgICAgICAgICAgICAgICJyb3VuZGVkLWZ1bGwgYm9yZGVyIHB4LTIuNSBweS0xIHRleHQteHMgdHJhbnNpdGlvbi1jb2xvcnMiLAogICAgICAgICAgICAgICAgICAgICAgb24KICAgICAgICAgICAgICAgICAgICAgICAgPyAiYm9yZGVyLXByaW1hcnkgYmctcHJpbWFyeS8xNSB0ZXh0LXByaW1hcnkiCiAgICAgICAgICAgICAgICAgICAgICAgIDogImJvcmRlci1ib3JkZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGhvdmVyOnRleHQtZm9yZWdyb3VuZCIsCiAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHtvbiAmJiA8Q2hlY2sgY2xhc3NOYW1lPSJ3LTMgaC0zIG1yLTEgaW5saW5lIiAvPn0KICAgICAgICAgICAgICAgICAgICB7Zy5sYWJlbH0KICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgIH0pfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICkpfQogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC00IGZsZXggZmxleC13cmFwIGdhcC0yIj4KICAgICAgICA8QnV0dG9uIHNpemU9InNtIiBvbkNsaWNrPXtzYXZlfSBkaXNhYmxlZD17c2F2aW5nfT4KICAgICAgICAgIHtzYXZpbmcgPyAiU2F2aW5n4oCmIiA6ICJTYXZlIGdvYWxzIn0KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uIHNpemU9InNtIiB2YXJpYW50PSJvdXRsaW5lIiBvbkNsaWNrPXtzdWdnZXN0fSBkaXNhYmxlZD17c3VnZ2VzdGluZ30+CiAgICAgICAgICA8U3BhcmtsZXMgY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSBtci0xLjUiIC8+CiAgICAgICAgICB7c3VnZ2VzdGluZyA/ICJUaGlua2luZ+KApiIgOiAiU3VnZ2VzdCBnb2FscyBmb3IgbWUifQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBQcm9maWxlR29hbHNQaWNrZXI7Cg==
+import { useEffect, useMemo, useState } from "react";
+import { Check, Sparkles, Target } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { cn } from "@/lib/utils";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "@/hooks/use-toast";
+import { fuzzyMatch } from "@/lib/fuzzy";
+import { MAX_PROFILE_GOALS, defaultGoals, goalDefs, suggestGoals } from "@/lib/profile-goals";
+import type { Ascent } from "@/lib/peak-catalog";
+import type { Visit } from "@/data/places";
+
+interface Props {
+  userId: string;
+  initial?: string[] | null | undefined;
+  onSaved?: (goals: string[]) => void;
+}
+
+/** Lets a member choose up to four progress boxes shown on their profile. */
+const ProfileGoalsPicker = ({ userId, initial, onSaved }: Props) => {
+  const [selected, setSelected] = useState<string[]>(initial?.length ? initial : defaultGoals);
+  const [query, setQuery] = useState("");
+  const [saving, setSaving] = useState(false);
+  const [suggesting, setSuggesting] = useState(false);
+
+  const suggest = async () => {
+    setSuggesting(true);
+    const [{ data: ascents }, { data: visits }] = await Promise.all([
+      supabase.from("ascents").select("*").eq("user_id", userId),
+      supabase.from("visits").select("*").eq("user_id", userId),
+    ]);
+    const picks = suggestGoals((ascents as Ascent[]) ?? [], (visits as Visit[]) ?? []);
+    setSuggesting(false);
+    setSelected(picks);
+    const names = picks.map((id) => goalDefs.find((g) => g.id === id)?.short ?? id).join(", ");
+    toast({ title: "Here are four goals for you", description: `${names} — tweak them, then save.` });
+  };
+
+  useEffect(() => {
+    if (initial?.length) setSelected(initial);
+  }, [initial]);
+
+  const groups = useMemo(() => {
+    const q = query.trim();
+    const matched = q ? goalDefs.filter((g) => fuzzyMatch(q, g.label, g.group)) : goalDefs;
+    const map = new Map<string, typeof goalDefs>();
+    matched.forEach((g) => {
+      const arr = map.get(g.group) ?? [];
+      arr.push(g);
+      map.set(g.group, arr);
+    });
+    return [...map.entries()];
+  }, [query]);
+
+  const toggle = (id: string) => {
+    setSelected((prev) => {
+      if (prev.includes(id)) return prev.filter((x) => x !== id);
+      if (prev.length >= MAX_PROFILE_GOALS) {
+        toast({ title: `Pick up to ${MAX_PROFILE_GOALS} goals`, description: "Remove one first." });
+        return prev;
+      }
+      return [...prev, id];
+    });
+  };
+
+  const save = async () => {
+    setSaving(true);
+    const { error } = await supabase.from("profiles").update({ profile_goals: selected }).eq("id", userId);
+    setSaving(false);
+    if (error) {
+      toast({ title: "Could not save goals", description: error.message, variant: "destructive" });
+      return;
+    }
+    toast({ title: "Profile goals saved" });
+    onSaved?.(selected);
+  };
+
+  return (
+    <div className="rounded-lg border border-border bg-card p-5">
+      <div className="flex items-center gap-2">
+        <Target className="w-4 h-4 text-primary" />
+        <p className="text-[10px] uppercase tracking-[0.2em] text-primary font-display">Profile goals</p>
+      </div>
+      <p className="text-sm text-muted-foreground mt-1 mb-3">
+        Choose up to {MAX_PROFILE_GOALS} goals to show as progress boxes on your public profile.
+      </p>
+
+      <div className="flex flex-wrap gap-1.5 mb-3">
+        {selected.map((id) => {
+          const def = goalDefs.find((g) => g.id === id);
+          return (
+            <button
+              key={id}
+              onClick={() => toggle(id)}
+              className="rounded-full border border-primary/50 bg-primary/10 text-primary px-2.5 py-1 text-xs"
+            >
+              {def?.short ?? id} ×
+            </button>
+          );
+        })}
+        {selected.length === 0 && <p className="text-xs text-muted-foreground">Nothing picked yet.</p>}
+      </div>
+
+      <Input
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        placeholder="Search goals — 7 summits, volcanic, wonders…"
+        aria-label="Search goals"
+        className="mb-3"
+      />
+
+      <div className="max-h-72 overflow-y-auto pr-1 space-y-3">
+        {groups.map(([group, defs]) => (
+          <div key={group}>
+            <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground mb-1">{group}</p>
+            <div className="flex flex-wrap gap-1.5">
+              {defs.map((g) => {
+                const on = selected.includes(g.id);
+                return (
+                  <button
+                    key={g.id}
+                    onClick={() => toggle(g.id)}
+                    aria-pressed={on}
+                    className={cn(
+                      "rounded-full border px-2.5 py-1 text-xs transition-colors",
+                      on
+                        ? "border-primary bg-primary/15 text-primary"
+                        : "border-border text-muted-foreground hover:text-foreground",
+                    )}
+                  >
+                    {on && <Check className="w-3 h-3 mr-1 inline" />}
+                    {g.label}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="mt-4 flex flex-wrap gap-2">
+        <Button size="sm" onClick={save} disabled={saving}>
+          {saving ? "Saving…" : "Save goals"}
+        </Button>
+        <Button size="sm" variant="outline" onClick={suggest} disabled={suggesting}>
+          <Sparkles className="w-3.5 h-3.5 mr-1.5" />
+          {suggesting ? "Thinking…" : "Suggest goals for me"}
+        </Button>
+      </div>
+    </div>
+  );
+};
+
+export default ProfileGoalsPicker;

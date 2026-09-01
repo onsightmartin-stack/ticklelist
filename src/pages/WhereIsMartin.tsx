@@ -1,1 +1,65 @@
-aW1wb3J0IFNlbyBmcm9tICJAL2NvbXBvbmVudHMvU2VvIjsKaW1wb3J0IHsgTWFwUGluLCBOYXZpZ2F0aW9uIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgdXNlQ3VycmVudExvY2F0aW9uIH0gZnJvbSAiQC9ob29rcy91c2VDdXJyZW50TG9jYXRpb24iOwppbXBvcnQgeyBmb3JtYXQgfSBmcm9tICJkYXRlLWZucyI7CmltcG9ydCBOYXZiYXIgZnJvbSAiQC9jb21wb25lbnRzL05hdmJhciI7CmltcG9ydCBKb3VybmV5TWFwIGZyb20gIkAvY29tcG9uZW50cy9MYXp5Sm91cm5leU1hcCI7Cgpjb25zdCBXaGVyZUlzTWFydGluID0gKCkgPT4gewogIGNvbnN0IHsgZGF0YTogbG9jYXRpb24gfSA9IHVzZUN1cnJlbnRMb2NhdGlvbigpOwoKICBjb25zdCBkYXRlTGFiZWwgPSBsb2NhdGlvbgogICAgPyBmb3JtYXQobmV3IERhdGUobG9jYXRpb24ucmVjb3JkZWRfYXQpLCAiTU1NIGQsIHl5eXkiKQogICAgOiAiIjsKCiAgcmV0dXJuICgKICAgIDw+CiAgICAgIDxTZW8KICAgICAgICB0aXRsZT0iV2hlcmUgaXMgTWFydGluPyDigJQgTGl2ZSBFeHBlZGl0aW9uIFRyYWNrZXIiCiAgICAgICAgZGVzY3JpcHRpb249IlNlZSBNYXJ0aW4ncyBsYXRlc3QgdHJhY2tlZCBwb3NpdGlvbiBhbmQgdGhlIHJvdXRlIHNvIGZhciBvbiB0aGUgd2F5IHRvIHRoZSBoaWdoZXN0IG1vdW50YWluIG9mIGV2ZXJ5IGNvdW50cnkgb24gRWFydGguIgogICAgICAgIHBhdGg9Ii93aGVyZSIKICAgICAgLz4KICAgICAgPE5hdmJhciAvPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLWgtc2NyZWVuIGJnLWJhY2tncm91bmQgcHQtMTYiPgogICAgICAgIHsvKiBIZXJvIEJhbm5lciAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgdy1mdWxsIG92ZXJmbG93LWhpZGRlbiBiZy1wcmltYXJ5IHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIG9wYWNpdHktMTAiPgogICAgICAgICAgICA8c3ZnIHZpZXdCb3g9IjAgMCAxMjAwIDUwMCIgY2xhc3NOYW1lPSJoLWZ1bGwgdy1mdWxsIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBzbGljZSI+CiAgICAgICAgICAgICAgPGVsbGlwc2UgY3g9IjI4MCIgY3k9IjIyMCIgcng9IjEyMCIgcnk9IjkwIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8+CiAgICAgICAgICAgICAgPGVsbGlwc2UgY3g9IjMyMCIgY3k9IjM0MCIgcng9IjYwIiByeT0iODAiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz4KICAgICAgICAgICAgICA8ZWxsaXBzZSBjeD0iNTgwIiBjeT0iMjAwIiByeD0iODAiIHJ5PSIxMTAiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz4KICAgICAgICAgICAgICA8ZWxsaXBzZSBjeD0iNjIwIiBjeT0iMzQwIiByeD0iNTAiIHJ5PSI2MCIgZmlsbD0iY3VycmVudENvbG9yIiAvPgogICAgICAgICAgICAgIDxlbGxpcHNlIGN4PSI3ODAiIGN5PSIyMjAiIHJ4PSIxNDAiIHJ5PSIxMDAiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz4KICAgICAgICAgICAgICA8ZWxsaXBzZSBjeD0iMTAyMCIgY3k9IjM1MCIgcng9IjgwIiByeT0iNTAiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgei0xMCBteC1hdXRvIGZsZXggbWF4LXctNXhsIGZsZXgtY29sIGl0ZW1zLWNlbnRlciBnYXAtMyBweC02IHB5LTggdGV4dC1jZW50ZXIgbWQ6cHktMTAiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItY3VycmVudC8yMCBiZy1wcmltYXJ5LWZvcmVncm91bmQvMTAgcHgtNCBweS0xLjUgdGV4dC1zbSBmb250LW1lZGl1bSB0cmFja2luZy13aWRlIHVwcGVyY2FzZSI+CiAgICAgICAgICAgICAgPE5hdmlnYXRpb24gY2xhc3NOYW1lPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgIExpdmUgVHJhY2tpbmcKICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LTR4bCBmb250LWJsYWNrIHRyYWNraW5nLXRpZ2h0IG1kOnRleHQtNnhsIGZvbnQtZGlzcGxheSI+CiAgICAgICAgICAgICAgV2hlcmUgaXMgTWFydGluPwogICAgICAgICAgICA8L2gxPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9Im1heC13LXhsIHRleHQtbGcgb3BhY2l0eS04MCI+CiAgICAgICAgICAgICAgRm9sbG93IE1hcnRpbidzIGpvdXJuZXkgYWNyb3NzIHRoZSBnbG9iZQogICAgICAgICAgICA8L3A+CgogICAgICAgICAgICB7ZGF0ZUxhYmVsICYmICgKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMiBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIG9wYWNpdHktNzAiPgogICAgICAgICAgICAgICAgPE1hcFBpbiBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICA8c3Bhbj7wn5ONIExhc3QgdXBkYXRlZDogPHN0cm9uZz57ZGF0ZUxhYmVsfTwvc3Ryb25nPjwvc3Bhbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8Sm91cm5leU1hcCAvPgogICAgICA8L2Rpdj4KICAgIDwvPgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBXaGVyZUlzTWFydGluOwo=
+import Seo from "@/components/Seo";
+import { MapPin, Navigation } from "lucide-react";
+import { useCurrentLocation } from "@/hooks/useCurrentLocation";
+import { format } from "date-fns";
+import Navbar from "@/components/Navbar";
+import JourneyMap from "@/components/LazyJourneyMap";
+
+const WhereIsMartin = () => {
+  const { data: location } = useCurrentLocation();
+
+  const dateLabel = location
+    ? format(new Date(location.recorded_at), "MMM d, yyyy")
+    : "";
+
+  return (
+    <>
+      <Seo
+        title="Where is Martin? — Live Expedition Tracker"
+        description="See Martin's latest tracked position and the route so far on the way to the highest mountain of every country on Earth."
+        path="/where"
+      />
+      <Navbar />
+      <div className="min-h-screen bg-background pt-16">
+        {/* Hero Banner */}
+        <div className="relative w-full overflow-hidden bg-primary text-primary-foreground">
+          <div className="absolute inset-0 opacity-10">
+            <svg viewBox="0 0 1200 500" className="h-full w-full" preserveAspectRatio="xMidYMid slice">
+              <ellipse cx="280" cy="220" rx="120" ry="90" fill="currentColor" />
+              <ellipse cx="320" cy="340" rx="60" ry="80" fill="currentColor" />
+              <ellipse cx="580" cy="200" rx="80" ry="110" fill="currentColor" />
+              <ellipse cx="620" cy="340" rx="50" ry="60" fill="currentColor" />
+              <ellipse cx="780" cy="220" rx="140" ry="100" fill="currentColor" />
+              <ellipse cx="1020" cy="350" rx="80" ry="50" fill="currentColor" />
+            </svg>
+          </div>
+
+          <div className="relative z-10 mx-auto flex max-w-5xl flex-col items-center gap-3 px-6 py-8 text-center md:py-10">
+            <div className="flex items-center gap-2 rounded-full border border-current/20 bg-primary-foreground/10 px-4 py-1.5 text-sm font-medium tracking-wide uppercase">
+              <Navigation className="h-4 w-4" />
+              Live Tracking
+            </div>
+
+            <h1 className="text-4xl font-black tracking-tight md:text-6xl font-display">
+              Where is Martin?
+            </h1>
+            <p className="max-w-xl text-lg opacity-80">
+              Follow Martin's journey across the globe
+            </p>
+
+            {dateLabel && (
+              <div className="mt-2 flex items-center gap-2 text-sm opacity-70">
+                <MapPin className="h-4 w-4" />
+                <span>📍 Last updated: <strong>{dateLabel}</strong></span>
+              </div>
+            )}
+          </div>
+        </div>
+
+        <JourneyMap />
+      </div>
+    </>
+  );
+};
+
+export default WhereIsMartin;

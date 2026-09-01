@@ -1,1 +1,27 @@
-aW1wb3J0IHsgU3VzcGVuc2UsIGxhenkgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IENsaWVudE9ubHkgfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtcm91dGVyIjsKCi8qKiBMZWFmbGV0IHRvdWNoZXMgYHdpbmRvd2Agb24gaW1wb3J0IOKAlCBrZWVwIHRoZSBwcmV2aWV3IGNsaWVudC1vbmx5LiAqLwpjb25zdCBQZWFrTWFwUHJldmlldyA9IGxhenkoKCkgPT4gaW1wb3J0KCJAL2NvbXBvbmVudHMvUGVha01hcFByZXZpZXciKSk7Cgpjb25zdCBNYXBGYWxsYmFjayA9ICgpID0+ICgKICA8ZGl2IGNsYXNzTmFtZT0iaC1bMzYwcHhdIHctZnVsbCBhbmltYXRlLXB1bHNlIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctbXV0ZWQvNDAiIC8+Cik7CgppbnRlcmZhY2UgUHJvcHMgewogIGxhdDogbnVtYmVyOwogIGxuZzogbnVtYmVyOwogIGxhYmVsOiBzdHJpbmc7CiAgem9vbT86IG51bWJlcjsKICBjbGFzc05hbWU/OiBzdHJpbmc7Cn0KCmNvbnN0IExhenlQZWFrTWFwUHJldmlldyA9IChwcm9wczogUHJvcHMpID0+ICgKICA8Q2xpZW50T25seSBmYWxsYmFjaz17PE1hcEZhbGxiYWNrIC8+fT4KICAgIDxTdXNwZW5zZSBmYWxsYmFjaz17PE1hcEZhbGxiYWNrIC8+fT4KICAgICAgPFBlYWtNYXBQcmV2aWV3IHsuLi5wcm9wc30gLz4KICAgIDwvU3VzcGVuc2U+CiAgPC9DbGllbnRPbmx5PgopOwoKZXhwb3J0IGRlZmF1bHQgTGF6eVBlYWtNYXBQcmV2aWV3Owo=
+import { Suspense, lazy } from "react";
+import { ClientOnly } from "@tanstack/react-router";
+
+/** Leaflet touches `window` on import — keep the preview client-only. */
+const PeakMapPreview = lazy(() => import("@/components/PeakMapPreview"));
+
+const MapFallback = () => (
+  <div className="h-[360px] w-full animate-pulse rounded-lg border border-border bg-muted/40" />
+);
+
+interface Props {
+  lat: number;
+  lng: number;
+  label: string;
+  zoom?: number;
+  className?: string;
+}
+
+const LazyPeakMapPreview = (props: Props) => (
+  <ClientOnly fallback={<MapFallback />}>
+    <Suspense fallback={<MapFallback />}>
+      <PeakMapPreview {...props} />
+    </Suspense>
+  </ClientOnly>
+);
+
+export default LazyPeakMapPreview;

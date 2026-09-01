@@ -1,1 +1,131 @@
-LyoqCiAqIEFwcGxpZXMgdGhlIGJhdGNoIFNRTCBmaWxlcyBwcm9kdWNlZCBieSBgbG9hZC1wZWFrYmFnZ2VyLXBlYWtzLnRzYCBhbmQgcmVjb3JkcwogKiBlYWNoIGJhdGNoIGluIGBwdWJsaWMucGVha2JhZ2dlcl9pbXBvcnRfYmF0Y2hlc2AsIGtleWVkIGJ5IGEgY29udGVudCBjaGVja3N1bS4KICoKICogUmVzdW1hYmxlIGVuZC10by1lbmQ6IGEgYmF0Y2ggd2hvc2UgY2hlY2tzdW0gaXMgYWxyZWFkeSByZWNvcmRlZCBhcyBgYXBwbGllZGAKICogaXMgc2tpcHBlZCwgc28gcmUtcnVubmluZyBhZnRlciBhIGNyYXNoIChvciBpbiBhIGZyZXNoIHNhbmRib3gpIG9ubHkgZXhlY3V0ZXMKICogdGhlIGJhdGNoZXMgdGhhdCBuZXZlciBsYW5kZWQuCiAqCiAqIFJ1bjogYnVuIHNjcmlwdHMvYXBwbHktcGVha2JhZ2dlci1iYXRjaGVzLnRzIC0tZGlyIC90bXAvcGIvc3FsIFstLXJ1biA8cnVuSWQ+XSBbLS1saW5rXSBbLS1mb3JjZV0KICovCmltcG9ydCB7IGNyZWF0ZUhhc2ggfSBmcm9tICJub2RlOmNyeXB0byI7CmltcG9ydCB7IHJlYWRkaXJTeW5jIH0gZnJvbSAibm9kZTpmcyI7CgppbXBvcnQgeyBsaXQsIHBzcWwsIHBzcWxGaWxlIH0gZnJvbSAiLi9saWIvcHNxbCI7Cgpjb25zdCBhcmcgPSAoZmxhZzogc3RyaW5nLCBmYWxsYmFjayA9ICIiKSA9PiB7CiAgY29uc3QgaSA9IHByb2Nlc3MuYXJndi5pbmRleE9mKGZsYWcpOwogIHJldHVybiBpID4gMCA/IChwcm9jZXNzLmFyZ3ZbaSArIDFdID8/IGZhbGxiYWNrKSA6IGZhbGxiYWNrOwp9Owpjb25zdCBoYXMgPSAoZmxhZzogc3RyaW5nKSA9PiBwcm9jZXNzLmFyZ3YuaW5jbHVkZXMoZmxhZyk7Cgpjb25zdCBsb2dFdmVudCA9IGFzeW5jIChydW5JZDogc3RyaW5nLCBsZXZlbDogImluZm8iIHwgImVycm9yIiwgc2NvcGU6IHN0cmluZywgbWVzc2FnZTogc3RyaW5nKSA9PiB7CiAgaWYgKCFydW5JZCkgcmV0dXJuOwogIGF3YWl0IHBzcWwoCiAgICBgSU5TRVJUIElOVE8gcHVibGljLnBlYWtiYWdnZXJfaW1wb3J0X2V2ZW50cyAocnVuX2lkLCBsZXZlbCwgc2NvcGUsIG1lc3NhZ2UpIFZBTFVFUyAoJHtsaXQocnVuSWQpfSwgJHtsaXQobGV2ZWwpfSwgJHtsaXQoc2NvcGUpfSwgJHtsaXQobWVzc2FnZSl9KTtgLAogICk7CiAgaWYgKGxldmVsID09PSAiZXJyb3IiKSB7CiAgICBhd2FpdCBwc3FsKAogICAgICBgVVBEQVRFIHB1YmxpYy5wZWFrYmFnZ2VyX2ltcG9ydF9ydW5zIFNFVCBsYXN0X2Vycm9yID0gJHtsaXQobWVzc2FnZSl9LCB1cGRhdGVkX2F0ID0gbm93KCkgV0hFUkUgaWQgPSAke2xpdChydW5JZCl9O2AsCiAgICApOwogIH0KfTsKCmNvbnN0IG1haW4gPSBhc3luYyAoKSA9PiB7CiAgY29uc3QgZGlyID0gYXJnKCItLWRpciIsICIvdG1wL3BiL3NxbCIpOwogIGNvbnN0IHJ1bklkID0gYXJnKCItLXJ1biIpOwogIGNvbnN0IGZvcmNlID0gaGFzKCItLWZvcmNlIik7CgogIGNvbnN0IGZpbGVzID0gcmVhZGRpclN5bmMoZGlyKQogICAgLmZpbHRlcigoZikgPT4gZi5lbmRzV2l0aCgiLnNxbCIpKQogICAgLnNvcnQoKTsKICBpZiAoIWZpbGVzLmxlbmd0aCkgdGhyb3cgbmV3IEVycm9yKGBubyAuc3FsIGJhdGNoZXMgaW4gJHtkaXJ9YCk7CgogIGNvbnN0IGFwcGxpZWRDaGVja3N1bXMgPSBuZXcgU2V0KAogICAgKGF3YWl0IHBzcWwoYFNFTEVDVCBjaGVja3N1bSBGUk9NIHB1YmxpYy5wZWFrYmFnZ2VyX2ltcG9ydF9iYXRjaGVzIFdIRVJFIHN0YXR1cyA9ICdhcHBsaWVkJztgKSkKICAgICAgLnNwbGl0KCJcbiIpCiAgICAgIC5maWx0ZXIoQm9vbGVhbiksCiAgKTsKCiAgbGV0IGFwcGxpZWQgPSAwOwogIGxldCBza2lwcGVkID0gMDsKICBsZXQgZmFpbGVkID0gMDsKCiAgZm9yIChjb25zdCBbaW5kZXgsIGZpbGVdIG9mIGZpbGVzLmVudHJpZXMoKSkgewogICAgY29uc3QgcGF0aCA9IGAke2Rpcn0vJHtmaWxlfWA7CiAgICBjb25zdCB0ZXh0ID0gYXdhaXQgQnVuLmZpbGUocGF0aCkudGV4dCgpOwogICAgY29uc3QgY2hlY2tzdW0gPSBjcmVhdGVIYXNoKCJzaGEyNTYiKS51cGRhdGUodGV4dCkuZGlnZXN0KCJoZXgiKTsKICAgIGNvbnN0IGJhdGNoTm8gPSBpbmRleCArIDE7CiAgICBjb25zdCByb3dDb3VudCA9ICh0ZXh0Lm1hdGNoKC9cblwoL2cpPy5sZW5ndGggPz8gMCkgKyAodGV4dC5pbmNsdWRlcygiVkFMVUVTXG4oIikgPyAxIDogMCk7CgogICAgaWYgKCFmb3JjZSAmJiBhcHBsaWVkQ2hlY2tzdW1zLmhhcyhjaGVja3N1bSkpIHsKICAgICAgc2tpcHBlZCsrOwogICAgICBjb25zb2xlLmxvZyhgJHtmaWxlfTogYWxyZWFkeSBhcHBsaWVkLCBza2lwcGluZ2ApOwogICAgICBjb250aW51ZTsKICAgIH0KCiAgICBhd2FpdCBwc3FsKAogICAgICBgSU5TRVJUIElOVE8gcHVibGljLnBlYWtiYWdnZXJfaW1wb3J0X2JhdGNoZXMgKHJ1bl9pZCwgYmF0Y2hfbm8sIGNoZWNrc3VtLCByb3dfY291bnQsIHN0YXR1cykKICAgICAgIFZBTFVFUyAoJHtydW5JZCA/IGxpdChydW5JZCkgOiAiTlVMTCJ9LCAke2JhdGNoTm99LCAke2xpdChjaGVja3N1bSl9LCAke3Jvd0NvdW50fSwgJ3BlbmRpbmcnKQogICAgICAgT04gQ09ORkxJQ1QgKGNoZWNrc3VtKSBETyBVUERBVEUgU0VUIHJ1bl9pZCA9IEVYQ0xVREVELnJ1bl9pZCwgYmF0Y2hfbm8gPSBFWENMVURFRC5iYXRjaF9ubywKICAgICAgICAgcm93X2NvdW50ID0gRVhDTFVERUQucm93X2NvdW50LCBzdGF0dXMgPSAncGVuZGluZycsIGVycm9yID0gTlVMTCwgdXBkYXRlZF9hdCA9IG5vdygpO2AsCiAgICApOwoKICAgIHRyeSB7CiAgICAgIGF3YWl0IHBzcWxGaWxlKHBhdGgpOwogICAgICBhd2FpdCBwc3FsKAogICAgICAgIGBVUERBVEUgcHVibGljLnBlYWtiYWdnZXJfaW1wb3J0X2JhdGNoZXMgU0VUIHN0YXR1cyA9ICdhcHBsaWVkJywgYXBwbGllZF9hdCA9IG5vdygpLCBlcnJvciA9IE5VTEwsIHVwZGF0ZWRfYXQgPSBub3coKSBXSEVSRSBjaGVja3N1bSA9ICR7bGl0KGNoZWNrc3VtKX07YCwKICAgICAgKTsKICAgICAgYXBwbGllZCsrOwogICAgICBjb25zb2xlLmxvZyhgJHtmaWxlfTogYXBwbGllZCAoJHtyb3dDb3VudH0gcm93cylgKTsKICAgICAgYXdhaXQgbG9nRXZlbnQocnVuSWQsICJpbmZvIiwgImxvYWQiLCBgJHtmaWxlfSBhcHBsaWVkICgke3Jvd0NvdW50fSByb3dzKWApOwogICAgfSBjYXRjaCAoZXJyKSB7CiAgICAgIGNvbnN0IG1lc3NhZ2UgPSBlcnIgaW5zdGFuY2VvZiBFcnJvciA/IGVyci5tZXNzYWdlIDogU3RyaW5nKGVycik7CiAgICAgIGZhaWxlZCsrOwogICAgICBhd2FpdCBwc3FsKAogICAgICAgIGBVUERBVEUgcHVibGljLnBlYWtiYWdnZXJfaW1wb3J0X2JhdGNoZXMgU0VUIHN0YXR1cyA9ICdmYWlsZWQnLCBlcnJvciA9ICR7bGl0KG1lc3NhZ2Uuc2xpY2UoMCwgMjAwMCkpfSwgdXBkYXRlZF9hdCA9IG5vdygpIFdIRVJFIGNoZWNrc3VtID0gJHtsaXQoY2hlY2tzdW0pfTtgLAogICAgICApOwogICAgICBjb25zb2xlLmxvZyhgJHtmaWxlfTogRkFJTEVEICR7bWVzc2FnZX1gKTsKICAgICAgYXdhaXQgbG9nRXZlbnQocnVuSWQsICJlcnJvciIsICJsb2FkIiwgYCR7ZmlsZX0gZmFpbGVkOiAke21lc3NhZ2Uuc2xpY2UoMCwgNTAwKX1gKTsKICAgIH0KCiAgICBpZiAocnVuSWQpIHsKICAgICAgYXdhaXQgcHNxbCgKICAgICAgICBgVVBEQVRFIHB1YmxpYy5wZWFrYmFnZ2VyX2ltcG9ydF9ydW5zIHIgU0VUIGJhdGNoZXNfdG90YWwgPSAke2ZpbGVzLmxlbmd0aH0sCiAgICAgICAgICAgYmF0Y2hlc19hcHBsaWVkID0gKFNFTEVDVCBjb3VudCgqKSBGUk9NIHB1YmxpYy5wZWFrYmFnZ2VyX2ltcG9ydF9iYXRjaGVzIFdIRVJFIHN0YXR1cyA9ICdhcHBsaWVkJyksCiAgICAgICAgICAgcm93c191cHNlcnRlZCA9IChTRUxFQ1QgY291bnQoKikgRlJPTSBwdWJsaWMucGVha2JhZ2dlcl9wZWFrcyksIHVwZGF0ZWRfYXQgPSBub3coKQogICAgICAgICBXSEVSRSByLmlkID0gJHtsaXQocnVuSWQpfTtgLAogICAgICApOwogICAgfQogIH0KCiAgaWYgKGhhcygiLS1saW5rIikpIHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IGxpbmtlZCA9IGF3YWl0IHBzcWwoCiAgICAgICAgYFdJVEggbSBBUyAoCiAgICAgICAgICAgU0VMRUNUIHcuaWQsIHAucGlkIEZST00gcHVibGljLndvcmxkX3BlYWtzIHcKICAgICAgICAgICBKT0lOIHB1YmxpYy5wZWFrYmFnZ2VyX3BlYWtzIHAgT04gcC53b3JsZF9wZWFrX2lkID0gdy5pZAogICAgICAgICAgIFdIRVJFIHcucGVha2JhZ2dlcl9pZCBJUyBESVNUSU5DVCBGUk9NIHAucGlkCiAgICAgICAgICkKICAgICAgICAgVVBEQVRFIHB1YmxpYy53b3JsZF9wZWFrcyB3IFNFVCBwZWFrYmFnZ2VyX2lkID0gbS5waWQgRlJPTSBtIFdIRVJFIHcuaWQgPSBtLmlkCiAgICAgICAgIFJFVFVSTklORyAxO2AsCiAgICAgICk7CiAgICAgIGNvbnN0IGNvdW50ID0gbGlua2VkLnNwbGl0KCJcbiIpLmZpbHRlcihCb29sZWFuKS5sZW5ndGg7CiAgICAgIGNvbnNvbGUubG9nKGBsaW5rZWQgJHtjb3VudH0gd29ybGRfcGVha3Mgcm93c2ApOwogICAgICBhd2FpdCBsb2dFdmVudChydW5JZCwgImluZm8iLCAibGluayIsIGBsaW5rZWQgJHtjb3VudH0gd29ybGRfcGVha3Mgcm93cyB0byBQZWFrYmFnZ2VyIGlkc2ApOwogICAgfSBjYXRjaCAoZXJyKSB7CiAgICAgIGNvbnN0IG1lc3NhZ2UgPSBlcnIgaW5zdGFuY2VvZiBFcnJvciA/IGVyci5tZXNzYWdlIDogU3RyaW5nKGVycik7CiAgICAgIGNvbnNvbGUubG9nKGBsaW5rIGZhaWxlZDogJHttZXNzYWdlfWApOwogICAgICBhd2FpdCBsb2dFdmVudChydW5JZCwgImVycm9yIiwgImxpbmsiLCBgbGluayBmYWlsZWQ6ICR7bWVzc2FnZS5zbGljZSgwLCA1MDApfWApOwogICAgfQogIH0KCiAgY29uc29sZS5sb2coYGRvbmU6ICR7YXBwbGllZH0gYXBwbGllZCwgJHtza2lwcGVkfSBza2lwcGVkLCAke2ZhaWxlZH0gZmFpbGVkYCk7CiAgaWYgKHJ1bklkKSB7CiAgICBhd2FpdCBwc3FsKAogICAgICBgVVBEQVRFIHB1YmxpYy5wZWFrYmFnZ2VyX2ltcG9ydF9ydW5zIFNFVCBzdGF0dXMgPSAke2xpdChmYWlsZWQgPyAiZmFpbGVkIiA6ICJkb25lIil9LCBmaW5pc2hlZF9hdCA9IG5vdygpLCB1cGRhdGVkX2F0ID0gbm93KCkgV0hFUkUgaWQgPSAke2xpdChydW5JZCl9O2AsCiAgICApOwogIH0KfTsKCmlmIChpbXBvcnQubWV0YS5tYWluKSBhd2FpdCBtYWluKCk7Cg==
+/**
+ * Applies the batch SQL files produced by `load-peakbagger-peaks.ts` and records
+ * each batch in `public.peakbagger_import_batches`, keyed by a content checksum.
+ *
+ * Resumable end-to-end: a batch whose checksum is already recorded as `applied`
+ * is skipped, so re-running after a crash (or in a fresh sandbox) only executes
+ * the batches that never landed.
+ *
+ * Run: bun scripts/apply-peakbagger-batches.ts --dir /tmp/pb/sql [--run <runId>] [--link] [--force]
+ */
+import { createHash } from "node:crypto";
+import { readdirSync } from "node:fs";
+
+import { lit, psql, psqlFile } from "./lib/psql";
+
+const arg = (flag: string, fallback = "") => {
+  const i = process.argv.indexOf(flag);
+  return i > 0 ? (process.argv[i + 1] ?? fallback) : fallback;
+};
+const has = (flag: string) => process.argv.includes(flag);
+
+const logEvent = async (runId: string, level: "info" | "error", scope: string, message: string) => {
+  if (!runId) return;
+  await psql(
+    `INSERT INTO public.peakbagger_import_events (run_id, level, scope, message) VALUES (${lit(runId)}, ${lit(level)}, ${lit(scope)}, ${lit(message)});`,
+  );
+  if (level === "error") {
+    await psql(
+      `UPDATE public.peakbagger_import_runs SET last_error = ${lit(message)}, updated_at = now() WHERE id = ${lit(runId)};`,
+    );
+  }
+};
+
+const main = async () => {
+  const dir = arg("--dir", "/tmp/pb/sql");
+  const runId = arg("--run");
+  const force = has("--force");
+
+  const files = readdirSync(dir)
+    .filter((f) => f.endsWith(".sql"))
+    .sort();
+  if (!files.length) throw new Error(`no .sql batches in ${dir}`);
+
+  const appliedChecksums = new Set(
+    (await psql(`SELECT checksum FROM public.peakbagger_import_batches WHERE status = 'applied';`))
+      .split("\n")
+      .filter(Boolean),
+  );
+
+  let applied = 0;
+  let skipped = 0;
+  let failed = 0;
+
+  for (const [index, file] of files.entries()) {
+    const path = `${dir}/${file}`;
+    const text = await Bun.file(path).text();
+    const checksum = createHash("sha256").update(text).digest("hex");
+    const batchNo = index + 1;
+    const rowCount = (text.match(/\n\(/g)?.length ?? 0) + (text.includes("VALUES\n(") ? 1 : 0);
+
+    if (!force && appliedChecksums.has(checksum)) {
+      skipped++;
+      console.log(`${file}: already applied, skipping`);
+      continue;
+    }
+
+    await psql(
+      `INSERT INTO public.peakbagger_import_batches (run_id, batch_no, checksum, row_count, status)
+       VALUES (${runId ? lit(runId) : "NULL"}, ${batchNo}, ${lit(checksum)}, ${rowCount}, 'pending')
+       ON CONFLICT (checksum) DO UPDATE SET run_id = EXCLUDED.run_id, batch_no = EXCLUDED.batch_no,
+         row_count = EXCLUDED.row_count, status = 'pending', error = NULL, updated_at = now();`,
+    );
+
+    try {
+      await psqlFile(path);
+      await psql(
+        `UPDATE public.peakbagger_import_batches SET status = 'applied', applied_at = now(), error = NULL, updated_at = now() WHERE checksum = ${lit(checksum)};`,
+      );
+      applied++;
+      console.log(`${file}: applied (${rowCount} rows)`);
+      await logEvent(runId, "info", "load", `${file} applied (${rowCount} rows)`);
+    } catch (err) {
+      const message = err instanceof Error ? err.message : String(err);
+      failed++;
+      await psql(
+        `UPDATE public.peakbagger_import_batches SET status = 'failed', error = ${lit(message.slice(0, 2000))}, updated_at = now() WHERE checksum = ${lit(checksum)};`,
+      );
+      console.log(`${file}: FAILED ${message}`);
+      await logEvent(runId, "error", "load", `${file} failed: ${message.slice(0, 500)}`);
+    }
+
+    if (runId) {
+      await psql(
+        `UPDATE public.peakbagger_import_runs r SET batches_total = ${files.length},
+           batches_applied = (SELECT count(*) FROM public.peakbagger_import_batches WHERE status = 'applied'),
+           rows_upserted = (SELECT count(*) FROM public.peakbagger_peaks), updated_at = now()
+         WHERE r.id = ${lit(runId)};`,
+      );
+    }
+  }
+
+  if (has("--link")) {
+    try {
+      const linked = await psql(
+        `WITH m AS (
+           SELECT w.id, p.pid FROM public.world_peaks w
+           JOIN public.peakbagger_peaks p ON p.world_peak_id = w.id
+           WHERE w.peakbagger_id IS DISTINCT FROM p.pid
+         )
+         UPDATE public.world_peaks w SET peakbagger_id = m.pid FROM m WHERE w.id = m.id
+         RETURNING 1;`,
+      );
+      const count = linked.split("\n").filter(Boolean).length;
+      console.log(`linked ${count} world_peaks rows`);
+      await logEvent(runId, "info", "link", `linked ${count} world_peaks rows to Peakbagger ids`);
+    } catch (err) {
+      const message = err instanceof Error ? err.message : String(err);
+      console.log(`link failed: ${message}`);
+      await logEvent(runId, "error", "link", `link failed: ${message.slice(0, 500)}`);
+    }
+  }
+
+  console.log(`done: ${applied} applied, ${skipped} skipped, ${failed} failed`);
+  if (runId) {
+    await psql(
+      `UPDATE public.peakbagger_import_runs SET status = ${lit(failed ? "failed" : "done")}, finished_at = now(), updated_at = now() WHERE id = ${lit(runId)};`,
+    );
+  }
+};
+
+if (import.meta.main) await main();

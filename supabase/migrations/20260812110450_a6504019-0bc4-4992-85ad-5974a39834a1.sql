@@ -1,1 +1,33 @@
-Q1JFQVRFIFRBQkxFIHB1YmxpYy5wcm9maWxlX3ZpZXdzICgKICBpZCB1dWlkIE5PVCBOVUxMIERFRkFVTFQgZ2VuX3JhbmRvbV91dWlkKCkgUFJJTUFSWSBLRVksCiAgcHJvZmlsZV9pZCB1dWlkIE5PVCBOVUxMIFJFRkVSRU5DRVMgYXV0aC51c2VycyhpZCkgT04gREVMRVRFIENBU0NBREUsCiAgdmlld2VyX2lkIHV1aWQgTk9UIE5VTEwgUkVGRVJFTkNFUyBhdXRoLnVzZXJzKGlkKSBPTiBERUxFVEUgQ0FTQ0FERSwKICBjcmVhdGVkX2F0IHRpbWVzdGFtcCB3aXRoIHRpbWUgem9uZSBOT1QgTlVMTCBERUZBVUxUIG5vdygpLAogIHVwZGF0ZWRfYXQgdGltZXN0YW1wIHdpdGggdGltZSB6b25lIE5PVCBOVUxMIERFRkFVTFQgbm93KCksCiAgQ09OU1RSQUlOVCBwcm9maWxlX3ZpZXdzX3VuaXF1ZV9wYWlyIFVOSVFVRSAocHJvZmlsZV9pZCwgdmlld2VyX2lkKSwKICBDT05TVFJBSU5UIHByb2ZpbGVfdmlld3Nfbm90X3NlbGYgQ0hFQ0sgKHByb2ZpbGVfaWQgPD4gdmlld2VyX2lkKQopOwoKQ1JFQVRFIElOREVYIHByb2ZpbGVfdmlld3NfcHJvZmlsZV9pZHggT04gcHVibGljLnByb2ZpbGVfdmlld3MgKHByb2ZpbGVfaWQsIHVwZGF0ZWRfYXQgREVTQyk7CgpHUkFOVCBTRUxFQ1QsIElOU0VSVCwgVVBEQVRFIE9OIHB1YmxpYy5wcm9maWxlX3ZpZXdzIFRPIGF1dGhlbnRpY2F0ZWQ7CkdSQU5UIEFMTCBPTiBwdWJsaWMucHJvZmlsZV92aWV3cyBUTyBzZXJ2aWNlX3JvbGU7CgpBTFRFUiBUQUJMRSBwdWJsaWMucHJvZmlsZV92aWV3cyBFTkFCTEUgUk9XIExFVkVMIFNFQ1VSSVRZOwoKQ1JFQVRFIFBPTElDWSAiT3duZXJzIGNhbiBzZWUgd2hvIHZpZXdlZCB0aGVpciBwcm9maWxlIgogIE9OIHB1YmxpYy5wcm9maWxlX3ZpZXdzIEZPUiBTRUxFQ1QgVE8gYXV0aGVudGljYXRlZAogIFVTSU5HIChhdXRoLnVpZCgpID0gcHJvZmlsZV9pZCk7CgpDUkVBVEUgUE9MSUNZICJNZW1iZXJzIGNhbiByZWNvcmQgdGhlaXIgb3duIHZpc2l0IgogIE9OIHB1YmxpYy5wcm9maWxlX3ZpZXdzIEZPUiBJTlNFUlQgVE8gYXV0aGVudGljYXRlZAogIFdJVEggQ0hFQ0sgKGF1dGgudWlkKCkgPSB2aWV3ZXJfaWQgQU5EIGF1dGgudWlkKCkgPD4gcHJvZmlsZV9pZCk7CgpDUkVBVEUgUE9MSUNZICJNZW1iZXJzIGNhbiByZWZyZXNoIHRoZWlyIG93biB2aXNpdCIKICBPTiBwdWJsaWMucHJvZmlsZV92aWV3cyBGT1IgVVBEQVRFIFRPIGF1dGhlbnRpY2F0ZWQKICBVU0lORyAoYXV0aC51aWQoKSA9IHZpZXdlcl9pZCkKICBXSVRIIENIRUNLIChhdXRoLnVpZCgpID0gdmlld2VyX2lkKTsKCkNSRUFURSBUUklHR0VSIHVwZGF0ZV9wcm9maWxlX3ZpZXdzX3VwZGF0ZWRfYXQKICBCRUZPUkUgVVBEQVRFIE9OIHB1YmxpYy5wcm9maWxlX3ZpZXdzCiAgRk9SIEVBQ0ggUk9XIEVYRUNVVEUgRlVOQ1RJT04gcHVibGljLnVwZGF0ZV91cGRhdGVkX2F0X2NvbHVtbigpOw==
+CREATE TABLE public.profile_views (
+  id uuid NOT NULL DEFAULT gen_random_uuid() PRIMARY KEY,
+  profile_id uuid NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
+  viewer_id uuid NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
+  created_at timestamp with time zone NOT NULL DEFAULT now(),
+  updated_at timestamp with time zone NOT NULL DEFAULT now(),
+  CONSTRAINT profile_views_unique_pair UNIQUE (profile_id, viewer_id),
+  CONSTRAINT profile_views_not_self CHECK (profile_id <> viewer_id)
+);
+
+CREATE INDEX profile_views_profile_idx ON public.profile_views (profile_id, updated_at DESC);
+
+GRANT SELECT, INSERT, UPDATE ON public.profile_views TO authenticated;
+GRANT ALL ON public.profile_views TO service_role;
+
+ALTER TABLE public.profile_views ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Owners can see who viewed their profile"
+  ON public.profile_views FOR SELECT TO authenticated
+  USING (auth.uid() = profile_id);
+
+CREATE POLICY "Members can record their own visit"
+  ON public.profile_views FOR INSERT TO authenticated
+  WITH CHECK (auth.uid() = viewer_id AND auth.uid() <> profile_id);
+
+CREATE POLICY "Members can refresh their own visit"
+  ON public.profile_views FOR UPDATE TO authenticated
+  USING (auth.uid() = viewer_id)
+  WITH CHECK (auth.uid() = viewer_id);
+
+CREATE TRIGGER update_profile_views_updated_at
+  BEFORE UPDATE ON public.profile_views
+  FOR EACH ROW EXECUTE FUNCTION public.update_updated_at_column();

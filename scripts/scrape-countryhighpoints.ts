@@ -1,1 +1,140 @@
-LyoqCiAqIENvbXBsZW1lbnRzIHRoZSBQZWFrYmFnZ2VyIHJlY29yZCB3aXRoIEVyaWMgJiBNYXR0aGV3IEdpbGJlcnRzb24ncyBzdXJ2ZXlzCiAqIGF0IGNvdW50cnloaWdocG9pbnRzLmNvbSDigJQgdGhleSBHUFMtc3VydmV5IGRpc3B1dGVkIGNvdW50cnkgaGlnaCBwb2ludHMKICogdGhlbXNlbHZlcywgd2hpY2ggaXMgd2h5IHNldmVyYWwgb2Ygb3VyIGhpZ2ggcG9pbnRzIChDb2xvbWJpYSwgU2F1ZGkgQXJhYmlhLAogKiBUb2dvLCBHYW1iaWHigKYpIGRpZmZlciBmcm9tIG9sZGVyIHJlZmVyZW5jZXMuCiAqCiAqIFNjcmFwZXMgZXZlcnkgY291bnRyeSBwYWdlIGxpbmtlZCBmcm9tIHRoZSBzaXRlJ3MgaG9tZSBwYWdlIGFuZCB3cml0ZXMKICogYHNyYy9kYXRhL2NvdW50cnloaWdocG9pbnRzLmpzb25gOiBjb3VudHJ5IC0+IHsgcGVhaywgZWxldmF0aW9uTSwgdXJsIH0uCiAqCiAqIFJ1bjogYnVuIHNjcmlwdHMvc2NyYXBlLWNvdW50cnloaWdocG9pbnRzLnRzCiAqLwpjb25zdCBPVVQgPSAic3JjL2RhdGEvY291bnRyeWhpZ2hwb2ludHMuanNvbiI7CmNvbnN0IEhPTUUgPSAiaHR0cHM6Ly93d3cuY291bnRyeWhpZ2hwb2ludHMuY29tLyI7CgpleHBvcnQgaW50ZXJmYWNlIENocFJlY29yZCB7CiAgY291bnRyeTogc3RyaW5nOwogIHBlYWs/OiBzdHJpbmc7CiAgZWxldmF0aW9uTT86IG51bWJlcjsKICAvKiogU3VydmV5IHVuY2VydGFpbnR5IGluIG1ldHJlcywgd2hlbiB0aGUgcmVwb3J0IHN0YXRlcyBvbmUuICovCiAgdW5jZXJ0YWludHlNPzogbnVtYmVyOwogIGxhdD86IG51bWJlcjsKICBsbmc/OiBudW1iZXI7CiAgdXJsOiBzdHJpbmc7CiAgZmV0Y2hlZEF0OiBzdHJpbmc7Cn0KCmNvbnN0IHNjcmFwZSA9IGFzeW5jICh1cmw6IHN0cmluZyk6IFByb21pc2U8c3RyaW5nPiA9PiB7CiAgY29uc3QgYmFzZSA9IHByb2Nlc3MuZW52WyJBR1dfVVJMIl07CiAgY29uc3QgdG9rZW4gPSBwcm9jZXNzLmVudlsiQUdXX1RPS0VOIl07CiAgaWYgKCFiYXNlIHx8ICF0b2tlbikgdGhyb3cgbmV3IEVycm9yKCJBR1dfVVJMIC8gQUdXX1RPS0VOIG1pc3NpbmciKTsKICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaChgJHtiYXNlfS9mL3dlYnNpdGUtZmV0Y2gvdjEvc2NyYXBlYCwgewogICAgbWV0aG9kOiAiUE9TVCIsCiAgICBoZWFkZXJzOiB7ICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIsIEF1dGhvcml6YXRpb246IGBCZWFyZXIgJHt0b2tlbn1gIH0sCiAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7IHVybCwgZm9ybWF0czogWyJtYXJrZG93biJdIH0pLAogIH0pOwogIGlmICghcmVzLm9rKSB0aHJvdyBuZXcgRXJyb3IoYCR7cmVzLnN0YXR1c30gJHthd2FpdCByZXMudGV4dCgpfWApOwogIGNvbnN0IGJvZHkgPSAoYXdhaXQgcmVzLmpzb24oKSkgYXMgeyBkYXRhPzogeyBtYXJrZG93bj86IHN0cmluZyB9IH07CiAgcmV0dXJuIGJvZHkuZGF0YT8ubWFya2Rvd24gPz8gIiI7Cn07Cgpjb25zdCBOQVYgPSAvXihob21lfGxvZyBpbnxzZWFyY2h8dW5jYXRlZ29yaXplZHxhcmNoaXZlc3xyZWNlbnQgcG9zdHN8cmVjZW50IGNvbW1lbnRzfGNvbnRhY3R8YWJvdXR8YmxvZ3xwZWFrYmFnZ2VyXC5jb20pJC9pOwoKLyoqIENvdW50cnkgbGlua3MgbGl2ZSBpbiB0aGUgY29udGluZW50IHRhYmxlcyBvbiB0aGUgaG9tZSBwYWdlLiAqLwpleHBvcnQgY29uc3QgcGFyc2VDb3VudHJ5TGlua3MgPSAobWFya2Rvd246IHN0cmluZyk6IHsgY291bnRyeTogc3RyaW5nOyB1cmw6IHN0cmluZyB9W10gPT4gewogIGNvbnN0IG91dCA9IG5ldyBNYXA8c3RyaW5nLCBzdHJpbmc+KCk7CiAgZm9yIChjb25zdCBtIG9mIG1hcmtkb3duLm1hdGNoQWxsKC9cWyhbXlxdXSspXF1cKChodHRwczpcL1wvd3d3XC5jb3VudHJ5aGlnaHBvaW50c1wuY29tXC9bXildKylcKS9nKSkgewogICAgY29uc3QgY291bnRyeSA9IG1bMV0hLnRyaW0oKTsKICAgIGNvbnN0IHVybCA9IG1bMl0hOwogICAgaWYgKC9eIVxbLy50ZXN0KGNvdW50cnkpIHx8IGNvdW50cnkubGVuZ3RoID4gNDAgfHwgTkFWLnRlc3QoY291bnRyeSkpIGNvbnRpbnVlOwogICAgaWYgKC8oaW5zdGFncmFtfGZhY2Vib29rfHR3aXR0ZXJ8ZmVlZHx3cC1jb250ZW50fFwvMjBcZFxkXC98IykvaS50ZXN0KHVybCkpIGNvbnRpbnVlOwogICAgaWYgKCFvdXQuaGFzKGNvdW50cnkpKSBvdXQuc2V0KGNvdW50cnksIHVybCk7CiAgfQogIHJldHVybiBbLi4ub3V0XS5tYXAoKFtjb3VudHJ5LCB1cmxdKSA9PiAoeyBjb3VudHJ5LCB1cmwgfSkpOwp9OwoKLyoqCiAqIFRyaXAgcmVwb3J0cyBvcGVuIHdpdGggYCMgQ291bnRyeSDigJMgUGVha2AgZm9sbG93ZWQgYnkgYSBzdW1taXQgbGluZSBzdWNoIGFzCiAqIGBKYWJhbCBGZXJ3YSAoMywwMDEuOCDCsSAwLjcgbSlgLiBUaGF0IGxpbmUgaXMgdGhlIHN1cnZleWVkIGZpZ3VyZTsgYW55dGhpbmcKICogZWxzZSBvbiB0aGUgcGFnZSBpcyBuYXJyYXRpdmUgYW5kIG11c3Qgbm90IGJlIHJlYWQgYXMgdGhlIGVsZXZhdGlvbi4KICovCmV4cG9ydCBjb25zdCBwYXJzZVJlcG9ydCA9ICgKICBtYXJrZG93bjogc3RyaW5nLAopOiB7IHBlYWs/OiBzdHJpbmc7IGVsZXZhdGlvbk0/OiBudW1iZXI7IHVuY2VydGFpbnR5TT86IG51bWJlcjsgbGF0PzogbnVtYmVyOyBsbmc/OiBudW1iZXIgfSA9PiB7CiAgY29uc3QgaGVhZGluZyA9IG1hcmtkb3duLm1hdGNoKC9eI1xzKyguKykkL20pPy5bMV0/LnRyaW0oKTsKICBjb25zdCBoZWFkaW5nUGVhayA9IGhlYWRpbmc/LnNwbGl0KC9cc1vigJPigJQtXVxzLylbMV0/LnRyaW0oKTsKCiAgLy8gVHdvIHJlcG9ydCBzdHlsZXM6IGBQZWFrICgzLDAwMS44IMKxIDAuNyBtKWAgYW5kIGBQZWFrIOKAkyAxMiw0NjFmdGAuCiAgY29uc3Qgc3VtbWl0ID0KICAgIG1hcmtkb3duLm1hdGNoKAogICAgICAvXlxzKihbQS1aXVteKClcbl17Miw2MH0/KVxzKlwoXHMqKFtcZCxdKyg/OlwuXGQrKT8pXHMqKD86wrFccyooW1xkLl0rKVxzKik/KG18bWV0ZXJzP3xtZXRyZXM/fGZ0fGZlZXQpXGJbXildKlwpL20sCiAgICApID8/CiAgICBtYXJrZG93bi5tYXRjaCgKICAgICAgL15ccyooW0EtWl1bXlxuXXsyLDYwfT8pXHMqW+KAk+KAlC1dXHMqKFtcZCxdKyg/OlwuXGQrKT8pXHMqKCkobXxtZXRlcnM/fG1ldHJlcz98ZnR8ZmVldClcYlxzKiQvbSwKICAgICk7CgogIGxldCBlbGV2YXRpb25NOiBudW1iZXIgfCB1bmRlZmluZWQ7CiAgbGV0IHVuY2VydGFpbnR5TTogbnVtYmVyIHwgdW5kZWZpbmVkOwogIGxldCBwZWFrID0gaGVhZGluZ1BlYWs7CiAgaWYgKHN1bW1pdCkgewogICAgY29uc3QgdmFsdWUgPSBOdW1iZXIoc3VtbWl0WzJdIS5yZXBsYWNlKC8sL2csICIiKSk7CiAgICBjb25zdCBmZWV0ID0gL15mL2kudGVzdChzdW1taXRbNF0hKTsKICAgIGlmIChOdW1iZXIuaXNGaW5pdGUodmFsdWUpKSB7CiAgICAgIGNvbnN0IG1ldHJlcyA9IGZlZXQgPyB2YWx1ZSAqIDAuMzA0OCA6IHZhbHVlOwogICAgICBpZiAobWV0cmVzID4gMCAmJiBtZXRyZXMgPCA4OTAwKSB7CiAgICAgICAgZWxldmF0aW9uTSA9IE1hdGgucm91bmQobWV0cmVzICogMTApIC8gMTA7CiAgICAgICAgY29uc3QgdSA9IHN1bW1pdFszXSA/IE51bWJlcihzdW1taXRbM10pIDogdW5kZWZpbmVkOwogICAgICAgIGlmICh1ICE9PSB1bmRlZmluZWQgJiYgTnVtYmVyLmlzRmluaXRlKHUpKSB1bmNlcnRhaW50eU0gPSBmZWV0ID8gTWF0aC5yb3VuZCh1ICogMC4zMDQ4ICogMTApIC8gMTAgOiB1OwogICAgICB9CiAgICB9CiAgICBwZWFrID0gcGVhayA/PyBzdW1taXRbMV0hLnRyaW0oKTsKICB9CgogIGNvbnN0IGNvb3JkcyA9IG1hcmtkb3duLm1hdGNoKC8oW05TXSlccyooXGQrXC5cZCspwrA/LD9ccyooW0VXXSlccyooXGQrXC5cZCspwrA/Lyk7CiAgY29uc3QgbGF0ID0gY29vcmRzID8gTnVtYmVyKGNvb3Jkc1syXSkgKiAoY29vcmRzWzFdID09PSAiUyIgPyAtMSA6IDEpIDogdW5kZWZpbmVkOwogIGNvbnN0IGxuZyA9IGNvb3JkcyA/IE51bWJlcihjb29yZHNbNF0pICogKGNvb3Jkc1szXSA9PT0gIlciID8gLTEgOiAxKSA6IHVuZGVmaW5lZDsKCiAgcmV0dXJuIHsKICAgIC4uLihwZWFrID8geyBwZWFrIH0gOiB7fSksCiAgICAuLi4oZWxldmF0aW9uTSAhPT0gdW5kZWZpbmVkID8geyBlbGV2YXRpb25NIH0gOiB7fSksCiAgICAuLi4odW5jZXJ0YWludHlNICE9PSB1bmRlZmluZWQgPyB7IHVuY2VydGFpbnR5TSB9IDoge30pLAogICAgLi4uKGxhdCAhPT0gdW5kZWZpbmVkID8geyBsYXQsIGxuZzogbG5nISB9IDoge30pLAogIH07Cn07Cgpjb25zdCBtYWluID0gYXN5bmMgKCkgPT4gewogIGNvbnN0IGhvbWUgPSBhd2FpdCBzY3JhcGUoSE9NRSk7CiAgY29uc3QgbGlua3MgPSBwYXJzZUNvdW50cnlMaW5rcyhob21lKTsKICBjb25zb2xlLmxvZyhgJHtsaW5rcy5sZW5ndGh9IGNvdW50cnkgcGFnZXNgKTsKCiAgY29uc3QgdG9kYXkgPSBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkuc2xpY2UoMCwgMTApOwogIGNvbnN0IHJlY29yZHM6IFJlY29yZDxzdHJpbmcsIENocFJlY29yZD4gPSB7fTsKICB0cnkgewogICAgT2JqZWN0LmFzc2lnbihyZWNvcmRzLCBKU09OLnBhcnNlKGF3YWl0IEJ1bi5maWxlKE9VVCkudGV4dCgpKSk7CiAgfSBjYXRjaCB7CiAgICAvKiBmaXJzdCBydW4gKi8KICB9CgogIGxldCBjdXJzb3IgPSAwOwogIGNvbnN0IHdvcmtlciA9IGFzeW5jICgpID0+IHsKICAgIHdoaWxlIChjdXJzb3IgPCBsaW5rcy5sZW5ndGgpIHsKICAgICAgY29uc3QgeyBjb3VudHJ5LCB1cmwgfSA9IGxpbmtzW2N1cnNvcisrXSE7CiAgICAgIGlmIChyZWNvcmRzW2NvdW50cnldKSBjb250aW51ZTsKICAgICAgdHJ5IHsKICAgICAgICBjb25zdCBtZCA9IGF3YWl0IHNjcmFwZSh1cmwpOwogICAgICAgIGNvbnN0IHBhcnNlZCA9IHBhcnNlUmVwb3J0KG1kKTsKICAgICAgICByZWNvcmRzW2NvdW50cnldID0geyBjb3VudHJ5LCAuLi5wYXJzZWQsIHVybCwgZmV0Y2hlZEF0OiB0b2RheSB9OwogICAgICAgIGNvbnNvbGUubG9nKGAke2NvdW50cnl9OiAke3BhcnNlZC5wZWFrID8/ICI/In0gJHtwYXJzZWQuZWxldmF0aW9uTSA/PyAiPyJ9IG1gKTsKICAgICAgfSBjYXRjaCAoZXJyKSB7CiAgICAgICAgY29uc29sZS5sb2coYCR7Y291bnRyeX06IGZhaWxlZCAke2VyciBpbnN0YW5jZW9mIEVycm9yID8gZXJyLm1lc3NhZ2UgOiBTdHJpbmcoZXJyKX1gKTsKICAgICAgfQogICAgfQogIH07CiAgYXdhaXQgUHJvbWlzZS5hbGwoQXJyYXkuZnJvbSh7IGxlbmd0aDogNCB9LCB3b3JrZXIpKTsKCiAgY29uc3Qgc29ydGVkID0gT2JqZWN0LmZyb21FbnRyaWVzKE9iamVjdC5lbnRyaWVzKHJlY29yZHMpLnNvcnQoKFthXSwgW2JdKSA9PiBhLmxvY2FsZUNvbXBhcmUoYikpKTsKICBhd2FpdCBCdW4ud3JpdGUoT1VULCBgJHtKU09OLnN0cmluZ2lmeShzb3J0ZWQsIG51bGwsIDIpfVxuYCk7CiAgY29uc29sZS5sb2coYHdyb3RlICR7T2JqZWN0LmtleXMoc29ydGVkKS5sZW5ndGh9IHJlY29yZHMgdG8gJHtPVVR9YCk7Cn07CgppZiAoaW1wb3J0Lm1ldGEubWFpbikgYXdhaXQgbWFpbigpOwo=
+/**
+ * Complements the Peakbagger record with Eric & Matthew Gilbertson's surveys
+ * at countryhighpoints.com — they GPS-survey disputed country high points
+ * themselves, which is why several of our high points (Colombia, Saudi Arabia,
+ * Togo, Gambia…) differ from older references.
+ *
+ * Scrapes every country page linked from the site's home page and writes
+ * `src/data/countryhighpoints.json`: country -> { peak, elevationM, url }.
+ *
+ * Run: bun scripts/scrape-countryhighpoints.ts
+ */
+const OUT = "src/data/countryhighpoints.json";
+const HOME = "https://www.countryhighpoints.com/";
+
+export interface ChpRecord {
+  country: string;
+  peak?: string;
+  elevationM?: number;
+  /** Survey uncertainty in metres, when the report states one. */
+  uncertaintyM?: number;
+  lat?: number;
+  lng?: number;
+  url: string;
+  fetchedAt: string;
+}
+
+const scrape = async (url: string): Promise<string> => {
+  const base = process.env["AGW_URL"];
+  const token = process.env["AGW_TOKEN"];
+  if (!base || !token) throw new Error("AGW_URL / AGW_TOKEN missing");
+  const res = await fetch(`${base}/f/website-fetch/v1/scrape`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+    body: JSON.stringify({ url, formats: ["markdown"] }),
+  });
+  if (!res.ok) throw new Error(`${res.status} ${await res.text()}`);
+  const body = (await res.json()) as { data?: { markdown?: string } };
+  return body.data?.markdown ?? "";
+};
+
+const NAV = /^(home|log in|search|uncategorized|archives|recent posts|recent comments|contact|about|blog|peakbagger\.com)$/i;
+
+/** Country links live in the continent tables on the home page. */
+export const parseCountryLinks = (markdown: string): { country: string; url: string }[] => {
+  const out = new Map<string, string>();
+  for (const m of markdown.matchAll(/\[([^\]]+)\]\((https:\/\/www\.countryhighpoints\.com\/[^)]+)\)/g)) {
+    const country = m[1]!.trim();
+    const url = m[2]!;
+    if (/^!\[/.test(country) || country.length > 40 || NAV.test(country)) continue;
+    if (/(instagram|facebook|twitter|feed|wp-content|\/20\d\d\/|#)/i.test(url)) continue;
+    if (!out.has(country)) out.set(country, url);
+  }
+  return [...out].map(([country, url]) => ({ country, url }));
+};
+
+/**
+ * Trip reports open with `# Country – Peak` followed by a summit line such as
+ * `Jabal Ferwa (3,001.8 ± 0.7 m)`. That line is the surveyed figure; anything
+ * else on the page is narrative and must not be read as the elevation.
+ */
+export const parseReport = (
+  markdown: string,
+): { peak?: string; elevationM?: number; uncertaintyM?: number; lat?: number; lng?: number } => {
+  const heading = markdown.match(/^#\s+(.+)$/m)?.[1]?.trim();
+  const headingPeak = heading?.split(/\s[–—-]\s/)[1]?.trim();
+
+  // Two report styles: `Peak (3,001.8 ± 0.7 m)` and `Peak – 12,461ft`.
+  const summit =
+    markdown.match(
+      /^\s*([A-Z][^()\n]{2,60}?)\s*\(\s*([\d,]+(?:\.\d+)?)\s*(?:±\s*([\d.]+)\s*)?(m|meters?|metres?|ft|feet)\b[^)]*\)/m,
+    ) ??
+    markdown.match(
+      /^\s*([A-Z][^\n]{2,60}?)\s*[–—-]\s*([\d,]+(?:\.\d+)?)\s*()(m|meters?|metres?|ft|feet)\b\s*$/m,
+    );
+
+  let elevationM: number | undefined;
+  let uncertaintyM: number | undefined;
+  let peak = headingPeak;
+  if (summit) {
+    const value = Number(summit[2]!.replace(/,/g, ""));
+    const feet = /^f/i.test(summit[4]!);
+    if (Number.isFinite(value)) {
+      const metres = feet ? value * 0.3048 : value;
+      if (metres > 0 && metres < 8900) {
+        elevationM = Math.round(metres * 10) / 10;
+        const u = summit[3] ? Number(summit[3]) : undefined;
+        if (u !== undefined && Number.isFinite(u)) uncertaintyM = feet ? Math.round(u * 0.3048 * 10) / 10 : u;
+      }
+    }
+    peak = peak ?? summit[1]!.trim();
+  }
+
+  const coords = markdown.match(/([NS])\s*(\d+\.\d+)°?,?\s*([EW])\s*(\d+\.\d+)°?/);
+  const lat = coords ? Number(coords[2]) * (coords[1] === "S" ? -1 : 1) : undefined;
+  const lng = coords ? Number(coords[4]) * (coords[3] === "W" ? -1 : 1) : undefined;
+
+  return {
+    ...(peak ? { peak } : {}),
+    ...(elevationM !== undefined ? { elevationM } : {}),
+    ...(uncertaintyM !== undefined ? { uncertaintyM } : {}),
+    ...(lat !== undefined ? { lat, lng: lng! } : {}),
+  };
+};
+
+const main = async () => {
+  const home = await scrape(HOME);
+  const links = parseCountryLinks(home);
+  console.log(`${links.length} country pages`);
+
+  const today = new Date().toISOString().slice(0, 10);
+  const records: Record<string, ChpRecord> = {};
+  try {
+    Object.assign(records, JSON.parse(await Bun.file(OUT).text()));
+  } catch {
+    /* first run */
+  }
+
+  let cursor = 0;
+  const worker = async () => {
+    while (cursor < links.length) {
+      const { country, url } = links[cursor++]!;
+      if (records[country]) continue;
+      try {
+        const md = await scrape(url);
+        const parsed = parseReport(md);
+        records[country] = { country, ...parsed, url, fetchedAt: today };
+        console.log(`${country}: ${parsed.peak ?? "?"} ${parsed.elevationM ?? "?"} m`);
+      } catch (err) {
+        console.log(`${country}: failed ${err instanceof Error ? err.message : String(err)}`);
+      }
+    }
+  };
+  await Promise.all(Array.from({ length: 4 }, worker));
+
+  const sorted = Object.fromEntries(Object.entries(records).sort(([a], [b]) => a.localeCompare(b)));
+  await Bun.write(OUT, `${JSON.stringify(sorted, null, 2)}\n`);
+  console.log(`wrote ${Object.keys(sorted).length} records to ${OUT}`);
+};
+
+if (import.meta.main) await main();

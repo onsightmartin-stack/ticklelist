@@ -1,1 +1,113 @@
-aW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCBTZW8gZnJvbSAiQC9jb21wb25lbnRzL1NlbyI7CmltcG9ydCB7IExpbmssIHVzZU5hdmlnYXRlIH0gZnJvbSAiQC9saWIvcm91dGVyLWNvbXBhdCI7CmltcG9ydCB7IEJlbGwsIENoZXZyb25Eb3duLCBLZXlSb3VuZCwgTGluazIsIExvZ091dCwgUGFsZXR0ZSwgU2NhbGUsIFVzZXIgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgQ29tbXVuaXR5TGF5b3V0IGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvQ29tbXVuaXR5TGF5b3V0IjsKaW1wb3J0IFByb2ZpbGVFZGl0b3IgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9Qcm9maWxlRWRpdG9yIjsKaW1wb3J0IFRoZW1lUGlja2VyIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvVGhlbWVQaWNrZXIiOwppbXBvcnQgUHJvZmlsZUdvYWxzUGlja2VyIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvUHJvZmlsZUdvYWxzUGlja2VyIjsKaW1wb3J0IFVuaXRzUGlja2VyIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvVW5pdHNQaWNrZXIiOwppbXBvcnQgRGVmaW5pdGlvbnNQaWNrZXIgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9EZWZpbml0aW9uc1BpY2tlciI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDb2xsYXBzaWJsZSwgQ29sbGFwc2libGVDb250ZW50LCBDb2xsYXBzaWJsZVRyaWdnZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY29sbGFwc2libGUiOwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAiQC9ob29rcy91c2VBdXRoIjsKCmNvbnN0IFNldHRpbmdzUGFnZSA9ICgpID0+IHsKICBjb25zdCB7IHVzZXIsIHByb2ZpbGUsIHNpZ25PdXQsIGxvYWRpbmcgfSA9IHVzZUF1dGgoKTsKICBjb25zdCBuYXZpZ2F0ZSA9IHVzZU5hdmlnYXRlKCk7CiAgY29uc3Qgb3BlbkF2YXRhclN0dWRpbyA9IHR5cGVvZiB3aW5kb3cgIT09ICJ1bmRlZmluZWQiICYmIHdpbmRvdy5sb2NhdGlvbi5oYXNoLnJlcGxhY2UoIiMiLCAiIikudG9Mb3dlckNhc2UoKSA9PT0gImF2YXRhciI7CiAgY29uc3QgW3RoZW1lT3Blbiwgc2V0VGhlbWVPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgcmV0dXJuICgKICAgIDxDb21tdW5pdHlMYXlvdXQ+CiAgICAgIDxTZW8KICAgICAgICB0aXRsZT0iQWNjb3VudCBTZXR0aW5ncyDigJQgVGlja2xlbGlzdCIKICAgICAgICBkZXNjcmlwdGlvbj0iTWFuYWdlIHlvdXIgVGlja2xlbGlzdCBwcm9maWxlLCBwYXNzd29yZCBhbmQgbGlua2VkIGFjY291bnRzLiIKICAgICAgICBub2luZGV4CiAgICAgIC8+CgogICAgICA8aDEgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0yeGwgdHJhY2tpbmctd2lkZXIgbWItNiI+U2V0dGluZ3M8L2gxPgoKICAgICAgeyF1c2VyID8gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItZGFzaGVkIGJvcmRlci1ib3JkZXIgcC0xMCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57bG9hZGluZyA/ICJDaGVja2luZyB5b3VyIHNlc3Npb27igKYiIDogIlNpZ24gaW4gdG8gbWFuYWdlIHlvdXIgYWNjb3VudC4ifTwvcD4KICAgICAgICAgIHshbG9hZGluZyAmJiA8QnV0dG9uIGFzQ2hpbGQgY2xhc3NOYW1lPSJtdC00Ij48TGluayB0bz0iL2F1dGgiPlNpZ24gaW48L0xpbms+PC9CdXR0b24+fQogICAgICAgIDwvZGl2PgogICAgICApIDogKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTYiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBwLTUiPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy1bMC4yZW1dIHRleHQtcHJpbWFyeSBmb250LWRpc3BsYXkiPlNpZ25lZCBpbiBhczwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdHJhY2tpbmctd2lkZXIgdGV4dC1sZyBtdC0xIj57cHJvZmlsZT8uZGlzcGxheV9uYW1lID8/ICJDbGltYmVyIn08L3A+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt1c2VyLmVtYWlsfTwvcD4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0yIG10LTQiPgogICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ic2Vjb25kYXJ5IiBzaXplPSJzbSIgb25DbGljaz17KCkgPT4gbmF2aWdhdGUoYC9jb21tdW5pdHkvbWVtYmVycy8ke3VzZXIuaWR9YCl9PgogICAgICAgICAgICAgICAgPFVzZXIgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTEiIC8+IFZpZXcgcHVibGljIHByb2ZpbGUKICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9InNlY29uZGFyeSIgc2l6ZT0ic20iIG9uQ2xpY2s9eygpID0+IG5hdmlnYXRlKCIvYWNjb3VudC9wYXNzd29yZCIpfT4KICAgICAgICAgICAgICAgIDxLZXlSb3VuZCBjbGFzc05hbWU9InctNCBoLTQgbXItMSIgLz4gQ2hhbmdlIHBhc3N3b3JkCiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJzZWNvbmRhcnkiIHNpemU9InNtIiBvbkNsaWNrPXsoKSA9PiBuYXZpZ2F0ZSgiL2FjY291bnQvbGlua2VkIil9PgogICAgICAgICAgICAgICAgPExpbmsyIGNsYXNzTmFtZT0idy00IGgtNCBtci0xIiAvPiBMaW5rZWQgYWNjb3VudHMKICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9InNlY29uZGFyeSIgc2l6ZT0ic20iIG9uQ2xpY2s9eygpID0+IG5hdmlnYXRlKCIvY29tbXVuaXR5L25vdGlmaWNhdGlvbnMvc2V0dGluZ3MiKX0+CiAgICAgICAgICAgICAgICA8QmVsbCBjbGFzc05hbWU9InctNCBoLTQgbXItMSIgLz4gTm90aWZpY2F0aW9uIHNldHRpbmdzCiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJzZWNvbmRhcnkiIHNpemU9InNtIiBvbkNsaWNrPXsoKSA9PiBuYXZpZ2F0ZSgiL2NvbW11bml0eS9kZWZpbml0aW9ucyIpfT4KICAgICAgICAgICAgICAgIDxTY2FsZSBjbGFzc05hbWU9InctNCBoLTQgbXItMSIgLz4gQ2hhbGxlbmdlIGRlZmluaXRpb25zCiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJzZWNvbmRhcnkiIHNpemU9InNtIiBvbkNsaWNrPXsoKSA9PiBuYXZpZ2F0ZSgiL2NvbW11bml0eS9hcHBlYXJhbmNlIil9PgogICAgICAgICAgICAgICAgPFBhbGV0dGUgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTEiIC8+IEFwcGVhcmFuY2UgJiB0aGVtZQogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIHNpemU9InNtIiBvbkNsaWNrPXtzaWduT3V0fT4KICAgICAgICAgICAgICAgIDxMb2dPdXQgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTEiIC8+IFNpZ24gb3V0CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPFVuaXRzUGlja2VyIC8+CgogICAgICAgICAgPENvbGxhcHNpYmxlIG9wZW49e3RoZW1lT3Blbn0gb25PcGVuQ2hhbmdlPXtzZXRUaGVtZU9wZW59IGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkIj4KICAgICAgICAgICAgPENvbGxhcHNpYmxlVHJpZ2dlciBhc0NoaWxkPgogICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCB3LWZ1bGwgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMiBwLTUgdGV4dC1sZWZ0IgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgICA8UGFsZXR0ZSBjbGFzc05hbWU9InctNCBoLTQgdGV4dC1wcmltYXJ5IiAvPgogICAgICAgICAgICAgICAgICA8c3Bhbj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImJsb2NrIHRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy1bMC4yZW1dIHRleHQtcHJpbWFyeSBmb250LWRpc3BsYXkiPlNpdGUgdGhlbWU8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJibG9jayB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC0wLjUiPlBpY2sgaG93IHRoZSB3aG9sZSBzaXRlIGxvb2tzIG9uIHRoaXMgZGV2aWNlLjwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPENoZXZyb25Eb3duCiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHctNCBoLTQgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRyYW5zaXRpb24tdHJhbnNmb3JtICR7dGhlbWVPcGVuID8gInJvdGF0ZS0xODAiIDogIiJ9YH0KICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgIDwvQ29sbGFwc2libGVUcmlnZ2VyPgogICAgICAgICAgICA8Q29sbGFwc2libGVDb250ZW50IGNsYXNzTmFtZT0icC01IHB0LTAiPgogICAgICAgICAgICAgIDxUaGVtZVBpY2tlciAvPgogICAgICAgICAgICA8L0NvbGxhcHNpYmxlQ29udGVudD4KICAgICAgICAgIDwvQ29sbGFwc2libGU+CgogICAgICAgICAgPGRpdiBpZD0iZGVmaW5pdGlvbnMiIGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkIHAtNSI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgPFNjYWxlIGNsYXNzTmFtZT0idy00IGgtNCB0ZXh0LXByaW1hcnkiIC8+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB1cHBlcmNhc2UgdHJhY2tpbmctWzAuMmVtXSB0ZXh0LXByaW1hcnkgZm9udC1kaXNwbGF5Ij5DaGFsbGVuZ2UgZGVmaW5pdGlvbnM8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG10LTEgbWItNCI+CiAgICAgICAgICAgICAgQ2hvb3NlIHdoaWNoIGNvdW50cmllcyBjb3VudCBhbmQgd2hpY2ggU2V2ZW4gU3VtbWl0cyBsaXN0IHlvdSdyZSBjaGFzaW5nLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxEZWZpbml0aW9uc1BpY2tlciAvPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBpZD0iZ29hbHMiIC8+CiAgICAgICAgICA8UHJvZmlsZUdvYWxzUGlja2VyIHVzZXJJZD17dXNlci5pZH0gaW5pdGlhbD17KHByb2ZpbGUgYXMgeyBwcm9maWxlX2dvYWxzPzogc3RyaW5nW10gfSB8IG51bGwpPy5wcm9maWxlX2dvYWxzfSAvPgoKICAgICAgICAgIDxQcm9maWxlRWRpdG9yIG9uRG9uZT17KCkgPT4gbmF2aWdhdGUoYC9jb21tdW5pdHkvbWVtYmVycy8ke3VzZXIuaWR9YCl9IGluaXRpYWxTdHVkaW89e29wZW5BdmF0YXJTdHVkaW99IC8+CiAgICAgICAgPC9kaXY+CiAgICAgICl9CiAgICA8L0NvbW11bml0eUxheW91dD4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgU2V0dGluZ3NQYWdlOwo=
+import { useState } from "react";
+import Seo from "@/components/Seo";
+import { Link, useNavigate } from "@/lib/router-compat";
+import { Bell, ChevronDown, KeyRound, Link2, LogOut, Palette, Scale, User } from "lucide-react";
+import CommunityLayout from "@/components/community/CommunityLayout";
+import ProfileEditor from "@/components/community/ProfileEditor";
+import ThemePicker from "@/components/community/ThemePicker";
+import ProfileGoalsPicker from "@/components/community/ProfileGoalsPicker";
+import UnitsPicker from "@/components/community/UnitsPicker";
+import DefinitionsPicker from "@/components/community/DefinitionsPicker";
+import { Button } from "@/components/ui/button";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
+import { useAuth } from "@/hooks/useAuth";
+
+const SettingsPage = () => {
+  const { user, profile, signOut, loading } = useAuth();
+  const navigate = useNavigate();
+  const openAvatarStudio = typeof window !== "undefined" && window.location.hash.replace("#", "").toLowerCase() === "avatar";
+  const [themeOpen, setThemeOpen] = useState(false);
+
+  return (
+    <CommunityLayout>
+      <Seo
+        title="Account Settings — Ticklelist"
+        description="Manage your Ticklelist profile, password and linked accounts."
+        noindex
+      />
+
+      <h1 className="font-display text-2xl tracking-wider mb-6">Settings</h1>
+
+      {!user ? (
+        <div className="rounded-lg border border-dashed border-border p-10 text-center">
+          <p className="text-sm text-muted-foreground">{loading ? "Checking your session…" : "Sign in to manage your account."}</p>
+          {!loading && <Button asChild className="mt-4"><Link to="/auth">Sign in</Link></Button>}
+        </div>
+      ) : (
+        <div className="space-y-6">
+          <div className="rounded-lg border border-border bg-card p-5">
+            <p className="text-[10px] uppercase tracking-[0.2em] text-primary font-display">Signed in as</p>
+            <p className="font-display tracking-wider text-lg mt-1">{profile?.display_name ?? "Climber"}</p>
+            <p className="text-sm text-muted-foreground">{user.email}</p>
+            <div className="flex flex-wrap gap-2 mt-4">
+              <Button variant="secondary" size="sm" onClick={() => navigate(`/community/members/${user.id}`)}>
+                <User className="w-4 h-4 mr-1" /> View public profile
+              </Button>
+              <Button variant="secondary" size="sm" onClick={() => navigate("/account/password")}>
+                <KeyRound className="w-4 h-4 mr-1" /> Change password
+              </Button>
+              <Button variant="secondary" size="sm" onClick={() => navigate("/account/linked")}>
+                <Link2 className="w-4 h-4 mr-1" /> Linked accounts
+              </Button>
+              <Button variant="secondary" size="sm" onClick={() => navigate("/community/notifications/settings")}>
+                <Bell className="w-4 h-4 mr-1" /> Notification settings
+              </Button>
+              <Button variant="secondary" size="sm" onClick={() => navigate("/community/definitions")}>
+                <Scale className="w-4 h-4 mr-1" /> Challenge definitions
+              </Button>
+              <Button variant="secondary" size="sm" onClick={() => navigate("/community/appearance")}>
+                <Palette className="w-4 h-4 mr-1" /> Appearance & theme
+              </Button>
+              <Button variant="ghost" size="sm" onClick={signOut}>
+                <LogOut className="w-4 h-4 mr-1" /> Sign out
+              </Button>
+            </div>
+          </div>
+
+          <UnitsPicker />
+
+          <Collapsible open={themeOpen} onOpenChange={setThemeOpen} className="rounded-lg border border-border bg-card">
+            <CollapsibleTrigger asChild>
+              <button
+                type="button"
+                className="flex w-full items-center justify-between gap-2 p-5 text-left"
+              >
+                <span className="flex items-center gap-2">
+                  <Palette className="w-4 h-4 text-primary" />
+                  <span>
+                    <span className="block text-[10px] uppercase tracking-[0.2em] text-primary font-display">Site theme</span>
+                    <span className="block text-sm text-muted-foreground mt-0.5">Pick how the whole site looks on this device.</span>
+                  </span>
+                </span>
+                <ChevronDown
+                  className={`w-4 h-4 text-muted-foreground transition-transform ${themeOpen ? "rotate-180" : ""}`}
+                />
+              </button>
+            </CollapsibleTrigger>
+            <CollapsibleContent className="p-5 pt-0">
+              <ThemePicker />
+            </CollapsibleContent>
+          </Collapsible>
+
+          <div id="definitions" className="rounded-lg border border-border bg-card p-5">
+            <div className="flex items-center gap-2">
+              <Scale className="w-4 h-4 text-primary" />
+              <p className="text-[10px] uppercase tracking-[0.2em] text-primary font-display">Challenge definitions</p>
+            </div>
+            <p className="text-sm text-muted-foreground mt-1 mb-4">
+              Choose which countries count and which Seven Summits list you're chasing.
+            </p>
+            <DefinitionsPicker />
+          </div>
+
+          <div id="goals" />
+          <ProfileGoalsPicker userId={user.id} initial={(profile as { profile_goals?: string[] } | null)?.profile_goals} />
+
+          <ProfileEditor onDone={() => navigate(`/community/members/${user.id}`)} initialStudio={openAvatarStudio} />
+        </div>
+      )}
+    </CommunityLayout>
+  );
+};
+
+export default SettingsPage;

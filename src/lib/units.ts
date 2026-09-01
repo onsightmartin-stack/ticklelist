@@ -1,1 +1,79 @@
-LyoqCiAqIEFsdGl0dWRlIHVuaXRzIOKAlCBtZXRyZXMgZXZlcnl3aGVyZSBleGNlcHQgdGhlIGhhbmRmdWwgb2YgY291bnRyaWVzIHRoYXQKICogc3RpbGwgdGhpbmsgaW4gZmVldC4gRWxldmF0aW9ucyBhcmUgc3RvcmVkIGFzIG1ldHJlcyAobnVtYmVycyBvciBzdHJpbmdzCiAqIGxpa2UgIjQsODEwIG0iKSwgc28gZGlzcGxheSBpcyB0aGUgb25seSBwbGFjZSB0aGF0IGNvbnZlcnRzLgogKi8KZXhwb3J0IHR5cGUgVW5pdFN5c3RlbSA9ICJtZXRyaWMiIHwgImltcGVyaWFsIjsKCi8qKiBDb3VudHJpZXMgKGFuZCBJU08gY29kZXMpIHRoYXQgdXNlIGZlZXQgZm9yIGFsdGl0dWRlIGluIGRhaWx5IGxpZmUuICovCmNvbnN0IElNUEVSSUFMID0gbmV3IFNldChbCiAgInVzIiwKICAidXNhIiwKICAidW5pdGVkIHN0YXRlcyIsCiAgInVuaXRlZCBzdGF0ZXMgb2YgYW1lcmljYSIsCiAgImxyIiwKICAibGliZXJpYSIsCiAgIm1tIiwKICAibXlhbm1hciIsCiAgImJ1cm1hIiwKXSk7CgovKiogUGljayB1bml0cyBmcm9tIGEgZnJlZS10ZXh0IGNvdW50cnkgbmFtZSBvciBJU08gY29kZS4gKi8KZXhwb3J0IGNvbnN0IHVuaXRzRm9yQ291bnRyeSA9IChjb3VudHJ5Pzogc3RyaW5nIHwgbnVsbCk6IFVuaXRTeXN0ZW0gfCBudWxsID0+IHsKICBpZiAoIWNvdW50cnkpIHJldHVybiBudWxsOwogIHJldHVybiBJTVBFUklBTC5oYXMoY291bnRyeS50cmltKCkudG9Mb3dlckNhc2UoKSkgPyAiaW1wZXJpYWwiIDogIm1ldHJpYyI7Cn07CgovKiogUGljayB1bml0cyBmcm9tIGEgYnJvd3NlciBsb2NhbGUgc3VjaCBhcyAiZW4tVVMiIG9yICJlbi1HQiIuICovCmV4cG9ydCBjb25zdCB1bml0c0ZvckxvY2FsZSA9IChsb2NhbGU/OiBzdHJpbmcgfCBudWxsKTogVW5pdFN5c3RlbSA9PiB7CiAgY29uc3QgcmVnaW9uID0gKGxvY2FsZSA/PyAiIikuc3BsaXQoL1stX10vKVsxXT8udG9VcHBlckNhc2UoKTsKICBpZiAoIXJlZ2lvbikgcmV0dXJuICJtZXRyaWMiOwogIHJldHVybiBJTVBFUklBTC5oYXMocmVnaW9uLnRvTG93ZXJDYXNlKCkpID8gImltcGVyaWFsIiA6ICJtZXRyaWMiOwp9OwoKLyoqIEhpZ2hlc3QgcG9pbnQgb24gRWFydGgg4oCUIGFueXRoaW5nIGFib3ZlIGl0IHdhcyBzdG9yZWQgYXMgZmVldCBieSBtaXN0YWtlLiAqLwpjb25zdCBFVkVSRVNUX00gPSA4ODQ5OwoKLyoqIFBhcnNlICI4LDg0OCBtIiAvIDg4NDggLyAiNDgxMG0iIGludG8gbWV0cmVzLCByZXBhaXJpbmcgZmVldCBtaXNsYWJlbGxlZCBhcyBtZXRyZXMuICovCmV4cG9ydCBjb25zdCB0b01ldHJlcyA9ICh2YWx1ZTogc3RyaW5nIHwgbnVtYmVyIHwgbnVsbCB8IHVuZGVmaW5lZCk6IG51bWJlciB8IG51bGwgPT4gewogIGlmICh2YWx1ZSA9PSBudWxsIHx8IHZhbHVlID09PSAiIikgcmV0dXJuIG51bGw7CiAgY29uc3QgcmF3ID0KICAgIHR5cGVvZiB2YWx1ZSA9PT0gIm51bWJlciIKICAgICAgPyBOdW1iZXIuaXNGaW5pdGUodmFsdWUpCiAgICAgICAgPyB2YWx1ZQogICAgICAgIDogbnVsbAogICAgICA6ICgoKSA9PiB7CiAgICAgICAgICBjb25zdCBtID0gdmFsdWUucmVwbGFjZSgvWyxcc10vZywgIiIpLm1hdGNoKC8oLT9cZCsoPzpcLlxkKyk/KS8pOwogICAgICAgICAgcmV0dXJuIG0gPyBOdW1iZXIobVsxXSkgOiBudWxsOwogICAgICAgIH0pKCk7CiAgaWYgKHJhdyA9PSBudWxsKSByZXR1cm4gbnVsbDsKICByZXR1cm4gcmF3ID4gRVZFUkVTVF9NID8gTWF0aC5yb3VuZChyYXcgKiAwLjMwNDgpIDogcmF3Owp9OwoKZXhwb3J0IGNvbnN0IG1ldHJlc1RvRmVldCA9IChtOiBudW1iZXIpID0+IE1hdGgucm91bmQobSAqIDMuMjgwODM5ODk1KTsKCi8qKgogKiBGb3JtYXQgYW4gZWxldmF0aW9uIGZvciBkaXNwbGF5IGluIHRoZSBtZW1iZXIncyB1bml0cy4KICogUmV0dXJucyBudWxsIHdoZW4gdGhlcmUgaXMgbm90aGluZyBzZW5zaWJsZSB0byBzaG93LgogKi8KZXhwb3J0IGNvbnN0IGZvcm1hdEVsZXZhdGlvbiA9ICgKICB2YWx1ZTogc3RyaW5nIHwgbnVtYmVyIHwgbnVsbCB8IHVuZGVmaW5lZCwKICB1bml0czogVW5pdFN5c3RlbSA9ICJtZXRyaWMiLAopOiBzdHJpbmcgfCBudWxsID0+IHsKICBjb25zdCBtZXRyZXMgPSB0b01ldHJlcyh2YWx1ZSk7CiAgaWYgKG1ldHJlcyA9PSBudWxsKSByZXR1cm4gbnVsbDsKICBpZiAodW5pdHMgPT09ICJpbXBlcmlhbCIpIHJldHVybiBgJHttZXRyZXNUb0ZlZXQobWV0cmVzKS50b0xvY2FsZVN0cmluZygiZW4tVVMiKX0gZnRgOwogIHJldHVybiBgJHtNYXRoLnJvdW5kKG1ldHJlcykudG9Mb2NhbGVTdHJpbmcoImVuLVVTIil9IG1gOwp9OwoKLyoqIENvbXBhY3QgdmFyaWFudCB3aXRob3V0IGEgc3BhY2UsIGZvciB2ZXJ5IGRlbnNlIGxpc3Qgcm93cy4gKi8KZXhwb3J0IGNvbnN0IGZvcm1hdEVsZXZhdGlvblNob3J0ID0gKAogIHZhbHVlOiBzdHJpbmcgfCBudW1iZXIgfCBudWxsIHwgdW5kZWZpbmVkLAogIHVuaXRzOiBVbml0U3lzdGVtID0gIm1ldHJpYyIsCik6IHN0cmluZyB8IG51bGwgPT4gewogIGNvbnN0IG1ldHJlcyA9IHRvTWV0cmVzKHZhbHVlKTsKICBpZiAobWV0cmVzID09IG51bGwpIHJldHVybiBudWxsOwogIHJldHVybiB1bml0cyA9PT0gImltcGVyaWFsIgogICAgPyBgJHttZXRyZXNUb0ZlZXQobWV0cmVzKS50b0xvY2FsZVN0cmluZygiZW4tVVMiKX1mdGAKICAgIDogYCR7TWF0aC5yb3VuZChtZXRyZXMpLnRvTG9jYWxlU3RyaW5nKCJlbi1VUyIpfW1gOwp9Owo=
+/**
+ * Altitude units — metres everywhere except the handful of countries that
+ * still think in feet. Elevations are stored as metres (numbers or strings
+ * like "4,810 m"), so display is the only place that converts.
+ */
+export type UnitSystem = "metric" | "imperial";
+
+/** Countries (and ISO codes) that use feet for altitude in daily life. */
+const IMPERIAL = new Set([
+  "us",
+  "usa",
+  "united states",
+  "united states of america",
+  "lr",
+  "liberia",
+  "mm",
+  "myanmar",
+  "burma",
+]);
+
+/** Pick units from a free-text country name or ISO code. */
+export const unitsForCountry = (country?: string | null): UnitSystem | null => {
+  if (!country) return null;
+  return IMPERIAL.has(country.trim().toLowerCase()) ? "imperial" : "metric";
+};
+
+/** Pick units from a browser locale such as "en-US" or "en-GB". */
+export const unitsForLocale = (locale?: string | null): UnitSystem => {
+  const region = (locale ?? "").split(/[-_]/)[1]?.toUpperCase();
+  if (!region) return "metric";
+  return IMPERIAL.has(region.toLowerCase()) ? "imperial" : "metric";
+};
+
+/** Highest point on Earth — anything above it was stored as feet by mistake. */
+const EVEREST_M = 8849;
+
+/** Parse "8,848 m" / 8848 / "4810m" into metres, repairing feet mislabelled as metres. */
+export const toMetres = (value: string | number | null | undefined): number | null => {
+  if (value == null || value === "") return null;
+  const raw =
+    typeof value === "number"
+      ? Number.isFinite(value)
+        ? value
+        : null
+      : (() => {
+          const m = value.replace(/[,\s]/g, "").match(/(-?\d+(?:\.\d+)?)/);
+          return m ? Number(m[1]) : null;
+        })();
+  if (raw == null) return null;
+  return raw > EVEREST_M ? Math.round(raw * 0.3048) : raw;
+};
+
+export const metresToFeet = (m: number) => Math.round(m * 3.280839895);
+
+/**
+ * Format an elevation for display in the member's units.
+ * Returns null when there is nothing sensible to show.
+ */
+export const formatElevation = (
+  value: string | number | null | undefined,
+  units: UnitSystem = "metric",
+): string | null => {
+  const metres = toMetres(value);
+  if (metres == null) return null;
+  if (units === "imperial") return `${metresToFeet(metres).toLocaleString("en-US")} ft`;
+  return `${Math.round(metres).toLocaleString("en-US")} m`;
+};
+
+/** Compact variant without a space, for very dense list rows. */
+export const formatElevationShort = (
+  value: string | number | null | undefined,
+  units: UnitSystem = "metric",
+): string | null => {
+  const metres = toMetres(value);
+  if (metres == null) return null;
+  return units === "imperial"
+    ? `${metresToFeet(metres).toLocaleString("en-US")}ft`
+    : `${Math.round(metres).toLocaleString("en-US")}m`;
+};

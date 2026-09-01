@@ -1,1 +1,19 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPG5ldHdvcmstc2VjdXJpdHktY29uZmlnPgogICAgPCEtLSBCbG9jayBhbGwgY2xlYXJ0ZXh0IChIVFRQKSB0cmFmZmljIGJ5IGRlZmF1bHQg4oCUIGVuZm9yY2UgSFRUUFMgZXZlcnl3aGVyZS4gLS0+CiAgICA8YmFzZS1jb25maWcgY2xlYXJ0ZXh0VHJhZmZpY1Blcm1pdHRlZD0iZmFsc2UiPgogICAgICAgIDx0cnVzdC1hbmNob3JzPgogICAgICAgICAgICA8Y2VydGlmaWNhdGVzIHNyYz0ic3lzdGVtIiAvPgogICAgICAgIDwvdHJ1c3QtYW5jaG9ycz4KICAgIDwvYmFzZS1jb25maWc+CgogICAgPCEtLSBFeHBsaWNpdGx5IGFsbG93IEhUVFBTIHRvIHRoZSBwcm9kdWN0aW9uIGRvbWFpbi4gLS0+CiAgICA8ZG9tYWluLWNvbmZpZyBjbGVhcnRleHRUcmFmZmljUGVybWl0dGVkPSJmYWxzZSI+CiAgICAgICAgPGRvbWFpbiBpbmNsdWRlU3ViZG9tYWlucz0idHJ1ZSI+dGlja2xlbGlzdC5vcmc8L2RvbWFpbj4KICAgICAgICA8ZG9tYWluIGluY2x1ZGVTdWJkb21haW5zPSJ0cnVlIj5vbnNpZ2h0bWFydGluLmNvbTwvZG9tYWluPgogICAgICAgIDxkb21haW4gaW5jbHVkZVN1YmRvbWFpbnM9InRydWUiPmxvdmFibGUuYXBwPC9kb21haW4+CiAgICAgICAgPHRydXN0LWFuY2hvcnM+CiAgICAgICAgICAgIDxjZXJ0aWZpY2F0ZXMgc3JjPSJzeXN0ZW0iIC8+CiAgICAgICAgPC90cnVzdC1hbmNob3JzPgogICAgPC9kb21haW4tY29uZmlnPgo8L25ldHdvcmstc2VjdXJpdHktY29uZmlnPgo=
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Block all cleartext (HTTP) traffic by default — enforce HTTPS everywhere. -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Explicitly allow HTTPS to the production domain. -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">ticklelist.org</domain>
+        <domain includeSubdomains="true">onsightmartin.com</domain>
+        <domain includeSubdomains="true">lovable.app</domain>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

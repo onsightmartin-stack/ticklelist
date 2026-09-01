@@ -1,1 +1,225 @@
-LyoqCiAqIFpvbmUgcXVlc3RzOiBldmVyeSBzY3JlZW4gb2YgdGhlIEJhc2UgQ2FtcCByaW5nIHdvcmxkIGhpZGVzIGEgaGFuZGZ1bCBvZgogKiBjb2xsZWN0aWJsZSB0b2tlbnMuIFdhbGsgeW91ciBjbGltYmVyIG92ZXIgb25lIGFuZCBpdCBpcyBwaWNrZWQgdXA7IGdhdGhlcgogKiB0aGVtIGFsbCBhbmQgdGhlIHpvbmUncyBxdWVzdCBpcyBjb21wbGV0ZS4gUHJvZ3Jlc3MgaXMgcHVyZWx5IGxvY2FsIChzYXZlZAogKiBpbiBsb2NhbFN0b3JhZ2UpIOKAlCBpdCdzIGEgYml0IG9mIGZ1biwgbm90IGEgbGVhZGVyYm9hcmQuCiAqLwoKaW1wb3J0IHR5cGUgeyBDYW1wWm9uZUlkIH0gZnJvbSAiQC9saWIvY2FtcC16b25lcyI7CmltcG9ydCB7IGNhbXBTdXJmYWNlWSB9IGZyb20gIkAvbGliL2NhbXAtdGVycmFpbiI7CgpleHBvcnQgaW50ZXJmYWNlIFF1ZXN0VG9rZW4gewogIGlkOiBzdHJpbmc7CiAgLyoqIFdvcmxkLXNwYWNlIHBvc2l0aW9uIG9mIHRoZSB0b2tlbi4gKi8KICB4OiBudW1iZXI7CiAgeTogbnVtYmVyOwogIC8qKiBFbW9qaSBkcmF3biBvbiB0aGUgZ3JvdW5kLiAqLwogIGljb246IHN0cmluZzsKICAvKiogU2hvcnQgbGFiZWwgc2hvd24gd2hlbiBwaWNrZWQgdXAuICovCiAgbmFtZTogc3RyaW5nOwogIC8qKiBUb2tlbiBpZHMgdGhhdCBtdXN0IGJlIGNvbGxlY3RlZCBmaXJzdCDigJQgbG9ja2VkIHVudGlsIHRoZW4uICovCiAgcmVxdWlyZXM/OiBzdHJpbmdbXTsKICAvKiogU2hvd24gd2hlbiB5b3Ugc3RhbmQgb24gYSBsb2NrZWQgdG9rZW4uICovCiAgbG9ja2VkSGludD86IHN0cmluZzsKfQoKZXhwb3J0IGludGVyZmFjZSBab25lUXVlc3QgewogIGlkOiBzdHJpbmc7CiAgem9uZTogQ2FtcFpvbmVJZDsKICB0aXRsZTogc3RyaW5nOwogIGJyaWVmOiBzdHJpbmc7CiAgLyoqIExpbmUgc2hvd24gb25jZSBldmVyeSB0b2tlbiBpcyBjb2xsZWN0ZWQuICovCiAgcmV3YXJkOiBzdHJpbmc7CiAgLyoqIERlYXRoIFpvbmU6IG5vdGhpbmcgY2FuIGJlIGNvbGxlY3RlZCBiZWZvcmUgdGhlIG94eWdlbiBib3R0bGUgaXMgb3Blbi4gKi8KICByZXF1aXJlc094eWdlbj86IGJvb2xlYW47CiAgdG9rZW5zOiBRdWVzdFRva2VuW107Cn0KCi8qKiBTdW1taXQgeSBmb3IgYSB3b3JsZCB4LCBudWRnZWQgc28gdGhlIHRva2VuIHNpdHMgb24gdGhlIGNyZXN0LiAqLwpjb25zdCBzdW1taXRZID0gKHg6IG51bWJlcikgPT4gY2FtcFN1cmZhY2VZKHgpIC0gNDsKCgoKZXhwb3J0IGNvbnN0IHpvbmVRdWVzdHM6IFpvbmVRdWVzdFtdID0gWwogIHsKICAgIGlkOiAidmFsbGV5LWZpcmV3b29kIiwKICAgIHpvbmU6ICJ2YWxsZXkiLAogICAgdGl0bGU6ICJGaXJlIER1dHkiLAogICAgYnJpZWY6ICJDb2xsZWN0IDQgYnVuZGxlcyBvZiBmaXJld29vZCBzbyB0aGUgY2FtcCBmaXJlIGJ1cm5zIGFsbCBuaWdodC4iLAogICAgcmV3YXJkOiAiVGhlIGNhbXBmaXJlIHJvYXJzIOKAlCB0aGUgYWxwYWNhcyBhcHByb3ZlLiDwn5SlIiwKICAgIHRva2VuczogWwogICAgICB7IGlkOiAid29vZC0xIiwgeDogMzIwLCB5OiA3OTIsIGljb246ICLwn6q1IiwgbmFtZTogIkRyeSBiaXJjaCIgfSwKICAgICAgeyBpZDogIndvb2QtMiIsIHg6IDY5MCwgeTogODM4LCBpY29uOiAi8J+qtSIsIG5hbWU6ICJTcGxpdCBwaW5lIiB9LAogICAgICB7IGlkOiAid29vZC0zIiwgeDogMTE4MCwgeTogNzgwLCBpY29uOiAi8J+qtSIsIG5hbWU6ICJTdG9ybS1mYWxsZW4gc3BydWNlIiB9LAogICAgICB7IGlkOiAid29vZC00IiwgeDogMTUyMCwgeTogODQ2LCBpY29uOiAi8J+UpSIsIG5hbWU6ICJUaW5kZXIgYnVuZGxlIiB9LAogICAgXSwKICB9LAogIHsKICAgIGlkOiAiZ2xhY2llci1pY2UtY29yZXMiLAogICAgem9uZTogImdsYWNpZXIiLAogICAgdGl0bGU6ICJJY2UgQ29yZXMiLAogICAgYnJpZWY6ICJEcmlsbCA0IGljZSBjb3JlcyBmcm9tIHRoZSBiYXNpbiB3aXRob3V0IGZhbGxpbmcgaW50byBhIGNyZXZhc3NlLiIsCiAgICByZXdhcmQ6ICJUaGUgY29yZXMgYXJlIGxvZ2dlZCDigJQgNDAwIHllYXJzIG9mIHNub3dmYWxsIGluIGEgdHViZS4g8J+nqiIsCiAgICB0b2tlbnM6IFsKICAgICAgeyBpZDogImNvcmUtMSIsIHg6IDMwMCwgeTogODAwLCBpY29uOiAi8J+niiIsIG5hbWU6ICJCbHVlIGljZSBjb3JlIiB9LAogICAgICB7IGlkOiAiY29yZS0yIiwgeDogNzQwLCB5OiA3NzAsIGljb246ICLwn6etIiwgbmFtZTogIkxvc3QgY29tcGFzcyIgfSwKICAgICAgeyBpZDogImNvcmUtMyIsIHg6IDExMzAsIHk6IDg0MiwgaWNvbjogIvCfp4oiLCBuYW1lOiAiU2VyYWMgc2hhcmQiIH0sCiAgICAgIHsgaWQ6ICJjb3JlLTQiLCB4OiAxNTYwLCB5OiA3OTYsIGljb246ICLwn6q2IiwgbmFtZTogIlBldHJlbCBmZWF0aGVyIiB9LAogICAgXSwKICB9LAogIHsKICAgIGlkOiAiZGVzZXJ0LXdhdGVyIiwKICAgIHpvbmU6ICJkZXNlcnQiLAogICAgdGl0bGU6ICJXYXRlciBSdW4iLAogICAgYnJpZWY6ICJGaWxsIDQgY2FudGVlbnMgYXQgdGhlIG9hc2lzIGJlZm9yZSB0aGUgc3VuIGdldHMgaGlnaC4iLAogICAgcmV3YXJkOiAiQ2FudGVlbnMgZnVsbCDigJQgdGhlIGNhbWVscyBzdG9wIGdpdmluZyB5b3UgdGhhdCBsb29rLiDwn5CrIiwKICAgIHRva2VuczogWwogICAgICB7IGlkOiAid2F0ZXItMSIsIHg6IDM2MCwgeTogODEyLCBpY29uOiAi8J+rlyIsIG5hbWU6ICJPYXNpcyBjYW50ZWVuIiB9LAogICAgICB7IGlkOiAid2F0ZXItMiIsIHg6IDc4MCwgeTogODUwLCBpY29uOiAi8J+MtCIsIG5hbWU6ICJEYXRlIGJ1bmRsZSIgfSwKICAgICAgeyBpZDogIndhdGVyLTMiLCB4OiAxMjEwLCB5OiA3ODYsIGljb246ICLwn4+6IiwgbmFtZTogIkJ1cmllZCBhbXBob3JhIiB9LAogICAgICB7IGlkOiAid2F0ZXItNCIsIHg6IDE1ODAsIHk6IDgzOCwgaWNvbjogIvCfpoIiLCBuYW1lOiAiU2NvcnBpb24gY2hhcm0iIH0sCiAgICBdLAogIH0sCiAgewogICAgaWQ6ICJtdXNocm9vbS1zcG9yZXMiLAogICAgem9uZTogIm11c2hyb29tIiwKICAgIHRpdGxlOiAiU3BvcmUgSHVudCIsCiAgICBicmllZjogIkdhdGhlciA1IGdsb3dpbmcgc3BvcmUgY2FwcyBmb3IgdGhlIGhvbGxvdydzIGxhbnRlcm4ga2VlcGVyLiIsCiAgICByZXdhcmQ6ICJUaGUgd2hvbGUgZ3JvdmUgcHVsc2VzIHZpb2xldCBpbiB0aGFua3MuIOKcqPCfjYQiLAogICAgdG9rZW5zOiBbCiAgICAgIHsgaWQ6ICJzcG9yZS0xIiwgeDogMjgwLCB5OiA4MDYsIGljb246ICLwn42EIiwgbmFtZTogIkdsb3djYXAiIH0sCiAgICAgIHsgaWQ6ICJzcG9yZS0yIiwgeDogNjIwLCB5OiA4NDYsIGljb246ICLwn42E4oCN8J+fqyIsIG5hbWU6ICJNb29uc2hyb29tIiB9LAogICAgICB7IGlkOiAic3BvcmUtMyIsIHg6IDk4MCwgeTogNzc2LCBpY29uOiAi4pyoIiwgbmFtZTogIkRyaWZ0aW5nIHNwb3JlIiB9LAogICAgICB7IGlkOiAic3BvcmUtNCIsIHg6IDEzMzAsIHk6IDg0MCwgaWNvbjogIvCfp5oiLCBuYW1lOiAiU3BvcmVsaW5nIGZyaWVuZCIgfSwKICAgICAgeyBpZDogInNwb3JlLTUiLCB4OiAxNjEwLCB5OiA4MDAsIGljb246ICLwn5SuIiwgbmFtZTogIkZhaXJ5LXJpbmcgc3RvbmUiIH0sCiAgICBdLAogIH0sCiAgewogICAgaWQ6ICJjb2xkLWRlc2VydC1zdXJ2ZXkiLAogICAgem9uZTogImNvbGREZXNlcnQiLAogICAgdGl0bGU6ICJUb3dlciBTdXJ2ZXkiLAogICAgYnJpZWY6ICJMb2cgNCBtYXJrZXJzIGFtb25nIHRoZSBncmV5IHRvd2VycyBiZWZvcmUgdGhlIHdpbmQgcGlja3MgdXAuIiwKICAgIHJld2FyZDogIlRoZSBzdXJ2ZXkgaXMgZmlsZWQg4oCUIGV2ZXJ5IHNwaXJlIGhhcyBhIG5hbWUgbm93LiDwn6qoIiwKICAgIHRva2VuczogWwogICAgICB7IGlkOiAiZ3JleS0xIiwgeDogMzMwLCB5OiA3OTgsIGljb246ICLwn6eXIiwgbmFtZTogIk9sZCBwaXRvbiIgfSwKICAgICAgeyBpZDogImdyZXktMiIsIHg6IDcwMCwgeTogODQ0LCBpY29uOiAi8J+qqCIsIG5hbWU6ICJGcm9zdC1zcGxpdCBib3VsZGVyIiB9LAogICAgICB7IGlkOiAiZ3JleS0zIiwgeDogMTE1MCwgeTogNzgyLCBpY29uOiAi8J+TkCIsIG5hbWU6ICJTdXJ2ZXkgbWFya2VyIiB9LAogICAgICB7IGlkOiAiZ3JleS00IiwgeDogMTU3MCwgeTogODM2LCBpY29uOiAi8J+npCIsIG5hbWU6ICJMb3N0IGdsb3ZlIiB9LAogICAgXSwKICB9LAogIHsKICAgIGlkOiAidm9sY2Fuby1zYW1wbGVzIiwKICAgIHpvbmU6ICJ2b2xjYW5vIiwKICAgIHRpdGxlOiAiSG90IFdvcmsiLAogICAgYnJpZWY6ICJHcmFiIDQgc2FtcGxlcyBvZmYgdGhlIGFzaCBwbGFpbiB3aXRob3V0IGNvb2tpbmcgeW91ciBib290cy4iLAogICAgcmV3YXJkOiAiU2FtcGxlcyBiYWdnZWQg4oCUIHRoZSBjYWxkZXJhIGtlZXBzIGl0cyB0ZW1wZXIuIPCfjIsiLAogICAgdG9rZW5zOiBbCiAgICAgIHsgaWQ6ICJsYXZhLTEiLCB4OiAzMDAsIHk6IDgwNiwgaWNvbjogIvCfqqgiLCBuYW1lOiAiVm9sY2FuaWMgYm9tYiIgfSwKICAgICAgeyBpZDogImxhdmEtMiIsIHg6IDY5MCwgeTogODUwLCBpY29uOiAi8J+nryIsIG5hbWU6ICJTY29yY2hlZCBraXQgYmFnIiB9LAogICAgICB7IGlkOiAibGF2YS0zIiwgeDogMTEyMCwgeTogNzgwLCBpY29uOiAi8J+MiyIsIG5hbWU6ICJGcmVzaCBvYnNpZGlhbiIgfSwKICAgICAgeyBpZDogImxhdmEtNCIsIHg6IDE1NDAsIHk6IDg0MiwgaWNvbjogIvCfjKHvuI8iLCBuYW1lOiAiVmVudCB0aGVybW9tZXRlciIgfSwKICAgIF0sCiAgfSwKICB7CiAgICBpZDogImlzbGFuZC1iZWFjaGNvbWIiLAogICAgem9uZTogImlzbGFuZCIsCiAgICB0aXRsZTogIkJlYWNoY29tYmluZyIsCiAgICBicmllZjogIkNvbWIgdGhlIGNheSBmb3IgNSB0aGluZ3MgdGhlIHRpZGUgbGVmdCBiZWhpbmQuIiwKICAgIHJld2FyZDogIlRoZSBjcmFicyBsZXQgeW91IGtlZXAgZXZlcnkgbGFzdCBvbmUuIPCfj53vuI8iLAogICAgdG9rZW5zOiBbCiAgICAgIHsgaWQ6ICJjYXktMSIsIHg6IDI5MCwgeTogODEyLCBpY29uOiAi8J+QmiIsIG5hbWU6ICJDb25jaCBzaGVsbCIgfSwKICAgICAgeyBpZDogImNheS0yIiwgeDogNjQwLCB5OiA4NTIsIGljb246ICLwn6WlIiwgbmFtZTogIkZhbGxlbiBjb2NvbnV0IiB9LAogICAgICB7IGlkOiAiY2F5LTMiLCB4OiAxMDAwLCB5OiA3ODYsIGljb246ICLwn42+IiwgbmFtZTogIk1lc3NhZ2UgaW4gYSBib3R0bGUiIH0sCiAgICAgIHsgaWQ6ICJjYXktNCIsIHg6IDEzNjAsIHk6IDg0NiwgaWNvbjogIuKtkCIsIG5hbWU6ICJTdGFyZmlzaCIgfSwKICAgICAgeyBpZDogImNheS01IiwgeDogMTYyMCwgeTogODA0LCBpY29uOiAi8J+quCIsIG5hbWU6ICJDb3JhbCBmcmFnbWVudCIgfSwKICAgIF0sCiAgfSwKICB7CiAgICBpZDogImRlYXRoLXpvbmUtaGlsbGFyeS1jYW1lcmEiLAogICAgem9uZTogImRlYXRoWm9uZSIsCiAgICB0aXRsZTogIkZpeCB0aGUgUm9wZXMiLAogICAgYnJpZWY6CiAgICAgICJPbiBveHlnZW4gb25seTogcGljayB1cCBib3RoIHJvcGUgY29pbHMgb24gdGhlIGNvbCwgZml4IHRoZW0gdG8gdGhlIHRocmVlIHN1bW1pdCBhbmNob3JzLCB0aGVuIGZvbGxvdyB0aGUgZml4ZWQgbGluZSB0byB0aGUgbG9zdCBjYW1lcmEuIiwKICAgIHJld2FyZDogIlRoZSBjYW1lcmEgaXMgeW91cnMg4oCUIDE5NTMncyBsYXN0IGZyYW1lLCBzdGlsbCBpbiB0aGUgYmFycmVsLiDwn5O3IiwKICAgIHJlcXVpcmVzT3h5Z2VuOiB0cnVlLAogICAgdG9rZW5zOiBbCiAgICAgIHsgaWQ6ICJyb3BlLTEiLCB4OiA0NzAsIHk6IDgzNiwgaWNvbjogIvCfqqIiLCBuYW1lOiAiQ29pbCBvZiBmaXhlZCByb3BlIiB9LAogICAgICB7IGlkOiAicm9wZS0yIiwgeDogOTgwLCB5OiA4NDgsIGljb246ICLwn6e1IiwgbmFtZTogIlNwYXJlIDkgbW0gbGluZSIgfSwKICAgICAgewogICAgICAgIGlkOiAiYW5jaG9yLTEiLAogICAgICAgIHg6IDE2MCwKICAgICAgICB5OiBzdW1taXRZKDE2MCksCiAgICAgICAgaWNvbjogIuKakyIsCiAgICAgICAgbmFtZTogIlJvcGVzIGZpeGVkIOKAlCB3ZXN0IHN1bW1pdCIsCiAgICAgICAgcmVxdWlyZXM6IFsicm9wZS0xIiwgInJvcGUtMiJdLAogICAgICAgIGxvY2tlZEhpbnQ6ICJObyByb3BlLCBubyBhbmNob3IuIENvbGxlY3QgYm90aCBjb2lscyBkb3duIG9uIHRoZSBjb2wgZmlyc3QuIiwKICAgICAgfSwKICAgICAgewogICAgICAgIGlkOiAiYW5jaG9yLTIiLAogICAgICAgIHg6IDcyMCwKICAgICAgICB5OiBzdW1taXRZKDcyMCksCiAgICAgICAgaWNvbjogIuKakyIsCiAgICAgICAgbmFtZTogIlJvcGVzIGZpeGVkIOKAlCBjZW50cmUgc3VtbWl0IiwKICAgICAgICByZXF1aXJlczogWyJyb3BlLTEiLCAicm9wZS0yIl0sCiAgICAgICAgbG9ja2VkSGludDogIk5vIHJvcGUsIG5vIGFuY2hvci4gQ29sbGVjdCBib3RoIGNvaWxzIGRvd24gb24gdGhlIGNvbCBmaXJzdC4iLAogICAgICB9LAogICAgICB7CiAgICAgICAgaWQ6ICJhbmNob3ItMyIsCiAgICAgICAgeDogMTM0MCwKICAgICAgICB5OiBzdW1taXRZKDEzNDApLAogICAgICAgIGljb246ICLimpMiLAogICAgICAgIG5hbWU6ICJSb3BlcyBmaXhlZCDigJQgZWFzdCBzdW1taXQiLAogICAgICAgIHJlcXVpcmVzOiBbInJvcGUtMSIsICJyb3BlLTIiXSwKICAgICAgICBsb2NrZWRIaW50OiAiTm8gcm9wZSwgbm8gYW5jaG9yLiBDb2xsZWN0IGJvdGggY29pbHMgZG93biBvbiB0aGUgY29sIGZpcnN0LiIsCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBpZDogImhpbGxhcnktY2FtZXJhIiwKICAgICAgICB4OiAxNzIwLAogICAgICAgIHk6IHN1bW1pdFkoMTcyMCksCiAgICAgICAgaWNvbjogIvCfk7ciLAogICAgICAgIG5hbWU6ICJFZG11bmQgSGlsbGFyeSdzIGNhbWVyYSIsCiAgICAgICAgcmVxdWlyZXM6IFsiYW5jaG9yLTEiLCAiYW5jaG9yLTIiLCAiYW5jaG9yLTMiXSwKICAgICAgICBsb2NrZWRIaW50OiAiVW5yb3BlZCBncm91bmQuIEZpeCBhbGwgdGhyZWUgc3VtbWl0IGFuY2hvcnMgYmVmb3JlIHlvdSB0cmF2ZXJzZSBvdXQgaGVyZS4iLAogICAgICB9LAogICAgXSwKICB9LApdOwoKCgpleHBvcnQgY29uc3QgcXVlc3RGb3Jab25lID0gKHpvbmU6IENhbXBab25lSWQpID0+IHpvbmVRdWVzdHMuZmluZCgocSkgPT4gcS56b25lID09PSB6b25lKTsKCmV4cG9ydCBjb25zdCBRVUVTVF9TVE9SQUdFX0tFWSA9ICJ0aWNrbGVsaXN0LWJhc2VjYW1wLXF1ZXN0cyI7CgovKiogSG93IGNsb3NlIChpbiB3b3JsZCBweCkgdGhlIGNsaW1iZXIgbXVzdCBiZSB0byBwaWNrIGEgdG9rZW4gdXAuICovCmV4cG9ydCBjb25zdCBQSUNLVVBfUkFESVVTID0gNzg7CgpleHBvcnQgY29uc3QgbG9hZFF1ZXN0UHJvZ3Jlc3MgPSAoKTogUmVjb3JkPHN0cmluZywgc3RyaW5nW10+ID0+IHsKICB0cnkgewogICAgY29uc3QgcmF3ID0gd2luZG93LmxvY2FsU3RvcmFnZS5nZXRJdGVtKFFVRVNUX1NUT1JBR0VfS0VZKTsKICAgIGlmICghcmF3KSByZXR1cm4ge307CiAgICBjb25zdCBwYXJzZWQgPSBKU09OLnBhcnNlKHJhdykgYXMgUmVjb3JkPHN0cmluZywgc3RyaW5nW10+OwogICAgcmV0dXJuIHBhcnNlZCAmJiB0eXBlb2YgcGFyc2VkID09PSAib2JqZWN0IiA/IHBhcnNlZCA6IHt9OwogIH0gY2F0Y2ggewogICAgcmV0dXJuIHt9OwogIH0KfTsKCmV4cG9ydCBjb25zdCBzYXZlUXVlc3RQcm9ncmVzcyA9IChwcm9ncmVzczogUmVjb3JkPHN0cmluZywgc3RyaW5nW10+KSA9PiB7CiAgdHJ5IHsKICAgIHdpbmRvdy5sb2NhbFN0b3JhZ2Uuc2V0SXRlbShRVUVTVF9TVE9SQUdFX0tFWSwgSlNPTi5zdHJpbmdpZnkocHJvZ3Jlc3MpKTsKICB9IGNhdGNoIHsKICAgIC8qIGlnbm9yZSBmdWxsIHN0b3JhZ2UgKi8KICB9Cn07CgovKiogQSB0b2tlbiBjYW4gb25seSBiZSBwaWNrZWQgdXAgb25jZSBpdHMgcHJlcmVxdWlzaXRlcyAoYW5kIG94eWdlbikgYXJlIG1ldC4gKi8KZXhwb3J0IGNvbnN0IHRva2VuVW5sb2NrZWQgPSAoCiAgcXVlc3Q6IFpvbmVRdWVzdCwKICB0b2tlbjogUXVlc3RUb2tlbiwKICBjb2xsZWN0ZWQ6IHN0cmluZ1tdLAogIGhhc094eWdlbjogYm9vbGVhbiwKKSA9PiB7CiAgaWYgKHF1ZXN0LnJlcXVpcmVzT3h5Z2VuICYmICFoYXNPeHlnZW4pIHJldHVybiBmYWxzZTsKICByZXR1cm4gKHRva2VuLnJlcXVpcmVzID8/IFtdKS5ldmVyeSgoaWQpID0+IGNvbGxlY3RlZC5pbmNsdWRlcyhpZCkpOwp9Owo=
+/**
+ * Zone quests: every screen of the Base Camp ring world hides a handful of
+ * collectible tokens. Walk your climber over one and it is picked up; gather
+ * them all and the zone's quest is complete. Progress is purely local (saved
+ * in localStorage) — it's a bit of fun, not a leaderboard.
+ */
+
+import type { CampZoneId } from "@/lib/camp-zones";
+import { campSurfaceY } from "@/lib/camp-terrain";
+
+export interface QuestToken {
+  id: string;
+  /** World-space position of the token. */
+  x: number;
+  y: number;
+  /** Emoji drawn on the ground. */
+  icon: string;
+  /** Short label shown when picked up. */
+  name: string;
+  /** Token ids that must be collected first — locked until then. */
+  requires?: string[];
+  /** Shown when you stand on a locked token. */
+  lockedHint?: string;
+}
+
+export interface ZoneQuest {
+  id: string;
+  zone: CampZoneId;
+  title: string;
+  brief: string;
+  /** Line shown once every token is collected. */
+  reward: string;
+  /** Death Zone: nothing can be collected before the oxygen bottle is open. */
+  requiresOxygen?: boolean;
+  tokens: QuestToken[];
+}
+
+/** Summit y for a world x, nudged so the token sits on the crest. */
+const summitY = (x: number) => campSurfaceY(x) - 4;
+
+
+
+export const zoneQuests: ZoneQuest[] = [
+  {
+    id: "valley-firewood",
+    zone: "valley",
+    title: "Fire Duty",
+    brief: "Collect 4 bundles of firewood so the camp fire burns all night.",
+    reward: "The campfire roars — the alpacas approve. 🔥",
+    tokens: [
+      { id: "wood-1", x: 320, y: 792, icon: "🪵", name: "Dry birch" },
+      { id: "wood-2", x: 690, y: 838, icon: "🪵", name: "Split pine" },
+      { id: "wood-3", x: 1180, y: 780, icon: "🪵", name: "Storm-fallen spruce" },
+      { id: "wood-4", x: 1520, y: 846, icon: "🔥", name: "Tinder bundle" },
+    ],
+  },
+  {
+    id: "glacier-ice-cores",
+    zone: "glacier",
+    title: "Ice Cores",
+    brief: "Drill 4 ice cores from the basin without falling into a crevasse.",
+    reward: "The cores are logged — 400 years of snowfall in a tube. 🧪",
+    tokens: [
+      { id: "core-1", x: 300, y: 800, icon: "🧊", name: "Blue ice core" },
+      { id: "core-2", x: 740, y: 770, icon: "🧭", name: "Lost compass" },
+      { id: "core-3", x: 1130, y: 842, icon: "🧊", name: "Serac shard" },
+      { id: "core-4", x: 1560, y: 796, icon: "🪶", name: "Petrel feather" },
+    ],
+  },
+  {
+    id: "desert-water",
+    zone: "desert",
+    title: "Water Run",
+    brief: "Fill 4 canteens at the oasis before the sun gets high.",
+    reward: "Canteens full — the camels stop giving you that look. 🐫",
+    tokens: [
+      { id: "water-1", x: 360, y: 812, icon: "🫗", name: "Oasis canteen" },
+      { id: "water-2", x: 780, y: 850, icon: "🌴", name: "Date bundle" },
+      { id: "water-3", x: 1210, y: 786, icon: "🏺", name: "Buried amphora" },
+      { id: "water-4", x: 1580, y: 838, icon: "🦂", name: "Scorpion charm" },
+    ],
+  },
+  {
+    id: "mushroom-spores",
+    zone: "mushroom",
+    title: "Spore Hunt",
+    brief: "Gather 5 glowing spore caps for the hollow's lantern keeper.",
+    reward: "The whole grove pulses violet in thanks. ✨🍄",
+    tokens: [
+      { id: "spore-1", x: 280, y: 806, icon: "🍄", name: "Glowcap" },
+      { id: "spore-2", x: 620, y: 846, icon: "🍄‍🟫", name: "Moonshroom" },
+      { id: "spore-3", x: 980, y: 776, icon: "✨", name: "Drifting spore" },
+      { id: "spore-4", x: 1330, y: 840, icon: "🧚", name: "Sporeling friend" },
+      { id: "spore-5", x: 1610, y: 800, icon: "🔮", name: "Fairy-ring stone" },
+    ],
+  },
+  {
+    id: "cold-desert-survey",
+    zone: "coldDesert",
+    title: "Tower Survey",
+    brief: "Log 4 markers among the grey towers before the wind picks up.",
+    reward: "The survey is filed — every spire has a name now. 🪨",
+    tokens: [
+      { id: "grey-1", x: 330, y: 798, icon: "🧗", name: "Old piton" },
+      { id: "grey-2", x: 700, y: 844, icon: "🪨", name: "Frost-split boulder" },
+      { id: "grey-3", x: 1150, y: 782, icon: "📐", name: "Survey marker" },
+      { id: "grey-4", x: 1570, y: 836, icon: "🧤", name: "Lost glove" },
+    ],
+  },
+  {
+    id: "volcano-samples",
+    zone: "volcano",
+    title: "Hot Work",
+    brief: "Grab 4 samples off the ash plain without cooking your boots.",
+    reward: "Samples bagged — the caldera keeps its temper. 🌋",
+    tokens: [
+      { id: "lava-1", x: 300, y: 806, icon: "🪨", name: "Volcanic bomb" },
+      { id: "lava-2", x: 690, y: 850, icon: "🧯", name: "Scorched kit bag" },
+      { id: "lava-3", x: 1120, y: 780, icon: "🌋", name: "Fresh obsidian" },
+      { id: "lava-4", x: 1540, y: 842, icon: "🌡️", name: "Vent thermometer" },
+    ],
+  },
+  {
+    id: "island-beachcomb",
+    zone: "island",
+    title: "Beachcombing",
+    brief: "Comb the cay for 5 things the tide left behind.",
+    reward: "The crabs let you keep every last one. 🏝️",
+    tokens: [
+      { id: "cay-1", x: 290, y: 812, icon: "🐚", name: "Conch shell" },
+      { id: "cay-2", x: 640, y: 852, icon: "🥥", name: "Fallen coconut" },
+      { id: "cay-3", x: 1000, y: 786, icon: "🍾", name: "Message in a bottle" },
+      { id: "cay-4", x: 1360, y: 846, icon: "⭐", name: "Starfish" },
+      { id: "cay-5", x: 1620, y: 804, icon: "🪸", name: "Coral fragment" },
+    ],
+  },
+  {
+    id: "death-zone-hillary-camera",
+    zone: "deathZone",
+    title: "Fix the Ropes",
+    brief:
+      "On oxygen only: pick up both rope coils on the col, fix them to the three summit anchors, then follow the fixed line to the lost camera.",
+    reward: "The camera is yours — 1953's last frame, still in the barrel. 📷",
+    requiresOxygen: true,
+    tokens: [
+      { id: "rope-1", x: 470, y: 836, icon: "🪢", name: "Coil of fixed rope" },
+      { id: "rope-2", x: 980, y: 848, icon: "🧵", name: "Spare 9 mm line" },
+      {
+        id: "anchor-1",
+        x: 160,
+        y: summitY(160),
+        icon: "⚓",
+        name: "Ropes fixed — west summit",
+        requires: ["rope-1", "rope-2"],
+        lockedHint: "No rope, no anchor. Collect both coils down on the col first.",
+      },
+      {
+        id: "anchor-2",
+        x: 720,
+        y: summitY(720),
+        icon: "⚓",
+        name: "Ropes fixed — centre summit",
+        requires: ["rope-1", "rope-2"],
+        lockedHint: "No rope, no anchor. Collect both coils down on the col first.",
+      },
+      {
+        id: "anchor-3",
+        x: 1340,
+        y: summitY(1340),
+        icon: "⚓",
+        name: "Ropes fixed — east summit",
+        requires: ["rope-1", "rope-2"],
+        lockedHint: "No rope, no anchor. Collect both coils down on the col first.",
+      },
+      {
+        id: "hillary-camera",
+        x: 1720,
+        y: summitY(1720),
+        icon: "📷",
+        name: "Edmund Hillary's camera",
+        requires: ["anchor-1", "anchor-2", "anchor-3"],
+        lockedHint: "Unroped ground. Fix all three summit anchors before you traverse out here.",
+      },
+    ],
+  },
+];
+
+
+
+export const questForZone = (zone: CampZoneId) => zoneQuests.find((q) => q.zone === zone);
+
+export const QUEST_STORAGE_KEY = "ticklelist-basecamp-quests";
+
+/** How close (in world px) the climber must be to pick a token up. */
+export const PICKUP_RADIUS = 78;
+
+export const loadQuestProgress = (): Record<string, string[]> => {
+  try {
+    const raw = window.localStorage.getItem(QUEST_STORAGE_KEY);
+    if (!raw) return {};
+    const parsed = JSON.parse(raw) as Record<string, string[]>;
+    return parsed && typeof parsed === "object" ? parsed : {};
+  } catch {
+    return {};
+  }
+};
+
+export const saveQuestProgress = (progress: Record<string, string[]>) => {
+  try {
+    window.localStorage.setItem(QUEST_STORAGE_KEY, JSON.stringify(progress));
+  } catch {
+    /* ignore full storage */
+  }
+};
+
+/** A token can only be picked up once its prerequisites (and oxygen) are met. */
+export const tokenUnlocked = (
+  quest: ZoneQuest,
+  token: QuestToken,
+  collected: string[],
+  hasOxygen: boolean,
+) => {
+  if (quest.requiresOxygen && !hasOxygen) return false;
+  return (token.requires ?? []).every((id) => collected.includes(id));
+};

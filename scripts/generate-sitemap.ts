@@ -1,1 +1,75 @@
-Ly8gUnVucyBiZWZvcmUgYHZpdGUgZGV2YCBhbmQgYHZpdGUgYnVpbGRgIChwcmVkZXYvcHJlYnVpbGQgaG9va3MpOyB3cml0ZXMgcHVibGljL3NpdGVtYXAueG1sLgoKaW1wb3J0IHsgd3JpdGVGaWxlU3luYyB9IGZyb20gImZzIjsKaW1wb3J0IHsgcmVzb2x2ZSB9IGZyb20gInBhdGgiOwppbXBvcnQgeyBjb3VudHJpZXMgfSBmcm9tICIuLi9zcmMvZGF0YS9jb3VudHJpZXMiOwppbXBvcnQgeyBndWlkZXMgfSBmcm9tICIuLi9zcmMvZGF0YS9ndWlkZXMiOwppbXBvcnQgeyBjb250aW5lbnRIdWJzIH0gZnJvbSAiLi4vc3JjL2xpYi9oaWdoZXN0LW1vdW50YWlucyI7CmltcG9ydCB7IHNsdWdpZnkgfSBmcm9tICIuLi9zcmMvbGliL3NsdWciOwoKCmNvbnN0IEJBU0VfVVJMID0gImh0dHBzOi8vb25zaWdodG1hcnRpbi5jb20iOwoKaW50ZXJmYWNlIFNpdGVtYXBFbnRyeSB7CiAgcGF0aDogc3RyaW5nOwogIGxhc3Rtb2Q/OiBzdHJpbmc7CiAgY2hhbmdlZnJlcT86ICJhbHdheXMiIHwgImhvdXJseSIgfCAiZGFpbHkiIHwgIndlZWtseSIgfCAibW9udGhseSIgfCAieWVhcmx5IiB8ICJuZXZlciI7CiAgcHJpb3JpdHk/OiBzdHJpbmc7Cn0KCmNvbnN0IGVudHJpZXM6IFNpdGVtYXBFbnRyeVtdID0gWwogIHsgcGF0aDogIi8iLCBjaGFuZ2VmcmVxOiAid2Vla2x5IiwgcHJpb3JpdHk6ICIxLjAiIH0sCiAgeyBwYXRoOiAiL2ZlYXR1cmVkIiwgY2hhbmdlZnJlcTogIm1vbnRobHkiLCBwcmlvcml0eTogIjAuOCIgfSwKICB7IHBhdGg6ICIvZ3VpZGVzIiwgY2hhbmdlZnJlcTogIndlZWtseSIsIHByaW9yaXR5OiAiMC45IiB9LAogIC4uLmd1aWRlcy5tYXAoKGcpID0+ICh7CiAgICBwYXRoOiBgL2d1aWRlcy8ke2cuc2x1Z31gLAogICAgY2hhbmdlZnJlcTogIndlZWtseSIgYXMgY29uc3QsCiAgICBwcmlvcml0eTogIjAuOSIsCiAgfSkpLAogIHsgcGF0aDogIi9vdGhlci1wZWFrcyIsIGNoYW5nZWZyZXE6ICJtb250aGx5IiwgcHJpb3JpdHk6ICIwLjciIH0sCiAgeyBwYXRoOiAiL2hpZ2hlc3QtbW91bnRhaW5zIiwgY2hhbmdlZnJlcTogIndlZWtseSIsIHByaW9yaXR5OiAiMC45NSIgfSwKICAuLi5jb250aW5lbnRIdWJzLm1hcCgoYykgPT4gKHsKICAgIHBhdGg6IGAvaGlnaGVzdC1tb3VudGFpbnMvJHtjLnNsdWd9YCwKICAgIGNoYW5nZWZyZXE6ICJ3ZWVrbHkiIGFzIGNvbnN0LAogICAgcHJpb3JpdHk6ICIwLjg1IiwKICB9KSksCiAgeyBwYXRoOiAiL3N0YXJ0IiwgY2hhbmdlZnJlcTogIm1vbnRobHkiLCBwcmlvcml0eTogIjAuNiIgfSwKCiAgeyBwYXRoOiAiL2xhdGVzdCIsIGNoYW5nZWZyZXE6ICJ3ZWVrbHkiLCBwcmlvcml0eTogIjAuOCIgfSwKICB7IHBhdGg6ICIvdGVhbSIsIGNoYW5nZWZyZXE6ICJ5ZWFybHkiLCBwcmlvcml0eTogIjAuNSIgfSwKICB7IHBhdGg6ICIvd2hlcmUiLCBjaGFuZ2VmcmVxOiAiZGFpbHkiLCBwcmlvcml0eTogIjAuNiIgfSwKICB7IHBhdGg6ICIvY29tbXVuaXR5IiwgY2hhbmdlZnJlcTogImRhaWx5IiwgcHJpb3JpdHk6ICIwLjciIH0sCiAgeyBwYXRoOiAiL3N1cHBvcnQiLCBjaGFuZ2VmcmVxOiAibW9udGhseSIsIHByaW9yaXR5OiAiMC41IiB9LAogIHsgcGF0aDogIi9wcml2YWN5IiwgY2hhbmdlZnJlcTogInllYXJseSIsIHByaW9yaXR5OiAiMC4zIiB9LAoKICAuLi5jb3VudHJpZXMubWFwKChjKSA9PiAoewogICAgcGF0aDogYC9wZWFrLyR7c2x1Z2lmeShjLmNvdW50cnkpfWAsCiAgICBjaGFuZ2VmcmVxOiAibW9udGhseSIgYXMgY29uc3QsCiAgICBwcmlvcml0eTogYy5zdGF0dXMgPT09ICJjbGltYmVkIiB8fCBjLnN0YXR1cyA9PT0gImxlZ2FsX2hpZ2hfcG9pbnQiID8gIjAuOCIgOiAiMC42IiwKICB9KSksCl07CgpmdW5jdGlvbiBnZW5lcmF0ZVNpdGVtYXAoZW50cmllczogU2l0ZW1hcEVudHJ5W10pIHsKICBjb25zdCB1cmxzID0gZW50cmllcy5tYXAoKGUpID0+CiAgICBbCiAgICAgIGAgIDx1cmw+YCwKICAgICAgYCAgICA8bG9jPiR7QkFTRV9VUkx9JHtlLnBhdGh9PC9sb2M+YCwKICAgICAgZS5sYXN0bW9kID8gYCAgICA8bGFzdG1vZD4ke2UubGFzdG1vZH08L2xhc3Rtb2Q+YCA6IG51bGwsCiAgICAgIGUuY2hhbmdlZnJlcSA/IGAgICAgPGNoYW5nZWZyZXE+JHtlLmNoYW5nZWZyZXF9PC9jaGFuZ2VmcmVxPmAgOiBudWxsLAogICAgICBlLnByaW9yaXR5ID8gYCAgICA8cHJpb3JpdHk+JHtlLnByaW9yaXR5fTwvcHJpb3JpdHk+YCA6IG51bGwsCiAgICAgIGAgIDwvdXJsPmAsCiAgICBdCiAgICAgIC5maWx0ZXIoQm9vbGVhbikKICAgICAgLmpvaW4oIlxuIiksCiAgKTsKCiAgcmV0dXJuIFsKICAgIGA8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJVVEYtOCI/PmAsCiAgICBgPHVybHNldCB4bWxucz0iaHR0cDovL3d3dy5zaXRlbWFwcy5vcmcvc2NoZW1hcy9zaXRlbWFwLzAuOSI+YCwKICAgIC4uLnVybHMsCiAgICBgPC91cmxzZXQ+YCwKICBdLmpvaW4oIlxuIik7Cn0KCndyaXRlRmlsZVN5bmMocmVzb2x2ZSgicHVibGljL3NpdGVtYXAueG1sIiksIGdlbmVyYXRlU2l0ZW1hcChlbnRyaWVzKSk7CmNvbnNvbGUubG9nKGBzaXRlbWFwLnhtbCB3cml0dGVuICgke2VudHJpZXMubGVuZ3RofSBlbnRyaWVzKWApOwo=
+// Runs before `vite dev` and `vite build` (predev/prebuild hooks); writes public/sitemap.xml.
+
+import { writeFileSync } from "fs";
+import { resolve } from "path";
+import { countries } from "../src/data/countries";
+import { guides } from "../src/data/guides";
+import { continentHubs } from "../src/lib/highest-mountains";
+import { slugify } from "../src/lib/slug";
+
+
+const BASE_URL = "https://onsightmartin.com";
+
+interface SitemapEntry {
+  path: string;
+  lastmod?: string;
+  changefreq?: "always" | "hourly" | "daily" | "weekly" | "monthly" | "yearly" | "never";
+  priority?: string;
+}
+
+const entries: SitemapEntry[] = [
+  { path: "/", changefreq: "weekly", priority: "1.0" },
+  { path: "/featured", changefreq: "monthly", priority: "0.8" },
+  { path: "/guides", changefreq: "weekly", priority: "0.9" },
+  ...guides.map((g) => ({
+    path: `/guides/${g.slug}`,
+    changefreq: "weekly" as const,
+    priority: "0.9",
+  })),
+  { path: "/other-peaks", changefreq: "monthly", priority: "0.7" },
+  { path: "/highest-mountains", changefreq: "weekly", priority: "0.95" },
+  ...continentHubs.map((c) => ({
+    path: `/highest-mountains/${c.slug}`,
+    changefreq: "weekly" as const,
+    priority: "0.85",
+  })),
+  { path: "/start", changefreq: "monthly", priority: "0.6" },
+
+  { path: "/latest", changefreq: "weekly", priority: "0.8" },
+  { path: "/team", changefreq: "yearly", priority: "0.5" },
+  { path: "/where", changefreq: "daily", priority: "0.6" },
+  { path: "/community", changefreq: "daily", priority: "0.7" },
+  { path: "/support", changefreq: "monthly", priority: "0.5" },
+  { path: "/privacy", changefreq: "yearly", priority: "0.3" },
+
+  ...countries.map((c) => ({
+    path: `/peak/${slugify(c.country)}`,
+    changefreq: "monthly" as const,
+    priority: c.status === "climbed" || c.status === "legal_high_point" ? "0.8" : "0.6",
+  })),
+];
+
+function generateSitemap(entries: SitemapEntry[]) {
+  const urls = entries.map((e) =>
+    [
+      `  <url>`,
+      `    <loc>${BASE_URL}${e.path}</loc>`,
+      e.lastmod ? `    <lastmod>${e.lastmod}</lastmod>` : null,
+      e.changefreq ? `    <changefreq>${e.changefreq}</changefreq>` : null,
+      e.priority ? `    <priority>${e.priority}</priority>` : null,
+      `  </url>`,
+    ]
+      .filter(Boolean)
+      .join("\n"),
+  );
+
+  return [
+    `<?xml version="1.0" encoding="UTF-8"?>`,
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`,
+    ...urls,
+    `</urlset>`,
+  ].join("\n");
+}
+
+writeFileSync(resolve("public/sitemap.xml"), generateSitemap(entries));
+console.log(`sitemap.xml written (${entries.length} entries)`);

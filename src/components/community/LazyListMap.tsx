@@ -1,1 +1,28 @@
-aW1wb3J0IHsgU3VzcGVuc2UsIGxhenkgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IENsaWVudE9ubHkgfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtcm91dGVyIjsKaW1wb3J0IHR5cGUgeyBQZWFrTGlzdCB9IGZyb20gIkAvZGF0YS9wZWFrLWxpc3RzIjsKCi8qKgogKiBMZWFmbGV0IHJlYWRzIGB3aW5kb3dgIG9uIGltcG9ydCwgd2hpY2ggY3Jhc2hlZCB0aGUgc2VydmVyIHJlbmRlciBvZiB0aGUKICogY2hhbGxlbmdlIGxpc3RzIHBhZ2UuIEtlZXAgaXQgY2xpZW50LW9ubHkgYW5kIGxhemlseSBsb2FkZWQuCiAqLwpjb25zdCBMaXN0TWFwID0gbGF6eSgoKSA9PiBpbXBvcnQoIkAvY29tcG9uZW50cy9jb21tdW5pdHkvTGlzdE1hcCIpKTsKCmNvbnN0IE1hcEZhbGxiYWNrID0gKCkgPT4gKAogIDxkaXYgY2xhc3NOYW1lPSJoLVszODBweF0gdy1mdWxsIGFuaW1hdGUtcHVsc2Ugcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1tdXRlZC80MCIgLz4KKTsKCmludGVyZmFjZSBQcm9wcyB7CiAgbGlzdDogUGVha0xpc3Q7CiAgY2xpbWJlZEtleXM6IFNldDxzdHJpbmc+Owp9Cgpjb25zdCBMYXp5TGlzdE1hcCA9IChwcm9wczogUHJvcHMpID0+ICgKICA8Q2xpZW50T25seSBmYWxsYmFjaz17PE1hcEZhbGxiYWNrIC8+fT4KICAgIDxTdXNwZW5zZSBmYWxsYmFjaz17PE1hcEZhbGxiYWNrIC8+fT4KICAgICAgPExpc3RNYXAgey4uLnByb3BzfSAvPgogICAgPC9TdXNwZW5zZT4KICA8L0NsaWVudE9ubHk+Cik7CgpleHBvcnQgZGVmYXVsdCBMYXp5TGlzdE1hcDsK
+import { Suspense, lazy } from "react";
+import { ClientOnly } from "@tanstack/react-router";
+import type { PeakList } from "@/data/peak-lists";
+
+/**
+ * Leaflet reads `window` on import, which crashed the server render of the
+ * challenge lists page. Keep it client-only and lazily loaded.
+ */
+const ListMap = lazy(() => import("@/components/community/ListMap"));
+
+const MapFallback = () => (
+  <div className="h-[380px] w-full animate-pulse rounded-lg border border-border bg-muted/40" />
+);
+
+interface Props {
+  list: PeakList;
+  climbedKeys: Set<string>;
+}
+
+const LazyListMap = (props: Props) => (
+  <ClientOnly fallback={<MapFallback />}>
+    <Suspense fallback={<MapFallback />}>
+      <ListMap {...props} />
+    </Suspense>
+  </ClientOnly>
+);
+
+export default LazyListMap;

@@ -1,1 +1,53 @@
-aW1wb3J0IHsgY3JlYXRlU2VydmVyRm4gfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtc3RhcnQiOwppbXBvcnQgeyByZXF1aXJlU3VwYWJhc2VBdXRoIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvYXV0aC1taWRkbGV3YXJlIjsKCi8qKiBBZG1pbi1vbmx5OiBQZWFrYmFnZ2VyIGltcG9ydCBydW5zICsgdGhlaXIgZXZlbnRzIChSTFMgYWxzbyBlbmZvcmNlcyBhZG1pbikuICovCmV4cG9ydCBjb25zdCBwZWFrYmFnZ2VySW1wb3J0U3RhdHVzID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJHRVQiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5oYW5kbGVyKGFzeW5jICh7IGNvbnRleHQgfSkgPT4gewogICAgY29uc3QgeyBkYXRhOiBydW5zLCBlcnJvciB9ID0gYXdhaXQgY29udGV4dC5zdXBhYmFzZQogICAgICAuZnJvbSgicGVha2JhZ2dlcl9pbXBvcnRfcnVucyIpCiAgICAgIC5zZWxlY3QoCiAgICAgICAgImlkLCBzdGF0dXMsIGxpc3RzX3RvdGFsLCBsaXN0c19kb25lLCBsaXN0c19ibG9ja2VkLCBwZWFrc19jYXB0dXJlZCwgYmF0Y2hlc190b3RhbCwgYmF0Y2hlc19hcHBsaWVkLCByb3dzX3Vwc2VydGVkLCBsYXN0X2Vycm9yLCBzdGFydGVkX2F0LCBmaW5pc2hlZF9hdCwgdXBkYXRlZF9hdCIsCiAgICAgICkKICAgICAgLm9yZGVyKCJzdGFydGVkX2F0IiwgeyBhc2NlbmRpbmc6IGZhbHNlIH0pCiAgICAgIC5saW1pdCgxMCk7CiAgICBpZiAoZXJyb3IpIHRocm93IG5ldyBFcnJvcihlcnJvci5tZXNzYWdlKTsKCiAgICBjb25zdCB7IGRhdGE6IGV2ZW50cywgZXJyb3I6IGV2RXJyIH0gPSBhd2FpdCBjb250ZXh0LnN1cGFiYXNlCiAgICAgIC5mcm9tKCJwZWFrYmFnZ2VyX2ltcG9ydF9ldmVudHMiKQogICAgICAuc2VsZWN0KCJpZCwgcnVuX2lkLCBsZXZlbCwgc2NvcGUsIG1lc3NhZ2UsIGNyZWF0ZWRfYXQiKQogICAgICAub3JkZXIoImNyZWF0ZWRfYXQiLCB7IGFzY2VuZGluZzogZmFsc2UgfSkKICAgICAgLmxpbWl0KDIwMCk7CiAgICBpZiAoZXZFcnIpIHRocm93IG5ldyBFcnJvcihldkVyci5tZXNzYWdlKTsKCiAgICBjb25zdCB7IGNvdW50IH0gPSBhd2FpdCBjb250ZXh0LnN1cGFiYXNlCiAgICAgIC5mcm9tKCJwZWFrYmFnZ2VyX3BlYWtzIikKICAgICAgLnNlbGVjdCgicGlkIiwgeyBjb3VudDogImV4YWN0IiwgaGVhZDogdHJ1ZSB9KTsKCiAgICBjb25zdCB7IGRhdGE6IGJhdGNoZXMsIGVycm9yOiBiRXJyIH0gPSBhd2FpdCBjb250ZXh0LnN1cGFiYXNlCiAgICAgIC5mcm9tKCJwZWFrYmFnZ2VyX2ltcG9ydF9iYXRjaGVzIikKICAgICAgLnNlbGVjdCgiaWQsIHJ1bl9pZCwgYmF0Y2hfbm8sIGNoZWNrc3VtLCByb3dfY291bnQsIHN0YXR1cywgZXJyb3IsIGFwcGxpZWRfYXQiKQogICAgICAub3JkZXIoImJhdGNoX25vIiwgeyBhc2NlbmRpbmc6IHRydWUgfSkKICAgICAgLmxpbWl0KDIwMCk7CiAgICBpZiAoYkVycikgdGhyb3cgbmV3IEVycm9yKGJFcnIubWVzc2FnZSk7CgogICAgY29uc3QgbGlzdENvdW50ID0gYXN5bmMgKHN0YXR1cz86IHN0cmluZykgPT4gewogICAgICBsZXQgcSA9IGNvbnRleHQuc3VwYWJhc2UKICAgICAgICAuZnJvbSgicGVha2JhZ2dlcl9pbXBvcnRfbGlzdHMiKQogICAgICAgIC5zZWxlY3QoImxpc3RfaWQiLCB7IGNvdW50OiAiZXhhY3QiLCBoZWFkOiB0cnVlIH0pOwogICAgICBpZiAoc3RhdHVzID09PSAiZG9uZSIpIHEgPSBxLmVxKCJzdGF0dXMiLCAiZG9uZSIpOwogICAgICBpZiAoc3RhdHVzID09PSAicGVuZGluZyIpIHEgPSBxLm5lcSgic3RhdHVzIiwgImRvbmUiKTsKICAgICAgY29uc3QgeyBjb3VudDogYyB9ID0gYXdhaXQgcTsKICAgICAgcmV0dXJuIGMgPz8gMDsKICAgIH07CgogICAgcmV0dXJuIHsKICAgICAgcnVuczogcnVucyA/PyBbXSwKICAgICAgZXZlbnRzOiBldmVudHMgPz8gW10sCiAgICAgIHJlZmVyZW5jZVJvd3M6IGNvdW50ID8/IDAsCiAgICAgIGJhdGNoZXM6IGJhdGNoZXMgPz8gW10sCiAgICAgIGxpc3RzU2NyYXBlZDogYXdhaXQgbGlzdENvdW50KCJkb25lIiksCiAgICAgIGxpc3RzVW5maW5pc2hlZDogYXdhaXQgbGlzdENvdW50KCJwZW5kaW5nIiksCiAgICB9OwogIH0pOwo=
+import { createServerFn } from "@tanstack/react-start";
+import { requireSupabaseAuth } from "@/integrations/supabase/auth-middleware";
+
+/** Admin-only: Peakbagger import runs + their events (RLS also enforces admin). */
+export const peakbaggerImportStatus = createServerFn({ method: "GET" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    const { data: runs, error } = await context.supabase
+      .from("peakbagger_import_runs")
+      .select(
+        "id, status, lists_total, lists_done, lists_blocked, peaks_captured, batches_total, batches_applied, rows_upserted, last_error, started_at, finished_at, updated_at",
+      )
+      .order("started_at", { ascending: false })
+      .limit(10);
+    if (error) throw new Error(error.message);
+
+    const { data: events, error: evErr } = await context.supabase
+      .from("peakbagger_import_events")
+      .select("id, run_id, level, scope, message, created_at")
+      .order("created_at", { ascending: false })
+      .limit(200);
+    if (evErr) throw new Error(evErr.message);
+
+    const { count } = await context.supabase
+      .from("peakbagger_peaks")
+      .select("pid", { count: "exact", head: true });
+
+    const { data: batches, error: bErr } = await context.supabase
+      .from("peakbagger_import_batches")
+      .select("id, run_id, batch_no, checksum, row_count, status, error, applied_at")
+      .order("batch_no", { ascending: true })
+      .limit(200);
+    if (bErr) throw new Error(bErr.message);
+
+    const listCount = async (status?: string) => {
+      let q = context.supabase
+        .from("peakbagger_import_lists")
+        .select("list_id", { count: "exact", head: true });
+      if (status === "done") q = q.eq("status", "done");
+      if (status === "pending") q = q.neq("status", "done");
+      const { count: c } = await q;
+      return c ?? 0;
+    };
+
+    return {
+      runs: runs ?? [],
+      events: events ?? [],
+      referenceRows: count ?? 0,
+      batches: batches ?? [],
+      listsScraped: await listCount("done"),
+      listsUnfinished: await listCount("pending"),
+    };
+  });

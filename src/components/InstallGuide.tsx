@@ -1,1 +1,154 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IGRldGVjdEJyb3dzZXIsIHR5cGUgQnJvd3NlcktpbmQgfSBmcm9tICJAL2xpYi9pbnN0YWxsIjsKCnR5cGUgR3VpZGUgPSB7IGxhYmVsOiBzdHJpbmc7IHN0ZXBzOiBzdHJpbmdbXTsgbm90ZT86IHN0cmluZyB9OwoKY29uc3QgR1VJREVTOiBSZWNvcmQ8QnJvd3NlcktpbmQsIEd1aWRlPiA9IHsKICAiY2hyb21lLWFuZHJvaWQiOiB7CiAgICBsYWJlbDogIkNocm9tZSBvbiBBbmRyb2lkIiwKICAgIHN0ZXBzOiBbCiAgICAgICJUYXAgdGhlIFx1MjJlZSBtZW51IGluIHRoZSB0b3AtcmlnaHQgb2YgQ2hyb21lLiIsCiAgICAgICJDaG9vc2UgXHUyMDFjQWRkIHRvIEhvbWUgc2NyZWVuXHUyMDFkIChvciBcdTIwMWNJbnN0YWxsIGFwcFx1MjAxZCkuIiwKICAgICAgIkNvbmZpcm0gd2l0aCBcdTIwMWNJbnN0YWxsXHUyMDFkLiIsCiAgICAgICJUaGUgVGlja2xlbGlzdCBpY29uIGFwcGVhcnMgb24geW91ciBob21lIHNjcmVlbi4iLAogICAgXSwKICB9LAogICJjaHJvbWUtZGVza3RvcCI6IHsKICAgIGxhYmVsOiAiQ2hyb21lIG9uIGRlc2t0b3AiLAogICAgc3RlcHM6IFsKICAgICAgIkxvb2sgZm9yIHRoZSBpbnN0YWxsIGljb24gKGEgc2NyZWVuIHdpdGggYSBkb3duIGFycm93KSBhdCB0aGUgcmlnaHQgb2YgdGhlIGFkZHJlc3MgYmFyLiIsCiAgICAgICJJZiBpdCBpcyBtaXNzaW5nLCBvcGVuIHRoZSBcdTIyZWUgbWVudSBcdTIxOTIgXHUyMDFjQ2FzdCwgc2F2ZSBhbmQgc2hhcmVcdTIwMWQgXHUyMTkyIFx1MjAxY0luc3RhbGwgcGFnZSBhcyBhcHBcdTIwMWQuIiwKICAgICAgIkNsaWNrIFx1MjAxY0luc3RhbGxcdTIwMWQgaW4gdGhlIGRpYWxvZy4iLAogICAgXSwKICAgIG5vdGU6ICJDaHJvbWUgaGlkZXMgdGhlIGluc3RhbGwgb3B0aW9uIHVudGlsIHRoZSBwYWdlIGhhcyBiZWVuIGxvYWRlZCBvbmNlIG92ZXIgSFRUUFMgXHUyMDE0IHJlbG9hZCBpZiB5b3UgZG9uJ3Qgc2VlIGl0LiIsCiAgfSwKICAiZWRnZS1kZXNrdG9wIjogewogICAgbGFiZWw6ICJNaWNyb3NvZnQgRWRnZSIsCiAgICBzdGVwczogWwogICAgICAiT3BlbiB0aGUgXHUyMDI2IG1lbnUgaW4gdGhlIHRvcC1yaWdodC4iLAogICAgICAiQ2hvb3NlIFx1MjAxY0FwcHNcdTIwMWQgXHUyMTkyIFx1MjAxY0luc3RhbGwgdGhpcyBzaXRlIGFzIGFuIGFwcFx1MjAxZC4iLAogICAgICAiQ2xpY2sgXHUyMDFjSW5zdGFsbFx1MjAxZC4iLAogICAgXSwKICB9LAogICJzYWZhcmktaW9zIjogewogICAgbGFiZWw6ICJTYWZhcmkgb24gaVBob25lIC8gaVBhZCIsCiAgICBzdGVwczogWwogICAgICAiVGFwIHRoZSBTaGFyZSBidXR0b24gKHNxdWFyZSB3aXRoIGFuIHVwIGFycm93KSBpbiB0aGUgdG9vbGJhci4iLAogICAgICAiU2Nyb2xsIGRvd24gYW5kIHRhcCBcdTIwMWNBZGQgdG8gSG9tZSBTY3JlZW5cdTIwMWQuIiwKICAgICAgIlRhcCBcdTIwMWNBZGRcdTIwMWQgaW4gdGhlIHRvcC1yaWdodC4iLAogICAgXSwKICAgIG5vdGU6ICJTYWZhcmkgaXMgdGhlIG9ubHkgaU9TIGJyb3dzZXIgdGhhdCBjYW4gaW5zdGFsbCBhcHBzIFx1MjAxNCBDaHJvbWUgb3IgRmlyZWZveCBvbiBpUGhvbmUgd2lsbCBub3Qgb2ZmZXIgaXQuIiwKICB9LAogICJzYWZhcmktZGVza3RvcCI6IHsKICAgIGxhYmVsOiAiU2FmYXJpIG9uIE1hYyIsCiAgICBzdGVwczogWwogICAgICAiT3BlbiB0aGUgRmlsZSBtZW51IGluIHRoZSBtZW51IGJhci4iLAogICAgICAiQ2hvb3NlIFx1MjAxY0FkZCB0byBEb2NrXHUyMDI2XHUyMDFkLiIsCiAgICAgICJDb25maXJtIHRoZSBuYW1lIGFuZCBjbGljayBcdTIwMWNBZGRcdTIwMWQuIiwKICAgIF0sCiAgICBub3RlOiAiUmVxdWlyZXMgbWFjT1MgU29ub21hIChTYWZhcmkgMTcpIG9yIG5ld2VyLiIsCiAgfSwKICBmaXJlZm94OiB7CiAgICBsYWJlbDogIkZpcmVmb3giLAogICAgc3RlcHM6IFsKICAgICAgIk9uIEFuZHJvaWQ6IHRhcCB0aGUgXHUyMmVlIG1lbnUgXHUyMTkyIFx1MjAxY0luc3RhbGxcdTIwMWQgb3IgXHUyMDFjQWRkIHRvIEhvbWUgc2NyZWVuXHUyMDFkLiIsCiAgICAgICJPbiBkZXNrdG9wOiBGaXJlZm94IGNhbm5vdCBpbnN0YWxsIHdlYiBhcHBzIFx1MjAxNCB1c2UgQ2hyb21lLCBFZGdlIG9yIFNhZmFyaSBpbnN0ZWFkLiIsCiAgICBdLAogIH0sCiAgc2Ftc3VuZzogewogICAgbGFiZWw6ICJTYW1zdW5nIEludGVybmV0IiwKICAgIHN0ZXBzOiBbCiAgICAgICJUYXAgdGhlIFx1MjI2MSBtZW51IGF0IHRoZSBib3R0b20tcmlnaHQuIiwKICAgICAgIkNob29zZSBcdTIwMWNBZGQgcGFnZSB0b1x1MjAxZCBcdTIxOTIgXHUyMDFjSG9tZSBzY3JlZW5cdTIwMWQuIiwKICAgICAgIkNvbmZpcm0gd2l0aCBcdTIwMWNBZGRcdTIwMWQuIiwKICAgIF0sCiAgfSwKICBvdGhlcjogewogICAgbGFiZWw6ICJZb3VyIGJyb3dzZXIiLAogICAgc3RlcHM6IFsKICAgICAgIk9wZW4geW91ciBicm93c2VyJ3MgbWFpbiBtZW51LiIsCiAgICAgICJMb29rIGZvciBcdTIwMWNJbnN0YWxsIGFwcFx1MjAxZCwgXHUyMDFjQWRkIHRvIEhvbWUgc2NyZWVuXHUyMDFkIG9yIFx1MjAxY0FkZCB0byBEb2NrXHUyMDFkLiIsCiAgICAgICJDb25maXJtIHRvIGZpbmlzaC4iLAogICAgXSwKICAgIG5vdGU6ICJJZiBub25lIG9mIHRoZXNlIGFwcGVhciwgb3BlbiBvbnNpZ2h0bWFydGluLmNvbSBpbiBDaHJvbWUgKEFuZHJvaWQvZGVza3RvcCkgb3IgU2FmYXJpIChpUGhvbmUpLiIsCiAgfSwKfTsKCmNvbnN0IE9SREVSOiBCcm93c2VyS2luZFtdID0gWwogICJjaHJvbWUtYW5kcm9pZCIsCiAgImNocm9tZS1kZXNrdG9wIiwKICAic2FmYXJpLWlvcyIsCiAgInNhZmFyaS1kZXNrdG9wIiwKICAiZWRnZS1kZXNrdG9wIiwKICAic2Ftc3VuZyIsCiAgImZpcmVmb3giLAogICJvdGhlciIsCl07CgovKiogTWFudWFsIHN0ZXAtYnktc3RlcCBpbnN0YWxsIGluc3RydWN0aW9ucywgdXNlZCB3aGVuIG5vIGF1dG9tYXRpYyBwcm9tcHQgZmlyZXMuICovCmNvbnN0IEluc3RhbGxHdWlkZSA9ICh7CiAgb3BlbiwKICBvbk9wZW5DaGFuZ2UsCn06IHsKICBvcGVuOiBib29sZWFuOwogIG9uT3BlbkNoYW5nZTogKG9wZW46IGJvb2xlYW4pID0+IHZvaWQ7Cn0pID0+IHsKICBjb25zdCBbc2VsZWN0ZWQsIHNldFNlbGVjdGVkXSA9IHVzZVN0YXRlPEJyb3dzZXJLaW5kPigib3RoZXIiKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmIChvcGVuKSBzZXRTZWxlY3RlZChkZXRlY3RCcm93c2VyKCkpOwogIH0sIFtvcGVuXSk7CgogIGNvbnN0IGd1aWRlID0gR1VJREVTW3NlbGVjdGVkXTsKCiAgcmV0dXJuICgKICAgIDxEaWFsb2cgb3Blbj17b3Blbn0gb25PcGVuQ2hhbmdlPXtvbk9wZW5DaGFuZ2V9PgogICAgICA8RGlhbG9nQ29udGVudCBjbGFzc05hbWU9Im1heC13LW1kIj4KICAgICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgICAgPERpYWxvZ1RpdGxlPkluc3RhbGwgVGlja2xlbGlzdDwvRGlhbG9nVGl0bGU+CiAgICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICAgIE5vIGluc3RhbGwgYnV0dG9uPyBGb2xsb3cgdGhlIHN0ZXBzIGZvciB5b3VyIGJyb3dzZXIuCiAgICAgICAgICA8L0RpYWxvZ0Rlc2NyaXB0aW9uPgogICAgICAgIDwvRGlhbG9nSGVhZGVyPgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgZ2FwLTEuNSI+CiAgICAgICAgICB7T1JERVIubWFwKChraW5kKSA9PiAoCiAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICBrZXk9e2tpbmR9CiAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0U2VsZWN0ZWQoa2luZCl9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgcHgtMi41IHB5LTEgdGV4dC14cyByb3VuZGVkLWZ1bGwgYm9yZGVyIHRyYW5zaXRpb24tY29sb3JzICR7CiAgICAgICAgICAgICAgICBzZWxlY3RlZCA9PT0ga2luZAogICAgICAgICAgICAgICAgICA/ICJiZy1wcmltYXJ5IHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIGJvcmRlci1wcmltYXJ5IgogICAgICAgICAgICAgICAgICA6ICJib3JkZXItYm9yZGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LWZvcmVncm91bmQiCiAgICAgICAgICAgICAgfWB9CiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7R1VJREVTW2tpbmRdLmxhYmVsfQogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICkpfQogICAgICAgIDwvZGl2PgoKICAgICAgICA8b2wgY2xhc3NOYW1lPSJtdC0yIHNwYWNlLXktMiI+CiAgICAgICAgICB7Z3VpZGUuc3RlcHMubWFwKChzdGVwLCBpbmRleCkgPT4gKAogICAgICAgICAgICA8bGkga2V5PXtzdGVwfSBjbGFzc05hbWU9ImZsZXggZ2FwLTIuNSB0ZXh0LXNtIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGgtNSB3LTUgc2hyaW5rLTAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtZnVsbCBiZy1wcmltYXJ5LzE1IHRleHQtWzExcHhdIGZvbnQtc2VtaWJvbGQgdGV4dC1wcmltYXJ5Ij4KICAgICAgICAgICAgICAgIHtpbmRleCArIDF9CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDxzcGFuPntzdGVwfTwvc3Bhbj4KICAgICAgICAgICAgPC9saT4KICAgICAgICAgICkpfQogICAgICAgIDwvb2w+CgogICAgICAgIHtndWlkZS5ub3RlICYmIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPntndWlkZS5ub3RlfTwvcD59CiAgICAgIDwvRGlhbG9nQ29udGVudD4KICAgIDwvRGlhbG9nPgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBJbnN0YWxsR3VpZGU7Cg==
+import { useEffect, useState } from "react";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { detectBrowser, type BrowserKind } from "@/lib/install";
+
+type Guide = { label: string; steps: string[]; note?: string };
+
+const GUIDES: Record<BrowserKind, Guide> = {
+  "chrome-android": {
+    label: "Chrome on Android",
+    steps: [
+      "Tap the \u22ee menu in the top-right of Chrome.",
+      "Choose \u201cAdd to Home screen\u201d (or \u201cInstall app\u201d).",
+      "Confirm with \u201cInstall\u201d.",
+      "The Ticklelist icon appears on your home screen.",
+    ],
+  },
+  "chrome-desktop": {
+    label: "Chrome on desktop",
+    steps: [
+      "Look for the install icon (a screen with a down arrow) at the right of the address bar.",
+      "If it is missing, open the \u22ee menu \u2192 \u201cCast, save and share\u201d \u2192 \u201cInstall page as app\u201d.",
+      "Click \u201cInstall\u201d in the dialog.",
+    ],
+    note: "Chrome hides the install option until the page has been loaded once over HTTPS \u2014 reload if you don't see it.",
+  },
+  "edge-desktop": {
+    label: "Microsoft Edge",
+    steps: [
+      "Open the \u2026 menu in the top-right.",
+      "Choose \u201cApps\u201d \u2192 \u201cInstall this site as an app\u201d.",
+      "Click \u201cInstall\u201d.",
+    ],
+  },
+  "safari-ios": {
+    label: "Safari on iPhone / iPad",
+    steps: [
+      "Tap the Share button (square with an up arrow) in the toolbar.",
+      "Scroll down and tap \u201cAdd to Home Screen\u201d.",
+      "Tap \u201cAdd\u201d in the top-right.",
+    ],
+    note: "Safari is the only iOS browser that can install apps \u2014 Chrome or Firefox on iPhone will not offer it.",
+  },
+  "safari-desktop": {
+    label: "Safari on Mac",
+    steps: [
+      "Open the File menu in the menu bar.",
+      "Choose \u201cAdd to Dock\u2026\u201d.",
+      "Confirm the name and click \u201cAdd\u201d.",
+    ],
+    note: "Requires macOS Sonoma (Safari 17) or newer.",
+  },
+  firefox: {
+    label: "Firefox",
+    steps: [
+      "On Android: tap the \u22ee menu \u2192 \u201cInstall\u201d or \u201cAdd to Home screen\u201d.",
+      "On desktop: Firefox cannot install web apps \u2014 use Chrome, Edge or Safari instead.",
+    ],
+  },
+  samsung: {
+    label: "Samsung Internet",
+    steps: [
+      "Tap the \u2261 menu at the bottom-right.",
+      "Choose \u201cAdd page to\u201d \u2192 \u201cHome screen\u201d.",
+      "Confirm with \u201cAdd\u201d.",
+    ],
+  },
+  other: {
+    label: "Your browser",
+    steps: [
+      "Open your browser's main menu.",
+      "Look for \u201cInstall app\u201d, \u201cAdd to Home screen\u201d or \u201cAdd to Dock\u201d.",
+      "Confirm to finish.",
+    ],
+    note: "If none of these appear, open onsightmartin.com in Chrome (Android/desktop) or Safari (iPhone).",
+  },
+};
+
+const ORDER: BrowserKind[] = [
+  "chrome-android",
+  "chrome-desktop",
+  "safari-ios",
+  "safari-desktop",
+  "edge-desktop",
+  "samsung",
+  "firefox",
+  "other",
+];
+
+/** Manual step-by-step install instructions, used when no automatic prompt fires. */
+const InstallGuide = ({
+  open,
+  onOpenChange,
+}: {
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+}) => {
+  const [selected, setSelected] = useState<BrowserKind>("other");
+
+  useEffect(() => {
+    if (open) setSelected(detectBrowser());
+  }, [open]);
+
+  const guide = GUIDES[selected];
+
+  return (
+    <Dialog open={open} onOpenChange={onOpenChange}>
+      <DialogContent className="max-w-md">
+        <DialogHeader>
+          <DialogTitle>Install Ticklelist</DialogTitle>
+          <DialogDescription>
+            No install button? Follow the steps for your browser.
+          </DialogDescription>
+        </DialogHeader>
+
+        <div className="flex flex-wrap gap-1.5">
+          {ORDER.map((kind) => (
+            <button
+              key={kind}
+              onClick={() => setSelected(kind)}
+              className={`px-2.5 py-1 text-xs rounded-full border transition-colors ${
+                selected === kind
+                  ? "bg-primary text-primary-foreground border-primary"
+                  : "border-border text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              {GUIDES[kind].label}
+            </button>
+          ))}
+        </div>
+
+        <ol className="mt-2 space-y-2">
+          {guide.steps.map((step, index) => (
+            <li key={step} className="flex gap-2.5 text-sm text-foreground">
+              <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary/15 text-[11px] font-semibold text-primary">
+                {index + 1}
+              </span>
+              <span>{step}</span>
+            </li>
+          ))}
+        </ol>
+
+        {guide.note && <p className="text-xs text-muted-foreground">{guide.note}</p>}
+      </DialogContent>
+    </Dialog>
+  );
+};
+
+export default InstallGuide;

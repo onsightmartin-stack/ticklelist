@@ -1,1 +1,44 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IHR5cGUgeyBBZHZlbnR1cmUsIFB1YmxpY1Byb2ZpbGUsIFNpZ251cCB9IGZyb20gIkAvbGliL2NvbW11bml0eSI7CmltcG9ydCB0eXBlIHsgQXNjZW50IH0gZnJvbSAiQC9saWIvcGVhay1jYXRhbG9nIjsKaW1wb3J0IHR5cGUgeyBWaXNpdCB9IGZyb20gIkAvZGF0YS9wbGFjZXMiOwoKLyoqIFNoYXJlZCBsb2FkZXIgZm9yIGV2ZXJ5IFRpY2tsZWxpc3Qgc2NyZWVuLiAqLwpleHBvcnQgY29uc3QgdXNlQ29tbXVuaXR5RGF0YSA9ICgpID0+IHsKICBjb25zdCBbYWR2ZW50dXJlcywgc2V0QWR2ZW50dXJlc10gPSB1c2VTdGF0ZTxBZHZlbnR1cmVbXT4oW10pOwogIGNvbnN0IFtzaWdudXBzLCBzZXRTaWdudXBzXSA9IHVzZVN0YXRlPFNpZ251cFtdPihbXSk7CiAgY29uc3QgW2FzY2VudHMsIHNldEFzY2VudHNdID0gdXNlU3RhdGU8QXNjZW50W10+KFtdKTsKICBjb25zdCBbdmlzaXRzLCBzZXRWaXNpdHNdID0gdXNlU3RhdGU8VmlzaXRbXT4oW10pOwogIGNvbnN0IFtwcm9maWxlcywgc2V0UHJvZmlsZXNdID0gdXNlU3RhdGU8UmVjb3JkPHN0cmluZywgUHVibGljUHJvZmlsZT4+KHt9KTsKICBjb25zdCBbZmV0Y2hpbmcsIHNldEZldGNoaW5nXSA9IHVzZVN0YXRlKHRydWUpOwoKICBjb25zdCBsb2FkID0gdXNlQ2FsbGJhY2soYXN5bmMgKCkgPT4gewogICAgc2V0RmV0Y2hpbmcodHJ1ZSk7CiAgICBjb25zdCBbeyBkYXRhOiBhZHZzIH0sIHsgZGF0YTogc3VwcyB9LCB7IGRhdGE6IHByb2ZzIH0sIHsgZGF0YTogYXNjIH0sIHsgZGF0YTogdmlzIH1dID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgICBzdXBhYmFzZS5mcm9tKCJhZHZlbnR1cmVzIikuc2VsZWN0KCIqIikub3JkZXIoImNyZWF0ZWRfYXQiLCB7IGFzY2VuZGluZzogZmFsc2UgfSksCiAgICAgIHN1cGFiYXNlCiAgICAgICAgLmZyb20oImFkdmVudHVyZV9zaWdudXBzIikKICAgICAgICAuc2VsZWN0KCJpZCwgYWR2ZW50dXJlX2lkLCB1c2VyX2lkLCBzdGF0dXMsIGNyZWF0ZWRfYXQsIHVwZGF0ZWRfYXQiKSwKICAgICAgc3VwYWJhc2UuZnJvbSgicHJvZmlsZXMiKS5zZWxlY3QoImlkLCBkaXNwbGF5X25hbWUsIGNvdW50cnksIGF2YXRhcl91cmwiKSwKICAgICAgc3VwYWJhc2UuZnJvbSgiYXNjZW50cyIpLnNlbGVjdCgiKiIpLm9yZGVyKCJhc2NlbnRfZGF0ZSIsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KSwKICAgICAgc3VwYWJhc2UuZnJvbSgidmlzaXRzIikuc2VsZWN0KCIqIikub3JkZXIoInZpc2l0X2RhdGUiLCB7IGFzY2VuZGluZzogZmFsc2UsIG51bGxzRmlyc3Q6IGZhbHNlIH0pLAogICAgXSk7CiAgICBzZXRBZHZlbnR1cmVzKChhZHZzIGFzIEFkdmVudHVyZVtdKSA/PyBbXSk7CiAgICBzZXRTaWdudXBzKChzdXBzIGFzIFNpZ251cFtdKSA/PyBbXSk7CiAgICBzZXRBc2NlbnRzKChhc2MgYXMgQXNjZW50W10pID8/IFtdKTsKICAgIHNldFZpc2l0cygodmlzIGFzIFZpc2l0W10pID8/IFtdKTsKICAgIGNvbnN0IG1hcDogUmVjb3JkPHN0cmluZywgUHVibGljUHJvZmlsZT4gPSB7fTsKICAgICgocHJvZnMgYXMgUHVibGljUHJvZmlsZVtdKSA/PyBbXSkuZm9yRWFjaCgocCkgPT4gewogICAgICBtYXBbcC5pZF0gPSBwOwogICAgfSk7CiAgICBzZXRQcm9maWxlcyhtYXApOwogICAgc2V0RmV0Y2hpbmcoZmFsc2UpOwogIH0sIFtdKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGxvYWQoKTsKICB9LCBbbG9hZF0pOwoKICByZXR1cm4geyBhZHZlbnR1cmVzLCBzaWdudXBzLCBhc2NlbnRzLCB2aXNpdHMsIHByb2ZpbGVzLCBmZXRjaGluZywgcmVsb2FkOiBsb2FkIH07Cn07Cg==
+import { useCallback, useEffect, useState } from "react";
+import { supabase } from "@/integrations/supabase/client";
+import type { Adventure, PublicProfile, Signup } from "@/lib/community";
+import type { Ascent } from "@/lib/peak-catalog";
+import type { Visit } from "@/data/places";
+
+/** Shared loader for every Ticklelist screen. */
+export const useCommunityData = () => {
+  const [adventures, setAdventures] = useState<Adventure[]>([]);
+  const [signups, setSignups] = useState<Signup[]>([]);
+  const [ascents, setAscents] = useState<Ascent[]>([]);
+  const [visits, setVisits] = useState<Visit[]>([]);
+  const [profiles, setProfiles] = useState<Record<string, PublicProfile>>({});
+  const [fetching, setFetching] = useState(true);
+
+  const load = useCallback(async () => {
+    setFetching(true);
+    const [{ data: advs }, { data: sups }, { data: profs }, { data: asc }, { data: vis }] = await Promise.all([
+      supabase.from("adventures").select("*").order("created_at", { ascending: false }),
+      supabase
+        .from("adventure_signups")
+        .select("id, adventure_id, user_id, status, created_at, updated_at"),
+      supabase.from("profiles").select("id, display_name, country, avatar_url"),
+      supabase.from("ascents").select("*").order("ascent_date", { ascending: false }),
+      supabase.from("visits").select("*").order("visit_date", { ascending: false, nullsFirst: false }),
+    ]);
+    setAdventures((advs as Adventure[]) ?? []);
+    setSignups((sups as Signup[]) ?? []);
+    setAscents((asc as Ascent[]) ?? []);
+    setVisits((vis as Visit[]) ?? []);
+    const map: Record<string, PublicProfile> = {};
+    ((profs as PublicProfile[]) ?? []).forEach((p) => {
+      map[p.id] = p;
+    });
+    setProfiles(map);
+    setFetching(false);
+  }, []);
+
+  useEffect(() => {
+    load();
+  }, [load]);
+
+  return { adventures, signups, ascents, visits, profiles, fetching, reload: load };
+};

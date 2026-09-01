@@ -1,1 +1,327 @@
-aW1wb3J0IHsgY291bnRyaWVzIH0gZnJvbSAiQC9kYXRhL2NvdW50cmllcyI7CmltcG9ydCB7IHBlYWtMaXN0cyB9IGZyb20gIkAvZGF0YS9wZWFrLWxpc3RzIjsKaW1wb3J0IHsgYWR2ZW50dXJlQ2hhbGxlbmdlcyB9IGZyb20gIkAvZGF0YS9hZHZlbnR1cmUtY2hhbGxlbmdlcyI7CmltcG9ydCB0eXBlIHsgQXNjZW50IH0gZnJvbSAiQC9saWIvcGVhay1jYXRhbG9nIjsKaW1wb3J0IHR5cGUgeyBWaXNpdCB9IGZyb20gIkAvZGF0YS9wbGFjZXMiOwppbXBvcnQgeyBoaWdocG9pbnRDcmVkaXRLZXkgfSBmcm9tICJAL2xpYi9oaXN0b3JpYy1oaWdocG9pbnRzIjsKaW1wb3J0IHsgY3JlZGl0ZWRIaWdocG9pbnRDb3VudHJpZXMgfSBmcm9tICJAL2xpYi9tYWlubGFuZC1jcmVkaXQiOwppbXBvcnQgewogIGFjdGl2ZUNvdW50cnlTZXQsCiAgYWN0aXZlRXh0cmFQZWFrcywKICBjb3VudHJ5RGVmaW5pdGlvbk5hbWUsCiAgZ2V0RGVmaW5pdGlvbnMsCiAgc2V2ZW5TdW1taXRzRGVmaW5pdGlvbnMsCn0gZnJvbSAiQC9saWIvZGVmaW5pdGlvbnMiOwoKLyoqIFRoZSBTZXZlbiBTdW1taXRzIHJvc3RlciB1bmRlciB0aGUgbWVtYmVyJ3MgY2hvc2VuIGRlZmluaXRpb24uICovCmV4cG9ydCBmdW5jdGlvbiBzZXZlblN1bW1pdEVudHJpZXMoKTogeyBrZXk6IHN0cmluZzsgYWx0Pzogc3RyaW5nW10gfVtdIHsKICBjb25zdCBiYXNzID0gcGVha0xpc3RzLmZpbmQoKGwpID0+IGwuaWQgPT09ICJzZXZlbi1zdW1taXRzLWJhc3MiKT8uZW50cmllcyA/PyBbXTsKICBjb25zdCBtZXNzbmVyID0gcGVha0xpc3RzLmZpbmQoKGwpID0+IGwuaWQgPT09ICJzZXZlbi1zdW1taXRzLW1lc3NuZXIiKT8uZW50cmllcyA/PyBbXTsKICBjb25zdCBtb2RlID0gZ2V0RGVmaW5pdGlvbnMoKS5zZXZlblN1bW1pdHM7CiAgaWYgKG1vZGUgPT09ICJiYXNzIikgcmV0dXJuIGJhc3M7CiAgaWYgKG1vZGUgPT09ICJtZXNzbmVyIikgcmV0dXJuIG1lc3NuZXI7CiAgY29uc3Qga29zY2l1c3prbyA9IGJhc3NbYmFzcy5sZW5ndGggLSAxXTsKICBjb25zdCBjYXJzdGVuc3ogPSBtZXNzbmVyW21lc3NuZXIubGVuZ3RoIC0gMV07CiAgY29uc3Qgc2hhcmVkID0gYmFzcy5zbGljZSgwLCAtMSk7CiAgaWYgKG1vZGUgPT09ICJib3RoIikgcmV0dXJuIFsuLi5zaGFyZWQsIC4uLihrb3NjaXVzemtvID8gW2tvc2NpdXN6a29dIDogW10pLCAuLi4oY2Fyc3RlbnN6ID8gW2NhcnN0ZW5zel0gOiBbXSldOwogIC8vICJlaXRoZXIiIOKAlCBvbmUgc2V2ZW50aCBib3gsIHRpY2tlZCBieSB3aGljaGV2ZXIgb2YgdGhlIHR3byB5b3UgY2xpbWJlZC4KICByZXR1cm4gWwogICAgLi4uc2hhcmVkLAogICAgewogICAgICBrZXk6IGtvc2NpdXN6a28/LmtleSA/PyAiZnA6S29zY2l1c3prbyIsCiAgICAgIGFsdDogWy4uLihrb3NjaXVzemtvPy5hbHQgPz8gW10pLCAuLi4oY2Fyc3RlbnN6ID8gW2NhcnN0ZW5zei5rZXksIC4uLihjYXJzdGVuc3ouYWx0ID8/IFtdKV0gOiBbXSldLAogICAgfSwKICBdOwp9CgpleHBvcnQgaW50ZXJmYWNlIEdvYWxQcm9ncmVzcyB7CiAgaWQ6IHN0cmluZzsKICBsYWJlbDogc3RyaW5nOwogIHNob3J0OiBzdHJpbmc7CiAgZG9uZTogbnVtYmVyOwogIHRvdGFsOiBudW1iZXIgfCBudWxsOwp9CgpleHBvcnQgaW50ZXJmYWNlIEdvYWxEZWYgewogIGlkOiBzdHJpbmc7CiAgbGFiZWw6IHN0cmluZzsKICAvKiogQ29tcGFjdCBsYWJlbCB1c2VkIGluc2lkZSB0aGUgc21hbGwgcHJvZmlsZSBib3hlcy4gKi8KICBzaG9ydDogc3RyaW5nOwogIGdyb3VwOiBzdHJpbmc7Cn0KCmNvbnN0IGFsbEhpZ2hwb2ludENvdW50cmllcyA9IGNvdW50cmllcy5maWx0ZXIoKGMpID0+IGMuY291bnRyeSAhPT0gIkFudGFyY3RpY2EiKTsKCi8qKgogKiBUcnVlIHdoZW4gdGhlIGNvdW50cnkgY291bnRzIHVuZGVyIHRoZSBtZW1iZXIncyBjaG9zZW4gY291bnRyeSBkZWZpbml0aW9uCiAqIChVTiBvbmx5LCBVTiArIFRhaXdhbiArIEFudGFyY3RpY2EsIEdpbGJlcnRzb24gc3R5bGUsIOKApikuCiAqLwpleHBvcnQgY29uc3QgaXNVbkNvdW50cnkgPSAoY291bnRyeTogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCkgPT4KICAhIWNvdW50cnkgJiYgYWN0aXZlQ291bnRyeVNldCgpLmhhcyhjb3VudHJ5KTsKCi8qKiBFdmVyeSBnb2FsIGEgbWVtYmVyIGNhbiBwaW4gdG8gdGhlaXIgcHJvZmlsZS4gKi8KZXhwb3J0IGNvbnN0IGdvYWxEZWZzOiBHb2FsRGVmW10gPSBbCiAgeyBpZDogInRvdGFsLWFzY2VudHMiLCBsYWJlbDogIlRvdGFsIGFzY2VudHMiLCBzaG9ydDogIkFzY2VudHMiLCBncm91cDogIkJhc2ljcyIgfSwKICB7IGlkOiAidW5pcXVlLXBlYWtzIiwgbGFiZWw6ICJVbmlxdWUgcGVha3MiLCBzaG9ydDogIlVuaXF1ZSBwZWFrcyIsIGdyb3VwOiAiQmFzaWNzIiB9LAogIHsgaWQ6ICJjb3VudHJpZXMtY2xpbWJlZCIsIGxhYmVsOiAiQ291bnRyaWVzIGNsaW1iZWQgaW4iLCBzaG9ydDogIkNvdW50cmllcyBjbGltYmVkIiwgZ3JvdXA6ICJCYXNpY3MiIH0sCiAgeyBpZDogImNvdW50cmllcy12aXNpdGVkIiwgbGFiZWw6ICJDb3VudHJpZXMgdmlzaXRlZCIsIHNob3J0OiAiQ291bnRyaWVzIHZpc2l0ZWQiLCBncm91cDogIkJhc2ljcyIgfSwKICB7IGlkOiAicGxhY2VzLXZpc2l0ZWQiLCBsYWJlbDogIlBsYWNlcyB2aXNpdGVkIiwgc2hvcnQ6ICJQbGFjZXMiLCBncm91cDogIkJhc2ljcyIgfSwKICB7IGlkOiAiY29udGluZW50cyIsIGxhYmVsOiAiQ29udGluZW50cyIsIHNob3J0OiAiQ29udGluZW50cyIsIGdyb3VwOiAiQmFzaWNzIiB9LAogIHsgaWQ6ICJ1bi1oaWdocG9pbnRzIiwgbGFiZWw6ICJDb3VudHJ5IGhpZ2ggcG9pbnRzIiwgc2hvcnQ6ICJDb3VudHJ5IGhpZ2ggcG9pbnRzIiwgZ3JvdXA6ICJIaWdoIHBvaW50cyIgfSwKICB7IGlkOiAic2V2ZW4tc3VtbWl0cyIsIGxhYmVsOiAiU2V2ZW4gU3VtbWl0cyIsIHNob3J0OiAiU2V2ZW4gU3VtbWl0cyIsIGdyb3VwOiAiSGlnaCBwb2ludHMiIH0sCiAgewogICAgaWQ6ICJhbGwtaGlnaHBvaW50cyIsCiAgICBsYWJlbDogYENvdW50cnkgaGlnaCBwb2ludHMgKGFsbCAke2FsbEhpZ2hwb2ludENvdW50cmllcy5sZW5ndGh9KWAsCiAgICBzaG9ydDogIkFsbCBoaWdoIHBvaW50cyIsCiAgICBncm91cDogIkhpZ2ggcG9pbnRzIiwKICB9LAogIC4uLnBlYWtMaXN0cy5tYXAoKGwpID0+ICh7IGlkOiBgbGlzdDoke2wuaWR9YCwgbGFiZWw6IGwubmFtZSwgc2hvcnQ6IGwubmFtZSwgZ3JvdXA6IGBMaXN0cyDCtyAke2wuY2F0ZWdvcnl9YCB9KSksCiAgLi4uYWR2ZW50dXJlQ2hhbGxlbmdlcy5tYXAoKGMpID0+ICh7CiAgICBpZDogYGNoYWxsZW5nZToke2MuaWR9YCwKICAgIGxhYmVsOiBjLm5hbWUsCiAgICBzaG9ydDogYy5uYW1lLAogICAgZ3JvdXA6ICJDaGFsbGVuZ2VzIiwKICB9KSksCl07CgpleHBvcnQgY29uc3QgZGVmYXVsdEdvYWxzID0gWyJ1bi1oaWdocG9pbnRzIiwgInRvdGFsLWFzY2VudHMiLCAiY291bnRyaWVzLXZpc2l0ZWQiLCAic2V2ZW4tc3VtbWl0cyJdOwoKY29uc3QgY29udGluZW50T2YgPSAoY291bnRyeTogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCkgPT4KICBjb3VudHJ5ID8gY291bnRyaWVzLmZpbmQoKGMpID0+IGMuY291bnRyeSA9PT0gY291bnRyeSk/LmNvbnRpbmVudCA/PyBudWxsIDogbnVsbDsKCi8qKiBDb21wdXRlcyBwcm9ncmVzcyBmb3IgZXZlcnkgc2VsZWN0ZWQgZ29hbCBpZCBmcm9tIGEgbWVtYmVyJ3MgbG9nYm9va3MuICovCmV4cG9ydCBmdW5jdGlvbiBjb21wdXRlR29hbHMoaWRzOiBzdHJpbmdbXSwgYXNjZW50czogQXNjZW50W10sIHZpc2l0czogVmlzaXRbXSk6IEdvYWxQcm9ncmVzc1tdIHsKICBjb25zdCBwZWFrS2V5cyA9IG5ldyBTZXQ8c3RyaW5nPigpOwogIGFzY2VudHMuZm9yRWFjaCgoYSkgPT4KICAgIHBlYWtLZXlzLmFkZChoaWdocG9pbnRDcmVkaXRLZXkoYSkpLAogICk7CiAgY29uc3QgcGxhY2VLZXlzID0gbmV3IFNldCh2aXNpdHMubWFwKCh2KSA9PiB2LnBsYWNlX2tleSkpOwoKICBjb25zdCBocENvdW50cmllcyA9IGNyZWRpdGVkSGlnaHBvaW50Q291bnRyaWVzKGFzY2VudHMpOwogIGNvbnN0IHVuQ291bnRyaWVzID0gYWN0aXZlQ291bnRyeVNldCgpOwogIGNvbnN0IHVuRG9uZSA9IFsuLi5ocENvdW50cmllc10uZmlsdGVyKChjKSA9PiB1bkNvdW50cmllcy5oYXMoYykpLmxlbmd0aDsKCiAgY29uc3QgY29udGluZW50c1NldCA9IG5ldyBTZXQ8c3RyaW5nPigpOwogIHZpc2l0cy5mb3JFYWNoKCh2KSA9PiB7CiAgICBjb25zdCBjID0gY29udGluZW50T2Yodi5jb3VudHJ5KTsKICAgIGlmIChjKSBjb250aW5lbnRzU2V0LmFkZChjKTsKICAgIGlmICh2LnBsYWNlX3R5cGUgPT09ICJwb2xlIiAmJiB2LnBsYWNlX25hbWUgIT09ICJOb3J0aCBQb2xlIikgY29udGluZW50c1NldC5hZGQoIkFudGFyY3RpY2EiKTsKICB9KTsKICBhc2NlbnRzLmZvckVhY2goKGEpID0+IHsKICAgIGNvbnN0IGMgPSBjb250aW5lbnRPZihhLmNvdW50cnkpOwogICAgaWYgKGMpIGNvbnRpbmVudHNTZXQuYWRkKGMpOwogIH0pOwoKICBjb25zdCBvbmUgPSAoaWQ6IHN0cmluZyk6IEdvYWxQcm9ncmVzcyB8IG51bGwgPT4gewogICAgY29uc3QgZGVmID0gZ29hbERlZnMuZmluZCgoZykgPT4gZy5pZCA9PT0gaWQpOwogICAgaWYgKCFkZWYpIHJldHVybiBudWxsOwogICAgY29uc3QgYmFzZSA9IHsgaWQsIGxhYmVsOiBkZWYubGFiZWwsIHNob3J0OiBkZWYuc2hvcnQgfTsKICAgIGlmIChpZCA9PT0gInVuLWhpZ2hwb2ludHMiKSB7CiAgICAgIGJhc2UubGFiZWwgPSBgQ291bnRyeSBoaWdoIHBvaW50cyDigJQgJHtjb3VudHJ5RGVmaW5pdGlvbk5hbWUoZ2V0RGVmaW5pdGlvbnMoKS5jb3VudHJpZXMpfWA7CiAgICB9CiAgICBpZiAoaWQgPT09ICJzZXZlbi1zdW1taXRzIikgewogICAgICBjb25zdCBzZCA9IHNldmVuU3VtbWl0c0RlZmluaXRpb25zLmZpbmQoKGQpID0+IGQuaWQgPT09IGdldERlZmluaXRpb25zKCkuc2V2ZW5TdW1taXRzKTsKICAgICAgaWYgKHNkKSBiYXNlLmxhYmVsID0gYFNldmVuIFN1bW1pdHMg4oCUICR7c2QubmFtZX1gOwogICAgfQoKICAgIGlmIChpZC5zdGFydHNXaXRoKCJsaXN0OiIpKSB7CiAgICAgIGNvbnN0IGxpc3QgPSBwZWFrTGlzdHMuZmluZCgobCkgPT4gbC5pZCA9PT0gaWQuc2xpY2UoNSkpOwogICAgICBpZiAoIWxpc3QpIHJldHVybiBudWxsOwogICAgICBjb25zdCBkb25lID0gbGlzdC5lbnRyaWVzLmZpbHRlcigKICAgICAgICAoZSkgPT4gcGVha0tleXMuaGFzKGUua2V5KSB8fCAoZS5hbHQgPz8gW10pLnNvbWUoKGspID0+IHBlYWtLZXlzLmhhcyhrKSksCiAgICAgICkubGVuZ3RoOwogICAgICByZXR1cm4geyAuLi5iYXNlLCBkb25lLCB0b3RhbDogbGlzdC5lbnRyaWVzLmxlbmd0aCB9OwogICAgfQoKICAgIGlmIChpZC5zdGFydHNXaXRoKCJjaGFsbGVuZ2U6IikpIHsKICAgICAgY29uc3QgY2ggPSBhZHZlbnR1cmVDaGFsbGVuZ2VzLmZpbmQoKGMpID0+IGMuaWQgPT09IGlkLnNsaWNlKDEwKSk7CiAgICAgIGlmICghY2gpIHJldHVybiBudWxsOwogICAgICBpZiAoY2guaWQgPT09ICJzZXZlbi1jb250aW5lbnRzIikgewogICAgICAgIHJldHVybiB7IC4uLmJhc2UsIGRvbmU6IGNvbnRpbmVudHNTZXQuc2l6ZSwgdG90YWw6IDcgfTsKICAgICAgfQogICAgICBjb25zdCBwZWFrcyA9IGNoLnBlYWtzID8/IFtdOwogICAgICBjb25zdCBwbGFjZXMgPSBjaC5wbGFjZXMgPz8gW107CiAgICAgIGNvbnN0IGRvbmUgPQogICAgICAgIHBlYWtzLmZpbHRlcigocCkgPT4gcGVha0tleXMuaGFzKHAua2V5KSB8fCAocC5hbHQgPz8gW10pLnNvbWUoKGspID0+IHBlYWtLZXlzLmhhcyhrKSkpLmxlbmd0aCArCiAgICAgICAgcGxhY2VzLmZpbHRlcigoaykgPT4gcGxhY2VLZXlzLmhhcyhrKSkubGVuZ3RoOwogICAgICByZXR1cm4geyAuLi5iYXNlLCBkb25lLCB0b3RhbDogcGVha3MubGVuZ3RoICsgcGxhY2VzLmxlbmd0aCB9OwogICAgfQoKICAgIHN3aXRjaCAoaWQpIHsKICAgICAgY2FzZSAidG90YWwtYXNjZW50cyI6CiAgICAgICAgcmV0dXJuIHsgLi4uYmFzZSwgZG9uZTogYXNjZW50cy5sZW5ndGgsIHRvdGFsOiBudWxsIH07CiAgICAgIGNhc2UgInVuaXF1ZS1wZWFrcyI6CiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgIC4uLmJhc2UsCiAgICAgICAgICBkb25lOiBuZXcgU2V0KGFzY2VudHMubWFwKChhKSA9PiBhLnBlYWtfbmFtZS50cmltKCkudG9Mb3dlckNhc2UoKSkpLnNpemUsCiAgICAgICAgICB0b3RhbDogbnVsbCwKICAgICAgICB9OwogICAgICBjYXNlICJjb3VudHJpZXMtY2xpbWJlZCI6CiAgICAgICAgcmV0dXJuIHsgLi4uYmFzZSwgZG9uZTogbmV3IFNldChhc2NlbnRzLm1hcCgoYSkgPT4gYS5jb3VudHJ5KS5maWx0ZXIoQm9vbGVhbikpLnNpemUsIHRvdGFsOiBudWxsIH07CiAgICAgIGNhc2UgImNvdW50cmllcy12aXNpdGVkIjoKICAgICAgICByZXR1cm4gewogICAgICAgICAgLi4uYmFzZSwKICAgICAgICAgIGRvbmU6IG5ldyBTZXQodmlzaXRzLmZpbHRlcigodikgPT4gdi5wbGFjZV90eXBlID09PSAiY291bnRyeSIpLm1hcCgodikgPT4gdi5wbGFjZV9rZXkpKS5zaXplLAogICAgICAgICAgdG90YWw6IGFsbEhpZ2hwb2ludENvdW50cmllcy5sZW5ndGgsCiAgICAgICAgfTsKICAgICAgY2FzZSAicGxhY2VzLXZpc2l0ZWQiOgogICAgICAgIHJldHVybiB7IC4uLmJhc2UsIGRvbmU6IHZpc2l0cy5maWx0ZXIoKHYpID0+IHYucGxhY2VfdHlwZSAhPT0gImNvdW50cnkiKS5sZW5ndGgsIHRvdGFsOiBudWxsIH07CiAgICAgIGNhc2UgImNvbnRpbmVudHMiOgogICAgICAgIHJldHVybiB7IC4uLmJhc2UsIGRvbmU6IGNvbnRpbmVudHNTZXQuc2l6ZSwgdG90YWw6IDcgfTsKICAgICAgY2FzZSAidW4taGlnaHBvaW50cyI6IHsKICAgICAgICBjb25zdCBleHRyYXMgPSBhY3RpdmVFeHRyYVBlYWtzKCk7CiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgIC4uLmJhc2UsCiAgICAgICAgICBkb25lOiB1bkRvbmUgKyBleHRyYXMuZmlsdGVyKChrKSA9PiBwZWFrS2V5cy5oYXMoaykpLmxlbmd0aCwKICAgICAgICAgIHRvdGFsOiB1bkNvdW50cmllcy5zaXplICsgZXh0cmFzLmxlbmd0aCwKICAgICAgICB9OwogICAgICB9CiAgICAgIGNhc2UgInNldmVuLXN1bW1pdHMiOiB7CiAgICAgICAgY29uc3QgZW50cmllcyA9IHNldmVuU3VtbWl0RW50cmllcygpOwogICAgICAgIGNvbnN0IGRvbmUgPSBlbnRyaWVzLmZpbHRlcigKICAgICAgICAgIChlKSA9PiBwZWFrS2V5cy5oYXMoZS5rZXkpIHx8IChlLmFsdCA/PyBbXSkuc29tZSgoaykgPT4gcGVha0tleXMuaGFzKGspKSwKICAgICAgICApLmxlbmd0aDsKICAgICAgICByZXR1cm4geyAuLi5iYXNlLCBkb25lLCB0b3RhbDogZW50cmllcy5sZW5ndGggfTsKICAgICAgfQogICAgICBjYXNlICJhbGwtaGlnaHBvaW50cyI6CiAgICAgICAgcmV0dXJuIHsgLi4uYmFzZSwgZG9uZTogaHBDb3VudHJpZXMuc2l6ZSwgdG90YWw6IGFsbEhpZ2hwb2ludENvdW50cmllcy5sZW5ndGggfTsKICAgICAgZGVmYXVsdDoKICAgICAgICByZXR1cm4gbnVsbDsKICAgIH0KICB9OwoKICByZXR1cm4gaWRzLm1hcChvbmUpLmZpbHRlcigoZyk6IGcgaXMgR29hbFByb2dyZXNzID0+IGcgIT09IG51bGwpOwp9CgpleHBvcnQgY29uc3QgTUFYX1BST0ZJTEVfR09BTFMgPSA0OwoKZXhwb3J0IGludGVyZmFjZSBHb2FsSXRlbSB7CiAga2V5OiBzdHJpbmc7CiAgbGFiZWw6IHN0cmluZzsKICBkb25lOiBib29sZWFuOwp9Cgpjb25zdCBwcmV0dHlLZXkgPSAoa2V5OiBzdHJpbmcpID0+IGtleS5yZXBsYWNlKC9eKGhwfGZwfHBsfGNvKTovLCAiIik7CgovKiogS2V5cyBvZiBldmVyeXRoaW5nIGEgbWVtYmVyIGhhcyB0aWNrZWQsIHVzZWQgdG8gY2hlY2sgbGlzdCBlbnRyaWVzLiAqLwpmdW5jdGlvbiB0aWNrZWRLZXlzKGFzY2VudHM6IEFzY2VudFtdLCB2aXNpdHM6IFZpc2l0W10pIHsKICBjb25zdCBwZWFrS2V5cyA9IG5ldyBTZXQ8c3RyaW5nPigpOwogIGFzY2VudHMuZm9yRWFjaCgoYSkgPT4KICAgIHBlYWtLZXlzLmFkZChoaWdocG9pbnRDcmVkaXRLZXkoYSkpLAogICk7CiAgY29uc3QgcGxhY2VLZXlzID0gbmV3IFNldCh2aXNpdHMubWFwKCh2KSA9PiB2LnBsYWNlX2tleSkpOwogIHJldHVybiB7IHBlYWtLZXlzLCBwbGFjZUtleXMgfTsKfQoKLyoqCiAqIFRoZSBpbmRpdmlkdWFsIGVudHJpZXMgYmVoaW5kIGEgZ29hbCB3aXRoIGEgZml4ZWQgcm9zdGVyIChsaXN0cywgY2hhbGxlbmdlcywKICogaGlnaCBwb2ludHMsIGNvbnRpbmVudHMpLiBSZXR1cm5zIG51bGwgZm9yIG9wZW4tZW5kZWQgY291bnRlcnMuCiAqLwpleHBvcnQgZnVuY3Rpb24gZ29hbEl0ZW1zKGlkOiBzdHJpbmcsIGFzY2VudHM6IEFzY2VudFtdLCB2aXNpdHM6IFZpc2l0W10pOiBHb2FsSXRlbVtdIHwgbnVsbCB7CiAgY29uc3QgeyBwZWFrS2V5cywgcGxhY2VLZXlzIH0gPSB0aWNrZWRLZXlzKGFzY2VudHMsIHZpc2l0cyk7CiAgY29uc3QgaGl0ID0gKGtleTogc3RyaW5nLCBhbHQ/OiBzdHJpbmdbXSkgPT4KICAgIHBlYWtLZXlzLmhhcyhrZXkpIHx8IHBsYWNlS2V5cy5oYXMoa2V5KSB8fCAoYWx0ID8/IFtdKS5zb21lKChrKSA9PiBwZWFrS2V5cy5oYXMoaykgfHwgcGxhY2VLZXlzLmhhcyhrKSk7CgogIGlmIChpZC5zdGFydHNXaXRoKCJsaXN0OiIpKSB7CiAgICBjb25zdCBsaXN0ID0gcGVha0xpc3RzLmZpbmQoKGwpID0+IGwuaWQgPT09IGlkLnNsaWNlKDUpKTsKICAgIGlmICghbGlzdCkgcmV0dXJuIG51bGw7CiAgICByZXR1cm4gbGlzdC5lbnRyaWVzLm1hcCgoZSkgPT4gKHsga2V5OiBlLmtleSwgbGFiZWw6IHByZXR0eUtleShlLmtleSksIGRvbmU6IGhpdChlLmtleSwgZS5hbHQpIH0pKTsKICB9CgogIGlmIChpZC5zdGFydHNXaXRoKCJjaGFsbGVuZ2U6IikpIHsKICAgIGNvbnN0IGNoID0gYWR2ZW50dXJlQ2hhbGxlbmdlcy5maW5kKChjKSA9PiBjLmlkID09PSBpZC5zbGljZSgxMCkpOwogICAgaWYgKCFjaCkgcmV0dXJuIG51bGw7CiAgICBpZiAoY2guaWQgPT09ICJzZXZlbi1jb250aW5lbnRzIikgcmV0dXJuIGNvbnRpbmVudEl0ZW1zKGFzY2VudHMsIHZpc2l0cyk7CiAgICByZXR1cm4gWwogICAgICAuLi4oY2gucGVha3MgPz8gW10pLm1hcCgocCkgPT4gKHsga2V5OiBwLmtleSwgbGFiZWw6IHByZXR0eUtleShwLmtleSksIGRvbmU6IGhpdChwLmtleSwgcC5hbHQpIH0pKSwKICAgICAgLi4uKGNoLnBsYWNlcyA/PyBbXSkubWFwKChrKSA9PiAoeyBrZXk6IGssIGxhYmVsOiBwcmV0dHlLZXkoayksIGRvbmU6IHBsYWNlS2V5cy5oYXMoaykgfSkpLAogICAgXTsKICB9CgogIGNvbnN0IGhwQ291bnRyaWVzID0gY3JlZGl0ZWRIaWdocG9pbnRDb3VudHJpZXMoYXNjZW50cyk7CgogIHN3aXRjaCAoaWQpIHsKICAgIGNhc2UgInNldmVuLXN1bW1pdHMiOgogICAgICByZXR1cm4gc2V2ZW5TdW1taXRFbnRyaWVzKCkubWFwKChlKSA9PiAoewogICAgICAgIGtleTogZS5rZXksCiAgICAgICAgbGFiZWw6IHByZXR0eUtleShlLmtleSksCiAgICAgICAgZG9uZTogcGVha0tleXMuaGFzKGUua2V5KSB8fCAoZS5hbHQgPz8gW10pLnNvbWUoKGspID0+IHBlYWtLZXlzLmhhcyhrKSksCiAgICAgIH0pKTsKICAgIGNhc2UgInVuLWhpZ2hwb2ludHMiOgogICAgICByZXR1cm4gWwogICAgICAgIC4uLlsuLi5hY3RpdmVDb3VudHJ5U2V0KCldCiAgICAgICAgICAuc29ydCgpCiAgICAgICAgICAubWFwKChjKSA9PiAoeyBrZXk6IGBocDoke2N9YCwgbGFiZWw6IGMsIGRvbmU6IGhwQ291bnRyaWVzLmhhcyhjKSB9KSksCiAgICAgICAgLi4uYWN0aXZlRXh0cmFQZWFrcygpLm1hcCgoaykgPT4gKHsga2V5OiBrLCBsYWJlbDogcHJldHR5S2V5KGspLCBkb25lOiBwZWFrS2V5cy5oYXMoaykgfSkpLAogICAgICBdOwogICAgY2FzZSAiYWxsLWhpZ2hwb2ludHMiOgogICAgICByZXR1cm4gYWxsSGlnaHBvaW50Q291bnRyaWVzCiAgICAgICAgLm1hcCgoYykgPT4gKHsga2V5OiBgaHA6JHtjLmNvdW50cnl9YCwgbGFiZWw6IGMuY291bnRyeSwgZG9uZTogaHBDb3VudHJpZXMuaGFzKGMuY291bnRyeSkgfSkpCiAgICAgICAgLnNvcnQoKGEsIGIpID0+IGEubGFiZWwubG9jYWxlQ29tcGFyZShiLmxhYmVsKSk7CiAgICBjYXNlICJjb3VudHJpZXMtdmlzaXRlZCI6IHsKICAgICAgY29uc3QgdmlzaXRlZCA9IG5ldyBTZXQodmlzaXRzLmZpbHRlcigodikgPT4gdi5wbGFjZV90eXBlID09PSAiY291bnRyeSIpLm1hcCgodikgPT4gdi5wbGFjZV9rZXkpKTsKICAgICAgcmV0dXJuIGFsbEhpZ2hwb2ludENvdW50cmllcwogICAgICAgIC5tYXAoKGMpID0+ICh7IGtleTogYGNvOiR7Yy5jb3VudHJ5fWAsIGxhYmVsOiBjLmNvdW50cnksIGRvbmU6IHZpc2l0ZWQuaGFzKGBjbzoke2MuY291bnRyeX1gKSB9KSkKICAgICAgICAuc29ydCgoYSwgYikgPT4gYS5sYWJlbC5sb2NhbGVDb21wYXJlKGIubGFiZWwpKTsKICAgIH0KICAgIGNhc2UgImNvbnRpbmVudHMiOgogICAgICByZXR1cm4gY29udGluZW50SXRlbXMoYXNjZW50cywgdmlzaXRzKTsKICAgIGRlZmF1bHQ6CiAgICAgIHJldHVybiBudWxsOwogIH0KfQoKY29uc3QgYWxsQ29udGluZW50cyA9IFsiQWZyaWNhIiwgIkFudGFyY3RpY2EiLCAiQXNpYSIsICJFdXJvcGUiLCAiTm9ydGggQW1lcmljYSIsICJPY2VhbmlhIiwgIlNvdXRoIEFtZXJpY2EiXTsKCmZ1bmN0aW9uIGNvbnRpbmVudEl0ZW1zKGFzY2VudHM6IEFzY2VudFtdLCB2aXNpdHM6IFZpc2l0W10pOiBHb2FsSXRlbVtdIHsKICBjb25zdCBzZXQgPSBuZXcgU2V0PHN0cmluZz4oKTsKICB2aXNpdHMuZm9yRWFjaCgodikgPT4gewogICAgY29uc3QgYyA9IGNvbnRpbmVudE9mKHYuY291bnRyeSk7CiAgICBpZiAoYykgc2V0LmFkZChjKTsKICAgIGlmICh2LnBsYWNlX3R5cGUgPT09ICJwb2xlIiAmJiB2LnBsYWNlX25hbWUgIT09ICJOb3J0aCBQb2xlIikgc2V0LmFkZCgiQW50YXJjdGljYSIpOwogIH0pOwogIGFzY2VudHMuZm9yRWFjaCgoYSkgPT4gewogICAgY29uc3QgYyA9IGNvbnRpbmVudE9mKGEuY291bnRyeSk7CiAgICBpZiAoYykgc2V0LmFkZChjKTsKICB9KTsKICByZXR1cm4gYWxsQ29udGluZW50cy5tYXAoKGMpID0+ICh7IGtleTogYGNvbnRpbmVudDoke2N9YCwgbGFiZWw6IGMsIGRvbmU6IHNldC5oYXMoYykgfSkpOwp9CgoKLyoqCiAqIFBpY2tzIHVwIHRvIGBNQVhfUFJPRklMRV9HT0FMU2AgZ29hbHMgdGhhdCBiZXN0IGZpdCBhIG1lbWJlcidzIGxvZ2Jvb2tzOgogKiBnb2FscyBhbHJlYWR5IHVuZGVyd2F5IGFuZCB3aXRoaW4gcmVhY2gsIGtlcHQgZGl2ZXJzZSBhY3Jvc3MgZ3JvdXBzLgogKi8KZXhwb3J0IGZ1bmN0aW9uIHN1Z2dlc3RHb2Fscyhhc2NlbnRzOiBBc2NlbnRbXSwgdmlzaXRzOiBWaXNpdFtdKTogc3RyaW5nW10gewogIGNvbnN0IGlkcyA9IGdvYWxEZWZzLm1hcCgoZykgPT4gZy5pZCk7CiAgY29uc3QgcHJvZ3Jlc3MgPSBjb21wdXRlR29hbHMoaWRzLCBhc2NlbnRzLCB2aXNpdHMpOwogIGNvbnN0IGdyb3VwT2YgPSBuZXcgTWFwKGdvYWxEZWZzLm1hcCgoZykgPT4gW2cuaWQsIGcuZ3JvdXBdKSk7CgogIGNvbnN0IHNjb3JlZCA9IHByb2dyZXNzCiAgICAubWFwKChwKSA9PiB7CiAgICAgIC8vIE9wZW4tZW5kZWQgY291bnRlcnMgKG5vIHRvdGFsKSBhcmUgdXNlZnVsIGhlYWRsaW5lIGJveGVzIG9uY2UgdGhlcmUgaXMgZGF0YS4KICAgICAgaWYgKHAudG90YWwgPT09IG51bGwpIHJldHVybiB7IGlkOiBwLmlkLCBzY29yZTogcC5kb25lID4gMCA/IDAuNTUgKyBNYXRoLm1pbihwLmRvbmUsIDUwKSAvIDUwMCA6IDAuMSB9OwogICAgICBpZiAocC50b3RhbCA9PT0gMCkgcmV0dXJuIHsgaWQ6IHAuaWQsIHNjb3JlOiAwIH07CiAgICAgIGNvbnN0IHJhdGlvID0gcC5kb25lIC8gcC50b3RhbDsKICAgICAgaWYgKHJhdGlvID49IDEpIHJldHVybiB7IGlkOiBwLmlkLCBzY29yZTogMC4zIH07IC8vIGZpbmlzaGVkIOKAlCBuaWNlIHRvIHNob3csIGJ1dCBub3QgYSBnb2FsCiAgICAgIGlmIChwLmRvbmUgPT09IDApIHJldHVybiB7IGlkOiBwLmlkLCBzY29yZTogMC4wNSB9OwogICAgICAvLyBTd2VldCBzcG90OiByZWFsIHByb2dyZXNzLCBzdGlsbCBzb21ldGhpbmcgbGVmdCB0byBjaGFzZS4gU21hbGwgbGlzdHMgcmFuayBoaWdoZXIuCiAgICAgIGNvbnN0IHJlYWNoID0gMSAtIE1hdGguYWJzKHJhdGlvIC0gMC41NSk7CiAgICAgIGNvbnN0IHNpemUgPSAxIC8gKDEgKyBNYXRoLmxvZzEwKHAudG90YWwgKyAxKSk7CiAgICAgIHJldHVybiB7IGlkOiBwLmlkLCBzY29yZTogMC42ICsgcmVhY2ggKiAwLjUgKyBzaXplICogMC4zIH07CiAgICB9KQogICAgLnNvcnQoKGEsIGIpID0+IGIuc2NvcmUgLSBhLnNjb3JlKTsKCiAgY29uc3QgcGlja2VkOiBzdHJpbmdbXSA9IFtdOwogIGNvbnN0IHBlckdyb3VwID0gbmV3IE1hcDxzdHJpbmcsIG51bWJlcj4oKTsKICBmb3IgKGNvbnN0IHMgb2Ygc2NvcmVkKSB7CiAgICBpZiAocGlja2VkLmxlbmd0aCA+PSBNQVhfUFJPRklMRV9HT0FMUykgYnJlYWs7CiAgICBpZiAocy5zY29yZSA8PSAwLjEpIGNvbnRpbnVlOwogICAgY29uc3QgZ3JvdXAgPSBncm91cE9mLmdldChzLmlkKSA/PyAiIjsKICAgIGNvbnN0IHVzZWQgPSBwZXJHcm91cC5nZXQoZ3JvdXApID8/IDA7CiAgICBpZiAodXNlZCA+PSAyKSBjb250aW51ZTsKICAgIHBlckdyb3VwLnNldChncm91cCwgdXNlZCArIDEpOwogICAgcGlja2VkLnB1c2gocy5pZCk7CiAgfQogIHJldHVybiBwaWNrZWQubGVuZ3RoID8gcGlja2VkIDogZGVmYXVsdEdvYWxzLnNsaWNlKDAsIE1BWF9QUk9GSUxFX0dPQUxTKTsKfQo=
+import { countries } from "@/data/countries";
+import { peakLists } from "@/data/peak-lists";
+import { adventureChallenges } from "@/data/adventure-challenges";
+import type { Ascent } from "@/lib/peak-catalog";
+import type { Visit } from "@/data/places";
+import { highpointCreditKey } from "@/lib/historic-highpoints";
+import { creditedHighpointCountries } from "@/lib/mainland-credit";
+import {
+  activeCountrySet,
+  activeExtraPeaks,
+  countryDefinitionName,
+  getDefinitions,
+  sevenSummitsDefinitions,
+} from "@/lib/definitions";
+
+/** The Seven Summits roster under the member's chosen definition. */
+export function sevenSummitEntries(): { key: string; alt?: string[] }[] {
+  const bass = peakLists.find((l) => l.id === "seven-summits-bass")?.entries ?? [];
+  const messner = peakLists.find((l) => l.id === "seven-summits-messner")?.entries ?? [];
+  const mode = getDefinitions().sevenSummits;
+  if (mode === "bass") return bass;
+  if (mode === "messner") return messner;
+  const kosciuszko = bass[bass.length - 1];
+  const carstensz = messner[messner.length - 1];
+  const shared = bass.slice(0, -1);
+  if (mode === "both") return [...shared, ...(kosciuszko ? [kosciuszko] : []), ...(carstensz ? [carstensz] : [])];
+  // "either" — one seventh box, ticked by whichever of the two you climbed.
+  return [
+    ...shared,
+    {
+      key: kosciuszko?.key ?? "fp:Kosciuszko",
+      alt: [...(kosciuszko?.alt ?? []), ...(carstensz ? [carstensz.key, ...(carstensz.alt ?? [])] : [])],
+    },
+  ];
+}
+
+export interface GoalProgress {
+  id: string;
+  label: string;
+  short: string;
+  done: number;
+  total: number | null;
+}
+
+export interface GoalDef {
+  id: string;
+  label: string;
+  /** Compact label used inside the small profile boxes. */
+  short: string;
+  group: string;
+}
+
+const allHighpointCountries = countries.filter((c) => c.country !== "Antarctica");
+
+/**
+ * True when the country counts under the member's chosen country definition
+ * (UN only, UN + Taiwan + Antarctica, Gilbertson style, …).
+ */
+export const isUnCountry = (country: string | null | undefined) =>
+  !!country && activeCountrySet().has(country);
+
+/** Every goal a member can pin to their profile. */
+export const goalDefs: GoalDef[] = [
+  { id: "total-ascents", label: "Total ascents", short: "Ascents", group: "Basics" },
+  { id: "unique-peaks", label: "Unique peaks", short: "Unique peaks", group: "Basics" },
+  { id: "countries-climbed", label: "Countries climbed in", short: "Countries climbed", group: "Basics" },
+  { id: "countries-visited", label: "Countries visited", short: "Countries visited", group: "Basics" },
+  { id: "places-visited", label: "Places visited", short: "Places", group: "Basics" },
+  { id: "continents", label: "Continents", short: "Continents", group: "Basics" },
+  { id: "un-highpoints", label: "Country high points", short: "Country high points", group: "High points" },
+  { id: "seven-summits", label: "Seven Summits", short: "Seven Summits", group: "High points" },
+  {
+    id: "all-highpoints",
+    label: `Country high points (all ${allHighpointCountries.length})`,
+    short: "All high points",
+    group: "High points",
+  },
+  ...peakLists.map((l) => ({ id: `list:${l.id}`, label: l.name, short: l.name, group: `Lists · ${l.category}` })),
+  ...adventureChallenges.map((c) => ({
+    id: `challenge:${c.id}`,
+    label: c.name,
+    short: c.name,
+    group: "Challenges",
+  })),
+];
+
+export const defaultGoals = ["un-highpoints", "total-ascents", "countries-visited", "seven-summits"];
+
+const continentOf = (country: string | null | undefined) =>
+  country ? countries.find((c) => c.country === country)?.continent ?? null : null;
+
+/** Computes progress for every selected goal id from a member's logbooks. */
+export function computeGoals(ids: string[], ascents: Ascent[], visits: Visit[]): GoalProgress[] {
+  const peakKeys = new Set<string>();
+  ascents.forEach((a) =>
+    peakKeys.add(highpointCreditKey(a)),
+  );
+  const placeKeys = new Set(visits.map((v) => v.place_key));
+
+  const hpCountries = creditedHighpointCountries(ascents);
+  const unCountries = activeCountrySet();
+  const unDone = [...hpCountries].filter((c) => unCountries.has(c)).length;
+
+  const continentsSet = new Set<string>();
+  visits.forEach((v) => {
+    const c = continentOf(v.country);
+    if (c) continentsSet.add(c);
+    if (v.place_type === "pole" && v.place_name !== "North Pole") continentsSet.add("Antarctica");
+  });
+  ascents.forEach((a) => {
+    const c = continentOf(a.country);
+    if (c) continentsSet.add(c);
+  });
+
+  const one = (id: string): GoalProgress | null => {
+    const def = goalDefs.find((g) => g.id === id);
+    if (!def) return null;
+    const base = { id, label: def.label, short: def.short };
+    if (id === "un-highpoints") {
+      base.label = `Country high points — ${countryDefinitionName(getDefinitions().countries)}`;
+    }
+    if (id === "seven-summits") {
+      const sd = sevenSummitsDefinitions.find((d) => d.id === getDefinitions().sevenSummits);
+      if (sd) base.label = `Seven Summits — ${sd.name}`;
+    }
+
+    if (id.startsWith("list:")) {
+      const list = peakLists.find((l) => l.id === id.slice(5));
+      if (!list) return null;
+      const done = list.entries.filter(
+        (e) => peakKeys.has(e.key) || (e.alt ?? []).some((k) => peakKeys.has(k)),
+      ).length;
+      return { ...base, done, total: list.entries.length };
+    }
+
+    if (id.startsWith("challenge:")) {
+      const ch = adventureChallenges.find((c) => c.id === id.slice(10));
+      if (!ch) return null;
+      if (ch.id === "seven-continents") {
+        return { ...base, done: continentsSet.size, total: 7 };
+      }
+      const peaks = ch.peaks ?? [];
+      const places = ch.places ?? [];
+      const done =
+        peaks.filter((p) => peakKeys.has(p.key) || (p.alt ?? []).some((k) => peakKeys.has(k))).length +
+        places.filter((k) => placeKeys.has(k)).length;
+      return { ...base, done, total: peaks.length + places.length };
+    }
+
+    switch (id) {
+      case "total-ascents":
+        return { ...base, done: ascents.length, total: null };
+      case "unique-peaks":
+        return {
+          ...base,
+          done: new Set(ascents.map((a) => a.peak_name.trim().toLowerCase())).size,
+          total: null,
+        };
+      case "countries-climbed":
+        return { ...base, done: new Set(ascents.map((a) => a.country).filter(Boolean)).size, total: null };
+      case "countries-visited":
+        return {
+          ...base,
+          done: new Set(visits.filter((v) => v.place_type === "country").map((v) => v.place_key)).size,
+          total: allHighpointCountries.length,
+        };
+      case "places-visited":
+        return { ...base, done: visits.filter((v) => v.place_type !== "country").length, total: null };
+      case "continents":
+        return { ...base, done: continentsSet.size, total: 7 };
+      case "un-highpoints": {
+        const extras = activeExtraPeaks();
+        return {
+          ...base,
+          done: unDone + extras.filter((k) => peakKeys.has(k)).length,
+          total: unCountries.size + extras.length,
+        };
+      }
+      case "seven-summits": {
+        const entries = sevenSummitEntries();
+        const done = entries.filter(
+          (e) => peakKeys.has(e.key) || (e.alt ?? []).some((k) => peakKeys.has(k)),
+        ).length;
+        return { ...base, done, total: entries.length };
+      }
+      case "all-highpoints":
+        return { ...base, done: hpCountries.size, total: allHighpointCountries.length };
+      default:
+        return null;
+    }
+  };
+
+  return ids.map(one).filter((g): g is GoalProgress => g !== null);
+}
+
+export const MAX_PROFILE_GOALS = 4;
+
+export interface GoalItem {
+  key: string;
+  label: string;
+  done: boolean;
+}
+
+const prettyKey = (key: string) => key.replace(/^(hp|fp|pl|co):/, "");
+
+/** Keys of everything a member has ticked, used to check list entries. */
+function tickedKeys(ascents: Ascent[], visits: Visit[]) {
+  const peakKeys = new Set<string>();
+  ascents.forEach((a) =>
+    peakKeys.add(highpointCreditKey(a)),
+  );
+  const placeKeys = new Set(visits.map((v) => v.place_key));
+  return { peakKeys, placeKeys };
+}
+
+/**
+ * The individual entries behind a goal with a fixed roster (lists, challenges,
+ * high points, continents). Returns null for open-ended counters.
+ */
+export function goalItems(id: string, ascents: Ascent[], visits: Visit[]): GoalItem[] | null {
+  const { peakKeys, placeKeys } = tickedKeys(ascents, visits);
+  const hit = (key: string, alt?: string[]) =>
+    peakKeys.has(key) || placeKeys.has(key) || (alt ?? []).some((k) => peakKeys.has(k) || placeKeys.has(k));
+
+  if (id.startsWith("list:")) {
+    const list = peakLists.find((l) => l.id === id.slice(5));
+    if (!list) return null;
+    return list.entries.map((e) => ({ key: e.key, label: prettyKey(e.key), done: hit(e.key, e.alt) }));
+  }
+
+  if (id.startsWith("challenge:")) {
+    const ch = adventureChallenges.find((c) => c.id === id.slice(10));
+    if (!ch) return null;
+    if (ch.id === "seven-continents") return continentItems(ascents, visits);
+    return [
+      ...(ch.peaks ?? []).map((p) => ({ key: p.key, label: prettyKey(p.key), done: hit(p.key, p.alt) })),
+      ...(ch.places ?? []).map((k) => ({ key: k, label: prettyKey(k), done: placeKeys.has(k) })),
+    ];
+  }
+
+  const hpCountries = creditedHighpointCountries(ascents);
+
+  switch (id) {
+    case "seven-summits":
+      return sevenSummitEntries().map((e) => ({
+        key: e.key,
+        label: prettyKey(e.key),
+        done: peakKeys.has(e.key) || (e.alt ?? []).some((k) => peakKeys.has(k)),
+      }));
+    case "un-highpoints":
+      return [
+        ...[...activeCountrySet()]
+          .sort()
+          .map((c) => ({ key: `hp:${c}`, label: c, done: hpCountries.has(c) })),
+        ...activeExtraPeaks().map((k) => ({ key: k, label: prettyKey(k), done: peakKeys.has(k) })),
+      ];
+    case "all-highpoints":
+      return allHighpointCountries
+        .map((c) => ({ key: `hp:${c.country}`, label: c.country, done: hpCountries.has(c.country) }))
+        .sort((a, b) => a.label.localeCompare(b.label));
+    case "countries-visited": {
+      const visited = new Set(visits.filter((v) => v.place_type === "country").map((v) => v.place_key));
+      return allHighpointCountries
+        .map((c) => ({ key: `co:${c.country}`, label: c.country, done: visited.has(`co:${c.country}`) }))
+        .sort((a, b) => a.label.localeCompare(b.label));
+    }
+    case "continents":
+      return continentItems(ascents, visits);
+    default:
+      return null;
+  }
+}
+
+const allContinents = ["Africa", "Antarctica", "Asia", "Europe", "North America", "Oceania", "South America"];
+
+function continentItems(ascents: Ascent[], visits: Visit[]): GoalItem[] {
+  const set = new Set<string>();
+  visits.forEach((v) => {
+    const c = continentOf(v.country);
+    if (c) set.add(c);
+    if (v.place_type === "pole" && v.place_name !== "North Pole") set.add("Antarctica");
+  });
+  ascents.forEach((a) => {
+    const c = continentOf(a.country);
+    if (c) set.add(c);
+  });
+  return allContinents.map((c) => ({ key: `continent:${c}`, label: c, done: set.has(c) }));
+}
+
+
+/**
+ * Picks up to `MAX_PROFILE_GOALS` goals that best fit a member's logbooks:
+ * goals already underway and within reach, kept diverse across groups.
+ */
+export function suggestGoals(ascents: Ascent[], visits: Visit[]): string[] {
+  const ids = goalDefs.map((g) => g.id);
+  const progress = computeGoals(ids, ascents, visits);
+  const groupOf = new Map(goalDefs.map((g) => [g.id, g.group]));
+
+  const scored = progress
+    .map((p) => {
+      // Open-ended counters (no total) are useful headline boxes once there is data.
+      if (p.total === null) return { id: p.id, score: p.done > 0 ? 0.55 + Math.min(p.done, 50) / 500 : 0.1 };
+      if (p.total === 0) return { id: p.id, score: 0 };
+      const ratio = p.done / p.total;
+      if (ratio >= 1) return { id: p.id, score: 0.3 }; // finished — nice to show, but not a goal
+      if (p.done === 0) return { id: p.id, score: 0.05 };
+      // Sweet spot: real progress, still something left to chase. Small lists rank higher.
+      const reach = 1 - Math.abs(ratio - 0.55);
+      const size = 1 / (1 + Math.log10(p.total + 1));
+      return { id: p.id, score: 0.6 + reach * 0.5 + size * 0.3 };
+    })
+    .sort((a, b) => b.score - a.score);
+
+  const picked: string[] = [];
+  const perGroup = new Map<string, number>();
+  for (const s of scored) {
+    if (picked.length >= MAX_PROFILE_GOALS) break;
+    if (s.score <= 0.1) continue;
+    const group = groupOf.get(s.id) ?? "";
+    const used = perGroup.get(group) ?? 0;
+    if (used >= 2) continue;
+    perGroup.set(group, used + 1);
+    picked.push(s.id);
+  }
+  return picked.length ? picked : defaultGoals.slice(0, MAX_PROFILE_GOALS);
+}

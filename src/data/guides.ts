@@ -1,1 +1,402 @@
-LyoqCiAqIEVkaXRvcmlhbCBsaXN0L2NvbXBhcmlzb24gZ3VpZGVzIOKAlCB0aGUgImhpZ2hlc3QgcG9pbnQgaW4gZXZlcnkgY291bnRyeSIsCiAqICJlYXNpZXN0IGNvdW50cnkgaGlnaHBvaW50cyIgc3R5bGUgcGFnZXMgdGhhdCB0YXJnZXQgbGlzdC1pbnRlbnQgc2VhcmNoZXMKICogYW5kIGZ1bm5lbCBpbnRlcm5hbCBsaW5rcyBpbnRvIGV2ZXJ5IC9wZWFrLyogcGFnZS4KICovCmltcG9ydCB7IGNvdW50cmllcywgdHlwZSBDb3VudHJ5SGlnaFBvaW50IH0gZnJvbSAiQC9kYXRhL2NvdW50cmllcyI7CmltcG9ydCB7IGNvdW50cnlEaWZmaWN1bHR5LCB0eXBlIERpZmZpY3VsdHkgfSBmcm9tICJAL2RhdGEvZGlmZmljdWx0eSI7CmltcG9ydCB7IHBlYWtEZXRhaWxzIH0gZnJvbSAiQC9kYXRhL3BlYWstZGV0YWlscyI7CgpleHBvcnQgZnVuY3Rpb24gZWxldmF0aW9uT2YoYzogQ291bnRyeUhpZ2hQb2ludCk6IG51bWJlciB7CiAgY29uc3QgZGV0YWlsID0gcGVha0RldGFpbHNbYy5jb3VudHJ5XTsKICBpZiAoZGV0YWlsKSByZXR1cm4gZGV0YWlsLmVsZXZhdGlvbjsKICBjb25zdCBwYXJzZWQgPSBOdW1iZXIoYy5lbGV2YXRpb24ucmVwbGFjZSgvW14wLTldL2csICIiKSk7CiAgcmV0dXJuIE51bWJlci5pc0Zpbml0ZShwYXJzZWQpID8gcGFyc2VkIDogMDsKfQoKY29uc3QgZGlmZmljdWx0eU9mID0gKGM6IENvdW50cnlIaWdoUG9pbnQpOiBEaWZmaWN1bHR5IHwgdW5kZWZpbmVkID0+CiAgY291bnRyeURpZmZpY3VsdHlbYy5jb3VudHJ5XT8uZGlmZmljdWx0eTsKCmNvbnN0IGJ5RWxldmF0aW9uRGVzYyA9IChhOiBDb3VudHJ5SGlnaFBvaW50LCBiOiBDb3VudHJ5SGlnaFBvaW50KSA9PiBlbGV2YXRpb25PZihiKSAtIGVsZXZhdGlvbk9mKGEpOwpjb25zdCBieUVsZXZhdGlvbkFzYyA9IChhOiBDb3VudHJ5SGlnaFBvaW50LCBiOiBDb3VudHJ5SGlnaFBvaW50KSA9PiBlbGV2YXRpb25PZihhKSAtIGVsZXZhdGlvbk9mKGIpOwoKZXhwb3J0IGludGVyZmFjZSBHdWlkZSB7CiAgc2x1Zzogc3RyaW5nOwogIGhlYWRpbmc6IHN0cmluZzsKICBzZW9UaXRsZTogc3RyaW5nOwogIGRlc2NyaXB0aW9uOiBzdHJpbmc7CiAgaW50cm86IHN0cmluZzsKICAvKiogU2hvcnQgZXhwbGFpbmVyIHNob3duIHVuZGVyIHRoZSB0YWJsZS4gKi8KICBvdXRybzogc3RyaW5nOwogIHNlbGVjdDogKCkgPT4gQ291bnRyeUhpZ2hQb2ludFtdOwogIGZhcXM6IHsgcXVlc3Rpb246IHN0cmluZzsgYW5zd2VyOiBzdHJpbmcgfVtdOwp9CgovKiogQnVpbGRzIGEgImhpZ2hlc3QgbW91bnRhaW4gaW4gZXZlcnkgWCBjb3VudHJ5IiBndWlkZSBmb3IgYSBjb250aW5lbnQuICovCmNvbnN0IGNvbnRpbmVudEd1aWRlID0gKAogIGNvbnRpbmVudDogc3RyaW5nLAogIGNvcHk6IE9taXQ8R3VpZGUsICJzbHVnIiB8ICJoZWFkaW5nIiB8ICJzZWxlY3QiPiwKKTogR3VpZGVbXSA9PiBbCiAgewogICAgc2x1ZzogYCR7Y29udGluZW50LnRvTG93ZXJDYXNlKCkucmVwbGFjZSgvXHMrL2csICItIil9LWNvdW50cnktaGlnaHBvaW50c2AsCiAgICBoZWFkaW5nOiBgSGlnaGVzdCBNb3VudGFpbiBpbiBFdmVyeSAkewogICAgICAoewogICAgICAgIEFzaWE6ICJBc2lhbiIsCiAgICAgICAgQWZyaWNhOiAiQWZyaWNhbiIsCiAgICAgICAgT2NlYW5pYTogIk9jZWFuaWFuIiwKICAgICAgICAiU291dGggQW1lcmljYSI6ICJTb3V0aCBBbWVyaWNhbiIsCiAgICAgICAgIk5vcnRoIEFtZXJpY2EiOiAiTm9ydGggQW1lcmljYW4iLAogICAgICB9IGFzIFJlY29yZDxzdHJpbmcsIHN0cmluZz4pW2NvbnRpbmVudF0gPz8gY29udGluZW50CiAgICB9IENvdW50cnlgLAogICAgc2VsZWN0OiAoKSA9PiBjb3VudHJpZXMuZmlsdGVyKChjKSA9PiBjLmNvbnRpbmVudCA9PT0gY29udGluZW50KS5zb3J0KGJ5RWxldmF0aW9uRGVzYyksCiAgICAuLi5jb3B5LAogIH0sCl07CgpleHBvcnQgY29uc3QgZ3VpZGVzOiBHdWlkZVtdID0gWwogIHsKICAgIHNsdWc6ICJoaWdoZXN0LXBvaW50LWluLWV2ZXJ5LWNvdW50cnkiLAogICAgaGVhZGluZzogIlRoZSBIaWdoZXN0IFBvaW50IGluIEV2ZXJ5IENvdW50cnkiLAogICAgc2VvVGl0bGU6ICJIaWdoZXN0IFBvaW50IGluIEV2ZXJ5IENvdW50cnkgKEZ1bGwgTGlzdCkiLAogICAgZGVzY3JpcHRpb246CiAgICAgICJUaGUgY29tcGxldGUgbGlzdCBvZiBldmVyeSBjb3VudHJ5J3MgaGlnaGVzdCBtb3VudGFpbiwgcmFua2VkIGJ5IGVsZXZhdGlvbiwgd2l0aCBkaWZmaWN1bHR5LCByYW5nZSBhbmQgcm91dGUgbm90ZXMgZm9yIGFsbCAxOTUgaGlnaHBvaW50cy4iLAogICAgaW50cm86CiAgICAgICJFdmVyeSBzb3ZlcmVpZ24gY291bnRyeSBoYXMgb25lIGhpZ2hlc3QgcG9pbnQg4oCUIGZyb20gdGhlIDgsODQ5IG0gc3VtbWl0IG9mIEV2ZXJlc3QgZG93biB0byBoaWxscyB5b3UgY2FuIGRyaXZlIHRvLiBUaGlzIGlzIHRoZSBmdWxsIHJhbmtlZCBsaXN0LCB3aXRoIGEgcGFnZSBmb3IgZWFjaCBwZWFrIGNvdmVyaW5nIHRoZSBub3JtYWwgcm91dGUsIGRpZmZpY3VsdHkgYW5kIHNlYXNvbi4iLAogICAgb3V0cm86CiAgICAgICJFbGV2YXRpb25zIGZvbGxvdyBQZWFrYmFnZ2VyIGFuZCBuYXRpb25hbCBzdXJ2ZXkgZGF0YS4gV2hlcmUgYSBjb3VudHJ5J3MgdHJ1ZSBoaWdocG9pbnQgc2l0cyBpbiBhbiBvdmVyc2VhcyB0ZXJyaXRvcnksIGJvdGggdGhlIHRlcnJpdG9yaWFsIGFuZCBtYWlubGFuZCBzdW1taXRzIGFyZSB0cmFja2VkIHNlcGFyYXRlbHkuIiwKICAgIHNlbGVjdDogKCkgPT4gWy4uLmNvdW50cmllc10uc29ydChieUVsZXZhdGlvbkRlc2MpLAogICAgZmFxczogWwogICAgICB7CiAgICAgICAgcXVlc3Rpb246ICJIb3cgbWFueSBjb3VudHJ5IGhpZ2hwb2ludHMgYXJlIHRoZXJlPyIsCiAgICAgICAgYW5zd2VyOgogICAgICAgICAgIjE5NSDigJQgdGhlIDE5MyBVTiBtZW1iZXIgc3RhdGVzIHBsdXMgVGFpd2FuIGFuZCBBbnRhcmN0aWNhLiBBIGhhbmRmdWwgb2YgcGVha3MgYXJlIHNoYXJlZCBieSB0d28gY291bnRyaWVzLCBzdWNoIGFzIE1vbnQgQmxhbmMgZm9yIEZyYW5jZSBhbmQgSXRhbHkuIiwKICAgICAgfSwKICAgICAgewogICAgICAgIHF1ZXN0aW9uOiAiV2hhdCBpcyB0aGUgaGlnaGVzdCBjb3VudHJ5IGhpZ2hwb2ludD8iLAogICAgICAgIGFuc3dlcjogIk1vdW50IEV2ZXJlc3QgYXQgOCw4NDkgbSwgdGhlIGhpZ2hlc3QgcG9pbnQgb2YgYm90aCBOZXBhbCBhbmQgQ2hpbmEuIiwKICAgICAgfSwKICAgICAgewogICAgICAgIHF1ZXN0aW9uOiAiV2hhdCBpcyB0aGUgbG93ZXN0IGNvdW50cnkgaGlnaHBvaW50PyIsCiAgICAgICAgYW5zd2VyOgogICAgICAgICAgIlRoZSBNYWxkaXZlcywgd2hlcmUgdGhlIGhpZ2hlc3QgbmF0dXJhbCBwb2ludCBpcyByb3VnaGx5IDIuNCBtIGFib3ZlIHNlYSBsZXZlbCDigJQgbG93ZXIgdGhhbiBtb3N0IGJ1aWxkaW5ncy4iLAogICAgICB9LAogICAgXSwKICB9LAogIHsKICAgIHNsdWc6ICJlYXNpZXN0LWNvdW50cnktaGlnaHBvaW50cyIsCiAgICBoZWFkaW5nOiAiVGhlIEVhc2llc3QgQ291bnRyeSBIaWdocG9pbnRzIiwKICAgIHNlb1RpdGxlOiAiRWFzaWVzdCBDb3VudHJ5IEhpZ2hwb2ludHMgdG8gQ2xpbWIiLAogICAgZGVzY3JpcHRpb246CiAgICAgICJUaGUgY291bnRyeSBoaWdocG9pbnRzIHlvdSBjYW4gdGljayBpbiBhIGRheSBvciBsZXNzIOKAlCBzaG9ydCB3YWxrcywgZHJpdmUtdXAgc3VtbWl0cyBhbmQgZWFzeSBoaWtlcywgcmFua2VkIGZyb20gZWFzaWVzdCB1cHdhcmQuIiwKICAgIGludHJvOgogICAgICAiTm90IGV2ZXJ5IGNvdW50cnkgaGlnaHBvaW50IGlzIGEgbW91bnRhaW5lZXJpbmcgb2JqZWN0aXZlLiBEb3plbnMgYXJlIHNpbXBsZSB3YWxrcywgYW5kIHNvbWUgYXJlIGEgZmV3IHN0ZXBzIGZyb20gYSBjYXIgcGFyay4gVGhlc2UgYXJlIHRoZSBiZXN0IGZpcnN0IHRpY2tzIGlmIHlvdSB3YW50IHRvIHN0YXJ0IGhpZ2hwb2ludGluZyB3aXRob3V0IHRlY2huaWNhbCBnZWFyLiIsCiAgICBvdXRybzoKICAgICAgIkVhc3kgZG9lcyBub3QgbWVhbiB0cml2aWFsOiBjaGVjayBhY2Nlc3MgcmlnaHRzLCBwcml2YXRlIGxhbmQgYW5kIGxvY2FsIGNvbmRpdGlvbnMgYmVmb3JlIHlvdSBnby4gRXZlcnkgcGVhayBiZWxvdyBsaW5rcyB0byBpdHMgb3duIHBhZ2Ugd2l0aCByb3V0ZSBub3Rlcy4iLAogICAgc2VsZWN0OiAoKSA9PgogICAgICBjb3VudHJpZXMKICAgICAgICAuZmlsdGVyKChjKSA9PiB7CiAgICAgICAgICBjb25zdCBkID0gZGlmZmljdWx0eU9mKGMpOwogICAgICAgICAgcmV0dXJuIGQgPT09ICJ2ZXJ5X2Vhc3kiIHx8IGQgPT09ICJlYXN5IjsKICAgICAgICB9KQogICAgICAgIC5zb3J0KGJ5RWxldmF0aW9uQXNjKQogICAgICAgIC5zbGljZSgwLCA0MCksCiAgICBmYXFzOiBbCiAgICAgIHsKICAgICAgICBxdWVzdGlvbjogIldoYXQgaXMgdGhlIGVhc2llc3QgY291bnRyeSBoaWdocG9pbnQgaW4gdGhlIHdvcmxkPyIsCiAgICAgICAgYW5zd2VyOgogICAgICAgICAgIlNldmVyYWwgYXJlIGVmZmVjdGl2ZWx5IGRyaXZlLXVwcy4gSW4gRXVyb3BlLCBTaWduYWwgZGUgQm90cmFuZ2UgaW4gQmVsZ2l1bSBhbmQgS25laWZmIGluIEx1eGVtYm91cmcgYm90aCB0YWtlIG1pbnV0ZXMgZnJvbSB0aGUgcm9hZC4iLAogICAgICB9LAogICAgICB7CiAgICAgICAgcXVlc3Rpb246ICJDYW4geW91IGNsaW1iIGEgY291bnRyeSBoaWdocG9pbnQgd2l0aG91dCBleHBlcmllbmNlPyIsCiAgICAgICAgYW5zd2VyOgogICAgICAgICAgIlllcy4gRG96ZW5zIG9mIGhpZ2hwb2ludHMgYXJlIG1hcmtlZCB3YWxraW5nIHRyYWlscyB3aXRoIG5vIHRlY2huaWNhbCBncm91bmQuIFN0YXJ0IHdpdGggdGhlIGVhc3kgRXVyb3BlYW4gYW5kIENhcmliYmVhbiBzdW1taXRzIGJlZm9yZSBtb3ZpbmcgdG8gZ2xhY2lhdGVkIHBlYWtzLiIsCiAgICAgIH0sCiAgICBdLAogIH0sCiAgewogICAgc2x1ZzogImhhcmRlc3QtY291bnRyeS1oaWdocG9pbnRzIiwKICAgIGhlYWRpbmc6ICJUaGUgSGFyZGVzdCBDb3VudHJ5IEhpZ2hwb2ludHMiLAogICAgc2VvVGl0bGU6ICJIYXJkZXN0IENvdW50cnkgSGlnaHBvaW50cyB0byBDbGltYiIsCiAgICBkZXNjcmlwdGlvbjoKICAgICAgIlRoZSBjb3VudHJ5IGhpZ2hwb2ludHMgdGhhdCBzdG9wIG1vc3QgaGlnaHBvaW50ZXJzOiBleHRyZW1lIGFsdGl0dWRlLCBnbGFjaWVycywgcmVtb3RlIGp1bmdsZSBhbmQgcGVha3MgY2xvc2VkIGJ5IHBvbGl0aWNzIG9yIGNvbmZsaWN0LiIsCiAgICBpbnRybzoKICAgICAgIlRoZSBoYXJkZXN0IGNvdW50cnkgaGlnaHBvaW50cyBhcmUgbm90IGp1c3QgdGhlIHRhbGxlc3QuIFNvbWUgbmVlZCBhIGZ1bGwgSGltYWxheWFuIGV4cGVkaXRpb24sIG90aGVycyBhcmUgYmxvY2tlZCBieSBwZXJtaXRzLCBjbG9zZWQgYm9yZGVycyBvciBhY3RpdmUgY29uZmxpY3QuIFRoZXNlIGFyZSB0aGUgc3VtbWl0cyB0aGF0IGRlY2lkZSB3aGV0aGVyIHRoZSBmdWxsIGxpc3Qgb2YgMTk1IGlzIHJlYWxpc3RpYy4iLAogICAgb3V0cm86CiAgICAgICJEaWZmaWN1bHR5IGhlcmUgY29tYmluZXMgdGVjaG5pY2FsIGdyb3VuZCwgYWx0aXR1ZGUsIHJlbW90ZW5lc3MgYW5kIGFjY2Vzcy4gUG9saXRpY2FsIGRpZmZpY3VsdHkgaXMgdHJhY2tlZCBzZXBhcmF0ZWx5IG9uIGVhY2ggcGVhayBwYWdlLiIsCiAgICBzZWxlY3Q6ICgpID0+CiAgICAgIGNvdW50cmllcwogICAgICAgIC5maWx0ZXIoKGMpID0+IHsKICAgICAgICAgIGNvbnN0IGQgPSBkaWZmaWN1bHR5T2YoYyk7CiAgICAgICAgICByZXR1cm4gZCA9PT0gImV4cGVydCIgfHwgZCA9PT0gImhhcmQiOwogICAgICAgIH0pCiAgICAgICAgLnNvcnQoYnlFbGV2YXRpb25EZXNjKQogICAgICAgIC5zbGljZSgwLCA0MCksCiAgICBmYXFzOiBbCiAgICAgIHsKICAgICAgICBxdWVzdGlvbjogIldoYXQgaXMgdGhlIGhhcmRlc3QgY291bnRyeSBoaWdocG9pbnQ/IiwKICAgICAgICBhbnN3ZXI6CiAgICAgICAgICAiR2FuZ2toYXIgUHVlbnN1bSBpbiBCaHV0YW4gaXMgYXJndWFibHkgdGhlIGhhcmRlc3Qg4oCUIGl0IGlzIHRoZSB3b3JsZCdzIGhpZ2hlc3QgdW5jbGltYmVkIG1vdW50YWluIGFuZCBjbGltYmluZyBpdCBpcyBiYW5uZWQuIiwKICAgICAgfSwKICAgICAgewogICAgICAgIHF1ZXN0aW9uOiAiV2hpY2ggY291bnRyeSBoaWdocG9pbnRzIHJlcXVpcmUgYW4gZXhwZWRpdGlvbj8iLAogICAgICAgIGFuc3dlcjoKICAgICAgICAgICJFdmVyZXN0IChOZXBhbC9DaGluYSksIEsyIChQYWtpc3RhbiksIFZpbnNvbiAoQW50YXJjdGljYSksIERlbmFsaSAoVVNBKSwgQWNvbmNhZ3VhIChBcmdlbnRpbmEpIGFuZCBQaWNvIGRlIE9yaXphYmEtY2xhc3Mgdm9sY2Fub2VzIGFsbCBuZWVkIG11bHRpLWRheSwgZnVsbHkgZXF1aXBwZWQgdHJpcHMuIiwKICAgICAgfSwKICAgIF0sCiAgfSwKICB7CiAgICBzbHVnOiAiYmVzdC1iZWdpbm5lci1jb3VudHJ5LWhpZ2hwb2ludHMiLAogICAgaGVhZGluZzogIkJlc3QgQmVnaW5uZXIgQ291bnRyeSBIaWdocG9pbnRzIiwKICAgIHNlb1RpdGxlOiAiQmVzdCBCZWdpbm5lciBDb3VudHJ5IEhpZ2hwb2ludHMiLAogICAgZGVzY3JpcHRpb246CiAgICAgICJUZW4gY291bnRyeSBoaWdocG9pbnRzIHRoYXQgbWFrZSBpZGVhbCBmaXJzdCBtb3VudGFpbnMg4oCUIHJlYWwgc3VtbWl0cyB3aXRoIHByb3BlciB2aWV3cywgYnV0IG5vIGdsYWNpZXIgdHJhdmVsIG9yIHRlY2huaWNhbCBjbGltYmluZy4iLAogICAgaW50cm86CiAgICAgICJUaGVzZSBhcmUgdGhlIGhpZ2hwb2ludHMgd29ydGggZG9pbmcgZmlyc3Q6IHRoZXkgZmVlbCBsaWtlIG1vdW50YWlucywgdGhleSBhcmUgcmVhY2hhYmxlIGluIGEgbG9uZyBkYXksIGFuZCB0aGV5IG5lZWQgbm90aGluZyBtb3JlIHRoYW4gYm9vdHMsIHdhdGVycHJvb2ZzIGFuZCByZWFzb25hYmxlIGZpdG5lc3MuIiwKICAgIG91dHJvOgogICAgICAiRWFjaCBvZiB0aGVzZSBnaXZlcyB5b3UgYWx0aXR1ZGUgYW5kIGEgZ2VudWluZSBzdW1taXQgd2l0aG91dCByb3Blcy4gV2hlbiB0aGV5IHN0YXJ0IGZlZWxpbmcgZWFzeSwgc3RlcCB1cCB0byB0aGUgbW9kZXJhdGUgYWxwaW5lIGhpZ2hwb2ludHMuIiwKICAgIHNlbGVjdDogKCkgPT4gewogICAgICBjb25zdCBwaWNrcyA9IFsKICAgICAgICAiSXJlbGFuZCIsCiAgICAgICAgIlVuaXRlZCBLaW5nZG9tIiwKICAgICAgICAiUG9sYW5kIiwKICAgICAgICAiQ3plY2ggUmVwdWJsaWMiLAogICAgICAgICJIdW5nYXJ5IiwKICAgICAgICAiU3dlZGVuIiwKICAgICAgICAiTm9yd2F5IiwKICAgICAgICAiQ3JvYXRpYSIsCiAgICAgICAgIkZpbmxhbmQiLAogICAgICAgICJQb3J0dWdhbCIsCiAgICAgICAgIlNwYWluIiwKICAgICAgICAiQXVzdHJhbGlhIiwKICAgICAgXTsKICAgICAgcmV0dXJuIHBpY2tzCiAgICAgICAgLm1hcCgobmFtZSkgPT4gY291bnRyaWVzLmZpbmQoKGMpID0+IGMuY291bnRyeSA9PT0gbmFtZSkpCiAgICAgICAgLmZpbHRlcigoYyk6IGMgaXMgQ291bnRyeUhpZ2hQb2ludCA9PiBCb29sZWFuKGMpKTsKICAgIH0sCiAgICBmYXFzOiBbCiAgICAgIHsKICAgICAgICBxdWVzdGlvbjogIldoYXQgaXMgYSBnb29kIGZpcnN0IGNvdW50cnkgaGlnaHBvaW50PyIsCiAgICAgICAgYW5zd2VyOgogICAgICAgICAgIkNhcnJhdW50b29oaWwgaW4gSXJlbGFuZCBvciBCZW4gTmV2aXMgaW4gdGhlIFVLIOKAlCBib3RoIGFyZSBsb25nIGhpbGwgZGF5cyBvbiBtYXJrZWQgZ3JvdW5kIHdpdGggbm8gdGVjaG5pY2FsIGNsaW1iaW5nIHJlcXVpcmVkIGluIHN1bW1lci4iLAogICAgICB9LAogICAgICB7CiAgICAgICAgcXVlc3Rpb246ICJEbyBJIG5lZWQgbW91bnRhaW5lZXJpbmcgc2tpbGxzIGZvciBiZWdpbm5lciBoaWdocG9pbnRzPyIsCiAgICAgICAgYW5zd2VyOgogICAgICAgICAgIk5vLCBidXQgeW91IGRvIG5lZWQgbmF2aWdhdGlvbiwgd2VhdGhlciBhd2FyZW5lc3MgYW5kIGhpbGwgZml0bmVzcy4gVGhlc2UgcGVha3MgYXJlIG5vbi10ZWNobmljYWwgaW4gZ29vZCBzdW1tZXIgY29uZGl0aW9ucy4iLAogICAgICB9LAogICAgXSwKICB9LAogIHsKICAgIHNsdWc6ICJldXJvcGVhbi1jb3VudHJ5LWhpZ2hwb2ludHMiLAogICAgaGVhZGluZzogIkV2ZXJ5IEV1cm9wZWFuIENvdW50cnkgSGlnaHBvaW50IiwKICAgIHNlb1RpdGxlOiAiRXVyb3BlYW4gQ291bnRyeSBIaWdocG9pbnRzOiBGdWxsIExpc3QiLAogICAgZGVzY3JpcHRpb246CiAgICAgICJBbGwgRXVyb3BlYW4gY291bnRyeSBoaWdocG9pbnRzIHJhbmtlZCBieSBlbGV2YXRpb24sIGZyb20gTW9udCBCbGFuYyBhbmQgRWxicnVzIGRvd24gdG8gdGhlIGxvdyBjb3VudHJ5IHN1bW1pdHMgb2YgdGhlIEJhbHRpY3MgYW5kIEJlbmVsdXguIiwKICAgIGludHJvOgogICAgICAiRXVyb3BlIGlzIHRoZSBiZXN0IGNvbnRpbmVudCB0byBzdGFydCBoaWdocG9pbnRpbmc6IHNob3J0IHRyYXZlbCBkaXN0YW5jZXMsIGdvb2QgaW5mcmFzdHJ1Y3R1cmUgYW5kIGEgZnVsbCBzcHJlYWQgb2YgZGlmZmljdWx0eSBmcm9tIGRyaXZlLXVwcyB0byBzZXJpb3VzIGFscGluZSByb3V0ZXMuIiwKICAgIG91dHJvOgogICAgICAiQSBkZXRlcm1pbmVkIGNsaW1iZXIgY2FuIHRpY2sgbW9zdCBvZiBFdXJvcGUgaW4gYSBmZXcgcm9hZC10cmlwIHNlYXNvbnMg4oCUIHdoaWNoIGlzIGV4YWN0bHkgaG93IHRoaXMgcHJvamVjdCBiZWdhbi4iLAogICAgc2VsZWN0OiAoKSA9PiBjb3VudHJpZXMuZmlsdGVyKChjKSA9PiBjLmNvbnRpbmVudCA9PT0gIkV1cm9wZSIpLnNvcnQoYnlFbGV2YXRpb25EZXNjKSwKICAgIGZhcXM6IFsKICAgICAgewogICAgICAgIHF1ZXN0aW9uOiAiV2hhdCBpcyB0aGUgaGlnaGVzdCBjb3VudHJ5IGhpZ2hwb2ludCBpbiBFdXJvcGU/IiwKICAgICAgICBhbnN3ZXI6CiAgICAgICAgICAiTW91bnQgRWxicnVzICg1LDY0MiBtKSBpbiBSdXNzaWEsIGlmIHlvdSBjb3VudCB0aGUgQ2F1Y2FzdXMgYXMgRXVyb3BlLiBPdGhlcndpc2UgTW9udCBCbGFuYyAoNCw4MDcgbSksIHNoYXJlZCBieSBGcmFuY2UgYW5kIEl0YWx5LiIsCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBxdWVzdGlvbjogIkhvdyBsb25nIGRvZXMgaXQgdGFrZSB0byBjbGltYiBldmVyeSBFdXJvcGVhbiBoaWdocG9pbnQ/IiwKICAgICAgICBhbnN3ZXI6CiAgICAgICAgICAiV2l0aCBhIHZhbiBhbmQgZ29vZCB3ZWF0aGVyIHdpbmRvd3MsIG1vc3Qgb2YgRXVyb3BlJ3MgaGlnaHBvaW50cyBjYW4gYmUgY2xpbWJlZCBhY3Jvc3MgdHdvIG9yIHRocmVlIHN1bW1lciBzZWFzb25zLiIsCiAgICAgIH0sCiAgICBdLAogIH0sCiAgewogICAgc2x1ZzogInZvbGNhbmljLWNvdW50cnktaGlnaHBvaW50cyIsCiAgICBoZWFkaW5nOiAiQ291bnRyeSBIaWdocG9pbnRzIFRoYXQgQXJlIFZvbGNhbm9lcyIsCiAgICBzZW9UaXRsZTogIkNvdW50cnkgSGlnaHBvaW50cyBUaGF0IEFyZSBWb2xjYW5vZXMiLAogICAgZGVzY3JpcHRpb246CiAgICAgICJWb2xjYW5vIGhpZ2hwb2ludHMgYXJvdW5kIHRoZSB3b3JsZCDigJQgS2lsaW1hbmphcm8sIFRlaWRlLCBQaWNvLCBPcml6YWJhIGFuZCBtb3JlIOKAlCB3aXRoIGVsZXZhdGlvbiwgZGlmZmljdWx0eSBhbmQgcm91dGUgbm90ZXMuIiwKICAgIGludHJvOgogICAgICAiQSBzdXJwcmlzaW5nIHNoYXJlIG9mIGNvdW50cnkgaGlnaHBvaW50cyBhcmUgdm9sY2Fub2VzLiBUaGV5IHRlbmQgdG8gYmUgYmlnLCBzeW1tZXRyaWNhbCwgd2Fsay11cC1hbmdsZSBtb3VudGFpbnMgd2hlcmUgYWx0aXR1ZGUsIG5vdCB0ZWNobmlxdWUsIGlzIHRoZSBjcnV4LiIsCiAgICBvdXRybzoKICAgICAgIlZvbGNhbmljIGhpZ2hwb2ludHMgYXJlIHRoZSBiZXN0IHRyYWluaW5nIGdyb3VuZCBmb3IgYWx0aXR1ZGU6IHByZWRpY3RhYmxlIHRlcnJhaW4sIGJpZyB2ZXJ0aWNhbCBnYWluIGFuZCwgdXN1YWxseSwgYSBodXQgb3Igcm9hZCBoaWdoIG9uIHRoZSBtb3VudGFpbi4iLAogICAgc2VsZWN0OiAoKSA9PiB7CiAgICAgIGNvbnN0IHBpY2tzID0gWwogICAgICAgICJUYW56YW5pYSIsCiAgICAgICAgIlNwYWluIiwKICAgICAgICAiUG9ydHVnYWwiLAogICAgICAgICJNZXhpY28iLAogICAgICAgICJFY3VhZG9yIiwKICAgICAgICAiQ2hpbGUiLAogICAgICAgICJJbmRvbmVzaWEiLAogICAgICAgICJKYXBhbiIsCiAgICAgICAgIkljZWxhbmQiLAogICAgICAgICJDYXBlIFZlcmRlIiwKICAgICAgICAiUGhpbGlwcGluZXMiLAogICAgICAgICJSd2FuZGEiLAogICAgICAgICJDYW1lcm9vbiIsCiAgICAgICAgIk5ldyBaZWFsYW5kIiwKICAgICAgICAiR3VhdGVtYWxhIiwKICAgICAgICAiQ29zdGEgUmljYSIsCiAgICAgICAgIkVsIFNhbHZhZG9yIiwKICAgICAgICAiTmljYXJhZ3VhIiwKICAgICAgXTsKICAgICAgcmV0dXJuIHBpY2tzCiAgICAgICAgLm1hcCgobmFtZSkgPT4gY291bnRyaWVzLmZpbmQoKGMpID0+IGMuY291bnRyeSA9PT0gbmFtZSkpCiAgICAgICAgLmZpbHRlcigoYyk6IGMgaXMgQ291bnRyeUhpZ2hQb2ludCA9PiBCb29sZWFuKGMpKQogICAgICAgIC5zb3J0KGJ5RWxldmF0aW9uRGVzYyk7CiAgICB9LAogICAgZmFxczogWwogICAgICB7CiAgICAgICAgcXVlc3Rpb246ICJXaGF0IGlzIHRoZSBoaWdoZXN0IHZvbGNhbm8gdGhhdCBpcyBhIGNvdW50cnkgaGlnaHBvaW50PyIsCiAgICAgICAgYW5zd2VyOgogICAgICAgICAgIk9qb3MgZGVsIFNhbGFkbyBvbiB0aGUgQ2hpbGXigJNBcmdlbnRpbmEgYm9yZGVyIGlzIHRoZSB3b3JsZCdzIGhpZ2hlc3Qgdm9sY2FubyBhdCA2LDg5MyBtIGFuZCBpcyBDaGlsZSdzIGhpZ2hlc3QgcG9pbnQuIiwKICAgICAgfSwKICAgICAgewogICAgICAgIHF1ZXN0aW9uOiAiQXJlIHZvbGNhbm8gaGlnaHBvaW50cyBlYXNpZXIgdG8gY2xpbWI/IiwKICAgICAgICBhbnN3ZXI6CiAgICAgICAgICAiVXN1YWxseSB0aGUgdGVycmFpbiBpcyBlYXNpZXIg4oCUIGxvbmcgc2NyZWUgYW5kIHNub3cgc2xvcGVzIHJhdGhlciB0aGFuIHRlY2huaWNhbCByb2NrIOKAlCBidXQgdGhlIGFsdGl0dWRlIGFuZCB3ZWF0aGVyIGNhbiBzdGlsbCBiZSBzZXJpb3VzLiIsCiAgICAgIH0sCiAgICBdLAogIH0sCiAgewogICAgc2x1ZzogInNldmVuLXN1bW1pdHMiLAogICAgaGVhZGluZzogIlRoZSBTZXZlbiBTdW1taXRzIiwKICAgIHNlb1RpdGxlOiAiVGhlIFNldmVuIFN1bW1pdHM6IEZ1bGwgTGlzdCAmIEhlaWdodHMiLAogICAgZGVzY3JpcHRpb246CiAgICAgICJUaGUgU2V2ZW4gU3VtbWl0cyDigJQgdGhlIGhpZ2hlc3QgbW91bnRhaW4gb24gZWFjaCBjb250aW5lbnQg4oCUIHdpdGggaGVpZ2h0cywgZGlmZmljdWx0eSBhbmQgaG93IGJvdGggdGhlIEJhc3MgYW5kIE1lc3NuZXIgbGlzdHMgZGlmZmVyLiIsCiAgICBpbnRybzoKICAgICAgIlRoZSBTZXZlbiBTdW1taXRzIGFyZSB0aGUgaGlnaGVzdCBtb3VudGFpbiBvbiBlYWNoIG9mIHRoZSBzZXZlbiBjb250aW5lbnRzLCBhbmQgdGhlIG1vc3QgZmFtb3VzIGNsaW1iaW5nIGxpc3QgaW4gdGhlIHdvcmxkLiBFdmVyeSBvbmUgb2YgdGhlbSBpcyBhbHNvIGEgY291bnRyeSBoaWdocG9pbnQsIHdoaWNoIGlzIHdoeSB0aGV5IHNpdCBpbnNpZGUgdGhpcyBwcm9qZWN0LiIsCiAgICBvdXRybzoKICAgICAgIlR3byB2ZXJzaW9ucyBleGlzdC4gVGhlIEJhc3MgbGlzdCB1c2VzIE1vdW50IEtvc2NpdXN6a28gKDIsMjI4IG0pIGZvciBBdXN0cmFsaWE7IHRoZSBNZXNzbmVyIGxpc3QgdXNlcyBQdW5jYWsgSmF5YSAoNCw4ODQgbSkgaW4gSW5kb25lc2lhIGZvciB0aGUgT2NlYW5pYS9BdXN0cmFsYXNpYSBjb250aW5lbnRhbCBwbGF0ZS4gUHVuY2FrIEpheWEgaXMgdGhlIGhhcmRlciBhbmQgbW9yZSB3aWRlbHkgcmVzcGVjdGVkIHRpY2suIiwKICAgIHNlbGVjdDogKCkgPT4gewogICAgICBjb25zdCBwaWNrcyA9IFsKICAgICAgICAiTmVwYWwiLCAiQXJnZW50aW5hIiwgIlVuaXRlZCBTdGF0ZXMiLCAiVGFuemFuaWEiLCAiUnVzc2lhIiwKICAgICAgICAiQW50YXJjdGljYSIsICJJbmRvbmVzaWEiLCAiQXVzdHJhbGlhIiwKICAgICAgXTsKICAgICAgcmV0dXJuIHBpY2tzCiAgICAgICAgLm1hcCgobmFtZSkgPT4gY291bnRyaWVzLmZpbmQoKGMpID0+IGMuY291bnRyeSA9PT0gbmFtZSkpCiAgICAgICAgLmZpbHRlcigoYyk6IGMgaXMgQ291bnRyeUhpZ2hQb2ludCA9PiBCb29sZWFuKGMpKQogICAgICAgIC5zb3J0KGJ5RWxldmF0aW9uRGVzYyk7CiAgICB9LAogICAgZmFxczogWwogICAgICB7CiAgICAgICAgcXVlc3Rpb246ICJXaGF0IGFyZSB0aGUgU2V2ZW4gU3VtbWl0cz8iLAogICAgICAgIGFuc3dlcjoKICAgICAgICAgICJFdmVyZXN0IChBc2lhKSwgQWNvbmNhZ3VhIChTb3V0aCBBbWVyaWNhKSwgRGVuYWxpIChOb3J0aCBBbWVyaWNhKSwgS2lsaW1hbmphcm8gKEFmcmljYSksIEVsYnJ1cyAoRXVyb3BlKSwgVmluc29uIChBbnRhcmN0aWNhKSBhbmQgZWl0aGVyIFB1bmNhayBKYXlhIG9yIEtvc2NpdXN6a28gZm9yIE9jZWFuaWEvQXVzdHJhbGlhLiIsCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBxdWVzdGlvbjogIldoYXQgaXMgdGhlIGRpZmZlcmVuY2UgYmV0d2VlbiB0aGUgQmFzcyBhbmQgTWVzc25lciBsaXN0cz8iLAogICAgICAgIGFuc3dlcjoKICAgICAgICAgICJUaGUgQmFzcyBsaXN0IHRha2VzIEtvc2NpdXN6a28gaW4gQXVzdHJhbGlhIGFzIHRoZSBzZXZlbnRoIHN1bW1pdDsgdGhlIE1lc3NuZXIgbGlzdCB0YWtlcyBQdW5jYWsgSmF5YSBpbiBJbmRvbmVzaWEuIE1lc3NuZXIncyB2ZXJzaW9uIGlzIGNvbnNpZGVyZWQgdGhlIG1vcmUgc2VyaW91cyBjaGFsbGVuZ2UgYmVjYXVzZSBQdW5jYWsgSmF5YSBpcyBhIHRlY2huaWNhbCByb2NrIGNsaW1iIGluIGEgcmVtb3RlLCBwZXJtaXQtY29udHJvbGxlZCBhcmVhLiIsCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBxdWVzdGlvbjogIldoaWNoIG9mIHRoZSBTZXZlbiBTdW1taXRzIGlzIHRoZSBlYXNpZXN0PyIsCiAgICAgICAgYW5zd2VyOgogICAgICAgICAgIktvc2NpdXN6a28gaXMgYSB3YWxrLiBPZiB0aGUgcmVhbCBtb3VudGFpbnMsIEtpbGltYW5qYXJvIGlzIHRoZSBlYXNpZXN0IOKAlCBhIG5vbi10ZWNobmljYWwgbXVsdGktZGF5IHRyZWsgd2hlcmUgYWx0aXR1ZGUgaXMgdGhlIG9ubHkgcmVhbCBjcnV4LiIsCiAgICAgIH0sCiAgICBdLAogIH0sCiAgLi4uY29udGluZW50R3VpZGUoIkFzaWEiLCB7CiAgICBzZW9UaXRsZTogIkhpZ2hlc3QgTW91bnRhaW4gaW4gRXZlcnkgQXNpYW4gQ291bnRyeSIsCiAgICBkZXNjcmlwdGlvbjoKICAgICAgIkV2ZXJ5IEFzaWFuIGNvdW50cnkncyBoaWdoZXN0IG1vdW50YWluIHJhbmtlZCBieSBlbGV2YXRpb24g4oCUIGZyb20gRXZlcmVzdCBhbmQgSzIgZG93biB0byB0aGUgbG93IGhpZ2hwb2ludHMgb2YgdGhlIEd1bGYgYW5kIFNvdXRoZWFzdCBBc2lhLiIsCiAgICBpbnRybzoKICAgICAgIkFzaWEgaG9sZHMgdGhlIGhpZ2hlc3QgYW5kIGhhcmRlc3QgY291bnRyeSBoaWdocG9pbnRzIG9uIHRoZSBwbGFuZXQuIEZvdXJ0ZWVuIG9mIHRoZW0gYnJlYWsgNiwwMDAgbSwgYW5kIHNldmVyYWwgbmVlZCBmdWxsIGV4cGVkaXRpb25zLCBhcm15IHBlcm1pdHMgb3IgY2xvc2VkLWJvcmRlciBuZWdvdGlhdGlvbi4iLAogICAgb3V0cm86CiAgICAgICJBY2Nlc3MsIG5vdCBlbGV2YXRpb24sIGlzIG9mdGVuIHRoZSBjcnV4IGluIEFzaWE6IHNldmVyYWwgaGlnaHBvaW50cyBzaXQgb24gZGlzcHV0ZWQgZnJvbnRpZXJzIG9yIGluc2lkZSByZXN0cmljdGVkIG1pbGl0YXJ5IHpvbmVzLiIsCiAgICBmYXFzOiBbCiAgICAgIHsKICAgICAgICBxdWVzdGlvbjogIldoYXQgaXMgdGhlIGhpZ2hlc3QgbW91bnRhaW4gaW4gQXNpYT8iLAogICAgICAgIGFuc3dlcjogIk1vdW50IEV2ZXJlc3QgYXQgOCw4NDkgbSwgb24gdGhlIE5lcGFs4oCTQ2hpbmEgYm9yZGVyLiIsCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBxdWVzdGlvbjogIldoaWNoIEFzaWFuIGNvdW50cnkgaGlnaHBvaW50cyBhcmUgaGFyZGVzdCB0byByZWFjaD8iLAogICAgICAgIGFuc3dlcjoKICAgICAgICAgICJHYW5na2hhciBQdWVuc3VtIChCaHV0YW4pIGlzIGNsb3NlZCB0byBjbGltYmluZywgSzIgKFBha2lzdGFuKSBpcyBhIG1ham9yIGV4cGVkaXRpb24sIGFuZCBzZXZlcmFsIENlbnRyYWwgQXNpYW4gaGlnaHBvaW50cyBuZWVkIGJvcmRlciBwZXJtaXRzIGFycmFuZ2VkIG1vbnRocyBhaGVhZC4iLAogICAgICB9LAogICAgXSwKICB9KSwKICAuLi5jb250aW5lbnRHdWlkZSgiQWZyaWNhIiwgewogICAgc2VvVGl0bGU6ICJIaWdoZXN0IE1vdW50YWluIGluIEV2ZXJ5IEFmcmljYW4gQ291bnRyeSIsCiAgICBkZXNjcmlwdGlvbjoKICAgICAgIkFsbCA1NCBBZnJpY2FuIGNvdW50cnkgaGlnaHBvaW50cyByYW5rZWQgYnkgZWxldmF0aW9uLCB3aXRoIGRpZmZpY3VsdHksIHJhbmdlIGFuZCByb3V0ZSBub3RlcyDigJQgS2lsaW1hbmphcm8sIE1vdW50IEtlbnlhLCBUb3Via2FsIGFuZCB0aGUgcmVzdC4iLAogICAgaW50cm86CiAgICAgICJBZnJpY2EncyBoaWdocG9pbnRzIHJ1biBmcm9tIHRoZSBnbGFjaWF0ZWQgNSwwMDAgbSB2b2xjYW5vZXMgb2YgdGhlIFJpZnQgVmFsbGV5IHRvIGRlc2VydCBwbGF0ZWF1cyBhbmQganVuZ2xlIHJpZGdlcyB0aGF0IHNlZSBhIGhhbmRmdWwgb2YgYXNjZW50cyBhIGRlY2FkZS4iLAogICAgb3V0cm86CiAgICAgICJNYW55IEFmcmljYW4gaGlnaHBvaW50cyBhcmUgbG9naXN0aWNhbGx5LCBub3QgdGVjaG5pY2FsbHksIGhhcmQ6IHBlcm1pdHMsIGd1aWRlcyBhbmQgbG9uZyBvdmVybGFuZCBhcHByb2FjaGVzIGRlY2lkZSB3aGV0aGVyIHRoZSB0cmlwIHdvcmtzLiIsCiAgICBmYXFzOiBbCiAgICAgIHsKICAgICAgICBxdWVzdGlvbjogIldoYXQgaXMgdGhlIGhpZ2hlc3QgbW91bnRhaW4gaW4gQWZyaWNhPyIsCiAgICAgICAgYW5zd2VyOiAiS2lsaW1hbmphcm8gYXQgNSw4OTUgbSBpbiBUYW56YW5pYSDigJQgdGhlIGhpZ2hlc3QgZnJlZS1zdGFuZGluZyBtb3VudGFpbiBpbiB0aGUgd29ybGQuIiwKICAgICAgfSwKICAgICAgewogICAgICAgIHF1ZXN0aW9uOiAiV2hpY2ggQWZyaWNhbiBoaWdocG9pbnQgaXMgdGhlIGhhcmRlc3Q/IiwKICAgICAgICBhbnN3ZXI6CiAgICAgICAgICAiTW91bnQgS2VueWEncyBCYXRpYW4gc3VtbWl0IGlzIHRoZSBtb3N0IHRlY2huaWNhbCwgYW5kIHNldmVyYWwgU2FoZWwgYW5kIENlbnRyYWwgQWZyaWNhbiBoaWdocG9pbnRzIGFyZSBoYXJkIHB1cmVseSBiZWNhdXNlIG9mIGFjY2VzcyBhbmQgc2VjdXJpdHkuIiwKICAgICAgfSwKICAgIF0sCiAgfSksCiAgLi4uY29udGluZW50R3VpZGUoIlNvdXRoIEFtZXJpY2EiLCB7CiAgICBzZW9UaXRsZTogIkhpZ2hlc3QgTW91bnRhaW4gaW4gRXZlcnkgU291dGggQW1lcmljYW4gQ291bnRyeSIsCiAgICBkZXNjcmlwdGlvbjoKICAgICAgIlNvdXRoIEFtZXJpY2EncyBjb3VudHJ5IGhpZ2hwb2ludHMgcmFua2VkIGJ5IGVsZXZhdGlvbiDigJQgQWNvbmNhZ3VhLCBPam9zIGRlbCBTYWxhZG8sIEh1YXNjYXLDoW4sIENoaW1ib3Jhem8gYW5kIHRoZSByZXN0IG9mIHRoZSBBbmRlcy4iLAogICAgaW50cm86CiAgICAgICJTb3V0aCBBbWVyaWNhIGlzIHRoZSBhbHRpdHVkZSBjb250aW5lbnQuIE5pbmUgb2YgaXRzIHR3ZWx2ZSBjb3VudHJ5IGhpZ2hwb2ludHMgYXJlIEFuZGVhbiwgYW5kIHRoZSBjcnV4IG9uIGFsbW9zdCBhbGwgb2YgdGhlbSBpcyBhY2NsaW1hdGlzYXRpb24gcmF0aGVyIHRoYW4gdGVjaG5pY2FsIGNsaW1iaW5nLiIsCiAgICBvdXRybzoKICAgICAgIlRoZSBkcnkgQW5kZWFuIHNlYXNvbiBmcm9tIERlY2VtYmVyIHRvIEZlYnJ1YXJ5IHN1aXRzIHRoZSBzb3V0aGVybiBwZWFrczsgdGhlIHRyb3BpY2FsIEFuZGVzIGNsaW1iIGJlc3QgZnJvbSBKdW5lIHRvIFNlcHRlbWJlci4iLAogICAgZmFxczogWwogICAgICB7CiAgICAgICAgcXVlc3Rpb246ICJXaGF0IGlzIHRoZSBoaWdoZXN0IG1vdW50YWluIGluIFNvdXRoIEFtZXJpY2E/IiwKICAgICAgICBhbnN3ZXI6ICJBY29uY2FndWEgYXQgNiw5NjEgbSBpbiBBcmdlbnRpbmEg4oCUIHRoZSBoaWdoZXN0IG1vdW50YWluIG91dHNpZGUgQXNpYS4iLAogICAgICB9LAogICAgICB7CiAgICAgICAgcXVlc3Rpb246ICJXaGljaCBTb3V0aCBBbWVyaWNhbiBoaWdocG9pbnRzIGFyZSBub24tdGVjaG5pY2FsPyIsCiAgICAgICAgYW5zd2VyOgogICAgICAgICAgIkFjb25jYWd1YSdzIG5vcm1hbCByb3V0ZSBhbmQgT2pvcyBkZWwgU2FsYWRvIGFyZSB3YWxrLXVwcyBhdCBhbHRpdHVkZTsgSHVhc2NhcsOhbiBhbmQgSWxsaW1hbmkgbmVlZCByZWFsIGdsYWNpZXIgYW5kIHJvcGUgc2tpbGxzLiIsCiAgICAgIH0sCiAgICBdLAogIH0pLAogIC4uLmNvbnRpbmVudEd1aWRlKCJOb3J0aCBBbWVyaWNhIiwgewogICAgc2VvVGl0bGU6ICJIaWdoZXN0IE1vdW50YWluIGluIEV2ZXJ5IE5vcnRoIEFtZXJpY2FuIENvdW50cnkiLAogICAgZGVzY3JpcHRpb246CiAgICAgICJFdmVyeSBOb3J0aCBBbWVyaWNhbiBhbmQgQ2FyaWJiZWFuIGNvdW50cnkgaGlnaHBvaW50IHJhbmtlZCBieSBlbGV2YXRpb24g4oCUIERlbmFsaSwgUGljbyBkZSBPcml6YWJhLCBEdWFydGUgYW5kIHRoZSBpc2xhbmQgc3VtbWl0cy4iLAogICAgaW50cm86CiAgICAgICJOb3J0aCBBbWVyaWNhIGNvdmVycyBEZW5hbGkncyBzdWItYXJjdGljIGdsYWNpZXJzLCBNZXhpY28ncyBoaWdoIHZvbGNhbm9lcyBhbmQgYSBzdHJpbmcgb2YgQ2FyaWJiZWFuIGlzbGFuZCBoaWdocG9pbnRzIHRoYXQgY2FuIGJlIGNsaW1iZWQgaW4gYSBtb3JuaW5nLiIsCiAgICBvdXRybzoKICAgICAgIlRoZSBDYXJpYmJlYW4gaGlnaHBvaW50cyBtYWtlIGFuIGV4Y2VsbGVudCBtdWx0aS1jb3VudHJ5IHRyaXA6IHNldmVyYWwgY2FuIGJlIHRpY2tlZCBpbiBhIHNpbmdsZSB0d28td2VlayBpc2xhbmQgaG9wLiIsCiAgICBmYXFzOiBbCiAgICAgIHsKICAgICAgICBxdWVzdGlvbjogIldoYXQgaXMgdGhlIGhpZ2hlc3QgbW91bnRhaW4gaW4gTm9ydGggQW1lcmljYT8iLAogICAgICAgIGFuc3dlcjogIkRlbmFsaSBhdCA2LDE5MCBtIGluIEFsYXNrYSwgVVNBIOKAlCBhIHNlcmlvdXMgZ2xhY2lhdGVkIGV4cGVkaXRpb24gZGVzcGl0ZSBpdHMgbGF0aXR1ZGUuIiwKICAgICAgfSwKICAgICAgewogICAgICAgIHF1ZXN0aW9uOiAiV2hpY2ggQ2FyaWJiZWFuIGhpZ2hwb2ludCBpcyB0aGUgaGlnaGVzdD8iLAogICAgICAgIGFuc3dlcjogIlBpY28gRHVhcnRlIGluIHRoZSBEb21pbmljYW4gUmVwdWJsaWMgYXQgMywwOTggbSwgYSBtdWx0aS1kYXkgYnV0IG5vbi10ZWNobmljYWwgdHJlay4iLAogICAgICB9LAogICAgXSwKICB9KSwKICAuLi5jb250aW5lbnRHdWlkZSgiT2NlYW5pYSIsIHsKICAgIHNlb1RpdGxlOiAiSGlnaGVzdCBNb3VudGFpbiBpbiBFdmVyeSBPY2VhbmlhbiBDb3VudHJ5IiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAiT2NlYW5pYSdzIGNvdW50cnkgaGlnaHBvaW50cyByYW5rZWQgYnkgZWxldmF0aW9uIOKAlCBQdW5jYWsgSmF5YSwgTW91bnQgV2lsaGVsbSwgQW9yYWtpLCBLb3NjaXVzemtvIGFuZCB0aGUgUGFjaWZpYyBpc2xhbmQgc3VtbWl0cy4iLAogICAgaW50cm86CiAgICAgICJPY2VhbmlhIG1peGVzIHR3byBleHRyZW1lczogdGVjaG5pY2FsLCBwZXJtaXQtaGVhdnkgcGVha3MgaW4gTmV3IEd1aW5lYSBhbmQgTmV3IFplYWxhbmQsIGFuZCBQYWNpZmljIGlzbGFuZCBoaWdocG9pbnRzIHRoYXQgYXJlIHNob3J0IGp1bmdsZSB3YWxrcy4iLAogICAgb3V0cm86CiAgICAgICJUcmF2ZWwgdGltZSwgbm90IGNsaW1iaW5nIGRpZmZpY3VsdHksIGRvbWluYXRlcyBhbiBPY2VhbmlhIGhpZ2hwb2ludGluZyB0cmlwIOKAlCBmbGlnaHRzIGJldHdlZW4gaXNsYW5kIG5hdGlvbnMgYXJlIGluZnJlcXVlbnQgYW5kIGV4cGVuc2l2ZS4iLAogICAgZmFxczogWwogICAgICB7CiAgICAgICAgcXVlc3Rpb246ICJXaGF0IGlzIHRoZSBoaWdoZXN0IG1vdW50YWluIGluIE9jZWFuaWE/IiwKICAgICAgICBhbnN3ZXI6CiAgICAgICAgICAiUHVuY2FrIEpheWEgKENhcnN0ZW5zeiBQeXJhbWlkKSBhdCA0LDg4NCBtIGluIHRoZSBJbmRvbmVzaWFuIHBhcnQgb2YgTmV3IEd1aW5lYSDigJQgYSB0ZWNobmljYWwgcm9jayBjbGltYiBpbiBhIHJlc3RyaWN0ZWQgYXJlYS4iLAogICAgICB9LAogICAgICB7CiAgICAgICAgcXVlc3Rpb246ICJJcyBBb3Jha2kgLyBNb3VudCBDb29rIGhhcmQgdG8gY2xpbWI/IiwKICAgICAgICBhbnN3ZXI6CiAgICAgICAgICAiWWVzLiBOZXcgWmVhbGFuZCdzIGhpZ2hwb2ludCBpcyBhIHNlcmlvdXMgYWxwaW5lIHJvdXRlIHdpdGggb2JqZWN0aXZlIGhhemFyZCwgbm9ybWFsbHkgY2xpbWJlZCB3aXRoIGEgZ3VpZGUgb3Igc3Ryb25nIGFscGluZSBleHBlcmllbmNlLiIsCiAgICAgIH0sCiAgICBdLAogIH0pLApdOwoKZXhwb3J0IGNvbnN0IGdldEd1aWRlID0gKHNsdWc6IHN0cmluZyk6IEd1aWRlIHwgdW5kZWZpbmVkID0+IGd1aWRlcy5maW5kKChnKSA9PiBnLnNsdWcgPT09IHNsdWcpOwo=
+/**
+ * Editorial list/comparison guides — the "highest point in every country",
+ * "easiest country highpoints" style pages that target list-intent searches
+ * and funnel internal links into every /peak/* page.
+ */
+import { countries, type CountryHighPoint } from "@/data/countries";
+import { countryDifficulty, type Difficulty } from "@/data/difficulty";
+import { peakDetails } from "@/data/peak-details";
+
+export function elevationOf(c: CountryHighPoint): number {
+  const detail = peakDetails[c.country];
+  if (detail) return detail.elevation;
+  const parsed = Number(c.elevation.replace(/[^0-9]/g, ""));
+  return Number.isFinite(parsed) ? parsed : 0;
+}
+
+const difficultyOf = (c: CountryHighPoint): Difficulty | undefined =>
+  countryDifficulty[c.country]?.difficulty;
+
+const byElevationDesc = (a: CountryHighPoint, b: CountryHighPoint) => elevationOf(b) - elevationOf(a);
+const byElevationAsc = (a: CountryHighPoint, b: CountryHighPoint) => elevationOf(a) - elevationOf(b);
+
+export interface Guide {
+  slug: string;
+  heading: string;
+  seoTitle: string;
+  description: string;
+  intro: string;
+  /** Short explainer shown under the table. */
+  outro: string;
+  select: () => CountryHighPoint[];
+  faqs: { question: string; answer: string }[];
+}
+
+/** Builds a "highest mountain in every X country" guide for a continent. */
+const continentGuide = (
+  continent: string,
+  copy: Omit<Guide, "slug" | "heading" | "select">,
+): Guide[] => [
+  {
+    slug: `${continent.toLowerCase().replace(/\s+/g, "-")}-country-highpoints`,
+    heading: `Highest Mountain in Every ${
+      ({
+        Asia: "Asian",
+        Africa: "African",
+        Oceania: "Oceanian",
+        "South America": "South American",
+        "North America": "North American",
+      } as Record<string, string>)[continent] ?? continent
+    } Country`,
+    select: () => countries.filter((c) => c.continent === continent).sort(byElevationDesc),
+    ...copy,
+  },
+];
+
+export const guides: Guide[] = [
+  {
+    slug: "highest-point-in-every-country",
+    heading: "The Highest Point in Every Country",
+    seoTitle: "Highest Point in Every Country (Full List)",
+    description:
+      "The complete list of every country's highest mountain, ranked by elevation, with difficulty, range and route notes for all 195 highpoints.",
+    intro:
+      "Every sovereign country has one highest point — from the 8,849 m summit of Everest down to hills you can drive to. This is the full ranked list, with a page for each peak covering the normal route, difficulty and season.",
+    outro:
+      "Elevations follow Peakbagger and national survey data. Where a country's true highpoint sits in an overseas territory, both the territorial and mainland summits are tracked separately.",
+    select: () => [...countries].sort(byElevationDesc),
+    faqs: [
+      {
+        question: "How many country highpoints are there?",
+        answer:
+          "195 — the 193 UN member states plus Taiwan and Antarctica. A handful of peaks are shared by two countries, such as Mont Blanc for France and Italy.",
+      },
+      {
+        question: "What is the highest country highpoint?",
+        answer: "Mount Everest at 8,849 m, the highest point of both Nepal and China.",
+      },
+      {
+        question: "What is the lowest country highpoint?",
+        answer:
+          "The Maldives, where the highest natural point is roughly 2.4 m above sea level — lower than most buildings.",
+      },
+    ],
+  },
+  {
+    slug: "easiest-country-highpoints",
+    heading: "The Easiest Country Highpoints",
+    seoTitle: "Easiest Country Highpoints to Climb",
+    description:
+      "The country highpoints you can tick in a day or less — short walks, drive-up summits and easy hikes, ranked from easiest upward.",
+    intro:
+      "Not every country highpoint is a mountaineering objective. Dozens are simple walks, and some are a few steps from a car park. These are the best first ticks if you want to start highpointing without technical gear.",
+    outro:
+      "Easy does not mean trivial: check access rights, private land and local conditions before you go. Every peak below links to its own page with route notes.",
+    select: () =>
+      countries
+        .filter((c) => {
+          const d = difficultyOf(c);
+          return d === "very_easy" || d === "easy";
+        })
+        .sort(byElevationAsc)
+        .slice(0, 40),
+    faqs: [
+      {
+        question: "What is the easiest country highpoint in the world?",
+        answer:
+          "Several are effectively drive-ups. In Europe, Signal de Botrange in Belgium and Kneiff in Luxembourg both take minutes from the road.",
+      },
+      {
+        question: "Can you climb a country highpoint without experience?",
+        answer:
+          "Yes. Dozens of highpoints are marked walking trails with no technical ground. Start with the easy European and Caribbean summits before moving to glaciated peaks.",
+      },
+    ],
+  },
+  {
+    slug: "hardest-country-highpoints",
+    heading: "The Hardest Country Highpoints",
+    seoTitle: "Hardest Country Highpoints to Climb",
+    description:
+      "The country highpoints that stop most highpointers: extreme altitude, glaciers, remote jungle and peaks closed by politics or conflict.",
+    intro:
+      "The hardest country highpoints are not just the tallest. Some need a full Himalayan expedition, others are blocked by permits, closed borders or active conflict. These are the summits that decide whether the full list of 195 is realistic.",
+    outro:
+      "Difficulty here combines technical ground, altitude, remoteness and access. Political difficulty is tracked separately on each peak page.",
+    select: () =>
+      countries
+        .filter((c) => {
+          const d = difficultyOf(c);
+          return d === "expert" || d === "hard";
+        })
+        .sort(byElevationDesc)
+        .slice(0, 40),
+    faqs: [
+      {
+        question: "What is the hardest country highpoint?",
+        answer:
+          "Gangkhar Puensum in Bhutan is arguably the hardest — it is the world's highest unclimbed mountain and climbing it is banned.",
+      },
+      {
+        question: "Which country highpoints require an expedition?",
+        answer:
+          "Everest (Nepal/China), K2 (Pakistan), Vinson (Antarctica), Denali (USA), Aconcagua (Argentina) and Pico de Orizaba-class volcanoes all need multi-day, fully equipped trips.",
+      },
+    ],
+  },
+  {
+    slug: "best-beginner-country-highpoints",
+    heading: "Best Beginner Country Highpoints",
+    seoTitle: "Best Beginner Country Highpoints",
+    description:
+      "Ten country highpoints that make ideal first mountains — real summits with proper views, but no glacier travel or technical climbing.",
+    intro:
+      "These are the highpoints worth doing first: they feel like mountains, they are reachable in a long day, and they need nothing more than boots, waterproofs and reasonable fitness.",
+    outro:
+      "Each of these gives you altitude and a genuine summit without ropes. When they start feeling easy, step up to the moderate alpine highpoints.",
+    select: () => {
+      const picks = [
+        "Ireland",
+        "United Kingdom",
+        "Poland",
+        "Czech Republic",
+        "Hungary",
+        "Sweden",
+        "Norway",
+        "Croatia",
+        "Finland",
+        "Portugal",
+        "Spain",
+        "Australia",
+      ];
+      return picks
+        .map((name) => countries.find((c) => c.country === name))
+        .filter((c): c is CountryHighPoint => Boolean(c));
+    },
+    faqs: [
+      {
+        question: "What is a good first country highpoint?",
+        answer:
+          "Carrauntoohil in Ireland or Ben Nevis in the UK — both are long hill days on marked ground with no technical climbing required in summer.",
+      },
+      {
+        question: "Do I need mountaineering skills for beginner highpoints?",
+        answer:
+          "No, but you do need navigation, weather awareness and hill fitness. These peaks are non-technical in good summer conditions.",
+      },
+    ],
+  },
+  {
+    slug: "european-country-highpoints",
+    heading: "Every European Country Highpoint",
+    seoTitle: "European Country Highpoints: Full List",
+    description:
+      "All European country highpoints ranked by elevation, from Mont Blanc and Elbrus down to the low country summits of the Baltics and Benelux.",
+    intro:
+      "Europe is the best continent to start highpointing: short travel distances, good infrastructure and a full spread of difficulty from drive-ups to serious alpine routes.",
+    outro:
+      "A determined climber can tick most of Europe in a few road-trip seasons — which is exactly how this project began.",
+    select: () => countries.filter((c) => c.continent === "Europe").sort(byElevationDesc),
+    faqs: [
+      {
+        question: "What is the highest country highpoint in Europe?",
+        answer:
+          "Mount Elbrus (5,642 m) in Russia, if you count the Caucasus as Europe. Otherwise Mont Blanc (4,807 m), shared by France and Italy.",
+      },
+      {
+        question: "How long does it take to climb every European highpoint?",
+        answer:
+          "With a van and good weather windows, most of Europe's highpoints can be climbed across two or three summer seasons.",
+      },
+    ],
+  },
+  {
+    slug: "volcanic-country-highpoints",
+    heading: "Country Highpoints That Are Volcanoes",
+    seoTitle: "Country Highpoints That Are Volcanoes",
+    description:
+      "Volcano highpoints around the world — Kilimanjaro, Teide, Pico, Orizaba and more — with elevation, difficulty and route notes.",
+    intro:
+      "A surprising share of country highpoints are volcanoes. They tend to be big, symmetrical, walk-up-angle mountains where altitude, not technique, is the crux.",
+    outro:
+      "Volcanic highpoints are the best training ground for altitude: predictable terrain, big vertical gain and, usually, a hut or road high on the mountain.",
+    select: () => {
+      const picks = [
+        "Tanzania",
+        "Spain",
+        "Portugal",
+        "Mexico",
+        "Ecuador",
+        "Chile",
+        "Indonesia",
+        "Japan",
+        "Iceland",
+        "Cape Verde",
+        "Philippines",
+        "Rwanda",
+        "Cameroon",
+        "New Zealand",
+        "Guatemala",
+        "Costa Rica",
+        "El Salvador",
+        "Nicaragua",
+      ];
+      return picks
+        .map((name) => countries.find((c) => c.country === name))
+        .filter((c): c is CountryHighPoint => Boolean(c))
+        .sort(byElevationDesc);
+    },
+    faqs: [
+      {
+        question: "What is the highest volcano that is a country highpoint?",
+        answer:
+          "Ojos del Salado on the Chile–Argentina border is the world's highest volcano at 6,893 m and is Chile's highest point.",
+      },
+      {
+        question: "Are volcano highpoints easier to climb?",
+        answer:
+          "Usually the terrain is easier — long scree and snow slopes rather than technical rock — but the altitude and weather can still be serious.",
+      },
+    ],
+  },
+  {
+    slug: "seven-summits",
+    heading: "The Seven Summits",
+    seoTitle: "The Seven Summits: Full List & Heights",
+    description:
+      "The Seven Summits — the highest mountain on each continent — with heights, difficulty and how both the Bass and Messner lists differ.",
+    intro:
+      "The Seven Summits are the highest mountain on each of the seven continents, and the most famous climbing list in the world. Every one of them is also a country highpoint, which is why they sit inside this project.",
+    outro:
+      "Two versions exist. The Bass list uses Mount Kosciuszko (2,228 m) for Australia; the Messner list uses Puncak Jaya (4,884 m) in Indonesia for the Oceania/Australasia continental plate. Puncak Jaya is the harder and more widely respected tick.",
+    select: () => {
+      const picks = [
+        "Nepal", "Argentina", "United States", "Tanzania", "Russia",
+        "Antarctica", "Indonesia", "Australia",
+      ];
+      return picks
+        .map((name) => countries.find((c) => c.country === name))
+        .filter((c): c is CountryHighPoint => Boolean(c))
+        .sort(byElevationDesc);
+    },
+    faqs: [
+      {
+        question: "What are the Seven Summits?",
+        answer:
+          "Everest (Asia), Aconcagua (South America), Denali (North America), Kilimanjaro (Africa), Elbrus (Europe), Vinson (Antarctica) and either Puncak Jaya or Kosciuszko for Oceania/Australia.",
+      },
+      {
+        question: "What is the difference between the Bass and Messner lists?",
+        answer:
+          "The Bass list takes Kosciuszko in Australia as the seventh summit; the Messner list takes Puncak Jaya in Indonesia. Messner's version is considered the more serious challenge because Puncak Jaya is a technical rock climb in a remote, permit-controlled area.",
+      },
+      {
+        question: "Which of the Seven Summits is the easiest?",
+        answer:
+          "Kosciuszko is a walk. Of the real mountains, Kilimanjaro is the easiest — a non-technical multi-day trek where altitude is the only real crux.",
+      },
+    ],
+  },
+  ...continentGuide("Asia", {
+    seoTitle: "Highest Mountain in Every Asian Country",
+    description:
+      "Every Asian country's highest mountain ranked by elevation — from Everest and K2 down to the low highpoints of the Gulf and Southeast Asia.",
+    intro:
+      "Asia holds the highest and hardest country highpoints on the planet. Fourteen of them break 6,000 m, and several need full expeditions, army permits or closed-border negotiation.",
+    outro:
+      "Access, not elevation, is often the crux in Asia: several highpoints sit on disputed frontiers or inside restricted military zones.",
+    faqs: [
+      {
+        question: "What is the highest mountain in Asia?",
+        answer: "Mount Everest at 8,849 m, on the Nepal–China border.",
+      },
+      {
+        question: "Which Asian country highpoints are hardest to reach?",
+        answer:
+          "Gangkhar Puensum (Bhutan) is closed to climbing, K2 (Pakistan) is a major expedition, and several Central Asian highpoints need border permits arranged months ahead.",
+      },
+    ],
+  }),
+  ...continentGuide("Africa", {
+    seoTitle: "Highest Mountain in Every African Country",
+    description:
+      "All 54 African country highpoints ranked by elevation, with difficulty, range and route notes — Kilimanjaro, Mount Kenya, Toubkal and the rest.",
+    intro:
+      "Africa's highpoints run from the glaciated 5,000 m volcanoes of the Rift Valley to desert plateaus and jungle ridges that see a handful of ascents a decade.",
+    outro:
+      "Many African highpoints are logistically, not technically, hard: permits, guides and long overland approaches decide whether the trip works.",
+    faqs: [
+      {
+        question: "What is the highest mountain in Africa?",
+        answer: "Kilimanjaro at 5,895 m in Tanzania — the highest free-standing mountain in the world.",
+      },
+      {
+        question: "Which African highpoint is the hardest?",
+        answer:
+          "Mount Kenya's Batian summit is the most technical, and several Sahel and Central African highpoints are hard purely because of access and security.",
+      },
+    ],
+  }),
+  ...continentGuide("South America", {
+    seoTitle: "Highest Mountain in Every South American Country",
+    description:
+      "South America's country highpoints ranked by elevation — Aconcagua, Ojos del Salado, Huascarán, Chimborazo and the rest of the Andes.",
+    intro:
+      "South America is the altitude continent. Nine of its twelve country highpoints are Andean, and the crux on almost all of them is acclimatisation rather than technical climbing.",
+    outro:
+      "The dry Andean season from December to February suits the southern peaks; the tropical Andes climb best from June to September.",
+    faqs: [
+      {
+        question: "What is the highest mountain in South America?",
+        answer: "Aconcagua at 6,961 m in Argentina — the highest mountain outside Asia.",
+      },
+      {
+        question: "Which South American highpoints are non-technical?",
+        answer:
+          "Aconcagua's normal route and Ojos del Salado are walk-ups at altitude; Huascarán and Illimani need real glacier and rope skills.",
+      },
+    ],
+  }),
+  ...continentGuide("North America", {
+    seoTitle: "Highest Mountain in Every North American Country",
+    description:
+      "Every North American and Caribbean country highpoint ranked by elevation — Denali, Pico de Orizaba, Duarte and the island summits.",
+    intro:
+      "North America covers Denali's sub-arctic glaciers, Mexico's high volcanoes and a string of Caribbean island highpoints that can be climbed in a morning.",
+    outro:
+      "The Caribbean highpoints make an excellent multi-country trip: several can be ticked in a single two-week island hop.",
+    faqs: [
+      {
+        question: "What is the highest mountain in North America?",
+        answer: "Denali at 6,190 m in Alaska, USA — a serious glaciated expedition despite its latitude.",
+      },
+      {
+        question: "Which Caribbean highpoint is the highest?",
+        answer: "Pico Duarte in the Dominican Republic at 3,098 m, a multi-day but non-technical trek.",
+      },
+    ],
+  }),
+  ...continentGuide("Oceania", {
+    seoTitle: "Highest Mountain in Every Oceanian Country",
+    description:
+      "Oceania's country highpoints ranked by elevation — Puncak Jaya, Mount Wilhelm, Aoraki, Kosciuszko and the Pacific island summits.",
+    intro:
+      "Oceania mixes two extremes: technical, permit-heavy peaks in New Guinea and New Zealand, and Pacific island highpoints that are short jungle walks.",
+    outro:
+      "Travel time, not climbing difficulty, dominates an Oceania highpointing trip — flights between island nations are infrequent and expensive.",
+    faqs: [
+      {
+        question: "What is the highest mountain in Oceania?",
+        answer:
+          "Puncak Jaya (Carstensz Pyramid) at 4,884 m in the Indonesian part of New Guinea — a technical rock climb in a restricted area.",
+      },
+      {
+        question: "Is Aoraki / Mount Cook hard to climb?",
+        answer:
+          "Yes. New Zealand's highpoint is a serious alpine route with objective hazard, normally climbed with a guide or strong alpine experience.",
+      },
+    ],
+  }),
+];
+
+export const getGuide = (slug: string): Guide | undefined => guides.find((g) => g.slug === slug);

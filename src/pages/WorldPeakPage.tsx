@@ -1,1 +1,187 @@
-aW1wb3J0IHsgQXJyb3dMZWZ0LCBNb3VudGFpbiwgTWFwUGluLCBUcmVuZGluZ1VwLCBHbG9iZTIsIFJ1bGVyLCBBbmNob3IgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBMaW5rIH0gZnJvbSAiQC9saWIvcm91dGVyLWNvbXBhdCI7CmltcG9ydCBOYXZiYXIgZnJvbSAiQC9jb21wb25lbnRzL05hdmJhciI7CmltcG9ydCBMYXp5UGVha01hcFByZXZpZXcgZnJvbSAiQC9jb21wb25lbnRzL0xhenlQZWFrTWFwUHJldmlldyI7CmltcG9ydCBQZWFrQXNjZW50UmVnaXN0cnkgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9QZWFrQXNjZW50UmVnaXN0cnkiOwppbXBvcnQgdHlwZSB7IFdvcmxkUGVha0RldGFpbCwgUGVha0FzY2VudEVudHJ5IH0gZnJvbSAiQC9saWIvcGVhay1kZXRhaWwuZnVuY3Rpb25zIjsKaW1wb3J0IHsgZm9ybWF0RWxldmF0aW9uIH0gZnJvbSAiQC9saWIvdW5pdHMiOwppbXBvcnQgeyB1c2VVbml0cyB9IGZyb20gIkAvaG9va3MvdXNlVW5pdHMiOwoKZXhwb3J0IGNvbnN0IGNvdW50cnlOYW1lID0gKGNvZGU6IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQpID0+IHsKICBpZiAoIWNvZGUpIHJldHVybiBudWxsOwogIHRyeSB7CiAgICByZXR1cm4gbmV3IEludGwuRGlzcGxheU5hbWVzKFsiZW4iXSwgeyB0eXBlOiAicmVnaW9uIiB9KS5vZihjb2RlKSA/PyBjb2RlOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIGNvZGU7CiAgfQp9OwoKY29uc3QgZG1zID0gKHZhbHVlOiBudW1iZXIsIHBvc2l0aXZlOiBzdHJpbmcsIG5lZ2F0aXZlOiBzdHJpbmcpID0+IHsKICBjb25zdCBoZW1pID0gdmFsdWUgPj0gMCA/IHBvc2l0aXZlIDogbmVnYXRpdmU7CiAgY29uc3QgYWJzID0gTWF0aC5hYnModmFsdWUpOwogIGNvbnN0IGRlZyA9IE1hdGguZmxvb3IoYWJzKTsKICBjb25zdCBtaW5GbG9hdCA9IChhYnMgLSBkZWcpICogNjA7CiAgY29uc3QgbWluID0gTWF0aC5mbG9vcihtaW5GbG9hdCk7CiAgY29uc3Qgc2VjID0gTWF0aC5yb3VuZCgobWluRmxvYXQgLSBtaW4pICogNjApOwogIHJldHVybiBgJHtkZWd9wrAgJHttaW594oCyICR7c2VjfeKAsyAke2hlbWl9YDsKfTsKCmNvbnN0IFN0YXQgPSAoewogIGljb246IEljb24sCiAgbGFiZWwsCiAgdmFsdWUsCn06IHsKICBpY29uOiB0eXBlb2YgTW91bnRhaW47CiAgbGFiZWw6IHN0cmluZzsKICB2YWx1ZTogc3RyaW5nOwp9KSA9PiAoCiAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZC82MCBwLTQiPgogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQteHMgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgPEljb24gY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAge2xhYmVsfQogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMSB0ZXh0LWxnIGZvbnQtc2VtaWJvbGQgdGV4dC1mb3JlZ3JvdW5kIj57dmFsdWV9PC9kaXY+CiAgPC9kaXY+Cik7CgppbnRlcmZhY2UgUHJvcHMgewogIHBlYWs6IFdvcmxkUGVha0RldGFpbCB8IG51bGw7CiAgYXNjZW50cz86IFBlYWtBc2NlbnRFbnRyeVtdOwp9Cgpjb25zdCBXb3JsZFBlYWtQYWdlID0gKHsgcGVhaywgYXNjZW50cyA9IFtdIH06IFByb3BzKSA9PiB7CiAgY29uc3QgdW5pdHMgPSB1c2VVbml0cygpOwogIGlmICghcGVhaykgewogICAgcmV0dXJuICgKICAgICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy1iYWNrZ3JvdW5kIj4KICAgICAgICA8TmF2YmFyIC8+CiAgICAgICAgPG1haW4gY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTN4bCBweC00IHB5LTI0IHRleHQtY2VudGVyIj4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWZvcmVncm91bmQiPlBlYWsgbm90IGZvdW5kPC9oMT4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICBUaGlzIHBlYWsgaXNu4oCZdCBpbiB0aGUgY2F0YWxvZyDigJQgdHJ5IHNlYXJjaGluZyBmb3IgaXQgYWdhaW4uCiAgICAgICAgICA8L3A+CiAgICAgICAgICA8TGluayB0bz0iLyIgY2xhc3NOYW1lPSJtdC02IGlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXByaW1hcnkgaG92ZXI6dW5kZXJsaW5lIj4KICAgICAgICAgICAgPEFycm93TGVmdCBjbGFzc05hbWU9ImgtNCB3LTQiIC8+IEJhY2sgdG8gc2VhcmNoCiAgICAgICAgICA8L0xpbms+CiAgICAgICAgPC9tYWluPgogICAgICA8L2Rpdj4KICAgICk7CiAgfQoKICBjb25zdCBjb3VudHJ5ID0gY291bnRyeU5hbWUocGVhay5jb3VudHJ5Q29kZSk7CiAgY29uc3QgaGFzQ29vcmRzID0gcGVhay5sYXQgIT0gbnVsbCAmJiBwZWFrLmxvbiAhPSBudWxsOwogIGNvbnN0IGhhc1NhZGRsZSA9IHBlYWsuc2FkZGxlTGF0ICE9IG51bGwgJiYgcGVhay5zYWRkbGVMb24gIT0gbnVsbDsKICBjb25zdCBsb2NhdGlvbiA9IFtwZWFrLmFkbWluMSwgY291bnRyeV0uZmlsdGVyKEJvb2xlYW4pLmpvaW4oIiwgIik7CgogIGNvbnN0IHNjaGVtYSA9IHsKICAgICJAY29udGV4dCI6ICJodHRwczovL3NjaGVtYS5vcmciLAogICAgIkB0eXBlIjogIk1vdW50YWluIiwKICAgIG5hbWU6IHBlYWsubmFtZSwKICAgIC4uLihwZWFrLmVsZXZhdGlvbiA/IHsgZWxldmF0aW9uOiBgJHtwZWFrLmVsZXZhdGlvbn0gbWAgfSA6IHt9KSwKICAgIC4uLihjb3VudHJ5ID8geyBhZGRyZXNzOiB7ICJAdHlwZSI6ICJQb3N0YWxBZGRyZXNzIiwgYWRkcmVzc0NvdW50cnk6IGNvdW50cnkgfSB9IDoge30pLAogICAgLi4uKGhhc0Nvb3JkcwogICAgICA/IHsgZ2VvOiB7ICJAdHlwZSI6ICJHZW9Db29yZGluYXRlcyIsIGxhdGl0dWRlOiBwZWFrLmxhdCwgbG9uZ2l0dWRlOiBwZWFrLmxvbiB9IH0KICAgICAgOiB7fSksCiAgfTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctYmFja2dyb3VuZCI+CiAgICAgIDxOYXZiYXIgLz4KICAgICAgPHNjcmlwdCB0eXBlPSJhcHBsaWNhdGlvbi9sZCtqc29uIiBkYW5nZXJvdXNseVNldElubmVySFRNTD17eyBfX2h0bWw6IEpTT04uc3RyaW5naWZ5KHNjaGVtYSkgfX0gLz4KCiAgICAgIDxtYWluIGNsYXNzTmFtZT0ibXgtYXV0byBtYXgtdy00eGwgcHgtNCBweS0xMCI+CiAgICAgICAgPExpbmsKICAgICAgICAgIHRvPSIvIgogICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIgogICAgICAgID4KICAgICAgICAgIDxBcnJvd0xlZnQgY2xhc3NOYW1lPSJoLTQgdy00IiAvPiBTZWFyY2ggcGVha3MKICAgICAgICA8L0xpbms+CgogICAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJtdC02Ij4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtM3hsIGZvbnQtYm9sZCB0cmFja2luZy10aWdodCB0ZXh0LWZvcmVncm91bmQgc206dGV4dC00eGwiPgogICAgICAgICAgICB7cGVhay5uYW1lfQogICAgICAgICAgPC9oMT4KICAgICAgICAgIHtsb2NhdGlvbiAmJiAoCiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIDxHbG9iZTIgY2xhc3NOYW1lPSJoLTQgdy00IiAvPiB7bG9jYXRpb259CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICl9CiAgICAgICAgPC9oZWFkZXI+CgogICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ibXQtNiBncmlkIGdyaWQtY29scy0yIGdhcC0zIHNtOmdyaWQtY29scy00Ij4KICAgICAgICAgIDxTdGF0CiAgICAgICAgICAgIGljb249e01vdW50YWlufQogICAgICAgICAgICBsYWJlbD0iRWxldmF0aW9uIgogICAgICAgICAgICB2YWx1ZT17Zm9ybWF0RWxldmF0aW9uKHBlYWsuZWxldmF0aW9uLCB1bml0cykgPz8gIuKAlCJ9CiAgICAgICAgICAvPgogICAgICAgICAgPFN0YXQKICAgICAgICAgICAgaWNvbj17VHJlbmRpbmdVcH0KICAgICAgICAgICAgbGFiZWw9IlByb21pbmVuY2UiCiAgICAgICAgICAgIHZhbHVlPXtmb3JtYXRFbGV2YXRpb24ocGVhay5wcm9taW5lbmNlLCB1bml0cykgPz8gIuKAlCJ9CiAgICAgICAgICAvPgogICAgICAgICAgPFN0YXQgaWNvbj17R2xvYmUyfSBsYWJlbD0iQ291bnRyeSIgdmFsdWU9e2NvdW50cnkgPz8gIuKAlCJ9IC8+CiAgICAgICAgICA8U3RhdAogICAgICAgICAgICBpY29uPXtNYXBQaW59CiAgICAgICAgICAgIGxhYmVsPSJDb29yZGluYXRlcyIKICAgICAgICAgICAgdmFsdWU9e2hhc0Nvb3JkcyA/IGAke3BlYWsubGF0IS50b0ZpeGVkKDQpfSwgJHtwZWFrLmxvbiEudG9GaXhlZCg0KX1gIDogIuKAlCJ9CiAgICAgICAgICAvPgogICAgICAgICAge3BlYWsuaXNvbGF0aW9uS20gIT0gbnVsbCAmJiAoCiAgICAgICAgICAgIDxTdGF0CiAgICAgICAgICAgICAgaWNvbj17UnVsZXJ9CiAgICAgICAgICAgICAgbGFiZWw9Iklzb2xhdGlvbiIKICAgICAgICAgICAgICB2YWx1ZT17YCR7cGVhay5pc29sYXRpb25LbS50b0ZpeGVkKDEpfSBrbWB9CiAgICAgICAgICAgIC8+CiAgICAgICAgICApfQogICAgICAgICAge2hhc1NhZGRsZSAmJiAoCiAgICAgICAgICAgIDxTdGF0CiAgICAgICAgICAgICAgaWNvbj17QW5jaG9yfQogICAgICAgICAgICAgIGxhYmVsPSJLZXkgc2FkZGxlIgogICAgICAgICAgICAgIHZhbHVlPXtgJHtwZWFrLnNhZGRsZUxhdCEudG9GaXhlZCgzKX0sICR7cGVhay5zYWRkbGVMb24hLnRvRml4ZWQoMyl9YH0KICAgICAgICAgICAgLz4KICAgICAgICAgICl9CiAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICB7aGFzQ29vcmRzICYmICgKICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMyB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHtkbXMocGVhay5sYXQhLCAiTiIsICJTIil9IMK3IHtkbXMocGVhay5sb24hLCAiRSIsICJXIil9CiAgICAgICAgICA8L3A+CiAgICAgICAgKX0KCiAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJtdC04Ij4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9Im1iLTMgdGV4dC1zbSBmb250LXNlbWlib2xkIHVwcGVyY2FzZSB0cmFja2luZy13aWRlIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIE1hcCBwcmV2aWV3CiAgICAgICAgICA8L2gyPgogICAgICAgICAge2hhc0Nvb3JkcyA/ICgKICAgICAgICAgICAgPD4KICAgICAgICAgICAgICA8TGF6eVBlYWtNYXBQcmV2aWV3IGxhdD17cGVhay5sYXQhfSBsbmc9e3BlYWsubG9uIX0gbGFiZWw9e3BlYWsubmFtZX0gLz4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMyBmbGV4IGZsZXgtd3JhcCBnYXAtNCB0ZXh0LXNtIj4KICAgICAgICAgICAgICAgIDxhCiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1wcmltYXJ5IGhvdmVyOnVuZGVybGluZSIKICAgICAgICAgICAgICAgICAgaHJlZj17YGh0dHBzOi8vd3d3Lm9wZW5zdHJlZXRtYXAub3JnLz9tbGF0PSR7cGVhay5sYXR9Jm1sb249JHtwZWFrLmxvbn0jbWFwPTEzLyR7cGVhay5sYXR9LyR7cGVhay5sb259YH0KICAgICAgICAgICAgICAgICAgdGFyZ2V0PSJfYmxhbmsiCiAgICAgICAgICAgICAgICAgIHJlbD0ibm9yZWZlcnJlciBub29wZW5lciIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgT3BlbiBpbiBPcGVuU3RyZWV0TWFwCiAgICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICAgICA8YQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtcHJpbWFyeSBob3Zlcjp1bmRlcmxpbmUiCiAgICAgICAgICAgICAgICAgIGhyZWY9e2BodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvc2VhcmNoLz9hcGk9MSZxdWVyeT0ke3BlYWsubGF0fSwke3BlYWsubG9ufWB9CiAgICAgICAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICAgICAgICByZWw9Im5vcmVmZXJyZXIgbm9vcGVuZXIiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIE9wZW4gaW4gR29vZ2xlIE1hcHMKICAgICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC8+CiAgICAgICAgICApIDogKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+Tm8gY29vcmRpbmF0ZXMgcmVjb3JkZWQgZm9yIHRoaXMgcGVhayB5ZXQuPC9wPgogICAgICAgICAgKX0KICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgIDxQZWFrQXNjZW50UmVnaXN0cnkgcGVha05hbWU9e3BlYWsubmFtZX0gYXNjZW50cz17YXNjZW50c30gLz4KICAgICAgPC9tYWluPgogICAgPC9kaXY+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IFdvcmxkUGVha1BhZ2U7Cg==
+import { ArrowLeft, Mountain, MapPin, TrendingUp, Globe2, Ruler, Anchor } from "lucide-react";
+import { Link } from "@/lib/router-compat";
+import Navbar from "@/components/Navbar";
+import LazyPeakMapPreview from "@/components/LazyPeakMapPreview";
+import PeakAscentRegistry from "@/components/community/PeakAscentRegistry";
+import type { WorldPeakDetail, PeakAscentEntry } from "@/lib/peak-detail.functions";
+import { formatElevation } from "@/lib/units";
+import { useUnits } from "@/hooks/useUnits";
+
+export const countryName = (code: string | null | undefined) => {
+  if (!code) return null;
+  try {
+    return new Intl.DisplayNames(["en"], { type: "region" }).of(code) ?? code;
+  } catch {
+    return code;
+  }
+};
+
+const dms = (value: number, positive: string, negative: string) => {
+  const hemi = value >= 0 ? positive : negative;
+  const abs = Math.abs(value);
+  const deg = Math.floor(abs);
+  const minFloat = (abs - deg) * 60;
+  const min = Math.floor(minFloat);
+  const sec = Math.round((minFloat - min) * 60);
+  return `${deg}° ${min}′ ${sec}″ ${hemi}`;
+};
+
+const Stat = ({
+  icon: Icon,
+  label,
+  value,
+}: {
+  icon: typeof Mountain;
+  label: string;
+  value: string;
+}) => (
+  <div className="rounded-lg border border-border bg-card/60 p-4">
+    <div className="flex items-center gap-2 text-xs uppercase tracking-wide text-muted-foreground">
+      <Icon className="h-3.5 w-3.5" />
+      {label}
+    </div>
+    <div className="mt-1 text-lg font-semibold text-foreground">{value}</div>
+  </div>
+);
+
+interface Props {
+  peak: WorldPeakDetail | null;
+  ascents?: PeakAscentEntry[];
+}
+
+const WorldPeakPage = ({ peak, ascents = [] }: Props) => {
+  const units = useUnits();
+  if (!peak) {
+    return (
+      <div className="min-h-screen bg-background">
+        <Navbar />
+        <main className="mx-auto max-w-3xl px-4 py-24 text-center">
+          <h1 className="text-2xl font-bold text-foreground">Peak not found</h1>
+          <p className="mt-2 text-muted-foreground">
+            This peak isn’t in the catalog — try searching for it again.
+          </p>
+          <Link to="/" className="mt-6 inline-flex items-center gap-2 text-primary hover:underline">
+            <ArrowLeft className="h-4 w-4" /> Back to search
+          </Link>
+        </main>
+      </div>
+    );
+  }
+
+  const country = countryName(peak.countryCode);
+  const hasCoords = peak.lat != null && peak.lon != null;
+  const hasSaddle = peak.saddleLat != null && peak.saddleLon != null;
+  const location = [peak.admin1, country].filter(Boolean).join(", ");
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Mountain",
+    name: peak.name,
+    ...(peak.elevation ? { elevation: `${peak.elevation} m` } : {}),
+    ...(country ? { address: { "@type": "PostalAddress", addressCountry: country } } : {}),
+    ...(hasCoords
+      ? { geo: { "@type": "GeoCoordinates", latitude: peak.lat, longitude: peak.lon } }
+      : {}),
+  };
+
+  return (
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+
+      <main className="mx-auto max-w-4xl px-4 py-10">
+        <Link
+          to="/"
+          className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
+        >
+          <ArrowLeft className="h-4 w-4" /> Search peaks
+        </Link>
+
+        <header className="mt-6">
+          <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+            {peak.name}
+          </h1>
+          {location && (
+            <p className="mt-2 flex items-center gap-2 text-muted-foreground">
+              <Globe2 className="h-4 w-4" /> {location}
+            </p>
+          )}
+        </header>
+
+        <section className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+          <Stat
+            icon={Mountain}
+            label="Elevation"
+            value={formatElevation(peak.elevation, units) ?? "—"}
+          />
+          <Stat
+            icon={TrendingUp}
+            label="Prominence"
+            value={formatElevation(peak.prominence, units) ?? "—"}
+          />
+          <Stat icon={Globe2} label="Country" value={country ?? "—"} />
+          <Stat
+            icon={MapPin}
+            label="Coordinates"
+            value={hasCoords ? `${peak.lat!.toFixed(4)}, ${peak.lon!.toFixed(4)}` : "—"}
+          />
+          {peak.isolationKm != null && (
+            <Stat
+              icon={Ruler}
+              label="Isolation"
+              value={`${peak.isolationKm.toFixed(1)} km`}
+            />
+          )}
+          {hasSaddle && (
+            <Stat
+              icon={Anchor}
+              label="Key saddle"
+              value={`${peak.saddleLat!.toFixed(3)}, ${peak.saddleLon!.toFixed(3)}`}
+            />
+          )}
+        </section>
+
+        {hasCoords && (
+          <p className="mt-3 text-sm text-muted-foreground">
+            {dms(peak.lat!, "N", "S")} · {dms(peak.lon!, "E", "W")}
+          </p>
+        )}
+
+        <section className="mt-8">
+          <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+            Map preview
+          </h2>
+          {hasCoords ? (
+            <>
+              <LazyPeakMapPreview lat={peak.lat!} lng={peak.lon!} label={peak.name} />
+              <div className="mt-3 flex flex-wrap gap-4 text-sm">
+                <a
+                  className="text-primary hover:underline"
+                  href={`https://www.openstreetmap.org/?mlat=${peak.lat}&mlon=${peak.lon}#map=13/${peak.lat}/${peak.lon}`}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Open in OpenStreetMap
+                </a>
+                <a
+                  className="text-primary hover:underline"
+                  href={`https://www.google.com/maps/search/?api=1&query=${peak.lat},${peak.lon}`}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Open in Google Maps
+                </a>
+              </div>
+            </>
+          ) : (
+            <p className="text-muted-foreground">No coordinates recorded for this peak yet.</p>
+          )}
+        </section>
+
+        <PeakAscentRegistry peakName={peak.name} ascents={ascents} />
+      </main>
+    </div>
+  );
+};
+
+export default WorldPeakPage;

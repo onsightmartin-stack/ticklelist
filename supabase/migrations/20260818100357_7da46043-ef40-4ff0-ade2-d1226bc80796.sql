@@ -1,1 +1,22 @@
-Q1JFQVRFIFRBQkxFIHB1YmxpYy5vdXRib3VuZF9jbGlja3MgKAogIGlkIHV1aWQgUFJJTUFSWSBLRVkgREVGQVVMVCBnZW5fcmFuZG9tX3V1aWQoKSwKICBraW5kIHRleHQgTk9UIE5VTEwsCiAgdXJsIHRleHQgTk9UIE5VTEwsCiAgdmlkZW9faWQgdGV4dCwKICBsYWJlbCB0ZXh0LAogIHBhZ2VfcGF0aCB0ZXh0LAogIGNyZWF0ZWRfYXQgdGltZXN0YW1wIHdpdGggdGltZSB6b25lIE5PVCBOVUxMIERFRkFVTFQgbm93KCkKKTsKCkNSRUFURSBJTkRFWCBvdXRib3VuZF9jbGlja3NfY3JlYXRlZF9hdF9pZHggT04gcHVibGljLm91dGJvdW5kX2NsaWNrcyAoY3JlYXRlZF9hdCBERVNDKTsKQ1JFQVRFIElOREVYIG91dGJvdW5kX2NsaWNrc192aWRlb19pZHggT04gcHVibGljLm91dGJvdW5kX2NsaWNrcyAodmlkZW9faWQpOwoKR1JBTlQgU0VMRUNUIE9OIHB1YmxpYy5vdXRib3VuZF9jbGlja3MgVE8gYXV0aGVudGljYXRlZDsKR1JBTlQgQUxMIE9OIHB1YmxpYy5vdXRib3VuZF9jbGlja3MgVE8gc2VydmljZV9yb2xlOwoKQUxURVIgVEFCTEUgcHVibGljLm91dGJvdW5kX2NsaWNrcyBFTkFCTEUgUk9XIExFVkVMIFNFQ1VSSVRZOwoKQ1JFQVRFIFBPTElDWSAiQWRtaW5zIGNhbiB2aWV3IG91dGJvdW5kIGNsaWNrcyIKICBPTiBwdWJsaWMub3V0Ym91bmRfY2xpY2tzIEZPUiBTRUxFQ1QKICBUTyBhdXRoZW50aWNhdGVkCiAgVVNJTkcgKHB1YmxpYy5oYXNfcm9sZShhdXRoLnVpZCgpLCAnYWRtaW4nOjphcHBfcm9sZSkpOw==
+CREATE TABLE public.outbound_clicks (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  kind text NOT NULL,
+  url text NOT NULL,
+  video_id text,
+  label text,
+  page_path text,
+  created_at timestamp with time zone NOT NULL DEFAULT now()
+);
+
+CREATE INDEX outbound_clicks_created_at_idx ON public.outbound_clicks (created_at DESC);
+CREATE INDEX outbound_clicks_video_idx ON public.outbound_clicks (video_id);
+
+GRANT SELECT ON public.outbound_clicks TO authenticated;
+GRANT ALL ON public.outbound_clicks TO service_role;
+
+ALTER TABLE public.outbound_clicks ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Admins can view outbound clicks"
+  ON public.outbound_clicks FOR SELECT
+  TO authenticated
+  USING (public.has_role(auth.uid(), 'admin'::app_role));

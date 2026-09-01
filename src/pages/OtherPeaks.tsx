@@ -1,1 +1,93 @@
-aW1wb3J0IHsgTW91bnRhaW4sIEFycm93TGVmdCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IExpbmsgfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKaW1wb3J0IFNlbyBmcm9tICJAL2NvbXBvbmVudHMvU2VvIjsKaW1wb3J0IE5hdmJhciBmcm9tICJAL2NvbXBvbmVudHMvTmF2YmFyIjsKaW1wb3J0IHsgb3RoZXJQZWFrcyB9IGZyb20gIkAvZGF0YS9vdGhlci1wZWFrcyI7Cgpjb25zdCBPdGhlclBlYWtzID0gKCkgPT4gewogIC8vIEdyb3VwIGJ5IGxvY2F0aW9uCiAgY29uc3QgZ3JvdXBlZCA9IG90aGVyUGVha3MucmVkdWNlPFJlY29yZDxzdHJpbmcsIHR5cGVvZiBvdGhlclBlYWtzPj4oKGFjYywgcCkgPT4gewogICAgaWYgKCFhY2NbcC5sb2NhdGlvbl0pIGFjY1twLmxvY2F0aW9uXSA9IFtdOwogICAgYWNjW3AubG9jYXRpb25dIS5wdXNoKHApOwogICAgcmV0dXJuIGFjYzsKICB9LCB7fSk7CgogIGNvbnN0IGxpc3RTY2hlbWEgPSB7CiAgICAiQGNvbnRleHQiOiAiaHR0cHM6Ly9zY2hlbWEub3JnIiwKICAgICJAdHlwZSI6ICJDb2xsZWN0aW9uUGFnZSIsCiAgICBuYW1lOiAiT3RoZXIgUGVha3MgJiBTaWRlIFRyaXBzIiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAiU3VtbWl0cyBhbmQgbm90YWJsZSBwb2ludHMgY2xpbWJlZCBieSBNYXJ0aW4gR8OlcmRsaW5nIHRoYXQgYXJlbid0IGNvdW50cnkgaGlnaHBvaW50cy4iLAogICAgdXJsOiAiaHR0cHM6Ly9vbnNpZ2h0bWFydGluLmNvbS9vdGhlci1wZWFrcyIsCiAgICBtYWluRW50aXR5OiB7CiAgICAgICJAdHlwZSI6ICJJdGVtTGlzdCIsCiAgICAgIG51bWJlck9mSXRlbXM6IG90aGVyUGVha3MubGVuZ3RoLAogICAgICBpdGVtTGlzdEVsZW1lbnQ6IG90aGVyUGVha3Muc2xpY2UoMCwgMTAwKS5tYXAoKHAsIGkpID0+ICh7CiAgICAgICAgIkB0eXBlIjogIkxpc3RJdGVtIiwKICAgICAgICBwb3NpdGlvbjogaSArIDEsCiAgICAgICAgaXRlbTogewogICAgICAgICAgIkB0eXBlIjogIk1vdW50YWluIiwKICAgICAgICAgIG5hbWU6IHAubmFtZSwKICAgICAgICAgIC4uLihwLmVsZXZhdGlvbiA/IHsgZWxldmF0aW9uOiBgJHtwLmVsZXZhdGlvbn1gIH0gOiB7fSksCiAgICAgICAgICAuLi4ocC5sb2NhdGlvbiA/IHsgYWRkcmVzczogeyAiQHR5cGUiOiAiUG9zdGFsQWRkcmVzcyIsIGFkZHJlc3NDb3VudHJ5OiBwLmxvY2F0aW9uIH0gfSA6IHt9KSwKICAgICAgICB9LAogICAgICB9KSksCiAgICB9LAogIH07CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLWgtc2NyZWVuIGJnLWJhY2tncm91bmQiPgogICAgICA8U2VvCiAgICAgICAgdGl0bGU9Ik90aGVyIFBlYWtzICYgU2lkZSBUcmlwcyDigJQgT25zaWdodCBNYXJ0aW4iCiAgICAgICAgZGVzY3JpcHRpb249IkJleW9uZCB0aGUgY291bnRyeSBoaWdoIHBvaW50czogdHJhaW5pbmcgY2xpbWJzLCBzaWRlIHRyaXBzIGFuZCBidWNrZXQtbGlzdCBzdW1taXRzLCB3aXRoIGVsZXZhdGlvbnMgYW5kIGRhdGVzIGZvciBldmVyeSBwZWFrIGxvZ2dlZC4iCiAgICAgICAgcGF0aD0iL290aGVyLXBlYWtzIgogICAgICAgIGpzb25MZD17bGlzdFNjaGVtYX0KICAgICAgLz4KICAgICAgPE5hdmJhciAvPgoKICAgICAgPGRpdiBjbGFzc05hbWU9InB0LTIwIGNvbnRhaW5lciBteC1hdXRvIHB4LTQgcGItMTYgbWQ6cGItMjQiPgogICAgICAgIDxMaW5rIHRvPSIvIiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSB0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIHRleHQtc20gbWItOCB0cmFuc2l0aW9uLWNvbG9ycyI+CiAgICAgICAgICA8QXJyb3dMZWZ0IGNsYXNzTmFtZT0idy00IGgtNCIgLz4gQmFjayB0byBIaWdocG9pbnRzCiAgICAgICAgPC9MaW5rPgoKICAgICAgICA8aDEgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0zeGwgbWQ6dGV4dC01eGwgZm9udC1ib2xkIHRleHQtZm9yZWdyb3VuZCBtYi0yIj5PdGhlciBQZWFrczwvaDE+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgbWItMTAgbWF4LXctbGciPgogICAgICAgICAgU3VtbWl0cyBhbmQgbm90YWJsZSBwb2ludHMgdGhhdCBhcmVuJ3QgY291bnRyeSBoaWdocG9pbnRzIOKAlCBzaWRlIHRyaXBzLCB0cmFpbmluZyBjbGltYnMsIGFuZCBidWNrZXQtbGlzdCB2aWV3cG9pbnRzLgogICAgICAgIDwvcD4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTQgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge290aGVyUGVha3MubGVuZ3RofSBwZWFrcyBsb2dnZWQKICAgICAgICA8L2Rpdj4KCiAgICAgICAge09iamVjdC5lbnRyaWVzKGdyb3VwZWQpLnNvcnQoKFthXSwgW2JdKSA9PiBhLmxvY2FsZUNvbXBhcmUoYikpLm1hcCgoW2xvY2F0aW9uLCBwZWFrc10pID0+ICgKICAgICAgICAgIDxkaXYga2V5PXtsb2NhdGlvbn0gY2xhc3NOYW1lPSJtYi04Ij4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtbGcgdGV4dC1wcmltYXJ5IHRyYWNraW5nLXdpZGVyIG1iLTMgYm9yZGVyLWIgYm9yZGVyLWJvcmRlciBwYi0yIj57bG9jYXRpb259PC9oMj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ2FwLTIiPgogICAgICAgICAgICAgIHtwZWFrcy5zb3J0KChhLCBiKSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBlbGV2QSA9IHBhcnNlSW50KGEuZWxldmF0aW9uLnJlcGxhY2UoL1teMC05XS9nLCAiIikpOwogICAgICAgICAgICAgICAgY29uc3QgZWxldkIgPSBwYXJzZUludChiLmVsZXZhdGlvbi5yZXBsYWNlKC9bXjAtOV0vZywgIiIpKTsKICAgICAgICAgICAgICAgIHJldHVybiBlbGV2QiAtIGVsZXZBOwogICAgICAgICAgICAgIH0pLm1hcChwZWFrID0+ICgKICAgICAgICAgICAgICAgIDxkaXYga2V5PXtgJHtwZWFrLm5hbWV9LSR7cGVhay5kYXRlfWB9IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMgcHktMiBweC0zIHJvdW5kZWQtc20gYmctY2FyZCBob3ZlcjpiZy1zZWNvbmRhcnkgdHJhbnNpdGlvbi1jb2xvcnMiPgogICAgICAgICAgICAgICAgICA8TW91bnRhaW4gY2xhc3NOYW1lPSJ3LTQgaC00IGZsZXgtc2hyaW5rLTAgdGV4dC1wcmltYXJ5IiAvPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtbWVkaXVtIHRleHQtZm9yZWdyb3VuZCBtaW4tdy1bMTQwcHhdIG1kOm1pbi13LVsyMDBweF0iPntwZWFrLm5hbWV9PC9zcGFuPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCB0ZXh0LXNtIGZsZXgtMSBoaWRkZW4gc206aW5saW5lIj57cGVhay5ub3RlIHx8ICIifTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgdGV4dC1zbSI+e3BlYWsuZWxldmF0aW9ufTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXByaW1hcnkgdGV4dC14cyBmb250LWRpc3BsYXkiPntwZWFrLmRhdGUuc2xpY2UoMCwgNCl9PC9zcGFuPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKSl9CiAgICAgIDwvZGl2PgoKICAgICAgPGZvb3RlciBjbGFzc05hbWU9ImJnLWJhY2tncm91bmQgYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBweS04Ij4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIG14LWF1dG8gcHgtNCB0ZXh0LWNlbnRlciB0ZXh0LW11dGVkLWZvcmVncm91bmQgdGV4dC1zbSI+CiAgICAgICAgICA8cD7CqSB7bmV3IERhdGUoKS5nZXRGdWxsWWVhcigpfSBPbnNpZ2h0IE1hcnRpbiDigJQgTWFydGluIEfDpXJkbGluZzwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9mb290ZXI+CiAgICA8L2Rpdj4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgT3RoZXJQZWFrczsK
+import { Mountain, ArrowLeft } from "lucide-react";
+import { Link } from "@/lib/router-compat";
+import Seo from "@/components/Seo";
+import Navbar from "@/components/Navbar";
+import { otherPeaks } from "@/data/other-peaks";
+
+const OtherPeaks = () => {
+  // Group by location
+  const grouped = otherPeaks.reduce<Record<string, typeof otherPeaks>>((acc, p) => {
+    if (!acc[p.location]) acc[p.location] = [];
+    acc[p.location]!.push(p);
+    return acc;
+  }, {});
+
+  const listSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Other Peaks & Side Trips",
+    description:
+      "Summits and notable points climbed by Martin Gårdling that aren't country highpoints.",
+    url: "https://onsightmartin.com/other-peaks",
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: otherPeaks.length,
+      itemListElement: otherPeaks.slice(0, 100).map((p, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        item: {
+          "@type": "Mountain",
+          name: p.name,
+          ...(p.elevation ? { elevation: `${p.elevation}` } : {}),
+          ...(p.location ? { address: { "@type": "PostalAddress", addressCountry: p.location } } : {}),
+        },
+      })),
+    },
+  };
+
+  return (
+    <div className="min-h-screen bg-background">
+      <Seo
+        title="Other Peaks & Side Trips — Onsight Martin"
+        description="Beyond the country high points: training climbs, side trips and bucket-list summits, with elevations and dates for every peak logged."
+        path="/other-peaks"
+        jsonLd={listSchema}
+      />
+      <Navbar />
+
+      <div className="pt-20 container mx-auto px-4 pb-16 md:pb-24">
+        <Link to="/" className="inline-flex items-center gap-1 text-muted-foreground hover:text-foreground text-sm mb-8 transition-colors">
+          <ArrowLeft className="w-4 h-4" /> Back to Highpoints
+        </Link>
+
+        <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-2">Other Peaks</h1>
+        <p className="text-muted-foreground mb-10 max-w-lg">
+          Summits and notable points that aren't country highpoints — side trips, training climbs, and bucket-list viewpoints.
+        </p>
+
+        <div className="mb-4 text-sm text-muted-foreground">
+          {otherPeaks.length} peaks logged
+        </div>
+
+        {Object.entries(grouped).sort(([a], [b]) => a.localeCompare(b)).map(([location, peaks]) => (
+          <div key={location} className="mb-8">
+            <h2 className="font-display text-lg text-primary tracking-wider mb-3 border-b border-border pb-2">{location}</h2>
+            <div className="grid gap-2">
+              {peaks.sort((a, b) => {
+                const elevA = parseInt(a.elevation.replace(/[^0-9]/g, ""));
+                const elevB = parseInt(b.elevation.replace(/[^0-9]/g, ""));
+                return elevB - elevA;
+              }).map(peak => (
+                <div key={`${peak.name}-${peak.date}`} className="flex items-center gap-3 py-2 px-3 rounded-sm bg-card hover:bg-secondary transition-colors">
+                  <Mountain className="w-4 h-4 flex-shrink-0 text-primary" />
+                  <span className="font-medium text-foreground min-w-[140px] md:min-w-[200px]">{peak.name}</span>
+                  <span className="text-muted-foreground text-sm flex-1 hidden sm:inline">{peak.note || ""}</span>
+                  <span className="text-muted-foreground text-sm">{peak.elevation}</span>
+                  <span className="text-primary text-xs font-display">{peak.date.slice(0, 4)}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <footer className="bg-background border-t border-border py-8">
+        <div className="container mx-auto px-4 text-center text-muted-foreground text-sm">
+          <p>© {new Date().getFullYear()} Onsight Martin — Martin Gårdling</p>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default OtherPeaks;

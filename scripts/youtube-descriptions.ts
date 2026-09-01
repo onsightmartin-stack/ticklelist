@@ -1,1 +1,71 @@
-LyoqCiAqIEdlbmVyYXRlcyBhIHJlYWR5LXRvLXBhc3RlIFlvdVR1YmUgZGVzY3JpcHRpb24gYmxvY2sgZm9yIGV2ZXJ5IGNvdW50cnkKICogaGlnaHBvaW50IHRoYXQgaGFzIGEgc3VtbWl0IHZpZGVvLCB3aXRoIHRoZSBtYXRjaGluZyAvcGVhay8gVVJMLCBjaGFwdGVycwogKiBwbGFjZWhvbGRlciBhbmQgaGFzaHRhZ3MuIFBvaW50ICM0IG9mIHRoZSBTRU8gcGxhbjogdHVybiBZb3VUdWJlIHRyYWZmaWMKICogaW50byBzaXRlIHRyYWZmaWMuCiAqCiAqIFVzYWdlOiBidW4gcnVuIHNjcmlwdHMveW91dHViZS1kZXNjcmlwdGlvbnMudHMKICogT3V0cHV0OiBkb2NzL3Nlby95b3V0dWJlLWRlc2NyaXB0aW9ucy5tZAogKi8KaW1wb3J0IHsgbWtkaXJTeW5jLCB3cml0ZUZpbGVTeW5jIH0gZnJvbSAibm9kZTpmcyI7CmltcG9ydCB7IHJlc29sdmUgfSBmcm9tICJub2RlOnBhdGgiOwppbXBvcnQgeyBjb3VudHJpZXMgfSBmcm9tICIuLi9zcmMvZGF0YS9jb3VudHJpZXMiOwppbXBvcnQgeyBwZWFrRGV0YWlscyB9IGZyb20gIi4uL3NyYy9kYXRhL3BlYWstZGV0YWlscyI7CmltcG9ydCB7IHBlcnNvbmFsTm90ZXMgfSBmcm9tICIuLi9zcmMvZGF0YS9wZXJzb25hbC1ub3RlcyI7CmltcG9ydCB7IHNsdWdpZnkgfSBmcm9tICIuLi9zcmMvbGliL3NsdWciOwoKY29uc3QgU0lURSA9ICJodHRwczovL29uc2lnaHRtYXJ0aW4uY29tIjsKCmNvbnN0IGJsb2Nrczogc3RyaW5nW10gPSBbCiAgIiMgWW91VHViZSBkZXNjcmlwdGlvbiB0ZW1wbGF0ZXMiLAogICIiLAogICJQYXN0ZSB0aGUgYmxvY2sgYmVsb3cgaW50byB0aGUgbWF0Y2hpbmcgdmlkZW8gZGVzY3JpcHRpb24gaW4gWW91VHViZSBTdHVkaW8uIiwKICAiVGhlIGZpcnN0IGxpbmsgc2hvdWxkIHN0YXkgaW4gdGhlIGZpcnN0IHR3byBsaW5lcyBzbyBpdCBpcyB2aXNpYmxlIHdpdGhvdXQiLAogICJjbGlja2luZyBcIm1vcmVcIi4gQWRkIHJlYWwgY2hhcHRlciB0aW1lc3RhbXBzIGJlZm9yZSBwdWJsaXNoaW5nLiIsCiAgIiIsCl07Cgpmb3IgKGNvbnN0IGMgb2YgY291bnRyaWVzKSB7CiAgY29uc3QgZGV0YWlsID0gcGVha0RldGFpbHNbYy5jb3VudHJ5XTsKICBpZiAoIWRldGFpbD8ueW91dHViZVVybCkgY29udGludWU7CiAgY29uc3QgdXJsID0gYCR7U0lURX0vcGVhay8ke3NsdWdpZnkoYy5jb3VudHJ5KX1gOwogIGNvbnN0IG1hdGNoVXJsID0gYCR7U0lURX0vY29tbXVuaXR5L2FzY2VudHM/bmV3PTEmcGVhaz0ke2VuY29kZVVSSUNvbXBvbmVudChgaHA6JHtjLmNvdW50cnl9YCl9YDsKICBjb25zdCBub3RlID0gcGVyc29uYWxOb3Rlc1tjLmNvdW50cnldOwogIGNvbnN0IHRhZyA9IGRldGFpbC5wZWFrLnJlcGxhY2UoL1teQS1aYS16MC05XS9nLCAiIik7CiAgY29uc3QgY291bnRyeVRhZyA9IGMuY291bnRyeS5yZXBsYWNlKC9bXkEtWmEtejAtOV0vZywgIiIpOwoKICBibG9ja3MucHVzaCgKICAgIGAjIyAke2RldGFpbC5wZWFrfSDigJQgJHtjLmNvdW50cnl9ICgke2RldGFpbC5lbGV2YXRpb24udG9Mb2NhbGVTdHJpbmcoKX0gbSlgLAogICAgIiIsCiAgICAiYGBgdGV4dCIsCiAgICBgJHtkZXRhaWwucGVha30gKCR7ZGV0YWlsLmVsZXZhdGlvbi50b0xvY2FsZVN0cmluZygpfSBtKSBpcyB0aGUgaGlnaGVzdCBtb3VudGFpbiBvZiAke2MuY291bnRyeX0uYCwKICAgIGBGdWxsIHJvdXRlIG5vdGVzLCBwaG90b3MgYW5kIGNvbmRpdGlvbnM6ICR7dXJsfWAsCiAgICAiIiwKICAgIG5vdGUgPyBub3RlIDogZGV0YWlsLmRlc2NyaXB0aW9uLAogICAgIiIsCiAgICBgVGhpcyBjbGltYiBpcyBwYXJ0IG9mIHRoZSBtaXNzaW9uIHRvIHN1bW1pdCB0aGUgaGlnaGVzdCBtb3VudGFpbiBvZiBldmVyeSBjb3VudHJ5IG9uIEVhcnRoIOKAlCBhbGwgMTk1IG9mIHRoZW0uIFRyYWNrIHRoZSBmdWxsIHByb2plY3Q6ICR7U0lURX1gLAogICAgIiIsCiAgICAiQ0hBUFRFUlMiLAogICAgIjAwOjAwIEludHJvIiwKICAgICIwMDowMCBBcHByb2FjaCIsCiAgICAiMDA6MDAgU3VtbWl0IiwKICAgICIiLAogICAgYENsaW1iZWQgaXQgdG9vLCBvciBwbGFubmluZyBpdD8gTG9nIGl0IGFuZCBmaW5kIGNsaW1iaW5nIHBhcnRuZXJzOiAke21hdGNoVXJsfWAsCiAgICAiIiwKICAgICJMSU5LUyIsCiAgICBgUGVhayBwYWdlIChyb3V0ZSwgcGhvdG9zLCBjb25kaXRpb25zKTogJHt1cmx9YCwKICAgIGBNYXRjaCBtZSB0byB0aGlzIHBlYWsgKG9wZW5zIHRoZSBzdW1taXQgbG9nIHdpdGggJHtkZXRhaWwucGVha30gcHJlLWZpbGxlZCk6ICR7bWF0Y2hVcmx9YCwKICAgIGBBbGwgY291bnRyeSBoaWdocG9pbnRzOiAke1NJVEV9L2d1aWRlcy9oaWdoZXN0LXBvaW50LWluLWV2ZXJ5LWNvdW50cnlgLAogICAgYExhdGVzdCBjbGltYnM6ICR7U0lURX0vbGF0ZXN0YCwKICAgIGBXaGVyZSBJIGFtIHJpZ2h0IG5vdzogJHtTSVRFfS93aGVyZWAsCiAgICBgU3VwcG9ydCB0aGUgcHJvamVjdDogJHtTSVRFfS9zdXBwb3J0YCwKICAgICIiLAogICAgYCMke3RhZ30gIyR7Y291bnRyeVRhZ30gI2hpZ2hwb2ludGluZyAjY291bnRyeWhpZ2hwb2ludHMgI21vdW50YWluZWVyaW5nYCwKICAgICJgYGAiLAogICAgIiIsCiAgKTsKfQoKbWtkaXJTeW5jKHJlc29sdmUoImRvY3Mvc2VvIiksIHsgcmVjdXJzaXZlOiB0cnVlIH0pOwp3cml0ZUZpbGVTeW5jKHJlc29sdmUoImRvY3Mvc2VvL3lvdXR1YmUtZGVzY3JpcHRpb25zLm1kIiksIGJsb2Nrcy5qb2luKCJcbiIpLCAidXRmOCIpOwpjb25zb2xlLmxvZyhgV3JvdGUgZG9jcy9zZW8veW91dHViZS1kZXNjcmlwdGlvbnMubWQgKCR7KGJsb2Nrcy5sZW5ndGggLSA1KSAvIDI0fSB2aWRlb3MpYCk7Cg==
+/**
+ * Generates a ready-to-paste YouTube description block for every country
+ * highpoint that has a summit video, with the matching /peak/ URL, chapters
+ * placeholder and hashtags. Point #4 of the SEO plan: turn YouTube traffic
+ * into site traffic.
+ *
+ * Usage: bun run scripts/youtube-descriptions.ts
+ * Output: docs/seo/youtube-descriptions.md
+ */
+import { mkdirSync, writeFileSync } from "node:fs";
+import { resolve } from "node:path";
+import { countries } from "../src/data/countries";
+import { peakDetails } from "../src/data/peak-details";
+import { personalNotes } from "../src/data/personal-notes";
+import { slugify } from "../src/lib/slug";
+
+const SITE = "https://onsightmartin.com";
+
+const blocks: string[] = [
+  "# YouTube description templates",
+  "",
+  "Paste the block below into the matching video description in YouTube Studio.",
+  "The first link should stay in the first two lines so it is visible without",
+  "clicking \"more\". Add real chapter timestamps before publishing.",
+  "",
+];
+
+for (const c of countries) {
+  const detail = peakDetails[c.country];
+  if (!detail?.youtubeUrl) continue;
+  const url = `${SITE}/peak/${slugify(c.country)}`;
+  const matchUrl = `${SITE}/community/ascents?new=1&peak=${encodeURIComponent(`hp:${c.country}`)}`;
+  const note = personalNotes[c.country];
+  const tag = detail.peak.replace(/[^A-Za-z0-9]/g, "");
+  const countryTag = c.country.replace(/[^A-Za-z0-9]/g, "");
+
+  blocks.push(
+    `## ${detail.peak} — ${c.country} (${detail.elevation.toLocaleString()} m)`,
+    "",
+    "```text",
+    `${detail.peak} (${detail.elevation.toLocaleString()} m) is the highest mountain of ${c.country}.`,
+    `Full route notes, photos and conditions: ${url}`,
+    "",
+    note ? note : detail.description,
+    "",
+    `This climb is part of the mission to summit the highest mountain of every country on Earth — all 195 of them. Track the full project: ${SITE}`,
+    "",
+    "CHAPTERS",
+    "00:00 Intro",
+    "00:00 Approach",
+    "00:00 Summit",
+    "",
+    `Climbed it too, or planning it? Log it and find climbing partners: ${matchUrl}`,
+    "",
+    "LINKS",
+    `Peak page (route, photos, conditions): ${url}`,
+    `Match me to this peak (opens the summit log with ${detail.peak} pre-filled): ${matchUrl}`,
+    `All country highpoints: ${SITE}/guides/highest-point-in-every-country`,
+    `Latest climbs: ${SITE}/latest`,
+    `Where I am right now: ${SITE}/where`,
+    `Support the project: ${SITE}/support`,
+    "",
+    `#${tag} #${countryTag} #highpointing #countryhighpoints #mountaineering`,
+    "```",
+    "",
+  );
+}
+
+mkdirSync(resolve("docs/seo"), { recursive: true });
+writeFileSync(resolve("docs/seo/youtube-descriptions.md"), blocks.join("\n"), "utf8");
+console.log(`Wrote docs/seo/youtube-descriptions.md (${(blocks.length - 5) / 24} videos)`);

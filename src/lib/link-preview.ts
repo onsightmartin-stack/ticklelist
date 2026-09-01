@@ -1,1 +1,52 @@
-aW1wb3J0IHsgeW91dHViZUlkIH0gZnJvbSAiQC9saWIvd2FsbC1tZWRpYSI7CgpleHBvcnQgaW50ZXJmYWNlIExpbmtQcmV2aWV3IHsKICBraW5kOiAieW91dHViZSIgfCAiaW1hZ2UiIHwgImxpbmsiOwogIC8qKiBGdWxsIFVSTCBhcyB3cml0dGVuIGluIHRoZSB0ZXh0LiAqLwogIHVybDogc3RyaW5nOwogIC8qKiBZb3VUdWJlIHZpZGVvIGlkLCB3aGVuIGtpbmQgaXMgInlvdXR1YmUiLiAqLwogIHZpZGVvSWQ/OiBzdHJpbmc7CiAgLyoqIEhvc3RuYW1lIHNob3duIG9uIGdlbmVyaWMgbGluayBjYXJkcy4gKi8KICBob3N0OiBzdHJpbmc7Cn0KCmNvbnN0IFVSTF9SRSA9IC9odHRwcz86XC9cL1teXHM8PiInXSsvZ2k7CmNvbnN0IElNQUdFX1JFID0gL1wuKHBuZ3xqcGU/Z3xnaWZ8d2VicHxhdmlmfGJtcHxzdmcpKFw/fCN8JCkvaTsKCmNvbnN0IGhvc3RPZiA9ICh1cmw6IHN0cmluZykgPT4gewogIHRyeSB7CiAgICByZXR1cm4gbmV3IFVSTCh1cmwpLmhvc3RuYW1lLnJlcGxhY2UoL153d3dcLi8sICIiKTsKICB9IGNhdGNoIHsKICAgIHJldHVybiAiIjsKICB9Cn07CgovKiogWW91VHViZSB0aHVtYm5haWwgZm9yIGEgdmlkZW8gaWQgKGZhbGxzIGJhY2sgZ3JhY2VmdWxseSBpbiB0aGUgYnJvd3NlcikuICovCmV4cG9ydCBjb25zdCB5b3V0dWJlVGh1bWIgPSAodmlkZW9JZDogc3RyaW5nKSA9PgogIGBodHRwczovL2kueXRpbWcuY29tL3ZpLyR7dmlkZW9JZH0vaHFkZWZhdWx0LmpwZ2A7CgpleHBvcnQgY29uc3QgeW91dHViZVdhdGNoVXJsID0gKHZpZGVvSWQ6IHN0cmluZykgPT4gYGh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9JHt2aWRlb0lkfWA7CgovKioKICogRmluZHMgdGhlIGZpcnN0IHByZXZpZXdhYmxlIGxpbmsgaW5zaWRlIGEgY2h1bmsgb2YgcG9zdCB0ZXh0IHNvIHRoZSBmZWVkIGNhbgogKiByZW5kZXIgYSBjYXJkIGluc3RlYWQgb2YgYSBiYXJlIFVSTC4gT25seSBZb3VUdWJlIHZpZGVvcyBhbmQgZGlyZWN0IGltYWdlCiAqIGxpbmtzIGdldCByaWNoIHByZXZpZXdzOyBldmVyeXRoaW5nIGVsc2UgYmVjb21lcyBhIGNvbXBhY3QgbGluayBjYXJkLgogKi8KZXhwb3J0IGNvbnN0IGZpbmRQcmV2aWV3ID0gKHRleHQ6IHN0cmluZyk6IExpbmtQcmV2aWV3IHwgbnVsbCA9PiB7CiAgY29uc3QgdXJscyA9IHRleHQubWF0Y2goVVJMX1JFKTsKICBpZiAoIXVybHMpIHJldHVybiBudWxsOwoKICBmb3IgKGNvbnN0IHJhdyBvZiB1cmxzKSB7CiAgICBjb25zdCB1cmwgPSByYXcucmVwbGFjZSgvWyksLjshP10rJC8sICIiKTsKICAgIGNvbnN0IGhvc3QgPSBob3N0T2YodXJsKTsKICAgIGlmICghaG9zdCkgY29udGludWU7CgogICAgY29uc3QgdmlkID0geW91dHViZUlkKHVybCk7CiAgICBpZiAodmlkKSByZXR1cm4geyBraW5kOiAieW91dHViZSIsIHVybCwgdmlkZW9JZDogdmlkLCBob3N0IH07CiAgICBpZiAoSU1BR0VfUkUudGVzdCh1cmwpKSByZXR1cm4geyBraW5kOiAiaW1hZ2UiLCB1cmwsIGhvc3QgfTsKICB9CgogIGNvbnN0IGZpcnN0ID0gdXJsc1swXSEucmVwbGFjZSgvWyksLjshP10rJC8sICIiKTsKICBjb25zdCBob3N0ID0gaG9zdE9mKGZpcnN0KTsKICByZXR1cm4gaG9zdCA/IHsga2luZDogImxpbmsiLCB1cmw6IGZpcnN0LCBob3N0IH0gOiBudWxsOwp9Owo=
+import { youtubeId } from "@/lib/wall-media";
+
+export interface LinkPreview {
+  kind: "youtube" | "image" | "link";
+  /** Full URL as written in the text. */
+  url: string;
+  /** YouTube video id, when kind is "youtube". */
+  videoId?: string;
+  /** Hostname shown on generic link cards. */
+  host: string;
+}
+
+const URL_RE = /https?:\/\/[^\s<>"']+/gi;
+const IMAGE_RE = /\.(png|jpe?g|gif|webp|avif|bmp|svg)(\?|#|$)/i;
+
+const hostOf = (url: string) => {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return "";
+  }
+};
+
+/** YouTube thumbnail for a video id (falls back gracefully in the browser). */
+export const youtubeThumb = (videoId: string) =>
+  `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+
+export const youtubeWatchUrl = (videoId: string) => `https://www.youtube.com/watch?v=${videoId}`;
+
+/**
+ * Finds the first previewable link inside a chunk of post text so the feed can
+ * render a card instead of a bare URL. Only YouTube videos and direct image
+ * links get rich previews; everything else becomes a compact link card.
+ */
+export const findPreview = (text: string): LinkPreview | null => {
+  const urls = text.match(URL_RE);
+  if (!urls) return null;
+
+  for (const raw of urls) {
+    const url = raw.replace(/[),.;!?]+$/, "");
+    const host = hostOf(url);
+    if (!host) continue;
+
+    const vid = youtubeId(url);
+    if (vid) return { kind: "youtube", url, videoId: vid, host };
+    if (IMAGE_RE.test(url)) return { kind: "image", url, host };
+  }
+
+  const first = urls[0]!.replace(/[),.;!?]+$/, "");
+  const host = hostOf(first);
+  return host ? { kind: "link", url: first, host } : null;
+};

@@ -1,1 +1,359 @@
-aW1wb3J0IHsgbWVtbyB9IGZyb20gInJlYWN0IjsKCmltcG9ydCB7IGJ1aWxkQnlJZCB9IGZyb20gIkAvbGliL2NhbXAtYnVpbGRzIjsKCmludGVyZmFjZSBQcm9wcyB7CiAgYnVpbGRJZDogc3RyaW5nOwogIGxhYmVsOiBzdHJpbmc7CiAgLyoqIFdvcmxkIGNvb3JkaW5hdGVzIG9mIHRoZSBidWlsZCdzIGJhc2UuICovCiAgeDogbnVtYmVyOwogIHk6IG51bWJlcjsKICAvKiogSGlnaGxpZ2h0ZWQgb3V0bGluZSBmb3IgdGhlIHNpZ25lZC1pbiBtZW1iZXIncyBvd24gYnVpbGQuICovCiAgbWluZT86IGJvb2xlYW47CiAgb25DbGljaz86ICgpID0+IHZvaWQ7Cn0KCmNvbnN0IHJvb2YgPSAodzogbnVtYmVyLCBoOiBudW1iZXIsIGNvbG9yOiBzdHJpbmcsIHNoYWRlOiBzdHJpbmcpID0+ICgKICA8PgogICAgPHBvbHlnb24gcG9pbnRzPXtgMCwkey1ofSAke3cgLyAyfSwkey1oICogMC40NX0gJHstdyAvIDJ9LCR7LWggKiAwLjQ1fWB9IGZpbGw9e2NvbG9yfSAvPgogICAgPHBvbHlnb24gcG9pbnRzPXtgMCwkey1ofSAke3cgLyAyfSwkey1oICogMC40NX0gMCwkey1oICogMC40NX1gfSBmaWxsPXtzaGFkZX0gLz4KICA8Lz4KKTsKCi8qKiBGbGF0IGxvdy1wb2x5IGFydHdvcmsgZm9yIGV2ZXJ5IGJ1aWxkIHRpZXIsIGRyYXduIGZyb20gYSBzaGFyZWQgYmFzZWxpbmUuICovCmNvbnN0IEFydCA9ICh7IGlkIH06IHsgaWQ6IHN0cmluZyB9KSA9PiB7CiAgc3dpdGNoIChpZCkgewogICAgY2FzZSAiY2FtcGZpcmUiOgogICAgICByZXR1cm4gKAogICAgICAgIDxnPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjAiIGN5PSIyIiByeD0iMzgiIHJ5PSI3IiBmaWxsPSIjMGIxZjE2IiBvcGFjaXR5PSIwLjM1IiAvPgogICAgICAgICAgPGNpcmNsZSBjeD0iLTMwIiBjeT0iLTIiIHI9IjUiIGZpbGw9IiM2NDc0OGIiIC8+CiAgICAgICAgICA8Y2lyY2xlIGN4PSItMTQiIGN5PSIxIiByPSI1IiBmaWxsPSIjOTRhM2I4IiAvPgogICAgICAgICAgPGNpcmNsZSBjeD0iMTQiIGN5PSIxIiByPSI1IiBmaWxsPSIjOTRhM2I4IiAvPgogICAgICAgICAgPGNpcmNsZSBjeD0iMzAiIGN5PSItMiIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIgLz4KICAgICAgICAgIDxyZWN0IHg9Ii0yNiIgeT0iLTEyIiB3aWR0aD0iNTIiIGhlaWdodD0iOSIgcng9IjQiIGZpbGw9IiM3ODM1MGYiIHRyYW5zZm9ybT0icm90YXRlKC04KSIgLz4KICAgICAgICAgIDxyZWN0IHg9Ii0yNiIgeT0iLTEyIiB3aWR0aD0iNTIiIGhlaWdodD0iOSIgcng9IjQiIGZpbGw9IiM5MjQwMGUiIHRyYW5zZm9ybT0icm90YXRlKDkpIiAvPgogICAgICAgICAgPHBhdGggZD0iTTAgLTQ2IFEgMTQgLTI4IDEwIC0xMiBRIDQgLTQgLTEwIC0xMiBRIC0xNCAtMjggMCAtNDYgWiIgZmlsbD0iI2Y5NzMxNiIgLz4KICAgICAgICAgIDxwYXRoIGQ9Ik0wIC0zNCBRIDggLTIyIDQgLTEyIFEgLTIgLTggLTYgLTE0IFEgLTYgLTI0IDAgLTM0IFoiIGZpbGw9IiNmYmJmMjQiIC8+CiAgICAgICAgICA8Y2lyY2xlIGN4PSItMTYiIGN5PSItNDQiIHI9IjIuNSIgZmlsbD0iI2ZlZDdhYSIgb3BhY2l0eT0iMC43IiAvPgogICAgICAgICAgPGNpcmNsZSBjeD0iMTIiIGN5PSItNTIiIHI9IjIiIGZpbGw9IiNmZWQ3YWEiIG9wYWNpdHk9IjAuNSIgLz4KICAgICAgICA8L2c+CiAgICAgICk7CgogICAgY2FzZSAiYml2eSI6CiAgICAgIHJldHVybiAoCiAgICAgICAgPGc+CiAgICAgICAgICA8ZWxsaXBzZSBjeD0iMCIgY3k9IjIiIHJ4PSIzNCIgcnk9IjYiIGZpbGw9IiMwYjFmMTYiIG9wYWNpdHk9IjAuMyIgLz4KICAgICAgICAgIDxwYXRoIGQ9Ik0tMzIgMCBRIDAgLTI2IDMyIDAgWiIgZmlsbD0iI2Y5NzMxNiIgLz4KICAgICAgICAgIDxwYXRoIGQ9Ik0wIC0yMCBRIDIwIC0xNCAzMCAwIEwwIDAgWiIgZmlsbD0iI2MyNDEwYyIgLz4KICAgICAgICAgIDxyZWN0IHg9Ii0zNCIgeT0iLTIiIHdpZHRoPSI2OCIgaGVpZ2h0PSI0IiByeD0iMiIgZmlsbD0iIzFlMjkzYiIgb3BhY2l0eT0iMC41IiAvPgogICAgICAgIDwvZz4KICAgICAgKTsKICAgIGNhc2UgInNtYWxsX3RlbnQiOgogICAgICByZXR1cm4gKAogICAgICAgIDxnPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjAiIGN5PSIyIiByeD0iMzQiIHJ5PSI2IiBmaWxsPSIjMGIxZjE2IiBvcGFjaXR5PSIwLjMiIC8+CiAgICAgICAgICA8cG9seWdvbiBwb2ludHM9IjAsLTQyIDMwLDAgLTMwLDAiIGZpbGw9IiMyMmM1NWUiIC8+CiAgICAgICAgICA8cG9seWdvbiBwb2ludHM9IjAsLTQyIDMwLDAgNywwIiBmaWxsPSIjMTU4MDNkIiAvPgogICAgICAgICAgPHBvbHlnb24gcG9pbnRzPSIwLC00MCA5LDAgLTksMCIgZmlsbD0iIzBmMTcyYSIgb3BhY2l0eT0iMC41NSIgLz4KICAgICAgICA8L2c+CiAgICAgICk7CiAgICBjYXNlICJiaWdfdGVudCI6CiAgICAgIHJldHVybiAoCiAgICAgICAgPGc+CiAgICAgICAgICA8ZWxsaXBzZSBjeD0iMCIgY3k9IjMiIHJ4PSI1MiIgcnk9IjgiIGZpbGw9IiMwYjFmMTYiIG9wYWNpdHk9IjAuMyIgLz4KICAgICAgICAgIDxwb2x5Z29uIHBvaW50cz0iLTQ2LDAgLTQ2LC00MCAwLC02MiA0NiwtNDAgNDYsMCIgZmlsbD0iI2VmNDQ0NCIgLz4KICAgICAgICAgIDxwb2x5Z29uIHBvaW50cz0iMCwtNjIgNDYsLTQwIDQ2LDAgMTIsMCAxMiwtNDAiIGZpbGw9IiNiOTFjMWMiIC8+CiAgICAgICAgICA8cG9seWdvbiBwb2ludHM9Ii0xNCwwIC0xNCwtMzQgMCwtNDQgNCwtNDAgNCwwIiBmaWxsPSIjMGYxNzJhIiBvcGFjaXR5PSIwLjUiIC8+CiAgICAgICAgICA8cmVjdCB4PSItNTIiIHk9Ii0yIiB3aWR0aD0iMTA0IiBoZWlnaHQ9IjQiIHJ4PSIyIiBmaWxsPSIjMWUyOTNiIiBvcGFjaXR5PSIwLjUiIC8+CiAgICAgICAgPC9nPgogICAgICApOwogICAgY2FzZSAieXVydCI6CiAgICAgIHJldHVybiAoCiAgICAgICAgPGc+CiAgICAgICAgICA8ZWxsaXBzZSBjeD0iMCIgY3k9IjMiIHJ4PSI2MCIgcnk9IjkiIGZpbGw9IiMwYjFmMTYiIG9wYWNpdHk9IjAuMyIgLz4KICAgICAgICAgIDxyZWN0IHg9Ii01MiIgeT0iLTM2IiB3aWR0aD0iMTA0IiBoZWlnaHQ9IjM2IiBmaWxsPSIjZjhmYWZjIiAvPgogICAgICAgICAgPHJlY3QgeD0iLTUyIiB5PSItMzYiIHdpZHRoPSIxMDQiIGhlaWdodD0iOCIgZmlsbD0iI2NiZDVlMSIgLz4KICAgICAgICAgIDxwb2x5Z29uIHBvaW50cz0iMCwtNzggNTgsLTM0IC01OCwtMzQiIGZpbGw9IiNlMmU4ZjAiIC8+CiAgICAgICAgICA8cG9seWdvbiBwb2ludHM9IjAsLTc4IDU4LC0zNCAwLC0zNCIgZmlsbD0iIzk0YTNiOCIgLz4KICAgICAgICAgIDxyZWN0IHg9Ii0xMCIgeT0iLTMwIiB3aWR0aD0iMjAiIGhlaWdodD0iMzAiIGZpbGw9IiM3YzJkMTIiIC8+CiAgICAgICAgICA8cmVjdCB4PSItMyIgeT0iLTkyIiB3aWR0aD0iNiIgaGVpZ2h0PSIxNiIgZmlsbD0iIzQ3NTU2OSIgLz4KICAgICAgICAgIDxwYXRoIGQ9Ik0tMiAtOTYgcTYgLTEwIDAgLTE4IiBzdHJva2U9IiNjYmQ1ZTEiIHN0cm9rZVdpZHRoPSIzIiBmaWxsPSJub25lIiBvcGFjaXR5PSIwLjciIC8+CiAgICAgICAgPC9nPgogICAgICApOwogICAgY2FzZSAidGlueV9odXQiOgogICAgICByZXR1cm4gKAogICAgICAgIDxnPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjAiIGN5PSIzIiByeD0iNTIiIHJ5PSI4IiBmaWxsPSIjMGIxZjE2IiBvcGFjaXR5PSIwLjMiIC8+CiAgICAgICAgICA8cmVjdCB4PSItNDAiIHk9Ii00MiIgd2lkdGg9IjgwIiBoZWlnaHQ9IjQyIiBmaWxsPSIjYTE2MjA3IiAvPgogICAgICAgICAgPHJlY3QgeD0iLTQwIiB5PSItNDIiIHdpZHRoPSI4MCIgaGVpZ2h0PSI0MiIgZmlsbD0iIzc4MzUwZiIgb3BhY2l0eT0iMC4yNSIgLz4KICAgICAgICAgIHtyb29mKDEwNCwgNzQsICIjZGMyNjI2IiwgIiM5OTFiMWIiKX0KICAgICAgICAgIDxyZWN0IHg9Ii0xMCIgeT0iLTI4IiB3aWR0aD0iMjAiIGhlaWdodD0iMjgiIGZpbGw9IiMzZjI0MTIiIC8+CiAgICAgICAgICA8cmVjdCB4PSIxNCIgeT0iLTMyIiB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIGZpbGw9IiNmZGU2OGEiIC8+CiAgICAgICAgPC9nPgogICAgICApOwogICAgY2FzZSAibWVkaXVtX2h1dCI6CiAgICAgIHJldHVybiAoCiAgICAgICAgPGc+CiAgICAgICAgICA8ZWxsaXBzZSBjeD0iMCIgY3k9IjQiIHJ4PSI3MiIgcnk9IjEwIiBmaWxsPSIjMGIxZjE2IiBvcGFjaXR5PSIwLjMiIC8+CiAgICAgICAgICA8cmVjdCB4PSItNjIiIHk9Ii01NiIgd2lkdGg9IjEyNCIgaGVpZ2h0PSI1NiIgZmlsbD0iI2I0NTMwOSIgLz4KICAgICAgICAgIDxyZWN0IHg9Ii02MiIgeT0iLTU2IiB3aWR0aD0iMTI0IiBoZWlnaHQ9IjEwIiBmaWxsPSIjOTI0MDBlIiAvPgogICAgICAgICAge3Jvb2YoMTUwLCA5NiwgIiMzMzQxNTUiLCAiIzFlMjkzYiIpfQogICAgICAgICAgPHJlY3QgeD0iLTEyIiB5PSItMzYiIHdpZHRoPSIyNCIgaGVpZ2h0PSIzNiIgZmlsbD0iIzNmMjQxMiIgLz4KICAgICAgICAgIHtbLTQ2LCAtMjYsIDIyLCA0Ml0ubWFwKCh3eCkgPT4gKAogICAgICAgICAgICA8cmVjdCBrZXk9e3d4fSB4PXt3eH0geT17LTQ0fSB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNmZGU2OGEiIC8+CiAgICAgICAgICApKX0KICAgICAgICAgIDxyZWN0IHg9IjM0IiB5PSItMTA0IiB3aWR0aD0iMTAiIGhlaWdodD0iMjQiIGZpbGw9IiM1NzUzNGUiIC8+CiAgICAgICAgPC9nPgogICAgICApOwogICAgY2FzZSAibGFyZ2VfaHV0IjoKICAgICAgcmV0dXJuICgKICAgICAgICA8Zz4KICAgICAgICAgIDxlbGxpcHNlIGN4PSIwIiBjeT0iNSIgcng9Ijk0IiByeT0iMTIiIGZpbGw9IiMwYjFmMTYiIG9wYWNpdHk9IjAuMyIgLz4KICAgICAgICAgIDxyZWN0IHg9Ii04NCIgeT0iLTcwIiB3aWR0aD0iMTY4IiBoZWlnaHQ9IjcwIiBmaWxsPSIjYTE2MjA3IiAvPgogICAgICAgICAgPHJlY3QgeD0iLTg0IiB5PSItNzAiIHdpZHRoPSIxNjgiIGhlaWdodD0iMTIiIGZpbGw9IiM3ODM1MGYiIC8+CiAgICAgICAgICB7cm9vZigxOTYsIDExNiwgIiM0NzU1NjkiLCAiIzI3MzEzZiIpfQogICAgICAgICAgPHJlY3QgeD0iLTE2IiB5PSItNDQiIHdpZHRoPSIzMiIgaGVpZ2h0PSI0NCIgZmlsbD0iIzNmMjQxMiIgLz4KICAgICAgICAgIHtbLTY2LCAtNDIsIDI2LCA1MF0ubWFwKCh3eCkgPT4gKAogICAgICAgICAgICA8cmVjdCBrZXk9e3d4fSB4PXt3eH0geT17LTU2fSB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIGZpbGw9IiNmZGU2OGEiIC8+CiAgICAgICAgICApKX0KICAgICAgICAgIHtbLTY2LCAtNDIsIDI2LCA1MF0ubWFwKCh3eCkgPT4gKAogICAgICAgICAgICA8cmVjdCBrZXk9e2BiJHt3eH1gfSB4PXt3eH0geT17LTMwfSB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIGZpbGw9IiNmZGU2OGEiIG9wYWNpdHk9IjAuOCIgLz4KICAgICAgICAgICkpfQogICAgICAgICAgPHJlY3QgeD0iLTk2IiB5PSItOCIgd2lkdGg9IjE5MiIgaGVpZ2h0PSI4IiByeD0iMyIgZmlsbD0iIzU3NTM0ZSIgLz4KICAgICAgICA8L2c+CiAgICAgICk7CiAgICBjYXNlICJsb2RnZSI6CiAgICAgIHJldHVybiAoCiAgICAgICAgPGc+CiAgICAgICAgICA8ZWxsaXBzZSBjeD0iMCIgY3k9IjYiIHJ4PSIxMTIiIHJ5PSIxMyIgZmlsbD0iIzBiMWYxNiIgb3BhY2l0eT0iMC4zIiAvPgogICAgICAgICAgPHJlY3QgeD0iLTEwNCIgeT0iLTE0IiB3aWR0aD0iMjA4IiBoZWlnaHQ9IjE0IiBmaWxsPSIjN2M1MzM0IiAvPgogICAgICAgICAgPHJlY3QgeD0iLTkyIiB5PSItNzgiIHdpZHRoPSIxODQiIGhlaWdodD0iNjQiIGZpbGw9IiNjMjg1M2YiIC8+CiAgICAgICAgICA8cmVjdCB4PSItOTIiIHk9Ii03OCIgd2lkdGg9IjE4NCIgaGVpZ2h0PSIxMiIgZmlsbD0iIzkyNDAwZSIgLz4KICAgICAgICAgIHtyb29mKDIzMiwgMTMyLCAiIzFmMjkzNyIsICIjMTExODI3Iil9CiAgICAgICAgICB7Wy03NCwgLTQ2LCAtMTgsIDE4LCA0NiwgNzRdLm1hcCgod3gpID0+ICgKICAgICAgICAgICAgPHJlY3Qga2V5PXt3eH0geD17d3ggLSA5fSB5PXstNjR9IHdpZHRoPSIxOCIgaGVpZ2h0PSIyMCIgZmlsbD0iI2ZkZTY4YSIgLz4KICAgICAgICAgICkpfQogICAgICAgICAgPHJlY3QgeD0iLTE4IiB5PSItNDQiIHdpZHRoPSIzNiIgaGVpZ2h0PSIzMCIgZmlsbD0iIzNmMjQxMiIgLz4KICAgICAgICAgIDxyZWN0IHg9IjY2IiB5PSItMTI0IiB3aWR0aD0iMTIiIGhlaWdodD0iMzAiIGZpbGw9IiM1NzUzNGUiIC8+CiAgICAgICAgPC9nPgogICAgICApOwogICAgY2FzZSAicmVmdWdlIjoKICAgICAgcmV0dXJuICgKICAgICAgICA8Zz4KICAgICAgICAgIDxlbGxpcHNlIGN4PSIwIiBjeT0iNiIgcng9IjEyNCIgcnk9IjE0IiBmaWxsPSIjMGIxZjE2IiBvcGFjaXR5PSIwLjMiIC8+CiAgICAgICAgICA8cG9seWdvbiBwb2ludHM9Ii0xMTgsMCAtMTA0LC0zMCAxMDQsLTMwIDExOCwwIiBmaWxsPSIjNjQ3NDhiIiAvPgogICAgICAgICAgPHJlY3QgeD0iLTEwMCIgeT0iLTk2IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjY2IiBmaWxsPSIjOTRhM2I4IiAvPgogICAgICAgICAgPHJlY3QgeD0iLTEwMCIgeT0iLTk2IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjEwIiBmaWxsPSIjNjQ3NDhiIiAvPgogICAgICAgICAge3Jvb2YoMjQwLCAxNTAsICIjMGYxNzJhIiwgIiMwMjA2MTciKX0KICAgICAgICAgIHtbLTc4LCAtNDQsIC0xMCwgMjYsIDYwXS5tYXAoKHd4KSA9PiAoCiAgICAgICAgICAgIDxyZWN0IGtleT17d3h9IHg9e3d4fSB5PXstODR9IHdpZHRoPSIyMCIgaGVpZ2h0PSIyMiIgZmlsbD0iI2ZkYmE3NCIgLz4KICAgICAgICAgICkpfQogICAgICAgICAgPHJlY3QgeD0iLTIwIiB5PSItNjIiIHdpZHRoPSI0MCIgaGVpZ2h0PSIzMiIgZmlsbD0iIzFmMjkzNyIgLz4KICAgICAgICAgIDxwYXRoIGQ9Ik0tMTQwIDAgbDI0IC0yMiBsMTQgMjIgeiIgZmlsbD0iIzQ3NTU2OSIgLz4KICAgICAgICA8L2c+CiAgICAgICk7CiAgICBjYXNlICJoYW1sZXQiOgogICAgICByZXR1cm4gKAogICAgICAgIDxnPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjAiIGN5PSI2IiByeD0iMTU2IiByeT0iMTUiIGZpbGw9IiMwYjFmMTYiIG9wYWNpdHk9IjAuMyIgLz4KICAgICAgICAgIHtbLTExMCwgLTMwLCA2Nl0ubWFwKChoeCwgaSkgPT4gKAogICAgICAgICAgICA8ZyBrZXk9e2h4fSB0cmFuc2Zvcm09e2B0cmFuc2xhdGUoJHtoeH0gJHstaSAqIDZ9KWB9PgogICAgICAgICAgICAgIDxyZWN0IHg9Ii00MCIgeT0iLTUyIiB3aWR0aD0iODAiIGhlaWdodD0iNTIiIGZpbGw9e1siI2MyODUzZiIsICIjYTE2MjA3IiwgIiNiNDUzMDkiXVtpXX0gLz4KICAgICAgICAgICAgICB7cm9vZigxMDAsIDg4LCAiIzMzNDE1NSIsICIjMWUyOTNiIil9CiAgICAgICAgICAgICAgPHJlY3QgeD0iLTEwIiB5PSItMzAiIHdpZHRoPSIyMCIgaGVpZ2h0PSIzMCIgZmlsbD0iIzNmMjQxMiIgLz4KICAgICAgICAgICAgICA8cmVjdCB4PSIxNiIgeT0iLTQwIiB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIGZpbGw9IiNmZGU2OGEiIC8+CiAgICAgICAgICAgIDwvZz4KICAgICAgICAgICkpfQogICAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTQwIDApIj4KICAgICAgICAgICAgPHJlY3QgeD0iLTE4IiB5PSItODQiIHdpZHRoPSIzNiIgaGVpZ2h0PSI4NCIgZmlsbD0iI2UyZThmMCIgLz4KICAgICAgICAgICAgPHBvbHlnb24gcG9pbnRzPSIwLC0xMTggMjIsLTg0IC0yMiwtODQiIGZpbGw9IiM3ZjFkMWQiIC8+CiAgICAgICAgICAgIDxyZWN0IHg9Ii02IiB5PSItNzAiIHdpZHRoPSIxMiIgaGVpZ2h0PSIxNiIgZmlsbD0iIzFlMjkzYiIgLz4KICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICAgICk7CiAgICBjYXNlICJ2aWxsYWdlIjoKICAgICAgcmV0dXJuICgKICAgICAgICA8Zz4KICAgICAgICAgIDxlbGxpcHNlIGN4PSIwIiBjeT0iNyIgcng9IjE4OCIgcnk9IjE2IiBmaWxsPSIjMGIxZjE2IiBvcGFjaXR5PSIwLjMiIC8+CiAgICAgICAgICB7Wy0xNjAsIC05NiwgLTMwLCA0MCwgMTA2XS5tYXAoKGh4LCBpKSA9PiAoCiAgICAgICAgICAgIDxnIGtleT17aHh9IHRyYW5zZm9ybT17YHRyYW5zbGF0ZSgke2h4fSAkey0oaSAlIDMpICogOH0pYH0+CiAgICAgICAgICAgICAgPHJlY3QgeD0iLTM0IiB5PXstNDYgLSAoaSAlIDIpICogMTR9IHdpZHRoPSI2OCIgaGVpZ2h0PXs0NiArIChpICUgMikgKiAxNH0gZmlsbD17WyIjYzI4NTNmIiwgIiNhMTYyMDciLCAiI2I0NTMwOSIsICIjZDk3NzA2IiwgIiM5MjQwMGUiXVtpXX0gLz4KICAgICAgICAgICAgICB7cm9vZig4OCwgNzggKyAoaSAlIDIpICogMTQsIGkgJSAyID8gIiM0NzU1NjkiIDogIiM3ZjFkMWQiLCBpICUgMiA/ICIjMjczMTNmIiA6ICIjNTgxYzFjIil9CiAgICAgICAgICAgICAgPHJlY3QgeD0iLTgiIHk9Ii0yNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjI2IiBmaWxsPSIjM2YyNDEyIiAvPgogICAgICAgICAgICAgIDxyZWN0IHg9IjEyIiB5PSItMzgiIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgZmlsbD0iI2ZkZTY4YSIgLz4KICAgICAgICAgICAgPC9nPgogICAgICAgICAgKSl9CiAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNjYgMCkiPgogICAgICAgICAgICA8cmVjdCB4PSItMjAiIHk9Ii0xMTYiIHdpZHRoPSI0MCIgaGVpZ2h0PSIxMTYiIGZpbGw9IiNmMWY1ZjkiIC8+CiAgICAgICAgICAgIDxwb2x5Z29uIHBvaW50cz0iMCwtMTU4IDI0LC0xMTYgLTI0LC0xMTYiIGZpbGw9IiM3ZjFkMWQiIC8+CiAgICAgICAgICAgIDxjaXJjbGUgY3g9IjAiIGN5PSItOTYiIHI9IjkiIGZpbGw9IiNmYmJmMjQiIC8+CiAgICAgICAgICA8L2c+CiAgICAgICAgICA8cGF0aCBkPSJNLTE5MCAwIHExOTAgLTI2IDM4MCAwIiBzdHJva2U9IiM3ODcxNmMiIHN0cm9rZVdpZHRoPSI3IiBmaWxsPSJub25lIiBvcGFjaXR5PSIwLjYiIC8+CiAgICAgICAgPC9nPgogICAgICApOwogICAgY2FzZSAidG93biI6CiAgICAgIHJldHVybiAoCiAgICAgICAgPGc+CiAgICAgICAgICA8ZWxsaXBzZSBjeD0iMCIgY3k9IjgiIHJ4PSIyMjAiIHJ5PSIxOCIgZmlsbD0iIzBiMWYxNiIgb3BhY2l0eT0iMC4zIiAvPgogICAgICAgICAge1stMTk2LCAtMTQwLCAtODQsIC0yNiwgMzIsIDkyLCAxNTJdLm1hcCgoaHgsIGkpID0+IHsKICAgICAgICAgICAgY29uc3QgaCA9IDUyICsgKChpICogMzcpICUgNjApOwogICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgIDxnIGtleT17aHh9IHRyYW5zZm9ybT17YHRyYW5zbGF0ZSgke2h4fSAwKWB9PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iLTI4IiB5PXstaH0gd2lkdGg9IjU2IiBoZWlnaHQ9e2h9IGZpbGw9e1siI2MyODUzZiIsICIjYTE2MjA3IiwgIiNiNDUzMDkiLCAiIzlhMzQxMiIsICIjNzgzNTBmIiwgIiNkOTc3MDYiLCAiIzkyNDAwZSJdW2ldfSAvPgogICAgICAgICAgICAgICAge3Jvb2YoNzIsIGggKyAzMCwgaSAlIDIgPyAiIzMzNDE1NSIgOiAiIzdmMWQxZCIsIGkgJSAyID8gIiMxZTI5M2IiIDogIiM1ODFjMWMiKX0KICAgICAgICAgICAgICAgIHtbMCwgMSwgMl0ubWFwKChyKSA9PiAoCiAgICAgICAgICAgICAgICAgIDxyZWN0IGtleT17cn0geD0iLTE4IiB5PXstaCArIDEwICsgciAqIDIwfSB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIGZpbGw9IiNmZGU2OGEiIG9wYWNpdHk9e3IgKiAwLjIgKyAwLjZ9IC8+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgIHtbMCwgMSwgMl0ubWFwKChyKSA9PiAoCiAgICAgICAgICAgICAgICAgIDxyZWN0IGtleT17YGIke3J9YH0geD0iNiIgeT17LWggKyAxMCArIHIgKiAyMH0gd2lkdGg9IjEyIiBoZWlnaHQ9IjEyIiBmaWxsPSIjZmRlNjhhIiBvcGFjaXR5PXtyICogMC4yICsgMC42fSAvPgogICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICApOwogICAgICAgICAgfSl9CiAgICAgICAgICB7LyogQ2FibGUgY2FyIHVwIHRvIHRoZSByaWRnZSAqL30KICAgICAgICAgIDxwYXRoIGQ9Ik0tMjEwIC0zMCBMIDIxMCAtMTkwIiBzdHJva2U9IiMxZjI5MzciIHN0cm9rZVdpZHRoPSIzIiBmaWxsPSJub25lIiAvPgogICAgICAgICAgPHJlY3QgeD0iMzAiIHk9Ii0xMjQiIHdpZHRoPSIyNiIgaGVpZ2h0PSIxOCIgcng9IjQiIGZpbGw9IiNlZjQ0NDQiIC8+CiAgICAgICAgICA8cGF0aCBkPSJNLTIyNCAwIHEyMjQgLTMwIDQ0OCAwIiBzdHJva2U9IiM3ODcxNmMiIHN0cm9rZVdpZHRoPSI4IiBmaWxsPSJub25lIiBvcGFjaXR5PSIwLjYiIC8+CiAgICAgICAgPC9nPgogICAgICApOwogICAgY2FzZSAiY2l0eSI6CiAgICAgIHJldHVybiAoCiAgICAgICAgPGc+CiAgICAgICAgICA8ZWxsaXBzZSBjeD0iMCIgY3k9IjkiIHJ4PSIyNjAiIHJ5PSIyMCIgZmlsbD0iIzBiMWYxNiIgb3BhY2l0eT0iMC4zIiAvPgogICAgICAgICAgey8qIFRlcnJhY2VkIHJpZGdlIGNpdHksIEZhbnNpcGFuIHN0eWxlICovfQogICAgICAgICAge1swLCAxLCAyLCAzXS5tYXAoKHQpID0+ICgKICAgICAgICAgICAgPHJlY3Qga2V5PXt0fSB4PXstMjUwICsgdCAqIDM0fSB5PXstMzAgLSB0ICogMjZ9IHdpZHRoPXs1MDAgLSB0ICogNjh9IGhlaWdodD17MjZ9IGZpbGw9e1siIzc4NzE2YyIsICIjOGI4Mzc4IiwgIiNhMWExYWEiLCAiI2I4YjNhYiJdW3RdfSAvPgogICAgICAgICAgKSl9CiAgICAgICAgICB7Wy0yMTAsIC0xNTAsIC05MiwgLTM0LCAzMCwgOTIsIDE1MiwgMjEwXS5tYXAoKGh4LCBpKSA9PiAoCiAgICAgICAgICAgIDxnIGtleT17aHh9IHRyYW5zZm9ybT17YHRyYW5zbGF0ZSgke2h4fSAkey0zMCAtIChpICUgMykgKiAyNn0pYH0+CiAgICAgICAgICAgICAgPHJlY3QgeD0iLTI2IiB5PSItNTQiIHdpZHRoPSI1MiIgaGVpZ2h0PSI1NCIgZmlsbD0iI2I5MWMxYyIgLz4KICAgICAgICAgICAgICA8cG9seWdvbiBwb2ludHM9IjAsLTkyIDQ0LC01NCAtNDQsLTU0IiBmaWxsPSIjZmFjYzE1IiAvPgogICAgICAgICAgICAgIDxwb2x5Z29uIHBvaW50cz0iMCwtOTIgNDQsLTU0IDAsLTU0IiBmaWxsPSIjY2E4YTA0IiAvPgogICAgICAgICAgICAgIDxwb2x5Z29uIHBvaW50cz0iMCwtMTE2IDMwLC04OCAtMzAsLTg4IiBmaWxsPSIjZmJiZjI0IiAvPgogICAgICAgICAgICAgIDxyZWN0IHg9Ii04IiB5PSItMzAiIHdpZHRoPSIxNiIgaGVpZ2h0PSIzMCIgZmlsbD0iIzdmMWQxZCIgLz4KICAgICAgICAgICAgPC9nPgogICAgICAgICAgKSl9CiAgICAgICAgICB7LyogR3JlYXQgcGFnb2RhIG9uIHRoZSBzdW1taXQgdGVycmFjZSAqL30KICAgICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTEzNCkiPgogICAgICAgICAgICB7WzAsIDEsIDJdLm1hcCgodCkgPT4gKAogICAgICAgICAgICAgIDxnIGtleT17dH0gdHJhbnNmb3JtPXtgdHJhbnNsYXRlKDAgJHstdCAqIDQ0fSlgfT4KICAgICAgICAgICAgICAgIDxyZWN0IHg9ey0zNCArIHQgKiA2fSB5PSItNDAiIHdpZHRoPXs2OCAtIHQgKiAxMn0gaGVpZ2h0PSI0MCIgZmlsbD0iIzdmMWQxZCIgLz4KICAgICAgICAgICAgICAgIDxwb2x5Z29uIHBvaW50cz17YDAsLTcyICR7NTYgLSB0ICogOH0sLTM4ICR7LTU2ICsgdCAqIDh9LC0zOGB9IGZpbGw9IiNmNTllMGIiIC8+CiAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICApKX0KICAgICAgICAgICAgPHBvbHlnb24gcG9pbnRzPSIwLC0xNzYgMTIsLTE0MCAtMTIsLTE0MCIgZmlsbD0iI2ZkZTY4YSIgLz4KICAgICAgICAgIDwvZz4KICAgICAgICAgIDxwYXRoIGQ9Ik0tMjUwIDAgTCAwIC0xMzQiIHN0cm9rZT0iI2UyZThmMCIgc3Ryb2tlV2lkdGg9IjQiIGZpbGw9Im5vbmUiIG9wYWNpdHk9IjAuNSIgLz4KICAgICAgICA8L2c+CiAgICAgICk7CiAgICBjYXNlICJtZWdhY2l0eSI6CiAgICAgIHJldHVybiAoCiAgICAgICAgPGc+CiAgICAgICAgICA8ZWxsaXBzZSBjeD0iMCIgY3k9IjEwIiByeD0iMzEwIiByeT0iMjIiIGZpbGw9IiMwYjFmMTYiIG9wYWNpdHk9IjAuMzUiIC8+CiAgICAgICAgICB7Wy0yOTAsIC0yMzYsIC0xODQsIC0xMjgsIC03MCwgLTgsIDUyLCAxMTIsIDE3MCwgMjMyLCAyODRdLm1hcCgoaHgsIGkpID0+IHsKICAgICAgICAgICAgY29uc3QgaCA9IDkwICsgKChpICogNjMpICUgMjEwKTsKICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICA8ZyBrZXk9e2h4fSB0cmFuc2Zvcm09e2B0cmFuc2xhdGUoJHtoeH0gMClgfT4KICAgICAgICAgICAgICAgIDxyZWN0IHg9Ii0yNCIgeT17LWh9IHdpZHRoPSI0OCIgaGVpZ2h0PXtofSBmaWxsPXtpICUgMiA/ICIjMWUyOTNiIiA6ICIjMGYxNzJhIn0gLz4KICAgICAgICAgICAgICAgIDxyZWN0IHg9Ii0yNCIgeT17LWh9IHdpZHRoPSI0OCIgaGVpZ2h0PSI4IiBmaWxsPSIjMzhiZGY4IiBvcGFjaXR5PSIwLjciIC8+CiAgICAgICAgICAgICAgICB7QXJyYXkuZnJvbSh7IGxlbmd0aDogTWF0aC5mbG9vcihoIC8gMjYpIH0sIChfLCByKSA9PiAoCiAgICAgICAgICAgICAgICAgIDxyZWN0CiAgICAgICAgICAgICAgICAgICAga2V5PXtyfQogICAgICAgICAgICAgICAgICAgIHg9e3IgJSAyID8gLTE2IDogMn0KICAgICAgICAgICAgICAgICAgICB5PXstaCArIDE2ICsgciAqIDI0fQogICAgICAgICAgICAgICAgICAgIHdpZHRoPSIxNCIKICAgICAgICAgICAgICAgICAgICBoZWlnaHQ9IjEyIgogICAgICAgICAgICAgICAgICAgIGZpbGw9e3IgJSAzID09PSAwID8gIiNmNDcyYjYiIDogIiM2N2U4ZjkifQogICAgICAgICAgICAgICAgICAgIG9wYWNpdHk9IjAuODUiCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgIDxyZWN0IHg9Ii0yIiB5PXstaCAtIDI2fSB3aWR0aD0iNCIgaGVpZ2h0PSIyNiIgZmlsbD0iIzk0YTNiOCIgLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjAiIGN5PXstaCAtIDMwfSByPSI0IiBmaWxsPSIjZjg3MTcxIiAvPgogICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgKTsKICAgICAgICAgIH0pfQogICAgICAgICAgey8qIFNreSBicmlkZ2VzICovfQogICAgICAgICAgPHBhdGggZD0iTS0yMzYgLTE1MCBMIC03MCAtMTkwIiBzdHJva2U9IiMzOGJkZjgiIHN0cm9rZVdpZHRoPSI1IiBvcGFjaXR5PSIwLjgiIGZpbGw9Im5vbmUiIC8+CiAgICAgICAgICA8cGF0aCBkPSJNNTIgLTIxMCBMIDIzMiAtMTcwIiBzdHJva2U9IiNmNDcyYjYiIHN0cm9rZVdpZHRoPSI1IiBvcGFjaXR5PSIwLjgiIGZpbGw9Im5vbmUiIC8+CiAgICAgICAgICA8cmVjdCB4PSItMzIwIiB5PSItNiIgd2lkdGg9IjY0MCIgaGVpZ2h0PSIxMCIgcng9IjQiIGZpbGw9IiMzMzQxNTUiIC8+CiAgICAgICAgPC9nPgogICAgICApOwogICAgZGVmYXVsdDoKICAgICAgcmV0dXJuIG51bGw7CiAgfQp9OwoKLyoqCiAqIEEgbWVtYmVyJ3MgY2FtcCBidWlsZCwgYW5jaG9yZWQgdG8gaXRzIGJhc2UgcG9pbnQgaW4gdGhlIEJhc2UgQ2FtcCB3b3JsZAogKiB3aXRoIGEgbmFtZXBsYXRlIHVuZGVybmVhdGggKCJNYXJ0aW4ncyBodXQiKS4KICovCi8qKiBOYXR1cmFsIGRyYXdpbmcgc2l6ZSBvZiBlYWNoIGFydHdvcmssIHNvIGV2ZXJ5IGJ1aWxkIHNjYWxlcyB0byBpdHMgZm9vdHByaW50LiAqLwpjb25zdCBBUlQ6IFJlY29yZDxzdHJpbmcsIHsgdzogbnVtYmVyOyBoOiBudW1iZXIgfT4gPSB7CiAgY2FtcGZpcmU6IHsgdzogODQsIGg6IDU2IH0sCiAgYml2eTogeyB3OiA3NiwgaDogMzQgfSwKCiAgc21hbGxfdGVudDogeyB3OiA2OCwgaDogNTAgfSwKICBiaWdfdGVudDogeyB3OiAxMTAsIGg6IDcwIH0sCiAgeXVydDogeyB3OiAxMjYsIGg6IDEwNCB9LAogIHRpbnlfaHV0OiB7IHc6IDExMiwgaDogODIgfSwKICBtZWRpdW1faHV0OiB7IHc6IDE1OCwgaDogMTE2IH0sCiAgbGFyZ2VfaHV0OiB7IHc6IDIwNCwgaDogMTI4IH0sCiAgbG9kZ2U6IHsgdzogMjQwLCBoOiAxNDAgfSwKICByZWZ1Z2U6IHsgdzogMjg4LCBoOiAxNjIgfSwKICBoYW1sZXQ6IHsgdzogMzMwLCBoOiAxMzIgfSwKICB2aWxsYWdlOiB7IHc6IDQwMCwgaDogMTcyIH0sCiAgdG93bjogeyB3OiA0NzAsIGg6IDIxMCB9LAogIGNpdHk6IHsgdzogNTIwLCBoOiAzMzAgfSwKICBtZWdhY2l0eTogeyB3OiA2NjAsIGg6IDM0MCB9LAp9OwoKY29uc3QgQ2FtcEJ1aWxkID0gbWVtbygoeyBidWlsZElkLCBsYWJlbCwgeCwgeSwgbWluZSwgb25DbGljayB9OiBQcm9wcykgPT4gewogIGNvbnN0IGtpbmQgPSBidWlsZEJ5SWQoYnVpbGRJZCk7CiAgY29uc3QgYXJ0ID0gQVJUW2J1aWxkSWRdOwogIGlmICgha2luZCB8fCAhYXJ0KSByZXR1cm4gbnVsbDsKICBjb25zdCB3ID0ga2luZC53aWR0aDsKICBjb25zdCBoID0gTWF0aC5yb3VuZCgoYXJ0LmggLyBhcnQudykgKiB3KTsKCiAgcmV0dXJuICgKICAgIDxkaXYKICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtdHJhbnNsYXRlLXgtMS8yIC10cmFuc2xhdGUteS1mdWxsIgogICAgICBzdHlsZT17eyBsZWZ0OiB4LCB0b3A6IHksIHpJbmRleDogTWF0aC5yb3VuZCh5KSAtIDEsIHdpZHRoOiB3IH19CiAgICA+CiAgICAgIDxidXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgb25DbGljaz17b25DbGlja30KICAgICAgICBkaXNhYmxlZD17IW9uQ2xpY2t9CiAgICAgICAgY2xhc3NOYW1lPXsKICAgICAgICAgIG9uQ2xpY2sKICAgICAgICAgICAgPyAiYmxvY2sgdy1mdWxsIGN1cnNvci1wb2ludGVyIHRyYW5zaXRpb24tdHJhbnNmb3JtIGhvdmVyOi10cmFuc2xhdGUteS0xIgogICAgICAgICAgICA6ICJibG9jayB3LWZ1bGwgY3Vyc29yLWRlZmF1bHQiCiAgICAgICAgfQogICAgICAgIGFyaWEtbGFiZWw9e2Ake2xhYmVsfSDigJQgJHtraW5kLm5hbWV9YH0KICAgICAgPgogICAgICAgIDxzdmcKICAgICAgICAgIHZpZXdCb3g9e2Akey1hcnQudyAvIDJ9ICR7LWFydC5ofSAke2FydC53fSAke2FydC5oICsgMTJ9YH0KICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGRyb3Atc2hhZG93LXhsIgogICAgICAgICAgc3R5bGU9e3sgaGVpZ2h0OiBoIH19CiAgICAgICAgICBhcmlhLWhpZGRlbgogICAgICAgID4KICAgICAgICAgIDxBcnQgaWQ9e2J1aWxkSWR9IC8+CiAgICAgICAgPC9zdmc+CiAgICAgIDwvYnV0dG9uPgoKICAgICAgPHNwYW4KICAgICAgICBjbGFzc05hbWU9e2BteC1hdXRvIG10LTEgYmxvY2sgdy1maXQgbWF4LXctZnVsbCB0cnVuY2F0ZSByb3VuZGVkLWZ1bGwgcHgtMiBweS0wLjUgdGV4dC1bMTFweF0gZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGVyICR7CiAgICAgICAgICBtaW5lCiAgICAgICAgICAgID8gImJnLXByaW1hcnkvOTAgdGV4dC1wcmltYXJ5LWZvcmVncm91bmQgcmluZy0xIHJpbmctd2hpdGUvNDAiCiAgICAgICAgICAgIDogImJnLXNsYXRlLTk1MC83MCB0ZXh0LXNsYXRlLTEwMCByaW5nLTEgcmluZy13aGl0ZS8yMCIKICAgICAgICB9YH0KICAgICAgPgogICAgICAgIHtsYWJlbH0KICAgICAgPC9zcGFuPgogICAgPC9kaXY+CiAgKTsKfSk7CgpDYW1wQnVpbGQuZGlzcGxheU5hbWUgPSAiQ2FtcEJ1aWxkIjsKCmV4cG9ydCBkZWZhdWx0IENhbXBCdWlsZDsK
+import { memo } from "react";
+
+import { buildById } from "@/lib/camp-builds";
+
+interface Props {
+  buildId: string;
+  label: string;
+  /** World coordinates of the build's base. */
+  x: number;
+  y: number;
+  /** Highlighted outline for the signed-in member's own build. */
+  mine?: boolean;
+  onClick?: () => void;
+}
+
+const roof = (w: number, h: number, color: string, shade: string) => (
+  <>
+    <polygon points={`0,${-h} ${w / 2},${-h * 0.45} ${-w / 2},${-h * 0.45}`} fill={color} />
+    <polygon points={`0,${-h} ${w / 2},${-h * 0.45} 0,${-h * 0.45}`} fill={shade} />
+  </>
+);
+
+/** Flat low-poly artwork for every build tier, drawn from a shared baseline. */
+const Art = ({ id }: { id: string }) => {
+  switch (id) {
+    case "campfire":
+      return (
+        <g>
+          <ellipse cx="0" cy="2" rx="38" ry="7" fill="#0b1f16" opacity="0.35" />
+          <circle cx="-30" cy="-2" r="5" fill="#64748b" />
+          <circle cx="-14" cy="1" r="5" fill="#94a3b8" />
+          <circle cx="14" cy="1" r="5" fill="#94a3b8" />
+          <circle cx="30" cy="-2" r="5" fill="#64748b" />
+          <rect x="-26" y="-12" width="52" height="9" rx="4" fill="#78350f" transform="rotate(-8)" />
+          <rect x="-26" y="-12" width="52" height="9" rx="4" fill="#92400e" transform="rotate(9)" />
+          <path d="M0 -46 Q 14 -28 10 -12 Q 4 -4 -10 -12 Q -14 -28 0 -46 Z" fill="#f97316" />
+          <path d="M0 -34 Q 8 -22 4 -12 Q -2 -8 -6 -14 Q -6 -24 0 -34 Z" fill="#fbbf24" />
+          <circle cx="-16" cy="-44" r="2.5" fill="#fed7aa" opacity="0.7" />
+          <circle cx="12" cy="-52" r="2" fill="#fed7aa" opacity="0.5" />
+        </g>
+      );
+
+    case "bivy":
+      return (
+        <g>
+          <ellipse cx="0" cy="2" rx="34" ry="6" fill="#0b1f16" opacity="0.3" />
+          <path d="M-32 0 Q 0 -26 32 0 Z" fill="#f97316" />
+          <path d="M0 -20 Q 20 -14 30 0 L0 0 Z" fill="#c2410c" />
+          <rect x="-34" y="-2" width="68" height="4" rx="2" fill="#1e293b" opacity="0.5" />
+        </g>
+      );
+    case "small_tent":
+      return (
+        <g>
+          <ellipse cx="0" cy="2" rx="34" ry="6" fill="#0b1f16" opacity="0.3" />
+          <polygon points="0,-42 30,0 -30,0" fill="#22c55e" />
+          <polygon points="0,-42 30,0 7,0" fill="#15803d" />
+          <polygon points="0,-40 9,0 -9,0" fill="#0f172a" opacity="0.55" />
+        </g>
+      );
+    case "big_tent":
+      return (
+        <g>
+          <ellipse cx="0" cy="3" rx="52" ry="8" fill="#0b1f16" opacity="0.3" />
+          <polygon points="-46,0 -46,-40 0,-62 46,-40 46,0" fill="#ef4444" />
+          <polygon points="0,-62 46,-40 46,0 12,0 12,-40" fill="#b91c1c" />
+          <polygon points="-14,0 -14,-34 0,-44 4,-40 4,0" fill="#0f172a" opacity="0.5" />
+          <rect x="-52" y="-2" width="104" height="4" rx="2" fill="#1e293b" opacity="0.5" />
+        </g>
+      );
+    case "yurt":
+      return (
+        <g>
+          <ellipse cx="0" cy="3" rx="60" ry="9" fill="#0b1f16" opacity="0.3" />
+          <rect x="-52" y="-36" width="104" height="36" fill="#f8fafc" />
+          <rect x="-52" y="-36" width="104" height="8" fill="#cbd5e1" />
+          <polygon points="0,-78 58,-34 -58,-34" fill="#e2e8f0" />
+          <polygon points="0,-78 58,-34 0,-34" fill="#94a3b8" />
+          <rect x="-10" y="-30" width="20" height="30" fill="#7c2d12" />
+          <rect x="-3" y="-92" width="6" height="16" fill="#475569" />
+          <path d="M-2 -96 q6 -10 0 -18" stroke="#cbd5e1" strokeWidth="3" fill="none" opacity="0.7" />
+        </g>
+      );
+    case "tiny_hut":
+      return (
+        <g>
+          <ellipse cx="0" cy="3" rx="52" ry="8" fill="#0b1f16" opacity="0.3" />
+          <rect x="-40" y="-42" width="80" height="42" fill="#a16207" />
+          <rect x="-40" y="-42" width="80" height="42" fill="#78350f" opacity="0.25" />
+          {roof(104, 74, "#dc2626", "#991b1b")}
+          <rect x="-10" y="-28" width="20" height="28" fill="#3f2412" />
+          <rect x="14" y="-32" width="14" height="14" fill="#fde68a" />
+        </g>
+      );
+    case "medium_hut":
+      return (
+        <g>
+          <ellipse cx="0" cy="4" rx="72" ry="10" fill="#0b1f16" opacity="0.3" />
+          <rect x="-62" y="-56" width="124" height="56" fill="#b45309" />
+          <rect x="-62" y="-56" width="124" height="10" fill="#92400e" />
+          {roof(150, 96, "#334155", "#1e293b")}
+          <rect x="-12" y="-36" width="24" height="36" fill="#3f2412" />
+          {[-46, -26, 22, 42].map((wx) => (
+            <rect key={wx} x={wx} y={-44} width="16" height="16" fill="#fde68a" />
+          ))}
+          <rect x="34" y="-104" width="10" height="24" fill="#57534e" />
+        </g>
+      );
+    case "large_hut":
+      return (
+        <g>
+          <ellipse cx="0" cy="5" rx="94" ry="12" fill="#0b1f16" opacity="0.3" />
+          <rect x="-84" y="-70" width="168" height="70" fill="#a16207" />
+          <rect x="-84" y="-70" width="168" height="12" fill="#78350f" />
+          {roof(196, 116, "#475569", "#27313f")}
+          <rect x="-16" y="-44" width="32" height="44" fill="#3f2412" />
+          {[-66, -42, 26, 50].map((wx) => (
+            <rect key={wx} x={wx} y={-56} width="18" height="18" fill="#fde68a" />
+          ))}
+          {[-66, -42, 26, 50].map((wx) => (
+            <rect key={`b${wx}`} x={wx} y={-30} width="18" height="18" fill="#fde68a" opacity="0.8" />
+          ))}
+          <rect x="-96" y="-8" width="192" height="8" rx="3" fill="#57534e" />
+        </g>
+      );
+    case "lodge":
+      return (
+        <g>
+          <ellipse cx="0" cy="6" rx="112" ry="13" fill="#0b1f16" opacity="0.3" />
+          <rect x="-104" y="-14" width="208" height="14" fill="#7c5334" />
+          <rect x="-92" y="-78" width="184" height="64" fill="#c2853f" />
+          <rect x="-92" y="-78" width="184" height="12" fill="#92400e" />
+          {roof(232, 132, "#1f2937", "#111827")}
+          {[-74, -46, -18, 18, 46, 74].map((wx) => (
+            <rect key={wx} x={wx - 9} y={-64} width="18" height="20" fill="#fde68a" />
+          ))}
+          <rect x="-18" y="-44" width="36" height="30" fill="#3f2412" />
+          <rect x="66" y="-124" width="12" height="30" fill="#57534e" />
+        </g>
+      );
+    case "refuge":
+      return (
+        <g>
+          <ellipse cx="0" cy="6" rx="124" ry="14" fill="#0b1f16" opacity="0.3" />
+          <polygon points="-118,0 -104,-30 104,-30 118,0" fill="#64748b" />
+          <rect x="-100" y="-96" width="200" height="66" fill="#94a3b8" />
+          <rect x="-100" y="-96" width="200" height="10" fill="#64748b" />
+          {roof(240, 150, "#0f172a", "#020617")}
+          {[-78, -44, -10, 26, 60].map((wx) => (
+            <rect key={wx} x={wx} y={-84} width="20" height="22" fill="#fdba74" />
+          ))}
+          <rect x="-20" y="-62" width="40" height="32" fill="#1f2937" />
+          <path d="M-140 0 l24 -22 l14 22 z" fill="#475569" />
+        </g>
+      );
+    case "hamlet":
+      return (
+        <g>
+          <ellipse cx="0" cy="6" rx="156" ry="15" fill="#0b1f16" opacity="0.3" />
+          {[-110, -30, 66].map((hx, i) => (
+            <g key={hx} transform={`translate(${hx} ${-i * 6})`}>
+              <rect x="-40" y="-52" width="80" height="52" fill={["#c2853f", "#a16207", "#b45309"][i]} />
+              {roof(100, 88, "#334155", "#1e293b")}
+              <rect x="-10" y="-30" width="20" height="30" fill="#3f2412" />
+              <rect x="16" y="-40" width="14" height="14" fill="#fde68a" />
+            </g>
+          ))}
+          <g transform="translate(140 0)">
+            <rect x="-18" y="-84" width="36" height="84" fill="#e2e8f0" />
+            <polygon points="0,-118 22,-84 -22,-84" fill="#7f1d1d" />
+            <rect x="-6" y="-70" width="12" height="16" fill="#1e293b" />
+          </g>
+        </g>
+      );
+    case "village":
+      return (
+        <g>
+          <ellipse cx="0" cy="7" rx="188" ry="16" fill="#0b1f16" opacity="0.3" />
+          {[-160, -96, -30, 40, 106].map((hx, i) => (
+            <g key={hx} transform={`translate(${hx} ${-(i % 3) * 8})`}>
+              <rect x="-34" y={-46 - (i % 2) * 14} width="68" height={46 + (i % 2) * 14} fill={["#c2853f", "#a16207", "#b45309", "#d97706", "#92400e"][i]} />
+              {roof(88, 78 + (i % 2) * 14, i % 2 ? "#475569" : "#7f1d1d", i % 2 ? "#27313f" : "#581c1c")}
+              <rect x="-8" y="-26" width="16" height="26" fill="#3f2412" />
+              <rect x="12" y="-38" width="12" height="12" fill="#fde68a" />
+            </g>
+          ))}
+          <g transform="translate(166 0)">
+            <rect x="-20" y="-116" width="40" height="116" fill="#f1f5f9" />
+            <polygon points="0,-158 24,-116 -24,-116" fill="#7f1d1d" />
+            <circle cx="0" cy="-96" r="9" fill="#fbbf24" />
+          </g>
+          <path d="M-190 0 q190 -26 380 0" stroke="#78716c" strokeWidth="7" fill="none" opacity="0.6" />
+        </g>
+      );
+    case "town":
+      return (
+        <g>
+          <ellipse cx="0" cy="8" rx="220" ry="18" fill="#0b1f16" opacity="0.3" />
+          {[-196, -140, -84, -26, 32, 92, 152].map((hx, i) => {
+            const h = 52 + ((i * 37) % 60);
+            return (
+              <g key={hx} transform={`translate(${hx} 0)`}>
+                <rect x="-28" y={-h} width="56" height={h} fill={["#c2853f", "#a16207", "#b45309", "#9a3412", "#78350f", "#d97706", "#92400e"][i]} />
+                {roof(72, h + 30, i % 2 ? "#334155" : "#7f1d1d", i % 2 ? "#1e293b" : "#581c1c")}
+                {[0, 1, 2].map((r) => (
+                  <rect key={r} x="-18" y={-h + 10 + r * 20} width="12" height="12" fill="#fde68a" opacity={r * 0.2 + 0.6} />
+                ))}
+                {[0, 1, 2].map((r) => (
+                  <rect key={`b${r}`} x="6" y={-h + 10 + r * 20} width="12" height="12" fill="#fde68a" opacity={r * 0.2 + 0.6} />
+                ))}
+              </g>
+            );
+          })}
+          {/* Cable car up to the ridge */}
+          <path d="M-210 -30 L 210 -190" stroke="#1f2937" strokeWidth="3" fill="none" />
+          <rect x="30" y="-124" width="26" height="18" rx="4" fill="#ef4444" />
+          <path d="M-224 0 q224 -30 448 0" stroke="#78716c" strokeWidth="8" fill="none" opacity="0.6" />
+        </g>
+      );
+    case "city":
+      return (
+        <g>
+          <ellipse cx="0" cy="9" rx="260" ry="20" fill="#0b1f16" opacity="0.3" />
+          {/* Terraced ridge city, Fansipan style */}
+          {[0, 1, 2, 3].map((t) => (
+            <rect key={t} x={-250 + t * 34} y={-30 - t * 26} width={500 - t * 68} height={26} fill={["#78716c", "#8b8378", "#a1a1aa", "#b8b3ab"][t]} />
+          ))}
+          {[-210, -150, -92, -34, 30, 92, 152, 210].map((hx, i) => (
+            <g key={hx} transform={`translate(${hx} ${-30 - (i % 3) * 26})`}>
+              <rect x="-26" y="-54" width="52" height="54" fill="#b91c1c" />
+              <polygon points="0,-92 44,-54 -44,-54" fill="#facc15" />
+              <polygon points="0,-92 44,-54 0,-54" fill="#ca8a04" />
+              <polygon points="0,-116 30,-88 -30,-88" fill="#fbbf24" />
+              <rect x="-8" y="-30" width="16" height="30" fill="#7f1d1d" />
+            </g>
+          ))}
+          {/* Great pagoda on the summit terrace */}
+          <g transform="translate(0 -134)">
+            {[0, 1, 2].map((t) => (
+              <g key={t} transform={`translate(0 ${-t * 44})`}>
+                <rect x={-34 + t * 6} y="-40" width={68 - t * 12} height="40" fill="#7f1d1d" />
+                <polygon points={`0,-72 ${56 - t * 8},-38 ${-56 + t * 8},-38`} fill="#f59e0b" />
+              </g>
+            ))}
+            <polygon points="0,-176 12,-140 -12,-140" fill="#fde68a" />
+          </g>
+          <path d="M-250 0 L 0 -134" stroke="#e2e8f0" strokeWidth="4" fill="none" opacity="0.5" />
+        </g>
+      );
+    case "megacity":
+      return (
+        <g>
+          <ellipse cx="0" cy="10" rx="310" ry="22" fill="#0b1f16" opacity="0.35" />
+          {[-290, -236, -184, -128, -70, -8, 52, 112, 170, 232, 284].map((hx, i) => {
+            const h = 90 + ((i * 63) % 210);
+            return (
+              <g key={hx} transform={`translate(${hx} 0)`}>
+                <rect x="-24" y={-h} width="48" height={h} fill={i % 2 ? "#1e293b" : "#0f172a"} />
+                <rect x="-24" y={-h} width="48" height="8" fill="#38bdf8" opacity="0.7" />
+                {Array.from({ length: Math.floor(h / 26) }, (_, r) => (
+                  <rect
+                    key={r}
+                    x={r % 2 ? -16 : 2}
+                    y={-h + 16 + r * 24}
+                    width="14"
+                    height="12"
+                    fill={r % 3 === 0 ? "#f472b6" : "#67e8f9"}
+                    opacity="0.85"
+                  />
+                ))}
+                <rect x="-2" y={-h - 26} width="4" height="26" fill="#94a3b8" />
+                <circle cx="0" cy={-h - 30} r="4" fill="#f87171" />
+              </g>
+            );
+          })}
+          {/* Sky bridges */}
+          <path d="M-236 -150 L -70 -190" stroke="#38bdf8" strokeWidth="5" opacity="0.8" fill="none" />
+          <path d="M52 -210 L 232 -170" stroke="#f472b6" strokeWidth="5" opacity="0.8" fill="none" />
+          <rect x="-320" y="-6" width="640" height="10" rx="4" fill="#334155" />
+        </g>
+      );
+    default:
+      return null;
+  }
+};
+
+/**
+ * A member's camp build, anchored to its base point in the Base Camp world
+ * with a nameplate underneath ("Martin's hut").
+ */
+/** Natural drawing size of each artwork, so every build scales to its footprint. */
+const ART: Record<string, { w: number; h: number }> = {
+  campfire: { w: 84, h: 56 },
+  bivy: { w: 76, h: 34 },
+
+  small_tent: { w: 68, h: 50 },
+  big_tent: { w: 110, h: 70 },
+  yurt: { w: 126, h: 104 },
+  tiny_hut: { w: 112, h: 82 },
+  medium_hut: { w: 158, h: 116 },
+  large_hut: { w: 204, h: 128 },
+  lodge: { w: 240, h: 140 },
+  refuge: { w: 288, h: 162 },
+  hamlet: { w: 330, h: 132 },
+  village: { w: 400, h: 172 },
+  town: { w: 470, h: 210 },
+  city: { w: 520, h: 330 },
+  megacity: { w: 660, h: 340 },
+};
+
+const CampBuild = memo(({ buildId, label, x, y, mine, onClick }: Props) => {
+  const kind = buildById(buildId);
+  const art = ART[buildId];
+  if (!kind || !art) return null;
+  const w = kind.width;
+  const h = Math.round((art.h / art.w) * w);
+
+  return (
+    <div
+      className="absolute -translate-x-1/2 -translate-y-full"
+      style={{ left: x, top: y, zIndex: Math.round(y) - 1, width: w }}
+    >
+      <button
+        type="button"
+        onClick={onClick}
+        disabled={!onClick}
+        className={
+          onClick
+            ? "block w-full cursor-pointer transition-transform hover:-translate-y-1"
+            : "block w-full cursor-default"
+        }
+        aria-label={`${label} — ${kind.name}`}
+      >
+        <svg
+          viewBox={`${-art.w / 2} ${-art.h} ${art.w} ${art.h + 12}`}
+          className="w-full drop-shadow-xl"
+          style={{ height: h }}
+          aria-hidden
+        >
+          <Art id={buildId} />
+        </svg>
+      </button>
+
+      <span
+        className={`mx-auto mt-1 block w-fit max-w-full truncate rounded-full px-2 py-0.5 text-[11px] font-display tracking-wider ${
+          mine
+            ? "bg-primary/90 text-primary-foreground ring-1 ring-white/40"
+            : "bg-slate-950/70 text-slate-100 ring-1 ring-white/20"
+        }`}
+      >
+        {label}
+      </span>
+    </div>
+  );
+});
+
+CampBuild.displayName = "CampBuild";
+
+export default CampBuild;

@@ -1,1 +1,77 @@
-aW1wb3J0IHsKICBCb29rT3BlbiwKICBDYW1lcmEsCiAgSG9tZSwKICBNZXNzYWdlU3F1YXJlLAogIE1vdW50YWluLAogIENvbXBhc3MsCiAgVHJvcGh5LAogIFVzZXJzLAogIFRlbnQsCiAgVXNlclBsdXMsCiAgQmVsbCwKICBTZXR0aW5ncywKICB0eXBlIEx1Y2lkZUljb24sCn0gZnJvbSAibHVjaWRlLXJlYWN0IjsKCmV4cG9ydCBpbnRlcmZhY2UgQ29tbXVuaXR5UGFnZSB7CiAgdG86IHN0cmluZzsKICBsYWJlbDogc3RyaW5nOwogIGljb246IEx1Y2lkZUljb247CiAgLyoqIFJlcXVpcmVzIGEgc2lnbmVkLWluIG1lbWJlci4gKi8KICBhdXRoOiBib29sZWFuOwogIC8qKiBUYWlsd2luZCBncmFkaWVudCBjbGFzc2VzIGZvciB0aGUgYXBwLWljb24gdGlsZS4gKi8KICB0aW50OiBzdHJpbmc7CiAgLyoqCiAgICogVXRpbGl0eSBwYWdlcyAoYWxlcnRzLCBzZXR0aW5ncywgZm9sbG93aW5nKSBsaXZlIGluIHRoZSBoZWFkZXIgbWVudSBvbmx5IOKAlAogICAqIGtlZXBpbmcgdGhlbSBvdXQgb2YgdGhlIHN3aXBlIGRlY2sgbWFrZXMgdGhlIGNhcm91c2VsIHNob3J0IGFuZCBtZWFuaW5nZnVsLgogICAqLwogIHV0aWxpdHk/OiBib29sZWFuOwp9CgovKioKICogT3JkZXJlZCAiaG9tZSBzY3JlZW4iIG9mIHRoZSBjb21tdW5pdHkgYXBwLiBTd2lwZSBvcmRlciBhbmQgdGhlIHpvb21lZC1vdXQKICogYXBwLWljb24gZ3JpZCBib3RoIHJlYWQgZnJvbSB0aGlzIGxpc3QsIHNvIHRoZXkgY2FuIG5ldmVyIGRyaWZ0IGFwYXJ0LgogKiBUaGUgZGVjayB3cmFwcyBhcm91bmQsIHNvIEZlZWQgc3dpcGVzIHJpZ2h0IHRvIFdhbGwgYW5kIGxlZnQgdG8gQmFzZSBDYW1wLgogKi8KZXhwb3J0IGNvbnN0IENPTU1VTklUWV9QQUdFUzogQ29tbXVuaXR5UGFnZVtdID0gWwogIHsgdG86ICIvY29tbXVuaXR5L2ludHJvIiwgbGFiZWw6ICJJbnRyb2R1Y3Rpb24iLCBpY29uOiBCb29rT3BlbiwgYXV0aDogZmFsc2UsIHRpbnQ6ICJmcm9tLWN5YW4tNTAwLzcwIHRvLWN5YW4tNTAwLzE1IiB9LAogIHsgdG86ICIvY29tbXVuaXR5IiwgbGFiZWw6ICJGZWVkIiwgaWNvbjogSG9tZSwgYXV0aDogZmFsc2UsIHRpbnQ6ICJmcm9tLXByaW1hcnkvNzAgdG8tcHJpbWFyeS8yMCIgfSwKICB7IHRvOiAiL2NvbW11bml0eS93YWxsIiwgbGFiZWw6ICJXYWxsIiwgaWNvbjogTWVzc2FnZVNxdWFyZSwgYXV0aDogZmFsc2UsIHRpbnQ6ICJmcm9tLXBpbmstNTAwLzcwIHRvLXBpbmstNTAwLzE1IiB9LAogIHsgdG86ICIvY29tbXVuaXR5L3Bob3RvLXZvdGUiLCBsYWJlbDogIlBob3RvIFZvdGUiLCBpY29uOiBDYW1lcmEsIGF1dGg6IGZhbHNlLCB0aW50OiAiZnJvbS1mdWNoc2lhLTUwMC83MCB0by1mdWNoc2lhLTUwMC8xNSIgfSwKICB7IHRvOiAiL2NvbW11bml0eS9hc2NlbnRzIiwgbGFiZWw6ICJBc2NlbnRzIiwgaWNvbjogTW91bnRhaW4sIGF1dGg6IHRydWUsIHRpbnQ6ICJmcm9tLXNreS01MDAvNzAgdG8tc2t5LTUwMC8xNSIgfSwKICB7IHRvOiAiL2NvbW11bml0eS9teS1hZHZlbnR1cmVzIiwgbGFiZWw6ICJNeSBBZHZlbnR1cmVzIiwgaWNvbjogQ29tcGFzcywgYXV0aDogdHJ1ZSwgdGludDogImZyb20tbGltZS01MDAvNzAgdG8tbGltZS01MDAvMTUiIH0sCiAgeyB0bzogIi9jb21tdW5pdHkvYWR2ZW50dXJlcyIsIGxhYmVsOiAiQWR2ZW50dXJlcyIsIGljb246IENvbXBhc3MsIGF1dGg6IHRydWUsIHRpbnQ6ICJmcm9tLWVtZXJhbGQtNTAwLzcwIHRvLWVtZXJhbGQtNTAwLzE1IiB9LAogIHsgdG86ICIvY29tbXVuaXR5L2xlYWRlcmJvYXJkIiwgbGFiZWw6ICJMZWFkZXJib2FyZCIsIGljb246IFRyb3BoeSwgYXV0aDogdHJ1ZSwgdGludDogImZyb20teWVsbG93LTUwMC83MCB0by15ZWxsb3ctNTAwLzE1IiB9LAogIHsgdG86ICIvY29tbXVuaXR5L2Zyb250cnVubmVycyIsIGxhYmVsOiAiRnJvbnQgUnVubmVycyIsIGljb246IFRyb3BoeSwgYXV0aDogdHJ1ZSwgdGludDogImZyb20tYW1iZXItNDAwLzcwIHRvLWFtYmVyLTQwMC8xNSIgfSwKICB7IHRvOiAiL2NvbW11bml0eS9tZW1iZXJzIiwgbGFiZWw6ICJNZW1iZXJzIiwgaWNvbjogVXNlcnMsIGF1dGg6IHRydWUsIHRpbnQ6ICJmcm9tLXZpb2xldC01MDAvNzAgdG8tdmlvbGV0LTUwMC8xNSIgfSwKICB7IHRvOiAiL2NvbW11bml0eS9iYXNlY2FtcCIsIGxhYmVsOiAiQmFzZSBDYW1wIiwgaWNvbjogVGVudCwgYXV0aDogdHJ1ZSwgdGludDogImZyb20tdGVhbC01MDAvNzAgdG8tdGVhbC01MDAvMTUiIH0sCiAgeyB0bzogIi9jb21tdW5pdHkvZm9sbG93aW5nIiwgbGFiZWw6ICJGb2xsb3dpbmciLCBpY29uOiBVc2VyUGx1cywgYXV0aDogdHJ1ZSwgdGludDogImZyb20tcm9zZS01MDAvNzAgdG8tcm9zZS01MDAvMTUiLCB1dGlsaXR5OiB0cnVlIH0sCiAgeyB0bzogIi9jb21tdW5pdHkvbm90aWZpY2F0aW9ucyIsIGxhYmVsOiAiQWxlcnRzIiwgaWNvbjogQmVsbCwgYXV0aDogdHJ1ZSwgdGludDogImZyb20tb3JhbmdlLTUwMC83MCB0by1vcmFuZ2UtNTAwLzE1IiwgdXRpbGl0eTogdHJ1ZSB9LAogIHsgdG86ICIvY29tbXVuaXR5L3NldHRpbmdzIiwgbGFiZWw6ICJTZXR0aW5ncyIsIGljb246IFNldHRpbmdzLCBhdXRoOiB0cnVlLCB0aW50OiAiZnJvbS1zbGF0ZS01MDAvNzAgdG8tc2xhdGUtNTAwLzE1IiwgdXRpbGl0eTogdHJ1ZSB9LApdOwoKLyoqIFBhZ2VzIHRoZSBjdXJyZW50IHZpc2l0b3IgbWF5IHN3aXBlIGJldHdlZW4gKHV0aWxpdHkgcGFnZXMgZXhjbHVkZWQpLiAqLwpleHBvcnQgY29uc3QgdmlzaWJsZVBhZ2VzID0gKHNpZ25lZEluOiBib29sZWFuKSA9PgogIENPTU1VTklUWV9QQUdFUy5maWx0ZXIoKHApID0+IChzaWduZWRJbiB8fCAhcC5hdXRoKSAmJiAhcC51dGlsaXR5KTsKCi8qKiBJbmRleCBvZiB0aGUgcGFnZSBtYXRjaGluZyBhIHBhdGhuYW1lLCBvciAtMS4gKi8KZXhwb3J0IGNvbnN0IHBhZ2VJbmRleCA9IChwYWdlczogQ29tbXVuaXR5UGFnZVtdLCBwYXRobmFtZTogc3RyaW5nKSA9PiB7CiAgY29uc3QgY2xlYW4gPSBwYXRobmFtZS5yZXBsYWNlKC9cLyskLywgIiIpIHx8ICIvY29tbXVuaXR5IjsKICBsZXQgYmVzdCA9IC0xOwogIGxldCBiZXN0TGVuID0gLTE7CiAgcGFnZXMuZm9yRWFjaCgocCwgaSkgPT4gewogICAgaWYgKGNsZWFuID09PSBwLnRvIHx8IChwLnRvICE9PSAiL2NvbW11bml0eSIgJiYgY2xlYW4uc3RhcnRzV2l0aChgJHtwLnRvfS9gKSkpIHsKICAgICAgaWYgKHAudG8ubGVuZ3RoID4gYmVzdExlbikgewogICAgICAgIGJlc3QgPSBpOwogICAgICAgIGJlc3RMZW4gPSBwLnRvLmxlbmd0aDsKICAgICAgfQogICAgfQogIH0pOwogIHJldHVybiBiZXN0Owp9OwoKLyoqIFdyYXAgYW4gaW5kZXggYXJvdW5kIHRoZSBkZWNrIHNvIHRoZSBjYXJvdXNlbCBpcyBlbmRsZXNzIGluIGJvdGggZGlyZWN0aW9ucy4gKi8KZXhwb3J0IGNvbnN0IHdyYXBJbmRleCA9IChsZW5ndGg6IG51bWJlciwgaTogbnVtYmVyKSA9PgogIGxlbmd0aCA+IDAgPyAoKGkgJSBsZW5ndGgpICsgbGVuZ3RoKSAlIGxlbmd0aCA6IDA7Cgo=
+import {
+  BookOpen,
+  Camera,
+  Home,
+  MessageSquare,
+  Mountain,
+  Compass,
+  Trophy,
+  Users,
+  Tent,
+  UserPlus,
+  Bell,
+  Settings,
+  type LucideIcon,
+} from "lucide-react";
+
+export interface CommunityPage {
+  to: string;
+  label: string;
+  icon: LucideIcon;
+  /** Requires a signed-in member. */
+  auth: boolean;
+  /** Tailwind gradient classes for the app-icon tile. */
+  tint: string;
+  /**
+   * Utility pages (alerts, settings, following) live in the header menu only —
+   * keeping them out of the swipe deck makes the carousel short and meaningful.
+   */
+  utility?: boolean;
+}
+
+/**
+ * Ordered "home screen" of the community app. Swipe order and the zoomed-out
+ * app-icon grid both read from this list, so they can never drift apart.
+ * The deck wraps around, so Feed swipes right to Wall and left to Base Camp.
+ */
+export const COMMUNITY_PAGES: CommunityPage[] = [
+  { to: "/community/intro", label: "Introduction", icon: BookOpen, auth: false, tint: "from-cyan-500/70 to-cyan-500/15" },
+  { to: "/community", label: "Feed", icon: Home, auth: false, tint: "from-primary/70 to-primary/20" },
+  { to: "/community/wall", label: "Wall", icon: MessageSquare, auth: false, tint: "from-pink-500/70 to-pink-500/15" },
+  { to: "/community/photo-vote", label: "Photo Vote", icon: Camera, auth: false, tint: "from-fuchsia-500/70 to-fuchsia-500/15" },
+  { to: "/community/ascents", label: "Ascents", icon: Mountain, auth: true, tint: "from-sky-500/70 to-sky-500/15" },
+  { to: "/community/my-adventures", label: "My Adventures", icon: Compass, auth: true, tint: "from-lime-500/70 to-lime-500/15" },
+  { to: "/community/adventures", label: "Adventures", icon: Compass, auth: true, tint: "from-emerald-500/70 to-emerald-500/15" },
+  { to: "/community/leaderboard", label: "Leaderboard", icon: Trophy, auth: true, tint: "from-yellow-500/70 to-yellow-500/15" },
+  { to: "/community/frontrunners", label: "Front Runners", icon: Trophy, auth: true, tint: "from-amber-400/70 to-amber-400/15" },
+  { to: "/community/members", label: "Members", icon: Users, auth: true, tint: "from-violet-500/70 to-violet-500/15" },
+  { to: "/community/basecamp", label: "Base Camp", icon: Tent, auth: true, tint: "from-teal-500/70 to-teal-500/15" },
+  { to: "/community/following", label: "Following", icon: UserPlus, auth: true, tint: "from-rose-500/70 to-rose-500/15", utility: true },
+  { to: "/community/notifications", label: "Alerts", icon: Bell, auth: true, tint: "from-orange-500/70 to-orange-500/15", utility: true },
+  { to: "/community/settings", label: "Settings", icon: Settings, auth: true, tint: "from-slate-500/70 to-slate-500/15", utility: true },
+];
+
+/** Pages the current visitor may swipe between (utility pages excluded). */
+export const visiblePages = (signedIn: boolean) =>
+  COMMUNITY_PAGES.filter((p) => (signedIn || !p.auth) && !p.utility);
+
+/** Index of the page matching a pathname, or -1. */
+export const pageIndex = (pages: CommunityPage[], pathname: string) => {
+  const clean = pathname.replace(/\/+$/, "") || "/community";
+  let best = -1;
+  let bestLen = -1;
+  pages.forEach((p, i) => {
+    if (clean === p.to || (p.to !== "/community" && clean.startsWith(`${p.to}/`))) {
+      if (p.to.length > bestLen) {
+        best = i;
+        bestLen = p.to.length;
+      }
+    }
+  });
+  return best;
+};
+
+/** Wrap an index around the deck so the carousel is endless in both directions. */
+export const wrapIndex = (length: number, i: number) =>
+  length > 0 ? ((i % length) + length) % length : 0;
+

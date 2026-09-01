@@ -1,1 +1,285 @@
-aW1wb3J0IHsgdXNlTWVtbywgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDaGV2cm9uRG93biwgWCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IGNvbXB1dGVBc2NlbnRTdGF0cywgZGlmZmljdWx0eUxhYmVscywgZGlmZmljdWx0eU9yZGVyLCBzZWFzb25Gb3IsIHR5cGUgU2Vhc29uIH0gZnJvbSAiQC9saWIvYXNjZW50LXN0YXRzIjsKaW1wb3J0IHsgZm9ybWF0QXNjZW50RGF0ZSwgdHlwZSBBc2NlbnQgfSBmcm9tICJAL2xpYi9wZWFrLWNhdGFsb2ciOwppbXBvcnQgeyBmb3JtYXRYcCwgcGFyc2VFbGV2YXRpb24gfSBmcm9tICJAL2xpYi94cCI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiOwoKY29uc3QgU1RBVF9MQUJFTFM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgdG90YWw6ICJUb3RhbCBhc2NlbnRzIiwKICByZXBlYXRzOiAiUmVwZWF0IGFzY2VudHMiLAogIGhpZ2hQb2ludHM6ICJDb3VudHJ5IGhpZ2ggcG9pbnRzIiwKICBmYW1vdXM6ICJGYW1vdXMgcGVha3MiLAogIG1ldHJlczogIlN1bW1pdCBtZXRyZXMg4oCUIGhpZ2hlc3QgZmlyc3QiLAogIGF2ZXJhZ2U6ICJBbGwgYXNjZW50cyBieSBoZWlnaHQiLAogIHBlclllYXI6ICJBbGwgYXNjZW50cyIsCiAgeHA6ICJBbGwgYXNjZW50cyBieSBoZWlnaHQiLAp9OwoKY29uc3QgTU9OVEhTID0gWyJKYW4iLCAiRmViIiwgIk1hciIsICJBcHIiLCAiTWF5IiwgIkp1biIsICJKdWwiLCAiQXVnIiwgIlNlcCIsICJPY3QiLCAiTm92IiwgIkRlYyJdOwpjb25zdCBTRUFTT05TOiBTZWFzb25bXSA9IFsiV2ludGVyIiwgIlNwcmluZyIsICJTdW1tZXIiLCAiQXV0dW1uIl07CgovKiogT25lIGxpbmUgb2YgdGhlIGV4cGFuZGVkIGRldGFpbCBsaXN0IHVuZGVyIGEgc3RhdCBib3guICovCmNvbnN0IEFzY2VudExpbmUgPSAoeyBhc2NlbnQgfTogeyBhc2NlbnQ6IEFzY2VudCB9KSA9PiAoCiAgPGxpIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1zbSI+CiAgICA8c3BhbiBjbGFzc05hbWU9InRydW5jYXRlIj57YXNjZW50LnBlYWtfbmFtZX08L3NwYW4+CiAgICB7YXNjZW50LmNvdW50cnkgJiYgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzaHJpbmstMCI+e2FzY2VudC5jb3VudHJ5fTwvc3Bhbj59CiAgICA8c3BhbiBjbGFzc05hbWU9Im1sLWF1dG8gdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgc2hyaW5rLTAiPgogICAgICB7Zm9ybWF0QXNjZW50RGF0ZShhc2NlbnQuYXNjZW50X2RhdGUsIGFzY2VudC5kYXRlX3ByZWNpc2lvbiA/PyAiZGF5Iil9CiAgICA8L3NwYW4+CiAgPC9saT4KKTsKCmNvbnN0IFN0YXQgPSAoewogIGxhYmVsLAogIHZhbHVlLAogIGhpbnQsCiAgZGV0YWlscywKICBvcGVuLAogIG9uVG9nZ2xlLAp9OiB7CiAgbGFiZWw6IHN0cmluZzsKICB2YWx1ZTogc3RyaW5nOwogIGhpbnQ/OiBzdHJpbmcgfCB1bmRlZmluZWQ7CiAgZGV0YWlscz86IEFzY2VudFtdIHwgdW5kZWZpbmVkOwogIG9wZW4/OiBib29sZWFuOwogIG9uVG9nZ2xlPzogKCgpID0+IHZvaWQpIHwgdW5kZWZpbmVkOwp9KSA9PiB7CiAgY29uc3QgZXhwYW5kYWJsZSA9ICEhZGV0YWlscyAmJiBkZXRhaWxzLmxlbmd0aCA+IDAgJiYgISFvblRvZ2dsZTsKICByZXR1cm4gKAogICAgPGJ1dHRvbgogICAgICB0eXBlPSJidXR0b24iCiAgICAgIGRpc2FibGVkPXshZXhwYW5kYWJsZX0KICAgICAgYXJpYS1leHBhbmRlZD17ZXhwYW5kYWJsZSA/ICEhb3BlbiA6IHVuZGVmaW5lZH0KICAgICAgb25DbGljaz17b25Ub2dnbGV9CiAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgInJvdW5kZWQtbGcgYm9yZGVyIGJnLWNhcmQvNjAgcC00IHRleHQtbGVmdCB3LWZ1bGwgdHJhbnNpdGlvbi1jb2xvcnMiLAogICAgICAgIG9wZW4gPyAiYm9yZGVyLXByaW1hcnkiIDogImJvcmRlci1ib3JkZXIiLAogICAgICAgIGV4cGFuZGFibGUgPyAiY3Vyc29yLXBvaW50ZXIgaG92ZXI6Ym9yZGVyLXByaW1hcnkvNjAiIDogImN1cnNvci1kZWZhdWx0IiwKICAgICAgKX0KICAgID4KICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlIj57dmFsdWV9PC9kaXY+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXhzIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtaW4tdy0wIHRydW5jYXRlIj57bGFiZWx9PC9zcGFuPgogICAgICAgIHtleHBhbmRhYmxlICYmIDxDaGV2cm9uRG93biBjbGFzc05hbWU9e2NuKCJ3LTMgaC0zIHNocmluay0wIHRyYW5zaXRpb24tdHJhbnNmb3JtIiwgb3BlbiAmJiAicm90YXRlLTE4MCIpfSAvPn0KICAgICAgPC9kaXY+CiAgICAgIHtoaW50ICYmIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZC84MCBtdC0xIj57aGludH08L2Rpdj59CiAgICA8L2J1dHRvbj4KICApOwp9OwoKLyoqIFRoZSBleHBhbmRlZCBwYW5lbCBzaG93biB1bmRlciBhIGdyaWQgb2Ygc3RhdCBib3hlcy4gKi8KY29uc3QgU3RhdERldGFpbHMgPSAoeyB0aXRsZSwgaXRlbXMgfTogeyB0aXRsZTogc3RyaW5nOyBpdGVtczogQXNjZW50W10gfSkgPT4gKAogIDxkaXYgY2xhc3NOYW1lPSJtdC0zIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBwLTQiPgogICAgPHAgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC1zbSB0cmFja2luZy13aWRlciBtYi0yIj4KICAgICAge3RpdGxlfSA8c3BhbiBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+wrcge2l0ZW1zLmxlbmd0aH08L3NwYW4+CiAgICA8L3A+CiAgICA8dWwgY2xhc3NOYW1lPSJtYXgtaC03MiBvdmVyZmxvdy15LWF1dG8gZ3JpZCBzbTpncmlkLWNvbHMtMiBnYXAteC00IGdhcC15LTEgcHItMSI+CiAgICAgIHtpdGVtcy5tYXAoKGEpID0+ICgKICAgICAgICA8QXNjZW50TGluZSBrZXk9e2EuaWR9IGFzY2VudD17YX0gLz4KICAgICAgKSl9CiAgICA8L3VsPgogIDwvZGl2PgopOwoKY29uc3QgQmFyID0gKHsgbGFiZWwsIGNvdW50LCBtYXgsIG5vdGUgfTogeyBsYWJlbDogc3RyaW5nOyBjb3VudDogbnVtYmVyOyBtYXg6IG51bWJlcjsgbm90ZT86IHN0cmluZyB9KSA9PiAoCiAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0zIHRleHQtc20iPgogICAgPGRpdiBjbGFzc05hbWU9InctMjggc2hyaW5rLTAgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57bGFiZWx9PC9kaXY+CiAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleC0xIGgtMiByb3VuZGVkLWZ1bGwgYmctbXV0ZWQgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImgtZnVsbCBiZy1wcmltYXJ5IiBzdHlsZT17eyB3aWR0aDogYCR7bWF4ID8gKGNvdW50IC8gbWF4KSAqIDEwMCA6IDB9JWAgfX0gLz4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzc05hbWU9InctMTYgdGV4dC1yaWdodCB0YWJ1bGFyLW51bXMiPgogICAgICB7Y291bnR9CiAgICAgIHtub3RlICYmIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRleHQteHMgbWwtMSI+e25vdGV9PC9zcGFuPn0KICAgIDwvZGl2PgogIDwvZGl2PgopOwoKY29uc3QgU2VjdGlvbiA9ICh7IHRpdGxlLCBjaGlsZHJlbiB9OiB7IHRpdGxlOiBzdHJpbmc7IGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGUgfSkgPT4gKAogIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMiPgogICAgPGgzIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtc20gdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3RpdGxlfTwvaDM+CiAgICB7Y2hpbGRyZW59CiAgPC9kaXY+Cik7Cgpjb25zdCBtID0gKHY6IG51bWJlcikgPT4gYCR7TWF0aC5yb3VuZCh2KS50b0xvY2FsZVN0cmluZygpfSBtYDsKCmNvbnN0IEFzY2VudEFuYWx5dGljcyA9ICh7IGFzY2VudHMsIG9uQ2xvc2UgfTogeyBhc2NlbnRzOiBBc2NlbnRbXTsgb25DbG9zZTogKCkgPT4gdm9pZCB9KSA9PiB7CiAgY29uc3QgcyA9IHVzZU1lbW8oKCkgPT4gY29tcHV0ZUFzY2VudFN0YXRzKGFzY2VudHMpLCBbYXNjZW50c10pOwogIGNvbnN0IFtvcGVuLCBzZXRPcGVuXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpOwoKICBjb25zdCBieUVsZXZhdGlvbiA9IHVzZU1lbW8oCiAgICAoKSA9PiBbLi4uYXNjZW50c10uc29ydCgoYSwgYikgPT4gKHBhcnNlRWxldmF0aW9uKGIuZWxldmF0aW9uKSA/PyAwKSAtIChwYXJzZUVsZXZhdGlvbihhLmVsZXZhdGlvbikgPz8gMCkpLAogICAgW2FzY2VudHNdLAogICk7CiAgY29uc3QgZGV0YWlscyA9IHVzZU1lbW8oKCkgPT4gewogICAgY29uc3QgY291bnRzID0gbmV3IE1hcDxzdHJpbmcsIG51bWJlcj4oKTsKICAgIGZvciAoY29uc3QgYSBvZiBhc2NlbnRzKSBjb3VudHMuc2V0KGEucGVha19uYW1lLCAoY291bnRzLmdldChhLnBlYWtfbmFtZSkgPz8gMCkgKyAxKTsKICAgIHJldHVybiB7CiAgICAgIHRvdGFsOiBhc2NlbnRzLAogICAgICByZXBlYXRzOiBhc2NlbnRzLmZpbHRlcigoYSkgPT4gKGNvdW50cy5nZXQoYS5wZWFrX25hbWUpID8/IDApID4gMSksCiAgICAgIGhpZ2hQb2ludHM6IGFzY2VudHMuZmlsdGVyKChhKSA9PiBhLnBlYWtfdHlwZSA9PT0gImNvdW50cnlfaGlnaHBvaW50IiksCiAgICAgIGZhbW91czogYXNjZW50cy5maWx0ZXIoKGEpID0+IGEucGVha190eXBlID09PSAiZmFtb3VzX3BlYWsiKSwKICAgICAgbWV0cmVzOiBieUVsZXZhdGlvbiwKICAgICAgYXZlcmFnZTogYnlFbGV2YXRpb24sCiAgICAgIHBlclllYXI6IGFzY2VudHMsCiAgICAgIHhwOiBieUVsZXZhdGlvbiwKICAgIH0gYXMgUmVjb3JkPHN0cmluZywgQXNjZW50W10+OwogIH0sIFthc2NlbnRzLCBieUVsZXZhdGlvbl0pOwoKICBjb25zdCBzZWFzb25Bc2NlbnRzID0gdXNlTWVtbygoKSA9PiB7CiAgICBjb25zdCBtYXA6IFJlY29yZDxzdHJpbmcsIEFzY2VudFtdPiA9IHt9OwogICAgZm9yIChjb25zdCBhIG9mIGFzY2VudHMpIChtYXBbc2Vhc29uRm9yKGEpXSA/Pz0gW10pLnB1c2goYSk7CiAgICByZXR1cm4gbWFwOwogIH0sIFthc2NlbnRzXSk7CgogIGNvbnN0IHN0YXRQcm9wcyA9IChpZDogc3RyaW5nKSA9PiAoewogICAgZGV0YWlsczogZGV0YWlsc1tpZF0sCiAgICBvcGVuOiBvcGVuID09PSBpZCwKICAgIG9uVG9nZ2xlOiAoKSA9PiBzZXRPcGVuKG9wZW4gPT09IGlkID8gbnVsbCA6IGlkKSwKICB9KTsKCgogIGlmIChzLnRvdGFsID09PSAwKSB7CiAgICByZXR1cm4gKAogICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBwLTYiPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPkxvZyBhbiBhc2NlbnQgYW5kIHlvdXIgYW5hbHl0aWNzIHdpbGwgYXBwZWFyIGhlcmUuPC9wPgogICAgICA8L2Rpdj4KICAgICk7CiAgfQoKICBjb25zdCBtYXhCYW5kID0gTWF0aC5tYXgoLi4ucy5iYW5kcy5tYXAoKGIpID0+IGIuY291bnQpLCAxKTsKICBjb25zdCBtYXhNb250aCA9IE1hdGgubWF4KC4uLnMubW9udGhzLCAxKTsKICBjb25zdCBtYXhZZWFyID0gTWF0aC5tYXgoLi4ucy55ZWFycy5tYXAoKHkpID0+IHkuY291bnQpLCAxKTsKICBjb25zdCBtYXhEaWZmID0gTWF0aC5tYXgoLi4uZGlmZmljdWx0eU9yZGVyLm1hcCgoZCkgPT4gcy5kaWZmaWN1bHR5W2RdKSwgMSk7CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBwLTUgc206cC02IHNwYWNlLXktOCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtMyI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LWxnIHRyYWNraW5nLXdpZGVyIHVwcGVyY2FzZSI+TXkgYXNjZW50IGFuYWx5dGljczwvaDI+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG10LTEiPgogICAgICAgICAgICBFdmVyeXRoaW5nIHlvdSBoYXZlIGxvZ2dlZCwgc2xpY2VkIGJ5IGFsdGl0dWRlLCBzZWFzb24sIGRpZmZpY3VsdHkgYW5kIHRpbWUuCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0iaWNvbiIgb25DbGljaz17b25DbG9zZX0gYXJpYS1sYWJlbD0iQ2xvc2UgYW5hbHl0aWNzIj4KICAgICAgICAgIDxYIGNsYXNzTmFtZT0idy00IGgtNCIgLz4KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIG1kOmdyaWQtY29scy00IGdhcC0zIj4KICAgICAgICAgIDxTdGF0IGxhYmVsPSJUb3RhbCBhc2NlbnRzIiB2YWx1ZT17U3RyaW5nKHMudG90YWwpfSBoaW50PXtgJHtzLnVuaXF1ZVBlYWtzfSB1bmlxdWUgcGVha3NgfSB7Li4uc3RhdFByb3BzKCJ0b3RhbCIpfSAvPgogICAgICAgICAgPFN0YXQgbGFiZWw9IlJlcGVhdCBhc2NlbnRzIiB2YWx1ZT17U3RyaW5nKHMucmVwZWF0cyl9IGhpbnQ9e3MubW9zdFJlcGVhdGVkID8gYCR7cy5tb3N0UmVwZWF0ZWQubmFtZX0gw5cke3MubW9zdFJlcGVhdGVkLnRpbWVzfWAgOiB1bmRlZmluZWR9IHsuLi5zdGF0UHJvcHMoInJlcGVhdHMiKX0gLz4KICAgICAgICAgIDxTdGF0IGxhYmVsPSJVTiBjb3VudHJ5IGhpZ2ggcG9pbnRzIiB2YWx1ZT17U3RyaW5nKHMuaGlnaFBvaW50cyl9IGhpbnQ9e2Ake3MuY291bnRyaWVzfSBjb3VudHJpZXNgfSB7Li4uc3RhdFByb3BzKCJoaWdoUG9pbnRzIil9IC8+CiAgICAgICAgICA8U3RhdCBsYWJlbD0iRmFtb3VzIHBlYWtzIiB2YWx1ZT17U3RyaW5nKHMuZmFtb3VzKX0gaGludD17cy5vdGhlciA/IGAke3Mub3RoZXJ9IG90aGVyIHN1bW1pdHNgIDogdW5kZWZpbmVkfSB7Li4uc3RhdFByb3BzKCJmYW1vdXMiKX0gLz4KICAgICAgICAgIDxTdGF0IGxhYmVsPSJTdW1taXQgbWV0cmVzIiB2YWx1ZT17bShzLnRvdGFsTWV0cmVzKX0gaGludD17YCR7cy5ldmVyZXN0cy50b0ZpeGVkKDEpfcOXIEV2ZXJlc3Qgc3RhY2tlZGB9IHsuLi5zdGF0UHJvcHMoIm1ldHJlcyIpfSAvPgogICAgICAgICAgPFN0YXQgbGFiZWw9IkF2ZXJhZ2UgaGVpZ2h0IiB2YWx1ZT17bShzLmF2ZXJhZ2VNZXRyZXMpfSBoaW50PXtgbWVkaWFuICR7bShzLm1lZGlhbk1ldHJlcyl9YH0gey4uLnN0YXRQcm9wcygiYXZlcmFnZSIpfSAvPgogICAgICAgICAgPFN0YXQgbGFiZWw9IkFzY2VudHMgLyB5ZWFyIiB2YWx1ZT17cy5wZXJZZWFyLnRvRml4ZWQoMSl9IGhpbnQ9e2Ake3MuYWN0aXZlWWVhcnN9IGFjdGl2ZSB5ZWFyc2B9IHsuLi5zdGF0UHJvcHMoInBlclllYXIiKX0gLz4KICAgICAgICAgIDxTdGF0IGxhYmVsPSJUb3RhbCBYUCIgdmFsdWU9e2Zvcm1hdFhwKHMudG90YWxYcCl9IGhpbnQ9e2BMZXZlbCAke3MubGV2ZWx9IMK3ICR7cy5sZXZlbFRpdGxlfWB9IHsuLi5zdGF0UHJvcHMoInhwIil9IC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAge29wZW4gJiYgZGV0YWlsc1tvcGVuXSAmJiA8U3RhdERldGFpbHMgdGl0bGU9e1NUQVRfTEFCRUxTW29wZW5dID8/IG9wZW59IGl0ZW1zPXtkZXRhaWxzW29wZW5dID8/IFtdfSAvPn0KICAgICAgPC9kaXY+CgogICAgICA8U2VjdGlvbiB0aXRsZT0iQWx0aXR1ZGUgYmFuZHMiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAge3MuYmFuZHMubWFwKChiKSA9PiAoCiAgICAgICAgICAgIDxCYXIga2V5PXtiLmxhYmVsfSBsYWJlbD17Yi5sYWJlbH0gY291bnQ9e2IuY291bnR9IG1heD17bWF4QmFuZH0gLz4KICAgICAgICAgICkpfQogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIHNtOmdyaWQtY29scy0yIGdhcC0zIHRleHQtc20iPgogICAgICAgICAge3MuaGlnaGVzdCAmJiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIHAtMyI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQteHMgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+SGlnaGVzdDwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xIj4KICAgICAgICAgICAgICAgIHtzLmhpZ2hlc3QucGVha19uYW1lfSDCtyB7bShwYXJzZUVsZXZhdGlvbihzLmhpZ2hlc3QuZWxldmF0aW9uKSl9CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+IMK3IHtmb3JtYXRBc2NlbnREYXRlKHMuaGlnaGVzdC5hc2NlbnRfZGF0ZSl9PC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICl9CiAgICAgICAgICB7cy5oYXJkZXN0ICYmICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgcC0zIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC14cyB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5IYXJkZXN0IHJhdGVkPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEiPgogICAgICAgICAgICAgICAge3MuaGFyZGVzdC5hc2NlbnQucGVha19uYW1lfQogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPiDCtyB7ZGlmZmljdWx0eUxhYmVsc1tzLmhhcmRlc3QuZGlmZmljdWx0eV19PC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvU2VjdGlvbj4KCiAgICAgIDxTZWN0aW9uIHRpdGxlPSJTZWFzb25zIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBzbTpncmlkLWNvbHMtNCBnYXAtMyI+CiAgICAgICAgICB7U0VBU09OUy5tYXAoKHNlYXNvbikgPT4gKAogICAgICAgICAgICA8U3RhdAogICAgICAgICAgICAgIGtleT17c2Vhc29ufQogICAgICAgICAgICAgIGxhYmVsPXtgJHtzZWFzb259IGNsaW1ic2B9CiAgICAgICAgICAgICAgdmFsdWU9e1N0cmluZyhzLnNlYXNvbnNbc2Vhc29uXSl9CiAgICAgICAgICAgICAgaGludD17YCR7TWF0aC5yb3VuZCgocy5zZWFzb25zW3NlYXNvbl0gLyBzLnRvdGFsKSAqIDEwMCl9JSBvZiBhbGxgfQogICAgICAgICAgICAgIGRldGFpbHM9e3NlYXNvbkFzY2VudHNbc2Vhc29uXX0KICAgICAgICAgICAgICBvcGVuPXtvcGVuID09PSBgc2Vhc29uOiR7c2Vhc29ufWB9CiAgICAgICAgICAgICAgb25Ub2dnbGU9eygpID0+IHNldE9wZW4ob3BlbiA9PT0gYHNlYXNvbjoke3NlYXNvbn1gID8gbnVsbCA6IGBzZWFzb246JHtzZWFzb259YCl9CiAgICAgICAgICAgIC8+CiAgICAgICAgICApKX0KICAgICAgICA8L2Rpdj4KICAgICAgICB7U0VBU09OUy5maWx0ZXIoKHNlYXNvbikgPT4gb3BlbiA9PT0gYHNlYXNvbjoke3NlYXNvbn1gKS5tYXAoKHNlYXNvbikgPT4gKAogICAgICAgICAgPFN0YXREZXRhaWxzIGtleT17c2Vhc29ufSB0aXRsZT17YCR7c2Vhc29ufSBjbGltYnNgfSBpdGVtcz17c2Vhc29uQXNjZW50c1tzZWFzb25dID8/IFtdfSAvPgogICAgICAgICkpfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAge3MubW9udGhzLm1hcCgoY291bnQsIGkpID0+ICgKICAgICAgICAgICAgPEJhciBrZXk9e01PTlRIU1tpXX0gbGFiZWw9e01PTlRIU1tpXSA/PyAiIn0gY291bnQ9e2NvdW50fSBtYXg9e21heE1vbnRofSAvPgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CiAgICAgICAge3MuYnVzaWVzdE1vbnRoICYmICgKICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICBCdXNpZXN0IG1vbnRoOiB7TU9OVEhTW3MuYnVzaWVzdE1vbnRoLm1vbnRoXX0gd2l0aCB7cy5idXNpZXN0TW9udGguY291bnR9IGFzY2VudHMuCiAgICAgICAgICA8L3A+CiAgICAgICAgKX0KICAgICAgPC9TZWN0aW9uPgoKICAgICAgPFNlY3Rpb24gdGl0bGU9IkJ5IHllYXIiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAge3MueWVhcnMubWFwKCh5KSA9PiAoCiAgICAgICAgICAgIDxCYXIga2V5PXt5LnllYXJ9IGxhYmVsPXt5LnllYXJ9IGNvdW50PXt5LmNvdW50fSBtYXg9e21heFllYXJ9IG5vdGU9e2DCtyAke20oeS5tZXRyZXMpfWB9IC8+CiAgICAgICAgICApKX0KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBtZDpncmlkLWNvbHMtNCBnYXAtMyI+CiAgICAgICAgICB7cy5iZXN0WWVhciAmJiA8U3RhdCBsYWJlbD0iQmVzdCB5ZWFyIiB2YWx1ZT17cy5iZXN0WWVhci55ZWFyfSBoaW50PXtgJHtzLmJlc3RZZWFyLmNvdW50fSBhc2NlbnRzYH0gLz59CiAgICAgICAgICA8U3RhdCBsYWJlbD0iWWVhciBzdHJlYWsiIHZhbHVlPXtgJHtzLmxvbmdlc3RZZWFyU3RyZWFrfWB9IGhpbnQ9ImNvbnNlY3V0aXZlIHllYXJzIGNsaW1iaW5nIiAvPgogICAgICAgICAgPFN0YXQgbGFiZWw9IlN1bW1pdCBkYXlzIiB2YWx1ZT17U3RyaW5nKHMuYWN0aXZlRGF5cyl9IGhpbnQ9e2Ake3MubXVsdGlQZWFrRGF5c30gbXVsdGktcGVhayBkYXlzYH0gLz4KICAgICAgICAgIHtzLmJlc3REYXkgJiYgPFN0YXQgbGFiZWw9IkJpZ2dlc3QgZGF5IiB2YWx1ZT17YCR7cy5iZXN0RGF5LmNvdW50fSBwZWFrc2B9IGhpbnQ9e2Zvcm1hdEFzY2VudERhdGUocy5iZXN0RGF5LmRhdGUpfSAvPn0KICAgICAgICA8L2Rpdj4KICAgICAgPC9TZWN0aW9uPgoKICAgICAgPFNlY3Rpb24gdGl0bGU9IkRpZmZpY3VsdHkgbWl4Ij4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgICAgICAgIHtkaWZmaWN1bHR5T3JkZXIubWFwKChkKSA9PiAoCiAgICAgICAgICAgIDxCYXIga2V5PXtkfSBsYWJlbD17ZGlmZmljdWx0eUxhYmVsc1tkXX0gY291bnQ9e3MuZGlmZmljdWx0eVtkXX0gbWF4PXttYXhEaWZmfSAvPgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvU2VjdGlvbj4KCiAgICAgIDxTZWN0aW9uIHRpdGxlPSJMb2cgcXVhbGl0eSAmIHRpbWVsaW5lIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBtZDpncmlkLWNvbHMtNCBnYXAtMyI+CiAgICAgICAgICA8U3RhdCBsYWJlbD0iV2l0aCBwaG90byIgdmFsdWU9e2Ake01hdGgucm91bmQoKHMud2l0aFBob3RvIC8gcy50b3RhbCkgKiAxMDApfSVgfSBoaW50PXtgJHtzLndpdGhQaG90b30gYXNjZW50c2B9IC8+CiAgICAgICAgICA8U3RhdCBsYWJlbD0iV2l0aCB0cmlwIHJlcG9ydCIgdmFsdWU9e2Ake01hdGgucm91bmQoKHMud2l0aFJlcG9ydCAvIHMudG90YWwpICogMTAwKX0lYH0gaGludD17YCR7cy53aXRoUmVwb3J0fSBhc2NlbnRzYH0gLz4KICAgICAgICAgIDxTdGF0IGxhYmVsPSJXaXRoIHJvdXRlIiB2YWx1ZT17YCR7TWF0aC5yb3VuZCgocy53aXRoUm91dGUgLyBzLnRvdGFsKSAqIDEwMCl9JWB9IGhpbnQ9e2Ake3Mud2l0aFJvdXRlfSBhc2NlbnRzYH0gLz4KICAgICAgICAgIHtzLnRvcENvdW50cnkgJiYgPFN0YXQgbGFiZWw9IlRvcCBjb3VudHJ5IiB2YWx1ZT17cy50b3BDb3VudHJ5Lm5hbWV9IGhpbnQ9e2Ake3MudG9wQ291bnRyeS5jb3VudH0gYXNjZW50c2B9IC8+fQogICAgICAgIDwvZGl2PgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge3MuZmlyc3RBc2NlbnQgJiYgPD5GaXJzdCBsb2dnZWQgYXNjZW50OiB7cy5maXJzdEFzY2VudC5wZWFrX25hbWV9IG9uIHtmb3JtYXRBc2NlbnREYXRlKHMuZmlyc3RBc2NlbnQuYXNjZW50X2RhdGUpfS4gPC8+fQogICAgICAgICAge3MubGF0ZXN0QXNjZW50ICYmICgKICAgICAgICAgICAgPD4KICAgICAgICAgICAgICBMYXRlc3Q6IHtzLmxhdGVzdEFzY2VudC5wZWFrX25hbWV9IG9uIHtmb3JtYXRBc2NlbnREYXRlKHMubGF0ZXN0QXNjZW50LmFzY2VudF9kYXRlKX0KICAgICAgICAgICAgICB7dHlwZW9mIHMuZGF5c1NpbmNlTGFzdCA9PT0gIm51bWJlciIgPyBgIOKAlCAke3MuZGF5c1NpbmNlTGFzdH0gZGF5cyBhZ28uYCA6ICIuIn0KICAgICAgICAgICAgPC8+CiAgICAgICAgICApfQogICAgICAgIDwvcD4KICAgICAgPC9TZWN0aW9uPgogICAgPC9kaXY+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IEFzY2VudEFuYWx5dGljczsK
+import { useMemo, useState } from "react";
+import { Button } from "@/components/ui/button";
+import { ChevronDown, X } from "lucide-react";
+import { computeAscentStats, difficultyLabels, difficultyOrder, seasonFor, type Season } from "@/lib/ascent-stats";
+import { formatAscentDate, type Ascent } from "@/lib/peak-catalog";
+import { formatXp, parseElevation } from "@/lib/xp";
+import { cn } from "@/lib/utils";
+
+const STAT_LABELS: Record<string, string> = {
+  total: "Total ascents",
+  repeats: "Repeat ascents",
+  highPoints: "Country high points",
+  famous: "Famous peaks",
+  metres: "Summit metres — highest first",
+  average: "All ascents by height",
+  perYear: "All ascents",
+  xp: "All ascents by height",
+};
+
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const SEASONS: Season[] = ["Winter", "Spring", "Summer", "Autumn"];
+
+/** One line of the expanded detail list under a stat box. */
+const AscentLine = ({ ascent }: { ascent: Ascent }) => (
+  <li className="flex items-center gap-2 text-sm">
+    <span className="truncate">{ascent.peak_name}</span>
+    {ascent.country && <span className="text-xs text-muted-foreground shrink-0">{ascent.country}</span>}
+    <span className="ml-auto text-xs text-muted-foreground shrink-0">
+      {formatAscentDate(ascent.ascent_date, ascent.date_precision ?? "day")}
+    </span>
+  </li>
+);
+
+const Stat = ({
+  label,
+  value,
+  hint,
+  details,
+  open,
+  onToggle,
+}: {
+  label: string;
+  value: string;
+  hint?: string | undefined;
+  details?: Ascent[] | undefined;
+  open?: boolean;
+  onToggle?: (() => void) | undefined;
+}) => {
+  const expandable = !!details && details.length > 0 && !!onToggle;
+  return (
+    <button
+      type="button"
+      disabled={!expandable}
+      aria-expanded={expandable ? !!open : undefined}
+      onClick={onToggle}
+      className={cn(
+        "rounded-lg border bg-card/60 p-4 text-left w-full transition-colors",
+        open ? "border-primary" : "border-border",
+        expandable ? "cursor-pointer hover:border-primary/60" : "cursor-default",
+      )}
+    >
+      <div className="text-2xl font-display tracking-wide">{value}</div>
+      <div className="text-xs uppercase tracking-wider text-muted-foreground mt-1 flex items-center gap-1">
+        <span className="min-w-0 truncate">{label}</span>
+        {expandable && <ChevronDown className={cn("w-3 h-3 shrink-0 transition-transform", open && "rotate-180")} />}
+      </div>
+      {hint && <div className="text-xs text-muted-foreground/80 mt-1">{hint}</div>}
+    </button>
+  );
+};
+
+/** The expanded panel shown under a grid of stat boxes. */
+const StatDetails = ({ title, items }: { title: string; items: Ascent[] }) => (
+  <div className="mt-3 rounded-lg border border-border bg-card p-4">
+    <p className="font-display text-sm tracking-wider mb-2">
+      {title} <span className="text-muted-foreground">· {items.length}</span>
+    </p>
+    <ul className="max-h-72 overflow-y-auto grid sm:grid-cols-2 gap-x-4 gap-y-1 pr-1">
+      {items.map((a) => (
+        <AscentLine key={a.id} ascent={a} />
+      ))}
+    </ul>
+  </div>
+);
+
+const Bar = ({ label, count, max, note }: { label: string; count: number; max: number; note?: string }) => (
+  <div className="flex items-center gap-3 text-sm">
+    <div className="w-28 shrink-0 text-muted-foreground">{label}</div>
+    <div className="flex-1 h-2 rounded-full bg-muted overflow-hidden">
+      <div className="h-full bg-primary" style={{ width: `${max ? (count / max) * 100 : 0}%` }} />
+    </div>
+    <div className="w-16 text-right tabular-nums">
+      {count}
+      {note && <span className="text-muted-foreground text-xs ml-1">{note}</span>}
+    </div>
+  </div>
+);
+
+const Section = ({ title, children }: { title: string; children: React.ReactNode }) => (
+  <div className="space-y-3">
+    <h3 className="font-display text-sm uppercase tracking-wider text-muted-foreground">{title}</h3>
+    {children}
+  </div>
+);
+
+const m = (v: number) => `${Math.round(v).toLocaleString()} m`;
+
+const AscentAnalytics = ({ ascents, onClose }: { ascents: Ascent[]; onClose: () => void }) => {
+  const s = useMemo(() => computeAscentStats(ascents), [ascents]);
+  const [open, setOpen] = useState<string | null>(null);
+
+  const byElevation = useMemo(
+    () => [...ascents].sort((a, b) => (parseElevation(b.elevation) ?? 0) - (parseElevation(a.elevation) ?? 0)),
+    [ascents],
+  );
+  const details = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const a of ascents) counts.set(a.peak_name, (counts.get(a.peak_name) ?? 0) + 1);
+    return {
+      total: ascents,
+      repeats: ascents.filter((a) => (counts.get(a.peak_name) ?? 0) > 1),
+      highPoints: ascents.filter((a) => a.peak_type === "country_highpoint"),
+      famous: ascents.filter((a) => a.peak_type === "famous_peak"),
+      metres: byElevation,
+      average: byElevation,
+      perYear: ascents,
+      xp: byElevation,
+    } as Record<string, Ascent[]>;
+  }, [ascents, byElevation]);
+
+  const seasonAscents = useMemo(() => {
+    const map: Record<string, Ascent[]> = {};
+    for (const a of ascents) (map[seasonFor(a)] ??= []).push(a);
+    return map;
+  }, [ascents]);
+
+  const statProps = (id: string) => ({
+    details: details[id],
+    open: open === id,
+    onToggle: () => setOpen(open === id ? null : id),
+  });
+
+
+  if (s.total === 0) {
+    return (
+      <div className="rounded-lg border border-border p-6">
+        <p className="text-sm text-muted-foreground">Log an ascent and your analytics will appear here.</p>
+      </div>
+    );
+  }
+
+  const maxBand = Math.max(...s.bands.map((b) => b.count), 1);
+  const maxMonth = Math.max(...s.months, 1);
+  const maxYear = Math.max(...s.years.map((y) => y.count), 1);
+  const maxDiff = Math.max(...difficultyOrder.map((d) => s.difficulty[d]), 1);
+
+  return (
+    <div className="rounded-lg border border-border p-5 sm:p-6 space-y-8">
+      <div className="flex items-start justify-between gap-3">
+        <div>
+          <h2 className="font-display text-lg tracking-wider uppercase">My ascent analytics</h2>
+          <p className="text-sm text-muted-foreground mt-1">
+            Everything you have logged, sliced by altitude, season, difficulty and time.
+          </p>
+        </div>
+        <Button variant="ghost" size="icon" onClick={onClose} aria-label="Close analytics">
+          <X className="w-4 h-4" />
+        </Button>
+      </div>
+
+      <div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+          <Stat label="Total ascents" value={String(s.total)} hint={`${s.uniquePeaks} unique peaks`} {...statProps("total")} />
+          <Stat label="Repeat ascents" value={String(s.repeats)} hint={s.mostRepeated ? `${s.mostRepeated.name} ×${s.mostRepeated.times}` : undefined} {...statProps("repeats")} />
+          <Stat label="UN country high points" value={String(s.highPoints)} hint={`${s.countries} countries`} {...statProps("highPoints")} />
+          <Stat label="Famous peaks" value={String(s.famous)} hint={s.other ? `${s.other} other summits` : undefined} {...statProps("famous")} />
+          <Stat label="Summit metres" value={m(s.totalMetres)} hint={`${s.everests.toFixed(1)}× Everest stacked`} {...statProps("metres")} />
+          <Stat label="Average height" value={m(s.averageMetres)} hint={`median ${m(s.medianMetres)}`} {...statProps("average")} />
+          <Stat label="Ascents / year" value={s.perYear.toFixed(1)} hint={`${s.activeYears} active years`} {...statProps("perYear")} />
+          <Stat label="Total XP" value={formatXp(s.totalXp)} hint={`Level ${s.level} · ${s.levelTitle}`} {...statProps("xp")} />
+        </div>
+        {open && details[open] && <StatDetails title={STAT_LABELS[open] ?? open} items={details[open] ?? []} />}
+      </div>
+
+      <Section title="Altitude bands">
+        <div className="space-y-2">
+          {s.bands.map((b) => (
+            <Bar key={b.label} label={b.label} count={b.count} max={maxBand} />
+          ))}
+        </div>
+        <div className="grid sm:grid-cols-2 gap-3 text-sm">
+          {s.highest && (
+            <div className="rounded-md border border-border p-3">
+              <div className="text-xs uppercase tracking-wider text-muted-foreground">Highest</div>
+              <div className="mt-1">
+                {s.highest.peak_name} · {m(parseElevation(s.highest.elevation))}
+                <span className="text-muted-foreground"> · {formatAscentDate(s.highest.ascent_date)}</span>
+              </div>
+            </div>
+          )}
+          {s.hardest && (
+            <div className="rounded-md border border-border p-3">
+              <div className="text-xs uppercase tracking-wider text-muted-foreground">Hardest rated</div>
+              <div className="mt-1">
+                {s.hardest.ascent.peak_name}
+                <span className="text-muted-foreground"> · {difficultyLabels[s.hardest.difficulty]}</span>
+              </div>
+            </div>
+          )}
+        </div>
+      </Section>
+
+      <Section title="Seasons">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          {SEASONS.map((season) => (
+            <Stat
+              key={season}
+              label={`${season} climbs`}
+              value={String(s.seasons[season])}
+              hint={`${Math.round((s.seasons[season] / s.total) * 100)}% of all`}
+              details={seasonAscents[season]}
+              open={open === `season:${season}`}
+              onToggle={() => setOpen(open === `season:${season}` ? null : `season:${season}`)}
+            />
+          ))}
+        </div>
+        {SEASONS.filter((season) => open === `season:${season}`).map((season) => (
+          <StatDetails key={season} title={`${season} climbs`} items={seasonAscents[season] ?? []} />
+        ))}
+        <div className="space-y-2">
+          {s.months.map((count, i) => (
+            <Bar key={MONTHS[i]} label={MONTHS[i] ?? ""} count={count} max={maxMonth} />
+          ))}
+        </div>
+        {s.busiestMonth && (
+          <p className="text-xs text-muted-foreground">
+            Busiest month: {MONTHS[s.busiestMonth.month]} with {s.busiestMonth.count} ascents.
+          </p>
+        )}
+      </Section>
+
+      <Section title="By year">
+        <div className="space-y-2">
+          {s.years.map((y) => (
+            <Bar key={y.year} label={y.year} count={y.count} max={maxYear} note={`· ${m(y.metres)}`} />
+          ))}
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+          {s.bestYear && <Stat label="Best year" value={s.bestYear.year} hint={`${s.bestYear.count} ascents`} />}
+          <Stat label="Year streak" value={`${s.longestYearStreak}`} hint="consecutive years climbing" />
+          <Stat label="Summit days" value={String(s.activeDays)} hint={`${s.multiPeakDays} multi-peak days`} />
+          {s.bestDay && <Stat label="Biggest day" value={`${s.bestDay.count} peaks`} hint={formatAscentDate(s.bestDay.date)} />}
+        </div>
+      </Section>
+
+      <Section title="Difficulty mix">
+        <div className="space-y-2">
+          {difficultyOrder.map((d) => (
+            <Bar key={d} label={difficultyLabels[d]} count={s.difficulty[d]} max={maxDiff} />
+          ))}
+        </div>
+      </Section>
+
+      <Section title="Log quality & timeline">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+          <Stat label="With photo" value={`${Math.round((s.withPhoto / s.total) * 100)}%`} hint={`${s.withPhoto} ascents`} />
+          <Stat label="With trip report" value={`${Math.round((s.withReport / s.total) * 100)}%`} hint={`${s.withReport} ascents`} />
+          <Stat label="With route" value={`${Math.round((s.withRoute / s.total) * 100)}%`} hint={`${s.withRoute} ascents`} />
+          {s.topCountry && <Stat label="Top country" value={s.topCountry.name} hint={`${s.topCountry.count} ascents`} />}
+        </div>
+        <p className="text-sm text-muted-foreground">
+          {s.firstAscent && <>First logged ascent: {s.firstAscent.peak_name} on {formatAscentDate(s.firstAscent.ascent_date)}. </>}
+          {s.latestAscent && (
+            <>
+              Latest: {s.latestAscent.peak_name} on {formatAscentDate(s.latestAscent.ascent_date)}
+              {typeof s.daysSinceLast === "number" ? ` — ${s.daysSinceLast} days ago.` : "."}
+            </>
+          )}
+        </p>
+      </Section>
+    </div>
+  );
+};
+
+export default AscentAnalytics;

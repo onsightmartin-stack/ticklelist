@@ -1,1 +1,192 @@
-LyoqCiAqIFJvdXRlci1jb21wYXQgc2hpbSDigJQgYnJpZGdlcyByZWFjdC1yb3V0ZXItZG9tIHY2IGNhbGwgc2l0ZXMgdG8KICogQHRhbnN0YWNrL3JlYWN0LXJvdXRlciB3aXRob3V0IGhhbmQtcmV3cml0aW5nIGV2ZXJ5IGNvbXBvbmVudC4KICogVGhpcyBpcyB0aGUgc2FtZSBsb2FkLWJlYXJpbmcgcGF0dGVybiB1c2VkIGluIEtsYXIncyBkZXYtY29weSBtaWdyYXRpb24uCiAqLwppbXBvcnQgewogIHVzZU5hdmlnYXRlIGFzIHRzTmF2aWdhdGUsCiAgdXNlTG9jYXRpb24gYXMgdHNMb2NhdGlvbiwKICB1c2VQYXJhbXMgYXMgdHNQYXJhbXMsCiAgdXNlU2VhcmNoIGFzIHRzU2VhcmNoLAogIHVzZVJvdXRlciwKICBMaW5rIGFzIFRTTGluaywKICBOYXZpZ2F0ZSBhcyBUU05hdmlnYXRlLAogIE91dGxldCBhcyBUU091dGxldCwKfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtcm91dGVyIjsKaW1wb3J0IHsgdXNlTWVtbywgdXNlQ2FsbGJhY2ssIGZvcndhcmRSZWYsIHR5cGUgQ29tcG9uZW50UHJvcHMsIHR5cGUgUmVhY3ROb2RlIH0gZnJvbSAicmVhY3QiOwoKLy8gLS0tLS0tLS0tLSBzaGFyZWQgVVJMIHBhcnNpbmcgLS0tLS0tLS0tLQoKZnVuY3Rpb24gcGFyc2VUbyh0bzogc3RyaW5nKTogeyBwYXRobmFtZTogc3RyaW5nOyBzZWFyY2g/OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+IHwgdW5kZWZpbmVkOyBoYXNoPzogc3RyaW5nIHwgdW5kZWZpbmVkIH0gewogIGNvbnN0IFtiZWZvcmVIYXNoLCBoYXNoU3RyXSA9ICh0byA/PyAiIikuc3BsaXQoIiMiKTsKICBjb25zdCBbcGF0aG5hbWUsIHNlYXJjaFN0cl0gPSAoYmVmb3JlSGFzaCA/PyAiIikuc3BsaXQoIj8iKTsKICByZXR1cm4gewogICAgLy8gcmVhY3Qtcm91dGVyIGtlZXBzIHRoZSBjdXJyZW50IHBhdGggZm9yIHNlYXJjaC1vbmx5ICgiP2E9MSIpIGFuZAogICAgLy8gaGFzaC1vbmx5ICgiI3NlY3Rpb24iKSB0YXJnZXRzOyBUYW5TdGFjaydzICIuIiBtZWFucyBjdXJyZW50IHJvdXRlLgogICAgcGF0aG5hbWU6IHBhdGhuYW1lIHx8ICIuIiwKICAgIHNlYXJjaDogc2VhcmNoU3RyID8gT2JqZWN0LmZyb21FbnRyaWVzKG5ldyBVUkxTZWFyY2hQYXJhbXMoc2VhcmNoU3RyKSkgOiB1bmRlZmluZWQsCiAgICBoYXNoOiBoYXNoU3RyIHx8IHVuZGVmaW5lZCwKICB9Owp9CgovLyAtLS0tLS0tLS0tIHVzZU5hdmlnYXRlIC0tLS0tLS0tLS0KCnR5cGUgTmF2aWdhdGVPcHRpb25zID0geyByZXBsYWNlPzogYm9vbGVhbjsgc3RhdGU/OiB1bmtub3duIH07Cgp0eXBlIE5hdmlnYXRlRm4gPSB7CiAgKHRvOiBzdHJpbmcgfCBudW1iZXIsIG9wdGlvbnM/OiBOYXZpZ2F0ZU9wdGlvbnMpOiB2b2lkOwogIChkZWx0YTogbnVtYmVyKTogdm9pZDsKfTsKCmV4cG9ydCBmdW5jdGlvbiB1c2VOYXZpZ2F0ZSgpOiBOYXZpZ2F0ZUZuIHsKICBjb25zdCB0c05hdiA9IHRzTmF2aWdhdGUoKTsKICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTsKICByZXR1cm4gdXNlQ2FsbGJhY2soKHRvOiBzdHJpbmcgfCBudW1iZXIsIG9wdGlvbnM/OiBOYXZpZ2F0ZU9wdGlvbnMpID0+IHsKICAgIGlmICh0eXBlb2YgdG8gPT09ICJudW1iZXIiKSB7CiAgICAgIHJvdXRlci5oaXN0b3J5LmdvKHRvKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgY29uc3QgeyBwYXRobmFtZSwgc2VhcmNoLCBoYXNoIH0gPSBwYXJzZVRvKHRvKTsKICAgIHRzTmF2KHsKICAgICAgdG86IHBhdGhuYW1lLAogICAgICBzZWFyY2g6IHNlYXJjaCBhcyBuZXZlciwKICAgICAgaGFzaDogaGFzaCBhcyBuZXZlciwKICAgICAgc3RhdGU6IG9wdGlvbnM/LnN0YXRlIGFzIG5ldmVyLAogICAgICByZXBsYWNlOiAob3B0aW9ucz8ucmVwbGFjZSA/PyBmYWxzZSkgYXMgbmV2ZXIsCiAgICB9KTsKICB9LCBbdHNOYXYsIHJvdXRlcl0pIGFzIE5hdmlnYXRlRm47Cn0KCi8vIC0tLS0tLS0tLS0gdXNlTG9jYXRpb24gLS0tLS0tLS0tLQoKZXhwb3J0IGZ1bmN0aW9uIHVzZUxvY2F0aW9uKCkgewogIGNvbnN0IGxvYyA9IHRzTG9jYXRpb24oKTsKICByZXR1cm4gdXNlTWVtbygKICAgICgpID0+ICh7CiAgICAgIHBhdGhuYW1lOiBsb2MucGF0aG5hbWUsCiAgICAgIHNlYXJjaDogbG9jLnNlYXJjaFN0ciA/IGA/JHtsb2Muc2VhcmNoU3RyfWAgOiAiIiwKICAgICAgaGFzaDogbG9jLmhhc2ggPz8gIiIsCiAgICAgIHN0YXRlOiAobG9jLnN0YXRlID8/IG51bGwpIGFzIHVua25vd24sCiAgICAgIGtleTogbG9jLnBhdGhuYW1lICsgKGxvYy5zZWFyY2hTdHIgPz8gIiIpLAogICAgfSksCiAgICBbbG9jLnBhdGhuYW1lLCBsb2Muc2VhcmNoU3RyLCBsb2MuaGFzaCwgbG9jLnN0YXRlXSwKICApOwp9CgovLyAtLS0tLS0tLS0tIHVzZVBhcmFtcyAtLS0tLS0tLS0tCgpleHBvcnQgZnVuY3Rpb24gdXNlUGFyYW1zPFQgZXh0ZW5kcyBSZWNvcmQ8c3RyaW5nLCBzdHJpbmcgfCB1bmRlZmluZWQ+ID0gUmVjb3JkPHN0cmluZywgc3RyaW5nIHwgdW5kZWZpbmVkPj4oKTogVCB7CiAgcmV0dXJuIHRzUGFyYW1zKHsgc3RyaWN0OiBmYWxzZSB9IGFzIG5ldmVyKSBhcyBUOwp9CgoKLy8gLS0tLS0tLS0tLSB1c2VTZWFyY2hQYXJhbXMgKHJlYWN0LXJvdXRlci1kb20gY29tcGF0KSAtLS0tLS0tLS0tCgpleHBvcnQgZnVuY3Rpb24gdXNlU2VhcmNoUGFyYW1zKCk6IFtVUkxTZWFyY2hQYXJhbXMsIChpbml0OiBVUkxTZWFyY2hQYXJhbXMgfCBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+IHwgKChwcmV2OiBVUkxTZWFyY2hQYXJhbXMpID0+IFVSTFNlYXJjaFBhcmFtcyksIG9wdHM/OiB7IHJlcGxhY2U/OiBib29sZWFuIH0pID0+IHZvaWRdIHsKICBjb25zdCBsb2MgPSB0c0xvY2F0aW9uKCk7CiAgY29uc3QgbmF2ID0gdHNOYXZpZ2F0ZSgpOwogIGNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpOwogIGNvbnN0IHBhcmFtcyA9IHVzZU1lbW8oKCkgPT4gbmV3IFVSTFNlYXJjaFBhcmFtcyhsb2Muc2VhcmNoU3RyID8/ICIiKSwgW2xvYy5zZWFyY2hTdHJdKTsKICBjb25zdCBzZXRQYXJhbXMgPSB1c2VDYWxsYmFjaygKICAgICgKICAgICAgaW5pdDogVVJMU2VhcmNoUGFyYW1zIHwgUmVjb3JkPHN0cmluZywgc3RyaW5nPiB8ICgocHJldjogVVJMU2VhcmNoUGFyYW1zKSA9PiBVUkxTZWFyY2hQYXJhbXMpLAogICAgICBvcHRzPzogeyByZXBsYWNlPzogYm9vbGVhbiB9LAogICAgKSA9PiB7CiAgICAgIC8vIEZ1bmN0aW9uYWwgdXBkYXRlcnMgcmVhZCB0aGUgcm91dGVyJ3MgbGl2ZSBsb2NhdGlvbiwgbm90IHRoZSByZW5kZXIKICAgICAgLy8gc25hcHNob3Qg4oCUIHJlYWN0LXJvdXRlciBwYXNzZXMgY2FsbC10aW1lIHBhcmFtcywgYW5kIGNoYWluZWQgdXBkYXRlcwogICAgICAvLyB3aXRoaW4gb25lIHRpY2sgbXVzdCBzZWUgZWFjaCBvdGhlcidzIHdyaXRlcy4KICAgICAgY29uc3QgbGl2ZSA9IHJvdXRlci5zdGF0ZS5sb2NhdGlvbjsKICAgICAgY29uc3QgY3VycmVudCA9IG5ldyBVUkxTZWFyY2hQYXJhbXMobGl2ZS5zZWFyY2hTdHIgPz8gIiIpOwogICAgICBjb25zdCBuZXh0ID0KICAgICAgICB0eXBlb2YgaW5pdCA9PT0gImZ1bmN0aW9uIgogICAgICAgICAgPyBpbml0KGN1cnJlbnQpCiAgICAgICAgICA6IGluaXQgaW5zdGFuY2VvZiBVUkxTZWFyY2hQYXJhbXMKICAgICAgICAgICAgPyBpbml0CiAgICAgICAgICAgIDogbmV3IFVSTFNlYXJjaFBhcmFtcyhpbml0KTsKICAgICAgY29uc3Qgc2VhcmNoT2JqOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0ge307CiAgICAgIG5leHQuZm9yRWFjaCgodiwgaykgPT4geyBzZWFyY2hPYmpba10gPSB2OyB9KTsKICAgICAgbmF2KHsgdG86IGxpdmUucGF0aG5hbWUsIHNlYXJjaDogc2VhcmNoT2JqIGFzIG5ldmVyLCByZXBsYWNlOiAob3B0cz8ucmVwbGFjZSA/PyBmYWxzZSkgYXMgbmV2ZXIgfSk7CiAgICB9LAogICAgW25hdiwgcm91dGVyXSwKICApOwogIHJldHVybiBbcGFyYW1zLCBzZXRQYXJhbXNdOwp9CgovLyAtLS0tLS0tLS0tIExpbmsgLS0tLS0tLS0tLQoKdHlwZSBMaW5rUHJvcHMgPSBPbWl0PENvbXBvbmVudFByb3BzPHR5cGVvZiBUU0xpbms+LCAidG8iPiAmIHsKICB0bzogc3RyaW5nOwogIHJlcGxhY2U/OiBib29sZWFuIHwgdW5kZWZpbmVkOwogIHN0YXRlPzogdW5rbm93bjsKICBjaGlsZHJlbj86IFJlYWN0Tm9kZSB8IHVuZGVmaW5lZDsKfTsKCmV4cG9ydCBjb25zdCBMaW5rID0gZm9yd2FyZFJlZjxIVE1MQW5jaG9yRWxlbWVudCwgTGlua1Byb3BzPihmdW5jdGlvbiBMaW5rKAogIHsgdG8sIHJlcGxhY2UsIHN0YXRlLCBjaGlsZHJlbiwgLi4ucmVzdCB9LAogIHJlZiwKKSB7CiAgY29uc3QgeyBwYXRobmFtZSwgc2VhcmNoLCBoYXNoIH0gPSBwYXJzZVRvKHRvKTsKICByZXR1cm4gKAogICAgPFRTTGluawogICAgICByZWY9e3JlZiBhcyBuZXZlcn0KICAgICAgdG89e3BhdGhuYW1lIGFzIG5ldmVyfQogICAgICBzZWFyY2g9e3NlYXJjaCBhcyBuZXZlcn0KICAgICAgaGFzaD17aGFzaCBhcyBuZXZlcn0KICAgICAgcmVwbGFjZT17KHJlcGxhY2UgPz8gZmFsc2UpIGFzIG5ldmVyfQogICAgICBzdGF0ZT17c3RhdGUgYXMgbmV2ZXJ9CiAgICAgIHsuLi4oKHJlc3QgPz8ge30pIGFzIFJlY29yZDxzdHJpbmcsIHVua25vd24+KX0KICAgID4KICAgICAge2NoaWxkcmVufQogICAgPC9UU0xpbms+CiAgKTsKfSk7CgoKLy8gLS0tLS0tLS0tLSBOYXZpZ2F0ZSAtLS0tLS0tLS0tCgpleHBvcnQgZnVuY3Rpb24gTmF2aWdhdGUoeyB0bywgcmVwbGFjZSwgc3RhdGUgfTogeyB0bzogc3RyaW5nOyByZXBsYWNlPzogYm9vbGVhbjsgc3RhdGU/OiB1bmtub3duIH0pIHsKICBjb25zdCB7IHBhdGhuYW1lLCBzZWFyY2gsIGhhc2ggfSA9IHBhcnNlVG8odG8pOwogIHJldHVybiA8VFNOYXZpZ2F0ZSB0bz17cGF0aG5hbWUgYXMgbmV2ZXJ9IHNlYXJjaD17c2VhcmNoIGFzIG5ldmVyfSBoYXNoPXtoYXNoIGFzIG5ldmVyfSBzdGF0ZT17c3RhdGUgYXMgbmV2ZXJ9IHJlcGxhY2U9eyhyZXBsYWNlID8/IGZhbHNlKSBhcyBuZXZlcn0gLz47Cn0KCi8vIC0tLS0tLS0tLS0gT3V0bGV0IC0tLS0tLS0tLS0KCmV4cG9ydCBjb25zdCBPdXRsZXQgPSBUU091dGxldDsKCi8vIC0tLS0tLS0tLS0gTmF2TGluayAtLS0tLS0tLS0tCgp0eXBlIE5hdkxpbmtSZW5kZXJQcm9wcyA9IHsgaXNBY3RpdmU6IGJvb2xlYW47IGlzUGVuZGluZzogYm9vbGVhbiB9OwoKZXhwb3J0IHR5cGUgTmF2TGlua1Byb3BzID0gT21pdDxMaW5rUHJvcHMsICJjbGFzc05hbWUiIHwgInN0eWxlIiB8ICJjaGlsZHJlbiI+ICYgewogIGVuZD86IGJvb2xlYW4gfCB1bmRlZmluZWQ7CiAgY2FzZVNlbnNpdGl2ZT86IGJvb2xlYW4gfCB1bmRlZmluZWQ7CiAgY2xhc3NOYW1lPzogc3RyaW5nIHwgKChwcm9wczogTmF2TGlua1JlbmRlclByb3BzKSA9PiBzdHJpbmcgfCB1bmRlZmluZWQpIHwgdW5kZWZpbmVkOwogIHN0eWxlPzogUmVhY3QuQ1NTUHJvcGVydGllcyB8ICgocHJvcHM6IE5hdkxpbmtSZW5kZXJQcm9wcykgPT4gUmVhY3QuQ1NTUHJvcGVydGllcyB8IHVuZGVmaW5lZCkgfCB1bmRlZmluZWQ7CiAgY2hpbGRyZW4/OiBSZWFjdE5vZGUgfCAoKHByb3BzOiBOYXZMaW5rUmVuZGVyUHJvcHMpID0+IFJlYWN0Tm9kZSkgfCB1bmRlZmluZWQ7Cn07CgpleHBvcnQgY29uc3QgTmF2TGluayA9IGZvcndhcmRSZWY8SFRNTEFuY2hvckVsZW1lbnQsIE5hdkxpbmtQcm9wcz4oZnVuY3Rpb24gTmF2TGluaygKICB7IHRvLCBlbmQsIGNhc2VTZW5zaXRpdmUsIGNsYXNzTmFtZSwgc3R5bGUsIGNoaWxkcmVuLCAuLi5yZXN0IH0sCiAgcmVmLAopIHsKICBjb25zdCBsb2MgPSB0c0xvY2F0aW9uKCk7CiAgY29uc3QgeyBwYXRobmFtZSB9ID0gcGFyc2VUbyh0byk7CiAgY29uc3QgY3VycmVudCA9IGNhc2VTZW5zaXRpdmUgPyBsb2MucGF0aG5hbWUgOiBsb2MucGF0aG5hbWUudG9Mb3dlckNhc2UoKTsKICBjb25zdCB0YXJnZXQgPSBjYXNlU2Vuc2l0aXZlID8gcGF0aG5hbWUgOiBwYXRobmFtZS50b0xvd2VyQ2FzZSgpOwogIGNvbnN0IG5vcm1hbGl6ZWRUYXJnZXQgPSB0YXJnZXQgIT09ICIvIiAmJiB0YXJnZXQuZW5kc1dpdGgoIi8iKSA/IHRhcmdldC5zbGljZSgwLCAtMSkgOiB0YXJnZXQ7CiAgY29uc3QgaXNBY3RpdmUgPSBlbmQKICAgID8gY3VycmVudCA9PT0gbm9ybWFsaXplZFRhcmdldCB8fCBjdXJyZW50ID09PSBgJHtub3JtYWxpemVkVGFyZ2V0fS9gCiAgICA6IGN1cnJlbnQgPT09IG5vcm1hbGl6ZWRUYXJnZXQgfHwgY3VycmVudC5zdGFydHNXaXRoKGAke25vcm1hbGl6ZWRUYXJnZXQgPT09ICIvIiA/ICIiIDogbm9ybWFsaXplZFRhcmdldH0vYCk7CiAgY29uc3QgcmVuZGVyUHJvcHM6IE5hdkxpbmtSZW5kZXJQcm9wcyA9IHsgaXNBY3RpdmUsIGlzUGVuZGluZzogZmFsc2UgfTsKICByZXR1cm4gKAogICAgPExpbmsKICAgICAgcmVmPXtyZWZ9CiAgICAgIHRvPXt0b30KICAgICAgY2xhc3NOYW1lPXt0eXBlb2YgY2xhc3NOYW1lID09PSAiZnVuY3Rpb24iID8gY2xhc3NOYW1lKHJlbmRlclByb3BzKSA6IGNsYXNzTmFtZX0KICAgICAgc3R5bGU9e3R5cGVvZiBzdHlsZSA9PT0gImZ1bmN0aW9uIiA/IHN0eWxlKHJlbmRlclByb3BzKSA6IHN0eWxlfQogICAgICB7Li4uKHJlc3QgYXMgUmVjb3JkPHN0cmluZywgdW5rbm93bj4pfQogICAgPgogICAgICB7dHlwZW9mIGNoaWxkcmVuID09PSAiZnVuY3Rpb24iID8gY2hpbGRyZW4ocmVuZGVyUHJvcHMpIDogY2hpbGRyZW59CiAgICA8L0xpbms+CiAgKTsKfSk7Cg==
+/**
+ * Router-compat shim — bridges react-router-dom v6 call sites to
+ * @tanstack/react-router without hand-rewriting every component.
+ * This is the same load-bearing pattern used in Klar's dev-copy migration.
+ */
+import {
+  useNavigate as tsNavigate,
+  useLocation as tsLocation,
+  useParams as tsParams,
+  useSearch as tsSearch,
+  useRouter,
+  Link as TSLink,
+  Navigate as TSNavigate,
+  Outlet as TSOutlet,
+} from "@tanstack/react-router";
+import { useMemo, useCallback, forwardRef, type ComponentProps, type ReactNode } from "react";
+
+// ---------- shared URL parsing ----------
+
+function parseTo(to: string): { pathname: string; search?: Record<string, string> | undefined; hash?: string | undefined } {
+  const [beforeHash, hashStr] = (to ?? "").split("#");
+  const [pathname, searchStr] = (beforeHash ?? "").split("?");
+  return {
+    // react-router keeps the current path for search-only ("?a=1") and
+    // hash-only ("#section") targets; TanStack's "." means current route.
+    pathname: pathname || ".",
+    search: searchStr ? Object.fromEntries(new URLSearchParams(searchStr)) : undefined,
+    hash: hashStr || undefined,
+  };
+}
+
+// ---------- useNavigate ----------
+
+type NavigateOptions = { replace?: boolean; state?: unknown };
+
+type NavigateFn = {
+  (to: string | number, options?: NavigateOptions): void;
+  (delta: number): void;
+};
+
+export function useNavigate(): NavigateFn {
+  const tsNav = tsNavigate();
+  const router = useRouter();
+  return useCallback((to: string | number, options?: NavigateOptions) => {
+    if (typeof to === "number") {
+      router.history.go(to);
+      return;
+    }
+    const { pathname, search, hash } = parseTo(to);
+    tsNav({
+      to: pathname,
+      search: search as never,
+      hash: hash as never,
+      state: options?.state as never,
+      replace: (options?.replace ?? false) as never,
+    });
+  }, [tsNav, router]) as NavigateFn;
+}
+
+// ---------- useLocation ----------
+
+export function useLocation() {
+  const loc = tsLocation();
+  return useMemo(
+    () => ({
+      pathname: loc.pathname,
+      search: loc.searchStr ? `?${loc.searchStr}` : "",
+      hash: loc.hash ?? "",
+      state: (loc.state ?? null) as unknown,
+      key: loc.pathname + (loc.searchStr ?? ""),
+    }),
+    [loc.pathname, loc.searchStr, loc.hash, loc.state],
+  );
+}
+
+// ---------- useParams ----------
+
+export function useParams<T extends Record<string, string | undefined> = Record<string, string | undefined>>(): T {
+  return tsParams({ strict: false } as never) as T;
+}
+
+
+// ---------- useSearchParams (react-router-dom compat) ----------
+
+export function useSearchParams(): [URLSearchParams, (init: URLSearchParams | Record<string, string> | ((prev: URLSearchParams) => URLSearchParams), opts?: { replace?: boolean }) => void] {
+  const loc = tsLocation();
+  const nav = tsNavigate();
+  const router = useRouter();
+  const params = useMemo(() => new URLSearchParams(loc.searchStr ?? ""), [loc.searchStr]);
+  const setParams = useCallback(
+    (
+      init: URLSearchParams | Record<string, string> | ((prev: URLSearchParams) => URLSearchParams),
+      opts?: { replace?: boolean },
+    ) => {
+      // Functional updaters read the router's live location, not the render
+      // snapshot — react-router passes call-time params, and chained updates
+      // within one tick must see each other's writes.
+      const live = router.state.location;
+      const current = new URLSearchParams(live.searchStr ?? "");
+      const next =
+        typeof init === "function"
+          ? init(current)
+          : init instanceof URLSearchParams
+            ? init
+            : new URLSearchParams(init);
+      const searchObj: Record<string, string> = {};
+      next.forEach((v, k) => { searchObj[k] = v; });
+      nav({ to: live.pathname, search: searchObj as never, replace: (opts?.replace ?? false) as never });
+    },
+    [nav, router],
+  );
+  return [params, setParams];
+}
+
+// ---------- Link ----------
+
+type LinkProps = Omit<ComponentProps<typeof TSLink>, "to"> & {
+  to: string;
+  replace?: boolean | undefined;
+  state?: unknown;
+  children?: ReactNode | undefined;
+};
+
+export const Link = forwardRef<HTMLAnchorElement, LinkProps>(function Link(
+  { to, replace, state, children, ...rest },
+  ref,
+) {
+  const { pathname, search, hash } = parseTo(to);
+  return (
+    <TSLink
+      ref={ref as never}
+      to={pathname as never}
+      search={search as never}
+      hash={hash as never}
+      replace={(replace ?? false) as never}
+      state={state as never}
+      {...((rest ?? {}) as Record<string, unknown>)}
+    >
+      {children}
+    </TSLink>
+  );
+});
+
+
+// ---------- Navigate ----------
+
+export function Navigate({ to, replace, state }: { to: string; replace?: boolean; state?: unknown }) {
+  const { pathname, search, hash } = parseTo(to);
+  return <TSNavigate to={pathname as never} search={search as never} hash={hash as never} state={state as never} replace={(replace ?? false) as never} />;
+}
+
+// ---------- Outlet ----------
+
+export const Outlet = TSOutlet;
+
+// ---------- NavLink ----------
+
+type NavLinkRenderProps = { isActive: boolean; isPending: boolean };
+
+export type NavLinkProps = Omit<LinkProps, "className" | "style" | "children"> & {
+  end?: boolean | undefined;
+  caseSensitive?: boolean | undefined;
+  className?: string | ((props: NavLinkRenderProps) => string | undefined) | undefined;
+  style?: React.CSSProperties | ((props: NavLinkRenderProps) => React.CSSProperties | undefined) | undefined;
+  children?: ReactNode | ((props: NavLinkRenderProps) => ReactNode) | undefined;
+};
+
+export const NavLink = forwardRef<HTMLAnchorElement, NavLinkProps>(function NavLink(
+  { to, end, caseSensitive, className, style, children, ...rest },
+  ref,
+) {
+  const loc = tsLocation();
+  const { pathname } = parseTo(to);
+  const current = caseSensitive ? loc.pathname : loc.pathname.toLowerCase();
+  const target = caseSensitive ? pathname : pathname.toLowerCase();
+  const normalizedTarget = target !== "/" && target.endsWith("/") ? target.slice(0, -1) : target;
+  const isActive = end
+    ? current === normalizedTarget || current === `${normalizedTarget}/`
+    : current === normalizedTarget || current.startsWith(`${normalizedTarget === "/" ? "" : normalizedTarget}/`);
+  const renderProps: NavLinkRenderProps = { isActive, isPending: false };
+  return (
+    <Link
+      ref={ref}
+      to={to}
+      className={typeof className === "function" ? className(renderProps) : className}
+      style={typeof style === "function" ? style(renderProps) : style}
+      {...(rest as Record<string, unknown>)}
+    >
+      {typeof children === "function" ? children(renderProps) : children}
+    </Link>
+  );
+});

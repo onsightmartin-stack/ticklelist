@@ -1,1 +1,172 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VNZW1vLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgTWFwUGluLCBQbHVzIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKCmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsgVGV4dGFyZWEgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGV4dGFyZWEiOwppbXBvcnQgeyBzdXBhYmFzZSB9IGZyb20gIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudCI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQC9ob29rcy91c2UtdG9hc3QiOwppbXBvcnQgeyBjZWxlYnJhdGUgfSBmcm9tICJAL2NvbXBvbmVudHMvQ2VsZWJyYXRpb24iOwppbXBvcnQgUHJlY2lzaW9uRGF0ZUlucHV0IGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvUHJlY2lzaW9uRGF0ZUlucHV0IjsKaW1wb3J0IHsgZmluZFBsYWNlLCBzZWFyY2hQbGFjZXMsIHR5cGUgQ2F0YWxvZ1BsYWNlLCB0eXBlIFZpc2l0IH0gZnJvbSAiQC9kYXRhL3BsYWNlcyI7CmltcG9ydCB7IHVzZVJlbW90ZVBsYWNlU2VhcmNoIH0gZnJvbSAiQC9ob29rcy91c2VSZW1vdGVQbGFjZVNlYXJjaCI7CmltcG9ydCB0eXBlIHsgRGF0ZVByZWNpc2lvbiB9IGZyb20gIkAvbGliL3BlYWstY2F0YWxvZyI7CgppbnRlcmZhY2UgUHJvcHMgewogIHVzZXJJZDogc3RyaW5nOwogIGluaXRpYWxQbGFjZUtleT86IHN0cmluZzsKICBlZGl0aW5nPzogVmlzaXQgfCB1bmRlZmluZWQ7CiAgb25TYXZlZDogKCkgPT4gdm9pZDsKICBvbkNhbmNlbD86ICgpID0+IHZvaWQ7Cn0KCi8qKiBMb2cgYSBwbGFjZSB5b3UndmUgYmVlbiDigJQgYSBjb3VudHJ5LCBhIHdvbmRlciwgYSBwb2xlIG9yIGEgbGFuZG1hcmsuICovCmNvbnN0IFZpc2l0Rm9ybSA9ICh7IHVzZXJJZCwgaW5pdGlhbFBsYWNlS2V5ID0gIiIsIGVkaXRpbmcsIG9uU2F2ZWQsIG9uQ2FuY2VsIH06IFByb3BzKSA9PiB7CiAgY29uc3QgW3F1ZXJ5LCBzZXRRdWVyeV0gPSB1c2VTdGF0ZShlZGl0aW5nPy5wbGFjZV9uYW1lID8/ICIiKTsKICBjb25zdCBbcGxhY2UsIHNldFBsYWNlXSA9IHVzZVN0YXRlPENhdGFsb2dQbGFjZSB8IG51bGw+KAogICAgZWRpdGluZwogICAgICA/IGZpbmRQbGFjZShlZGl0aW5nLnBsYWNlX2tleSkgPz8gewogICAgICAgICAga2V5OiBlZGl0aW5nLnBsYWNlX2tleSwKICAgICAgICAgIG5hbWU6IGVkaXRpbmcucGxhY2VfbmFtZSwKICAgICAgICAgIGNvdW50cnk6IGVkaXRpbmcuY291bnRyeSwKICAgICAgICAgIHR5cGU6IGVkaXRpbmcucGxhY2VfdHlwZSwKICAgICAgICAgIGdyb3VwOiAiU2F2ZWQgcGxhY2UiLAogICAgICAgIH0gYXMgQ2F0YWxvZ1BsYWNlCiAgICAgIDogbnVsbCwKICApOwogIGNvbnN0IFtkYXRlLCBzZXREYXRlXSA9IHVzZVN0YXRlKGVkaXRpbmc/LnZpc2l0X2RhdGUgPz8gIiIpOwogIGNvbnN0IFtwcmVjaXNpb24sIHNldFByZWNpc2lvbl0gPSB1c2VTdGF0ZTxEYXRlUHJlY2lzaW9uPihlZGl0aW5nPy5kYXRlX3ByZWNpc2lvbiA/PyAiZGF5Iik7CiAgY29uc3QgW25vdGVzLCBzZXROb3Rlc10gPSB1c2VTdGF0ZShlZGl0aW5nPy5ub3RlcyA/PyAiIik7CiAgY29uc3QgW3NhdmluZywgc2V0U2F2aW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKICAvLyBRdWljayBhZGQgYnkgZGVmYXVsdCDigJQgbm90ZXMgYXBwZWFyIG9uIGRlbWFuZC4KICBjb25zdCBbYWR2YW5jZWQsIHNldEFkdmFuY2VkXSA9IHVzZVN0YXRlKEJvb2xlYW4oZWRpdGluZz8ubm90ZXMpKTsKCgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIWluaXRpYWxQbGFjZUtleSkgcmV0dXJuOwogICAgY29uc3QgZm91bmQgPSBmaW5kUGxhY2UoaW5pdGlhbFBsYWNlS2V5KTsKICAgIGlmIChmb3VuZCkgewogICAgICBzZXRQbGFjZShmb3VuZCk7CiAgICAgIHNldFF1ZXJ5KGZvdW5kLm5hbWUpOwogICAgfQogIH0sIFtpbml0aWFsUGxhY2VLZXldKTsKCiAgY29uc3QgcmVtb3RlID0gdXNlUmVtb3RlUGxhY2VTZWFyY2gocGxhY2UgPyAiIiA6IHF1ZXJ5LCA4KTsKCiAgY29uc3QgcmVzdWx0cyA9IHVzZU1lbW8oKCkgPT4gewogICAgaWYgKHBsYWNlIHx8IHF1ZXJ5LnRyaW0oKS5sZW5ndGggPCAyKSByZXR1cm4gW107CiAgICBjb25zdCBsb2NhbCA9IHNlYXJjaFBsYWNlcyhxdWVyeSwgNik7CiAgICBjb25zdCBzZWVuID0gbmV3IFNldChsb2NhbC5tYXAoKHApID0+IHAubmFtZS50b0xvd2VyQ2FzZSgpKSk7CiAgICByZXR1cm4gWy4uLmxvY2FsLCAuLi5yZW1vdGUuZmlsdGVyKChwKSA9PiAhc2Vlbi5oYXMocC5uYW1lLnRvTG93ZXJDYXNlKCkpKV0uc2xpY2UoMCwgMTIpOwogIH0sIFtxdWVyeSwgcGxhY2UsIHJlbW90ZV0pOwoKICBjb25zdCBzdWJtaXQgPSBhc3luYyAoZTogUmVhY3QuRm9ybUV2ZW50KSA9PiB7CiAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICBpZiAoIXBsYWNlKSB7CiAgICAgIHRvYXN0KHsgdGl0bGU6ICJQaWNrIGEgcGxhY2UgZnJvbSB0aGUgbGlzdCIsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHNldFNhdmluZyh0cnVlKTsKICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oInZpc2l0cyIpLnVwc2VydCgKICAgICAgewogICAgICAgIHVzZXJfaWQ6IHVzZXJJZCwKICAgICAgICBwbGFjZV9rZXk6IHBsYWNlLmtleSwKICAgICAgICBwbGFjZV9uYW1lOiBwbGFjZS5uYW1lLAogICAgICAgIGNvdW50cnk6IHBsYWNlLmNvdW50cnksCiAgICAgICAgcGxhY2VfdHlwZTogcGxhY2UudHlwZSwKICAgICAgICB2aXNpdF9kYXRlOiBkYXRlIHx8IG51bGwsCiAgICAgICAgZGF0ZV9wcmVjaXNpb246IGRhdGUgPyBwcmVjaXNpb24gOiAiZGF5IiwKICAgICAgICBub3Rlczogbm90ZXMudHJpbSgpIHx8IG51bGwsCiAgICAgIH0sCiAgICAgIHsgb25Db25mbGljdDogInVzZXJfaWQscGxhY2Vfa2V5IiB9LAogICAgKTsKICAgIHNldFNhdmluZyhmYWxzZSk7CiAgICBpZiAoZXJyb3IpIHsKICAgICAgdG9hc3QoeyB0aXRsZTogIkNvdWxkIG5vdCBzYXZlIiwgZGVzY3JpcHRpb246IGVycm9yLm1lc3NhZ2UsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGlmICghZWRpdGluZykgY2VsZWJyYXRlKCk7CiAgICB0b2FzdCh7IHRpdGxlOiBlZGl0aW5nID8gYCR7cGxhY2UubmFtZX0gdXBkYXRlZGAgOiBgJHtwbGFjZS5uYW1lfSB0aWNrZWQgb2ZmIPCfjolgIH0pOwogICAgc2V0UGxhY2UobnVsbCk7CiAgICBzZXRRdWVyeSgiIik7CiAgICBzZXREYXRlKCIiKTsKICAgIHNldFByZWNpc2lvbigiZGF5Iik7CiAgICBzZXROb3RlcygiIik7CiAgICBzZXRBZHZhbmNlZChmYWxzZSk7CgogICAgb25TYXZlZCgpOwogIH07CgogIHJldHVybiAoCiAgICA8Zm9ybSBvblN1Ym1pdD17c3VibWl0fSBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBwLTQgc3BhY2UteS00Ij4KICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIj4KICAgICAgICA8TGFiZWwgaHRtbEZvcj0idmlzaXQtcGxhY2UiPlBsYWNlPC9MYWJlbD4KICAgICAgICA8SW5wdXQKICAgICAgICAgIGlkPSJ2aXNpdC1wbGFjZSIKICAgICAgICAgIHZhbHVlPXtxdWVyeX0KICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4geyBzZXRRdWVyeShlLnRhcmdldC52YWx1ZSk7IHNldFBsYWNlKG51bGwpOyB9fQogICAgICAgICAgcGxhY2Vob2xkZXI9IkNvdW50cnksIHdvbmRlciwgcG9sZSBvciBsYW5kbWFya+KApiIKICAgICAgICAgIGF1dG9Db21wbGV0ZT0ib2ZmIgogICAgICAgIC8+CiAgICAgICAge3Jlc3VsdHMubGVuZ3RoID4gMCAmJiAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgbGVmdC0wIHJpZ2h0LTAgbXQtMSByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLXBvcG92ZXIgc2hhZG93LWxnIHotNDAgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgICAge3Jlc3VsdHMubWFwKChwKSA9PiAoCiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAga2V5PXtwLmtleX0KICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHsgc2V0UGxhY2UocCk7IHNldFF1ZXJ5KHAubmFtZSk7IH19CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCB0ZXh0LWxlZnQgcHgtMyBweS0yIHRleHQtc20gaG92ZXI6YmctYWNjZW50IGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxNYXBQaW4gY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSB0ZXh0LXByaW1hcnkgc2hyaW5rLTAiIC8+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRydW5jYXRlIj57cC5uYW1lfTwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibWwtYXV0byB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCB0cnVuY2F0ZSI+e3AuZ3JvdXB9PC9zcGFuPgogICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CiAgICAgIDwvZGl2PgoKICAgICAgPFByZWNpc2lvbkRhdGVJbnB1dAogICAgICAgIGlkPSJ2aXNpdC1kYXRlIgogICAgICAgIGxhYmVsPSJEYXRlIChvcHRpb25hbCkiCiAgICAgICAgdmFsdWU9e2RhdGV9CiAgICAgICAgcHJlY2lzaW9uPXtwcmVjaXNpb259CiAgICAgICAgb25DaGFuZ2U9eyh2LCBwKSA9PiB7IHNldERhdGUodik7IHNldFByZWNpc2lvbihwKTsgfX0KICAgICAgLz4KCiAgICAgIHshYWR2YW5jZWQgPyAoCiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGp1c3RpZnktY2VudGVyIGZvbnQtbm9ybWFsIgogICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0QWR2YW5jZWQodHJ1ZSl9CiAgICAgICAgPgogICAgICAgICAgPFBsdXMgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTEiIC8+CiAgICAgICAgICBBZGQgbW9yZSBpbmZvCiAgICAgICAgPC9CdXR0b24+CiAgICAgICkgOiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMiBib3JkZXItdCBib3JkZXItYm9yZGVyIHB0LTQiPgogICAgICAgICAgPExhYmVsIGh0bWxGb3I9InZpc2l0LW5vdGVzIj5Ob3RlcyAob3B0aW9uYWwpPC9MYWJlbD4KICAgICAgICAgIDxUZXh0YXJlYQogICAgICAgICAgICBpZD0idmlzaXQtbm90ZXMiCiAgICAgICAgICAgIHZhbHVlPXtub3Rlc30KICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXROb3RlcyhlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJXaGF0IGRpZCB5b3UgZG8gdGhlcmU/IgogICAgICAgICAgICByb3dzPXszfQogICAgICAgICAgLz4KICAgICAgICA8L2Rpdj4KICAgICAgKX0KCgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiI+CiAgICAgICAgPEJ1dHRvbiB0eXBlPSJzdWJtaXQiIGRpc2FibGVkPXtzYXZpbmd9PntzYXZpbmcgPyAiU2F2aW5n4oCmIiA6IGVkaXRpbmcgPyAiU2F2ZSBjaGFuZ2VzIiA6ICJUaWNrIGl0IG9mZiJ9PC9CdXR0b24+CiAgICAgICAge29uQ2FuY2VsICYmICgKICAgICAgICAgIDxCdXR0b24gdHlwZT0iYnV0dG9uIiB2YXJpYW50PSJnaG9zdCIgb25DbGljaz17b25DYW5jZWx9PkNhbmNlbDwvQnV0dG9uPgogICAgICAgICl9CiAgICAgIDwvZGl2PgogICAgPC9mb3JtPgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBWaXNpdEZvcm07Cg==
+import { useEffect, useMemo, useState } from "react";
+import { MapPin, Plus } from "lucide-react";
+
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "@/hooks/use-toast";
+import { celebrate } from "@/components/Celebration";
+import PrecisionDateInput from "@/components/community/PrecisionDateInput";
+import { findPlace, searchPlaces, type CatalogPlace, type Visit } from "@/data/places";
+import { useRemotePlaceSearch } from "@/hooks/useRemotePlaceSearch";
+import type { DatePrecision } from "@/lib/peak-catalog";
+
+interface Props {
+  userId: string;
+  initialPlaceKey?: string;
+  editing?: Visit | undefined;
+  onSaved: () => void;
+  onCancel?: () => void;
+}
+
+/** Log a place you've been — a country, a wonder, a pole or a landmark. */
+const VisitForm = ({ userId, initialPlaceKey = "", editing, onSaved, onCancel }: Props) => {
+  const [query, setQuery] = useState(editing?.place_name ?? "");
+  const [place, setPlace] = useState<CatalogPlace | null>(
+    editing
+      ? findPlace(editing.place_key) ?? {
+          key: editing.place_key,
+          name: editing.place_name,
+          country: editing.country,
+          type: editing.place_type,
+          group: "Saved place",
+        } as CatalogPlace
+      : null,
+  );
+  const [date, setDate] = useState(editing?.visit_date ?? "");
+  const [precision, setPrecision] = useState<DatePrecision>(editing?.date_precision ?? "day");
+  const [notes, setNotes] = useState(editing?.notes ?? "");
+  const [saving, setSaving] = useState(false);
+  // Quick add by default — notes appear on demand.
+  const [advanced, setAdvanced] = useState(Boolean(editing?.notes));
+
+
+  useEffect(() => {
+    if (!initialPlaceKey) return;
+    const found = findPlace(initialPlaceKey);
+    if (found) {
+      setPlace(found);
+      setQuery(found.name);
+    }
+  }, [initialPlaceKey]);
+
+  const remote = useRemotePlaceSearch(place ? "" : query, 8);
+
+  const results = useMemo(() => {
+    if (place || query.trim().length < 2) return [];
+    const local = searchPlaces(query, 6);
+    const seen = new Set(local.map((p) => p.name.toLowerCase()));
+    return [...local, ...remote.filter((p) => !seen.has(p.name.toLowerCase()))].slice(0, 12);
+  }, [query, place, remote]);
+
+  const submit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!place) {
+      toast({ title: "Pick a place from the list", variant: "destructive" });
+      return;
+    }
+    setSaving(true);
+    const { error } = await supabase.from("visits").upsert(
+      {
+        user_id: userId,
+        place_key: place.key,
+        place_name: place.name,
+        country: place.country,
+        place_type: place.type,
+        visit_date: date || null,
+        date_precision: date ? precision : "day",
+        notes: notes.trim() || null,
+      },
+      { onConflict: "user_id,place_key" },
+    );
+    setSaving(false);
+    if (error) {
+      toast({ title: "Could not save", description: error.message, variant: "destructive" });
+      return;
+    }
+    if (!editing) celebrate();
+    toast({ title: editing ? `${place.name} updated` : `${place.name} ticked off 🎉` });
+    setPlace(null);
+    setQuery("");
+    setDate("");
+    setPrecision("day");
+    setNotes("");
+    setAdvanced(false);
+
+    onSaved();
+  };
+
+  return (
+    <form onSubmit={submit} className="rounded-lg border border-border bg-card p-4 space-y-4">
+      <div className="relative">
+        <Label htmlFor="visit-place">Place</Label>
+        <Input
+          id="visit-place"
+          value={query}
+          onChange={(e) => { setQuery(e.target.value); setPlace(null); }}
+          placeholder="Country, wonder, pole or landmark…"
+          autoComplete="off"
+        />
+        {results.length > 0 && (
+          <div className="absolute left-0 right-0 mt-1 rounded-md border border-border bg-popover shadow-lg z-40 overflow-hidden">
+            {results.map((p) => (
+              <button
+                key={p.key}
+                type="button"
+                onClick={() => { setPlace(p); setQuery(p.name); }}
+                className="w-full text-left px-3 py-2 text-sm hover:bg-accent flex items-center gap-2"
+              >
+                <MapPin className="w-3.5 h-3.5 text-primary shrink-0" />
+                <span className="truncate">{p.name}</span>
+                <span className="ml-auto text-xs text-muted-foreground truncate">{p.group}</span>
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <PrecisionDateInput
+        id="visit-date"
+        label="Date (optional)"
+        value={date}
+        precision={precision}
+        onChange={(v, p) => { setDate(v); setPrecision(p); }}
+      />
+
+      {!advanced ? (
+        <Button
+          type="button"
+          variant="outline"
+          className="w-full justify-center font-normal"
+          onClick={() => setAdvanced(true)}
+        >
+          <Plus className="w-4 h-4 mr-1" />
+          Add more info
+        </Button>
+      ) : (
+        <div className="space-y-2 border-t border-border pt-4">
+          <Label htmlFor="visit-notes">Notes (optional)</Label>
+          <Textarea
+            id="visit-notes"
+            value={notes}
+            onChange={(e) => setNotes(e.target.value)}
+            placeholder="What did you do there?"
+            rows={3}
+          />
+        </div>
+      )}
+
+
+      <div className="flex gap-2">
+        <Button type="submit" disabled={saving}>{saving ? "Saving…" : editing ? "Save changes" : "Tick it off"}</Button>
+        {onCancel && (
+          <Button type="button" variant="ghost" onClick={onCancel}>Cancel</Button>
+        )}
+      </div>
+    </form>
+  );
+};
+
+export default VisitForm;

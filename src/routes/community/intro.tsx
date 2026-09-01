@@ -1,1 +1,23 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBJbnRyb1BhZ2UgZnJvbSAiQC9wYWdlcy9jb21tdW5pdHkvSW50cm9QYWdlIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL2NvbW11bml0eS9pbnRybyIpKHsKICBoZWFkOiAoKSA9PiAoewogICAgbWV0YTogWwogICAgICB7IHRpdGxlOiAiSW50cm9kdWN0aW9uIOKAlCBob3cgVGlja2xlbGlzdCB3b3JrcyIgfSwKICAgICAgewogICAgICAgIG5hbWU6ICJkZXNjcmlwdGlvbiIsCiAgICAgICAgY29udGVudDoKICAgICAgICAgICJBIGd1aWRlIHRvIGV2ZXJ5IFRpY2tsZWxpc3QgZmVhdHVyZTogbG9nZ2luZyBhc2NlbnRzIGFuZCBwbGFjZXMsIFhQIGFuZCBsZXZlbHMsIGJhZGdlcywgdGljayBsaXN0cywgcmFua2luZ3MsIHRoZSB3YWxsLCBCYXNlIENhbXAsIHRoZW1lcyBhbmQgdGhlIG1vYmlsZSBhcHAuIiwKICAgICAgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnRpdGxlIiwgY29udGVudDogIkludHJvZHVjdGlvbiDigJQgaG93IFRpY2tsZWxpc3Qgd29ya3MiIH0sCiAgICAgIHsKICAgICAgICBwcm9wZXJ0eTogIm9nOmRlc2NyaXB0aW9uIiwKICAgICAgICBjb250ZW50OiAiRXZlcnkgVGlja2xlbGlzdCBmZWF0dXJlIGV4cGxhaW5lZDogYXNjZW50cywgcGxhY2VzLCBYUCwgYmFkZ2VzLCBsaXN0cywgcmFua2luZ3MgYW5kIHRoZSBjb21tdW5pdHkuIiwKICAgICAgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnR5cGUiLCBjb250ZW50OiAid2Vic2l0ZSIgfSwKICAgICAgeyBuYW1lOiAidHdpdHRlcjpjYXJkIiwgY29udGVudDogInN1bW1hcnlfbGFyZ2VfaW1hZ2UiIH0sCiAgICBdLAogIH0pLAogIGNvbXBvbmVudDogSW50cm9QYWdlLAp9KTsK
+import { createFileRoute } from "@tanstack/react-router";
+import IntroPage from "@/pages/community/IntroPage";
+
+export const Route = createFileRoute("/community/intro")({
+  head: () => ({
+    meta: [
+      { title: "Introduction — how Ticklelist works" },
+      {
+        name: "description",
+        content:
+          "A guide to every Ticklelist feature: logging ascents and places, XP and levels, badges, tick lists, rankings, the wall, Base Camp, themes and the mobile app.",
+      },
+      { property: "og:title", content: "Introduction — how Ticklelist works" },
+      {
+        property: "og:description",
+        content: "Every Ticklelist feature explained: ascents, places, XP, badges, lists, rankings and the community.",
+      },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
+  component: IntroPage,
+});

@@ -1,1 +1,140 @@
-aW1wb3J0IHsgSGFtbWVyLCBMb2NrLCBUcmFzaDIsIFggfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBidWlsZFVubG9ja2VkLCBjYW1wQnVpbGRzLCBuZXh0QnVpbGRGb3IsIHR5cGUgQ2FtcEJ1aWxkS2luZCB9IGZyb20gIkAvbGliL2NhbXAtYnVpbGRzIjsKCmludGVyZmFjZSBQcm9wcyB7CiAgbGV2ZWw6IG51bWJlcjsKICBwaWNrZWQ6IHN0cmluZzsKICBvblBpY2s6IChpZDogc3RyaW5nKSA9PiB2b2lkOwogIG5hbWU6IHN0cmluZzsKICBvbk5hbWU6ICh2OiBzdHJpbmcpID0+IHZvaWQ7CiAgcGxhY2Vob2xkZXI6IHN0cmluZzsKICBzYXZpbmc6IGJvb2xlYW47CiAgaGFzQnVpbGQ6IGJvb2xlYW47CiAgLyoqIFF1ZXN0IGlkcyB0aGUgY2xpbWJlciBoYXMgZmluaXNoZWQg4oCUIHNvbWUgYnVpbGRzIHVubG9jayB0aHJvdWdoIHF1ZXN0cy4gKi8KICBjb21wbGV0ZWRRdWVzdHM6IHN0cmluZ1tdOwogIG9uQnVpbGQ6IChraW5kOiBDYW1wQnVpbGRLaW5kKSA9PiB2b2lkOwogIG9uUmVtb3ZlOiAoKSA9PiB2b2lkOwogIG9uQ2xvc2U6ICgpID0+IHZvaWQ7Cn0KCi8qKiBJbi1nYW1lIGJ1aWxkIG1lbnUsIHNob3duIGFzIGFuIG92ZXJsYXkgcGFuZWwgb3ZlciB0aGUgY2FtcC4gKi8KY29uc3QgQ2FtcEJ1aWxkTWVudSA9ICh7CiAgbGV2ZWwsCiAgcGlja2VkLAogIG9uUGljaywKICBuYW1lLAogIG9uTmFtZSwKICBwbGFjZWhvbGRlciwKICBzYXZpbmcsCiAgaGFzQnVpbGQsCiAgY29tcGxldGVkUXVlc3RzLAogIG9uQnVpbGQsCiAgb25SZW1vdmUsCiAgb25DbG9zZSwKfTogUHJvcHMpID0+IHsKICBjb25zdCBuZXh0TG9ja2VkID0gbmV4dEJ1aWxkRm9yKGxldmVsKTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIHotNDAgZmxleCBpdGVtcy1lbmQganVzdGlmeS1jZW50ZXIgYmctc2xhdGUtOTUwLzcwIHAtMiBiYWNrZHJvcC1ibHVyLXNtIHNtOml0ZW1zLWNlbnRlciI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LWZ1bGwgbWF4LXcteGwgcm91bmRlZC14bCBib3JkZXItNCBib3JkZXItc2xhdGUtNjAwIGJnLXNsYXRlLTgwMC85NSBwLTMgc2hhZG93LTJ4bCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTIgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0yIj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIGZvbnQtZGlzcGxheSB0ZXh0LXNtIHVwcGVyY2FzZSB0cmFja2luZy1bMC4yZW1dIHRleHQtc2xhdGUtMTAwIj4KICAgICAgICAgICAgPEhhbW1lciBjbGFzc05hbWU9ImgtNCB3LTQgdGV4dC1wcmltYXJ5IiAvPiBCdWlsZCBtZW51CiAgICAgICAgICA8L2gyPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xIj4KICAgICAgICAgICAge2hhc0J1aWxkICYmICgKICAgICAgICAgICAgICA8QnV0dG9uIHR5cGU9ImJ1dHRvbiIgc2l6ZT0ic20iIHZhcmlhbnQ9Imdob3N0IiBjbGFzc05hbWU9ImgtOCB0ZXh0LXNsYXRlLTIwMCIgb25DbGljaz17b25SZW1vdmV9PgogICAgICAgICAgICAgICAgPFRyYXNoMiBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1sLTEgaGlkZGVuIHNtOmlubGluZSI+UGFjayBkb3duPC9zcGFuPgogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICApfQogICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgIG9uQ2xpY2s9e29uQ2xvc2V9CiAgICAgICAgICAgICAgYXJpYS1sYWJlbD0iQ2xvc2UgYnVpbGQgbWVudSIKICAgICAgICAgICAgICBjbGFzc05hbWU9ImdyaWQgaC04IHctOCBwbGFjZS1pdGVtcy1jZW50ZXIgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLXNsYXRlLTUwMCBiZy1zbGF0ZS03MDAgdGV4dC1zbGF0ZS0xMDAiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8WCBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiI+CiAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgdmFsdWU9e25hbWV9CiAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gb25OYW1lKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgbWF4TGVuZ3RoPXs0MH0KICAgICAgICAgICAgcGxhY2Vob2xkZXI9e3BsYWNlaG9sZGVyfQogICAgICAgICAgICBjbGFzc05hbWU9ImgtOSB3LWZ1bGwgZmxleC0xIGJnLXNsYXRlLTkwMCB0ZXh0LXNsYXRlLTEwMCBzbTp3LWF1dG8iCiAgICAgICAgICAgIGFyaWEtbGFiZWw9Ik5hbWUgeW91ciBidWlsZCIKICAgICAgICAgIC8+CiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgY2xhc3NOYW1lPSJoLTkiCiAgICAgICAgICAgIGRpc2FibGVkPXtzYXZpbmcgfHwgIXBpY2tlZH0KICAgICAgICAgICAgb25DbGljaz17KCkgPT4gewogICAgICAgICAgICAgIGNvbnN0IGtpbmQgPSBjYW1wQnVpbGRzLmZpbmQoKGIpID0+IGIuaWQgPT09IHBpY2tlZCk7CiAgICAgICAgICAgICAgaWYgKGtpbmQpIG9uQnVpbGQoa2luZCk7CiAgICAgICAgICAgIH19CiAgICAgICAgICA+CiAgICAgICAgICAgIDxIYW1tZXIgY2xhc3NOYW1lPSJoLTQgdy00IiAvPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1sLTEiPntoYXNCdWlsZCA/ICJSZWJ1aWxkIGhlcmUiIDogIkJ1aWxkIGhlcmUifTwvc3Bhbj4KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8dWwgY2xhc3NOYW1lPSJtdC0yIGdyaWQgbWF4LWgtWzM2dmhdIGdhcC0xLjUgb3ZlcmZsb3cteS1hdXRvIHByLTEgc206Z3JpZC1jb2xzLTIiPgogICAgICAgICAge2NhbXBCdWlsZHMubWFwKChiKSA9PiB7CiAgICAgICAgICAgIGNvbnN0IGxvY2tlZCA9ICFidWlsZFVubG9ja2VkKGIsIGxldmVsLCBjb21wbGV0ZWRRdWVzdHMpOwogICAgICAgICAgICBjb25zdCBsb2NrTGFiZWwgPSBiLnJlcXVpcmVzUXVlc3QKICAgICAgICAgICAgICA/IGBMb2NrZWQg4oCUICR7Yi5xdWVzdEhpbnQgPz8gImZpbmlzaCB0aGUgcXVlc3QifWAKICAgICAgICAgICAgICA6IGBMb2NrZWQg4oCUIGxldmVsICR7Yi5taW5MZXZlbH1gOwogICAgICAgICAgICBjb25zdCBvcGVuTGFiZWwgPSBiLnJlcXVpcmVzUXVlc3QgPyAiUXVlc3QgcmV3YXJkIiA6IGBMZXZlbCAke2IubWluTGV2ZWx9YDsKICAgICAgICAgICAgY29uc3QgYWN0aXZlID0gcGlja2VkID09PSBiLmlkOwogICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgIDxsaSBrZXk9e2IuaWR9PgogICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICAgIGRpc2FibGVkPXtsb2NrZWR9CiAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IG9uUGljayhiLmlkKX0KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgZmxleCB3LWZ1bGwgaXRlbXMtc3RhcnQgZ2FwLTIgcm91bmRlZC1tZCBib3JkZXItMiBwLTIgdGV4dC1sZWZ0IHRyYW5zaXRpb24tY29sb3JzICR7CiAgICAgICAgICAgICAgICAgICAgYWN0aXZlCiAgICAgICAgICAgICAgICAgICAgICA/ICJib3JkZXItcHJpbWFyeSBiZy1wcmltYXJ5LzIwIgogICAgICAgICAgICAgICAgICAgICAgOiBsb2NrZWQKICAgICAgICAgICAgICAgICAgICAgICAgPyAiYm9yZGVyLXNsYXRlLTcwMCBiZy1zbGF0ZS05MDAvNjAgb3BhY2l0eS02MCIKICAgICAgICAgICAgICAgICAgICAgICAgOiAiYm9yZGVyLXNsYXRlLTYwMCBiZy1zbGF0ZS05MDAvNjAgaG92ZXI6Ymctc2xhdGUtNzAwIgogICAgICAgICAgICAgICAgICB9YH0KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtdC0wLjUiPgogICAgICAgICAgICAgICAgICAgIHtsb2NrZWQgPyAoCiAgICAgICAgICAgICAgICAgICAgICA8TG9jayBjbGFzc05hbWU9ImgtNCB3LTQgdGV4dC1zbGF0ZS00MDAiIC8+CiAgICAgICAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgICAgICAgIDxIYW1tZXIgY2xhc3NOYW1lPSJoLTQgdy00IHRleHQtcHJpbWFyeSIgLz4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibWluLXctMCI+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJibG9jayBmb250LWRpc3BsYXkgdGV4dC14cyB0cmFja2luZy13aWRlciB0ZXh0LXNsYXRlLTEwMCI+CiAgICAgICAgICAgICAgICAgICAgICB7Yi5uYW1lfQogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImJsb2NrIHRleHQtWzExcHhdIHRleHQtc2xhdGUtNDAwIj57Yi5ibHVyYn08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJibG9jayB0ZXh0LVsxMHB4XSB1cHBlcmNhc2UgdHJhY2tpbmctWzAuMThlbV0gdGV4dC1zbGF0ZS01MDAiPgogICAgICAgICAgICAgICAgICAgICAge2xvY2tlZCA/IGxvY2tMYWJlbCA6IG9wZW5MYWJlbH0KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICk7CiAgICAgICAgICB9KX0KICAgICAgICA8L3VsPgoKICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgdGV4dC1bMTFweF0gdGV4dC1zbGF0ZS00MDAiPgogICAgICAgICAgV2FsayB0byBhIHNwb3QgZmlyc3Qg4oCUIHlvdXIgYnVpbGQgZ29lcyB1cCB3aGVyZSB5b3VyIGNsaW1iZXIgc3RhbmRzLgogICAgICAgICAge25leHRMb2NrZWQgJiYgYCBOZXh0IHVubG9jazogJHtuZXh0TG9ja2VkLm5hbWV9IGF0IGxldmVsICR7bmV4dExvY2tlZC5taW5MZXZlbH0uYH0KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IENhbXBCdWlsZE1lbnU7Cg==
+import { Hammer, Lock, Trash2, X } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { buildUnlocked, campBuilds, nextBuildFor, type CampBuildKind } from "@/lib/camp-builds";
+
+interface Props {
+  level: number;
+  picked: string;
+  onPick: (id: string) => void;
+  name: string;
+  onName: (v: string) => void;
+  placeholder: string;
+  saving: boolean;
+  hasBuild: boolean;
+  /** Quest ids the climber has finished — some builds unlock through quests. */
+  completedQuests: string[];
+  onBuild: (kind: CampBuildKind) => void;
+  onRemove: () => void;
+  onClose: () => void;
+}
+
+/** In-game build menu, shown as an overlay panel over the camp. */
+const CampBuildMenu = ({
+  level,
+  picked,
+  onPick,
+  name,
+  onName,
+  placeholder,
+  saving,
+  hasBuild,
+  completedQuests,
+  onBuild,
+  onRemove,
+  onClose,
+}: Props) => {
+  const nextLocked = nextBuildFor(level);
+
+  return (
+    <div className="absolute inset-0 z-40 flex items-end justify-center bg-slate-950/70 p-2 backdrop-blur-sm sm:items-center">
+      <div className="w-full max-w-xl rounded-xl border-4 border-slate-600 bg-slate-800/95 p-3 shadow-2xl">
+        <div className="mb-2 flex items-center justify-between gap-2">
+          <h2 className="flex items-center gap-2 font-display text-sm uppercase tracking-[0.2em] text-slate-100">
+            <Hammer className="h-4 w-4 text-primary" /> Build menu
+          </h2>
+          <div className="flex items-center gap-1">
+            {hasBuild && (
+              <Button type="button" size="sm" variant="ghost" className="h-8 text-slate-200" onClick={onRemove}>
+                <Trash2 className="h-4 w-4" />
+                <span className="ml-1 hidden sm:inline">Pack down</span>
+              </Button>
+            )}
+            <button
+              type="button"
+              onClick={onClose}
+              aria-label="Close build menu"
+              className="grid h-8 w-8 place-items-center rounded-md border border-slate-500 bg-slate-700 text-slate-100"
+            >
+              <X className="h-4 w-4" />
+            </button>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap gap-2">
+          <Input
+            value={name}
+            onChange={(e) => onName(e.target.value)}
+            maxLength={40}
+            placeholder={placeholder}
+            className="h-9 w-full flex-1 bg-slate-900 text-slate-100 sm:w-auto"
+            aria-label="Name your build"
+          />
+          <Button
+            type="button"
+            className="h-9"
+            disabled={saving || !picked}
+            onClick={() => {
+              const kind = campBuilds.find((b) => b.id === picked);
+              if (kind) onBuild(kind);
+            }}
+          >
+            <Hammer className="h-4 w-4" />
+            <span className="ml-1">{hasBuild ? "Rebuild here" : "Build here"}</span>
+          </Button>
+        </div>
+
+        <ul className="mt-2 grid max-h-[36vh] gap-1.5 overflow-y-auto pr-1 sm:grid-cols-2">
+          {campBuilds.map((b) => {
+            const locked = !buildUnlocked(b, level, completedQuests);
+            const lockLabel = b.requiresQuest
+              ? `Locked — ${b.questHint ?? "finish the quest"}`
+              : `Locked — level ${b.minLevel}`;
+            const openLabel = b.requiresQuest ? "Quest reward" : `Level ${b.minLevel}`;
+            const active = picked === b.id;
+            return (
+              <li key={b.id}>
+                <button
+                  type="button"
+                  disabled={locked}
+                  onClick={() => onPick(b.id)}
+                  className={`flex w-full items-start gap-2 rounded-md border-2 p-2 text-left transition-colors ${
+                    active
+                      ? "border-primary bg-primary/20"
+                      : locked
+                        ? "border-slate-700 bg-slate-900/60 opacity-60"
+                        : "border-slate-600 bg-slate-900/60 hover:bg-slate-700"
+                  }`}
+                >
+                  <span className="mt-0.5">
+                    {locked ? (
+                      <Lock className="h-4 w-4 text-slate-400" />
+                    ) : (
+                      <Hammer className="h-4 w-4 text-primary" />
+                    )}
+                  </span>
+                  <span className="min-w-0">
+                    <span className="block font-display text-xs tracking-wider text-slate-100">
+                      {b.name}
+                    </span>
+                    <span className="block text-[11px] text-slate-400">{b.blurb}</span>
+                    <span className="block text-[10px] uppercase tracking-[0.18em] text-slate-500">
+                      {locked ? lockLabel : openLabel}
+                    </span>
+                  </span>
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+
+        <p className="mt-2 text-[11px] text-slate-400">
+          Walk to a spot first — your build goes up where your climber stands.
+          {nextLocked && ` Next unlock: ${nextLocked.name} at level ${nextLocked.minLevel}.`}
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default CampBuildMenu;

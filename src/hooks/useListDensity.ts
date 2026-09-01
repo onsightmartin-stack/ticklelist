@@ -1,1 +1,42 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CgpleHBvcnQgdHlwZSBMaXN0RGVuc2l0eSA9ICJzbWFsbCIgfCAibWVkaXVtIiB8ICJsYXJnZSI7Cgpjb25zdCBQUkVGSVggPSAib25zaWdodC1kZW5zaXR5OiI7CmNvbnN0IFZBTFVFUzogTGlzdERlbnNpdHlbXSA9IFsic21hbGwiLCAibWVkaXVtIiwgImxhcmdlIl07CgovKioKICogUGVyLWRldmljZSBsaXN0IGRlbnNpdHkgcHJlZmVyZW5jZSAoc21hbGwgLyBtZWRpdW0gLyBsYXJnZSByb3dzKS4KICogRGVmYXVsdHMgdG8gInNtYWxsIiBmb3IgbG9uZyBsaXN0cyAoPjcgaXRlbXMpIHNvIGV2ZXJ5dGhpbmcgc3RheXMgcmVhY2hhYmxlLAogKiB0aGVuIGh5ZHJhdGVzIGZyb20gbG9jYWxTdG9yYWdlIGFmdGVyIG1vdW50IHNvIFNTUiBtYXJrdXAgbWF0Y2hlcy4KICovCmV4cG9ydCBmdW5jdGlvbiB1c2VMaXN0RGVuc2l0eSgKICBrZXk6IHN0cmluZywKICBpdGVtQ291bnQ6IG51bWJlciwKKTogW0xpc3REZW5zaXR5LCAobmV4dDogTGlzdERlbnNpdHkpID0+IHZvaWRdIHsKICBjb25zdCBmYWxsYmFjazogTGlzdERlbnNpdHkgPSBpdGVtQ291bnQgPiA3ID8gInNtYWxsIiA6ICJsYXJnZSI7CiAgY29uc3QgW3N0b3JlZCwgc2V0U3RvcmVkXSA9IHVzZVN0YXRlPExpc3REZW5zaXR5IHwgbnVsbD4obnVsbCk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICB0cnkgewogICAgICBjb25zdCByYXcgPSB3aW5kb3cubG9jYWxTdG9yYWdlLmdldEl0ZW0oUFJFRklYICsga2V5KSBhcyBMaXN0RGVuc2l0eSB8IG51bGw7CiAgICAgIGlmIChyYXcgJiYgVkFMVUVTLmluY2x1ZGVzKHJhdykpIHNldFN0b3JlZChyYXcpOwogICAgfSBjYXRjaCB7CiAgICAgIC8qIHN0b3JhZ2UgdW5hdmFpbGFibGUgKi8KICAgIH0KICB9LCBba2V5XSk7CgogIGNvbnN0IHVwZGF0ZSA9IHVzZUNhbGxiYWNrKAogICAgKG5leHQ6IExpc3REZW5zaXR5KSA9PiB7CiAgICAgIHNldFN0b3JlZChuZXh0KTsKICAgICAgdHJ5IHsKICAgICAgICB3aW5kb3cubG9jYWxTdG9yYWdlLnNldEl0ZW0oUFJFRklYICsga2V5LCBuZXh0KTsKICAgICAgfSBjYXRjaCB7CiAgICAgICAgLyogc3RvcmFnZSB1bmF2YWlsYWJsZSAqLwogICAgICB9CiAgICB9LAogICAgW2tleV0sCiAgKTsKCiAgcmV0dXJuIFtzdG9yZWQgPz8gZmFsbGJhY2ssIHVwZGF0ZV07Cn0K
+import { useCallback, useEffect, useState } from "react";
+
+export type ListDensity = "small" | "medium" | "large";
+
+const PREFIX = "onsight-density:";
+const VALUES: ListDensity[] = ["small", "medium", "large"];
+
+/**
+ * Per-device list density preference (small / medium / large rows).
+ * Defaults to "small" for long lists (>7 items) so everything stays reachable,
+ * then hydrates from localStorage after mount so SSR markup matches.
+ */
+export function useListDensity(
+  key: string,
+  itemCount: number,
+): [ListDensity, (next: ListDensity) => void] {
+  const fallback: ListDensity = itemCount > 7 ? "small" : "large";
+  const [stored, setStored] = useState<ListDensity | null>(null);
+
+  useEffect(() => {
+    try {
+      const raw = window.localStorage.getItem(PREFIX + key) as ListDensity | null;
+      if (raw && VALUES.includes(raw)) setStored(raw);
+    } catch {
+      /* storage unavailable */
+    }
+  }, [key]);
+
+  const update = useCallback(
+    (next: ListDensity) => {
+      setStored(next);
+      try {
+        window.localStorage.setItem(PREFIX + key, next);
+      } catch {
+        /* storage unavailable */
+      }
+    },
+    [key],
+  );
+
+  return [stored ?? fallback, update];
+}

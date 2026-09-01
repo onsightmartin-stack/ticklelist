@@ -1,1 +1,66 @@
-Q1JFQVRFIE9SIFJFUExBQ0UgRlVOQ1RJT04gcHVibGljLmJ1aWxkX3BlYWtfbGlzdCgKICBfY291bnRyeSB0ZXh0IERFRkFVTFQgTlVMTCwKICBfbWluX2VsZXZhdGlvbiBpbnRlZ2VyIERFRkFVTFQgTlVMTCwKICBfbWluX3Byb21pbmVuY2UgaW50ZWdlciBERUZBVUxUIE5VTEwsCiAgX3NvcnQgdGV4dCBERUZBVUxUICdwcm9taW5lbmNlJywKICBfbGltaXQgaW50ZWdlciBERUZBVUxUIDUwCikKUkVUVVJOUyBUQUJMRSAoCiAgaWQgYmlnaW50LAogIG5hbWUgdGV4dCwKICBsYXQgZG91YmxlIHByZWNpc2lvbiwKICBsb24gZG91YmxlIHByZWNpc2lvbiwKICBjb3VudHJ5X2NvZGUgdGV4dCwKICBhZG1pbjEgdGV4dCwKICBlbGV2YXRpb24gaW50ZWdlciwKICBwcm9taW5lbmNlIGludGVnZXIsCiAgdG90YWxfbWF0Y2hlcyBiaWdpbnQKKQpMQU5HVUFHRSBwbHBnc3FsClNUQUJMRQpTRUNVUklUWSBERUZJTkVSClNFVCBzZWFyY2hfcGF0aCA9IHB1YmxpYwpBUyAkJApERUNMQVJFCiAgbiBpbnRlZ2VyIDo9IExFQVNUKEdSRUFURVNUKENPQUxFU0NFKF9saW1pdCwgNTApLCAxKSwgMzAwKTsKICBjYXAgY29uc3RhbnQgaW50ZWdlciA6PSA1MDAwOwogIGNudCBiaWdpbnQ7CkJFR0lOCiAgU0VMRUNUIGNvdW50KCopIElOVE8gY250IEZST00gKAogICAgU0VMRUNUIDEKICAgIEZST00gcHVibGljLndvcmxkX3BlYWtzIHAKICAgIFdIRVJFIChfY291bnRyeSBJUyBOVUxMIE9SIHAuY291bnRyeV9jb2RlID0gX2NvdW50cnkpCiAgICAgIEFORCBwLmVsZXZhdGlvbiBJUyBOT1QgTlVMTAogICAgICBBTkQgKF9taW5fZWxldmF0aW9uIElTIE5VTEwgT1IgcC5lbGV2YXRpb24gPj0gX21pbl9lbGV2YXRpb24pCiAgICAgIEFORCAoX21pbl9wcm9taW5lbmNlIElTIE5VTEwgT1IgcC5wcm9taW5lbmNlID49IF9taW5fcHJvbWluZW5jZSkKICAgICAgQU5EIChfc29ydCA8PiAncHJvbWluZW5jZScgT1IgcC5wcm9taW5lbmNlIElTIE5PVCBOVUxMKQogICAgTElNSVQgY2FwCiAgKSBzOwoKICBJRiBfc29ydCA9ICdwcm9taW5lbmNlJyBUSEVOCiAgICBSRVRVUk4gUVVFUlkKICAgICAgU0VMRUNUIHAuaWQsIHAubmFtZSwgcC5sYXQsIHAubG9uLCBwLmNvdW50cnlfY29kZSwgcC5hZG1pbjEsIHAuZWxldmF0aW9uLCBwLnByb21pbmVuY2UsIGNudAogICAgICBGUk9NIHB1YmxpYy53b3JsZF9wZWFrcyBwCiAgICAgIFdIRVJFIChfY291bnRyeSBJUyBOVUxMIE9SIHAuY291bnRyeV9jb2RlID0gX2NvdW50cnkpCiAgICAgICAgQU5EIHAuZWxldmF0aW9uIElTIE5PVCBOVUxMCiAgICAgICAgQU5EIHAucHJvbWluZW5jZSBJUyBOT1QgTlVMTAogICAgICAgIEFORCAoX21pbl9lbGV2YXRpb24gSVMgTlVMTCBPUiBwLmVsZXZhdGlvbiA+PSBfbWluX2VsZXZhdGlvbikKICAgICAgICBBTkQgKF9taW5fcHJvbWluZW5jZSBJUyBOVUxMIE9SIHAucHJvbWluZW5jZSA+PSBfbWluX3Byb21pbmVuY2UpCiAgICAgIE9SREVSIEJZIHAucHJvbWluZW5jZSBERVNDCiAgICAgIExJTUlUIG47CiAgRUxTRQogICAgUkVUVVJOIFFVRVJZCiAgICAgIFNFTEVDVCBwLmlkLCBwLm5hbWUsIHAubGF0LCBwLmxvbiwgcC5jb3VudHJ5X2NvZGUsIHAuYWRtaW4xLCBwLmVsZXZhdGlvbiwgcC5wcm9taW5lbmNlLCBjbnQKICAgICAgRlJPTSBwdWJsaWMud29ybGRfcGVha3MgcAogICAgICBXSEVSRSAoX2NvdW50cnkgSVMgTlVMTCBPUiBwLmNvdW50cnlfY29kZSA9IF9jb3VudHJ5KQogICAgICAgIEFORCBwLmVsZXZhdGlvbiBJUyBOT1QgTlVMTAogICAgICAgIEFORCAoX21pbl9lbGV2YXRpb24gSVMgTlVMTCBPUiBwLmVsZXZhdGlvbiA+PSBfbWluX2VsZXZhdGlvbikKICAgICAgICBBTkQgKF9taW5fcHJvbWluZW5jZSBJUyBOVUxMIE9SIHAucHJvbWluZW5jZSA+PSBfbWluX3Byb21pbmVuY2UpCiAgICAgIE9SREVSIEJZIHAuZWxldmF0aW9uIERFU0MKICAgICAgTElNSVQgbjsKICBFTkQgSUY7CkVORDsKJCQ7CgpSRVZPS0UgQUxMIE9OIEZVTkNUSU9OIHB1YmxpYy5idWlsZF9wZWFrX2xpc3QodGV4dCwgaW50ZWdlciwgaW50ZWdlciwgdGV4dCwgaW50ZWdlcikgRlJPTSBQVUJMSUM7CkdSQU5UIEVYRUNVVEUgT04gRlVOQ1RJT04gcHVibGljLmJ1aWxkX3BlYWtfbGlzdCh0ZXh0LCBpbnRlZ2VyLCBpbnRlZ2VyLCB0ZXh0LCBpbnRlZ2VyKSBUTyBhbm9uLCBhdXRoZW50aWNhdGVkLCBzZXJ2aWNlX3JvbGU7
+CREATE OR REPLACE FUNCTION public.build_peak_list(
+  _country text DEFAULT NULL,
+  _min_elevation integer DEFAULT NULL,
+  _min_prominence integer DEFAULT NULL,
+  _sort text DEFAULT 'prominence',
+  _limit integer DEFAULT 50
+)
+RETURNS TABLE (
+  id bigint,
+  name text,
+  lat double precision,
+  lon double precision,
+  country_code text,
+  admin1 text,
+  elevation integer,
+  prominence integer,
+  total_matches bigint
+)
+LANGUAGE plpgsql
+STABLE
+SECURITY DEFINER
+SET search_path = public
+AS $$
+DECLARE
+  n integer := LEAST(GREATEST(COALESCE(_limit, 50), 1), 300);
+  cap constant integer := 5000;
+  cnt bigint;
+BEGIN
+  SELECT count(*) INTO cnt FROM (
+    SELECT 1
+    FROM public.world_peaks p
+    WHERE (_country IS NULL OR p.country_code = _country)
+      AND p.elevation IS NOT NULL
+      AND (_min_elevation IS NULL OR p.elevation >= _min_elevation)
+      AND (_min_prominence IS NULL OR p.prominence >= _min_prominence)
+      AND (_sort <> 'prominence' OR p.prominence IS NOT NULL)
+    LIMIT cap
+  ) s;
+
+  IF _sort = 'prominence' THEN
+    RETURN QUERY
+      SELECT p.id, p.name, p.lat, p.lon, p.country_code, p.admin1, p.elevation, p.prominence, cnt
+      FROM public.world_peaks p
+      WHERE (_country IS NULL OR p.country_code = _country)
+        AND p.elevation IS NOT NULL
+        AND p.prominence IS NOT NULL
+        AND (_min_elevation IS NULL OR p.elevation >= _min_elevation)
+        AND (_min_prominence IS NULL OR p.prominence >= _min_prominence)
+      ORDER BY p.prominence DESC
+      LIMIT n;
+  ELSE
+    RETURN QUERY
+      SELECT p.id, p.name, p.lat, p.lon, p.country_code, p.admin1, p.elevation, p.prominence, cnt
+      FROM public.world_peaks p
+      WHERE (_country IS NULL OR p.country_code = _country)
+        AND p.elevation IS NOT NULL
+        AND (_min_elevation IS NULL OR p.elevation >= _min_elevation)
+        AND (_min_prominence IS NULL OR p.prominence >= _min_prominence)
+      ORDER BY p.elevation DESC
+      LIMIT n;
+  END IF;
+END;
+$$;
+
+REVOKE ALL ON FUNCTION public.build_peak_list(text, integer, integer, text, integer) FROM PUBLIC;
+GRANT EXECUTE ON FUNCTION public.build_peak_list(text, integer, integer, text, integer) TO anon, authenticated, service_role;

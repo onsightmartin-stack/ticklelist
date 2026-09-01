@@ -1,1 +1,158 @@
-aW1wb3J0IHsgdXNlTWVtbywgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCBTZW8gZnJvbSAiQC9jb21wb25lbnRzL1NlbyI7CmltcG9ydCB7IExpbmsgfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKaW1wb3J0IHsgVXNlcnMgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgQ29tbXVuaXR5TGF5b3V0IGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvQ29tbXVuaXR5TGF5b3V0IjsKaW1wb3J0IE1lbWJlcnNPbmx5IGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvTWVtYmVyc09ubHkiOwppbXBvcnQgTWVtYmVyQXZhdGFyIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvTWVtYmVyQXZhdGFyIjsKaW1wb3J0IEZvbGxvd0J1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L0ZvbGxvd0J1dHRvbiI7CmltcG9ydCBBY3Rpdml0eUZlZWQgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9BY3Rpdml0eUZlZWQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvaG9va3MvdXNlQXV0aCI7CmltcG9ydCB7IHVzZUNvbW11bml0eURhdGEgfSBmcm9tICJAL2hvb2tzL3VzZUNvbW11bml0eURhdGEiOwppbXBvcnQgeyB1c2VGb2xsb3dzIH0gZnJvbSAiQC9ob29rcy91c2VGb2xsb3dzIjsKaW1wb3J0IHR5cGUgeyBQdWJsaWNQcm9maWxlIH0gZnJvbSAiQC9saWIvY29tbXVuaXR5IjsKCnR5cGUgVGFiID0gImZlZWQiIHwgImZvbGxvd2luZyIgfCAiZm9sbG93ZXJzIjsKCmNvbnN0IEZvbGxvd2luZ1BhZ2UgPSAoKSA9PiB7CiAgY29uc3QgeyB1c2VyIH0gPSB1c2VBdXRoKCk7CiAgY29uc3QgeyBwcm9maWxlcywgYXNjZW50cywgYWR2ZW50dXJlcywgc2lnbnVwcywgZmV0Y2hpbmcgfSA9IHVzZUNvbW11bml0eURhdGEoKTsKICBjb25zdCB7IGZvbGxvd2luZywgZm9sbG93ZXJzLCBmb2xsb3dlckNvdW50cywgdG9nZ2xlRm9sbG93IH0gPSB1c2VGb2xsb3dzKCk7CiAgY29uc3QgW3RhYiwgc2V0VGFiXSA9IHVzZVN0YXRlPFRhYj4oImZlZWQiKTsKCiAgY29uc3QgbGlzdCA9IChpZHM6IFNldDxzdHJpbmc+KTogKFB1YmxpY1Byb2ZpbGUgJiB7IGFzY2VudENvdW50OiBudW1iZXIgfSlbXSA9PiB7CiAgICBjb25zdCBjb3VudHM6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7fTsKICAgIGFzY2VudHMuZm9yRWFjaCgoYSkgPT4geyBjb3VudHNbYS51c2VyX2lkXSA9IChjb3VudHNbYS51c2VyX2lkXSA/PyAwKSArIDE7IH0pOwogICAgcmV0dXJuIFsuLi5pZHNdCiAgICAgIC5tYXAoKGlkKSA9PiBwcm9maWxlc1tpZF0pCiAgICAgIC5maWx0ZXIoKHApOiBwIGlzIFB1YmxpY1Byb2ZpbGUgPT4gQm9vbGVhbihwKSkKICAgICAgLm1hcCgocCkgPT4gKHsgLi4ucCwgYXNjZW50Q291bnQ6IGNvdW50c1twLmlkXSA/PyAwIH0pKQogICAgICAuc29ydCgoYSwgYikgPT4gYi5hc2NlbnRDb3VudCAtIGEuYXNjZW50Q291bnQgfHwgKGEuZGlzcGxheV9uYW1lID8/ICIiKS5sb2NhbGVDb21wYXJlKGIuZGlzcGxheV9uYW1lID8/ICIiKSk7CiAgfTsKCiAgY29uc3QgZm9sbG93aW5nTGlzdCA9IHVzZU1lbW8oKCkgPT4gbGlzdChmb2xsb3dpbmcpLCBbZm9sbG93aW5nLCBwcm9maWxlcywgYXNjZW50c10pOwogIGNvbnN0IGZvbGxvd2VyTGlzdCA9IHVzZU1lbW8oKCkgPT4gbGlzdChmb2xsb3dlcnMpLCBbZm9sbG93ZXJzLCBwcm9maWxlcywgYXNjZW50c10pOwoKICBjb25zdCBmb2xsb3dpbmdBc2NlbnRzID0gdXNlTWVtbygKICAgICgpID0+IGFzY2VudHMuZmlsdGVyKChhKSA9PiBmb2xsb3dpbmcuaGFzKGEudXNlcl9pZCkgfHwgYS51c2VyX2lkID09PSB1c2VyPy5pZCksCiAgICBbYXNjZW50cywgZm9sbG93aW5nLCB1c2VyXSwKICApOwogIGNvbnN0IGZvbGxvd2luZ0FkdmVudHVyZXMgPSB1c2VNZW1vKAogICAgKCkgPT4gYWR2ZW50dXJlcy5maWx0ZXIoKGEpID0+IGZvbGxvd2luZy5oYXMoYS5jcmVhdG9yX2lkKSB8fCBhLmNyZWF0b3JfaWQgPT09IHVzZXI/LmlkKSwKICAgIFthZHZlbnR1cmVzLCBmb2xsb3dpbmcsIHVzZXJdLAogICk7CgogIGNvbnN0IHRhYnM6IHsgaWQ6IFRhYjsgbGFiZWw6IHN0cmluZyB9W10gPSBbCiAgICB7IGlkOiAiZmVlZCIsIGxhYmVsOiAiRm9sbG93aW5nIGZlZWQiIH0sCiAgICB7IGlkOiAiZm9sbG93aW5nIiwgbGFiZWw6IGBGb2xsb3dpbmcgwrcgJHtmb2xsb3dpbmcuc2l6ZX1gIH0sCiAgICB7IGlkOiAiZm9sbG93ZXJzIiwgbGFiZWw6IGBGb2xsb3dlcnMgwrcgJHtmb2xsb3dlcnMuc2l6ZX1gIH0sCiAgXTsKCiAgY29uc3QgcmVuZGVyUGVvcGxlID0gKHBlb3BsZTogKFB1YmxpY1Byb2ZpbGUgJiB7IGFzY2VudENvdW50OiBudW1iZXIgfSlbXSwgZW1wdHk6IHN0cmluZykgPT4KICAgIHBlb3BsZS5sZW5ndGggPT09IDAgPyAoCiAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgcHktNiI+e2VtcHR5fTwvcD4KICAgICkgOiAoCiAgICAgIDx1bCBjbGFzc05hbWU9ImdyaWQgc206Z3JpZC1jb2xzLTIgZ2FwLTMiPgogICAgICAgIHtwZW9wbGUubWFwKChtKSA9PiAoCiAgICAgICAgICA8bGkga2V5PXttLmlkfSBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBwLTQgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgICAgICA8TGluayB0bz17YC9jb21tdW5pdHkvbWVtYmVycy8ke20uaWR9YH0gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyBtaW4tdy0wIGZsZXgtMSI+CiAgICAgICAgICAgICAgPE1lbWJlckF2YXRhciBwYXRoPXttLmF2YXRhcl91cmx9IG5hbWU9e20uZGlzcGxheV9uYW1lfSBjbGFzc05hbWU9ImgtMTAgdy0xMCIgLz4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCI+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlciB0cnVuY2F0ZSI+e20uZGlzcGxheV9uYW1lfTwvcD4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgdHJ1bmNhdGUiPgogICAgICAgICAgICAgICAgICB7bS5hc2NlbnRDb3VudH0gYXNjZW50e20uYXNjZW50Q291bnQgPT09IDEgPyAiIiA6ICJzIn0KICAgICAgICAgICAgICAgICAge20uY291bnRyeSA/IGAgwrcgJHttLmNvdW50cnl9YCA6ICIifQogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgIHt1c2VyICYmIHVzZXIuaWQgIT09IG0uaWQgJiYgKAogICAgICAgICAgICAgIDxGb2xsb3dCdXR0b24KICAgICAgICAgICAgICAgIGlzRm9sbG93aW5nPXtmb2xsb3dpbmcuaGFzKG0uaWQpfQogICAgICAgICAgICAgICAgZm9sbG93ZXJDb3VudD17Zm9sbG93ZXJDb3VudHNbbS5pZF19CiAgICAgICAgICAgICAgICBvblRvZ2dsZT17KCkgPT4gdG9nZ2xlRm9sbG93KG0uaWQpfQogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICl9CiAgICAgICAgICA8L2xpPgogICAgICAgICkpfQogICAgICA8L3VsPgogICAgKTsKCiAgaWYgKCF1c2VyKSB7CiAgICByZXR1cm4gKAogICAgICA8Q29tbXVuaXR5TGF5b3V0PgogICAgICA8U2VvCiAgICAgICAgdGl0bGU9IkZvbGxvd2luZyDigJQgVGlja2xlbGlzdCIKICAgICAgICBkZXNjcmlwdGlvbj0iQXNjZW50cyBhbmQgYWR2ZW50dXJlcyBmcm9tIHRoZSBjbGltYmVycyB5b3UgZm9sbG93LCBwbHVzIHlvdXIgZm9sbG93ZXJzIGxpc3QuIgogICAgICAgIG5vaW5kZXgKICAgICAgLz4KICAgICAgICA8TWVtYmVyc09ubHkgdGl0bGU9IkZvbGxvd2luZyBpcyBtZW1iZXJzIG9ubHkiIGRlc2NyaXB0aW9uPSJTaWduIGluIHRvIGZvbGxvdyBjbGltYmVycyBhbmQgZ2V0IGEgZmVlZCBvZiBqdXN0IHRoZWlyIGFzY2VudHMgYW5kIGFkdmVudHVyZXMuIiAvPgogICAgICA8L0NvbW11bml0eUxheW91dD4KICAgICk7CiAgfQoKICByZXR1cm4gKAogICAgPENvbW11bml0eUxheW91dD4KICAgICAgPFNlbwogICAgICAgIHRpdGxlPSJGb2xsb3dpbmcg4oCUIFRpY2tsZWxpc3QiCiAgICAgICAgZGVzY3JpcHRpb249IkFzY2VudHMgYW5kIGFkdmVudHVyZXMgZnJvbSB0aGUgY2xpbWJlcnMgeW91IGZvbGxvdywgcGx1cyB5b3VyIGZvbGxvd2VycyBsaXN0LiIKICAgICAgICBub2luZGV4CiAgICAgIC8+CgogICAgICA8aDEgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0yeGwgdHJhY2tpbmctd2lkZXIgbWItMiI+Rm9sbG93aW5nPC9oMT4KICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtYi01Ij4KICAgICAgICBVcGRhdGVzIGZyb20gdGhlIGNsaW1iZXJzIHlvdSBmb2xsb3csIGFuZCB0aGUgcGVvcGxlIGZvbGxvd2luZyB5b3UuCiAgICAgIDwvcD4KCiAgICAgIHshdXNlciA/ICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWRhc2hlZCBib3JkZXItYm9yZGVyIHAtMTAgdGV4dC1jZW50ZXIiPgogICAgICAgICAgPFVzZXJzIGNsYXNzTmFtZT0idy02IGgtNiBteC1hdXRvIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMyB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+U2lnbiBpbiB0byBmb2xsb3cgY2xpbWJlcnMgYW5kIGJ1aWxkIHlvdXIgZmVlZC48L3A+CiAgICAgICAgICA8QnV0dG9uIGFzQ2hpbGQgY2xhc3NOYW1lPSJtdC00Ij48TGluayB0bz0iL2F1dGgiPlNpZ24gaW48L0xpbms+PC9CdXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgICkgOiAoCiAgICAgICAgPD4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMSByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIHAtMC41IHctZml0IG1iLTUiPgogICAgICAgICAgICB7dGFicy5tYXAoKHQpID0+ICgKICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICBrZXk9e3QuaWR9CiAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgIHZhcmlhbnQ9e3RhYiA9PT0gdC5pZCA/ICJzZWNvbmRhcnkiIDogImdob3N0In0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaC03IHRleHQtWzExcHhdIHRyYWNraW5nLXdpZGUiCiAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRUYWIodC5pZCl9CiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3QubGFiZWx9CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC9kaXY+CgogICAgICAgICAge2ZldGNoaW5nID8gKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5Mb2FkaW5n4oCmPC9wPgogICAgICAgICAgKSA6IHRhYiA9PT0gImZlZWQiID8gKAogICAgICAgICAgICBmb2xsb3dpbmcuc2l6ZSA9PT0gMCA/ICgKICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHB5LTYiPgogICAgICAgICAgICAgICAgWW91J3JlIG5vdCBmb2xsb3dpbmcgYW55b25lIHlldCDigJR7IiAifQogICAgICAgICAgICAgICAgPExpbmsgdG89Ii9jb21tdW5pdHkvbWVtYmVycyIgY2xhc3NOYW1lPSJ0ZXh0LXByaW1hcnkgdW5kZXJsaW5lIj5maW5kIG1lbWJlcnM8L0xpbms+IHRvIGZvbGxvdy4KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgPEFjdGl2aXR5RmVlZAogICAgICAgICAgICAgICAgYXNjZW50cz17Zm9sbG93aW5nQXNjZW50c30KICAgICAgICAgICAgICAgIGFkdmVudHVyZXM9e2ZvbGxvd2luZ0FkdmVudHVyZXN9CiAgICAgICAgICAgICAgICBzaWdudXBzPXtzaWdudXBzfQogICAgICAgICAgICAgICAgcHJvZmlsZXM9e3Byb2ZpbGVzfQogICAgICAgICAgICAgICAgY3VycmVudFVzZXJJZD17dXNlci5pZH0KICAgICAgICAgICAgICAvPgogICAgICAgICAgICApCiAgICAgICAgICApIDogdGFiID09PSAiZm9sbG93aW5nIiA/ICgKICAgICAgICAgICAgcmVuZGVyUGVvcGxlKGZvbGxvd2luZ0xpc3QsICJZb3UncmUgbm90IGZvbGxvd2luZyBhbnlvbmUgeWV0LiIpCiAgICAgICAgICApIDogKAogICAgICAgICAgICByZW5kZXJQZW9wbGUoZm9sbG93ZXJMaXN0LCAiTm8gb25lIGlzIGZvbGxvd2luZyB5b3UgeWV0LiIpCiAgICAgICAgICApfQogICAgICAgIDwvPgogICAgICApfQogICAgPC9Db21tdW5pdHlMYXlvdXQ+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IEZvbGxvd2luZ1BhZ2U7Cg==
+import { useMemo, useState } from "react";
+import Seo from "@/components/Seo";
+import { Link } from "@/lib/router-compat";
+import { Users } from "lucide-react";
+import CommunityLayout from "@/components/community/CommunityLayout";
+import MembersOnly from "@/components/community/MembersOnly";
+import MemberAvatar from "@/components/community/MemberAvatar";
+import FollowButton from "@/components/community/FollowButton";
+import ActivityFeed from "@/components/community/ActivityFeed";
+import { Button } from "@/components/ui/button";
+import { useAuth } from "@/hooks/useAuth";
+import { useCommunityData } from "@/hooks/useCommunityData";
+import { useFollows } from "@/hooks/useFollows";
+import type { PublicProfile } from "@/lib/community";
+
+type Tab = "feed" | "following" | "followers";
+
+const FollowingPage = () => {
+  const { user } = useAuth();
+  const { profiles, ascents, adventures, signups, fetching } = useCommunityData();
+  const { following, followers, followerCounts, toggleFollow } = useFollows();
+  const [tab, setTab] = useState<Tab>("feed");
+
+  const list = (ids: Set<string>): (PublicProfile & { ascentCount: number })[] => {
+    const counts: Record<string, number> = {};
+    ascents.forEach((a) => { counts[a.user_id] = (counts[a.user_id] ?? 0) + 1; });
+    return [...ids]
+      .map((id) => profiles[id])
+      .filter((p): p is PublicProfile => Boolean(p))
+      .map((p) => ({ ...p, ascentCount: counts[p.id] ?? 0 }))
+      .sort((a, b) => b.ascentCount - a.ascentCount || (a.display_name ?? "").localeCompare(b.display_name ?? ""));
+  };
+
+  const followingList = useMemo(() => list(following), [following, profiles, ascents]);
+  const followerList = useMemo(() => list(followers), [followers, profiles, ascents]);
+
+  const followingAscents = useMemo(
+    () => ascents.filter((a) => following.has(a.user_id) || a.user_id === user?.id),
+    [ascents, following, user],
+  );
+  const followingAdventures = useMemo(
+    () => adventures.filter((a) => following.has(a.creator_id) || a.creator_id === user?.id),
+    [adventures, following, user],
+  );
+
+  const tabs: { id: Tab; label: string }[] = [
+    { id: "feed", label: "Following feed" },
+    { id: "following", label: `Following · ${following.size}` },
+    { id: "followers", label: `Followers · ${followers.size}` },
+  ];
+
+  const renderPeople = (people: (PublicProfile & { ascentCount: number })[], empty: string) =>
+    people.length === 0 ? (
+      <p className="text-sm text-muted-foreground py-6">{empty}</p>
+    ) : (
+      <ul className="grid sm:grid-cols-2 gap-3">
+        {people.map((m) => (
+          <li key={m.id} className="rounded-lg border border-border bg-card p-4 flex items-center gap-3">
+            <Link to={`/community/members/${m.id}`} className="flex items-center gap-3 min-w-0 flex-1">
+              <MemberAvatar path={m.avatar_url} name={m.display_name} className="h-10 w-10" />
+              <div className="min-w-0">
+                <p className="font-display tracking-wider truncate">{m.display_name}</p>
+                <p className="text-xs text-muted-foreground truncate">
+                  {m.ascentCount} ascent{m.ascentCount === 1 ? "" : "s"}
+                  {m.country ? ` · ${m.country}` : ""}
+                </p>
+              </div>
+            </Link>
+            {user && user.id !== m.id && (
+              <FollowButton
+                isFollowing={following.has(m.id)}
+                followerCount={followerCounts[m.id]}
+                onToggle={() => toggleFollow(m.id)}
+              />
+            )}
+          </li>
+        ))}
+      </ul>
+    );
+
+  if (!user) {
+    return (
+      <CommunityLayout>
+      <Seo
+        title="Following — Ticklelist"
+        description="Ascents and adventures from the climbers you follow, plus your followers list."
+        noindex
+      />
+        <MembersOnly title="Following is members only" description="Sign in to follow climbers and get a feed of just their ascents and adventures." />
+      </CommunityLayout>
+    );
+  }
+
+  return (
+    <CommunityLayout>
+      <Seo
+        title="Following — Ticklelist"
+        description="Ascents and adventures from the climbers you follow, plus your followers list."
+        noindex
+      />
+
+      <h1 className="font-display text-2xl tracking-wider mb-2">Following</h1>
+      <p className="text-sm text-muted-foreground mb-5">
+        Updates from the climbers you follow, and the people following you.
+      </p>
+
+      {!user ? (
+        <div className="rounded-lg border border-dashed border-border p-10 text-center">
+          <Users className="w-6 h-6 mx-auto text-muted-foreground" />
+          <p className="mt-3 text-sm text-muted-foreground">Sign in to follow climbers and build your feed.</p>
+          <Button asChild className="mt-4"><Link to="/auth">Sign in</Link></Button>
+        </div>
+      ) : (
+        <>
+          <div className="flex flex-wrap gap-1 rounded-md border border-border p-0.5 w-fit mb-5">
+            {tabs.map((t) => (
+              <Button
+                key={t.id}
+                type="button"
+                size="sm"
+                variant={tab === t.id ? "secondary" : "ghost"}
+                className="h-7 text-[11px] tracking-wide"
+                onClick={() => setTab(t.id)}
+              >
+                {t.label}
+              </Button>
+            ))}
+          </div>
+
+          {fetching ? (
+            <p className="text-sm text-muted-foreground">Loading…</p>
+          ) : tab === "feed" ? (
+            following.size === 0 ? (
+              <p className="text-sm text-muted-foreground py-6">
+                You're not following anyone yet —{" "}
+                <Link to="/community/members" className="text-primary underline">find members</Link> to follow.
+              </p>
+            ) : (
+              <ActivityFeed
+                ascents={followingAscents}
+                adventures={followingAdventures}
+                signups={signups}
+                profiles={profiles}
+                currentUserId={user.id}
+              />
+            )
+          ) : tab === "following" ? (
+            renderPeople(followingList, "You're not following anyone yet.")
+          ) : (
+            renderPeople(followerList, "No one is following you yet.")
+          )}
+        </>
+      )}
+    </CommunityLayout>
+  );
+};
+
+export default FollowingPage;

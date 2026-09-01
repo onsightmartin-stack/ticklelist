@@ -1,1 +1,4 @@
-VVBEQVRFIHB1YmxpYy5hc2NlbnRzIFNFVCBjb3VudHJ5ID0gJ0F1c3RyaWEnIFdIRVJFIGNvdW50cnkgPSAnQVQnOwpERUxFVEUgRlJPTSBwdWJsaWMudmlzaXRzIFdIRVJFIHBsYWNlX2tleSBJTiAoJ2NvOkFUJywnY286VVNBJyk7ClVQREFURSBwdWJsaWMudmlzaXRzIFNFVCBjb3VudHJ5ID0gJ0F1c3RyaWEnLCBwbGFjZV9uYW1lID0gJ0F1c3RyaWEnLCBwbGFjZV9rZXkgPSAnY286QXVzdHJpYScgV0hFUkUgY291bnRyeSA9ICdBVCc7ClVQREFURSBwdWJsaWMudmlzaXRzIFNFVCBjb3VudHJ5ID0gJ1VuaXRlZCBTdGF0ZXMnLCBwbGFjZV9uYW1lID0gJ1VuaXRlZCBTdGF0ZXMnLCBwbGFjZV9rZXkgPSAnY286VW5pdGVkIFN0YXRlcycgV0hFUkUgY291bnRyeSA9ICdVU0EnOw==
+UPDATE public.ascents SET country = 'Austria' WHERE country = 'AT';
+DELETE FROM public.visits WHERE place_key IN ('co:AT','co:USA');
+UPDATE public.visits SET country = 'Austria', place_name = 'Austria', place_key = 'co:Austria' WHERE country = 'AT';
+UPDATE public.visits SET country = 'United States', place_name = 'United States', place_key = 'co:United States' WHERE country = 'USA';

@@ -1,1 +1,37 @@
-aW1wb3J0IHsgdXNlTWVtbyB9IGZyb20gInJlYWN0IjsKaW1wb3J0IEF2YXRhcjNEIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvQXZhdGFyM0QiOwppbXBvcnQgeyBkZWNvZGVBdmF0YXJDb25maWcgfSBmcm9tICJAL2xpYi9hdmF0YXItYnVpbGRlciI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiOwoKaW50ZXJmYWNlIEF2YXRhckZpZ3VyZVByb3BzIHsKICBwYXRoOiBzdHJpbmcgfCBudWxsOwogIG5hbWU6IHN0cmluZzsKICBjbGFzc05hbWU/OiBzdHJpbmc7CiAgLyoqIEZvcmNlIGFuaW1hdGlvbiBvbi9vZmY7IGRlZmF1bHRzIHRvIHRoZSBtZW1iZXIncyBzYXZlZCBwcmVmZXJlbmNlLiAqLwogIGFuaW1hdGVkPzogYm9vbGVhbjsKICAvKiogQWxsb3cgZHJhZy10by1zcGluLiBPZmYgYnkgZGVmYXVsdCBmb3Igc21hbGwgaW4tZmVlZCBmaWd1cmVzLiAqLwogIGludGVyYWN0aXZlPzogYm9vbGVhbjsKfQoKLyoqCiAqIEZ1bGwtYm9keSBsb3ctcG9seSAzRCBjbGltYmVyIHVzZWQgaW4gZmVlZHMgYW5kIGNhcmRzLiBSZXR1cm5zIG51bGwgd2hlbiB0aGUKICogbWVtYmVyIHVzZXMgYW4gdXBsb2FkZWQgcGhvdG8gaW5zdGVhZCBvZiBhIGRlc2lnbmVkIGF2YXRhciwgc28gY2FsbCBzaXRlcyBjYW4KICogZmFsbCBiYWNrIHRvIHRoZSB1c3VhbCByb3VuZCBwb3J0cmFpdC4KICovCmNvbnN0IEF2YXRhckZpZ3VyZSA9ICh7IHBhdGgsIG5hbWUsIGNsYXNzTmFtZSwgYW5pbWF0ZWQsIGludGVyYWN0aXZlID0gZmFsc2UgfTogQXZhdGFyRmlndXJlUHJvcHMpID0+IHsKICBjb25zdCBjb25maWcgPSB1c2VNZW1vKCgpID0+IGRlY29kZUF2YXRhckNvbmZpZyhwYXRoKSwgW3BhdGhdKTsKICBpZiAoIWNvbmZpZykgcmV0dXJuIG51bGw7CgogIHJldHVybiAoCiAgICA8QXZhdGFyM0QKICAgICAgY29uZmlnPXtjb25maWd9CiAgICAgIG5hbWU9e25hbWV9CiAgICAgIGNsYXNzTmFtZT17Y24oY2xhc3NOYW1lLCAhaW50ZXJhY3RpdmUgJiYgInBvaW50ZXItZXZlbnRzLW5vbmUiKX0KICAgICAgY29udHJvbHM9e2ZhbHNlfQogICAgICBzcGluU3BlZWQ9e2ludGVyYWN0aXZlID8gMTggOiAwfQogICAgICB7Li4uKGFuaW1hdGVkID09PSB1bmRlZmluZWQgPyB7fSA6IHsgYW5pbWF0ZWQgfSl9CiAgICAvPgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBBdmF0YXJGaWd1cmU7Cg==
+import { useMemo } from "react";
+import Avatar3D from "@/components/community/Avatar3D";
+import { decodeAvatarConfig } from "@/lib/avatar-builder";
+import { cn } from "@/lib/utils";
+
+interface AvatarFigureProps {
+  path: string | null;
+  name: string;
+  className?: string;
+  /** Force animation on/off; defaults to the member's saved preference. */
+  animated?: boolean;
+  /** Allow drag-to-spin. Off by default for small in-feed figures. */
+  interactive?: boolean;
+}
+
+/**
+ * Full-body low-poly 3D climber used in feeds and cards. Returns null when the
+ * member uses an uploaded photo instead of a designed avatar, so call sites can
+ * fall back to the usual round portrait.
+ */
+const AvatarFigure = ({ path, name, className, animated, interactive = false }: AvatarFigureProps) => {
+  const config = useMemo(() => decodeAvatarConfig(path), [path]);
+  if (!config) return null;
+
+  return (
+    <Avatar3D
+      config={config}
+      name={name}
+      className={cn(className, !interactive && "pointer-events-none")}
+      controls={false}
+      spinSpeed={interactive ? 18 : 0}
+      {...(animated === undefined ? {} : { animated })}
+    />
+  );
+};
+
+export default AvatarFigure;

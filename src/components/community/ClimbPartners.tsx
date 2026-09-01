@@ -1,1 +1,224 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VNZW1vLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQ2hlY2ssIExpbmsyLCBQbHVzLCBVc2VyUGx1cywgWCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CgppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgU3dpdGNoIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N3aXRjaCI7CmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAL2hvb2tzL3VzZS10b2FzdCI7CmltcG9ydCB7IGZ1enp5TWF0Y2ggfSBmcm9tICJAL2xpYi9mdXp6eSI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiOwppbXBvcnQgeyBjb21tdW5pdHlIcmVmIH0gZnJvbSAiQC9saWIvc2l0ZS1saW5rcyI7CgppbnRlcmZhY2UgUGFydG5lclByb2ZpbGUgewogIGlkOiBzdHJpbmc7CiAgZGlzcGxheV9uYW1lOiBzdHJpbmc7CiAgYXZhdGFyX3VybDogc3RyaW5nIHwgbnVsbDsKfQoKaW50ZXJmYWNlIENsaW1iUGFydG5lcnNQcm9wcyB7CiAgLyoqIFNpZ25lZC1pbiBtZW1iZXIg4oCUIG5ldmVyIG9mZmVyZWQgYXMgdGhlaXIgb3duIGNvLWNsaW1iZXIuICovCiAgdXNlcklkOiBzdHJpbmc7CiAgcGFydG5lcklkczogc3RyaW5nW107CiAgcGFydG5lck5hbWVzOiBzdHJpbmdbXTsKICB3aXRoR3JvdXA6IGJvb2xlYW47CiAgb25DaGFuZ2U6IChuZXh0OiB7IHBhcnRuZXJJZHM6IHN0cmluZ1tdOyBwYXJ0bmVyTmFtZXM6IHN0cmluZ1tdOyB3aXRoR3JvdXA6IGJvb2xlYW4gfSkgPT4gdm9pZDsKICAvKiogQ2F0YWxvZyBrZXkgb2YgdGhlIHBpY2tlZCBwZWFrLCB1c2VkIHRvIHByZS1maWxsIHRoZSBpbnZpdGUgbGluay4gKi8KICBwZWFrS2V5Pzogc3RyaW5nIHwgdW5kZWZpbmVkOwogIHBlYWtOYW1lPzogc3RyaW5nIHwgdW5kZWZpbmVkOwogIC8qKiBIZWFkaW5nIHNob3duIGFib3ZlIHRoZSBwaWNrZXIuICovCiAgbGFiZWw/OiBzdHJpbmcgfCB1bmRlZmluZWQ7CiAgLyoqIEhpZGUgdGhlIGZyZWUtdGV4dCBuYW1lIGZpZWxkIChlLmcuIHdoZW4gb25seSBtZW1iZXJzIGNhbiBiZSBpbnZpdGVkKS4gKi8KICBoaWRlTmFtZXM/OiBib29sZWFuIHwgdW5kZWZpbmVkOwogIC8qKiBIaWRlIHRoZSAid2l0aCBhIGdyb3VwIiBzd2l0Y2guICovCiAgaGlkZUdyb3VwPzogYm9vbGVhbiB8IHVuZGVmaW5lZDsKICAvKiogUGxhY2Vob2xkZXIgZm9yIHRoZSBtZW1iZXIgc2VhcmNoIGZpZWxkLiAqLwogIHNlYXJjaFBsYWNlaG9sZGVyPzogc3RyaW5nIHwgdW5kZWZpbmVkOwp9CgovKioKICogQ28tY2xpbWJlciBwaWNrZXI6IGxpbmsgVGlja2xlbGlzdCBtZW1iZXJzLCBhZGQgbmFtZXMgb2YgZnJpZW5kcyB3aG8gYXJlbid0CiAqIG1lbWJlcnMgeWV0LCBmbGFnIGEgZ3JvdXAgb3V0aW5nLCBhbmQgc2hhcmUgYW4gaW52aXRlIGxpbmsgdGhhdCBvcGVucyB0aGUKICogYXNjZW50IGZvcm0gd2l0aCB0aGUgc2FtZSBwZWFrIHByZS1maWxsZWQuCiAqLwpjb25zdCBDbGltYlBhcnRuZXJzID0gKHsKICB1c2VySWQsCiAgcGFydG5lcklkcywKICBwYXJ0bmVyTmFtZXMsCiAgd2l0aEdyb3VwLAogIG9uQ2hhbmdlLAogIHBlYWtLZXksCiAgcGVha05hbWUsCiAgbGFiZWwsCiAgaGlkZU5hbWVzID0gZmFsc2UsCiAgaGlkZUdyb3VwID0gZmFsc2UsCiAgc2VhcmNoUGxhY2Vob2xkZXIsCn06IENsaW1iUGFydG5lcnNQcm9wcykgPT4gewogIGNvbnN0IFttZW1iZXJzLCBzZXRNZW1iZXJzXSA9IHVzZVN0YXRlPFBhcnRuZXJQcm9maWxlW10+KFtdKTsKICBjb25zdCBbcXVlcnksIHNldFF1ZXJ5XSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbbmFtZURyYWZ0LCBzZXROYW1lRHJhZnRdID0gdXNlU3RhdGUoIiIpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgbGV0IGFsaXZlID0gdHJ1ZTsKICAgIHZvaWQgc3VwYWJhc2UKICAgICAgLmZyb20oInByb2ZpbGVzIikKICAgICAgLnNlbGVjdCgiaWQsIGRpc3BsYXlfbmFtZSwgYXZhdGFyX3VybCIpCiAgICAgIC5saW1pdCgxMDAwKQogICAgICAudGhlbigoeyBkYXRhIH0pID0+IHsKICAgICAgICBpZiAoYWxpdmUgJiYgZGF0YSkgc2V0TWVtYmVycyhkYXRhIGFzIFBhcnRuZXJQcm9maWxlW10pOwogICAgICB9KTsKICAgIHJldHVybiAoKSA9PiB7CiAgICAgIGFsaXZlID0gZmFsc2U7CiAgICB9OwogIH0sIFtdKTsKCiAgY29uc3QgYnlJZCA9IHVzZU1lbW8oKCkgPT4gbmV3IE1hcChtZW1iZXJzLm1hcCgobSkgPT4gW20uaWQsIG1dKSksIFttZW1iZXJzXSk7CgogIGNvbnN0IHN1Z2dlc3Rpb25zID0gdXNlTWVtbygoKSA9PiB7CiAgICBjb25zdCBxID0gcXVlcnkudHJpbSgpOwogICAgaWYgKHEubGVuZ3RoIDwgMSkgcmV0dXJuIFtdOwogICAgcmV0dXJuIG1lbWJlcnMKICAgICAgLmZpbHRlcigobSkgPT4gbS5pZCAhPT0gdXNlcklkICYmICFwYXJ0bmVySWRzLmluY2x1ZGVzKG0uaWQpKQogICAgICAuZmlsdGVyKChtKSA9PiBmdXp6eU1hdGNoKHEsIG0uZGlzcGxheV9uYW1lKSkKICAgICAgLnNsaWNlKDAsIDYpOwogIH0sIFtxdWVyeSwgbWVtYmVycywgcGFydG5lcklkcywgdXNlcklkXSk7CgogIGNvbnN0IGFkZE1lbWJlciA9IChpZDogc3RyaW5nKSA9PiB7CiAgICBvbkNoYW5nZSh7IHBhcnRuZXJJZHM6IFsuLi5wYXJ0bmVySWRzLCBpZF0sIHBhcnRuZXJOYW1lcywgd2l0aEdyb3VwIH0pOwogICAgc2V0UXVlcnkoIiIpOwogIH07CgogIGNvbnN0IHJlbW92ZU1lbWJlciA9IChpZDogc3RyaW5nKSA9PgogICAgb25DaGFuZ2UoeyBwYXJ0bmVySWRzOiBwYXJ0bmVySWRzLmZpbHRlcigocCkgPT4gcCAhPT0gaWQpLCBwYXJ0bmVyTmFtZXMsIHdpdGhHcm91cCB9KTsKCiAgY29uc3QgYWRkTmFtZSA9ICgpID0+IHsKICAgIGNvbnN0IG4gPSBuYW1lRHJhZnQudHJpbSgpLnNsaWNlKDAsIDYwKTsKICAgIGlmICghbikgcmV0dXJuOwogICAgaWYgKHBhcnRuZXJOYW1lcy5zb21lKCh4KSA9PiB4LnRvTG93ZXJDYXNlKCkgPT09IG4udG9Mb3dlckNhc2UoKSkpIHsKICAgICAgc2V0TmFtZURyYWZ0KCIiKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgb25DaGFuZ2UoeyBwYXJ0bmVySWRzLCBwYXJ0bmVyTmFtZXM6IFsuLi5wYXJ0bmVyTmFtZXMsIG5dLCB3aXRoR3JvdXAgfSk7CiAgICBzZXROYW1lRHJhZnQoIiIpOwogIH07CgogIGNvbnN0IHJlbW92ZU5hbWUgPSAobjogc3RyaW5nKSA9PgogICAgb25DaGFuZ2UoeyBwYXJ0bmVySWRzLCBwYXJ0bmVyTmFtZXM6IHBhcnRuZXJOYW1lcy5maWx0ZXIoKHgpID0+IHggIT09IG4pLCB3aXRoR3JvdXAgfSk7CgogIGNvbnN0IGludml0ZUxpbmsgPSB1c2VNZW1vKCgpID0+IHsKICAgIGNvbnN0IHBhcmFtcyA9IG5ldyBVUkxTZWFyY2hQYXJhbXMoeyBuZXc6ICIxIiwgZnJvbTogdXNlcklkIH0pOwogICAgaWYgKHBlYWtLZXkpIHBhcmFtcy5zZXQoInBlYWsiLCBwZWFrS2V5KTsKICAgIGNvbnN0IGhyZWYgPSBjb21tdW5pdHlIcmVmKCIvYXNjZW50cyIpOwogICAgY29uc3QgYmFzZSA9IGhyZWYuc3RhcnRzV2l0aCgiaHR0cCIpCiAgICAgID8gaHJlZgogICAgICA6IGAke3R5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiID8gImh0dHBzOi8vdGlja2xlbGlzdC5vcmciIDogd2luZG93LmxvY2F0aW9uLm9yaWdpbn0ke2hyZWZ9YDsKICAgIHJldHVybiBgJHtiYXNlfT8ke3BhcmFtcy50b1N0cmluZygpfWA7CiAgfSwgW3BlYWtLZXksIHVzZXJJZF0pOwoKICBjb25zdCBjb3B5SW52aXRlID0gYXN5bmMgKCkgPT4gewogICAgdHJ5IHsKICAgICAgYXdhaXQgbmF2aWdhdG9yLmNsaXBib2FyZC53cml0ZVRleHQoaW52aXRlTGluayk7CiAgICAgIHRvYXN0KHsKICAgICAgICB0aXRsZTogIkludml0ZSBsaW5rIGNvcGllZCDwn5SXIiwKICAgICAgICBkZXNjcmlwdGlvbjogcGVha05hbWUKICAgICAgICAgID8gYFNlbmQgaXQgdG8geW91ciBjbGltYmluZyBwYXJ0bmVyIOKAlCBpdCBvcGVucyBUaWNrbGVsaXN0IHdpdGggJHtwZWFrTmFtZX0gcmVhZHkgdG8gbG9nLmAKICAgICAgICAgIDogIlNlbmQgaXQgdG8geW91ciBjbGltYmluZyBwYXJ0bmVyIHRvIGpvaW4gVGlja2xlbGlzdCBhbmQgbG9nIHRoaXMgb25lIHRvby4iLAogICAgICB9KTsKICAgIH0gY2F0Y2ggewogICAgICB0b2FzdCh7IHRpdGxlOiAiQ29weSBmYWlsZWQiLCBkZXNjcmlwdGlvbjogaW52aXRlTGluaywgdmFyaWFudDogImRlc3RydWN0aXZlIiB9KTsKICAgIH0KICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMyByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyLzcwIGJnLWJhY2tncm91bmQvNDAgcC0zIj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMiI+CiAgICAgICAgPExhYmVsIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgPFVzZXJQbHVzIGNsYXNzTmFtZT0idy00IGgtNCB0ZXh0LXByaW1hcnkiIC8+IHtsYWJlbCA/PyAiQ28tY2xpbWJlcnMgKG9wdGlvbmFsKSJ9CiAgICAgICAgPC9MYWJlbD4KICAgICAgICA8QnV0dG9uIHR5cGU9ImJ1dHRvbiIgdmFyaWFudD0iZ2hvc3QiIHNpemU9InNtIiBjbGFzc05hbWU9ImdhcC0xIHRleHQteHMiIG9uQ2xpY2s9eygpID0+IHZvaWQgY29weUludml0ZSgpfT4KICAgICAgICAgIDxMaW5rMiBjbGFzc05hbWU9InctMy41IGgtMy41IiAvPiBJbnZpdGUgbGluawogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KCiAgICAgIHsocGFydG5lcklkcy5sZW5ndGggPiAwIHx8IHBhcnRuZXJOYW1lcy5sZW5ndGggPiAwKSAmJiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0xLjUiPgogICAgICAgICAge3BhcnRuZXJJZHMubWFwKChpZCkgPT4gKAogICAgICAgICAgICA8QmFkZ2Uga2V5PXtpZH0gdmFyaWFudD0ic2Vjb25kYXJ5IiBjbGFzc05hbWU9ImdhcC0xIj4KICAgICAgICAgICAgICB7YnlJZC5nZXQoaWQpPy5kaXNwbGF5X25hbWUgPz8gIk1lbWJlciJ9CiAgICAgICAgICAgICAgPGJ1dHRvbiB0eXBlPSJidXR0b24iIG9uQ2xpY2s9eygpID0+IHJlbW92ZU1lbWJlcihpZCl9IGFyaWEtbGFiZWw9IlJlbW92ZSBjby1jbGltYmVyIj4KICAgICAgICAgICAgICAgIDxYIGNsYXNzTmFtZT0idy0zIGgtMyIgLz4KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICkpfQogICAgICAgICAge3BhcnRuZXJOYW1lcy5tYXAoKG4pID0+ICgKICAgICAgICAgICAgPEJhZGdlIGtleT17bn0gdmFyaWFudD0ib3V0bGluZSIgY2xhc3NOYW1lPSJnYXAtMSI+CiAgICAgICAgICAgICAge259CiAgICAgICAgICAgICAgPGJ1dHRvbiB0eXBlPSJidXR0b24iIG9uQ2xpY2s9eygpID0+IHJlbW92ZU5hbWUobil9IGFyaWEtbGFiZWw9e2BSZW1vdmUgJHtufWB9PgogICAgICAgICAgICAgICAgPFggY2xhc3NOYW1lPSJ3LTMgaC0zIiAvPgogICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CiAgICAgICl9CgogICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUiPgogICAgICAgIDxJbnB1dAogICAgICAgICAgdmFsdWU9e3F1ZXJ5fQogICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRRdWVyeShlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICBwbGFjZWhvbGRlcj17c2VhcmNoUGxhY2Vob2xkZXIgPz8gIlNlYXJjaCBtZW1iZXJzIHlvdSBjbGltYmVkIHdpdGjigKYifQogICAgICAgIC8+CiAgICAgICAge3N1Z2dlc3Rpb25zLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIHotMjAgbXQtMSB3LWZ1bGwgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1wb3BvdmVyIHNoYWRvdy1tZCI+CiAgICAgICAgICAgIHtzdWdnZXN0aW9ucy5tYXAoKG0pID0+ICgKICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICBrZXk9e20uaWR9CiAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBhZGRNZW1iZXIobS5pZCl9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2NuKCJ3LWZ1bGwgdGV4dC1sZWZ0IHB4LTMgcHktMiB0ZXh0LXNtIGhvdmVyOmJnLWFjY2VudCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4iKX0KICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7bS5kaXNwbGF5X25hbWV9CiAgICAgICAgICAgICAgICA8Q2hlY2sgY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSBvcGFjaXR5LTQwIiAvPgogICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CiAgICAgIDwvZGl2PgoKICAgICAgeyFoaWRlTmFtZXMgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0yIj4KICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICB2YWx1ZT17bmFtZURyYWZ0fQogICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldE5hbWVEcmFmdChlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgIG9uS2V5RG93bj17KGUpID0+IHsKICAgICAgICAgICAgICBpZiAoZS5rZXkgPT09ICJFbnRlciIpIHsKICAgICAgICAgICAgICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgICAgICAgICAgICAgIGFkZE5hbWUoKTsKICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH19CiAgICAgICAgICAgIHBsYWNlaG9sZGVyPSLigKZvciBqdXN0IGEgbmFtZSAobm90IGEgbWVtYmVyIHlldCkiCiAgICAgICAgICAvPgogICAgICAgICAgPEJ1dHRvbiB0eXBlPSJidXR0b24iIHZhcmlhbnQ9Im91dGxpbmUiIGNsYXNzTmFtZT0ic2hyaW5rLTAiIG9uQ2xpY2s9e2FkZE5hbWV9PgogICAgICAgICAgICA8UGx1cyBjbGFzc05hbWU9InctNCBoLTQiIC8+CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgKX0KCiAgICAgIHshaGlkZUdyb3VwICYmICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgICAgPFN3aXRjaAogICAgICAgICAgICBpZD0iYXNjZW50LWdyb3VwIgogICAgICAgICAgICBjaGVja2VkPXt3aXRoR3JvdXB9CiAgICAgICAgICAgIG9uQ2hlY2tlZENoYW5nZT17KHYpID0+IG9uQ2hhbmdlKHsgcGFydG5lcklkcywgcGFydG5lck5hbWVzLCB3aXRoR3JvdXA6IHYgfSl9CiAgICAgICAgICAvPgogICAgICAgICAgPExhYmVsIGh0bWxGb3I9ImFzY2VudC1ncm91cCIgY2xhc3NOYW1lPSJmb250LW5vcm1hbCB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIENsaW1iZWQgd2l0aCBhIGdyb3VwIC8gb3JnYW5pc2VkIHBhcnR5CiAgICAgICAgICA8L0xhYmVsPgogICAgICAgIDwvZGl2PgogICAgICApfQogICAgPC9kaXY+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IENsaW1iUGFydG5lcnM7Cg==
+import { useEffect, useMemo, useState } from "react";
+import { Check, Link2, Plus, UserPlus, X } from "lucide-react";
+
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Badge } from "@/components/ui/badge";
+import { Switch } from "@/components/ui/switch";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "@/hooks/use-toast";
+import { fuzzyMatch } from "@/lib/fuzzy";
+import { cn } from "@/lib/utils";
+import { communityHref } from "@/lib/site-links";
+
+interface PartnerProfile {
+  id: string;
+  display_name: string;
+  avatar_url: string | null;
+}
+
+interface ClimbPartnersProps {
+  /** Signed-in member — never offered as their own co-climber. */
+  userId: string;
+  partnerIds: string[];
+  partnerNames: string[];
+  withGroup: boolean;
+  onChange: (next: { partnerIds: string[]; partnerNames: string[]; withGroup: boolean }) => void;
+  /** Catalog key of the picked peak, used to pre-fill the invite link. */
+  peakKey?: string | undefined;
+  peakName?: string | undefined;
+  /** Heading shown above the picker. */
+  label?: string | undefined;
+  /** Hide the free-text name field (e.g. when only members can be invited). */
+  hideNames?: boolean | undefined;
+  /** Hide the "with a group" switch. */
+  hideGroup?: boolean | undefined;
+  /** Placeholder for the member search field. */
+  searchPlaceholder?: string | undefined;
+}
+
+/**
+ * Co-climber picker: link Ticklelist members, add names of friends who aren't
+ * members yet, flag a group outing, and share an invite link that opens the
+ * ascent form with the same peak pre-filled.
+ */
+const ClimbPartners = ({
+  userId,
+  partnerIds,
+  partnerNames,
+  withGroup,
+  onChange,
+  peakKey,
+  peakName,
+  label,
+  hideNames = false,
+  hideGroup = false,
+  searchPlaceholder,
+}: ClimbPartnersProps) => {
+  const [members, setMembers] = useState<PartnerProfile[]>([]);
+  const [query, setQuery] = useState("");
+  const [nameDraft, setNameDraft] = useState("");
+
+  useEffect(() => {
+    let alive = true;
+    void supabase
+      .from("profiles")
+      .select("id, display_name, avatar_url")
+      .limit(1000)
+      .then(({ data }) => {
+        if (alive && data) setMembers(data as PartnerProfile[]);
+      });
+    return () => {
+      alive = false;
+    };
+  }, []);
+
+  const byId = useMemo(() => new Map(members.map((m) => [m.id, m])), [members]);
+
+  const suggestions = useMemo(() => {
+    const q = query.trim();
+    if (q.length < 1) return [];
+    return members
+      .filter((m) => m.id !== userId && !partnerIds.includes(m.id))
+      .filter((m) => fuzzyMatch(q, m.display_name))
+      .slice(0, 6);
+  }, [query, members, partnerIds, userId]);
+
+  const addMember = (id: string) => {
+    onChange({ partnerIds: [...partnerIds, id], partnerNames, withGroup });
+    setQuery("");
+  };
+
+  const removeMember = (id: string) =>
+    onChange({ partnerIds: partnerIds.filter((p) => p !== id), partnerNames, withGroup });
+
+  const addName = () => {
+    const n = nameDraft.trim().slice(0, 60);
+    if (!n) return;
+    if (partnerNames.some((x) => x.toLowerCase() === n.toLowerCase())) {
+      setNameDraft("");
+      return;
+    }
+    onChange({ partnerIds, partnerNames: [...partnerNames, n], withGroup });
+    setNameDraft("");
+  };
+
+  const removeName = (n: string) =>
+    onChange({ partnerIds, partnerNames: partnerNames.filter((x) => x !== n), withGroup });
+
+  const inviteLink = useMemo(() => {
+    const params = new URLSearchParams({ new: "1", from: userId });
+    if (peakKey) params.set("peak", peakKey);
+    const href = communityHref("/ascents");
+    const base = href.startsWith("http")
+      ? href
+      : `${typeof window === "undefined" ? "https://ticklelist.org" : window.location.origin}${href}`;
+    return `${base}?${params.toString()}`;
+  }, [peakKey, userId]);
+
+  const copyInvite = async () => {
+    try {
+      await navigator.clipboard.writeText(inviteLink);
+      toast({
+        title: "Invite link copied 🔗",
+        description: peakName
+          ? `Send it to your climbing partner — it opens Ticklelist with ${peakName} ready to log.`
+          : "Send it to your climbing partner to join Ticklelist and log this one too.",
+      });
+    } catch {
+      toast({ title: "Copy failed", description: inviteLink, variant: "destructive" });
+    }
+  };
+
+  return (
+    <div className="space-y-3 rounded-lg border border-border/70 bg-background/40 p-3">
+      <div className="flex items-center justify-between gap-2">
+        <Label className="flex items-center gap-2">
+          <UserPlus className="w-4 h-4 text-primary" /> {label ?? "Co-climbers (optional)"}
+        </Label>
+        <Button type="button" variant="ghost" size="sm" className="gap-1 text-xs" onClick={() => void copyInvite()}>
+          <Link2 className="w-3.5 h-3.5" /> Invite link
+        </Button>
+      </div>
+
+      {(partnerIds.length > 0 || partnerNames.length > 0) && (
+        <div className="flex flex-wrap gap-1.5">
+          {partnerIds.map((id) => (
+            <Badge key={id} variant="secondary" className="gap-1">
+              {byId.get(id)?.display_name ?? "Member"}
+              <button type="button" onClick={() => removeMember(id)} aria-label="Remove co-climber">
+                <X className="w-3 h-3" />
+              </button>
+            </Badge>
+          ))}
+          {partnerNames.map((n) => (
+            <Badge key={n} variant="outline" className="gap-1">
+              {n}
+              <button type="button" onClick={() => removeName(n)} aria-label={`Remove ${n}`}>
+                <X className="w-3 h-3" />
+              </button>
+            </Badge>
+          ))}
+        </div>
+      )}
+
+      <div className="relative">
+        <Input
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder={searchPlaceholder ?? "Search members you climbed with…"}
+        />
+        {suggestions.length > 0 && (
+          <div className="absolute z-20 mt-1 w-full rounded-md border border-border bg-popover shadow-md">
+            {suggestions.map((m) => (
+              <button
+                key={m.id}
+                type="button"
+                onClick={() => addMember(m.id)}
+                className={cn("w-full text-left px-3 py-2 text-sm hover:bg-accent flex items-center justify-between")}
+              >
+                {m.display_name}
+                <Check className="w-3.5 h-3.5 opacity-40" />
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {!hideNames && (
+        <div className="flex gap-2">
+          <Input
+            value={nameDraft}
+            onChange={(e) => setNameDraft(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                e.preventDefault();
+                addName();
+              }
+            }}
+            placeholder="…or just a name (not a member yet)"
+          />
+          <Button type="button" variant="outline" className="shrink-0" onClick={addName}>
+            <Plus className="w-4 h-4" />
+          </Button>
+        </div>
+      )}
+
+      {!hideGroup && (
+        <div className="flex items-center gap-3">
+          <Switch
+            id="ascent-group"
+            checked={withGroup}
+            onCheckedChange={(v) => onChange({ partnerIds, partnerNames, withGroup: v })}
+          />
+          <Label htmlFor="ascent-group" className="font-normal text-sm text-muted-foreground">
+            Climbed with a group / organised party
+          </Label>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default ClimbPartners;

@@ -1,1 +1,39 @@
-aW1wb3J0IHsgY291bnRyaWVzIH0gZnJvbSAiQC9kYXRhL2NvdW50cmllcyI7CmltcG9ydCB7IHBlYWtDYXRhbG9nLCB0eXBlIENhdGFsb2dQZWFrIH0gZnJvbSAiQC9saWIvcGVhay1jYXRhbG9nIjsKaW1wb3J0IHsgc2x1Z2lmeSB9IGZyb20gIkAvbGliL3NsdWciOwppbXBvcnQgeyBtYWluU2l0ZUhyZWYgfSBmcm9tICJAL2xpYi9zaXRlLWxpbmtzIjsKCmNvbnN0IG5vcm0gPSAoczogc3RyaW5nKSA9PgogIHMudG9Mb3dlckNhc2UoKS5ub3JtYWxpemUoIk5GRCIpLnJlcGxhY2UoL1tcdTAzMDAtXHUwMzZmXS9nLCAiIikudHJpbSgpOwoKY29uc3QgY291bnRyeU5hbWVzID0gbmV3IFNldChjb3VudHJpZXMubWFwKChjKSA9PiBub3JtKGMuY291bnRyeSkpKTsKCi8qKiBUaGUgY291bnRyeSB3aG9zZSAvcGVhay8gcGFnZSBhIHBlYWsgbmFtZSBiZWxvbmdzIHRvLCBpZiBhbnkuICovCmV4cG9ydCBjb25zdCBwZWFrQ291bnRyeSA9IChwZWFrTmFtZTogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCk6IHN0cmluZyB8IG51bGwgPT4gewogIGlmICghcGVha05hbWUpIHJldHVybiBudWxsOwogIGNvbnN0IHEgPSBub3JtKHBlYWtOYW1lKTsKICBpZiAoIXEpIHJldHVybiBudWxsOwoKICAvLyAiQmVuIE5ldmlzIMK3IFVuaXRlZCBLaW5nZG9tIiBzdHlsZSB2YWx1ZXMsIGFuZCBwbGFpbiBjb3VudHJ5IG5hbWVzLgogIGNvbnN0IHBhcnRzID0gcS5zcGxpdCgvW8K3fCwoXS8pLm1hcCgocCkgPT4gcC50cmltKCkpLmZpbHRlcihCb29sZWFuKTsKICBmb3IgKGNvbnN0IHBhcnQgb2YgcGFydHMpIHsKICAgIGNvbnN0IGFzQ291bnRyeSA9IGNvdW50cmllcy5maW5kKChjKSA9PiBub3JtKGMuY291bnRyeSkgPT09IHBhcnQpOwogICAgaWYgKGFzQ291bnRyeSkgcmV0dXJuIGFzQ291bnRyeS5jb3VudHJ5OwogIH0KCiAgY29uc3QgaGVhZCA9IHBhcnRzWzBdID8/IHE7CiAgY29uc3QgaGl0ID0KICAgIHBlYWtDYXRhbG9nLmZpbmQoKHApID0+IHAudHlwZSA9PT0gImNvdW50cnlfaGlnaHBvaW50IiAmJiBub3JtKHAubmFtZSkgPT09IGhlYWQpID8/CiAgICBwZWFrQ2F0YWxvZy5maW5kKChwKSA9PiBub3JtKHAubmFtZSkgPT09IGhlYWQpOwogIGlmIChoaXQgJiYgY291bnRyeU5hbWVzLmhhcyhub3JtKGhpdC5jb3VudHJ5KSkpIHJldHVybiBoaXQuY291bnRyeTsKICByZXR1cm4gbnVsbDsKfTsKCi8qKiBMaW5rIHRvIHRoZSBtYXRjaGluZyBjb3VudHJ5IGhpZ2hwb2ludCBwYWdlLCBvciBudWxsIHdoZW4gdGhlcmUgaXMgbm9uZS4gKi8KZXhwb3J0IGNvbnN0IHBlYWtQYWdlSHJlZiA9IChwZWFrTmFtZTogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCk6IHN0cmluZyB8IG51bGwgPT4gewogIGNvbnN0IGNvdW50cnkgPSBwZWFrQ291bnRyeShwZWFrTmFtZSk7CiAgcmV0dXJuIGNvdW50cnkgPyBtYWluU2l0ZUhyZWYoYC9wZWFrLyR7c2x1Z2lmeShjb3VudHJ5KX1gKSA6IG51bGw7Cn07CgovKiogTGFiZWwgc3RvcmVkIG9uIGEgcG9zdCBmb3IgYSBwaWNrZWQgY2F0YWxvZyBwZWFrLiAqLwpleHBvcnQgY29uc3QgcGVha0xhYmVsID0gKHBlYWs6IENhdGFsb2dQZWFrKSA9PiBgJHtwZWFrLm5hbWV9IMK3ICR7cGVhay5jb3VudHJ5fWA7Cg==
+import { countries } from "@/data/countries";
+import { peakCatalog, type CatalogPeak } from "@/lib/peak-catalog";
+import { slugify } from "@/lib/slug";
+import { mainSiteHref } from "@/lib/site-links";
+
+const norm = (s: string) =>
+  s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+
+const countryNames = new Set(countries.map((c) => norm(c.country)));
+
+/** The country whose /peak/ page a peak name belongs to, if any. */
+export const peakCountry = (peakName: string | null | undefined): string | null => {
+  if (!peakName) return null;
+  const q = norm(peakName);
+  if (!q) return null;
+
+  // "Ben Nevis · United Kingdom" style values, and plain country names.
+  const parts = q.split(/[·|,(]/).map((p) => p.trim()).filter(Boolean);
+  for (const part of parts) {
+    const asCountry = countries.find((c) => norm(c.country) === part);
+    if (asCountry) return asCountry.country;
+  }
+
+  const head = parts[0] ?? q;
+  const hit =
+    peakCatalog.find((p) => p.type === "country_highpoint" && norm(p.name) === head) ??
+    peakCatalog.find((p) => norm(p.name) === head);
+  if (hit && countryNames.has(norm(hit.country))) return hit.country;
+  return null;
+};
+
+/** Link to the matching country highpoint page, or null when there is none. */
+export const peakPageHref = (peakName: string | null | undefined): string | null => {
+  const country = peakCountry(peakName);
+  return country ? mainSiteHref(`/peak/${slugify(country)}`) : null;
+};
+
+/** Label stored on a post for a picked catalog peak. */
+export const peakLabel = (peak: CatalogPeak) => `${peak.name} · ${peak.country}`;

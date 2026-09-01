@@ -1,1 +1,6 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBMZWFkZXJib2FyZFBhZ2UgZnJvbSAiQC9wYWdlcy9jb21tdW5pdHkvTGVhZGVyYm9hcmRQYWdlIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL2NvbW11bml0eS9sZWFkZXJib2FyZCIpKHsKICBjb21wb25lbnQ6IExlYWRlcmJvYXJkUGFnZSwKfSk7Cg==
+import { createFileRoute } from "@tanstack/react-router";
+import LeaderboardPage from "@/pages/community/LeaderboardPage";
+
+export const Route = createFileRoute("/community/leaderboard")({
+  component: LeaderboardPage,
+});

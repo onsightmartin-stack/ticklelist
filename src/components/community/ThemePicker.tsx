@@ -1,1 +1,67 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQ2hlY2sgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBERUZBVUxUX1RIRU1FLCBnZXRTdG9yZWRUaGVtZSwgc2V0VGhlbWUsIFRIRU1FUywgdHlwZSBUaGVtZUlkIH0gZnJvbSAiQC9saWIvdGhlbWVzIjsKaW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAiQC9ob29rcy91c2VBdXRoIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJzb25uZXIiOwoKY29uc3QgVGhlbWVQaWNrZXIgPSAoKSA9PiB7CiAgY29uc3QgW2FjdGl2ZSwgc2V0QWN0aXZlXSA9IHVzZVN0YXRlPFRoZW1lSWQ+KERFRkFVTFRfVEhFTUUpOwogIGNvbnN0IHsgdXNlciB9ID0gdXNlQXV0aCgpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgc2V0QWN0aXZlKGdldFN0b3JlZFRoZW1lKCkpOwogIH0sIFtdKTsKCiAgY29uc3QgY2hvb3NlID0gYXN5bmMgKGlkOiBUaGVtZUlkKSA9PiB7CiAgICBzZXRUaGVtZShpZCk7CiAgICBzZXRBY3RpdmUoaWQpOwogICAgLy8gU2F2ZSBvbiB0aGUgYWNjb3VudCB0b28sIHNvIHRoZSB0aGVtZSBmb2xsb3dzIHRoZSBtZW1iZXIgYWNyb3NzIGRldmljZXMKICAgIC8vIGFuZCBiZXR3ZWVuIG9uc2lnaHRtYXJ0aW4uY29tIGFuZCB0aWNrbGVsaXN0Lm9yZy4KICAgIC8vIE5PVEU6IHRoZSBxdWVyeSBidWlsZGVyIGlzIGxhenkg4oCUIGl0IG11c3QgYmUgYXdhaXRlZCBvciBubyByZXF1ZXN0IGlzIHNlbnQuCiAgICBpZiAoIXVzZXIpIHJldHVybjsKICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oInByb2ZpbGVzIikudXBkYXRlKHsgdGhlbWU6IGlkIH0pLmVxKCJpZCIsIHVzZXIuaWQpOwogICAgaWYgKGVycm9yKSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoIkNvdWxkIG5vdCBzYXZlIHRoZW1lIHRvIHlvdXIgYWNjb3VudCIsIGVycm9yKTsKICAgICAgdG9hc3QuZXJyb3IoIlRoZW1lIGFwcGxpZWQgb24gdGhpcyBkZXZpY2UsIGJ1dCBzYXZpbmcgaXQgdG8geW91ciBhY2NvdW50IGZhaWxlZC4iKTsKICAgIH0KICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ2FwLTMgc206Z3JpZC1jb2xzLTIiPgogICAgICB7VEhFTUVTLm1hcCgodGhlbWUpID0+IHsKICAgICAgICBjb25zdCBzZWxlY3RlZCA9IHRoZW1lLmlkID09PSBhY3RpdmU7CiAgICAgICAgcmV0dXJuICgKICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAga2V5PXt0aGVtZS5pZH0KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBjaG9vc2UodGhlbWUuaWQpfQogICAgICAgICAgICBhcmlhLXByZXNzZWQ9e3NlbGVjdGVkfQogICAgICAgICAgICBjbGFzc05hbWU9e2B0ZXh0LWxlZnQgcm91bmRlZC1sZyBib3JkZXIgcC00IHRyYW5zaXRpb24tY29sb3JzICR7CiAgICAgICAgICAgICAgc2VsZWN0ZWQKICAgICAgICAgICAgICAgID8gImJvcmRlci1wcmltYXJ5IGJnLXByaW1hcnkvMTAiCiAgICAgICAgICAgICAgICA6ICJib3JkZXItYm9yZGVyIGJnLWNhcmQgaG92ZXI6Ym9yZGVyLXByaW1hcnkvNTAiCiAgICAgICAgICAgIH1gfQogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlciB0ZXh0LXNtIHVwcGVyY2FzZSI+e3RoZW1lLm5hbWV9PC9zcGFuPgogICAgICAgICAgICAgIHtzZWxlY3RlZCAmJiA8Q2hlY2sgY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtcHJpbWFyeSBzaHJpbmstMCIgLz59CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMS41IG10LTMiPgogICAgICAgICAgICAgIHt0aGVtZS5zd2F0Y2hlcy5tYXAoKGNvbG9yKSA9PiAoCiAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICBrZXk9e2NvbG9yfQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImgtNiB3LTYgcm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItYm9yZGVyIgogICAgICAgICAgICAgICAgICBzdHlsZT17eyBiYWNrZ3JvdW5kQ29sb3I6IGNvbG9yIH19CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC0zIj57dGhlbWUuZGVzY3JpcHRpb259PC9wPgogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgKTsKICAgICAgfSl9CiAgICA8L2Rpdj4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgVGhlbWVQaWNrZXI7Cg==
+import { useEffect, useState } from "react";
+import { Check } from "lucide-react";
+import { DEFAULT_THEME, getStoredTheme, setTheme, THEMES, type ThemeId } from "@/lib/themes";
+import { supabase } from "@/integrations/supabase/client";
+import { useAuth } from "@/hooks/useAuth";
+import { toast } from "sonner";
+
+const ThemePicker = () => {
+  const [active, setActive] = useState<ThemeId>(DEFAULT_THEME);
+  const { user } = useAuth();
+
+  useEffect(() => {
+    setActive(getStoredTheme());
+  }, []);
+
+  const choose = async (id: ThemeId) => {
+    setTheme(id);
+    setActive(id);
+    // Save on the account too, so the theme follows the member across devices
+    // and between onsightmartin.com and ticklelist.org.
+    // NOTE: the query builder is lazy — it must be awaited or no request is sent.
+    if (!user) return;
+    const { error } = await supabase.from("profiles").update({ theme: id }).eq("id", user.id);
+    if (error) {
+      console.error("Could not save theme to your account", error);
+      toast.error("Theme applied on this device, but saving it to your account failed.");
+    }
+  };
+
+  return (
+    <div className="grid gap-3 sm:grid-cols-2">
+      {THEMES.map((theme) => {
+        const selected = theme.id === active;
+        return (
+          <button
+            key={theme.id}
+            type="button"
+            onClick={() => choose(theme.id)}
+            aria-pressed={selected}
+            className={`text-left rounded-lg border p-4 transition-colors ${
+              selected
+                ? "border-primary bg-primary/10"
+                : "border-border bg-card hover:border-primary/50"
+            }`}
+          >
+            <div className="flex items-center justify-between gap-3">
+              <span className="font-display tracking-wider text-sm uppercase">{theme.name}</span>
+              {selected && <Check className="w-4 h-4 text-primary shrink-0" />}
+            </div>
+            <div className="flex gap-1.5 mt-3">
+              {theme.swatches.map((color) => (
+                <span
+                  key={color}
+                  className="h-6 w-6 rounded-full border border-border"
+                  style={{ backgroundColor: color }}
+                />
+              ))}
+            </div>
+            <p className="text-xs text-muted-foreground mt-3">{theme.description}</p>
+          </button>
+        );
+      })}
+    </div>
+  );
+};
+
+export default ThemePicker;

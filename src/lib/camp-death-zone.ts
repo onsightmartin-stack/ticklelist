@@ -1,1 +1,62 @@
-LyoqCiAqIFRoZSBEZWF0aCBab25lOiBvbmUgc2NyZWVuIG9mIHRoZSBCYXNlIENhbXAgcmluZyB3b3JsZCBzaXRzIGF0IDgsMDAwIG0gb24gYQogKiB3aW5kLXNjb3VyZWQgY29sLiBUaGUgbW9tZW50IHlvdSBhcnJpdmUsIGFsdGl0dWRlIHNpY2tuZXNzIHN0YXJ0cyBhIDMwIHNlY29uZAogKiBjb3VudGRvd24uIFR3byB3YXlzIG91dDogd2FsayBvZmYgdGhlIGNvbCB0byBhIGxvd2VyIHpvbmUsIG9yIGRvdWJsZS10YXAgdXAKICogYXQgdGhlIGZvb3Qgb2YgdGhlIGxhZGRlciB0byBjbGltYiB0aGUgc2VyYWMgYW5kIGNyYWNrIG9wZW4gdGhlIG94eWdlbiBjYWNoZSwKICogd2hpY2ggYnV5cyB5b3UgdGVuIG1pbnV0ZXMuIExlYXZlIHRoZSB6b25lIGFuZCB0aGUgc2lja25lc3MgY2xlYXJzIGVudGlyZWx5LgogKi8KCi8qKiBTZWNvbmRzIG9mIGNvbnNjaW91c25lc3MgeW91IGhhdmUgb24gYXJyaXZhbCwgd2l0aCBubyBib3R0bGVkIG94eWdlbi4gKi8KZXhwb3J0IGNvbnN0IEhZUE9YSUFfU0VDT05EUyA9IDMwOwoKLyoqIFNlY29uZHMgeW91IGdldCBvbmNlIHRoZSBveHlnZW4gYm90dGxlIGlzIG9wZW4uICovCmV4cG9ydCBjb25zdCBPWFlHRU5fU0VDT05EUyA9IDYwMDsKCi8qKiBCZWxvdyB0aGlzIG1hbnkgc2Vjb25kcyBsZWZ0LCB0aGUgY2xpbWJlciBibGlua3MgcmVkLiAqLwpleHBvcnQgY29uc3QgQ1JJVElDQUxfU0VDT05EUyA9IDEwOwoKLyoqIFdvcmxkLXNwYWNlIGZvb3Qgb2YgdGhlIGxhZGRlciBsYXNoZWQgdG8gdGhlIHNlcmFjLiAqLwpleHBvcnQgY29uc3QgTEFEREVSX1ggPSAxMzUwOwpleHBvcnQgY29uc3QgTEFEREVSX0JBU0VfWSA9IDgzMDsKCi8qKiBXaGVyZSB0aGUgb3h5Z2VuIGNhY2hlIHNpdHMsIG9uIHRvcCBvZiB0aGUgc2VyYWMuICovCmV4cG9ydCBjb25zdCBMQURERVJfVE9QX1kgPSA1MjA7CgovKiogSG93IGNsb3NlICh3b3JsZCBweCkgeW91IG11c3Qgc3RhbmQgdG8gdGhlIGxhZGRlciB0byBzdGFydCBjbGltYmluZy4gKi8KZXhwb3J0IGNvbnN0IExBRERFUl9SQURJVVMgPSAxMzA7CgovKiogVHdvIHRhcHMgb2YgInVwIiB3aXRoaW4gdGhpcyBtYW55IG1zIGNvdW50IGFzIGEgZG91YmxlLXRhcC4gKi8KZXhwb3J0IGNvbnN0IERPVUJMRV9UQVBfTVMgPSA0NTA7CgpleHBvcnQgY29uc3QgbmVhckxhZGRlciA9ICh4OiBudW1iZXIsIHk6IG51bWJlcikgPT4KICBNYXRoLmFicyh4IC0gTEFEREVSX1gpIDw9IExBRERFUl9SQURJVVMgJiYgeSA+PSBMQURERVJfQkFTRV9ZIC0gMTQwOwoKLyoqIG1tOnNzIGZvciB0aGUgSFVEIGNsb2NrLiAqLwpleHBvcnQgY29uc3QgZm9ybWF0Q291bnRkb3duID0gKHM6IG51bWJlcikgPT4KICBgJHtNYXRoLmZsb29yKE1hdGgubWF4KDAsIHMpIC8gNjApfToke1N0cmluZyhNYXRoLm1heCgwLCBzKSAlIDYwKS5wYWRTdGFydCgyLCAiMCIpfWA7CgovKioKICogT25jZSB0aGUgb3h5Z2VuIGlzIGZsb3dpbmcsIHRoZSBjb2xkIHRha2VzIG92ZXI6IGEgZml2ZSBtaW51dGUgaHlwb3RoZXJtaWEKICogY2xvY2suIER1Y2sgaW50byB0aGUgYWJhbmRvbmVkIGhpZ2ggY2FtcCB0ZW50IHRvIHJlc2V0IGl0LCBhbmQgaHVudCBkb3duIHRoZQogKiBkb3duIHN1aXQgZHVtcGVkIG9uIHRoZSBjb2wgZm9yIGFuIGV4dHJhIG1pbnV0ZS4KICovCmV4cG9ydCBjb25zdCBIWVBPVEhFUk1JQV9TRUNPTkRTID0gMzAwOwoKLyoqIFRoZSBtb3N0IHRoZSBoeXBvdGhlcm1pYSBjbG9jayBjYW4gZXZlciBob2xkLiAqLwpleHBvcnQgY29uc3QgTUFYX0hZUE9USEVSTUlBX1NFQ09ORFMgPSA0MjA7CgovKiogRXh0cmEgc2Vjb25kcyB0aGUgZG93biBzdWl0IGJ1eXMgeW91LiAqLwpleHBvcnQgY29uc3QgRE9XTl9TVUlUX1NFQ09ORFMgPSA2MDsKCi8qKiBUaGUgYWJhbmRvbmVkIHRlbnQgKG1hdGNoZXMgdGhlIG9uZSBkcmF3biBpbiB0aGUgRGVhdGggWm9uZSBzY2VuZSkuICovCmV4cG9ydCBjb25zdCBURU5UX1ggPSA3NTY7CmV4cG9ydCBjb25zdCBURU5UX1kgPSA4MTI7CmV4cG9ydCBjb25zdCBURU5UX1JBRElVUyA9IDExMDsKCi8qKiBXaGVyZSB0aGUgZG93biBzdWl0IGxpZXMgb24gdGhlIGNvbC4gKi8KZXhwb3J0IGNvbnN0IFNVSVRfWCA9IDMwMDsKZXhwb3J0IGNvbnN0IFNVSVRfWSA9IDgzNjsKZXhwb3J0IGNvbnN0IFNVSVRfUkFESVVTID0gOTA7CgovKiogRG9uJ3Qgc3BhbSB0aGUgInlvdSB3YXJtZWQgdXAiIHRvYXN0IG1vcmUgb2Z0ZW4gdGhhbiB0aGlzIChtcykuICovCmV4cG9ydCBjb25zdCBURU5UX0NPT0xET1dOX01TID0gOF8wMDA7Cg==
+/**
+ * The Death Zone: one screen of the Base Camp ring world sits at 8,000 m on a
+ * wind-scoured col. The moment you arrive, altitude sickness starts a 30 second
+ * countdown. Two ways out: walk off the col to a lower zone, or double-tap up
+ * at the foot of the ladder to climb the serac and crack open the oxygen cache,
+ * which buys you ten minutes. Leave the zone and the sickness clears entirely.
+ */
+
+/** Seconds of consciousness you have on arrival, with no bottled oxygen. */
+export const HYPOXIA_SECONDS = 30;
+
+/** Seconds you get once the oxygen bottle is open. */
+export const OXYGEN_SECONDS = 600;
+
+/** Below this many seconds left, the climber blinks red. */
+export const CRITICAL_SECONDS = 10;
+
+/** World-space foot of the ladder lashed to the serac. */
+export const LADDER_X = 1350;
+export const LADDER_BASE_Y = 830;
+
+/** Where the oxygen cache sits, on top of the serac. */
+export const LADDER_TOP_Y = 520;
+
+/** How close (world px) you must stand to the ladder to start climbing. */
+export const LADDER_RADIUS = 130;
+
+/** Two taps of "up" within this many ms count as a double-tap. */
+export const DOUBLE_TAP_MS = 450;
+
+export const nearLadder = (x: number, y: number) =>
+  Math.abs(x - LADDER_X) <= LADDER_RADIUS && y >= LADDER_BASE_Y - 140;
+
+/** mm:ss for the HUD clock. */
+export const formatCountdown = (s: number) =>
+  `${Math.floor(Math.max(0, s) / 60)}:${String(Math.max(0, s) % 60).padStart(2, "0")}`;
+
+/**
+ * Once the oxygen is flowing, the cold takes over: a five minute hypothermia
+ * clock. Duck into the abandoned high camp tent to reset it, and hunt down the
+ * down suit dumped on the col for an extra minute.
+ */
+export const HYPOTHERMIA_SECONDS = 300;
+
+/** The most the hypothermia clock can ever hold. */
+export const MAX_HYPOTHERMIA_SECONDS = 420;
+
+/** Extra seconds the down suit buys you. */
+export const DOWN_SUIT_SECONDS = 60;
+
+/** The abandoned tent (matches the one drawn in the Death Zone scene). */
+export const TENT_X = 756;
+export const TENT_Y = 812;
+export const TENT_RADIUS = 110;
+
+/** Where the down suit lies on the col. */
+export const SUIT_X = 300;
+export const SUIT_Y = 836;
+export const SUIT_RADIUS = 90;
+
+/** Don't spam the "you warmed up" toast more often than this (ms). */
+export const TENT_COOLDOWN_MS = 8_000;

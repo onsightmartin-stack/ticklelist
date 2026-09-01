@@ -1,1 +1,101 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvaG9va3MvdXNlQXV0aCI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQC9ob29rcy91c2UtdG9hc3QiOwppbXBvcnQgeyBub3RpZnkgfSBmcm9tICJAL2xpYi9ub3RpZnkiOwoKaW50ZXJmYWNlIENoZWVyQXNjZW50IHsKICBpZDogc3RyaW5nOwogIHVzZXJfaWQ6IHN0cmluZzsKICBwZWFrX25hbWU6IHN0cmluZzsKfQoKZXhwb3J0IGludGVyZmFjZSBDaGVlcmVyIHsKICB1c2VyX2lkOiBzdHJpbmc7CiAgY3JlYXRlZF9hdDogc3RyaW5nOwp9CgovKiogQ2hlZXIgY291bnRzIGFjcm9zcyBhbGwgYXNjZW50cyBwbHVzIHRoZSBzaWduZWQtaW4gbWVtYmVyJ3Mgb3duIGNoZWVycy4gKi8KZXhwb3J0IGNvbnN0IHVzZUFzY2VudENoZWVycyA9ICgpID0+IHsKICBjb25zdCB7IHVzZXIgfSA9IHVzZUF1dGgoKTsKICBjb25zdCBbY291bnRzLCBzZXRDb3VudHNdID0gdXNlU3RhdGU8UmVjb3JkPHN0cmluZywgbnVtYmVyPj4oe30pOwogIGNvbnN0IFttaW5lLCBzZXRNaW5lXSA9IHVzZVN0YXRlPFNldDxzdHJpbmc+PihuZXcgU2V0KCkpOwogIGNvbnN0IFtjaGVlcmVycywgc2V0Q2hlZXJlcnNdID0gdXNlU3RhdGU8UmVjb3JkPHN0cmluZywgQ2hlZXJlcltdPj4oe30pOwoKICBjb25zdCBsb2FkID0gdXNlQ2FsbGJhY2soYXN5bmMgKCkgPT4gewogICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAuZnJvbSgiYXNjZW50X2NoZWVycyIpCiAgICAgIC5zZWxlY3QoImFzY2VudF9pZCwgdXNlcl9pZCwgY3JlYXRlZF9hdCIpCiAgICAgIC5vcmRlcigiY3JlYXRlZF9hdCIsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KTsKICAgIGNvbnN0IG5leHQ6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7fTsKICAgIGNvbnN0IG93biA9IG5ldyBTZXQ8c3RyaW5nPigpOwogICAgY29uc3QgYnlBc2NlbnQ6IFJlY29yZDxzdHJpbmcsIENoZWVyZXJbXT4gPSB7fTsKICAgIChkYXRhID8/IFtdKS5mb3JFYWNoKChjKSA9PiB7CiAgICAgIG5leHRbYy5hc2NlbnRfaWRdID0gKG5leHRbYy5hc2NlbnRfaWRdID8/IDApICsgMTsKICAgICAgKGJ5QXNjZW50W2MuYXNjZW50X2lkXSA/Pz0gW10pLnB1c2goeyB1c2VyX2lkOiBjLnVzZXJfaWQsIGNyZWF0ZWRfYXQ6IGMuY3JlYXRlZF9hdCB9KTsKICAgICAgaWYgKHVzZXIgJiYgYy51c2VyX2lkID09PSB1c2VyLmlkKSBvd24uYWRkKGMuYXNjZW50X2lkKTsKICAgIH0pOwogICAgc2V0Q291bnRzKG5leHQpOwogICAgc2V0TWluZShvd24pOwogICAgc2V0Q2hlZXJlcnMoYnlBc2NlbnQpOwogIH0sIFt1c2VyXSk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBsb2FkKCk7CiAgfSwgW2xvYWRdKTsKCgogIGNvbnN0IHRvZ2dsZUNoZWVyID0gdXNlQ2FsbGJhY2soCiAgICBhc3luYyAoYXNjZW50OiBDaGVlckFzY2VudCkgPT4gewogICAgICBpZiAoIXVzZXIpIHsKICAgICAgICB0b2FzdCh7IHRpdGxlOiAiU2lnbiBpbiB0byBjaGVlciIsIGRlc2NyaXB0aW9uOiAiTWVtYmVycyBjYW4gY2hlZXIgZWFjaCBvdGhlcidzIGFzY2VudHMuIiB9KTsKICAgICAgICByZXR1cm47CiAgICAgIH0KICAgICAgY29uc3QgY2hlZXJlZCA9IG1pbmUuaGFzKGFzY2VudC5pZCk7CgogICAgICBzZXRNaW5lKChwcmV2KSA9PiB7CiAgICAgICAgY29uc3QgbmV4dCA9IG5ldyBTZXQocHJldik7CiAgICAgICAgaWYgKGNoZWVyZWQpIG5leHQuZGVsZXRlKGFzY2VudC5pZCk7CiAgICAgICAgZWxzZSBuZXh0LmFkZChhc2NlbnQuaWQpOwogICAgICAgIHJldHVybiBuZXh0OwogICAgICB9KTsKICAgICAgc2V0Q291bnRzKChwcmV2KSA9PiAoewogICAgICAgIC4uLnByZXYsCiAgICAgICAgW2FzY2VudC5pZF06IE1hdGgubWF4KDAsIChwcmV2W2FzY2VudC5pZF0gPz8gMCkgKyAoY2hlZXJlZCA/IC0xIDogMSkpLAogICAgICB9KSk7CiAgICAgIHNldENoZWVyZXJzKChwcmV2KSA9PiB7CiAgICAgICAgY29uc3QgbGlzdCA9IHByZXZbYXNjZW50LmlkXSA/PyBbXTsKICAgICAgICByZXR1cm4gewogICAgICAgICAgLi4ucHJldiwKICAgICAgICAgIFthc2NlbnQuaWRdOiBjaGVlcmVkCiAgICAgICAgICAgID8gbGlzdC5maWx0ZXIoKGMpID0+IGMudXNlcl9pZCAhPT0gdXNlci5pZCkKICAgICAgICAgICAgOiBbeyB1c2VyX2lkOiB1c2VyLmlkLCBjcmVhdGVkX2F0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkgfSwgLi4ubGlzdF0sCiAgICAgICAgfTsKICAgICAgfSk7CgoKICAgICAgY29uc3QgeyBlcnJvciB9ID0gY2hlZXJlZAogICAgICAgID8gYXdhaXQgc3VwYWJhc2UuZnJvbSgiYXNjZW50X2NoZWVycyIpLmRlbGV0ZSgpLmVxKCJhc2NlbnRfaWQiLCBhc2NlbnQuaWQpLmVxKCJ1c2VyX2lkIiwgdXNlci5pZCkKICAgICAgICA6IGF3YWl0IHN1cGFiYXNlLmZyb20oImFzY2VudF9jaGVlcnMiKS5pbnNlcnQoeyBhc2NlbnRfaWQ6IGFzY2VudC5pZCwgdXNlcl9pZDogdXNlci5pZCB9KTsKCiAgICAgIGlmIChlcnJvcikgewogICAgICAgIHRvYXN0KHsgdGl0bGU6ICJDb3VsZCBub3QgdXBkYXRlIGNoZWVyIiwgZGVzY3JpcHRpb246IGVycm9yLm1lc3NhZ2UsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICAgICAgbG9hZCgpOwogICAgICAgIHJldHVybjsKICAgICAgfQoKICAgICAgaWYgKCFjaGVlcmVkKSB7CiAgICAgICAgbm90aWZ5KHsKICAgICAgICAgIHJlY2lwaWVudElkOiBhc2NlbnQudXNlcl9pZCwKICAgICAgICAgIGFjdG9ySWQ6IHVzZXIuaWQsCiAgICAgICAgICBraW5kOiAiY2hlZXIiLAogICAgICAgICAgYm9keTogYGNoZWVyZWQgeW91ciBhc2NlbnQgb2YgJHthc2NlbnQucGVha19uYW1lfSDwn46JYCwKICAgICAgICAgIGxpbms6IGAvY29tbXVuaXR5L2FzY2VudHMjYXNjZW50LSR7YXNjZW50LmlkfWAsCiAgICAgICAgfSk7CiAgICAgIH0KICAgIH0sCiAgICBbbG9hZCwgbWluZSwgdXNlcl0sCiAgKTsKCiAgcmV0dXJuIHsgY291bnRzLCBtaW5lLCBjaGVlcmVycywgdG9nZ2xlQ2hlZXIsIHJlbG9hZENoZWVyczogbG9hZCB9Owp9Owo=
+import { useCallback, useEffect, useState } from "react";
+import { supabase } from "@/integrations/supabase/client";
+import { useAuth } from "@/hooks/useAuth";
+import { toast } from "@/hooks/use-toast";
+import { notify } from "@/lib/notify";
+
+interface CheerAscent {
+  id: string;
+  user_id: string;
+  peak_name: string;
+}
+
+export interface Cheerer {
+  user_id: string;
+  created_at: string;
+}
+
+/** Cheer counts across all ascents plus the signed-in member's own cheers. */
+export const useAscentCheers = () => {
+  const { user } = useAuth();
+  const [counts, setCounts] = useState<Record<string, number>>({});
+  const [mine, setMine] = useState<Set<string>>(new Set());
+  const [cheerers, setCheerers] = useState<Record<string, Cheerer[]>>({});
+
+  const load = useCallback(async () => {
+    const { data } = await supabase
+      .from("ascent_cheers")
+      .select("ascent_id, user_id, created_at")
+      .order("created_at", { ascending: false });
+    const next: Record<string, number> = {};
+    const own = new Set<string>();
+    const byAscent: Record<string, Cheerer[]> = {};
+    (data ?? []).forEach((c) => {
+      next[c.ascent_id] = (next[c.ascent_id] ?? 0) + 1;
+      (byAscent[c.ascent_id] ??= []).push({ user_id: c.user_id, created_at: c.created_at });
+      if (user && c.user_id === user.id) own.add(c.ascent_id);
+    });
+    setCounts(next);
+    setMine(own);
+    setCheerers(byAscent);
+  }, [user]);
+
+  useEffect(() => {
+    load();
+  }, [load]);
+
+
+  const toggleCheer = useCallback(
+    async (ascent: CheerAscent) => {
+      if (!user) {
+        toast({ title: "Sign in to cheer", description: "Members can cheer each other's ascents." });
+        return;
+      }
+      const cheered = mine.has(ascent.id);
+
+      setMine((prev) => {
+        const next = new Set(prev);
+        if (cheered) next.delete(ascent.id);
+        else next.add(ascent.id);
+        return next;
+      });
+      setCounts((prev) => ({
+        ...prev,
+        [ascent.id]: Math.max(0, (prev[ascent.id] ?? 0) + (cheered ? -1 : 1)),
+      }));
+      setCheerers((prev) => {
+        const list = prev[ascent.id] ?? [];
+        return {
+          ...prev,
+          [ascent.id]: cheered
+            ? list.filter((c) => c.user_id !== user.id)
+            : [{ user_id: user.id, created_at: new Date().toISOString() }, ...list],
+        };
+      });
+
+
+      const { error } = cheered
+        ? await supabase.from("ascent_cheers").delete().eq("ascent_id", ascent.id).eq("user_id", user.id)
+        : await supabase.from("ascent_cheers").insert({ ascent_id: ascent.id, user_id: user.id });
+
+      if (error) {
+        toast({ title: "Could not update cheer", description: error.message, variant: "destructive" });
+        load();
+        return;
+      }
+
+      if (!cheered) {
+        notify({
+          recipientId: ascent.user_id,
+          actorId: user.id,
+          kind: "cheer",
+          body: `cheered your ascent of ${ascent.peak_name} 🎉`,
+          link: `/community/ascents#ascent-${ascent.id}`,
+        });
+      }
+    },
+    [load, mine, user],
+  );
+
+  return { counts, mine, cheerers, toggleCheer, reloadCheers: load };
+};

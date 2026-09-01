@@ -1,1 +1,56 @@
-aW1wb3J0IHsgbWFpbmxhbmREaWZmZXJzLCBtYWlubGFuZEhpZ2hQb2ludHMgfSBmcm9tICJAL2RhdGEvbWFpbmxhbmQtaGlnaHBvaW50cyI7CmltcG9ydCB7IGFjdGl2ZVRlcnJpdG9yeVJ1bGUgfSBmcm9tICJAL2xpYi9kZWZpbml0aW9ucyI7CmltcG9ydCB7IGNvdW50c0FzQ291bnRyeUhpZ2hwb2ludCB9IGZyb20gIkAvbGliL2hpc3RvcmljLWhpZ2hwb2ludHMiOwppbXBvcnQgdHlwZSB7IEFzY2VudCB9IGZyb20gIkAvbGliL3BlYWstY2F0YWxvZyI7CgovKioKICogQ291bnRyaWVzIHdoZXJlIHRoZSBvZmZpY2lhbCAob3ZlcnNlYXMpIGhpZ2ggcG9pbnQgYW5kIHRoZSBtYWlubGFuZCBzdW1taXQKICogYXJlIGRpZmZlcmVudCBwZWFrcywgYW5kIHRoZSBtZW1iZXIncyBjaG9zZW4gdGVycml0b3J5IHJ1bGUgZGVjaWRlcyB3aGljaCBvZgogKiB0aGUgdHdvIHRpY2tzIHRoZSBjb3VudHJ5IG9mZi4KICovCmNvbnN0IG5vcm0gPSAoczogc3RyaW5nKSA9PgogIHMKICAgIC50b0xvd2VyQ2FzZSgpCiAgICAubm9ybWFsaXplKCJORkQiKQogICAgLnJlcGxhY2UoL1tcdTAzMDAtXHUwMzZmXS9nLCAiIikKICAgIC5yZXBsYWNlKC9bXmEtejAtOV0vZywgIiIpOwoKY29uc3QgbWFpbmxhbmRCeUNvdW50cnkgPSBuZXcgTWFwKAogIG1haW5sYW5kSGlnaFBvaW50cy5maWx0ZXIoKG0pID0+IG1haW5sYW5kRGlmZmVycy5oYXMobS5jb3VudHJ5KSkubWFwKChtKSA9PiBbbS5jb3VudHJ5LCBtXSksCik7CgovKiogSXMgdGhpcyBhc2NlbnQgdGhlIG1haW5sYW5kIHN1bW1pdCBvZiBhIGNvdW50cnkgd2hvc2Ugb2ZmaWNpYWwgSFAgaXMgb3ZlcnNlYXM/ICovCmV4cG9ydCBjb25zdCBpc01haW5sYW5kSGlnaHBvaW50QXNjZW50ID0gKGE6IFBpY2s8QXNjZW50LCAicGVha19uYW1lIiB8ICJjb3VudHJ5Ij4pOiBib29sZWFuID0+IHsKICBjb25zdCBjb3VudHJ5ID0gYS5jb3VudHJ5OwogIGlmICghY291bnRyeSkgcmV0dXJuIGZhbHNlOwogIGNvbnN0IG1haW5sYW5kID0gbWFpbmxhbmRCeUNvdW50cnkuZ2V0KGNvdW50cnkpOwogIHJldHVybiAhIW1haW5sYW5kICYmIG5vcm0obWFpbmxhbmQubmFtZSkgPT09IG5vcm0oYS5wZWFrX25hbWUpOwp9OwoKLyoqCiAqIFRoZSBzZXQgb2YgY291bnRyaWVzIGEgbWVtYmVyIGhhcyB0aWNrZWQgb2ZmIGFzIGhpZ2ggcG9pbnRzLCBob25vdXJpbmcgdGhlCiAqIGNob3NlbiBtYWlubGFuZC90ZXJyaXRvcnkgcnVsZS4KICovCmV4cG9ydCBmdW5jdGlvbiBjcmVkaXRlZEhpZ2hwb2ludENvdW50cmllcyhhc2NlbnRzOiBBc2NlbnRbXSk6IFNldDxzdHJpbmc+IHsKICBjb25zdCBydWxlID0gYWN0aXZlVGVycml0b3J5UnVsZSgpOwogIGNvbnN0IG91dCA9IG5ldyBTZXQ8c3RyaW5nPigpOwoKICBmb3IgKGNvbnN0IGEgb2YgYXNjZW50cykgewogICAgY29uc3QgbWFpbmxhbmQgPSBpc01haW5sYW5kSGlnaHBvaW50QXNjZW50KGEpOwogICAgaWYgKG1haW5sYW5kKSB7CiAgICAgIGlmIChydWxlICE9PSAib2ZmaWNpYWwiKSBvdXQuYWRkKGEuY291bnRyeSBhcyBzdHJpbmcpOwogICAgICBjb250aW51ZTsKICAgIH0KICAgIGlmICghY291bnRzQXNDb3VudHJ5SGlnaHBvaW50KGEpKSBjb250aW51ZTsKICAgIGNvbnN0IGNvdW50cnkgPSBhLmNvdW50cnkgPz8gYS5wZWFrX25hbWU7CiAgICAvLyBPZmZpY2lhbCBvdmVyc2VhcyBzdW1taXQ6IG9ubHkgY291bnRzIHdoZW4gb3ZlcnNlYXMgdGVycml0b3JpZXMgY291bnQuCiAgICBpZiAocnVsZSA9PT0gIm1haW5sYW5kIiAmJiBtYWlubGFuZEJ5Q291bnRyeS5oYXMoY291bnRyeSkpIGNvbnRpbnVlOwogICAgb3V0LmFkZChjb3VudHJ5KTsKICB9CgogIHJldHVybiBvdXQ7Cn0KCi8qKiBQZWFrIG5hbWUgdGhhdCB0aWNrcyBhIGNvdW50cnkgdW5kZXIgdGhlIGFjdGl2ZSBydWxlLCBmb3IgZGlzcGxheS4gKi8KZXhwb3J0IGNvbnN0IGV4cGVjdGVkSGlnaHBvaW50TmFtZSA9IChjb3VudHJ5OiBzdHJpbmcpOiBzdHJpbmcgfCBudWxsID0+CiAgbWFpbmxhbmRCeUNvdW50cnkuZ2V0KGNvdW50cnkpPy5uYW1lID8/IG51bGw7Cg==
+import { mainlandDiffers, mainlandHighPoints } from "@/data/mainland-highpoints";
+import { activeTerritoryRule } from "@/lib/definitions";
+import { countsAsCountryHighpoint } from "@/lib/historic-highpoints";
+import type { Ascent } from "@/lib/peak-catalog";
+
+/**
+ * Countries where the official (overseas) high point and the mainland summit
+ * are different peaks, and the member's chosen territory rule decides which of
+ * the two ticks the country off.
+ */
+const norm = (s: string) =>
+  s
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]/g, "");
+
+const mainlandByCountry = new Map(
+  mainlandHighPoints.filter((m) => mainlandDiffers.has(m.country)).map((m) => [m.country, m]),
+);
+
+/** Is this ascent the mainland summit of a country whose official HP is overseas? */
+export const isMainlandHighpointAscent = (a: Pick<Ascent, "peak_name" | "country">): boolean => {
+  const country = a.country;
+  if (!country) return false;
+  const mainland = mainlandByCountry.get(country);
+  return !!mainland && norm(mainland.name) === norm(a.peak_name);
+};
+
+/**
+ * The set of countries a member has ticked off as high points, honouring the
+ * chosen mainland/territory rule.
+ */
+export function creditedHighpointCountries(ascents: Ascent[]): Set<string> {
+  const rule = activeTerritoryRule();
+  const out = new Set<string>();
+
+  for (const a of ascents) {
+    const mainland = isMainlandHighpointAscent(a);
+    if (mainland) {
+      if (rule !== "official") out.add(a.country as string);
+      continue;
+    }
+    if (!countsAsCountryHighpoint(a)) continue;
+    const country = a.country ?? a.peak_name;
+    // Official overseas summit: only counts when overseas territories count.
+    if (rule === "mainland" && mainlandByCountry.has(country)) continue;
+    out.add(country);
+  }
+
+  return out;
+}
+
+/** Peak name that ticks a country under the active rule, for display. */
+export const expectedHighpointName = (country: string): string | null =>
+  mainlandByCountry.get(country)?.name ?? null;

@@ -1,1 +1,25 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IHR5cGUgeyBWaXNpdCB9IGZyb20gIkAvZGF0YS9wbGFjZXMiOwoKLyoqIExvYWRzIHRoZSB2aXNpdHMgbG9nYm9vayAob3duICsgcHVibGljIGVudHJpZXMgZnJvbSBvdGhlciBtZW1iZXJzKS4gKi8KZXhwb3J0IGNvbnN0IHVzZVZpc2l0cyA9ICgpID0+IHsKICBjb25zdCBbdmlzaXRzLCBzZXRWaXNpdHNdID0gdXNlU3RhdGU8VmlzaXRbXT4oW10pOwogIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IHVzZVN0YXRlKHRydWUpOwoKICBjb25zdCBsb2FkID0gdXNlQ2FsbGJhY2soYXN5bmMgKCkgPT4gewogICAgc2V0TG9hZGluZyh0cnVlKTsKICAgIGNvbnN0IHsgZGF0YSB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgLmZyb20oInZpc2l0cyIpCiAgICAgIC5zZWxlY3QoIioiKQogICAgICAub3JkZXIoInZpc2l0X2RhdGUiLCB7IGFzY2VuZGluZzogZmFsc2UsIG51bGxzRmlyc3Q6IGZhbHNlIH0pOwogICAgc2V0VmlzaXRzKChkYXRhIGFzIFZpc2l0W10pID8/IFtdKTsKICAgIHNldExvYWRpbmcoZmFsc2UpOwogIH0sIFtdKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGxvYWQoKTsKICB9LCBbbG9hZF0pOwoKICByZXR1cm4geyB2aXNpdHMsIGxvYWRpbmcsIHJlbG9hZDogbG9hZCB9Owp9Owo=
+import { useCallback, useEffect, useState } from "react";
+import { supabase } from "@/integrations/supabase/client";
+import type { Visit } from "@/data/places";
+
+/** Loads the visits logbook (own + public entries from other members). */
+export const useVisits = () => {
+  const [visits, setVisits] = useState<Visit[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  const load = useCallback(async () => {
+    setLoading(true);
+    const { data } = await supabase
+      .from("visits")
+      .select("*")
+      .order("visit_date", { ascending: false, nullsFirst: false });
+    setVisits((data as Visit[]) ?? []);
+    setLoading(false);
+  }, []);
+
+  useEffect(() => {
+    load();
+  }, [load]);
+
+  return { visits, loading, reload: load };
+};

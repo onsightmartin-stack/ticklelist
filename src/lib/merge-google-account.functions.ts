@@ -1,1 +1,127 @@
-aW1wb3J0IHsgY3JlYXRlU2VydmVyRm4gfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtc3RhcnQiOwppbXBvcnQgeyBnZXRSZXF1ZXN0SGVhZGVyIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXN0YXJ0L3NlcnZlciI7CmltcG9ydCB7IGNyZWF0ZUNsaWVudCB9IGZyb20gIkBzdXBhYmFzZS9zdXBhYmFzZS1qcyI7CgppbnRlcmZhY2UgTWVyZ2VJbnB1dCB7CiAgaWRlbnRpZmllcjogc3RyaW5nOwogIHBhc3N3b3JkOiBzdHJpbmc7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgTWVyZ2VSZXN1bHQgewogIG1lcmdlZD86IGJvb2xlYW47CiAgbWVzc2FnZT86IHN0cmluZzsKICBlbWFpbD86IHN0cmluZzsKICBtb3ZlZD86IFJlY29yZDxzdHJpbmcsIG51bWJlcj47CiAgZXJyb3I/OiBzdHJpbmc7Cn0KCi8qKgogKiBNZXJnZXMgYSBHb29nbGUtY3JlYXRlZCBhY2NvdW50IGludG8gYW4gZXhpc3RpbmcgcGFzc3dvcmQgYWNjb3VudC4KICoKICogVGhlIGNhbGxlciBtdXN0IGJlIHNpZ25lZCBpbiB3aXRoIEdvb2dsZSAoSldUIGluIHRoZSBBdXRob3JpemF0aW9uIGhlYWRlcikKICogQU5EIHByb3ZlIG93bmVyc2hpcCBvZiB0aGUgdGFyZ2V0IGFjY291bnQgd2l0aCBpdHMgdXNlcm5hbWUvZW1haWwgKyBwYXNzd29yZC4KICovCmV4cG9ydCBjb25zdCBtZXJnZUdvb2dsZUFjY291bnQgPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLmlucHV0VmFsaWRhdG9yKChpbnB1dDogdW5rbm93bik6IE1lcmdlSW5wdXQgPT4gewogICAgY29uc3QgYm9keSA9IChpbnB1dCA/PyB7fSkgYXMgUmVjb3JkPHN0cmluZywgdW5rbm93bj47CiAgICByZXR1cm4gewogICAgICBpZGVudGlmaWVyOiB0eXBlb2YgYm9keVsiaWRlbnRpZmllciJdID09PSAic3RyaW5nIiA/IGJvZHlbImlkZW50aWZpZXIiXS50cmltKCkgOiAiIiwKICAgICAgcGFzc3dvcmQ6IHR5cGVvZiBib2R5WyJwYXNzd29yZCJdID09PSAic3RyaW5nIiA/IGJvZHlbInBhc3N3b3JkIl0gOiAiIiwKICAgIH07CiAgfSkKICAuaGFuZGxlcihhc3luYyAoeyBkYXRhIH0pOiBQcm9taXNlPE1lcmdlUmVzdWx0PiA9PiB7CiAgICB0cnkgewogICAgICBjb25zdCB1cmwgPSBwcm9jZXNzLmVudlsiU1VQQUJBU0VfVVJMIl0hOwogICAgICBjb25zdCBhbm9uS2V5ID0gKHByb2Nlc3MuZW52WyJTVVBBQkFTRV9QVUJMSVNIQUJMRV9LRVkiXSA/PyBwcm9jZXNzLmVudlsiU1VQQUJBU0VfQU5PTl9LRVkiXSkhOwogICAgICBjb25zdCBzZXJ2aWNlS2V5ID0gcHJvY2Vzcy5lbnZbIlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkiXSE7CgogICAgICBjb25zdCB0b2tlbiA9IChnZXRSZXF1ZXN0SGVhZGVyKCJBdXRob3JpemF0aW9uIikgPz8gIiIpLnJlcGxhY2UoIkJlYXJlciAiLCAiIik7CiAgICAgIGlmICghdG9rZW4pIHJldHVybiB7IGVycm9yOiAiTm90IHNpZ25lZCBpbiIgfTsKCiAgICAgIGNvbnN0IGFkbWluID0gY3JlYXRlQ2xpZW50KHVybCwgc2VydmljZUtleSwgeyBhdXRoOiB7IHBlcnNpc3RTZXNzaW9uOiBmYWxzZSB9IH0pOwoKICAgICAgY29uc3QgeyBkYXRhOiBjYWxsZXIgfSA9IGF3YWl0IGFkbWluLmF1dGguZ2V0VXNlcih0b2tlbik7CiAgICAgIGNvbnN0IGNhbGxlclVzZXIgPSBjYWxsZXI/LnVzZXI7CiAgICAgIGlmICghY2FsbGVyVXNlcikgcmV0dXJuIHsgZXJyb3I6ICJOb3Qgc2lnbmVkIGluIiB9OwoKICAgICAgY29uc3QgeyBpZGVudGlmaWVyLCBwYXNzd29yZCB9ID0gZGF0YTsKICAgICAgaWYgKCFpZGVudGlmaWVyIHx8IGlkZW50aWZpZXIubGVuZ3RoID4gMjU1IHx8ICFwYXNzd29yZCB8fCBwYXNzd29yZC5sZW5ndGggPiAyMDApIHsKICAgICAgICByZXR1cm4geyBlcnJvcjogIkVudGVyIHRoZSB1c2VybmFtZS9lbWFpbCBhbmQgcGFzc3dvcmQgb2YgeW91ciBleGlzdGluZyBhY2NvdW50IiB9OwogICAgICB9CgogICAgICBjb25zdCBnb29nbGVFbWFpbCA9IGNhbGxlclVzZXIuZW1haWw7CiAgICAgIGNvbnN0IGhhc0dvb2dsZSA9IChjYWxsZXJVc2VyLmlkZW50aXRpZXMgPz8gW10pLnNvbWUoKGkpID0+IGkucHJvdmlkZXIgPT09ICJnb29nbGUiKTsKICAgICAgaWYgKCFoYXNHb29nbGUgfHwgIWdvb2dsZUVtYWlsKSB7CiAgICAgICAgcmV0dXJuIHsgZXJyb3I6ICJTaWduIGluIHdpdGggR29vZ2xlIGZpcnN0LCB0aGVuIG1lcmdlLiIgfTsKICAgICAgfQoKICAgICAgLy8gUmVzb2x2ZSB1c2VybmFtZSAtPiBlbWFpbCBzZXJ2ZXIgc2lkZSBzbyBtZW1iZXIgZW1haWxzIHN0YXkgcHJpdmF0ZS4KICAgICAgbGV0IHByaW1hcnlFbWFpbCA9IGlkZW50aWZpZXI7CiAgICAgIGlmICghaWRlbnRpZmllci5pbmNsdWRlcygiQCIpKSB7CiAgICAgICAgY29uc3QgeyBkYXRhOiBwcm9maWxlIH0gPSBhd2FpdCBhZG1pbgogICAgICAgICAgLmZyb20oInByb2ZpbGVzIikKICAgICAgICAgIC5zZWxlY3QoImlkIikKICAgICAgICAgIC5pbGlrZSgidXNlcm5hbWUiLCBpZGVudGlmaWVyKQogICAgICAgICAgLm1heWJlU2luZ2xlKCk7CiAgICAgICAgaWYgKCFwcm9maWxlKSByZXR1cm4geyBlcnJvcjogIkludmFsaWQgdXNlcm5hbWUgb3IgcGFzc3dvcmQiIH07CiAgICAgICAgY29uc3QgeyBkYXRhOiB0YXJnZXQgfSA9IGF3YWl0IGFkbWluLmF1dGguYWRtaW4uZ2V0VXNlckJ5SWQocHJvZmlsZS5pZCk7CiAgICAgICAgaWYgKCF0YXJnZXQ/LnVzZXI/LmVtYWlsKSByZXR1cm4geyBlcnJvcjogIkludmFsaWQgdXNlcm5hbWUgb3IgcGFzc3dvcmQiIH07CiAgICAgICAgcHJpbWFyeUVtYWlsID0gdGFyZ2V0LnVzZXIuZW1haWw7CiAgICAgIH0KCiAgICAgIC8vIFByb29mIG9mIG93bmVyc2hpcCBvZiB0aGUgYWNjb3VudCB3ZSBhcmUgbWVyZ2luZyBpbnRvLgogICAgICBjb25zdCBhbm9uID0gY3JlYXRlQ2xpZW50KHVybCwgYW5vbktleSwgeyBhdXRoOiB7IHBlcnNpc3RTZXNzaW9uOiBmYWxzZSB9IH0pOwogICAgICBjb25zdCB7IGRhdGE6IHNpZ25JbiwgZXJyb3I6IHNpZ25JbkVycm9yIH0gPSBhd2FpdCBhbm9uLmF1dGguc2lnbkluV2l0aFBhc3N3b3JkKHsKICAgICAgICBlbWFpbDogcHJpbWFyeUVtYWlsLAogICAgICAgIHBhc3N3b3JkLAogICAgICB9KTsKICAgICAgaWYgKHNpZ25JbkVycm9yIHx8ICFzaWduSW4udXNlcikgcmV0dXJuIHsgZXJyb3I6ICJJbnZhbGlkIHVzZXJuYW1lIG9yIHBhc3N3b3JkIiB9OwoKICAgICAgY29uc3QgcHJpbWFyeUlkID0gc2lnbkluLnVzZXIuaWQ7CiAgICAgIGlmIChwcmltYXJ5SWQgPT09IGNhbGxlclVzZXIuaWQpIHsKICAgICAgICByZXR1cm4geyBtZXJnZWQ6IGZhbHNlLCBtZXNzYWdlOiAiR29vZ2xlIGlzIGFscmVhZHkgY29ubmVjdGVkIHRvIHRoaXMgYWNjb3VudC4iIH07CiAgICAgIH0KCiAgICAgIC8vIE1vdmUgZXZlcnl0aGluZyB0aGUgZHVwbGljYXRlIGNyZWF0ZWQgb3ZlciB0byB0aGUgcHJpbWFyeSBhY2NvdW50LgogICAgICBjb25zdCBtb3ZlczogQXJyYXk8W3N0cmluZywgc3RyaW5nXT4gPSBbCiAgICAgICAgWyJhc2NlbnRzIiwgInVzZXJfaWQiXSwKICAgICAgICBbImFkdmVudHVyZXMiLCAiY3JlYXRvcl9pZCJdLAogICAgICAgIFsiYWR2ZW50dXJlX3NpZ251cHMiLCAidXNlcl9pZCJdLAogICAgICAgIFsiZm9sbG93cyIsICJmb2xsb3dlcl9pZCJdLAogICAgICAgIFsiZm9sbG93cyIsICJmb2xsb3dpbmdfaWQiXSwKICAgICAgXTsKICAgICAgY29uc3QgbW92ZWQ6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7fTsKICAgICAgZm9yIChjb25zdCBbdGFibGUsIGNvbHVtbl0gb2YgbW92ZXMpIHsKICAgICAgICBjb25zdCB7IGRhdGE6IHJvd3MsIGVycm9yIH0gPSBhd2FpdCBhZG1pbgogICAgICAgICAgLmZyb20odGFibGUpCiAgICAgICAgICAudXBkYXRlKHsgW2NvbHVtbl06IHByaW1hcnlJZCB9KQogICAgICAgICAgLmVxKGNvbHVtbiwgY2FsbGVyVXNlci5pZCkKICAgICAgICAgIC5zZWxlY3QoImlkIik7CiAgICAgICAgaWYgKGVycm9yKSB7CiAgICAgICAgICAvLyBVbmlxdWUtY29uc3RyYWludCBjbGFzaGVzIChhbHJlYWR5IGZvbGxvd2luZywgYWxyZWFkeSBzaWduZWQgdXApIGFyZSBmaW5lIHRvIHNraXAuCiAgICAgICAgICBjb25zb2xlLmVycm9yKGBtZXJnZSAke3RhYmxlfS4ke2NvbHVtbn0gZmFpbGVkOiAke2Vycm9yLm1lc3NhZ2V9YCk7CiAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgbW92ZWRbYCR7dGFibGV9LiR7Y29sdW1ufWBdID0gcm93cz8ubGVuZ3RoID8/IDA7CiAgICAgIH0KCiAgICAgIC8vIFBvaW50IHRoZSBwcmltYXJ5IGFjY291bnQgYXQgdGhlIEdvb2dsZSBhZGRyZXNzIHNvIEdvb2dsZSBzaWduLWluCiAgICAgIC8vIHJlc29sdmVzIHRvIGl0IGZyb20gbm93IG9uIChtYXRjaGluZyB2ZXJpZmllZCBlbWFpbHMgYXV0by1saW5rKS4KICAgICAgY29uc3QgeyBlcnJvcjogZW1haWxFcnJvciB9ID0gYXdhaXQgYWRtaW4uYXV0aC5hZG1pbi51cGRhdGVVc2VyQnlJZChwcmltYXJ5SWQsIHsKICAgICAgICBlbWFpbDogZ29vZ2xlRW1haWwsCiAgICAgICAgZW1haWxfY29uZmlybTogdHJ1ZSwKICAgICAgfSk7CiAgICAgIGlmIChlbWFpbEVycm9yKSB7CiAgICAgICAgY29uc29sZS5lcnJvcihgY291bGQgbm90IG1vdmUgZW1haWwgdG8gcHJpbWFyeSBhY2NvdW50OiAke2VtYWlsRXJyb3IubWVzc2FnZX1gKTsKICAgICAgICByZXR1cm4geyBlcnJvcjogIkNvdWxkIG5vdCBjb21wbGV0ZSB0aGUgbWVyZ2UuIE5vdGhpbmcgd2FzIGRlbGV0ZWQuIiB9OwogICAgICB9CgogICAgICBjb25zdCB7IGVycm9yOiBkZWxldGVFcnJvciB9ID0gYXdhaXQgYWRtaW4uYXV0aC5hZG1pbi5kZWxldGVVc2VyKGNhbGxlclVzZXIuaWQpOwogICAgICBpZiAoZGVsZXRlRXJyb3IpIGNvbnNvbGUuZXJyb3IoYGNvdWxkIG5vdCBkZWxldGUgZHVwbGljYXRlIGFjY291bnQ6ICR7ZGVsZXRlRXJyb3IubWVzc2FnZX1gKTsKCiAgICAgIHJldHVybiB7IG1lcmdlZDogdHJ1ZSwgZW1haWw6IGdvb2dsZUVtYWlsLCBtb3ZlZCB9OwogICAgfSBjYXRjaCAoZSkgewogICAgICBjb25zb2xlLmVycm9yKCJtZXJnZS1nb29nbGUtYWNjb3VudCBmYWlsZWQiLCBlKTsKICAgICAgcmV0dXJuIHsgZXJyb3I6ICJNZXJnZSBmYWlsZWQiIH07CiAgICB9CiAgfSk7Cg==
+import { createServerFn } from "@tanstack/react-start";
+import { getRequestHeader } from "@tanstack/react-start/server";
+import { createClient } from "@supabase/supabase-js";
+
+interface MergeInput {
+  identifier: string;
+  password: string;
+}
+
+export interface MergeResult {
+  merged?: boolean;
+  message?: string;
+  email?: string;
+  moved?: Record<string, number>;
+  error?: string;
+}
+
+/**
+ * Merges a Google-created account into an existing password account.
+ *
+ * The caller must be signed in with Google (JWT in the Authorization header)
+ * AND prove ownership of the target account with its username/email + password.
+ */
+export const mergeGoogleAccount = createServerFn({ method: "POST" })
+  .inputValidator((input: unknown): MergeInput => {
+    const body = (input ?? {}) as Record<string, unknown>;
+    return {
+      identifier: typeof body["identifier"] === "string" ? body["identifier"].trim() : "",
+      password: typeof body["password"] === "string" ? body["password"] : "",
+    };
+  })
+  .handler(async ({ data }): Promise<MergeResult> => {
+    try {
+      const url = process.env["SUPABASE_URL"]!;
+      const anonKey = (process.env["SUPABASE_PUBLISHABLE_KEY"] ?? process.env["SUPABASE_ANON_KEY"])!;
+      const serviceKey = process.env["SUPABASE_SERVICE_ROLE_KEY"]!;
+
+      const token = (getRequestHeader("Authorization") ?? "").replace("Bearer ", "");
+      if (!token) return { error: "Not signed in" };
+
+      const admin = createClient(url, serviceKey, { auth: { persistSession: false } });
+
+      const { data: caller } = await admin.auth.getUser(token);
+      const callerUser = caller?.user;
+      if (!callerUser) return { error: "Not signed in" };
+
+      const { identifier, password } = data;
+      if (!identifier || identifier.length > 255 || !password || password.length > 200) {
+        return { error: "Enter the username/email and password of your existing account" };
+      }
+
+      const googleEmail = callerUser.email;
+      const hasGoogle = (callerUser.identities ?? []).some((i) => i.provider === "google");
+      if (!hasGoogle || !googleEmail) {
+        return { error: "Sign in with Google first, then merge." };
+      }
+
+      // Resolve username -> email server side so member emails stay private.
+      let primaryEmail = identifier;
+      if (!identifier.includes("@")) {
+        const { data: profile } = await admin
+          .from("profiles")
+          .select("id")
+          .ilike("username", identifier)
+          .maybeSingle();
+        if (!profile) return { error: "Invalid username or password" };
+        const { data: target } = await admin.auth.admin.getUserById(profile.id);
+        if (!target?.user?.email) return { error: "Invalid username or password" };
+        primaryEmail = target.user.email;
+      }
+
+      // Proof of ownership of the account we are merging into.
+      const anon = createClient(url, anonKey, { auth: { persistSession: false } });
+      const { data: signIn, error: signInError } = await anon.auth.signInWithPassword({
+        email: primaryEmail,
+        password,
+      });
+      if (signInError || !signIn.user) return { error: "Invalid username or password" };
+
+      const primaryId = signIn.user.id;
+      if (primaryId === callerUser.id) {
+        return { merged: false, message: "Google is already connected to this account." };
+      }
+
+      // Move everything the duplicate created over to the primary account.
+      const moves: Array<[string, string]> = [
+        ["ascents", "user_id"],
+        ["adventures", "creator_id"],
+        ["adventure_signups", "user_id"],
+        ["follows", "follower_id"],
+        ["follows", "following_id"],
+      ];
+      const moved: Record<string, number> = {};
+      for (const [table, column] of moves) {
+        const { data: rows, error } = await admin
+          .from(table)
+          .update({ [column]: primaryId })
+          .eq(column, callerUser.id)
+          .select("id");
+        if (error) {
+          // Unique-constraint clashes (already following, already signed up) are fine to skip.
+          console.error(`merge ${table}.${column} failed: ${error.message}`);
+          continue;
+        }
+        moved[`${table}.${column}`] = rows?.length ?? 0;
+      }
+
+      // Point the primary account at the Google address so Google sign-in
+      // resolves to it from now on (matching verified emails auto-link).
+      const { error: emailError } = await admin.auth.admin.updateUserById(primaryId, {
+        email: googleEmail,
+        email_confirm: true,
+      });
+      if (emailError) {
+        console.error(`could not move email to primary account: ${emailError.message}`);
+        return { error: "Could not complete the merge. Nothing was deleted." };
+      }
+
+      const { error: deleteError } = await admin.auth.admin.deleteUser(callerUser.id);
+      if (deleteError) console.error(`could not delete duplicate account: ${deleteError.message}`);
+
+      return { merged: true, email: googleEmail, moved };
+    } catch (e) {
+      console.error("merge-google-account failed", e);
+      return { error: "Merge failed" };
+    }
+  });

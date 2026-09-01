@@ -1,1 +1,56 @@
-Q1JFQVRFIE9SIFJFUExBQ0UgRlVOQ1RJT04gcHVibGljLndvcmxkX3BlYWtfY291bnRyaWVzKCkKUkVUVVJOUyBUQUJMRSAoY291bnRyeV9jb2RlIHRleHQsIHBlYWtzIGJpZ2ludCkKTEFOR1VBR0Ugc3FsClNUQUJMRQpTRVQgc2VhcmNoX3BhdGggPSBwdWJsaWMKQVMgJCQKICBTRUxFQ1QgcC5jb3VudHJ5X2NvZGUsIGNvdW50KCopOjpiaWdpbnQKICBGUk9NIHB1YmxpYy53b3JsZF9wZWFrcyBwCiAgV0hFUkUgcC5jb3VudHJ5X2NvZGUgSVMgTk9UIE5VTEwKICBHUk9VUCBCWSBwLmNvdW50cnlfY29kZQogIEhBVklORyBjb3VudCgqKSA+IDEwCiAgT1JERVIgQlkgcC5jb3VudHJ5X2NvZGU7CiQkOwoKR1JBTlQgRVhFQ1VURSBPTiBGVU5DVElPTiBwdWJsaWMud29ybGRfcGVha19jb3VudHJpZXMoKSBUTyBhbm9uLCBhdXRoZW50aWNhdGVkLCBzZXJ2aWNlX3JvbGU7CgpDUkVBVEUgT1IgUkVQTEFDRSBGVU5DVElPTiBwdWJsaWMuYnVpbGRfcGVha19saXN0KAogIF9jb3VudHJ5IHRleHQgREVGQVVMVCBOVUxMLAogIF9taW5fZWxldmF0aW9uIGludGVnZXIgREVGQVVMVCBOVUxMLAogIF9taW5fcHJvbWluZW5jZSBpbnRlZ2VyIERFRkFVTFQgTlVMTCwKICBfc29ydCB0ZXh0IERFRkFVTFQgJ2VsZXZhdGlvbicsCiAgX2xpbWl0IGludGVnZXIgREVGQVVMVCA1MAopClJFVFVSTlMgVEFCTEUgKAogIGlkIGJpZ2ludCwKICBuYW1lIHRleHQsCiAgbGF0IGRvdWJsZSBwcmVjaXNpb24sCiAgbG9uIGRvdWJsZSBwcmVjaXNpb24sCiAgY291bnRyeV9jb2RlIHRleHQsCiAgYWRtaW4xIHRleHQsCiAgZWxldmF0aW9uIGludGVnZXIsCiAgcHJvbWluZW5jZSBpbnRlZ2VyLAogIHRvdGFsX21hdGNoZXMgYmlnaW50CikKTEFOR1VBR0Ugc3FsClNUQUJMRQpTRVQgc2VhcmNoX3BhdGggPSBwdWJsaWMKQVMgJCQKICBXSVRIIG1hdGNoZWQgQVMgKAogICAgU0VMRUNUIHAuaWQsIHAubmFtZSwgcC5sYXQsIHAubG9uLCBwLmNvdW50cnlfY29kZSwgcC5hZG1pbjEsIHAuZWxldmF0aW9uLCBwLnByb21pbmVuY2UKICAgIEZST00gcHVibGljLndvcmxkX3BlYWtzIHAKICAgIFdIRVJFIChfY291bnRyeSBJUyBOVUxMIE9SIHAuY291bnRyeV9jb2RlID0gX2NvdW50cnkpCiAgICAgIEFORCAoX21pbl9lbGV2YXRpb24gSVMgTlVMTCBPUiBwLmVsZXZhdGlvbiA+PSBfbWluX2VsZXZhdGlvbikKICAgICAgQU5EIChfbWluX3Byb21pbmVuY2UgSVMgTlVMTCBPUiBwLnByb21pbmVuY2UgPj0gX21pbl9wcm9taW5lbmNlKQogICAgICBBTkQgKF9zb3J0IDw+ICdwcm9taW5lbmNlJyBPUiBwLnByb21pbmVuY2UgSVMgTk9UIE5VTEwpCiAgICAgIEFORCBwLmVsZXZhdGlvbiBJUyBOT1QgTlVMTAogICkKICBTRUxFQ1QgbS4qLCAoU0VMRUNUIGNvdW50KCopIEZST00gbWF0Y2hlZCk6OmJpZ2ludCBBUyB0b3RhbF9tYXRjaGVzCiAgRlJPTSBtYXRjaGVkIG0KICBPUkRFUiBCWQogICAgQ0FTRSBXSEVOIF9zb3J0ID0gJ3Byb21pbmVuY2UnIFRIRU4gbS5wcm9taW5lbmNlIEVMU0UgbS5lbGV2YXRpb24gRU5EIERFU0MgTlVMTFMgTEFTVCwKICAgIG0ubmFtZQogIExJTUlUIExFQVNUKEdSRUFURVNUKENPQUxFU0NFKF9saW1pdCwgNTApLCAxKSwgMzAwKTsKJCQ7CgpHUkFOVCBFWEVDVVRFIE9OIEZVTkNUSU9OIHB1YmxpYy5idWlsZF9wZWFrX2xpc3QodGV4dCwgaW50ZWdlciwgaW50ZWdlciwgdGV4dCwgaW50ZWdlcikgVE8gYW5vbiwgYXV0aGVudGljYXRlZCwgc2VydmljZV9yb2xlOw==
+CREATE OR REPLACE FUNCTION public.world_peak_countries()
+RETURNS TABLE (country_code text, peaks bigint)
+LANGUAGE sql
+STABLE
+SET search_path = public
+AS $$
+  SELECT p.country_code, count(*)::bigint
+  FROM public.world_peaks p
+  WHERE p.country_code IS NOT NULL
+  GROUP BY p.country_code
+  HAVING count(*) > 10
+  ORDER BY p.country_code;
+$$;
+
+GRANT EXECUTE ON FUNCTION public.world_peak_countries() TO anon, authenticated, service_role;
+
+CREATE OR REPLACE FUNCTION public.build_peak_list(
+  _country text DEFAULT NULL,
+  _min_elevation integer DEFAULT NULL,
+  _min_prominence integer DEFAULT NULL,
+  _sort text DEFAULT 'elevation',
+  _limit integer DEFAULT 50
+)
+RETURNS TABLE (
+  id bigint,
+  name text,
+  lat double precision,
+  lon double precision,
+  country_code text,
+  admin1 text,
+  elevation integer,
+  prominence integer,
+  total_matches bigint
+)
+LANGUAGE sql
+STABLE
+SET search_path = public
+AS $$
+  WITH matched AS (
+    SELECT p.id, p.name, p.lat, p.lon, p.country_code, p.admin1, p.elevation, p.prominence
+    FROM public.world_peaks p
+    WHERE (_country IS NULL OR p.country_code = _country)
+      AND (_min_elevation IS NULL OR p.elevation >= _min_elevation)
+      AND (_min_prominence IS NULL OR p.prominence >= _min_prominence)
+      AND (_sort <> 'prominence' OR p.prominence IS NOT NULL)
+      AND p.elevation IS NOT NULL
+  )
+  SELECT m.*, (SELECT count(*) FROM matched)::bigint AS total_matches
+  FROM matched m
+  ORDER BY
+    CASE WHEN _sort = 'prominence' THEN m.prominence ELSE m.elevation END DESC NULLS LAST,
+    m.name
+  LIMIT LEAST(GREATEST(COALESCE(_limit, 50), 1), 300);
+$$;
+
+GRANT EXECUTE ON FUNCTION public.build_peak_list(text, integer, integer, text, integer) TO anon, authenticated, service_role;

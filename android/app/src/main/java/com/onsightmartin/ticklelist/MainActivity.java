@@ -1,1 +1,13 @@
-cGFja2FnZSBjb20ub25zaWdodG1hcnRpbi50aWNrbGVsaXN0OwoKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlOwppbXBvcnQgY29tLmdldGNhcGFjaXRvci5CcmlkZ2VBY3Rpdml0eTsKCnB1YmxpYyBjbGFzcyBNYWluQWN0aXZpdHkgZXh0ZW5kcyBCcmlkZ2VBY3Rpdml0eSB7CiAgICBAT3ZlcnJpZGUKICAgIHByb3RlY3RlZCB2b2lkIG9uQ3JlYXRlKEJ1bmRsZSBzYXZlZEluc3RhbmNlU3RhdGUpIHsKICAgICAgICAvLyBBbHdheXMgc3RhcnQgZnJvbSBDYXBhY2l0b3IncyBjb25maWd1cmVkIGNvbW11bml0eSBVUkwgaW5zdGVhZCBvZgogICAgICAgIC8vIHJlc3RvcmluZyBhIG1hcmtldGluZyBwYWdlIHRoYXQgcHJldmlvdXNseSByZXBsYWNlZCB0aGUgV2ViVmlldy4KICAgICAgICBzdXBlci5vbkNyZWF0ZShudWxsKTsKICAgIH0KfQo=
+package com.onsightmartin.ticklelist;
+
+import android.os.Bundle;
+import com.getcapacitor.BridgeActivity;
+
+public class MainActivity extends BridgeActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        // Always start from Capacitor's configured community URL instead of
+        // restoring a marketing page that previously replaced the WebView.
+        super.onCreate(null);
+    }
+}

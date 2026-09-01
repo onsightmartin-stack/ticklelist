@@ -1,1 +1,66 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKCmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IHR5cGUgeyBDYXRhbG9nUGVhayB9IGZyb20gIkAvbGliL3BlYWstY2F0YWxvZyI7CgpleHBvcnQgaW50ZXJmYWNlIFJlbW90ZVBlYWtGaWx0ZXJzIHsKICAvKiogTWluaW11bSBlbGV2YXRpb24gaW4gbWV0cmVzLiAqLwogIG1pbkVsZXZhdGlvbj86IG51bWJlciB8IG51bGw7CiAgLyoqIE1pbmltdW0gdG9wb2dyYXBoaWMgcHJvbWluZW5jZSBpbiBtZXRyZXMuICovCiAgbWluUHJvbWluZW5jZT86IG51bWJlciB8IG51bGw7Cn0KCi8qKgogKiBTZWFyY2hlcyB0aGUgfjk4MCwwMDAtcGVhayBnbG9iYWwgZGF0YWJhc2UgKEdlb05hbWVzIHN1bW1pdHMsIG1vdW50YWlucywKICogaGlsbHMgYW5kIHZvbGNhbm9lcykgc2VydmVyLXNpZGUsIGRlYm91bmNlZC4gQ29tcGxlbWVudHMgdGhlIGxvY2FsIGNhdGFsb2cuCiAqLwpleHBvcnQgY29uc3QgdXNlUmVtb3RlUGVha1NlYXJjaCA9ICgKICBxdWVyeTogc3RyaW5nLAogIGxpbWl0ID0gOCwKICBmaWx0ZXJzOiBSZW1vdGVQZWFrRmlsdGVycyA9IHt9LAopOiBDYXRhbG9nUGVha1tdID0+IHsKICBjb25zdCBbcm93cywgc2V0Um93c10gPSB1c2VTdGF0ZTxDYXRhbG9nUGVha1tdPihbXSk7CiAgY29uc3QgbWluRWxldmF0aW9uID0gZmlsdGVycy5taW5FbGV2YXRpb24gPz8gbnVsbDsKICBjb25zdCBtaW5Qcm9taW5lbmNlID0gZmlsdGVycy5taW5Qcm9taW5lbmNlID8/IG51bGw7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCBxID0gcXVlcnkudHJpbSgpOwogICAgaWYgKHEubGVuZ3RoIDwgMikgewogICAgICBzZXRSb3dzKFtdKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgbGV0IGNhbmNlbGxlZCA9IGZhbHNlOwogICAgY29uc3QgdCA9IHNldFRpbWVvdXQoYXN5bmMgKCkgPT4gewogICAgICBjb25zdCBhcmdzOiB7IF9xOiBzdHJpbmc7IF9saW1pdDogbnVtYmVyOyBfbWluX2VsZXZhdGlvbj86IG51bWJlcjsgX21pbl9wcm9taW5lbmNlPzogbnVtYmVyIH0gPSB7CiAgICAgICAgX3E6IHEsCiAgICAgICAgX2xpbWl0OiBsaW1pdCwKICAgICAgfTsKICAgICAgaWYgKG1pbkVsZXZhdGlvbikgYXJncy5fbWluX2VsZXZhdGlvbiA9IG1pbkVsZXZhdGlvbjsKICAgICAgaWYgKG1pblByb21pbmVuY2UpIGFyZ3MuX21pbl9wcm9taW5lbmNlID0gbWluUHJvbWluZW5jZTsKICAgICAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UucnBjKCJzZWFyY2hfd29ybGRfcGVha3MiLCBhcmdzKTsKICAgICAgaWYgKGNhbmNlbGxlZCB8fCBlcnJvciB8fCAhZGF0YSkgcmV0dXJuOwogICAgICBzZXRSb3dzKAogICAgICAgIChkYXRhIGFzIEFycmF5PFJlY29yZDxzdHJpbmcsIHVua25vd24+PikubWFwKChyKSA9PiB7CiAgICAgICAgICBjb25zdCBlbGV2ID0gclsiZWxldmF0aW9uIl0gYXMgbnVtYmVyIHwgbnVsbDsKICAgICAgICAgIGNvbnN0IHByb20gPSAoclsicHJvbWluZW5jZSJdIGFzIG51bWJlciB8IG51bGwpID8/IG51bGw7CiAgICAgICAgICByZXR1cm4gewogICAgICAgICAgICBrZXk6IGB3cDoke1N0cmluZyhyWyJpZCJdKX1gLAogICAgICAgICAgICBuYW1lOiBTdHJpbmcoclsibmFtZSJdKSwKICAgICAgICAgICAgZWxldmF0aW9uOiBlbGV2ID8gYCR7ZWxldn0gbWAgOiAi4oCUIiwKICAgICAgICAgICAgY291bnRyeTogKHJbImNvdW50cnlfY29kZSJdIGFzIHN0cmluZyB8IG51bGwpID8/ICIiLAogICAgICAgICAgICB0eXBlOiAiZmFtb3VzX3BlYWsiIGFzIGNvbnN0LAogICAgICAgICAgICBncm91cDogIldvcmxkIHBlYWtzIiwKICAgICAgICAgICAgZWxldmF0aW9uTTogZWxldiA/PyBudWxsLAogICAgICAgICAgICBwcm9taW5lbmNlTTogcHJvbSwKICAgICAgICAgIH07CiAgICAgICAgfSksCiAgICAgICk7CiAgICB9LCAyMjApOwogICAgcmV0dXJuICgpID0+IHsKICAgICAgY2FuY2VsbGVkID0gdHJ1ZTsKICAgICAgY2xlYXJUaW1lb3V0KHQpOwogICAgfTsKICB9LCBbcXVlcnksIGxpbWl0LCBtaW5FbGV2YXRpb24sIG1pblByb21pbmVuY2VdKTsKCiAgcmV0dXJuIHJvd3M7Cn07Cg==
+import { useEffect, useState } from "react";
+
+import { supabase } from "@/integrations/supabase/client";
+import type { CatalogPeak } from "@/lib/peak-catalog";
+
+export interface RemotePeakFilters {
+  /** Minimum elevation in metres. */
+  minElevation?: number | null;
+  /** Minimum topographic prominence in metres. */
+  minProminence?: number | null;
+}
+
+/**
+ * Searches the ~980,000-peak global database (GeoNames summits, mountains,
+ * hills and volcanoes) server-side, debounced. Complements the local catalog.
+ */
+export const useRemotePeakSearch = (
+  query: string,
+  limit = 8,
+  filters: RemotePeakFilters = {},
+): CatalogPeak[] => {
+  const [rows, setRows] = useState<CatalogPeak[]>([]);
+  const minElevation = filters.minElevation ?? null;
+  const minProminence = filters.minProminence ?? null;
+
+  useEffect(() => {
+    const q = query.trim();
+    if (q.length < 2) {
+      setRows([]);
+      return;
+    }
+    let cancelled = false;
+    const t = setTimeout(async () => {
+      const args: { _q: string; _limit: number; _min_elevation?: number; _min_prominence?: number } = {
+        _q: q,
+        _limit: limit,
+      };
+      if (minElevation) args._min_elevation = minElevation;
+      if (minProminence) args._min_prominence = minProminence;
+      const { data, error } = await supabase.rpc("search_world_peaks", args);
+      if (cancelled || error || !data) return;
+      setRows(
+        (data as Array<Record<string, unknown>>).map((r) => {
+          const elev = r["elevation"] as number | null;
+          const prom = (r["prominence"] as number | null) ?? null;
+          return {
+            key: `wp:${String(r["id"])}`,
+            name: String(r["name"]),
+            elevation: elev ? `${elev} m` : "—",
+            country: (r["country_code"] as string | null) ?? "",
+            type: "famous_peak" as const,
+            group: "World peaks",
+            elevationM: elev ?? null,
+            prominenceM: prom,
+          };
+        }),
+      );
+    }, 220);
+    return () => {
+      cancelled = true;
+      clearTimeout(t);
+    };
+  }, [query, limit, minElevation, minProminence]);
+
+  return rows;
+};

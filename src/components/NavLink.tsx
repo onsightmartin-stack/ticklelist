@@ -1,1 +1,28 @@
-aW1wb3J0IHsgTmF2TGluayBhcyBSb3V0ZXJOYXZMaW5rLCBOYXZMaW5rUHJvcHMgfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKaW1wb3J0IHsgZm9yd2FyZFJlZiB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyI7CgppbnRlcmZhY2UgTmF2TGlua0NvbXBhdFByb3BzIGV4dGVuZHMgT21pdDxOYXZMaW5rUHJvcHMsICJjbGFzc05hbWUiPiB7CiAgY2xhc3NOYW1lPzogc3RyaW5nOwogIGFjdGl2ZUNsYXNzTmFtZT86IHN0cmluZzsKICBwZW5kaW5nQ2xhc3NOYW1lPzogc3RyaW5nOwp9Cgpjb25zdCBOYXZMaW5rID0gZm9yd2FyZFJlZjxIVE1MQW5jaG9yRWxlbWVudCwgTmF2TGlua0NvbXBhdFByb3BzPigKICAoeyBjbGFzc05hbWUsIGFjdGl2ZUNsYXNzTmFtZSwgcGVuZGluZ0NsYXNzTmFtZSwgdG8sIC4uLnByb3BzIH0sIHJlZikgPT4gewogICAgcmV0dXJuICgKICAgICAgPFJvdXRlck5hdkxpbmsKICAgICAgICByZWY9e3JlZn0KICAgICAgICB0bz17dG99CiAgICAgICAgY2xhc3NOYW1lPXsoeyBpc0FjdGl2ZSwgaXNQZW5kaW5nIH0pID0+CiAgICAgICAgICBjbihjbGFzc05hbWUsIGlzQWN0aXZlICYmIGFjdGl2ZUNsYXNzTmFtZSwgaXNQZW5kaW5nICYmIHBlbmRpbmdDbGFzc05hbWUpCiAgICAgICAgfQogICAgICAgIHsuLi5wcm9wc30KICAgICAgLz4KICAgICk7CiAgfSwKKTsKCk5hdkxpbmsuZGlzcGxheU5hbWUgPSAiTmF2TGluayI7CgpleHBvcnQgeyBOYXZMaW5rIH07Cg==
+import { NavLink as RouterNavLink, NavLinkProps } from "@/lib/router-compat";
+import { forwardRef } from "react";
+import { cn } from "@/lib/utils";
+
+interface NavLinkCompatProps extends Omit<NavLinkProps, "className"> {
+  className?: string;
+  activeClassName?: string;
+  pendingClassName?: string;
+}
+
+const NavLink = forwardRef<HTMLAnchorElement, NavLinkCompatProps>(
+  ({ className, activeClassName, pendingClassName, to, ...props }, ref) => {
+    return (
+      <RouterNavLink
+        ref={ref}
+        to={to}
+        className={({ isActive, isPending }) =>
+          cn(className, isActive && activeClassName, isPending && pendingClassName)
+        }
+        {...props}
+      />
+    );
+  },
+);
+
+NavLink.displayName = "NavLink";
+
+export { NavLink };

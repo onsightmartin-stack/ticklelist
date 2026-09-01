@@ -1,1 +1,31 @@
-Q1JFQVRFIFRBQkxFIHB1YmxpYy5jb3VudHJ5X3dhcm5pbmdzICgKICBpZCB1dWlkIFBSSU1BUlkgS0VZIERFRkFVTFQgZ2VuX3JhbmRvbV91dWlkKCksCiAgY291bnRyeV9uYW1lIHRleHQgTk9UIE5VTEwsCiAgYWR2aXNvcnlfbGV2ZWwgaW50ZWdlciBOT1QgTlVMTCBERUZBVUxUIDEsCiAgYWR2aXNvcnlfdGV4dCB0ZXh0LAogIHNvdXJjZSB0ZXh0IERFRkFVTFQgJ1VTIFN0YXRlIERlcGFydG1lbnQnLAogIGxhc3RfY2hlY2tlZF9hdCB0aW1lc3RhbXB0eiBOT1QgTlVMTCBERUZBVUxUIG5vdygpLAogIGNyZWF0ZWRfYXQgdGltZXN0YW1wdHogTk9UIE5VTEwgREVGQVVMVCBub3coKSwKICB1cGRhdGVkX2F0IHRpbWVzdGFtcHR6IE5PVCBOVUxMIERFRkFVTFQgbm93KCksCiAgVU5JUVVFKGNvdW50cnlfbmFtZSkKKTsKCkFMVEVSIFRBQkxFIHB1YmxpYy5jb3VudHJ5X3dhcm5pbmdzIEVOQUJMRSBST1cgTEVWRUwgU0VDVVJJVFk7CgpDUkVBVEUgUE9MSUNZICJDb3VudHJ5IHdhcm5pbmdzIGFyZSBwdWJsaWNseSByZWFkYWJsZSIKICBPTiBwdWJsaWMuY291bnRyeV93YXJuaW5ncwogIEZPUiBTRUxFQ1QKICBUTyBwdWJsaWMKICBVU0lORyAodHJ1ZSk7CgpDUkVBVEUgUE9MSUNZICJTZXJ2aWNlIHJvbGUgY2FuIG1hbmFnZSBjb3VudHJ5X3dhcm5pbmdzIgogIE9OIHB1YmxpYy5jb3VudHJ5X3dhcm5pbmdzCiAgRk9SIEFMTAogIFRPIHNlcnZpY2Vfcm9sZQogIFVTSU5HICh0cnVlKQogIFdJVEggQ0hFQ0sgKHRydWUpOwoKQ1JFQVRFIFRSSUdHRVIgdXBkYXRlX2NvdW50cnlfd2FybmluZ3NfdXBkYXRlZF9hdAogIEJFRk9SRSBVUERBVEUgT04gcHVibGljLmNvdW50cnlfd2FybmluZ3MKICBGT1IgRUFDSCBST1cKICBFWEVDVVRFIEZVTkNUSU9OIHVwZGF0ZV91cGRhdGVkX2F0X2NvbHVtbigpOw==
+CREATE TABLE public.country_warnings (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  country_name text NOT NULL,
+  advisory_level integer NOT NULL DEFAULT 1,
+  advisory_text text,
+  source text DEFAULT 'US State Department',
+  last_checked_at timestamptz NOT NULL DEFAULT now(),
+  created_at timestamptz NOT NULL DEFAULT now(),
+  updated_at timestamptz NOT NULL DEFAULT now(),
+  UNIQUE(country_name)
+);
+
+ALTER TABLE public.country_warnings ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Country warnings are publicly readable"
+  ON public.country_warnings
+  FOR SELECT
+  TO public
+  USING (true);
+
+CREATE POLICY "Service role can manage country_warnings"
+  ON public.country_warnings
+  FOR ALL
+  TO service_role
+  USING (true)
+  WITH CHECK (true);
+
+CREATE TRIGGER update_country_warnings_updated_at
+  BEFORE UPDATE ON public.country_warnings
+  FOR EACH ROW
+  EXECUTE FUNCTION update_updated_at_column();

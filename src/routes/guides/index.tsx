@@ -1,1 +1,30 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBHdWlkZXNJbmRleFBhZ2UgZnJvbSAiQC9wYWdlcy9HdWlkZXNJbmRleFBhZ2UiOwoKY29uc3QgU0lURSA9ICJodHRwczovL29uc2lnaHRtYXJ0aW4uY29tIjsKY29uc3QgT0dfSU1BR0UgPSBgJHtTSVRFfS9vZy1pbWFnZS5qcGdgOwpjb25zdCB0aXRsZSA9ICJIaWdocG9pbnRpbmcgR3VpZGVzICYgTGlzdHMg4oCUIE9uc2lnaHQgTWFydGluIjsKY29uc3QgZGVzY3JpcHRpb24gPQogICJSYW5rZWQgbGlzdHMgb2YgdGhlIHdvcmxkJ3MgY291bnRyeSBoaWdocG9pbnRzOiB0aGUgZnVsbCBsaXN0LCB0aGUgZWFzaWVzdCwgdGhlIGhhcmRlc3QsIHRoZSBiZXN0IGJlZ2lubmVyIHBlYWtzIGFuZCB0aGUgZ3JlYXQgdm9sY2Fub2VzLiI7CmNvbnN0IHVybCA9IGAke1NJVEV9L2d1aWRlc2A7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9ndWlkZXMvIikoewogIGhlYWQ6ICgpID0+ICh7CiAgICBtZXRhOiBbCiAgICAgIHsgdGl0bGUgfSwKICAgICAgeyBuYW1lOiAiZGVzY3JpcHRpb24iLCBjb250ZW50OiBkZXNjcmlwdGlvbiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6c2l0ZV9uYW1lIiwgY29udGVudDogIk9uc2lnaHQgTWFydGluIiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6dGl0bGUiLCBjb250ZW50OiB0aXRsZSB9LAogICAgICB7IHByb3BlcnR5OiAib2c6ZGVzY3JpcHRpb24iLCBjb250ZW50OiBkZXNjcmlwdGlvbiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6dHlwZSIsIGNvbnRlbnQ6ICJ3ZWJzaXRlIiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6dXJsIiwgY29udGVudDogdXJsIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzppbWFnZSIsIGNvbnRlbnQ6IE9HX0lNQUdFIH0sCiAgICAgIHsgbmFtZTogInR3aXR0ZXI6Y2FyZCIsIGNvbnRlbnQ6ICJzdW1tYXJ5X2xhcmdlX2ltYWdlIiB9LAogICAgICB7IG5hbWU6ICJ0d2l0dGVyOnRpdGxlIiwgY29udGVudDogdGl0bGUgfSwKICAgICAgeyBuYW1lOiAidHdpdHRlcjpkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6IGRlc2NyaXB0aW9uIH0sCiAgICAgIHsgbmFtZTogInR3aXR0ZXI6aW1hZ2UiLCBjb250ZW50OiBPR19JTUFHRSB9LAogICAgXSwKICAgIGxpbmtzOiBbeyByZWw6ICJjYW5vbmljYWwiLCBocmVmOiB1cmwgfV0sCiAgfSksCiAgY29tcG9uZW50OiBHdWlkZXNJbmRleFBhZ2UsCn0pOwo=
+import { createFileRoute } from "@tanstack/react-router";
+import GuidesIndexPage from "@/pages/GuidesIndexPage";
+
+const SITE = "https://onsightmartin.com";
+const OG_IMAGE = `${SITE}/og-image.jpg`;
+const title = "Highpointing Guides & Lists — Onsight Martin";
+const description =
+  "Ranked lists of the world's country highpoints: the full list, the easiest, the hardest, the best beginner peaks and the great volcanoes.";
+const url = `${SITE}/guides`;
+
+export const Route = createFileRoute("/guides/")({
+  head: () => ({
+    meta: [
+      { title },
+      { name: "description", content: description },
+      { property: "og:site_name", content: "Onsight Martin" },
+      { property: "og:title", content: title },
+      { property: "og:description", content: description },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: url },
+      { property: "og:image", content: OG_IMAGE },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: title },
+      { name: "twitter:description", content: description },
+      { name: "twitter:image", content: OG_IMAGE },
+    ],
+    links: [{ rel: "canonical", href: url }],
+  }),
+  component: GuidesIndexPage,
+});

@@ -1,1 +1,150 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VNZW1vLCB1c2VSZWYsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBTZWFyY2gsIFBsdXMgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwoKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgdXNlTmF2aWdhdGUgfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKaW1wb3J0IHsgc2VhcmNoUGVha3MsIHR5cGUgQ2F0YWxvZ1BlYWsgfSBmcm9tICJAL2xpYi9wZWFrLWNhdGFsb2ciOwppbXBvcnQgeyByZW1lbWJlclBlYWtLZXkgfSBmcm9tICJAL2xpYi9yZWNlbnQtcGVha3MiOwppbXBvcnQgeyB1c2VXb3JsZFBlYWtzIH0gZnJvbSAiQC9ob29rcy91c2VXb3JsZFBlYWtzIjsKaW1wb3J0IHsgdXNlUmVtb3RlUGVha1NlYXJjaCB9IGZyb20gIkAvaG9va3MvdXNlUmVtb3RlUGVha1NlYXJjaCI7CmltcG9ydCB7IGhpZ2hsaWdodE1hdGNoIH0gZnJvbSAiQC9saWIvaGlnaGxpZ2h0IjsKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyI7CmltcG9ydCB7IGZvcm1hdEVsZXZhdGlvbiB9IGZyb20gIkAvbGliL3VuaXRzIjsKaW1wb3J0IHsgdXNlVW5pdHMgfSBmcm9tICJAL2hvb2tzL3VzZVVuaXRzIjsKCi8qKgogKiBUb3AtYmFyIHF1aWNrIHNlYXJjaDogdHlwZSBhIHBlYWssIGhpdCBlbnRlciAob3IgY2xpY2spIGFuZCBsYW5kIHN0cmFpZ2h0CiAqIGluIHRoZSBhc2NlbnQgZm9ybSB3aXRoIHRoYXQgcGVhayBwcmUtc2VsZWN0ZWQuCiAqLwpjb25zdCBRdWlja0FzY2VudFNlYXJjaCA9ICh7IGNsYXNzTmFtZSA9ICIiIH06IHsgY2xhc3NOYW1lPzogc3RyaW5nIH0pID0+IHsKICBjb25zdCBuYXZpZ2F0ZSA9IHVzZU5hdmlnYXRlKCk7CiAgY29uc3QgW3F1ZXJ5LCBzZXRRdWVyeV0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW29wZW4sIHNldE9wZW5dID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFthY3RpdmUsIHNldEFjdGl2ZV0gPSB1c2VTdGF0ZSgwKTsKICBjb25zdCB3cmFwUmVmID0gdXNlUmVmPEhUTUxEaXZFbGVtZW50PihudWxsKTsKICBjb25zdCB3b3JsZFBlYWtzID0gdXNlV29ybGRQZWFrcygpOwogIGNvbnN0IHJlbW90ZSA9IHVzZVJlbW90ZVBlYWtTZWFyY2gocXVlcnksIDgpOwogIGNvbnN0IHVuaXRzID0gdXNlVW5pdHMoKTsKCiAgLyoqCiAgICogU3VnZ2VzdGlvbnMgcmVmcmVzaCBvbiBldmVyeSBrZXlzdHJva2U6IHRoZSBsb2NhbCBjYXRhbG9nIGFuc3dlcnMKICAgKiBpbnN0YW50bHksIHRoZSBnbG9iYWwgcGVhayBkYXRhYmFzZSBmaWxscyBpbiBiZWhpbmQgaXQgKGRlYm91bmNlZCkuCiAgICovCiAgY29uc3QgcmVzdWx0cyA9IHVzZU1lbW88Q2F0YWxvZ1BlYWtbXT4oKCkgPT4gewogICAgaWYgKHF1ZXJ5LnRyaW0oKS5sZW5ndGggPCAyKSByZXR1cm4gW107CiAgICBjb25zdCBsb2NhbCA9IHNlYXJjaFBlYWtzKHF1ZXJ5LCA2KTsKICAgIGNvbnN0IHNlZW4gPSBuZXcgU2V0KGxvY2FsLm1hcCgocCkgPT4gcC5uYW1lLnRvTG93ZXJDYXNlKCkpKTsKICAgIHJldHVybiBbLi4ubG9jYWwsIC4uLnJlbW90ZS5maWx0ZXIoKHApID0+ICFzZWVuLmhhcyhwLm5hbWUudG9Mb3dlckNhc2UoKSkpXS5zbGljZSgwLCA4KTsKICB9LCBbcXVlcnksIHdvcmxkUGVha3MsIHJlbW90ZV0pOwoKICB1c2VFZmZlY3QoKCkgPT4gc2V0QWN0aXZlKDApLCBbcXVlcnldKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnN0IG9uQ2xpY2sgPSAoZTogTW91c2VFdmVudCkgPT4gewogICAgICBpZiAod3JhcFJlZi5jdXJyZW50ICYmICF3cmFwUmVmLmN1cnJlbnQuY29udGFpbnMoZS50YXJnZXQgYXMgTm9kZSkpIHNldE9wZW4oZmFsc2UpOwogICAgfTsKICAgIGRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoIm1vdXNlZG93biIsIG9uQ2xpY2spOwogICAgcmV0dXJuICgpID0+IGRvY3VtZW50LnJlbW92ZUV2ZW50TGlzdGVuZXIoIm1vdXNlZG93biIsIG9uQ2xpY2spOwogIH0sIFtdKTsKCiAgY29uc3QgcGljayA9IChwZWFrOiBDYXRhbG9nUGVhaykgPT4gewogICAgc2V0UXVlcnkoIiIpOwogICAgc2V0T3BlbihmYWxzZSk7CiAgICByZW1lbWJlclBlYWtLZXkocGVhay5rZXkpOwogICAgbmF2aWdhdGUoYC9jb21tdW5pdHkvYXNjZW50cz9uZXc9MSZwZWFrPSR7ZW5jb2RlVVJJQ29tcG9uZW50KHBlYWsua2V5KX1gKTsKICB9OwoKICBjb25zdCBvbktleURvd24gPSAoZTogUmVhY3QuS2V5Ym9hcmRFdmVudCkgPT4gewogICAgaWYgKCFyZXN1bHRzLmxlbmd0aCkgcmV0dXJuOwogICAgaWYgKGUua2V5ID09PSAiQXJyb3dEb3duIikgewogICAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICAgIHNldEFjdGl2ZSgoaSkgPT4gKGkgKyAxKSAlIHJlc3VsdHMubGVuZ3RoKTsKICAgIH0gZWxzZSBpZiAoZS5rZXkgPT09ICJBcnJvd1VwIikgewogICAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICAgIHNldEFjdGl2ZSgoaSkgPT4gKGkgLSAxICsgcmVzdWx0cy5sZW5ndGgpICUgcmVzdWx0cy5sZW5ndGgpOwogICAgfSBlbHNlIGlmIChlLmtleSA9PT0gIkVudGVyIikgewogICAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICAgIGNvbnN0IHBlYWsgPSByZXN1bHRzW2FjdGl2ZV07CiAgICAgIGlmIChwZWFrKSBwaWNrKHBlYWspOwogICAgfSBlbHNlIGlmIChlLmtleSA9PT0gIkVzY2FwZSIpIHsKICAgICAgc2V0T3BlbihmYWxzZSk7CiAgICB9CiAgfTsKCiAgcmV0dXJuICgKICAgIDxkaXYgcmVmPXt3cmFwUmVmfSBjbGFzc05hbWU9e2NuKCJyZWxhdGl2ZSIsIGNsYXNzTmFtZSl9PgogICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUiPgogICAgICAgIDxTZWFyY2ggY2xhc3NOYW1lPSJhYnNvbHV0ZSBsZWZ0LTIuNSB0b3AtMS8yIC10cmFuc2xhdGUteS0xLzIgdy0zLjUgaC0zLjUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHBvaW50ZXItZXZlbnRzLW5vbmUiIC8+CiAgICAgICAgPElucHV0CiAgICAgICAgICB2YWx1ZT17cXVlcnl9CiAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHsgc2V0UXVlcnkoZS50YXJnZXQudmFsdWUpOyBzZXRPcGVuKHRydWUpOyB9fQogICAgICAgICAgb25Gb2N1cz17KCkgPT4gc2V0T3Blbih0cnVlKX0KICAgICAgICAgIG9uS2V5RG93bj17b25LZXlEb3dufQogICAgICAgICAgcGxhY2Vob2xkZXI9IlF1aWNrIGxvZyDigJQgc2VhcmNoIGEgcGVha+KApiIKICAgICAgICAgIGFyaWEtbGFiZWw9IlF1aWNrIGFzY2VudCBzZWFyY2giCiAgICAgICAgICByb2xlPSJjb21ib2JveCIKICAgICAgICAgIGFyaWEtZXhwYW5kZWQ9e29wZW4gJiYgcmVzdWx0cy5sZW5ndGggPiAwfQogICAgICAgICAgYXJpYS1jb250cm9scz0icXVpY2stYXNjZW50LXN1Z2dlc3Rpb25zIgogICAgICAgICAgYXJpYS1hdXRvY29tcGxldGU9Imxpc3QiCiAgICAgICAgICBhcmlhLWFjdGl2ZWRlc2NlbmRhbnQ9e3Jlc3VsdHNbYWN0aXZlXSA/IGBxdWljay1hc2NlbnQtb3B0LSR7cmVzdWx0c1thY3RpdmVdLmtleX1gIDogdW5kZWZpbmVkfQogICAgICAgICAgYXV0b0NvbXBsZXRlPSJvZmYiCiAgICAgICAgICBjbGFzc05hbWU9ImgtOCBwbC04IHByLTggdGV4dC14cyIKICAgICAgICAvPgogICAgICAgIDxQbHVzIGNsYXNzTmFtZT0iYWJzb2x1dGUgcmlnaHQtMi41IHRvcC0xLzIgLXRyYW5zbGF0ZS15LTEvMiB3LTMuNSBoLTMuNSB0ZXh0LW11dGVkLWZvcmVncm91bmQgcG9pbnRlci1ldmVudHMtbm9uZSIgLz4KICAgICAgPC9kaXY+CgogICAgICB7b3BlbiAmJiBxdWVyeS50cmltKCkubGVuZ3RoID49IDIgJiYgKAogICAgICAgIDxkaXYKICAgICAgICAgIGlkPSJxdWljay1hc2NlbnQtc3VnZ2VzdGlvbnMiCiAgICAgICAgICByb2xlPSJsaXN0Ym94IgogICAgICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSBsZWZ0LTAgcmlnaHQtMCBtdC0xIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctcG9wb3ZlciBzaGFkb3ctbGcgei01MCBvdmVyZmxvdy1oaWRkZW4iCiAgICAgICAgPgogICAgICAgICAge3Jlc3VsdHMubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9InB4LTMgcHktMyB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+Tm8gbWF0Y2hpbmcgcGVhayBpbiB0aGUgY2F0YWxvZy48L3A+CiAgICAgICAgICApIDogKAogICAgICAgICAgICByZXN1bHRzLm1hcCgocCwgaSkgPT4gKAogICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgIGtleT17cC5rZXl9CiAgICAgICAgICAgICAgICBpZD17YHF1aWNrLWFzY2VudC1vcHQtJHtwLmtleX1gfQogICAgICAgICAgICAgICAgcm9sZT0ib3B0aW9uIgogICAgICAgICAgICAgICAgYXJpYS1zZWxlY3RlZD17aSA9PT0gYWN0aXZlfQogICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgb25Nb3VzZUVudGVyPXsoKSA9PiBzZXRBY3RpdmUoaSl9CiAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBwaWNrKHApfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAgICAgICAgICAgInctZnVsbCB0ZXh0LWxlZnQgcHgtMyBweS0yIHRleHQteHMgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0yIiwKICAgICAgICAgICAgICAgICAgaSA9PT0gYWN0aXZlID8gImJnLWFjY2VudCIgOiAiaG92ZXI6YmctYWNjZW50IiwKICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0cnVuY2F0ZSI+CiAgICAgICAgICAgICAgICAgIHtoaWdobGlnaHRNYXRjaChwLm5hbWUsIHF1ZXJ5KX0KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPiDCtyB7aGlnaGxpZ2h0TWF0Y2gocC5jb3VudHJ5LCBxdWVyeSl9PC9zcGFuPgogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQgc2hyaW5rLTAiPntmb3JtYXRFbGV2YXRpb24ocC5lbGV2YXRpb24sIHVuaXRzKSA/PyBwLmVsZXZhdGlvbn08L3NwYW4+CiAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICkpCiAgICAgICAgICApfQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJvcmRlci10IGJvcmRlci1ib3JkZXIgcHgtMyBweS0xLjUgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0yIj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICBjbGFzc05hbWU9ImgtNiBweC0wIHRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB7IHNldE9wZW4oZmFsc2UpOyBzZXRRdWVyeSgiIik7IG5hdmlnYXRlKCIvY29tbXVuaXR5L2FzY2VudHM/bmV3PTEiKTsgfX0KICAgICAgICAgICAgPgogICAgICAgICAgICAgIE9wZW4gdGhlIGZ1bGwgbG9nIGZvcm0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIHtyZXN1bHRzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHNocmluay0wIj4KICAgICAgICAgICAgICAgIEVudGVyIGxvZ3MgdGhlIHRvcCBtYXRjaAogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICApfQogICAgPC9kaXY+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IFF1aWNrQXNjZW50U2VhcmNoOwo=
+import { useEffect, useMemo, useRef, useState } from "react";
+import { Search, Plus } from "lucide-react";
+
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { useNavigate } from "@/lib/router-compat";
+import { searchPeaks, type CatalogPeak } from "@/lib/peak-catalog";
+import { rememberPeakKey } from "@/lib/recent-peaks";
+import { useWorldPeaks } from "@/hooks/useWorldPeaks";
+import { useRemotePeakSearch } from "@/hooks/useRemotePeakSearch";
+import { highlightMatch } from "@/lib/highlight";
+import { cn } from "@/lib/utils";
+import { formatElevation } from "@/lib/units";
+import { useUnits } from "@/hooks/useUnits";
+
+/**
+ * Top-bar quick search: type a peak, hit enter (or click) and land straight
+ * in the ascent form with that peak pre-selected.
+ */
+const QuickAscentSearch = ({ className = "" }: { className?: string }) => {
+  const navigate = useNavigate();
+  const [query, setQuery] = useState("");
+  const [open, setOpen] = useState(false);
+  const [active, setActive] = useState(0);
+  const wrapRef = useRef<HTMLDivElement>(null);
+  const worldPeaks = useWorldPeaks();
+  const remote = useRemotePeakSearch(query, 8);
+  const units = useUnits();
+
+  /**
+   * Suggestions refresh on every keystroke: the local catalog answers
+   * instantly, the global peak database fills in behind it (debounced).
+   */
+  const results = useMemo<CatalogPeak[]>(() => {
+    if (query.trim().length < 2) return [];
+    const local = searchPeaks(query, 6);
+    const seen = new Set(local.map((p) => p.name.toLowerCase()));
+    return [...local, ...remote.filter((p) => !seen.has(p.name.toLowerCase()))].slice(0, 8);
+  }, [query, worldPeaks, remote]);
+
+  useEffect(() => setActive(0), [query]);
+
+  useEffect(() => {
+    const onClick = (e: MouseEvent) => {
+      if (wrapRef.current && !wrapRef.current.contains(e.target as Node)) setOpen(false);
+    };
+    document.addEventListener("mousedown", onClick);
+    return () => document.removeEventListener("mousedown", onClick);
+  }, []);
+
+  const pick = (peak: CatalogPeak) => {
+    setQuery("");
+    setOpen(false);
+    rememberPeakKey(peak.key);
+    navigate(`/community/ascents?new=1&peak=${encodeURIComponent(peak.key)}`);
+  };
+
+  const onKeyDown = (e: React.KeyboardEvent) => {
+    if (!results.length) return;
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setActive((i) => (i + 1) % results.length);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setActive((i) => (i - 1 + results.length) % results.length);
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      const peak = results[active];
+      if (peak) pick(peak);
+    } else if (e.key === "Escape") {
+      setOpen(false);
+    }
+  };
+
+  return (
+    <div ref={wrapRef} className={cn("relative", className)}>
+      <div className="relative">
+        <Search className="absolute left-2.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-muted-foreground pointer-events-none" />
+        <Input
+          value={query}
+          onChange={(e) => { setQuery(e.target.value); setOpen(true); }}
+          onFocus={() => setOpen(true)}
+          onKeyDown={onKeyDown}
+          placeholder="Quick log — search a peak…"
+          aria-label="Quick ascent search"
+          role="combobox"
+          aria-expanded={open && results.length > 0}
+          aria-controls="quick-ascent-suggestions"
+          aria-autocomplete="list"
+          aria-activedescendant={results[active] ? `quick-ascent-opt-${results[active].key}` : undefined}
+          autoComplete="off"
+          className="h-8 pl-8 pr-8 text-xs"
+        />
+        <Plus className="absolute right-2.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-muted-foreground pointer-events-none" />
+      </div>
+
+      {open && query.trim().length >= 2 && (
+        <div
+          id="quick-ascent-suggestions"
+          role="listbox"
+          className="absolute left-0 right-0 mt-1 rounded-md border border-border bg-popover shadow-lg z-50 overflow-hidden"
+        >
+          {results.length === 0 ? (
+            <p className="px-3 py-3 text-xs text-muted-foreground">No matching peak in the catalog.</p>
+          ) : (
+            results.map((p, i) => (
+              <button
+                key={p.key}
+                id={`quick-ascent-opt-${p.key}`}
+                role="option"
+                aria-selected={i === active}
+                type="button"
+                onMouseEnter={() => setActive(i)}
+                onClick={() => pick(p)}
+                className={cn(
+                  "w-full text-left px-3 py-2 text-xs flex items-center justify-between gap-2",
+                  i === active ? "bg-accent" : "hover:bg-accent",
+                )}
+              >
+                <span className="truncate">
+                  {highlightMatch(p.name, query)}
+                  <span className="text-muted-foreground"> · {highlightMatch(p.country, query)}</span>
+                </span>
+                <span className="text-[10px] text-muted-foreground shrink-0">{formatElevation(p.elevation, units) ?? p.elevation}</span>
+              </button>
+            ))
+          )}
+          <div className="border-t border-border px-3 py-1.5 flex items-center justify-between gap-2">
+            <Button
+              type="button"
+              variant="ghost"
+              size="sm"
+              className="h-6 px-0 text-[11px] text-muted-foreground"
+              onClick={() => { setOpen(false); setQuery(""); navigate("/community/ascents?new=1"); }}
+            >
+              Open the full log form
+            </Button>
+            {results.length > 0 && (
+              <span className="text-[10px] text-muted-foreground shrink-0">
+                Enter logs the top match
+              </span>
+            )}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default QuickAscentSearch;

@@ -1,1 +1,80 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgSGFuZCwgTWF4aW1pemUyLCBab29tSW4sIFggfSBmcm9tICJsdWNpZGUtcmVhY3QiOwoKY29uc3QgSElOVF9LRVkgPSAib25zaWdodC1iYXNlY2FtcC1oaW50IjsKCi8qKgogKiBPbmUtdGltZSBjb2FjaCBtYXJrIHNob3duIG9uIEJhc2UgQ2FtcCBleHBsYWluaW5nIGhvdyB0byBwYW4sIHpvb20sIGFuZAogKiByZXNldCB0aGUgdmlldy4gRGlzbWlzc2VkIGJ5IHRhcCwgYXV0by1oaWRlcyBhZnRlciAxMiBzLCBhbmQgbmV2ZXIgc2hvd3MKICogYWdhaW4gb25jZSBkaXNtaXNzZWQgKGxvY2FsU3RvcmFnZSBndWFyZCkuCiAqLwpjb25zdCBCYXNlQ2FtcEhpbnQgPSAoKSA9PiB7CiAgY29uc3QgW3Nob3csIHNldFNob3ddID0gdXNlU3RhdGUoZmFsc2UpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm47CiAgICB0cnkgewogICAgICBpZiAod2luZG93LmxvY2FsU3RvcmFnZS5nZXRJdGVtKEhJTlRfS0VZKSkgcmV0dXJuOwogICAgfSBjYXRjaCB7CiAgICAgIC8qIHN0b3JhZ2UgdW5hdmFpbGFibGUg4oCUIHNob3cgb25jZSBwZXIgc2Vzc2lvbiAqLwogICAgfQogICAgc2V0U2hvdyh0cnVlKTsKICAgIGNvbnN0IGlkID0gd2luZG93LnNldFRpbWVvdXQoKCkgPT4gc2V0U2hvdyhmYWxzZSksIDEyMDAwKTsKICAgIHJldHVybiAoKSA9PiB3aW5kb3cuY2xlYXJUaW1lb3V0KGlkKTsKICB9LCBbXSk7CgogIGlmICghc2hvdykgcmV0dXJuIG51bGw7CgogIGNvbnN0IGRpc21pc3MgPSAoKSA9PiB7CiAgICB0cnkgewogICAgICB3aW5kb3cubG9jYWxTdG9yYWdlLnNldEl0ZW0oSElOVF9LRVksICIxIik7CiAgICB9IGNhdGNoIHsKICAgICAgLyogaWdub3JlICovCiAgICB9CiAgICBzZXRTaG93KGZhbHNlKTsKICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InBvaW50ZXItZXZlbnRzLW5vbmUgYWJzb2x1dGUgaW5zZXQteC0wIHRvcC0zIHotMzAgZmxleCBqdXN0aWZ5LWNlbnRlciBweC00Ij4KICAgICAgPGRpdgogICAgICAgIHJvbGU9InN0YXR1cyIKICAgICAgICBvbkNsaWNrPXtkaXNtaXNzfQogICAgICAgIGNsYXNzTmFtZT0icG9pbnRlci1ldmVudHMtYXV0byBmbGV4IG1heC13LW1kIGN1cnNvci1wb2ludGVyIGl0ZW1zLXN0YXJ0IGdhcC0zIHJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItcHJpbWFyeS80MCBiZy1jYXJkLzk1IHB4LTQgcHktMyBzaGFkb3ctbGcgYmFja2Ryb3AtYmx1ciBhbmltYXRlLWZhZGUtaW4iCiAgICAgID4KICAgICAgICA8SGFuZCBjbGFzc05hbWU9Im10LTAuNSBoLTUgdy01IHNocmluay0wIHRleHQtcHJpbWFyeSIgLz4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTFweF0gbGVhZGluZy10aWdodCB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdHJhY2tpbmctd2lkZSB0ZXh0LWZvcmVncm91bmQiPgogICAgICAgICAgICBFeHBsb3JlIGJhc2UgY2FtcAogICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPGJyIC8+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgIDxIYW5kIGNsYXNzTmFtZT0iaC0zLjUgdy0zLjUiIC8+IERyYWcgdG8gd2FsayBhcm91bmQKICAgICAgICAgIDwvc3Bhbj57IiAifQogICAgICAgICAgwrd7IiAifQogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEiPgogICAgICAgICAgICA8Wm9vbUluIGNsYXNzTmFtZT0iaC0zLjUgdy0zLjUiIC8+IFNjcm9sbCBvciBwaW5jaCB0byB6b29tCiAgICAgICAgICA8L3NwYW4+eyIgIn0KICAgICAgICAgIMK3eyIgIn0KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0xIj4KICAgICAgICAgICAgPE1heGltaXplMiBjbGFzc05hbWU9ImgtMy41IHctMy41IiAvPiBSZXNldCB2aWV3IHdpdGggdGhlIGJ1dHRvbgogICAgICAgICAgICBib3R0b20tcmlnaHQKICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDxiciAvPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtdC0xIGlubGluZS1ibG9jayB0ZXh0LVsxMHB4XSB1cHBlcmNhc2UgdHJhY2tpbmctWzAuMThlbV0gdGV4dC1wcmltYXJ5LzgwIj4KICAgICAgICAgICAgVGFwIHRvIGNsb3NlCiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgb25DbGljaz17ZGlzbWlzc30KICAgICAgICAgIGFyaWEtbGFiZWw9IkRpc21pc3MgaGludCIKICAgICAgICAgIGNsYXNzTmFtZT0ic2hyaW5rLTAgcm91bmRlZC1mdWxsIHAtMS41IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy13aGl0ZS8xMCBob3Zlcjp0ZXh0LWZvcmVncm91bmQiCiAgICAgICAgPgogICAgICAgICAgPFggY2xhc3NOYW1lPSJoLTUgdy01IiAvPgogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBCYXNlQ2FtcEhpbnQ7Cg==
+import { useEffect, useState } from "react";
+import { Hand, Maximize2, ZoomIn, X } from "lucide-react";
+
+const HINT_KEY = "onsight-basecamp-hint";
+
+/**
+ * One-time coach mark shown on Base Camp explaining how to pan, zoom, and
+ * reset the view. Dismissed by tap, auto-hides after 12 s, and never shows
+ * again once dismissed (localStorage guard).
+ */
+const BaseCampHint = () => {
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    try {
+      if (window.localStorage.getItem(HINT_KEY)) return;
+    } catch {
+      /* storage unavailable — show once per session */
+    }
+    setShow(true);
+    const id = window.setTimeout(() => setShow(false), 12000);
+    return () => window.clearTimeout(id);
+  }, []);
+
+  if (!show) return null;
+
+  const dismiss = () => {
+    try {
+      window.localStorage.setItem(HINT_KEY, "1");
+    } catch {
+      /* ignore */
+    }
+    setShow(false);
+  };
+
+  return (
+    <div className="pointer-events-none absolute inset-x-0 top-3 z-30 flex justify-center px-4">
+      <div
+        role="status"
+        onClick={dismiss}
+        className="pointer-events-auto flex max-w-md cursor-pointer items-start gap-3 rounded-2xl border border-primary/40 bg-card/95 px-4 py-3 shadow-lg backdrop-blur animate-fade-in"
+      >
+        <Hand className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
+        <div className="text-[11px] leading-tight text-muted-foreground">
+          <span className="font-display tracking-wide text-foreground">
+            Explore base camp
+          </span>
+          <br />
+          <span className="inline-flex items-center gap-1">
+            <Hand className="h-3.5 w-3.5" /> Drag to walk around
+          </span>{" "}
+          ·{" "}
+          <span className="inline-flex items-center gap-1">
+            <ZoomIn className="h-3.5 w-3.5" /> Scroll or pinch to zoom
+          </span>{" "}
+          ·{" "}
+          <span className="inline-flex items-center gap-1">
+            <Maximize2 className="h-3.5 w-3.5" /> Reset view with the button
+            bottom-right
+          </span>
+          <br />
+          <span className="mt-1 inline-block text-[10px] uppercase tracking-[0.18em] text-primary/80">
+            Tap to close
+          </span>
+        </div>
+        <button
+          type="button"
+          onClick={dismiss}
+          aria-label="Dismiss hint"
+          className="shrink-0 rounded-full p-1.5 text-muted-foreground transition-colors hover:bg-white/10 hover:text-foreground"
+        >
+          <X className="h-5 w-5" />
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default BaseCampHint;

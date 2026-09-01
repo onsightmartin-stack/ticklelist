@@ -1,1 +1,42 @@
-LS0gUmVzdHJpY3QgaGFzX3JvbGUgc28gYSBzaWduZWQtaW4gdXNlciBjYW4gb25seSBwcm9iZSB0aGVpciBvd24gcm9sZXMuCkNSRUFURSBPUiBSRVBMQUNFIEZVTkNUSU9OIHB1YmxpYy5oYXNfcm9sZShfdXNlcl9pZCB1dWlkLCBfcm9sZSBhcHBfcm9sZSkKUkVUVVJOUyBib29sZWFuCkxBTkdVQUdFIHBscGdzcWwKU1RBQkxFClNFQ1VSSVRZIERFRklORVIKU0VUIHNlYXJjaF9wYXRoID0gcHVibGljCkFTICQkCkRFQ0xBUkUKICBfY2FsbGVyIHV1aWQgOj0gYXV0aC51aWQoKTsKICBfaXNfc2VsZiBib29sZWFuIDo9IChfY2FsbGVyIElTIE5PVCBOVUxMIEFORCBfY2FsbGVyID0gX3VzZXJfaWQpOwogIF9jYWxsZXJfYWRtaW4gYm9vbGVhbjsKQkVHSU4KICBTRUxFQ1QgRVhJU1RTICgKICAgIFNFTEVDVCAxIEZST00gcHVibGljLnVzZXJfcm9sZXMgdXIKICAgIFdIRVJFIHVyLnVzZXJfaWQgPSBfY2FsbGVyIEFORCB1ci5yb2xlID0gJ2FkbWluJzo6YXBwX3JvbGUKICApIElOVE8gX2NhbGxlcl9hZG1pbjsKCiAgLS0gVHJ1c3RlZCBzZXJ2ZXItc2lkZSBjb250ZXh0cyAobm8gYXV0aC51aWQoKSwgZS5nLiBzZXJ2aWNlX3JvbGUgb3IgdHJpZ2dlcnMpCiAgLS0ga2VlcCBmdWxsIGFjY2VzczsgZW5kIHVzZXJzIG1heSBvbmx5IGFzayBhYm91dCB0aGVtc2VsdmVzLgogIElGIF9jYWxsZXIgSVMgTk9UIE5VTEwgQU5EIE5PVCBfaXNfc2VsZiBBTkQgTk9UIF9jYWxsZXJfYWRtaW4gVEhFTgogICAgUkVUVVJOIGZhbHNlOwogIEVORCBJRjsKCiAgUkVUVVJOIEVYSVNUUyAoCiAgICBTRUxFQ1QgMSBGUk9NIHB1YmxpYy51c2VyX3JvbGVzIHVyCiAgICBXSEVSRSB1ci51c2VyX2lkID0gX3VzZXJfaWQgQU5EIHVyLnJvbGUgPSBfcm9sZQogICk7CkVORDsKJCQ7CgotLSBCYWNrZ3JvdW5kL3RyaWdnZXItb25seSBkZWZpbmVyIGZ1bmN0aW9uczogbm90IHBhcnQgb2YgdGhlIHB1YmxpYyBBUEkgc3VyZmFjZS4KUkVWT0tFIEFMTCBPTiBGVU5DVElPTiBwdWJsaWMuaGFuZGxlX25ld191c2VyKCkgRlJPTSBQVUJMSUMsIGFub24sIGF1dGhlbnRpY2F0ZWQ7ClJFVk9LRSBBTEwgT04gRlVOQ1RJT04gcHVibGljLndhbnRzX25vdGlmaWNhdGlvbih1dWlkLCB0ZXh0KSBGUk9NIFBVQkxJQywgYW5vbiwgYXV0aGVudGljYXRlZDsKUkVWT0tFIEFMTCBPTiBGVU5DVElPTiBwdWJsaWMuaW5jcmVtZW50X3Zpc2l0b3JfY291bnQoKSBGUk9NIFBVQkxJQywgYW5vbiwgYXV0aGVudGljYXRlZDsKCi0tIENhbGxlci12ZXJpZmllZCBmdW5jdGlvbnMgc3RheSBhdmFpbGFibGUgdG8gc2lnbmVkLWluIG1lbWJlcnMgb25seS4KUkVWT0tFIEFMTCBPTiBGVU5DVElPTiBwdWJsaWMuaGFzX3JvbGUodXVpZCwgYXBwX3JvbGUpIEZST00gUFVCTElDLCBhbm9uOwpHUkFOVCBFWEVDVVRFIE9OIEZVTkNUSU9OIHB1YmxpYy5oYXNfcm9sZSh1dWlkLCBhcHBfcm9sZSkgVE8gYXV0aGVudGljYXRlZCwgc2VydmljZV9yb2xlOwoKUkVWT0tFIEFMTCBPTiBGVU5DVElPTiBwdWJsaWMuc2VuZF9ub3RpZmljYXRpb24odXVpZCwgdGV4dCwgdGV4dCwgdGV4dCkgRlJPTSBQVUJMSUMsIGFub247CkdSQU5UIEVYRUNVVEUgT04gRlVOQ1RJT04gcHVibGljLnNlbmRfbm90aWZpY2F0aW9uKHV1aWQsIHRleHQsIHRleHQsIHRleHQpIFRPIGF1dGhlbnRpY2F0ZWQsIHNlcnZpY2Vfcm9sZTs=
+-- Restrict has_role so a signed-in user can only probe their own roles.
+CREATE OR REPLACE FUNCTION public.has_role(_user_id uuid, _role app_role)
+RETURNS boolean
+LANGUAGE plpgsql
+STABLE
+SECURITY DEFINER
+SET search_path = public
+AS $$
+DECLARE
+  _caller uuid := auth.uid();
+  _is_self boolean := (_caller IS NOT NULL AND _caller = _user_id);
+  _caller_admin boolean;
+BEGIN
+  SELECT EXISTS (
+    SELECT 1 FROM public.user_roles ur
+    WHERE ur.user_id = _caller AND ur.role = 'admin'::app_role
+  ) INTO _caller_admin;
+
+  -- Trusted server-side contexts (no auth.uid(), e.g. service_role or triggers)
+  -- keep full access; end users may only ask about themselves.
+  IF _caller IS NOT NULL AND NOT _is_self AND NOT _caller_admin THEN
+    RETURN false;
+  END IF;
+
+  RETURN EXISTS (
+    SELECT 1 FROM public.user_roles ur
+    WHERE ur.user_id = _user_id AND ur.role = _role
+  );
+END;
+$$;
+
+-- Background/trigger-only definer functions: not part of the public API surface.
+REVOKE ALL ON FUNCTION public.handle_new_user() FROM PUBLIC, anon, authenticated;
+REVOKE ALL ON FUNCTION public.wants_notification(uuid, text) FROM PUBLIC, anon, authenticated;
+REVOKE ALL ON FUNCTION public.increment_visitor_count() FROM PUBLIC, anon, authenticated;
+
+-- Caller-verified functions stay available to signed-in members only.
+REVOKE ALL ON FUNCTION public.has_role(uuid, app_role) FROM PUBLIC, anon;
+GRANT EXECUTE ON FUNCTION public.has_role(uuid, app_role) TO authenticated, service_role;
+
+REVOKE ALL ON FUNCTION public.send_notification(uuid, text, text, text) FROM PUBLIC, anon;
+GRANT EXECUTE ON FUNCTION public.send_notification(uuid, text, text, text) TO authenticated, service_role;

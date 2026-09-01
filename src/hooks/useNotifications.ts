@@ -1,1 +1,69 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvaG9va3MvdXNlQXV0aCI7CmltcG9ydCB0eXBlIHsgQXBwTm90aWZpY2F0aW9uIH0gZnJvbSAiQC9saWIvbm90aWZ5IjsKCi8qKiBMb2FkcyB0aGUgc2lnbmVkLWluIG1lbWJlcidzIG5vdGlmaWNhdGlvbnMgYW5kIGtlZXBzIHRoZW0gbGl2ZS4gKi8KZXhwb3J0IGNvbnN0IHVzZU5vdGlmaWNhdGlvbnMgPSAoKSA9PiB7CiAgY29uc3QgeyB1c2VyIH0gPSB1c2VBdXRoKCk7CiAgY29uc3QgW2l0ZW1zLCBzZXRJdGVtc10gPSB1c2VTdGF0ZTxBcHBOb3RpZmljYXRpb25bXT4oW10pOwogIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IHVzZVN0YXRlKHRydWUpOwoKICBjb25zdCBsb2FkID0gdXNlQ2FsbGJhY2soYXN5bmMgKCkgPT4gewogICAgaWYgKCF1c2VyKSB7CiAgICAgIHNldEl0ZW1zKFtdKTsKICAgICAgc2V0TG9hZGluZyhmYWxzZSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHNldExvYWRpbmcodHJ1ZSk7CiAgICBjb25zdCB7IGRhdGEgfSA9IGF3YWl0IHN1cGFiYXNlCiAgICAgIC5mcm9tKCJub3RpZmljYXRpb25zIikKICAgICAgLnNlbGVjdCgiKiIpCiAgICAgIC5vcmRlcigiY3JlYXRlZF9hdCIsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KQogICAgICAubGltaXQoMTAwKTsKICAgIHNldEl0ZW1zKChkYXRhIGFzIEFwcE5vdGlmaWNhdGlvbltdKSA/PyBbXSk7CiAgICBzZXRMb2FkaW5nKGZhbHNlKTsKICB9LCBbdXNlcl0pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgbG9hZCgpOwogIH0sIFtsb2FkXSk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIXVzZXIpIHJldHVybjsKICAgIGNvbnN0IGNoYW5uZWwgPSBzdXBhYmFzZQogICAgICAuY2hhbm5lbChgbm90aWZpY2F0aW9ucy0ke3VzZXIuaWR9YCkKICAgICAgLm9uKAogICAgICAgICJwb3N0Z3Jlc19jaGFuZ2VzIiwKICAgICAgICB7IGV2ZW50OiAiSU5TRVJUIiwgc2NoZW1hOiAicHVibGljIiwgdGFibGU6ICJub3RpZmljYXRpb25zIiwgZmlsdGVyOiBgcmVjaXBpZW50X2lkPWVxLiR7dXNlci5pZH1gIH0sCiAgICAgICAgKHBheWxvYWQpID0+IHNldEl0ZW1zKChwcmV2KSA9PiBbcGF5bG9hZC5uZXcgYXMgQXBwTm90aWZpY2F0aW9uLCAuLi5wcmV2XSksCiAgICAgICkKICAgICAgLnN1YnNjcmliZSgpOwoKICAgIHJldHVybiAoKSA9PiB7CiAgICAgIHN1cGFiYXNlLnJlbW92ZUNoYW5uZWwoY2hhbm5lbCk7CiAgICB9OwogIH0sIFt1c2VyXSk7CgogIGNvbnN0IHVucmVhZCA9IGl0ZW1zLmZpbHRlcigobikgPT4gIW4ucmVhZF9hdCkubGVuZ3RoOwoKICBjb25zdCBtYXJrUmVhZCA9IHVzZUNhbGxiYWNrKGFzeW5jIChpZDogc3RyaW5nKSA9PiB7CiAgICBjb25zdCBub3cgPSBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCk7CiAgICBzZXRJdGVtcygocHJldikgPT4gcHJldi5tYXAoKG4pID0+IChuLmlkID09PSBpZCA/IHsgLi4ubiwgcmVhZF9hdDogbi5yZWFkX2F0ID8/IG5vdyB9IDogbikpKTsKICAgIGF3YWl0IHN1cGFiYXNlLmZyb20oIm5vdGlmaWNhdGlvbnMiKS51cGRhdGUoeyByZWFkX2F0OiBub3cgfSkuZXEoImlkIiwgaWQpLmlzKCJyZWFkX2F0IiwgbnVsbCk7CiAgfSwgW10pOwoKICBjb25zdCBtYXJrQWxsUmVhZCA9IHVzZUNhbGxiYWNrKGFzeW5jICgpID0+IHsKICAgIGlmICghdXNlcikgcmV0dXJuOwogICAgY29uc3Qgbm93ID0gbmV3IERhdGUoKS50b0lTT1N0cmluZygpOwogICAgc2V0SXRlbXMoKHByZXYpID0+IHByZXYubWFwKChuKSA9PiAoeyAuLi5uLCByZWFkX2F0OiBuLnJlYWRfYXQgPz8gbm93IH0pKSk7CiAgICBhd2FpdCBzdXBhYmFzZS5mcm9tKCJub3RpZmljYXRpb25zIikudXBkYXRlKHsgcmVhZF9hdDogbm93IH0pLmVxKCJyZWNpcGllbnRfaWQiLCB1c2VyLmlkKS5pcygicmVhZF9hdCIsIG51bGwpOwogIH0sIFt1c2VyXSk7CgogIGNvbnN0IHJlbW92ZSA9IHVzZUNhbGxiYWNrKGFzeW5jIChpZDogc3RyaW5nKSA9PiB7CiAgICBzZXRJdGVtcygocHJldikgPT4gcHJldi5maWx0ZXIoKG4pID0+IG4uaWQgIT09IGlkKSk7CiAgICBhd2FpdCBzdXBhYmFzZS5mcm9tKCJub3RpZmljYXRpb25zIikuZGVsZXRlKCkuZXEoImlkIiwgaWQpOwogIH0sIFtdKTsKCiAgcmV0dXJuIHsgaXRlbXMsIHVucmVhZCwgbG9hZGluZywgbWFya1JlYWQsIG1hcmtBbGxSZWFkLCByZW1vdmUsIHJlbG9hZDogbG9hZCB9Owp9Owo=
+import { useCallback, useEffect, useState } from "react";
+import { supabase } from "@/integrations/supabase/client";
+import { useAuth } from "@/hooks/useAuth";
+import type { AppNotification } from "@/lib/notify";
+
+/** Loads the signed-in member's notifications and keeps them live. */
+export const useNotifications = () => {
+  const { user } = useAuth();
+  const [items, setItems] = useState<AppNotification[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  const load = useCallback(async () => {
+    if (!user) {
+      setItems([]);
+      setLoading(false);
+      return;
+    }
+    setLoading(true);
+    const { data } = await supabase
+      .from("notifications")
+      .select("*")
+      .order("created_at", { ascending: false })
+      .limit(100);
+    setItems((data as AppNotification[]) ?? []);
+    setLoading(false);
+  }, [user]);
+
+  useEffect(() => {
+    load();
+  }, [load]);
+
+  useEffect(() => {
+    if (!user) return;
+    const channel = supabase
+      .channel(`notifications-${user.id}`)
+      .on(
+        "postgres_changes",
+        { event: "INSERT", schema: "public", table: "notifications", filter: `recipient_id=eq.${user.id}` },
+        (payload) => setItems((prev) => [payload.new as AppNotification, ...prev]),
+      )
+      .subscribe();
+
+    return () => {
+      supabase.removeChannel(channel);
+    };
+  }, [user]);
+
+  const unread = items.filter((n) => !n.read_at).length;
+
+  const markRead = useCallback(async (id: string) => {
+    const now = new Date().toISOString();
+    setItems((prev) => prev.map((n) => (n.id === id ? { ...n, read_at: n.read_at ?? now } : n)));
+    await supabase.from("notifications").update({ read_at: now }).eq("id", id).is("read_at", null);
+  }, []);
+
+  const markAllRead = useCallback(async () => {
+    if (!user) return;
+    const now = new Date().toISOString();
+    setItems((prev) => prev.map((n) => ({ ...n, read_at: n.read_at ?? now })));
+    await supabase.from("notifications").update({ read_at: now }).eq("recipient_id", user.id).is("read_at", null);
+  }, [user]);
+
+  const remove = useCallback(async (id: string) => {
+    setItems((prev) => prev.filter((n) => n.id !== id));
+    await supabase.from("notifications").delete().eq("id", id);
+  }, []);
+
+  return { items, unread, loading, markRead, markAllRead, remove, reload: load };
+};

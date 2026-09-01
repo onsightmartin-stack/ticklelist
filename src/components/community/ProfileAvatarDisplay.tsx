@@ -1,1 +1,61 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VNZW1vLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgUGF1c2UsIFBsYXkgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgTWVtYmVyQXZhdGFyIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvTWVtYmVyQXZhdGFyIjsKaW1wb3J0IHsgYnVpbGRBdmF0YXJTdmcsIGRlY29kZUF2YXRhckNvbmZpZyB9IGZyb20gIkAvbGliL2F2YXRhci1idWlsZGVyIjsKaW1wb3J0IHsgbW90aW9uQWxsb3dlZCB9IGZyb20gIkAvbGliL21vdGlvbiI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiOwoKaW50ZXJmYWNlIFByb2ZpbGVBdmF0YXJEaXNwbGF5UHJvcHMgewogIHBhdGg6IHN0cmluZyB8IG51bGw7CiAgbmFtZTogc3RyaW5nOwogIGNsYXNzTmFtZT86IHN0cmluZzsKfQoKLyoqCiAqIFB1YmxpYyBwcm9maWxlIGF2YXRhci4gRGVzaWduZWQgKGdlbmVyYXRlZCkgYXZhdGFycyByZW5kZXIgaW5saW5lIGFzIFNWRyBzbwogKiB0aGUgdmlld2VyIGdldHMgYSBwbGF5L3BhdXNlIGNvbnRyb2w7IHVwbG9hZGVkIHBob3RvcyBmYWxsIGJhY2sgdG8gdGhlCiAqIHJlZ3VsYXIgYXZhdGFyIGltYWdlLgogKi8KY29uc3QgUHJvZmlsZUF2YXRhckRpc3BsYXkgPSAoeyBwYXRoLCBuYW1lLCBjbGFzc05hbWUgfTogUHJvZmlsZUF2YXRhckRpc3BsYXlQcm9wcykgPT4gewogIGNvbnN0IGNvbmZpZyA9IHVzZU1lbW8oKCkgPT4gZGVjb2RlQXZhdGFyQ29uZmlnKHBhdGgpLCBbcGF0aF0pOwogIGNvbnN0IFtwbGF5aW5nLCBzZXRQbGF5aW5nXSA9IHVzZVN0YXRlKCgpID0+IGNvbmZpZz8uYW5pbWF0ZWQgIT09IGZhbHNlKTsKICBjb25zdCBzdmcgPSB1c2VNZW1vKAogICAgKCkgPT4gKGNvbmZpZyA/IGJ1aWxkQXZhdGFyU3ZnKGNvbmZpZywgcGxheWluZykgOiBudWxsKSwKICAgIFtjb25maWcsIHBsYXlpbmddLAogICk7CgogIC8vIFJlc3BlY3QgdGhlIHZpZXdlcidzIG1vdGlvbiBzZW5zaXRpdml0eSBzZXR0aW5nIChhbmQgdGhlaXIgZGV2aWNlIGRlZmF1bHQpLgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIW1vdGlvbkFsbG93ZWQoKSkgc2V0UGxheWluZyhmYWxzZSk7CiAgfSwgW10pOwoKCiAgaWYgKCFjb25maWcgfHwgIXN2ZykgewogICAgcmV0dXJuIDxNZW1iZXJBdmF0YXIgcGF0aD17cGF0aH0gbmFtZT17bmFtZX0gey4uLihjbGFzc05hbWUgPyB7IGNsYXNzTmFtZSB9IDoge30pfSAvPjsKICB9CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgc2hyaW5rLTAiPgogICAgICA8ZGl2CiAgICAgICAgcm9sZT0iaW1nIgogICAgICAgIGFyaWEtbGFiZWw9e2Ake25hbWV9IHByb2ZpbGUgcGljdHVyZWB9CiAgICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAgICJoLTIwIHctMjAgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtZnVsbCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1zZWNvbmRhcnkgWyY+c3ZnXTpoLWZ1bGwgWyY+c3ZnXTp3LWZ1bGwiLAogICAgICAgICAgY2xhc3NOYW1lLAogICAgICAgICl9CiAgICAgICAgZGFuZ2Vyb3VzbHlTZXRJbm5lckhUTUw9e3sgX19odG1sOiBzdmcgfX0KICAgICAgLz4KICAgICAgPGJ1dHRvbgogICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRQbGF5aW5nKChwKSA9PiAhcCl9CiAgICAgICAgYXJpYS1sYWJlbD17cGxheWluZyA/IGBQYXVzZSAke25hbWV9J3MgYXZhdGFyIGFuaW1hdGlvbmAgOiBgUGxheSAke25hbWV9J3MgYXZhdGFyIGFuaW1hdGlvbmB9CiAgICAgICAgdGl0bGU9e3BsYXlpbmcgPyAiUGF1c2UgYW5pbWF0aW9uIiA6ICJQbGF5IGFuaW1hdGlvbiJ9CiAgICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtYm90dG9tLTEgLXJpZ2h0LTEgcm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQgcC0xLjUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOnRleHQtZm9yZWdyb3VuZCIKICAgICAgPgogICAgICAgIHtwbGF5aW5nID8gPFBhdXNlIGNsYXNzTmFtZT0iaC0zIHctMyIgLz4gOiA8UGxheSBjbGFzc05hbWU9ImgtMyB3LTMiIC8+fQogICAgICA8L2J1dHRvbj4KICAgIDwvZGl2PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBQcm9maWxlQXZhdGFyRGlzcGxheTsK
+import { useEffect, useMemo, useState } from "react";
+import { Pause, Play } from "lucide-react";
+import MemberAvatar from "@/components/community/MemberAvatar";
+import { buildAvatarSvg, decodeAvatarConfig } from "@/lib/avatar-builder";
+import { motionAllowed } from "@/lib/motion";
+import { cn } from "@/lib/utils";
+
+interface ProfileAvatarDisplayProps {
+  path: string | null;
+  name: string;
+  className?: string;
+}
+
+/**
+ * Public profile avatar. Designed (generated) avatars render inline as SVG so
+ * the viewer gets a play/pause control; uploaded photos fall back to the
+ * regular avatar image.
+ */
+const ProfileAvatarDisplay = ({ path, name, className }: ProfileAvatarDisplayProps) => {
+  const config = useMemo(() => decodeAvatarConfig(path), [path]);
+  const [playing, setPlaying] = useState(() => config?.animated !== false);
+  const svg = useMemo(
+    () => (config ? buildAvatarSvg(config, playing) : null),
+    [config, playing],
+  );
+
+  // Respect the viewer's motion sensitivity setting (and their device default).
+  useEffect(() => {
+    if (!motionAllowed()) setPlaying(false);
+  }, []);
+
+
+  if (!config || !svg) {
+    return <MemberAvatar path={path} name={name} {...(className ? { className } : {})} />;
+  }
+
+  return (
+    <div className="relative shrink-0">
+      <div
+        role="img"
+        aria-label={`${name} profile picture`}
+        className={cn(
+          "h-20 w-20 overflow-hidden rounded-full border border-border bg-secondary [&>svg]:h-full [&>svg]:w-full",
+          className,
+        )}
+        dangerouslySetInnerHTML={{ __html: svg }}
+      />
+      <button
+        type="button"
+        onClick={() => setPlaying((p) => !p)}
+        aria-label={playing ? `Pause ${name}'s avatar animation` : `Play ${name}'s avatar animation`}
+        title={playing ? "Pause animation" : "Play animation"}
+        className="absolute -bottom-1 -right-1 rounded-full border border-border bg-card p-1.5 text-muted-foreground transition-colors hover:text-foreground"
+      >
+        {playing ? <Pause className="h-3 w-3" /> : <Play className="h-3 w-3" />}
+      </button>
+    </div>
+  );
+};
+
+export default ProfileAvatarDisplay;

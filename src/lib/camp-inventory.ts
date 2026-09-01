@@ -1,1 +1,93 @@
-LyoqCiAqIEJhc2UgQ2FtcCBpbnZlbnRvcnk6IE1pbmVjcmFmdC1zdHlsZSBsb290IGEgY2xpbWJlciBlYXJucyBmb3IgY29tcGxldGluZwogKiBjaGFsbGVuZ2UgLyBwZWFrIGxpc3RzIChhbmQgYSBmZXcgY2FyZWVyIG1pbGVzdG9uZXMpLiBQdXJlbHkgZGVyaXZlZCBmcm9tIHRoZQogKiBtZW1iZXIncyBsb2dnZWQgYXNjZW50cywgc28gbm90aGluZyBleHRyYSBuZWVkcyBzdG9yaW5nLgogKi8KaW1wb3J0IHsgcGVha0xpc3RzIH0gZnJvbSAiQC9kYXRhL3BlYWstbGlzdHMiOwppbXBvcnQgeyBjb3VudHNBc0NvdW50cnlIaWdocG9pbnQsIGhpZ2hwb2ludENyZWRpdEtleSB9IGZyb20gIkAvbGliL2hpc3RvcmljLWhpZ2hwb2ludHMiOwoKZXhwb3J0IGludGVyZmFjZSBJbnZlbnRvcnlJdGVtIHsKICBpZDogc3RyaW5nOwogIG5hbWU6IHN0cmluZzsKICAvKiogRW1vamkgdXNlZCBhcyB0aGUgaXRlbSBzcHJpdGUgaW4gdGhlIHNsb3QgZ3JpZC4gKi8KICBlbW9qaTogc3RyaW5nOwogIGhpbnQ6IHN0cmluZzsKICBlYXJuZWQ6IGJvb2xlYW47CiAgZG9uZTogbnVtYmVyOwogIHRvdGFsOiBudW1iZXI7Cn0KCmludGVyZmFjZSBBc2NlbnRMaWtlIHsKICBwZWFrX25hbWU6IHN0cmluZzsKICBwZWFrX3R5cGU6IHN0cmluZzsKICBjb3VudHJ5Pzogc3RyaW5nIHwgbnVsbDsKICBhc2NlbnRfZGF0ZT86IHN0cmluZyB8IG51bGw7Cn0KCmNvbnN0IGVtb2ppRm9yID0gKGNhdGVnb3J5OiBzdHJpbmcsIGRvbmU6IG51bWJlciwgdG90YWw6IG51bWJlcikgPT4gewogIGlmIChjYXRlZ29yeSA9PT0gIkV4dHJlbWUiKSByZXR1cm4gZG9uZSA+PSB0b3RhbCA/ICLwn5GRIiA6ICLwn4+U77iPIjsKICBpZiAoY2F0ZWdvcnkgPT09ICJWb2xjYW5pYyIpIHJldHVybiBkb25lID49IHRvdGFsID8gIvCfjIsiIDogIvCflKUiOwogIGlmIChjYXRlZ29yeSA9PT0gIlJlZ2lvbmFsIikgcmV0dXJuIGRvbmUgPj0gdG90YWwgPyAi8J+nrSIgOiAi8J+Xuu+4jyI7CiAgcmV0dXJuIGRvbmUgPj0gdG90YWwgPyAi8J+PhiIgOiAi8J+lviI7Cn07CgovKiogS2V5cyBvZiBldmVyeXRoaW5nIGEgbWVtYmVyIGhhcyB0aWNrZWQsIGluIHBlYWstY2F0YWxvZyBrZXkgZm9ybS4gKi8KZXhwb3J0IGNvbnN0IHRpY2tlZEtleXMgPSAoYXNjZW50czogQXNjZW50TGlrZVtdKTogU2V0PHN0cmluZz4gPT4gewogIGNvbnN0IHNldCA9IG5ldyBTZXQ8c3RyaW5nPigpOwogIGZvciAoY29uc3QgYSBvZiBhc2NlbnRzKSB7CiAgICBzZXQuYWRkKGhpZ2hwb2ludENyZWRpdEtleShhKSk7CiAgfQogIHJldHVybiBzZXQ7Cn07CgovKiogT25lIGl0ZW0gcGVyIGNoYWxsZW5nZSBsaXN0LCBwbHVzIGNhcmVlciBtaWxlc3RvbmVzLiAqLwpleHBvcnQgY29uc3QgYnVpbGRJbnZlbnRvcnkgPSAoYXNjZW50czogQXNjZW50TGlrZVtdKTogSW52ZW50b3J5SXRlbVtdID0+IHsKICBjb25zdCBrZXlzID0gdGlja2VkS2V5cyhhc2NlbnRzKTsKCiAgY29uc3QgbGlzdEl0ZW1zOiBJbnZlbnRvcnlJdGVtW10gPSBwZWFrTGlzdHMubWFwKChsaXN0KSA9PiB7CiAgICBjb25zdCBkb25lID0gbGlzdC5lbnRyaWVzLmZpbHRlcigKICAgICAgKGUpID0+IGtleXMuaGFzKGUua2V5KSB8fCAoZS5hbHQgPz8gW10pLnNvbWUoKGspID0+IGtleXMuaGFzKGspKSwKICAgICkubGVuZ3RoOwogICAgY29uc3QgdG90YWwgPSBsaXN0LmVudHJpZXMubGVuZ3RoOwogICAgcmV0dXJuIHsKICAgICAgaWQ6IGBsaXN0OiR7bGlzdC5pZH1gLAogICAgICBuYW1lOiBsaXN0Lm5hbWUsCiAgICAgIGVtb2ppOiBlbW9qaUZvcihsaXN0LmNhdGVnb3J5LCBkb25lLCB0b3RhbCksCiAgICAgIGhpbnQ6IGRvbmUgPj0gdG90YWwgPyAiTGlzdCBjb21wbGV0ZWQg4oCUIHRyb3BoeSBlYXJuZWQiIDogYCR7ZG9uZX0vJHt0b3RhbH0gdGlja2VkYCwKICAgICAgZWFybmVkOiB0b3RhbCA+IDAgJiYgZG9uZSA+PSB0b3RhbCwKICAgICAgZG9uZSwKICAgICAgdG90YWwsCiAgICB9OwogIH0pOwoKICBjb25zdCB1bmlxdWVQZWFrcyA9IG5ldyBTZXQoYXNjZW50cy5tYXAoKGEpID0+IGEucGVha19uYW1lKSkuc2l6ZTsKICBjb25zdCBjb3VudHJpZXMgPSBuZXcgU2V0KGFzY2VudHMubWFwKChhKSA9PiBhLmNvdW50cnkpLmZpbHRlcihCb29sZWFuKSkuc2l6ZTsKCiAgY29uc3QgbWlsZXN0b25lID0gKAogICAgaWQ6IHN0cmluZywKICAgIG5hbWU6IHN0cmluZywKICAgIGVtb2ppOiBzdHJpbmcsCiAgICBkb25lOiBudW1iZXIsCiAgICB0b3RhbDogbnVtYmVyLAogICAgdW5pdDogc3RyaW5nLAogICk6IEludmVudG9yeUl0ZW0gPT4gKHsKICAgIGlkLAogICAgbmFtZSwKICAgIGVtb2ppLAogICAgaGludDogZG9uZSA+PSB0b3RhbCA/ICJFYXJuZWQiIDogYCR7ZG9uZX0vJHt0b3RhbH0gJHt1bml0fWAsCiAgICBlYXJuZWQ6IGRvbmUgPj0gdG90YWwsCiAgICBkb25lOiBNYXRoLm1pbihkb25lLCB0b3RhbCksCiAgICB0b3RhbCwKICB9KTsKCiAgcmV0dXJuIFsKICAgIG1pbGVzdG9uZSgiZ2Vhcjpib290cyIsICJXb3JuLWluIGJvb3RzIiwgIvCfpb4iLCB1bmlxdWVQZWFrcywgMTAsICJwZWFrcyIpLAogICAgbWlsZXN0b25lKCJnZWFyOnJvcGUiLCAiQ2xpbWJpbmcgcm9wZSIsICLwn6qiIiwgdW5pcXVlUGVha3MsIDI1LCAicGVha3MiKSwKICAgIG1pbGVzdG9uZSgiZ2VhcjpheGUiLCAiSWNlIGF4ZSIsICLwn6qTIiwgdW5pcXVlUGVha3MsIDUwLCAicGVha3MiKSwKICAgIG1pbGVzdG9uZSgiZ2Vhcjp0ZW50IiwgIlN0b3JtIHRlbnQiLCAi4pu6IiwgdW5pcXVlUGVha3MsIDEwMCwgInBlYWtzIiksCiAgICBtaWxlc3RvbmUoImdlYXI6cGFzc3BvcnQiLCAiU3RhbXBlZCBwYXNzcG9ydCIsICLwn5uCIiwgY291bnRyaWVzLCA1LCAiY291bnRyaWVzIiksCiAgICBtaWxlc3RvbmUoImdlYXI6Z2xvYmUiLCAiR2xvYmV0cm90dGVyIGdsb2JlIiwgIvCfjI0iLCBjb3VudHJpZXMsIDIwLCAiY291bnRyaWVzIiksCiAgICBtaWxlc3RvbmUoImdlYXI6Y29tcGFzcyIsICJCcmFzcyBjb21wYXNzIiwgIvCfp60iLCBjb3VudHJpZXMsIDQwLCAiY291bnRyaWVzIiksCiAgICAuLi5saXN0SXRlbXMsCiAgXTsKfTsK
+/**
+ * Base Camp inventory: Minecraft-style loot a climber earns for completing
+ * challenge / peak lists (and a few career milestones). Purely derived from the
+ * member's logged ascents, so nothing extra needs storing.
+ */
+import { peakLists } from "@/data/peak-lists";
+import { countsAsCountryHighpoint, highpointCreditKey } from "@/lib/historic-highpoints";
+
+export interface InventoryItem {
+  id: string;
+  name: string;
+  /** Emoji used as the item sprite in the slot grid. */
+  emoji: string;
+  hint: string;
+  earned: boolean;
+  done: number;
+  total: number;
+}
+
+interface AscentLike {
+  peak_name: string;
+  peak_type: string;
+  country?: string | null;
+  ascent_date?: string | null;
+}
+
+const emojiFor = (category: string, done: number, total: number) => {
+  if (category === "Extreme") return done >= total ? "👑" : "🏔️";
+  if (category === "Volcanic") return done >= total ? "🌋" : "🔥";
+  if (category === "Regional") return done >= total ? "🧭" : "🗺️";
+  return done >= total ? "🏆" : "🥾";
+};
+
+/** Keys of everything a member has ticked, in peak-catalog key form. */
+export const tickedKeys = (ascents: AscentLike[]): Set<string> => {
+  const set = new Set<string>();
+  for (const a of ascents) {
+    set.add(highpointCreditKey(a));
+  }
+  return set;
+};
+
+/** One item per challenge list, plus career milestones. */
+export const buildInventory = (ascents: AscentLike[]): InventoryItem[] => {
+  const keys = tickedKeys(ascents);
+
+  const listItems: InventoryItem[] = peakLists.map((list) => {
+    const done = list.entries.filter(
+      (e) => keys.has(e.key) || (e.alt ?? []).some((k) => keys.has(k)),
+    ).length;
+    const total = list.entries.length;
+    return {
+      id: `list:${list.id}`,
+      name: list.name,
+      emoji: emojiFor(list.category, done, total),
+      hint: done >= total ? "List completed — trophy earned" : `${done}/${total} ticked`,
+      earned: total > 0 && done >= total,
+      done,
+      total,
+    };
+  });
+
+  const uniquePeaks = new Set(ascents.map((a) => a.peak_name)).size;
+  const countries = new Set(ascents.map((a) => a.country).filter(Boolean)).size;
+
+  const milestone = (
+    id: string,
+    name: string,
+    emoji: string,
+    done: number,
+    total: number,
+    unit: string,
+  ): InventoryItem => ({
+    id,
+    name,
+    emoji,
+    hint: done >= total ? "Earned" : `${done}/${total} ${unit}`,
+    earned: done >= total,
+    done: Math.min(done, total),
+    total,
+  });
+
+  return [
+    milestone("gear:boots", "Worn-in boots", "🥾", uniquePeaks, 10, "peaks"),
+    milestone("gear:rope", "Climbing rope", "🪢", uniquePeaks, 25, "peaks"),
+    milestone("gear:axe", "Ice axe", "🪓", uniquePeaks, 50, "peaks"),
+    milestone("gear:tent", "Storm tent", "⛺", uniquePeaks, 100, "peaks"),
+    milestone("gear:passport", "Stamped passport", "🛂", countries, 5, "countries"),
+    milestone("gear:globe", "Globetrotter globe", "🌍", countries, 20, "countries"),
+    milestone("gear:compass", "Brass compass", "🧭", countries, 40, "countries"),
+    ...listItems,
+  ];
+};

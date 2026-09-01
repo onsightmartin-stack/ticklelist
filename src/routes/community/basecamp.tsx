@@ -1,1 +1,6 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBCYXNlQ2FtcFBhZ2UgZnJvbSAiQC9wYWdlcy9jb21tdW5pdHkvQmFzZUNhbXBQYWdlIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL2NvbW11bml0eS9iYXNlY2FtcCIpKHsKICBjb21wb25lbnQ6IEJhc2VDYW1wUGFnZSwKfSk7Cg==
+import { createFileRoute } from "@tanstack/react-router";
+import BaseCampPage from "@/pages/community/BaseCampPage";
+
+export const Route = createFileRoute("/community/basecamp")({
+  component: BaseCampPage,
+});

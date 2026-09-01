@@ -1,1 +1,41 @@
-LyoqCiAqIEluZGV4Tm93IHN1Ym1pc3Npb24g4oCUIHB1c2hlcyBldmVyeSBVUkwgaW4gcHVibGljL3NpdGVtYXAueG1sIHRvIEJpbmcgKGFuZAogKiBvdGhlciBJbmRleE5vdyBlbmdpbmVzOiBZYW5kZXgsIFNlem5hbSwgTmF2ZXIpLgogKgogKiBSZXF1aXJlcyBwdWJsaWMvPEtFWT4udHh0IHRvIGJlIGxpdmUgYXQgaHR0cHM6Ly9vbnNpZ2h0bWFydGluLmNvbS88S0VZPi50eHQKICoKICogVXNhZ2U6IGJ1biBydW4gc2NyaXB0cy9pbmRleG5vdy1zdWJtaXQudHMKICovCmltcG9ydCB7IHJlYWRGaWxlU3luYyB9IGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgeyByZXNvbHZlIH0gZnJvbSAibm9kZTpwYXRoIjsKCmNvbnN0IEhPU1QgPSAib25zaWdodG1hcnRpbi5jb20iOwpjb25zdCBLRVkgPSAiOTc3NGRhNjcyNDdjMWU5YzZiMWVkZGVmMDAzMDA1YmQiOwpjb25zdCBLRVlfTE9DQVRJT04gPSBgaHR0cHM6Ly8ke0hPU1R9LyR7S0VZfS50eHRgOwoKY29uc3Qgc2l0ZW1hcCA9IHJlYWRGaWxlU3luYyhyZXNvbHZlKCJwdWJsaWMvc2l0ZW1hcC54bWwiKSwgInV0ZjgiKTsKY29uc3QgdXJsTGlzdCA9IFsuLi5zaXRlbWFwLm1hdGNoQWxsKC88bG9jPiguKj8pPFwvbG9jPi9nKV0ubWFwKChtKSA9PiBtWzFdKTsKCmlmICh1cmxMaXN0Lmxlbmd0aCA9PT0gMCkgewogIGNvbnNvbGUuZXJyb3IoIk5vIFVSTHMgZm91bmQgaW4gc2l0ZW1hcC54bWwiKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0KCi8vIFZlcmlmeSB0aGUga2V5IGZpbGUgaXMgcmVhY2hhYmxlIGJlZm9yZSBzdWJtaXR0aW5nLgpjb25zdCBrZXlDaGVjayA9IGF3YWl0IGZldGNoKEtFWV9MT0NBVElPTik7CmlmICgha2V5Q2hlY2sub2spIHsKICBjb25zb2xlLmVycm9yKAogICAgYEtleSBmaWxlIG5vdCByZWFjaGFibGUgYXQgJHtLRVlfTE9DQVRJT059IChIVFRQICR7a2V5Q2hlY2suc3RhdHVzfSkuIFB1Ymxpc2ggdGhlIHNpdGUgZmlyc3QuYCwKICApOwogIHByb2Nlc3MuZXhpdCgxKTsKfQoKLy8gSW5kZXhOb3cgYWNjZXB0cyB1cCB0byAxMCwwMDAgVVJMcyBwZXIgcmVxdWVzdC4KY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goImh0dHBzOi8vYXBpLmluZGV4bm93Lm9yZy9JbmRleE5vdyIsIHsKICBtZXRob2Q6ICJQT1NUIiwKICBoZWFkZXJzOiB7ICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOCIgfSwKICBib2R5OiBKU09OLnN0cmluZ2lmeSh7IGhvc3Q6IEhPU1QsIGtleTogS0VZLCBrZXlMb2NhdGlvbjogS0VZX0xPQ0FUSU9OLCB1cmxMaXN0IH0pLAp9KTsKCmNvbnNvbGUubG9nKGBTdWJtaXR0ZWQgJHt1cmxMaXN0Lmxlbmd0aH0gVVJMcyDigJQgSFRUUCAke3Jlcy5zdGF0dXN9YCk7CmNvbnNvbGUubG9nKGF3YWl0IHJlcy50ZXh0KCkpOwo=
+/**
+ * IndexNow submission — pushes every URL in public/sitemap.xml to Bing (and
+ * other IndexNow engines: Yandex, Seznam, Naver).
+ *
+ * Requires public/<KEY>.txt to be live at https://onsightmartin.com/<KEY>.txt
+ *
+ * Usage: bun run scripts/indexnow-submit.ts
+ */
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
+
+const HOST = "onsightmartin.com";
+const KEY = "9774da67247c1e9c6b1eddef003005bd";
+const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
+
+const sitemap = readFileSync(resolve("public/sitemap.xml"), "utf8");
+const urlList = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((m) => m[1]);
+
+if (urlList.length === 0) {
+  console.error("No URLs found in sitemap.xml");
+  process.exit(1);
+}
+
+// Verify the key file is reachable before submitting.
+const keyCheck = await fetch(KEY_LOCATION);
+if (!keyCheck.ok) {
+  console.error(
+    `Key file not reachable at ${KEY_LOCATION} (HTTP ${keyCheck.status}). Publish the site first.`,
+  );
+  process.exit(1);
+}
+
+// IndexNow accepts up to 10,000 URLs per request.
+const res = await fetch("https://api.indexnow.org/IndexNow", {
+  method: "POST",
+  headers: { "Content-Type": "application/json; charset=utf-8" },
+  body: JSON.stringify({ host: HOST, key: KEY, keyLocation: KEY_LOCATION, urlList }),
+});
+
+console.log(`Submitted ${urlList.length} URLs — HTTP ${res.status}`);
+console.log(await res.text());

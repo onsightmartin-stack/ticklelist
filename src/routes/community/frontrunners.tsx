@@ -1,1 +1,6 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBGcm9udFJ1bm5lcnNQYWdlIGZyb20gIkAvcGFnZXMvY29tbXVuaXR5L0Zyb250UnVubmVyc1BhZ2UiOwoKZXhwb3J0IGNvbnN0IFJvdXRlID0gY3JlYXRlRmlsZVJvdXRlKCIvY29tbXVuaXR5L2Zyb250cnVubmVycyIpKHsKICBjb21wb25lbnQ6IEZyb250UnVubmVyc1BhZ2UsCn0pOwo=
+import { createFileRoute } from "@tanstack/react-router";
+import FrontRunnersPage from "@/pages/community/FrontRunnersPage";
+
+export const Route = createFileRoute("/community/frontrunners")({
+  component: FrontRunnersPage,
+});

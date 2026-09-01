@@ -1,1 +1,27 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBTdGFydFBhZ2UgZnJvbSAiQC9wYWdlcy9TdGFydFBhZ2UiOwoKY29uc3QgdGl0bGUgPSAiU3RhcnQgWW91ciBPd24gVGljayBMaXN0IOKAlCBPbnNpZ2h0IE1hcnRpbiI7CmNvbnN0IGRlc2NyaXB0aW9uID0KICAiQ2FtZSBmcm9tIHRoZSB2aWRlb3M/IFRyYWNrIGV2ZXJ5IHN1bW1pdCB5b3UndmUgY2xpbWJlZCwgYnVpbGQgYnVja2V0IGxpc3RzIGFuZCBmb2xsb3cgb3RoZXIgY2xpbWJlcnMgb24gVGlja2xlbGlzdCDigJQgZnJlZS4iOwoKZXhwb3J0IGNvbnN0IFJvdXRlID0gY3JlYXRlRmlsZVJvdXRlKCIvc3RhcnQiKSh7CiAgaGVhZDogKCkgPT4gKHsKICAgIG1ldGE6IFsKICAgICAgeyB0aXRsZSB9LAogICAgICB7IG5hbWU6ICJkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6IGRlc2NyaXB0aW9uIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzpzaXRlX25hbWUiLCBjb250ZW50OiAiT25zaWdodCBNYXJ0aW4iIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0aXRsZSIsIGNvbnRlbnQ6IHRpdGxlIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzpkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6IGRlc2NyaXB0aW9uIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0eXBlIiwgY29udGVudDogIndlYnNpdGUiIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp1cmwiLCBjb250ZW50OiAiaHR0cHM6Ly9vbnNpZ2h0bWFydGluLmNvbS9zdGFydCIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOmltYWdlIiwgY29udGVudDogImh0dHBzOi8vb25zaWdodG1hcnRpbi5jb20vb2ctaW1hZ2UuanBnIiB9LAogICAgICB7IG5hbWU6ICJ0d2l0dGVyOmNhcmQiLCBjb250ZW50OiAic3VtbWFyeV9sYXJnZV9pbWFnZSIgfSwKICAgICAgeyBuYW1lOiAidHdpdHRlcjp0aXRsZSIsIGNvbnRlbnQ6IHRpdGxlIH0sCiAgICAgIHsgbmFtZTogInR3aXR0ZXI6ZGVzY3JpcHRpb24iLCBjb250ZW50OiBkZXNjcmlwdGlvbiB9LAogICAgICB7IG5hbWU6ICJ0d2l0dGVyOmltYWdlIiwgY29udGVudDogImh0dHBzOi8vb25zaWdodG1hcnRpbi5jb20vb2ctaW1hZ2UuanBnIiB9LAogICAgXSwKICAgIGxpbmtzOiBbeyByZWw6ICJjYW5vbmljYWwiLCBocmVmOiAiaHR0cHM6Ly9vbnNpZ2h0bWFydGluLmNvbS9zdGFydCIgfV0sCiAgfSksCiAgY29tcG9uZW50OiBTdGFydFBhZ2UsCn0pOwo=
+import { createFileRoute } from "@tanstack/react-router";
+import StartPage from "@/pages/StartPage";
+
+const title = "Start Your Own Tick List — Onsight Martin";
+const description =
+  "Came from the videos? Track every summit you've climbed, build bucket lists and follow other climbers on Ticklelist — free.";
+
+export const Route = createFileRoute("/start")({
+  head: () => ({
+    meta: [
+      { title },
+      { name: "description", content: description },
+      { property: "og:site_name", content: "Onsight Martin" },
+      { property: "og:title", content: title },
+      { property: "og:description", content: description },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://onsightmartin.com/start" },
+      { property: "og:image", content: "https://onsightmartin.com/og-image.jpg" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: title },
+      { name: "twitter:description", content: description },
+      { name: "twitter:image", content: "https://onsightmartin.com/og-image.jpg" },
+    ],
+    links: [{ rel: "canonical", href: "https://onsightmartin.com/start" }],
+  }),
+  component: StartPage,
+});

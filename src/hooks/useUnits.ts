@@ -1,1 +1,58 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKCmltcG9ydCB7IHVzZUF1dGggfSBmcm9tICJAL2hvb2tzL3VzZUF1dGgiOwppbXBvcnQgeyB1bml0c0ZvckNvdW50cnksIHVuaXRzRm9yTG9jYWxlLCB0eXBlIFVuaXRTeXN0ZW0gfSBmcm9tICJAL2xpYi91bml0cyI7Cgpjb25zdCBTVE9SQUdFX0tFWSA9ICJ0bDp1bml0cyI7CmNvbnN0IEVWRU5UID0gInRsOnVuaXRzLWNoYW5nZWQiOwoKY29uc3QgcmVhZFN0b3JlZCA9ICgpOiBVbml0U3lzdGVtIHwgbnVsbCA9PiB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm4gbnVsbDsKICBjb25zdCBzdG9yZWQgPSB3aW5kb3cubG9jYWxTdG9yYWdlLmdldEl0ZW0oU1RPUkFHRV9LRVkpOwogIHJldHVybiBzdG9yZWQgPT09ICJtZXRyaWMiIHx8IHN0b3JlZCA9PT0gImltcGVyaWFsIiA/IHN0b3JlZCA6IG51bGw7Cn07CgovKioKICogQWx0aXR1ZGUgdW5pdHMgZm9yIHRoZSBjdXJyZW50IG1lbWJlcjogYSBtYW51YWwgY2hvaWNlIHdpbnMsIHRoZW4gdGhlaXIKICogcHJvZmlsZSBjb3VudHJ5LCB0aGVuIHRoZSBicm93c2VyIGxvY2FsZSwgZGVmYXVsdGluZyB0byBtZXRyZXMuIERldGVjdGlvbgogKiBydW5zIGFmdGVyIGh5ZHJhdGlvbiBzbyBTU1IgYW5kIHRoZSBmaXJzdCBjbGllbnQgcmVuZGVyIGFncmVlLgogKi8KZXhwb3J0IGNvbnN0IHVzZVVuaXRzID0gKCk6IFVuaXRTeXN0ZW0gPT4gewogIGNvbnN0IHsgcHJvZmlsZSB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IFt1bml0cywgc2V0VW5pdHNdID0gdXNlU3RhdGU8VW5pdFN5c3RlbT4oIm1ldHJpYyIpOwoKICBjb25zdCBjb3VudHJ5ID0gKHByb2ZpbGUgYXMgeyBjb3VudHJ5Pzogc3RyaW5nIHwgbnVsbCB9IHwgbnVsbCk/LmNvdW50cnkgPz8gbnVsbDsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmICh0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIikgcmV0dXJuOwogICAgY29uc3QgcmVzb2x2ZSA9ICgpID0+IHsKICAgICAgY29uc3Qgc3RvcmVkID0gcmVhZFN0b3JlZCgpOwogICAgICBzZXRVbml0cyhzdG9yZWQgPz8gdW5pdHNGb3JDb3VudHJ5KGNvdW50cnkpID8/IHVuaXRzRm9yTG9jYWxlKG5hdmlnYXRvci5sYW5ndWFnZSkpOwogICAgfTsKICAgIHJlc29sdmUoKTsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKEVWRU5ULCByZXNvbHZlKTsKICAgIHJldHVybiAoKSA9PiB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcihFVkVOVCwgcmVzb2x2ZSk7CiAgfSwgW2NvdW50cnldKTsKCiAgcmV0dXJuIHVuaXRzOwp9OwoKLyoqIFRoZSBleHBsaWNpdCBvdmVycmlkZSwgaWYgdGhlIG1lbWJlciBwaWNrZWQgb25lLiAqLwpleHBvcnQgY29uc3QgdXNlVW5pdHNQcmVmZXJlbmNlID0gKCk6IFVuaXRTeXN0ZW0gfCBudWxsID0+IHsKICBjb25zdCBbcHJlZiwgc2V0UHJlZl0gPSB1c2VTdGF0ZTxVbml0U3lzdGVtIHwgbnVsbD4obnVsbCk7CiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnN0IHJlc29sdmUgPSAoKSA9PiBzZXRQcmVmKHJlYWRTdG9yZWQoKSk7CiAgICByZXNvbHZlKCk7CiAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcihFVkVOVCwgcmVzb2x2ZSk7CiAgICByZXR1cm4gKCkgPT4gd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoRVZFTlQsIHJlc29sdmUpOwogIH0sIFtdKTsKICByZXR1cm4gcHJlZjsKfTsKCi8qKiBNYW51YWwgb3ZlcnJpZGUgdXNlZCBieSB0aGUgc2V0dGluZ3MgdG9nZ2xlLiAqLwpleHBvcnQgY29uc3Qgc2V0U3RvcmVkVW5pdHMgPSAodW5pdHM6IFVuaXRTeXN0ZW0gfCBudWxsKSA9PiB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm47CiAgaWYgKHVuaXRzKSB3aW5kb3cubG9jYWxTdG9yYWdlLnNldEl0ZW0oU1RPUkFHRV9LRVksIHVuaXRzKTsKICBlbHNlIHdpbmRvdy5sb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbShTVE9SQUdFX0tFWSk7CiAgd2luZG93LmRpc3BhdGNoRXZlbnQobmV3IEV2ZW50KEVWRU5UKSk7Cn07Cg==
+import { useEffect, useState } from "react";
+
+import { useAuth } from "@/hooks/useAuth";
+import { unitsForCountry, unitsForLocale, type UnitSystem } from "@/lib/units";
+
+const STORAGE_KEY = "tl:units";
+const EVENT = "tl:units-changed";
+
+const readStored = (): UnitSystem | null => {
+  if (typeof window === "undefined") return null;
+  const stored = window.localStorage.getItem(STORAGE_KEY);
+  return stored === "metric" || stored === "imperial" ? stored : null;
+};
+
+/**
+ * Altitude units for the current member: a manual choice wins, then their
+ * profile country, then the browser locale, defaulting to metres. Detection
+ * runs after hydration so SSR and the first client render agree.
+ */
+export const useUnits = (): UnitSystem => {
+  const { profile } = useAuth();
+  const [units, setUnits] = useState<UnitSystem>("metric");
+
+  const country = (profile as { country?: string | null } | null)?.country ?? null;
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const resolve = () => {
+      const stored = readStored();
+      setUnits(stored ?? unitsForCountry(country) ?? unitsForLocale(navigator.language));
+    };
+    resolve();
+    window.addEventListener(EVENT, resolve);
+    return () => window.removeEventListener(EVENT, resolve);
+  }, [country]);
+
+  return units;
+};
+
+/** The explicit override, if the member picked one. */
+export const useUnitsPreference = (): UnitSystem | null => {
+  const [pref, setPref] = useState<UnitSystem | null>(null);
+  useEffect(() => {
+    const resolve = () => setPref(readStored());
+    resolve();
+    window.addEventListener(EVENT, resolve);
+    return () => window.removeEventListener(EVENT, resolve);
+  }, []);
+  return pref;
+};
+
+/** Manual override used by the settings toggle. */
+export const setStoredUnits = (units: UnitSystem | null) => {
+  if (typeof window === "undefined") return;
+  if (units) window.localStorage.setItem(STORAGE_KEY, units);
+  else window.localStorage.removeItem(STORAGE_KEY);
+  window.dispatchEvent(new Event(EVENT));
+};

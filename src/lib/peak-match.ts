@@ -1,1 +1,17 @@
-aW1wb3J0IHsgY291bnRyaWVzIH0gZnJvbSAiQC9kYXRhL2NvdW50cmllcyI7CmltcG9ydCB7IHBlYWtDYXRhbG9nIH0gZnJvbSAiQC9saWIvcGVhay1jYXRhbG9nIjsKCi8qKgogKiBEZWVwIGxpbmsgaW50byB0aGUgY29tbXVuaXR5IGFzY2VudCBmb3JtIHdpdGggdGhlIHJpZ2h0IHBlYWsgcHJlLXNlbGVjdGVkLgogKiBSZXR1cm5zIG51bGwgd2hlbiB0aGUgY291bnRyeSBpcyBub3QgYSBjYXRhbG9nIGNvdW50cnkgaGlnaCBwb2ludC4KICovCmV4cG9ydCBmdW5jdGlvbiBhc2NlbnRMaW5rRm9yQ291bnRyeShjb3VudHJ5OiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkKTogc3RyaW5nIHwgbnVsbCB7CiAgaWYgKCFjb3VudHJ5KSByZXR1cm4gbnVsbDsKICBjb25zdCBtYXRjaCA9IGNvdW50cmllcy5maW5kKAogICAgKGMpID0+IGMuY291bnRyeS50b0xvd2VyQ2FzZSgpID09PSBjb3VudHJ5LnRyaW0oKS50b0xvd2VyQ2FzZSgpLAogICk7CiAgaWYgKCFtYXRjaCkgcmV0dXJuIG51bGw7CiAgY29uc3Qga2V5ID0gYGhwOiR7bWF0Y2guY291bnRyeX1gOwogIGlmICghcGVha0NhdGFsb2cuc29tZSgocCkgPT4gcC5rZXkgPT09IGtleSkpIHJldHVybiBudWxsOwogIHJldHVybiBgL2NvbW11bml0eS9hc2NlbnRzP25ldz0xJnBlYWs9JHtlbmNvZGVVUklDb21wb25lbnQoa2V5KX1gOwp9Cg==
+import { countries } from "@/data/countries";
+import { peakCatalog } from "@/lib/peak-catalog";
+
+/**
+ * Deep link into the community ascent form with the right peak pre-selected.
+ * Returns null when the country is not a catalog country high point.
+ */
+export function ascentLinkForCountry(country: string | null | undefined): string | null {
+  if (!country) return null;
+  const match = countries.find(
+    (c) => c.country.toLowerCase() === country.trim().toLowerCase(),
+  );
+  if (!match) return null;
+  const key = `hp:${match.country}`;
+  if (!peakCatalog.some((p) => p.key === key)) return null;
+  return `/community/ascents?new=1&peak=${encodeURIComponent(key)}`;
+}

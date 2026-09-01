@@ -1,1 +1,123 @@
-aW1wb3J0IHsgQm9va21hcmssIEZpbHRlciwgU2VhcmNoLCBYIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyI7CgpleHBvcnQgdHlwZSBXYWxsU29ydCA9ICJuZXdlc3QiIHwgIm9sZGVzdCIgfCAidG9wIjsKCmludGVyZmFjZSBQcm9wcyB7CiAgc29ydDogV2FsbFNvcnQ7CiAgb25Tb3J0OiAoczogV2FsbFNvcnQpID0+IHZvaWQ7CiAgcXVlcnk6IHN0cmluZzsKICBvblF1ZXJ5OiAocTogc3RyaW5nKSA9PiB2b2lkOwogIHBlYWs6IHN0cmluZzsKICBvblBlYWs6IChwOiBzdHJpbmcpID0+IHZvaWQ7CiAgcGVha3M6IHN0cmluZ1tdOwogIHRvdGFsOiBudW1iZXI7CiAgc2hvd246IG51bWJlcjsKICBzYXZlZE9ubHk/OiBib29sZWFuOwogIG9uU2F2ZWRPbmx5PzogKHY6IGJvb2xlYW4pID0+IHZvaWQ7CiAgc2F2ZWRDb3VudD86IG51bWJlcjsKfQoKY29uc3Qgc29ydHM6IHsga2V5OiBXYWxsU29ydDsgbGFiZWw6IHN0cmluZyB9W10gPSBbCiAgeyBrZXk6ICJuZXdlc3QiLCBsYWJlbDogIk5ld2VzdCIgfSwKICB7IGtleTogInRvcCIsIGxhYmVsOiAiVG9wIiB9LAogIHsga2V5OiAib2xkZXN0IiwgbGFiZWw6ICJPbGRlc3QiIH0sCl07CgovKiogU29ydCArIGZpbHRlciBiYXIgZm9yIHRoZSBXYWxsLiAqLwpjb25zdCBXYWxsQ29udHJvbHMgPSAoewogIHNvcnQsCiAgb25Tb3J0LAogIHF1ZXJ5LAogIG9uUXVlcnksCiAgcGVhaywKICBvblBlYWssCiAgcGVha3MsCiAgdG90YWwsCiAgc2hvd24sCiAgc2F2ZWRPbmx5ID0gZmFsc2UsCiAgb25TYXZlZE9ubHksCiAgc2F2ZWRDb3VudCA9IDAsCn06IFByb3BzKSA9PiAoCiAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZC82MCBwLTMgc3BhY2UteS0zIj4KICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICA8c3BhbiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSB0ZXh0LXhzIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICA8RmlsdGVyIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUiIC8+IFNvcnQKICAgICAgPC9zcGFuPgogICAgICB7c29ydHMubWFwKChzKSA9PiAoCiAgICAgICAgPEJ1dHRvbgogICAgICAgICAga2V5PXtzLmtleX0KICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgdmFyaWFudD17c29ydCA9PT0gcy5rZXkgPyAiZGVmYXVsdCIgOiAib3V0bGluZSJ9CiAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBvblNvcnQocy5rZXkpfQogICAgICAgID4KICAgICAgICAgIHtzLmxhYmVsfQogICAgICAgIDwvQnV0dG9uPgogICAgICApKX0KCiAgICAgIHtvblNhdmVkT25seSAmJiAoCiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICB2YXJpYW50PXtzYXZlZE9ubHkgPyAiZGVmYXVsdCIgOiAib3V0bGluZSJ9CiAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBvblNhdmVkT25seSghc2F2ZWRPbmx5KX0KICAgICAgICAgIGFyaWEtcHJlc3NlZD17c2F2ZWRPbmx5fQogICAgICAgID4KICAgICAgICAgIDxCb29rbWFyayBjbGFzc05hbWU9e2NuKCJ3LTMuNSBoLTMuNSBtci0xIiwgc2F2ZWRPbmx5ICYmICJmaWxsLWN1cnJlbnQiKX0gLz4gU2F2ZWQKICAgICAgICAgIHtzYXZlZENvdW50ID4gMCAmJiA8c3BhbiBjbGFzc05hbWU9Im1sLTEgdGV4dC1bMTFweF0gb3BhY2l0eS04MCI+e3NhdmVkQ291bnR9PC9zcGFuPn0KICAgICAgICA8L0J1dHRvbj4KICAgICAgKX0KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBtbC1hdXRvIHctZnVsbCBzbTp3LTU2Ij4KICAgICAgICA8U2VhcmNoIGNsYXNzTmFtZT0icG9pbnRlci1ldmVudHMtbm9uZSBhYnNvbHV0ZSBsZWZ0LTIgdG9wLTEvMiAtdHJhbnNsYXRlLXktMS8yIHctMy41IGgtMy41IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz4KICAgICAgICA8SW5wdXQKICAgICAgICAgIHZhbHVlPXtxdWVyeX0KICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gb25RdWVyeShlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICBwbGFjZWhvbGRlcj0iU2VhcmNoIHBvc3RzLCAjdGFncywgcGVvcGxlIgogICAgICAgICAgYXJpYS1sYWJlbD0iU2VhcmNoIHBvc3RzIgogICAgICAgICAgY2xhc3NOYW1lPSJwbC03IgogICAgICAgIC8+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CgogICAge3BlYWtzLmxlbmd0aCA+IDAgJiYgKAogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0xLjUiPgogICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXN0IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtci0xIj5QZWFrIC8gY291bnRyeTwvc3Bhbj4KICAgICAgICB7cGVha3MubWFwKChwKSA9PiAoCiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIGtleT17cH0KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBvblBlYWsocGVhayA9PT0gcCA/ICIiIDogcCl9CiAgICAgICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAgICAgInJvdW5kZWQtZnVsbCBib3JkZXIgcHgtMi41IHB5LTEgdGV4dC14cyB0cmFuc2l0aW9uLWNvbG9ycyIsCiAgICAgICAgICAgICAgcGVhayA9PT0gcAogICAgICAgICAgICAgICAgPyAiYm9yZGVyLXByaW1hcnkgYmctcHJpbWFyeS8xNSB0ZXh0LXByaW1hcnkiCiAgICAgICAgICAgICAgICA6ICJib3JkZXItYm9yZGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LWZvcmVncm91bmQiLAogICAgICAgICAgICApfQogICAgICAgICAgPgogICAgICAgICAgICB7cH0KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICkpfQogICAgICAgIHtwZWFrICYmICgKICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBvblBlYWsoIiIpfQogICAgICAgICAgICBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgPgogICAgICAgICAgICA8WCBjbGFzc05hbWU9InctMyBoLTMiIC8+IENsZWFyCiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICApfQogICAgICA8L2Rpdj4KICAgICl9CgogICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICBTaG93aW5nIHtzaG93bn0gb2Yge3RvdGFsfSBwb3N0e3RvdGFsID09PSAxID8gIiIgOiAicyJ9CiAgICAgIHtzYXZlZE9ubHkgPyAiIMK3IHNhdmVkIG9ubHkiIDogIiJ9CiAgICA8L3A+CiAgPC9kaXY+Cik7CgpleHBvcnQgZGVmYXVsdCBXYWxsQ29udHJvbHM7Cg==
+import { Bookmark, Filter, Search, X } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { cn } from "@/lib/utils";
+
+export type WallSort = "newest" | "oldest" | "top";
+
+interface Props {
+  sort: WallSort;
+  onSort: (s: WallSort) => void;
+  query: string;
+  onQuery: (q: string) => void;
+  peak: string;
+  onPeak: (p: string) => void;
+  peaks: string[];
+  total: number;
+  shown: number;
+  savedOnly?: boolean;
+  onSavedOnly?: (v: boolean) => void;
+  savedCount?: number;
+}
+
+const sorts: { key: WallSort; label: string }[] = [
+  { key: "newest", label: "Newest" },
+  { key: "top", label: "Top" },
+  { key: "oldest", label: "Oldest" },
+];
+
+/** Sort + filter bar for the Wall. */
+const WallControls = ({
+  sort,
+  onSort,
+  query,
+  onQuery,
+  peak,
+  onPeak,
+  peaks,
+  total,
+  shown,
+  savedOnly = false,
+  onSavedOnly,
+  savedCount = 0,
+}: Props) => (
+  <div className="rounded-lg border border-border bg-card/60 p-3 space-y-3">
+    <div className="flex flex-wrap items-center gap-2">
+      <span className="inline-flex items-center gap-1 text-xs uppercase tracking-widest text-muted-foreground">
+        <Filter className="w-3.5 h-3.5" /> Sort
+      </span>
+      {sorts.map((s) => (
+        <Button
+          key={s.key}
+          type="button"
+          size="sm"
+          variant={sort === s.key ? "default" : "outline"}
+          onClick={() => onSort(s.key)}
+        >
+          {s.label}
+        </Button>
+      ))}
+
+      {onSavedOnly && (
+        <Button
+          type="button"
+          size="sm"
+          variant={savedOnly ? "default" : "outline"}
+          onClick={() => onSavedOnly(!savedOnly)}
+          aria-pressed={savedOnly}
+        >
+          <Bookmark className={cn("w-3.5 h-3.5 mr-1", savedOnly && "fill-current")} /> Saved
+          {savedCount > 0 && <span className="ml-1 text-[11px] opacity-80">{savedCount}</span>}
+        </Button>
+      )}
+
+      <div className="relative ml-auto w-full sm:w-56">
+        <Search className="pointer-events-none absolute left-2 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-muted-foreground" />
+        <Input
+          value={query}
+          onChange={(e) => onQuery(e.target.value)}
+          placeholder="Search posts, #tags, people"
+          aria-label="Search posts"
+          className="pl-7"
+        />
+      </div>
+    </div>
+
+    {peaks.length > 0 && (
+      <div className="flex flex-wrap items-center gap-1.5">
+        <span className="text-xs uppercase tracking-widest text-muted-foreground mr-1">Peak / country</span>
+        {peaks.map((p) => (
+          <button
+            key={p}
+            type="button"
+            onClick={() => onPeak(peak === p ? "" : p)}
+            className={cn(
+              "rounded-full border px-2.5 py-1 text-xs transition-colors",
+              peak === p
+                ? "border-primary bg-primary/15 text-primary"
+                : "border-border text-muted-foreground hover:text-foreground",
+            )}
+          >
+            {p}
+          </button>
+        ))}
+        {peak && (
+          <button
+            type="button"
+            onClick={() => onPeak("")}
+            className="inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-destructive"
+          >
+            <X className="w-3 h-3" /> Clear
+          </button>
+        )}
+      </div>
+    )}
+
+    <p className="text-[11px] text-muted-foreground">
+      Showing {shown} of {total} post{total === 1 ? "" : "s"}
+      {savedOnly ? " · saved only" : ""}
+    </p>
+  </div>
+);
+
+export default WallControls;

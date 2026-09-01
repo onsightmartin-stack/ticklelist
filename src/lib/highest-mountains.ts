@@ -1,1 +1,115 @@
-LyoqCiAqIERhdGEgaGVscGVycyBmb3IgdGhlICJoaWdoZXN0IG1vdW50YWluIGluIGV2ZXJ5IGNvdW50cnkiIGh1YiBwYWdlcy4KICoKICogVGhlc2UgcGFnZXMgZXhpc3QgdG8gY2F0Y2ggdGhlIGhpZ2hlc3Qtdm9sdW1lIHNlYXJjaCBwaHJhc2luZwogKiAoImhpZ2hlc3QgbW91bnRhaW4gaW4gZXZlcnkgY291bnRyeSIsICJoaWdoZXN0IG1vdW50YWluIGluIEV1cm9wZSBieQogKiBjb3VudHJ5IikgYW5kIGZ1bm5lbCByZWFkZXJzIGludG8gdGhlIHBlci1jb3VudHJ5IHBlYWsgcGFnZXMuCiAqLwppbXBvcnQgeyBjb3VudHJpZXMsIHR5cGUgQ291bnRyeUhpZ2hQb2ludCB9IGZyb20gIkAvZGF0YS9jb3VudHJpZXMiOwppbXBvcnQgeyBlbGV2YXRpb25PZiB9IGZyb20gIkAvZGF0YS9ndWlkZXMiOwppbXBvcnQgeyBzbHVnaWZ5IH0gZnJvbSAiQC9saWIvc2x1ZyI7CgpleHBvcnQgaW50ZXJmYWNlIENvbnRpbmVudEh1YiB7CiAgc2x1Zzogc3RyaW5nOwogIC8qKiBDb250aW5lbnQgYXMgc3RvcmVkIGluIGNvdW50cmllcy50cyAqLwogIG5hbWU6IHN0cmluZzsKICAvKiogQWRqZWN0aXZlIHVzZWQgaW4gY29weTogIkV1cm9wZWFuIGNvdW50cmllcyIgKi8KICBhZGplY3RpdmU6IHN0cmluZzsKICBibHVyYjogc3RyaW5nOwp9CgpleHBvcnQgY29uc3QgY29udGluZW50SHViczogQ29udGluZW50SHViW10gPSBbCiAgewogICAgc2x1ZzogImV1cm9wZSIsCiAgICBuYW1lOiAiRXVyb3BlIiwKICAgIGFkamVjdGl2ZTogIkV1cm9wZWFuIiwKICAgIGJsdXJiOgogICAgICAiRnJvbSBNb250IEJsYW5jJ3MgNCw4MDcgbSB0byBWYXRpY2FuLXNpemVkIGhpbGxzLCBFdXJvcGUgcGFja3MgdGhlIHdpZGVzdCBzcHJlYWQgb2YgY291bnRyeSBoaWdocG9pbnRzIGFueXdoZXJlIOKAlCBnbGFjaWF0ZWQgYWxwaW5lIHN1bW1pdHMgYW5kIHJvYWRzaWRlIGhpbGx0b3BzIHdpdGhpbiBhIGRheSdzIGRyaXZlIG9mIGVhY2ggb3RoZXIuIiwKICB9LAogIHsKICAgIHNsdWc6ICJhc2lhIiwKICAgIG5hbWU6ICJBc2lhIiwKICAgIGFkamVjdGl2ZTogIkFzaWFuIiwKICAgIGJsdXJiOgogICAgICAiQXNpYSBob2xkcyBFdmVyZXN0IGFuZCB0aGlydGVlbiBvdGhlciA4LDAwMCBtIGdpYW50cywgYnV0IGFsc28gZ2VudGxlIGlzbGFuZCBoaWdocG9pbnRzIGluIHRoZSBNYWxkaXZlcyBhbmQgU2luZ2Fwb3JlIHRoYXQgdGFrZSBtaW51dGVzIHJhdGhlciB0aGFuIG1vbnRocy4iLAogIH0sCiAgewogICAgc2x1ZzogImFmcmljYSIsCiAgICBuYW1lOiAiQWZyaWNhIiwKICAgIGFkamVjdGl2ZTogIkFmcmljYW4iLAogICAgYmx1cmI6CiAgICAgICJLaWxpbWFuamFybyBpcyB0aGUgZmFtb3VzIG9uZSwgYnV0IEFmcmljYSdzIDU0IGNvdW50cnkgaGlnaHBvaW50cyBydW4gZnJvbSB2b2xjYW5pYyBjcmF0ZXJzIGFuZCBkZXNlcnQgcGxhdGVhdXMgdG8ganVuZ2xlLXJpbmdlZCBwZWFrcyB0aGF0IHNlZSBhIGhhbmRmdWwgb2YgYXNjZW50cyBhIHllYXIuIiwKICB9LAogIHsKICAgIHNsdWc6ICJub3J0aC1hbWVyaWNhIiwKICAgIG5hbWU6ICJOb3J0aCBBbWVyaWNhIiwKICAgIGFkamVjdGl2ZTogIk5vcnRoIEFtZXJpY2FuIiwKICAgIGJsdXJiOgogICAgICAiRGVuYWxpIGFuZCBMb2dhbiBhbmNob3IgdGhlIGNvbnRpbmVudCwgd2hpbGUgdGhlIENhcmliYmVhbiBuYXRpb25zIGFkZCBzaG9ydCwgc3RlZXAsIHRyb3BpY2FsIGhpZ2hwb2ludHMgdGhhdCBjYW4gYmUgY2xpbWJlZCBpbiBhIHNpbmdsZSBtb3JuaW5nLiIsCiAgfSwKICB7CiAgICBzbHVnOiAic291dGgtYW1lcmljYSIsCiAgICBuYW1lOiAiU291dGggQW1lcmljYSIsCiAgICBhZGplY3RpdmU6ICJTb3V0aCBBbWVyaWNhbiIsCiAgICBibHVyYjoKICAgICAgIkFjb25jYWd1YSB0b3BzIHRoZSBjb250aW5lbnQgYW5kIHRoZSBBbmRlcyBzdXBwbHkgYWxtb3N0IGV2ZXJ5IG90aGVyIHN1bW1pdCDigJQgaGlnaCBhbHRpdHVkZSwgbG9uZyBhcHByb2FjaGVzIGFuZCByZWxpYWJseSBkcnkgY2xpbWJpbmcgc2Vhc29ucy4iLAogIH0sCiAgewogICAgc2x1ZzogIm9jZWFuaWEiLAogICAgbmFtZTogIk9jZWFuaWEiLAogICAgYWRqZWN0aXZlOiAiT2NlYW5pYW4iLAogICAgYmx1cmI6CiAgICAgICJQdW5jYWsgSmF5YSBhbmQgTW91bnQgV2lsaGVsbSBhc2lkZSwgT2NlYW5pYSdzIGhpZ2hwb2ludHMgYXJlIHJlbW90ZSBpc2xhbmQgc3VtbWl0cyB3aGVyZSB0aGUgaGFyZGVzdCBwYXJ0IGlzIGFycmFuZ2luZyB0aGUgYm9hdCwgZmxpZ2h0IG9yIGxhbmRvd25lciBwZXJtaXNzaW9uLiIsCiAgfSwKICB7CiAgICBzbHVnOiAiYW50YXJjdGljYSIsCiAgICBuYW1lOiAiQW50YXJjdGljYSIsCiAgICBhZGplY3RpdmU6ICJBbnRhcmN0aWMiLAogICAgYmx1cmI6CiAgICAgICJObyBjb3VudHJ5IG93bnMgQW50YXJjdGljYSwgYnV0IGV2ZXJ5IHBpZWNlIG9mIGxhbmQgb24gRWFydGggY291bnRzIGhlcmUg4oCUIFZpbnNvbiBNYXNzaWYgaXMgdGhlIGNvbnRpbmVudCdzIGhpZ2hwb2ludCBhbmQgb25lIG9mIHRoZSBTZXZlbiBTdW1taXRzLiIsCiAgfSwKXTsKCmV4cG9ydCBmdW5jdGlvbiBmaW5kQ29udGluZW50SHViKHNsdWc6IHN0cmluZyk6IENvbnRpbmVudEh1YiB8IHVuZGVmaW5lZCB7CiAgcmV0dXJuIGNvbnRpbmVudEh1YnMuZmluZCgoYykgPT4gYy5zbHVnID09PSBzbHVnLnRvTG93ZXJDYXNlKCkpOwp9CgpleHBvcnQgaW50ZXJmYWNlIEh1YlJvdyB7CiAgY291bnRyeTogc3RyaW5nOwogIGNvbnRpbmVudDogc3RyaW5nOwogIHBlYWs6IHN0cmluZzsKICBlbGV2YXRpb246IG51bWJlcjsKICBlbGV2YXRpb25MYWJlbDogc3RyaW5nOwogIHBhdGg6IHN0cmluZzsKICBjbGltYmVkOiBib29sZWFuOwogIHllYXI/OiBudW1iZXI7Cn0KCmV4cG9ydCBmdW5jdGlvbiB0b1JvdyhjOiBDb3VudHJ5SGlnaFBvaW50KTogSHViUm93IHsKICByZXR1cm4gewogICAgY291bnRyeTogYy5jb3VudHJ5LAogICAgY29udGluZW50OiBjLmNvbnRpbmVudCwKICAgIHBlYWs6IGMuaGlnaFBvaW50LAogICAgZWxldmF0aW9uOiBlbGV2YXRpb25PZihjKSwKICAgIGVsZXZhdGlvbkxhYmVsOiBjLmVsZXZhdGlvbiwKICAgIHBhdGg6IGAvcGVhay8ke3NsdWdpZnkoYy5jb3VudHJ5KX1gLAogICAgY2xpbWJlZDogYy5zdGF0dXMgPT09ICJjbGltYmVkIiB8fCBjLnN0YXR1cyA9PT0gImxlZ2FsX2hpZ2hfcG9pbnQiLAogICAgLi4uKGMueWVhciAhPT0gdW5kZWZpbmVkID8geyB5ZWFyOiBjLnllYXIgfSA6IHt9KSwKICB9Owp9CgovKiogQWxsIGNvdW50cnkgaGlnaHBvaW50cywgaGlnaGVzdCBmaXJzdC4gT3B0aW9uYWxseSBmaWx0ZXJlZCB0byBvbmUgY29udGluZW50LiAqLwpleHBvcnQgZnVuY3Rpb24gaHViUm93cyhjb250aW5lbnQ/OiBzdHJpbmcpOiBIdWJSb3dbXSB7CiAgcmV0dXJuIGNvdW50cmllcwogICAgLmZpbHRlcigoYykgPT4gIWNvbnRpbmVudCB8fCBjLmNvbnRpbmVudCA9PT0gY29udGluZW50KQogICAgLm1hcCh0b1JvdykKICAgIC5zb3J0KChhLCBiKSA9PiBiLmVsZXZhdGlvbiAtIGEuZWxldmF0aW9uKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIG1ldHJlcyhuOiBudW1iZXIpOiBzdHJpbmcgewogIHJldHVybiBgJHtuLnRvTG9jYWxlU3RyaW5nKCJlbi1HQiIpfSBtYDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGZlZXQobjogbnVtYmVyKTogc3RyaW5nIHsKICByZXR1cm4gYCR7TWF0aC5yb3VuZChuICogMy4yODA4NCkudG9Mb2NhbGVTdHJpbmcoImVuLUdCIil9IGZ0YDsKfQo=
+/**
+ * Data helpers for the "highest mountain in every country" hub pages.
+ *
+ * These pages exist to catch the highest-volume search phrasing
+ * ("highest mountain in every country", "highest mountain in Europe by
+ * country") and funnel readers into the per-country peak pages.
+ */
+import { countries, type CountryHighPoint } from "@/data/countries";
+import { elevationOf } from "@/data/guides";
+import { slugify } from "@/lib/slug";
+
+export interface ContinentHub {
+  slug: string;
+  /** Continent as stored in countries.ts */
+  name: string;
+  /** Adjective used in copy: "European countries" */
+  adjective: string;
+  blurb: string;
+}
+
+export const continentHubs: ContinentHub[] = [
+  {
+    slug: "europe",
+    name: "Europe",
+    adjective: "European",
+    blurb:
+      "From Mont Blanc's 4,807 m to Vatican-sized hills, Europe packs the widest spread of country highpoints anywhere — glaciated alpine summits and roadside hilltops within a day's drive of each other.",
+  },
+  {
+    slug: "asia",
+    name: "Asia",
+    adjective: "Asian",
+    blurb:
+      "Asia holds Everest and thirteen other 8,000 m giants, but also gentle island highpoints in the Maldives and Singapore that take minutes rather than months.",
+  },
+  {
+    slug: "africa",
+    name: "Africa",
+    adjective: "African",
+    blurb:
+      "Kilimanjaro is the famous one, but Africa's 54 country highpoints run from volcanic craters and desert plateaus to jungle-ringed peaks that see a handful of ascents a year.",
+  },
+  {
+    slug: "north-america",
+    name: "North America",
+    adjective: "North American",
+    blurb:
+      "Denali and Logan anchor the continent, while the Caribbean nations add short, steep, tropical highpoints that can be climbed in a single morning.",
+  },
+  {
+    slug: "south-america",
+    name: "South America",
+    adjective: "South American",
+    blurb:
+      "Aconcagua tops the continent and the Andes supply almost every other summit — high altitude, long approaches and reliably dry climbing seasons.",
+  },
+  {
+    slug: "oceania",
+    name: "Oceania",
+    adjective: "Oceanian",
+    blurb:
+      "Puncak Jaya and Mount Wilhelm aside, Oceania's highpoints are remote island summits where the hardest part is arranging the boat, flight or landowner permission.",
+  },
+  {
+    slug: "antarctica",
+    name: "Antarctica",
+    adjective: "Antarctic",
+    blurb:
+      "No country owns Antarctica, but every piece of land on Earth counts here — Vinson Massif is the continent's highpoint and one of the Seven Summits.",
+  },
+];
+
+export function findContinentHub(slug: string): ContinentHub | undefined {
+  return continentHubs.find((c) => c.slug === slug.toLowerCase());
+}
+
+export interface HubRow {
+  country: string;
+  continent: string;
+  peak: string;
+  elevation: number;
+  elevationLabel: string;
+  path: string;
+  climbed: boolean;
+  year?: number;
+}
+
+export function toRow(c: CountryHighPoint): HubRow {
+  return {
+    country: c.country,
+    continent: c.continent,
+    peak: c.highPoint,
+    elevation: elevationOf(c),
+    elevationLabel: c.elevation,
+    path: `/peak/${slugify(c.country)}`,
+    climbed: c.status === "climbed" || c.status === "legal_high_point",
+    ...(c.year !== undefined ? { year: c.year } : {}),
+  };
+}
+
+/** All country highpoints, highest first. Optionally filtered to one continent. */
+export function hubRows(continent?: string): HubRow[] {
+  return countries
+    .filter((c) => !continent || c.continent === continent)
+    .map(toRow)
+    .sort((a, b) => b.elevation - a.elevation);
+}
+
+export function metres(n: number): string {
+  return `${n.toLocaleString("en-GB")} m`;
+}
+
+export function feet(n: number): string {
+  return `${Math.round(n * 3.28084).toLocaleString("en-GB")} ft`;
+}

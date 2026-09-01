@@ -1,1 +1,34 @@
-aW1wb3J0IHsgdXNlRWZmZWN0IH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyB1c2VMb2NhdGlvbiwgdXNlTmF2aWdhdGUgfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKCmV4cG9ydCBjb25zdCBQT1NUX0FVVEhfS0VZID0gInBvc3RfYXV0aF9yZWRpcmVjdCI7CgovKioKICogT0F1dGggcHJvdmlkZXJzIG11c3QgcmV0dXJuIHRvIGEgcGxhaW4gc2FtZS1vcmlnaW4gVVJMLCBzbyBHb29nbGUgc2lnbi1pbgogKiBsYW5kcyBvbiAiLyIuIFRoaXMgcGlja3MgdXAgdGhlIGludGVuZGVkIGRlc3RpbmF0aW9uIGFuZCBmb3J3YXJkcyB0aGVyZS4KICovCmNvbnN0IFBvc3RBdXRoUmVkaXJlY3QgPSAoKSA9PiB7CiAgY29uc3QgbG9jYXRpb24gPSB1c2VMb2NhdGlvbigpOwogIGNvbnN0IG5hdmlnYXRlID0gdXNlTmF2aWdhdGUoKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGxldCB0YXJnZXQ6IHN0cmluZyB8IG51bGwgPSBudWxsOwogICAgdHJ5IHsKICAgICAgdGFyZ2V0ID0gc2Vzc2lvblN0b3JhZ2UuZ2V0SXRlbShQT1NUX0FVVEhfS0VZKTsKICAgIH0gY2F0Y2ggewogICAgICB0YXJnZXQgPSBudWxsOwogICAgfQogICAgaWYgKCF0YXJnZXQpIHJldHVybjsKICAgIHRyeSB7CiAgICAgIHNlc3Npb25TdG9yYWdlLnJlbW92ZUl0ZW0oUE9TVF9BVVRIX0tFWSk7CiAgICB9IGNhdGNoIHsKICAgICAgLyogaWdub3JlICovCiAgICB9CiAgICBpZiAodGFyZ2V0ICE9PSBsb2NhdGlvbi5wYXRobmFtZSkgbmF2aWdhdGUodGFyZ2V0LCB7IHJlcGxhY2U6IHRydWUgfSk7CiAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgcmVhY3QtaG9va3MvZXhoYXVzdGl2ZS1kZXBzCiAgfSwgW10pOwoKICByZXR1cm4gbnVsbDsKfTsKCmV4cG9ydCBkZWZhdWx0IFBvc3RBdXRoUmVkaXJlY3Q7Cg==
+import { useEffect } from "react";
+import { useLocation, useNavigate } from "@/lib/router-compat";
+
+export const POST_AUTH_KEY = "post_auth_redirect";
+
+/**
+ * OAuth providers must return to a plain same-origin URL, so Google sign-in
+ * lands on "/". This picks up the intended destination and forwards there.
+ */
+const PostAuthRedirect = () => {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    let target: string | null = null;
+    try {
+      target = sessionStorage.getItem(POST_AUTH_KEY);
+    } catch {
+      target = null;
+    }
+    if (!target) return;
+    try {
+      sessionStorage.removeItem(POST_AUTH_KEY);
+    } catch {
+      /* ignore */
+    }
+    if (target !== location.pathname) navigate(target, { replace: true });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  return null;
+};
+
+export default PostAuthRedirect;

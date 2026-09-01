@@ -1,1 +1,32 @@
-Q1JFQVRFIE9SIFJFUExBQ0UgRlVOQ1RJT04gcHVibGljLmF1dG9fdmlzaXRfZnJvbV9hc2NlbnQoKQpSRVRVUk5TIHRyaWdnZXIKTEFOR1VBR0UgcGxwZ3NxbApTRUNVUklUWSBERUZJTkVSClNFVCBzZWFyY2hfcGF0aCBUTyAncHVibGljJwpBUyAkJApERUNMQVJFCiAgYyB0ZXh0IDo9IG51bGxpZihidHJpbShjb2FsZXNjZShORVcuY291bnRyeSwgJycpKSwgJycpOwpCRUdJTgogIElGIGMgSVMgTlVMTCBUSEVOCiAgICBSRVRVUk4gTkVXOwogIEVORCBJRjsKCiAgSU5TRVJUIElOVE8gcHVibGljLnZpc2l0cyAodXNlcl9pZCwgcGxhY2Vfa2V5LCBwbGFjZV9uYW1lLCBjb3VudHJ5LCBwbGFjZV90eXBlLCB2aXNpdF9kYXRlLCBpc19wdWJsaWMpCiAgVkFMVUVTIChORVcudXNlcl9pZCwgJ2NvOicgfHwgYywgYywgYywgJ2NvdW50cnknLCBORVcuYXNjZW50X2RhdGUsIHRydWUpCiAgT04gQ09ORkxJQ1QgKHVzZXJfaWQsIHBsYWNlX2tleSkgRE8gVVBEQVRFCiAgICBTRVQgdmlzaXRfZGF0ZSA9IExFQVNUKAogICAgICAgICAgQ09BTEVTQ0UocHVibGljLnZpc2l0cy52aXNpdF9kYXRlLCBFWENMVURFRC52aXNpdF9kYXRlKSwKICAgICAgICAgIENPQUxFU0NFKEVYQ0xVREVELnZpc2l0X2RhdGUsIHB1YmxpYy52aXNpdHMudmlzaXRfZGF0ZSkKICAgICAgICApLAogICAgICAgIHVwZGF0ZWRfYXQgPSBub3coKTsKCiAgUkVUVVJOIE5FVzsKRU5EOwokJDsKClJFVk9LRSBBTEwgT04gRlVOQ1RJT04gcHVibGljLmF1dG9fdmlzaXRfZnJvbV9hc2NlbnQoKSBGUk9NIFBVQkxJQywgYW5vbiwgYXV0aGVudGljYXRlZDsKCkRST1AgVFJJR0dFUiBJRiBFWElTVFMgYXNjZW50c19hdXRvX3Zpc2l0IE9OIHB1YmxpYy5hc2NlbnRzOwpDUkVBVEUgVFJJR0dFUiBhc2NlbnRzX2F1dG9fdmlzaXQKQUZURVIgSU5TRVJUIE9SIFVQREFURSBPRiBjb3VudHJ5LCBhc2NlbnRfZGF0ZSBPTiBwdWJsaWMuYXNjZW50cwpGT1IgRUFDSCBST1cgRVhFQ1VURSBGVU5DVElPTiBwdWJsaWMuYXV0b192aXNpdF9mcm9tX2FzY2VudCgpOw==
+CREATE OR REPLACE FUNCTION public.auto_visit_from_ascent()
+RETURNS trigger
+LANGUAGE plpgsql
+SECURITY DEFINER
+SET search_path TO 'public'
+AS $$
+DECLARE
+  c text := nullif(btrim(coalesce(NEW.country, '')), '');
+BEGIN
+  IF c IS NULL THEN
+    RETURN NEW;
+  END IF;
+
+  INSERT INTO public.visits (user_id, place_key, place_name, country, place_type, visit_date, is_public)
+  VALUES (NEW.user_id, 'co:' || c, c, c, 'country', NEW.ascent_date, true)
+  ON CONFLICT (user_id, place_key) DO UPDATE
+    SET visit_date = LEAST(
+          COALESCE(public.visits.visit_date, EXCLUDED.visit_date),
+          COALESCE(EXCLUDED.visit_date, public.visits.visit_date)
+        ),
+        updated_at = now();
+
+  RETURN NEW;
+END;
+$$;
+
+REVOKE ALL ON FUNCTION public.auto_visit_from_ascent() FROM PUBLIC, anon, authenticated;
+
+DROP TRIGGER IF EXISTS ascents_auto_visit ON public.ascents;
+CREATE TRIGGER ascents_auto_visit
+AFTER INSERT OR UPDATE OF country, ascent_date ON public.ascents
+FOR EACH ROW EXECUTE FUNCTION public.auto_visit_from_ascent();

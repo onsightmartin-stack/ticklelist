@@ -1,1 +1,250 @@
-aW1wb3J0IHsgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQ2FtZXJhLCBJbWFnZVBsdXMsIExvYWRlcjIsIFRyb3BoeSwgWCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CgppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IFRleHRhcmVhIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RleHRhcmVhIjsKaW1wb3J0IFBlYWtTZWxlY3RvciBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L1BlYWtTZWxlY3RvciI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQC9ob29rcy91c2UtdG9hc3QiOwppbXBvcnQgeyB1c2VQb3N0cyB9IGZyb20gIkAvaG9va3MvdXNlUG9zdHMiOwppbXBvcnQgeyB1c2VQaG90b0NvbnRlc3QgfSBmcm9tICJAL2hvb2tzL3VzZVBob3RvQ29udGVzdCI7CmltcG9ydCB7IHVwbG9hZFdhbGxNZWRpYSB9IGZyb20gIkAvbGliL3dhbGwtbWVkaWEiOwppbXBvcnQgeyBjZWxlYnJhdGUgfSBmcm9tICJAL2NvbXBvbmVudHMvQ2VsZWJyYXRpb24iOwppbXBvcnQgeyBwZWFrQ291bnRyeSB9IGZyb20gIkAvbGliL3BlYWstbGluayI7CmltcG9ydCB7IHNsdWdpZnkgfSBmcm9tICJAL2xpYi9zbHVnIjsKCmludGVyZmFjZSBQcm9wcyB7CiAgdXNlcklkOiBzdHJpbmc7CiAgLyoqIENhbGxlZCBhZnRlciBhIHBob3RvIGhhcyBiZWVuIHBvc3RlZCwgc28gcGFyZW50IGZlZWRzIGNhbiByZWZyZXNoLiAqLwogIG9uUG9zdGVkPzogKCkgPT4gdm9pZDsKfQoKLyoqCiAqIFF1aWNrICJzdWJtaXQgYSBzdW1taXQgcGhvdG8iIGZvcm0gZm9yIHRoZSBjb21tdW5pdHkgcGFnZTogcGljayBhIHBpY3R1cmUsCiAqIHRhZyB0aGUgcGVhayBhbmQgY291bnRyeSwgYWRkIGEgY2FwdGlvbiDigJQgaXQgbGFuZHMgb24gdGhlIFdhbGwgZmVlZC4KICovCmNvbnN0IFN1bW1pdFBob3RvRm9ybSA9ICh7IHVzZXJJZCwgb25Qb3N0ZWQgfTogUHJvcHMpID0+IHsKICBjb25zdCB7IGNyZWF0ZVBvc3QgfSA9IHVzZVBvc3RzKCk7CiAgY29uc3QgeyBzdWJtaXRFbnRyeSB9ID0gdXNlUGhvdG9Db250ZXN0KCk7CiAgY29uc3QgZmlsZVJlZiA9IHVzZVJlZjxIVE1MSW5wdXRFbGVtZW50PihudWxsKTsKCiAgY29uc3QgW2ZpbGUsIHNldEZpbGVdID0gdXNlU3RhdGU8RmlsZSB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtwcmV2aWV3LCBzZXRQcmV2aWV3XSA9IHVzZVN0YXRlPHN0cmluZz4oIiIpOwogIGNvbnN0IFtwZWFrLCBzZXRQZWFrXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbY291bnRyeSwgc2V0Q291bnRyeV0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2RhdGUsIHNldERhdGVdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtjYXB0aW9uLCBzZXRDYXB0aW9uXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbZW50ZXJDb250ZXN0LCBzZXRFbnRlckNvbnRlc3RdID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtidXN5LCBzZXRCdXN5XSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgY29uc3QgcGlja0ZpbGUgPSAocGlja2VkOiBGaWxlIHwgbnVsbCkgPT4gewogICAgaWYgKCFwaWNrZWQpIHJldHVybjsKICAgIGlmICghcGlja2VkLnR5cGUuc3RhcnRzV2l0aCgiaW1hZ2UvIikpIHsKICAgICAgdG9hc3QoeyB0aXRsZTogIlBpY2sgYW4gaW1hZ2UgZmlsZSIsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHNldEZpbGUocGlja2VkKTsKICAgIHNldFByZXZpZXcoKG9sZCkgPT4gewogICAgICBpZiAob2xkKSBVUkwucmV2b2tlT2JqZWN0VVJMKG9sZCk7CiAgICAgIHJldHVybiBVUkwuY3JlYXRlT2JqZWN0VVJMKHBpY2tlZCk7CiAgICB9KTsKICB9OwoKICBjb25zdCBjbGVhckZpbGUgPSAoKSA9PiB7CiAgICBzZXRGaWxlKG51bGwpOwogICAgc2V0UHJldmlldygob2xkKSA9PiB7CiAgICAgIGlmIChvbGQpIFVSTC5yZXZva2VPYmplY3RVUkwob2xkKTsKICAgICAgcmV0dXJuICIiOwogICAgfSk7CiAgICBpZiAoZmlsZVJlZi5jdXJyZW50KSBmaWxlUmVmLmN1cnJlbnQudmFsdWUgPSAiIjsKICB9OwoKICBjb25zdCByZXNldCA9ICgpID0+IHsKICAgIGNsZWFyRmlsZSgpOwogICAgc2V0UGVhaygiIik7CiAgICBzZXRDb3VudHJ5KCIiKTsKICAgIHNldERhdGUoIiIpOwogICAgc2V0Q2FwdGlvbigiIik7CiAgICBzZXRFbnRlckNvbnRlc3QoZmFsc2UpOwogIH07CgogIGNvbnN0IHN1Ym1pdCA9IGFzeW5jIChlOiBSZWFjdC5Gb3JtRXZlbnQpID0+IHsKICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgIGlmICghZmlsZSkgewogICAgICB0b2FzdCh7IHRpdGxlOiAiQ2hvb3NlIGEgc3VtbWl0IHBob3RvIGZpcnN0IiwgdmFyaWFudDogImRlc3RydWN0aXZlIiB9KTsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKCFwZWFrLnRyaW0oKSkgewogICAgICB0b2FzdCh7IHRpdGxlOiAiQWRkIHRoZSBwZWFrIG5hbWUiLCB2YXJpYW50OiAiZGVzdHJ1Y3RpdmUiIH0pOwogICAgICByZXR1cm47CiAgICB9CgogICAgc2V0QnVzeSh0cnVlKTsKICAgIGNvbnN0IHVwbG9hZGVkID0gYXdhaXQgdXBsb2FkV2FsbE1lZGlhKGZpbGUsIHVzZXJJZCk7CiAgICBpZiAoImVycm9yIiBpbiB1cGxvYWRlZCkgewogICAgICBzZXRCdXN5KGZhbHNlKTsKICAgICAgdG9hc3QoeyB0aXRsZTogIlVwbG9hZCBmYWlsZWQiLCBkZXNjcmlwdGlvbjogdXBsb2FkZWQuZXJyb3IsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICAvLyBQZWFrU2VsZWN0b3IgYWxyZWFkeSBzdG9yZXMgIlBlYWsgwrcgQ291bnRyeSIgd2hlbiBhIGNhdGFsb2cgcGVhayBpcyBwaWNrZWQuCiAgICBjb25zdCB0YWcgPSBwZWFrLmluY2x1ZGVzKCLCtyIpIHx8ICFjb3VudHJ5LnRyaW0oKSA/IHBlYWsudHJpbSgpIDogYCR7cGVhay50cmltKCl9IMK3ICR7Y291bnRyeS50cmltKCl9YDsKICAgIGNvbnN0IGxpbmVzID0gWwogICAgICBjYXB0aW9uLnRyaW0oKSwKICAgICAgZGF0ZSA/IGBTdW1taXQgZGF0ZTogJHtkYXRlfWAgOiAiIiwKICAgIF0uZmlsdGVyKEJvb2xlYW4pOwogICAgY29uc3QgYm9keSA9IGxpbmVzLmpvaW4oIlxuXG4iKSB8fCBgU3VtbWl0IHBob3RvIOKAlCAke3RhZ31gOwoKICAgIGNvbnN0IG9rID0gYXdhaXQgY3JlYXRlUG9zdChib2R5LCB0YWcsIHVwbG9hZGVkKTsKICAgIGlmICghb2spIHsKICAgICAgc2V0QnVzeShmYWxzZSk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICAvLyBPcHRpb25hbGx5IGVudGVyIHRoZSBwaG90byBpbiB0aGUgcGVhayBwaG90byBjb250ZXN0IC8gZmVhdHVyZWQgcm90YXRpb24uCiAgICBpZiAoZW50ZXJDb250ZXN0KSB7CiAgICAgIGNvbnN0IHJlc29sdmVkQ291bnRyeSA9IHBlYWtDb3VudHJ5KHBlYWspID8/IChjb3VudHJ5LnRyaW0oKSB8fCBudWxsKTsKICAgICAgY29uc3QgcGVha05hbWUgPSBwZWFrLmluY2x1ZGVzKCLCtyIpID8gKHBlYWsuc3BsaXQoIsK3IilbMF0gPz8gIiIpLnRyaW0oKSA6IHBlYWsudHJpbSgpOwogICAgICBpZiAocmVzb2x2ZWRDb3VudHJ5KSB7CiAgICAgICAgY29uc3QgY291bnRyeVNsdWcgPSBzbHVnaWZ5KHJlc29sdmVkQ291bnRyeSk7CiAgICAgICAgY29uc3QgZW50ZXJlZCA9IGF3YWl0IHN1Ym1pdEVudHJ5KHsKICAgICAgICAgIGNvdW50cnlTbHVnLAogICAgICAgICAgY291bnRyeTogcmVzb2x2ZWRDb3VudHJ5LAogICAgICAgICAgcGVha05hbWUsCiAgICAgICAgICBwaG90b1VybDogdXBsb2FkZWQudXJsLAogICAgICAgICAgY2FwdGlvbiwKICAgICAgICB9KTsKICAgICAgICBpZiAoZW50ZXJlZCkgewogICAgICAgICAgdG9hc3QoeyB0aXRsZTogIkVudGVyZWQgdGhlIHBob3RvIGNvbnRlc3Qg8J+PhiIsIGRlc2NyaXB0aW9uOiAiTWVtYmVycyBjYW4gbm93IHZvdGUgZm9yIHlvdXIgc2hvdC4iIH0pOwogICAgICAgIH0KICAgICAgfSBlbHNlIHsKICAgICAgICB0b2FzdCh7CiAgICAgICAgICB0aXRsZTogIkNvdWxkIG5vdCBlbnRlciB0aGUgY29udGVzdCIsCiAgICAgICAgICBkZXNjcmlwdGlvbjogIlBpY2sgYSByZWNvZ25pemVkIGNvdW50cnkgaGlnaCBwb2ludCB0byBlbnRlciB0aGUgY29udGVzdC4iLAogICAgICAgICAgdmFyaWFudDogImRlc3RydWN0aXZlIiwKICAgICAgICB9KTsKICAgICAgfQogICAgfQoKICAgIHNldEJ1c3koZmFsc2UpOwogICAgcmVzZXQoKTsKICAgIGNlbGVicmF0ZSgpOwogICAgdG9hc3QoeyB0aXRsZTogIlN1bW1pdCBwaG90byBwb3N0ZWQg8J+TtyIgfSk7CiAgICBvblBvc3RlZD8uKCk7CiAgfTsKCiAgcmV0dXJuICgKICAgIDxmb3JtIG9uU3VibWl0PXtzdWJtaXR9IGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkIHAtNCBzcGFjZS15LTQiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgIDxDYW1lcmEgY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtcHJpbWFyeSIgLz4KICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdHJhY2tpbmctd2lkZXIgdGV4dC1zbSI+U3VibWl0IGEgc3VtbWl0IHBob3RvPC9oMj4KICAgICAgPC9kaXY+CgogICAgICA8aW5wdXQKICAgICAgICByZWY9e2ZpbGVSZWZ9CiAgICAgICAgdHlwZT0iZmlsZSIKICAgICAgICBhY2NlcHQ9ImltYWdlLyoiCiAgICAgICAgY2xhc3NOYW1lPSJoaWRkZW4iCiAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBwaWNrRmlsZShlLnRhcmdldC5maWxlcz8uWzBdID8/IG51bGwpfQogICAgICAvPgoKICAgICAge3ByZXZpZXcgPyAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIj4KICAgICAgICAgIDxpbWcgc3JjPXtwcmV2aWV3fSBhbHQ9IlNlbGVjdGVkIHN1bW1pdCBwaG90byBwcmV2aWV3IiBjbGFzc05hbWU9InctZnVsbCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIiAvPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIG9uQ2xpY2s9e2NsZWFyRmlsZX0KICAgICAgICAgICAgYXJpYS1sYWJlbD0iUmVtb3ZlIHBob3RvIgogICAgICAgICAgICBjbGFzc05hbWU9ImFic29sdXRlIHRvcC0yIHJpZ2h0LTIgcm91bmRlZC1mdWxsIGJnLWJhY2tncm91bmQvODAgYm9yZGVyIGJvcmRlci1ib3JkZXIgcC0xLjUiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxYIGNsYXNzTmFtZT0idy00IGgtNCIgLz4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICApIDogKAogICAgICAgIDxidXR0b24KICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIG9uQ2xpY2s9eygpID0+IGZpbGVSZWYuY3VycmVudD8uY2xpY2soKX0KICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1kYXNoZWQgYm9yZGVyLWJvcmRlciBweS04IGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LWZvcmVncm91bmQgaG92ZXI6Ym9yZGVyLXByaW1hcnkvNjAgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgPgogICAgICAgICAgPEltYWdlUGx1cyBjbGFzc05hbWU9InctNiBoLTYiIC8+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20iPkNob29zZSBhIHBob3RvIChtYXggNTAgTUIpPC9zcGFuPgogICAgICAgIDwvYnV0dG9uPgogICAgICApfQoKICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgc206Z3JpZC1jb2xzLTIgZ2FwLTMiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTEuNSI+CiAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0ic3VtbWl0LXBob3RvLXBlYWsiPlBlYWs8L0xhYmVsPgogICAgICAgICAgPFBlYWtTZWxlY3RvciB2YWx1ZT17cGVha30gb25DaGFuZ2U9e3NldFBlYWt9IHBsYWNlaG9sZGVyPSJTZWFyY2ggYSBwZWFrIG9yIGNvdW50cnkiIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMS41Ij4KICAgICAgICAgIDxMYWJlbCBodG1sRm9yPSJzdW1taXQtcGhvdG8tY291bnRyeSI+Q291bnRyeTwvTGFiZWw+CiAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgaWQ9InN1bW1pdC1waG90by1jb3VudHJ5IgogICAgICAgICAgICB2YWx1ZT17Y291bnRyeX0KICAgICAgICAgICAgbWF4TGVuZ3RoPXs4MH0KICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRDb3VudHJ5KGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgcGxhY2Vob2xkZXI9ImUuZy4gSXJlbGFuZCIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMS41Ij4KICAgICAgICA8TGFiZWwgaHRtbEZvcj0ic3VtbWl0LXBob3RvLWRhdGUiPlN1bW1pdCBkYXRlIChvcHRpb25hbCk8L0xhYmVsPgogICAgICAgIDxJbnB1dAogICAgICAgICAgaWQ9InN1bW1pdC1waG90by1kYXRlIgogICAgICAgICAgdHlwZT0iZGF0ZSIKICAgICAgICAgIHZhbHVlPXtkYXRlfQogICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXREYXRlKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgIGNsYXNzTmFtZT0ic206dy01MiIKICAgICAgICAvPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTEuNSI+CiAgICAgICAgPExhYmVsIGh0bWxGb3I9InN1bW1pdC1waG90by1jYXB0aW9uIj5DYXB0aW9uIChvcHRpb25hbCk8L0xhYmVsPgogICAgICAgIDxUZXh0YXJlYQogICAgICAgICAgaWQ9InN1bW1pdC1waG90by1jYXB0aW9uIgogICAgICAgICAgdmFsdWU9e2NhcHRpb259CiAgICAgICAgICBtYXhMZW5ndGg9ezEwMDB9CiAgICAgICAgICByb3dzPXszfQogICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRDYXB0aW9uKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgIHBsYWNlaG9sZGVyPSJSb3V0ZSwgY29uZGl0aW9ucywgd2hvIHlvdSBjbGltYmVkIHdpdGjigKYiCiAgICAgICAgLz4KICAgICAgPC9kaXY+CgogICAgICA8bGFiZWwKICAgICAgICBodG1sRm9yPSJzdW1taXQtcGhvdG8tY29udGVzdCIKICAgICAgICBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RhcnQgZ2FwLTMgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1tdXRlZC8zMCBwLTMgY3Vyc29yLXBvaW50ZXIgaG92ZXI6Ym9yZGVyLXByaW1hcnkvNTAgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgID4KICAgICAgICA8aW5wdXQKICAgICAgICAgIGlkPSJzdW1taXQtcGhvdG8tY29udGVzdCIKICAgICAgICAgIHR5cGU9ImNoZWNrYm94IgogICAgICAgICAgY2hlY2tlZD17ZW50ZXJDb250ZXN0fQogICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRFbnRlckNvbnRlc3QoZS50YXJnZXQuY2hlY2tlZCl9CiAgICAgICAgICBjbGFzc05hbWU9Im10LTAuNSBoLTQgdy00IGFjY2VudC1wcmltYXJ5IgogICAgICAgIC8+CiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJzcGFjZS15LTAuNSI+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgdGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgIDxUcm9waHkgY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSB0ZXh0LXByaW1hcnkiIC8+CiAgICAgICAgICAgIEVudGVyIHRoZSBwaG90byBjb250ZXN0CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImJsb2NrIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgU3VibWl0IHRoaXMgc2hvdCBmb3IgdGhlIHBlYWsncyBmZWF0dXJlZC1waG90byB2b3RlLiBUaGUgd2lubmluZyBwaG90byBiZWNvbWVzIHRoZSBwZWFrIHBhZ2UncyBoZXJvIGltYWdlLgogICAgICAgICAgPC9zcGFuPgogICAgICAgIDwvc3Bhbj4KICAgICAgPC9sYWJlbD4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktZW5kIGdhcC0yIj4KICAgICAgICA8QnV0dG9uIHR5cGU9ImJ1dHRvbiIgdmFyaWFudD0ib3V0bGluZSIgb25DbGljaz17cmVzZXR9IGRpc2FibGVkPXtidXN5fT4KICAgICAgICAgIENsZWFyCiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbiB0eXBlPSJzdWJtaXQiIGRpc2FibGVkPXtidXN5fT4KICAgICAgICAgIHtidXN5ICYmIDxMb2FkZXIyIGNsYXNzTmFtZT0idy00IGgtNCBtci0xIGFuaW1hdGUtc3BpbiIgLz59CiAgICAgICAgICB7YnVzeSA/ICJQb3N0aW5n4oCmIiA6ICJQb3N0IHBob3RvIn0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CiAgICA8L2Zvcm0+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IFN1bW1pdFBob3RvRm9ybTsK
+import { useRef, useState } from "react";
+import { Camera, ImagePlus, Loader2, Trophy, X } from "lucide-react";
+
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import PeakSelector from "@/components/community/PeakSelector";
+import { toast } from "@/hooks/use-toast";
+import { usePosts } from "@/hooks/usePosts";
+import { usePhotoContest } from "@/hooks/usePhotoContest";
+import { uploadWallMedia } from "@/lib/wall-media";
+import { celebrate } from "@/components/Celebration";
+import { peakCountry } from "@/lib/peak-link";
+import { slugify } from "@/lib/slug";
+
+interface Props {
+  userId: string;
+  /** Called after a photo has been posted, so parent feeds can refresh. */
+  onPosted?: () => void;
+}
+
+/**
+ * Quick "submit a summit photo" form for the community page: pick a picture,
+ * tag the peak and country, add a caption — it lands on the Wall feed.
+ */
+const SummitPhotoForm = ({ userId, onPosted }: Props) => {
+  const { createPost } = usePosts();
+  const { submitEntry } = usePhotoContest();
+  const fileRef = useRef<HTMLInputElement>(null);
+
+  const [file, setFile] = useState<File | null>(null);
+  const [preview, setPreview] = useState<string>("");
+  const [peak, setPeak] = useState("");
+  const [country, setCountry] = useState("");
+  const [date, setDate] = useState("");
+  const [caption, setCaption] = useState("");
+  const [enterContest, setEnterContest] = useState(false);
+  const [busy, setBusy] = useState(false);
+
+  const pickFile = (picked: File | null) => {
+    if (!picked) return;
+    if (!picked.type.startsWith("image/")) {
+      toast({ title: "Pick an image file", variant: "destructive" });
+      return;
+    }
+    setFile(picked);
+    setPreview((old) => {
+      if (old) URL.revokeObjectURL(old);
+      return URL.createObjectURL(picked);
+    });
+  };
+
+  const clearFile = () => {
+    setFile(null);
+    setPreview((old) => {
+      if (old) URL.revokeObjectURL(old);
+      return "";
+    });
+    if (fileRef.current) fileRef.current.value = "";
+  };
+
+  const reset = () => {
+    clearFile();
+    setPeak("");
+    setCountry("");
+    setDate("");
+    setCaption("");
+    setEnterContest(false);
+  };
+
+  const submit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!file) {
+      toast({ title: "Choose a summit photo first", variant: "destructive" });
+      return;
+    }
+    if (!peak.trim()) {
+      toast({ title: "Add the peak name", variant: "destructive" });
+      return;
+    }
+
+    setBusy(true);
+    const uploaded = await uploadWallMedia(file, userId);
+    if ("error" in uploaded) {
+      setBusy(false);
+      toast({ title: "Upload failed", description: uploaded.error, variant: "destructive" });
+      return;
+    }
+
+    // PeakSelector already stores "Peak · Country" when a catalog peak is picked.
+    const tag = peak.includes("·") || !country.trim() ? peak.trim() : `${peak.trim()} · ${country.trim()}`;
+    const lines = [
+      caption.trim(),
+      date ? `Summit date: ${date}` : "",
+    ].filter(Boolean);
+    const body = lines.join("\n\n") || `Summit photo — ${tag}`;
+
+    const ok = await createPost(body, tag, uploaded);
+    if (!ok) {
+      setBusy(false);
+      return;
+    }
+
+    // Optionally enter the photo in the peak photo contest / featured rotation.
+    if (enterContest) {
+      const resolvedCountry = peakCountry(peak) ?? (country.trim() || null);
+      const peakName = peak.includes("·") ? (peak.split("·")[0] ?? "").trim() : peak.trim();
+      if (resolvedCountry) {
+        const countrySlug = slugify(resolvedCountry);
+        const entered = await submitEntry({
+          countrySlug,
+          country: resolvedCountry,
+          peakName,
+          photoUrl: uploaded.url,
+          caption,
+        });
+        if (entered) {
+          toast({ title: "Entered the photo contest 🏆", description: "Members can now vote for your shot." });
+        }
+      } else {
+        toast({
+          title: "Could not enter the contest",
+          description: "Pick a recognized country high point to enter the contest.",
+          variant: "destructive",
+        });
+      }
+    }
+
+    setBusy(false);
+    reset();
+    celebrate();
+    toast({ title: "Summit photo posted 📷" });
+    onPosted?.();
+  };
+
+  return (
+    <form onSubmit={submit} className="rounded-lg border border-border bg-card p-4 space-y-4">
+      <div className="flex items-center gap-2">
+        <Camera className="w-4 h-4 text-primary" />
+        <h2 className="font-display tracking-wider text-sm">Submit a summit photo</h2>
+      </div>
+
+      <input
+        ref={fileRef}
+        type="file"
+        accept="image/*"
+        className="hidden"
+        onChange={(e) => pickFile(e.target.files?.[0] ?? null)}
+      />
+
+      {preview ? (
+        <div className="relative">
+          <img src={preview} alt="Selected summit photo preview" className="w-full rounded-md border border-border" />
+          <button
+            type="button"
+            onClick={clearFile}
+            aria-label="Remove photo"
+            className="absolute top-2 right-2 rounded-full bg-background/80 border border-border p-1.5"
+          >
+            <X className="w-4 h-4" />
+          </button>
+        </div>
+      ) : (
+        <button
+          type="button"
+          onClick={() => fileRef.current?.click()}
+          className="w-full rounded-md border border-dashed border-border py-8 flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground hover:border-primary/60 transition-colors"
+        >
+          <ImagePlus className="w-6 h-6" />
+          <span className="text-sm">Choose a photo (max 50 MB)</span>
+        </button>
+      )}
+
+      <div className="grid sm:grid-cols-2 gap-3">
+        <div className="space-y-1.5">
+          <Label htmlFor="summit-photo-peak">Peak</Label>
+          <PeakSelector value={peak} onChange={setPeak} placeholder="Search a peak or country" />
+        </div>
+        <div className="space-y-1.5">
+          <Label htmlFor="summit-photo-country">Country</Label>
+          <Input
+            id="summit-photo-country"
+            value={country}
+            maxLength={80}
+            onChange={(e) => setCountry(e.target.value)}
+            placeholder="e.g. Ireland"
+          />
+        </div>
+      </div>
+
+      <div className="space-y-1.5">
+        <Label htmlFor="summit-photo-date">Summit date (optional)</Label>
+        <Input
+          id="summit-photo-date"
+          type="date"
+          value={date}
+          onChange={(e) => setDate(e.target.value)}
+          className="sm:w-52"
+        />
+      </div>
+
+      <div className="space-y-1.5">
+        <Label htmlFor="summit-photo-caption">Caption (optional)</Label>
+        <Textarea
+          id="summit-photo-caption"
+          value={caption}
+          maxLength={1000}
+          rows={3}
+          onChange={(e) => setCaption(e.target.value)}
+          placeholder="Route, conditions, who you climbed with…"
+        />
+      </div>
+
+      <label
+        htmlFor="summit-photo-contest"
+        className="flex items-start gap-3 rounded-md border border-border bg-muted/30 p-3 cursor-pointer hover:border-primary/50 transition-colors"
+      >
+        <input
+          id="summit-photo-contest"
+          type="checkbox"
+          checked={enterContest}
+          onChange={(e) => setEnterContest(e.target.checked)}
+          className="mt-0.5 h-4 w-4 accent-primary"
+        />
+        <span className="space-y-0.5">
+          <span className="flex items-center gap-1.5 text-sm font-medium">
+            <Trophy className="w-3.5 h-3.5 text-primary" />
+            Enter the photo contest
+          </span>
+          <span className="block text-xs text-muted-foreground">
+            Submit this shot for the peak's featured-photo vote. The winning photo becomes the peak page's hero image.
+          </span>
+        </span>
+      </label>
+
+      <div className="flex justify-end gap-2">
+        <Button type="button" variant="outline" onClick={reset} disabled={busy}>
+          Clear
+        </Button>
+        <Button type="submit" disabled={busy}>
+          {busy && <Loader2 className="w-4 h-4 mr-1 animate-spin" />}
+          {busy ? "Posting…" : "Post photo"}
+        </Button>
+      </div>
+    </form>
+  );
+};
+
+export default SummitPhotoForm;

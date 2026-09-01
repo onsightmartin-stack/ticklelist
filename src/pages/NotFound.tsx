@@ -1,1 +1,32 @@
-aW1wb3J0IHsgdXNlTG9jYXRpb24gfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKaW1wb3J0IHsgdXNlRWZmZWN0IH0gZnJvbSAicmVhY3QiOwppbXBvcnQgU2VvIGZyb20gIkAvY29tcG9uZW50cy9TZW8iOwoKY29uc3QgTm90Rm91bmQgPSAoKSA9PiB7CiAgY29uc3QgbG9jYXRpb24gPSB1c2VMb2NhdGlvbigpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgY29uc29sZS5lcnJvcigiNDA0IEVycm9yOiBVc2VyIGF0dGVtcHRlZCB0byBhY2Nlc3Mgbm9uLWV4aXN0ZW50IHJvdXRlOiIsIGxvY2F0aW9uLnBhdGhuYW1lKTsKICB9LCBbbG9jYXRpb24ucGF0aG5hbWVdKTsKCiAgcmV0dXJuICgKICAgIDw+CiAgICAgIDxTZW8KICAgICAgICB0aXRsZT0iUGFnZSBOb3QgRm91bmQg4oCUIE9uc2lnaHQgTWFydGluIgogICAgICAgIGRlc2NyaXB0aW9uPSJUaGlzIHBhZ2UgZG9lcyBub3QgZXhpc3QuIEhlYWQgYmFjayB0byB0aGUgY291bnRyeSBoaWdoIHBvaW50IHRyYWNrZXIgYW5kIGZvbGxvdyB0aGUgam91cm5leS4iCiAgICAgICAgbm9pbmRleAogICAgICAvPgogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggbWluLWgtc2NyZWVuIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBiZy1tdXRlZCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciI+CiAgICAgICAgPGgxIGNsYXNzTmFtZT0ibWItNCB0ZXh0LTR4bCBmb250LWJvbGQiPjQwNDwvaDE+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJtYi00IHRleHQteGwgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5Pb3BzISBQYWdlIG5vdCBmb3VuZDwvcD4KICAgICAgICA8YSBocmVmPSIvIiBjbGFzc05hbWU9InRleHQtcHJpbWFyeSB1bmRlcmxpbmUgaG92ZXI6dGV4dC1wcmltYXJ5LzkwIj4KICAgICAgICAgIFJldHVybiB0byBIb21lCiAgICAgICAgPC9hPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICAgPC8+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IE5vdEZvdW5kOwo=
+import { useLocation } from "@/lib/router-compat";
+import { useEffect } from "react";
+import Seo from "@/components/Seo";
+
+const NotFound = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    console.error("404 Error: User attempted to access non-existent route:", location.pathname);
+  }, [location.pathname]);
+
+  return (
+    <>
+      <Seo
+        title="Page Not Found — Onsight Martin"
+        description="This page does not exist. Head back to the country high point tracker and follow the journey."
+        noindex
+      />
+    <div className="flex min-h-screen items-center justify-center bg-muted">
+      <div className="text-center">
+        <h1 className="mb-4 text-4xl font-bold">404</h1>
+        <p className="mb-4 text-xl text-muted-foreground">Oops! Page not found</p>
+        <a href="/" className="text-primary underline hover:text-primary/90">
+          Return to Home
+        </a>
+      </div>
+    </div>
+    </>
+  );
+};
+
+export default NotFound;

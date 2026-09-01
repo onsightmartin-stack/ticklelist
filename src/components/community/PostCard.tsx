@@ -1,1 +1,414 @@
-aW1wb3J0IHsgdXNlTWVtbywgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IExpbmsgfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKaW1wb3J0IHsKICBCb29rbWFyaywKICBDaGVjaywKICBIZWFydCwKICBNZXNzYWdlQ2lyY2xlLAogIE1vdW50YWluLAogIFBlbmNpbCwKICBTaGFyZTIsCiAgVHJhc2gyLAogIFgsCn0gZnJvbSAibHVjaWRlLXJlYWN0IjsKCmltcG9ydCBDcm9zc1NpdGVMaW5rIGZyb20gIkAvY29tcG9uZW50cy9Dcm9zc1NpdGVMaW5rIjsKaW1wb3J0IExpbmtQcmV2aWV3Q2FyZCBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L0xpbmtQcmV2aWV3Q2FyZCI7CmltcG9ydCBNZW1iZXJBdmF0YXIgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9NZW1iZXJBdmF0YXIiOwppbXBvcnQgUmVhY3Rpb25CYXIgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9SZWFjdGlvbkJhciI7CmltcG9ydCBSZXBvcnRCdXR0b24gZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9SZXBvcnRCdXR0b24iOwppbXBvcnQgUmljaFRleHQgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9SaWNoVGV4dCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IFRleHRhcmVhIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RleHRhcmVhIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAL2hvb2tzL3VzZS10b2FzdCI7CmltcG9ydCB7IENPTU1FTlRfTUFYLCBQT1NUX01BWCwgdHlwZSBQb3N0LCB0eXBlIFBvc3RDb21tZW50IH0gZnJvbSAiQC9ob29rcy91c2VQb3N0cyI7CmltcG9ydCB0eXBlIHsgUHVibGljUHJvZmlsZSB9IGZyb20gIkAvbGliL2NvbW11bml0eSI7CmltcG9ydCB7IGZpbmRQcmV2aWV3IH0gZnJvbSAiQC9saWIvbGluay1wcmV2aWV3IjsKaW1wb3J0IHsgcGVha1BhZ2VIcmVmIH0gZnJvbSAiQC9saWIvcGVhay1saW5rIjsKaW1wb3J0IHR5cGUgeyBSZWFjdGlvbktleSB9IGZyb20gIkAvbGliL3JlYWN0aW9ucyI7CmltcG9ydCB7IHRpbWVBZ28gfSBmcm9tICJAL2xpYi90aW1lLWFnbyI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiOwoKaW50ZXJmYWNlIFByb3BzIHsKICBwb3N0OiBQb3N0OwogIGNvbW1lbnRzOiBQb3N0Q29tbWVudFtdOwogIHByb2ZpbGVzOiBSZWNvcmQ8c3RyaW5nLCBQdWJsaWNQcm9maWxlPjsKICBsaWtlQ291bnQ6IG51bWJlcjsKICBsaWtlZDogYm9vbGVhbjsKICByZWFjdGlvbkNvdW50czogUmVjb3JkPHN0cmluZywgbnVtYmVyPjsKICBteVJlYWN0aW9uOiBSZWFjdGlvbktleSB8IG51bGw7CiAgaXNTYXZlZDogYm9vbGVhbjsKICBjdXJyZW50VXNlcklkOiBzdHJpbmcgfCBudWxsOwogIGlzQWRtaW4/OiBib29sZWFuOwogIG9uVG9nZ2xlTGlrZTogKCkgPT4gdm9pZDsKICBvblJlYWN0OiAoa2V5OiBSZWFjdGlvbktleSB8IG51bGwpID0+IHZvaWQ7CiAgb25Ub2dnbGVTYXZlOiAoKSA9PiB2b2lkOwogIG9uQ29tbWVudDogKGJvZHk6IHN0cmluZywgcGFyZW50SWQ/OiBzdHJpbmcgfCBudWxsKSA9PiBQcm9taXNlPGJvb2xlYW4+OwogIG9uRWRpdENvbW1lbnQ6IChpZDogc3RyaW5nLCBib2R5OiBzdHJpbmcpID0+IFByb21pc2U8Ym9vbGVhbj47CiAgb25FZGl0OiAoYm9keTogc3RyaW5nLCBwZWFrTmFtZTogc3RyaW5nIHwgbnVsbCkgPT4gUHJvbWlzZTxib29sZWFuPjsKICBvbkRlbGV0ZTogKCkgPT4gdm9pZDsKICBvbkRlbGV0ZUNvbW1lbnQ6IChpZDogc3RyaW5nKSA9PiB2b2lkOwogIG9uVGFnPzogKHRhZzogc3RyaW5nKSA9PiB2b2lkOwp9Cgpjb25zdCBQb3N0Q2FyZCA9ICh7CiAgcG9zdCwKICBjb21tZW50cywKICBwcm9maWxlcywKICBsaWtlQ291bnQsCiAgbGlrZWQsCiAgcmVhY3Rpb25Db3VudHMsCiAgbXlSZWFjdGlvbiwKICBpc1NhdmVkLAogIGN1cnJlbnRVc2VySWQsCiAgaXNBZG1pbiA9IGZhbHNlLAogIG9uVG9nZ2xlTGlrZSwKICBvblJlYWN0LAogIG9uVG9nZ2xlU2F2ZSwKICBvbkNvbW1lbnQsCiAgb25FZGl0Q29tbWVudCwKICBvbkVkaXQsCiAgb25EZWxldGUsCiAgb25EZWxldGVDb21tZW50LAogIG9uVGFnLAp9OiBQcm9wcykgPT4gewogIGNvbnN0IFtvcGVuLCBzZXRPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbZHJhZnQsIHNldERyYWZ0XSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbYnVzeSwgc2V0QnVzeV0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2VkaXRpbmcsIHNldEVkaXRpbmddID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtlZGl0Qm9keSwgc2V0RWRpdEJvZHldID0gdXNlU3RhdGUocG9zdC5ib2R5ID8/ICIiKTsKICBjb25zdCBbZWRpdFBlYWssIHNldEVkaXRQZWFrXSA9IHVzZVN0YXRlKHBvc3QucGVha19uYW1lID8/ICIiKTsKICBjb25zdCBbcmVwbHlUbywgc2V0UmVwbHlUb10gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBbcmVwbHlEcmFmdCwgc2V0UmVwbHlEcmFmdF0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2VkaXRpbmdDb21tZW50LCBzZXRFZGl0aW5nQ29tbWVudF0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBbY29tbWVudERyYWZ0LCBzZXRDb21tZW50RHJhZnRdID0gdXNlU3RhdGUoIiIpOwoKICBjb25zdCBhdXRob3IgPSBwcm9maWxlc1twb3N0LnVzZXJfaWRdOwogIGNvbnN0IG1pbmUgPSBjdXJyZW50VXNlcklkID09PSBwb3N0LnVzZXJfaWQ7CiAgY29uc3QgY2FuRGVsZXRlID0gbWluZSB8fCBpc0FkbWluOwogIGNvbnN0IHByZXZpZXcgPSBwb3N0Lm1lZGlhX3VybCA/IG51bGwgOiBmaW5kUHJldmlldyhwb3N0LmJvZHkgPz8gIiIpOwoKICBjb25zdCByb290cyA9IHVzZU1lbW8oKCkgPT4gY29tbWVudHMuZmlsdGVyKChjKSA9PiAhYy5wYXJlbnRfaWQpLCBbY29tbWVudHNdKTsKICBjb25zdCByZXBsaWVzT2YgPSAoaWQ6IHN0cmluZykgPT4gY29tbWVudHMuZmlsdGVyKChjKSA9PiBjLnBhcmVudF9pZCA9PT0gaWQpOwoKICBjb25zdCBzdWJtaXQgPSBhc3luYyAoZTogUmVhY3QuRm9ybUV2ZW50KSA9PiB7CiAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICBzZXRCdXN5KHRydWUpOwogICAgY29uc3Qgb2sgPSBhd2FpdCBvbkNvbW1lbnQoZHJhZnQpOwogICAgc2V0QnVzeShmYWxzZSk7CiAgICBpZiAob2spIHNldERyYWZ0KCIiKTsKICB9OwoKICBjb25zdCBzZW5kUmVwbHkgPSBhc3luYyAocGFyZW50SWQ6IHN0cmluZykgPT4gewogICAgc2V0QnVzeSh0cnVlKTsKICAgIGNvbnN0IG9rID0gYXdhaXQgb25Db21tZW50KHJlcGx5RHJhZnQsIHBhcmVudElkKTsKICAgIHNldEJ1c3koZmFsc2UpOwogICAgaWYgKG9rKSB7CiAgICAgIHNldFJlcGx5RHJhZnQoIiIpOwogICAgICBzZXRSZXBseVRvKG51bGwpOwogICAgfQogIH07CgogIGNvbnN0IHNhdmVFZGl0ID0gYXN5bmMgKCkgPT4gewogICAgc2V0QnVzeSh0cnVlKTsKICAgIGNvbnN0IG9rID0gYXdhaXQgb25FZGl0KGVkaXRCb2R5LCBlZGl0UGVhay50cmltKCkgfHwgbnVsbCk7CiAgICBzZXRCdXN5KGZhbHNlKTsKICAgIGlmIChvaykgc2V0RWRpdGluZyhmYWxzZSk7CiAgfTsKCiAgY29uc3Qgc2hhcmUgPSBhc3luYyAoKSA9PiB7CiAgICBjb25zdCB1cmwgPSBgJHt3aW5kb3cubG9jYXRpb24ub3JpZ2lufS9jb21tdW5pdHkvd2FsbCNwb3N0LSR7cG9zdC5pZH1gOwogICAgY29uc3QgZGF0YSA9IHsKICAgICAgdGl0bGU6ICJUaWNrbGVsaXN0IiwKICAgICAgdGV4dDogcG9zdC5ib2R5Py5zbGljZSgwLCAxMjApIHx8ICJBIHBvc3Qgb24gVGlja2xlbGlzdCIsCiAgICAgIHVybCwKICAgIH07CiAgICB0cnkgewogICAgICBpZiAobmF2aWdhdG9yLnNoYXJlKSB7CiAgICAgICAgYXdhaXQgbmF2aWdhdG9yLnNoYXJlKGRhdGEpOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBhd2FpdCBuYXZpZ2F0b3IuY2xpcGJvYXJkLndyaXRlVGV4dCh1cmwpOwogICAgICB0b2FzdCh7IHRpdGxlOiAiTGluayBjb3BpZWQiIH0pOwogICAgfSBjYXRjaCB7CiAgICAgIC8qIHRoZSBtZW1iZXIgZGlzbWlzc2VkIHRoZSBzaGFyZSBzaGVldCAqLwogICAgfQogIH07CgogIGNvbnN0IENvbW1lbnRSb3cgPSAoeyBjLCBkZXB0aCA9IDAgfTogeyBjOiBQb3N0Q29tbWVudDsgZGVwdGg/OiBudW1iZXIgfSkgPT4gewogICAgY29uc3QgY0F1dGhvciA9IHByb2ZpbGVzW2MudXNlcl9pZF07CiAgICBjb25zdCBjYW5FZGl0Q29tbWVudCA9IGN1cnJlbnRVc2VySWQgPT09IGMudXNlcl9pZDsKICAgIHJldHVybiAoCiAgICAgIDxkaXYgY2xhc3NOYW1lPXtjbigic3BhY2UteS0yIiwgZGVwdGggPiAwICYmICJtbC03IGJvcmRlci1sIGJvcmRlci1ib3JkZXIgcGwtMyIpfT4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBnYXAtMiI+CiAgICAgICAgICA8TWVtYmVyQXZhdGFyIHBhdGg9e2NBdXRob3I/LmF2YXRhcl91cmwgPz8gbnVsbH0gbmFtZT17Y0F1dGhvcj8uZGlzcGxheV9uYW1lID8/ICJDbGltYmVyIn0gY2xhc3NOYW1lPSJoLTYgdy02IiAvPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1pbi13LTAgZmxleC0xIj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIj4KICAgICAgICAgICAgICA8TGluayB0bz17YC9jb21tdW5pdHkvbWVtYmVycy8ke2MudXNlcl9pZH1gfSBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlciBob3Zlcjp0ZXh0LXByaW1hcnkiPgogICAgICAgICAgICAgICAge2NBdXRob3I/LmRpc3BsYXlfbmFtZSA/PyAiQ2xpbWJlciJ9CiAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4gwrcge3RpbWVBZ28oYy5jcmVhdGVkX2F0KX08L3NwYW4+CiAgICAgICAgICAgICAge2MuZWRpdGVkX2F0ICYmIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4gwrcgZWRpdGVkPC9zcGFuPn0KICAgICAgICAgICAgPC9wPgoKICAgICAgICAgICAge2VkaXRpbmdDb21tZW50ID09PSBjLmlkID8gKAogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xIGZsZXggZ2FwLTIiPgogICAgICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgICAgIHZhbHVlPXtjb21tZW50RHJhZnR9CiAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0Q29tbWVudERyYWZ0KGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgICAgbWF4TGVuZ3RoPXtDT01NRU5UX01BWH0KICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbD0iRWRpdCBjb21tZW50IgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e2FzeW5jICgpID0+IHsKICAgICAgICAgICAgICAgICAgICBjb25zdCBvayA9IGF3YWl0IG9uRWRpdENvbW1lbnQoYy5pZCwgY29tbWVudERyYWZ0KTsKICAgICAgICAgICAgICAgICAgICBpZiAob2spIHNldEVkaXRpbmdDb21tZW50KG51bGwpOwogICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8Q2hlY2sgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgPEJ1dHRvbiBzaXplPSJzbSIgdmFyaWFudD0iZ2hvc3QiIG9uQ2xpY2s9eygpID0+IHNldEVkaXRpbmdDb21tZW50KG51bGwpfT4KICAgICAgICAgICAgICAgICAgPFggY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApIDogKAogICAgICAgICAgICAgIDxSaWNoVGV4dCB0ZXh0PXtjLmJvZHl9IG9uVGFnPXtvblRhZ30gY2xhc3NOYW1lPSJ0ZXh0LXNtIGJyZWFrLXdvcmRzIHdoaXRlc3BhY2UtcHJlLWxpbmUiIC8+CiAgICAgICAgICAgICl9CgogICAgICAgICAgICB7Y3VycmVudFVzZXJJZCAmJiBlZGl0aW5nQ29tbWVudCAhPT0gYy5pZCAmJiAoCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTAuNSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyB0ZXh0LVsxMXB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgPGJ1dHRvbiB0eXBlPSJidXR0b24iIG9uQ2xpY2s9eygpID0+IHsgc2V0UmVwbHlUbyhyZXBseVRvID09PSBjLmlkID8gbnVsbCA6IGMuaWQpOyBzZXRSZXBseURyYWZ0KCIiKTsgfX0+CiAgICAgICAgICAgICAgICAgIFJlcGx5CiAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIHtjYW5FZGl0Q29tbWVudCAmJiAoCiAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gewogICAgICAgICAgICAgICAgICAgICAgc2V0RWRpdGluZ0NvbW1lbnQoYy5pZCk7CiAgICAgICAgICAgICAgICAgICAgICBzZXRDb21tZW50RHJhZnQoYy5ib2R5KTsKICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgRWRpdAogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CgogICAgICAgICAgICB7cmVwbHlUbyA9PT0gYy5pZCAmJiAoCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTIgZmxleCBnYXAtMiI+CiAgICAgICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICAgICAgdmFsdWU9e3JlcGx5RHJhZnR9CiAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0UmVwbHlEcmFmdChlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICAgIG1heExlbmd0aD17Q09NTUVOVF9NQVh9CiAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPXtgUmVwbHkgdG8gJHtjQXV0aG9yPy5kaXNwbGF5X25hbWUgPz8gIkNsaW1iZXIifeKApmB9CiAgICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9IldyaXRlIGEgcmVwbHkiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPEJ1dHRvbiBzaXplPSJzbSIgZGlzYWJsZWQ9e2J1c3kgfHwgIXJlcGx5RHJhZnQudHJpbSgpfSBvbkNsaWNrPXsoKSA9PiBzZW5kUmVwbHkoYy5pZCl9PgogICAgICAgICAgICAgICAgICBSZXBseQogICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAge2N1cnJlbnRVc2VySWQgJiYgY3VycmVudFVzZXJJZCAhPT0gYy51c2VyX2lkICYmICgKICAgICAgICAgICAgICA8UmVwb3J0QnV0dG9uIHRhcmdldFR5cGU9ImNvbW1lbnQiIHRhcmdldElkPXtjLmlkfSBzaXplPSJ4cyIgLz4KICAgICAgICAgICAgKX0KICAgICAgICAgICAgeyhjdXJyZW50VXNlcklkID09PSBjLnVzZXJfaWQgfHwgaXNBZG1pbikgJiYgKAogICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IG9uRGVsZXRlQ29tbWVudChjLmlkKX0KICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9IkRlbGV0ZSBjb21tZW50IgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6dGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8VHJhc2gyIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUiIC8+CiAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAge3JlcGxpZXNPZihjLmlkKS5tYXAoKHIpID0+ICgKICAgICAgICAgIDxDb21tZW50Um93IGtleT17ci5pZH0gYz17cn0gZGVwdGg9e2RlcHRoICsgMX0gLz4KICAgICAgICApKX0KICAgICAgPC9kaXY+CiAgICApOwogIH07CgogIHJldHVybiAoCiAgICA8YXJ0aWNsZSBpZD17YHBvc3QtJHtwb3N0LmlkfWB9IGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkIHAtNCBzY3JvbGwtbXQtMjQiPgogICAgICA8aGVhZGVyIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBnYXAtMyI+CiAgICAgICAgPExpbmsgdG89e2AvY29tbXVuaXR5L21lbWJlcnMvJHtwb3N0LnVzZXJfaWR9YH0+CiAgICAgICAgICA8TWVtYmVyQXZhdGFyIHBhdGg9e2F1dGhvcj8uYXZhdGFyX3VybCA/PyBudWxsfSBuYW1lPXthdXRob3I/LmRpc3BsYXlfbmFtZSA/PyAiQ2xpbWJlciJ9IGNsYXNzTmFtZT0iaC05IHctOSIgLz4KICAgICAgICA8L0xpbms+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1pbi13LTAgZmxleC0xIj4KICAgICAgICAgIDxMaW5rIHRvPXtgL2NvbW11bml0eS9tZW1iZXJzLyR7cG9zdC51c2VyX2lkfWB9IGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGVyIHRleHQtc20gaG92ZXI6dGV4dC1wcmltYXJ5Ij4KICAgICAgICAgICAge2F1dGhvcj8uZGlzcGxheV9uYW1lID8/ICJDbGltYmVyIn0KICAgICAgICAgIDwvTGluaz4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICA8dGltZSBkYXRlVGltZT17cG9zdC5jcmVhdGVkX2F0fSB0aXRsZT17bmV3IERhdGUocG9zdC5jcmVhdGVkX2F0KS50b0xvY2FsZVN0cmluZygpfT4KICAgICAgICAgICAgICB7dGltZUFnbyhwb3N0LmNyZWF0ZWRfYXQpfQogICAgICAgICAgICA8L3RpbWU+CiAgICAgICAgICAgIHtwb3N0LmVkaXRlZF9hdCAmJiA8c3Bhbj4gwrcgZWRpdGVkPC9zcGFuPn0KICAgICAgICAgICAge3Bvc3QucGVha19uYW1lID8gKAogICAgICAgICAgICAgIHBlYWtQYWdlSHJlZihwb3N0LnBlYWtfbmFtZSkgPyAoCiAgICAgICAgICAgICAgICA8Q3Jvc3NTaXRlTGluawogICAgICAgICAgICAgICAgICBocmVmPXtwZWFrUGFnZUhyZWYocG9zdC5wZWFrX25hbWUpIX0KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgbWwtMiBob3Zlcjp0ZXh0LXByaW1hcnkiCiAgICAgICAgICAgICAgICAgIHRpdGxlPXtgT3BlbiAke3Bvc3QucGVha19uYW1lfSBwYWdlYH0KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPE1vdW50YWluIGNsYXNzTmFtZT0idy0zIGgtMyB0ZXh0LXByaW1hcnkiIC8+IHtwb3N0LnBlYWtfbmFtZX0KICAgICAgICAgICAgICAgIDwvQ3Jvc3NTaXRlTGluaz4KICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgbWwtMiI+CiAgICAgICAgICAgICAgICAgIDxNb3VudGFpbiBjbGFzc05hbWU9InctMyBoLTMgdGV4dC1wcmltYXJ5IiAvPiB7cG9zdC5wZWFrX25hbWV9CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgKQogICAgICAgICAgICApIDogbnVsbH0KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAge2N1cnJlbnRVc2VySWQgJiYgY3VycmVudFVzZXJJZCAhPT0gcG9zdC51c2VyX2lkICYmICgKICAgICAgICAgICAgPFJlcG9ydEJ1dHRvbiB0YXJnZXRUeXBlPSJwb3N0IiB0YXJnZXRJZD17cG9zdC5pZH0gLz4KICAgICAgICAgICl9CiAgICAgICAgICB7bWluZSAmJiAhZWRpdGluZyAmJiAoCiAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB7CiAgICAgICAgICAgICAgICBzZXRFZGl0aW5nKHRydWUpOwogICAgICAgICAgICAgICAgc2V0RWRpdEJvZHkocG9zdC5ib2R5ID8/ICIiKTsKICAgICAgICAgICAgICAgIHNldEVkaXRQZWFrKHBvc3QucGVha19uYW1lID8/ICIiKTsKICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgIGFyaWEtbGFiZWw9IkVkaXQgcG9zdCIKICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LXByaW1hcnkiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8UGVuY2lsIGNsYXNzTmFtZT0idy00IGgtNCIgLz4KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICApfQogICAgICAgICAge2NhbkRlbGV0ZSAmJiAoCiAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17b25EZWxldGV9IGFyaWEtbGFiZWw9IkRlbGV0ZSBwb3N0IiBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LWRlc3RydWN0aXZlIj4KICAgICAgICAgICAgICA8VHJhc2gyIGNsYXNzTmFtZT0idy00IGgtNCIgLz4KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICApfQogICAgICAgIDwvZGl2PgogICAgICA8L2hlYWRlcj4KCiAgICAgIHtlZGl0aW5nID8gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0zIHNwYWNlLXktMiI+CiAgICAgICAgICA8VGV4dGFyZWEKICAgICAgICAgICAgdmFsdWU9e2VkaXRCb2R5fQogICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldEVkaXRCb2R5KGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgbWF4TGVuZ3RoPXtQT1NUX01BWH0KICAgICAgICAgICAgcm93cz17M30KICAgICAgICAgICAgYXJpYS1sYWJlbD0iRWRpdCBwb3N0IHRleHQiCiAgICAgICAgICAvPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIHZhbHVlPXtlZGl0UGVha30KICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRFZGl0UGVhayhlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJQZWFrIC8gY291bnRyeSAob3B0aW9uYWwpIgogICAgICAgICAgICBhcmlhLWxhYmVsPSJFZGl0IHBlYWsgdGFnIgogICAgICAgICAgLz4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0yIj4KICAgICAgICAgICAgPEJ1dHRvbiBzaXplPSJzbSIgZGlzYWJsZWQ9e2J1c3l9IG9uQ2xpY2s9e3NhdmVFZGl0fT5TYXZlPC9CdXR0b24+CiAgICAgICAgICAgIDxCdXR0b24gc2l6ZT0ic20iIHZhcmlhbnQ9Imdob3N0IiBvbkNsaWNrPXsoKSA9PiBzZXRFZGl0aW5nKGZhbHNlKX0+Q2FuY2VsPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgKSA6ICgKICAgICAgICBwb3N0LmJvZHkgJiYgKAogICAgICAgICAgPFJpY2hUZXh0IHRleHQ9e3Bvc3QuYm9keX0gb25UYWc9e29uVGFnfSBjbGFzc05hbWU9Im10LTMgdGV4dC1zbSB3aGl0ZXNwYWNlLXByZS1saW5lIGJyZWFrLXdvcmRzIiAvPgogICAgICAgICkKICAgICAgKX0KCiAgICAgIHtwcmV2aWV3ICYmIDxMaW5rUHJldmlld0NhcmQgcHJldmlldz17cHJldmlld30gLz59CgogICAgICB7cG9zdC5tZWRpYV91cmwgJiYgcG9zdC5tZWRpYV90eXBlID09PSAiaW1hZ2UiICYmICgKICAgICAgICA8aW1nCiAgICAgICAgICBzcmM9e3Bvc3QubWVkaWFfdXJsfQogICAgICAgICAgYWx0PXtwb3N0LnBlYWtfbmFtZSA/IGBQaG90byBvZiAke3Bvc3QucGVha19uYW1lfWAgOiAiTWVtYmVyIHBob3RvIn0KICAgICAgICAgIGxvYWRpbmc9ImxhenkiCiAgICAgICAgICBjbGFzc05hbWU9Im10LTMgdy1mdWxsIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgb2JqZWN0LWNvdmVyIG1heC1oLVs1MjBweF0iCiAgICAgICAgLz4KICAgICAgKX0KICAgICAge3Bvc3QubWVkaWFfdXJsICYmIHBvc3QubWVkaWFfdHlwZSA9PT0gInZpZGVvIiAmJiAoCiAgICAgICAgPHZpZGVvIHNyYz17cG9zdC5tZWRpYV91cmx9IGNvbnRyb2xzIHBsYXlzSW5saW5lIGNsYXNzTmFtZT0ibXQtMyB3LWZ1bGwgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlciBtYXgtaC1bNTIwcHhdIiAvPgogICAgICApfQogICAgICB7cG9zdC5tZWRpYV91cmwgJiYgcG9zdC5tZWRpYV90eXBlID09PSAieW91dHViZSIgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0zIGFzcGVjdC12aWRlbyB3LWZ1bGwgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIiPgogICAgICAgICAgPGlmcmFtZQogICAgICAgICAgICBzcmM9e2BodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC8ke3Bvc3QubWVkaWFfdXJsfWB9CiAgICAgICAgICAgIHRpdGxlPSJZb3VUdWJlIHZpZGVvIgogICAgICAgICAgICBhbGxvdz0iYWNjZWxlcm9tZXRlcjsgYXV0b3BsYXk7IGNsaXBib2FyZC13cml0ZTsgZW5jcnlwdGVkLW1lZGlhOyBneXJvc2NvcGU7IHBpY3R1cmUtaW4tcGljdHVyZSIKICAgICAgICAgICAgYWxsb3dGdWxsU2NyZWVuCiAgICAgICAgICAgIGxvYWRpbmc9ImxhenkiCiAgICAgICAgICAgIGNsYXNzTmFtZT0iaC1mdWxsIHctZnVsbCIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICl9CgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMyBmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgIDxSZWFjdGlvbkJhciBjb3VudHM9e3JlYWN0aW9uQ291bnRzfSBtaW5lPXtteVJlYWN0aW9ufSBvblJlYWN0PXtvblJlYWN0fSBkaXNhYmxlZD17IWN1cnJlbnRVc2VySWR9IC8+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgICAgIGNsYXNzTmFtZT17Y24oImgtNyBnYXAtMS41IHRleHQtWzExcHhdIiwgbGlrZWQgJiYgInRleHQtcHJpbWFyeSIpfQogICAgICAgICAgb25DbGljaz17b25Ub2dnbGVMaWtlfQogICAgICAgICAgYXJpYS1sYWJlbD17bGlrZWQgPyAiVW5saWtlIHBvc3QiIDogIkxpa2UgcG9zdCJ9CiAgICAgICAgPgogICAgICAgICAgPEhlYXJ0IGNsYXNzTmFtZT17Y24oInctMy41IGgtMy41IiwgbGlrZWQgJiYgImZpbGwtY3VycmVudCIpfSAvPiB7bGlrZUNvdW50fQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICBjbGFzc05hbWU9ImgtNyBnYXAtMS41IHRleHQtWzExcHhdIgogICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0T3BlbigodikgPT4gIXYpfQogICAgICAgICAgYXJpYS1leHBhbmRlZD17b3Blbn0KICAgICAgICA+CiAgICAgICAgICA8TWVzc2FnZUNpcmNsZSBjbGFzc05hbWU9InctMy41IGgtMy41IiAvPiB7Y29tbWVudHMubGVuZ3RofQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24gdHlwZT0iYnV0dG9uIiBzaXplPSJzbSIgdmFyaWFudD0iZ2hvc3QiIGNsYXNzTmFtZT0iaC03IGdhcC0xLjUgdGV4dC1bMTFweF0iIG9uQ2xpY2s9e3NoYXJlfT4KICAgICAgICAgIDxTaGFyZTIgY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSIgLz4gU2hhcmUKICAgICAgICA8L0J1dHRvbj4KICAgICAgICB7Y3VycmVudFVzZXJJZCAmJiAoCiAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICBjbGFzc05hbWU9e2NuKCJoLTcgZ2FwLTEuNSB0ZXh0LVsxMXB4XSBtbC1hdXRvIiwgaXNTYXZlZCAmJiAidGV4dC1wcmltYXJ5Iil9CiAgICAgICAgICAgIG9uQ2xpY2s9e29uVG9nZ2xlU2F2ZX0KICAgICAgICAgICAgYXJpYS1sYWJlbD17aXNTYXZlZCA/ICJSZW1vdmUgZnJvbSBzYXZlZCIgOiAiU2F2ZSBwb3N0In0KICAgICAgICAgID4KICAgICAgICAgICAgPEJvb2ttYXJrIGNsYXNzTmFtZT17Y24oInctMy41IGgtMy41IiwgaXNTYXZlZCAmJiAiZmlsbC1jdXJyZW50Iil9IC8+IHtpc1NhdmVkID8gIlNhdmVkIiA6ICJTYXZlIn0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICl9CiAgICAgIDwvZGl2PgoKICAgICAge29wZW4gJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0zIGJvcmRlci10IGJvcmRlci1ib3JkZXIgcHQtMyBzcGFjZS15LTMiPgogICAgICAgICAge3Jvb3RzLmxlbmd0aCA9PT0gMCAmJiA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5ObyBjb21tZW50cyB5ZXQuPC9wPn0KICAgICAgICAgIHtyb290cy5tYXAoKGMpID0+ICgKICAgICAgICAgICAgPENvbW1lbnRSb3cga2V5PXtjLmlkfSBjPXtjfSAvPgogICAgICAgICAgKSl9CgogICAgICAgICAge2N1cnJlbnRVc2VySWQgPyAoCiAgICAgICAgICAgIDxmb3JtIG9uU3VibWl0PXtzdWJtaXR9IGNsYXNzTmFtZT0iZmxleCBnYXAtMiI+CiAgICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgICB2YWx1ZT17ZHJhZnR9CiAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldERyYWZ0KGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgIG1heExlbmd0aD17Q09NTUVOVF9NQVh9CiAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iQWRkIGEgY29tbWVudOKApiAgQG1lbnRpb24gb3IgI3RhZyIKICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9IkFkZCBhIGNvbW1lbnQiCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8QnV0dG9uIHR5cGU9InN1Ym1pdCIgc2l6ZT0ic20iIGRpc2FibGVkPXtidXN5IHx8ICFkcmFmdC50cmltKCl9PlNlbmQ8L0J1dHRvbj4KICAgICAgICAgICAgPC9mb3JtPgogICAgICAgICAgKSA6ICgKICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgPExpbmsgdG89Ii9hdXRoIiBjbGFzc05hbWU9InRleHQtcHJpbWFyeSB1bmRlcmxpbmUiPlNpZ24gaW48L0xpbms+IHRvIGNvbW1lbnQuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CiAgICAgICl9CiAgICA8L2FydGljbGU+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IFBvc3RDYXJkOwo=
+import { useMemo, useState } from "react";
+import { Link } from "@/lib/router-compat";
+import {
+  Bookmark,
+  Check,
+  Heart,
+  MessageCircle,
+  Mountain,
+  Pencil,
+  Share2,
+  Trash2,
+  X,
+} from "lucide-react";
+
+import CrossSiteLink from "@/components/CrossSiteLink";
+import LinkPreviewCard from "@/components/community/LinkPreviewCard";
+import MemberAvatar from "@/components/community/MemberAvatar";
+import ReactionBar from "@/components/community/ReactionBar";
+import ReportButton from "@/components/community/ReportButton";
+import RichText from "@/components/community/RichText";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { toast } from "@/hooks/use-toast";
+import { COMMENT_MAX, POST_MAX, type Post, type PostComment } from "@/hooks/usePosts";
+import type { PublicProfile } from "@/lib/community";
+import { findPreview } from "@/lib/link-preview";
+import { peakPageHref } from "@/lib/peak-link";
+import type { ReactionKey } from "@/lib/reactions";
+import { timeAgo } from "@/lib/time-ago";
+import { cn } from "@/lib/utils";
+
+interface Props {
+  post: Post;
+  comments: PostComment[];
+  profiles: Record<string, PublicProfile>;
+  likeCount: number;
+  liked: boolean;
+  reactionCounts: Record<string, number>;
+  myReaction: ReactionKey | null;
+  isSaved: boolean;
+  currentUserId: string | null;
+  isAdmin?: boolean;
+  onToggleLike: () => void;
+  onReact: (key: ReactionKey | null) => void;
+  onToggleSave: () => void;
+  onComment: (body: string, parentId?: string | null) => Promise<boolean>;
+  onEditComment: (id: string, body: string) => Promise<boolean>;
+  onEdit: (body: string, peakName: string | null) => Promise<boolean>;
+  onDelete: () => void;
+  onDeleteComment: (id: string) => void;
+  onTag?: (tag: string) => void;
+}
+
+const PostCard = ({
+  post,
+  comments,
+  profiles,
+  likeCount,
+  liked,
+  reactionCounts,
+  myReaction,
+  isSaved,
+  currentUserId,
+  isAdmin = false,
+  onToggleLike,
+  onReact,
+  onToggleSave,
+  onComment,
+  onEditComment,
+  onEdit,
+  onDelete,
+  onDeleteComment,
+  onTag,
+}: Props) => {
+  const [open, setOpen] = useState(false);
+  const [draft, setDraft] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [editing, setEditing] = useState(false);
+  const [editBody, setEditBody] = useState(post.body ?? "");
+  const [editPeak, setEditPeak] = useState(post.peak_name ?? "");
+  const [replyTo, setReplyTo] = useState<string | null>(null);
+  const [replyDraft, setReplyDraft] = useState("");
+  const [editingComment, setEditingComment] = useState<string | null>(null);
+  const [commentDraft, setCommentDraft] = useState("");
+
+  const author = profiles[post.user_id];
+  const mine = currentUserId === post.user_id;
+  const canDelete = mine || isAdmin;
+  const preview = post.media_url ? null : findPreview(post.body ?? "");
+
+  const roots = useMemo(() => comments.filter((c) => !c.parent_id), [comments]);
+  const repliesOf = (id: string) => comments.filter((c) => c.parent_id === id);
+
+  const submit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setBusy(true);
+    const ok = await onComment(draft);
+    setBusy(false);
+    if (ok) setDraft("");
+  };
+
+  const sendReply = async (parentId: string) => {
+    setBusy(true);
+    const ok = await onComment(replyDraft, parentId);
+    setBusy(false);
+    if (ok) {
+      setReplyDraft("");
+      setReplyTo(null);
+    }
+  };
+
+  const saveEdit = async () => {
+    setBusy(true);
+    const ok = await onEdit(editBody, editPeak.trim() || null);
+    setBusy(false);
+    if (ok) setEditing(false);
+  };
+
+  const share = async () => {
+    const url = `${window.location.origin}/community/wall#post-${post.id}`;
+    const data = {
+      title: "Ticklelist",
+      text: post.body?.slice(0, 120) || "A post on Ticklelist",
+      url,
+    };
+    try {
+      if (navigator.share) {
+        await navigator.share(data);
+        return;
+      }
+      await navigator.clipboard.writeText(url);
+      toast({ title: "Link copied" });
+    } catch {
+      /* the member dismissed the share sheet */
+    }
+  };
+
+  const CommentRow = ({ c, depth = 0 }: { c: PostComment; depth?: number }) => {
+    const cAuthor = profiles[c.user_id];
+    const canEditComment = currentUserId === c.user_id;
+    return (
+      <div className={cn("space-y-2", depth > 0 && "ml-7 border-l border-border pl-3")}>
+        <div className="flex items-start gap-2">
+          <MemberAvatar path={cAuthor?.avatar_url ?? null} name={cAuthor?.display_name ?? "Climber"} className="h-6 w-6" />
+          <div className="min-w-0 flex-1">
+            <p className="text-xs">
+              <Link to={`/community/members/${c.user_id}`} className="font-display tracking-wider hover:text-primary">
+                {cAuthor?.display_name ?? "Climber"}
+              </Link>
+              <span className="text-muted-foreground"> · {timeAgo(c.created_at)}</span>
+              {c.edited_at && <span className="text-muted-foreground"> · edited</span>}
+            </p>
+
+            {editingComment === c.id ? (
+              <div className="mt-1 flex gap-2">
+                <Input
+                  value={commentDraft}
+                  onChange={(e) => setCommentDraft(e.target.value)}
+                  maxLength={COMMENT_MAX}
+                  aria-label="Edit comment"
+                />
+                <Button
+                  size="sm"
+                  onClick={async () => {
+                    const ok = await onEditComment(c.id, commentDraft);
+                    if (ok) setEditingComment(null);
+                  }}
+                >
+                  <Check className="h-3.5 w-3.5" />
+                </Button>
+                <Button size="sm" variant="ghost" onClick={() => setEditingComment(null)}>
+                  <X className="h-3.5 w-3.5" />
+                </Button>
+              </div>
+            ) : (
+              <RichText text={c.body} onTag={onTag} className="text-sm break-words whitespace-pre-line" />
+            )}
+
+            {currentUserId && editingComment !== c.id && (
+              <div className="mt-0.5 flex items-center gap-3 text-[11px] text-muted-foreground">
+                <button type="button" onClick={() => { setReplyTo(replyTo === c.id ? null : c.id); setReplyDraft(""); }}>
+                  Reply
+                </button>
+                {canEditComment && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setEditingComment(c.id);
+                      setCommentDraft(c.body);
+                    }}
+                  >
+                    Edit
+                  </button>
+                )}
+              </div>
+            )}
+
+            {replyTo === c.id && (
+              <div className="mt-2 flex gap-2">
+                <Input
+                  value={replyDraft}
+                  onChange={(e) => setReplyDraft(e.target.value)}
+                  maxLength={COMMENT_MAX}
+                  placeholder={`Reply to ${cAuthor?.display_name ?? "Climber"}…`}
+                  aria-label="Write a reply"
+                />
+                <Button size="sm" disabled={busy || !replyDraft.trim()} onClick={() => sendReply(c.id)}>
+                  Reply
+                </Button>
+              </div>
+            )}
+          </div>
+          <div className="flex items-center gap-1.5">
+            {currentUserId && currentUserId !== c.user_id && (
+              <ReportButton targetType="comment" targetId={c.id} size="xs" />
+            )}
+            {(currentUserId === c.user_id || isAdmin) && (
+              <button
+                onClick={() => onDeleteComment(c.id)}
+                aria-label="Delete comment"
+                className="text-muted-foreground hover:text-destructive"
+              >
+                <Trash2 className="w-3.5 h-3.5" />
+              </button>
+            )}
+          </div>
+        </div>
+
+        {repliesOf(c.id).map((r) => (
+          <CommentRow key={r.id} c={r} depth={depth + 1} />
+        ))}
+      </div>
+    );
+  };
+
+  return (
+    <article id={`post-${post.id}`} className="rounded-lg border border-border bg-card p-4 scroll-mt-24">
+      <header className="flex items-start gap-3">
+        <Link to={`/community/members/${post.user_id}`}>
+          <MemberAvatar path={author?.avatar_url ?? null} name={author?.display_name ?? "Climber"} className="h-9 w-9" />
+        </Link>
+        <div className="min-w-0 flex-1">
+          <Link to={`/community/members/${post.user_id}`} className="font-display tracking-wider text-sm hover:text-primary">
+            {author?.display_name ?? "Climber"}
+          </Link>
+          <p className="text-xs text-muted-foreground">
+            <time dateTime={post.created_at} title={new Date(post.created_at).toLocaleString()}>
+              {timeAgo(post.created_at)}
+            </time>
+            {post.edited_at && <span> · edited</span>}
+            {post.peak_name ? (
+              peakPageHref(post.peak_name) ? (
+                <CrossSiteLink
+                  href={peakPageHref(post.peak_name)!}
+                  className="inline-flex items-center gap-1 ml-2 hover:text-primary"
+                  title={`Open ${post.peak_name} page`}
+                >
+                  <Mountain className="w-3 h-3 text-primary" /> {post.peak_name}
+                </CrossSiteLink>
+              ) : (
+                <span className="inline-flex items-center gap-1 ml-2">
+                  <Mountain className="w-3 h-3 text-primary" /> {post.peak_name}
+                </span>
+              )
+            ) : null}
+          </p>
+        </div>
+        <div className="flex items-center gap-2">
+          {currentUserId && currentUserId !== post.user_id && (
+            <ReportButton targetType="post" targetId={post.id} />
+          )}
+          {mine && !editing && (
+            <button
+              onClick={() => {
+                setEditing(true);
+                setEditBody(post.body ?? "");
+                setEditPeak(post.peak_name ?? "");
+              }}
+              aria-label="Edit post"
+              className="text-muted-foreground hover:text-primary"
+            >
+              <Pencil className="w-4 h-4" />
+            </button>
+          )}
+          {canDelete && (
+            <button onClick={onDelete} aria-label="Delete post" className="text-muted-foreground hover:text-destructive">
+              <Trash2 className="w-4 h-4" />
+            </button>
+          )}
+        </div>
+      </header>
+
+      {editing ? (
+        <div className="mt-3 space-y-2">
+          <Textarea
+            value={editBody}
+            onChange={(e) => setEditBody(e.target.value)}
+            maxLength={POST_MAX}
+            rows={3}
+            aria-label="Edit post text"
+          />
+          <Input
+            value={editPeak}
+            onChange={(e) => setEditPeak(e.target.value)}
+            placeholder="Peak / country (optional)"
+            aria-label="Edit peak tag"
+          />
+          <div className="flex gap-2">
+            <Button size="sm" disabled={busy} onClick={saveEdit}>Save</Button>
+            <Button size="sm" variant="ghost" onClick={() => setEditing(false)}>Cancel</Button>
+          </div>
+        </div>
+      ) : (
+        post.body && (
+          <RichText text={post.body} onTag={onTag} className="mt-3 text-sm whitespace-pre-line break-words" />
+        )
+      )}
+
+      {preview && <LinkPreviewCard preview={preview} />}
+
+      {post.media_url && post.media_type === "image" && (
+        <img
+          src={post.media_url}
+          alt={post.peak_name ? `Photo of ${post.peak_name}` : "Member photo"}
+          loading="lazy"
+          className="mt-3 w-full rounded-md border border-border object-cover max-h-[520px]"
+        />
+      )}
+      {post.media_url && post.media_type === "video" && (
+        <video src={post.media_url} controls playsInline className="mt-3 w-full rounded-md border border-border max-h-[520px]" />
+      )}
+      {post.media_url && post.media_type === "youtube" && (
+        <div className="mt-3 aspect-video w-full overflow-hidden rounded-md border border-border">
+          <iframe
+            src={`https://www.youtube.com/embed/${post.media_url}`}
+            title="YouTube video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            loading="lazy"
+            className="h-full w-full"
+          />
+        </div>
+      )}
+
+      <div className="mt-3 flex flex-wrap items-center gap-2">
+        <ReactionBar counts={reactionCounts} mine={myReaction} onReact={onReact} disabled={!currentUserId} />
+        <Button
+          type="button"
+          size="sm"
+          variant="ghost"
+          className={cn("h-7 gap-1.5 text-[11px]", liked && "text-primary")}
+          onClick={onToggleLike}
+          aria-label={liked ? "Unlike post" : "Like post"}
+        >
+          <Heart className={cn("w-3.5 h-3.5", liked && "fill-current")} /> {likeCount}
+        </Button>
+        <Button
+          type="button"
+          size="sm"
+          variant="ghost"
+          className="h-7 gap-1.5 text-[11px]"
+          onClick={() => setOpen((v) => !v)}
+          aria-expanded={open}
+        >
+          <MessageCircle className="w-3.5 h-3.5" /> {comments.length}
+        </Button>
+        <Button type="button" size="sm" variant="ghost" className="h-7 gap-1.5 text-[11px]" onClick={share}>
+          <Share2 className="w-3.5 h-3.5" /> Share
+        </Button>
+        {currentUserId && (
+          <Button
+            type="button"
+            size="sm"
+            variant="ghost"
+            className={cn("h-7 gap-1.5 text-[11px] ml-auto", isSaved && "text-primary")}
+            onClick={onToggleSave}
+            aria-label={isSaved ? "Remove from saved" : "Save post"}
+          >
+            <Bookmark className={cn("w-3.5 h-3.5", isSaved && "fill-current")} /> {isSaved ? "Saved" : "Save"}
+          </Button>
+        )}
+      </div>
+
+      {open && (
+        <div className="mt-3 border-t border-border pt-3 space-y-3">
+          {roots.length === 0 && <p className="text-xs text-muted-foreground">No comments yet.</p>}
+          {roots.map((c) => (
+            <CommentRow key={c.id} c={c} />
+          ))}
+
+          {currentUserId ? (
+            <form onSubmit={submit} className="flex gap-2">
+              <Input
+                value={draft}
+                onChange={(e) => setDraft(e.target.value)}
+                maxLength={COMMENT_MAX}
+                placeholder="Add a comment…  @mention or #tag"
+                aria-label="Add a comment"
+              />
+              <Button type="submit" size="sm" disabled={busy || !draft.trim()}>Send</Button>
+            </form>
+          ) : (
+            <p className="text-xs text-muted-foreground">
+              <Link to="/auth" className="text-primary underline">Sign in</Link> to comment.
+            </p>
+          )}
+        </div>
+      )}
+    </article>
+  );
+};
+
+export default PostCard;

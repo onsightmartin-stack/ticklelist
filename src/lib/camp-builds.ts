@@ -1,1 +1,79 @@
-LyoqCiAqIEJhc2UgQ2FtcCBidWlsZGluZ3MuIEV2ZXJ5IGNsaW1iZXIgbWF5IGtlZXAgb25lIGJ1aWxkIHN0YW5kaW5nIGluIHRoZSBjYW1wLAogKiB1bmxvY2tlZCBieSB0aGVpciBjbGltYmluZyBsZXZlbCDigJQgYSBiaXZ5IGJhZyBhdCBsZXZlbCAyLCBhIG1vdW50YWluCiAqIG1ldHJvcG9saXMgYXQgbGV2ZWwgMTAwLgogKi8KCmV4cG9ydCBpbnRlcmZhY2UgQ2FtcEJ1aWxkS2luZCB7CiAgaWQ6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgLyoqIENsaW1iZXIgbGV2ZWwgbmVlZGVkIGJlZm9yZSBpdCBjYW4gYmUgYnVpbHQuICovCiAgbWluTGV2ZWw6IG51bWJlcjsKICAvKiogU2hvcnQgZmxhdm91ciBsaW5lIHNob3duIGluIHRoZSBidWlsZCBtZW51LiAqLwogIGJsdXJiOiBzdHJpbmc7CiAgLyoqIFJvdWdoIGZvb3RwcmludCBpbiB3b3JsZCBwaXhlbHMsIHVzZWQgZm9yIHRoZSBuYW1lcGxhdGUgd2lkdGguICovCiAgd2lkdGg6IG51bWJlcjsKICAvKiogUXVlc3QgaWQgdGhhdCBtdXN0IGJlIGNvbXBsZXRlZCBiZWZvcmUgdGhpcyBidWlsZCB1bmxvY2tzLiAqLwogIHJlcXVpcmVzUXVlc3Q/OiBzdHJpbmc7CiAgLyoqIFNob3duIGluIHRoZSBidWlsZCBtZW51IHdoaWxlIHRoZSBxdWVzdCBpcyB1bmZpbmlzaGVkLiAqLwogIHF1ZXN0SGludD86IHN0cmluZzsKfQoKZXhwb3J0IGNvbnN0IGNhbXBCdWlsZHM6IENhbXBCdWlsZEtpbmRbXSA9IFsKICB7CiAgICBpZDogImNhbXBmaXJlIiwKICAgIG5hbWU6ICJDYW1wIGZpcmUiLAogICAgbWluTGV2ZWw6IDEsCiAgICBibHVyYjogIlN0YWNrZWQgbG9ncywgYSBnb29kIGJsYXplIGFuZCBzb21ld2hlcmUgdG8gZHJ5IHNvY2tzLiIsCiAgICB3aWR0aDogOTAsCiAgICByZXF1aXJlc1F1ZXN0OiAidmFsbGV5LWZpcmV3b29kIiwKICAgIHF1ZXN0SGludDogIkZpbmlzaCB0aGUgRmlyZSBEdXR5IHF1ZXN0IGluIHRoZSB2YWxsZXkiLAogIH0sCiAgeyBpZDogImJpdnkiLCBuYW1lOiAiQml2eSBiYWciLCBtaW5MZXZlbDogMiwgYmx1cmI6ICJBIG5pZ2h0IG91dCB1bmRlciB0aGUgc3RhcnMuIiwgd2lkdGg6IDcwIH0sCgogIHsgaWQ6ICJzbWFsbF90ZW50IiwgbmFtZTogIlNtYWxsIHRlbnQiLCBtaW5MZXZlbDogNSwgYmx1cmI6ICJPbmUtcGVyc29uIG55bG9uIHdlZGdlLiIsIHdpZHRoOiA4MCB9LAogIHsgaWQ6ICJiaWdfdGVudCIsIG5hbWU6ICJCaWcgdGVudCIsIG1pbkxldmVsOiA3LCBibHVyYjogIlJvb20gZm9yIHRoZSB3aG9sZSByb3BlIHRlYW0uIiwgd2lkdGg6IDExMCB9LAogIHsgaWQ6ICJ5dXJ0IiwgbmFtZTogIk1vbmdvbCB5dXJ0IiwgbWluTGV2ZWw6IDEwLCBibHVyYjogIkZlbHQgd2FsbHMsIHdvb2Qgc3RvdmUsIHN0ZXBwZSBzdHlsZS4iLCB3aWR0aDogMTMwIH0sCiAgeyBpZDogInRpbnlfaHV0IiwgbmFtZTogIlRpbnkgaHV0IiwgbWluTGV2ZWw6IDE1LCBibHVyYjogIkZvdXIgd2FsbHMgYW5kIGEgdGluIHJvb2YuIiwgd2lkdGg6IDEyMCB9LAogIHsgaWQ6ICJtZWRpdW1faHV0IiwgbmFtZTogIk1lZGl1bSBodXQiLCBtaW5MZXZlbDogMjAsIGJsdXJiOiAiQnVua3MsIGEgc3RvdmUgYW5kIGEgZHJ5aW5nIHJvb20uIiwgd2lkdGg6IDE2MCB9LAogIHsgaWQ6ICJsYXJnZV9odXQiLCBuYW1lOiAiTGFyZ2UgaHV0IiwgbWluTGV2ZWw6IDI1LCBibHVyYjogIldhcmRlbiwgc291cCBhbmQgZm9ydHkgYmVkcy4iLCB3aWR0aDogMjAwIH0sCiAgeyBpZDogImxvZGdlIiwgbmFtZTogIkFscGluZSBsb2RnZSIsIG1pbkxldmVsOiAzMCwgYmx1cmI6ICJUaW1iZXIgbG9kZ2Ugd2l0aCBhIHN1biB0ZXJyYWNlLiIsIHdpZHRoOiAyNDAgfSwKICB7IGlkOiAicmVmdWdlIiwgbmFtZTogIlN0b25lIHJlZnVnZSIsIG1pbkxldmVsOiA0MCwgYmx1cmI6ICJTdG9ybS1wcm9vZiB3YWxscyBvbiB0aGUgbW9yYWluZS4iLCB3aWR0aDogMjYwIH0sCiAgeyBpZDogImhhbWxldCIsIG5hbWU6ICJNb3VudGFpbiBoYW1sZXQiLCBtaW5MZXZlbDogNTAsIGJsdXJiOiAiQSBoYW5kZnVsIG9mIGNoYWxldHMgYW5kIGEgY2hhcGVsLiIsIHdpZHRoOiAzMjAgfSwKICB7IGlkOiAidmlsbGFnZSIsIG5hbWU6ICJNb3VudGFpbiB2aWxsYWdlIiwgbWluTGV2ZWw6IDYwLCBibHVyYjogIkJha2VyeSwgZ2VhciBzaG9wLCBiZWxsIHRvd2VyLiIsIHdpZHRoOiAzODAgfSwKICB7IGlkOiAidG93biIsIG5hbWU6ICJNb3VudGFpbiB0b3duIiwgbWluTGV2ZWw6IDcwLCBibHVyYjogIkNhYmxlIGNhciwgaG90ZWxzIGFuZCBhIG1haW4gc3RyZWV0LiIsIHdpZHRoOiA0NDAgfSwKICB7IGlkOiAiY2l0eSIsIG5hbWU6ICJNb3VudGFpbiBjaXR5IiwgbWluTGV2ZWw6IDgwLCBibHVyYjogIkZhbnNpcGFuLXN0eWxlIHRlbXBsZSBjaXR5IG9uIHRoZSByaWRnZS4iLCB3aWR0aDogNTIwIH0sCiAgeyBpZDogIm1lZ2FjaXR5IiwgbmFtZTogIk1ldHJvcG9sIG1lZ2FjaXR5IiwgbWluTGV2ZWw6IDEwMCwgYmx1cmI6ICJUb3dlcnMsIHNreSBicmlkZ2VzIGFuZCBuZW9uLiIsIHdpZHRoOiA2MjAgfSwKXTsKCmV4cG9ydCBjb25zdCBidWlsZEJ5SWQgPSAoaWQ6IHN0cmluZyk6IENhbXBCdWlsZEtpbmQgfCB1bmRlZmluZWQgPT4KICBjYW1wQnVpbGRzLmZpbmQoKGIpID0+IGIuaWQgPT09IGlkKTsKCi8qKiBJcyB0aGlzIGJ1aWxkIGF2YWlsYWJsZSB0byB0aGUgY2xpbWJlciByaWdodCBub3c/ICovCmV4cG9ydCBjb25zdCBidWlsZFVubG9ja2VkID0gKAogIGtpbmQ6IENhbXBCdWlsZEtpbmQsCiAgbGV2ZWw6IG51bWJlciwKICBjb21wbGV0ZWRRdWVzdHM6IHN0cmluZ1tdID0gW10sCik6IGJvb2xlYW4gPT4KICBsZXZlbCA+PSBraW5kLm1pbkxldmVsICYmCiAgKCFraW5kLnJlcXVpcmVzUXVlc3QgfHwgY29tcGxldGVkUXVlc3RzLmluY2x1ZGVzKGtpbmQucmVxdWlyZXNRdWVzdCkpOwoKLyoqIFRoZSBiZXN0IGJ1aWxkIGEgY2xpbWJlciBvZiB0aGlzIGxldmVsIG1heSBwdXQgdXAuICovCmV4cG9ydCBjb25zdCBiZXN0QnVpbGRGb3IgPSAobGV2ZWw6IG51bWJlcik6IENhbXBCdWlsZEtpbmQgfCBudWxsID0+CiAgWy4uLmNhbXBCdWlsZHNdLnJldmVyc2UoKS5maW5kKChiKSA9PiAhYi5yZXF1aXJlc1F1ZXN0ICYmIGxldmVsID49IGIubWluTGV2ZWwpID8/IG51bGw7CgovKiogTmV4dCBidWlsZCBzdGlsbCBsb2NrZWQgYXQgdGhpcyBsZXZlbCwgaWYgYW55LiAqLwpleHBvcnQgY29uc3QgbmV4dEJ1aWxkRm9yID0gKGxldmVsOiBudW1iZXIpOiBDYW1wQnVpbGRLaW5kIHwgbnVsbCA9PgogIGNhbXBCdWlsZHMuZmluZCgoYikgPT4gIWIucmVxdWlyZXNRdWVzdCAmJiBsZXZlbCA8IGIubWluTGV2ZWwpID8/IG51bGw7CgoKLyoqIEEgc2Vuc2libGUgZGVmYXVsdCBuYW1lcGxhdGUsIGUuZy4gIk1hcnRpbidzIGh1dCIuICovCmV4cG9ydCBjb25zdCBkZWZhdWx0TGFiZWwgPSAoZGlzcGxheU5hbWU6IHN0cmluZywga2luZDogQ2FtcEJ1aWxkS2luZCk6IHN0cmluZyA9PiB7CiAgY29uc3QgZmlyc3QgPSBkaXNwbGF5TmFtZS50cmltKCkuc3BsaXQoL1xzKy8pWzBdID8/ICJDbGltYmVyIjsKICBjb25zdCBwb3NzZXNzaXZlID0gZmlyc3QuZW5kc1dpdGgoInMiKSA/IGAke2ZpcnN0fSdgIDogYCR7Zmlyc3R9J3NgOwogIGNvbnN0IG5vdW4gPSBraW5kLm5hbWUudG9Mb3dlckNhc2UoKS5yZXBsYWNlKCJtb25nb2wgIiwgIiIpLnJlcGxhY2UoIm1vdW50YWluICIsICIiKTsKICByZXR1cm4gYCR7cG9zc2Vzc2l2ZX0gJHtub3VufWA7Cn07CgovKiogV2hlcmUgYSBidWlsZCBtYXkgc3RhbmQ6IHRoZSBtZWFkb3cgc3RyaXAgaW4gZnJvbnQgb2YgdGhlIHJpZGdlcy4gKi8KZXhwb3J0IGNvbnN0IENBTVBfR1JPVU5EID0geyBtaW5YOiAxNDAsIG1heFg6IDE2NjAsIG1pblk6IDcwMCwgbWF4WTogODYwIH07Cg==
+/**
+ * Base Camp buildings. Every climber may keep one build standing in the camp,
+ * unlocked by their climbing level — a bivy bag at level 2, a mountain
+ * metropolis at level 100.
+ */
+
+export interface CampBuildKind {
+  id: string;
+  name: string;
+  /** Climber level needed before it can be built. */
+  minLevel: number;
+  /** Short flavour line shown in the build menu. */
+  blurb: string;
+  /** Rough footprint in world pixels, used for the nameplate width. */
+  width: number;
+  /** Quest id that must be completed before this build unlocks. */
+  requiresQuest?: string;
+  /** Shown in the build menu while the quest is unfinished. */
+  questHint?: string;
+}
+
+export const campBuilds: CampBuildKind[] = [
+  {
+    id: "campfire",
+    name: "Camp fire",
+    minLevel: 1,
+    blurb: "Stacked logs, a good blaze and somewhere to dry socks.",
+    width: 90,
+    requiresQuest: "valley-firewood",
+    questHint: "Finish the Fire Duty quest in the valley",
+  },
+  { id: "bivy", name: "Bivy bag", minLevel: 2, blurb: "A night out under the stars.", width: 70 },
+
+  { id: "small_tent", name: "Small tent", minLevel: 5, blurb: "One-person nylon wedge.", width: 80 },
+  { id: "big_tent", name: "Big tent", minLevel: 7, blurb: "Room for the whole rope team.", width: 110 },
+  { id: "yurt", name: "Mongol yurt", minLevel: 10, blurb: "Felt walls, wood stove, steppe style.", width: 130 },
+  { id: "tiny_hut", name: "Tiny hut", minLevel: 15, blurb: "Four walls and a tin roof.", width: 120 },
+  { id: "medium_hut", name: "Medium hut", minLevel: 20, blurb: "Bunks, a stove and a drying room.", width: 160 },
+  { id: "large_hut", name: "Large hut", minLevel: 25, blurb: "Warden, soup and forty beds.", width: 200 },
+  { id: "lodge", name: "Alpine lodge", minLevel: 30, blurb: "Timber lodge with a sun terrace.", width: 240 },
+  { id: "refuge", name: "Stone refuge", minLevel: 40, blurb: "Storm-proof walls on the moraine.", width: 260 },
+  { id: "hamlet", name: "Mountain hamlet", minLevel: 50, blurb: "A handful of chalets and a chapel.", width: 320 },
+  { id: "village", name: "Mountain village", minLevel: 60, blurb: "Bakery, gear shop, bell tower.", width: 380 },
+  { id: "town", name: "Mountain town", minLevel: 70, blurb: "Cable car, hotels and a main street.", width: 440 },
+  { id: "city", name: "Mountain city", minLevel: 80, blurb: "Fansipan-style temple city on the ridge.", width: 520 },
+  { id: "megacity", name: "Metropol megacity", minLevel: 100, blurb: "Towers, sky bridges and neon.", width: 620 },
+];
+
+export const buildById = (id: string): CampBuildKind | undefined =>
+  campBuilds.find((b) => b.id === id);
+
+/** Is this build available to the climber right now? */
+export const buildUnlocked = (
+  kind: CampBuildKind,
+  level: number,
+  completedQuests: string[] = [],
+): boolean =>
+  level >= kind.minLevel &&
+  (!kind.requiresQuest || completedQuests.includes(kind.requiresQuest));
+
+/** The best build a climber of this level may put up. */
+export const bestBuildFor = (level: number): CampBuildKind | null =>
+  [...campBuilds].reverse().find((b) => !b.requiresQuest && level >= b.minLevel) ?? null;
+
+/** Next build still locked at this level, if any. */
+export const nextBuildFor = (level: number): CampBuildKind | null =>
+  campBuilds.find((b) => !b.requiresQuest && level < b.minLevel) ?? null;
+
+
+/** A sensible default nameplate, e.g. "Martin's hut". */
+export const defaultLabel = (displayName: string, kind: CampBuildKind): string => {
+  const first = displayName.trim().split(/\s+/)[0] ?? "Climber";
+  const possessive = first.endsWith("s") ? `${first}'` : `${first}'s`;
+  const noun = kind.name.toLowerCase().replace("mongol ", "").replace("mountain ", "");
+  return `${possessive} ${noun}`;
+};
+
+/** Where a build may stand: the meadow strip in front of the ridges. */
+export const CAMP_GROUND = { minX: 140, maxX: 1660, minY: 700, maxY: 860 };

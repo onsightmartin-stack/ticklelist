@@ -1,1 +1,87 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBBcnJvd1JpZ2h0LCBZb3V0dWJlIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IE5hdmJhciBmcm9tICJAL2NvbXBvbmVudHMvTmF2YmFyIjsKaW1wb3J0IFNlbyBmcm9tICJAL2NvbXBvbmVudHMvU2VvIjsKaW1wb3J0IFRpY2tsZWxpc3RDdGEgZnJvbSAiQC9jb21wb25lbnRzL1RpY2tsZWxpc3RDdGEiOwppbXBvcnQgeyBjb250aW5lbnRIdWJzIH0gZnJvbSAiQC9saWIvaGlnaGVzdC1tb3VudGFpbnMiOwppbXBvcnQgeyBjb3VudHJpZXMgfSBmcm9tICJAL2RhdGEvY291bnRyaWVzIjsKaW1wb3J0IHsgc2x1Z2lmeSB9IGZyb20gIkAvbGliL3NsdWciOwoKLyoqCiAqIExhbmRpbmcgcGFnZSBsaW5rZWQgZnJvbSBZb3VUdWJlIHZpZGVvIGRlc2NyaXB0aW9ucy4gU2hvcnQsIG5vIGNsdXR0ZXI6CiAqIG9uZSBwcm9taXNlLCBvbmUgYWN0aW9uIChzdGFydCBhIHRpY2sgbGlzdCksIHBsdXMgYSBzaG9ydGN1dCBpbnRvIHRoZQogKiBwZWFrIHBhZ2VzIGZvciB0aGUgY291bnRyeSB0aGUgdmlkZW8gd2FzIGZpbG1lZCBpbi4KICovCmNvbnN0IFN0YXJ0UGFnZSA9ICgpID0+IHsKICBjb25zdCByZWNlbnQgPSBjb3VudHJpZXMKICAgIC5maWx0ZXIoKGMpID0+IGMuc3RhdHVzID09PSAiY2xpbWJlZCIgJiYgYy55ZWFyKQogICAgLnNvcnQoKGEsIGIpID0+IChiLnllYXIgPz8gMCkgKiAxMiArIChiLm1vbnRoID8/IDApIC0gKChhLnllYXIgPz8gMCkgKiAxMiArIChhLm1vbnRoID8/IDApKSkKICAgIC5zbGljZSgwLCA4KTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctYmFja2dyb3VuZCI+CiAgICAgIDxTZW8KICAgICAgICB0aXRsZT0iU3RhcnQgWW91ciBPd24gVGljayBMaXN0IOKAlCBPbnNpZ2h0IE1hcnRpbiIKICAgICAgICBkZXNjcmlwdGlvbj0iQ2FtZSBmcm9tIHRoZSB2aWRlb3M/IFRyYWNrIGV2ZXJ5IHN1bW1pdCB5b3UndmUgY2xpbWJlZCwgYnVpbGQgYnVja2V0IGxpc3RzIGFuZCBmb2xsb3cgb3RoZXIgY2xpbWJlcnMgb24gVGlja2xlbGlzdCDigJQgZnJlZS4iCiAgICAgICAgcGF0aD0iL3N0YXJ0IgogICAgICAvPgogICAgICA8TmF2YmFyIC8+CiAgICAgIDxtYWluIGNsYXNzTmFtZT0ibXgtYXV0byBtYXgtdy0zeGwgcHgtNCBwdC0yNCBwYi0xNiI+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICA8WW91dHViZSBjbGFzc05hbWU9ImgtNCB3LTQgdGV4dC1wcmltYXJ5IiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4gQ2FtZSBmcm9tIHRoZSB2aWRlb3M/CiAgICAgICAgPC9wPgogICAgICAgIDxoMSBjbGFzc05hbWU9Im10LTMgZm9udC1kaXNwbGF5IHRleHQtM3hsIHNtOnRleHQtNHhsIHRyYWNraW5nLXdpZGUgdGV4dC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIFRyYWNrIHlvdXIgb3duIG1vdW50YWlucwogICAgICAgIDwvaDE+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC00IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICBJJ20gY2xpbWJpbmcgdGhlIGhpZ2hlc3QgbW91bnRhaW4gb2YgZXZlcnkgY291bnRyeSBvbiBFYXJ0aCBhbmQgbG9nZ2luZyBldmVyeSBzdGVwIG9mIGl0LgogICAgICAgICAgWW91IGNhbiBkbyB0aGUgc2FtZSB3aXRoIHlvdXIgb3duIHBlYWtzIOKAlCB0aGUgc3VtbWl0cyB5b3UndmUgYWxyZWFkeSBjbGltYmVkLCB0aGUgb25lcwogICAgICAgICAgeW91J3JlIHBsYW5uaW5nLCBhbmQgdGhlIGNvdW50cmllcyB5b3Ugd2FudCB0byBzZWUuCiAgICAgICAgPC9wPgoKICAgICAgICA8VGlja2xlbGlzdEN0YSBjbGFzc05hbWU9Im10LTgiIGhlYWRsaW5lPSJMb2cgeW91ciBmaXJzdCBzdW1taXQgaW4gdW5kZXIgYSBtaW51dGUiIHNvdXJjZT0ieW91dHViZS1zdGFydCIgLz4KCiAgICAgICAgPGgyIGNsYXNzTmFtZT0ibXQtMTIgZm9udC1kaXNwbGF5IHRleHQteGwgdHJhY2tpbmctd2lkZSB0ZXh0LWZvcmVncm91bmQiPgogICAgICAgICAgUGVha3MgZnJvbSB0aGUgbGF0ZXN0IHZpZGVvcwogICAgICAgIDwvaDI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTQgZ3JpZCBnYXAtMiBzbTpncmlkLWNvbHMtMiI+CiAgICAgICAgICB7cmVjZW50Lm1hcCgoYykgPT4gKAogICAgICAgICAgICA8TGluawogICAgICAgICAgICAgIGtleT17Yy5jb3VudHJ5fQogICAgICAgICAgICAgIHRvPXtgL3BlYWsvJHtzbHVnaWZ5KGMuY291bnRyeSl9YH0KICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMiByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQvNjAgcHgtNCBweS0zIHRleHQtc20gdGV4dC1mb3JlZ3JvdW5kIGhvdmVyOmJvcmRlci1wcmltYXJ5LzYwIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0cnVuY2F0ZSI+CiAgICAgICAgICAgICAgICB7Yy5oaWdoUG9pbnR9IDxzcGFuIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj7CtyB7Yy5jb3VudHJ5fTwvc3Bhbj4KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPEFycm93UmlnaHQgY2xhc3NOYW1lPSJoLTQgdy00IHNocmluay0wIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICkpfQogICAgICAgIDwvZGl2PgoKICAgICAgICA8aDIgY2xhc3NOYW1lPSJtdC0xMiBmb250LWRpc3BsYXkgdGV4dC14bCB0cmFja2luZy13aWRlIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICBPciBicm93c2UgZXZlcnkgY291bnRyeSBoaWdocG9pbnQKICAgICAgICA8L2gyPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC00IGZsZXggZmxleC13cmFwIGdhcC0yIj4KICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgIHRvPSIvaGlnaGVzdC1tb3VudGFpbnMiCiAgICAgICAgICAgIGNsYXNzTmFtZT0icm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItcHJpbWFyeS82MCBweC00IHB5LTEuNSB0ZXh0LXNtIHRleHQtcHJpbWFyeSBob3ZlcjpiZy1wcmltYXJ5LzEwIgogICAgICAgICAgPgogICAgICAgICAgICBBbGwgMTk1IGhpZ2hwb2ludHMKICAgICAgICAgIDwvTGluaz4KICAgICAgICAgIHtjb250aW5lbnRIdWJzLm1hcCgoYykgPT4gKAogICAgICAgICAgICA8TGluawogICAgICAgICAgICAgIGtleT17Yy5zbHVnfQogICAgICAgICAgICAgIHRvPXtgL2hpZ2hlc3QtbW91bnRhaW5zLyR7Yy5zbHVnfWB9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJyb3VuZGVkLWZ1bGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgcHgtNCBweS0xLjUgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge2MubmFtZX0KICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvbWFpbj4KICAgIDwvZGl2PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBTdGFydFBhZ2U7Cg==
+import { Link } from "@/lib/router-compat";
+import { ArrowRight, Youtube } from "lucide-react";
+import Navbar from "@/components/Navbar";
+import Seo from "@/components/Seo";
+import TicklelistCta from "@/components/TicklelistCta";
+import { continentHubs } from "@/lib/highest-mountains";
+import { countries } from "@/data/countries";
+import { slugify } from "@/lib/slug";
+
+/**
+ * Landing page linked from YouTube video descriptions. Short, no clutter:
+ * one promise, one action (start a tick list), plus a shortcut into the
+ * peak pages for the country the video was filmed in.
+ */
+const StartPage = () => {
+  const recent = countries
+    .filter((c) => c.status === "climbed" && c.year)
+    .sort((a, b) => (b.year ?? 0) * 12 + (b.month ?? 0) - ((a.year ?? 0) * 12 + (a.month ?? 0)))
+    .slice(0, 8);
+
+  return (
+    <div className="min-h-screen bg-background">
+      <Seo
+        title="Start Your Own Tick List — Onsight Martin"
+        description="Came from the videos? Track every summit you've climbed, build bucket lists and follow other climbers on Ticklelist — free."
+        path="/start"
+      />
+      <Navbar />
+      <main className="mx-auto max-w-3xl px-4 pt-24 pb-16">
+        <p className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Youtube className="h-4 w-4 text-primary" aria-hidden="true" /> Came from the videos?
+        </p>
+        <h1 className="mt-3 font-display text-3xl sm:text-4xl tracking-wide text-foreground">
+          Track your own mountains
+        </h1>
+        <p className="mt-4 text-muted-foreground">
+          I'm climbing the highest mountain of every country on Earth and logging every step of it.
+          You can do the same with your own peaks — the summits you've already climbed, the ones
+          you're planning, and the countries you want to see.
+        </p>
+
+        <TicklelistCta className="mt-8" headline="Log your first summit in under a minute" source="youtube-start" />
+
+        <h2 className="mt-12 font-display text-xl tracking-wide text-foreground">
+          Peaks from the latest videos
+        </h2>
+        <div className="mt-4 grid gap-2 sm:grid-cols-2">
+          {recent.map((c) => (
+            <Link
+              key={c.country}
+              to={`/peak/${slugify(c.country)}`}
+              className="flex items-center justify-between gap-2 rounded-lg border border-border bg-card/60 px-4 py-3 text-sm text-foreground hover:border-primary/60"
+            >
+              <span className="truncate">
+                {c.highPoint} <span className="text-muted-foreground">· {c.country}</span>
+              </span>
+              <ArrowRight className="h-4 w-4 shrink-0 text-muted-foreground" aria-hidden="true" />
+            </Link>
+          ))}
+        </div>
+
+        <h2 className="mt-12 font-display text-xl tracking-wide text-foreground">
+          Or browse every country highpoint
+        </h2>
+        <div className="mt-4 flex flex-wrap gap-2">
+          <Link
+            to="/highest-mountains"
+            className="rounded-full border border-primary/60 px-4 py-1.5 text-sm text-primary hover:bg-primary/10"
+          >
+            All 195 highpoints
+          </Link>
+          {continentHubs.map((c) => (
+            <Link
+              key={c.slug}
+              to={`/highest-mountains/${c.slug}`}
+              className="rounded-full border border-border px-4 py-1.5 text-sm text-muted-foreground hover:text-foreground"
+            >
+              {c.name}
+            </Link>
+          ))}
+        </div>
+      </main>
+    </div>
+  );
+};
+
+export default StartPage;

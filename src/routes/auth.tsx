@@ -1,1 +1,6 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBBdXRoUGFnZSBmcm9tICJAL3BhZ2VzL0F1dGgiOwoKZXhwb3J0IGNvbnN0IFJvdXRlID0gY3JlYXRlRmlsZVJvdXRlKCIvYXV0aCIpKHsKICBjb21wb25lbnQ6IEF1dGhQYWdlLAp9KTsK
+import { createFileRoute } from "@tanstack/react-router";
+import AuthPage from "@/pages/Auth";
+
+export const Route = createFileRoute("/auth")({
+  component: AuthPage,
+});

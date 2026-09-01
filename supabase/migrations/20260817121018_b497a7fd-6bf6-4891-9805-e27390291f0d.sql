@@ -1,1 +1,18 @@
-QUxURVIgVEFCTEUgcHVibGljLmFkdmVudHVyZV9zaWdudXBzIERST1AgQ09OU1RSQUlOVCBJRiBFWElTVFMgYWR2ZW50dXJlX3NpZ251cHNfc3RhdHVzX2NoZWNrOwpBTFRFUiBUQUJMRSBwdWJsaWMuYWR2ZW50dXJlX3NpZ251cHMgQUREIENPTlNUUkFJTlQgYWR2ZW50dXJlX3NpZ251cHNfc3RhdHVzX2NoZWNrIENIRUNLIChzdGF0dXMgSU4gKCdpbnRlcmVzdGVkJywnam9pbmluZycsJ2ludml0ZWQnKSk7CgpEUk9QIFBPTElDWSBJRiBFWElTVFMgIkNyZWF0b3JzIGNhbiBpbnZpdGUgbWVtYmVycyIgT04gcHVibGljLmFkdmVudHVyZV9zaWdudXBzOwpDUkVBVEUgUE9MSUNZICJDcmVhdG9ycyBjYW4gaW52aXRlIG1lbWJlcnMiCk9OIHB1YmxpYy5hZHZlbnR1cmVfc2lnbnVwcyBGT1IgSU5TRVJUIFRPIGF1dGhlbnRpY2F0ZWQKV0lUSCBDSEVDSyAoCiAgc3RhdHVzID0gJ2ludml0ZWQnCiAgQU5EIEVYSVNUUyAoU0VMRUNUIDEgRlJPTSBwdWJsaWMuYWR2ZW50dXJlcyBhIFdIRVJFIGEuaWQgPSBhZHZlbnR1cmVfaWQgQU5EIGEuY3JlYXRvcl9pZCA9IGF1dGgudWlkKCkpCik7CgpEUk9QIFBPTElDWSBJRiBFWElTVFMgIkNyZWF0b3JzIGNhbiByZW1vdmUgaW52aXRlcyIgT04gcHVibGljLmFkdmVudHVyZV9zaWdudXBzOwpDUkVBVEUgUE9MSUNZICJDcmVhdG9ycyBjYW4gcmVtb3ZlIGludml0ZXMiCk9OIHB1YmxpYy5hZHZlbnR1cmVfc2lnbnVwcyBGT1IgREVMRVRFIFRPIGF1dGhlbnRpY2F0ZWQKVVNJTkcgKAogIHN0YXR1cyA9ICdpbnZpdGVkJwogIEFORCBFWElTVFMgKFNFTEVDVCAxIEZST00gcHVibGljLmFkdmVudHVyZXMgYSBXSEVSRSBhLmlkID0gYWR2ZW50dXJlX2lkIEFORCBhLmNyZWF0b3JfaWQgPSBhdXRoLnVpZCgpKQopOw==
+ALTER TABLE public.adventure_signups DROP CONSTRAINT IF EXISTS adventure_signups_status_check;
+ALTER TABLE public.adventure_signups ADD CONSTRAINT adventure_signups_status_check CHECK (status IN ('interested','joining','invited'));
+
+DROP POLICY IF EXISTS "Creators can invite members" ON public.adventure_signups;
+CREATE POLICY "Creators can invite members"
+ON public.adventure_signups FOR INSERT TO authenticated
+WITH CHECK (
+  status = 'invited'
+  AND EXISTS (SELECT 1 FROM public.adventures a WHERE a.id = adventure_id AND a.creator_id = auth.uid())
+);
+
+DROP POLICY IF EXISTS "Creators can remove invites" ON public.adventure_signups;
+CREATE POLICY "Creators can remove invites"
+ON public.adventure_signups FOR DELETE TO authenticated
+USING (
+  status = 'invited'
+  AND EXISTS (SELECT 1 FROM public.adventures a WHERE a.id = adventure_id AND a.creator_id = auth.uid())
+);

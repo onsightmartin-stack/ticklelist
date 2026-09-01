@@ -1,1 +1,309 @@
-LyoqCiAqIEJhc2UgQ2FtcCBhdWRpbzogYSBjaGlsbCwgbG9vcGluZyB0cmliYWwgZ3Jvb3ZlIGFuZCBmb290c3RlcCBzb3VuZHMsIGFsbAogKiBzeW50aGVzaXNlZCBsaXZlIHdpdGggdGhlIFdlYiBBdWRpbyBBUEkgc28gdGhlIGdhbWUgc2hpcHMgbm8gYXVkaW8gZmlsZXMuCiAqCiAqIEV2ZXJ5dGhpbmcgaXMgbGF6eTogbm8gQXVkaW9Db250ZXh0IGlzIGNyZWF0ZWQgdW50aWwgdGhlIHBsYXllciB0dXJucyB0aGUKICogc291bmQgb24gKGJyb3dzZXJzIHJlcXVpcmUgYSB1c2VyIGdlc3R1cmUgYW55d2F5KS4KICovCgpjb25zdCBQRU5UQVRPTklDID0gWzAsIDMsIDUsIDcsIDEwXTsgLy8gbWlub3IgcGVudGF0b25pYyDigJQgZWFzeSwgInRyaWJhbCIgZmxhdm91cgpjb25zdCBST09UID0gMTk2OyAvLyBHMwpjb25zdCBCUE0gPSA3MjsKY29uc3QgQkVBVCA9IDYwIC8gQlBNOwpjb25zdCBCQVIgPSBCRUFUICogNDsKCmNvbnN0IG5vdGVIeiA9IChzZW1pdG9uZTogbnVtYmVyKSA9PiBST09UICogTWF0aC5wb3coMiwgc2VtaXRvbmUgLyAxMik7CgpleHBvcnQgY2xhc3MgQ2FtcEF1ZGlvIHsKICBwcml2YXRlIGN0eDogQXVkaW9Db250ZXh0IHwgbnVsbCA9IG51bGw7CiAgcHJpdmF0ZSBtYXN0ZXI6IEdhaW5Ob2RlIHwgbnVsbCA9IG51bGw7CiAgcHJpdmF0ZSBtdXNpY0dhaW46IEdhaW5Ob2RlIHwgbnVsbCA9IG51bGw7CiAgcHJpdmF0ZSB0aW1lcjogUmV0dXJuVHlwZTx0eXBlb2Ygc2V0SW50ZXJ2YWw+IHwgbnVsbCA9IG51bGw7CiAgcHJpdmF0ZSBuZXh0QmFyID0gMDsKICBwcml2YXRlIGJhciA9IDA7CiAgcHJpdmF0ZSBub2lzZTogQXVkaW9CdWZmZXIgfCBudWxsID0gbnVsbDsKCiAgcHJpdmF0ZSBsZWZ0ID0gZmFsc2U7CgogIHByaXZhdGUgZW5zdXJlKCk6IEF1ZGlvQ29udGV4dCB8IG51bGwgewogICAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm4gbnVsbDsKICAgIGlmICghdGhpcy5jdHgpIHsKICAgICAgY29uc3QgQ3RvciA9CiAgICAgICAgd2luZG93LkF1ZGlvQ29udGV4dCA/PwogICAgICAgICh3aW5kb3cgYXMgdW5rbm93biBhcyB7IHdlYmtpdEF1ZGlvQ29udGV4dD86IHR5cGVvZiBBdWRpb0NvbnRleHQgfSkud2Via2l0QXVkaW9Db250ZXh0OwogICAgICBpZiAoIUN0b3IpIHJldHVybiBudWxsOwogICAgICB0aGlzLmN0eCA9IG5ldyBDdG9yKCk7CiAgICAgIHRoaXMubWFzdGVyID0gdGhpcy5jdHguY3JlYXRlR2FpbigpOwogICAgICB0aGlzLm1hc3Rlci5nYWluLnZhbHVlID0gMC45OwogICAgICB0aGlzLm1hc3Rlci5jb25uZWN0KHRoaXMuY3R4LmRlc3RpbmF0aW9uKTsKICAgICAgdGhpcy5tdXNpY0dhaW4gPSB0aGlzLmN0eC5jcmVhdGVHYWluKCk7CiAgICAgIHRoaXMubXVzaWNHYWluLmdhaW4udmFsdWUgPSAwOwogICAgICB0aGlzLm11c2ljR2Fpbi5jb25uZWN0KHRoaXMubWFzdGVyKTsKICAgICAgLy8gT25lIHNlY29uZCBvZiB3aGl0ZSBub2lzZSwgcmV1c2VkIGZvciBkcnVtcywgc2hha2VyIGFuZCBmb290c3RlcHMuCiAgICAgIGNvbnN0IGxlbiA9IHRoaXMuY3R4LnNhbXBsZVJhdGU7CiAgICAgIHRoaXMubm9pc2UgPSB0aGlzLmN0eC5jcmVhdGVCdWZmZXIoMSwgbGVuLCB0aGlzLmN0eC5zYW1wbGVSYXRlKTsKICAgICAgY29uc3QgZGF0YSA9IHRoaXMubm9pc2UuZ2V0Q2hhbm5lbERhdGEoMCk7CiAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgbGVuOyBpKyspIGRhdGFbaV0gPSBNYXRoLnJhbmRvbSgpICogMiAtIDE7CiAgICB9CiAgICB2b2lkIHRoaXMuY3R4LnJlc3VtZSgpOwogICAgcmV0dXJuIHRoaXMuY3R4OwogIH0KCiAgLyoqIFNob3J0IHBpdGNoZWQgdG9uZSDigJQga2FsaW1iYSAvIHdvb2RlbiBmbHV0ZSB2b2ljZS4gKi8KICBwcml2YXRlIHRvbmUoYXQ6IG51bWJlciwgaHo6IG51bWJlciwgZHVyOiBudW1iZXIsIGdhaW46IG51bWJlciwgdHlwZTogT3NjaWxsYXRvclR5cGUpIHsKICAgIGNvbnN0IGN0eCA9IHRoaXMuY3R4OwogICAgY29uc3Qgb3V0ID0gdGhpcy5tdXNpY0dhaW47CiAgICBpZiAoIWN0eCB8fCAhb3V0KSByZXR1cm47CiAgICBjb25zdCBvc2MgPSBjdHguY3JlYXRlT3NjaWxsYXRvcigpOwogICAgY29uc3QgZyA9IGN0eC5jcmVhdGVHYWluKCk7CiAgICBvc2MudHlwZSA9IHR5cGU7CiAgICBvc2MuZnJlcXVlbmN5LnNldFZhbHVlQXRUaW1lKGh6LCBhdCk7CiAgICBnLmdhaW4uc2V0VmFsdWVBdFRpbWUoMC4wMDAxLCBhdCk7CiAgICBnLmdhaW4uZXhwb25lbnRpYWxSYW1wVG9WYWx1ZUF0VGltZShnYWluLCBhdCArIDAuMDIpOwogICAgZy5nYWluLmV4cG9uZW50aWFsUmFtcFRvVmFsdWVBdFRpbWUoMC4wMDAxLCBhdCArIGR1cik7CiAgICBvc2MuY29ubmVjdChnKS5jb25uZWN0KG91dCk7CiAgICBvc2Muc3RhcnQoYXQpOwogICAgb3NjLnN0b3AoYXQgKyBkdXIgKyAwLjA1KTsKICB9CgogIC8qKiBIYW5kIGRydW06IHBpdGNoZWQgdGh1bXAgd2l0aCBhIHRvdWNoIG9mIGJvZHkuICovCiAgcHJpdmF0ZSBkcnVtKGF0OiBudW1iZXIsIGh6OiBudW1iZXIsIGdhaW46IG51bWJlciwgZHVyID0gMC4zNSwgZGVzdDogQXVkaW9Ob2RlIHwgbnVsbCA9IG51bGwpIHsKICAgIGNvbnN0IGN0eCA9IHRoaXMuY3R4OwogICAgY29uc3Qgb3V0ID0gZGVzdCA/PyB0aGlzLm11c2ljR2FpbjsKICAgIGlmICghY3R4IHx8ICFvdXQpIHJldHVybjsKICAgIGNvbnN0IG9zYyA9IGN0eC5jcmVhdGVPc2NpbGxhdG9yKCk7CiAgICBjb25zdCBnID0gY3R4LmNyZWF0ZUdhaW4oKTsKICAgIG9zYy50eXBlID0gInNpbmUiOwogICAgb3NjLmZyZXF1ZW5jeS5zZXRWYWx1ZUF0VGltZShoeiAqIDIuMiwgYXQpOwogICAgb3NjLmZyZXF1ZW5jeS5leHBvbmVudGlhbFJhbXBUb1ZhbHVlQXRUaW1lKGh6LCBhdCArIDAuMDkpOwogICAgZy5nYWluLnNldFZhbHVlQXRUaW1lKGdhaW4sIGF0KTsKICAgIGcuZ2Fpbi5leHBvbmVudGlhbFJhbXBUb1ZhbHVlQXRUaW1lKDAuMDAwMSwgYXQgKyBkdXIpOwogICAgb3NjLmNvbm5lY3QoZykuY29ubmVjdChvdXQpOwogICAgb3NjLnN0YXJ0KGF0KTsKICAgIG9zYy5zdG9wKGF0ICsgZHVyICsgMC4wNSk7CiAgfQoKICAvKiogRmlsdGVyZWQgbm9pc2UgYnVyc3Qg4oCUIHNoYWtlciwgcmltIHRhcHMsIGZvb3RzdGVwcy4gKi8KICBwcml2YXRlIGhpc3MoCiAgICBhdDogbnVtYmVyLAogICAgZ2FpbjogbnVtYmVyLAogICAgZHVyOiBudW1iZXIsCiAgICBmcmVxOiBudW1iZXIsCiAgICBkZXN0OiBBdWRpb05vZGUgfCBudWxsID0gdGhpcy5tdXNpY0dhaW4sCiAgKSB7CiAgICBjb25zdCBjdHggPSB0aGlzLmN0eDsKICAgIGlmICghY3R4IHx8ICF0aGlzLm5vaXNlIHx8ICFkZXN0KSByZXR1cm47CiAgICBjb25zdCBzcmMgPSBjdHguY3JlYXRlQnVmZmVyU291cmNlKCk7CiAgICBzcmMuYnVmZmVyID0gdGhpcy5ub2lzZTsKICAgIHNyYy5sb29wID0gdHJ1ZTsKICAgIGNvbnN0IGZpbHRlciA9IGN0eC5jcmVhdGVCaXF1YWRGaWx0ZXIoKTsKICAgIGZpbHRlci50eXBlID0gImJhbmRwYXNzIjsKICAgIGZpbHRlci5mcmVxdWVuY3kudmFsdWUgPSBmcmVxOwogICAgZmlsdGVyLlEudmFsdWUgPSAwLjk7CiAgICBjb25zdCBnID0gY3R4LmNyZWF0ZUdhaW4oKTsKICAgIGcuZ2Fpbi5zZXRWYWx1ZUF0VGltZShnYWluLCBhdCk7CiAgICBnLmdhaW4uZXhwb25lbnRpYWxSYW1wVG9WYWx1ZUF0VGltZSgwLjAwMDEsIGF0ICsgZHVyKTsKICAgIHNyYy5jb25uZWN0KGZpbHRlcikuY29ubmVjdChnKS5jb25uZWN0KGRlc3QpOwogICAgc3JjLnN0YXJ0KGF0KTsKICAgIHNyYy5zdG9wKGF0ICsgZHVyICsgMC4wNSk7CiAgfQoKICAvKiogTGF5IGRvd24gb25lIGJhciBvZiB0aGUgZ3Jvb3ZlIGF0IHRoZSBnaXZlbiBjb250ZXh0IHRpbWUuICovCiAgcHJpdmF0ZSBzY2hlZHVsZUJhcihhdDogbnVtYmVyKSB7CiAgICBjb25zdCBiID0gdGhpcy5iYXI7CiAgICAvLyBEamVtYmUgcGF0dGVybjogZGVlcCBvbiAxIGFuZCAzLCBzbGFwcyBpbiBiZXR3ZWVuLgogICAgdGhpcy5kcnVtKGF0LCA4MiwgMC41KTsKICAgIHRoaXMuZHJ1bShhdCArIEJFQVQgKiAxLjUsIDEyMCwgMC4yOCwgMC4yNSk7CiAgICB0aGlzLmRydW0oYXQgKyBCRUFUICogMiwgOTYsIDAuNCk7CiAgICB0aGlzLmRydW0oYXQgKyBCRUFUICogMy41LCAxNTAsIDAuMjIsIDAuMik7CiAgICAvLyBTaGFrZXIgb24gZXZlcnkgZWlnaHRoLCBzb2Z0ZXIgb2ZmLWJlYXRzLgogICAgZm9yIChsZXQgaSA9IDA7IGkgPCA4OyBpKyspIHsKICAgICAgdGhpcy5oaXNzKGF0ICsgKEJFQVQgLyAyKSAqIGksIGkgJSAyID09PSAwID8gMC4wNSA6IDAuMDMsIDAuMDcsIDY1MDApOwogICAgfQogICAgLy8gRHJvbmUgZmlmdGggdW5kZXJuZWF0aCwgb25lIHBlciBiYXIuCiAgICB0aGlzLnRvbmUoYXQsIFJPT1QgLyAyLCBCQVIsIDAuMDUsICJ0cmlhbmdsZSIpOwogICAgdGhpcy50b25lKGF0LCBub3RlSHooNykgLyAyLCBCQVIsIDAuMDM1LCAidHJpYW5nbGUiKTsKICAgIC8vIExhenkgcGVudGF0b25pYyBtZWxvZHkg4oCUIGEgZmV3IG5vdGVzIHBlciBiYXIsIHNoaWZ0aW5nIGV2ZXJ5IGN5Y2xlLgogICAgY29uc3Qgc3RlcHMgPSBbMCwgMS41LCAyLjUsIDNdOwogICAgc3RlcHMuZm9yRWFjaCgocywgaSkgPT4gewogICAgICBjb25zdCBpZHggPSAoYiAqIDIgKyBpICogMykgJSBQRU5UQVRPTklDLmxlbmd0aDsKICAgICAgY29uc3Qgb2N0ID0gKGIgKyBpKSAlIDMgPT09IDAgPyAxMiA6IDA7CiAgICAgIHRoaXMudG9uZShhdCArIEJFQVQgKiBzLCBub3RlSHooUEVOVEFUT05JQ1tpZHhdISArIDEyICsgb2N0KSwgMC45LCAwLjA5LCAic2luZSIpOwogICAgfSk7CiAgICB0aGlzLmJhciA9IChiICsgMSkgJSA4OwogIH0KCiAgLyoqIEZhZGUgdGhlIHRyaWJhbCBsb29wIGluIGFuZCBrZWVwIGl0IHNjaGVkdWxlZCBhaGVhZCBvZiB0aGUgY2xvY2suICovCiAgc3RhcnRNdXNpYygpIHsKICAgIGNvbnN0IGN0eCA9IHRoaXMuZW5zdXJlKCk7CiAgICBpZiAoIWN0eCB8fCAhdGhpcy5tdXNpY0dhaW4gfHwgdGhpcy50aW1lcikgcmV0dXJuOwogICAgdGhpcy5tdXNpY0dhaW4uZ2Fpbi5jYW5jZWxTY2hlZHVsZWRWYWx1ZXMoY3R4LmN1cnJlbnRUaW1lKTsKICAgIHRoaXMubXVzaWNHYWluLmdhaW4uc2V0VmFsdWVBdFRpbWUoMC4wMDAxLCBjdHguY3VycmVudFRpbWUpOwogICAgdGhpcy5tdXNpY0dhaW4uZ2Fpbi5saW5lYXJSYW1wVG9WYWx1ZUF0VGltZSgwLjUsIGN0eC5jdXJyZW50VGltZSArIDEuNSk7CiAgICB0aGlzLm5leHRCYXIgPSBjdHguY3VycmVudFRpbWUgKyAwLjI7CiAgICB0aGlzLnRpbWVyID0gc2V0SW50ZXJ2YWwoKCkgPT4gewogICAgICBjb25zdCBjID0gdGhpcy5jdHg7CiAgICAgIGlmICghYykgcmV0dXJuOwogICAgICB3aGlsZSAodGhpcy5uZXh0QmFyIDwgYy5jdXJyZW50VGltZSArIDIpIHsKICAgICAgICB0aGlzLnNjaGVkdWxlQmFyKHRoaXMubmV4dEJhcik7CiAgICAgICAgdGhpcy5uZXh0QmFyICs9IEJBUjsKICAgICAgfQogICAgfSwgNDAwKTsKICB9CgogIHN0b3BNdXNpYygpIHsKICAgIGlmICh0aGlzLnRpbWVyKSBjbGVhckludGVydmFsKHRoaXMudGltZXIpOwogICAgdGhpcy50aW1lciA9IG51bGw7CiAgICBjb25zdCBjdHggPSB0aGlzLmN0eDsKICAgIGlmIChjdHggJiYgdGhpcy5tdXNpY0dhaW4pIHsKICAgICAgdGhpcy5tdXNpY0dhaW4uZ2Fpbi5jYW5jZWxTY2hlZHVsZWRWYWx1ZXMoY3R4LmN1cnJlbnRUaW1lKTsKICAgICAgdGhpcy5tdXNpY0dhaW4uZ2Fpbi5zZXRUYXJnZXRBdFRpbWUoMC4wMDAxLCBjdHguY3VycmVudFRpbWUsIDAuMik7CiAgICB9CiAgfQoKICAvKiogU29mdCBkcmFnZ2luZyBub2lzZSBzd2VlcCDigJQgdGhlIHNjdWZmIG9mIGEgc29sZSBvdmVyIGdyaXQuICovCiAgcHJpdmF0ZSBzY3VmZihhdDogbnVtYmVyLCBnYWluOiBudW1iZXIsIGR1cjogbnVtYmVyLCBmcm9tOiBudW1iZXIsIHRvOiBudW1iZXIpIHsKICAgIGNvbnN0IGN0eCA9IHRoaXMuY3R4OwogICAgaWYgKCFjdHggfHwgIXRoaXMubm9pc2UgfHwgIXRoaXMubWFzdGVyKSByZXR1cm47CiAgICBjb25zdCBzcmMgPSBjdHguY3JlYXRlQnVmZmVyU291cmNlKCk7CiAgICBzcmMuYnVmZmVyID0gdGhpcy5ub2lzZTsKICAgIHNyYy5sb29wID0gdHJ1ZTsKICAgIHNyYy5wbGF5YmFja1JhdGUudmFsdWUgPSAwLjYgKyBNYXRoLnJhbmRvbSgpICogMC41OwogICAgY29uc3QgZmlsdGVyID0gY3R4LmNyZWF0ZUJpcXVhZEZpbHRlcigpOwogICAgZmlsdGVyLnR5cGUgPSAiYmFuZHBhc3MiOwogICAgZmlsdGVyLlEudmFsdWUgPSAwLjY7CiAgICBmaWx0ZXIuZnJlcXVlbmN5LnNldFZhbHVlQXRUaW1lKGZyb20sIGF0KTsKICAgIGZpbHRlci5mcmVxdWVuY3kuZXhwb25lbnRpYWxSYW1wVG9WYWx1ZUF0VGltZSh0bywgYXQgKyBkdXIpOwogICAgY29uc3QgZyA9IGN0eC5jcmVhdGVHYWluKCk7CiAgICAvLyBTb2Z0IHN3ZWxsIGluc3RlYWQgb2YgYSBjbGljaywgdGhlbiBhIGxvbmcgdGFpbDogdGhhdCdzIHRoZSBzaHVmZmxlLgogICAgZy5nYWluLnNldFZhbHVlQXRUaW1lKDAuMDAwMSwgYXQpOwogICAgZy5nYWluLmxpbmVhclJhbXBUb1ZhbHVlQXRUaW1lKGdhaW4sIGF0ICsgZHVyICogMC4zNSk7CiAgICBnLmdhaW4uZXhwb25lbnRpYWxSYW1wVG9WYWx1ZUF0VGltZSgwLjAwMDEsIGF0ICsgZHVyKTsKICAgIHNyYy5jb25uZWN0KGZpbHRlcikuY29ubmVjdChnKS5jb25uZWN0KHRoaXMubWFzdGVyKTsKICAgIHNyYy5zdGFydChhdCk7CiAgICBzcmMuc3RvcChhdCArIGR1ciArIDAuMDUpOwogIH0KCiAgLyoqIEEgc2h1ZmZsaW5nIGZvb3RmYWxsOiBzb2xlIGRyYWdnaW5nIG92ZXIgZ3JpdCwgdGhlbiBhIHNvZnQgYm9keSB0aHVtcC4gKi8KICBzdGVwKCkgewogICAgY29uc3QgY3R4ID0gdGhpcy5lbnN1cmUoKTsKICAgIGlmICghY3R4IHx8ICF0aGlzLm1hc3RlcikgcmV0dXJuOwogICAgY29uc3QgYXQgPSBjdHguY3VycmVudFRpbWUgKyAwLjAwNTsKICAgIHRoaXMubGVmdCA9ICF0aGlzLmxlZnQ7CiAgICAvLyBBbHRlcm5hdGluZyBmZWV0IHNvdW5kIHNsaWdodGx5IGRpZmZlcmVudCwgc28gc3RlcHMgZG9uJ3QgZmVlbCBjbG9uZWQuCiAgICBjb25zdCB0aWx0ID0gdGhpcy5sZWZ0ID8gMSA6IDAuODI7CiAgICBjb25zdCBkdXIgPSAwLjE2ICsgTWF0aC5yYW5kb20oKSAqIDAuMDk7CiAgICAvLyBEcmFnZ2luZyBzY3VmZiBzd2VlcGluZyBkb3duIGFzIHRoZSBmb290IHNldHRsZXMuCiAgICB0aGlzLnNjdWZmKGF0LCAwLjA3NSAqIHRpbHQsIGR1ciwgKDE1MDAgKyBNYXRoLnJhbmRvbSgpICogNjAwKSAqIHRpbHQsIDQ4MCk7CiAgICAvLyBGYWludCBoaWdoIGdyaXQgcmlkaW5nIG9uIHRvcC4KICAgIHRoaXMuc2N1ZmYoYXQgKyAwLjAxLCAwLjAyOCwgZHVyICogMC43LCA0MjAwICsgTWF0aC5yYW5kb20oKSAqIDgwMCwgMjIwMCk7CiAgICAvLyBXZWlnaHQgc2V0dGxpbmcg4oCUIGEgdmVyeSBzaG9ydCwgZHVsbCBsb3cgdGh1bXAuCiAgICB0aGlzLmRydW0oYXQgKyBkdXIgKiAwLjQ1LCA2MiArIE1hdGgucmFuZG9tKCkgKiAxNCwgMC4wNywgMC4wOSwgdGhpcy5tYXN0ZXIpOwogIH0KCiAgLyoqIEJyaWdodCBiZWxsLWlzaCBibGlwIHVzZWQgdG8gYnVpbGQgdGhlIHBpY2t1cCBhcnBlZ2dpby4gKi8KICBwcml2YXRlIGJsaXAoYXQ6IG51bWJlciwgaHo6IG51bWJlciwgZHVyOiBudW1iZXIsIGdhaW46IG51bWJlciwgdHlwZTogT3NjaWxsYXRvclR5cGUgPSAidHJpYW5nbGUiKSB7CiAgICBjb25zdCBjdHggPSB0aGlzLmN0eDsKICAgIGlmICghY3R4IHx8ICF0aGlzLm1hc3RlcikgcmV0dXJuOwogICAgY29uc3Qgb3NjID0gY3R4LmNyZWF0ZU9zY2lsbGF0b3IoKTsKICAgIGNvbnN0IGcgPSBjdHguY3JlYXRlR2FpbigpOwogICAgb3NjLnR5cGUgPSB0eXBlOwogICAgb3NjLmZyZXF1ZW5jeS5zZXRWYWx1ZUF0VGltZShoeiwgYXQpOwogICAgZy5nYWluLnNldFZhbHVlQXRUaW1lKDAuMDAwMSwgYXQpOwogICAgZy5nYWluLmV4cG9uZW50aWFsUmFtcFRvVmFsdWVBdFRpbWUoZ2FpbiwgYXQgKyAwLjAxMik7CiAgICBnLmdhaW4uZXhwb25lbnRpYWxSYW1wVG9WYWx1ZUF0VGltZSgwLjAwMDEsIGF0ICsgZHVyKTsKICAgIG9zYy5jb25uZWN0KGcpLmNvbm5lY3QodGhpcy5tYXN0ZXIpOwogICAgb3NjLnN0YXJ0KGF0KTsKICAgIG9zYy5zdG9wKGF0ICsgZHVyICsgMC4wNSk7CiAgfQoKICAvKioKICAgKiBJdGVtIHBpY2t1cDogYSBxdWljayB0d28tbm90ZSAiZGluZy1kaW5nIiByaXNpbmcgYSBmaWZ0aCwgd2l0aCBhIHNvZnQKICAgKiBzcGFya2xlIG9mIG5vaXNlIG9uIHRvcCDigJQgWmVsZGEtcnVwZWUgZW5lcmd5LCBrZXB0IHNob3J0IGFuZCBmcmllbmRseS4KICAgKiBgaW5kZXhgIChob3cgbWFueSB5b3UgYWxyZWFkeSBoYXZlKSBudWRnZXMgdGhlIHBpdGNoIHVwIHNvIGEgcnVuIG9mCiAgICogcGlja3VwcyBzb3VuZHMgbGlrZSBhIGxpdHRsZSBjbGltYmluZyBzY2FsZS4KICAgKi8KICBwaWNrdXAoaW5kZXggPSAwKSB7CiAgICBjb25zdCBjdHggPSB0aGlzLmVuc3VyZSgpOwogICAgaWYgKCFjdHggfHwgIXRoaXMubWFzdGVyKSByZXR1cm47CiAgICBjb25zdCBhdCA9IGN0eC5jdXJyZW50VGltZSArIDAuMDA1OwogICAgY29uc3QgYmFzZSA9IDc4NCAqIE1hdGgucG93KDIsIE1hdGgubWluKGluZGV4LCA1KSAvIDEyKTsgLy8gRzUgYW5kIHVwCiAgICB0aGlzLmJsaXAoYXQsIGJhc2UsIDAuMTEsIDAuMTYpOwogICAgdGhpcy5ibGlwKGF0ICsgMC4wODUsIGJhc2UgKiAxLjUsIDAuMjIsIDAuMTUpOwogICAgdGhpcy5ibGlwKGF0ICsgMC4wODUsIGJhc2UgKiAzLCAwLjE0LCAwLjA1LCAic2luZSIpOwogICAgLy8gQWlyeSBzcGFya2xlIHRhaWwuCiAgICB0aGlzLmhpc3MoYXQgKyAwLjA2LCAwLjAzNSwgMC4yLCA3MjAwLCB0aGlzLm1hc3Rlcik7CiAgfQoKICAvKiogUXVlc3QgY29tcGxldGU6IGEgYnJpZ2h0IGZvdXItbm90ZSBmYW5mYXJlIHdpdGggYSB3YXJtIHRodW1wIHVuZGVybmVhdGguICovCiAgcXVlc3RDb21wbGV0ZSgpIHsKICAgIGNvbnN0IGN0eCA9IHRoaXMuZW5zdXJlKCk7CiAgICBpZiAoIWN0eCB8fCAhdGhpcy5tYXN0ZXIpIHJldHVybjsKICAgIGNvbnN0IGF0ID0gY3R4LmN1cnJlbnRUaW1lICsgMC4wMTsKICAgIGNvbnN0IG5vdGVzID0gWzUyMy4yNSwgNjU5LjI1LCA3ODMuOTksIDEwNDYuNV07IC8vIEMgRSBHIEMKICAgIG5vdGVzLmZvckVhY2goKGh6LCBpKSA9PiB7CiAgICAgIHRoaXMuYmxpcChhdCArIGkgKiAwLjExLCBoeiwgaSA9PT0gbm90ZXMubGVuZ3RoIC0gMSA/IDAuNiA6IDAuMiwgMC4xNik7CiAgICAgIHRoaXMuYmxpcChhdCArIGkgKiAwLjExLCBoeiAqIDIsIDAuMTIsIDAuMDQsICJzaW5lIik7CiAgICB9KTsKICAgIHRoaXMuZHJ1bShhdCwgOTAsIDAuMjgsIDAuNCwgdGhpcy5tYXN0ZXIpOwogICAgdGhpcy5oaXNzKGF0ICsgMC4zMywgMC4wNSwgMC41LCA2MDAwLCB0aGlzLm1hc3Rlcik7CiAgfQoKICAvKioKICAgKiBab25lIHRyYW5zaXRpb246IGEgc2hpbW1lcmluZyBzd2VsbCDigJQgYSB3aWRlIGxvdyBkcnVtIGJvb20gcGx1cyBhIHNsb3cKICAgKiByaXNpbmcgc2hpbW1lciBvZiBiZWxsIHRvbmVzIGFuZCBmaWx0ZXJlZCBub2lzZS4gRGlzdGluY3QgZnJvbSBmb290c3RlcHMKICAgKiBhbmQgcGlja3VwcyBzbyB0aGUgcGxheWVyIGluc3RhbnRseSBrbm93cyB0aGV5J3ZlIGVudGVyZWQgYSBuZXcgYmlvbWUuCiAgICovCiAgem9uZUVudGVyKCkgewogICAgY29uc3QgY3R4ID0gdGhpcy5lbnN1cmUoKTsKICAgIGlmICghY3R4IHx8ICF0aGlzLm1hc3RlcikgcmV0dXJuOwogICAgY29uc3QgYXQgPSBjdHguY3VycmVudFRpbWUgKyAwLjAxOwogICAgLy8gRGVlcCBib29tIOKAlCB0aGUgIndob29zaCIgb2Ygc3RlcHBpbmcgdGhyb3VnaC4KICAgIHRoaXMuZHJ1bShhdCwgNzAsIDAuNiwgMC4zMiwgdGhpcy5tYXN0ZXIpOwogICAgLy8gUmlzaW5nIHNoaW1tZXI6IGEgcXVpY2sgYXJwZWdnaW8gdXAgYSB3aG9sZS10b25lIHNjYWxlLgogICAgY29uc3Qgc2hpbW1lciA9IFszOTIsIDQ0MCwgNDk0LCA1NTQsIDYyMl07CiAgICBzaGltbWVyLmZvckVhY2goKGh6LCBpKSA9PiB7CiAgICAgIHRoaXMuYmxpcChhdCArIGkgKiAwLjA1LCBoeiwgMC41LCAwLjA3LCAic2luZSIpOwogICAgfSk7CiAgICAvLyBBaXJ5IG5vaXNlIHN3ZWVwIHVwd2FyZCDigJQgdGhlICJ3aW5kIHRocm91Z2ggYSBwb3J0YWwiIGZlZWwuCiAgICB0aGlzLnNjdWZmKGF0LCAwLjA1LCAwLjYsIDQwMCwgNjAwMCk7CiAgfQoKICAvKiogQWx0aXR1ZGUtc2lja25lc3MgY291bnRkb3duIHRpY2s6IGEgZHJ5LCB1cmdlbnQgaGVhcnRiZWF0ICsgYmVlcC4gKi8KICBhbGFybSh1cmdlbnQgPSBmYWxzZSkgewogICAgY29uc3QgY3R4ID0gdGhpcy5lbnN1cmUoKTsKICAgIGlmICghY3R4IHx8ICF0aGlzLm1hc3RlcikgcmV0dXJuOwogICAgY29uc3QgYXQgPSBjdHguY3VycmVudFRpbWUgKyAwLjAwNTsKICAgIHRoaXMuZHJ1bShhdCwgdXJnZW50ID8gOTYgOiA3NCwgMC4yMiwgMC4xOCwgdGhpcy5tYXN0ZXIpOwogICAgdGhpcy5ibGlwKGF0LCB1cmdlbnQgPyAxMTAwIDogNzYwLCAwLjA5LCB1cmdlbnQgPyAwLjEyIDogMC4wNywgInNxdWFyZSIpOwogIH0KCiAgLyoqIENyYWNraW5nIHRoZSBveHlnZW4gYm90dGxlIG9wZW46IGEgaGlzcywgdGhlbiBhIHdhcm0gc2V0dGxpbmcgY2hvcmQuICovCiAgb3h5Z2VuKCkgewogICAgY29uc3QgY3R4ID0gdGhpcy5lbnN1cmUoKTsKICAgIGlmICghY3R4IHx8ICF0aGlzLm1hc3RlcikgcmV0dXJuOwogICAgY29uc3QgYXQgPSBjdHguY3VycmVudFRpbWUgKyAwLjAxOwogICAgdGhpcy5zY3VmZihhdCwgMC4wOSwgMC43LCA1MjAwLCA5MDApOwogICAgWzI2MiwgMzMwLCAzOTIsIDUyM10uZm9yRWFjaCgoaHosIGkpID0+IHRoaXMuYmxpcChhdCArIDAuMTggKyBpICogMC4wNiwgaHosIDAuNiwgMC4xLCAic2luZSIpKTsKICB9CgogIC8qKiBCbGFja2luZyBvdXQgYXQgYWx0aXR1ZGU6IGEgc2FnZ2luZywgc2lja2x5IGRvd253YXJkIHNsaWRlLiAqLwogIGNvbGxhcHNlKCkgewogICAgY29uc3QgY3R4ID0gdGhpcy5lbnN1cmUoKTsKICAgIGlmICghY3R4IHx8ICF0aGlzLm1hc3RlcikgcmV0dXJuOwogICAgY29uc3QgYXQgPSBjdHguY3VycmVudFRpbWUgKyAwLjAxOwogICAgWzUyMywgNDE1LCAzMTEsIDIwOCwgMTQwXS5mb3JFYWNoKChoeiwgaSkgPT4KICAgICAgdGhpcy5ibGlwKGF0ICsgaSAqIDAuMTEsIGh6LCAwLjUsIDAuMTQsICJzYXd0b290aCIpLAogICAgKTsKICAgIHRoaXMuZHJ1bShhdCArIDAuNTUsIDU0LCAwLjUsIDAuNiwgdGhpcy5tYXN0ZXIpOwogIH0KCiAgZGlzcG9zZSgpIHsKICAgIHRoaXMuc3RvcE11c2ljKCk7CiAgICB2b2lkIHRoaXMuY3R4Py5jbG9zZSgpOwogICAgdGhpcy5jdHggPSBudWxsOwogICAgdGhpcy5tYXN0ZXIgPSBudWxsOwogICAgdGhpcy5tdXNpY0dhaW4gPSBudWxsOwogICAgdGhpcy5ub2lzZSA9IG51bGw7CiAgfQp9Cg==
+/**
+ * Base Camp audio: a chill, looping tribal groove and footstep sounds, all
+ * synthesised live with the Web Audio API so the game ships no audio files.
+ *
+ * Everything is lazy: no AudioContext is created until the player turns the
+ * sound on (browsers require a user gesture anyway).
+ */
+
+const PENTATONIC = [0, 3, 5, 7, 10]; // minor pentatonic — easy, "tribal" flavour
+const ROOT = 196; // G3
+const BPM = 72;
+const BEAT = 60 / BPM;
+const BAR = BEAT * 4;
+
+const noteHz = (semitone: number) => ROOT * Math.pow(2, semitone / 12);
+
+export class CampAudio {
+  private ctx: AudioContext | null = null;
+  private master: GainNode | null = null;
+  private musicGain: GainNode | null = null;
+  private timer: ReturnType<typeof setInterval> | null = null;
+  private nextBar = 0;
+  private bar = 0;
+  private noise: AudioBuffer | null = null;
+
+  private left = false;
+
+  private ensure(): AudioContext | null {
+    if (typeof window === "undefined") return null;
+    if (!this.ctx) {
+      const Ctor =
+        window.AudioContext ??
+        (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
+      if (!Ctor) return null;
+      this.ctx = new Ctor();
+      this.master = this.ctx.createGain();
+      this.master.gain.value = 0.9;
+      this.master.connect(this.ctx.destination);
+      this.musicGain = this.ctx.createGain();
+      this.musicGain.gain.value = 0;
+      this.musicGain.connect(this.master);
+      // One second of white noise, reused for drums, shaker and footsteps.
+      const len = this.ctx.sampleRate;
+      this.noise = this.ctx.createBuffer(1, len, this.ctx.sampleRate);
+      const data = this.noise.getChannelData(0);
+      for (let i = 0; i < len; i++) data[i] = Math.random() * 2 - 1;
+    }
+    void this.ctx.resume();
+    return this.ctx;
+  }
+
+  /** Short pitched tone — kalimba / wooden flute voice. */
+  private tone(at: number, hz: number, dur: number, gain: number, type: OscillatorType) {
+    const ctx = this.ctx;
+    const out = this.musicGain;
+    if (!ctx || !out) return;
+    const osc = ctx.createOscillator();
+    const g = ctx.createGain();
+    osc.type = type;
+    osc.frequency.setValueAtTime(hz, at);
+    g.gain.setValueAtTime(0.0001, at);
+    g.gain.exponentialRampToValueAtTime(gain, at + 0.02);
+    g.gain.exponentialRampToValueAtTime(0.0001, at + dur);
+    osc.connect(g).connect(out);
+    osc.start(at);
+    osc.stop(at + dur + 0.05);
+  }
+
+  /** Hand drum: pitched thump with a touch of body. */
+  private drum(at: number, hz: number, gain: number, dur = 0.35, dest: AudioNode | null = null) {
+    const ctx = this.ctx;
+    const out = dest ?? this.musicGain;
+    if (!ctx || !out) return;
+    const osc = ctx.createOscillator();
+    const g = ctx.createGain();
+    osc.type = "sine";
+    osc.frequency.setValueAtTime(hz * 2.2, at);
+    osc.frequency.exponentialRampToValueAtTime(hz, at + 0.09);
+    g.gain.setValueAtTime(gain, at);
+    g.gain.exponentialRampToValueAtTime(0.0001, at + dur);
+    osc.connect(g).connect(out);
+    osc.start(at);
+    osc.stop(at + dur + 0.05);
+  }
+
+  /** Filtered noise burst — shaker, rim taps, footsteps. */
+  private hiss(
+    at: number,
+    gain: number,
+    dur: number,
+    freq: number,
+    dest: AudioNode | null = this.musicGain,
+  ) {
+    const ctx = this.ctx;
+    if (!ctx || !this.noise || !dest) return;
+    const src = ctx.createBufferSource();
+    src.buffer = this.noise;
+    src.loop = true;
+    const filter = ctx.createBiquadFilter();
+    filter.type = "bandpass";
+    filter.frequency.value = freq;
+    filter.Q.value = 0.9;
+    const g = ctx.createGain();
+    g.gain.setValueAtTime(gain, at);
+    g.gain.exponentialRampToValueAtTime(0.0001, at + dur);
+    src.connect(filter).connect(g).connect(dest);
+    src.start(at);
+    src.stop(at + dur + 0.05);
+  }
+
+  /** Lay down one bar of the groove at the given context time. */
+  private scheduleBar(at: number) {
+    const b = this.bar;
+    // Djembe pattern: deep on 1 and 3, slaps in between.
+    this.drum(at, 82, 0.5);
+    this.drum(at + BEAT * 1.5, 120, 0.28, 0.25);
+    this.drum(at + BEAT * 2, 96, 0.4);
+    this.drum(at + BEAT * 3.5, 150, 0.22, 0.2);
+    // Shaker on every eighth, softer off-beats.
+    for (let i = 0; i < 8; i++) {
+      this.hiss(at + (BEAT / 2) * i, i % 2 === 0 ? 0.05 : 0.03, 0.07, 6500);
+    }
+    // Drone fifth underneath, one per bar.
+    this.tone(at, ROOT / 2, BAR, 0.05, "triangle");
+    this.tone(at, noteHz(7) / 2, BAR, 0.035, "triangle");
+    // Lazy pentatonic melody — a few notes per bar, shifting every cycle.
+    const steps = [0, 1.5, 2.5, 3];
+    steps.forEach((s, i) => {
+      const idx = (b * 2 + i * 3) % PENTATONIC.length;
+      const oct = (b + i) % 3 === 0 ? 12 : 0;
+      this.tone(at + BEAT * s, noteHz(PENTATONIC[idx]! + 12 + oct), 0.9, 0.09, "sine");
+    });
+    this.bar = (b + 1) % 8;
+  }
+
+  /** Fade the tribal loop in and keep it scheduled ahead of the clock. */
+  startMusic() {
+    const ctx = this.ensure();
+    if (!ctx || !this.musicGain || this.timer) return;
+    this.musicGain.gain.cancelScheduledValues(ctx.currentTime);
+    this.musicGain.gain.setValueAtTime(0.0001, ctx.currentTime);
+    this.musicGain.gain.linearRampToValueAtTime(0.5, ctx.currentTime + 1.5);
+    this.nextBar = ctx.currentTime + 0.2;
+    this.timer = setInterval(() => {
+      const c = this.ctx;
+      if (!c) return;
+      while (this.nextBar < c.currentTime + 2) {
+        this.scheduleBar(this.nextBar);
+        this.nextBar += BAR;
+      }
+    }, 400);
+  }
+
+  stopMusic() {
+    if (this.timer) clearInterval(this.timer);
+    this.timer = null;
+    const ctx = this.ctx;
+    if (ctx && this.musicGain) {
+      this.musicGain.gain.cancelScheduledValues(ctx.currentTime);
+      this.musicGain.gain.setTargetAtTime(0.0001, ctx.currentTime, 0.2);
+    }
+  }
+
+  /** Soft dragging noise sweep — the scuff of a sole over grit. */
+  private scuff(at: number, gain: number, dur: number, from: number, to: number) {
+    const ctx = this.ctx;
+    if (!ctx || !this.noise || !this.master) return;
+    const src = ctx.createBufferSource();
+    src.buffer = this.noise;
+    src.loop = true;
+    src.playbackRate.value = 0.6 + Math.random() * 0.5;
+    const filter = ctx.createBiquadFilter();
+    filter.type = "bandpass";
+    filter.Q.value = 0.6;
+    filter.frequency.setValueAtTime(from, at);
+    filter.frequency.exponentialRampToValueAtTime(to, at + dur);
+    const g = ctx.createGain();
+    // Soft swell instead of a click, then a long tail: that's the shuffle.
+    g.gain.setValueAtTime(0.0001, at);
+    g.gain.linearRampToValueAtTime(gain, at + dur * 0.35);
+    g.gain.exponentialRampToValueAtTime(0.0001, at + dur);
+    src.connect(filter).connect(g).connect(this.master);
+    src.start(at);
+    src.stop(at + dur + 0.05);
+  }
+
+  /** A shuffling footfall: sole dragging over grit, then a soft body thump. */
+  step() {
+    const ctx = this.ensure();
+    if (!ctx || !this.master) return;
+    const at = ctx.currentTime + 0.005;
+    this.left = !this.left;
+    // Alternating feet sound slightly different, so steps don't feel cloned.
+    const tilt = this.left ? 1 : 0.82;
+    const dur = 0.16 + Math.random() * 0.09;
+    // Dragging scuff sweeping down as the foot settles.
+    this.scuff(at, 0.075 * tilt, dur, (1500 + Math.random() * 600) * tilt, 480);
+    // Faint high grit riding on top.
+    this.scuff(at + 0.01, 0.028, dur * 0.7, 4200 + Math.random() * 800, 2200);
+    // Weight settling — a very short, dull low thump.
+    this.drum(at + dur * 0.45, 62 + Math.random() * 14, 0.07, 0.09, this.master);
+  }
+
+  /** Bright bell-ish blip used to build the pickup arpeggio. */
+  private blip(at: number, hz: number, dur: number, gain: number, type: OscillatorType = "triangle") {
+    const ctx = this.ctx;
+    if (!ctx || !this.master) return;
+    const osc = ctx.createOscillator();
+    const g = ctx.createGain();
+    osc.type = type;
+    osc.frequency.setValueAtTime(hz, at);
+    g.gain.setValueAtTime(0.0001, at);
+    g.gain.exponentialRampToValueAtTime(gain, at + 0.012);
+    g.gain.exponentialRampToValueAtTime(0.0001, at + dur);
+    osc.connect(g).connect(this.master);
+    osc.start(at);
+    osc.stop(at + dur + 0.05);
+  }
+
+  /**
+   * Item pickup: a quick two-note "ding-ding" rising a fifth, with a soft
+   * sparkle of noise on top — Zelda-rupee energy, kept short and friendly.
+   * `index` (how many you already have) nudges the pitch up so a run of
+   * pickups sounds like a little climbing scale.
+   */
+  pickup(index = 0) {
+    const ctx = this.ensure();
+    if (!ctx || !this.master) return;
+    const at = ctx.currentTime + 0.005;
+    const base = 784 * Math.pow(2, Math.min(index, 5) / 12); // G5 and up
+    this.blip(at, base, 0.11, 0.16);
+    this.blip(at + 0.085, base * 1.5, 0.22, 0.15);
+    this.blip(at + 0.085, base * 3, 0.14, 0.05, "sine");
+    // Airy sparkle tail.
+    this.hiss(at + 0.06, 0.035, 0.2, 7200, this.master);
+  }
+
+  /** Quest complete: a bright four-note fanfare with a warm thump underneath. */
+  questComplete() {
+    const ctx = this.ensure();
+    if (!ctx || !this.master) return;
+    const at = ctx.currentTime + 0.01;
+    const notes = [523.25, 659.25, 783.99, 1046.5]; // C E G C
+    notes.forEach((hz, i) => {
+      this.blip(at + i * 0.11, hz, i === notes.length - 1 ? 0.6 : 0.2, 0.16);
+      this.blip(at + i * 0.11, hz * 2, 0.12, 0.04, "sine");
+    });
+    this.drum(at, 90, 0.28, 0.4, this.master);
+    this.hiss(at + 0.33, 0.05, 0.5, 6000, this.master);
+  }
+
+  /**
+   * Zone transition: a shimmering swell — a wide low drum boom plus a slow
+   * rising shimmer of bell tones and filtered noise. Distinct from footsteps
+   * and pickups so the player instantly knows they've entered a new biome.
+   */
+  zoneEnter() {
+    const ctx = this.ensure();
+    if (!ctx || !this.master) return;
+    const at = ctx.currentTime + 0.01;
+    // Deep boom — the "whoosh" of stepping through.
+    this.drum(at, 70, 0.6, 0.32, this.master);
+    // Rising shimmer: a quick arpeggio up a whole-tone scale.
+    const shimmer = [392, 440, 494, 554, 622];
+    shimmer.forEach((hz, i) => {
+      this.blip(at + i * 0.05, hz, 0.5, 0.07, "sine");
+    });
+    // Airy noise sweep upward — the "wind through a portal" feel.
+    this.scuff(at, 0.05, 0.6, 400, 6000);
+  }
+
+  /** Altitude-sickness countdown tick: a dry, urgent heartbeat + beep. */
+  alarm(urgent = false) {
+    const ctx = this.ensure();
+    if (!ctx || !this.master) return;
+    const at = ctx.currentTime + 0.005;
+    this.drum(at, urgent ? 96 : 74, 0.22, 0.18, this.master);
+    this.blip(at, urgent ? 1100 : 760, 0.09, urgent ? 0.12 : 0.07, "square");
+  }
+
+  /** Cracking the oxygen bottle open: a hiss, then a warm settling chord. */
+  oxygen() {
+    const ctx = this.ensure();
+    if (!ctx || !this.master) return;
+    const at = ctx.currentTime + 0.01;
+    this.scuff(at, 0.09, 0.7, 5200, 900);
+    [262, 330, 392, 523].forEach((hz, i) => this.blip(at + 0.18 + i * 0.06, hz, 0.6, 0.1, "sine"));
+  }
+
+  /** Blacking out at altitude: a sagging, sickly downward slide. */
+  collapse() {
+    const ctx = this.ensure();
+    if (!ctx || !this.master) return;
+    const at = ctx.currentTime + 0.01;
+    [523, 415, 311, 208, 140].forEach((hz, i) =>
+      this.blip(at + i * 0.11, hz, 0.5, 0.14, "sawtooth"),
+    );
+    this.drum(at + 0.55, 54, 0.5, 0.6, this.master);
+  }
+
+  dispose() {
+    this.stopMusic();
+    void this.ctx?.close();
+    this.ctx = null;
+    this.master = null;
+    this.musicGain = null;
+    this.noise = null;
+  }
+}

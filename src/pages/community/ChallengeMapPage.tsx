@@ -1,1 +1,96 @@
-aW1wb3J0IHsgdXNlTWVtbyB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgU3VzcGVuc2UsIGxhenkgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IENsaWVudE9ubHkgfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtcm91dGVyIjsKaW1wb3J0IHsgTWFwUGluIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IFNlbyBmcm9tICJAL2NvbXBvbmVudHMvU2VvIjsKaW1wb3J0IHsgTGluaywgdXNlUGFyYW1zIH0gZnJvbSAiQC9saWIvcm91dGVyLWNvbXBhdCI7CmltcG9ydCBDb21tdW5pdHlMYXlvdXQgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9Db21tdW5pdHlMYXlvdXQiOwppbXBvcnQgeyBhZHZlbnR1cmVDaGFsbGVuZ2VzIH0gZnJvbSAiQC9kYXRhL2FkdmVudHVyZS1jaGFsbGVuZ2VzIjsKaW1wb3J0IHsgdXNlQ29tbXVuaXR5RGF0YSB9IGZyb20gIkAvaG9va3MvdXNlQ29tbXVuaXR5RGF0YSI7CmltcG9ydCB7IHVzZVZpc2l0cyB9IGZyb20gIkAvaG9va3MvdXNlVmlzaXRzIjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvaG9va3MvdXNlQXV0aCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwoKY29uc3QgQ2hhbGxlbmdlTWFwID0gbGF6eSgoKSA9PiBpbXBvcnQoIkAvY29tcG9uZW50cy9jb21tdW5pdHkvQ2hhbGxlbmdlTWFwIikpOwoKY29uc3QgTWFwRmFsbGJhY2sgPSAoKSA9PiAoCiAgPGRpdiBjbGFzc05hbWU9ImgtWzQyMHB4XSB3LWZ1bGwgYW5pbWF0ZS1wdWxzZSByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLW11dGVkLzQwIiAvPgopOwoKY29uc3QgQ2hhbGxlbmdlTWFwUGFnZSA9ICgpID0+IHsKICBjb25zdCB7IGlkIH0gPSB1c2VQYXJhbXM8eyBpZDogc3RyaW5nIH0+KCk7CiAgY29uc3QgeyB1c2VyIH0gPSB1c2VBdXRoKCk7CiAgY29uc3QgeyBhc2NlbnRzIH0gPSB1c2VDb21tdW5pdHlEYXRhKCk7CiAgY29uc3QgeyB2aXNpdHMgfSA9IHVzZVZpc2l0cygpOwoKICBjb25zdCBjaGFsbGVuZ2UgPSBhZHZlbnR1cmVDaGFsbGVuZ2VzLmZpbmQoKGMpID0+IGMuaWQgPT09IGlkKTsKCiAgY29uc3QgdGlja2VkS2V5cyA9IHVzZU1lbW8oKCkgPT4gewogICAgY29uc3QgcyA9IG5ldyBTZXQ8c3RyaW5nPigpOwogICAgYXNjZW50cwogICAgICAuZmlsdGVyKChhKSA9PiBhLnVzZXJfaWQgPT09IHVzZXI/LmlkKQogICAgICAuZm9yRWFjaCgoYSkgPT4KICAgICAgICBzLmFkZCgKICAgICAgICAgIGEucGVha190eXBlID09PSAiY291bnRyeV9oaWdocG9pbnQiCiAgICAgICAgICAgID8gYGhwOiR7YS5jb3VudHJ5ID8/IGEucGVha19uYW1lfWAKICAgICAgICAgICAgOiBgZnA6JHthLnBlYWtfbmFtZX1gLAogICAgICAgICksCiAgICAgICk7CiAgICB2aXNpdHMKICAgICAgLmZpbHRlcigodikgPT4gdi51c2VyX2lkID09PSB1c2VyPy5pZCkKICAgICAgLmZvckVhY2goKHYpID0+IHMuYWRkKHYucGxhY2Vfa2V5KSk7CiAgICByZXR1cm4gczsKICB9LCBbYXNjZW50cywgdmlzaXRzLCB1c2VyXSk7CgogIGlmICghY2hhbGxlbmdlKSB7CiAgICByZXR1cm4gKAogICAgICA8Q29tbXVuaXR5TGF5b3V0PgogICAgICAgIDxTZW8gdGl0bGU9IkNoYWxsZW5nZSBub3QgZm91bmQg4oCUIFRpY2tsZWxpc3QiIGRlc2NyaXB0aW9uPSJUaGUgY2hhbGxlbmdlIHlvdSBhcmUgbG9va2luZyBmb3IgY291bGQgbm90IGJlIGZvdW5kLiIgbm9pbmRleCAvPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItZGFzaGVkIGJvcmRlci1ib3JkZXIgcC0xMCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdHJhY2tpbmctd2lkZXIgdGV4dC1sZyI+Q2hhbGxlbmdlIG5vdCBmb3VuZDwvaDE+CiAgICAgICAgICA8QnV0dG9uIGFzQ2hpbGQgdmFyaWFudD0ic2Vjb25kYXJ5IiBjbGFzc05hbWU9Im10LTQiPgogICAgICAgICAgICA8TGluayB0bz0iL2NvbW11bml0eS9teS1hZHZlbnR1cmVzIj5CYWNrIHRvIGFkdmVudHVyZXM8L0xpbms+CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9Db21tdW5pdHlMYXlvdXQ+CiAgICApOwogIH0KCiAgcmV0dXJuICgKICAgIDxDb21tdW5pdHlMYXlvdXQ+CiAgICAgIDxTZW8KICAgICAgICB0aXRsZT17YCR7Y2hhbGxlbmdlLm5hbWV9IOKAlCBNYXAgfCBUaWNrbGVsaXN0YH0KICAgICAgICBkZXNjcmlwdGlvbj17YFNlZSB3aGVyZSBldmVyeSBzaXRlIGluIHRoZSAke2NoYWxsZW5nZS5uYW1lfSBjaGFsbGVuZ2UgaXMgbG9jYXRlZCBvbiBhIG1hcC5gfQogICAgICAgIG5vaW5kZXgKICAgICAgLz4KICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgIHRvPSIvY29tbXVuaXR5L215LWFkdmVudHVyZXMiCiAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6dGV4dC1wcmltYXJ5IgogICAgICAgICAgPgogICAgICAgICAgICDihpAgQmFjayB0byBhZHZlbnR1cmVzCiAgICAgICAgICA8L0xpbms+CiAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJtdC0yIGZvbnQtZGlzcGxheSB0ZXh0LTJ4bCB0cmFja2luZy13aWRlciBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgIDxNYXBQaW4gY2xhc3NOYW1lPSJ3LTUgaC01IHRleHQtcHJpbWFyeSIgLz4KICAgICAgICAgICAge2NoYWxsZW5nZS5uYW1lfQogICAgICAgICAgPC9oMT4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMSI+e2NoYWxsZW5nZS5ibHVyYn08L3A+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxDbGllbnRPbmx5IGZhbGxiYWNrPXs8TWFwRmFsbGJhY2sgLz59PgogICAgICAgICAgPFN1c3BlbnNlIGZhbGxiYWNrPXs8TWFwRmFsbGJhY2sgLz59PgogICAgICAgICAgICA8Q2hhbGxlbmdlTWFwIGNoYWxsZW5nZT17Y2hhbGxlbmdlfSB0aWNrZWRLZXlzPXt0aWNrZWRLZXlzfSAvPgogICAgICAgICAgPC9TdXNwZW5zZT4KICAgICAgICA8L0NsaWVudE9ubHk+CgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgTWFya2VycyBzaG93IGFwcHJveGltYXRlIGxvY2F0aW9ucy4gQ3lhbiA9IHZpc2l0ZWQsIGdyZXkgPSBub3QgeWV0LiBUYXAgYSBtYXJrZXIgZm9yCiAgICAgICAgICBkZXRhaWxzLgogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CiAgICA8L0NvbW11bml0eUxheW91dD4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgQ2hhbGxlbmdlTWFwUGFnZTsK
+import { useMemo } from "react";
+import { Suspense, lazy } from "react";
+import { ClientOnly } from "@tanstack/react-router";
+import { MapPin } from "lucide-react";
+import Seo from "@/components/Seo";
+import { Link, useParams } from "@/lib/router-compat";
+import CommunityLayout from "@/components/community/CommunityLayout";
+import { adventureChallenges } from "@/data/adventure-challenges";
+import { useCommunityData } from "@/hooks/useCommunityData";
+import { useVisits } from "@/hooks/useVisits";
+import { useAuth } from "@/hooks/useAuth";
+import { Button } from "@/components/ui/button";
+
+const ChallengeMap = lazy(() => import("@/components/community/ChallengeMap"));
+
+const MapFallback = () => (
+  <div className="h-[420px] w-full animate-pulse rounded-lg border border-border bg-muted/40" />
+);
+
+const ChallengeMapPage = () => {
+  const { id } = useParams<{ id: string }>();
+  const { user } = useAuth();
+  const { ascents } = useCommunityData();
+  const { visits } = useVisits();
+
+  const challenge = adventureChallenges.find((c) => c.id === id);
+
+  const tickedKeys = useMemo(() => {
+    const s = new Set<string>();
+    ascents
+      .filter((a) => a.user_id === user?.id)
+      .forEach((a) =>
+        s.add(
+          a.peak_type === "country_highpoint"
+            ? `hp:${a.country ?? a.peak_name}`
+            : `fp:${a.peak_name}`,
+        ),
+      );
+    visits
+      .filter((v) => v.user_id === user?.id)
+      .forEach((v) => s.add(v.place_key));
+    return s;
+  }, [ascents, visits, user]);
+
+  if (!challenge) {
+    return (
+      <CommunityLayout>
+        <Seo title="Challenge not found — Ticklelist" description="The challenge you are looking for could not be found." noindex />
+        <div className="rounded-lg border border-dashed border-border p-10 text-center">
+          <h1 className="font-display tracking-wider text-lg">Challenge not found</h1>
+          <Button asChild variant="secondary" className="mt-4">
+            <Link to="/community/my-adventures">Back to adventures</Link>
+          </Button>
+        </div>
+      </CommunityLayout>
+    );
+  }
+
+  return (
+    <CommunityLayout>
+      <Seo
+        title={`${challenge.name} — Map | Ticklelist`}
+        description={`See where every site in the ${challenge.name} challenge is located on a map.`}
+        noindex
+      />
+      <div className="space-y-4">
+        <div>
+          <Link
+            to="/community/my-adventures"
+            className="text-xs text-muted-foreground hover:text-primary"
+          >
+            ← Back to adventures
+          </Link>
+          <h1 className="mt-2 font-display text-2xl tracking-wider flex items-center gap-2">
+            <MapPin className="w-5 h-5 text-primary" />
+            {challenge.name}
+          </h1>
+          <p className="text-sm text-muted-foreground mt-1">{challenge.blurb}</p>
+        </div>
+
+        <ClientOnly fallback={<MapFallback />}>
+          <Suspense fallback={<MapFallback />}>
+            <ChallengeMap challenge={challenge} tickedKeys={tickedKeys} />
+          </Suspense>
+        </ClientOnly>
+
+        <p className="text-xs text-muted-foreground">
+          Markers show approximate locations. Cyan = visited, grey = not yet. Tap a marker for
+          details.
+        </p>
+      </div>
+    </CommunityLayout>
+  );
+};
+
+export default ChallengeMapPage;

@@ -1,1 +1,242 @@
-aW1wb3J0IHsgdXNlRWZmZWN0IH0gZnJvbSAicmVhY3QiOwppbXBvcnQgdHlwZSB7IFF1ZXJ5Q2xpZW50IH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXF1ZXJ5IjsKaW1wb3J0IHsgUXVlcnlDbGllbnRQcm92aWRlciB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1xdWVyeSI7CmltcG9ydCB7CiAgSGVhZENvbnRlbnQsCiAgT3V0bGV0LAogIFNjcmlwdHMsCiAgY3JlYXRlUm9vdFJvdXRlV2l0aENvbnRleHQsCiAgcmVkaXJlY3QsCiAgdXNlUm91dGVyLAp9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwppbXBvcnQgeyBjcmVhdGVJc29tb3JwaGljRm4gfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtc3RhcnQiOwppbXBvcnQgeyBIZWxtZXRQcm92aWRlciB9IGZyb20gInJlYWN0LWhlbG1ldC1hc3luYyI7CmltcG9ydCB7IFRvYXN0ZXIgYXMgU29ubmVyIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3Nvbm5lciI7CmltcG9ydCB7IFRvYXN0ZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdG9hc3RlciI7CmltcG9ydCB7IFRvb2x0aXBQcm92aWRlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS90b29sdGlwIjsKaW1wb3J0IHsgQXV0aFByb3ZpZGVyIH0gZnJvbSAiQC9ob29rcy91c2VBdXRoIjsKaW1wb3J0IE5hdGl2ZUhvbWVSZWRpcmVjdCBmcm9tICJAL2NvbXBvbmVudHMvTmF0aXZlSG9tZVJlZGlyZWN0IjsKaW1wb3J0IEluc3RhbGxBcHBQcm9tcHQgZnJvbSAiQC9jb21wb25lbnRzL0luc3RhbGxBcHBQcm9tcHQiOwppbXBvcnQgUG9zdEF1dGhSZWRpcmVjdCBmcm9tICJAL2NvbXBvbmVudHMvUG9zdEF1dGhSZWRpcmVjdCI7CmltcG9ydCBDZWxlYnJhdGlvbiBmcm9tICJAL2NvbXBvbmVudHMvQ2VsZWJyYXRpb24iOwppbXBvcnQgVGhlbWVTeW5jIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvVGhlbWVTeW5jIjsKaW1wb3J0IE5vdEZvdW5kIGZyb20gIkAvcGFnZXMvTm90Rm91bmQiOwppbXBvcnQgeyByZXBvcnRMb3ZhYmxlRXJyb3IgfSBmcm9tICJAL2xpYi9sb3ZhYmxlLWVycm9yLXJlcG9ydGluZyI7CmltcG9ydCBhcHBDc3MgZnJvbSAiLi4vc3R5bGVzLmNzcz91cmwiOwppbXBvcnQgeyB0aGVtZUJvb3RzdHJhcFNjcmlwdCB9IGZyb20gIkAvbGliL3RoZW1lcyI7CmltcG9ydCB7IG1vdGlvbkJvb3RzdHJhcFNjcmlwdCB9IGZyb20gIkAvbGliL21vdGlvbiI7CmltcG9ydCB7IHVzZUFuYWx5dGljc1BhZ2VWaWV3cyB9IGZyb20gIkAvbGliL2FuYWx5dGljcyI7CgoKLyoqCiAqIEN1cnJlbnQgcmVxdWVzdCBob3N0IOKAlCByZWFkIGZyb20gdGhlIGJyb3dzZXIgb24gdGhlIGNsaWVudCBhbmQgZnJvbSB0aGUKICogcmVxdWVzdCBvbiB0aGUgc2VydmVyLiBjcmVhdGVJc29tb3JwaGljRm4ga2VlcHMgdGhlIHNlcnZlci1vbmx5IGltcG9ydCBvdXQKICogb2YgdGhlIGNsaWVudCBidW5kbGUuCiAqLwpjb25zdCBjdXJyZW50SG9zdCA9IGNyZWF0ZUlzb21vcnBoaWNGbigpCiAgLmNsaWVudCgoKSA9PiB3aW5kb3cubG9jYXRpb24uaG9zdC50b0xvd2VyQ2FzZSgpKQogIC5zZXJ2ZXIoYXN5bmMgKCkgPT4gewogICAgY29uc3QgeyBnZXRSZXF1ZXN0SG9zdCB9ID0gYXdhaXQgaW1wb3J0KCJAdGFuc3RhY2svcmVhY3Qtc3RhcnQvc2VydmVyIik7CiAgICByZXR1cm4gKGdldFJlcXVlc3RIb3N0KCkgPz8gIiIpLnRvTG93ZXJDYXNlKCk7CiAgfSk7CgovKioKICogQ2Fub25pY2FsIGFwZXggZm9yIHRoZSBjb21tdW5pdHkgZG9tYWluLiBWaXNpdGluZyB0aGUgd3d3IHZhcmlhbnQKICogcGVybWFuZW50bHkgcmVkaXJlY3RzIGhlcmUgKDMwOCkgc28gc2VhcmNoIGVuZ2luZXMgY29uc29saWRhdGUgbGluawogKiBlcXVpdHkgb250byB0aGUgY2xlYW4gYXBleCBVUkwuCiAqLwpjb25zdCBDT01NVU5JVFlfQVBFWF9IT1NUID0gInRpY2tsZWxpc3Qub3JnIjsKY29uc3QgQ09NTVVOSVRZX1dXV19IT1NUID0gInd3dy50aWNrbGVsaXN0Lm9yZyI7CgovKiogUmVkaXJlY3QgdGhlIEFuZHJvaWQgV2ViVmlldyBiZWZvcmUgUmVhY3QgcGFpbnRzLiBUaGlzIGFsc28gcmVwYWlycyBvbGRlcgogKiBBUEtzIHRoYXQgZG8gbm90IHlldCBjYXJyeSB0aGUgVGlja2xlbGlzdEFwcCB1c2VyLWFnZW50IHN1ZmZpeC4gKi8KY29uc3QgbmF0aXZlUm91dGVHdWFyZFNjcmlwdCA9IGAoKCkgPT4gewogIHRyeSB7CiAgICBjb25zdCB1YSA9IG5hdmlnYXRvci51c2VyQWdlbnQgfHwgIiI7CiAgICBjb25zdCBhbmRyb2lkV2ViVmlldyA9IC9BbmRyb2lkL2kudGVzdCh1YSkgJiYgLztcXHMqd3ZcXCl8XFxid3ZcXGJ8VmVyc2lvblxcLzRcXC4wL2kudGVzdCh1YSk7CiAgICBjb25zdCBuYXRpdmVTaGVsbCA9IC9UaWNrbGVsaXN0QXBwL2kudGVzdCh1YSkgfHwgYW5kcm9pZFdlYlZpZXc7CiAgICBjb25zdCBhbGxvd2VkID0gL15cXC8oY29tbXVuaXR5KD86XFwvfCQpfGF1dGgoPzpcXC98JCl8YWNjb3VudCg/OlxcL3wkKSkvLnRlc3QobG9jYXRpb24ucGF0aG5hbWUpOwogICAgaWYgKG5hdGl2ZVNoZWxsICYmICFhbGxvd2VkKSBsb2NhdGlvbi5yZXBsYWNlKCIvY29tbXVuaXR5Iik7CiAgfSBjYXRjaCAoXykge30KfSkoKTtgOwpjb25zdCB3ZWJzaXRlSnNvbkxkID0gSlNPTi5zdHJpbmdpZnkoewogICJAY29udGV4dCI6ICJodHRwczovL3NjaGVtYS5vcmciLAogICJAdHlwZSI6ICJXZWJTaXRlIiwKICBuYW1lOiAiT25zaWdodCBNYXJ0aW4iLAogIHVybDogImh0dHBzOi8vb25zaWdodG1hcnRpbi5jb20iLAogIGRlc2NyaXB0aW9uOgogICAgIk1hcnRpbiBHw6VyZGxpbmcncyBjb3VudHJ5IGhpZ2hwb2ludGluZyBwcm9qZWN0IOKAlCBjbGltYmluZyB0aGUgaGlnaGVzdCBwZWFrIG9mIGV2ZXJ5IGNvdW50cnkgb24gRWFydGguIiwKICBhdXRob3I6IHsKICAgICJAdHlwZSI6ICJQZXJzb24iLAogICAgbmFtZTogIk1hcnRpbiBHw6VyZGxpbmciLAogICAgdXJsOiAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQG9uc2lnaHRtYXJ0aW4iLAogIH0sCn0pOwoKY29uc3Qgb3JnYW5pemF0aW9uSnNvbkxkID0gSlNPTi5zdHJpbmdpZnkoewogICJAY29udGV4dCI6ICJodHRwczovL3NjaGVtYS5vcmciLAogICJAdHlwZSI6ICJPcmdhbml6YXRpb24iLAogIG5hbWU6ICJPbnNpZ2h0IE1hcnRpbiIsCiAgdXJsOiAiaHR0cHM6Ly9vbnNpZ2h0bWFydGluLmNvbSIsCiAgbG9nbzogImh0dHBzOi8vb25zaWdodG1hcnRpbi5jb20vYXBwLWljb24tNTEyLnBuZyIsCiAgZGVzY3JpcHRpb246CiAgICAiTWFydGluIEfDpXJkbGluZydzIHByb2plY3QgdG8gY2xpbWIgdGhlIGhpZ2hlc3QgbW91bnRhaW4gb2YgZXZlcnkgY291bnRyeSBvbiBFYXJ0aC4iLAogIGZvdW5kZXI6IHsKICAgICJAdHlwZSI6ICJQZXJzb24iLAogICAgbmFtZTogIk1hcnRpbiBHw6VyZGxpbmciLAogICAgdXJsOiAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQG9uc2lnaHRtYXJ0aW4iLAogIH0sCiAgc2FtZUFzOiBbCiAgICAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQG9uc2lnaHRtYXJ0aW4iLAogICAgImh0dHBzOi8vd3d3Lmluc3RhZ3JhbS5jb20vb25zaWdodG1hcnRpbiIsCiAgICAiaHR0cHM6Ly93d3cucGVha2JhZ2dlci5jb20vY2xpbWJlci9jbGltYmVyLmFzcHg/Y2lkPTQyMjk3IiwKICBdLAp9KTsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZVJvb3RSb3V0ZVdpdGhDb250ZXh0PHsgcXVlcnlDbGllbnQ6IFF1ZXJ5Q2xpZW50IH0+KCkoewogIGJlZm9yZUxvYWQ6IGFzeW5jICh7IGxvY2F0aW9uIH0pID0+IHsKICAgIC8vIHd3dy50aWNrbGVsaXN0Lm9yZyDihpIgdGlja2xlbGlzdC5vcmcgKDMwOCBwZXJtYW5lbnQsIHByZXNlcnZlIHBhdGgpCiAgICBjb25zdCBob3N0ID0gYXdhaXQgY3VycmVudEhvc3QoKTsKICAgIGlmIChob3N0ID09PSBDT01NVU5JVFlfV1dXX0hPU1QpIHsKICAgICAgdGhyb3cgcmVkaXJlY3QoewogICAgICAgIGhyZWY6IGBodHRwczovLyR7Q09NTVVOSVRZX0FQRVhfSE9TVH0ke2xvY2F0aW9uLmhyZWZ9YCwKICAgICAgICBzdGF0dXNDb2RlOiAzMDgsCiAgICAgIH0pOwogICAgfQogIH0sCiAgaGVhZDogKCkgPT4gKHsKICAgIG1ldGE6IFsKICAgICAgeyBjaGFyU2V0OiAidXRmLTgiIH0sCiAgICAgIHsgbmFtZTogInZpZXdwb3J0IiwgY29udGVudDogIndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAsIHZpZXdwb3J0LWZpdD1jb3ZlciIgfSwKICAgICAgeyBuYW1lOiAidGhlbWUtY29sb3IiLCBjb250ZW50OiAiIzBhMGMxMCIgfSwKICAgICAgeyBuYW1lOiAiYXBwbGUtbW9iaWxlLXdlYi1hcHAtY2FwYWJsZSIsIGNvbnRlbnQ6ICJ5ZXMiIH0sCiAgICAgIHsgbmFtZTogImFwcGxlLW1vYmlsZS13ZWItYXBwLXRpdGxlIiwgY29udGVudDogIlRpY2tsZWxpc3QiIH0sCiAgICAgIHsgbmFtZTogImFwcGxlLW1vYmlsZS13ZWItYXBwLXN0YXR1cy1iYXItc3R5bGUiLCBjb250ZW50OiAiYmxhY2stdHJhbnNsdWNlbnQiIH0sCiAgICAgIHsgdGl0bGU6ICJPbnNpZ2h0IE1hcnRpbiDigJQgQ2xpbWJpbmcgRXZlcnkgQ291bnRyeSdzIEhpZ2hlc3QgUGVhayIgfSwKICAgICAgewogICAgICAgIG5hbWU6ICJkZXNjcmlwdGlvbiIsCiAgICAgICAgY29udGVudDoKICAgICAgICAgICJNYXJ0aW4gR8OlcmRsaW5nJ3MgcXVlc3QgdG8gc3VtbWl0IHRoZSBoaWdoZXN0IG1vdW50YWluIG9mIGV2ZXJ5IGNvdW50cnkuIFRyYWNrIHByb2dyZXNzIGFjcm9zcyAxOTUgY291bnRyaWVzIHdpdGggZGlmZmljdWx0eSByYXRpbmdzIGFuZCBjbGltYiBkYXRlcy4iLAogICAgICB9LAogICAgICB7IG5hbWU6ICJhdXRob3IiLCBjb250ZW50OiAiTWFydGluIEfDpXJkbGluZyIgfSwKICAgICAgewogICAgICAgIG5hbWU6ICJnb29nbGUtc2l0ZS12ZXJpZmljYXRpb24iLAogICAgICAgIGNvbnRlbnQ6ICJ4MWl5My1xamNlSXZ6cU0tSkZvclZzVG5TRmZybzNUSzRsVDh0aUNfWi1RIiwKICAgICAgfSwKICAgICAgewogICAgICAgIG5hbWU6ICJrZXl3b3JkcyIsCiAgICAgICAgY29udGVudDoKICAgICAgICAgICJjb3VudHJ5IGhpZ2hwb2ludGluZywgaGlnaGVzdCBwZWFrIGV2ZXJ5IGNvdW50cnksIG1vdW50YWluIGNsaW1iaW5nLCBNYXJ0aW4gR8OlcmRsaW5nLCBoaWdocG9pbnQgY2hhbGxlbmdlLCBtb3VudGFpbmVlcmluZywgc3VtbWl0IHRyYWNrZXIsIGNvdW50cnkgaGlnaCBwb2ludHMgbGlzdCIsCiAgICAgIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0aXRsZSIsIGNvbnRlbnQ6ICJPbnNpZ2h0IE1hcnRpbiDigJQgQ291bnRyeSBIaWdocG9pbnRpbmciIH0sCiAgICAgIHsKICAgICAgICBwcm9wZXJ0eTogIm9nOmRlc2NyaXB0aW9uIiwKICAgICAgICBjb250ZW50OiAiQ2xpbWJpbmcgdGhlIGhpZ2hlc3QgbW91bnRhaW4gb2YgZXZlcnkgY291bnRyeSBvbiBFYXJ0aC4gRm9sbG93IHRoZSBqb3VybmV5LiIsCiAgICAgIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0eXBlIiwgY29udGVudDogIndlYnNpdGUiIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp1cmwiLCBjb250ZW50OiAiaHR0cHM6Ly9vbnNpZ2h0bWFydGluLmNvbS8iIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzppbWFnZSIsIGNvbnRlbnQ6ICJodHRwczovL29uc2lnaHRtYXJ0aW4uY29tL29nLWltYWdlLmpwZyIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOmltYWdlOndpZHRoIiwgY29udGVudDogIjEwMjQiIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzppbWFnZTpoZWlnaHQiLCBjb250ZW50OiAiMTAyNCIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnNpdGVfbmFtZSIsIGNvbnRlbnQ6ICJPbnNpZ2h0IE1hcnRpbiIgfSwKICAgICAgeyBuYW1lOiAidHdpdHRlcjpjYXJkIiwgY29udGVudDogInN1bW1hcnlfbGFyZ2VfaW1hZ2UiIH0sCiAgICAgIHsgbmFtZTogInR3aXR0ZXI6dGl0bGUiLCBjb250ZW50OiAiT25zaWdodCBNYXJ0aW4g4oCUIENvdW50cnkgSGlnaHBvaW50aW5nIiB9LAogICAgICB7CiAgICAgICAgbmFtZTogInR3aXR0ZXI6ZGVzY3JpcHRpb24iLAogICAgICAgIGNvbnRlbnQ6ICJDbGltYmluZyB0aGUgaGlnaGVzdCBtb3VudGFpbiBvZiBldmVyeSBjb3VudHJ5IG9uIEVhcnRoLiBGb2xsb3cgdGhlIGpvdXJuZXkuIiwKICAgICAgfSwKICAgICAgeyBuYW1lOiAidHdpdHRlcjppbWFnZSIsIGNvbnRlbnQ6ICJodHRwczovL29uc2lnaHRtYXJ0aW4uY29tL29nLWltYWdlLmpwZyIgfSwKICAgIF0sCiAgICBsaW5rczogWwogICAgICB7IHJlbDogInN0eWxlc2hlZXQiLCBocmVmOiBhcHBDc3MgfSwKICAgICAgeyByZWw6ICJpY29uIiwgdHlwZTogImltYWdlL3BuZyIsIGhyZWY6ICIvZmF2aWNvbi5wbmciIH0sCiAgICAgIHsgcmVsOiAibWFuaWZlc3QiLCBocmVmOiAiL21hbmlmZXN0LndlYm1hbmlmZXN0IiB9LAogICAgICB7IHJlbDogImFwcGxlLXRvdWNoLWljb24iLCBocmVmOiAiL2FwcC1pY29uLTE5Mi5wbmciIH0sCiAgICBdLAogICAgc2NyaXB0czogWwogICAgICB7IHR5cGU6ICJhcHBsaWNhdGlvbi9sZCtqc29uIiwgY2hpbGRyZW46IHdlYnNpdGVKc29uTGQgfSwKICAgICAgeyB0eXBlOiAiYXBwbGljYXRpb24vbGQranNvbiIsIGNoaWxkcmVuOiBvcmdhbml6YXRpb25Kc29uTGQgfSwKICAgIF0sCgogIH0pLAogIHNoZWxsQ29tcG9uZW50OiBSb290U2hlbGwsCiAgY29tcG9uZW50OiBSb290Q29tcG9uZW50LAogIG5vdEZvdW5kQ29tcG9uZW50OiBOb3RGb3VuZCwKICBlcnJvckNvbXBvbmVudDogUm9vdEVycm9yQ29tcG9uZW50LAp9KTsKCmZ1bmN0aW9uIFJvb3RTaGVsbCh7IGNoaWxkcmVuIH06IHsgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZSB9KSB7CiAgcmV0dXJuICgKICAgIDxodG1sIGxhbmc9ImVuIiBzdXBwcmVzc0h5ZHJhdGlvbldhcm5pbmc+CiAgICAgIDxoZWFkPgogICAgICAgIDxIZWFkQ29udGVudCAvPgogICAgICAgIDxzY3JpcHQgZGFuZ2Vyb3VzbHlTZXRJbm5lckhUTUw9e3sgX19odG1sOiBuYXRpdmVSb3V0ZUd1YXJkU2NyaXB0IH19IC8+CiAgICAgICAgey8qIEFwcGxpZWQgaW5saW5lIGJlZm9yZSBmaXJzdCBwYWludC4gS2VwdCBoZXJlIChub3QgaW4gaGVhZC5zY3JpcHRzKQogICAgICAgICAgICBiZWNhdXNlIHVudHlwZWQgc2NyaXB0IGVudHJpZXMgYXJlIG5vdCBlbWl0dGVkIGJ5IEhlYWRDb250ZW50LiAqL30KICAgICAgICA8c2NyaXB0IGRhbmdlcm91c2x5U2V0SW5uZXJIVE1MPXt7IF9faHRtbDogdGhlbWVCb290c3RyYXBTY3JpcHQgfX0gLz4KICAgICAgICA8c2NyaXB0IGRhbmdlcm91c2x5U2V0SW5uZXJIVE1MPXt7IF9faHRtbDogbW90aW9uQm9vdHN0cmFwU2NyaXB0IH19IC8+CiAgICAgIDwvaGVhZD4KICAgICAgPGJvZHk+CiAgICAgICAge2NoaWxkcmVufQogICAgICAgIDxTY3JpcHRzIC8+CiAgICAgIDwvYm9keT4KICAgIDwvaHRtbD4KICApOwp9CgoKZnVuY3Rpb24gUm9vdENvbXBvbmVudCgpIHsKICBjb25zdCB7IHF1ZXJ5Q2xpZW50IH0gPSBSb3V0ZS51c2VSb3V0ZUNvbnRleHQoKTsKICB1c2VBbmFseXRpY3NQYWdlVmlld3MoKTsKICByZXR1cm4gKAogICAgPEhlbG1ldFByb3ZpZGVyPgogICAgICA8UXVlcnlDbGllbnRQcm92aWRlciBjbGllbnQ9e3F1ZXJ5Q2xpZW50fT4KICAgICAgICA8VG9vbHRpcFByb3ZpZGVyPgogICAgICAgICAgPFRvYXN0ZXIgLz4KICAgICAgICAgIDxTb25uZXIgLz4KCiAgICAgICAgICA8QXV0aFByb3ZpZGVyPgogICAgICAgICAgICA8TmF0aXZlSG9tZVJlZGlyZWN0IC8+CiAgICAgICAgICAgIDxJbnN0YWxsQXBwUHJvbXB0IC8+CiAgICAgICAgICAgIDxQb3N0QXV0aFJlZGlyZWN0IC8+CiAgICAgICAgICAgIDxDZWxlYnJhdGlvbiAvPgogICAgICAgICAgICA8VGhlbWVTeW5jIC8+CiAgICAgICAgICAgIDxPdXRsZXQgLz4KICAgICAgICAgIDwvQXV0aFByb3ZpZGVyPgogICAgICAgIDwvVG9vbHRpcFByb3ZpZGVyPgogICAgICA8L1F1ZXJ5Q2xpZW50UHJvdmlkZXI+CiAgICA8L0hlbG1ldFByb3ZpZGVyPgogICk7Cn0KCmZ1bmN0aW9uIFJvb3RFcnJvckNvbXBvbmVudCh7IGVycm9yLCByZXNldCB9OiB7IGVycm9yOiBFcnJvcjsgcmVzZXQ6ICgpID0+IHZvaWQgfSkgewogIGNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpOwogIGNvbnNvbGUuZXJyb3IoZXJyb3IpOwogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICByZXBvcnRMb3ZhYmxlRXJyb3IoZXJyb3IsIHsgYm91bmRhcnk6ICJ0YW5zdGFja19yb290X2Vycm9yX2NvbXBvbmVudCIgfSk7CiAgfSwgW2Vycm9yXSk7CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctYmFja2dyb3VuZCB0ZXh0LWZvcmVncm91bmQgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcC02Ij4KICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LW1kIHctZnVsbCB0ZXh0LWNlbnRlciBzcGFjZS15LTQiPgogICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQteGwgZm9udC1ib2xkIj5UaGlzIHBhZ2UgZGlkbid0IGxvYWQ8L2gxPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIFNvbWV0aGluZyB3ZW50IHdyb25nIG9uIG91ciBlbmQuIFlvdSBjYW4gdHJ5IGFnYWluIG9yIGhlYWQgYmFjayBob21lLgogICAgICAgIDwvcD4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiBqdXN0aWZ5LWNlbnRlciI+CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtNCBweS0yIHJvdW5kZWQtbWQgYmctcHJpbWFyeSB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCIKICAgICAgICAgICAgb25DbGljaz17KCkgPT4gewogICAgICAgICAgICAgIHJvdXRlci5pbnZhbGlkYXRlKCk7CiAgICAgICAgICAgICAgcmVzZXQoKTsKICAgICAgICAgICAgfX0KICAgICAgICAgID4KICAgICAgICAgICAgVHJ5IGFnYWluCiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDxhIGNsYXNzTmFtZT0icHgtNCBweS0yIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIiIGhyZWY9Ii8iPgogICAgICAgICAgICBHbyBob21lCiAgICAgICAgICA8L2E+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQo=
+import { useEffect } from "react";
+import type { QueryClient } from "@tanstack/react-query";
+import { QueryClientProvider } from "@tanstack/react-query";
+import {
+  HeadContent,
+  Outlet,
+  Scripts,
+  createRootRouteWithContext,
+  redirect,
+  useRouter,
+} from "@tanstack/react-router";
+import { createIsomorphicFn } from "@tanstack/react-start";
+import { HelmetProvider } from "react-helmet-async";
+import { Toaster as Sonner } from "@/components/ui/sonner";
+import { Toaster } from "@/components/ui/toaster";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { AuthProvider } from "@/hooks/useAuth";
+import NativeHomeRedirect from "@/components/NativeHomeRedirect";
+import InstallAppPrompt from "@/components/InstallAppPrompt";
+import PostAuthRedirect from "@/components/PostAuthRedirect";
+import Celebration from "@/components/Celebration";
+import ThemeSync from "@/components/community/ThemeSync";
+import NotFound from "@/pages/NotFound";
+import { reportLovableError } from "@/lib/lovable-error-reporting";
+import appCss from "../styles.css?url";
+import { themeBootstrapScript } from "@/lib/themes";
+import { motionBootstrapScript } from "@/lib/motion";
+import { useAnalyticsPageViews } from "@/lib/analytics";
+
+
+/**
+ * Current request host — read from the browser on the client and from the
+ * request on the server. createIsomorphicFn keeps the server-only import out
+ * of the client bundle.
+ */
+const currentHost = createIsomorphicFn()
+  .client(() => window.location.host.toLowerCase())
+  .server(async () => {
+    const { getRequestHost } = await import("@tanstack/react-start/server");
+    return (getRequestHost() ?? "").toLowerCase();
+  });
+
+/**
+ * Canonical apex for the community domain. Visiting the www variant
+ * permanently redirects here (308) so search engines consolidate link
+ * equity onto the clean apex URL.
+ */
+const COMMUNITY_APEX_HOST = "ticklelist.org";
+const COMMUNITY_WWW_HOST = "www.ticklelist.org";
+
+/** Redirect the Android WebView before React paints. This also repairs older
+ * APKs that do not yet carry the TicklelistApp user-agent suffix. */
+const nativeRouteGuardScript = `(() => {
+  try {
+    const ua = navigator.userAgent || "";
+    const androidWebView = /Android/i.test(ua) && /;\\s*wv\\)|\\bwv\\b|Version\\/4\\.0/i.test(ua);
+    const nativeShell = /TicklelistApp/i.test(ua) || androidWebView;
+    const allowed = /^\\/(community(?:\\/|$)|auth(?:\\/|$)|account(?:\\/|$))/.test(location.pathname);
+    if (nativeShell && !allowed) location.replace("/community");
+  } catch (_) {}
+})();`;
+const websiteJsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Onsight Martin",
+  url: "https://onsightmartin.com",
+  description:
+    "Martin Gårdling's country highpointing project — climbing the highest peak of every country on Earth.",
+  author: {
+    "@type": "Person",
+    name: "Martin Gårdling",
+    url: "https://www.youtube.com/@onsightmartin",
+  },
+});
+
+const organizationJsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Onsight Martin",
+  url: "https://onsightmartin.com",
+  logo: "https://onsightmartin.com/app-icon-512.png",
+  description:
+    "Martin Gårdling's project to climb the highest mountain of every country on Earth.",
+  founder: {
+    "@type": "Person",
+    name: "Martin Gårdling",
+    url: "https://www.youtube.com/@onsightmartin",
+  },
+  sameAs: [
+    "https://www.youtube.com/@onsightmartin",
+    "https://www.instagram.com/onsightmartin",
+    "https://www.peakbagger.com/climber/climber.aspx?cid=42297",
+  ],
+});
+
+export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
+  beforeLoad: async ({ location }) => {
+    // www.ticklelist.org → ticklelist.org (308 permanent, preserve path)
+    const host = await currentHost();
+    if (host === COMMUNITY_WWW_HOST) {
+      throw redirect({
+        href: `https://${COMMUNITY_APEX_HOST}${location.href}`,
+        statusCode: 308,
+      });
+    }
+  },
+  head: () => ({
+    meta: [
+      { charSet: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1.0, viewport-fit=cover" },
+      { name: "theme-color", content: "#0a0c10" },
+      { name: "apple-mobile-web-app-capable", content: "yes" },
+      { name: "apple-mobile-web-app-title", content: "Ticklelist" },
+      { name: "apple-mobile-web-app-status-bar-style", content: "black-translucent" },
+      { title: "Onsight Martin — Climbing Every Country's Highest Peak" },
+      {
+        name: "description",
+        content:
+          "Martin Gårdling's quest to summit the highest mountain of every country. Track progress across 195 countries with difficulty ratings and climb dates.",
+      },
+      { name: "author", content: "Martin Gårdling" },
+      {
+        name: "google-site-verification",
+        content: "x1iy3-qjceIvzqM-JForVsTnSFfro3TK4lT8tiC_Z-Q",
+      },
+      {
+        name: "keywords",
+        content:
+          "country highpointing, highest peak every country, mountain climbing, Martin Gårdling, highpoint challenge, mountaineering, summit tracker, country high points list",
+      },
+      { property: "og:title", content: "Onsight Martin — Country Highpointing" },
+      {
+        property: "og:description",
+        content: "Climbing the highest mountain of every country on Earth. Follow the journey.",
+      },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://onsightmartin.com/" },
+      { property: "og:image", content: "https://onsightmartin.com/og-image.jpg" },
+      { property: "og:image:width", content: "1024" },
+      { property: "og:image:height", content: "1024" },
+      { property: "og:site_name", content: "Onsight Martin" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Onsight Martin — Country Highpointing" },
+      {
+        name: "twitter:description",
+        content: "Climbing the highest mountain of every country on Earth. Follow the journey.",
+      },
+      { name: "twitter:image", content: "https://onsightmartin.com/og-image.jpg" },
+    ],
+    links: [
+      { rel: "stylesheet", href: appCss },
+      { rel: "icon", type: "image/png", href: "/favicon.png" },
+      { rel: "manifest", href: "/manifest.webmanifest" },
+      { rel: "apple-touch-icon", href: "/app-icon-192.png" },
+    ],
+    scripts: [
+      { type: "application/ld+json", children: websiteJsonLd },
+      { type: "application/ld+json", children: organizationJsonLd },
+    ],
+
+  }),
+  shellComponent: RootShell,
+  component: RootComponent,
+  notFoundComponent: NotFound,
+  errorComponent: RootErrorComponent,
+});
+
+function RootShell({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <HeadContent />
+        <script dangerouslySetInnerHTML={{ __html: nativeRouteGuardScript }} />
+        {/* Applied inline before first paint. Kept here (not in head.scripts)
+            because untyped script entries are not emitted by HeadContent. */}
+        <script dangerouslySetInnerHTML={{ __html: themeBootstrapScript }} />
+        <script dangerouslySetInnerHTML={{ __html: motionBootstrapScript }} />
+      </head>
+      <body>
+        {children}
+        <Scripts />
+      </body>
+    </html>
+  );
+}
+
+
+function RootComponent() {
+  const { queryClient } = Route.useRouteContext();
+  useAnalyticsPageViews();
+  return (
+    <HelmetProvider>
+      <QueryClientProvider client={queryClient}>
+        <TooltipProvider>
+          <Toaster />
+          <Sonner />
+
+          <AuthProvider>
+            <NativeHomeRedirect />
+            <InstallAppPrompt />
+            <PostAuthRedirect />
+            <Celebration />
+            <ThemeSync />
+            <Outlet />
+          </AuthProvider>
+        </TooltipProvider>
+      </QueryClientProvider>
+    </HelmetProvider>
+  );
+}
+
+function RootErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
+  const router = useRouter();
+  console.error(error);
+  useEffect(() => {
+    reportLovableError(error, { boundary: "tanstack_root_error_component" });
+  }, [error]);
+  return (
+    <div className="min-h-screen bg-background text-foreground flex items-center justify-center p-6">
+      <div className="max-w-md w-full text-center space-y-4">
+        <h1 className="text-xl font-bold">This page didn't load</h1>
+        <p className="text-muted-foreground">
+          Something went wrong on our end. You can try again or head back home.
+        </p>
+        <div className="flex gap-2 justify-center">
+          <button
+            className="px-4 py-2 rounded-md bg-primary text-primary-foreground"
+            onClick={() => {
+              router.invalidate();
+              reset();
+            }}
+          >
+            Try again
+          </button>
+          <a className="px-4 py-2 rounded-md border border-border" href="/">
+            Go home
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}

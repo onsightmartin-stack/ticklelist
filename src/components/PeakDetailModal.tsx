@@ -1,1 +1,298 @@
-aW1wb3J0IHsgRGlhbG9nLCBEaWFsb2dDb250ZW50LCBEaWFsb2dUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgUGVha0ltYWdlIGZyb20gIkAvY29tcG9uZW50cy9QZWFrSW1hZ2UiOwppbXBvcnQgVW5NZW1iZXJCYWRnZSBmcm9tICJAL2NvbXBvbmVudHMvVW5NZW1iZXJCYWRnZSI7CmltcG9ydCBQZWFrUmVmTGlua3MgZnJvbSAiQC9jb21wb25lbnRzL1BlYWtSZWZMaW5rcyI7CmltcG9ydCB7IHBlYWtEZXRhaWxzIH0gZnJvbSAiQC9kYXRhL3BlYWstZGV0YWlscyI7CmltcG9ydCB7IGNvdW50cmllcyB9IGZyb20gIkAvZGF0YS9jb3VudHJpZXMiOwppbXBvcnQgeyBjb3VudHJ5RGlmZmljdWx0eSwgZGlmZmljdWx0eUNvbmZpZyB9IGZyb20gIkAvZGF0YS9kaWZmaWN1bHR5IjsKaW1wb3J0IHsgYWR2aXNvcnlEZXRhaWxzLCBjYXV0aW9uTm90ZXMsIGdldE5ld3NVcmwgfSBmcm9tICJAL2RhdGEvYWR2aXNvcnktZGV0YWlscyI7CmltcG9ydCB7IHBlcnNvbmFsTm90ZXMgfSBmcm9tICJAL2RhdGEvcGVyc29uYWwtbm90ZXMiOwppbXBvcnQgeyB1a0NvbnN0aXR1ZW50SGlnaHBvaW50cyB9IGZyb20gIkAvZGF0YS91ay1jb25zdGl0dWVudHMiOwoKaW1wb3J0IHsgTW91bnRhaW4sIENhbGVuZGFyLCBBcnJvd1VwUmlnaHQsIE5hdmlnYXRpb24sIFlvdXR1YmUsIEFsZXJ0VHJpYW5nbGUsIEV4dGVybmFsTGluayB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IHVzZVF1ZXJ5IH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXF1ZXJ5IjsKaW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwoKaW50ZXJmYWNlIFBlYWtEZXRhaWxNb2RhbFByb3BzIHsKICBjb3VudHJ5OiBzdHJpbmcgfCBudWxsOwogIG9wZW46IGJvb2xlYW47CiAgb25PcGVuQ2hhbmdlOiAob3BlbjogYm9vbGVhbikgPT4gdm9pZDsKfQoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUGVha0RldGFpbE1vZGFsKHsgY291bnRyeSwgb3Blbiwgb25PcGVuQ2hhbmdlIH06IFBlYWtEZXRhaWxNb2RhbFByb3BzKSB7CiAgLy8gRmV0Y2ggY29uZmlybWVkIFlvdVR1YmUgY2xpbWIgZm9yIHRoaXMgY291bnRyeQogIGNvbnN0IHsgZGF0YTogeW91dHViZUNsaW1iIH0gPSB1c2VRdWVyeSh7CiAgICBxdWVyeUtleTogWyJ5b3V0dWJlLWNsaW1iLWxpbmsiLCBjb3VudHJ5XSwKICAgIHF1ZXJ5Rm46IGFzeW5jICgpID0+IHsKICAgICAgaWYgKCFjb3VudHJ5KSByZXR1cm4gbnVsbDsKICAgICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAgIC5mcm9tKCJ5b3V0dWJlX2NsaW1icyIpCiAgICAgICAgLnNlbGVjdCgidmlkZW9fdXJsLCB2aWRlb19pZCIpCiAgICAgICAgLmVxKCJjb3VudHJ5IiwgY291bnRyeSkKICAgICAgICAuZXEoInN0YXR1cyIsICJjb25maXJtZWQiKQogICAgICAgIC5saW1pdCgxKQogICAgICAgIC5tYXliZVNpbmdsZSgpOwogICAgICByZXR1cm4gZGF0YTsKICAgIH0sCiAgICBlbmFibGVkOiAhIWNvdW50cnksCiAgfSk7CgogIGlmICghY291bnRyeSkgcmV0dXJuIG51bGw7CgogIGNvbnN0IGRldGFpbCA9IHBlYWtEZXRhaWxzW2NvdW50cnldOwogIGNvbnN0IGVudHJ5ID0gY291bnRyaWVzLmZpbmQoKGMpID0+IGMuY291bnRyeSA9PT0gY291bnRyeSk7CgogIGlmICghZGV0YWlsKSByZXR1cm4gbnVsbDsKCiAgLy8gUHJlZmVyIGhhcmRjb2RlZCB5b3V0dWJlVXJsLCBmYWxsYmFjayB0byBjb25maXJtZWQgeW91dHViZV9jbGltYnMgZW50cnkKICBjb25zdCB5b3V0dWJlVXJsID0gZGV0YWlsLnlvdXR1YmVVcmwgfHwgeW91dHViZUNsaW1iPy52aWRlb191cmwgfHwgbnVsbDsKCiAgY29uc3Qgc3RhdHVzTGFiZWwgPQogICAgZW50cnk/LnN0YXR1cyA9PT0gImNsaW1iZWQiCiAgICAgID8gIuKckyBTdW1taXRlZCIKICAgICAgOiBlbnRyeT8uc3RhdHVzID09PSAibWFpbmxhbmRfY2xpbWJlZCIKICAgICAgPyAi4peIIE1haW5sYW5kIEhQIgogICAgICA6IGVudHJ5Py5zdGF0dXMgPT09ICJ2aXNpdGVkIgogICAgICA/ICLil4kgQ291bnRyeSBWaXNpdGVkIgogICAgICA6ICLil4sgTm90IFlldCI7CgogIGNvbnN0IHN0YXR1c0NvbG9yID0KICAgIGVudHJ5Py5zdGF0dXMgPT09ICJjbGltYmVkIgogICAgICA/ICJ0ZXh0LXByaW1hcnkiCiAgICAgIDogZW50cnk/LnN0YXR1cyA9PT0gIm1haW5sYW5kX2NsaW1iZWQiCiAgICAgID8gInRleHQtbWFpbmxhbmQiCiAgICAgIDogZW50cnk/LnN0YXR1cyA9PT0gInZpc2l0ZWQiCiAgICAgID8gInRleHQtYWNjZW50IgogICAgICA6ICJ0ZXh0LW11dGVkLWZvcmVncm91bmQiOwoKICByZXR1cm4gKAogICAgPERpYWxvZyBvcGVuPXtvcGVufSBvbk9wZW5DaGFuZ2U9e29uT3BlbkNoYW5nZX0+CiAgICAgIDxEaWFsb2dDb250ZW50IGNsYXNzTmFtZT0ibWF4LXctbGcgcC0wIG92ZXJmbG93LWhpZGRlbiBiZy1jYXJkIGJvcmRlci1ib3JkZXIgZ2FwLTAiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBoLTQ4IHctZnVsbCBvdmVyZmxvdy1oaWRkZW4gYmctc2Vjb25kYXJ5Ij4KICAgICAgICAgIDxQZWFrSW1hZ2UKICAgICAgICAgICAgc3JjPXtkZXRhaWwucGhvdG9Vcmx9CiAgICAgICAgICAgIGFsdD17ZGV0YWlsLnBlYWt9CiAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGgtZnVsbCBvYmplY3QtY292ZXIgb2JqZWN0LXRvcCIKICAgICAgICAgICAgbG9hZGluZz0ibGF6eSIKICAgICAgICAgICAgd2lkdGg9ezE2MDB9CiAgICAgICAgICAgIGhlaWdodD17OTAwfQogICAgICAgICAgLz4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGJnLWdyYWRpZW50LXRvLXQgZnJvbS1jYXJkIHZpYS1jYXJkLzQwIHRvLXRyYW5zcGFyZW50IiAvPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGJvdHRvbS0zIGxlZnQtNCByaWdodC00Ij4KICAgICAgICAgICAgPERpYWxvZ1RpdGxlIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQteGwgZm9udC1ib2xkIHRleHQtZm9yZWdyb3VuZCBkcm9wLXNoYWRvdy1sZyI+CiAgICAgICAgICAgICAge2RldGFpbC5wZWFrfQogICAgICAgICAgICA8L0RpYWxvZ1RpdGxlPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgbXQtMSI+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e2RldGFpbC5jb3VudHJ5fTwvcD4KICAgICAgICAgICAgICA8VW5NZW1iZXJCYWRnZSB1bk1lbWJlcj17ZW50cnk/LnVuTWVtYmVyfSAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAge2VudHJ5Py5hbHROYW1lcz8ubGVuZ3RoID8gKAogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICBBbHNvIGtub3duIGFzIHtlbnRyeS5hbHROYW1lcy5qb2luKCIgwrcgIil9CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICApIDogbnVsbH0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icC00IHNwYWNlLXktNCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgZm9udC1kaXNwbGF5IGZvbnQtYm9sZCB0ZXh0LXNtICR7c3RhdHVzQ29sb3J9YH0+CiAgICAgICAgICAgICAge3N0YXR1c0xhYmVsfQogICAgICAgICAgICAgIHtlbnRyeT8ueWVhciA/IGAgKCR7ZW50cnkueWVhcn0pYCA6ICIifQogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgeygoKSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBkaWZmID0gY291bnRyeURpZmZpY3VsdHlbY291bnRyeV07CiAgICAgICAgICAgICAgICBpZiAoIWRpZmYpIHJldHVybiBudWxsOwogICAgICAgICAgICAgICAgY29uc3QgY29uZmlnID0gZGlmZmljdWx0eUNvbmZpZ1tkaWZmLmRpZmZpY3VsdHldOwogICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgdGV4dC14cyBmb250LWRpc3BsYXkgZm9udC1ib2xkIHB4LTIgcHktMC41IHJvdW5kZWQtc20gJHtjb25maWcuY29sb3J9ICR7Y29uZmlnLmJnQ29sb3J9YH0+CiAgICAgICAgICAgICAgICAgICAge2NvbmZpZy5sYWJlbH0KICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICB9KSgpfQogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgdGV4dC1yaWdodCI+e2RldGFpbC5yYW5nZX08L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICB7KCgpID0+IHsKICAgICAgICAgICAgY29uc3QgZGlmZiA9IGNvdW50cnlEaWZmaWN1bHR5W2NvdW50cnldOwogICAgICAgICAgICBpZiAoIWRpZmY/LmRpZmZpY3VsdHlOb3RlKSByZXR1cm4gbnVsbDsKICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGl0YWxpYyI+CiAgICAgICAgICAgICAgICB7ZGlmZi5kaWZmaWN1bHR5Tm90ZX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICk7CiAgICAgICAgICB9KSgpfQoKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0zIGdhcC0zIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXNlY29uZGFyeSByb3VuZGVkLWxnIHAtMyB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgICAgPE1vdW50YWluIGNsYXNzTmFtZT0idy00IGgtNCBteC1hdXRvIG1iLTEgdGV4dC1wcmltYXJ5IiAvPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtc20gZm9udC1ib2xkIHRleHQtZm9yZWdyb3VuZCI+e2RldGFpbC5lbGV2YXRpb24udG9Mb2NhbGVTdHJpbmcoKX0gbTwvcD4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5FbGV2YXRpb248L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctc2Vjb25kYXJ5IHJvdW5kZWQtbGcgcC0zIHRleHQtY2VudGVyIj4KICAgICAgICAgICAgICA8QXJyb3dVcFJpZ2h0IGNsYXNzTmFtZT0idy00IGgtNCBteC1hdXRvIG1iLTEgdGV4dC1pY2UiIC8+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC1zbSBmb250LWJvbGQgdGV4dC1mb3JlZ3JvdW5kIj57ZGV0YWlsLnByb21pbmVuY2UudG9Mb2NhbGVTdHJpbmcoKX0gbTwvcD4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5Qcm9taW5lbmNlPC9wPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXNlY29uZGFyeSByb3VuZGVkLWxnIHAtMyB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgICAgPE5hdmlnYXRpb24gY2xhc3NOYW1lPSJ3LTQgaC00IG14LWF1dG8gbWItMSB0ZXh0LWFjY2VudCIgLz4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LXhzIGZvbnQtYm9sZCB0ZXh0LWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge2RldGFpbC5jb29yZGluYXRlcy5sYXQudG9GaXhlZCgyKX3CsCwge2RldGFpbC5jb29yZGluYXRlcy5sbmcudG9GaXhlZCgyKX3CsAogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5Mb2NhdGlvbjwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctc2Vjb25kYXJ5IHJvdW5kZWQtbGcgcC0zIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RhcnQgZ2FwLTIiPgogICAgICAgICAgICAgIDxDYWxlbmRhciBjbGFzc05hbWU9InctNCBoLTQgbXQtMC41IHRleHQtcHJpbWFyeSBzaHJpbmstMCIgLz4KICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgbWItMSI+Rmlyc3QgQXNjZW50PC9wPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtZm9yZWdyb3VuZCI+e2RldGFpbC5maXJzdEFzY2VudH08L3A+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBsZWFkaW5nLXJlbGF4ZWQiPntkZXRhaWwuZGVzY3JpcHRpb259PC9wPgoKICAgICAgICAgIHtwZXJzb25hbE5vdGVzW2NvdW50cnldICYmICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXByaW1hcnkvNSBib3JkZXIgYm9yZGVyLXByaW1hcnkvMjAgcm91bmRlZC1sZyBwLTMgc3BhY2UteS0xLjUiPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyBmb250LWRpc3BsYXkgZm9udC1ib2xkIHRleHQtcHJpbWFyeSB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIiPvCfk50gUGVyc29uYWwgTm90ZTwvcD4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1mb3JlZ3JvdW5kIGxlYWRpbmctcmVsYXhlZCBpdGFsaWMiPntwZXJzb25hbE5vdGVzW2NvdW50cnldfTwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApfQoKICAgICAgICAgIHtjb3VudHJ5ID09PSAiVW5pdGVkIEtpbmdkb20iICYmICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXNlY29uZGFyeSByb3VuZGVkLWxnIHAtMyBzcGFjZS15LTIiPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyBmb250LWRpc3BsYXkgZm9udC1ib2xkIHRleHQtcHJpbWFyeSB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIiPgogICAgICAgICAgICAgICAg8J+PtCBDb25zdGl0dWVudCBDb3VudHJ5IEhpZ2hwb2ludHMg4oCUIGFsbCA0IGNvbXBsZXRlCiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgICAgICAgICAgICB7dWtDb25zdGl0dWVudEhpZ2hwb2ludHMubWFwKChocCkgPT4gKAogICAgICAgICAgICAgICAgICA8bGkga2V5PXtocC5uYXRpb259IGNsYXNzTmFtZT0ic3BhY2UteS0xLjUiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWJhc2VsaW5lIGp1c3RpZnktYmV0d2VlbiBnYXAtMiB0ZXh0LXhzIj4KICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgZm9udC1ib2xkIj57aHAubmF0aW9ufTwvc3Bhbj4g4oCUIHtocC5wZWFrfQogICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgd2hpdGVzcGFjZS1ub3dyYXAiPgogICAgICAgICAgICAgICAgICAgICAgICB7aHAuZWxldmF0aW9uLnRvTG9jYWxlU3RyaW5nKCl9IG0gwrcge2hwLmRhdGV9CiAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAge2hwLnBob3RvcyAmJiBocC5waG90b3MubGVuZ3RoID4gMCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgICAgICAgICAgICAgICAgICAgICAge2hwLnBob3Rvcy5tYXAoKHBob3RvLCBpZHgpID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgICA8ZmlndXJlIGtleT17aWR4fSBjbGFzc05hbWU9InNwYWNlLXktMSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNyYz17cGhvdG8udXJsfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbHQ9e3Bob3RvLmNhcHRpb24gfHwgYCR7aHAucGVha30gc3VtbWl0IGluICR7Y291bnRyeX1gfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb2FkaW5nPSJsYXp5IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZWNvZGluZz0iYXN5bmMiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHJvdW5kZWQtbWQgb2JqZWN0LWNvdmVyIG1heC1oLTU2IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtwaG90by5jYXB0aW9uICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGZpZ2NhcHRpb24gY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQgaXRhbGljIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7cGhvdG8uY2FwdGlvbn0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9maWdjYXB0aW9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgICAgICA8L2ZpZ3VyZT4KICAgICAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgPC91bD4KCiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KCgogICAgICAgICAge2NvdW50cnkgPT09ICJBbGdlcmlhIiAmJiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1hY2NlbnQvMTAgYm9yZGVyIGJvcmRlci1hY2NlbnQvMzAgcm91bmRlZC1sZyBwLTMgc3BhY2UteS0xLjUiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgICAgIDxBbGVydFRyaWFuZ2xlIGNsYXNzTmFtZT0idy00IGgtNCB0ZXh0LWFjY2VudCBzaHJpbmstMCIgLz4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWRpc3BsYXkgZm9udC1ib2xkIHRleHQtYWNjZW50Ij5DbG9zZWQgZm9yIENsaW1iaW5nPC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LWZvcmVncm91bmQiPk1vdW50IFRhaGF0IGlzIGN1cnJlbnRseSBjbG9zZWQgZm9yIGNsaW1iaW5nIHVudGlsIGZ1cnRoZXIgbm90aWNlLiBBbGdlcmlhbiBhdXRob3JpdGllcyBoYXZlIHJlc3RyaWN0ZWQgYWNjZXNzIHRvIHRoZSBBdGFrb3IgcGxhdGVhdSBpbiB0aGUgSG9nZ2FyIE1vdW50YWlucy48L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KCiAgICAgICAgICB7YWR2aXNvcnlEZXRhaWxzW2NvdW50cnldICYmICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLWRlc3RydWN0aXZlLzEwIGJvcmRlciBib3JkZXItZGVzdHJ1Y3RpdmUvMzAgcm91bmRlZC1sZyBwLTMgc3BhY2UteS0xLjUiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgICAgIDxBbGVydFRyaWFuZ2xlIGNsYXNzTmFtZT0idy00IGgtNCB0ZXh0LWRlc3RydWN0aXZlIHNocmluay0wIiAvPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtZGlzcGxheSBmb250LWJvbGQgdGV4dC1kZXN0cnVjdGl2ZSI+QWN0aXZlIENvbmZsaWN0PC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LWZvcmVncm91bmQiPnthZHZpc29yeURldGFpbHNbY291bnRyeV0ucmVhc29ufTwvcD4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGl0YWxpYyI+e2Fkdmlzb3J5RGV0YWlsc1tjb3VudHJ5XS5jYXV0aW9ufTwvcD4KICAgICAgICAgICAgICA8YQogICAgICAgICAgICAgICAgaHJlZj17Z2V0TmV3c1VybChhZHZpc29yeURldGFpbHNbY291bnRyeV0ubmV3c1F1ZXJ5KX0KICAgICAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICAgICAgcmVsPSJub29wZW5lciBub3JlZmVycmVyIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgdGV4dC14cyBmb250LWJvbGQgdGV4dC1wcmltYXJ5IGhvdmVyOnVuZGVybGluZSBtdC0xIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIExhdGVzdCBuZXdzIDxFeHRlcm5hbExpbmsgY2xhc3NOYW1lPSJ3LTMgaC0zIiAvPgogICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApfQoKICAgICAgICAgIHshYWR2aXNvcnlEZXRhaWxzW2NvdW50cnldICYmIGNhdXRpb25Ob3Rlc1tjb3VudHJ5XSAmJiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1hY2NlbnQvMTAgYm9yZGVyIGJvcmRlci1hY2NlbnQvMzAgcm91bmRlZC1sZyBwLTMgc3BhY2UteS0xLjUiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgICAgIDxBbGVydFRyaWFuZ2xlIGNsYXNzTmFtZT0idy00IGgtNCB0ZXh0LWFjY2VudCBzaHJpbmstMCIgLz4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWRpc3BsYXkgZm9udC1ib2xkIHRleHQtYWNjZW50Ij5UcmF2ZWwgQ2F1dGlvbjwvcD4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1mb3JlZ3JvdW5kIj57Y2F1dGlvbk5vdGVzW2NvdW50cnldLm5vdGV9PC9wPgogICAgICAgICAgICAgIDxhCiAgICAgICAgICAgICAgICBocmVmPXtnZXROZXdzVXJsKGNhdXRpb25Ob3Rlc1tjb3VudHJ5XS5uZXdzUXVlcnkpfQogICAgICAgICAgICAgICAgdGFyZ2V0PSJfYmxhbmsiCiAgICAgICAgICAgICAgICByZWw9Im5vb3BlbmVyIG5vcmVmZXJyZXIiCiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSB0ZXh0LXhzIGZvbnQtYm9sZCB0ZXh0LXByaW1hcnkgaG92ZXI6dW5kZXJsaW5lIG10LTEiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgTGF0ZXN0IG5ld3MgPEV4dGVybmFsTGluayBjbGFzc05hbWU9InctMyBoLTMiIC8+CiAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICl9CgogICAgICAgICAgPFBlYWtSZWZMaW5rcyBwZWFrPXtkZXRhaWwucGVha30gY291bnRyeT17ZGV0YWlsLmNvdW50cnl9IHlvdXR1YmVVcmw9e3lvdXR1YmVVcmx9IC8+CgogICAgICAgICAge3lvdXR1YmVVcmwgJiYgKCgpID0+IHsKICAgICAgICAgICAgY29uc3QgdmlkZW9JZCA9IHlvdXR1YmVVcmwubWF0Y2goLyg/OnlvdXR1XC5iZVwvfHY9KShbXj8mXSspLyk/LlsxXTsKICAgICAgICAgICAgY29uc3QgdGh1bWJuYWlsVXJsID0gdmlkZW9JZCA/IGBodHRwczovL2ltZy55b3V0dWJlLmNvbS92aS8ke3ZpZGVvSWR9L2hxZGVmYXVsdC5qcGdgIDogbnVsbDsKICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICA8YQogICAgICAgICAgICAgICAgaHJlZj17eW91dHViZVVybH0KICAgICAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICAgICAgcmVsPSJub29wZW5lciBub3JlZmVycmVyIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJibG9jayBiZy1zZWNvbmRhcnkgaG92ZXI6Ymctc2Vjb25kYXJ5LzgwIHJvdW5kZWQtbGcgb3ZlcmZsb3ctaGlkZGVuIHRyYW5zaXRpb24tY29sb3JzIGdyb3VwIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt0aHVtYm5haWxVcmwgJiYgKAogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgdy1mdWxsIGFzcGVjdC12aWRlbyBvdmVyZmxvdy1oaWRkZW4iPgogICAgICAgICAgICAgICAgICAgIDxpbWcKICAgICAgICAgICAgICAgICAgICAgIHNyYz17dGh1bWJuYWlsVXJsfQogICAgICAgICAgICAgICAgICAgICAgYWx0PXtgU3VtbWl0IHZpZGVvIHRodW1ibmFpbCBmb3IgdGhlIGhpZ2ggcG9pbnQgb2YgJHtjb3VudHJ5fWB9CiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBoLWZ1bGwgb2JqZWN0LWNvdmVyIgogICAgICAgICAgICAgICAgICAgICAgd2lkdGg9ezQ4MH0KICAgICAgICAgICAgICAgICAgICAgIGhlaWdodD17MjcwfQogICAgICAgICAgICAgICAgICAgICAgbG9hZGluZz0ibGF6eSIKICAgICAgICAgICAgICAgICAgICAgIGRlY29kaW5nPSJhc3luYyIKICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGJnLWJsYWNrLzMwIGdyb3VwLWhvdmVyOmJnLWJsYWNrLzIwIHRyYW5zaXRpb24tY29sb3JzIj4KICAgICAgICAgICAgICAgICAgICAgIDxZb3V0dWJlIGNsYXNzTmFtZT0idy0xMCBoLTEwIHRleHQtcmVkLTUwMCBkcm9wLXNoYWRvdy1sZyIgLz4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHAtMyI+CiAgICAgICAgICAgICAgICAgIDxZb3V0dWJlIGNsYXNzTmFtZT0idy00IGgtNCB0ZXh0LXJlZC01MDAgc2hyaW5rLTAiIC8+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWRpc3BsYXkgZm9udC1ib2xkIHRleHQtZm9yZWdyb3VuZCBncm91cC1ob3Zlcjp0ZXh0LXByaW1hcnkgdHJhbnNpdGlvbi1jb2xvcnMiPgogICAgICAgICAgICAgICAgICAgIFdhdGNoIFN1bW1pdCBWaWRlbwogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICk7CiAgICAgICAgICB9KSgpfQogICAgICAgIDwvZGl2PgogICAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgICA8L0RpYWxvZz4KICApOwp9Cg==
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
+import PeakImage from "@/components/PeakImage";
+import UnMemberBadge from "@/components/UnMemberBadge";
+import PeakRefLinks from "@/components/PeakRefLinks";
+import { peakDetails } from "@/data/peak-details";
+import { countries } from "@/data/countries";
+import { countryDifficulty, difficultyConfig } from "@/data/difficulty";
+import { advisoryDetails, cautionNotes, getNewsUrl } from "@/data/advisory-details";
+import { personalNotes } from "@/data/personal-notes";
+import { ukConstituentHighpoints } from "@/data/uk-constituents";
+
+import { Mountain, Calendar, ArrowUpRight, Navigation, Youtube, AlertTriangle, ExternalLink } from "lucide-react";
+import { useQuery } from "@tanstack/react-query";
+import { supabase } from "@/integrations/supabase/client";
+
+interface PeakDetailModalProps {
+  country: string | null;
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+}
+
+export default function PeakDetailModal({ country, open, onOpenChange }: PeakDetailModalProps) {
+  // Fetch confirmed YouTube climb for this country
+  const { data: youtubeClimb } = useQuery({
+    queryKey: ["youtube-climb-link", country],
+    queryFn: async () => {
+      if (!country) return null;
+      const { data } = await supabase
+        .from("youtube_climbs")
+        .select("video_url, video_id")
+        .eq("country", country)
+        .eq("status", "confirmed")
+        .limit(1)
+        .maybeSingle();
+      return data;
+    },
+    enabled: !!country,
+  });
+
+  if (!country) return null;
+
+  const detail = peakDetails[country];
+  const entry = countries.find((c) => c.country === country);
+
+  if (!detail) return null;
+
+  // Prefer hardcoded youtubeUrl, fallback to confirmed youtube_climbs entry
+  const youtubeUrl = detail.youtubeUrl || youtubeClimb?.video_url || null;
+
+  const statusLabel =
+    entry?.status === "climbed"
+      ? "✓ Summited"
+      : entry?.status === "mainland_climbed"
+      ? "◈ Mainland HP"
+      : entry?.status === "visited"
+      ? "◉ Country Visited"
+      : "○ Not Yet";
+
+  const statusColor =
+    entry?.status === "climbed"
+      ? "text-primary"
+      : entry?.status === "mainland_climbed"
+      ? "text-mainland"
+      : entry?.status === "visited"
+      ? "text-accent"
+      : "text-muted-foreground";
+
+  return (
+    <Dialog open={open} onOpenChange={onOpenChange}>
+      <DialogContent className="max-w-lg p-0 overflow-hidden bg-card border-border gap-0">
+        <div className="relative h-48 w-full overflow-hidden bg-secondary">
+          <PeakImage
+            src={detail.photoUrl}
+            alt={detail.peak}
+            className="w-full h-full object-cover object-top"
+            loading="lazy"
+            width={1600}
+            height={900}
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-card via-card/40 to-transparent" />
+          <div className="absolute bottom-3 left-4 right-4">
+            <DialogTitle className="font-display text-xl font-bold text-foreground drop-shadow-lg">
+              {detail.peak}
+            </DialogTitle>
+            <div className="flex items-center gap-2 mt-1">
+              <p className="text-sm text-muted-foreground">{detail.country}</p>
+              <UnMemberBadge unMember={entry?.unMember} />
+            </div>
+            {entry?.altNames?.length ? (
+              <p className="mt-1 text-xs text-muted-foreground">
+                Also known as {entry.altNames.join(" · ")}
+              </p>
+            ) : null}
+          </div>
+        </div>
+
+        <div className="p-4 space-y-4">
+          <div className="flex items-center justify-between gap-3">
+            <span className={`font-display font-bold text-sm ${statusColor}`}>
+              {statusLabel}
+              {entry?.year ? ` (${entry.year})` : ""}
+            </span>
+            <div className="flex items-center gap-2">
+              {(() => {
+                const diff = countryDifficulty[country];
+                if (!diff) return null;
+                const config = difficultyConfig[diff.difficulty];
+                return (
+                  <span className={`text-xs font-display font-bold px-2 py-0.5 rounded-sm ${config.color} ${config.bgColor}`}>
+                    {config.label}
+                  </span>
+                );
+              })()}
+              <span className="text-xs text-muted-foreground text-right">{detail.range}</span>
+            </div>
+          </div>
+          {(() => {
+            const diff = countryDifficulty[country];
+            if (!diff?.difficultyNote) return null;
+            return (
+              <p className="text-xs text-muted-foreground italic">
+                {diff.difficultyNote}
+              </p>
+            );
+          })()}
+
+          <div className="grid grid-cols-3 gap-3">
+            <div className="bg-secondary rounded-lg p-3 text-center">
+              <Mountain className="w-4 h-4 mx-auto mb-1 text-primary" />
+              <p className="font-display text-sm font-bold text-foreground">{detail.elevation.toLocaleString()} m</p>
+              <p className="text-xs text-muted-foreground">Elevation</p>
+            </div>
+            <div className="bg-secondary rounded-lg p-3 text-center">
+              <ArrowUpRight className="w-4 h-4 mx-auto mb-1 text-ice" />
+              <p className="font-display text-sm font-bold text-foreground">{detail.prominence.toLocaleString()} m</p>
+              <p className="text-xs text-muted-foreground">Prominence</p>
+            </div>
+            <div className="bg-secondary rounded-lg p-3 text-center">
+              <Navigation className="w-4 h-4 mx-auto mb-1 text-accent" />
+              <p className="font-display text-xs font-bold text-foreground">
+                {detail.coordinates.lat.toFixed(2)}°, {detail.coordinates.lng.toFixed(2)}°
+              </p>
+              <p className="text-xs text-muted-foreground">Location</p>
+            </div>
+          </div>
+
+          <div className="bg-secondary rounded-lg p-3">
+            <div className="flex items-start gap-2">
+              <Calendar className="w-4 h-4 mt-0.5 text-primary shrink-0" />
+              <div>
+                <p className="text-xs text-muted-foreground uppercase tracking-wider mb-1">First Ascent</p>
+                <p className="text-sm text-foreground">{detail.firstAscent}</p>
+              </div>
+            </div>
+          </div>
+
+          <p className="text-sm text-muted-foreground leading-relaxed">{detail.description}</p>
+
+          {personalNotes[country] && (
+            <div className="bg-primary/5 border border-primary/20 rounded-lg p-3 space-y-1.5">
+              <p className="text-xs font-display font-bold text-primary uppercase tracking-wider">📝 Personal Note</p>
+              <p className="text-sm text-foreground leading-relaxed italic">{personalNotes[country]}</p>
+            </div>
+          )}
+
+          {country === "United Kingdom" && (
+            <div className="bg-secondary rounded-lg p-3 space-y-2">
+              <p className="text-xs font-display font-bold text-primary uppercase tracking-wider">
+                🏴 Constituent Country Highpoints — all 4 complete
+              </p>
+              <ul className="space-y-2">
+                {ukConstituentHighpoints.map((hp) => (
+                  <li key={hp.nation} className="space-y-1.5">
+                    <div className="flex items-baseline justify-between gap-2 text-xs">
+                      <span className="text-foreground">
+                        <span className="font-display font-bold">{hp.nation}</span> — {hp.peak}
+                      </span>
+                      <span className="text-muted-foreground whitespace-nowrap">
+                        {hp.elevation.toLocaleString()} m · {hp.date}
+                      </span>
+                    </div>
+                    {hp.photos && hp.photos.length > 0 && (
+                      <div className="space-y-2">
+                        {hp.photos.map((photo, idx) => (
+                          <figure key={idx} className="space-y-1">
+                            <img
+                              src={photo.url}
+                              alt={photo.caption || `${hp.peak} summit in ${country}`}
+                              loading="lazy"
+                              decoding="async"
+                              className="w-full rounded-md object-cover max-h-56"
+                            />
+                            {photo.caption && (
+                              <figcaption className="text-[11px] text-muted-foreground italic">
+                                {photo.caption}
+                              </figcaption>
+                            )}
+                          </figure>
+                        ))}
+                      </div>
+                    )}
+                  </li>
+                ))}
+              </ul>
+
+            </div>
+          )}
+
+
+          {country === "Algeria" && (
+            <div className="bg-accent/10 border border-accent/30 rounded-lg p-3 space-y-1.5">
+              <div className="flex items-center gap-1.5">
+                <AlertTriangle className="w-4 h-4 text-accent shrink-0" />
+                <p className="text-sm font-display font-bold text-accent">Closed for Climbing</p>
+              </div>
+              <p className="text-xs text-foreground">Mount Tahat is currently closed for climbing until further notice. Algerian authorities have restricted access to the Atakor plateau in the Hoggar Mountains.</p>
+            </div>
+          )}
+
+          {advisoryDetails[country] && (
+            <div className="bg-destructive/10 border border-destructive/30 rounded-lg p-3 space-y-1.5">
+              <div className="flex items-center gap-1.5">
+                <AlertTriangle className="w-4 h-4 text-destructive shrink-0" />
+                <p className="text-sm font-display font-bold text-destructive">Active Conflict</p>
+              </div>
+              <p className="text-xs text-foreground">{advisoryDetails[country].reason}</p>
+              <p className="text-xs text-muted-foreground italic">{advisoryDetails[country].caution}</p>
+              <a
+                href={getNewsUrl(advisoryDetails[country].newsQuery)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-xs font-bold text-primary hover:underline mt-1"
+              >
+                Latest news <ExternalLink className="w-3 h-3" />
+              </a>
+            </div>
+          )}
+
+          {!advisoryDetails[country] && cautionNotes[country] && (
+            <div className="bg-accent/10 border border-accent/30 rounded-lg p-3 space-y-1.5">
+              <div className="flex items-center gap-1.5">
+                <AlertTriangle className="w-4 h-4 text-accent shrink-0" />
+                <p className="text-sm font-display font-bold text-accent">Travel Caution</p>
+              </div>
+              <p className="text-xs text-foreground">{cautionNotes[country].note}</p>
+              <a
+                href={getNewsUrl(cautionNotes[country].newsQuery)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-xs font-bold text-primary hover:underline mt-1"
+              >
+                Latest news <ExternalLink className="w-3 h-3" />
+              </a>
+            </div>
+          )}
+
+          <PeakRefLinks peak={detail.peak} country={detail.country} youtubeUrl={youtubeUrl} />
+
+          {youtubeUrl && (() => {
+            const videoId = youtubeUrl.match(/(?:youtu\.be\/|v=)([^?&]+)/)?.[1];
+            const thumbnailUrl = videoId ? `https://img.youtube.com/vi/${videoId}/hqdefault.jpg` : null;
+            return (
+              <a
+                href={youtubeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block bg-secondary hover:bg-secondary/80 rounded-lg overflow-hidden transition-colors group"
+              >
+                {thumbnailUrl && (
+                  <div className="relative w-full aspect-video overflow-hidden">
+                    <img
+                      src={thumbnailUrl}
+                      alt={`Summit video thumbnail for the high point of ${country}`}
+                      className="w-full h-full object-cover"
+                      width={480}
+                      height={270}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                    <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/20 transition-colors">
+                      <Youtube className="w-10 h-10 text-red-500 drop-shadow-lg" />
+                    </div>
+                  </div>
+                )}
+                <div className="flex items-center gap-2 p-3">
+                  <Youtube className="w-4 h-4 text-red-500 shrink-0" />
+                  <span className="text-sm font-display font-bold text-foreground group-hover:text-primary transition-colors">
+                    Watch Summit Video
+                  </span>
+                </div>
+              </a>
+            );
+          })()}
+        </div>
+      </DialogContent>
+    </Dialog>
+  );
+}

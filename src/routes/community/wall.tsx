@@ -1,1 +1,6 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBXYWxsUGFnZSBmcm9tICJAL3BhZ2VzL2NvbW11bml0eS9XYWxsUGFnZSI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9jb21tdW5pdHkvd2FsbCIpKHsKICBjb21wb25lbnQ6IFdhbGxQYWdlLAp9KTsK
+import { createFileRoute } from "@tanstack/react-router";
+import WallPage from "@/pages/community/WallPage";
+
+export const Route = createFileRoute("/community/wall")({
+  component: WallPage,
+});

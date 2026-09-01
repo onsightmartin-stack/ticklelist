@@ -1,1 +1,166 @@
-LyoqCiAqIERlcml2ZXMgcHJhY3RpY2FsLCBzZWFyY2gtZnJpZW5kbHkgY2xpbWJpbmctZ3VpZGUgZmFjdHMgZm9yIGEgY291bnRyeQogKiBoaWdocG9pbnQgKHRpbWUsIGd1aWRpbmcsIHNlYXNvbiwgZ2VhcikgZnJvbSB0aGUgZGF0YSB3ZSBhbHJlYWR5IHN0b3JlLgogKiBUaGVzZSBwb3dlciB0aGUgbG9uZy10YWlsIFEmQSBibG9ja3Mgb24gL3BlYWsvKiBwYWdlcy4KICovCmltcG9ydCB0eXBlIHsgRGlmZmljdWx0eSB9IGZyb20gIkAvZGF0YS9kaWZmaWN1bHR5IjsKCmV4cG9ydCBpbnRlcmZhY2UgUGVha0d1aWRlRmFjdHMgewogIGR1cmF0aW9uOiBzdHJpbmc7CiAgZ3VpZGVOZWVkZWQ6IHN0cmluZzsKICBzZWFzb246IHN0cmluZzsKICBnZWFyOiBzdHJpbmc7CiAgdGVycmFpbjogc3RyaW5nOwogIC8qKiBQZXJtaXRzLCBmZWVzLCBodXQgYm9va2luZ3Mgb3IgYWNjZXNzIHJ1bGVzLCB3aGVuIHRoZSBwZWFrIGhhcyB0aGVtLiAqLwogIHBlcm1pdHM/OiBzdHJpbmc7Cn0KCi8qKgogKiBIYW5kLWNoZWNrZWQgb3ZlcnJpZGVzIGZvciBwZWFrcyB3aGVyZSB0aGUgZ2VuZXJpYyBkaWZmaWN1bHR5LWRlcml2ZWQgdGV4dCBpcwogKiB3cm9uZyBvciBtaXNsZWFkaW5nIChtYW5kYXRvcnkgZ3VpZGVzLCBwZXJtaXQgc3lzdGVtcywgbXVsdGktZGF5IHRyZWtzKS4KICogU291cmNlczogS2lsaW1hbmphcm8gTmF0aW9uYWwgUGFyayAvIFRBTkFQQSByZWd1bGF0aW9ucywgQ29tcGFnbmllIGRlcyBHdWlkZXMKICogZGUgQ2hhbW9uaXggJiBSZWZ1Z2UgZHUgR2/Du3RlciBib29raW5nIHJ1bGVzLCBUZWlkZSBOYXRpb25hbCBQYXJrIChQYXJxdWVzCiAqIE5hY2lvbmFsZXMpIHBlcm1pdCBzeXN0ZW0sIFBaUy9UcmlnbGF2IE5hdGlvbmFsIFBhcmssIEJheWVyaXNjaGUgWnVnc3BpdHpiYWhuLAogKiBLZXJyeSBNb3VudGFpbiBSZXNjdWUuCiAqLwpleHBvcnQgY29uc3QgcGVha0d1aWRlT3ZlcnJpZGVzOiBSZWNvcmQ8c3RyaW5nLCBQYXJ0aWFsPFBlYWtHdWlkZUZhY3RzPj4gPSB7CiAgVGFuemFuaWE6IHsKICAgIGR1cmF0aW9uOgogICAgICAiNeKAkzkgZGF5cyBvbiB0aGUgbW91bnRhaW4uIE1hY2hhbWUgYW5kIExlbW9zaG8gYXJlIG5vcm1hbGx5IDbigJM4IGRheXMsIE1hcmFuZ3UgNeKAkzYuIEEgZGF5IHRyaXAgaXMgbm90IHJlYWxpc3RpYyDigJQgdGhlIHNjaGVkdWxlIGV4aXN0cyB0byBhY2NsaW1hdGlzZSwgYW5kIGV2ZW4gdGhlIGZhc3Rlc3Qga25vd24gYXNjZW50cyAoS2FybCBFZ2xvZmYsIDZoNDIgcm91bmQgdHJpcDsgS2lsaWFuIEpvcm5ldCwgN2gxNCkgd2VyZSByZWNvcmQgYXR0ZW1wdHMgYnkgZWxpdGUgbW91bnRhaW4gcnVubmVycywgbm90IGEgbm9ybWFsIG9wdGlvbi4iLAogICAgZ3VpZGVOZWVkZWQ6CiAgICAgICJZZXMg4oCUIGl0IGlzIGNvbXB1bHNvcnkuIEtpbGltYW5qYXJvIE5hdGlvbmFsIFBhcmsgZG9lcyBub3QgYWxsb3cgaW5kZXBlbmRlbnQgb3Igc29sbyBjbGltYmluZzogZXZlcnkgYXNjZW50IG11c3QgYmUgYm9va2VkIHRocm91Z2ggYSBsaWNlbnNlZCBvcGVyYXRvciB3aXRoIGEgcmVnaXN0ZXJlZCBndWlkZSwgYW5kIHBvcnRlcnMgYW5kIGEgY29vayBjb21lIHdpdGggaXQuIFRyZWtraW5nIGFsb25lIGlzIHJlZnVzZWQgYXQgdGhlIGdhdGUuIiwKICAgIHBlcm1pdHM6CiAgICAgICJQYXJrIGVudHJ5IGZlZXMsIGNhbXBpbmcgb3IgaHV0IGZlZXMsIHJlc2N1ZSBmZWUgYW5kIGd1aWRlL3BvcnRlciBwZXJtaXRzIGFyZSBhbGwgbWFuZGF0b3J5IGFuZCBhcmUgcGFpZCB0aHJvdWdoIHlvdXIgb3BlcmF0b3IgYXMgcGFydCBvZiB0aGUgcGFja2FnZSAodHlwaWNhbGx5IFVTRCAxLDUwMOKAkzMsMDAwKyBmb3IgdGhlIHRyZWspLiBZb3UgcmVnaXN0ZXIgYXQgdGhlIHBhcmsgZ2F0ZSBhbmQgc2lnbiBpbiBhdCBldmVyeSBjYW1wLiIsCiAgICBzZWFzb246CiAgICAgICJKYW51YXJ5IHRvIG1pZC1NYXJjaCBhbmQgSnVuZSB0byBPY3RvYmVyIOKAlCB0aGUgdHdvIGRyeSB3aW5kb3dzLiBBcHJpbOKAk01heSBhbmQgTm92ZW1iZXIgYXJlIHRoZSByYWlueSBzZWFzb25zIGFuZCB0aGUgcm91dGVzIGdldCBtdWRkeSBhbmQgY2xvdWR5LiIsCiAgICBnZWFyOiAiTm8gdGVjaG5pY2FsIGNsaW1iaW5nIGdlYXIsIGJ1dCBmdWxsIGNvbGQtd2VhdGhlciBraXQ6IGRvd24gamFja2V0LCBpbnN1bGF0ZWQgbGF5ZXJzLCBoYXQgYW5kIGdsb3ZlcywgYSBzbGVlcGluZyBiYWcgcmF0ZWQgdG8gYXJvdW5kIOKIkjEwIMKwQywgaGVhZHRvcmNoIGZvciB0aGUgbWlkbmlnaHQgc3VtbWl0IHB1c2gsIHRyZWtraW5nIHBvbGVzLCBzdW4gcHJvdGVjdGlvbiBhbmQgMyBMIG9mIHdhdGVyIGNhcGFjaXR5LiIsCiAgICB0ZXJyYWluOgogICAgICAiQSBsb25nIG5vbi10ZWNobmljYWwgdHJlayB0aHJvdWdoIGZpdmUgY2xpbWF0ZSB6b25lcywgZnJvbSByYWluZm9yZXN0IHRvIGFyY3RpYyBzdW1taXQgc2NyZWUuIFRoZSBjcnV4IGlzIGFsdGl0dWRlIOKAlCA1LDg5NSBtIHdpdGggcm91Z2hseSBoYWxmIHRoZSBveHlnZW4gb2Ygc2VhIGxldmVsIOKAlCBwbHVzIGEgc3RlZXAsIGNvbGQgcHJlLWRhd24gcHVzaCBmcm9tIGhpZ2ggY2FtcCB0byBVaHVydSBQZWFrLiIsCiAgfSwKICBGcmFuY2U6IHsKICAgIGR1cmF0aW9uOgogICAgICAiMuKAkzMgZGF5cyB2aWEgdGhlIEdvw7t0ZXIgcm91dGU6IE5pZCBkJ0FpZ2xlIHRvIHRoZSBHb8O7dGVyIGh1dCwgdGhlbiBhIHN1bW1pdCBkYXkgb2YgOOKAkzEyIGhvdXJzLiBGaXQgYWxwaW5pc3RzIGRvIGl0IGluIHR3byBkYXlzOyBhZGQgZGF5cyBmb3Igd2VhdGhlciBhbmQgYWNjbGltYXRpc2F0aW9uLiIsCiAgICBndWlkZU5lZWRlZDoKICAgICAgIk5vdCBsZWdhbGx5IHJlcXVpcmVkLCBidXQgc3Ryb25nbHkgcmVjb21tZW5kZWQgdW5sZXNzIHlvdSBhcmUgYW4gZXhwZXJpZW5jZWQgYWxwaW5pc3QuIEl0IGlzIGEgZ2xhY2lhdGVkIDQsODAwIG0gcm91dGUgd2l0aCBjcmV2YXNzZXMsIGFsdGl0dWRlIGFuZCB0aGUgcm9ja2ZhbGwtcHJvbmUgR3JhbmQgQ291bG9pci4gTW9zdCBwZW9wbGUgY2xpbWIgd2l0aCBhbiBJRk1HQSBndWlkZS4iLAogICAgcGVybWl0czoKICAgICAgIk5vIGNsaW1iaW5nIHBlcm1pdCwgYnV0IGEgcmVzZXJ2YXRpb24gYXQgdGhlIEdvw7t0ZXIgb3IgVMOqdGUgUm91c3NlIGh1dCBpcyBlZmZlY3RpdmVseSBtYW5kYXRvcnkgaW4gc2Vhc29uIOKAlCBiZWRzIGFyZSBsaW1pdGVkLCBib29raW5nIG9wZW5zIG1vbnRocyBhaGVhZCwgYW5kIHRoZSBTYWludC1HZXJ2YWlzIG1heW9yJ3Mgb2ZmaWNlIHBvbGljZXMgYml2b3VhY2tpbmcgYW5kIHVucHJlcGFyZWQgcGFydGllcyBvbiB0aGUgbm9ybWFsIHJvdXRlLiIsCiAgICBzZWFzb246ICJNaWQtSnVuZSB0byBtaWQtU2VwdGVtYmVyLCB3aXRoIEp1bHkgYW5kIEF1Z3VzdCB0aGUgbWFpbiB3aW5kb3cuIiwKICAgIGdlYXI6ICJDcmFtcG9ucywgaWNlIGF4ZSwgaGFybmVzcywgcm9wZSwgaGVsbWV0IGFuZCBnbGFjaWVyLXJlc2N1ZSBnZWFyLCBwbHVzIHdhcm0gbGF5ZXJzLCBib290cyByYXRlZCBmb3IgYWx0aXR1ZGUgYW5kIGEgaGVhZHRvcmNoIGZvciB0aGUgYWxwaW5lIHN0YXJ0LiIsCiAgICB0ZXJyYWluOiAiR2xhY2llciB0cmF2ZWwsIHNub3cgc2xvcGVzIGF0IGFsdGl0dWRlIGFuZCBhbiBleHBvc2VkIHJvY2t5IHJpZGdlLCB3aXRoIG9iamVjdGl2ZSByb2NrZmFsbCBkYW5nZXIgY3Jvc3NpbmcgdGhlIEdyYW5kIENvdWxvaXIuIiwKICB9LAogIFNwYWluOiB7CiAgICBkdXJhdGlvbjoKICAgICAgIlRoZSBNb250YcOxYSBCbGFuY2EgdHJhaWwgdG8gdGhlIHN1bW1pdCBpcyA24oCTOSBob3VycyByb3VuZCB0cmlwOyB3aXRoIHRoZSBjYWJsZSBjYXIgdG8gTGEgUmFtYmxldGEgaXQgaXMgYWJvdXQgMSBob3VyIHRvIHRoZSBzdW1taXQgYW5kIGJhY2suIiwKICAgIGd1aWRlTmVlZGVkOiAiTm8gZ3VpZGUgbmVlZGVkIOKAlCBpdCBpcyBhIG1hcmtlZCB0cmFpbCBvbiB2b2xjYW5pYyB0ZXJyYWluLCBidXQgYWx0aXR1ZGUgKDMsNzE1IG0pIG1ha2VzIGl0IGhhcmRlciB0aGFuIHRoZSBkaXN0YW5jZSBzdWdnZXN0cy4iLAogICAgcGVybWl0czoKICAgICAgIlllczogYSBmcmVlIHBlcm1pdCBmcm9tIFRlaWRlIE5hdGlvbmFsIFBhcmsgaXMgcmVxdWlyZWQgZm9yIHRoZSBmaW5hbCBzdHJldGNoIGFib3ZlIExhIFJhbWJsZXRhIHRvIFBpY28gZGVsIFRlaWRlLCBhbmQgaXQgbXVzdCBiZSBib29rZWQgb25saW5lIHdlbGwgaW4gYWR2YW5jZS4gT3Zlcm5pZ2h0aW5nIGF0IHRoZSBBbHRhdmlzdGEgcmVmdWdlIGlzIGEgc2VwYXJhdGUgYm9va2luZy4iLAogICAgc2Vhc29uOiAiWWVhciByb3VuZCwgYnV0IHNwcmluZyBhbmQgYXV0dW1uIGFyZSBiZXN0OyB3aW50ZXIgYnJpbmdzIHNub3cgYW5kIGljZSBhbmQgdGhlIGNhYmxlIGNhciBjbG9zZXMgaW4gaGlnaCB3aW5kLiIsCiAgICBnZWFyOiAiSGlraW5nIGJvb3RzLCB3aW5kIHNoZWxsLCBzdW4gcHJvdGVjdGlvbiBhbmQgcGxlbnR5IG9mIHdhdGVyLiBOb3RoaW5nIHRlY2huaWNhbCBvdXRzaWRlIHdpbnRlciBjb25kaXRpb25zLiIsCiAgICB0ZXJyYWluOiAiU3RlZXAgdm9sY2FuaWMgdHJhaWxzLCBsb29zZSBzY29yaWEgYW5kIHRoaW4gYWlyIGF0IGFsdGl0dWRlLiIsCiAgfSwKICBTbG92ZW5pYTogewogICAgZHVyYXRpb246ICJUd28gZGF5cyBpcyBzdGFuZGFyZCwgc3RheWluZyBhdCBhIG1vdW50YWluIGh1dCBzdWNoIGFzIEtyZWRhcmljYTsgc3Ryb25nIHBhcnRpZXMgZG8gMTDigJMxNCBob3VycyBpbiBhIHNpbmdsZSBwdXNoLiIsCiAgICBndWlkZU5lZWRlZDoKICAgICAgIk5vdCByZXF1aXJlZCwgYnV0IG9ubHkgZm9yIHBlb3BsZSBjb21mb3J0YWJsZSBvbiBleHBvc2VkLCBjYWJsZWQgdGVycmFpbi4gRXZlcnkgcm91dGUgdG8gdGhlIHN1bW1pdCBmaW5pc2hlcyBvbiBwcm90ZWN0ZWQgdmlhIGZlcnJhdGEgc2VjdGlvbnMgd2l0aCBiaWcgZHJvcHMg4oCUIGd1aWRlcyBhcmUgY29tbW9uIGZvciBmaXJzdC10aW1lcnMuIiwKICAgIHBlcm1pdHM6ICJObyBwZXJtaXQsIGJ1dCBodXQgYmVkcyBpbiBUcmlnbGF2IE5hdGlvbmFsIFBhcmsgc2hvdWxkIGJlIGJvb2tlZCBpbiBzZWFzb24sIGFuZCB3aWxkIGNhbXBpbmcgaXMgcHJvaGliaXRlZC4iLAogICAgc2Vhc29uOiAiTWlkLUp1bHkgdG8gbGF0ZSBTZXB0ZW1iZXIsIG9uY2UgdGhlIGNhYmxlcyBhbmQgbGVkZ2VzIGFyZSBmcmVlIG9mIHNub3cuIiwKICAgIGdlYXI6ICJIZWxtZXQsIGhhcm5lc3MgYW5kIGEgdmlhLWZlcnJhdGEgc2V0IGFyZSBlc3NlbnRpYWwsIHBsdXMgc3R1cmR5IGJvb3RzLCBnbG92ZXMgYW5kIGEgaGVhZHRvcmNoLiIsCiAgICB0ZXJyYWluOiAiU3RlZXAgbW91bnRhaW4gdHJhaWxzIGxlYWRpbmcgdG8gc3VzdGFpbmVkLCBleHBvc2VkIHZpYSBmZXJyYXRhIG9uIGxpbWVzdG9uZS4iLAogIH0sCiAgR2VybWFueTogewogICAgZHVyYXRpb246ICI44oCTMTAgaG91cnMgb24gZm9vdCBmcm9tIEVpYnNlZSB2aWEgdGhlIEjDtmxsZW50YWwgb3IgUmVpbnRhbCwgb3IgYSBmZXcgbWludXRlcyBieSBjYWJsZSBjYXIgb3IgY29nIHJhaWx3YXkuIiwKICAgIGd1aWRlTmVlZGVkOgogICAgICAiTm8gZ3VpZGUgbmVlZGVkIGZvciB0aGUgY2FibGUgY2FyIG9yIHRoZSBSZWludGFsIHdhbGstdXAuIFRoZSBIw7ZsbGVudGFsIHJvdXRlIGlzIGEgdmlhIGZlcnJhdGEgY3Jvc3NpbmcgYSBzbWFsbCBnbGFjaWVyIHJlbW5hbnQg4oCUIGd1aWRlZCBpZiB5b3UgaGF2ZSBub3QgZG9uZSBmZXJyYXRhIGJlZm9yZS4iLAogICAgcGVybWl0czogIk5vIHBlcm1pdC4gQ2FibGUgY2FyIGFuZCByYWlsd2F5IHRpY2tldHMgYXJlIHBhaWQgb24gdGhlIGRheTsgdGhlIEjDtmxsZW50YWxhbmdlcmjDvHR0ZSBzaG91bGQgYmUgYm9va2VkIGlmIHlvdSBzcGxpdCB0aGUgd2FsayBvdmVyIHR3byBkYXlzLiIsCiAgICBzZWFzb246ICJMYXRlIEp1bmUgdG8gZWFybHkgT2N0b2JlciBmb3IgdGhlIHdhbGtpbmcgcm91dGVzOyB0aGUgc3VtbWl0IGlzIGFjY2Vzc2libGUgYnkgY2FibGUgY2FyIHllYXIgcm91bmQuIiwKICAgIGdlYXI6ICJGb3IgdGhlIHdhbGstdXA6IGJvb3RzLCBsYXllcnMgYW5kIGEgaGVhZHRvcmNoLiBGb3IgdGhlIEjDtmxsZW50YWw6IGhlbG1ldCwgaGFybmVzcywgdmlhLWZlcnJhdGEgc2V0IGFuZCBsaWdodCBjcmFtcG9ucyBmb3IgdGhlIEjDtmxsZW50YWxmZXJuZXIuIiwKICAgIHRlcnJhaW46ICJMb25nIHZhbGxleSBhcHByb2FjaGVzIHdpdGggYSBzdGVlcCBmaW5pc2gsIGNhYmxlZCByb2NrIGFuZCBhIHNob3J0IGdsYWNpZXIgY3Jvc3Npbmcgb24gdGhlIEjDtmxsZW50YWwgcm91dGUuIiwKICB9LAogIElyZWxhbmQ6IHsKICAgIGR1cmF0aW9uOiAiNOKAkzYgaG91cnMgcm91bmQgdHJpcCBmcm9tIENyb25pbidzIFlhcmQgb3IgdGhlIEhhZydzIEdsZW4sIHZpYSB0aGUgRGV2aWwncyBMYWRkZXIuIiwKICAgIGd1aWRlTmVlZGVkOiAiTm8gZ3VpZGUgbmVlZGVkLCBidXQgbmF2aWdhdGlvbiBtYXR0ZXJzIOKAlCB0aGUgc3VtbWl0IHBsYXRlYXUgY2xvdWRzIG92ZXIgZmFzdCBhbmQgdGhlIERldmlsJ3MgTGFkZGVyIGlzIGxvb3NlLCBlcm9kZWQgZ3JvdW5kLiIsCiAgICBwZXJtaXRzOiAiTm8gcGVybWl0cyBvciBmZWVzOyB0aGUgdXN1YWwgdHJhaWxoZWFkcyBhcmUgb24gcHJpdmF0ZSBsYW5kIHdoZXJlIGEgc21hbGwgcGFya2luZyBjaGFyZ2UgaXMgbm9ybWFsLiIsCiAgICBzZWFzb246ICJNYXkgdG8gU2VwdGVtYmVyIGZvciB0aGUgYmVzdCBjaGFuY2Ugb2YgY2xlYXIgd2VhdGhlciwgdGhvdWdoIGl0IGlzIGNsaW1iZWQgeWVhciByb3VuZC4iLAogICAgZ2VhcjogIldhdGVycHJvb2ZzLCBib290cyB3aXRoIGdyaXAsIG1hcCBhbmQgY29tcGFzcyBvciBHUFMsIGZvb2QgYW5kIHdhdGVyLiBOb3RoaW5nIHRlY2huaWNhbCBvdXRzaWRlIHdpbnRlci4iLAogICAgdGVycmFpbjogIkJvZ2d5IHZhbGxleSBhcHByb2FjaCwgYSBzdGVlcCBsb29zZSBndWxseSBhbmQgcm9ja3kgZ3JvdW5kIG9uIHRoZSByaWRnZS4iLAogIH0sCn07CgpmdW5jdGlvbiBzZWFzb25Gb3IobGF0OiBudW1iZXIpOiBzdHJpbmcgewogIGNvbnN0IGFicyA9IE1hdGguYWJzKGxhdCk7CiAgaWYgKGFicyA+PSA1MCkgcmV0dXJuIGxhdCA+IDAgPyAibGF0ZSBKdW5lIHRvIG1pZC1TZXB0ZW1iZXIiIDogIkRlY2VtYmVyIHRvIE1hcmNoIjsKICBpZiAoYWJzID49IDMwKSByZXR1cm4gbGF0ID4gMCA/ICJNYXkgdG8gT2N0b2JlciAoSnVseeKAk1NlcHRlbWJlciBmb3IgdGhlIGhpZ2ggcm91dGVzKSIgOiAiTm92ZW1iZXIgdG8gTWFyY2giOwogIGlmIChhYnMgPj0gMjMpIHJldHVybiBsYXQgPiAwID8gIk1hcmNoIHRvIE5vdmVtYmVyIiA6ICJTZXB0ZW1iZXIgdG8gTWF5IjsKICByZXR1cm4gInRoZSBsb2NhbCBkcnkgc2Vhc29uIOKAlCBhbnl0aW1lIG91dHNpZGUgdGhlIG1vbnNvb24gb3IgcmFpbnkgbW9udGhzIjsKfQoKZnVuY3Rpb24gZHVyYXRpb25Gb3IoZGlmZmljdWx0eTogRGlmZmljdWx0eSB8IHVuZGVmaW5lZCwgZWxldmF0aW9uOiBudW1iZXIpOiBzdHJpbmcgewogIGlmIChlbGV2YXRpb24gPCA4MDApIHJldHVybiAiMeKAkzQgaG91cnMgcm91bmQgdHJpcCDigJQgYSBzaG9ydCB3YWxrIHJhdGhlciB0aGFuIGEgbW91bnRhaW5lZXJpbmcgZGF5IjsKICBpZiAoZGlmZmljdWx0eSA9PT0gImV4cGVydCIpIHJldHVybiAiYSBmdWxsIGV4cGVkaXRpb24gb2Ygb25lIHRvIHNldmVyYWwgd2Vla3MsIGluY2x1ZGluZyBhY2NsaW1hdGlzYXRpb24iOwogIGlmIChkaWZmaWN1bHR5ID09PSAiaGFyZCIpIHJldHVybiBlbGV2YXRpb24gPiA1MDAwID8gIjXigJMyMCBkYXlzIHdpdGggYWNjbGltYXRpc2F0aW9uIGNhbXBzIiA6ICIy4oCTMyBkYXlzIGluY2x1ZGluZyBhbiBhcHByb2FjaCBhbmQgYSBodXQgb3IgYml2b3VhYyI7CiAgaWYgKGRpZmZpY3VsdHkgPT09ICJtb2RlcmF0ZSIpIHJldHVybiAiOOKAkzE0IGhvdXJzIHJvdW5kIHRyaXAsIG9yIHR3byBkYXlzIHVzaW5nIGEgbW91bnRhaW4gaHV0IjsKICBpZiAoZGlmZmljdWx0eSA9PT0gImVhc3kiKSByZXR1cm4gIjTigJM4IGhvdXJzIHJvdW5kIHRyaXAgZnJvbSB0aGUgc3RhbmRhcmQgdHJhaWxoZWFkIjsKICByZXR1cm4gIjHigJMzIGhvdXJzIHJvdW5kIHRyaXAiOwp9CgpmdW5jdGlvbiBndWlkaW5nRm9yKGRpZmZpY3VsdHk6IERpZmZpY3VsdHkgfCB1bmRlZmluZWQpOiBzdHJpbmcgewogIHN3aXRjaCAoZGlmZmljdWx0eSkgewogICAgY2FzZSAiZXhwZXJ0IjoKICAgICAgcmV0dXJuICJZZXMuIFRoaXMgaXMgZXhwZWRpdGlvbiB0ZXJyYWluIOKAlCBhIGd1aWRlZCB0ZWFtIG9yIGEgdmVyeSBleHBlcmllbmNlZCwgc2VsZi1zdWZmaWNpZW50IHBhcnRuZXJzaGlwIGlzIGVzc2VudGlhbCwgYW5kIHBlcm1pdHMgb3IgbG9naXN0aWNzIHN1cHBvcnQgYXJlIHVzdWFsbHkgbWFuZGF0b3J5LiI7CiAgICBjYXNlICJoYXJkIjoKICAgICAgcmV0dXJuICJTdHJvbmdseSByZWNvbW1lbmRlZCB1bmxlc3MgeW91IGFyZSBhbiBleHBlcmllbmNlZCBhbHBpbmlzdC4gR2xhY2llciB0cmF2ZWwsIGFsdGl0dWRlIG9yIHJlbW90ZW5lc3MgbWFrZSBhbiB1bmd1aWRlZCBhdHRlbXB0IHNlcmlvdXMuIjsKICAgIGNhc2UgIm1vZGVyYXRlIjoKICAgICAgcmV0dXJuICJOb3QgcmVxdWlyZWQgaWYgeW91IGFyZSBjb21mb3J0YWJsZSB3aXRoIGV4cG9zZWQgc2NyYW1ibGluZyBhbmQgbW91bnRhaW4gbmF2aWdhdGlvbiwgYnV0IGEgZ3VpZGUgaXMgYSBnb29kIGNhbGwgaW4gcG9vciB2aXNpYmlsaXR5IG9yIGVhcmx5IHNlYXNvbi4iOwogICAgY2FzZSAiZWFzeSI6CiAgICAgIHJldHVybiAiTm8gZ3VpZGUgbmVlZGVkLiBBIG1hcmtlZCB0cmFpbCwgZGVjZW50IGZpdG5lc3MgYW5kIGEgbWFwIG9yIEdQUyB0cmFjayBhcmUgZW5vdWdoIGZvciBtb3N0IGZpdCBoaWtlcnMuIjsKICAgIGRlZmF1bHQ6CiAgICAgIHJldHVybiAiTm8uIEl0IGlzIGEgc3RyYWlnaHRmb3J3YXJkIHdhbGsgdGhhdCBhbnlvbmUgaW4gbm9ybWFsIGhlYWx0aCBjYW4gZG8gd2l0aG91dCBhIGd1aWRlLiI7CiAgfQp9CgpmdW5jdGlvbiBnZWFyRm9yKGRpZmZpY3VsdHk6IERpZmZpY3VsdHkgfCB1bmRlZmluZWQpOiBzdHJpbmcgewogIHN3aXRjaCAoZGlmZmljdWx0eSkgewogICAgY2FzZSAiZXhwZXJ0IjoKICAgICAgcmV0dXJuICJGdWxsIGV4cGVkaXRpb24ga2l0OiByb3BlLCBjcmFtcG9ucywgaWNlIGF4ZSwgaGFybmVzcywgaGlnaC1hbHRpdHVkZSBjbG90aGluZywgdGVudHMgYW5kIGZ1ZWwuIjsKICAgIGNhc2UgImhhcmQiOgogICAgICByZXR1cm4gIkNyYW1wb25zLCBpY2UgYXhlLCBoYXJuZXNzLCByb3BlIGFuZCBnbGFjaWVyLXJlc2N1ZSBnZWFyIHBsdXMgd2FybSBsYXllcnMgYW5kIGEgaGVsbWV0LiI7CiAgICBjYXNlICJtb2RlcmF0ZSI6CiAgICAgIHJldHVybiAiSGVsbWV0LCBzdHVyZHkgYm9vdHMsIHdpbmQgYW5kIHJhaW4gc2hlbGwsIGhlYWR0b3JjaCwgYW5kIGEgdmlhLWZlcnJhdGEgc2V0IGlmIHRoZSByb3V0ZSBpcyBjYWJsZWQuIjsKICAgIGNhc2UgImVhc3kiOgogICAgICByZXR1cm4gIkhpa2luZyBib290cywgd2F0ZXJwcm9vZnMsIHdhdGVyLCBmb29kIGFuZCBuYXZpZ2F0aW9uLiBOb3RoaW5nIHRlY2huaWNhbC4iOwogICAgZGVmYXVsdDoKICAgICAgcmV0dXJuICJDb21mb3J0YWJsZSBzaG9lcyBhbmQgYSBqYWNrZXQuIE5vIHNwZWNpYWxpc3QgZXF1aXBtZW50LiI7CiAgfQp9CgpmdW5jdGlvbiB0ZXJyYWluRm9yKGRpZmZpY3VsdHk6IERpZmZpY3VsdHkgfCB1bmRlZmluZWQpOiBzdHJpbmcgewogIHN3aXRjaCAoZGlmZmljdWx0eSkgewogICAgY2FzZSAiZXhwZXJ0IjoKICAgICAgcmV0dXJuICJHbGFjaWF0ZWQsIHJlbW90ZSBhbmQgaGlnaC1hbHRpdHVkZSB0ZXJyYWluIHdpdGggb2JqZWN0aXZlIGhhemFyZHMuIjsKICAgIGNhc2UgImhhcmQiOgogICAgICByZXR1cm4gIkdsYWNpZXIsIHNub3cgb3Igc3VzdGFpbmVkIHRlY2huaWNhbCByb2NrIGF0IGFsdGl0dWRlLiI7CiAgICBjYXNlICJtb2RlcmF0ZSI6CiAgICAgIHJldHVybiAiU3RlZXAgdHJhaWxzIHdpdGggc2NyYW1ibGluZywgbG9vc2Ugcm9jayBvciBzaG9ydCBleHBvc2VkIHNlY3Rpb25zLiI7CiAgICBjYXNlICJlYXN5IjoKICAgICAgcmV0dXJuICJNYXJrZWQgd2Fsa2luZyB0cmFpbHMgd2l0aCBhIHN1c3RhaW5lZCBidXQgbm9uLXRlY2huaWNhbCBjbGltYi4iOwogICAgZGVmYXVsdDoKICAgICAgcmV0dXJuICJHZW50bGUgcGF0aHMsIHRyYWNrcyBvciBldmVuIGEgc2hvcnQgc3Ryb2xsIGZyb20gYSByb2FkLiI7CiAgfQp9CgpleHBvcnQgZnVuY3Rpb24gZ2V0UGVha0d1aWRlRmFjdHMoCiAgZGlmZmljdWx0eTogRGlmZmljdWx0eSB8IHVuZGVmaW5lZCwKICBlbGV2YXRpb246IG51bWJlciwKICBsYXQ6IG51bWJlciwKICBjb3VudHJ5Pzogc3RyaW5nLAopOiBQZWFrR3VpZGVGYWN0cyB7CiAgY29uc3QgYmFzZTogUGVha0d1aWRlRmFjdHMgPSB7CiAgICBkdXJhdGlvbjogZHVyYXRpb25Gb3IoZGlmZmljdWx0eSwgZWxldmF0aW9uKSwKICAgIGd1aWRlTmVlZGVkOiBndWlkaW5nRm9yKGRpZmZpY3VsdHkpLAogICAgc2Vhc29uOiBzZWFzb25Gb3IobGF0KSwKICAgIGdlYXI6IGdlYXJGb3IoZGlmZmljdWx0eSksCiAgICB0ZXJyYWluOiB0ZXJyYWluRm9yKGRpZmZpY3VsdHkpLAogIH07CiAgY29uc3Qgb3ZlcnJpZGUgPSBjb3VudHJ5ID8gcGVha0d1aWRlT3ZlcnJpZGVzW2NvdW50cnldIDogdW5kZWZpbmVkOwogIHJldHVybiBvdmVycmlkZSA/IHsgLi4uYmFzZSwgLi4ub3ZlcnJpZGUgfSA6IGJhc2U7Cn0K
+/**
+ * Derives practical, search-friendly climbing-guide facts for a country
+ * highpoint (time, guiding, season, gear) from the data we already store.
+ * These power the long-tail Q&A blocks on /peak/* pages.
+ */
+import type { Difficulty } from "@/data/difficulty";
+
+export interface PeakGuideFacts {
+  duration: string;
+  guideNeeded: string;
+  season: string;
+  gear: string;
+  terrain: string;
+  /** Permits, fees, hut bookings or access rules, when the peak has them. */
+  permits?: string;
+}
+
+/**
+ * Hand-checked overrides for peaks where the generic difficulty-derived text is
+ * wrong or misleading (mandatory guides, permit systems, multi-day treks).
+ * Sources: Kilimanjaro National Park / TANAPA regulations, Compagnie des Guides
+ * de Chamonix & Refuge du Goûter booking rules, Teide National Park (Parques
+ * Nacionales) permit system, PZS/Triglav National Park, Bayerische Zugspitzbahn,
+ * Kerry Mountain Rescue.
+ */
+export const peakGuideOverrides: Record<string, Partial<PeakGuideFacts>> = {
+  Tanzania: {
+    duration:
+      "5–9 days on the mountain. Machame and Lemosho are normally 6–8 days, Marangu 5–6. A day trip is not realistic — the schedule exists to acclimatise, and even the fastest known ascents (Karl Egloff, 6h42 round trip; Kilian Jornet, 7h14) were record attempts by elite mountain runners, not a normal option.",
+    guideNeeded:
+      "Yes — it is compulsory. Kilimanjaro National Park does not allow independent or solo climbing: every ascent must be booked through a licensed operator with a registered guide, and porters and a cook come with it. Trekking alone is refused at the gate.",
+    permits:
+      "Park entry fees, camping or hut fees, rescue fee and guide/porter permits are all mandatory and are paid through your operator as part of the package (typically USD 1,500–3,000+ for the trek). You register at the park gate and sign in at every camp.",
+    season:
+      "January to mid-March and June to October — the two dry windows. April–May and November are the rainy seasons and the routes get muddy and cloudy.",
+    gear: "No technical climbing gear, but full cold-weather kit: down jacket, insulated layers, hat and gloves, a sleeping bag rated to around −10 °C, headtorch for the midnight summit push, trekking poles, sun protection and 3 L of water capacity.",
+    terrain:
+      "A long non-technical trek through five climate zones, from rainforest to arctic summit scree. The crux is altitude — 5,895 m with roughly half the oxygen of sea level — plus a steep, cold pre-dawn push from high camp to Uhuru Peak.",
+  },
+  France: {
+    duration:
+      "2–3 days via the Goûter route: Nid d'Aigle to the Goûter hut, then a summit day of 8–12 hours. Fit alpinists do it in two days; add days for weather and acclimatisation.",
+    guideNeeded:
+      "Not legally required, but strongly recommended unless you are an experienced alpinist. It is a glaciated 4,800 m route with crevasses, altitude and the rockfall-prone Grand Couloir. Most people climb with an IFMGA guide.",
+    permits:
+      "No climbing permit, but a reservation at the Goûter or Tête Rousse hut is effectively mandatory in season — beds are limited, booking opens months ahead, and the Saint-Gervais mayor's office polices bivouacking and unprepared parties on the normal route.",
+    season: "Mid-June to mid-September, with July and August the main window.",
+    gear: "Crampons, ice axe, harness, rope, helmet and glacier-rescue gear, plus warm layers, boots rated for altitude and a headtorch for the alpine start.",
+    terrain: "Glacier travel, snow slopes at altitude and an exposed rocky ridge, with objective rockfall danger crossing the Grand Couloir.",
+  },
+  Spain: {
+    duration:
+      "The Montaña Blanca trail to the summit is 6–9 hours round trip; with the cable car to La Rambleta it is about 1 hour to the summit and back.",
+    guideNeeded: "No guide needed — it is a marked trail on volcanic terrain, but altitude (3,715 m) makes it harder than the distance suggests.",
+    permits:
+      "Yes: a free permit from Teide National Park is required for the final stretch above La Rambleta to Pico del Teide, and it must be booked online well in advance. Overnighting at the Altavista refuge is a separate booking.",
+    season: "Year round, but spring and autumn are best; winter brings snow and ice and the cable car closes in high wind.",
+    gear: "Hiking boots, wind shell, sun protection and plenty of water. Nothing technical outside winter conditions.",
+    terrain: "Steep volcanic trails, loose scoria and thin air at altitude.",
+  },
+  Slovenia: {
+    duration: "Two days is standard, staying at a mountain hut such as Kredarica; strong parties do 10–14 hours in a single push.",
+    guideNeeded:
+      "Not required, but only for people comfortable on exposed, cabled terrain. Every route to the summit finishes on protected via ferrata sections with big drops — guides are common for first-timers.",
+    permits: "No permit, but hut beds in Triglav National Park should be booked in season, and wild camping is prohibited.",
+    season: "Mid-July to late September, once the cables and ledges are free of snow.",
+    gear: "Helmet, harness and a via-ferrata set are essential, plus sturdy boots, gloves and a headtorch.",
+    terrain: "Steep mountain trails leading to sustained, exposed via ferrata on limestone.",
+  },
+  Germany: {
+    duration: "8–10 hours on foot from Eibsee via the Höllental or Reintal, or a few minutes by cable car or cog railway.",
+    guideNeeded:
+      "No guide needed for the cable car or the Reintal walk-up. The Höllental route is a via ferrata crossing a small glacier remnant — guided if you have not done ferrata before.",
+    permits: "No permit. Cable car and railway tickets are paid on the day; the Höllentalangerhütte should be booked if you split the walk over two days.",
+    season: "Late June to early October for the walking routes; the summit is accessible by cable car year round.",
+    gear: "For the walk-up: boots, layers and a headtorch. For the Höllental: helmet, harness, via-ferrata set and light crampons for the Höllentalferner.",
+    terrain: "Long valley approaches with a steep finish, cabled rock and a short glacier crossing on the Höllental route.",
+  },
+  Ireland: {
+    duration: "4–6 hours round trip from Cronin's Yard or the Hag's Glen, via the Devil's Ladder.",
+    guideNeeded: "No guide needed, but navigation matters — the summit plateau clouds over fast and the Devil's Ladder is loose, eroded ground.",
+    permits: "No permits or fees; the usual trailheads are on private land where a small parking charge is normal.",
+    season: "May to September for the best chance of clear weather, though it is climbed year round.",
+    gear: "Waterproofs, boots with grip, map and compass or GPS, food and water. Nothing technical outside winter.",
+    terrain: "Boggy valley approach, a steep loose gully and rocky ground on the ridge.",
+  },
+};
+
+function seasonFor(lat: number): string {
+  const abs = Math.abs(lat);
+  if (abs >= 50) return lat > 0 ? "late June to mid-September" : "December to March";
+  if (abs >= 30) return lat > 0 ? "May to October (July–September for the high routes)" : "November to March";
+  if (abs >= 23) return lat > 0 ? "March to November" : "September to May";
+  return "the local dry season — anytime outside the monsoon or rainy months";
+}
+
+function durationFor(difficulty: Difficulty | undefined, elevation: number): string {
+  if (elevation < 800) return "1–4 hours round trip — a short walk rather than a mountaineering day";
+  if (difficulty === "expert") return "a full expedition of one to several weeks, including acclimatisation";
+  if (difficulty === "hard") return elevation > 5000 ? "5–20 days with acclimatisation camps" : "2–3 days including an approach and a hut or bivouac";
+  if (difficulty === "moderate") return "8–14 hours round trip, or two days using a mountain hut";
+  if (difficulty === "easy") return "4–8 hours round trip from the standard trailhead";
+  return "1–3 hours round trip";
+}
+
+function guidingFor(difficulty: Difficulty | undefined): string {
+  switch (difficulty) {
+    case "expert":
+      return "Yes. This is expedition terrain — a guided team or a very experienced, self-sufficient partnership is essential, and permits or logistics support are usually mandatory.";
+    case "hard":
+      return "Strongly recommended unless you are an experienced alpinist. Glacier travel, altitude or remoteness make an unguided attempt serious.";
+    case "moderate":
+      return "Not required if you are comfortable with exposed scrambling and mountain navigation, but a guide is a good call in poor visibility or early season.";
+    case "easy":
+      return "No guide needed. A marked trail, decent fitness and a map or GPS track are enough for most fit hikers.";
+    default:
+      return "No. It is a straightforward walk that anyone in normal health can do without a guide.";
+  }
+}
+
+function gearFor(difficulty: Difficulty | undefined): string {
+  switch (difficulty) {
+    case "expert":
+      return "Full expedition kit: rope, crampons, ice axe, harness, high-altitude clothing, tents and fuel.";
+    case "hard":
+      return "Crampons, ice axe, harness, rope and glacier-rescue gear plus warm layers and a helmet.";
+    case "moderate":
+      return "Helmet, sturdy boots, wind and rain shell, headtorch, and a via-ferrata set if the route is cabled.";
+    case "easy":
+      return "Hiking boots, waterproofs, water, food and navigation. Nothing technical.";
+    default:
+      return "Comfortable shoes and a jacket. No specialist equipment.";
+  }
+}
+
+function terrainFor(difficulty: Difficulty | undefined): string {
+  switch (difficulty) {
+    case "expert":
+      return "Glaciated, remote and high-altitude terrain with objective hazards.";
+    case "hard":
+      return "Glacier, snow or sustained technical rock at altitude.";
+    case "moderate":
+      return "Steep trails with scrambling, loose rock or short exposed sections.";
+    case "easy":
+      return "Marked walking trails with a sustained but non-technical climb.";
+    default:
+      return "Gentle paths, tracks or even a short stroll from a road.";
+  }
+}
+
+export function getPeakGuideFacts(
+  difficulty: Difficulty | undefined,
+  elevation: number,
+  lat: number,
+  country?: string,
+): PeakGuideFacts {
+  const base: PeakGuideFacts = {
+    duration: durationFor(difficulty, elevation),
+    guideNeeded: guidingFor(difficulty),
+    season: seasonFor(lat),
+    gear: gearFor(difficulty),
+    terrain: terrainFor(difficulty),
+  };
+  const override = country ? peakGuideOverrides[country] : undefined;
+  return override ? { ...base, ...override } : base;
+}

@@ -1,1 +1,76 @@
-aW1wb3J0IHsgRnJhZ21lbnQgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IExpbmsgfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKCi8qKiBNYXRjaGVzIEBtZW50aW9ucywgI2hhc2h0YWdzIGFuZCBiYXJlIFVSTHMgaW4gcG9zdC9jb21tZW50IGJvZGllcy4gKi8KY29uc3QgVE9LRU4gPSAvKGh0dHBzPzpcL1wvW15cc10rKXwoQFthLXpBLVowLTlfLi1dezIsNDB9KXwoI1tccHtMfTAtOV8tXXsyLDQwfSkvZ3U7CgppbnRlcmZhY2UgUHJvcHMgewogIHRleHQ6IHN0cmluZzsKICAvKiogQ2FsbGVkIHdoZW4gYSBoYXNodGFnIGlzIGNsaWNrZWQg4oCUIHdpcmVzIHRoZSB0YWcgaW50byB0aGUgV2FsbCBzZWFyY2guICovCiAgb25UYWc/OiAoKHRhZzogc3RyaW5nKSA9PiB2b2lkKSB8IHVuZGVmaW5lZDsKICBjbGFzc05hbWU/OiBzdHJpbmcgfCB1bmRlZmluZWQ7Cn0KCi8qKgogKiBSZW5kZXJzIHBvc3QgdGV4dCB3aXRoIGNsaWNrYWJsZSBsaW5rcywgQG1lbnRpb25zICh0byBtZW1iZXIgc2VhcmNoKSBhbmQKICogI2hhc2h0YWdzLCBzbyBwb3N0cyByZWFkIGxpa2UgYSBub3JtYWwgc29jaWFsIGZlZWQgaW5zdGVhZCBvZiBmbGF0IHRleHQuCiAqLwpjb25zdCBSaWNoVGV4dCA9ICh7IHRleHQsIG9uVGFnLCBjbGFzc05hbWUgfTogUHJvcHMpID0+IHsKICBpZiAoIXRleHQpIHJldHVybiBudWxsOwogIGNvbnN0IHBhcnRzOiBSZWFjdC5SZWFjdE5vZGVbXSA9IFtdOwogIGxldCBsYXN0ID0gMDsKICBsZXQgbWF0Y2g6IFJlZ0V4cEV4ZWNBcnJheSB8IG51bGw7CiAgVE9LRU4ubGFzdEluZGV4ID0gMDsKCiAgd2hpbGUgKChtYXRjaCA9IFRPS0VOLmV4ZWModGV4dCkpICE9PSBudWxsKSB7CiAgICBpZiAobWF0Y2guaW5kZXggPiBsYXN0KSBwYXJ0cy5wdXNoKHRleHQuc2xpY2UobGFzdCwgbWF0Y2guaW5kZXgpKTsKICAgIGNvbnN0IFt0b2tlbl0gPSBtYXRjaDsKCiAgICBpZiAodG9rZW4uc3RhcnRzV2l0aCgiaHR0cCIpKSB7CiAgICAgIHBhcnRzLnB1c2goCiAgICAgICAgPGEKICAgICAgICAgIGtleT17YCR7bWF0Y2guaW5kZXh9LWxgfQogICAgICAgICAgaHJlZj17dG9rZW59CiAgICAgICAgICB0YXJnZXQ9Il9ibGFuayIKICAgICAgICAgIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIKICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1wcmltYXJ5IHVuZGVybGluZSBicmVhay1hbGwiCiAgICAgICAgPgogICAgICAgICAge3Rva2VufQogICAgICAgIDwvYT4sCiAgICAgICk7CiAgICB9IGVsc2UgaWYgKHRva2VuLnN0YXJ0c1dpdGgoIkAiKSkgewogICAgICBwYXJ0cy5wdXNoKAogICAgICAgIDxMaW5rCiAgICAgICAgICBrZXk9e2Ake21hdGNoLmluZGV4fS1tYH0KICAgICAgICAgIHRvPXtgL2NvbW11bml0eS9tZW1iZXJzP3E9JHtlbmNvZGVVUklDb21wb25lbnQodG9rZW4uc2xpY2UoMSkpfWB9CiAgICAgICAgICBjbGFzc05hbWU9InRleHQtcHJpbWFyeSBob3Zlcjp1bmRlcmxpbmUiCiAgICAgICAgPgogICAgICAgICAge3Rva2VufQogICAgICAgIDwvTGluaz4sCiAgICAgICk7CiAgICB9IGVsc2UgewogICAgICBwYXJ0cy5wdXNoKAogICAgICAgIDxidXR0b24KICAgICAgICAgIGtleT17YCR7bWF0Y2guaW5kZXh9LXRgfQogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgb25DbGljaz17KCkgPT4gb25UYWc/Lih0b2tlbi5zbGljZSgxKSl9CiAgICAgICAgICBjbGFzc05hbWU9InRleHQtcHJpbWFyeSBob3Zlcjp1bmRlcmxpbmUiCiAgICAgICAgPgogICAgICAgICAge3Rva2VufQogICAgICAgIDwvYnV0dG9uPiwKICAgICAgKTsKICAgIH0KICAgIGxhc3QgPSBtYXRjaC5pbmRleCArIHRva2VuLmxlbmd0aDsKICB9CiAgaWYgKGxhc3QgPCB0ZXh0Lmxlbmd0aCkgcGFydHMucHVzaCh0ZXh0LnNsaWNlKGxhc3QpKTsKCiAgcmV0dXJuICgKICAgIDxwIGNsYXNzTmFtZT17Y2xhc3NOYW1lfT4KICAgICAge3BhcnRzLm1hcCgocCwgaSkgPT4gKAogICAgICAgIDxGcmFnbWVudCBrZXk9e2l9PntwfTwvRnJhZ21lbnQ+CiAgICAgICkpfQogICAgPC9wPgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBSaWNoVGV4dDsK
+import { Fragment } from "react";
+import { Link } from "@/lib/router-compat";
+
+/** Matches @mentions, #hashtags and bare URLs in post/comment bodies. */
+const TOKEN = /(https?:\/\/[^\s]+)|(@[a-zA-Z0-9_.-]{2,40})|(#[\p{L}0-9_-]{2,40})/gu;
+
+interface Props {
+  text: string;
+  /** Called when a hashtag is clicked — wires the tag into the Wall search. */
+  onTag?: ((tag: string) => void) | undefined;
+  className?: string | undefined;
+}
+
+/**
+ * Renders post text with clickable links, @mentions (to member search) and
+ * #hashtags, so posts read like a normal social feed instead of flat text.
+ */
+const RichText = ({ text, onTag, className }: Props) => {
+  if (!text) return null;
+  const parts: React.ReactNode[] = [];
+  let last = 0;
+  let match: RegExpExecArray | null;
+  TOKEN.lastIndex = 0;
+
+  while ((match = TOKEN.exec(text)) !== null) {
+    if (match.index > last) parts.push(text.slice(last, match.index));
+    const [token] = match;
+
+    if (token.startsWith("http")) {
+      parts.push(
+        <a
+          key={`${match.index}-l`}
+          href={token}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary underline break-all"
+        >
+          {token}
+        </a>,
+      );
+    } else if (token.startsWith("@")) {
+      parts.push(
+        <Link
+          key={`${match.index}-m`}
+          to={`/community/members?q=${encodeURIComponent(token.slice(1))}`}
+          className="text-primary hover:underline"
+        >
+          {token}
+        </Link>,
+      );
+    } else {
+      parts.push(
+        <button
+          key={`${match.index}-t`}
+          type="button"
+          onClick={() => onTag?.(token.slice(1))}
+          className="text-primary hover:underline"
+        >
+          {token}
+        </button>,
+      );
+    }
+    last = match.index + token.length;
+  }
+  if (last < text.length) parts.push(text.slice(last));
+
+  return (
+    <p className={className}>
+      {parts.map((p, i) => (
+        <Fragment key={i}>{p}</Fragment>
+      ))}
+    </p>
+  );
+};
+
+export default RichText;

@@ -1,1 +1,38 @@
-Q1JFQVRFIFRBQkxFIHB1YmxpYy5ib251c190aXRsZXMgKAogIGlkIHV1aWQgUFJJTUFSWSBLRVkgREVGQVVMVCBnZW5fcmFuZG9tX3V1aWQoKSwKICB1c2VyX2lkIHV1aWQgTk9UIE5VTEwgUkVGRVJFTkNFUyBhdXRoLnVzZXJzIE9OIERFTEVURSBDQVNDQURFLAogIHRpdGxlX2lkIHRleHQgTk9UIE5VTEwsCiAgc3RvcnkgdGV4dCwKICBoYXBwZW5lZF9vbiBkYXRlLAogIHZlcmlmaWVkIGJvb2xlYW4gTk9UIE5VTEwgREVGQVVMVCBmYWxzZSwKICBjcmVhdGVkX2F0IHRpbWVzdGFtcHR6IE5PVCBOVUxMIERFRkFVTFQgbm93KCksCiAgdXBkYXRlZF9hdCB0aW1lc3RhbXB0eiBOT1QgTlVMTCBERUZBVUxUIG5vdygpLAogIFVOSVFVRSAodXNlcl9pZCwgdGl0bGVfaWQpCik7CgpHUkFOVCBTRUxFQ1QsIElOU0VSVCwgVVBEQVRFLCBERUxFVEUgT04gcHVibGljLmJvbnVzX3RpdGxlcyBUTyBhdXRoZW50aWNhdGVkOwpHUkFOVCBTRUxFQ1QgT04gcHVibGljLmJvbnVzX3RpdGxlcyBUTyBhbm9uOwpHUkFOVCBBTEwgT04gcHVibGljLmJvbnVzX3RpdGxlcyBUTyBzZXJ2aWNlX3JvbGU7CgpBTFRFUiBUQUJMRSBwdWJsaWMuYm9udXNfdGl0bGVzIEVOQUJMRSBST1cgTEVWRUwgU0VDVVJJVFk7CgpDUkVBVEUgUE9MSUNZICJCb251cyB0aXRsZXMgYXJlIHB1YmxpYyIgT04gcHVibGljLmJvbnVzX3RpdGxlcwogIEZPUiBTRUxFQ1QgVVNJTkcgKHRydWUpOwoKQ1JFQVRFIFBPTElDWSAiTWVtYmVycyBhZGQgdGhlaXIgb3duIHRpdGxlcyIgT04gcHVibGljLmJvbnVzX3RpdGxlcwogIEZPUiBJTlNFUlQgVE8gYXV0aGVudGljYXRlZCBXSVRIIENIRUNLIChhdXRoLnVpZCgpID0gdXNlcl9pZCk7CgpDUkVBVEUgUE9MSUNZICJNZW1iZXJzIGVkaXQgdGhlaXIgb3duIHRpdGxlcyIgT04gcHVibGljLmJvbnVzX3RpdGxlcwogIEZPUiBVUERBVEUgVE8gYXV0aGVudGljYXRlZCBVU0lORyAoYXV0aC51aWQoKSA9IHVzZXJfaWQpCiAgV0lUSCBDSEVDSyAoYXV0aC51aWQoKSA9IHVzZXJfaWQgQU5EIHZlcmlmaWVkID0gZmFsc2UpOwoKQ1JFQVRFIFBPTElDWSAiQWRtaW5zIHZlcmlmeSB0aXRsZXMiIE9OIHB1YmxpYy5ib251c190aXRsZXMKICBGT1IgVVBEQVRFIFRPIGF1dGhlbnRpY2F0ZWQgVVNJTkcgKHB1YmxpYy5oYXNfcm9sZShhdXRoLnVpZCgpLCAnYWRtaW4nKSkKICBXSVRIIENIRUNLIChwdWJsaWMuaGFzX3JvbGUoYXV0aC51aWQoKSwgJ2FkbWluJykpOwoKQ1JFQVRFIFBPTElDWSAiTWVtYmVycyByZW1vdmUgdGhlaXIgb3duIHRpdGxlcyIgT04gcHVibGljLmJvbnVzX3RpdGxlcwogIEZPUiBERUxFVEUgVE8gYXV0aGVudGljYXRlZCBVU0lORyAoYXV0aC51aWQoKSA9IHVzZXJfaWQpOwoKQ1JFQVRFIFRSSUdHRVIgdXBkYXRlX2JvbnVzX3RpdGxlc191cGRhdGVkX2F0CiAgQkVGT1JFIFVQREFURSBPTiBwdWJsaWMuYm9udXNfdGl0bGVzCiAgRk9SIEVBQ0ggUk9XIEVYRUNVVEUgRlVOQ1RJT04gcHVibGljLnVwZGF0ZV91cGRhdGVkX2F0X2NvbHVtbigpOw==
+CREATE TABLE public.bonus_titles (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id uuid NOT NULL REFERENCES auth.users ON DELETE CASCADE,
+  title_id text NOT NULL,
+  story text,
+  happened_on date,
+  verified boolean NOT NULL DEFAULT false,
+  created_at timestamptz NOT NULL DEFAULT now(),
+  updated_at timestamptz NOT NULL DEFAULT now(),
+  UNIQUE (user_id, title_id)
+);
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.bonus_titles TO authenticated;
+GRANT SELECT ON public.bonus_titles TO anon;
+GRANT ALL ON public.bonus_titles TO service_role;
+
+ALTER TABLE public.bonus_titles ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Bonus titles are public" ON public.bonus_titles
+  FOR SELECT USING (true);
+
+CREATE POLICY "Members add their own titles" ON public.bonus_titles
+  FOR INSERT TO authenticated WITH CHECK (auth.uid() = user_id);
+
+CREATE POLICY "Members edit their own titles" ON public.bonus_titles
+  FOR UPDATE TO authenticated USING (auth.uid() = user_id)
+  WITH CHECK (auth.uid() = user_id AND verified = false);
+
+CREATE POLICY "Admins verify titles" ON public.bonus_titles
+  FOR UPDATE TO authenticated USING (public.has_role(auth.uid(), 'admin'))
+  WITH CHECK (public.has_role(auth.uid(), 'admin'));
+
+CREATE POLICY "Members remove their own titles" ON public.bonus_titles
+  FOR DELETE TO authenticated USING (auth.uid() = user_id);
+
+CREATE TRIGGER update_bonus_titles_updated_at
+  BEFORE UPDATE ON public.bonus_titles
+  FOR EACH ROW EXECUTE FUNCTION public.update_updated_at_column();

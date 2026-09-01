@@ -1,1 +1,136 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBVc2VycywgQ2FsZW5kYXJEYXlzLCBSb3V0ZSBhcyBSb3V0ZUljb24gfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgdHlwZSB7IFBlYWtBc2NlbnRFbnRyeSB9IGZyb20gIkAvbGliL3BlYWstZGV0YWlsLmZ1bmN0aW9ucyI7Cgpjb25zdCBmb3JtYXREYXRlID0gKGRhdGU6IHN0cmluZyB8IG51bGwsIHByZWNpc2lvbjogc3RyaW5nIHwgbnVsbCkgPT4gewogIGlmICghZGF0ZSkgcmV0dXJuICJEYXRlIHVua25vd24iOwogIGNvbnN0IGQgPSBuZXcgRGF0ZShgJHtkYXRlfVQwMDowMDowMFpgKTsKICBpZiAoTnVtYmVyLmlzTmFOKGQuZ2V0VGltZSgpKSkgcmV0dXJuIGRhdGU7CiAgaWYgKHByZWNpc2lvbiA9PT0gInllYXIiKSByZXR1cm4gU3RyaW5nKGQuZ2V0VVRDRnVsbFllYXIoKSk7CiAgaWYgKHByZWNpc2lvbiA9PT0gIm1vbnRoIikKICAgIHJldHVybiBkLnRvTG9jYWxlRGF0ZVN0cmluZygiZW4tR0IiLCB7IG1vbnRoOiAibG9uZyIsIHllYXI6ICJudW1lcmljIiwgdGltZVpvbmU6ICJVVEMiIH0pOwogIHJldHVybiBkLnRvTG9jYWxlRGF0ZVN0cmluZygiZW4tR0IiLCB7CiAgICBkYXk6ICJudW1lcmljIiwKICAgIG1vbnRoOiAibG9uZyIsCiAgICB5ZWFyOiAibnVtZXJpYyIsCiAgICB0aW1lWm9uZTogIlVUQyIsCiAgfSk7Cn07CgppbnRlcmZhY2UgUHJvcHMgewogIHBlYWtOYW1lOiBzdHJpbmc7CiAgYXNjZW50czogUGVha0FzY2VudEVudHJ5W107Cn0KCi8qKiBXaG8gaW4gdGhlIGNvbW11bml0eSBoYXMgY2xpbWJlZCB0aGlzIHBlYWssIG5ld2VzdCBmaXJzdC4gKi8KY29uc3QgUGVha0FzY2VudFJlZ2lzdHJ5ID0gKHsgcGVha05hbWUsIGFzY2VudHMgfTogUHJvcHMpID0+IHsKICBjb25zdCBkYXRlZCA9IGFzY2VudHMuZmlsdGVyKChhKSA9PiBhLmFzY2VudERhdGUpOwogIGNvbnN0IGZpcnN0ID0gZGF0ZWQubGVuZ3RoID8gZGF0ZWRbZGF0ZWQubGVuZ3RoIC0gMV0gOiBudWxsOwogIGNvbnN0IGxhdGVzdCA9IGRhdGVkLmxlbmd0aCA/IGRhdGVkWzBdIDogbnVsbDsKICBjb25zdCBjbGltYmVycyA9IG5ldyBTZXQoYXNjZW50cy5tYXAoKGEpID0+IGEudXNlcklkKSkuc2l6ZTsKCiAgcmV0dXJuICgKICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ibXQtMTAiPgogICAgICA8aDIgY2xhc3NOYW1lPSJtYi0zIGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtc20gZm9udC1zZW1pYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIDxVc2VycyBjbGFzc05hbWU9ImgtNCB3LTQiIC8+IENvbW11bml0eSBhc2NlbnRzCiAgICAgIDwvaDI+CgogICAgICB7YXNjZW50cy5sZW5ndGggPT09IDAgPyAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1kYXNoZWQgYm9yZGVyLWJvcmRlciBiZy1jYXJkLzQwIHAtNiB0ZXh0LWNlbnRlciI+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIE5vIG9uZSBoYXMgbG9nZ2VkIHtwZWFrTmFtZX0geWV0IOKAlCBiZSB0aGUgZmlyc3QgdG8gdGljayBpdC4KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgIHRvPSIvY29tbXVuaXR5L2FzY2VudHMiCiAgICAgICAgICAgIGNsYXNzTmFtZT0ibXQtMyBpbmxpbmUtYmxvY2sgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXByaW1hcnkgaG92ZXI6dW5kZXJsaW5lIgogICAgICAgICAgPgogICAgICAgICAgICBMb2cgeW91ciBhc2NlbnQKICAgICAgICAgIDwvTGluaz4KICAgICAgICA8L2Rpdj4KICAgICAgKSA6ICgKICAgICAgICA8PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTIgZ2FwLTMgc206Z3JpZC1jb2xzLTQiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkLzYwIHAtNCI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQteHMgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5Bc2NlbnRzPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEgdGV4dC1sZyBmb250LXNlbWlib2xkIHRleHQtZm9yZWdyb3VuZCI+e2FzY2VudHMubGVuZ3RofTwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZC82MCBwLTQiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXhzIHVwcGVyY2FzZSB0cmFja2luZy13aWRlIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+Q2xpbWJlcnM8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMSB0ZXh0LWxnIGZvbnQtc2VtaWJvbGQgdGV4dC1mb3JlZ3JvdW5kIj57Y2xpbWJlcnN9PC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkLzYwIHAtNCI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQteHMgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIEZpcnN0IGxvZ2dlZAogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xIHRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge2ZpcnN0ID8gZm9ybWF0RGF0ZShmaXJzdC5hc2NlbnREYXRlLCBmaXJzdC5kYXRlUHJlY2lzaW9uKSA6ICLigJQifQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZC82MCBwLTQiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXhzIHVwcGVyY2FzZSB0cmFja2luZy13aWRlIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+TGF0ZXN0PC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEgdGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICB7bGF0ZXN0ID8gZm9ybWF0RGF0ZShsYXRlc3QuYXNjZW50RGF0ZSwgbGF0ZXN0LmRhdGVQcmVjaXNpb24pIDogIuKAlCJ9CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPHVsIGNsYXNzTmFtZT0ibXQtNCBzcGFjZS15LTMiPgogICAgICAgICAgICB7YXNjZW50cy5tYXAoKGEpID0+ICgKICAgICAgICAgICAgICA8bGkKICAgICAgICAgICAgICAgIGtleT17YS5pZH0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBnYXAtMyByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQvNjAgcC0zIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHthLmF2YXRhclVybCA/ICgKICAgICAgICAgICAgICAgICAgPGltZwogICAgICAgICAgICAgICAgICAgIHNyYz17YS5hdmF0YXJVcmx9CiAgICAgICAgICAgICAgICAgICAgYWx0PXthLmRpc3BsYXlOYW1lID8/ICJDbGltYmVyIn0KICAgICAgICAgICAgICAgICAgICBsb2FkaW5nPSJsYXp5IgogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaC0xMCB3LTEwIHNocmluay0wIHJvdW5kZWQtZnVsbCBvYmplY3QtY292ZXIiCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBoLTEwIHctMTAgc2hyaW5rLTAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtZnVsbCBiZy1zZWNvbmRhcnkgdGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgeyhhLmRpc3BsYXlOYW1lID8/ICI/Iikuc2xpY2UoMCwgMSkudG9VcHBlckNhc2UoKX0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1pbi13LTAgZmxleC0xIj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGl0ZW1zLWJhc2VsaW5lIGdhcC14LTIiPgogICAgICAgICAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAgICAgICAgICB0bz17YC9jb21tdW5pdHkvbWVtYmVycy8ke2EudXNlcklkfWB9CiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZvbnQtbWVkaXVtIHRleHQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LXByaW1hcnkgaG92ZXI6dW5kZXJsaW5lIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIHthLmRpc3BsYXlOYW1lID8/ICJUaWNrbGVsaXN0IG1lbWJlciJ9CiAgICAgICAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICAgICAgPENhbGVuZGFyRGF5cyBjbGFzc05hbWU9ImgtMyB3LTMiIC8+CiAgICAgICAgICAgICAgICAgICAgICB7Zm9ybWF0RGF0ZShhLmFzY2VudERhdGUsIGEuZGF0ZVByZWNpc2lvbil9CiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAge2Eucm91dGUgJiYgKAogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgICA8Um91dGVJY29uIGNsYXNzTmFtZT0iaC0zLjUgdy0zLjUiIC8+IHthLnJvdXRlfQogICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAge2EudHJpcFJlcG9ydCAmJiAoCiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0xIGxpbmUtY2xhbXAtMyB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgICB7YS50cmlwUmVwb3J0fQogICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAge2EucGhvdG9VcmwgJiYgKAogICAgICAgICAgICAgICAgICA8aW1nCiAgICAgICAgICAgICAgICAgICAgc3JjPXthLnBob3RvVXJsfQogICAgICAgICAgICAgICAgICAgIGFsdD17YCR7cGVha05hbWV9IHN1bW1pdCBwaG90b2B9CiAgICAgICAgICAgICAgICAgICAgbG9hZGluZz0ibGF6eSIKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImhpZGRlbiBoLTE2IHctMjQgcm91bmRlZCBvYmplY3QtY292ZXIgc206YmxvY2siCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC91bD4KICAgICAgICA8Lz4KICAgICAgKX0KICAgIDwvc2VjdGlvbj4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgUGVha0FzY2VudFJlZ2lzdHJ5Owo=
+import { Link } from "@/lib/router-compat";
+import { Users, CalendarDays, Route as RouteIcon } from "lucide-react";
+import type { PeakAscentEntry } from "@/lib/peak-detail.functions";
+
+const formatDate = (date: string | null, precision: string | null) => {
+  if (!date) return "Date unknown";
+  const d = new Date(`${date}T00:00:00Z`);
+  if (Number.isNaN(d.getTime())) return date;
+  if (precision === "year") return String(d.getUTCFullYear());
+  if (precision === "month")
+    return d.toLocaleDateString("en-GB", { month: "long", year: "numeric", timeZone: "UTC" });
+  return d.toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC",
+  });
+};
+
+interface Props {
+  peakName: string;
+  ascents: PeakAscentEntry[];
+}
+
+/** Who in the community has climbed this peak, newest first. */
+const PeakAscentRegistry = ({ peakName, ascents }: Props) => {
+  const dated = ascents.filter((a) => a.ascentDate);
+  const first = dated.length ? dated[dated.length - 1] : null;
+  const latest = dated.length ? dated[0] : null;
+  const climbers = new Set(ascents.map((a) => a.userId)).size;
+
+  return (
+    <section className="mt-10">
+      <h2 className="mb-3 flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+        <Users className="h-4 w-4" /> Community ascents
+      </h2>
+
+      {ascents.length === 0 ? (
+        <div className="rounded-lg border border-dashed border-border bg-card/40 p-6 text-center">
+          <p className="text-muted-foreground">
+            No one has logged {peakName} yet — be the first to tick it.
+          </p>
+          <Link
+            to="/community/ascents"
+            className="mt-3 inline-block text-sm font-medium text-primary hover:underline"
+          >
+            Log your ascent
+          </Link>
+        </div>
+      ) : (
+        <>
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+            <div className="rounded-lg border border-border bg-card/60 p-4">
+              <div className="text-xs uppercase tracking-wide text-muted-foreground">Ascents</div>
+              <div className="mt-1 text-lg font-semibold text-foreground">{ascents.length}</div>
+            </div>
+            <div className="rounded-lg border border-border bg-card/60 p-4">
+              <div className="text-xs uppercase tracking-wide text-muted-foreground">Climbers</div>
+              <div className="mt-1 text-lg font-semibold text-foreground">{climbers}</div>
+            </div>
+            <div className="rounded-lg border border-border bg-card/60 p-4">
+              <div className="text-xs uppercase tracking-wide text-muted-foreground">
+                First logged
+              </div>
+              <div className="mt-1 text-sm font-semibold text-foreground">
+                {first ? formatDate(first.ascentDate, first.datePrecision) : "—"}
+              </div>
+            </div>
+            <div className="rounded-lg border border-border bg-card/60 p-4">
+              <div className="text-xs uppercase tracking-wide text-muted-foreground">Latest</div>
+              <div className="mt-1 text-sm font-semibold text-foreground">
+                {latest ? formatDate(latest.ascentDate, latest.datePrecision) : "—"}
+              </div>
+            </div>
+          </div>
+
+          <ul className="mt-4 space-y-3">
+            {ascents.map((a) => (
+              <li
+                key={a.id}
+                className="flex gap-3 rounded-lg border border-border bg-card/60 p-3"
+              >
+                {a.avatarUrl ? (
+                  <img
+                    src={a.avatarUrl}
+                    alt={a.displayName ?? "Climber"}
+                    loading="lazy"
+                    className="h-10 w-10 shrink-0 rounded-full object-cover"
+                  />
+                ) : (
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-secondary text-sm font-semibold text-muted-foreground">
+                    {(a.displayName ?? "?").slice(0, 1).toUpperCase()}
+                  </div>
+                )}
+                <div className="min-w-0 flex-1">
+                  <div className="flex flex-wrap items-baseline gap-x-2">
+                    <Link
+                      to={`/community/members/${a.userId}`}
+                      className="font-medium text-foreground hover:text-primary hover:underline"
+                    >
+                      {a.displayName ?? "Ticklelist member"}
+                    </Link>
+                    <span className="flex items-center gap-1 text-xs text-muted-foreground">
+                      <CalendarDays className="h-3 w-3" />
+                      {formatDate(a.ascentDate, a.datePrecision)}
+                    </span>
+                  </div>
+                  {a.route && (
+                    <p className="mt-1 flex items-center gap-1 text-sm text-muted-foreground">
+                      <RouteIcon className="h-3.5 w-3.5" /> {a.route}
+                    </p>
+                  )}
+                  {a.tripReport && (
+                    <p className="mt-1 line-clamp-3 text-sm text-muted-foreground">
+                      {a.tripReport}
+                    </p>
+                  )}
+                </div>
+                {a.photoUrl && (
+                  <img
+                    src={a.photoUrl}
+                    alt={`${peakName} summit photo`}
+                    loading="lazy"
+                    className="hidden h-16 w-24 rounded object-cover sm:block"
+                  />
+                )}
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+    </section>
+  );
+};
+
+export default PeakAscentRegistry;

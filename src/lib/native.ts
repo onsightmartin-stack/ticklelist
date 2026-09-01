@@ -1,1 +1,19 @@
-aW1wb3J0IHsgQ2FwYWNpdG9yIH0gZnJvbSAiQGNhcGFjaXRvci9jb3JlIjsKaW1wb3J0IHsgQnJvd3NlciB9IGZyb20gIkBjYXBhY2l0b3IvYnJvd3NlciI7CgovKiogVHJ1ZSB3aGVuIHJ1bm5pbmcgaW5zaWRlIHRoZSBuYXRpdmUgQW5kcm9pZC9pT1Mgc2hlbGwgKENhcGFjaXRvcikuICovCmV4cG9ydCBjb25zdCBpc05hdGl2ZUFwcCA9ICgpID0+IENhcGFjaXRvci5pc05hdGl2ZVBsYXRmb3JtKCk7CgpleHBvcnQgY29uc3QgbmF0aXZlUGxhdGZvcm0gPSAoKSA9PiBDYXBhY2l0b3IuZ2V0UGxhdGZvcm0oKTsKCi8qKgogKiBPcGVuIGFuIGV4dGVybmFsIGxpbmsuIEluIHRoZSBuYXRpdmUgYXBwIHRoaXMgdXNlcyB0aGUgaW4tYXBwIGJyb3dzZXIgc28gd2UKICogbmV2ZXIgbmF2aWdhdGUgdGhlIGFwcCBXZWJWaWV3IGF3YXkgZnJvbSB0aGUgY29tbXVuaXR5LgogKi8KZXhwb3J0IGNvbnN0IG9wZW5FeHRlcm5hbCA9IGFzeW5jICh1cmw6IHN0cmluZykgPT4gewogIGlmIChpc05hdGl2ZUFwcCgpKSB7CiAgICBhd2FpdCBCcm93c2VyLm9wZW4oeyB1cmwsIHByZXNlbnRhdGlvblN0eWxlOiAicG9wb3ZlciIgfSk7CiAgICByZXR1cm47CiAgfQogIHdpbmRvdy5vcGVuKHVybCwgIl9ibGFuayIsICJub29wZW5lcixub3JlZmVycmVyIik7Cn07Cg==
+import { Capacitor } from "@capacitor/core";
+import { Browser } from "@capacitor/browser";
+
+/** True when running inside the native Android/iOS shell (Capacitor). */
+export const isNativeApp = () => Capacitor.isNativePlatform();
+
+export const nativePlatform = () => Capacitor.getPlatform();
+
+/**
+ * Open an external link. In the native app this uses the in-app browser so we
+ * never navigate the app WebView away from the community.
+ */
+export const openExternal = async (url: string) => {
+  if (isNativeApp()) {
+    await Browser.open({ url, presentationStyle: "popover" });
+    return;
+  }
+  window.open(url, "_blank", "noopener,noreferrer");
+};

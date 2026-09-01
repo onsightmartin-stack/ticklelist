@@ -1,1 +1,244 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSwgdHlwZSBSZWFjdE5vZGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IExpbmssIE5hdkxpbmssIHVzZUxvY2F0aW9uLCB1c2VOYXZpZ2F0ZSB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBNZW51LCBYLCBMb2dPdXQsIFNldHRpbmdzLCBVc2VyLCBLZXlSb3VuZCwgTGluazIsIEhlYXJ0LCBBcnJvd0xlZnQsIENvbXBhc3MgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwoKaW1wb3J0IHRpY2tsZWxpc3RMb2dvIGZyb20gIkAvYXNzZXRzL3RpY2tsZWxpc3QtbG9nby5wbmciOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IEJvdHRvbVRhYkJhciBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L0JvdHRvbVRhYkJhciI7CmltcG9ydCBNZW1iZXJBdmF0YXIgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9NZW1iZXJBdmF0YXIiOwppbXBvcnQgTm90aWZpY2F0aW9uc0JlbGwgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9Ob3RpZmljYXRpb25zQmVsbCI7CmltcG9ydCBVbml2ZXJzYWxTZWFyY2ggZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9Vbml2ZXJzYWxTZWFyY2giOwppbXBvcnQgU3dpcGVOYXZpZ2F0b3IgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9Td2lwZU5hdmlnYXRvciI7CmltcG9ydCB7CiAgRHJvcGRvd25NZW51LAogIERyb3Bkb3duTWVudUNvbnRlbnQsCiAgRHJvcGRvd25NZW51SXRlbSwKICBEcm9wZG93bk1lbnVMYWJlbCwKICBEcm9wZG93bk1lbnVTZXBhcmF0b3IsCiAgRHJvcGRvd25NZW51VHJpZ2dlciwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZHJvcGRvd24tbWVudSI7CmltcG9ydCB7IHVzZUF1dGggfSBmcm9tICJAL2hvb2tzL3VzZUF1dGgiOwppbXBvcnQgQ3Jvc3NTaXRlTGluayBmcm9tICJAL2NvbXBvbmVudHMvQ3Jvc3NTaXRlTGluayI7CmltcG9ydCB7IG1haW5TaXRlSHJlZiwgTUFJTl9TSVRFX05BTUUgfSBmcm9tICJAL2xpYi9zaXRlLWxpbmtzIjsKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyI7Cgpjb25zdCBsaW5rcyA9IFsKICB7IHRvOiAiL2NvbW11bml0eS9pbnRybyIsIGxhYmVsOiAiSW50cm9kdWN0aW9uIiwgYXV0aDogZmFsc2UgfSwKICB7IHRvOiAiL2NvbW11bml0eSIsIGxhYmVsOiAiRmVlZCIsIGVuZDogdHJ1ZSwgYXV0aDogZmFsc2UgfSwKICB7IHRvOiAiL2NvbW11bml0eS93YWxsIiwgbGFiZWw6ICJXYWxsIiwgYXV0aDogZmFsc2UgfSwKICB7IHRvOiAiL2NvbW11bml0eS9teS1hZHZlbnR1cmVzIiwgbGFiZWw6ICJNeSBhZHZlbnR1cmVzIiwgYXV0aDogdHJ1ZSB9LAogIHsgdG86ICIvY29tbXVuaXR5L2FkdmVudHVyZXMiLCBsYWJlbDogIlBsYW4gLyBKb2luIGFkdmVudHVyZXMiLCBhdXRoOiB0cnVlIH0sCiAgeyB0bzogIi9jb21tdW5pdHkvYXNjZW50cyIsIGxhYmVsOiAiQWxsIGFzY2VudHMiLCBhdXRoOiB0cnVlIH0sCiAgeyB0bzogIi9jb21tdW5pdHkvbGlzdC1idWlsZGVyIiwgbGFiZWw6ICJMaXN0IGJ1aWxkZXIiLCBhdXRoOiB0cnVlIH0sCiAgeyB0bzogIi9jb21tdW5pdHkvbGVhZGVyYm9hcmQiLCBsYWJlbDogIkxlYWRlcmJvYXJkIiwgYXV0aDogdHJ1ZSB9LAogIHsgdG86ICIvY29tbXVuaXR5L21lbWJlcnMiLCBsYWJlbDogIk1lbWJlcnMiLCBhdXRoOiB0cnVlIH0sCiAgeyB0bzogIi9jb21tdW5pdHkvYmFzZWNhbXAiLCBsYWJlbDogIkJhc2UgQ2FtcCIsIGF1dGg6IHRydWUgfSwKICB7IHRvOiAiL2NvbW11bml0eS9mb2xsb3dpbmciLCBsYWJlbDogIkZvbGxvd2luZyIsIGF1dGg6IHRydWUgfSwKICB7IHRvOiAiL2NvbW11bml0eS9oZWxwIiwgbGFiZWw6ICJIZWxwIiwgYXV0aDogZmFsc2UgfSwKICB7IHRvOiAiL2NvbW11bml0eS9zdXBwb3J0IiwgbGFiZWw6ICJTdXBwb3J0IiwgYXV0aDogZmFsc2UgfSwKXTsKCgpjb25zdCBDb21tdW5pdHlMYXlvdXQgPSAoeyBjaGlsZHJlbiB9OiB7IGNoaWxkcmVuOiBSZWFjdE5vZGUgfSkgPT4gewogIGNvbnN0IHsgdXNlciwgcHJvZmlsZSwgc2lnbk91dCwgbG9hZGluZyB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IFtvcGVuLCBzZXRPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBuYXZpZ2F0ZSA9IHVzZU5hdmlnYXRlKCk7CiAgY29uc3QgbG9jYXRpb24gPSB1c2VMb2NhdGlvbigpOwoKICAvLyBDbG9zZSB0aGUgbW9iaWxlIG1lbnUgd2hlbmV2ZXIgdGhlIHJvdXRlIGNoYW5nZXMuCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIHNldE9wZW4oZmFsc2UpOwogIH0sIFtsb2NhdGlvbi5wYXRobmFtZV0pOwoKICBjb25zdCBoYW5kbGVTaWduT3V0ID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgc2lnbk91dCgpOwogICAgc2V0T3BlbihmYWxzZSk7CiAgICBuYXZpZ2F0ZSgiL2NvbW11bml0eSIsIHsgcmVwbGFjZTogdHJ1ZSB9KTsKICB9OwoKICBjb25zdCBsaW5rQ2xhc3MgPSAoeyBpc0FjdGl2ZSB9OiB7IGlzQWN0aXZlOiBib29sZWFuIH0pID0+CiAgICBjbigKICAgICAgInRleHQteHMgd2hpdGVzcGFjZS1ub3dyYXAgdHJhbnNpdGlvbi1jb2xvcnMgcHgtMS41IHB5LTEgcm91bmRlZC1tZCIsCiAgICAgIGlzQWN0aXZlID8gInRleHQtZm9yZWdyb3VuZCBiZy1zZWNvbmRhcnkiIDogInRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LWZvcmVncm91bmQiLAogICAgKTsKCiAgY29uc3QgdmlzaWJsZUxpbmtzID0gbGlua3MuZmlsdGVyKChsKSA9PiB1c2VyIHx8ICFsLmF1dGgpOwoKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctYmFja2dyb3VuZCB0ZXh0LWZvcmVncm91bmQgZmxleCBmbGV4LWNvbCI+CiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJzdGlja3kgdG9wLTAgei01MCBiZy1iYWNrZ3JvdW5kLzg1IGJhY2tkcm9wLWJsdXItbWQgYm9yZGVyLWIgYm9yZGVyLWJvcmRlciI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTV4bCBteC1hdXRvIHB4LTQgcHktMyBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgICA8TGluayB0bz0iL2NvbW11bml0eSIgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBzaHJpbmstMCI+CiAgICAgICAgICAgIDxpbWcgc3JjPXt0aWNrbGVsaXN0TG9nb30gYWx0PSJUaWNrbGVsaXN0IGxvZ28iIHdpZHRoPXs0MH0gaGVpZ2h0PXs0MH0gY2xhc3NOYW1lPSJ3LTggaC04IiAvPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlciB0ZXh0LWxnIj5UaWNrbGVsaXN0PC9zcGFuPgogICAgICAgICAgPC9MaW5rPgoKICAgICAgICAgIDxuYXYgY2xhc3NOYW1lPSJoaWRkZW4gbWQ6ZmxleCBmbGV4LW5vd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTAuNSBtbC0yIGZsZXgtMSBtaW4tdy0wIG92ZXJmbG93LXgtYXV0byBzY3JvbGxiYXItbm9uZSI+CiAgICAgICAgICAgIHt2aXNpYmxlTGlua3MubWFwKChsKSA9PiAoCiAgICAgICAgICAgICAgPE5hdkxpbmsga2V5PXtsLnRvfSB0bz17bC50b30gZW5kPXtsLmVuZH0gY2xhc3NOYW1lPXtsaW5rQ2xhc3N9PgogICAgICAgICAgICAgICAge2wubGFiZWx9CiAgICAgICAgICAgICAgPC9OYXZMaW5rPgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvbmF2PgoKCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWwtYXV0byBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBzaHJpbmstMCI+CiAgICAgICAgICAgIHt1c2VyICYmIDxVbml2ZXJzYWxTZWFyY2ggY2xhc3NOYW1lPSJoaWRkZW4gc206YmxvY2sgbWQ6aGlkZGVuIHhsOmJsb2NrIHctNTYgeGw6dy02NCIgLz59CiAgICAgICAgICAgIHt1c2VyICYmIDxkaXYgY2xhc3NOYW1lPSJtZDpoaWRkZW4iPjxOb3RpZmljYXRpb25zQmVsbCAvPjwvZGl2Pn0KICAgICAgICAgICAge3VzZXIgPyAoCiAgICAgICAgICAgICAgPERyb3Bkb3duTWVudT4KICAgICAgICAgICAgICAgIDxEcm9wZG93bk1lbnVUcmlnZ2VyIGFzQ2hpbGQ+CiAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQtZnVsbCBib3JkZXIgYm9yZGVyLWJvcmRlciBwbC0xIHByLTMgcHktMSBob3ZlcjpiZy1zZWNvbmRhcnkgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbD0iQWNjb3VudCBtZW51IgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPE1lbWJlckF2YXRhcgogICAgICAgICAgICAgICAgICAgICAgcGF0aD17cHJvZmlsZT8uYXZhdGFyX3VybCA/PyBudWxsfQogICAgICAgICAgICAgICAgICAgICAgbmFtZT17cHJvZmlsZT8uZGlzcGxheV9uYW1lID8/ICJDbGltYmVyIn0KICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaC03IHctNyIKICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iaGlkZGVuIHNtOmlubGluZSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtYXgtdy1bOXJlbV0gdHJ1bmNhdGUiPgogICAgICAgICAgICAgICAgICAgICAge3Byb2ZpbGU/LmRpc3BsYXlfbmFtZSA/PyAiQ2xpbWJlciJ9CiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvRHJvcGRvd25NZW51VHJpZ2dlcj4KICAgICAgICAgICAgICAgIDxEcm9wZG93bk1lbnVDb250ZW50IGFsaWduPSJlbmQiIGNsYXNzTmFtZT0idy02MCBiZy1wb3BvdmVyIj4KICAgICAgICAgICAgICAgICAgPERyb3Bkb3duTWVudUxhYmVsIGNsYXNzTmFtZT0iZm9udC1ub3JtYWwiPgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdXBwZXJjYXNlIHRyYWNraW5nLVswLjJlbV0gdGV4dC1wcmltYXJ5Ij5TaWduZWQgaW4gYXM8L3A+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlciBtdC0xIj57cHJvZmlsZT8uZGlzcGxheV9uYW1lID8/ICJDbGltYmVyIn08L3A+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCB0cnVuY2F0ZSI+e3VzZXIuZW1haWx9PC9wPgogICAgICAgICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUxhYmVsPgogICAgICAgICAgICAgICAgICA8RHJvcGRvd25NZW51U2VwYXJhdG9yIC8+CiAgICAgICAgICAgICAgICAgIDxEcm9wZG93bk1lbnVJdGVtIG9uQ2xpY2s9eygpID0+IG5hdmlnYXRlKGAvY29tbXVuaXR5L21lbWJlcnMvJHt1c2VyLmlkfWApfT4KICAgICAgICAgICAgICAgICAgICA8VXNlciBjbGFzc05hbWU9InctNCBoLTQgbXItMiIgLz4gTXkgcHJvZmlsZQogICAgICAgICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgICAgICAgICAgICAgIDxEcm9wZG93bk1lbnVJdGVtIG9uQ2xpY2s9eygpID0+IG5hdmlnYXRlKCIvY29tbXVuaXR5L215LWFkdmVudHVyZXMiKX0+CiAgICAgICAgICAgICAgICAgICAgPENvbXBhc3MgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTIiIC8+IE15IGFkdmVudHVyZXMKICAgICAgICAgICAgICAgICAgPC9Ecm9wZG93bk1lbnVJdGVtPgogICAgICAgICAgICAgICAgICA8RHJvcGRvd25NZW51SXRlbSBvbkNsaWNrPXsoKSA9PiBuYXZpZ2F0ZSgiL2NvbW11bml0eS9zZXR0aW5ncyIpfT4KICAgICAgICAgICAgICAgICAgICA8U2V0dGluZ3MgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTIiIC8+IFNldHRpbmdzCiAgICAgICAgICAgICAgICAgIDwvRHJvcGRvd25NZW51SXRlbT4KICAgICAgICAgICAgICAgICAgPERyb3Bkb3duTWVudUl0ZW0gb25DbGljaz17KCkgPT4gbmF2aWdhdGUoIi9hY2NvdW50L3Bhc3N3b3JkIil9PgogICAgICAgICAgICAgICAgICAgIDxLZXlSb3VuZCBjbGFzc05hbWU9InctNCBoLTQgbXItMiIgLz4gQ2hhbmdlIHBhc3N3b3JkCiAgICAgICAgICAgICAgICAgIDwvRHJvcGRvd25NZW51SXRlbT4KICAgICAgICAgICAgICAgICAgPERyb3Bkb3duTWVudUl0ZW0gb25DbGljaz17KCkgPT4gbmF2aWdhdGUoIi9hY2NvdW50L2xpbmtlZCIpfT4KICAgICAgICAgICAgICAgICAgICA8TGluazIgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTIiIC8+IExpbmtlZCBhY2NvdW50cwogICAgICAgICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgICAgICAgICAgICAgIDxEcm9wZG93bk1lbnVTZXBhcmF0b3IgLz4KICAgICAgICAgICAgICAgICAgPERyb3Bkb3duTWVudUl0ZW0gYXNDaGlsZD4KICAgICAgICAgICAgICAgICAgICA8Q3Jvc3NTaXRlTGluayBocmVmPXttYWluU2l0ZUhyZWYoIi8iKX0gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciB3LWZ1bGwgY3Vyc29yLXBvaW50ZXIiPgogICAgICAgICAgICAgICAgICAgICAgPEFycm93TGVmdCBjbGFzc05hbWU9InctNCBoLTQgbXItMiIgLz4gQmFjayB0byB7TUFJTl9TSVRFX05BTUV9CiAgICAgICAgICAgICAgICAgICAgPC9Dcm9zc1NpdGVMaW5rPgogICAgICAgICAgICAgICAgICA8L0Ryb3Bkb3duTWVudUl0ZW0+CiAgICAgICAgICAgICAgICAgIDxEcm9wZG93bk1lbnVJdGVtIG9uQ2xpY2s9e2hhbmRsZVNpZ25PdXR9PgogICAgICAgICAgICAgICAgICAgIDxMb2dPdXQgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTIiIC8+IFNpZ24gb3V0CiAgICAgICAgICAgICAgICAgIDwvRHJvcGRvd25NZW51SXRlbT4KICAgICAgICAgICAgICAgIDwvRHJvcGRvd25NZW51Q29udGVudD4KICAgICAgICAgICAgICA8L0Ryb3Bkb3duTWVudT4KICAgICAgICAgICAgKSA6IGxvYWRpbmcgPyAoCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImgtOCB3LTI0IHJvdW5kZWQtZnVsbCBiZy1zZWNvbmRhcnkgYW5pbWF0ZS1wdWxzZSIgYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgPEJ1dHRvbiBhc0NoaWxkIHNpemU9InNtIj4KICAgICAgICAgICAgICAgIDxMaW5rIHRvPSIvYXV0aCI+U2lnbiBpbjwvTGluaz4KICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgKX0KCgogICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0T3BlbigodikgPT4gIXYpfQogICAgICAgICAgICAgIGFyaWEtbGFiZWw9e29wZW4gPyAiQ2xvc2UgbWVudSIgOiAiT3BlbiBtZW51In0KICAgICAgICAgICAgICBjbGFzc05hbWU9Im1kOmhpZGRlbiB0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge29wZW4gPyA8WCBjbGFzc05hbWU9InctNSBoLTUiIC8+IDogPE1lbnUgY2xhc3NOYW1lPSJ3LTUgaC01IiAvPn0KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAge29wZW4gJiYgKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1kOmhpZGRlbiBib3JkZXItdCBib3JkZXItYm9yZGVyIHB4LTQgcHktMyBmbGV4IGZsZXgtY29sIGdhcC0xIj4KICAgICAgICAgICAge3VzZXIgJiYgPFVuaXZlcnNhbFNlYXJjaCBjbGFzc05hbWU9Im1iLTIgc206aGlkZGVuIiAvPn0KICAgICAgICAgICAge3Zpc2libGVMaW5rcy5tYXAoKGwpID0+ICgKICAgICAgICAgICAgICA8TmF2TGluayBrZXk9e2wudG99IHRvPXtsLnRvfSBlbmQ9e2wuZW5kfSBjbGFzc05hbWU9e2xpbmtDbGFzc30gb25DbGljaz17KCkgPT4gc2V0T3BlbihmYWxzZSl9PgogICAgICAgICAgICAgICAge2wubGFiZWx9CiAgICAgICAgICAgICAgPC9OYXZMaW5rPgogICAgICAgICAgICApKX0KICAgICAgICAgICAge3VzZXIgPyAoCiAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgIDxOYXZMaW5rIHRvPSIvY29tbXVuaXR5L25vdGlmaWNhdGlvbnMiIGNsYXNzTmFtZT17bGlua0NsYXNzfSBvbkNsaWNrPXsoKSA9PiBzZXRPcGVuKGZhbHNlKX0+CiAgICAgICAgICAgICAgICAgIE5vdGlmaWNhdGlvbnMKICAgICAgICAgICAgICAgIDwvTmF2TGluaz4KICAgICAgICAgICAgICAgIDxOYXZMaW5rIHRvPSIvY29tbXVuaXR5L3NldHRpbmdzIiBjbGFzc05hbWU9e2xpbmtDbGFzc30gb25DbGljaz17KCkgPT4gc2V0T3BlbihmYWxzZSl9PgogICAgICAgICAgICAgICAgICBTZXR0aW5ncwogICAgICAgICAgICAgICAgPC9OYXZMaW5rPgogICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICBvbkNsaWNrPXtoYW5kbGVTaWduT3V0fQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtbGVmdCB0ZXh0LXNtIHB4LTIgcHktMSByb3VuZGVkLW1kIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIFNpZ24gb3V0CiAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICA8TGluayB0bz0iL2F1dGgiIGNsYXNzTmFtZT17bGlua0NsYXNzKHsgaXNBY3RpdmU6IGZhbHNlIH0pfSBvbkNsaWNrPXsoKSA9PiBzZXRPcGVuKGZhbHNlKX0+CiAgICAgICAgICAgICAgICBTaWduIGluIHRvIHVubG9jayB0aGUgY29tbXVuaXR5CiAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICApfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJvcmRlci10IGJvcmRlci1ib3JkZXIgYmctc2Vjb25kYXJ5LzMwIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy01eGwgbXgtYXV0byBweC00IHB5LTEuNSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LVsxMXB4XSI+CiAgICAgICAgICAgIHt1c2VyICYmIDxVbml2ZXJzYWxTZWFyY2ggY2xhc3NOYW1lPSJoaWRkZW4gbWQ6YmxvY2sgeGw6aGlkZGVuIG9yZGVyLWxhc3QgbWwtYXV0byB3LTY0IHNocmluay0wIiAvPn0KICAgICAgICAgICAge3VzZXIgPyAoCiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgdHJ1bmNhdGUiPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ1cHBlcmNhc2UgdHJhY2tpbmctWzAuMmVtXSB0ZXh0LXByaW1hcnkiPlNpZ25lZCBpbiBhczwvc3Bhbj57IiAifQogICAgICAgICAgICAgICAgPExpbmsgdG89e2AvY29tbXVuaXR5L21lbWJlcnMvJHt1c2VyLmlkfWB9IGNsYXNzTmFtZT0idGV4dC1mb3JlZ3JvdW5kIGhvdmVyOnVuZGVybGluZSI+CiAgICAgICAgICAgICAgICAgIHtwcm9maWxlPy5kaXNwbGF5X25hbWUgPz8gIkNsaW1iZXIifQogICAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgKSA6IGxvYWRpbmcgPyAoCiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgdHJ1bmNhdGUiPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ1cHBlcmNhc2UgdHJhY2tpbmctWzAuMmVtXSB0ZXh0LXByaW1hcnkiPkNoZWNraW5nIHNlc3Npb27igKY8L3NwYW4+CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICApIDogKAogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRydW5jYXRlIj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idXBwZXJjYXNlIHRyYWNraW5nLVswLjJlbV0gdGV4dC1wcmltYXJ5Ij5Ob3Qgc2lnbmVkIGluPC9zcGFuPnsiICJ9CiAgICAgICAgICAgICAgICA8TGluayB0bz0iL2F1dGgiIGNsYXNzTmFtZT0idGV4dC1mb3JlZ3JvdW5kIGhvdmVyOnVuZGVybGluZSI+CiAgICAgICAgICAgICAgICAgIFNpZ24gaW4KICAgICAgICAgICAgICAgIDwvTGluaz57IiAifQogICAgICAgICAgICAgICAgdG8gc2VlIHRoZSBmZWVkLCBtZW1iZXJzIGFuZCBsZWFkZXJib2FyZHMuCiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICApfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICA8L2hlYWRlcj4KCgogICAgICA8U3dpcGVOYXZpZ2F0b3I+CiAgICAgICAgPG1haW4gY2xhc3NOYW1lPSJmbGV4LTEgbWF4LXctNXhsIHctZnVsbCBteC1hdXRvIHB4LTQgcHktOCBwYi0yOCBtZDpwYi04Ij57Y2hpbGRyZW59PC9tYWluPgogICAgICA8L1N3aXBlTmF2aWdhdG9yPgoKICAgICAgPEJvdHRvbVRhYkJhciAvPgoKICAgICAgPGZvb3RlciBjbGFzc05hbWU9ImhpZGRlbiBtZDpibG9jayBib3JkZXItdCBib3JkZXItYm9yZGVyIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctNXhsIG14LWF1dG8gcHgtNCBweS02IGZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgPHA+VGlja2xlbGlzdCDigJQgYSBjb21tdW5pdHkgYnkgT25zaWdodCBNYXJ0aW4uPC9wPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC00Ij4KICAgICAgICAgICAgPENyb3NzU2l0ZUxpbmsgaHJlZj17bWFpblNpdGVIcmVmKCIvIil9IGNsYXNzTmFtZT0iaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIHRyYW5zaXRpb24tY29sb3JzIj4KICAgICAgICAgICAgICB7TUFJTl9TSVRFX05BTUV9CiAgICAgICAgICAgIDwvQ3Jvc3NTaXRlTGluaz4KICAgICAgICAgICAgPENyb3NzU2l0ZUxpbmsgaHJlZj17bWFpblNpdGVIcmVmKCIvd2hlcmUiKX0gY2xhc3NOYW1lPSJob3Zlcjp0ZXh0LWZvcmVncm91bmQgdHJhbnNpdGlvbi1jb2xvcnMiPgogICAgICAgICAgICAgIFdoZXJlIGlzIE1hcnRpbj8KICAgICAgICAgICAgPC9Dcm9zc1NpdGVMaW5rPgogICAgICAgICAgICA8TGluayB0bz0iL2NvbW11bml0eS9zdXBwb3J0IiBjbGFzc05hbWU9ImhvdmVyOnRleHQtZm9yZWdyb3VuZCB0cmFuc2l0aW9uLWNvbG9ycyBpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEiPgogICAgICAgICAgICAgIDxIZWFydCBjbGFzc05hbWU9InctMyBoLTMiIC8+IFN1cHBvcnQKICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZm9vdGVyPgogICAgPC9kaXY+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IENvbW11bml0eUxheW91dDsK
+import { useEffect, useState, type ReactNode } from "react";
+import { Link, NavLink, useLocation, useNavigate } from "@/lib/router-compat";
+import { Menu, X, LogOut, Settings, User, KeyRound, Link2, Heart, ArrowLeft, Compass } from "lucide-react";
+
+import ticklelistLogo from "@/assets/ticklelist-logo.png";
+import { Button } from "@/components/ui/button";
+import BottomTabBar from "@/components/community/BottomTabBar";
+import MemberAvatar from "@/components/community/MemberAvatar";
+import NotificationsBell from "@/components/community/NotificationsBell";
+import UniversalSearch from "@/components/community/UniversalSearch";
+import SwipeNavigator from "@/components/community/SwipeNavigator";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { useAuth } from "@/hooks/useAuth";
+import CrossSiteLink from "@/components/CrossSiteLink";
+import { mainSiteHref, MAIN_SITE_NAME } from "@/lib/site-links";
+import { cn } from "@/lib/utils";
+
+const links = [
+  { to: "/community/intro", label: "Introduction", auth: false },
+  { to: "/community", label: "Feed", end: true, auth: false },
+  { to: "/community/wall", label: "Wall", auth: false },
+  { to: "/community/my-adventures", label: "My adventures", auth: true },
+  { to: "/community/adventures", label: "Plan / Join adventures", auth: true },
+  { to: "/community/ascents", label: "All ascents", auth: true },
+  { to: "/community/list-builder", label: "List builder", auth: true },
+  { to: "/community/leaderboard", label: "Leaderboard", auth: true },
+  { to: "/community/members", label: "Members", auth: true },
+  { to: "/community/basecamp", label: "Base Camp", auth: true },
+  { to: "/community/following", label: "Following", auth: true },
+  { to: "/community/help", label: "Help", auth: false },
+  { to: "/community/support", label: "Support", auth: false },
+];
+
+
+const CommunityLayout = ({ children }: { children: ReactNode }) => {
+  const { user, profile, signOut, loading } = useAuth();
+  const [open, setOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  // Close the mobile menu whenever the route changes.
+  useEffect(() => {
+    setOpen(false);
+  }, [location.pathname]);
+
+  const handleSignOut = async () => {
+    await signOut();
+    setOpen(false);
+    navigate("/community", { replace: true });
+  };
+
+  const linkClass = ({ isActive }: { isActive: boolean }) =>
+    cn(
+      "text-xs whitespace-nowrap transition-colors px-1.5 py-1 rounded-md",
+      isActive ? "text-foreground bg-secondary" : "text-muted-foreground hover:text-foreground",
+    );
+
+  const visibleLinks = links.filter((l) => user || !l.auth);
+
+
+  return (
+    <div className="min-h-screen bg-background text-foreground flex flex-col">
+      <header className="sticky top-0 z-50 bg-background/85 backdrop-blur-md border-b border-border">
+        <div className="max-w-5xl mx-auto px-4 py-3 flex items-center gap-3">
+          <Link to="/community" className="flex items-center gap-2 shrink-0">
+            <img src={ticklelistLogo} alt="Ticklelist logo" width={40} height={40} className="w-8 h-8" />
+            <span className="font-display tracking-wider text-lg">Ticklelist</span>
+          </Link>
+
+          <nav className="hidden md:flex flex-nowrap items-center gap-0.5 ml-2 flex-1 min-w-0 overflow-x-auto scrollbar-none">
+            {visibleLinks.map((l) => (
+              <NavLink key={l.to} to={l.to} end={l.end} className={linkClass}>
+                {l.label}
+              </NavLink>
+            ))}
+          </nav>
+
+
+          <div className="ml-auto flex items-center gap-2 shrink-0">
+            {user && <UniversalSearch className="hidden sm:block md:hidden xl:block w-56 xl:w-64" />}
+            {user && <div className="md:hidden"><NotificationsBell /></div>}
+            {user ? (
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <button
+                    className="flex items-center gap-2 rounded-full border border-border pl-1 pr-3 py-1 hover:bg-secondary transition-colors"
+                    aria-label="Account menu"
+                  >
+                    <MemberAvatar
+                      path={profile?.avatar_url ?? null}
+                      name={profile?.display_name ?? "Climber"}
+                      className="h-7 w-7"
+                    />
+                    <span className="hidden sm:inline text-xs text-muted-foreground max-w-[9rem] truncate">
+                      {profile?.display_name ?? "Climber"}
+                    </span>
+                  </button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end" className="w-60 bg-popover">
+                  <DropdownMenuLabel className="font-normal">
+                    <p className="text-[10px] uppercase tracking-[0.2em] text-primary">Signed in as</p>
+                    <p className="text-sm font-display tracking-wider mt-1">{profile?.display_name ?? "Climber"}</p>
+                    <p className="text-xs text-muted-foreground truncate">{user.email}</p>
+                  </DropdownMenuLabel>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem onClick={() => navigate(`/community/members/${user.id}`)}>
+                    <User className="w-4 h-4 mr-2" /> My profile
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => navigate("/community/my-adventures")}>
+                    <Compass className="w-4 h-4 mr-2" /> My adventures
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => navigate("/community/settings")}>
+                    <Settings className="w-4 h-4 mr-2" /> Settings
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => navigate("/account/password")}>
+                    <KeyRound className="w-4 h-4 mr-2" /> Change password
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => navigate("/account/linked")}>
+                    <Link2 className="w-4 h-4 mr-2" /> Linked accounts
+                  </DropdownMenuItem>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem asChild>
+                    <CrossSiteLink href={mainSiteHref("/")} className="flex items-center w-full cursor-pointer">
+                      <ArrowLeft className="w-4 h-4 mr-2" /> Back to {MAIN_SITE_NAME}
+                    </CrossSiteLink>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={handleSignOut}>
+                    <LogOut className="w-4 h-4 mr-2" /> Sign out
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            ) : loading ? (
+              <div className="h-8 w-24 rounded-full bg-secondary animate-pulse" aria-hidden="true" />
+            ) : (
+              <Button asChild size="sm">
+                <Link to="/auth">Sign in</Link>
+              </Button>
+            )}
+
+
+            <button
+              onClick={() => setOpen((v) => !v)}
+              aria-label={open ? "Close menu" : "Open menu"}
+              className="md:hidden text-muted-foreground hover:text-foreground"
+            >
+              {open ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            </button>
+          </div>
+        </div>
+
+        {open && (
+          <div className="md:hidden border-t border-border px-4 py-3 flex flex-col gap-1">
+            {user && <UniversalSearch className="mb-2 sm:hidden" />}
+            {visibleLinks.map((l) => (
+              <NavLink key={l.to} to={l.to} end={l.end} className={linkClass} onClick={() => setOpen(false)}>
+                {l.label}
+              </NavLink>
+            ))}
+            {user ? (
+              <>
+                <NavLink to="/community/notifications" className={linkClass} onClick={() => setOpen(false)}>
+                  Notifications
+                </NavLink>
+                <NavLink to="/community/settings" className={linkClass} onClick={() => setOpen(false)}>
+                  Settings
+                </NavLink>
+                <button
+                  onClick={handleSignOut}
+                  className="text-left text-sm px-2 py-1 rounded-md text-muted-foreground hover:text-foreground"
+                >
+                  Sign out
+                </button>
+              </>
+            ) : (
+              <Link to="/auth" className={linkClass({ isActive: false })} onClick={() => setOpen(false)}>
+                Sign in to unlock the community
+              </Link>
+            )}
+          </div>
+        )}
+
+        <div className="border-t border-border bg-secondary/30">
+          <div className="max-w-5xl mx-auto px-4 py-1.5 flex items-center gap-2 text-[11px]">
+            {user && <UniversalSearch className="hidden md:block xl:hidden order-last ml-auto w-64 shrink-0" />}
+            {user ? (
+              <p className="text-muted-foreground truncate">
+                <span className="uppercase tracking-[0.2em] text-primary">Signed in as</span>{" "}
+                <Link to={`/community/members/${user.id}`} className="text-foreground hover:underline">
+                  {profile?.display_name ?? "Climber"}
+                </Link>
+              </p>
+            ) : loading ? (
+              <p className="text-muted-foreground truncate">
+                <span className="uppercase tracking-[0.2em] text-primary">Checking session…</span>
+              </p>
+            ) : (
+              <p className="text-muted-foreground truncate">
+                <span className="uppercase tracking-[0.2em] text-primary">Not signed in</span>{" "}
+                <Link to="/auth" className="text-foreground hover:underline">
+                  Sign in
+                </Link>{" "}
+                to see the feed, members and leaderboards.
+              </p>
+            )}
+          </div>
+        </div>
+
+      </header>
+
+
+      <SwipeNavigator>
+        <main className="flex-1 max-w-5xl w-full mx-auto px-4 py-8 pb-28 md:pb-8">{children}</main>
+      </SwipeNavigator>
+
+      <BottomTabBar />
+
+      <footer className="hidden md:block border-t border-border">
+        <div className="max-w-5xl mx-auto px-4 py-6 flex flex-wrap items-center justify-between gap-3 text-xs text-muted-foreground">
+          <p>Ticklelist — a community by Onsight Martin.</p>
+          <div className="flex items-center gap-4">
+            <CrossSiteLink href={mainSiteHref("/")} className="hover:text-foreground transition-colors">
+              {MAIN_SITE_NAME}
+            </CrossSiteLink>
+            <CrossSiteLink href={mainSiteHref("/where")} className="hover:text-foreground transition-colors">
+              Where is Martin?
+            </CrossSiteLink>
+            <Link to="/community/support" className="hover:text-foreground transition-colors inline-flex items-center gap-1">
+              <Heart className="w-3 h-3" /> Support
+            </Link>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default CommunityLayout;

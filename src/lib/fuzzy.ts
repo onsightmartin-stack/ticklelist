@@ -1,1 +1,97 @@
-LyoqCiAqIFNoYXJlZCBmdXp6eSBtYXRjaGluZyB1c2VkIGFjcm9zcyB0aGUgd2hvbGUgc2l0ZS4KICoKICogRXZlcnl0aGluZyBpcyBhY2NlbnQtaW5zZW5zaXRpdmUsIGNhc2UtaW5zZW5zaXRpdmUgYW5kIHR5cG8gdG9sZXJhbnQsIHNvCiAqICJiYWJpYSBnb3JhIiwgIkJhYmnDoCBHw7NyYSIgYW5kICJiYWJiaWEgZ29yYSIgYWxsIGxhbmQgb24gdGhlIHNhbWUgcmVzdWx0LgogKi8KCmV4cG9ydCBjb25zdCBmdXp6eU5vcm0gPSAoczogc3RyaW5nKSA9PgogIHMKICAgIC5ub3JtYWxpemUoIk5GRCIpCiAgICAucmVwbGFjZSgvW1x1MDMwMC1cdTAzNmZdL2csICIiKQogICAgLnJlcGxhY2UoL1vDuF0vZ2ksICJvIikKICAgIC5yZXBsYWNlKC9bw6ZdL2dpLCAiYWUiKQogICAgLnJlcGxhY2UoL1vDsF0vZ2ksICJkIikKICAgIC5yZXBsYWNlKC9bxYJdL2dpLCAibCIpCiAgICAudG9Mb3dlckNhc2UoKQogICAgLnJlcGxhY2UoL1xzKy9nLCAiICIpCiAgICAudHJpbSgpOwoKY29uc3QgbGV2ZW5zaHRlaW4gPSAoYTogc3RyaW5nLCBiOiBzdHJpbmcsIG1heCA9IDMpOiBudW1iZXIgPT4gewogIGlmIChhID09PSBiKSByZXR1cm4gMDsKICBpZiAoTWF0aC5hYnMoYS5sZW5ndGggLSBiLmxlbmd0aCkgPiBtYXgpIHJldHVybiBtYXggKyAxOwogIGxldCBwcmV2ID0gQXJyYXkuZnJvbSh7IGxlbmd0aDogYi5sZW5ndGggKyAxIH0sIChfLCBpKSA9PiBpKTsKICBmb3IgKGxldCBpID0gMTsgaSA8PSBhLmxlbmd0aDsgaSsrKSB7CiAgICBjb25zdCByb3cgPSBbaV07CiAgICBsZXQgYmVzdCA9IGk7CiAgICBmb3IgKGxldCBqID0gMTsgaiA8PSBiLmxlbmd0aDsgaisrKSB7CiAgICAgIGNvbnN0IGNvc3QgPSBhW2kgLSAxXSA9PT0gYltqIC0gMV0gPyAwIDogMTsKICAgICAgY29uc3QgdiA9IE1hdGgubWluKHJvd1tqIC0gMV0hICsgMSwgcHJldltqXSEgKyAxLCBwcmV2W2ogLSAxXSEgKyBjb3N0KTsKICAgICAgcm93LnB1c2godik7CiAgICAgIGlmICh2IDwgYmVzdCkgYmVzdCA9IHY7CiAgICB9CiAgICBpZiAoYmVzdCA+IG1heCkgcmV0dXJuIG1heCArIDE7CiAgICBwcmV2ID0gcm93OwogIH0KICByZXR1cm4gcHJldltiLmxlbmd0aF0hOwp9OwoKY29uc3Qgc3Vic2VxdWVuY2UgPSAocTogc3RyaW5nLCB0OiBzdHJpbmcpID0+IHsKICBsZXQgaSA9IDA7CiAgZm9yIChjb25zdCBjaCBvZiB0KSBpZiAoY2ggPT09IHFbaV0pIGkrKzsKICByZXR1cm4gaSA9PT0gcS5sZW5ndGg7Cn07CgovKioKICogU2NvcmUgYSBxdWVyeSBhZ2FpbnN0IG9uZSB0ZXh0IGZpZWxkLiBMb3dlciBpcyBiZXR0ZXIsIGBJbmZpbml0eWAgbWVhbnMgbm8KICogbWF0Y2ggYXQgYWxsLgogKi8KZXhwb3J0IGNvbnN0IGZ1enp5RmllbGRTY29yZSA9IChxdWVyeTogc3RyaW5nLCB0ZXh0OiBzdHJpbmcpOiBudW1iZXIgPT4gewogIGNvbnN0IHEgPSBmdXp6eU5vcm0ocXVlcnkpOwogIGNvbnN0IHQgPSBmdXp6eU5vcm0odGV4dCk7CiAgaWYgKCFxKSByZXR1cm4gMDsKICBpZiAoIXQpIHJldHVybiBJbmZpbml0eTsKCiAgaWYgKHQgPT09IHEpIHJldHVybiAwOwogIGlmICh0LnN0YXJ0c1dpdGgocSkpIHJldHVybiAxOwogIGlmICh0LmluY2x1ZGVzKHEpKSByZXR1cm4gMjsKCiAgY29uc3Qgd29yZHMgPSB0LnNwbGl0KC9bXHMoKSwuLyctXSsvKS5maWx0ZXIoQm9vbGVhbik7CiAgaWYgKHdvcmRzLnNvbWUoKHcpID0+IHcuc3RhcnRzV2l0aChxKSkpIHJldHVybiAzOwogIGlmIChxLmxlbmd0aCA+PSAzICYmIHN1YnNlcXVlbmNlKHEsIHQpKSByZXR1cm4gNDsKCiAgaWYgKHEubGVuZ3RoID49IDQpIHsKICAgIGNvbnN0IGQgPSBNYXRoLm1pbigKICAgICAgbGV2ZW5zaHRlaW4ocSwgdC5zbGljZSgwLCBxLmxlbmd0aCArIDIpKSwKICAgICAgLi4ud29yZHMubWFwKCh3KSA9PiBsZXZlbnNodGVpbihxLCB3KSksCiAgICApOwogICAgY29uc3QgYWxsb3dlZCA9IHEubGVuZ3RoID49IDcgPyAzIDogMjsKICAgIGlmIChkIDw9IGFsbG93ZWQpIHJldHVybiA1ICsgZDsKICB9CiAgcmV0dXJuIEluZmluaXR5Owp9OwoKLyoqIEJlc3QgKGxvd2VzdCkgc2NvcmUgYWNyb3NzIHNldmVyYWwgZmllbGRzLiAqLwpleHBvcnQgY29uc3QgZnV6enlTY29yZSA9IChxdWVyeTogc3RyaW5nLCAuLi5maWVsZHM6IChzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkKVtdKSA9PgogIE1hdGgubWluKC4uLmZpZWxkcy5tYXAoKGYpID0+IChmID8gZnV6enlGaWVsZFNjb3JlKHF1ZXJ5LCBmKSA6IEluZmluaXR5KSkpOwoKLyoqIEJvb2xlYW4gaGVscGVyIGZvciBzaW1wbGUgYC5maWx0ZXIoKWAgdXNlLiAqLwpleHBvcnQgY29uc3QgZnV6enlNYXRjaCA9IChxdWVyeTogc3RyaW5nLCAuLi5maWVsZHM6IChzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkKVtdKSA9PgogICFxdWVyeS50cmltKCkgfHwgZnV6enlTY29yZShxdWVyeSwgLi4uZmllbGRzKSAhPT0gSW5maW5pdHk7CgovKioKICogRmlsdGVyICsgcmFuayBhIGxpc3QgYnkgZnV6enkgcmVsZXZhbmNlLiBPcmlnaW5hbCBvcmRlciBpcyBwcmVzZXJ2ZWQgZm9yCiAqIGVxdWFsbHkgcmVsZXZhbnQgaXRlbXMuCiAqLwpleHBvcnQgY29uc3QgZnV6enlSYW5rID0gPFQ+KAogIGl0ZW1zOiBUW10sCiAgcXVlcnk6IHN0cmluZywKICBmaWVsZHM6IChpdGVtOiBUKSA9PiAoc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZClbXSwKKTogVFtdID0+IHsKICBpZiAoIXF1ZXJ5LnRyaW0oKSkgcmV0dXJuIGl0ZW1zOwogIHJldHVybiBpdGVtcwogICAgLm1hcCgoaXRlbSwgaSkgPT4gKHsgaXRlbSwgaSwgc2NvcmU6IGZ1enp5U2NvcmUocXVlcnksIC4uLmZpZWxkcyhpdGVtKSkgfSkpCiAgICAuZmlsdGVyKChyKSA9PiByLnNjb3JlICE9PSBJbmZpbml0eSkKICAgIC5zb3J0KChhLCBiKSA9PiBhLnNjb3JlIC0gYi5zY29yZSB8fCBhLmkgLSBiLmkpCiAgICAubWFwKChyKSA9PiByLml0ZW0pOwp9Owo=
+/**
+ * Shared fuzzy matching used across the whole site.
+ *
+ * Everything is accent-insensitive, case-insensitive and typo tolerant, so
+ * "babia gora", "Babià Góra" and "babbia gora" all land on the same result.
+ */
+
+export const fuzzyNorm = (s: string) =>
+  s
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[ø]/gi, "o")
+    .replace(/[æ]/gi, "ae")
+    .replace(/[ð]/gi, "d")
+    .replace(/[ł]/gi, "l")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+
+const levenshtein = (a: string, b: string, max = 3): number => {
+  if (a === b) return 0;
+  if (Math.abs(a.length - b.length) > max) return max + 1;
+  let prev = Array.from({ length: b.length + 1 }, (_, i) => i);
+  for (let i = 1; i <= a.length; i++) {
+    const row = [i];
+    let best = i;
+    for (let j = 1; j <= b.length; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      const v = Math.min(row[j - 1]! + 1, prev[j]! + 1, prev[j - 1]! + cost);
+      row.push(v);
+      if (v < best) best = v;
+    }
+    if (best > max) return max + 1;
+    prev = row;
+  }
+  return prev[b.length]!;
+};
+
+const subsequence = (q: string, t: string) => {
+  let i = 0;
+  for (const ch of t) if (ch === q[i]) i++;
+  return i === q.length;
+};
+
+/**
+ * Score a query against one text field. Lower is better, `Infinity` means no
+ * match at all.
+ */
+export const fuzzyFieldScore = (query: string, text: string): number => {
+  const q = fuzzyNorm(query);
+  const t = fuzzyNorm(text);
+  if (!q) return 0;
+  if (!t) return Infinity;
+
+  if (t === q) return 0;
+  if (t.startsWith(q)) return 1;
+  if (t.includes(q)) return 2;
+
+  const words = t.split(/[\s(),./'-]+/).filter(Boolean);
+  if (words.some((w) => w.startsWith(q))) return 3;
+  if (q.length >= 3 && subsequence(q, t)) return 4;
+
+  if (q.length >= 4) {
+    const d = Math.min(
+      levenshtein(q, t.slice(0, q.length + 2)),
+      ...words.map((w) => levenshtein(q, w)),
+    );
+    const allowed = q.length >= 7 ? 3 : 2;
+    if (d <= allowed) return 5 + d;
+  }
+  return Infinity;
+};
+
+/** Best (lowest) score across several fields. */
+export const fuzzyScore = (query: string, ...fields: (string | null | undefined)[]) =>
+  Math.min(...fields.map((f) => (f ? fuzzyFieldScore(query, f) : Infinity)));
+
+/** Boolean helper for simple `.filter()` use. */
+export const fuzzyMatch = (query: string, ...fields: (string | null | undefined)[]) =>
+  !query.trim() || fuzzyScore(query, ...fields) !== Infinity;
+
+/**
+ * Filter + rank a list by fuzzy relevance. Original order is preserved for
+ * equally relevant items.
+ */
+export const fuzzyRank = <T>(
+  items: T[],
+  query: string,
+  fields: (item: T) => (string | null | undefined)[],
+): T[] => {
+  if (!query.trim()) return items;
+  return items
+    .map((item, i) => ({ item, i, score: fuzzyScore(query, ...fields(item)) }))
+    .filter((r) => r.score !== Infinity)
+    .sort((a, b) => a.score - b.score || a.i - b.i)
+    .map((r) => r.item);
+};

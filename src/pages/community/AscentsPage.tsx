@@ -1,1 +1,228 @@
-aW1wb3J0IHsgZnV6enlNYXRjaCB9IGZyb20gIkAvbGliL2Z1enp5IjsKaW1wb3J0IHsgdXNlTGlzdERlbnNpdHkgfSBmcm9tICJAL2hvb2tzL3VzZUxpc3REZW5zaXR5IjsKaW1wb3J0IERlbnNpdHlUb2dnbGUgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9EZW5zaXR5VG9nZ2xlIjsKaW1wb3J0IHsgc29ydEFzY2VudHMgfSBmcm9tICJAL2xpYi9zb3J0aW5nIjsKaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VNZW1vLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IFNlbyBmcm9tICJAL2NvbXBvbmVudHMvU2VvIjsKaW1wb3J0IHsgTW91bnRhaW4sIFJlZnJlc2hDdyB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCBDb21tdW5pdHlMYXlvdXQgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9Db21tdW5pdHlMYXlvdXQiOwppbXBvcnQgTWVtYmVyc09ubHkgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9NZW1iZXJzT25seSI7CmltcG9ydCBBc2NlbnRDYXJkIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvQXNjZW50Q2FyZCI7CmltcG9ydCBBc2NlbnRGb3JtIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvQXNjZW50Rm9ybSI7CmltcG9ydCBBc2NlbnRGaWx0ZXJzLCB7IGVtcHR5QXNjZW50RmlsdGVycywgdHlwZSBBc2NlbnRGaWx0ZXJTdGF0ZSB9IGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvQXNjZW50RmlsdGVycyI7CmltcG9ydCBQZWFrYmFnZ2VySW1wb3J0IGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvUGVha2JhZ2dlckltcG9ydCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAiQC9ob29rcy91c2VBdXRoIjsKaW1wb3J0IHsgdXNlQ29tbXVuaXR5RGF0YSB9IGZyb20gIkAvaG9va3MvdXNlQ29tbXVuaXR5RGF0YSI7CmltcG9ydCB7IHVzZUFzY2VudENoZWVycyB9IGZyb20gIkAvaG9va3MvdXNlQXNjZW50Q2hlZXJzIjsKaW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkAvaG9va3MvdXNlLXRvYXN0IjsKaW1wb3J0IHR5cGUgeyBBc2NlbnQgfSBmcm9tICJAL2xpYi9wZWFrLWNhdGFsb2ciOwoKCmNvbnN0IEFzY2VudHNQYWdlID0gKCkgPT4gewogIGNvbnN0IHsgdXNlciB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IHsgYXNjZW50cywgcHJvZmlsZXMsIGZldGNoaW5nLCByZWxvYWQgfSA9IHVzZUNvbW11bml0eURhdGEoKTsKICBjb25zdCB7IGNvdW50czogY2hlZXJDb3VudHMsIG1pbmU6IG15Q2hlZXJzLCBjaGVlcmVycywgdG9nZ2xlQ2hlZXIgfSA9IHVzZUFzY2VudENoZWVycygpOwogIGNvbnN0IFtzaG93Rm9ybSwgc2V0U2hvd0Zvcm1dID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtlZGl0aW5nLCBzZXRFZGl0aW5nXSA9IHVzZVN0YXRlPEFzY2VudCB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtzaG93UGVha2JhZ2dlciwgc2V0U2hvd1BlYWtiYWdnZXJdID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtmaWx0ZXJzLCBzZXRGaWx0ZXJzXSA9IHVzZVN0YXRlPEFzY2VudEZpbHRlclN0YXRlPihlbXB0eUFzY2VudEZpbHRlcnMpOwogIGNvbnN0IFtpbml0aWFsUGVha0tleSwgc2V0SW5pdGlhbFBlYWtLZXldID0gdXNlU3RhdGU8c3RyaW5nPigiIik7CiAgY29uc3QgW2ludml0ZXJJZCwgc2V0SW52aXRlcklkXSA9IHVzZVN0YXRlPHN0cmluZz4oIiIpOwogIGNvbnN0IFtlZGl0SWQsIHNldEVkaXRJZF0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKCgogIC8vIERlZXAgbGluayBmcm9tIHRoZSBhcHAncyBjZW50cmUgIisiIHRhYiAvIGhvbWUtc2NyZWVuIHNob3J0Y3V0LgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCBwYXJhbXMgPSBuZXcgVVJMU2VhcmNoUGFyYW1zKHdpbmRvdy5sb2NhdGlvbi5zZWFyY2gpOwogICAgaWYgKHBhcmFtcy5nZXQoIm5ldyIpID09PSAiMSIpIHNldFNob3dGb3JtKHRydWUpOwogICAgY29uc3QgcGVhayA9IHBhcmFtcy5nZXQoInBlYWsiKTsKICAgIGlmIChwZWFrKSBzZXRJbml0aWFsUGVha0tleShwZWFrKTsKICAgIC8vIEludml0ZSBsaW5rIGZyb20gYSBjbGltYmluZyBwYXJ0bmVyOiBwcmUtbGluayB0aGVtIGFzIGNvLWNsaW1iZXIuCiAgICBjb25zdCBmcm9tID0gcGFyYW1zLmdldCgiZnJvbSIpOwogICAgaWYgKGZyb20pIHsKICAgICAgc2V0SW52aXRlcklkKGZyb20pOwogICAgICBzZXRTaG93Rm9ybSh0cnVlKTsKICAgIH0KICAgIGNvbnN0IGVkaXRJZCA9IHBhcmFtcy5nZXQoImVkaXQiKTsKICAgIGlmIChlZGl0SWQpIHNldEVkaXRJZChlZGl0SWQpOwogIH0sIFtdKTsKCiAgLy8gRGVlcCBsaW5rIGZyb20gIk15IGFkdmVudHVyZXMiIOKGkiBlZGl0IHRoaXMgYXNjZW50LgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIWVkaXRJZCkgcmV0dXJuOwogICAgY29uc3QgdGFyZ2V0ID0gYXNjZW50cy5maW5kKChhKSA9PiBhLmlkID09PSBlZGl0SWQpOwogICAgaWYgKCF0YXJnZXQpIHJldHVybjsKICAgIHNldEVkaXRpbmcodGFyZ2V0KTsKICAgIHNldFNob3dGb3JtKHRydWUpOwogICAgc2V0RWRpdElkKG51bGwpOwogIH0sIFtlZGl0SWQsIGFzY2VudHNdKTsKCiAgY29uc3QgbXlBc2NlbnRzID0gdXNlTWVtbygKICAgICgpID0+ICh1c2VyID8gYXNjZW50cy5maWx0ZXIoKGEpID0+IGEudXNlcl9pZCA9PT0gdXNlci5pZCkgOiBbXSksCiAgICBbYXNjZW50cywgdXNlcl0sCiAgKTsKCiAgY29uc3QgbWVtYmVycyA9IHVzZU1lbW8oKCkgPT4gewogICAgY29uc3QgaWRzID0gQXJyYXkuZnJvbShuZXcgU2V0KGFzY2VudHMubWFwKChhKSA9PiBhLnVzZXJfaWQpKSk7CiAgICByZXR1cm4gaWRzCiAgICAgIC5tYXAoKGlkKSA9PiAoeyBpZCwgbmFtZTogcHJvZmlsZXNbaWRdPy5kaXNwbGF5X25hbWUgPz8gIk1lbWJlciIgfSkpCiAgICAgIC5zb3J0KChhLCBiKSA9PiBhLm5hbWUubG9jYWxlQ29tcGFyZShiLm5hbWUpKTsKICB9LCBbYXNjZW50cywgcHJvZmlsZXNdKTsKCiAgY29uc3QgeWVhcnMgPSB1c2VNZW1vKAogICAgKCkgPT4gQXJyYXkuZnJvbShuZXcgU2V0KGFzY2VudHMubWFwKChhKSA9PiBhLmFzY2VudF9kYXRlLnNsaWNlKDAsIDQpKSkpLnNvcnQoKS5yZXZlcnNlKCksCiAgICBbYXNjZW50c10sCiAgKTsKCiAgY29uc3QgdmlzaWJsZSA9IHVzZU1lbW8oKCkgPT4gewogICAgY29uc3QgcSA9IGZpbHRlcnMucXVlcnkudHJpbSgpOwogICAgY29uc3QgbWF0Y2hlZCA9IGFzY2VudHMuZmlsdGVyKChhKSA9PiB7CiAgICAgIGlmIChmaWx0ZXJzLm1lbWJlciAhPT0gImFsbCIgJiYgYS51c2VyX2lkICE9PSBmaWx0ZXJzLm1lbWJlcikgcmV0dXJuIGZhbHNlOwogICAgICBpZiAoZmlsdGVycy50eXBlICE9PSAiYWxsIiAmJiBhLnBlYWtfdHlwZSAhPT0gZmlsdGVycy50eXBlKSByZXR1cm4gZmFsc2U7CiAgICAgIGlmIChmaWx0ZXJzLnllYXIgIT09ICJhbGwiICYmICFhLmFzY2VudF9kYXRlLnN0YXJ0c1dpdGgoZmlsdGVycy55ZWFyKSkgcmV0dXJuIGZhbHNlOwogICAgICBpZiAoIXEpIHJldHVybiB0cnVlOwogICAgICByZXR1cm4gZnV6enlNYXRjaChxLCBhLnBlYWtfbmFtZSwgYS5jb3VudHJ5LCBhLnJvdXRlLCBhLnRyaXBfcmVwb3J0KTsKICAgIH0pOwogICAgcmV0dXJuIHNvcnRBc2NlbnRzKG1hdGNoZWQsIGZpbHRlcnMuc29ydCk7CiAgfSwgW2FzY2VudHMsIGZpbHRlcnNdKTsKICBjb25zdCBbZGVuc2l0eSwgc2V0RGVuc2l0eV0gPSB1c2VMaXN0RGVuc2l0eSgiYXNjZW50cyIsIHZpc2libGUubGVuZ3RoKTsKCgogIGNvbnN0IGhhbmRsZURlbGV0ZSA9IGFzeW5jIChpZDogc3RyaW5nKSA9PiB7CiAgICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCJhc2NlbnRzIikuZGVsZXRlKCkuZXEoImlkIiwgaWQpOwogICAgaWYgKGVycm9yKSB7CiAgICAgIHRvYXN0KHsgdGl0bGU6ICJDb3VsZCBub3QgZGVsZXRlIiwgZGVzY3JpcHRpb246IGVycm9yLm1lc3NhZ2UsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHRvYXN0KHsgdGl0bGU6ICJBc2NlbnQgcmVtb3ZlZCIgfSk7CiAgICByZWxvYWQoKTsKICB9OwoKICBpZiAoIXVzZXIpIHsKICAgIHJldHVybiAoCiAgICAgIDxDb21tdW5pdHlMYXlvdXQ+CiAgICAgIDxTZW8KICAgICAgICB0aXRsZT0iQXNjZW50IExvZyDigJQgQ291bnRyeSBIaWdoIFBvaW50cyAmIEZhbW91cyBQZWFrcyIKICAgICAgICBkZXNjcmlwdGlvbj0iRXZlcnkgYXNjZW50IGxvZ2dlZCBieSBUaWNrbGVsaXN0IG1lbWJlcnM6IGNvdW50cnkgaGlnaCBwb2ludHMsIGZhbW91cyBwZWFrcywgcm91dGVzLCBkYXRlcyBhbmQgdHJpcCByZXBvcnRzIGluIG9uZSBmZWVkLiIKICAgICAgICBub2luZGV4CiAgICAgIC8+CiAgICAgICAgPE1lbWJlcnNPbmx5IHRpdGxlPSJBc2NlbnQgbG9nIGlzIG1lbWJlcnMgb25seSIgZGVzY3JpcHRpb249IlNpZ24gaW4gdG8gYnJvd3NlIGV2ZXJ5IGFzY2VudCBsb2dnZWQgYnkgVGlja2xlbGlzdCBtZW1iZXJzLiIgLz4KICAgICAgPC9Db21tdW5pdHlMYXlvdXQ+CiAgICApOwogIH0KCiAgcmV0dXJuICgKICAgIDxDb21tdW5pdHlMYXlvdXQ+CiAgICAgIDxTZW8KICAgICAgICB0aXRsZT0iQXNjZW50IExvZyDigJQgQ291bnRyeSBIaWdoIFBvaW50cyAmIEZhbW91cyBQZWFrcyIKICAgICAgICBkZXNjcmlwdGlvbj0iRXZlcnkgYXNjZW50IGxvZ2dlZCBieSBUaWNrbGVsaXN0IG1lbWJlcnM6IGNvdW50cnkgaGlnaCBwb2ludHMsIGZhbW91cyBwZWFrcywgcm91dGVzLCBkYXRlcyBhbmQgdHJpcCByZXBvcnRzIGluIG9uZSBmZWVkLiIKICAgICAgICBub2luZGV4CiAgICAgIC8+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMyBtYi02Ij4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0yeGwgdHJhY2tpbmctd2lkZXIiPkFzY2VudCBsb2c8L2gxPgogICAgICAgIHt1c2VyICYmICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0yIj4KICAgICAgICAgICAgPEJ1dHRvbiBvbkNsaWNrPXsoKSA9PiB7IHNldEVkaXRpbmcobnVsbCk7IHNldFNob3dGb3JtKCh2KSA9PiAhdik7IHNldFNob3dQZWFrYmFnZ2VyKGZhbHNlKTsgfX0+CiAgICAgICAgICAgICAgPE1vdW50YWluIGNsYXNzTmFtZT0idy00IGgtNCBtci0xIiAvPiBMb2cgYW4gYXNjZW50CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9InNlY29uZGFyeSIgb25DbGljaz17KCkgPT4geyBzZXRTaG93UGVha2JhZ2dlcigodikgPT4gIXYpOyBzZXRTaG93Rm9ybShmYWxzZSk7IH19PgogICAgICAgICAgICAgIDxSZWZyZXNoQ3cgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTEiIC8+IFN5bmMgZnJvbSBQZWFrYmFnZ2VyCiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS02Ij4KICAgICAgICB7c2hvd0Zvcm0gJiYgdXNlciAmJiAoCiAgICAgICAgICA8QXNjZW50Rm9ybQogICAgICAgICAgICBrZXk9e2VkaXRpbmc/LmlkID8/IGluaXRpYWxQZWFrS2V5fQogICAgICAgICAgICB1c2VySWQ9e3VzZXIuaWR9CiAgICAgICAgICAgIGluaXRpYWxQZWFrS2V5PXtpbml0aWFsUGVha0tleSB8fCB1bmRlZmluZWR9CiAgICAgICAgICAgIGluaXRpYWxQYXJ0bmVySWQ9e2ludml0ZXJJZCAmJiBpbnZpdGVySWQgIT09IHVzZXI/LmlkID8gaW52aXRlcklkIDogdW5kZWZpbmVkfQogICAgICAgICAgICBlZGl0aW5nPXtlZGl0aW5nID8/IHVuZGVmaW5lZH0KICAgICAgICAgICAgb25DcmVhdGVkPXsoKSA9PiB7IHNldFNob3dGb3JtKGZhbHNlKTsgc2V0RWRpdGluZyhudWxsKTsgcmVsb2FkKCk7IH19CiAgICAgICAgICAgIG9uQ2FuY2VsPXsoKSA9PiB7IHNldFNob3dGb3JtKGZhbHNlKTsgc2V0RWRpdGluZyhudWxsKTsgfX0KICAgICAgICAgIC8+CiAgICAgICAgKX0KCiAgICAgICAge3Nob3dQZWFrYmFnZ2VyICYmIHVzZXIgJiYgKAogICAgICAgICAgPFBlYWtiYWdnZXJJbXBvcnQgdXNlcklkPXt1c2VyLmlkfSBvbkltcG9ydGVkPXsoKSA9PiB7IHNldFNob3dQZWFrYmFnZ2VyKGZhbHNlKTsgcmVsb2FkKCk7IH19IG9uQ2FuY2VsPXsoKSA9PiBzZXRTaG93UGVha2JhZ2dlcihmYWxzZSl9IC8+CiAgICAgICAgKX0KCiAgICAgICAge2ZldGNoaW5nID8gKAogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgdGV4dC1zbSI+TG9hZGluZyBhc2NlbnRz4oCmPC9wPgogICAgICAgICkgOiBhc2NlbnRzLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItZGFzaGVkIGJvcmRlci1ib3JkZXIgcC0xMCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlciB0ZXh0LWxnIj5ObyBhc2NlbnRzIGxvZ2dlZCB5ZXQ8L2gyPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG10LTIiPgogICAgICAgICAgICAgIExvZyBhIGNvdW50cnkgaGlnaCBwb2ludCBvciBhIGZhbW91cyBwZWFrIOKAlCBhZGQgdGhlIGRhdGUsIHJvdXRlIGFuZCBhIHRyaXAgcmVwb3J0LgogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApIDogKAogICAgICAgICAgPD4KICAgICAgICAgICAgPEFzY2VudEZpbHRlcnMKICAgICAgICAgICAgICB2YWx1ZT17ZmlsdGVyc30KICAgICAgICAgICAgICBvbkNoYW5nZT17c2V0RmlsdGVyc30KICAgICAgICAgICAgICBtZW1iZXJzPXttZW1iZXJzfQogICAgICAgICAgICAgIHllYXJzPXt5ZWFyc30KICAgICAgICAgICAgICByZXN1bHRDb3VudD17dmlzaWJsZS5sZW5ndGh9CiAgICAgICAgICAgICAgdG90YWxDb3VudD17YXNjZW50cy5sZW5ndGh9CiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIHt2aXNpYmxlLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5ObyBhc2NlbnRzIG1hdGNoIHRoZXNlIGZpbHRlcnMuPC9wPgogICAgICAgICAgICApIDogKAogICAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAgICB7dmlzaWJsZS5sZW5ndGggPiAzICYmICgKICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktZW5kIj4KICAgICAgICAgICAgICAgICAgICA8RGVuc2l0eVRvZ2dsZSB2YWx1ZT17ZGVuc2l0eX0gb25DaGFuZ2U9e3NldERlbnNpdHl9IC8+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIHtkZW5zaXR5ICE9PSAibGFyZ2UiID8gKAogICAgICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJncmlkIHNtOmdyaWQtY29scy0yIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICB7dmlzaWJsZS5tYXAoKGEpID0+ICgKICAgICAgICAgICAgICAgICAgICAgIDxsaSBrZXk9e2EuaWR9PgogICAgICAgICAgICAgICAgICAgICAgICA8QXNjZW50Q2FyZAogICAgICAgICAgICAgICAgICAgICAgICAgIGRlbnNpdHk9e2RlbnNpdHl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgYXNjZW50PXthfQogICAgICAgICAgICAgICAgICAgICAgICAgIHByb2ZpbGU9e3Byb2ZpbGVzW2EudXNlcl9pZF19CiAgICAgICAgICAgICAgICAgICAgICAgICAgY3VycmVudFVzZXJJZD17dXNlcj8uaWQgPz8gbnVsbH0KICAgICAgICAgICAgICAgICAgICAgICAgICBvbkRlbGV0ZT17aGFuZGxlRGVsZXRlfQogICAgICAgICAgICAgICAgICAgICAgICAgIG9uRWRpdD17KGFzYykgPT4geyBzZXRFZGl0aW5nKGFzYyk7IHNldFNob3dGb3JtKHRydWUpOyBzZXRTaG93UGVha2JhZ2dlcihmYWxzZSk7IHdpbmRvdy5zY3JvbGxUbyh7IHRvcDogMCwgYmVoYXZpb3I6ICJzbW9vdGgiIH0pOyB9fQogICAgICAgICAgICAgICAgICAgICAgICAgIGNoZWVyQ291bnQ9e2NoZWVyQ291bnRzW2EuaWRdID8/IDB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgY2hlZXJlZD17bXlDaGVlcnMuaGFzKGEuaWQpfQogICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hlZXI9e3RvZ2dsZUNoZWVyfQogICAgICAgICAgICAgICAgICAgICAgICAgIHByb2ZpbGVzPXtwcm9maWxlc30KICAgICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICB2aXNpYmxlLm1hcCgoYSkgPT4gKAogICAgICAgICAgICAgICAgICAgIDxBc2NlbnRDYXJkCiAgICAgICAgICAgICAgICAgICAgICBrZXk9e2EuaWR9CiAgICAgICAgICAgICAgICAgICAgICBhc2NlbnQ9e2F9CiAgICAgICAgICAgICAgICAgICAgICBwcm9maWxlPXtwcm9maWxlc1thLnVzZXJfaWRdfQogICAgICAgICAgICAgICAgICAgICAgY3VycmVudFVzZXJJZD17dXNlcj8uaWQgPz8gbnVsbH0KICAgICAgICAgICAgICAgICAgICAgIG9uRGVsZXRlPXtoYW5kbGVEZWxldGV9CiAgICAgICAgICAgICAgICAgICAgICBvbkVkaXQ9eyhhc2MpID0+IHsgc2V0RWRpdGluZyhhc2MpOyBzZXRTaG93Rm9ybSh0cnVlKTsgc2V0U2hvd1BlYWtiYWdnZXIoZmFsc2UpOyB3aW5kb3cuc2Nyb2xsVG8oeyB0b3A6IDAsIGJlaGF2aW9yOiAic21vb3RoIiB9KTsgfX0KICAgICAgICAgICAgICAgICAgICAgIGNoZWVyQ291bnQ9e2NoZWVyQ291bnRzW2EuaWRdID8/IDB9CiAgICAgICAgICAgICAgICAgICAgICBjaGVlcmVkPXtteUNoZWVycy5oYXMoYS5pZCl9CiAgICAgICAgICAgICAgICAgICAgICBvbkNoZWVyPXt0b2dnbGVDaGVlcn0KICAgICAgICAgICAgICAgICAgICAgIGNoZWVyZXJzPXtjaGVlcmVyc1thLmlkXX0KICAgICAgICAgICAgICAgICAgICAgIHByb2ZpbGVzPXtwcm9maWxlc30KICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICApKQogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvPgogICAgICAgICl9CiAgICAgIDwvZGl2PgogICAgPC9Db21tdW5pdHlMYXlvdXQ+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IEFzY2VudHNQYWdlOwo=
+import { fuzzyMatch } from "@/lib/fuzzy";
+import { useListDensity } from "@/hooks/useListDensity";
+import DensityToggle from "@/components/community/DensityToggle";
+import { sortAscents } from "@/lib/sorting";
+import { useEffect, useMemo, useState } from "react";
+import Seo from "@/components/Seo";
+import { Mountain, RefreshCw } from "lucide-react";
+import CommunityLayout from "@/components/community/CommunityLayout";
+import MembersOnly from "@/components/community/MembersOnly";
+import AscentCard from "@/components/community/AscentCard";
+import AscentForm from "@/components/community/AscentForm";
+import AscentFilters, { emptyAscentFilters, type AscentFilterState } from "@/components/community/AscentFilters";
+import PeakbaggerImport from "@/components/community/PeakbaggerImport";
+import { Button } from "@/components/ui/button";
+import { useAuth } from "@/hooks/useAuth";
+import { useCommunityData } from "@/hooks/useCommunityData";
+import { useAscentCheers } from "@/hooks/useAscentCheers";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "@/hooks/use-toast";
+import type { Ascent } from "@/lib/peak-catalog";
+
+
+const AscentsPage = () => {
+  const { user } = useAuth();
+  const { ascents, profiles, fetching, reload } = useCommunityData();
+  const { counts: cheerCounts, mine: myCheers, cheerers, toggleCheer } = useAscentCheers();
+  const [showForm, setShowForm] = useState(false);
+  const [editing, setEditing] = useState<Ascent | null>(null);
+  const [showPeakbagger, setShowPeakbagger] = useState(false);
+  const [filters, setFilters] = useState<AscentFilterState>(emptyAscentFilters);
+  const [initialPeakKey, setInitialPeakKey] = useState<string>("");
+  const [inviterId, setInviterId] = useState<string>("");
+  const [editId, setEditId] = useState<string | null>(null);
+
+
+  // Deep link from the app's centre "+" tab / home-screen shortcut.
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("new") === "1") setShowForm(true);
+    const peak = params.get("peak");
+    if (peak) setInitialPeakKey(peak);
+    // Invite link from a climbing partner: pre-link them as co-climber.
+    const from = params.get("from");
+    if (from) {
+      setInviterId(from);
+      setShowForm(true);
+    }
+    const editId = params.get("edit");
+    if (editId) setEditId(editId);
+  }, []);
+
+  // Deep link from "My adventures" → edit this ascent.
+  useEffect(() => {
+    if (!editId) return;
+    const target = ascents.find((a) => a.id === editId);
+    if (!target) return;
+    setEditing(target);
+    setShowForm(true);
+    setEditId(null);
+  }, [editId, ascents]);
+
+  const myAscents = useMemo(
+    () => (user ? ascents.filter((a) => a.user_id === user.id) : []),
+    [ascents, user],
+  );
+
+  const members = useMemo(() => {
+    const ids = Array.from(new Set(ascents.map((a) => a.user_id)));
+    return ids
+      .map((id) => ({ id, name: profiles[id]?.display_name ?? "Member" }))
+      .sort((a, b) => a.name.localeCompare(b.name));
+  }, [ascents, profiles]);
+
+  const years = useMemo(
+    () => Array.from(new Set(ascents.map((a) => a.ascent_date.slice(0, 4)))).sort().reverse(),
+    [ascents],
+  );
+
+  const visible = useMemo(() => {
+    const q = filters.query.trim();
+    const matched = ascents.filter((a) => {
+      if (filters.member !== "all" && a.user_id !== filters.member) return false;
+      if (filters.type !== "all" && a.peak_type !== filters.type) return false;
+      if (filters.year !== "all" && !a.ascent_date.startsWith(filters.year)) return false;
+      if (!q) return true;
+      return fuzzyMatch(q, a.peak_name, a.country, a.route, a.trip_report);
+    });
+    return sortAscents(matched, filters.sort);
+  }, [ascents, filters]);
+  const [density, setDensity] = useListDensity("ascents", visible.length);
+
+
+  const handleDelete = async (id: string) => {
+    const { error } = await supabase.from("ascents").delete().eq("id", id);
+    if (error) {
+      toast({ title: "Could not delete", description: error.message, variant: "destructive" });
+      return;
+    }
+    toast({ title: "Ascent removed" });
+    reload();
+  };
+
+  if (!user) {
+    return (
+      <CommunityLayout>
+      <Seo
+        title="Ascent Log — Country High Points & Famous Peaks"
+        description="Every ascent logged by Ticklelist members: country high points, famous peaks, routes, dates and trip reports in one feed."
+        noindex
+      />
+        <MembersOnly title="Ascent log is members only" description="Sign in to browse every ascent logged by Ticklelist members." />
+      </CommunityLayout>
+    );
+  }
+
+  return (
+    <CommunityLayout>
+      <Seo
+        title="Ascent Log — Country High Points & Famous Peaks"
+        description="Every ascent logged by Ticklelist members: country high points, famous peaks, routes, dates and trip reports in one feed."
+        noindex
+      />
+
+      <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
+        <h1 className="font-display text-2xl tracking-wider">Ascent log</h1>
+        {user && (
+          <div className="flex gap-2">
+            <Button onClick={() => { setEditing(null); setShowForm((v) => !v); setShowPeakbagger(false); }}>
+              <Mountain className="w-4 h-4 mr-1" /> Log an ascent
+            </Button>
+            <Button variant="secondary" onClick={() => { setShowPeakbagger((v) => !v); setShowForm(false); }}>
+              <RefreshCw className="w-4 h-4 mr-1" /> Sync from Peakbagger
+            </Button>
+          </div>
+        )}
+      </div>
+
+      <div className="space-y-6">
+        {showForm && user && (
+          <AscentForm
+            key={editing?.id ?? initialPeakKey}
+            userId={user.id}
+            initialPeakKey={initialPeakKey || undefined}
+            initialPartnerId={inviterId && inviterId !== user?.id ? inviterId : undefined}
+            editing={editing ?? undefined}
+            onCreated={() => { setShowForm(false); setEditing(null); reload(); }}
+            onCancel={() => { setShowForm(false); setEditing(null); }}
+          />
+        )}
+
+        {showPeakbagger && user && (
+          <PeakbaggerImport userId={user.id} onImported={() => { setShowPeakbagger(false); reload(); }} onCancel={() => setShowPeakbagger(false)} />
+        )}
+
+        {fetching ? (
+          <p className="text-muted-foreground text-sm">Loading ascents…</p>
+        ) : ascents.length === 0 ? (
+          <div className="rounded-lg border border-dashed border-border p-10 text-center">
+            <h2 className="font-display tracking-wider text-lg">No ascents logged yet</h2>
+            <p className="text-sm text-muted-foreground mt-2">
+              Log a country high point or a famous peak — add the date, route and a trip report.
+            </p>
+          </div>
+        ) : (
+          <>
+            <AscentFilters
+              value={filters}
+              onChange={setFilters}
+              members={members}
+              years={years}
+              resultCount={visible.length}
+              totalCount={ascents.length}
+            />
+            {visible.length === 0 ? (
+              <p className="text-sm text-muted-foreground">No ascents match these filters.</p>
+            ) : (
+              <>
+                {visible.length > 3 && (
+                  <div className="flex items-center justify-end">
+                    <DensityToggle value={density} onChange={setDensity} />
+                  </div>
+                )}
+                {density !== "large" ? (
+                  <ul className="grid sm:grid-cols-2 gap-2">
+                    {visible.map((a) => (
+                      <li key={a.id}>
+                        <AscentCard
+                          density={density}
+                          ascent={a}
+                          profile={profiles[a.user_id]}
+                          currentUserId={user?.id ?? null}
+                          onDelete={handleDelete}
+                          onEdit={(asc) => { setEditing(asc); setShowForm(true); setShowPeakbagger(false); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                          cheerCount={cheerCounts[a.id] ?? 0}
+                          cheered={myCheers.has(a.id)}
+                          onCheer={toggleCheer}
+                          profiles={profiles}
+                        />
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  visible.map((a) => (
+                    <AscentCard
+                      key={a.id}
+                      ascent={a}
+                      profile={profiles[a.user_id]}
+                      currentUserId={user?.id ?? null}
+                      onDelete={handleDelete}
+                      onEdit={(asc) => { setEditing(asc); setShowForm(true); setShowPeakbagger(false); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                      cheerCount={cheerCounts[a.id] ?? 0}
+                      cheered={myCheers.has(a.id)}
+                      onCheer={toggleCheer}
+                      cheerers={cheerers[a.id]}
+                      profiles={profiles}
+                    />
+                  ))
+                )}
+              </>
+            )}
+          </>
+        )}
+      </div>
+    </CommunityLayout>
+  );
+};
+
+export default AscentsPage;

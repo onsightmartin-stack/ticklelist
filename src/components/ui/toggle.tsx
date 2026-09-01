@@ -1,1 +1,37 @@
-aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAicmVhY3QiOwppbXBvcnQgKiBhcyBUb2dnbGVQcmltaXRpdmUgZnJvbSAiQHJhZGl4LXVpL3JlYWN0LXRvZ2dsZSI7CmltcG9ydCB7IGN2YSwgdHlwZSBWYXJpYW50UHJvcHMgfSBmcm9tICJjbGFzcy12YXJpYW5jZS1hdXRob3JpdHkiOwoKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyI7Cgpjb25zdCB0b2dnbGVWYXJpYW50cyA9IGN2YSgKICAiaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbWQgdGV4dC1zbSBmb250LW1lZGl1bSByaW5nLW9mZnNldC1iYWNrZ3JvdW5kIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLW11dGVkIGhvdmVyOnRleHQtbXV0ZWQtZm9yZWdyb3VuZCBmb2N1cy12aXNpYmxlOm91dGxpbmUtaGlkZGVuIGZvY3VzLXZpc2libGU6cmluZy0yIGZvY3VzLXZpc2libGU6cmluZy1yaW5nIGZvY3VzLXZpc2libGU6cmluZy1vZmZzZXQtMiBkaXNhYmxlZDpwb2ludGVyLWV2ZW50cy1ub25lIGRpc2FibGVkOm9wYWNpdHktNTAgZGF0YS1bc3RhdGU9b25dOmJnLWFjY2VudCBkYXRhLVtzdGF0ZT1vbl06dGV4dC1hY2NlbnQtZm9yZWdyb3VuZCIsCiAgewogICAgdmFyaWFudHM6IHsKICAgICAgdmFyaWFudDogewogICAgICAgIGRlZmF1bHQ6ICJiZy10cmFuc3BhcmVudCIsCiAgICAgICAgb3V0bGluZTogImJvcmRlciBib3JkZXItaW5wdXQgYmctdHJhbnNwYXJlbnQgaG92ZXI6YmctYWNjZW50IGhvdmVyOnRleHQtYWNjZW50LWZvcmVncm91bmQiLAogICAgICB9LAogICAgICBzaXplOiB7CiAgICAgICAgZGVmYXVsdDogImgtMTAgcHgtMyIsCiAgICAgICAgc206ICJoLTkgcHgtMi41IiwKICAgICAgICBsZzogImgtMTEgcHgtNSIsCiAgICAgIH0sCiAgICB9LAogICAgZGVmYXVsdFZhcmlhbnRzOiB7CiAgICAgIHZhcmlhbnQ6ICJkZWZhdWx0IiwKICAgICAgc2l6ZTogImRlZmF1bHQiLAogICAgfSwKICB9LAopOwoKY29uc3QgVG9nZ2xlID0gUmVhY3QuZm9yd2FyZFJlZjwKICBSZWFjdC5FbGVtZW50UmVmPHR5cGVvZiBUb2dnbGVQcmltaXRpdmUuUm9vdD4sCiAgUmVhY3QuQ29tcG9uZW50UHJvcHNXaXRob3V0UmVmPHR5cGVvZiBUb2dnbGVQcmltaXRpdmUuUm9vdD4gJiBWYXJpYW50UHJvcHM8dHlwZW9mIHRvZ2dsZVZhcmlhbnRzPgo+KCh7IGNsYXNzTmFtZSwgdmFyaWFudCwgc2l6ZSwgLi4ucHJvcHMgfSwgcmVmKSA9PiAoCiAgPFRvZ2dsZVByaW1pdGl2ZS5Sb290IHJlZj17cmVmfSBjbGFzc05hbWU9e2NuKHRvZ2dsZVZhcmlhbnRzKHsgdmFyaWFudCwgc2l6ZSwgY2xhc3NOYW1lIH0pKX0gey4uLnByb3BzfSAvPgopKTsKClRvZ2dsZS5kaXNwbGF5TmFtZSA9IFRvZ2dsZVByaW1pdGl2ZS5Sb290LmRpc3BsYXlOYW1lOwoKZXhwb3J0IHsgVG9nZ2xlLCB0b2dnbGVWYXJpYW50cyB9Owo=
+import * as React from "react";
+import * as TogglePrimitive from "@radix-ui/react-toggle";
+import { cva, type VariantProps } from "class-variance-authority";
+
+import { cn } from "@/lib/utils";
+
+const toggleVariants = cva(
+  "inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors hover:bg-muted hover:text-muted-foreground focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=on]:bg-accent data-[state=on]:text-accent-foreground",
+  {
+    variants: {
+      variant: {
+        default: "bg-transparent",
+        outline: "border border-input bg-transparent hover:bg-accent hover:text-accent-foreground",
+      },
+      size: {
+        default: "h-10 px-3",
+        sm: "h-9 px-2.5",
+        lg: "h-11 px-5",
+      },
+    },
+    defaultVariants: {
+      variant: "default",
+      size: "default",
+    },
+  },
+);
+
+const Toggle = React.forwardRef<
+  React.ElementRef<typeof TogglePrimitive.Root>,
+  React.ComponentPropsWithoutRef<typeof TogglePrimitive.Root> & VariantProps<typeof toggleVariants>
+>(({ className, variant, size, ...props }, ref) => (
+  <TogglePrimitive.Root ref={ref} className={cn(toggleVariants({ variant, size, className }))} {...props} />
+));
+
+Toggle.displayName = TogglePrimitive.Root.displayName;
+
+export { Toggle, toggleVariants };

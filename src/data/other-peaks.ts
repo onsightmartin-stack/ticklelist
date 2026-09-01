@@ -1,1 +1,50 @@
-ZXhwb3J0IGludGVyZmFjZSBPdGhlclBlYWsgewogIG5hbWU6IHN0cmluZzsKICBlbGV2YXRpb246IHN0cmluZzsKICBsb2NhdGlvbjogc3RyaW5nOwogIGRhdGU6IHN0cmluZzsKICBub3RlPzogc3RyaW5nOwp9CgpleHBvcnQgY29uc3Qgb3RoZXJQZWFrczogT3RoZXJQZWFrW10gPSBbCiAgLy8gTmVwYWwKICB7IG5hbWU6ICJLYWxhIFBhdHRhciIsIGVsZXZhdGlvbjogIjUsNTQwIG0iLCBsb2NhdGlvbjogIk5lcGFsIiwgZGF0ZTogIjIwMjQtMTAtMjkiLCBub3RlOiAiVmlld3BvaW50IG5lYXIgRXZlcmVzdCBCYXNlIENhbXAiIH0sCiAgeyBuYW1lOiAiRXZlcmVzdCBCYXNlIENhbXAiLCBlbGV2YXRpb246ICI1LDM2NCBtIiwgbG9jYXRpb246ICJOZXBhbCIsIGRhdGU6ICIyMDI0LTEwLTI4Iiwgbm90ZTogIlNvdXRoIEJhc2UgQ2FtcCB0cmVrIiB9LAoKICAvLyBBbHBzIC8gRXVyb3BlCiAgeyBuYW1lOiAiQWlndWlsbGUgZHUgTWlkaSAtIFNvdXRoIEZhY2UgKFJlYnVmZmF0KSIsIGVsZXZhdGlvbjogIjMsODQyIG0iLCBsb2NhdGlvbjogIkZyYW5jZSIsIGRhdGU6ICIyMDIzLTA3LTE0Iiwgbm90ZTogIkNsYXNzaWMgYWxwaW5lIHJvY2sgcm91dGUgb24gdGhlIHNvdXRoIGZhY2UiIH0sCiAgeyBuYW1lOiAiTW9udCBCbGFuYyBkdSBUYWN1bCIsIGVsZXZhdGlvbjogIjQsMjQ5IG0iLCBsb2NhdGlvbjogIkZyYW5jZSIsIGRhdGU6ICIyMDIzLTA3LTE1IiB9LAogIHsgbmFtZTogIkFpZ3VpbGxlIGQnRW50csOodmVzIiwgZWxldmF0aW9uOiAiMyw2MDAgbSIsIGxvY2F0aW9uOiAiRnJhbmNlL0l0YWx5IiwgZGF0ZTogIjIwMjMtMDctMTYiIH0sCiAgeyBuYW1lOiAiQWxsYWxpbmhvcm4iLCBlbGV2YXRpb246ICI0LDAyNyBtIiwgbG9jYXRpb246ICJTd2l0emVybGFuZCIsIGRhdGU6ICIyMDIzLTA4LTEwIiwgbm90ZTogIjQwMDBlciBzdW1taXQgaW4gdGhlIFBlbm5pbmUgQWxwcyIgfSwKICB7IG5hbWU6ICJCcmVpdGhvcm4gVHJhdmVyc2UiLCBlbGV2YXRpb246ICI0LDE2NCBtIiwgbG9jYXRpb246ICJJdGFseS9Td2l0emVybGFuZCIsIGRhdGU6ICIyMDIxLTA4LTA4Iiwgbm90ZTogIkZ1bGwgdHJhdmVyc2Ugb2YgdGhlIEJyZWl0aG9ybiByaWRnZSIgfSwKICB7IG5hbWU6ICJSaW5uZW5zcGl0emUiLCBlbGV2YXRpb246ICIyLDk5OCBtIiwgbG9jYXRpb246ICJBdXN0cmlhIiwgZGF0ZTogIjIwMjEtMDctMTMiIH0sCiAgeyBuYW1lOiAiTW9udCBMYWNoYXQiLCBlbGV2YXRpb246ICIyLDAyNCBtIiwgbG9jYXRpb246ICJGcmFuY2UiLCBkYXRlOiAiMjAyMi0wNy0xOCIgfSwKICB7IG5hbWU6ICJSw6Fpc2R1b3R0YXJow6FsZGkiLCBlbGV2YXRpb246ICIxLDM2MSBtIiwgbG9jYXRpb246ICJOb3J3YXkiLCBkYXRlOiAiMjAyMy0wNi0yMyIgfSwKICB7IG5hbWU6ICJLcmlzdMOtbmFydGluZGFyIiwgZWxldmF0aW9uOiAiMSwxMTkgbSIsIGxvY2F0aW9uOiAiSWNlbGFuZCIsIGRhdGU6ICIyMDIyLTA3LTIxIiB9LAogIHsgbmFtZTogIkF1Z3N0ZW5iZXJnIiwgZWxldmF0aW9uOiAiMiwzNjUgbSIsIGxvY2F0aW9uOiAiTGllY2h0ZW5zdGVpbiIsIGRhdGU6ICIyMDI1LTA2LTI3IiB9LAogIHsgbmFtZTogIlNjaHdhcnpob3JuIiwgZWxldmF0aW9uOiAiMiw1NzQgbSIsIGxvY2F0aW9uOiAiTGllY2h0ZW5zdGVpbi9Td2l0emVybGFuZCIsIGRhdGU6ICIyMDI1LTA2LTI4IiB9LAoKICAvLyBVbml0ZWQgS2luZ2RvbQogIHsgbmFtZTogIkNhcm4gTW9yIERlYXJnIiwgZWxldmF0aW9uOiAiMSwyMjAgbSIsIGxvY2F0aW9uOiAiVW5pdGVkIEtpbmdkb20gKFNjb3RsYW5kKSIsIGRhdGU6ICIyMDI2LTA3LTE3Iiwgbm90ZTogIlRyYXZlcnNlZCBhbG9uZ3NpZGUgQmVuIE5ldmlzIiB9LAogIHsgbmFtZTogIkNhcm4gQmVhZyBEZWFyZyIsIGVsZXZhdGlvbjogIjEsMDEwIG0iLCBsb2NhdGlvbjogIlVuaXRlZCBLaW5nZG9tIChTY290bGFuZCkiLCBkYXRlOiAiMjAyNi0wNy0xNyIgfSwKICB7IG5hbWU6ICJIYXJyaXNvbiBTdGlja2xlIiwgZWxldmF0aW9uOiAiNzM2IG0iLCBsb2NhdGlvbjogIlVuaXRlZCBLaW5nZG9tIChFbmdsYW5kKSIsIGRhdGU6ICIyMDI2LTA3LTIyIiwgbm90ZTogIkxhbmdkYWxlIFBpa2VzLCBzYW1lIHRyaXAgYXMgU2NhZmVsbCBQaWtlIiB9LAoKICAvLyBTd2VkZW4KICB7IG5hbWU6ICJLZWJuZWthaXNlIC0gU3lkdG9wcGVuIiwgZWxldmF0aW9uOiAiMiwwOTcgbSIsIGxvY2F0aW9uOiAiU3dlZGVuIiwgZGF0ZTogIjIwMTktMDktMjQiLCBub3RlOiAiRm9ybWVyIGhpZ2hlc3QgcG9pbnQgb2YgU3dlZGVuIiB9LAogIHsgbmFtZTogIlNrdWxlYmVyZ2V0IiwgZWxldmF0aW9uOiAiMjk1IG0iLCBsb2NhdGlvbjogIlN3ZWRlbiIsIGRhdGU6ICIyMDE5LTA5LTIyIiB9LAoKICAvLyBUYWl3YW4KICB7IG5hbWU6ICJRaXhpbmdzaGFuIiwgZWxldmF0aW9uOiAiMSwxMTggbSIsIGxvY2F0aW9uOiAiVGFpd2FuIiwgZGF0ZTogIjIwMjQtMDktMDMiIH0sCiAgeyBuYW1lOiAiUWl4aW5nc2hhbiAtIERvbmdmZW5nIiwgZWxldmF0aW9uOiAiMSwxMDYgbSIsIGxvY2F0aW9uOiAiVGFpd2FuIiwgZGF0ZTogIjIwMjQtMDktMDMiIH0sCiAgeyBuYW1lOiAiRGF0dW5zaGFuIiwgZWxldmF0aW9uOiAiMSwwOTQgbSIsIGxvY2F0aW9uOiAiVGFpd2FuIiwgZGF0ZTogIjIwMjQtMDktMDUiIH0sCiAgeyBuYW1lOiAiWXVzaGFuIC0gWGlmZW5nIiwgZWxldmF0aW9uOiAiMyw1MTggbSIsIGxvY2F0aW9uOiAiVGFpd2FuIiwgZGF0ZTogIjIwMjQtMDktMTgiIH0sCgogIC8vIEluZG9uZXNpYQogIHsgbmFtZTogIkd1bnVuZyBCYXR1ciIsIGVsZXZhdGlvbjogIjEsNjY3IG0iLCBsb2NhdGlvbjogIkluZG9uZXNpYSAoQmFsaSkiLCBkYXRlOiAiMjAyNS0xMC0yNyIgfSwKCiAgLy8gU3BhaW4KICB7IG5hbWU6ICJNb250YcOxYSBSb2phIiwgZWxldmF0aW9uOiAiMzE0IG0iLCBsb2NhdGlvbjogIlNwYWluIChUZW5lcmlmZSkiLCBkYXRlOiAiMjAyNi0wMS0yNyIgfSwKCiAgLy8gU291dGggS29yZWEKICB7IG5hbWU6ICJIYWxsYS1zYW4gLSBFYXN0IFN1bW1pdCIsIGVsZXZhdGlvbjogIjEsOTI1IG0iLCBsb2NhdGlvbjogIlNvdXRoIEtvcmVhIiwgZGF0ZTogIjIwMjQtMDYtMTEiIH0sCl07Cg==
+export interface OtherPeak {
+  name: string;
+  elevation: string;
+  location: string;
+  date: string;
+  note?: string;
+}
+
+export const otherPeaks: OtherPeak[] = [
+  // Nepal
+  { name: "Kala Pattar", elevation: "5,540 m", location: "Nepal", date: "2024-10-29", note: "Viewpoint near Everest Base Camp" },
+  { name: "Everest Base Camp", elevation: "5,364 m", location: "Nepal", date: "2024-10-28", note: "South Base Camp trek" },
+
+  // Alps / Europe
+  { name: "Aiguille du Midi - South Face (Rebuffat)", elevation: "3,842 m", location: "France", date: "2023-07-14", note: "Classic alpine rock route on the south face" },
+  { name: "Mont Blanc du Tacul", elevation: "4,249 m", location: "France", date: "2023-07-15" },
+  { name: "Aiguille d'Entrèves", elevation: "3,600 m", location: "France/Italy", date: "2023-07-16" },
+  { name: "Allalinhorn", elevation: "4,027 m", location: "Switzerland", date: "2023-08-10", note: "4000er summit in the Pennine Alps" },
+  { name: "Breithorn Traverse", elevation: "4,164 m", location: "Italy/Switzerland", date: "2021-08-08", note: "Full traverse of the Breithorn ridge" },
+  { name: "Rinnenspitze", elevation: "2,998 m", location: "Austria", date: "2021-07-13" },
+  { name: "Mont Lachat", elevation: "2,024 m", location: "France", date: "2022-07-18" },
+  { name: "Ráisduottarháldi", elevation: "1,361 m", location: "Norway", date: "2023-06-23" },
+  { name: "Kristínartindar", elevation: "1,119 m", location: "Iceland", date: "2022-07-21" },
+  { name: "Augstenberg", elevation: "2,365 m", location: "Liechtenstein", date: "2025-06-27" },
+  { name: "Schwarzhorn", elevation: "2,574 m", location: "Liechtenstein/Switzerland", date: "2025-06-28" },
+
+  // United Kingdom
+  { name: "Carn Mor Dearg", elevation: "1,220 m", location: "United Kingdom (Scotland)", date: "2026-07-17", note: "Traversed alongside Ben Nevis" },
+  { name: "Carn Beag Dearg", elevation: "1,010 m", location: "United Kingdom (Scotland)", date: "2026-07-17" },
+  { name: "Harrison Stickle", elevation: "736 m", location: "United Kingdom (England)", date: "2026-07-22", note: "Langdale Pikes, same trip as Scafell Pike" },
+
+  // Sweden
+  { name: "Kebnekaise - Sydtoppen", elevation: "2,097 m", location: "Sweden", date: "2019-09-24", note: "Former highest point of Sweden" },
+  { name: "Skuleberget", elevation: "295 m", location: "Sweden", date: "2019-09-22" },
+
+  // Taiwan
+  { name: "Qixingshan", elevation: "1,118 m", location: "Taiwan", date: "2024-09-03" },
+  { name: "Qixingshan - Dongfeng", elevation: "1,106 m", location: "Taiwan", date: "2024-09-03" },
+  { name: "Datunshan", elevation: "1,094 m", location: "Taiwan", date: "2024-09-05" },
+  { name: "Yushan - Xifeng", elevation: "3,518 m", location: "Taiwan", date: "2024-09-18" },
+
+  // Indonesia
+  { name: "Gunung Batur", elevation: "1,667 m", location: "Indonesia (Bali)", date: "2025-10-27" },
+
+  // Spain
+  { name: "Montaña Roja", elevation: "314 m", location: "Spain (Tenerife)", date: "2026-01-27" },
+
+  // South Korea
+  { name: "Halla-san - East Summit", elevation: "1,925 m", location: "South Korea", date: "2024-06-11" },
+];

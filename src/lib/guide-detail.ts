@@ -1,1 +1,166 @@
-LyoqCiAqIERlcml2ZWQgZGV0YWlsIGJsb2NrcyBmb3IgZ3VpZGUgcGFnZXM6IHF1aWNrIHN0YXRzLCBkaWZmaWN1bHR5IHNwcmVhZCwKICogYmVzdC1zZWFzb24gd2luZG93cyBhbmQgdHlwaWNhbCByb3V0ZSBvcHRpb25zIOKAlCBhbGwgY29tcHV0ZWQgZnJvbSB0aGUKICogZXhpc3RpbmcgY291bnRyeSAvIHBlYWsgLyBkaWZmaWN1bHR5IGRhdGFzZXRzIHNvIGV2ZXJ5IGd1aWRlIHN0YXlzIGluIHN5bmMuCiAqLwppbXBvcnQgdHlwZSB7IENvdW50cnlIaWdoUG9pbnQgfSBmcm9tICJAL2RhdGEvY291bnRyaWVzIjsKaW1wb3J0IHsgY291bnRyeURpZmZpY3VsdHksIGRpZmZpY3VsdHlDb25maWcsIHR5cGUgRGlmZmljdWx0eSB9IGZyb20gIkAvZGF0YS9kaWZmaWN1bHR5IjsKaW1wb3J0IHsgcGVha0RldGFpbHMgfSBmcm9tICJAL2RhdGEvcGVhay1kZXRhaWxzIjsKaW1wb3J0IHsgZWxldmF0aW9uT2YgfSBmcm9tICJAL2RhdGEvZ3VpZGVzIjsKCmV4cG9ydCBjb25zdCBESUZGSUNVTFRZX09SREVSOiBEaWZmaWN1bHR5W10gPSBbInZlcnlfZWFzeSIsICJlYXN5IiwgIm1vZGVyYXRlIiwgImhhcmQiLCAiZXhwZXJ0Il07CgpleHBvcnQgaW50ZXJmYWNlIFF1aWNrU3RhdHMgewogIGNvdW50OiBudW1iZXI7CiAgY2xpbWJlZDogbnVtYmVyOwogIGhpZ2hlc3Q6IHsgY291bnRyeTogc3RyaW5nOyBwZWFrOiBzdHJpbmc7IGVsZXZhdGlvbjogbnVtYmVyIH0gfCB1bmRlZmluZWQ7CiAgbG93ZXN0OiB7IGNvdW50cnk6IHN0cmluZzsgcGVhazogc3RyaW5nOyBlbGV2YXRpb246IG51bWJlciB9IHwgdW5kZWZpbmVkOwogIG1lZGlhbkVsZXZhdGlvbjogbnVtYmVyOwogIHRvdGFsVmVydGljYWw6IG51bWJlcjsKICBjb250aW5lbnRzOiBzdHJpbmdbXTsKICByYW5nZXM6IHsgcmFuZ2U6IHN0cmluZzsgY291bnQ6IG51bWJlciB9W107Cn0KCmNvbnN0IG5hbWVPZiA9IChjOiBDb3VudHJ5SGlnaFBvaW50KSA9PiBwZWFrRGV0YWlsc1tjLmNvdW50cnldPy5wZWFrID8/IGMuaGlnaFBvaW50OwoKZXhwb3J0IGZ1bmN0aW9uIHF1aWNrU3RhdHMocm93czogQ291bnRyeUhpZ2hQb2ludFtdKTogUXVpY2tTdGF0cyB7CiAgY29uc3Qgd2l0aEVsZXYgPSByb3dzCiAgICAubWFwKChjKSA9PiAoeyBjb3VudHJ5OiBjLmNvdW50cnksIHBlYWs6IG5hbWVPZihjKSwgZWxldmF0aW9uOiBlbGV2YXRpb25PZihjKSB9KSkKICAgIC5maWx0ZXIoKHIpID0+IHIuZWxldmF0aW9uID4gMCkKICAgIC5zb3J0KChhLCBiKSA9PiBiLmVsZXZhdGlvbiAtIGEuZWxldmF0aW9uKTsKCiAgY29uc3QgcmFuZ2VDb3VudHMgPSBuZXcgTWFwPHN0cmluZywgbnVtYmVyPigpOwogIHJvd3MuZm9yRWFjaCgoYykgPT4gewogICAgY29uc3QgcmFuZ2UgPSBwZWFrRGV0YWlsc1tjLmNvdW50cnldPy5yYW5nZTsKICAgIGlmICghcmFuZ2UpIHJldHVybjsKICAgIHJhbmdlQ291bnRzLnNldChyYW5nZSwgKHJhbmdlQ291bnRzLmdldChyYW5nZSkgPz8gMCkgKyAxKTsKICB9KTsKCiAgY29uc3QgbWlkID0gd2l0aEVsZXYubGVuZ3RoID8gd2l0aEVsZXZbTWF0aC5mbG9vcih3aXRoRWxldi5sZW5ndGggLyAyKV0hLmVsZXZhdGlvbiA6IDA7CgogIHJldHVybiB7CiAgICBjb3VudDogcm93cy5sZW5ndGgsCiAgICBjbGltYmVkOiByb3dzLmZpbHRlcigoYykgPT4gKGMuc3RhdHVzID09PSAiY2xpbWJlZCIgfHwgYy5zdGF0dXMgPT09ICJsZWdhbF9oaWdoX3BvaW50IikgJiYgYy51bk1lbWJlciAhPT0gZmFsc2UpLmxlbmd0aCwKICAgIGhpZ2hlc3Q6IHdpdGhFbGV2WzBdLAogICAgbG93ZXN0OiB3aXRoRWxldlt3aXRoRWxldi5sZW5ndGggLSAxXSwKICAgIG1lZGlhbkVsZXZhdGlvbjogbWlkLAogICAgdG90YWxWZXJ0aWNhbDogd2l0aEVsZXYucmVkdWNlKChzdW0sIHIpID0+IHN1bSArIHIuZWxldmF0aW9uLCAwKSwKICAgIGNvbnRpbmVudHM6IFsuLi5uZXcgU2V0KHJvd3MubWFwKChjKSA9PiBjLmNvbnRpbmVudCkpXS5zb3J0KCksCiAgICByYW5nZXM6IFsuLi5yYW5nZUNvdW50cy5lbnRyaWVzKCldCiAgICAgIC5tYXAoKFtyYW5nZSwgY291bnRdKSA9PiAoeyByYW5nZSwgY291bnQgfSkpCiAgICAgIC5zb3J0KChhLCBiKSA9PiBiLmNvdW50IC0gYS5jb3VudCkKICAgICAgLnNsaWNlKDAsIDUpLAogIH07Cn0KCmV4cG9ydCBmdW5jdGlvbiBkaWZmaWN1bHR5QnJlYWtkb3duKHJvd3M6IENvdW50cnlIaWdoUG9pbnRbXSkgewogIGNvbnN0IGNvdW50cyA9IG5ldyBNYXA8RGlmZmljdWx0eSwgbnVtYmVyPigpOwogIHJvd3MuZm9yRWFjaCgoYykgPT4gewogICAgY29uc3QgZCA9IGNvdW50cnlEaWZmaWN1bHR5W2MuY291bnRyeV0/LmRpZmZpY3VsdHk7CiAgICBpZiAoZCkgY291bnRzLnNldChkLCAoY291bnRzLmdldChkKSA/PyAwKSArIDEpOwogIH0pOwogIGNvbnN0IHRvdGFsID0gWy4uLmNvdW50cy52YWx1ZXMoKV0ucmVkdWNlKChhLCBiKSA9PiBhICsgYiwgMCk7CiAgcmV0dXJuIERJRkZJQ1VMVFlfT1JERVIuZmlsdGVyKChkKSA9PiBjb3VudHMuaGFzKGQpKS5tYXAoKGQpID0+ICh7CiAgICBkaWZmaWN1bHR5OiBkLAogICAgbGFiZWw6IGRpZmZpY3VsdHlDb25maWdbZF0ubGFiZWwsCiAgICBjb2xvcjogZGlmZmljdWx0eUNvbmZpZ1tkXS5jb2xvciwKICAgIGJnQ29sb3I6IGRpZmZpY3VsdHlDb25maWdbZF0uYmdDb2xvciwKICAgIGNvdW50OiBjb3VudHMuZ2V0KGQpISwKICAgIHNoYXJlOiB0b3RhbCA/IE1hdGgucm91bmQoKChjb3VudHMuZ2V0KGQpISAvIHRvdGFsKSAqIDEwMCkpIDogMCwKICAgIGV4YW1wbGVzOiByb3dzCiAgICAgIC5maWx0ZXIoKGMpID0+IGNvdW50cnlEaWZmaWN1bHR5W2MuY291bnRyeV0/LmRpZmZpY3VsdHkgPT09IGQpCiAgICAgIC5zbGljZSgwLCAzKQogICAgICAubWFwKChjKSA9PiBgJHtuYW1lT2YoYyl9ICgke2MuY291bnRyeX0pYCksCiAgfSkpOwp9Cgp0eXBlIFNlYXNvbkJhbmQgPSAibm9ydGhlcm4iIHwgInRyb3BpY2FsIiB8ICJzb3V0aGVybiIgfCAicG9sYXIiOwoKY29uc3QgYmFuZE9mID0gKGM6IENvdW50cnlIaWdoUG9pbnQpOiBTZWFzb25CYW5kID0+IHsKICBjb25zdCBsYXQgPSBwZWFrRGV0YWlsc1tjLmNvdW50cnldPy5jb29yZGluYXRlcy5sYXQ7CiAgaWYgKGxhdCA9PT0gdW5kZWZpbmVkKSByZXR1cm4gYy5jb250aW5lbnQgPT09ICJPY2VhbmlhIiB8fCBjLmNvbnRpbmVudCA9PT0gIlNvdXRoIEFtZXJpY2EiID8gInNvdXRoZXJuIiA6ICJub3J0aGVybiI7CiAgaWYgKGxhdCA8PSAtNjApIHJldHVybiAicG9sYXIiOwogIGlmIChsYXQgPj0gMjMuNSkgcmV0dXJuICJub3J0aGVybiI7CiAgaWYgKGxhdCA8PSAtMjMuNSkgcmV0dXJuICJzb3V0aGVybiI7CiAgcmV0dXJuICJ0cm9waWNhbCI7Cn07Cgpjb25zdCBTRUFTT05fQ09QWTogUmVjb3JkPFNlYXNvbkJhbmQsIHsgd2luZG93OiBzdHJpbmc7IG5vdGU6IHN0cmluZyB9PiA9IHsKICBub3J0aGVybjogewogICAgd2luZG93OiAiSnVuZSDigJMgU2VwdGVtYmVyIiwKICAgIG5vdGU6ICJOb3J0aGVybi1oZW1pc3BoZXJlIHN1bW1lcjogc3RhYmxlIGhpZ2ggcHJlc3N1cmUsIG1lbHRlZC1vdXQgYXBwcm9hY2hlcyBhbmQgbG9uZyBkYXlsaWdodC4gU2hvdWxkZXIgd2Vla3MgaW4gTWF5IGFuZCBPY3RvYmVyIG1lYW4gc25vdyBvbiB0aGUgdXBwZXIgc2xvcGVzLiIsCiAgfSwKICBzb3V0aGVybjogewogICAgd2luZG93OiAiRGVjZW1iZXIg4oCTIE1hcmNoIiwKICAgIG5vdGU6ICJTb3V0aGVybi1oZW1pc3BoZXJlIHN1bW1lci4gRXhwZWN0IHRoZSByZXZlcnNlIGNhbGVuZGFyIGZyb20gRXVyb3BlIOKAlCB0aGUgQW5kZXMgYW5kIE9jZWFuaWEgcGVha3MgY29tZSBpbnRvIGNvbmRpdGlvbiB3aGVuIHRoZSBBbHBzIGNsb3NlIG91dC4iLAogIH0sCiAgdHJvcGljYWw6IHsKICAgIHdpbmRvdzogIlllYXItcm91bmQsIGRyaWVzdCBpbiB0aGUgbG9jYWwgZHJ5IHNlYXNvbiIsCiAgICBub3RlOiAiTmVhciB0aGUgZXF1YXRvciB0ZW1wZXJhdHVyZSBiYXJlbHkgc2hpZnRzOyByYWluZmFsbCBkZWNpZGVzLiBBaW0gZm9yIHRoZSBkcnkgbW9udGhzIGFuZCBzdGFydCBiZWZvcmUgZGF3biB0byBiZWF0IGFmdGVybm9vbiBjb252ZWN0aW9uLiIsCiAgfSwKICBwb2xhcjogewogICAgd2luZG93OiAiTm92ZW1iZXIg4oCTIEphbnVhcnkiLAogICAgbm90ZTogIkFudGFyY3RpYyBzZWFzb24gb25seS4gRmxpZ2h0cyBvcGVyYXRlIGluIHRoZSBhdXN0cmFsIHN1bW1lciB3aW5kb3cgYW5kIGV2ZXJ5dGhpbmcgaXMgbG9naXN0aWNzLWRyaXZlbi4iLAogIH0sCn07CgpleHBvcnQgZnVuY3Rpb24gc2Vhc29uV2luZG93cyhyb3dzOiBDb3VudHJ5SGlnaFBvaW50W10pIHsKICBjb25zdCBjb3VudHMgPSBuZXcgTWFwPFNlYXNvbkJhbmQsIG51bWJlcj4oKTsKICByb3dzLmZvckVhY2goKGMpID0+IHsKICAgIGNvbnN0IGIgPSBiYW5kT2YoYyk7CiAgICBjb3VudHMuc2V0KGIsIChjb3VudHMuZ2V0KGIpID8/IDApICsgMSk7CiAgfSk7CiAgcmV0dXJuIChbIm5vcnRoZXJuIiwgInNvdXRoZXJuIiwgInRyb3BpY2FsIiwgInBvbGFyIl0gYXMgU2Vhc29uQmFuZFtdKQogICAgLmZpbHRlcigoYikgPT4gY291bnRzLmhhcyhiKSkKICAgIC5tYXAoKGIpID0+ICh7IGJhbmQ6IGIsIGNvdW50OiBjb3VudHMuZ2V0KGIpISwgLi4uU0VBU09OX0NPUFlbYl0gfSkpCiAgICAuc29ydCgoYSwgYikgPT4gYi5jb3VudCAtIGEuY291bnQpOwp9Cgpjb25zdCBST1VURV9DT1BZOiBSZWNvcmQ8RGlmZmljdWx0eSwgeyB0aXRsZTogc3RyaW5nOyBzdHlsZTogc3RyaW5nOyBnZWFyOiBzdHJpbmcgfT4gPSB7CiAgdmVyeV9lYXN5OiB7CiAgICB0aXRsZTogIldhbGstdXBzIGFuZCBkcml2ZS11cHMiLAogICAgc3R5bGU6ICJNYXJrZWQgdHJhaWwsIHJvYWQgb3Igc2hvcnQgZm9yZXN0IHdhbGsuIFVuZGVyIHR3byBob3VycyBmb3IgbW9zdCBwZW9wbGUsIG5vIG5hdmlnYXRpb24gcHJvYmxlbXMuIiwKICAgIGdlYXI6ICJUcmFpbmVycyBvciBsaWdodCBib290cywgd2F0ZXIsIGEgcGhvbmUgbWFwLiBOb3RoaW5nIHRlY2huaWNhbC4iLAogIH0sCiAgZWFzeTogewogICAgdGl0bGU6ICJIaWtpbmcgcm91dGVzIiwKICAgIHN0eWxlOiAiTG9uZyBkYXkgaGlrZXMgb24gcGF0aHMgb3IgZWFzeSBzY3JlZSwgb2NjYXNpb25hbCBoYW5kcy1vbiBzY3JhbWJsaW5nIHN0ZXBzIGJ1dCBubyBleHBvc3VyZSB0aGF0IG5lZWRzIGEgcm9wZS4iLAogICAgZ2VhcjogIkJvb3RzLCBwb2xlcywgbGF5ZXJzLCBoZWFkdG9yY2ggZm9yIGFuIGVhcmx5IHN0YXJ0LiIsCiAgfSwKICBtb2RlcmF0ZTogewogICAgdGl0bGU6ICJTY3JhbWJsZXMgYW5kIGdsYWNpZXIgd2Fsa3MiLAogICAgc3R5bGU6ICJTdXN0YWluZWQgc2NyYW1ibGluZywgdmlhIGZlcnJhdGEgc2VjdGlvbnMgb3Igc3RyYWlnaHRmb3J3YXJkIGdsYWNpZXIgdHJhdmVsLiBSb3V0ZS1maW5kaW5nIG1hdHRlcnMgYW5kIGFmdGVybm9vbiB3ZWF0aGVyIGZvcmNlcyBlYXJseSBzdGFydHMuIiwKICAgIGdlYXI6ICJIZWxtZXQsIGhhcm5lc3MsIGNyYW1wb25zIGFuZCBheGUgd2hlcmUgZ2xhY2lhdGVkOyByb3BlIGZvciB0aGUgZXhwb3NlZCBzdGVwcy4iLAogIH0sCiAgaGFyZDogewogICAgdGl0bGU6ICJBbHBpbmUgcm91dGVzIiwKICAgIHN0eWxlOiAiTXVsdGktZGF5IGV4cGVkaXRpb25zLCBoaWdoIGFsdGl0dWRlLCByZWFsIGdsYWNpZXIgaGF6YXJkIG9yIGNvbW1pdHRpbmcgcm9jayBhbmQgaWNlLiBBY2NsaW1hdGlzYXRpb24gaXMgcGFydCBvZiB0aGUgcGxhbi4iLAogICAgZ2VhcjogIkZ1bGwgYWxwaW5lIGtpdCwgY3JldmFzc2UgcmVzY3VlLCB0ZW50IG9yIGh1dCBjaGFpbiwgYW5kIGEgcGFydG5lciB5b3UgdHJ1c3QuIiwKICB9LAogIGV4cGVydDogewogICAgdGl0bGU6ICJFeHBlZGl0aW9uIG9iamVjdGl2ZXMiLAogICAgc3R5bGU6ICJSZW1vdGUsIHBlcm1pdHRlZCwgcG9saXRpY2FsbHkgcmVzdHJpY3RlZCBvciBleHRyZW1lLWFsdGl0dWRlIHBlYWtzLiBNb250aHMgb2YgcGxhbm5pbmcsIGZpeGVkIGxvZ2lzdGljcyBhbmQgb2Z0ZW4gYSBuYXJyb3cgbGVnYWwgd2luZG93LiIsCiAgICBnZWFyOiAiRXhwZWRpdGlvbiBzZXR1cCwgcGVybWl0cywgbG9jYWwgb3BlcmF0b3Igc3VwcG9ydCwgbWVkaWNhbCBhbmQgY29tbXMgcGxhbi4iLAogIH0sCn07CgpleHBvcnQgZnVuY3Rpb24gcm91dGVPcHRpb25zKHJvd3M6IENvdW50cnlIaWdoUG9pbnRbXSkgewogIGNvbnN0IHByZXNlbnQgPSBuZXcgU2V0PERpZmZpY3VsdHk+KCk7CiAgcm93cy5mb3JFYWNoKChjKSA9PiB7CiAgICBjb25zdCBkID0gY291bnRyeURpZmZpY3VsdHlbYy5jb3VudHJ5XT8uZGlmZmljdWx0eTsKICAgIGlmIChkKSBwcmVzZW50LmFkZChkKTsKICB9KTsKICByZXR1cm4gRElGRklDVUxUWV9PUkRFUi5maWx0ZXIoKGQpID0+IHByZXNlbnQuaGFzKGQpKS5tYXAoKGQpID0+ICh7CiAgICBkaWZmaWN1bHR5OiBkLAogICAgbGFiZWw6IGRpZmZpY3VsdHlDb25maWdbZF0ubGFiZWwsCiAgICBjb2xvcjogZGlmZmljdWx0eUNvbmZpZ1tkXS5jb2xvciwKICAgIGJnQ29sb3I6IGRpZmZpY3VsdHlDb25maWdbZF0uYmdDb2xvciwKICAgIC4uLlJPVVRFX0NPUFlbZF0sCiAgICBwZWFrczogcm93cwogICAgICAuZmlsdGVyKChjKSA9PiBjb3VudHJ5RGlmZmljdWx0eVtjLmNvdW50cnldPy5kaWZmaWN1bHR5ID09PSBkKQogICAgICAuc2xpY2UoMCwgNCkKICAgICAgLm1hcCgoYykgPT4gKHsgY291bnRyeTogYy5jb3VudHJ5LCBwZWFrOiBuYW1lT2YoYykgfSkpLAogIH0pKTsKfQoKZXhwb3J0IGNvbnN0IGZtdCA9IChuOiBudW1iZXIpID0+IG4udG9Mb2NhbGVTdHJpbmcoImVuLVVTIik7Cg==
+/**
+ * Derived detail blocks for guide pages: quick stats, difficulty spread,
+ * best-season windows and typical route options — all computed from the
+ * existing country / peak / difficulty datasets so every guide stays in sync.
+ */
+import type { CountryHighPoint } from "@/data/countries";
+import { countryDifficulty, difficultyConfig, type Difficulty } from "@/data/difficulty";
+import { peakDetails } from "@/data/peak-details";
+import { elevationOf } from "@/data/guides";
+
+export const DIFFICULTY_ORDER: Difficulty[] = ["very_easy", "easy", "moderate", "hard", "expert"];
+
+export interface QuickStats {
+  count: number;
+  climbed: number;
+  highest: { country: string; peak: string; elevation: number } | undefined;
+  lowest: { country: string; peak: string; elevation: number } | undefined;
+  medianElevation: number;
+  totalVertical: number;
+  continents: string[];
+  ranges: { range: string; count: number }[];
+}
+
+const nameOf = (c: CountryHighPoint) => peakDetails[c.country]?.peak ?? c.highPoint;
+
+export function quickStats(rows: CountryHighPoint[]): QuickStats {
+  const withElev = rows
+    .map((c) => ({ country: c.country, peak: nameOf(c), elevation: elevationOf(c) }))
+    .filter((r) => r.elevation > 0)
+    .sort((a, b) => b.elevation - a.elevation);
+
+  const rangeCounts = new Map<string, number>();
+  rows.forEach((c) => {
+    const range = peakDetails[c.country]?.range;
+    if (!range) return;
+    rangeCounts.set(range, (rangeCounts.get(range) ?? 0) + 1);
+  });
+
+  const mid = withElev.length ? withElev[Math.floor(withElev.length / 2)]!.elevation : 0;
+
+  return {
+    count: rows.length,
+    climbed: rows.filter((c) => (c.status === "climbed" || c.status === "legal_high_point") && c.unMember !== false).length,
+    highest: withElev[0],
+    lowest: withElev[withElev.length - 1],
+    medianElevation: mid,
+    totalVertical: withElev.reduce((sum, r) => sum + r.elevation, 0),
+    continents: [...new Set(rows.map((c) => c.continent))].sort(),
+    ranges: [...rangeCounts.entries()]
+      .map(([range, count]) => ({ range, count }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 5),
+  };
+}
+
+export function difficultyBreakdown(rows: CountryHighPoint[]) {
+  const counts = new Map<Difficulty, number>();
+  rows.forEach((c) => {
+    const d = countryDifficulty[c.country]?.difficulty;
+    if (d) counts.set(d, (counts.get(d) ?? 0) + 1);
+  });
+  const total = [...counts.values()].reduce((a, b) => a + b, 0);
+  return DIFFICULTY_ORDER.filter((d) => counts.has(d)).map((d) => ({
+    difficulty: d,
+    label: difficultyConfig[d].label,
+    color: difficultyConfig[d].color,
+    bgColor: difficultyConfig[d].bgColor,
+    count: counts.get(d)!,
+    share: total ? Math.round(((counts.get(d)! / total) * 100)) : 0,
+    examples: rows
+      .filter((c) => countryDifficulty[c.country]?.difficulty === d)
+      .slice(0, 3)
+      .map((c) => `${nameOf(c)} (${c.country})`),
+  }));
+}
+
+type SeasonBand = "northern" | "tropical" | "southern" | "polar";
+
+const bandOf = (c: CountryHighPoint): SeasonBand => {
+  const lat = peakDetails[c.country]?.coordinates.lat;
+  if (lat === undefined) return c.continent === "Oceania" || c.continent === "South America" ? "southern" : "northern";
+  if (lat <= -60) return "polar";
+  if (lat >= 23.5) return "northern";
+  if (lat <= -23.5) return "southern";
+  return "tropical";
+};
+
+const SEASON_COPY: Record<SeasonBand, { window: string; note: string }> = {
+  northern: {
+    window: "June – September",
+    note: "Northern-hemisphere summer: stable high pressure, melted-out approaches and long daylight. Shoulder weeks in May and October mean snow on the upper slopes.",
+  },
+  southern: {
+    window: "December – March",
+    note: "Southern-hemisphere summer. Expect the reverse calendar from Europe — the Andes and Oceania peaks come into condition when the Alps close out.",
+  },
+  tropical: {
+    window: "Year-round, driest in the local dry season",
+    note: "Near the equator temperature barely shifts; rainfall decides. Aim for the dry months and start before dawn to beat afternoon convection.",
+  },
+  polar: {
+    window: "November – January",
+    note: "Antarctic season only. Flights operate in the austral summer window and everything is logistics-driven.",
+  },
+};
+
+export function seasonWindows(rows: CountryHighPoint[]) {
+  const counts = new Map<SeasonBand, number>();
+  rows.forEach((c) => {
+    const b = bandOf(c);
+    counts.set(b, (counts.get(b) ?? 0) + 1);
+  });
+  return (["northern", "southern", "tropical", "polar"] as SeasonBand[])
+    .filter((b) => counts.has(b))
+    .map((b) => ({ band: b, count: counts.get(b)!, ...SEASON_COPY[b] }))
+    .sort((a, b) => b.count - a.count);
+}
+
+const ROUTE_COPY: Record<Difficulty, { title: string; style: string; gear: string }> = {
+  very_easy: {
+    title: "Walk-ups and drive-ups",
+    style: "Marked trail, road or short forest walk. Under two hours for most people, no navigation problems.",
+    gear: "Trainers or light boots, water, a phone map. Nothing technical.",
+  },
+  easy: {
+    title: "Hiking routes",
+    style: "Long day hikes on paths or easy scree, occasional hands-on scrambling steps but no exposure that needs a rope.",
+    gear: "Boots, poles, layers, headtorch for an early start.",
+  },
+  moderate: {
+    title: "Scrambles and glacier walks",
+    style: "Sustained scrambling, via ferrata sections or straightforward glacier travel. Route-finding matters and afternoon weather forces early starts.",
+    gear: "Helmet, harness, crampons and axe where glaciated; rope for the exposed steps.",
+  },
+  hard: {
+    title: "Alpine routes",
+    style: "Multi-day expeditions, high altitude, real glacier hazard or committing rock and ice. Acclimatisation is part of the plan.",
+    gear: "Full alpine kit, crevasse rescue, tent or hut chain, and a partner you trust.",
+  },
+  expert: {
+    title: "Expedition objectives",
+    style: "Remote, permitted, politically restricted or extreme-altitude peaks. Months of planning, fixed logistics and often a narrow legal window.",
+    gear: "Expedition setup, permits, local operator support, medical and comms plan.",
+  },
+};
+
+export function routeOptions(rows: CountryHighPoint[]) {
+  const present = new Set<Difficulty>();
+  rows.forEach((c) => {
+    const d = countryDifficulty[c.country]?.difficulty;
+    if (d) present.add(d);
+  });
+  return DIFFICULTY_ORDER.filter((d) => present.has(d)).map((d) => ({
+    difficulty: d,
+    label: difficultyConfig[d].label,
+    color: difficultyConfig[d].color,
+    bgColor: difficultyConfig[d].bgColor,
+    ...ROUTE_COPY[d],
+    peaks: rows
+      .filter((c) => countryDifficulty[c.country]?.difficulty === d)
+      .slice(0, 4)
+      .map((c) => ({ country: c.country, peak: nameOf(c) })),
+  }));
+}
+
+export const fmt = (n: number) => n.toLocaleString("en-US");

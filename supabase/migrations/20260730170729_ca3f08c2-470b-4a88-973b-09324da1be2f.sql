@@ -1,1 +1,7 @@
-RFJPUCBQT0xJQ1kgSUYgRVhJU1RTICJZb3VUdWJlIGNsaW1icyBhcmUgcHVibGljbHkgcmVhZGFibGUiIE9OIHB1YmxpYy55b3V0dWJlX2NsaW1iczsKCkNSRUFURSBQT0xJQ1kgIkNvbmZpcm1lZCB5b3V0dWJlIGNsaW1icyBhcmUgcHVibGljbHkgcmVhZGFibGUiCk9OIHB1YmxpYy55b3V0dWJlX2NsaW1icwpGT1IgU0VMRUNUClRPIGFub24sIGF1dGhlbnRpY2F0ZWQKVVNJTkcgKHN0YXR1cyA9ICdjb25maXJtZWQnKTs=
+DROP POLICY IF EXISTS "YouTube climbs are publicly readable" ON public.youtube_climbs;
+
+CREATE POLICY "Confirmed youtube climbs are publicly readable"
+ON public.youtube_climbs
+FOR SELECT
+TO anon, authenticated
+USING (status = 'confirmed');

@@ -1,1 +1,121 @@
-aW1wb3J0IHsgU2VhcmNoLCBYIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBTZWxlY3QsCiAgU2VsZWN0Q29udGVudCwKICBTZWxlY3RJdGVtLAogIFNlbGVjdFRyaWdnZXIsCiAgU2VsZWN0VmFsdWUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NlbGVjdCI7CmltcG9ydCBTb3J0U2VsZWN0IGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvU29ydFNlbGVjdCI7CmltcG9ydCB7IGFzY2VudFNvcnRPcHRpb25zIH0gZnJvbSAiQC9saWIvc29ydGluZyI7CgpleHBvcnQgaW50ZXJmYWNlIEFzY2VudEZpbHRlclN0YXRlIHsKICBxdWVyeTogc3RyaW5nOwogIG1lbWJlcjogc3RyaW5nOwogIHR5cGU6IHN0cmluZzsKICB5ZWFyOiBzdHJpbmc7CiAgc29ydDogc3RyaW5nOwp9CgpleHBvcnQgY29uc3QgZW1wdHlBc2NlbnRGaWx0ZXJzOiBBc2NlbnRGaWx0ZXJTdGF0ZSA9IHsKICBxdWVyeTogIiIsCiAgbWVtYmVyOiAiYWxsIiwKICB0eXBlOiAiYWxsIiwKICB5ZWFyOiAiYWxsIiwKICBzb3J0OiAiZGF0ZV9kZXNjIiwKfTsKCmludGVyZmFjZSBQcm9wcyB7CiAgdmFsdWU6IEFzY2VudEZpbHRlclN0YXRlOwogIG9uQ2hhbmdlOiAobmV4dDogQXNjZW50RmlsdGVyU3RhdGUpID0+IHZvaWQ7CiAgbWVtYmVyczogeyBpZDogc3RyaW5nOyBuYW1lOiBzdHJpbmcgfVtdOwogIHllYXJzOiBzdHJpbmdbXTsKICByZXN1bHRDb3VudDogbnVtYmVyOwogIHRvdGFsQ291bnQ6IG51bWJlcjsKfQoKLyoqIEZpbHRlciBiYXIgZm9yIHRoZSBhc2NlbnQgbG9nOiB0ZXh0IHNlYXJjaCwgbWVtYmVyLCBwZWFrIHR5cGUgYW5kIHllYXIuICovCmNvbnN0IEFzY2VudEZpbHRlcnMgPSAoeyB2YWx1ZSwgb25DaGFuZ2UsIG1lbWJlcnMsIHllYXJzLCByZXN1bHRDb3VudCwgdG90YWxDb3VudCB9OiBQcm9wcykgPT4gewogIGNvbnN0IHNldCA9IChwYXRjaDogUGFydGlhbDxBc2NlbnRGaWx0ZXJTdGF0ZT4pID0+IG9uQ2hhbmdlKHsgLi4udmFsdWUsIC4uLnBhdGNoIH0pOwogIGNvbnN0IGRpcnR5ID0KICAgIHZhbHVlLnF1ZXJ5ICE9PSAiIiB8fAogICAgdmFsdWUubWVtYmVyICE9PSAiYWxsIiB8fAogICAgdmFsdWUudHlwZSAhPT0gImFsbCIgfHwKICAgIHZhbHVlLnllYXIgIT09ICJhbGwiIHx8CiAgICB2YWx1ZS5zb3J0ICE9PSAiZGF0ZV9kZXNjIjsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQgcC0zIHNwYWNlLXktMyI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIGZsZXgtMSBtaW4tdy1bMjAwcHhdIj4KICAgICAgICAgIDxTZWFyY2ggY2xhc3NOYW1lPSJ3LTQgaC00IGFic29sdXRlIGxlZnQtMyB0b3AtMS8yIC10cmFuc2xhdGUteS0xLzIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiAvPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIHZhbHVlPXt2YWx1ZS5xdWVyeX0KICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXQoeyBxdWVyeTogZS50YXJnZXQudmFsdWUgfSl9CiAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJTZWFyY2ggcGVhaywgY291bnRyeSBvciByb3V0ZeKApiIKICAgICAgICAgICAgYXJpYS1sYWJlbD0iU2VhcmNoIGFzY2VudHMiCiAgICAgICAgICAgIGNsYXNzTmFtZT0icGwtOSIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxTZWxlY3QgdmFsdWU9e3ZhbHVlLm1lbWJlcn0gb25WYWx1ZUNoYW5nZT17KHYpID0+IHNldCh7IG1lbWJlcjogdiB9KX0+CiAgICAgICAgICA8U2VsZWN0VHJpZ2dlciBjbGFzc05hbWU9InctWzE2MHB4XSIgYXJpYS1sYWJlbD0iRmlsdGVyIGJ5IG1lbWJlciI+CiAgICAgICAgICAgIDxTZWxlY3RWYWx1ZSBwbGFjZWhvbGRlcj0iTWVtYmVyIiAvPgogICAgICAgICAgPC9TZWxlY3RUcmlnZ2VyPgogICAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJhbGwiPkFsbCBtZW1iZXJzPC9TZWxlY3RJdGVtPgogICAgICAgICAgICB7bWVtYmVycy5tYXAoKG0pID0+ICgKICAgICAgICAgICAgICA8U2VsZWN0SXRlbSBrZXk9e20uaWR9IHZhbHVlPXttLmlkfT57bS5uYW1lfTwvU2VsZWN0SXRlbT4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgICAgPC9TZWxlY3Q+CgogICAgICAgIDxTZWxlY3QgdmFsdWU9e3ZhbHVlLnR5cGV9IG9uVmFsdWVDaGFuZ2U9eyh2KSA9PiBzZXQoeyB0eXBlOiB2IH0pfT4KICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyIGNsYXNzTmFtZT0idy1bMTcwcHhdIiBhcmlhLWxhYmVsPSJGaWx0ZXIgYnkgcGVhayB0eXBlIj4KICAgICAgICAgICAgPFNlbGVjdFZhbHVlIHBsYWNlaG9sZGVyPSJQZWFrIHR5cGUiIC8+CiAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICA8U2VsZWN0Q29udGVudD4KICAgICAgICAgICAgPFNlbGVjdEl0ZW0gdmFsdWU9ImFsbCI+QWxsIHBlYWtzPC9TZWxlY3RJdGVtPgogICAgICAgICAgICA8U2VsZWN0SXRlbSB2YWx1ZT0iY291bnRyeV9oaWdocG9pbnQiPkNvdW50cnkgaGlnaCBwb2ludHM8L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgIDxTZWxlY3RJdGVtIHZhbHVlPSJmYW1vdXNfcGVhayI+RmFtb3VzIHBlYWtzPC9TZWxlY3RJdGVtPgogICAgICAgICAgPC9TZWxlY3RDb250ZW50PgogICAgICAgIDwvU2VsZWN0PgoKICAgICAgICA8U2VsZWN0IHZhbHVlPXt2YWx1ZS55ZWFyfSBvblZhbHVlQ2hhbmdlPXsodikgPT4gc2V0KHsgeWVhcjogdiB9KX0+CiAgICAgICAgICA8U2VsZWN0VHJpZ2dlciBjbGFzc05hbWU9InctWzEyMHB4XSIgYXJpYS1sYWJlbD0iRmlsdGVyIGJ5IHllYXIiPgogICAgICAgICAgICA8U2VsZWN0VmFsdWUgcGxhY2Vob2xkZXI9IlllYXIiIC8+CiAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICA8U2VsZWN0Q29udGVudD4KICAgICAgICAgICAgPFNlbGVjdEl0ZW0gdmFsdWU9ImFsbCI+QWxsIHllYXJzPC9TZWxlY3RJdGVtPgogICAgICAgICAgICB7eWVhcnMubWFwKCh5KSA9PiAoCiAgICAgICAgICAgICAgPFNlbGVjdEl0ZW0ga2V5PXt5fSB2YWx1ZT17eX0+e3l9PC9TZWxlY3RJdGVtPgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgICA8L1NlbGVjdD4KCiAgICAgICAgPFNvcnRTZWxlY3QKICAgICAgICAgIHZhbHVlPXt2YWx1ZS5zb3J0fQogICAgICAgICAgb25DaGFuZ2U9eyh2KSA9PiBzZXQoeyBzb3J0OiB2IH0pfQogICAgICAgICAgb3B0aW9ucz17YXNjZW50U29ydE9wdGlvbnN9CiAgICAgICAgICBsYWJlbD0iU29ydCBhc2NlbnRzIgogICAgICAgICAgY2xhc3NOYW1lPSJbJl9idXR0b25dOmgtMTAgWyZfYnV0dG9uXTp3LVsxNzBweF0gWyZfYnV0dG9uXTp0ZXh0LXNtIgogICAgICAgIC8+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIFNob3dpbmcge3Jlc3VsdENvdW50fSBvZiB7dG90YWxDb3VudH0gYXNjZW50cwogICAgICAgIDwvcD4KICAgICAgICB7ZGlydHkgJiYgKAogICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0ic20iIG9uQ2xpY2s9eygpID0+IG9uQ2hhbmdlKGVtcHR5QXNjZW50RmlsdGVycyl9PgogICAgICAgICAgICA8WCBjbGFzc05hbWU9InctMy41IGgtMy41IG1yLTEiIC8+IENsZWFyCiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICApfQogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBBc2NlbnRGaWx0ZXJzOwo=
+import { Search, X } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import SortSelect from "@/components/community/SortSelect";
+import { ascentSortOptions } from "@/lib/sorting";
+
+export interface AscentFilterState {
+  query: string;
+  member: string;
+  type: string;
+  year: string;
+  sort: string;
+}
+
+export const emptyAscentFilters: AscentFilterState = {
+  query: "",
+  member: "all",
+  type: "all",
+  year: "all",
+  sort: "date_desc",
+};
+
+interface Props {
+  value: AscentFilterState;
+  onChange: (next: AscentFilterState) => void;
+  members: { id: string; name: string }[];
+  years: string[];
+  resultCount: number;
+  totalCount: number;
+}
+
+/** Filter bar for the ascent log: text search, member, peak type and year. */
+const AscentFilters = ({ value, onChange, members, years, resultCount, totalCount }: Props) => {
+  const set = (patch: Partial<AscentFilterState>) => onChange({ ...value, ...patch });
+  const dirty =
+    value.query !== "" ||
+    value.member !== "all" ||
+    value.type !== "all" ||
+    value.year !== "all" ||
+    value.sort !== "date_desc";
+
+  return (
+    <div className="rounded-lg border border-border bg-card p-3 space-y-3">
+      <div className="flex flex-wrap gap-2">
+        <div className="relative flex-1 min-w-[200px]">
+          <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground" />
+          <Input
+            value={value.query}
+            onChange={(e) => set({ query: e.target.value })}
+            placeholder="Search peak, country or route…"
+            aria-label="Search ascents"
+            className="pl-9"
+          />
+        </div>
+
+        <Select value={value.member} onValueChange={(v) => set({ member: v })}>
+          <SelectTrigger className="w-[160px]" aria-label="Filter by member">
+            <SelectValue placeholder="Member" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="all">All members</SelectItem>
+            {members.map((m) => (
+              <SelectItem key={m.id} value={m.id}>{m.name}</SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
+
+        <Select value={value.type} onValueChange={(v) => set({ type: v })}>
+          <SelectTrigger className="w-[170px]" aria-label="Filter by peak type">
+            <SelectValue placeholder="Peak type" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="all">All peaks</SelectItem>
+            <SelectItem value="country_highpoint">Country high points</SelectItem>
+            <SelectItem value="famous_peak">Famous peaks</SelectItem>
+          </SelectContent>
+        </Select>
+
+        <Select value={value.year} onValueChange={(v) => set({ year: v })}>
+          <SelectTrigger className="w-[120px]" aria-label="Filter by year">
+            <SelectValue placeholder="Year" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="all">All years</SelectItem>
+            {years.map((y) => (
+              <SelectItem key={y} value={y}>{y}</SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
+
+        <SortSelect
+          value={value.sort}
+          onChange={(v) => set({ sort: v })}
+          options={ascentSortOptions}
+          label="Sort ascents"
+          className="[&_button]:h-10 [&_button]:w-[170px] [&_button]:text-sm"
+        />
+      </div>
+
+      <div className="flex items-center gap-3">
+        <p className="text-xs text-muted-foreground">
+          Showing {resultCount} of {totalCount} ascents
+        </p>
+        {dirty && (
+          <Button variant="ghost" size="sm" onClick={() => onChange(emptyAscentFilters)}>
+            <X className="w-3.5 h-3.5 mr-1" /> Clear
+          </Button>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default AscentFilters;

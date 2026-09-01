@@ -1,1 +1,83 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvaG9va3MvdXNlQXV0aCI7Cgpjb25zdCBQQUdFX1NJWkUgPSAxMjsKCmV4cG9ydCBpbnRlcmZhY2UgUHJvZmlsZVZpc2l0IHsKICB2aWV3ZXJfaWQ6IHN0cmluZzsKICB1cGRhdGVkX2F0OiBzdHJpbmc7Cn0KCi8qKgogKiBQcm9maWxlIHZpc2l0b3IgbG9nLiBPbmx5IHRoZSBvd25lciBvZiBhIHByb2ZpbGUgY2FuIHJlYWQgaXRzIHZpc2l0cyAoUkxTKSwKICogc28gYHZpc2l0c2AgaXMgYWx3YXlzICJ3aG8gbG9va2VkIGF0ICpteSogcHJvZmlsZSIuCiAqLwpleHBvcnQgY29uc3QgdXNlUHJvZmlsZVZpZXdzID0gKHByb2ZpbGVJZDogc3RyaW5nIHwgdW5kZWZpbmVkKSA9PiB7CiAgY29uc3QgeyB1c2VyIH0gPSB1c2VBdXRoKCk7CiAgY29uc3QgW3Zpc2l0cywgc2V0VmlzaXRzXSA9IHVzZVN0YXRlPFByb2ZpbGVWaXNpdFtdPihbXSk7CiAgY29uc3QgaXNPd25lciA9ICEhdXNlciAmJiAhIXByb2ZpbGVJZCAmJiB1c2VyLmlkID09PSBwcm9maWxlSWQ7CgogIC8qKiBSZWNvcmQgKG9yIHJlZnJlc2gpIHRoZSBzaWduZWQtaW4gbWVtYmVyJ3MgdmlzaXQgdG8gc29tZW9uZSBlbHNlJ3MgcHJvZmlsZS4gKi8KICBjb25zdCByZWNvcmRWaXNpdCA9IHVzZUNhbGxiYWNrKGFzeW5jICgpID0+IHsKICAgIGlmICghdXNlciB8fCAhcHJvZmlsZUlkIHx8IHVzZXIuaWQgPT09IHByb2ZpbGVJZCkgcmV0dXJuOwogICAgYXdhaXQgc3VwYWJhc2UKICAgICAgLmZyb20oInByb2ZpbGVfdmlld3MiKQogICAgICAudXBzZXJ0KAogICAgICAgIHsgcHJvZmlsZV9pZDogcHJvZmlsZUlkLCB2aWV3ZXJfaWQ6IHVzZXIuaWQsIHVwZGF0ZWRfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSB9LAogICAgICAgIHsgb25Db25mbGljdDogInByb2ZpbGVfaWQsdmlld2VyX2lkIiB9LAogICAgICApOwogIH0sIFt1c2VyLCBwcm9maWxlSWRdKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIHZvaWQgcmVjb3JkVmlzaXQoKTsKICB9LCBbcmVjb3JkVmlzaXRdKTsKCiAgY29uc3QgW2hhc01vcmUsIHNldEhhc01vcmVdID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtsb2FkaW5nTW9yZSwgc2V0TG9hZGluZ01vcmVdID0gdXNlU3RhdGUoZmFsc2UpOwoKICBjb25zdCBmZXRjaFBhZ2UgPSB1c2VDYWxsYmFjaygKICAgIGFzeW5jIChmcm9tOiBudW1iZXIpID0+IHsKICAgICAgaWYgKCFwcm9maWxlSWQpIHJldHVybiBbXSBhcyBQcm9maWxlVmlzaXRbXTsKICAgICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAgIC5mcm9tKCJwcm9maWxlX3ZpZXdzIikKICAgICAgICAuc2VsZWN0KCJ2aWV3ZXJfaWQsIHVwZGF0ZWRfYXQiKQogICAgICAgIC5lcSgicHJvZmlsZV9pZCIsIHByb2ZpbGVJZCkKICAgICAgICAub3JkZXIoInVwZGF0ZWRfYXQiLCB7IGFzY2VuZGluZzogZmFsc2UgfSkKICAgICAgICAucmFuZ2UoZnJvbSwgZnJvbSArIFBBR0VfU0laRSAtIDEpOwogICAgICBjb25zdCByb3dzID0gKGRhdGEgPz8gW10pIGFzIFByb2ZpbGVWaXNpdFtdOwogICAgICBzZXRIYXNNb3JlKHJvd3MubGVuZ3RoID09PSBQQUdFX1NJWkUpOwogICAgICByZXR1cm4gcm93czsKICAgIH0sCiAgICBbcHJvZmlsZUlkXSwKICApOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKCFpc093bmVyIHx8ICFwcm9maWxlSWQpIHsKICAgICAgc2V0VmlzaXRzKFtdKTsKICAgICAgc2V0SGFzTW9yZShmYWxzZSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGxldCBhY3RpdmUgPSB0cnVlOwogICAgdm9pZCBmZXRjaFBhZ2UoMCkudGhlbigocm93cykgPT4gewogICAgICBpZiAoYWN0aXZlKSBzZXRWaXNpdHMocm93cyk7CiAgICB9KTsKICAgIHJldHVybiAoKSA9PiB7CiAgICAgIGFjdGl2ZSA9IGZhbHNlOwogICAgfTsKICB9LCBbaXNPd25lciwgcHJvZmlsZUlkLCBmZXRjaFBhZ2VdKTsKCiAgLyoqIEFwcGVuZCB0aGUgbmV4dCBwYWdlIG9mIG9sZGVyIHZpc2l0b3JzLiAqLwogIGNvbnN0IGxvYWRNb3JlID0gdXNlQ2FsbGJhY2soYXN5bmMgKCkgPT4gewogICAgaWYgKGxvYWRpbmdNb3JlIHx8ICFoYXNNb3JlKSByZXR1cm47CiAgICBzZXRMb2FkaW5nTW9yZSh0cnVlKTsKICAgIGNvbnN0IHJvd3MgPSBhd2FpdCBmZXRjaFBhZ2UodmlzaXRzLmxlbmd0aCk7CiAgICBzZXRWaXNpdHMoKHByZXYpID0+IHsKICAgICAgY29uc3Qgc2VlbiA9IG5ldyBTZXQocHJldi5tYXAoKHYpID0+IHYudmlld2VyX2lkKSk7CiAgICAgIHJldHVybiBbLi4ucHJldiwgLi4ucm93cy5maWx0ZXIoKHIpID0+ICFzZWVuLmhhcyhyLnZpZXdlcl9pZCkpXTsKICAgIH0pOwogICAgc2V0TG9hZGluZ01vcmUoZmFsc2UpOwogIH0sIFtmZXRjaFBhZ2UsIGhhc01vcmUsIGxvYWRpbmdNb3JlLCB2aXNpdHMubGVuZ3RoXSk7CgogIHJldHVybiB7IHZpc2l0cywgaXNPd25lciwgcmVjb3JkVmlzaXQsIGhhc01vcmUsIGxvYWRpbmdNb3JlLCBsb2FkTW9yZSB9Owp9Owo=
+import { useCallback, useEffect, useState } from "react";
+import { supabase } from "@/integrations/supabase/client";
+import { useAuth } from "@/hooks/useAuth";
+
+const PAGE_SIZE = 12;
+
+export interface ProfileVisit {
+  viewer_id: string;
+  updated_at: string;
+}
+
+/**
+ * Profile visitor log. Only the owner of a profile can read its visits (RLS),
+ * so `visits` is always "who looked at *my* profile".
+ */
+export const useProfileViews = (profileId: string | undefined) => {
+  const { user } = useAuth();
+  const [visits, setVisits] = useState<ProfileVisit[]>([]);
+  const isOwner = !!user && !!profileId && user.id === profileId;
+
+  /** Record (or refresh) the signed-in member's visit to someone else's profile. */
+  const recordVisit = useCallback(async () => {
+    if (!user || !profileId || user.id === profileId) return;
+    await supabase
+      .from("profile_views")
+      .upsert(
+        { profile_id: profileId, viewer_id: user.id, updated_at: new Date().toISOString() },
+        { onConflict: "profile_id,viewer_id" },
+      );
+  }, [user, profileId]);
+
+  useEffect(() => {
+    void recordVisit();
+  }, [recordVisit]);
+
+  const [hasMore, setHasMore] = useState(false);
+  const [loadingMore, setLoadingMore] = useState(false);
+
+  const fetchPage = useCallback(
+    async (from: number) => {
+      if (!profileId) return [] as ProfileVisit[];
+      const { data } = await supabase
+        .from("profile_views")
+        .select("viewer_id, updated_at")
+        .eq("profile_id", profileId)
+        .order("updated_at", { ascending: false })
+        .range(from, from + PAGE_SIZE - 1);
+      const rows = (data ?? []) as ProfileVisit[];
+      setHasMore(rows.length === PAGE_SIZE);
+      return rows;
+    },
+    [profileId],
+  );
+
+  useEffect(() => {
+    if (!isOwner || !profileId) {
+      setVisits([]);
+      setHasMore(false);
+      return;
+    }
+    let active = true;
+    void fetchPage(0).then((rows) => {
+      if (active) setVisits(rows);
+    });
+    return () => {
+      active = false;
+    };
+  }, [isOwner, profileId, fetchPage]);
+
+  /** Append the next page of older visitors. */
+  const loadMore = useCallback(async () => {
+    if (loadingMore || !hasMore) return;
+    setLoadingMore(true);
+    const rows = await fetchPage(visits.length);
+    setVisits((prev) => {
+      const seen = new Set(prev.map((v) => v.viewer_id));
+      return [...prev, ...rows.filter((r) => !seen.has(r.viewer_id))];
+    });
+    setLoadingMore(false);
+  }, [fetchPage, hasMore, loadingMore, visits.length]);
+
+  return { visits, isOwner, recordVisit, hasMore, loadingMore, loadMore };
+};

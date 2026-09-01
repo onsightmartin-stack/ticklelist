@@ -1,1 +1,54 @@
-aW1wb3J0IHR5cGUgeyBDb21tdW5pdHlQYWdlIH0gZnJvbSAiQC9saWIvY29tbXVuaXR5LXBhZ2VzIjsKCmludGVyZmFjZSBQcm9wcyB7CiAgcGFnZXM6IENvbW11bml0eVBhZ2VbXTsKICBpbmRleDogbnVtYmVyOwogIC8qKiBEaXJlY3Rpb24gd2hvc2Ugc3dpcGUgdGhyZXNob2xkIGlzIGFybWVkLCBmb3IgcHJldmlld2luZyB0aGUgdGFyZ2V0IGRvdC4gKi8KICBhcm1lZDogImxlZnQiIHwgInJpZ2h0IiB8IG51bGw7Cn0KCi8qKgogKiBUaW55IHBob25lLXN0eWxlIHBhZ2UgZG90cyBzbyBpdCBpcyBjbGVhciB3aGVyZSB5b3UgYXJlIGluIHRoZSBjb21tdW5pdHkKICogcGFnZSBvcmRlciBhbmQgd2hpY2ggcGFnZSBhIHN3aXBlIHdpbGwgbGFuZCBvbi4KICovCmNvbnN0IFBhZ2VQcm9ncmVzcyA9ICh7IHBhZ2VzLCBpbmRleCwgYXJtZWQgfTogUHJvcHMpID0+IHsKICBpZiAoaW5kZXggPCAwIHx8IHBhZ2VzLmxlbmd0aCA8IDIpIHJldHVybiBudWxsOwoKICBjb25zdCB0YXJnZXQgPQogICAgYXJtZWQgPT09ICJsZWZ0IiA/IGluZGV4ICsgMSA6IGFybWVkID09PSAicmlnaHQiID8gaW5kZXggLSAxIDogaW5kZXg7CiAgY29uc3QgY3VycmVudCA9IHBhZ2VzW2luZGV4XTsKCiAgcmV0dXJuICgKICAgIDxkaXYKICAgICAgY2xhc3NOYW1lPSJtZDpoaWRkZW4gcG9pbnRlci1ldmVudHMtbm9uZSBmaXhlZCBpbnNldC14LTAgYm90dG9tLVs0LjVyZW1dIHotWzU0XSBmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBnYXAtMS41IgogICAgICByb2xlPSJzdGF0dXMiCiAgICAgIGFyaWEtbGl2ZT0icG9saXRlIgogICAgICBhcmlhLWxhYmVsPXtgUGFnZSAke2luZGV4ICsgMX0gb2YgJHtwYWdlcy5sZW5ndGh9OiAke2N1cnJlbnQ/LmxhYmVsID8/ICIifWB9CiAgICA+CiAgICAgIDxzcGFuIGNsYXNzTmFtZT0icm91bmRlZC1mdWxsIGJnLWNhcmQvODAgcHgtMiBweS0wLjUgdGV4dC1bOXB4XSB1cHBlcmNhc2UgdHJhY2tpbmctWzAuMmVtXSB0ZXh0LW11dGVkLWZvcmVncm91bmQgYmFja2Ryb3AtYmx1ciI+CiAgICAgICAge2luZGV4ICsgMX0gLyB7cGFnZXMubGVuZ3RofQogICAgICA8L3NwYW4+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHJvdW5kZWQtZnVsbCBiZy1jYXJkLzcwIHB4LTIuNSBweS0xLjUgYmFja2Ryb3AtYmx1ciI+CiAgICAgICAge3BhZ2VzLm1hcCgocGFnZSwgaSkgPT4gewogICAgICAgICAgY29uc3QgYWN0aXZlID0gaSA9PT0gaW5kZXg7CiAgICAgICAgICBjb25zdCBpc1RhcmdldCA9IGkgPT09IHRhcmdldCAmJiB0YXJnZXQgIT09IGluZGV4OwogICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICBrZXk9e3BhZ2UudG99CiAgICAgICAgICAgICAgYXJpYS1oaWRkZW49InRydWUiCiAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgcm91bmRlZC1mdWxsIHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTIwMCAkewogICAgICAgICAgICAgICAgYWN0aXZlCiAgICAgICAgICAgICAgICAgID8gImgtMS41IHctNSBiZy1wcmltYXJ5IgogICAgICAgICAgICAgICAgICA6IGlzVGFyZ2V0CiAgICAgICAgICAgICAgICAgICAgPyAiaC0xLjUgdy0zIGJnLXByaW1hcnkvNzAiCiAgICAgICAgICAgICAgICAgICAgOiAiaC0xLjUgdy0xLjUgYmctbXV0ZWQtZm9yZWdyb3VuZC80MCIKICAgICAgICAgICAgICB9YH0KICAgICAgICAgICAgLz4KICAgICAgICAgICk7CiAgICAgICAgfSl9CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IFBhZ2VQcm9ncmVzczsK
+import type { CommunityPage } from "@/lib/community-pages";
+
+interface Props {
+  pages: CommunityPage[];
+  index: number;
+  /** Direction whose swipe threshold is armed, for previewing the target dot. */
+  armed: "left" | "right" | null;
+}
+
+/**
+ * Tiny phone-style page dots so it is clear where you are in the community
+ * page order and which page a swipe will land on.
+ */
+const PageProgress = ({ pages, index, armed }: Props) => {
+  if (index < 0 || pages.length < 2) return null;
+
+  const target =
+    armed === "left" ? index + 1 : armed === "right" ? index - 1 : index;
+  const current = pages[index];
+
+  return (
+    <div
+      className="md:hidden pointer-events-none fixed inset-x-0 bottom-[4.5rem] z-[54] flex flex-col items-center gap-1.5"
+      role="status"
+      aria-live="polite"
+      aria-label={`Page ${index + 1} of ${pages.length}: ${current?.label ?? ""}`}
+    >
+      <span className="rounded-full bg-card/80 px-2 py-0.5 text-[9px] uppercase tracking-[0.2em] text-muted-foreground backdrop-blur">
+        {index + 1} / {pages.length}
+      </span>
+      <div className="flex items-center gap-1.5 rounded-full bg-card/70 px-2.5 py-1.5 backdrop-blur">
+        {pages.map((page, i) => {
+          const active = i === index;
+          const isTarget = i === target && target !== index;
+          return (
+            <span
+              key={page.to}
+              aria-hidden="true"
+              className={`rounded-full transition-all duration-200 ${
+                active
+                  ? "h-1.5 w-5 bg-primary"
+                  : isTarget
+                    ? "h-1.5 w-3 bg-primary/70"
+                    : "h-1.5 w-1.5 bg-muted-foreground/40"
+              }`}
+            />
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+export default PageProgress;

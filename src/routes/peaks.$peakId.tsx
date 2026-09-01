@@ -1,1 +1,72 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBXb3JsZFBlYWtQYWdlLCB7IGNvdW50cnlOYW1lIH0gZnJvbSAiQC9wYWdlcy9Xb3JsZFBlYWtQYWdlIjsKaW1wb3J0IHsgZ2V0V29ybGRQZWFrLCBnZXRQZWFrQXNjZW50cyB9IGZyb20gIkAvbGliL3BlYWstZGV0YWlsLmZ1bmN0aW9ucyI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9wZWFrcy8kcGVha0lkIikoewogIGxvYWRlcjogYXN5bmMgKHsgcGFyYW1zIH0pID0+IHsKICAgIGNvbnN0IGlkID0gTnVtYmVyKHBhcmFtcy5wZWFrSWQpOwogICAgaWYgKCFOdW1iZXIuaXNGaW5pdGUoaWQpIHx8IGlkIDw9IDApIHJldHVybiB7IHBlYWs6IG51bGwsIGFzY2VudHM6IFtdIH07CiAgICB0cnkgewogICAgICBjb25zdCBwZWFrID0gYXdhaXQgZ2V0V29ybGRQZWFrKHsgZGF0YTogeyBpZCB9IH0pOwogICAgICBpZiAoIXBlYWspIHJldHVybiB7IHBlYWs6IG51bGwsIGFzY2VudHM6IFtdIH07CiAgICAgIGNvbnN0IGFzY2VudHMgPSBhd2FpdCBnZXRQZWFrQXNjZW50cyh7IGRhdGE6IHsgbmFtZTogcGVhay5uYW1lIH0gfSkuY2F0Y2goKCkgPT4gW10pOwogICAgICByZXR1cm4geyBwZWFrLCBhc2NlbnRzIH07CiAgICB9IGNhdGNoIHsKICAgICAgcmV0dXJuIHsgcGVhazogbnVsbCwgYXNjZW50czogW10gfTsKICAgIH0KICB9LAogIGhlYWQ6ICh7IGxvYWRlckRhdGEgfSkgPT4gewogICAgY29uc3QgcGVhayA9IGxvYWRlckRhdGE/LnBlYWs7CiAgICBpZiAoIXBlYWspIHsKICAgICAgcmV0dXJuIHsKICAgICAgICBtZXRhOiBbCiAgICAgICAgICB7IHRpdGxlOiAiUGVhayBub3QgZm91bmQgfCBUaWNrbGVsaXN0IiB9LAogICAgICAgICAgeyBuYW1lOiAicm9ib3RzIiwgY29udGVudDogIm5vaW5kZXgiIH0sCiAgICAgICAgXSwKICAgICAgfTsKICAgIH0KICAgIGNvbnN0IGNvdW50cnkgPSBjb3VudHJ5TmFtZShwZWFrLmNvdW50cnlDb2RlKTsKICAgIGNvbnN0IHRpdGxlID0gYCR7cGVhay5uYW1lfSR7cGVhay5lbGV2YXRpb24gPyBgICgke3BlYWsuZWxldmF0aW9ufSBtKWAgOiAiIn0gfCBUaWNrbGVsaXN0YDsKICAgIGNvbnN0IGRlc2NyaXB0aW9uID0gYCR7cGVhay5uYW1lfSR7Y291bnRyeSA/IGAgaW4gJHtjb3VudHJ5fWAgOiAiIn0kewogICAgICBwZWFrLmVsZXZhdGlvbiA/IGAgcmlzZXMgdG8gJHtwZWFrLmVsZXZhdGlvbn0gbWAgOiAiIgogICAgfS4gRWxldmF0aW9uLCBwcm9taW5lbmNlLCBjb29yZGluYXRlcyBhbmQgbWFwIHByZXZpZXcuYDsKICAgIGNvbnN0IHVybCA9IGBodHRwczovL3RpY2tsZWxpc3Qub3JnL3BlYWtzLyR7cGVhay5pZH1gOwogICAgcmV0dXJuIHsKICAgICAgbWV0YTogWwogICAgICAgIHsgdGl0bGU6IHRpdGxlLmxlbmd0aCA+IDYwID8gYCR7cGVhay5uYW1lfSB8IFRpY2tsZWxpc3RgIDogdGl0bGUgfSwKICAgICAgICB7IG5hbWU6ICJkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6IGRlc2NyaXB0aW9uLnNsaWNlKDAsIDE1OCkgfSwKICAgICAgICB7IHByb3BlcnR5OiAib2c6dGl0bGUiLCBjb250ZW50OiB0aXRsZSB9LAogICAgICAgIHsgcHJvcGVydHk6ICJvZzpkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6IGRlc2NyaXB0aW9uLnNsaWNlKDAsIDE1OCkgfSwKICAgICAgICB7IHByb3BlcnR5OiAib2c6dHlwZSIsIGNvbnRlbnQ6ICJhcnRpY2xlIiB9LAogICAgICAgIHsgcHJvcGVydHk6ICJvZzp1cmwiLCBjb250ZW50OiB1cmwgfSwKICAgICAgICB7IG5hbWU6ICJ0d2l0dGVyOmNhcmQiLCBjb250ZW50OiAic3VtbWFyeSIgfSwKICAgICAgXSwKICAgICAgbGlua3M6IFt7IHJlbDogImNhbm9uaWNhbCIsIGhyZWY6IHVybCB9XSwKICAgICAgc2NyaXB0czogWwogICAgICAgIHsKICAgICAgICAgIHR5cGU6ICJhcHBsaWNhdGlvbi9sZCtqc29uIiwKICAgICAgICAgIGNoaWxkcmVuOiBKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgICAgICJAY29udGV4dCI6ICJodHRwczovL3NjaGVtYS5vcmciLAogICAgICAgICAgICAiQHR5cGUiOiAiTW91bnRhaW4iLAogICAgICAgICAgICBuYW1lOiBwZWFrLm5hbWUsCiAgICAgICAgICAgIHVybCwKICAgICAgICAgICAgLi4uKHBlYWsuZWxldmF0aW9uCiAgICAgICAgICAgICAgPyB7IGVsZXZhdGlvbjogeyAiQHR5cGUiOiAiUXVhbnRpdGF0aXZlVmFsdWUiLCB2YWx1ZTogcGVhay5lbGV2YXRpb24sIHVuaXRDb2RlOiAiTVRSIiB9IH0KICAgICAgICAgICAgICA6IHt9KSwKICAgICAgICAgICAgLi4uKHBlYWsubGF0ICE9IG51bGwgJiYgcGVhay5sb24gIT0gbnVsbAogICAgICAgICAgICAgID8geyBnZW86IHsgIkB0eXBlIjogIkdlb0Nvb3JkaW5hdGVzIiwgbGF0aXR1ZGU6IHBlYWsubGF0LCBsb25naXR1ZGU6IHBlYWsubG9uIH0gfQogICAgICAgICAgICAgIDoge30pLAogICAgICAgICAgICAuLi4oY291bnRyeSA/IHsgYWRkcmVzczogeyAiQHR5cGUiOiAiUG9zdGFsQWRkcmVzcyIsIGFkZHJlc3NDb3VudHJ5OiBjb3VudHJ5IH0gfSA6IHt9KSwKICAgICAgICAgIH0pLAogICAgICAgIH0sCiAgICAgIF0sCiAgICB9OwogIH0sCgogIGNvbXBvbmVudDogUGVha0RldGFpbFJvdXRlLAp9KTsKCmZ1bmN0aW9uIFBlYWtEZXRhaWxSb3V0ZSgpIHsKICBjb25zdCB7IHBlYWssIGFzY2VudHMgfSA9IFJvdXRlLnVzZUxvYWRlckRhdGEoKTsKICByZXR1cm4gPFdvcmxkUGVha1BhZ2UgcGVhaz17cGVha30gYXNjZW50cz17YXNjZW50c30gLz47Cn0K
+import { createFileRoute } from "@tanstack/react-router";
+import WorldPeakPage, { countryName } from "@/pages/WorldPeakPage";
+import { getWorldPeak, getPeakAscents } from "@/lib/peak-detail.functions";
+
+export const Route = createFileRoute("/peaks/$peakId")({
+  loader: async ({ params }) => {
+    const id = Number(params.peakId);
+    if (!Number.isFinite(id) || id <= 0) return { peak: null, ascents: [] };
+    try {
+      const peak = await getWorldPeak({ data: { id } });
+      if (!peak) return { peak: null, ascents: [] };
+      const ascents = await getPeakAscents({ data: { name: peak.name } }).catch(() => []);
+      return { peak, ascents };
+    } catch {
+      return { peak: null, ascents: [] };
+    }
+  },
+  head: ({ loaderData }) => {
+    const peak = loaderData?.peak;
+    if (!peak) {
+      return {
+        meta: [
+          { title: "Peak not found | Ticklelist" },
+          { name: "robots", content: "noindex" },
+        ],
+      };
+    }
+    const country = countryName(peak.countryCode);
+    const title = `${peak.name}${peak.elevation ? ` (${peak.elevation} m)` : ""} | Ticklelist`;
+    const description = `${peak.name}${country ? ` in ${country}` : ""}${
+      peak.elevation ? ` rises to ${peak.elevation} m` : ""
+    }. Elevation, prominence, coordinates and map preview.`;
+    const url = `https://ticklelist.org/peaks/${peak.id}`;
+    return {
+      meta: [
+        { title: title.length > 60 ? `${peak.name} | Ticklelist` : title },
+        { name: "description", content: description.slice(0, 158) },
+        { property: "og:title", content: title },
+        { property: "og:description", content: description.slice(0, 158) },
+        { property: "og:type", content: "article" },
+        { property: "og:url", content: url },
+        { name: "twitter:card", content: "summary" },
+      ],
+      links: [{ rel: "canonical", href: url }],
+      scripts: [
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Mountain",
+            name: peak.name,
+            url,
+            ...(peak.elevation
+              ? { elevation: { "@type": "QuantitativeValue", value: peak.elevation, unitCode: "MTR" } }
+              : {}),
+            ...(peak.lat != null && peak.lon != null
+              ? { geo: { "@type": "GeoCoordinates", latitude: peak.lat, longitude: peak.lon } }
+              : {}),
+            ...(country ? { address: { "@type": "PostalAddress", addressCountry: country } } : {}),
+          }),
+        },
+      ],
+    };
+  },
+
+  component: PeakDetailRoute,
+});
+
+function PeakDetailRoute() {
+  const { peak, ascents } = Route.useLoaderData();
+  return <WorldPeakPage peak={peak} ascents={ascents} />;
+}

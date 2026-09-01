@@ -1,1 +1,86 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAL2hvb2tzL3VzZS10b2FzdCI7CmltcG9ydCB7IHVzZUF1dGggfSBmcm9tICJAL2hvb2tzL3VzZUF1dGgiOwppbXBvcnQgeyBub3RpZnkgfSBmcm9tICJAL2xpYi9ub3RpZnkiOwoKLyoqCiAqIFRyYWNrcyB3aG8gdGhlIHNpZ25lZC1pbiBjbGltYmVyIGZvbGxvd3MsIHBsdXMgZm9sbG93ZXIgY291bnRzIGZvciBldmVyeW9uZS4KICovCmV4cG9ydCBjb25zdCB1c2VGb2xsb3dzID0gKCkgPT4gewogIGNvbnN0IHsgdXNlciB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IFtmb2xsb3dpbmcsIHNldEZvbGxvd2luZ10gPSB1c2VTdGF0ZTxTZXQ8c3RyaW5nPj4obmV3IFNldCgpKTsKICBjb25zdCBbZm9sbG93ZXJDb3VudHMsIHNldEZvbGxvd2VyQ291bnRzXSA9IHVzZVN0YXRlPFJlY29yZDxzdHJpbmcsIG51bWJlcj4+KHt9KTsKICBjb25zdCBbZm9sbG93ZXJzLCBzZXRGb2xsb3dlcnNdID0gdXNlU3RhdGU8U2V0PHN0cmluZz4+KG5ldyBTZXQoKSk7CiAgY29uc3QgW2xvYWRpbmcsIHNldExvYWRpbmddID0gdXNlU3RhdGUodHJ1ZSk7CgogIGNvbnN0IGxvYWQgPSB1c2VDYWxsYmFjayhhc3luYyAoKSA9PiB7CiAgICBzZXRMb2FkaW5nKHRydWUpOwogICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCJmb2xsb3dzIikuc2VsZWN0KCJmb2xsb3dlcl9pZCwgZm9sbG93aW5nX2lkIik7CiAgICBjb25zdCByb3dzID0gZGF0YSA/PyBbXTsKCiAgICBjb25zdCBjb3VudHM6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7fTsKICAgIGNvbnN0IG1pbmUgPSBuZXcgU2V0PHN0cmluZz4oKTsKICAgIGNvbnN0IHRoZWlycyA9IG5ldyBTZXQ8c3RyaW5nPigpOwogICAgZm9yIChjb25zdCByIG9mIHJvd3MpIHsKICAgICAgY291bnRzW3IuZm9sbG93aW5nX2lkXSA9IChjb3VudHNbci5mb2xsb3dpbmdfaWRdID8/IDApICsgMTsKICAgICAgaWYgKHVzZXIgJiYgci5mb2xsb3dlcl9pZCA9PT0gdXNlci5pZCkgbWluZS5hZGQoci5mb2xsb3dpbmdfaWQpOwogICAgICBpZiAodXNlciAmJiByLmZvbGxvd2luZ19pZCA9PT0gdXNlci5pZCkgdGhlaXJzLmFkZChyLmZvbGxvd2VyX2lkKTsKICAgIH0KICAgIHNldEZvbGxvd2VyQ291bnRzKGNvdW50cyk7CiAgICBzZXRGb2xsb3dpbmcobWluZSk7CiAgICBzZXRGb2xsb3dlcnModGhlaXJzKTsKICAgIHNldExvYWRpbmcoZmFsc2UpOwogIH0sIFt1c2VyXSk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBsb2FkKCk7CiAgfSwgW2xvYWRdKTsKCiAgY29uc3QgdG9nZ2xlRm9sbG93ID0gdXNlQ2FsbGJhY2soCiAgICBhc3luYyAodGFyZ2V0SWQ6IHN0cmluZykgPT4gewogICAgICBpZiAoIXVzZXIpIHsKICAgICAgICB0b2FzdCh7IHRpdGxlOiAiU2lnbiBpbiB0byBmb2xsb3cgY2xpbWJlcnMiIH0pOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBpZiAodGFyZ2V0SWQgPT09IHVzZXIuaWQpIHJldHVybjsKCiAgICAgIGNvbnN0IGlzRm9sbG93aW5nID0gZm9sbG93aW5nLmhhcyh0YXJnZXRJZCk7CgogICAgICAvLyBPcHRpbWlzdGljIHVwZGF0ZSBzbyB0aGUgYnV0dG9uIHJlYWN0cyBpbnN0YW50bHkuCiAgICAgIHNldEZvbGxvd2luZygocHJldikgPT4gewogICAgICAgIGNvbnN0IG5leHQgPSBuZXcgU2V0KHByZXYpOwogICAgICAgIGlzRm9sbG93aW5nID8gbmV4dC5kZWxldGUodGFyZ2V0SWQpIDogbmV4dC5hZGQodGFyZ2V0SWQpOwogICAgICAgIHJldHVybiBuZXh0OwogICAgICB9KTsKICAgICAgc2V0Rm9sbG93ZXJDb3VudHMoKHByZXYpID0+ICh7CiAgICAgICAgLi4ucHJldiwKICAgICAgICBbdGFyZ2V0SWRdOiBNYXRoLm1heCgwLCAocHJldlt0YXJnZXRJZF0gPz8gMCkgKyAoaXNGb2xsb3dpbmcgPyAtMSA6IDEpKSwKICAgICAgfSkpOwoKICAgICAgY29uc3QgeyBlcnJvciB9ID0gaXNGb2xsb3dpbmcKICAgICAgICA/IGF3YWl0IHN1cGFiYXNlCiAgICAgICAgICAgIC5mcm9tKCJmb2xsb3dzIikKICAgICAgICAgICAgLmRlbGV0ZSgpCiAgICAgICAgICAgIC5lcSgiZm9sbG93ZXJfaWQiLCB1c2VyLmlkKQogICAgICAgICAgICAuZXEoImZvbGxvd2luZ19pZCIsIHRhcmdldElkKQogICAgICAgIDogYXdhaXQgc3VwYWJhc2UuZnJvbSgiZm9sbG93cyIpLmluc2VydCh7IGZvbGxvd2VyX2lkOiB1c2VyLmlkLCBmb2xsb3dpbmdfaWQ6IHRhcmdldElkIH0pOwoKICAgICAgaWYgKGVycm9yKSB7CiAgICAgICAgdG9hc3QoeyB0aXRsZTogIkNvdWxkIG5vdCB1cGRhdGUgZm9sbG93IiwgZGVzY3JpcHRpb246IGVycm9yLm1lc3NhZ2UsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICAgICAgbG9hZCgpOwogICAgICB9IGVsc2UgaWYgKCFpc0ZvbGxvd2luZykgewogICAgICAgIG5vdGlmeSh7CiAgICAgICAgICByZWNpcGllbnRJZDogdGFyZ2V0SWQsCiAgICAgICAgICBhY3RvcklkOiB1c2VyLmlkLAogICAgICAgICAga2luZDogImZvbGxvdyIsCiAgICAgICAgICBib2R5OiAic3RhcnRlZCBmb2xsb3dpbmcgeW91IiwKICAgICAgICAgIGxpbms6IGAvY29tbXVuaXR5L21lbWJlcnMvJHt1c2VyLmlkfWAsCiAgICAgICAgfSk7CiAgICAgIH0KICAgIH0sCiAgICBbdXNlciwgZm9sbG93aW5nLCBsb2FkXSwKICApOwoKICByZXR1cm4geyBmb2xsb3dpbmcsIGZvbGxvd2VycywgZm9sbG93ZXJDb3VudHMsIHRvZ2dsZUZvbGxvdywgbG9hZGluZywgcmVsb2FkOiBsb2FkIH07Cn07Cg==
+import { useCallback, useEffect, useState } from "react";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "@/hooks/use-toast";
+import { useAuth } from "@/hooks/useAuth";
+import { notify } from "@/lib/notify";
+
+/**
+ * Tracks who the signed-in climber follows, plus follower counts for everyone.
+ */
+export const useFollows = () => {
+  const { user } = useAuth();
+  const [following, setFollowing] = useState<Set<string>>(new Set());
+  const [followerCounts, setFollowerCounts] = useState<Record<string, number>>({});
+  const [followers, setFollowers] = useState<Set<string>>(new Set());
+  const [loading, setLoading] = useState(true);
+
+  const load = useCallback(async () => {
+    setLoading(true);
+    const { data } = await supabase.from("follows").select("follower_id, following_id");
+    const rows = data ?? [];
+
+    const counts: Record<string, number> = {};
+    const mine = new Set<string>();
+    const theirs = new Set<string>();
+    for (const r of rows) {
+      counts[r.following_id] = (counts[r.following_id] ?? 0) + 1;
+      if (user && r.follower_id === user.id) mine.add(r.following_id);
+      if (user && r.following_id === user.id) theirs.add(r.follower_id);
+    }
+    setFollowerCounts(counts);
+    setFollowing(mine);
+    setFollowers(theirs);
+    setLoading(false);
+  }, [user]);
+
+  useEffect(() => {
+    load();
+  }, [load]);
+
+  const toggleFollow = useCallback(
+    async (targetId: string) => {
+      if (!user) {
+        toast({ title: "Sign in to follow climbers" });
+        return;
+      }
+      if (targetId === user.id) return;
+
+      const isFollowing = following.has(targetId);
+
+      // Optimistic update so the button reacts instantly.
+      setFollowing((prev) => {
+        const next = new Set(prev);
+        isFollowing ? next.delete(targetId) : next.add(targetId);
+        return next;
+      });
+      setFollowerCounts((prev) => ({
+        ...prev,
+        [targetId]: Math.max(0, (prev[targetId] ?? 0) + (isFollowing ? -1 : 1)),
+      }));
+
+      const { error } = isFollowing
+        ? await supabase
+            .from("follows")
+            .delete()
+            .eq("follower_id", user.id)
+            .eq("following_id", targetId)
+        : await supabase.from("follows").insert({ follower_id: user.id, following_id: targetId });
+
+      if (error) {
+        toast({ title: "Could not update follow", description: error.message, variant: "destructive" });
+        load();
+      } else if (!isFollowing) {
+        notify({
+          recipientId: targetId,
+          actorId: user.id,
+          kind: "follow",
+          body: "started following you",
+          link: `/community/members/${user.id}`,
+        });
+      }
+    },
+    [user, following, load],
+  );
+
+  return { following, followers, followerCounts, toggleFollow, loading, reload: load };
+};

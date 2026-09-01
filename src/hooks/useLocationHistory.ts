@@ -1,1 +1,23 @@
-aW1wb3J0IHsgdXNlUXVlcnkgfSBmcm9tICJAdGFuc3RhY2svcmVhY3QtcXVlcnkiOwppbXBvcnQgeyBnZXRMb2NhdGlvbiB9IGZyb20gIkAvbGliL2dldC1sb2NhdGlvbi5mdW5jdGlvbnMiOwoKZXhwb3J0IGludGVyZmFjZSBMb2NhdGlvblBvaW50IHsKICBsYXQ6IG51bWJlcjsKICBsbmc6IG51bWJlcjsKICByZWNvcmRlZF9hdDogc3RyaW5nOwp9CgpleHBvcnQgZnVuY3Rpb24gdXNlTG9jYXRpb25IaXN0b3J5KCkgewogIHJldHVybiB1c2VRdWVyeSh7CiAgICBxdWVyeUtleTogWyJsb2NhdGlvbi1oaXN0b3J5Il0sCiAgICBxdWVyeUZuOiBhc3luYyAoKTogUHJvbWlzZTxMb2NhdGlvblBvaW50W10+ID0+IHsKICAgICAgdHJ5IHsKICAgICAgICBjb25zdCBkYXRhID0gYXdhaXQgZ2V0TG9jYXRpb24oKTsKICAgICAgICByZXR1cm4gKGRhdGEucG9pbnRzIGFzIExvY2F0aW9uUG9pbnRbXSkgPz8gW107CiAgICAgIH0gY2F0Y2ggewogICAgICAgIHJldHVybiBbXTsKICAgICAgfQogICAgfSwKICAgIHJlZmV0Y2hJbnRlcnZhbDogMTAwMCAqIDYwICogNjAsCiAgfSk7Cn0K
+import { useQuery } from "@tanstack/react-query";
+import { getLocation } from "@/lib/get-location.functions";
+
+export interface LocationPoint {
+  lat: number;
+  lng: number;
+  recorded_at: string;
+}
+
+export function useLocationHistory() {
+  return useQuery({
+    queryKey: ["location-history"],
+    queryFn: async (): Promise<LocationPoint[]> => {
+      try {
+        const data = await getLocation();
+        return (data.points as LocationPoint[]) ?? [];
+      } catch {
+        return [];
+      }
+    },
+    refetchInterval: 1000 * 60 * 60,
+  });
+}

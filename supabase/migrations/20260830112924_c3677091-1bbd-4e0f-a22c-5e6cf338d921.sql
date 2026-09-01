@@ -1,1 +1,29 @@
-QUxURVIgVEFCTEUgcHVibGljLnBlYWtiYWdnZXJfcGVha3MKICBBREQgQ09MVU1OIElGIE5PVCBFWElTVFMgbGF0IGRvdWJsZSBwcmVjaXNpb24sCiAgQUREIENPTFVNTiBJRiBOT1QgRVhJU1RTIGxvbiBkb3VibGUgcHJlY2lzaW9uLAogIEFERCBDT0xVTU4gSUYgTk9UIEVYSVNUUyBjb29yZHNfc291cmNlIHRleHQsCiAgQUREIENPTFVNTiBJRiBOT1QgRVhJU1RTIGNvb3Jkc19jaGVja2VkX2F0IHRpbWVzdGFtcHR6OwoKLS0gQmFja2ZpbGwgMTogcGVha3MgYWxyZWFkeSBsaW5rZWQgdG8gYSB3b3JsZCBwZWFrIGJ5IFBlYWtiYWdnZXIgaWQKVVBEQVRFIHB1YmxpYy5wZWFrYmFnZ2VyX3BlYWtzIHAKU0VUIGxhdCA9IHcubGF0LCBsb24gPSB3LmxvbiwgY29vcmRzX3NvdXJjZSA9ICd3b3JsZF9wZWFrczpwaWQnLCBjb29yZHNfY2hlY2tlZF9hdCA9IG5vdygpCkZST00gcHVibGljLndvcmxkX3BlYWtzIHcKV0hFUkUgdy5wZWFrYmFnZ2VyX2lkID0gcC5waWQgQU5EIHAubGF0IElTIE5VTEwgQU5EIHcubGF0IElTIE5PVCBOVUxMOwoKLS0gQmFja2ZpbGwgMjogbmFtZSArIGVsZXZhdGlvbiBtYXRjaCAod2l0aGluIDE1IG0pClVQREFURSBwdWJsaWMucGVha2JhZ2dlcl9wZWFrcyBwClNFVCBsYXQgPSBtLmxhdCwgbG9uID0gbS5sb24sIGNvb3Jkc19zb3VyY2UgPSAnd29ybGRfcGVha3M6bmFtZScsIGNvb3Jkc19jaGVja2VkX2F0ID0gbm93KCkKRlJPTSAoCiAgU0VMRUNUIERJU1RJTkNUIE9OIChwMi5waWQpIHAyLnBpZCwgdy5sYXQsIHcubG9uCiAgRlJPTSBwdWJsaWMucGVha2JhZ2dlcl9wZWFrcyBwMgogIEpPSU4gcHVibGljLndvcmxkX3BlYWtzIHcKICAgIE9OIGxvd2VyKHcubmFtZSkgPSBsb3dlcihwMi5uYW1lKQogICBBTkQgYWJzKGNvYWxlc2NlKHcuZWxldmF0aW9uLCAwKSAtIGNvYWxlc2NlKHAyLmVsZXZhdGlvbiwgMCkpIDw9IDE1CiAgV0hFUkUgcDIubGF0IElTIE5VTEwgQU5EIHcubGF0IElTIE5PVCBOVUxMCiAgT1JERVIgQlkgcDIucGlkLCBhYnMoY29hbGVzY2Uody5lbGV2YXRpb24sIDApIC0gY29hbGVzY2UocDIuZWxldmF0aW9uLCAwKSkKKSBtCldIRVJFIG0ucGlkID0gcC5waWQgQU5EIHAubGF0IElTIE5VTEw7CgpDUkVBVEUgSU5ERVggSUYgTk9UIEVYSVNUUyBwZWFrYmFnZ2VyX3BlYWtzX21pc3NpbmdfY29vcmRzX2lkeAogIE9OIHB1YmxpYy5wZWFrYmFnZ2VyX3BlYWtzIChjb29yZHNfY2hlY2tlZF9hdCBOVUxMUyBGSVJTVCkKICBXSEVSRSBsYXQgSVMgTlVMTDs=
+ALTER TABLE public.peakbagger_peaks
+  ADD COLUMN IF NOT EXISTS lat double precision,
+  ADD COLUMN IF NOT EXISTS lon double precision,
+  ADD COLUMN IF NOT EXISTS coords_source text,
+  ADD COLUMN IF NOT EXISTS coords_checked_at timestamptz;
+
+-- Backfill 1: peaks already linked to a world peak by Peakbagger id
+UPDATE public.peakbagger_peaks p
+SET lat = w.lat, lon = w.lon, coords_source = 'world_peaks:pid', coords_checked_at = now()
+FROM public.world_peaks w
+WHERE w.peakbagger_id = p.pid AND p.lat IS NULL AND w.lat IS NOT NULL;
+
+-- Backfill 2: name + elevation match (within 15 m)
+UPDATE public.peakbagger_peaks p
+SET lat = m.lat, lon = m.lon, coords_source = 'world_peaks:name', coords_checked_at = now()
+FROM (
+  SELECT DISTINCT ON (p2.pid) p2.pid, w.lat, w.lon
+  FROM public.peakbagger_peaks p2
+  JOIN public.world_peaks w
+    ON lower(w.name) = lower(p2.name)
+   AND abs(coalesce(w.elevation, 0) - coalesce(p2.elevation, 0)) <= 15
+  WHERE p2.lat IS NULL AND w.lat IS NOT NULL
+  ORDER BY p2.pid, abs(coalesce(w.elevation, 0) - coalesce(p2.elevation, 0))
+) m
+WHERE m.pid = p.pid AND p.lat IS NULL;
+
+CREATE INDEX IF NOT EXISTS peakbagger_peaks_missing_coords_idx
+  ON public.peakbagger_peaks (coords_checked_at NULLS FIRST)
+  WHERE lat IS NULL;

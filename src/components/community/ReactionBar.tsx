@@ -1,1 +1,99 @@
-aW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IFNtaWxlUGx1cyB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CgppbXBvcnQgeyBSRUFDVElPTlMsIHJlYWN0aW9uRW1vamksIHJlYWN0aW9uTGFiZWwsIHR5cGUgUmVhY3Rpb25LZXkgfSBmcm9tICJAL2xpYi9yZWFjdGlvbnMiOwppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIjsKCmludGVyZmFjZSBQcm9wcyB7CiAgLyoqIENvdW50IHBlciByZWFjdGlvbiBrZXkuICovCiAgY291bnRzOiBSZWNvcmQ8c3RyaW5nLCBudW1iZXI+OwogIC8qKiBUaGUgY3VycmVudCBtZW1iZXIncyByZWFjdGlvbiwgaWYgYW55LiAqLwogIG1pbmU6IFJlYWN0aW9uS2V5IHwgbnVsbDsKICBvblJlYWN0OiAoa2V5OiBSZWFjdGlvbktleSB8IG51bGwpID0+IHZvaWQ7CiAgZGlzYWJsZWQ/OiBib29sZWFuOwp9CgovKioKICogRmFjZWJvb2stc3R5bGUgcmVhY3Rpb24gY29udHJvbDogb25lIHRhcCB0b2dnbGVzIGEg8J+RjSwgbG9uZy1wcmVzcy1mcmVlCiAqIHBpY2tlciBvcGVucyB0aGUgZnVsbCBlbW9qaSBzZXQsIGFuZCBleGlzdGluZyByZWFjdGlvbnMgc2hvdyBhcyB0YWxsaWVzLgogKi8KY29uc3QgUmVhY3Rpb25CYXIgPSAoeyBjb3VudHMsIG1pbmUsIG9uUmVhY3QsIGRpc2FibGVkID0gZmFsc2UgfTogUHJvcHMpID0+IHsKICBjb25zdCBbb3Blbiwgc2V0T3Blbl0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgdG90YWwgPSBPYmplY3QudmFsdWVzKGNvdW50cykucmVkdWNlKChhLCBiKSA9PiBhICsgYiwgMCk7CiAgY29uc3QgcHJlc2VudCA9IFJFQUNUSU9OUy5maWx0ZXIoKHIpID0+IChjb3VudHNbci5rZXldID8/IDApID4gMCk7CgogIGNvbnN0IHBpY2sgPSAoa2V5OiBSZWFjdGlvbktleSkgPT4gewogICAgc2V0T3BlbihmYWxzZSk7CiAgICBvblJlYWN0KG1pbmUgPT09IGtleSA/IG51bGwgOiBrZXkpOwogIH07CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSI+CiAgICAgIDxidXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgZGlzYWJsZWQ9e2Rpc2FibGVkfQogICAgICAgIG9uQ2xpY2s9eygpID0+IChtaW5lID8gb25SZWFjdChudWxsKSA6IG9uUmVhY3QoImxpa2UiKSl9CiAgICAgICAgb25Db250ZXh0TWVudT17KGUpID0+IHsKICAgICAgICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgICAgICAgIHNldE9wZW4oKHYpID0+ICF2KTsKICAgICAgICB9fQogICAgICAgIGFyaWEtbGFiZWw9e21pbmUgPyBgUmVtb3ZlICR7cmVhY3Rpb25MYWJlbChtaW5lKX1gIDogIlJlYWN0IHdpdGggYSBsaWtlIn0KICAgICAgICBjbGFzc05hbWU9e2NuKAogICAgICAgICAgImlubGluZS1mbGV4IGgtNyBpdGVtcy1jZW50ZXIgZ2FwLTEuNSByb3VuZGVkLWZ1bGwgYm9yZGVyIHB4LTIuNSB0ZXh0LVsxMXB4XSB0cmFuc2l0aW9uLWNvbG9ycyIsCiAgICAgICAgICBtaW5lID8gImJvcmRlci1wcmltYXJ5IGJnLXByaW1hcnkvMTUgdGV4dC1wcmltYXJ5IiA6ICJib3JkZXItYm9yZGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LWZvcmVncm91bmQiLAogICAgICAgICl9CiAgICAgID4KICAgICAgICA8c3BhbiBhcmlhLWhpZGRlbj0idHJ1ZSI+e21pbmUgPyByZWFjdGlvbkVtb2ppKG1pbmUpIDogIvCfkY0ifTwvc3Bhbj4KICAgICAgICB7bWluZSA/IHJlYWN0aW9uTGFiZWwobWluZSkgOiAiUmVhY3QifQogICAgICA8L2J1dHRvbj4KCiAgICAgIDxidXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgZGlzYWJsZWQ9e2Rpc2FibGVkfQogICAgICAgIG9uQ2xpY2s9eygpID0+IHNldE9wZW4oKHYpID0+ICF2KX0KICAgICAgICBhcmlhLWxhYmVsPSJDaG9vc2UgYSByZWFjdGlvbiIKICAgICAgICBhcmlhLWV4cGFuZGVkPXtvcGVufQogICAgICAgIGNsYXNzTmFtZT0iZ3JpZCBoLTcgdy03IHBsYWNlLWl0ZW1zLWNlbnRlciByb3VuZGVkLWZ1bGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGhvdmVyOnRleHQtZm9yZWdyb3VuZCIKICAgICAgPgogICAgICAgIDxTbWlsZVBsdXMgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgPC9idXR0b24+CgogICAgICB7cHJlc2VudC5sZW5ndGggPiAwICYmICgKICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1sLTEgaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0wLjUgdGV4dC1bMTFweF0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIHtwcmVzZW50Lm1hcCgocikgPT4gKAogICAgICAgICAgICA8c3BhbiBrZXk9e3Iua2V5fSB0aXRsZT17YCR7ci5sYWJlbH0gwrcgJHtjb3VudHNbci5rZXldfWB9IGFyaWEtaGlkZGVuPSJ0cnVlIj4KICAgICAgICAgICAgICB7ci5lbW9qaX0KICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgKSl9CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1sLTEiPnt0b3RhbH08L3NwYW4+CiAgICAgICAgPC9zcGFuPgogICAgICApfQoKICAgICAge29wZW4gJiYgKAogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzTmFtZT0iYWJzb2x1dGUgYm90dG9tLTkgbGVmdC0wIHotNDAgZmxleCBnYXAtMSByb3VuZGVkLWZ1bGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctcG9wb3ZlciBweC0yIHB5LTEuNSBzaGFkb3ctbGciCiAgICAgICAgICByb2xlPSJtZW51IgogICAgICAgID4KICAgICAgICAgIHtSRUFDVElPTlMubWFwKChyKSA9PiAoCiAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICBrZXk9e3Iua2V5fQogICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICByb2xlPSJtZW51aXRlbSIKICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBwaWNrKHIua2V5KX0KICAgICAgICAgICAgICB0aXRsZT17ci5sYWJlbH0KICAgICAgICAgICAgICBhcmlhLWxhYmVsPXtyLmxhYmVsfQogICAgICAgICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAgICAgICAiZ3JpZCBoLTggdy04IHBsYWNlLWl0ZW1zLWNlbnRlciByb3VuZGVkLWZ1bGwgdGV4dC1sZyB0cmFuc2l0aW9uLXRyYW5zZm9ybSBob3ZlcjpzY2FsZS0xMjUiLAogICAgICAgICAgICAgICAgbWluZSA9PT0gci5rZXkgJiYgImJnLXByaW1hcnkvMTUiLAogICAgICAgICAgICAgICl9CiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8c3BhbiBhcmlhLWhpZGRlbj0idHJ1ZSI+e3IuZW1vaml9PC9zcGFuPgogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICkpfQogICAgICAgIDwvZGl2PgogICAgICApfQogICAgPC9kaXY+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IFJlYWN0aW9uQmFyOwo=
+import { useState } from "react";
+import { SmilePlus } from "lucide-react";
+
+import { REACTIONS, reactionEmoji, reactionLabel, type ReactionKey } from "@/lib/reactions";
+import { cn } from "@/lib/utils";
+
+interface Props {
+  /** Count per reaction key. */
+  counts: Record<string, number>;
+  /** The current member's reaction, if any. */
+  mine: ReactionKey | null;
+  onReact: (key: ReactionKey | null) => void;
+  disabled?: boolean;
+}
+
+/**
+ * Facebook-style reaction control: one tap toggles a 👍, long-press-free
+ * picker opens the full emoji set, and existing reactions show as tallies.
+ */
+const ReactionBar = ({ counts, mine, onReact, disabled = false }: Props) => {
+  const [open, setOpen] = useState(false);
+  const total = Object.values(counts).reduce((a, b) => a + b, 0);
+  const present = REACTIONS.filter((r) => (counts[r.key] ?? 0) > 0);
+
+  const pick = (key: ReactionKey) => {
+    setOpen(false);
+    onReact(mine === key ? null : key);
+  };
+
+  return (
+    <div className="relative flex items-center gap-1.5">
+      <button
+        type="button"
+        disabled={disabled}
+        onClick={() => (mine ? onReact(null) : onReact("like"))}
+        onContextMenu={(e) => {
+          e.preventDefault();
+          setOpen((v) => !v);
+        }}
+        aria-label={mine ? `Remove ${reactionLabel(mine)}` : "React with a like"}
+        className={cn(
+          "inline-flex h-7 items-center gap-1.5 rounded-full border px-2.5 text-[11px] transition-colors",
+          mine ? "border-primary bg-primary/15 text-primary" : "border-border text-muted-foreground hover:text-foreground",
+        )}
+      >
+        <span aria-hidden="true">{mine ? reactionEmoji(mine) : "👍"}</span>
+        {mine ? reactionLabel(mine) : "React"}
+      </button>
+
+      <button
+        type="button"
+        disabled={disabled}
+        onClick={() => setOpen((v) => !v)}
+        aria-label="Choose a reaction"
+        aria-expanded={open}
+        className="grid h-7 w-7 place-items-center rounded-full border border-border text-muted-foreground hover:text-foreground"
+      >
+        <SmilePlus className="h-3.5 w-3.5" />
+      </button>
+
+      {present.length > 0 && (
+        <span className="ml-1 inline-flex items-center gap-0.5 text-[11px] text-muted-foreground">
+          {present.map((r) => (
+            <span key={r.key} title={`${r.label} · ${counts[r.key]}`} aria-hidden="true">
+              {r.emoji}
+            </span>
+          ))}
+          <span className="ml-1">{total}</span>
+        </span>
+      )}
+
+      {open && (
+        <div
+          className="absolute bottom-9 left-0 z-40 flex gap-1 rounded-full border border-border bg-popover px-2 py-1.5 shadow-lg"
+          role="menu"
+        >
+          {REACTIONS.map((r) => (
+            <button
+              key={r.key}
+              type="button"
+              role="menuitem"
+              onClick={() => pick(r.key)}
+              title={r.label}
+              aria-label={r.label}
+              className={cn(
+                "grid h-8 w-8 place-items-center rounded-full text-lg transition-transform hover:scale-125",
+                mine === r.key && "bg-primary/15",
+              )}
+            >
+              <span aria-hidden="true">{r.emoji}</span>
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default ReactionBar;

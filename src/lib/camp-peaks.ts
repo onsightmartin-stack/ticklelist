@@ -1,1 +1,156 @@
-LyoqCiAqIE5hbWVkIHN1bW1pdHMgZm9yIHRoZSBCYXNlIENhbXAgcmluZy13b3JsZC4KICoKICogRXZlcnkgem9uZSdzIHNreWxpbmUgaGFzIHNldmVuIGNyZXN0cyDigJQgZm91ciBvbiB0aGUgZmFyIHJpZGdlIGFuZCB0aHJlZSBvbgogKiB0aGUgd2Fsa2FibGUgbWlkIHJpZGdlIChzZWUgQmFzZUNhbXBTY2VuZSAvIGNhbXAtdGVycmFpbikuIEVhY2ggb25lIGdldHMgYQogKiBzaWxseS1idXQtcGxhdXNpYmxlIG5hbWUgYW5kIGFuIGFsdGl0dWRlLCBkcmF3biBhcyBhIHNtYWxsIGxhYmVsIGFib3ZlIHRoZQogKiBjcmVzdCBzbyB0aGUgd29ybGQgcmVhZHMgbGlrZSBhIHJlYWwgcmFuZ2UgaW5zdGVhZCBvZiBncmV5IHRyaWFuZ2xlcy4KICovCgppbXBvcnQgdHlwZSB7IENhbXBab25lSWQgfSBmcm9tICJAL2xpYi9jYW1wLXpvbmVzIjsKCmV4cG9ydCBpbnRlcmZhY2UgQ2FtcFBlYWsgewogIC8qKiBIb3Jpem9udGFsIHBvc2l0aW9uIGFzIGEgZnJhY3Rpb24gb2YgdGhlIHNjZW5lIHdpZHRoLiAqLwogIGZ4OiBudW1iZXI7CiAgLyoqIENyZXN0IHkgaW4gc2NlbmUgdW5pdHMgKGxhYmVsIGlzIGRyYXduIGFib3ZlIHRoaXMpLiAqLwogIHk6IG51bWJlcjsKICBuYW1lOiBzdHJpbmc7CiAgLyoqIE1ldHJlcy4gKi8KICBhbHQ6IG51bWJlcjsKfQoKLyoqIEZhciByaWRnZSBjcmVzdHMgKGJhY2tncm91bmQsIGhpZ2hlciBhbmQgaGF6aWVyKS4gKi8KY29uc3QgRkFSOiBBcnJheTxQaWNrPENhbXBQZWFrLCAiZngiIHwgInkiPj4gPSBbCiAgeyBmeDogMC4wOCwgeTogMzAwIH0sCiAgeyBmeDogMC4yOCwgeTogMjUwIH0sCiAgeyBmeDogMC41MiwgeTogMjgwIH0sCiAgeyBmeDogMC43NiwgeTogMjYwIH0sCl07CgovKiogTWlkIHJpZGdlIGNyZXN0cyAodGhlIHdhbGthYmxlIHNreWxpbmUpLiAqLwpjb25zdCBNSUQ6IEFycmF5PFBpY2s8Q2FtcFBlYWssICJmeCIgfCAieSI+PiA9IFsKICB7IGZ4OiAwLjEzLCB5OiA0MjAgfSwKICB7IGZ4OiAwLjQxLCB5OiA0MDAgfSwKICB7IGZ4OiAwLjcyLCB5OiA0MzAgfSwKXTsKCnR5cGUgTmFtZWQgPSBbbmFtZTogc3RyaW5nLCBhbHQ6IG51bWJlcl07Cgpjb25zdCBOQU1FUzogUmVjb3JkPENhbXBab25lSWQsIHsgZmFyOiBOYW1lZFtdOyBtaWQ6IE5hbWVkW10gfT4gPSB7CiAgdmFsbGV5OiB7CiAgICBmYXI6IFsKICAgICAgWyJUaWNrbGUgUGVhayIsIDM0MTJdLAogICAgICBbIk1vdW50IEZhZmZhYm91dCIsIDM4OTBdLAogICAgICBbIkdyYW5kIERhd2RsZSIsIDM2NTVdLAogICAgICBbIlNub296ZWhvcm4iLCAzNzQ0XSwKICAgIF0sCiAgICBtaWQ6IFsKICAgICAgWyJXZWUgTnViYmluIiwgMjE4MF0sCiAgICAgIFsiQWxwYWNhIFRvb3RoIiwgMjQ2NV0sCiAgICAgIFsiSGFtbW9jayBIdW1wIiwgMjA5NF0sCiAgICBdLAogIH0sCiAgZ2xhY2llcjogewogICAgZmFyOiBbCiAgICAgIFsiTW91bnQgQ2hhdHRlcmphdyIsIDQxMjBdLAogICAgICBbIkZyb3N0dGlja2xlbiIsIDQ0ODhdLAogICAgICBbIlRoZSBCcmFpbmZyZWV6ZSIsIDQyNjBdLAogICAgICBbIlBvcHNpY2xlIFNwaXJlIiwgNDM3N10sCiAgICBdLAogICAgbWlkOiBbCiAgICAgIFsiQ3JldmFzc2UgS251Y2tsZSIsIDMxMTBdLAogICAgICBbIklnbG9vIERvbWUiLCAzMjg4XSwKICAgICAgWyJTcXVlYWt5IFNub3cgQ2FwIiwgMjk3NV0sCiAgICBdLAogIH0sCiAgZGVhdGhab25lOiB7CiAgICBmYXI6IFsKICAgICAgWyJIaWxsYXJ5J3MgSGF0IiwgODYxMV0sCiAgICAgIFsiTW91bnQgV2hlZXplbW9yZSIsIDg4NDhdLAogICAgICBbIlRoZSBCaWcgR2FzcCIsIDg1MTZdLAogICAgICBbIlNlcmFjIFN1bmRhZSIsIDgxODhdLAogICAgXSwKICAgIG1pZDogWwogICAgICBbIkFuY2hvciBPbmUiLCA3OTYyXSwKICAgICAgWyJSb3BlIEZpeGVyJ3MgTm9zZSIsIDgwMzVdLAogICAgICBbIkxhc3QgQm90dGxlIEJ1dHRyZXNzIiwgNzg4NF0sCiAgICBdLAogIH0sCiAgZGVzZXJ0OiB7CiAgICBmYXI6IFsKICAgICAgWyJNb3VudCBQYXJjaG1vcmUiLCAyNDEwXSwKICAgICAgWyJDYWN0dXMgQ3Jvd24iLCAyNjg4XSwKICAgICAgWyJUaGUgVGhpcnN0cG9zdCIsIDI1MzBdLAogICAgICBbIlNpenpsZSBTcGlyZSIsIDI2MDJdLAogICAgXSwKICAgIG1pZDogWwogICAgICBbIldlbGwgRGlnZ2VyJ3MgQnVtcCIsIDE0NDBdLAogICAgICBbIk1pcmFnZSBNZXNhIiwgMTYyMl0sCiAgICAgIFsiU2FuZHkgVG9lIiwgMTI5OF0sCiAgICBdLAogIH0sCiAgbXVzaHJvb206IHsKICAgIGZhcjogWwogICAgICBbIk1vdW50IFdvYmJsZWNhcCIsIDE5ODhdLAogICAgICBbIkdyZWF0IEdvb2dseWhvcm4iLCAyMjQ0XSwKICAgICAgWyJTcG9yZSBTcGlyZSIsIDIxMDddLAogICAgICBbIkdpZ2dsZSBUb3IiLCAyMTY2XSwKICAgIF0sCiAgICBtaWQ6IFsKICAgICAgWyJUb2Fkc3Rvb2wgS25vbGwiLCAxMjQwXSwKICAgICAgWyJTcXVpc2h5IFN1bW1pdCIsIDEzODhdLAogICAgICBbIlRydWZmbGUgVHVtcCIsIDExMjJdLAogICAgXSwKICB9LAogIGNvbGREZXNlcnQ6IHsKICAgIGZhcjogWwogICAgICBbIk1vdW50IEJsZWFrYWJpdCIsIDUyNDBdLAogICAgICBbIkdyZXkgR3J1bWJsZSIsIDU1NjZdLAogICAgICBbIlRoZSBXaW5kc2NvdXIiLCA1Mzg4XSwKICAgICAgWyJBc2hlbiBGYW5nIiwgNTQ2MV0sCiAgICBdLAogICAgbWlkOiBbCiAgICAgIFsiUGViYmxlIFBpbm5hY2xlIiwgNDE4MF0sCiAgICAgIFsiU3BpcmUgb2YgU2lnaHMiLCA0NDAyXSwKICAgICAgWyJEdXN0eSBEb21lIiwgNDA1NV0sCiAgICBdLAogIH0sCiAgdm9sY2FubzogewogICAgZmFyOiBbCiAgICAgIFsiTW91bnQgR3J1bWJsZXNtb2tlIiwgMzc2MF0sCiAgICAgIFsiQ2FsZGVyYSBDcm93biIsIDQwMjJdLAogICAgICBbIlRoZSBTbmVlemluZyBDb25lIiwgMzg0MV0sCiAgICAgIFsiRW1iZXIgRWFyIiwgMzkwOF0sCiAgICBdLAogICAgbWlkOiBbCiAgICAgIFsiQ2luZGVyIFNub3V0IiwgMjYxMF0sCiAgICAgIFsiTGF2YSBMb2FmIiwgMjg0NF0sCiAgICAgIFsiV2FybSBXYXJ0IiwgMjQ4N10sCiAgICBdLAogIH0sCiAgaXNsYW5kOiB7CiAgICBmYXI6IFsKICAgICAgWyJNb3VudCBTdW5idXJuIiwgOTQyXSwKICAgICAgWyJDb2NvbnV0IENyYWciLCAxMTg4XSwKICAgICAgWyJUaGUgU2FsdHkgU3Bpa2UiLCAxMDI0XSwKICAgICAgWyJSZWVmaG9ybiIsIDEwOTZdLAogICAgXSwKICAgIG1pZDogWwogICAgICBbIlBhbG0gUGltcGxlIiwgNTIwXSwKICAgICAgWyJIYW1tb2NrIEhpZ2ggUG9pbnQiLCA2NDhdLAogICAgICBbIkJhcm5hY2xlIEJ1bXAiLCA0MDFdLAogICAgXSwKICB9LAp9OwoKLyoqIEV2ZXJ5IG5hbWVkIGNyZXN0IG9mIGEgem9uZSwgZmFyIHJpZGdlIGZpcnN0LiAqLwpleHBvcnQgY29uc3QgY2FtcFBlYWtzID0gKHpvbmU6IENhbXBab25lSWQpOiBDYW1wUGVha1tdID0+IHsKICBjb25zdCBzZXQgPSBOQU1FU1t6b25lXSA/PyBOQU1FUy52YWxsZXk7CiAgcmV0dXJuIFsKICAgIC4uLkZBUi5tYXAoKGMsIGkpID0+ICh7IC4uLmMsIG5hbWU6IHNldC5mYXJbaV0hWzBdLCBhbHQ6IHNldC5mYXJbaV0hWzFdIH0pKSwKICAgIC4uLk1JRC5tYXAoKGMsIGkpID0+ICh7IC4uLmMsIG5hbWU6IHNldC5taWRbaV0hWzBdLCBhbHQ6IHNldC5taWRbaV0hWzFdIH0pKSwKICBdOwp9OwoKLyoqICIzLDQxMiBtIiAqLwpleHBvcnQgY29uc3QgZm9ybWF0Q2FtcEFsdCA9IChhbHQ6IG51bWJlcikgPT4gYCR7YWx0LnRvTG9jYWxlU3RyaW5nKCJlbi1VUyIpfSBtYDsK
+/**
+ * Named summits for the Base Camp ring-world.
+ *
+ * Every zone's skyline has seven crests — four on the far ridge and three on
+ * the walkable mid ridge (see BaseCampScene / camp-terrain). Each one gets a
+ * silly-but-plausible name and an altitude, drawn as a small label above the
+ * crest so the world reads like a real range instead of grey triangles.
+ */
+
+import type { CampZoneId } from "@/lib/camp-zones";
+
+export interface CampPeak {
+  /** Horizontal position as a fraction of the scene width. */
+  fx: number;
+  /** Crest y in scene units (label is drawn above this). */
+  y: number;
+  name: string;
+  /** Metres. */
+  alt: number;
+}
+
+/** Far ridge crests (background, higher and hazier). */
+const FAR: Array<Pick<CampPeak, "fx" | "y">> = [
+  { fx: 0.08, y: 300 },
+  { fx: 0.28, y: 250 },
+  { fx: 0.52, y: 280 },
+  { fx: 0.76, y: 260 },
+];
+
+/** Mid ridge crests (the walkable skyline). */
+const MID: Array<Pick<CampPeak, "fx" | "y">> = [
+  { fx: 0.13, y: 420 },
+  { fx: 0.41, y: 400 },
+  { fx: 0.72, y: 430 },
+];
+
+type Named = [name: string, alt: number];
+
+const NAMES: Record<CampZoneId, { far: Named[]; mid: Named[] }> = {
+  valley: {
+    far: [
+      ["Tickle Peak", 3412],
+      ["Mount Faffabout", 3890],
+      ["Grand Dawdle", 3655],
+      ["Snoozehorn", 3744],
+    ],
+    mid: [
+      ["Wee Nubbin", 2180],
+      ["Alpaca Tooth", 2465],
+      ["Hammock Hump", 2094],
+    ],
+  },
+  glacier: {
+    far: [
+      ["Mount Chatterjaw", 4120],
+      ["Frostticklen", 4488],
+      ["The Brainfreeze", 4260],
+      ["Popsicle Spire", 4377],
+    ],
+    mid: [
+      ["Crevasse Knuckle", 3110],
+      ["Igloo Dome", 3288],
+      ["Squeaky Snow Cap", 2975],
+    ],
+  },
+  deathZone: {
+    far: [
+      ["Hillary's Hat", 8611],
+      ["Mount Wheezemore", 8848],
+      ["The Big Gasp", 8516],
+      ["Serac Sundae", 8188],
+    ],
+    mid: [
+      ["Anchor One", 7962],
+      ["Rope Fixer's Nose", 8035],
+      ["Last Bottle Buttress", 7884],
+    ],
+  },
+  desert: {
+    far: [
+      ["Mount Parchmore", 2410],
+      ["Cactus Crown", 2688],
+      ["The Thirstpost", 2530],
+      ["Sizzle Spire", 2602],
+    ],
+    mid: [
+      ["Well Digger's Bump", 1440],
+      ["Mirage Mesa", 1622],
+      ["Sandy Toe", 1298],
+    ],
+  },
+  mushroom: {
+    far: [
+      ["Mount Wobblecap", 1988],
+      ["Great Googlyhorn", 2244],
+      ["Spore Spire", 2107],
+      ["Giggle Tor", 2166],
+    ],
+    mid: [
+      ["Toadstool Knoll", 1240],
+      ["Squishy Summit", 1388],
+      ["Truffle Tump", 1122],
+    ],
+  },
+  coldDesert: {
+    far: [
+      ["Mount Bleakabit", 5240],
+      ["Grey Grumble", 5566],
+      ["The Windscour", 5388],
+      ["Ashen Fang", 5461],
+    ],
+    mid: [
+      ["Pebble Pinnacle", 4180],
+      ["Spire of Sighs", 4402],
+      ["Dusty Dome", 4055],
+    ],
+  },
+  volcano: {
+    far: [
+      ["Mount Grumblesmoke", 3760],
+      ["Caldera Crown", 4022],
+      ["The Sneezing Cone", 3841],
+      ["Ember Ear", 3908],
+    ],
+    mid: [
+      ["Cinder Snout", 2610],
+      ["Lava Loaf", 2844],
+      ["Warm Wart", 2487],
+    ],
+  },
+  island: {
+    far: [
+      ["Mount Sunburn", 942],
+      ["Coconut Crag", 1188],
+      ["The Salty Spike", 1024],
+      ["Reefhorn", 1096],
+    ],
+    mid: [
+      ["Palm Pimple", 520],
+      ["Hammock High Point", 648],
+      ["Barnacle Bump", 401],
+    ],
+  },
+};
+
+/** Every named crest of a zone, far ridge first. */
+export const campPeaks = (zone: CampZoneId): CampPeak[] => {
+  const set = NAMES[zone] ?? NAMES.valley;
+  return [
+    ...FAR.map((c, i) => ({ ...c, name: set.far[i]![0], alt: set.far[i]![1] })),
+    ...MID.map((c, i) => ({ ...c, name: set.mid[i]![0], alt: set.mid[i]![1] })),
+  ];
+};
+
+/** "3,412 m" */
+export const formatCampAlt = (alt: number) => `${alt.toLocaleString("en-US")} m`;

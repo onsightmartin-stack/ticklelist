@@ -1,1 +1,31 @@
-aW1wb3J0IHsgY3JlYXRlU2VydmVyRm4gfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtc3RhcnQiOwoKZXhwb3J0IGNvbnN0IHZpc2l0b3JDb3VudCA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkuaGFuZGxlcihhc3luYyAoKSA9PiB7CiAgY29uc3QgeyBzdXBhYmFzZUFkbWluIH0gPSBhd2FpdCBpbXBvcnQoIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudC5zZXJ2ZXIiKTsKCiAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2VBZG1pbi5ycGMoImluY3JlbWVudF92aXNpdG9yX2NvdW50Iik7CiAgaWYgKGVycm9yKSB7CiAgICBjb25zb2xlLmVycm9yKCJbdmlzaXRvci1jb3VudF0iLCBlcnJvci5tZXNzYWdlKTsKICAgIHRocm93IG5ldyBFcnJvcigiVW5hYmxlIHRvIHVwZGF0ZSBjb3VudGVyIik7CiAgfQoKICByZXR1cm4geyBjb3VudDogZGF0YSBhcyBudW1iZXIgfTsKfSk7CgovKiogUmVhZCB0aGUgY291bnRlciB3aXRob3V0IGluY3JlbWVudGluZyBpdCAocmVwZWF0IHZpZXdzIGluIHRoZSBzYW1lIHNlc3Npb24pLiAqLwpleHBvcnQgY29uc3QgcmVhZFZpc2l0b3JDb3VudCA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiR0VUIiB9KS5oYW5kbGVyKGFzeW5jICgpID0+IHsKICBjb25zdCB7IHN1cGFiYXNlQWRtaW4gfSA9IGF3YWl0IGltcG9ydCgiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50LnNlcnZlciIpOwoKICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZUFkbWluCiAgICAuZnJvbSgidmlzaXRvcl9jb3VudGVyIikKICAgIC5zZWxlY3QoImNvdW50IikKICAgIC5lcSgiaWQiLCAxKQogICAgLm1heWJlU2luZ2xlKCk7CgogIGlmIChlcnJvcikgewogICAgY29uc29sZS5lcnJvcigiW3Zpc2l0b3ItY291bnQ6cmVhZF0iLCBlcnJvci5tZXNzYWdlKTsKICAgIHRocm93IG5ldyBFcnJvcigiVW5hYmxlIHRvIHJlYWQgY291bnRlciIpOwogIH0KCiAgcmV0dXJuIHsgY291bnQ6IChkYXRhPy5jb3VudCBhcyBudW1iZXIgfCB1bmRlZmluZWQpID8/IG51bGwgfTsKfSk7Cg==
+import { createServerFn } from "@tanstack/react-start";
+
+export const visitorCount = createServerFn({ method: "POST" }).handler(async () => {
+  const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+
+  const { data, error } = await supabaseAdmin.rpc("increment_visitor_count");
+  if (error) {
+    console.error("[visitor-count]", error.message);
+    throw new Error("Unable to update counter");
+  }
+
+  return { count: data as number };
+});
+
+/** Read the counter without incrementing it (repeat views in the same session). */
+export const readVisitorCount = createServerFn({ method: "GET" }).handler(async () => {
+  const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+
+  const { data, error } = await supabaseAdmin
+    .from("visitor_counter")
+    .select("count")
+    .eq("id", 1)
+    .maybeSingle();
+
+  if (error) {
+    console.error("[visitor-count:read]", error.message);
+    throw new Error("Unable to read counter");
+  }
+
+  return { count: (data?.count as number | undefined) ?? null };
+});

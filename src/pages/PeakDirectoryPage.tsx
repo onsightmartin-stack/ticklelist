@@ -1,1 +1,70 @@
-aW1wb3J0IHsgTW91bnRhaW4sIEdsb2JlMiB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IExpbmsgfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKaW1wb3J0IE5hdmJhciBmcm9tICJAL2NvbXBvbmVudHMvTmF2YmFyIjsKaW1wb3J0IHR5cGUgeyBEaXJlY3RvcnlDb3VudHJ5LCBEaXJlY3RvcnlQZWFrIH0gZnJvbSAiQC9saWIvcGVhay1kaXJlY3RvcnkuZnVuY3Rpb25zIjsKaW1wb3J0IHsgY291bnRyeU5hbWUgfSBmcm9tICJAL3BhZ2VzL1dvcmxkUGVha1BhZ2UiOwoKaW50ZXJmYWNlIFByb3BzIHsKICBjb3VudHJpZXM6IERpcmVjdG9yeUNvdW50cnlbXTsKICBwZWFrczogRGlyZWN0b3J5UGVha1tdOwp9Cgpjb25zdCBQZWFrRGlyZWN0b3J5UGFnZSA9ICh7IGNvdW50cmllcywgcGVha3MgfTogUHJvcHMpID0+ICgKICA8ZGl2IGNsYXNzTmFtZT0ibWluLWgtc2NyZWVuIGJnLWJhY2tncm91bmQiPgogICAgPE5hdmJhciAvPgogICAgPG1haW4gY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTV4bCBweC00IHB5LTEwIj4KICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1ib2xkIHRleHQtZm9yZWdyb3VuZCI+UGVhayBkaXJlY3Rvcnk8L2gxPgogICAgICA8cCBjbGFzc05hbWU9Im10LTIgbWF4LXctMnhsIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgQnJvd3NlIG92ZXIgYSBtaWxsaW9uIGNhdGFsb2d1ZWQgc3VtbWl0cyDigJQgZWxldmF0aW9uLCBwcm9taW5lbmNlLCBjb29yZGluYXRlcyBhbmQgd2hvIGluIHRoZQogICAgICAgIFRpY2tsZWxpc3QgY29tbXVuaXR5IGhhcyBjbGltYmVkIHRoZW0uIExvZyB5b3VyIG93biBhc2NlbnRzIGZvciBmcmVlLgogICAgICA8L3A+CgogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9Im10LTEwIj4KICAgICAgICA8aDIgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdGV4dC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIDxNb3VudGFpbiBjbGFzc05hbWU9ImgtNSB3LTUiIC8+IE1vc3QgcHJvbWluZW50IHBlYWtzIG9uIEVhcnRoCiAgICAgICAgPC9oMj4KICAgICAgICA8b2wgY2xhc3NOYW1lPSJtdC00IGdyaWQgZ2FwLTIgc206Z3JpZC1jb2xzLTIiPgogICAgICAgICAge3BlYWtzLm1hcCgocCwgaSkgPT4gKAogICAgICAgICAgICA8bGkga2V5PXtwLmlkfT4KICAgICAgICAgICAgICA8TGluawogICAgICAgICAgICAgICAgdG89e2AvcGVha3MvJHtwLmlkfWB9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMyByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQvNjAgcHgtMyBweS0yIHRleHQtc20gaG92ZXI6Ym9yZGVyLXByaW1hcnkvNjAiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0cnVuY2F0ZSB0ZXh0LWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1yLTIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57aSArIDF9Ljwvc3Bhbj4KICAgICAgICAgICAgICAgICAge3AubmFtZX0KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ic2hyaW5rLTAgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICB7cC5lbGV2YXRpb24gPyBgJHtwLmVsZXZhdGlvbn0gbWAgOiAiIn0KICAgICAgICAgICAgICAgICAge3AuY291bnRyeUNvZGUgPyBgIMK3ICR7cC5jb3VudHJ5Q29kZX1gIDogIiJ9CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICA8L2xpPgogICAgICAgICAgKSl9CiAgICAgICAgPC9vbD4KICAgICAgPC9zZWN0aW9uPgoKICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJtdC0xMiI+CiAgICAgICAgPGgyIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC14bCBmb250LXNlbWlib2xkIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICA8R2xvYmUyIGNsYXNzTmFtZT0iaC01IHctNSIgLz4gUGVha3MgYnkgY291bnRyeQogICAgICAgIDwvaDI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTQgZ3JpZCBncmlkLWNvbHMtMiBnYXAtMiBzbTpncmlkLWNvbHMtMyBsZzpncmlkLWNvbHMtNCI+CiAgICAgICAgICB7Y291bnRyaWVzLm1hcCgoYykgPT4gKAogICAgICAgICAgICA8TGluawogICAgICAgICAgICAgIGtleT17Yy5jb2RlfQogICAgICAgICAgICAgIHRvPXtgL3BlYWtzL2NvdW50cnkvJHtjLmNvZGUudG9Mb3dlckNhc2UoKX1gfQogICAgICAgICAgICAgIGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkLzYwIHB4LTMgcHktMiB0ZXh0LXNtIGhvdmVyOmJvcmRlci1wcmltYXJ5LzYwIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJibG9jayB0cnVuY2F0ZSB0ZXh0LWZvcmVncm91bmQiPntjb3VudHJ5TmFtZShjLmNvZGUpfTwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHtjLnBlYWtDb3VudC50b0xvY2FsZVN0cmluZygpfSBwZWFrcwogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KICAgIDwvbWFpbj4KICA8L2Rpdj4KKTsKCmV4cG9ydCBkZWZhdWx0IFBlYWtEaXJlY3RvcnlQYWdlOwo=
+import { Mountain, Globe2 } from "lucide-react";
+import { Link } from "@/lib/router-compat";
+import Navbar from "@/components/Navbar";
+import type { DirectoryCountry, DirectoryPeak } from "@/lib/peak-directory.functions";
+import { countryName } from "@/pages/WorldPeakPage";
+
+interface Props {
+  countries: DirectoryCountry[];
+  peaks: DirectoryPeak[];
+}
+
+const PeakDirectoryPage = ({ countries, peaks }: Props) => (
+  <div className="min-h-screen bg-background">
+    <Navbar />
+    <main className="mx-auto max-w-5xl px-4 py-10">
+      <h1 className="text-3xl font-bold text-foreground">Peak directory</h1>
+      <p className="mt-2 max-w-2xl text-muted-foreground">
+        Browse over a million catalogued summits — elevation, prominence, coordinates and who in the
+        Ticklelist community has climbed them. Log your own ascents for free.
+      </p>
+
+      <section className="mt-10">
+        <h2 className="flex items-center gap-2 text-xl font-semibold text-foreground">
+          <Mountain className="h-5 w-5" /> Most prominent peaks on Earth
+        </h2>
+        <ol className="mt-4 grid gap-2 sm:grid-cols-2">
+          {peaks.map((p, i) => (
+            <li key={p.id}>
+              <Link
+                to={`/peaks/${p.id}`}
+                className="flex items-center justify-between gap-3 rounded-lg border border-border bg-card/60 px-3 py-2 text-sm hover:border-primary/60"
+              >
+                <span className="truncate text-foreground">
+                  <span className="mr-2 text-muted-foreground">{i + 1}.</span>
+                  {p.name}
+                </span>
+                <span className="shrink-0 text-xs text-muted-foreground">
+                  {p.elevation ? `${p.elevation} m` : ""}
+                  {p.countryCode ? ` · ${p.countryCode}` : ""}
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="flex items-center gap-2 text-xl font-semibold text-foreground">
+          <Globe2 className="h-5 w-5" /> Peaks by country
+        </h2>
+        <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4">
+          {countries.map((c) => (
+            <Link
+              key={c.code}
+              to={`/peaks/country/${c.code.toLowerCase()}`}
+              className="rounded-lg border border-border bg-card/60 px-3 py-2 text-sm hover:border-primary/60"
+            >
+              <span className="block truncate text-foreground">{countryName(c.code)}</span>
+              <span className="text-xs text-muted-foreground">
+                {c.peakCount.toLocaleString()} peaks
+              </span>
+            </Link>
+          ))}
+        </div>
+      </section>
+    </main>
+  </div>
+);
+
+export default PeakDirectoryPage;

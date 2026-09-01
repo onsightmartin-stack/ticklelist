@@ -1,1 +1,12 @@
-LyoqICIyIGggYWdvIiwgIjMgZCBhZ28iLCBvciBhIGRhdGUgb25jZSBpdCdzIG9sZGVyIHRoYW4gYSB3ZWVrLiAqLwpleHBvcnQgY29uc3QgdGltZUFnbyA9IChpc286IHN0cmluZykgPT4gewogIGNvbnN0IGRpZmYgPSBEYXRlLm5vdygpIC0gbmV3IERhdGUoaXNvKS5nZXRUaW1lKCk7CiAgY29uc3QgbWlucyA9IE1hdGgucm91bmQoZGlmZiAvIDYwMDAwKTsKICBpZiAobWlucyA8IDEpIHJldHVybiAianVzdCBub3ciOwogIGlmIChtaW5zIDwgNjApIHJldHVybiBgJHttaW5zfSBtaW4gYWdvYDsKICBjb25zdCBob3VycyA9IE1hdGgucm91bmQobWlucyAvIDYwKTsKICBpZiAoaG91cnMgPCAyNCkgcmV0dXJuIGAke2hvdXJzfSBoIGFnb2A7CiAgY29uc3QgZGF5cyA9IE1hdGgucm91bmQoaG91cnMgLyAyNCk7CiAgaWYgKGRheXMgPD0gNykgcmV0dXJuIGAke2RheXN9IGQgYWdvYDsKICByZXR1cm4gbmV3IERhdGUoaXNvKS50b0xvY2FsZURhdGVTdHJpbmcodW5kZWZpbmVkLCB7IGRheTogIm51bWVyaWMiLCBtb250aDogInNob3J0IiwgeWVhcjogIm51bWVyaWMiIH0pOwp9Owo=
+/** "2 h ago", "3 d ago", or a date once it's older than a week. */
+export const timeAgo = (iso: string) => {
+  const diff = Date.now() - new Date(iso).getTime();
+  const mins = Math.round(diff / 60000);
+  if (mins < 1) return "just now";
+  if (mins < 60) return `${mins} min ago`;
+  const hours = Math.round(mins / 60);
+  if (hours < 24) return `${hours} h ago`;
+  const days = Math.round(hours / 24);
+  if (days <= 7) return `${days} d ago`;
+  return new Date(iso).toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" });
+};

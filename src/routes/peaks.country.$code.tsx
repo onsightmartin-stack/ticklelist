@@ -1,1 +1,38 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBQZWFrQ291bnRyeVBhZ2UgZnJvbSAiQC9wYWdlcy9QZWFrQ291bnRyeVBhZ2UiOwppbXBvcnQgeyBnZXRDb3VudHJ5UGVha3MgfSBmcm9tICJAL2xpYi9wZWFrLWRpcmVjdG9yeS5mdW5jdGlvbnMiOwppbXBvcnQgeyBjb3VudHJ5TmFtZSB9IGZyb20gIkAvcGFnZXMvV29ybGRQZWFrUGFnZSI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9wZWFrcy9jb3VudHJ5LyRjb2RlIikoewogIGxvYWRlcjogYXN5bmMgKHsgcGFyYW1zIH0pID0+IHsKICAgIGNvbnN0IGNvZGUgPSBTdHJpbmcocGFyYW1zLmNvZGUgPz8gIiIpLnRvVXBwZXJDYXNlKCk7CiAgICBpZiAoIS9eW0EtWl17Mn0kLy50ZXN0KGNvZGUpKSByZXR1cm4geyBjb2RlLCBwZWFrczogW10gfTsKICAgIGNvbnN0IHBlYWtzID0gYXdhaXQgZ2V0Q291bnRyeVBlYWtzKHsgZGF0YTogeyBjb2RlLCBsaW1pdDogMTUwIH0gfSkuY2F0Y2goKCkgPT4gW10pOwogICAgcmV0dXJuIHsgY29kZSwgcGVha3MgfTsKICB9LAogIGhlYWQ6ICh7IHBhcmFtcyB9KSA9PiB7CiAgICBjb25zdCBjb2RlID0gU3RyaW5nKHBhcmFtcy5jb2RlID8/ICIiKS50b1VwcGVyQ2FzZSgpOwogICAgY29uc3QgbmFtZSA9IGNvdW50cnlOYW1lKGNvZGUpID8/IGNvZGU7CiAgICBjb25zdCB0aXRsZSA9IGBIaWdoZXN0IHBlYWtzIGluICR7bmFtZX0gfCBUaWNrbGVsaXN0YDsKICAgIGNvbnN0IGRlc2NyaXB0aW9uID0gYFRoZSBtb3N0IHByb21pbmVudCBtb3VudGFpbnMgaW4gJHtuYW1lfSDigJQgZWxldmF0aW9uLCBwcm9taW5lbmNlIGFuZCBjb21tdW5pdHkgYXNjZW50cy4gVHJhY2sgdGhlIG9uZXMgeW91IGhhdmUgY2xpbWJlZCBvbiBUaWNrbGVsaXN0LmA7CiAgICBjb25zdCB1cmwgPSBgaHR0cHM6Ly90aWNrbGVsaXN0Lm9yZy9wZWFrcy9jb3VudHJ5LyR7Y29kZS50b0xvd2VyQ2FzZSgpfWA7CiAgICByZXR1cm4gewogICAgICBtZXRhOiBbCiAgICAgICAgeyB0aXRsZSB9LAogICAgICAgIHsgbmFtZTogImRlc2NyaXB0aW9uIiwgY29udGVudDogZGVzY3JpcHRpb24uc2xpY2UoMCwgMTU4KSB9LAogICAgICAgIHsgcHJvcGVydHk6ICJvZzp0aXRsZSIsIGNvbnRlbnQ6IHRpdGxlIH0sCiAgICAgICAgeyBwcm9wZXJ0eTogIm9nOmRlc2NyaXB0aW9uIiwgY29udGVudDogZGVzY3JpcHRpb24uc2xpY2UoMCwgMTU4KSB9LAogICAgICAgIHsgcHJvcGVydHk6ICJvZzp0eXBlIiwgY29udGVudDogIndlYnNpdGUiIH0sCiAgICAgICAgeyBwcm9wZXJ0eTogIm9nOnVybCIsIGNvbnRlbnQ6IHVybCB9LAogICAgICAgIHsgbmFtZTogInR3aXR0ZXI6Y2FyZCIsIGNvbnRlbnQ6ICJzdW1tYXJ5IiB9LAogICAgICBdLAogICAgICBsaW5rczogW3sgcmVsOiAiY2Fub25pY2FsIiwgaHJlZjogdXJsIH1dLAogICAgfTsKICB9LAogIGNvbXBvbmVudDogUGVha0NvdW50cnlSb3V0ZSwKfSk7CgpmdW5jdGlvbiBQZWFrQ291bnRyeVJvdXRlKCkgewogIGNvbnN0IHsgY29kZSwgcGVha3MgfSA9IFJvdXRlLnVzZUxvYWRlckRhdGEoKTsKICByZXR1cm4gPFBlYWtDb3VudHJ5UGFnZSBjb2RlPXtjb2RlfSBwZWFrcz17cGVha3N9IC8+Owp9Cg==
+import { createFileRoute } from "@tanstack/react-router";
+import PeakCountryPage from "@/pages/PeakCountryPage";
+import { getCountryPeaks } from "@/lib/peak-directory.functions";
+import { countryName } from "@/pages/WorldPeakPage";
+
+export const Route = createFileRoute("/peaks/country/$code")({
+  loader: async ({ params }) => {
+    const code = String(params.code ?? "").toUpperCase();
+    if (!/^[A-Z]{2}$/.test(code)) return { code, peaks: [] };
+    const peaks = await getCountryPeaks({ data: { code, limit: 150 } }).catch(() => []);
+    return { code, peaks };
+  },
+  head: ({ params }) => {
+    const code = String(params.code ?? "").toUpperCase();
+    const name = countryName(code) ?? code;
+    const title = `Highest peaks in ${name} | Ticklelist`;
+    const description = `The most prominent mountains in ${name} — elevation, prominence and community ascents. Track the ones you have climbed on Ticklelist.`;
+    const url = `https://ticklelist.org/peaks/country/${code.toLowerCase()}`;
+    return {
+      meta: [
+        { title },
+        { name: "description", content: description.slice(0, 158) },
+        { property: "og:title", content: title },
+        { property: "og:description", content: description.slice(0, 158) },
+        { property: "og:type", content: "website" },
+        { property: "og:url", content: url },
+        { name: "twitter:card", content: "summary" },
+      ],
+      links: [{ rel: "canonical", href: url }],
+    };
+  },
+  component: PeakCountryRoute,
+});
+
+function PeakCountryRoute() {
+  const { code, peaks } = Route.useLoaderData();
+  return <PeakCountryPage code={code} peaks={peaks} />;
+}

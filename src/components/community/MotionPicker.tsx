@@ -1,1 +1,52 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQ2hlY2sgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgewogIERFRkFVTFRfTU9USU9OLAogIGdldFN0b3JlZE1vdGlvbiwKICBNT1RJT05fT1BUSU9OUywKICBzZXRNb3Rpb24sCiAgdHlwZSBNb3Rpb25QcmVmLAp9IGZyb20gIkAvbGliL21vdGlvbiI7Cgpjb25zdCBNb3Rpb25QaWNrZXIgPSAoKSA9PiB7CiAgY29uc3QgW2FjdGl2ZSwgc2V0QWN0aXZlXSA9IHVzZVN0YXRlPE1vdGlvblByZWY+KERFRkFVTFRfTU9USU9OKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIHNldEFjdGl2ZShnZXRTdG9yZWRNb3Rpb24oKSk7CiAgfSwgW10pOwoKICBjb25zdCBjaG9vc2UgPSAoaWQ6IE1vdGlvblByZWYpID0+IHsKICAgIHNldE1vdGlvbihpZCk7CiAgICBzZXRBY3RpdmUoaWQpOwogIH07CgogIHJldHVybiAoCiAgICA8ZGl2IHJvbGU9InJhZGlvZ3JvdXAiIGFyaWEtbGFiZWw9Ik1vdGlvbiBzZW5zaXRpdml0eSIgY2xhc3NOYW1lPSJncmlkIGdhcC0zIHNtOmdyaWQtY29scy0zIj4KICAgICAge01PVElPTl9PUFRJT05TLm1hcCgob3B0aW9uKSA9PiB7CiAgICAgICAgY29uc3Qgc2VsZWN0ZWQgPSBvcHRpb24uaWQgPT09IGFjdGl2ZTsKICAgICAgICByZXR1cm4gKAogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICBrZXk9e29wdGlvbi5pZH0KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICByb2xlPSJyYWRpbyIKICAgICAgICAgICAgYXJpYS1jaGVja2VkPXtzZWxlY3RlZH0KICAgICAgICAgICAgb25DbGljaz17KCkgPT4gY2hvb3NlKG9wdGlvbi5pZCl9CiAgICAgICAgICAgIGNsYXNzTmFtZT17YHRleHQtbGVmdCByb3VuZGVkLWxnIGJvcmRlciBwLTQgdHJhbnNpdGlvbi1jb2xvcnMgJHsKICAgICAgICAgICAgICBzZWxlY3RlZAogICAgICAgICAgICAgICAgPyAiYm9yZGVyLXByaW1hcnkgYmctcHJpbWFyeS8xMCIKICAgICAgICAgICAgICAgIDogImJvcmRlci1ib3JkZXIgYmctY2FyZCBob3Zlcjpib3JkZXItcHJpbWFyeS81MCIKICAgICAgICAgICAgfWB9CiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGVyIHRleHQtc20gdXBwZXJjYXNlIj57b3B0aW9uLm5hbWV9PC9zcGFuPgogICAgICAgICAgICAgIHtzZWxlY3RlZCAmJiA8Q2hlY2sgY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtcHJpbWFyeSBzaHJpbmstMCIgYXJpYS1oaWRkZW49InRydWUiIC8+fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC0zIj57b3B0aW9uLmRlc2NyaXB0aW9ufTwvcD4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICk7CiAgICAgIH0pfQogICAgPC9kaXY+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IE1vdGlvblBpY2tlcjsK
+import { useEffect, useState } from "react";
+import { Check } from "lucide-react";
+import {
+  DEFAULT_MOTION,
+  getStoredMotion,
+  MOTION_OPTIONS,
+  setMotion,
+  type MotionPref,
+} from "@/lib/motion";
+
+const MotionPicker = () => {
+  const [active, setActive] = useState<MotionPref>(DEFAULT_MOTION);
+
+  useEffect(() => {
+    setActive(getStoredMotion());
+  }, []);
+
+  const choose = (id: MotionPref) => {
+    setMotion(id);
+    setActive(id);
+  };
+
+  return (
+    <div role="radiogroup" aria-label="Motion sensitivity" className="grid gap-3 sm:grid-cols-3">
+      {MOTION_OPTIONS.map((option) => {
+        const selected = option.id === active;
+        return (
+          <button
+            key={option.id}
+            type="button"
+            role="radio"
+            aria-checked={selected}
+            onClick={() => choose(option.id)}
+            className={`text-left rounded-lg border p-4 transition-colors ${
+              selected
+                ? "border-primary bg-primary/10"
+                : "border-border bg-card hover:border-primary/50"
+            }`}
+          >
+            <div className="flex items-center justify-between gap-3">
+              <span className="font-display tracking-wider text-sm uppercase">{option.name}</span>
+              {selected && <Check className="w-4 h-4 text-primary shrink-0" aria-hidden="true" />}
+            </div>
+            <p className="text-xs text-muted-foreground mt-3">{option.description}</p>
+          </button>
+        );
+      })}
+    </div>
+  );
+};
+
+export default MotionPicker;

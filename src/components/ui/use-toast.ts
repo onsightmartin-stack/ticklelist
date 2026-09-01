@@ -1,1 +1,3 @@
-aW1wb3J0IHsgdXNlVG9hc3QsIHRvYXN0IH0gZnJvbSAiQC9ob29rcy91c2UtdG9hc3QiOwoKZXhwb3J0IHsgdXNlVG9hc3QsIHRvYXN0IH07Cg==
+import { useToast, toast } from "@/hooks/use-toast";
+
+export { useToast, toast };

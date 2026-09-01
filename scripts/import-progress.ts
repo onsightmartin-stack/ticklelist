@@ -1,1 +1,104 @@
-LyoqCiAqIFJlY29yZHMgUGVha2JhZ2dlciBpbXBvcnQgcHJvZ3Jlc3MgaW50byBgcHVibGljLnBlYWtiYWdnZXJfaW1wb3J0X3J1bnNgCiAqIC8gYHB1YmxpYy5wZWFrYmFnZ2VyX2ltcG9ydF9ldmVudHNgIHNvIHRoZSBhZG1pbiBkYXNoYm9hcmQgY2FuIHNob3cgaXQuCiAqCiAqIFVzZXMgdGhlIHByZWNvbmZpZ3VyZWQgcHNxbCBlbnZpcm9ubWVudCAoUEdIT1NUL1BHVVNFUi8uLi4gYWxyZWFkeSBzZXQpLgogKgogKiBVc2FnZToKICogICBidW4gc2NyaXB0cy9pbXBvcnQtcHJvZ3Jlc3MudHMgc3RhcnQgLS1saXN0cy10b3RhbCA4OTAgICAgICAgICAgICAtPiBwcmludHMgcnVuIGlkCiAqICAgYnVuIHNjcmlwdHMvaW1wb3J0LXByb2dyZXNzLnRzIHVwZGF0ZSA8cnVuSWQ+IC0tbGlzdHMtZG9uZSA0MTggLS1wZWFrcyAyNjIzNCBcCiAqICAgICAgICAtLWJhdGNoZXMtYXBwbGllZCA3IC0tYmF0Y2hlcy10b3RhbCAxMiAtLXJvd3MgMTY0NzggLS1saXN0cy1ibG9ja2VkIDMKICogICBidW4gc2NyaXB0cy9pbXBvcnQtcHJvZ3Jlc3MudHMgZXJyb3IgPHJ1bklkPiAiYmF0Y2gtMDA0IGZhaWxlZDogcGVybWlzc2lvbiBkZW5pZWQiIFstLXNjb3BlIGxvYWRdCiAqICAgYnVuIHNjcmlwdHMvaW1wb3J0LXByb2dyZXNzLnRzIGxvZyA8cnVuSWQ+ICJiYXRjaC0wMDQgYXBwbGllZCIgWy0tc2NvcGUgbG9hZF0KICogICBidW4gc2NyaXB0cy9pbXBvcnQtcHJvZ3Jlc3MudHMgZmluaXNoIDxydW5JZD4gWy0tc3RhdHVzIGRvbmV8ZmFpbGVkXQogKi8KY29uc3QgYXJndiA9IHByb2Nlc3MuYXJndi5zbGljZSgyKTsKY29uc3QgY21kID0gYXJndlswXTsKCmNvbnN0IGZsYWcgPSAobmFtZTogc3RyaW5nKSA9PiB7CiAgY29uc3QgaSA9IGFyZ3YuaW5kZXhPZihgLS0ke25hbWV9YCk7CiAgcmV0dXJuIGkgPiAwID8gYXJndltpICsgMV0gOiB1bmRlZmluZWQ7Cn07CmNvbnN0IG51bSA9IChuYW1lOiBzdHJpbmcpID0+IHsKICBjb25zdCB2ID0gZmxhZyhuYW1lKTsKICByZXR1cm4gdiA9PT0gdW5kZWZpbmVkID8gdW5kZWZpbmVkIDogTnVtYmVyKHYpOwp9Owpjb25zdCBsaXQgPSAodjogc3RyaW5nKSA9PiBgJyR7di5yZXBsYWNlKC8nL2csICInJyIpfSdgOwoKY29uc3QgcHNxbCA9IGFzeW5jIChzcWw6IHN0cmluZykgPT4gewogIGNvbnN0IHByb2MgPSBCdW4uc3Bhd24oWyJwc3FsIiwgIi1BdHEiLCAiLWMiLCBzcWxdLCB7IHN0ZG91dDogInBpcGUiLCBzdGRlcnI6ICJwaXBlIiB9KTsKICBjb25zdCBbb3V0LCBlcnIsIGNvZGVdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgbmV3IFJlc3BvbnNlKHByb2Muc3Rkb3V0KS50ZXh0KCksCiAgICBuZXcgUmVzcG9uc2UocHJvYy5zdGRlcnIpLnRleHQoKSwKICAgIHByb2MuZXhpdGVkLAogIF0pOwogIGlmIChjb2RlICE9PSAwKSB0aHJvdyBuZXcgRXJyb3IoZXJyLnRyaW0oKSB8fCBgcHNxbCBleGl0ZWQgJHtjb2RlfWApOwogIHJldHVybiBvdXQudHJpbSgpOwp9OwoKY29uc3Qgc2V0UGFpcnMgPSAoKSA9PiB7CiAgY29uc3QgbWFwOiBSZWNvcmQ8c3RyaW5nLCBudW1iZXIgfCB1bmRlZmluZWQ+ID0gewogICAgbGlzdHNfdG90YWw6IG51bSgibGlzdHMtdG90YWwiKSwKICAgIGxpc3RzX2RvbmU6IG51bSgibGlzdHMtZG9uZSIpLAogICAgbGlzdHNfYmxvY2tlZDogbnVtKCJsaXN0cy1ibG9ja2VkIiksCiAgICBwZWFrc19jYXB0dXJlZDogbnVtKCJwZWFrcyIpLAogICAgYmF0Y2hlc190b3RhbDogbnVtKCJiYXRjaGVzLXRvdGFsIiksCiAgICBiYXRjaGVzX2FwcGxpZWQ6IG51bSgiYmF0Y2hlcy1hcHBsaWVkIiksCiAgICByb3dzX3Vwc2VydGVkOiBudW0oInJvd3MiKSwKICB9OwogIHJldHVybiBPYmplY3QuZW50cmllcyhtYXApCiAgICAuZmlsdGVyKChbLCB2XSkgPT4gdiAhPT0gdW5kZWZpbmVkICYmIE51bWJlci5pc0Zpbml0ZSh2KSkKICAgIC5tYXAoKFtrLCB2XSkgPT4gYCR7a30gPSAke3Z9YCk7Cn07Cgpjb25zdCBtYWluID0gYXN5bmMgKCkgPT4gewogIGlmIChjbWQgPT09ICJzdGFydCIpIHsKICAgIGNvbnN0IGlkID0gYXdhaXQgcHNxbCgKICAgICAgYElOU0VSVCBJTlRPIHB1YmxpYy5wZWFrYmFnZ2VyX2ltcG9ydF9ydW5zIChzdGF0dXMsIGxpc3RzX3RvdGFsKSBWQUxVRVMgKCdydW5uaW5nJywgJHtudW0oImxpc3RzLXRvdGFsIikgPz8gMH0pIFJFVFVSTklORyBpZDtgLAogICAgKTsKICAgIGNvbnNvbGUubG9nKGlkKTsKICAgIHJldHVybjsKICB9CgogIGNvbnN0IHJ1bklkID0gYXJndlsxXTsKICBpZiAoIXJ1bklkKSB0aHJvdyBuZXcgRXJyb3IoInJ1biBpZCByZXF1aXJlZCIpOwoKICBpZiAoY21kID09PSAidXBkYXRlIikgewogICAgY29uc3Qgc2V0cyA9IHNldFBhaXJzKCk7CiAgICBpZiAoIXNldHMubGVuZ3RoKSB0aHJvdyBuZXcgRXJyb3IoIm5vdGhpbmcgdG8gdXBkYXRlIik7CiAgICBhd2FpdCBwc3FsKAogICAgICBgVVBEQVRFIHB1YmxpYy5wZWFrYmFnZ2VyX2ltcG9ydF9ydW5zIFNFVCAke3NldHMuam9pbigiLCAiKX0sIHVwZGF0ZWRfYXQgPSBub3coKSBXSEVSRSBpZCA9ICR7bGl0KHJ1bklkKX07YCwKICAgICk7CiAgICBjb25zb2xlLmxvZygib2siKTsKICAgIHJldHVybjsKICB9CgogIGlmIChjbWQgPT09ICJlcnJvciIgfHwgY21kID09PSAibG9nIikgewogICAgY29uc3QgbWVzc2FnZSA9IGFyZ3ZbMl07CiAgICBpZiAoIW1lc3NhZ2UpIHRocm93IG5ldyBFcnJvcigibWVzc2FnZSByZXF1aXJlZCIpOwogICAgY29uc3QgbGV2ZWwgPSBjbWQgPT09ICJlcnJvciIgPyAiZXJyb3IiIDogImluZm8iOwogICAgYXdhaXQgcHNxbCgKICAgICAgYElOU0VSVCBJTlRPIHB1YmxpYy5wZWFrYmFnZ2VyX2ltcG9ydF9ldmVudHMgKHJ1bl9pZCwgbGV2ZWwsIHNjb3BlLCBtZXNzYWdlKSBWQUxVRVMgKCR7bGl0KHJ1bklkKX0sICR7bGl0KGxldmVsKX0sICR7ZmxhZygic2NvcGUiKSA/IGxpdChmbGFnKCJzY29wZSIpISkgOiAiTlVMTCJ9LCAke2xpdChtZXNzYWdlKX0pO2AsCiAgICApOwogICAgaWYgKGxldmVsID09PSAiZXJyb3IiKSB7CiAgICAgIGF3YWl0IHBzcWwoCiAgICAgICAgYFVQREFURSBwdWJsaWMucGVha2JhZ2dlcl9pbXBvcnRfcnVucyBTRVQgbGFzdF9lcnJvciA9ICR7bGl0KG1lc3NhZ2UpfSwgdXBkYXRlZF9hdCA9IG5vdygpIFdIRVJFIGlkID0gJHtsaXQocnVuSWQpfTtgLAogICAgICApOwogICAgfQogICAgY29uc29sZS5sb2coIm9rIik7CiAgICByZXR1cm47CiAgfQoKICBpZiAoY21kID09PSAiZmluaXNoIikgewogICAgY29uc3Qgc3RhdHVzID0gZmxhZygic3RhdHVzIikgPz8gImRvbmUiOwogICAgYXdhaXQgcHNxbCgKICAgICAgYFVQREFURSBwdWJsaWMucGVha2JhZ2dlcl9pbXBvcnRfcnVucyBTRVQgc3RhdHVzID0gJHtsaXQoc3RhdHVzKX0sIGZpbmlzaGVkX2F0ID0gbm93KCksIHVwZGF0ZWRfYXQgPSBub3coKSBXSEVSRSBpZCA9ICR7bGl0KHJ1bklkKX07YCwKICAgICk7CiAgICBjb25zb2xlLmxvZygib2siKTsKICAgIHJldHVybjsKICB9CgogIHRocm93IG5ldyBFcnJvcihgdW5rbm93biBjb21tYW5kOiAke2NtZH1gKTsKfTsKCmF3YWl0IG1haW4oKTsK
+/**
+ * Records Peakbagger import progress into `public.peakbagger_import_runs`
+ * / `public.peakbagger_import_events` so the admin dashboard can show it.
+ *
+ * Uses the preconfigured psql environment (PGHOST/PGUSER/... already set).
+ *
+ * Usage:
+ *   bun scripts/import-progress.ts start --lists-total 890            -> prints run id
+ *   bun scripts/import-progress.ts update <runId> --lists-done 418 --peaks 26234 \
+ *        --batches-applied 7 --batches-total 12 --rows 16478 --lists-blocked 3
+ *   bun scripts/import-progress.ts error <runId> "batch-004 failed: permission denied" [--scope load]
+ *   bun scripts/import-progress.ts log <runId> "batch-004 applied" [--scope load]
+ *   bun scripts/import-progress.ts finish <runId> [--status done|failed]
+ */
+const argv = process.argv.slice(2);
+const cmd = argv[0];
+
+const flag = (name: string) => {
+  const i = argv.indexOf(`--${name}`);
+  return i > 0 ? argv[i + 1] : undefined;
+};
+const num = (name: string) => {
+  const v = flag(name);
+  return v === undefined ? undefined : Number(v);
+};
+const lit = (v: string) => `'${v.replace(/'/g, "''")}'`;
+
+const psql = async (sql: string) => {
+  const proc = Bun.spawn(["psql", "-Atq", "-c", sql], { stdout: "pipe", stderr: "pipe" });
+  const [out, err, code] = await Promise.all([
+    new Response(proc.stdout).text(),
+    new Response(proc.stderr).text(),
+    proc.exited,
+  ]);
+  if (code !== 0) throw new Error(err.trim() || `psql exited ${code}`);
+  return out.trim();
+};
+
+const setPairs = () => {
+  const map: Record<string, number | undefined> = {
+    lists_total: num("lists-total"),
+    lists_done: num("lists-done"),
+    lists_blocked: num("lists-blocked"),
+    peaks_captured: num("peaks"),
+    batches_total: num("batches-total"),
+    batches_applied: num("batches-applied"),
+    rows_upserted: num("rows"),
+  };
+  return Object.entries(map)
+    .filter(([, v]) => v !== undefined && Number.isFinite(v))
+    .map(([k, v]) => `${k} = ${v}`);
+};
+
+const main = async () => {
+  if (cmd === "start") {
+    const id = await psql(
+      `INSERT INTO public.peakbagger_import_runs (status, lists_total) VALUES ('running', ${num("lists-total") ?? 0}) RETURNING id;`,
+    );
+    console.log(id);
+    return;
+  }
+
+  const runId = argv[1];
+  if (!runId) throw new Error("run id required");
+
+  if (cmd === "update") {
+    const sets = setPairs();
+    if (!sets.length) throw new Error("nothing to update");
+    await psql(
+      `UPDATE public.peakbagger_import_runs SET ${sets.join(", ")}, updated_at = now() WHERE id = ${lit(runId)};`,
+    );
+    console.log("ok");
+    return;
+  }
+
+  if (cmd === "error" || cmd === "log") {
+    const message = argv[2];
+    if (!message) throw new Error("message required");
+    const level = cmd === "error" ? "error" : "info";
+    await psql(
+      `INSERT INTO public.peakbagger_import_events (run_id, level, scope, message) VALUES (${lit(runId)}, ${lit(level)}, ${flag("scope") ? lit(flag("scope")!) : "NULL"}, ${lit(message)});`,
+    );
+    if (level === "error") {
+      await psql(
+        `UPDATE public.peakbagger_import_runs SET last_error = ${lit(message)}, updated_at = now() WHERE id = ${lit(runId)};`,
+      );
+    }
+    console.log("ok");
+    return;
+  }
+
+  if (cmd === "finish") {
+    const status = flag("status") ?? "done";
+    await psql(
+      `UPDATE public.peakbagger_import_runs SET status = ${lit(status)}, finished_at = now(), updated_at = now() WHERE id = ${lit(runId)};`,
+    );
+    console.log("ok");
+    return;
+  }
+
+  throw new Error(`unknown command: ${cmd}`);
+};
+
+await main();

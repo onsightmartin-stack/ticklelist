@@ -1,1 +1,6 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBBZHZlbnR1cmVzUGFnZSBmcm9tICJAL3BhZ2VzL2NvbW11bml0eS9BZHZlbnR1cmVzUGFnZSI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9jb21tdW5pdHkvYWR2ZW50dXJlcyIpKHsKICBjb21wb25lbnQ6IEFkdmVudHVyZXNQYWdlLAp9KTsK
+import { createFileRoute } from "@tanstack/react-router";
+import AdventuresPage from "@/pages/community/AdventuresPage";
+
+export const Route = createFileRoute("/community/adventures")({
+  component: AdventuresPage,
+});

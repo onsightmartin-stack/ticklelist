@@ -1,1 +1,254 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VNZW1vLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgdXNlTGlzdERlbnNpdHkgfSBmcm9tICJAL2hvb2tzL3VzZUxpc3REZW5zaXR5IjsKaW1wb3J0IERlbnNpdHlUb2dnbGUgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9EZW5zaXR5VG9nZ2xlIjsKaW1wb3J0IFNlbyBmcm9tICJAL2NvbXBvbmVudHMvU2VvIjsKaW1wb3J0IHsgTGluaywgdXNlUGFyYW1zIH0gZnJvbSAiQC9saWIvcm91dGVyLWNvbXBhdCI7CmltcG9ydCB7IE1hcFBpbiwgTW91bnRhaW4sIFVzZXJzIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IENvbW11bml0eUxheW91dCBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L0NvbW11bml0eUxheW91dCI7CgppbXBvcnQgUHJvZmlsZUF2YXRhckRpc3BsYXkgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9Qcm9maWxlQXZhdGFyRGlzcGxheSI7CmltcG9ydCBGb2xsb3dCdXR0b24gZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9Gb2xsb3dCdXR0b24iOwppbXBvcnQgQXNjZW50Q2FyZCBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L0FzY2VudENhcmQiOwppbXBvcnQgQmFkZ2VzUGFuZWwgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9CYWRnZXNQYW5lbCI7CmltcG9ydCBBZHZlbnR1cmVDYXJkIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvQWR2ZW50dXJlQ2FyZCI7CmltcG9ydCBQcm9maWxlVmlzaXRvcnMgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9Qcm9maWxlVmlzaXRvcnMiOwppbXBvcnQgU29ydFNlbGVjdCBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L1NvcnRTZWxlY3QiOwppbXBvcnQgR29hbEJveGVzIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvR29hbEJveGVzIjsKaW1wb3J0IHsgY29tcHV0ZUdvYWxzLCBkZWZhdWx0R29hbHMgfSBmcm9tICJAL2xpYi9wcm9maWxlLWdvYWxzIjsKaW1wb3J0IHsgdXNlVmlzaXRzIH0gZnJvbSAiQC9ob29rcy91c2VWaXNpdHMiOwppbXBvcnQgeyBhZHZlbnR1cmVTb3J0T3B0aW9ucywgYXNjZW50U29ydE9wdGlvbnMsIHNvcnRBZHZlbnR1cmVzLCBzb3J0QXNjZW50cyB9IGZyb20gIkAvbGliL3NvcnRpbmciOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvaG9va3MvdXNlQXV0aCI7CmltcG9ydCB7IHVzZUNvbW11bml0eURhdGEgfSBmcm9tICJAL2hvb2tzL3VzZUNvbW11bml0eURhdGEiOwppbXBvcnQgeyB1c2VBc2NlbnRDaGVlcnMgfSBmcm9tICJAL2hvb2tzL3VzZUFzY2VudENoZWVycyI7CmltcG9ydCB7IHVzZUZvbGxvd3MgfSBmcm9tICJAL2hvb2tzL3VzZUZvbGxvd3MiOwppbXBvcnQgeyB1c2VQcm9maWxlVmlld3MgfSBmcm9tICJAL2hvb2tzL3VzZVByb2ZpbGVWaWV3cyI7CmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAL2hvb2tzL3VzZS10b2FzdCI7CgoKaW50ZXJmYWNlIEZ1bGxQcm9maWxlIHsKICBpZDogc3RyaW5nOwogIGRpc3BsYXlfbmFtZTogc3RyaW5nOwogIGJpbzogc3RyaW5nIHwgbnVsbDsKICBjb3VudHJ5OiBzdHJpbmcgfCBudWxsOwogIGF2YXRhcl91cmw6IHN0cmluZyB8IG51bGw7CiAgY3JlYXRlZF9hdDogc3RyaW5nOwogIHByb2ZpbGVfZ29hbHM6IHN0cmluZ1tdIHwgbnVsbDsKfQoKY29uc3QgTWVtYmVyUHJvZmlsZVBhZ2UgPSAoKSA9PiB7CiAgY29uc3QgeyBpZCB9ID0gdXNlUGFyYW1zPHsgaWQ6IHN0cmluZyB9PigpOwogIGNvbnN0IHsgdXNlciB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IHsgYXNjZW50cywgYWR2ZW50dXJlcywgc2lnbnVwcywgcHJvZmlsZXMsIHJlbG9hZCB9ID0gdXNlQ29tbXVuaXR5RGF0YSgpOwogIGNvbnN0IHsgZm9sbG93aW5nLCBmb2xsb3dlckNvdW50cywgdG9nZ2xlRm9sbG93IH0gPSB1c2VGb2xsb3dzKCk7CiAgY29uc3QgeyBjb3VudHM6IGNoZWVyQ291bnRzLCBtaW5lOiBteUNoZWVycywgY2hlZXJlcnMsIHRvZ2dsZUNoZWVyIH0gPSB1c2VBc2NlbnRDaGVlcnMoKTsKICBjb25zdCB7IHZpc2l0czogYWxsVmlzaXRzIH0gPSB1c2VWaXNpdHMoKTsKICBjb25zdCB7IHZpc2l0cywgaXNPd25lciwgaGFzTW9yZTogaGFzTW9yZVZpc2l0cywgbG9hZGluZ01vcmU6IGxvYWRpbmdNb3JlVmlzaXRzLCBsb2FkTW9yZTogbG9hZE1vcmVWaXNpdHMgfSA9IHVzZVByb2ZpbGVWaWV3cyhpZCk7CgogIGNvbnN0IFttZW1iZXIsIHNldE1lbWJlcl0gPSB1c2VTdGF0ZTxGdWxsUHJvZmlsZSB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IHVzZVN0YXRlKHRydWUpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKCFpZCkgcmV0dXJuOwogICAgc2V0TG9hZGluZyh0cnVlKTsKICAgIHN1cGFiYXNlCiAgICAgIC5mcm9tKCJwcm9maWxlcyIpCiAgICAgIC5zZWxlY3QoImlkLCBkaXNwbGF5X25hbWUsIGJpbywgY291bnRyeSwgYXZhdGFyX3VybCwgY3JlYXRlZF9hdCwgcHJvZmlsZV9nb2FscyIpCiAgICAgIC5lcSgiaWQiLCBpZCkKICAgICAgLm1heWJlU2luZ2xlKCkKICAgICAgLnRoZW4oKHsgZGF0YSB9KSA9PiB7CiAgICAgICAgc2V0TWVtYmVyKChkYXRhIGFzIEZ1bGxQcm9maWxlKSA/PyBudWxsKTsKICAgICAgICBzZXRMb2FkaW5nKGZhbHNlKTsKICAgICAgfSk7CiAgfSwgW2lkXSk7CgogIGNvbnN0IFthc2NlbnRTb3J0LCBzZXRBc2NlbnRTb3J0XSA9IHVzZVN0YXRlKCJkYXRlX2Rlc2MiKTsKICBjb25zdCBbYWR2ZW50dXJlU29ydCwgc2V0QWR2ZW50dXJlU29ydF0gPSB1c2VTdGF0ZSgiZGF0ZV9hc2MiKTsKICBjb25zdCB0aGVpckFzY2VudHMgPSB1c2VNZW1vKAogICAgKCkgPT4gc29ydEFzY2VudHMoYXNjZW50cy5maWx0ZXIoKGEpID0+IGEudXNlcl9pZCA9PT0gaWQpLCBhc2NlbnRTb3J0KSwKICAgIFthc2NlbnRzLCBpZCwgYXNjZW50U29ydF0sCiAgKTsKICBjb25zdCB0aGVpckFkdmVudHVyZXMgPSB1c2VNZW1vKAogICAgKCkgPT4gc29ydEFkdmVudHVyZXMoYWR2ZW50dXJlcy5maWx0ZXIoKGEpID0+IGEuY3JlYXRvcl9pZCA9PT0gaWQpLCBhZHZlbnR1cmVTb3J0KSwKICAgIFthZHZlbnR1cmVzLCBpZCwgYWR2ZW50dXJlU29ydF0sCiAgKTsKICBjb25zdCB0aGVpclZpc2l0cyA9IHVzZU1lbW8oKCkgPT4gYWxsVmlzaXRzLmZpbHRlcigodikgPT4gdi51c2VyX2lkID09PSBpZCksIFthbGxWaXNpdHMsIGlkXSk7CiAgY29uc3QgbXlBc2NlbnRzID0gdXNlTWVtbygoKSA9PiAodXNlciA/IGFzY2VudHMuZmlsdGVyKChhKSA9PiBhLnVzZXJfaWQgPT09IHVzZXIuaWQpIDogW10pLCBbYXNjZW50cywgdXNlcl0pOwogIGNvbnN0IG15VmlzaXRzID0gdXNlTWVtbygoKSA9PiAodXNlciA/IGFsbFZpc2l0cy5maWx0ZXIoKHYpID0+IHYudXNlcl9pZCA9PT0gdXNlci5pZCkgOiBbXSksIFthbGxWaXNpdHMsIHVzZXJdKTsKICBjb25zdCBnb2FscyA9IHVzZU1lbW8oCiAgICAoKSA9PiBjb21wdXRlR29hbHMobWVtYmVyPy5wcm9maWxlX2dvYWxzPy5sZW5ndGggPyBtZW1iZXIucHJvZmlsZV9nb2FscyA6IGRlZmF1bHRHb2FscywgdGhlaXJBc2NlbnRzLCB0aGVpclZpc2l0cyksCiAgICBbbWVtYmVyLCB0aGVpckFzY2VudHMsIHRoZWlyVmlzaXRzXSwKICApOwogIGNvbnN0IGlzTWUgPSB1c2VyPy5pZCA9PT0gaWQ7CiAgY29uc3QgW2RlbnNpdHksIHNldERlbnNpdHldID0gdXNlTGlzdERlbnNpdHkoInByb2ZpbGUtYXNjZW50cyIsIHRoZWlyQXNjZW50cy5sZW5ndGgpOwogIGNvbnN0IFthZHZlbnR1cmVzRGVuc2l0eSwgc2V0QWR2ZW50dXJlc0RlbnNpdHldID0gdXNlTGlzdERlbnNpdHkoInByb2ZpbGUtYWR2ZW50dXJlcyIsIHRoZWlyQWR2ZW50dXJlcy5sZW5ndGgpOwoKICBjb25zdCBoYW5kbGVEZWxldGVBc2NlbnQgPSBhc3luYyAoYXNjZW50SWQ6IHN0cmluZykgPT4gewogICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgiYXNjZW50cyIpLmRlbGV0ZSgpLmVxKCJpZCIsIGFzY2VudElkKTsKICAgIGlmIChlcnJvcikgewogICAgICB0b2FzdCh7IHRpdGxlOiAiQ291bGQgbm90IGRlbGV0ZSIsIGRlc2NyaXB0aW9uOiBlcnJvci5tZXNzYWdlLCB2YXJpYW50OiAiZGVzdHJ1Y3RpdmUiIH0pOwogICAgICByZXR1cm47CiAgICB9CiAgICByZWxvYWQoKTsKICB9OwoKICByZXR1cm4gKAogICAgPENvbW11bml0eUxheW91dD4KICAgICAgPFNlbwogICAgICAgIHRpdGxlPXttZW1iZXIgPyBgJHttZW1iZXIuZGlzcGxheV9uYW1lfSDigJQgQ2xpbWJlciBQcm9maWxlIHwgVGlja2xlbGlzdGAgOiAiQ2xpbWJlciBQcm9maWxlIOKAlCBUaWNrbGVsaXN0In0KICAgICAgICBkZXNjcmlwdGlvbj17CiAgICAgICAgICBtZW1iZXIKICAgICAgICAgICAgPyBgJHttZW1iZXIuZGlzcGxheV9uYW1lfSdzIGNsaW1iaW5nIHByb2ZpbGU6IGxvZ2dlZCBhc2NlbnRzLCBjb3VudHJ5IGhpZ2ggcG9pbnRzLCBiYWRnZXMgYW5kIHBsYW5uZWQgYWR2ZW50dXJlcyBvbiBUaWNrbGVsaXN0LmAKICAgICAgICAgICAgOiAiQSBUaWNrbGVsaXN0IGNsaW1iZXIgcHJvZmlsZTogbG9nZ2VkIGFzY2VudHMsIGNvdW50cnkgaGlnaCBwb2ludHMsIGJhZGdlcyBhbmQgcGxhbm5lZCBhZHZlbnR1cmVzLiIKICAgICAgICB9CiAgICAgICAgbm9pbmRleAogICAgICAvPgoKCiAgICAgIHtsb2FkaW5nID8gKAogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRleHQtc20iPkxvYWRpbmcgcHJvZmlsZeKApjwvcD4KICAgICAgKSA6ICFtZW1iZXIgPyAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1kYXNoZWQgYm9yZGVyLWJvcmRlciBwLTEwIHRleHQtY2VudGVyIj4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlciB0ZXh0LWxnIj5DbGltYmVyIG5vdCBmb3VuZDwvaDE+CiAgICAgICAgICA8QnV0dG9uIGFzQ2hpbGQgdmFyaWFudD0ic2Vjb25kYXJ5IiBjbGFzc05hbWU9Im10LTQiPjxMaW5rIHRvPSIvY29tbXVuaXR5L21lbWJlcnMiPkJhY2sgdG8gbWVtYmVyczwvTGluaz48L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgKSA6ICgKICAgICAgICA8PgogICAgICAgICAgPGhlYWRlciBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBwLTYgZmxleCBmbGV4LXdyYXAgaXRlbXMtc3RhcnQgZ2FwLTUiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgIDxQcm9maWxlQXZhdGFyRGlzcGxheSBwYXRoPXttZW1iZXIuYXZhdGFyX3VybH0gbmFtZT17bWVtYmVyLmRpc3BsYXlfbmFtZX0gY2xhc3NOYW1lPSJoLTIwIHctMjAiIC8+CiAgICAgICAgICAgICAge2lzTWUgJiYgKAogICAgICAgICAgICAgICAgPEJ1dHRvbiBhc0NoaWxkIHZhcmlhbnQ9InNlY29uZGFyeSIgc2l6ZT0ic20iPjxMaW5rIHRvPSIvY29tbXVuaXR5L3NldHRpbmdzI2F2YXRhciI+RWRpdCBhdmF0YXI8L0xpbms+PC9CdXR0b24+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4tdy0wIGZsZXgtMSI+CiAgICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtMnhsIHRyYWNraW5nLXdpZGVyIj57bWVtYmVyLmRpc3BsYXlfbmFtZX08L2gxPgogICAgICAgICAgICAgIHttZW1iZXIuY291bnRyeSAmJiAoCiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG10LTEgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEiPgogICAgICAgICAgICAgICAgICA8TWFwUGluIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUiIC8+IHttZW1iZXIuY291bnRyeX0KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIHttZW1iZXIuYmlvICYmIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMyBtYXgtdy14bCB3aGl0ZXNwYWNlLXByZS1saW5lIj57bWVtYmVyLmJpb308L3A+fQogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtNSBtdC00IHRleHQtc20iPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+PE1vdW50YWluIGNsYXNzTmFtZT0idy00IGgtNCB0ZXh0LXByaW1hcnkiIC8+IHt0aGVpckFzY2VudHMubGVuZ3RofSBhc2NlbnRzPC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+PFVzZXJzIGNsYXNzTmFtZT0idy00IGgtNCB0ZXh0LXByaW1hcnkiIC8+IHtmb2xsb3dlckNvdW50c1ttZW1iZXIuaWRdID8/IDB9IGZvbGxvd2Vyczwvc3Bhbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0yIj4KICAgICAgICAgICAgICB7aXNNZSA/ICgKICAgICAgICAgICAgICAgIDxCdXR0b24gYXNDaGlsZCB2YXJpYW50PSJzZWNvbmRhcnkiIHNpemU9InNtIj48TGluayB0bz0iL2NvbW11bml0eS9zZXR0aW5ncyI+RWRpdCBwcm9maWxlPC9MaW5rPjwvQnV0dG9uPgogICAgICAgICAgICAgICkgOiB1c2VyID8gKAogICAgICAgICAgICAgICAgPEZvbGxvd0J1dHRvbiBpc0ZvbGxvd2luZz17Zm9sbG93aW5nLmhhcyhtZW1iZXIuaWQpfSBvblRvZ2dsZT17KCkgPT4gdG9nZ2xlRm9sbG93KG1lbWJlci5pZCl9IC8+CiAgICAgICAgICAgICAgKSA6IG51bGx9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9oZWFkZXI+CgogICAgICAgICAge2dvYWxzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9Im10LTYiPgogICAgICAgICAgICAgIDxHb2FsQm94ZXMKICAgICAgICAgICAgICAgIGdvYWxzPXtnb2Fsc30KICAgICAgICAgICAgICAgIGFzY2VudHM9e3RoZWlyQXNjZW50c30KICAgICAgICAgICAgICAgIHZpc2l0cz17dGhlaXJWaXNpdHN9CiAgICAgICAgICAgICAgICBteUFzY2VudHM9e215QXNjZW50c30KICAgICAgICAgICAgICAgIG15VmlzaXRzPXtteVZpc2l0c30KICAgICAgICAgICAgICAgIGlzTWU9e2lzTWV9CiAgICAgICAgICAgICAgICBtZW1iZXJOYW1lPXttZW1iZXIuZGlzcGxheV9uYW1lfQogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAge2lzTWUgJiYgKAogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0zIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgPExpbmsgdG89Ii9jb21tdW5pdHkvc2V0dGluZ3MjZ29hbHMiIGNsYXNzTmFtZT0idGV4dC1wcmltYXJ5IGhvdmVyOnVuZGVybGluZSI+Q2hvb3NlIHdoaWNoIGdvYWxzPC9MaW5rPiBhcHBlYXIgaGVyZSAodXAgdG8gZm91cikuCiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9zZWN0aW9uPgogICAgICAgICAgKX0KCgogICAgICAgICAge2lzT3duZXIgJiYgPFByb2ZpbGVWaXNpdG9ycyB2aXNpdHM9e3Zpc2l0c30gcHJvZmlsZXM9e3Byb2ZpbGVzfSBjbGFzc05hbWU9Im10LTYiIGhhc01vcmU9e2hhc01vcmVWaXNpdHN9IGxvYWRpbmdNb3JlPXtsb2FkaW5nTW9yZVZpc2l0c30gb25Mb2FkTW9yZT17bG9hZE1vcmVWaXNpdHN9IC8+fQoKICAgICAgICAgIDxCYWRnZXNQYW5lbCBhc2NlbnRzPXt0aGVpckFzY2VudHN9IHZpc2l0cz17dGhlaXJWaXNpdHN9IG5hbWU9e21lbWJlci5kaXNwbGF5X25hbWV9IHVzZXJJZD17bWVtYmVyLmlkfSBlZGl0YWJsZT17aXNNZX0gY2xhc3NOYW1lPSJtdC02IiAvPgoKCiAgICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9Im10LTggc3BhY2UteS00Ij4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMyI+CiAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQteGwgdHJhY2tpbmctd2lkZXIiPkFzY2VudHM8L2gyPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICB7dGhlaXJBc2NlbnRzLmxlbmd0aCA+IDEgJiYgKAogICAgICAgICAgICAgICAgICA8U29ydFNlbGVjdCB2YWx1ZT17YXNjZW50U29ydH0gb25DaGFuZ2U9e3NldEFzY2VudFNvcnR9IG9wdGlvbnM9e2FzY2VudFNvcnRPcHRpb25zfSBsYWJlbD0iU29ydCBhc2NlbnRzIiAvPgogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIHt0aGVpckFzY2VudHMubGVuZ3RoID4gMyAmJiA8RGVuc2l0eVRvZ2dsZSB2YWx1ZT17ZGVuc2l0eX0gb25DaGFuZ2U9e3NldERlbnNpdHl9IC8+fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAge3RoZWlyQXNjZW50cy5sZW5ndGggPT09IDAgPyAoCiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+Tm8gYXNjZW50cyBsb2dnZWQgeWV0LjwvcD4KICAgICAgICAgICAgKSA6IGRlbnNpdHkgIT09ICJsYXJnZSIgPyAoCiAgICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT0iZ3JpZCBzbTpncmlkLWNvbHMtMiBnYXAtMiI+CiAgICAgICAgICAgICAgICB7dGhlaXJBc2NlbnRzLm1hcCgoYSkgPT4gKAogICAgICAgICAgICAgICAgICA8bGkga2V5PXthLmlkfT4KICAgICAgICAgICAgICAgICAgICA8QXNjZW50Q2FyZAogICAgICAgICAgICAgICAgICAgICAgZGVuc2l0eT17ZGVuc2l0eX0KICAgICAgICAgICAgICAgICAgICAgIGFzY2VudD17YX0KICAgICAgICAgICAgICAgICAgICAgIHByb2ZpbGU9e3Byb2ZpbGVzW2EudXNlcl9pZF19CiAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50VXNlcklkPXt1c2VyPy5pZCA/PyBudWxsfQogICAgICAgICAgICAgICAgICAgICAgb25EZWxldGU9e2hhbmRsZURlbGV0ZUFzY2VudH0KICAgICAgICAgICAgICAgICAgICAgIGNoZWVyQ291bnQ9e2NoZWVyQ291bnRzW2EuaWRdID8/IDB9CiAgICAgICAgICAgICAgICAgICAgICBjaGVlcmVkPXtteUNoZWVycy5oYXMoYS5pZCl9CiAgICAgICAgICAgICAgICAgICAgICBvbkNoZWVyPXt0b2dnbGVDaGVlcn0KICAgICAgICAgICAgICAgICAgICAgIHByb2ZpbGVzPXtwcm9maWxlc30KICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICB0aGVpckFzY2VudHMubWFwKChhKSA9PiAoCiAgICAgICAgICAgICAgICA8QXNjZW50Q2FyZCBrZXk9e2EuaWR9IGFzY2VudD17YX0gcHJvZmlsZT17cHJvZmlsZXNbYS51c2VyX2lkXX0gY3VycmVudFVzZXJJZD17dXNlcj8uaWQgPz8gbnVsbH0gb25EZWxldGU9e2hhbmRsZURlbGV0ZUFzY2VudH0gY2hlZXJDb3VudD17Y2hlZXJDb3VudHNbYS5pZF0gPz8gMH0gY2hlZXJlZD17bXlDaGVlcnMuaGFzKGEuaWQpfSBvbkNoZWVyPXt0b2dnbGVDaGVlcn0gY2hlZXJlcnM9e2NoZWVyZXJzW2EuaWRdfSBwcm9maWxlcz17cHJvZmlsZXN9IC8+CiAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgKX0KICAgICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgICB7dGhlaXJBZHZlbnR1cmVzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9Im10LTggc3BhY2UteS00Ij4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LXhsIHRyYWNraW5nLXdpZGVyIj5QbGFubmVkIGFkdmVudHVyZXM8L2gyPgogICAgICAgICAgICAgICAge3RoZWlyQWR2ZW50dXJlcy5sZW5ndGggPiAzICYmIDxEZW5zaXR5VG9nZ2xlIHZhbHVlPXthZHZlbnR1cmVzRGVuc2l0eX0gb25DaGFuZ2U9e3NldEFkdmVudHVyZXNEZW5zaXR5fSAvPn0KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICB7YWR2ZW50dXJlc0RlbnNpdHkgIT09ICJsYXJnZSIgPyAoCiAgICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJncmlkIHNtOmdyaWQtY29scy0yIGdhcC0yIj4KICAgICAgICAgICAgICAgICAge3RoZWlyQWR2ZW50dXJlcy5tYXAoKGEpID0+ICgKICAgICAgICAgICAgICAgICAgICA8bGkga2V5PXthLmlkfT4KICAgICAgICAgICAgICAgICAgICAgIDxBZHZlbnR1cmVDYXJkCiAgICAgICAgICAgICAgICAgICAgICAgIGRlbnNpdHk9e2FkdmVudHVyZXNEZW5zaXR5fQogICAgICAgICAgICAgICAgICAgICAgICBhZHZlbnR1cmU9e2F9CiAgICAgICAgICAgICAgICAgICAgICAgIHNpZ251cHM9e3NpZ251cHMuZmlsdGVyKChzKSA9PiBzLmFkdmVudHVyZV9pZCA9PT0gYS5pZCl9CiAgICAgICAgICAgICAgICAgICAgICAgIHByb2ZpbGVzPXtwcm9maWxlc30KICAgICAgICAgICAgICAgICAgICAgICAgY3VycmVudFVzZXJJZD17dXNlcj8uaWQgPz8gbnVsbH0KICAgICAgICAgICAgICAgICAgICAgICAgb25TaWduVXA9e2FzeW5jICgpID0+IHt9fQogICAgICAgICAgICAgICAgICAgICAgICBvbldpdGhkcmF3PXthc3luYyAoKSA9PiB7fX0KICAgICAgICAgICAgICAgICAgICAgICAgb25EZWxldGU9e2FzeW5jICgpID0+IHt9fQogICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgIHRoZWlyQWR2ZW50dXJlcy5tYXAoKGEpID0+ICgKICAgICAgICAgICAgICAgICAgPEFkdmVudHVyZUNhcmQKICAgICAgICAgICAgICAgICAgICBrZXk9e2EuaWR9CiAgICAgICAgICAgICAgICAgICAgYWR2ZW50dXJlPXthfQogICAgICAgICAgICAgICAgICAgIHNpZ251cHM9e3NpZ251cHMuZmlsdGVyKChzKSA9PiBzLmFkdmVudHVyZV9pZCA9PT0gYS5pZCl9CiAgICAgICAgICAgICAgICAgICAgcHJvZmlsZXM9e3Byb2ZpbGVzfQogICAgICAgICAgICAgICAgICAgIGN1cnJlbnRVc2VySWQ9e3VzZXI/LmlkID8/IG51bGx9CiAgICAgICAgICAgICAgICAgICAgb25TaWduVXA9e2FzeW5jICgpID0+IHt9fQogICAgICAgICAgICAgICAgICAgIG9uV2l0aGRyYXc9e2FzeW5jICgpID0+IHt9fQogICAgICAgICAgICAgICAgICAgIG9uRGVsZXRlPXthc3luYyAoKSA9PiB7fX0KICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICkpCiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9zZWN0aW9uPgogICAgICAgICAgKX0KICAgICAgICA8Lz4KICAgICAgKX0KICAgIDwvQ29tbXVuaXR5TGF5b3V0PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBNZW1iZXJQcm9maWxlUGFnZTsK
+import { useEffect, useMemo, useState } from "react";
+import { useListDensity } from "@/hooks/useListDensity";
+import DensityToggle from "@/components/community/DensityToggle";
+import Seo from "@/components/Seo";
+import { Link, useParams } from "@/lib/router-compat";
+import { MapPin, Mountain, Users } from "lucide-react";
+import CommunityLayout from "@/components/community/CommunityLayout";
+
+import ProfileAvatarDisplay from "@/components/community/ProfileAvatarDisplay";
+import FollowButton from "@/components/community/FollowButton";
+import AscentCard from "@/components/community/AscentCard";
+import BadgesPanel from "@/components/community/BadgesPanel";
+import AdventureCard from "@/components/community/AdventureCard";
+import ProfileVisitors from "@/components/community/ProfileVisitors";
+import SortSelect from "@/components/community/SortSelect";
+import GoalBoxes from "@/components/community/GoalBoxes";
+import { computeGoals, defaultGoals } from "@/lib/profile-goals";
+import { useVisits } from "@/hooks/useVisits";
+import { adventureSortOptions, ascentSortOptions, sortAdventures, sortAscents } from "@/lib/sorting";
+import { Button } from "@/components/ui/button";
+import { useAuth } from "@/hooks/useAuth";
+import { useCommunityData } from "@/hooks/useCommunityData";
+import { useAscentCheers } from "@/hooks/useAscentCheers";
+import { useFollows } from "@/hooks/useFollows";
+import { useProfileViews } from "@/hooks/useProfileViews";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "@/hooks/use-toast";
+
+
+interface FullProfile {
+  id: string;
+  display_name: string;
+  bio: string | null;
+  country: string | null;
+  avatar_url: string | null;
+  created_at: string;
+  profile_goals: string[] | null;
+}
+
+const MemberProfilePage = () => {
+  const { id } = useParams<{ id: string }>();
+  const { user } = useAuth();
+  const { ascents, adventures, signups, profiles, reload } = useCommunityData();
+  const { following, followerCounts, toggleFollow } = useFollows();
+  const { counts: cheerCounts, mine: myCheers, cheerers, toggleCheer } = useAscentCheers();
+  const { visits: allVisits } = useVisits();
+  const { visits, isOwner, hasMore: hasMoreVisits, loadingMore: loadingMoreVisits, loadMore: loadMoreVisits } = useProfileViews(id);
+
+  const [member, setMember] = useState<FullProfile | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    if (!id) return;
+    setLoading(true);
+    supabase
+      .from("profiles")
+      .select("id, display_name, bio, country, avatar_url, created_at, profile_goals")
+      .eq("id", id)
+      .maybeSingle()
+      .then(({ data }) => {
+        setMember((data as FullProfile) ?? null);
+        setLoading(false);
+      });
+  }, [id]);
+
+  const [ascentSort, setAscentSort] = useState("date_desc");
+  const [adventureSort, setAdventureSort] = useState("date_asc");
+  const theirAscents = useMemo(
+    () => sortAscents(ascents.filter((a) => a.user_id === id), ascentSort),
+    [ascents, id, ascentSort],
+  );
+  const theirAdventures = useMemo(
+    () => sortAdventures(adventures.filter((a) => a.creator_id === id), adventureSort),
+    [adventures, id, adventureSort],
+  );
+  const theirVisits = useMemo(() => allVisits.filter((v) => v.user_id === id), [allVisits, id]);
+  const myAscents = useMemo(() => (user ? ascents.filter((a) => a.user_id === user.id) : []), [ascents, user]);
+  const myVisits = useMemo(() => (user ? allVisits.filter((v) => v.user_id === user.id) : []), [allVisits, user]);
+  const goals = useMemo(
+    () => computeGoals(member?.profile_goals?.length ? member.profile_goals : defaultGoals, theirAscents, theirVisits),
+    [member, theirAscents, theirVisits],
+  );
+  const isMe = user?.id === id;
+  const [density, setDensity] = useListDensity("profile-ascents", theirAscents.length);
+  const [adventuresDensity, setAdventuresDensity] = useListDensity("profile-adventures", theirAdventures.length);
+
+  const handleDeleteAscent = async (ascentId: string) => {
+    const { error } = await supabase.from("ascents").delete().eq("id", ascentId);
+    if (error) {
+      toast({ title: "Could not delete", description: error.message, variant: "destructive" });
+      return;
+    }
+    reload();
+  };
+
+  return (
+    <CommunityLayout>
+      <Seo
+        title={member ? `${member.display_name} — Climber Profile | Ticklelist` : "Climber Profile — Ticklelist"}
+        description={
+          member
+            ? `${member.display_name}'s climbing profile: logged ascents, country high points, badges and planned adventures on Ticklelist.`
+            : "A Ticklelist climber profile: logged ascents, country high points, badges and planned adventures."
+        }
+        noindex
+      />
+
+
+      {loading ? (
+        <p className="text-muted-foreground text-sm">Loading profile…</p>
+      ) : !member ? (
+        <div className="rounded-lg border border-dashed border-border p-10 text-center">
+          <h1 className="font-display tracking-wider text-lg">Climber not found</h1>
+          <Button asChild variant="secondary" className="mt-4"><Link to="/community/members">Back to members</Link></Button>
+        </div>
+      ) : (
+        <>
+          <header className="rounded-lg border border-border bg-card p-6 flex flex-wrap items-start gap-5">
+            <div className="flex flex-col items-center gap-2">
+              <ProfileAvatarDisplay path={member.avatar_url} name={member.display_name} className="h-20 w-20" />
+              {isMe && (
+                <Button asChild variant="secondary" size="sm"><Link to="/community/settings#avatar">Edit avatar</Link></Button>
+              )}
+            </div>
+            <div className="min-w-0 flex-1">
+              <h1 className="font-display text-2xl tracking-wider">{member.display_name}</h1>
+              {member.country && (
+                <p className="text-sm text-muted-foreground mt-1 flex items-center gap-1">
+                  <MapPin className="w-3.5 h-3.5" /> {member.country}
+                </p>
+              )}
+              {member.bio && <p className="text-sm text-muted-foreground mt-3 max-w-xl whitespace-pre-line">{member.bio}</p>}
+              <div className="flex flex-wrap gap-5 mt-4 text-sm">
+                <span className="flex items-center gap-1"><Mountain className="w-4 h-4 text-primary" /> {theirAscents.length} ascents</span>
+                <span className="flex items-center gap-1"><Users className="w-4 h-4 text-primary" /> {followerCounts[member.id] ?? 0} followers</span>
+              </div>
+            </div>
+            <div className="flex gap-2">
+              {isMe ? (
+                <Button asChild variant="secondary" size="sm"><Link to="/community/settings">Edit profile</Link></Button>
+              ) : user ? (
+                <FollowButton isFollowing={following.has(member.id)} onToggle={() => toggleFollow(member.id)} />
+              ) : null}
+            </div>
+          </header>
+
+          {goals.length > 0 && (
+            <section className="mt-6">
+              <GoalBoxes
+                goals={goals}
+                ascents={theirAscents}
+                visits={theirVisits}
+                myAscents={myAscents}
+                myVisits={myVisits}
+                isMe={isMe}
+                memberName={member.display_name}
+              />
+              {isMe && (
+                <p className="mt-3 text-xs text-muted-foreground">
+                  <Link to="/community/settings#goals" className="text-primary hover:underline">Choose which goals</Link> appear here (up to four).
+                </p>
+              )}
+            </section>
+          )}
+
+
+          {isOwner && <ProfileVisitors visits={visits} profiles={profiles} className="mt-6" hasMore={hasMoreVisits} loadingMore={loadingMoreVisits} onLoadMore={loadMoreVisits} />}
+
+          <BadgesPanel ascents={theirAscents} visits={theirVisits} name={member.display_name} userId={member.id} editable={isMe} className="mt-6" />
+
+
+          <section className="mt-8 space-y-4">
+            <div className="flex items-center justify-between gap-3">
+              <h2 className="font-display text-xl tracking-wider">Ascents</h2>
+              <div className="flex items-center gap-2">
+                {theirAscents.length > 1 && (
+                  <SortSelect value={ascentSort} onChange={setAscentSort} options={ascentSortOptions} label="Sort ascents" />
+                )}
+                {theirAscents.length > 3 && <DensityToggle value={density} onChange={setDensity} />}
+              </div>
+            </div>
+            {theirAscents.length === 0 ? (
+              <p className="text-sm text-muted-foreground">No ascents logged yet.</p>
+            ) : density !== "large" ? (
+              <ul className="grid sm:grid-cols-2 gap-2">
+                {theirAscents.map((a) => (
+                  <li key={a.id}>
+                    <AscentCard
+                      density={density}
+                      ascent={a}
+                      profile={profiles[a.user_id]}
+                      currentUserId={user?.id ?? null}
+                      onDelete={handleDeleteAscent}
+                      cheerCount={cheerCounts[a.id] ?? 0}
+                      cheered={myCheers.has(a.id)}
+                      onCheer={toggleCheer}
+                      profiles={profiles}
+                    />
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              theirAscents.map((a) => (
+                <AscentCard key={a.id} ascent={a} profile={profiles[a.user_id]} currentUserId={user?.id ?? null} onDelete={handleDeleteAscent} cheerCount={cheerCounts[a.id] ?? 0} cheered={myCheers.has(a.id)} onCheer={toggleCheer} cheerers={cheerers[a.id]} profiles={profiles} />
+              ))
+            )}
+          </section>
+
+          {theirAdventures.length > 0 && (
+            <section className="mt-8 space-y-4">
+              <div className="flex items-center justify-between gap-3">
+                <h2 className="font-display text-xl tracking-wider">Planned adventures</h2>
+                {theirAdventures.length > 3 && <DensityToggle value={adventuresDensity} onChange={setAdventuresDensity} />}
+              </div>
+              {adventuresDensity !== "large" ? (
+                <ul className="grid sm:grid-cols-2 gap-2">
+                  {theirAdventures.map((a) => (
+                    <li key={a.id}>
+                      <AdventureCard
+                        density={adventuresDensity}
+                        adventure={a}
+                        signups={signups.filter((s) => s.adventure_id === a.id)}
+                        profiles={profiles}
+                        currentUserId={user?.id ?? null}
+                        onSignUp={async () => {}}
+                        onWithdraw={async () => {}}
+                        onDelete={async () => {}}
+                      />
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                theirAdventures.map((a) => (
+                  <AdventureCard
+                    key={a.id}
+                    adventure={a}
+                    signups={signups.filter((s) => s.adventure_id === a.id)}
+                    profiles={profiles}
+                    currentUserId={user?.id ?? null}
+                    onSignUp={async () => {}}
+                    onWithdraw={async () => {}}
+                    onDelete={async () => {}}
+                  />
+                ))
+              )}
+            </section>
+          )}
+        </>
+      )}
+    </CommunityLayout>
+  );
+};
+
+export default MemberProfilePage;

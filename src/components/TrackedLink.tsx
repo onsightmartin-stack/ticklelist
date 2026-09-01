@@ -1,1 +1,32 @@
-aW1wb3J0IHR5cGUgeyBBbmNob3JIVE1MQXR0cmlidXRlcyB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgdHJhY2tPdXRib3VuZENsaWNrIH0gZnJvbSAiQC9saWIvdHJhY2stY2xpY2siOwoKaW50ZXJmYWNlIFByb3BzIGV4dGVuZHMgQW5jaG9ySFRNTEF0dHJpYnV0ZXM8SFRNTEFuY2hvckVsZW1lbnQ+IHsKICBocmVmOiBzdHJpbmc7CiAgLyoqIENsaWNrIGNhdGVnb3J5LCBlLmcuICJ5b3V0dWJlX3ZpZGVvIiBvciAieW91dHViZV9jaGFubmVsIi4gKi8KICBraW5kOiBzdHJpbmc7CiAgdmlkZW9JZD86IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQ7CiAgLyoqIEh1bWFuIGxhYmVsIHNob3duIGluIHRoZSBzdGF0cyBkYXNoYm9hcmQsIGUuZy4gdGhlIHZpZGVvIG9yIHBlYWsgbmFtZS4gKi8KICB0cmFja0xhYmVsPzogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZDsKfQoKLyoqCiAqIEV4dGVybmFsIGxpbmsgdGhhdCByZWNvcmRzIHRoZSBjbGljayBiZWZvcmUgb3BlbmluZywgc28gdGhlIFlvdVR1YmUgc3RhdHMKICogcGFnZSBjYW4gc2hvdyB3aGljaCBsaW5rcyB2aXNpdG9ycyBhY3R1YWxseSB1c2UuCiAqLwpjb25zdCBUcmFja2VkTGluayA9ICh7IGhyZWYsIGtpbmQsIHZpZGVvSWQsIHRyYWNrTGFiZWwsIG9uQ2xpY2ssIGNoaWxkcmVuLCAuLi5yZXN0IH06IFByb3BzKSA9PiAoCiAgPGEKICAgIGhyZWY9e2hyZWZ9CiAgICB0YXJnZXQ9Il9ibGFuayIKICAgIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIKICAgIG9uQ2xpY2s9eyhlKSA9PiB7CiAgICAgIHRyYWNrT3V0Ym91bmRDbGljayh7IGtpbmQsIHVybDogaHJlZiwgdmlkZW9JZCwgbGFiZWw6IHRyYWNrTGFiZWwgfSk7CiAgICAgIG9uQ2xpY2s/LihlKTsKICAgIH19CiAgICB7Li4ucmVzdH0KICA+CiAgICB7Y2hpbGRyZW59CiAgPC9hPgopOwoKZXhwb3J0IGRlZmF1bHQgVHJhY2tlZExpbms7Cg==
+import type { AnchorHTMLAttributes } from "react";
+import { trackOutboundClick } from "@/lib/track-click";
+
+interface Props extends AnchorHTMLAttributes<HTMLAnchorElement> {
+  href: string;
+  /** Click category, e.g. "youtube_video" or "youtube_channel". */
+  kind: string;
+  videoId?: string | null | undefined;
+  /** Human label shown in the stats dashboard, e.g. the video or peak name. */
+  trackLabel?: string | null | undefined;
+}
+
+/**
+ * External link that records the click before opening, so the YouTube stats
+ * page can show which links visitors actually use.
+ */
+const TrackedLink = ({ href, kind, videoId, trackLabel, onClick, children, ...rest }: Props) => (
+  <a
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+    onClick={(e) => {
+      trackOutboundClick({ kind, url: href, videoId, label: trackLabel });
+      onClick?.(e);
+    }}
+    {...rest}
+  >
+    {children}
+  </a>
+);
+
+export default TrackedLink;

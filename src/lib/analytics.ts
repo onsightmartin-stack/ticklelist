@@ -1,1 +1,76 @@
-aW1wb3J0IHsgdXNlRWZmZWN0IH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyB1c2VSb3V0ZXJTdGF0ZSB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwoKLyoqCiAqIEdBNCAoR29vZ2xlIEFuYWx5dGljcyA0KSBtZWFzdXJlbWVudCBJRC4gUmVhZCBmcm9tIHRoZSBMb3ZhYmxlIEdvb2dsZQogKiBBbmFseXRpY3MgY29ubmVjdG9yIGVudiB2YXIgd2hlbiBwcmVzZW50LCBvciBhIG1hbnVhbCBWSVRFX0dBX01FQVNVUkVNRU5UX0lELgogKiBNZWFzdXJlbWVudCBJRHMgYXJlIHB1Ymxpc2hhYmxlLCBzbyB0aGlzIGlzIHNhZmUgdG8gZXhwb3NlIGNsaWVudC1zaWRlLgogKi8KY29uc3QgZW52ID0gaW1wb3J0Lm1ldGEuZW52IGFzIFJlY29yZDxzdHJpbmcsIHN0cmluZyB8IHVuZGVmaW5lZD47CmNvbnN0IEdBX01FQVNVUkVNRU5UX0lEID0KICBlbnZbJ1ZJVEVfTE9WQUJMRV9DT05ORUNUT1JfR09PR0xFX0FOQUxZVElDU19BUElfS0VZJ10gfHwgZW52WydWSVRFX0dBX01FQVNVUkVNRU5UX0lEJ10gfHwgIiI7CgpkZWNsYXJlIGdsb2JhbCB7CiAgaW50ZXJmYWNlIFdpbmRvdyB7CiAgICBkYXRhTGF5ZXI/OiB1bmtub3duW107CiAgICBndGFnPzogKC4uLmFyZ3M6IHVua25vd25bXSkgPT4gdm9pZDsKICB9Cn0KCmxldCBpbml0aWFsaXNlZCA9IGZhbHNlOwoKLyoqIEluamVjdCB0aGUgZ3RhZy5qcyBzbmlwcGV0IG9uY2UsIHRoZSBmaXJzdCB0aW1lIGEgdHJhY2sgY2FsbCBydW5zLiAqLwpmdW5jdGlvbiBlbnN1cmVJbml0KCkgewogIGlmIChpbml0aWFsaXNlZCB8fCB0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIiB8fCAhR0FfTUVBU1VSRU1FTlRfSUQpIHJldHVybjsKICBpZiAod2luZG93Lmd0YWcpIHsKICAgIGluaXRpYWxpc2VkID0gdHJ1ZTsKICAgIHJldHVybjsKICB9CiAgY29uc3Qgc2NyaXB0ID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7CiAgc2NyaXB0LmFzeW5jID0gdHJ1ZTsKICBzY3JpcHQuc3JjID0gYGh0dHBzOi8vd3d3Lmdvb2dsZXRhZ21hbmFnZXIuY29tL2d0YWcvanM/aWQ9JHtHQV9NRUFTVVJFTUVOVF9JRH1gOwogIGRvY3VtZW50LmhlYWQuYXBwZW5kQ2hpbGQoc2NyaXB0KTsKICB3aW5kb3cuZGF0YUxheWVyID0gd2luZG93LmRhdGFMYXllciB8fCBbXTsKICB3aW5kb3cuZ3RhZyA9IGZ1bmN0aW9uIGd0YWcoLi4uYXJnczogdW5rbm93bltdKSB7CiAgICB3aW5kb3cuZGF0YUxheWVyIS5wdXNoKGFyZ3MpOwogIH07CiAgd2luZG93Lmd0YWcoImpzIiwgbmV3IERhdGUoKSk7CiAgLy8gV2UgZmlyZSBwYWdlX3ZpZXcgbWFudWFsbHkgb24gcm91dGUgY2hhbmdlcywgc28gZGlzYWJsZSB0aGUgYXV0byBvbmUuCiAgd2luZG93Lmd0YWcoImNvbmZpZyIsIEdBX01FQVNVUkVNRU5UX0lELCB7IHNlbmRfcGFnZV92aWV3OiBmYWxzZSB9KTsKICBpbml0aWFsaXNlZCA9IHRydWU7Cn0KCmV4cG9ydCBmdW5jdGlvbiBpc0FuYWx5dGljc0VuYWJsZWQoKSB7CiAgcmV0dXJuIEJvb2xlYW4oR0FfTUVBU1VSRU1FTlRfSUQpOwp9CgovKiogRmlyZSBhIEdBNCBwYWdlX3ZpZXcgZm9yIHRoZSBnaXZlbiBwYXRoLiBTYWZlIHRvIGNhbGwgb24gZXZlcnkgcm91dGUgY2hhbmdlLiAqLwpleHBvcnQgZnVuY3Rpb24gdHJhY2tQYWdlVmlldyhwYXRoOiBzdHJpbmcpIHsKICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHJldHVybjsKICBlbnN1cmVJbml0KCk7CiAgaWYgKCF3aW5kb3cuZ3RhZykgcmV0dXJuOwogIHdpbmRvdy5ndGFnKCJldmVudCIsICJwYWdlX3ZpZXciLCB7CiAgICBwYWdlX3BhdGg6IHBhdGgsCiAgICBwYWdlX2xvY2F0aW9uOiB3aW5kb3cubG9jYXRpb24uaHJlZiwKICB9KTsKfQoKLyoqIEZpcmUgYSBjdXN0b20gR0E0IGV2ZW50IChlLmcuIGNvbnZlcnNpb24pLiBOby1vcHMgdW50aWwgYSBtZWFzdXJlbWVudCBJRCBpcyBzZXQuICovCmV4cG9ydCBmdW5jdGlvbiB0cmFja0V2ZW50KG5hbWU6IHN0cmluZywgcGFyYW1zOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiA9IHt9KSB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm47CiAgZW5zdXJlSW5pdCgpOwogIGlmICghd2luZG93Lmd0YWcpIHJldHVybjsKICB3aW5kb3cuZ3RhZygiZXZlbnQiLCBuYW1lLCBwYXJhbXMpOwp9CgovKioKICogTW91bnQgb25jZSBpbiB0aGUgcm9vdCBsYXlvdXQuIEZpcmVzIGEgcGFnZV92aWV3IG9uIHRoZSBpbml0aWFsIGxvYWQgYW5kIG9uCiAqIGV2ZXJ5IGNsaWVudC1zaWRlIG5hdmlnYXRpb24uIFVzZXMgcmVhY3RpdmUgcm91dGVyIHN0YXRlIHNvIGl0IHJlLXJ1bnMgb24KICogcGF0aCBjaGFuZ2VzLiBTU1Itc2FmZTogdGhlIGVmZmVjdCBvbmx5IHJ1bnMgaW4gdGhlIGJyb3dzZXIuCiAqLwpleHBvcnQgZnVuY3Rpb24gdXNlQW5hbHl0aWNzUGFnZVZpZXdzKCkgewogIGNvbnN0IHBhdGhuYW1lID0gdXNlUm91dGVyU3RhdGUoeyBzZWxlY3Q6IChzKSA9PiBzLmxvY2F0aW9uLnBhdGhuYW1lIH0pOwogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICB0cmFja1BhZ2VWaWV3KHBhdGhuYW1lKTsKICB9LCBbcGF0aG5hbWVdKTsKfQo=
+import { useEffect } from "react";
+import { useRouterState } from "@tanstack/react-router";
+
+/**
+ * GA4 (Google Analytics 4) measurement ID. Read from the Lovable Google
+ * Analytics connector env var when present, or a manual VITE_GA_MEASUREMENT_ID.
+ * Measurement IDs are publishable, so this is safe to expose client-side.
+ */
+const env = import.meta.env as Record<string, string | undefined>;
+const GA_MEASUREMENT_ID =
+  env['VITE_LOVABLE_CONNECTOR_GOOGLE_ANALYTICS_API_KEY'] || env['VITE_GA_MEASUREMENT_ID'] || "";
+
+declare global {
+  interface Window {
+    dataLayer?: unknown[];
+    gtag?: (...args: unknown[]) => void;
+  }
+}
+
+let initialised = false;
+
+/** Inject the gtag.js snippet once, the first time a track call runs. */
+function ensureInit() {
+  if (initialised || typeof window === "undefined" || !GA_MEASUREMENT_ID) return;
+  if (window.gtag) {
+    initialised = true;
+    return;
+  }
+  const script = document.createElement("script");
+  script.async = true;
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+  document.head.appendChild(script);
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function gtag(...args: unknown[]) {
+    window.dataLayer!.push(args);
+  };
+  window.gtag("js", new Date());
+  // We fire page_view manually on route changes, so disable the auto one.
+  window.gtag("config", GA_MEASUREMENT_ID, { send_page_view: false });
+  initialised = true;
+}
+
+export function isAnalyticsEnabled() {
+  return Boolean(GA_MEASUREMENT_ID);
+}
+
+/** Fire a GA4 page_view for the given path. Safe to call on every route change. */
+export function trackPageView(path: string) {
+  if (typeof window === "undefined") return;
+  ensureInit();
+  if (!window.gtag) return;
+  window.gtag("event", "page_view", {
+    page_path: path,
+    page_location: window.location.href,
+  });
+}
+
+/** Fire a custom GA4 event (e.g. conversion). No-ops until a measurement ID is set. */
+export function trackEvent(name: string, params: Record<string, unknown> = {}) {
+  if (typeof window === "undefined") return;
+  ensureInit();
+  if (!window.gtag) return;
+  window.gtag("event", name, params);
+}
+
+/**
+ * Mount once in the root layout. Fires a page_view on the initial load and on
+ * every client-side navigation. Uses reactive router state so it re-runs on
+ * path changes. SSR-safe: the effect only runs in the browser.
+ */
+export function useAnalyticsPageViews() {
+  const pathname = useRouterState({ select: (s) => s.location.pathname });
+  useEffect(() => {
+    trackPageView(pathname);
+  }, [pathname]);
+}

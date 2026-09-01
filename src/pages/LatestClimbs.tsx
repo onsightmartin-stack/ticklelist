@@ -1,1 +1,295 @@
-aW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IExpbmsgfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKaW1wb3J0IHsgdXNlUXVlcnksIHVzZU11dGF0aW9uLCB1c2VRdWVyeUNsaWVudCB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1xdWVyeSI7CmltcG9ydCBTZW8gZnJvbSAiQC9jb21wb25lbnRzL1NlbyI7CmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IE5hdmJhciBmcm9tICJAL2NvbXBvbmVudHMvTmF2YmFyIjsKaW1wb3J0IHsgWW91dHViZSwgQ2hlY2tDaXJjbGUyLCBYQ2lyY2xlLCBDbG9jaywgUmVmcmVzaEN3LCBNb3VudGFpbiwgRXh0ZXJuYWxMaW5rLCBBcnJvd1JpZ2h0IH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJzb25uZXIiOwppbXBvcnQgeyBzbHVnaWZ5IH0gZnJvbSAiQC9saWIvc2x1ZyI7CmltcG9ydCB7IGFzY2VudExpbmtGb3JDb3VudHJ5IH0gZnJvbSAiQC9saWIvcGVhay1tYXRjaCI7Cgp0eXBlIFlvdXR1YmVDbGltYiA9IHsKICBpZDogc3RyaW5nOwogIHZpZGVvX2lkOiBzdHJpbmc7CiAgdmlkZW9fdGl0bGU6IHN0cmluZzsKICB2aWRlb19kZXNjcmlwdGlvbjogc3RyaW5nIHwgbnVsbDsKICB2aWRlb191cmw6IHN0cmluZzsKICB0aHVtYm5haWxfdXJsOiBzdHJpbmcgfCBudWxsOwogIHB1Ymxpc2hlZF9hdDogc3RyaW5nIHwgbnVsbDsKICBwZWFrX25hbWU6IHN0cmluZyB8IG51bGw7CiAgY291bnRyeTogc3RyaW5nIHwgbnVsbDsKICBjb250aW5lbnQ6IHN0cmluZyB8IG51bGw7CiAgZWxldmF0aW9uOiBzdHJpbmcgfCBudWxsOwogIGNsaW1iX2RhdGU6IHN0cmluZyB8IG51bGw7CiAgc3RhdHVzOiBzdHJpbmc7CiAgY3JlYXRlZF9hdDogc3RyaW5nOwp9OwoKdHlwZSBGaWx0ZXJTdGF0dXMgPSAiYWxsIiB8ICJwZW5kaW5nIiB8ICJjb25maXJtZWQiIHwgInJlamVjdGVkIjsKCmNvbnN0IHN0YXR1c0ljb25zOiBSZWNvcmQ8c3RyaW5nLCB0eXBlb2YgQ2hlY2tDaXJjbGUyPiA9IHsKICBwZW5kaW5nOiBDbG9jaywKICBjb25maXJtZWQ6IENoZWNrQ2lyY2xlMiwKICByZWplY3RlZDogWENpcmNsZSwKfTsKCmNvbnN0IHN0YXR1c0NvbG9yczogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICBwZW5kaW5nOiAidGV4dC15ZWxsb3ctNTAwIiwKICBjb25maXJtZWQ6ICJ0ZXh0LWljZSIsCiAgcmVqZWN0ZWQ6ICJ0ZXh0LWRlc3RydWN0aXZlIiwKfTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIExhdGVzdENsaW1icygpIHsKICBjb25zdCBbZmlsdGVyLCBzZXRGaWx0ZXJdID0gdXNlU3RhdGU8RmlsdGVyU3RhdHVzPigiYWxsIik7CiAgY29uc3QgcXVlcnlDbGllbnQgPSB1c2VRdWVyeUNsaWVudCgpOwoKICBjb25zdCB7IGRhdGE6IGNsaW1icyA9IFtdLCBpc0xvYWRpbmcsIGVycm9yIH0gPSB1c2VRdWVyeSh7CiAgICBxdWVyeUtleTogWyJ5b3V0dWJlLWNsaW1icyJdLAogICAgcXVlcnlGbjogYXN5bmMgKCkgPT4gewogICAgICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAgIC5mcm9tKCJ5b3V0dWJlX2NsaW1icyIpCiAgICAgICAgLnNlbGVjdCgiKiIpCiAgICAgICAgLm9yZGVyKCJwdWJsaXNoZWRfYXQiLCB7IGFzY2VuZGluZzogZmFsc2UgfSk7CiAgICAgIGlmIChlcnJvcikgdGhyb3cgZXJyb3I7CiAgICAgIHJldHVybiBkYXRhIGFzIFlvdXR1YmVDbGltYltdOwogICAgfSwKICB9KTsKCiAgY29uc3Qgc3luY011dGF0aW9uID0gdXNlTXV0YXRpb24oewogICAgbXV0YXRpb25GbjogYXN5bmMgKCkgPT4gewogICAgICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5mdW5jdGlvbnMuaW52b2tlKCJzeW5jLXlvdXR1YmUtY2xpbWJzIik7CiAgICAgIGlmIChlcnJvcikgdGhyb3cgZXJyb3I7CiAgICAgIHJldHVybiBkYXRhOwogICAgfSwKICAgIG9uU3VjY2VzczogKGRhdGEpID0+IHsKICAgICAgdG9hc3Quc3VjY2VzcyhkYXRhLm1lc3NhZ2UgfHwgIlN5bmMgY29tcGxldGUhIik7CiAgICAgIHF1ZXJ5Q2xpZW50LmludmFsaWRhdGVRdWVyaWVzKHsgcXVlcnlLZXk6IFsieW91dHViZS1jbGltYnMiXSB9KTsKICAgIH0sCiAgICBvbkVycm9yOiAoZXJyKSA9PiB7CiAgICAgIHRvYXN0LmVycm9yKGBTeW5jIGZhaWxlZDogJHtlcnIubWVzc2FnZX1gKTsKICAgIH0sCiAgfSk7CgogIGNvbnN0IGZpbHRlcmVkID0gZmlsdGVyID09PSAiYWxsIiA/IGNsaW1icyA6IGNsaW1icy5maWx0ZXIoKGMpID0+IGMuc3RhdHVzID09PSBmaWx0ZXIpOwogIGNvbnN0IHBlbmRpbmdDb3VudCA9IGNsaW1icy5maWx0ZXIoKGMpID0+IGMuc3RhdHVzID09PSAicGVuZGluZyIpLmxlbmd0aDsKICBjb25zdCBjb25maXJtZWRDb3VudCA9IGNsaW1icy5maWx0ZXIoKGMpID0+IGMuc3RhdHVzID09PSAiY29uZmlybWVkIikubGVuZ3RoOwoKICBjb25zdCB2aWRlb1NjaGVtYSA9IGNsaW1icwogICAgLmZpbHRlcigoYykgPT4gYy5zdGF0dXMgPT09ICJjb25maXJtZWQiKQogICAgLnNsaWNlKDAsIDI1KQogICAgLm1hcCgoYykgPT4gKHsKICAgICAgIkBjb250ZXh0IjogImh0dHBzOi8vc2NoZW1hLm9yZyIsCiAgICAgICJAdHlwZSI6ICJWaWRlb09iamVjdCIsCiAgICAgIG5hbWU6IGMudmlkZW9fdGl0bGUsCiAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgIGMudmlkZW9fZGVzY3JpcHRpb24/LnNsaWNlKDAsIDMwMCkgfHwKICAgICAgICBgU3VtbWl0IHZpZGVvJHtjLnBlYWtfbmFtZSA/IGAgZnJvbSAke2MucGVha19uYW1lfWAgOiAiIn0ke2MuY291bnRyeSA/IGAsICR7Yy5jb3VudHJ5fWAgOiAiIn0gYnkgT25zaWdodCBNYXJ0aW4uYCwKICAgICAgdGh1bWJuYWlsVXJsOiBjLnRodW1ibmFpbF91cmwgPyBbYy50aHVtYm5haWxfdXJsXSA6IHVuZGVmaW5lZCwKICAgICAgdXBsb2FkRGF0ZTogYy5wdWJsaXNoZWRfYXQgfHwgdW5kZWZpbmVkLAogICAgICBjb250ZW50VXJsOiBjLnZpZGVvX3VybCwKICAgICAgZW1iZWRVcmw6IGBodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC8ke2MudmlkZW9faWR9YCwKICAgICAgcHVibGlzaGVyOiB7CiAgICAgICAgIkB0eXBlIjogIk9yZ2FuaXphdGlvbiIsCiAgICAgICAgbmFtZTogIk9uc2lnaHQgTWFydGluIiwKICAgICAgfSwKICAgIH0pKTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctYmFja2dyb3VuZCI+CiAgICAgIDxTZW8KICAgICAgICB0aXRsZT0iTGF0ZXN0IENsaW1icyDigJQgU3VtbWl0IFZpZGVvcyAmIFRyaXAgUmVwb3J0cyIKICAgICAgICBkZXNjcmlwdGlvbj0iV2F0Y2ggdGhlIG5ld2VzdCBzdW1taXQgdmlkZW9zIGZyb20gTWFydGluIEfDpXJkbGluZydzIG1pc3Npb24gdG8gY2xpbWIgdGhlIGhpZ2hlc3QgbW91bnRhaW4gb2YgZXZlcnkgY291bnRyeSDigJQgcm91dGVzLCBjb25kaXRpb25zIGFuZCBmdWxsIHRyaXAgcmVwb3J0cy4iCiAgICAgICAgcGF0aD0iL2xhdGVzdCIKICAgICAgICBqc29uTGQ9e3ZpZGVvU2NoZW1hfQogICAgICAvPgogICAgICA8TmF2YmFyIC8+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIG14LWF1dG8gcHgtNCBwdC0yNCBwYi0xNiI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgbWQ6ZmxleC1yb3cgbWQ6aXRlbXMtZW5kIGp1c3RpZnktYmV0d2VlbiBnYXAtNCBtYi04Ij4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTN4bCBtZDp0ZXh0LTR4bCBmb250LWJvbGQgdGV4dC1mb3JlZ3JvdW5kIG1iLTIiPgogICAgICAgICAgICAgIExhdGVzdCBmcm9tIFlvdVR1YmUKICAgICAgICAgICAgPC9oMT4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgbWF4LXctbGciPgogICAgICAgICAgICAgIEF1dG8tZGV0ZWN0ZWQgY2xpbWJzIGZyb20gdGhleyIgIn0KICAgICAgICAgICAgICA8YQogICAgICAgICAgICAgICAgaHJlZj0iaHR0cHM6Ly93d3cueW91dHViZS5jb20vQG9uc2lnaHRtYXJ0aW4iCiAgICAgICAgICAgICAgICB0YXJnZXQ9Il9ibGFuayIKICAgICAgICAgICAgICAgIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1wcmltYXJ5IGhvdmVyOnVuZGVybGluZSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICBPbnNpZ2h0IE1hcnRpbgogICAgICAgICAgICAgIDwvYT57IiAifQogICAgICAgICAgICAgIFlvdVR1YmUgY2hhbm5lbCwgYW5hbHl6ZWQgYnkgQUkuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzeW5jTXV0YXRpb24ubXV0YXRlKCl9CiAgICAgICAgICAgIGRpc2FibGVkPXtzeW5jTXV0YXRpb24uaXNQZW5kaW5nfQogICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIGJnLXByaW1hcnkgdGV4dC1wcmltYXJ5LWZvcmVncm91bmQgcHgtNSBweS0zIHJvdW5kZWQtc20gZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGVyIHRleHQtc20gaG92ZXI6YmctcHJpbWFyeS85MCB0cmFuc2l0aW9uLWNvbG9ycyBkaXNhYmxlZDpvcGFjaXR5LTUwIgogICAgICAgICAgPgogICAgICAgICAgICA8UmVmcmVzaEN3IGNsYXNzTmFtZT17YHctNCBoLTQgJHtzeW5jTXV0YXRpb24uaXNQZW5kaW5nID8gImFuaW1hdGUtc3BpbiIgOiAiIn1gfSAvPgogICAgICAgICAgICB7c3luY011dGF0aW9uLmlzUGVuZGluZyA/ICJTeW5jaW5nLi4uIiA6ICJTeW5jIE5vdyJ9CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIFN0YXRzICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0zIGdhcC00IG1iLTgiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXNlY29uZGFyeSByb3VuZGVkLWxnIHAtNCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWZvcmVncm91bmQiPntjbGltYnMubGVuZ3RofTwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgdGV4dC14cyB0cmFja2luZy13aWRlciB1cHBlcmNhc2UiPlRvdGFsIFZpZGVvczwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXNlY29uZGFyeSByb3VuZGVkLWxnIHAtNCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWljZSI+e2NvbmZpcm1lZENvdW50fTwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgdGV4dC14cyB0cmFja2luZy13aWRlciB1cHBlcmNhc2UiPkNvbmZpcm1lZCBDbGltYnM8L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1zZWNvbmRhcnkgcm91bmRlZC1sZyBwLTQgdGV4dC1jZW50ZXIiPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC15ZWxsb3ctNTAwIj57cGVuZGluZ0NvdW50fTwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgdGV4dC14cyB0cmFja2luZy13aWRlciB1cHBlcmNhc2UiPlBlbmRpbmcgUmV2aWV3PC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHsvKiBGaWx0ZXJzICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiBtYi02Ij4KICAgICAgICAgIHsoWyJhbGwiLCAicGVuZGluZyIsICJjb25maXJtZWQiLCAicmVqZWN0ZWQiXSBhcyBGaWx0ZXJTdGF0dXNbXSkubWFwKChzKSA9PiAoCiAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICBrZXk9e3N9CiAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0RmlsdGVyKHMpfQogICAgICAgICAgICAgIGNsYXNzTmFtZT17YHB4LTQgcHktMiByb3VuZGVkLXNtIHRleHQtc20gZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGVyIHRyYW5zaXRpb24tY29sb3JzICR7CiAgICAgICAgICAgICAgICBmaWx0ZXIgPT09IHMKICAgICAgICAgICAgICAgICAgPyAiYmctcHJpbWFyeSB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgICAgOiAiYmctc2Vjb25kYXJ5IHRleHQtc2Vjb25kYXJ5LWZvcmVncm91bmQgaG92ZXI6YmctbXV0ZWQiCiAgICAgICAgICAgICAgfWB9CiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7cyA9PT0gImFsbCIgPyAiQWxsIiA6IHMuY2hhckF0KDApLnRvVXBwZXJDYXNlKCkgKyBzLnNsaWNlKDEpfQogICAgICAgICAgICAgIHsiICJ9CiAgICAgICAgICAgICAgKHtzID09PSAiYWxsIiA/IGNsaW1icy5sZW5ndGggOiBjbGltYnMuZmlsdGVyKChjKSA9PiBjLnN0YXR1cyA9PT0gcykubGVuZ3RofSkKICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICApKX0KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIENvbnRlbnQgKi99CiAgICAgICAge2lzTG9hZGluZyA/ICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciBweS0xNiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPkxvYWRpbmcuLi48L2Rpdj4KICAgICAgICApIDogZXJyb3IgPyAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgcHktMTYgdGV4dC1kZXN0cnVjdGl2ZSI+CiAgICAgICAgICAgIEVycm9yIGxvYWRpbmcgZGF0YS4gTWFrZSBzdXJlIENsb3VkIGlzIGNvbmZpZ3VyZWQuCiAgICAgICAgICA8L2Rpdj4KICAgICAgICApIDogZmlsdGVyZWQubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIHB5LTE2Ij4KICAgICAgICAgICAgPFlvdXR1YmUgY2xhc3NOYW1lPSJ3LTEyIGgtMTIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG14LWF1dG8gbWItNCIgLz4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIE5vIHZpZGVvcyBmb3VuZC4gQ2xpY2sgIlN5bmMgTm93IiB0byBmZXRjaCBsYXRlc3QgdmlkZW9zIGZyb20gWW91VHViZS4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKSA6ICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdhcC00IG1kOmdyaWQtY29scy0yIGxnOmdyaWQtY29scy0zIj4KICAgICAgICAgICAge2ZpbHRlcmVkLm1hcCgoY2xpbWIpID0+IHsKICAgICAgICAgICAgICBjb25zdCBTdGF0dXNJY29uID0gc3RhdHVzSWNvbnNbY2xpbWIuc3RhdHVzXSB8fCBDbG9jazsKICAgICAgICAgICAgICBjb25zdCBzdGF0dXNDb2xvciA9IHN0YXR1c0NvbG9yc1tjbGltYi5zdGF0dXNdIHx8ICJ0ZXh0LW11dGVkLWZvcmVncm91bmQiOwoKICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICBrZXk9e2NsaW1iLmlkfQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImJnLWNhcmQgYm9yZGVyIGJvcmRlci1ib3JkZXIgcm91bmRlZC1sZyBvdmVyZmxvdy1oaWRkZW4gaG92ZXI6Ym9yZGVyLXByaW1hcnkvMzAgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHsvKiBUaHVtYm5haWwgKi99CiAgICAgICAgICAgICAgICAgIDxhIGhyZWY9e2NsaW1iLnZpZGVvX3VybH0gdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIgY2xhc3NOYW1lPSJibG9jayByZWxhdGl2ZSBncm91cCI+CiAgICAgICAgICAgICAgICAgICAge2NsaW1iLnRodW1ibmFpbF91cmwgPyAoCiAgICAgICAgICAgICAgICAgICAgICA8aW1nCiAgICAgICAgICAgICAgICAgICAgICAgIHNyYz17Y2xpbWIudGh1bWJuYWlsX3VybH0KICAgICAgICAgICAgICAgICAgICAgICAgYWx0PXtgVmlkZW8gdGh1bWJuYWlsOiAke2NsaW1iLnZpZGVvX3RpdGxlfWB9CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGFzcGVjdC12aWRlbyBvYmplY3QtY292ZXIiCiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoPXs0ODB9CiAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodD17MjcwfQogICAgICAgICAgICAgICAgICAgICAgICBsb2FkaW5nPSJsYXp5IgogICAgICAgICAgICAgICAgICAgICAgICBkZWNvZGluZz0iYXN5bmMiCiAgICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy1mdWxsIGFzcGVjdC12aWRlbyBiZy1zZWNvbmRhcnkgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgICAgICAgICAgICAgICA8WW91dHViZSBjbGFzc05hbWU9InctMTAgaC0xMCB0ZXh0LW11dGVkLWZvcmVncm91bmQiIC8+CiAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGJnLWJsYWNrLzAgZ3JvdXAtaG92ZXI6YmctYmxhY2svMjAgdHJhbnNpdGlvbi1jb2xvcnMgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgICAgICAgICAgICAgPFlvdXR1YmUgY2xhc3NOYW1lPSJ3LTEwIGgtMTAgdGV4dC1yZWQtNTAwIG9wYWNpdHktMCBncm91cC1ob3ZlcjpvcGFjaXR5LTEwMCB0cmFuc2l0aW9uLW9wYWNpdHkgZHJvcC1zaGFkb3ctbGciIC8+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDwvYT4KCiAgICAgICAgICAgICAgICAgIHsvKiBJbmZvICovfQogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icC00Ij4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBnYXAtMiBtYi0yIj4KICAgICAgICAgICAgICAgICAgICAgIDxTdGF0dXNJY29uIGNsYXNzTmFtZT17YHctNCBoLTQgbXQtMC41IHNocmluay0wICR7c3RhdHVzQ29sb3J9YH0gLz4KICAgICAgICAgICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LXNtIGZvbnQtYm9sZCB0ZXh0LWZvcmVncm91bmQgbGluZS1jbGFtcC0yIj4KICAgICAgICAgICAgICAgICAgICAgICAge2NsaW1iLnZpZGVvX3RpdGxlfQogICAgICAgICAgICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgICAge2NsaW1iLnBlYWtfbmFtZSAmJiAoCiAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctc2Vjb25kYXJ5IHJvdW5kZWQtc20gcC0yIG1iLTMgc3BhY2UteS0xIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUiPgogICAgICAgICAgICAgICAgICAgICAgICAgIDxNb3VudGFpbiBjbGFzc05hbWU9InctMy41IGgtMy41IHRleHQtcHJpbWFyeSIgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1mb3JlZ3JvdW5kIj57Y2xpbWIucGVha19uYW1lfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIHtjbGltYi5jb3VudHJ5ICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57Y2xpbWIuY291bnRyeX0gwrcge2NsaW1iLmNvbnRpbmVudH08L3A+CiAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgICAgIHtjbGltYi5lbGV2YXRpb24gJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPntjbGltYi5lbGV2YXRpb259PC9wPgogICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgKX0KCiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAge2NsaW1iLnB1Ymxpc2hlZF9hdAogICAgICAgICAgICAgICAgICAgICAgICAgID8gbmV3IERhdGUoY2xpbWIucHVibGlzaGVkX2F0KS50b0xvY2FsZURhdGVTdHJpbmcoImVuLVVTIiwgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICB5ZWFyOiAibnVtZXJpYyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vbnRoOiAic2hvcnQiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkYXk6ICJudW1lcmljIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICAgICAgICAgICAgOiAiIn0KICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgICAgICAgICAgICAgICAgIHtjbGltYi5jb3VudHJ5ICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICA8TGluawogICAgICAgICAgICAgICAgICAgICAgICAgICAgdG89e2AvcGVhay8ke3NsdWdpZnkoY2xpbWIuY291bnRyeSl9YH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgdGV4dC1wcmltYXJ5IGhvdmVyOnVuZGVybGluZSIKICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBQZWFrIHBhZ2UgPEFycm93UmlnaHQgY2xhc3NOYW1lPSJ3LTMgaC0zIiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgICAge2FzY2VudExpbmtGb3JDb3VudHJ5KGNsaW1iLmNvdW50cnkpICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICA8TGluawogICAgICAgICAgICAgICAgICAgICAgICAgICAgdG89e2FzY2VudExpbmtGb3JDb3VudHJ5KGNsaW1iLmNvdW50cnkpIX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgdGV4dC1wcmltYXJ5IGhvdmVyOnVuZGVybGluZSIKICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8TW91bnRhaW4gY2xhc3NOYW1lPSJ3LTMgaC0zIiAvPiBNYXRjaCBtZQogICAgICAgICAgICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgICAgPGEKICAgICAgICAgICAgICAgICAgICAgICAgICBocmVmPXtjbGltYi52aWRlb191cmx9CiAgICAgICAgICAgICAgICAgICAgICAgICAgdGFyZ2V0PSJfYmxhbmsiCiAgICAgICAgICAgICAgICAgICAgICAgICAgcmVsPSJub29wZW5lciBub3JlZmVycmVyIgogICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgdGV4dC1wcmltYXJ5IGhvdmVyOnVuZGVybGluZSIKICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgIFdhdGNoIDxFeHRlcm5hbExpbmsgY2xhc3NOYW1lPSJ3LTMgaC0zIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApOwogICAgICAgICAgICB9KX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CiAgICAgIDwvZGl2PgoKICAgICAgPGZvb3RlciBjbGFzc05hbWU9ImJnLWJhY2tncm91bmQgYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBweS04Ij4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIG14LWF1dG8gcHgtNCB0ZXh0LWNlbnRlciB0ZXh0LW11dGVkLWZvcmVncm91bmQgdGV4dC1zbSI+CiAgICAgICAgICA8cD7CqSB7bmV3IERhdGUoKS5nZXRGdWxsWWVhcigpfSBPbnNpZ2h0IE1hcnRpbiDigJQgTWFydGluIEfDpXJkbGluZzwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9mb290ZXI+CiAgICA8L2Rpdj4KICApOwp9Cg==
+import { useState } from "react";
+import { Link } from "@/lib/router-compat";
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import Seo from "@/components/Seo";
+import { supabase } from "@/integrations/supabase/client";
+import Navbar from "@/components/Navbar";
+import { Youtube, CheckCircle2, XCircle, Clock, RefreshCw, Mountain, ExternalLink, ArrowRight } from "lucide-react";
+import { toast } from "sonner";
+import { slugify } from "@/lib/slug";
+import { ascentLinkForCountry } from "@/lib/peak-match";
+
+type YoutubeClimb = {
+  id: string;
+  video_id: string;
+  video_title: string;
+  video_description: string | null;
+  video_url: string;
+  thumbnail_url: string | null;
+  published_at: string | null;
+  peak_name: string | null;
+  country: string | null;
+  continent: string | null;
+  elevation: string | null;
+  climb_date: string | null;
+  status: string;
+  created_at: string;
+};
+
+type FilterStatus = "all" | "pending" | "confirmed" | "rejected";
+
+const statusIcons: Record<string, typeof CheckCircle2> = {
+  pending: Clock,
+  confirmed: CheckCircle2,
+  rejected: XCircle,
+};
+
+const statusColors: Record<string, string> = {
+  pending: "text-yellow-500",
+  confirmed: "text-ice",
+  rejected: "text-destructive",
+};
+
+export default function LatestClimbs() {
+  const [filter, setFilter] = useState<FilterStatus>("all");
+  const queryClient = useQueryClient();
+
+  const { data: climbs = [], isLoading, error } = useQuery({
+    queryKey: ["youtube-climbs"],
+    queryFn: async () => {
+      const { data, error } = await supabase
+        .from("youtube_climbs")
+        .select("*")
+        .order("published_at", { ascending: false });
+      if (error) throw error;
+      return data as YoutubeClimb[];
+    },
+  });
+
+  const syncMutation = useMutation({
+    mutationFn: async () => {
+      const { data, error } = await supabase.functions.invoke("sync-youtube-climbs");
+      if (error) throw error;
+      return data;
+    },
+    onSuccess: (data) => {
+      toast.success(data.message || "Sync complete!");
+      queryClient.invalidateQueries({ queryKey: ["youtube-climbs"] });
+    },
+    onError: (err) => {
+      toast.error(`Sync failed: ${err.message}`);
+    },
+  });
+
+  const filtered = filter === "all" ? climbs : climbs.filter((c) => c.status === filter);
+  const pendingCount = climbs.filter((c) => c.status === "pending").length;
+  const confirmedCount = climbs.filter((c) => c.status === "confirmed").length;
+
+  const videoSchema = climbs
+    .filter((c) => c.status === "confirmed")
+    .slice(0, 25)
+    .map((c) => ({
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      name: c.video_title,
+      description:
+        c.video_description?.slice(0, 300) ||
+        `Summit video${c.peak_name ? ` from ${c.peak_name}` : ""}${c.country ? `, ${c.country}` : ""} by Onsight Martin.`,
+      thumbnailUrl: c.thumbnail_url ? [c.thumbnail_url] : undefined,
+      uploadDate: c.published_at || undefined,
+      contentUrl: c.video_url,
+      embedUrl: `https://www.youtube.com/embed/${c.video_id}`,
+      publisher: {
+        "@type": "Organization",
+        name: "Onsight Martin",
+      },
+    }));
+
+  return (
+    <div className="min-h-screen bg-background">
+      <Seo
+        title="Latest Climbs — Summit Videos & Trip Reports"
+        description="Watch the newest summit videos from Martin Gårdling's mission to climb the highest mountain of every country — routes, conditions and full trip reports."
+        path="/latest"
+        jsonLd={videoSchema}
+      />
+      <Navbar />
+
+      <div className="container mx-auto px-4 pt-24 pb-16">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+          <div>
+            <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">
+              Latest from YouTube
+            </h1>
+            <p className="text-muted-foreground max-w-lg">
+              Auto-detected climbs from the{" "}
+              <a
+                href="https://www.youtube.com/@onsightmartin"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                Onsight Martin
+              </a>{" "}
+              YouTube channel, analyzed by AI.
+            </p>
+          </div>
+          <button
+            onClick={() => syncMutation.mutate()}
+            disabled={syncMutation.isPending}
+            className="flex items-center gap-2 bg-primary text-primary-foreground px-5 py-3 rounded-sm font-display tracking-wider text-sm hover:bg-primary/90 transition-colors disabled:opacity-50"
+          >
+            <RefreshCw className={`w-4 h-4 ${syncMutation.isPending ? "animate-spin" : ""}`} />
+            {syncMutation.isPending ? "Syncing..." : "Sync Now"}
+          </button>
+        </div>
+
+        {/* Stats */}
+        <div className="grid grid-cols-3 gap-4 mb-8">
+          <div className="bg-secondary rounded-lg p-4 text-center">
+            <p className="font-display text-2xl font-bold text-foreground">{climbs.length}</p>
+            <p className="text-muted-foreground text-xs tracking-wider uppercase">Total Videos</p>
+          </div>
+          <div className="bg-secondary rounded-lg p-4 text-center">
+            <p className="font-display text-2xl font-bold text-ice">{confirmedCount}</p>
+            <p className="text-muted-foreground text-xs tracking-wider uppercase">Confirmed Climbs</p>
+          </div>
+          <div className="bg-secondary rounded-lg p-4 text-center">
+            <p className="font-display text-2xl font-bold text-yellow-500">{pendingCount}</p>
+            <p className="text-muted-foreground text-xs tracking-wider uppercase">Pending Review</p>
+          </div>
+        </div>
+
+        {/* Filters */}
+        <div className="flex flex-wrap gap-2 mb-6">
+          {(["all", "pending", "confirmed", "rejected"] as FilterStatus[]).map((s) => (
+            <button
+              key={s}
+              onClick={() => setFilter(s)}
+              className={`px-4 py-2 rounded-sm text-sm font-display tracking-wider transition-colors ${
+                filter === s
+                  ? "bg-primary text-primary-foreground"
+                  : "bg-secondary text-secondary-foreground hover:bg-muted"
+              }`}
+            >
+              {s === "all" ? "All" : s.charAt(0).toUpperCase() + s.slice(1)}
+              {" "}
+              ({s === "all" ? climbs.length : climbs.filter((c) => c.status === s).length})
+            </button>
+          ))}
+        </div>
+
+        {/* Content */}
+        {isLoading ? (
+          <div className="text-center py-16 text-muted-foreground">Loading...</div>
+        ) : error ? (
+          <div className="text-center py-16 text-destructive">
+            Error loading data. Make sure Cloud is configured.
+          </div>
+        ) : filtered.length === 0 ? (
+          <div className="text-center py-16">
+            <Youtube className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
+            <p className="text-muted-foreground">
+              No videos found. Click "Sync Now" to fetch latest videos from YouTube.
+            </p>
+          </div>
+        ) : (
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {filtered.map((climb) => {
+              const StatusIcon = statusIcons[climb.status] || Clock;
+              const statusColor = statusColors[climb.status] || "text-muted-foreground";
+
+              return (
+                <div
+                  key={climb.id}
+                  className="bg-card border border-border rounded-lg overflow-hidden hover:border-primary/30 transition-colors"
+                >
+                  {/* Thumbnail */}
+                  <a href={climb.video_url} target="_blank" rel="noopener noreferrer" className="block relative group">
+                    {climb.thumbnail_url ? (
+                      <img
+                        src={climb.thumbnail_url}
+                        alt={`Video thumbnail: ${climb.video_title}`}
+                        className="w-full aspect-video object-cover"
+                        width={480}
+                        height={270}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    ) : (
+                      <div className="w-full aspect-video bg-secondary flex items-center justify-center">
+                        <Youtube className="w-10 h-10 text-muted-foreground" />
+                      </div>
+                    )}
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                      <Youtube className="w-10 h-10 text-red-500 opacity-0 group-hover:opacity-100 transition-opacity drop-shadow-lg" />
+                    </div>
+                  </a>
+
+                  {/* Info */}
+                  <div className="p-4">
+                    <div className="flex items-start gap-2 mb-2">
+                      <StatusIcon className={`w-4 h-4 mt-0.5 shrink-0 ${statusColor}`} />
+                      <h2 className="font-display text-sm font-bold text-foreground line-clamp-2">
+                        {climb.video_title}
+                      </h2>
+                    </div>
+
+                    {climb.peak_name && (
+                      <div className="bg-secondary rounded-sm p-2 mb-3 space-y-1">
+                        <div className="flex items-center gap-1.5">
+                          <Mountain className="w-3.5 h-3.5 text-primary" />
+                          <span className="text-sm font-medium text-foreground">{climb.peak_name}</span>
+                        </div>
+                        {climb.country && (
+                          <p className="text-xs text-muted-foreground">{climb.country} · {climb.continent}</p>
+                        )}
+                        {climb.elevation && (
+                          <p className="text-xs text-muted-foreground">{climb.elevation}</p>
+                        )}
+                      </div>
+                    )}
+
+                    <div className="flex items-center justify-between text-xs text-muted-foreground">
+                      <span>
+                        {climb.published_at
+                          ? new Date(climb.published_at).toLocaleDateString("en-US", {
+                              year: "numeric",
+                              month: "short",
+                              day: "numeric",
+                            })
+                          : ""}
+                      </span>
+                      <div className="flex items-center gap-3">
+                        {climb.country && (
+                          <Link
+                            to={`/peak/${slugify(climb.country)}`}
+                            className="flex items-center gap-1 text-primary hover:underline"
+                          >
+                            Peak page <ArrowRight className="w-3 h-3" />
+                          </Link>
+                        )}
+                        {ascentLinkForCountry(climb.country) && (
+                          <Link
+                            to={ascentLinkForCountry(climb.country)!}
+                            className="flex items-center gap-1 text-primary hover:underline"
+                          >
+                            <Mountain className="w-3 h-3" /> Match me
+                          </Link>
+                        )}
+                        <a
+                          href={climb.video_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-1 text-primary hover:underline"
+                        >
+                          Watch <ExternalLink className="w-3 h-3" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        )}
+      </div>
+
+      <footer className="bg-background border-t border-border py-8">
+        <div className="container mx-auto px-4 text-center text-muted-foreground text-sm">
+          <p>© {new Date().getFullYear()} Onsight Martin — Martin Gårdling</p>
+        </div>
+      </footer>
+    </div>
+  );
+}

@@ -1,1 +1,72 @@
-aW1wb3J0IHR5cGUgeyBEYXRlUHJlY2lzaW9uIH0gZnJvbSAiQC9saWIvcGVhay1jYXRhbG9nIjsKCmV4cG9ydCBpbnRlcmZhY2UgRHVwZUNhbmRpZGF0ZSB7CiAgaWQ6IHN0cmluZzsKICBwZWFrX25hbWU6IHN0cmluZzsKICBwZWFrX3R5cGU6IHN0cmluZzsKICBjb3VudHJ5OiBzdHJpbmcgfCBudWxsOwogIGFzY2VudF9kYXRlOiBzdHJpbmc7CiAgZGF0ZV9wcmVjaXNpb24/OiBEYXRlUHJlY2lzaW9uIHwgbnVsbDsKfQoKLyoqIFRoZSBbc3RhcnQsIGVuZF0gZGF5IHJhbmdlIGFuIGFzY2VudCBjb3ZlcnMsIGdpdmVuIGl0cyBkYXRlIHByZWNpc2lvbi4gKi8KZXhwb3J0IGNvbnN0IGRhdGVXaW5kb3cgPSAoZGF0ZTogc3RyaW5nLCBwcmVjaXNpb246IERhdGVQcmVjaXNpb24gfCBudWxsIHwgdW5kZWZpbmVkKSA9PiB7CiAgY29uc3QgeWVhciA9IE51bWJlcihkYXRlLnNsaWNlKDAsIDQpKTsKICBjb25zdCBtb250aCA9IE51bWJlcihkYXRlLnNsaWNlKDUsIDcpKSB8fCAxOwogIGlmIChwcmVjaXNpb24gPT09ICJ5ZWFyIikgcmV0dXJuIFtgJHt5ZWFyfS0wMS0wMWAsIGAke3llYXJ9LTEyLTMxYF0gYXMgY29uc3Q7CiAgaWYgKHByZWNpc2lvbiA9PT0gIm1vbnRoIikgewogICAgY29uc3QgbGFzdCA9IG5ldyBEYXRlKERhdGUuVVRDKHllYXIsIG1vbnRoLCAwKSkuZ2V0VVRDRGF0ZSgpOwogICAgY29uc3QgbW0gPSBTdHJpbmcobW9udGgpLnBhZFN0YXJ0KDIsICIwIik7CiAgICByZXR1cm4gW2Ake3llYXJ9LSR7bW19LTAxYCwgYCR7eWVhcn0tJHttbX0tJHtTdHJpbmcobGFzdCkucGFkU3RhcnQoMiwgIjAiKX1gXSBhcyBjb25zdDsKICB9CiAgcmV0dXJuIFtkYXRlLCBkYXRlXSBhcyBjb25zdDsKfTsKCmV4cG9ydCBjb25zdCB3aW5kb3dzT3ZlcmxhcCA9ICgKICBhOiB7IGRhdGU6IHN0cmluZzsgcHJlY2lzaW9uOiBEYXRlUHJlY2lzaW9uIHwgbnVsbCB8IHVuZGVmaW5lZCB9LAogIGI6IHsgZGF0ZTogc3RyaW5nOyBwcmVjaXNpb246IERhdGVQcmVjaXNpb24gfCBudWxsIHwgdW5kZWZpbmVkIH0sCikgPT4gewogIGNvbnN0IFthU3RhcnQsIGFFbmRdID0gZGF0ZVdpbmRvdyhhLmRhdGUsIGEucHJlY2lzaW9uKTsKICBjb25zdCBbYlN0YXJ0LCBiRW5kXSA9IGRhdGVXaW5kb3coYi5kYXRlLCBiLnByZWNpc2lvbik7CiAgcmV0dXJuIGFTdGFydCA8PSBiRW5kICYmIGJTdGFydCA8PSBhRW5kOwp9OwoKY29uc3Qgbm9ybSA9IChzOiBzdHJpbmcpID0+CiAgcwogICAgLnRvTG93ZXJDYXNlKCkKICAgIC5ub3JtYWxpemUoIk5GRCIpCiAgICAucmVwbGFjZSgvW1x1MDMwMC1cdTAzNmZdL2csICIiKQogICAgLnJlcGxhY2UoL1teYS16MC05XSsvZywgIiAiKQogICAgLnRyaW0oKTsKCi8qKgogKiBGaW5kcyBhbiBleGlzdGluZyBhc2NlbnQgdGhhdCBjbGFzaGVzIHdpdGggdGhlIG9uZSBiZWluZyBsb2dnZWQ6CiAqIHRoZSBzYW1lIHBlYWssIG9yIHRoZSBzYW1lIGNvdW50cnkgaGlnaCBwb2ludCwgb24gYW4gb3ZlcmxhcHBpbmcgZGF0ZSByYW5nZS4KICovCmV4cG9ydCBjb25zdCBmaW5kRHVwbGljYXRlQXNjZW50ID0gKAogIGV4aXN0aW5nOiBEdXBlQ2FuZGlkYXRlW10sCiAgbmV4dDogewogICAgaWQ/OiBzdHJpbmcgfCB1bmRlZmluZWQ7CiAgICBwZWFrX25hbWU6IHN0cmluZzsKICAgIHBlYWtfdHlwZTogc3RyaW5nOwogICAgY291bnRyeTogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZDsKICAgIGRhdGU6IHN0cmluZzsKICAgIHByZWNpc2lvbjogRGF0ZVByZWNpc2lvbjsKICB9LAopOiB7IG1hdGNoOiBEdXBlQ2FuZGlkYXRlOyByZWFzb246ICJwZWFrIiB8ICJoaWdocG9pbnQiIH0gfCBudWxsID0+IHsKICBmb3IgKGNvbnN0IGEgb2YgZXhpc3RpbmcpIHsKICAgIGlmIChuZXh0LmlkICYmIGEuaWQgPT09IG5leHQuaWQpIGNvbnRpbnVlOwogICAgaWYgKCF3aW5kb3dzT3ZlcmxhcCh7IGRhdGU6IGEuYXNjZW50X2RhdGUsIHByZWNpc2lvbjogYS5kYXRlX3ByZWNpc2lvbiB9LCB7IGRhdGU6IG5leHQuZGF0ZSwgcHJlY2lzaW9uOiBuZXh0LnByZWNpc2lvbiB9KSkKICAgICAgY29udGludWU7CiAgICBjb25zdCBzYW1lUGVhayA9IG5vcm0oYS5wZWFrX25hbWUpID09PSBub3JtKG5leHQucGVha19uYW1lKTsKICAgIGNvbnN0IHNhbWVIaWdocG9pbnQgPQogICAgICBhLnBlYWtfdHlwZSA9PT0gImNvdW50cnlfaGlnaHBvaW50IiAmJgogICAgICBuZXh0LnBlYWtfdHlwZSA9PT0gImNvdW50cnlfaGlnaHBvaW50IiAmJgogICAgICAhIWEuY291bnRyeSAmJgogICAgICAhIW5leHQuY291bnRyeSAmJgogICAgICBub3JtKGEuY291bnRyeSkgPT09IG5vcm0obmV4dC5jb3VudHJ5KTsKICAgIGlmIChzYW1lUGVhaykgcmV0dXJuIHsgbWF0Y2g6IGEsIHJlYXNvbjogInBlYWsiIH07CiAgICBpZiAoc2FtZUhpZ2hwb2ludCkgcmV0dXJuIHsgbWF0Y2g6IGEsIHJlYXNvbjogImhpZ2hwb2ludCIgfTsKICB9CiAgcmV0dXJuIG51bGw7Cn07Cg==
+import type { DatePrecision } from "@/lib/peak-catalog";
+
+export interface DupeCandidate {
+  id: string;
+  peak_name: string;
+  peak_type: string;
+  country: string | null;
+  ascent_date: string;
+  date_precision?: DatePrecision | null;
+}
+
+/** The [start, end] day range an ascent covers, given its date precision. */
+export const dateWindow = (date: string, precision: DatePrecision | null | undefined) => {
+  const year = Number(date.slice(0, 4));
+  const month = Number(date.slice(5, 7)) || 1;
+  if (precision === "year") return [`${year}-01-01`, `${year}-12-31`] as const;
+  if (precision === "month") {
+    const last = new Date(Date.UTC(year, month, 0)).getUTCDate();
+    const mm = String(month).padStart(2, "0");
+    return [`${year}-${mm}-01`, `${year}-${mm}-${String(last).padStart(2, "0")}`] as const;
+  }
+  return [date, date] as const;
+};
+
+export const windowsOverlap = (
+  a: { date: string; precision: DatePrecision | null | undefined },
+  b: { date: string; precision: DatePrecision | null | undefined },
+) => {
+  const [aStart, aEnd] = dateWindow(a.date, a.precision);
+  const [bStart, bEnd] = dateWindow(b.date, b.precision);
+  return aStart <= bEnd && bStart <= aEnd;
+};
+
+const norm = (s: string) =>
+  s
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+
+/**
+ * Finds an existing ascent that clashes with the one being logged:
+ * the same peak, or the same country high point, on an overlapping date range.
+ */
+export const findDuplicateAscent = (
+  existing: DupeCandidate[],
+  next: {
+    id?: string | undefined;
+    peak_name: string;
+    peak_type: string;
+    country: string | null | undefined;
+    date: string;
+    precision: DatePrecision;
+  },
+): { match: DupeCandidate; reason: "peak" | "highpoint" } | null => {
+  for (const a of existing) {
+    if (next.id && a.id === next.id) continue;
+    if (!windowsOverlap({ date: a.ascent_date, precision: a.date_precision }, { date: next.date, precision: next.precision }))
+      continue;
+    const samePeak = norm(a.peak_name) === norm(next.peak_name);
+    const sameHighpoint =
+      a.peak_type === "country_highpoint" &&
+      next.peak_type === "country_highpoint" &&
+      !!a.country &&
+      !!next.country &&
+      norm(a.country) === norm(next.country);
+    if (samePeak) return { match: a, reason: "peak" };
+    if (sameHighpoint) return { match: a, reason: "highpoint" };
+  }
+  return null;
+};

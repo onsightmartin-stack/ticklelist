@@ -1,1 +1,1 @@
-R1JBTlQgVVBEQVRFLCBERUxFVEUgT04gcHVibGljLnBlYWtiYWdnZXJfcGVha3MgVE8gc2FuZGJveF9leGVjOw==
+GRANT UPDATE, DELETE ON public.peakbagger_peaks TO sandbox_exec;

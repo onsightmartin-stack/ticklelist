@@ -1,1 +1,201 @@
-aW1wb3J0IHsgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgVXBsb2FkLCBGaWxlVXAsIExvYWRlcjIsIENoZWNrQ2lyY2xlMiwgQWxlcnRUcmlhbmdsZSB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IHVzZVNlcnZlckZuIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXN0YXJ0IjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJzb25uZXIiOwoKaW1wb3J0IFNlbyBmcm9tICJAL2NvbXBvbmVudHMvU2VvIjsKaW1wb3J0IENvbW11bml0eUxheW91dCBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L0NvbW11bml0eUxheW91dCI7CmltcG9ydCBNZW1iZXJzT25seSBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L01lbWJlcnNPbmx5IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IFRleHRhcmVhIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RleHRhcmVhIjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvaG9va3MvdXNlQXV0aCI7CmltcG9ydCB7IGltcG9ydFBlYWtzLCB0eXBlIEltcG9ydFBlYWtzUmVzdWx0IH0gZnJvbSAiQC9saWIvcGVhay1pbXBvcnQuZnVuY3Rpb25zIjsKaW1wb3J0IHsgcGFyc2VQZWFrRmlsZSwgU0FNUExFX0NTViwgdHlwZSBJbXBvcnRQZWFrIH0gZnJvbSAiQC9saWIvcGVhay1pbXBvcnQiOwoKLyoqIEFkbWluLW9ubHkgYnVsayBwZWFrIGltcG9ydGVyOiBDU1Ygb3IgSlNPTiBzdHJhaWdodCBpbnRvIHRoZSBnbG9iYWwgY2F0YWxvZy4gKi8KY29uc3QgUGVha0ltcG9ydFBhZ2UgPSAoKSA9PiB7CiAgY29uc3QgeyB1c2VyLCBpc0FkbWluIH0gPSB1c2VBdXRoKCk7CiAgY29uc3QgcnVuSW1wb3J0ID0gdXNlU2VydmVyRm4oaW1wb3J0UGVha3MpOwogIGNvbnN0IGZpbGVSZWYgPSB1c2VSZWY8SFRNTElucHV0RWxlbWVudD4obnVsbCk7CgogIGNvbnN0IFt0ZXh0LCBzZXRUZXh0XSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbZmlsZU5hbWUsIHNldEZpbGVOYW1lXSA9IHVzZVN0YXRlKCJwYXN0ZWQiKTsKICBjb25zdCBbcm93cywgc2V0Um93c10gPSB1c2VTdGF0ZTxJbXBvcnRQZWFrW10+KFtdKTsKICBjb25zdCBbZXJyb3JzLCBzZXRFcnJvcnNdID0gdXNlU3RhdGU8c3RyaW5nW10+KFtdKTsKICBjb25zdCBbYnVzeSwgc2V0QnVzeV0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW3Jlc3VsdCwgc2V0UmVzdWx0XSA9IHVzZVN0YXRlPEltcG9ydFBlYWtzUmVzdWx0IHwgbnVsbD4obnVsbCk7CgogIGNvbnN0IHByZXZpZXcgPSAocmF3OiBzdHJpbmcsIG5hbWU6IHN0cmluZykgPT4gewogICAgc2V0RmlsZU5hbWUobmFtZSk7CiAgICBzZXRSZXN1bHQobnVsbCk7CiAgICBjb25zdCBwYXJzZWQgPSBwYXJzZVBlYWtGaWxlKHJhdyk7CiAgICBzZXRSb3dzKHBhcnNlZC5yb3dzKTsKICAgIHNldEVycm9ycyhwYXJzZWQuZXJyb3JzKTsKICB9OwoKICBjb25zdCBvbkZpbGUgPSBhc3luYyAoZmlsZTogRmlsZSB8IHVuZGVmaW5lZCkgPT4gewogICAgaWYgKCFmaWxlKSByZXR1cm47CiAgICBpZiAoZmlsZS5zaXplID4gNV8wMDBfMDAwKSB7CiAgICAgIHRvYXN0LmVycm9yKCJUaGF0IGZpbGUgaXMgb3ZlciA1IE1CIOKAlCBzcGxpdCBpdCBpbnRvIHNtYWxsZXIgYmF0Y2hlcy4iKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgY29uc3QgcmF3ID0gYXdhaXQgZmlsZS50ZXh0KCk7CiAgICBzZXRUZXh0KHJhdy5sZW5ndGggPiAyMDBfMDAwID8gYCR7cmF3LnNsaWNlKDAsIDIwMF8wMDApfVxu4oCmYCA6IHJhdyk7CiAgICBwcmV2aWV3KHJhdywgZmlsZS5uYW1lKTsKICB9OwoKICBjb25zdCBzdWJtaXQgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAocm93cy5sZW5ndGggPT09IDApIHJldHVybjsKICAgIHNldEJ1c3kodHJ1ZSk7CiAgICB0cnkgewogICAgICBjb25zdCByZXMgPSBhd2FpdCBydW5JbXBvcnQoeyBkYXRhOiB7IHBlYWtzOiByb3dzLCBzb3VyY2U6IGZpbGVOYW1lIH0gfSk7CiAgICAgIHNldFJlc3VsdChyZXMpOwogICAgICBpZiAocmVzLmluc2VydGVkID4gMCkgdG9hc3Quc3VjY2VzcyhgQWRkZWQgJHtyZXMuaW5zZXJ0ZWR9IHBlYWtzIHRvIHRoZSBjYXRhbG9nLmApOwogICAgICBlbHNlIHRvYXN0LmVycm9yKCJOb3RoaW5nIHdhcyBhZGRlZCDigJQgc2VlIHRoZSByZXBvcnQgYmVsb3cuIik7CiAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgdG9hc3QuZXJyb3IoZXJyIGluc3RhbmNlb2YgRXJyb3IgPyBlcnIubWVzc2FnZSA6ICJJbXBvcnQgZmFpbGVkIik7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRCdXN5KGZhbHNlKTsKICAgIH0KICB9OwoKICBpZiAoIXVzZXIgfHwgIWlzQWRtaW4pIHsKICAgIHJldHVybiAoCiAgICAgIDxDb21tdW5pdHlMYXlvdXQ+CiAgICAgICAgPFNlbyB0aXRsZT0iUGVhayBpbXBvcnQg4oCUIFRpY2tsZWxpc3QiIGRlc2NyaXB0aW9uPSJBZG1pbiB0b29sIGZvciBidWxrLWFkZGluZyBwZWFrcy4iIHBhdGg9Ii9jb21tdW5pdHkvaW1wb3J0LXBlYWtzIiBub2luZGV4IC8+CiAgICAgICAgPE1lbWJlcnNPbmx5IHRpdGxlPSJBZG1pbnMgb25seSIgZGVzY3JpcHRpb249IkJ1bGsgcGVhayBpbXBvcnRzIGFyZSByZXNlcnZlZCBmb3Igc2l0ZSBhZG1pbnMuIiAvPgogICAgICA8L0NvbW11bml0eUxheW91dD4KICAgICk7CiAgfQoKICByZXR1cm4gKAogICAgPENvbW11bml0eUxheW91dD4KICAgICAgPFNlbyB0aXRsZT0iUGVhayBpbXBvcnQg4oCUIFRpY2tsZWxpc3QiIGRlc2NyaXB0aW9uPSJCdWxrLWFkZCBwZWFrcyB0byB0aGUgVGlja2xlbGlzdCBjYXRhbG9nIGZyb20gQ1NWIG9yIEpTT04uIiBwYXRoPSIvY29tbXVuaXR5L2ltcG9ydC1wZWFrcyIgbm9pbmRleCAvPgoKICAgICAgPGhlYWRlciBjbGFzc05hbWU9Im1iLTYiPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdHJhY2tpbmctWzAuM2VtXSB1cHBlcmNhc2UgdGV4dC1wcmltYXJ5IGZvbnQtZGlzcGxheSI+VGlja2xlbGlzdDwvcD4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0zeGwgbWQ6dGV4dC00eGwgdHJhY2tpbmctd2lkZXIgbXQtMiBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICA8VXBsb2FkIGNsYXNzTmFtZT0idy03IGgtNyB0ZXh0LXByaW1hcnkiIC8+IFBlYWsgaW1wb3J0CiAgICAgICAgPC9oMT4KICAgICAgICA8cCBjbGFzc05hbWU9Im10LTMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1heC13LTJ4bCI+CiAgICAgICAgICBVcGxvYWQgYSBDU1Ygb3IgSlNPTiBmaWxlIG9mIHBlYWtzIGFuZCB0aGV5IGdvIHN0cmFpZ2h0IGludG8gdGhlIGdsb2JhbCBzZWFyY2gKICAgICAgICAgIGNhdGFsb2cuIE9ubHkgPGNvZGUgY2xhc3NOYW1lPSJ0ZXh0LWZvcmVncm91bmQiPm5hbWU8L2NvZGU+IGlzIHJlcXVpcmVkO3siICJ9CiAgICAgICAgICA8Y29kZSBjbGFzc05hbWU9InRleHQtZm9yZWdyb3VuZCI+ZWxldmF0aW9uPC9jb2RlPiwgPGNvZGUgY2xhc3NOYW1lPSJ0ZXh0LWZvcmVncm91bmQiPmxhdDwvY29kZT4seyIgIn0KICAgICAgICAgIDxjb2RlIGNsYXNzTmFtZT0idGV4dC1mb3JlZ3JvdW5kIj5sb248L2NvZGU+LCA8Y29kZSBjbGFzc05hbWU9InRleHQtZm9yZWdyb3VuZCI+Y291bnRyeTwvY29kZT4gYW5keyIgIn0KICAgICAgICAgIDxjb2RlIGNsYXNzTmFtZT0idGV4dC1mb3JlZ3JvdW5kIj5yZWdpb248L2NvZGU+IGFyZSBvcHRpb25hbC4gVXAgdG8gNSwwMDAgcm93cyBwZXIgaW1wb3J0LgogICAgICAgIDwvcD4KICAgICAgPC9oZWFkZXI+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIG1iLTQiPgogICAgICAgIDxpbnB1dAogICAgICAgICAgcmVmPXtmaWxlUmVmfQogICAgICAgICAgdHlwZT0iZmlsZSIKICAgICAgICAgIGFjY2VwdD0iLmNzdiwuanNvbiwudHh0LHRleHQvY3N2LGFwcGxpY2F0aW9uL2pzb24iCiAgICAgICAgICBjbGFzc05hbWU9ImhpZGRlbiIKICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gdm9pZCBvbkZpbGUoZS50YXJnZXQuZmlsZXM/LlswXSl9CiAgICAgICAgLz4KICAgICAgICA8QnV0dG9uIG9uQ2xpY2s9eygpID0+IGZpbGVSZWYuY3VycmVudD8uY2xpY2soKX0gdmFyaWFudD0iZGVmYXVsdCI+CiAgICAgICAgICA8RmlsZVVwIGNsYXNzTmFtZT0idy00IGgtNCBtci0yIiAvPiBDaG9vc2UgZmlsZQogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxCdXR0b24KICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB7CiAgICAgICAgICAgIHNldFRleHQoU0FNUExFX0NTVik7CiAgICAgICAgICAgIHByZXZpZXcoU0FNUExFX0NTViwgInNhbXBsZS5jc3YiKTsKICAgICAgICAgIH19CiAgICAgICAgPgogICAgICAgICAgTG9hZCBleGFtcGxlCiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e2ZpbGVOYW1lfTwvc3Bhbj4KICAgICAgPC9kaXY+CgogICAgICA8VGV4dGFyZWEKICAgICAgICB2YWx1ZT17dGV4dH0KICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFRleHQoZS50YXJnZXQudmFsdWUpfQogICAgICAgIG9uQmx1cj17KCkgPT4gdGV4dC50cmltKCkgJiYgcHJldmlldyh0ZXh0LCBmaWxlTmFtZSl9CiAgICAgICAgcm93cz17MTB9CiAgICAgICAgc3BlbGxDaGVjaz17ZmFsc2V9CiAgICAgICAgcGxhY2Vob2xkZXI9e1NBTVBMRV9DU1Z9CiAgICAgICAgY2xhc3NOYW1lPSJmb250LW1vbm8gdGV4dC14cyIKICAgICAgLz4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTMgbXQtMyI+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBvbkNsaWNrPXsoKSA9PiBwcmV2aWV3KHRleHQsIGZpbGVOYW1lKX0gZGlzYWJsZWQ9eyF0ZXh0LnRyaW0oKX0+CiAgICAgICAgICBDaGVjayBmaWxlCiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPEJ1dHRvbiBvbkNsaWNrPXsoKSA9PiB2b2lkIHN1Ym1pdCgpfSBkaXNhYmxlZD17YnVzeSB8fCByb3dzLmxlbmd0aCA9PT0gMH0+CiAgICAgICAgICB7YnVzeSA/IDxMb2FkZXIyIGNsYXNzTmFtZT0idy00IGgtNCBtci0yIGFuaW1hdGUtc3BpbiIgLz4gOiA8VXBsb2FkIGNsYXNzTmFtZT0idy00IGgtNCBtci0yIiAvPn0KICAgICAgICAgIEltcG9ydCB7cm93cy5sZW5ndGggPiAwID8gYCR7cm93cy5sZW5ndGh9IHBlYWtzYCA6ICIifQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KCiAgICAgIHtlcnJvcnMubGVuZ3RoID4gMCAmJiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTUgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWRlc3RydWN0aXZlLzQwIGJnLWRlc3RydWN0aXZlLzUgcC00Ij4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LWRlc3RydWN0aXZlIj4KICAgICAgICAgICAgPEFsZXJ0VHJpYW5nbGUgY2xhc3NOYW1lPSJ3LTQgaC00IiAvPiB7ZXJyb3JzLmxlbmd0aH0gcm93IHByb2JsZW17ZXJyb3JzLmxlbmd0aCA9PT0gMSA/ICIiIDogInMifQogICAgICAgICAgPC9wPgogICAgICAgICAgPHVsIGNsYXNzTmFtZT0ibXQtMiBzcGFjZS15LTEgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgbWF4LWgtNDggb3ZlcmZsb3ctYXV0byI+CiAgICAgICAgICAgIHtlcnJvcnMuc2xpY2UoMCwgNTApLm1hcCgoZSkgPT4gKAogICAgICAgICAgICAgIDxsaSBrZXk9e2V9PntlfTwvbGk+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC91bD4KICAgICAgICA8L2Rpdj4KICAgICAgKX0KCiAgICAgIHtyb3dzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC01IHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0icHgtNCBweS0yIHRleHQteHMgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVzdCB0ZXh0LW11dGVkLWZvcmVncm91bmQgYm9yZGVyLWIgYm9yZGVyLWJvcmRlciI+CiAgICAgICAgICAgIFByZXZpZXcg4oCUIHtyb3dzLmxlbmd0aH0gcGVha3MgcmVhZHkKICAgICAgICAgIDwvcD4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtaC04MCBvdmVyZmxvdy1hdXRvIj4KICAgICAgICAgICAgPHRhYmxlIGNsYXNzTmFtZT0idy1mdWxsIHRleHQtc20iPgogICAgICAgICAgICAgIDx0aGVhZCBjbGFzc05hbWU9InRleHQtbGVmdCB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICAgIDx0aCBjbGFzc05hbWU9InB4LTQgcHktMiI+TmFtZTwvdGg+CiAgICAgICAgICAgICAgICAgIDx0aCBjbGFzc05hbWU9InB4LTQgcHktMiI+RWxldi48L3RoPgogICAgICAgICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJweC00IHB5LTIiPkNvdW50cnk8L3RoPgogICAgICAgICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJweC00IHB5LTIiPlJlZ2lvbjwvdGg+CiAgICAgICAgICAgICAgICAgIDx0aCBjbGFzc05hbWU9InB4LTQgcHktMiI+Q29vcmRzPC90aD4KICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgPC90aGVhZD4KICAgICAgICAgICAgICA8dGJvZHk+CiAgICAgICAgICAgICAgICB7cm93cy5zbGljZSgwLCAyMDApLm1hcCgocCwgaSkgPT4gKAogICAgICAgICAgICAgICAgICA8dHIga2V5PXtgJHtwLm5hbWV9LSR7aX1gfSBjbGFzc05hbWU9ImJvcmRlci10IGJvcmRlci1ib3JkZXIvNjAiPgogICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMS41Ij57cC5uYW1lfTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtNCBweS0xLjUiPntwLmVsZXZhdGlvbiA/IGAke3AuZWxldmF0aW9ufSBtYCA6ICLigJQifTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtNCBweS0xLjUiPntwLmNvdW50cnlfY29kZSA/PyAi4oCUIn08L3RkPgogICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMS41Ij57cC5hZG1pbjEgPz8gIuKAlCJ9PC90ZD4KICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJweC00IHB5LTEuNSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgICB7cC5sYXQgIT09IG51bGwgJiYgcC5sb24gIT09IG51bGwgPyBgJHtwLmxhdC50b0ZpeGVkKDMpfSwgJHtwLmxvbi50b0ZpeGVkKDMpfWAgOiAi4oCUIn0KICAgICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgPC90Ym9keT4KICAgICAgICAgICAgPC90YWJsZT4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICApfQoKICAgICAge3Jlc3VsdCAmJiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTUgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBwLTQiPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgPENoZWNrQ2lyY2xlMiBjbGFzc05hbWU9InctNCBoLTQgdGV4dC1wcmltYXJ5IiAvPgogICAgICAgICAgICB7cmVzdWx0Lmluc2VydGVkfSBhZGRlZCDCtyB7cmVzdWx0LnNraXBwZWR9IHNraXBwZWQKICAgICAgICAgIDwvcD4KICAgICAgICAgIHtyZXN1bHQubWVzc2FnZXMubGVuZ3RoID4gMCAmJiAoCiAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9Im10LTIgc3BhY2UteS0xIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1heC1oLTQ4IG92ZXJmbG93LWF1dG8iPgogICAgICAgICAgICAgIHtyZXN1bHQubWVzc2FnZXMubWFwKChtKSA9PiAoCiAgICAgICAgICAgICAgICA8bGkga2V5PXttfT57bX08L2xpPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L3VsPgogICAgICAgICAgKX0KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMyB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIEltcG9ydGVkIHBlYWtzIGFyZSBzZWFyY2hhYmxlIGltbWVkaWF0ZWx5IGZyb20gZXZlcnkgc2VhcmNoIGJveCBvbiB0aGUgc2l0ZS4KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgKX0KICAgIDwvQ29tbXVuaXR5TGF5b3V0PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBQZWFrSW1wb3J0UGFnZTsK
+import { useRef, useState } from "react";
+import { Upload, FileUp, Loader2, CheckCircle2, AlertTriangle } from "lucide-react";
+import { useServerFn } from "@tanstack/react-start";
+import { toast } from "sonner";
+
+import Seo from "@/components/Seo";
+import CommunityLayout from "@/components/community/CommunityLayout";
+import MembersOnly from "@/components/community/MembersOnly";
+import { Button } from "@/components/ui/button";
+import { Textarea } from "@/components/ui/textarea";
+import { useAuth } from "@/hooks/useAuth";
+import { importPeaks, type ImportPeaksResult } from "@/lib/peak-import.functions";
+import { parsePeakFile, SAMPLE_CSV, type ImportPeak } from "@/lib/peak-import";
+
+/** Admin-only bulk peak importer: CSV or JSON straight into the global catalog. */
+const PeakImportPage = () => {
+  const { user, isAdmin } = useAuth();
+  const runImport = useServerFn(importPeaks);
+  const fileRef = useRef<HTMLInputElement>(null);
+
+  const [text, setText] = useState("");
+  const [fileName, setFileName] = useState("pasted");
+  const [rows, setRows] = useState<ImportPeak[]>([]);
+  const [errors, setErrors] = useState<string[]>([]);
+  const [busy, setBusy] = useState(false);
+  const [result, setResult] = useState<ImportPeaksResult | null>(null);
+
+  const preview = (raw: string, name: string) => {
+    setFileName(name);
+    setResult(null);
+    const parsed = parsePeakFile(raw);
+    setRows(parsed.rows);
+    setErrors(parsed.errors);
+  };
+
+  const onFile = async (file: File | undefined) => {
+    if (!file) return;
+    if (file.size > 5_000_000) {
+      toast.error("That file is over 5 MB — split it into smaller batches.");
+      return;
+    }
+    const raw = await file.text();
+    setText(raw.length > 200_000 ? `${raw.slice(0, 200_000)}\n…` : raw);
+    preview(raw, file.name);
+  };
+
+  const submit = async () => {
+    if (rows.length === 0) return;
+    setBusy(true);
+    try {
+      const res = await runImport({ data: { peaks: rows, source: fileName } });
+      setResult(res);
+      if (res.inserted > 0) toast.success(`Added ${res.inserted} peaks to the catalog.`);
+      else toast.error("Nothing was added — see the report below.");
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Import failed");
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  if (!user || !isAdmin) {
+    return (
+      <CommunityLayout>
+        <Seo title="Peak import — Ticklelist" description="Admin tool for bulk-adding peaks." path="/community/import-peaks" noindex />
+        <MembersOnly title="Admins only" description="Bulk peak imports are reserved for site admins." />
+      </CommunityLayout>
+    );
+  }
+
+  return (
+    <CommunityLayout>
+      <Seo title="Peak import — Ticklelist" description="Bulk-add peaks to the Ticklelist catalog from CSV or JSON." path="/community/import-peaks" noindex />
+
+      <header className="mb-6">
+        <p className="text-[10px] tracking-[0.3em] uppercase text-primary font-display">Ticklelist</p>
+        <h1 className="font-display text-3xl md:text-4xl tracking-wider mt-2 flex items-center gap-2">
+          <Upload className="w-7 h-7 text-primary" /> Peak import
+        </h1>
+        <p className="mt-3 text-muted-foreground max-w-2xl">
+          Upload a CSV or JSON file of peaks and they go straight into the global search
+          catalog. Only <code className="text-foreground">name</code> is required;{" "}
+          <code className="text-foreground">elevation</code>, <code className="text-foreground">lat</code>,{" "}
+          <code className="text-foreground">lon</code>, <code className="text-foreground">country</code> and{" "}
+          <code className="text-foreground">region</code> are optional. Up to 5,000 rows per import.
+        </p>
+      </header>
+
+      <div className="flex flex-wrap items-center gap-2 mb-4">
+        <input
+          ref={fileRef}
+          type="file"
+          accept=".csv,.json,.txt,text/csv,application/json"
+          className="hidden"
+          onChange={(e) => void onFile(e.target.files?.[0])}
+        />
+        <Button onClick={() => fileRef.current?.click()} variant="default">
+          <FileUp className="w-4 h-4 mr-2" /> Choose file
+        </Button>
+        <Button
+          variant="outline"
+          onClick={() => {
+            setText(SAMPLE_CSV);
+            preview(SAMPLE_CSV, "sample.csv");
+          }}
+        >
+          Load example
+        </Button>
+        <span className="text-xs text-muted-foreground">{fileName}</span>
+      </div>
+
+      <Textarea
+        value={text}
+        onChange={(e) => setText(e.target.value)}
+        onBlur={() => text.trim() && preview(text, fileName)}
+        rows={10}
+        spellCheck={false}
+        placeholder={SAMPLE_CSV}
+        className="font-mono text-xs"
+      />
+
+      <div className="flex flex-wrap items-center gap-3 mt-3">
+        <Button variant="outline" onClick={() => preview(text, fileName)} disabled={!text.trim()}>
+          Check file
+        </Button>
+        <Button onClick={() => void submit()} disabled={busy || rows.length === 0}>
+          {busy ? <Loader2 className="w-4 h-4 mr-2 animate-spin" /> : <Upload className="w-4 h-4 mr-2" />}
+          Import {rows.length > 0 ? `${rows.length} peaks` : ""}
+        </Button>
+      </div>
+
+      {errors.length > 0 && (
+        <div className="mt-5 rounded-lg border border-destructive/40 bg-destructive/5 p-4">
+          <p className="flex items-center gap-2 text-sm font-medium text-destructive">
+            <AlertTriangle className="w-4 h-4" /> {errors.length} row problem{errors.length === 1 ? "" : "s"}
+          </p>
+          <ul className="mt-2 space-y-1 text-xs text-muted-foreground max-h-48 overflow-auto">
+            {errors.slice(0, 50).map((e) => (
+              <li key={e}>{e}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {rows.length > 0 && (
+        <div className="mt-5 rounded-lg border border-border overflow-hidden">
+          <p className="px-4 py-2 text-xs uppercase tracking-widest text-muted-foreground border-b border-border">
+            Preview — {rows.length} peaks ready
+          </p>
+          <div className="max-h-80 overflow-auto">
+            <table className="w-full text-sm">
+              <thead className="text-left text-xs text-muted-foreground">
+                <tr>
+                  <th className="px-4 py-2">Name</th>
+                  <th className="px-4 py-2">Elev.</th>
+                  <th className="px-4 py-2">Country</th>
+                  <th className="px-4 py-2">Region</th>
+                  <th className="px-4 py-2">Coords</th>
+                </tr>
+              </thead>
+              <tbody>
+                {rows.slice(0, 200).map((p, i) => (
+                  <tr key={`${p.name}-${i}`} className="border-t border-border/60">
+                    <td className="px-4 py-1.5">{p.name}</td>
+                    <td className="px-4 py-1.5">{p.elevation ? `${p.elevation} m` : "—"}</td>
+                    <td className="px-4 py-1.5">{p.country_code ?? "—"}</td>
+                    <td className="px-4 py-1.5">{p.admin1 ?? "—"}</td>
+                    <td className="px-4 py-1.5 text-xs text-muted-foreground">
+                      {p.lat !== null && p.lon !== null ? `${p.lat.toFixed(3)}, ${p.lon.toFixed(3)}` : "—"}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
+      {result && (
+        <div className="mt-5 rounded-lg border border-border p-4">
+          <p className="flex items-center gap-2 text-sm font-medium">
+            <CheckCircle2 className="w-4 h-4 text-primary" />
+            {result.inserted} added · {result.skipped} skipped
+          </p>
+          {result.messages.length > 0 && (
+            <ul className="mt-2 space-y-1 text-xs text-muted-foreground max-h-48 overflow-auto">
+              {result.messages.map((m) => (
+                <li key={m}>{m}</li>
+              ))}
+            </ul>
+          )}
+          <p className="mt-3 text-xs text-muted-foreground">
+            Imported peaks are searchable immediately from every search box on the site.
+          </p>
+        </div>
+      )}
+    </CommunityLayout>
+  );
+};
+
+export default PeakImportPage;

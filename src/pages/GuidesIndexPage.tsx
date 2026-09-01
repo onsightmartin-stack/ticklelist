@@ -1,1 +1,60 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBBcnJvd0xlZnQsIEFycm93UmlnaHQsIE1vdW50YWluIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IFNlbyBmcm9tICJAL2NvbXBvbmVudHMvU2VvIjsKaW1wb3J0IE5hdmJhciBmcm9tICJAL2NvbXBvbmVudHMvTmF2YmFyIjsKaW1wb3J0IHsgZ3VpZGVzIH0gZnJvbSAiQC9kYXRhL2d1aWRlcyI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBHdWlkZXNJbmRleFBhZ2UoKSB7CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctYmFja2dyb3VuZCI+CiAgICAgIDxTZW8KICAgICAgICB0aXRsZT0iSGlnaHBvaW50aW5nIEd1aWRlcyAmIExpc3RzIOKAlCBPbnNpZ2h0IE1hcnRpbiIKICAgICAgICBkZXNjcmlwdGlvbj0iUmFua2VkIGxpc3RzIGFuZCBndWlkZXMgdG8gdGhlIHdvcmxkJ3MgY291bnRyeSBoaWdocG9pbnRzOiB0aGUgZnVsbCBsaXN0LCB0aGUgU2V2ZW4gU3VtbWl0cywgZXZlcnkgY29udGluZW50LCB0aGUgZWFzaWVzdCBhbmQgaGFyZGVzdCBwZWFrcyBhbmQgdGhlIGdyZWF0IHZvbGNhbm9lcy4iCiAgICAgICAgcGF0aD0iL2d1aWRlcyIKICAgICAgICBzdHJ1Y3R1cmVkRGF0YU9ubHkKICAgICAgLz4KCiAgICAgIDxOYXZiYXIgLz4KICAgICAgPG1haW4gY2xhc3NOYW1lPSJwdC0yNCBwYi0xNiI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciBteC1hdXRvIHB4LTQiPgogICAgICAgICAgPExpbmsKICAgICAgICAgICAgdG89Ii8iCiAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGhvdmVyOnRleHQtZm9yZWdyb3VuZCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgID4KICAgICAgICAgICAgPEFycm93TGVmdCBjbGFzc05hbWU9InctNCBoLTQiIGFyaWEtaGlkZGVuPSJ0cnVlIiAvPiBCYWNrIGhvbWUKICAgICAgICAgIDwvTGluaz4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTR4bCBtZDp0ZXh0LTV4bCBmb250LWJvbGQgdGV4dC1mb3JlZ3JvdW5kIG10LTYiPgogICAgICAgICAgICBIaWdocG9pbnRpbmcgR3VpZGVzCiAgICAgICAgICA8L2gxPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMyBtYXgtdy0yeGwiPgogICAgICAgICAgICBSYW5rZWQgbGlzdHMgb2YgdGhlIGhpZ2hlc3QgbW91bnRhaW4gaW4gZXZlcnkgY291bnRyeSDigJQgc29ydGVkIGJ5IGVsZXZhdGlvbiwgZGlmZmljdWx0eQogICAgICAgICAgICBhbmQgaG93IGdvb2QgYSBmaXJzdCBzdW1taXQgdGhleSBtYWtlLiBFdmVyeSBwZWFrIGxpbmtzIHRvIGl0cyBvd24gcm91dGUgcGFnZS4KICAgICAgICAgIDwvcD4KCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBnYXAtNCBtZDpncmlkLWNvbHMtMiBtdC0xMCI+CiAgICAgICAgICAgIHtndWlkZXMubWFwKChndWlkZSkgPT4gKAogICAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAgICBrZXk9e2d1aWRlLnNsdWd9CiAgICAgICAgICAgICAgICB0bz17YC9ndWlkZXMvJHtndWlkZS5zbHVnfWB9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9Imdyb3VwIGJnLWNhcmQgYm9yZGVyIGJvcmRlci1ib3JkZXIgcm91bmRlZC1sZyBwLTUgaG92ZXI6Ym9yZGVyLXByaW1hcnkvNTAgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RhcnQgZ2FwLTMiPgogICAgICAgICAgICAgICAgICA8TW91bnRhaW4gY2xhc3NOYW1lPSJ3LTUgaC01IHRleHQtcHJpbWFyeSBzaHJpbmstMCBtdC0xIiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4KICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC14bCBmb250LWJvbGQgdGV4dC1mb3JlZ3JvdW5kIGdyb3VwLWhvdmVyOnRleHQtcHJpbWFyeSB0cmFuc2l0aW9uLWNvbG9ycyI+CiAgICAgICAgICAgICAgICAgICAgICB7Z3VpZGUuaGVhZGluZ30KICAgICAgICAgICAgICAgICAgICA8L2gyPgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMiI+e2d1aWRlLmRlc2NyaXB0aW9ufTwvcD4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSB0ZXh0LXNtIHRleHQtcHJpbWFyeSBtdC0zIj4KICAgICAgICAgICAgICAgICAgICAgIFJlYWQgdGhlIGxpc3QgPEFycm93UmlnaHQgY2xhc3NOYW1lPSJ3LTQgaC00IiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L21haW4+CiAgICA8L2Rpdj4KICApOwp9Cg==
+import { Link } from "@/lib/router-compat";
+import { ArrowLeft, ArrowRight, Mountain } from "lucide-react";
+import Seo from "@/components/Seo";
+import Navbar from "@/components/Navbar";
+import { guides } from "@/data/guides";
+
+export default function GuidesIndexPage() {
+  return (
+    <div className="min-h-screen bg-background">
+      <Seo
+        title="Highpointing Guides & Lists — Onsight Martin"
+        description="Ranked lists and guides to the world's country highpoints: the full list, the Seven Summits, every continent, the easiest and hardest peaks and the great volcanoes."
+        path="/guides"
+        structuredDataOnly
+      />
+
+      <Navbar />
+      <main className="pt-24 pb-16">
+        <div className="container mx-auto px-4">
+          <Link
+            to="/"
+            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" aria-hidden="true" /> Back home
+          </Link>
+          <h1 className="font-display text-4xl md:text-5xl font-bold text-foreground mt-6">
+            Highpointing Guides
+          </h1>
+          <p className="text-muted-foreground mt-3 max-w-2xl">
+            Ranked lists of the highest mountain in every country — sorted by elevation, difficulty
+            and how good a first summit they make. Every peak links to its own route page.
+          </p>
+
+          <div className="grid gap-4 md:grid-cols-2 mt-10">
+            {guides.map((guide) => (
+              <Link
+                key={guide.slug}
+                to={`/guides/${guide.slug}`}
+                className="group bg-card border border-border rounded-lg p-5 hover:border-primary/50 transition-colors"
+              >
+                <div className="flex items-start gap-3">
+                  <Mountain className="w-5 h-5 text-primary shrink-0 mt-1" aria-hidden="true" />
+                  <div>
+                    <h2 className="font-display text-xl font-bold text-foreground group-hover:text-primary transition-colors">
+                      {guide.heading}
+                    </h2>
+                    <p className="text-sm text-muted-foreground mt-2">{guide.description}</p>
+                    <span className="inline-flex items-center gap-1 text-sm text-primary mt-3">
+                      Read the list <ArrowRight className="w-4 h-4" aria-hidden="true" />
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </main>
+    </div>
+  );
+}

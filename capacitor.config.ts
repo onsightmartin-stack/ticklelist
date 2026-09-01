@@ -1,1 +1,28 @@
-aW1wb3J0IHR5cGUgeyBDYXBhY2l0b3JDb25maWcgfSBmcm9tICJAY2FwYWNpdG9yL2NsaSI7Cgpjb25zdCBjb25maWc6IENhcGFjaXRvckNvbmZpZyA9IHsKICBhcHBJZDogImNvbS5vbnNpZ2h0bWFydGluLnRpY2tsZWxpc3QiLAogIGFwcE5hbWU6ICJUaWNrbGVsaXN0IiwKICB3ZWJEaXI6ICJkaXN0IiwKICBzZXJ2ZXI6IHsKICAgIC8vIE9wZW4gdGhlIGNvbW11bml0eSByb3V0ZSBkaXJlY3RseS4gRG8gbm90IHJlbHkgb24gdGhlIGRvbWFpbi1yb290CiAgICAvLyByZWRpcmVjdDogYSBjYWNoZWQgZG9jdW1lbnQgb3IgbWlzc2luZyBidWlsZC10aW1lIGVudiBjb3VsZCBvdGhlcndpc2UKICAgIC8vIGxlYXZlIHRoZSBBbmRyb2lkIFdlYlZpZXcgb24gdGhlIE9uc2lnaHQgTWFydGluIGhvbWVwYWdlLgogICAgdXJsOiAiaHR0cHM6Ly90aWNrbGVsaXN0Lm9yZy9jb21tdW5pdHkiLAogICAgLy8gRm9yY2UgSFRUUFMgb25seSDigJQgbW9kZXJuIEFuZHJvaWQgKDE0KykgYmxvY2tzIGNsZWFydGV4dCBIVFRQIGJ5IGRlZmF1bHQuCiAgICBhbmRyb2lkU2NoZW1lOiAiaHR0cHMiLAogIH0sCiAgLy8gVGFnIHRoZSBXZWJWaWV3IHNvIHRoZSBzaXRlIGNhbiBkZXRlY3QgdGhlIGFwcCBldmVuIGlmIHRoZSBDYXBhY2l0b3IKICAvLyBicmlkZ2UgaGFzbid0IGJlZW4gaW5qZWN0ZWQgeWV0LgogIGFwcGVuZFVzZXJBZ2VudDogIlRpY2tsZWxpc3RBcHAiLAogIGFuZHJvaWQ6IHsKICAgIGJhY2tncm91bmRDb2xvcjogIiMwYjBmMTQiLAogICAgYWxsb3dNaXhlZENvbnRlbnQ6IGZhbHNlLAogICAgLy8gRW5mb3JjZSBUTFMg4oCUIHJlamVjdCBjb25uZWN0aW9ucyB3aXRoIGludmFsaWQgY2VydGlmaWNhdGVzLgogICAgY2FwdHVyZUlucHV0OiB0cnVlLAogICAgLy8gVXNlIHRoZSBBbmRyb2lkIFdlYlZpZXcncyBidWlsdC1pbiBzYWZlIGJyb3dzaW5nIG9uIHN1cHBvcnRlZCBkZXZpY2VzLgogICAgd2ViQ29udGVudHNEZWJ1Z2dpbmdFbmFibGVkOiBmYWxzZSwKICB9LAp9OwoKZXhwb3J0IGRlZmF1bHQgY29uZmlnOwo=
+import type { CapacitorConfig } from "@capacitor/cli";
+
+const config: CapacitorConfig = {
+  appId: "com.onsightmartin.ticklelist",
+  appName: "Ticklelist",
+  webDir: "dist",
+  server: {
+    // Open the community route directly. Do not rely on the domain-root
+    // redirect: a cached document or missing build-time env could otherwise
+    // leave the Android WebView on the Onsight Martin homepage.
+    url: "https://ticklelist.org/community",
+    // Force HTTPS only — modern Android (14+) blocks cleartext HTTP by default.
+    androidScheme: "https",
+  },
+  // Tag the WebView so the site can detect the app even if the Capacitor
+  // bridge hasn't been injected yet.
+  appendUserAgent: "TicklelistApp",
+  android: {
+    backgroundColor: "#0b0f14",
+    allowMixedContent: false,
+    // Enforce TLS — reject connections with invalid certificates.
+    captureInput: true,
+    // Use the Android WebView's built-in safe browsing on supported devices.
+    webContentsDebuggingEnabled: false,
+  },
+};
+
+export default config;

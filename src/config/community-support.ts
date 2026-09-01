@@ -1,1 +1,32 @@
-LyoqCiAqIENvbW11bml0eSBzdXBwb3J0IGxpbmtzIOKAlCB0aGVzZSBoZWxwIGtlZXAgVGlja2xlbGlzdCBmcmVlIGFuZCBhZC1mcmVlLgogKgogKiBUaWNrbGVsaXN0IGlzIGN1cnJlbnRseSBmdW5kZWQgZW50aXJlbHkgYnkgTWFydGluICh0aGUgZm91bmRlcikuIFRoZXNlCiAqIGxpbmtzIGxldCBjb21tdW5pdHkgbWVtYmVycyBjaGlwIGluIHRvd2FyZCBzZXJ2ZXIgY29zdHMsIGhvc3RpbmcgYW5kCiAqIGRldmVsb3BtZW50IGlmIHRoZXkgd2FudCB0by4gRG9uYXRpb25zIGFyZSB2b2x1bnRhcnkgYW5kIHVubG9jayBubyBwYWlkCiAqIGZlYXR1cmVzLgogKgogKiBHb29nbGUgUGxheSBwb2xpY3kgbm90ZTogZG9uYXRpb25zIHRvIGFuIGluZGl2aWR1YWwvY3JlYXRvciBtYXkgYmUgdGFrZW4KICogb3V0c2lkZSBHb29nbGUgUGxheSBCaWxsaW5nLCBidXQgc2VsbGluZyBkaWdpdGFsIGdvb2RzIG9yIG1lbWJlcnNoaXBzCiAqIGluc2lkZSB0aGUgQW5kcm9pZCBhcHAgbXVzdCB1c2UgUGxheSBCaWxsaW5nLiBLZWVwIHRoZXNlIGxpbmtzIGRvbmF0aW9uLW9ubHkuCiAqLwpleHBvcnQgY29uc3QgQ09NTVVOSVRZX1NVUFBPUlRfTElOS1MgPSBbCiAgewogICAgaWQ6ICJidXltZWFjb2ZmZWUiLAogICAgbGFiZWw6ICJCdXkgbWUgYSBjb2ZmZWUiLAogICAgZGVzY3JpcHRpb246ICJDaGlwIGluIHRvd2FyZCBzZXJ2ZXIgY29zdHMsIGhvc3RpbmcgYW5kIGtlZXBpbmcgdGhlIGFwcCBmcmVlLiIsCiAgICB1cmw6ICJodHRwczovL2J1eW1lYWNvZmZlZS5jb20vb25zaWdodG1hcnRpbiIsCiAgfSwKICB7CiAgICBpZDogInBheXBhbCIsCiAgICBsYWJlbDogIlBheVBhbCIsCiAgICBkZXNjcmlwdGlvbjogIlNlbmQgYW55IGFtb3VudCBkaXJlY3RseSB0byBzdXBwb3J0IHRoZSBjb21tdW5pdHkuIiwKICAgIHVybDogImh0dHBzOi8vd3d3LnBheXBhbC5tZS9vbnNpZ2h0bWFydGluIiwKICB9LAogIHsKICAgIGlkOiAieW91dHViZSIsCiAgICBsYWJlbDogIlN1YnNjcmliZSBvbiBZb3VUdWJlIiwKICAgIGRlc2NyaXB0aW9uOiAiRnJlZSB3YXkgdG8gaGVscCDigJQgd2F0Y2ggdGltZSBoZWxwcyBmdW5kIHRoZSBwcm9qZWN0LiIsCiAgICB1cmw6ICJodHRwczovL3d3dy55b3V0dWJlLmNvbS9Ab25zaWdodG1hcnRpbiIsCiAgfSwKXSBhcyBjb25zdDsK
+/**
+ * Community support links — these help keep Ticklelist free and ad-free.
+ *
+ * Ticklelist is currently funded entirely by Martin (the founder). These
+ * links let community members chip in toward server costs, hosting and
+ * development if they want to. Donations are voluntary and unlock no paid
+ * features.
+ *
+ * Google Play policy note: donations to an individual/creator may be taken
+ * outside Google Play Billing, but selling digital goods or memberships
+ * inside the Android app must use Play Billing. Keep these links donation-only.
+ */
+export const COMMUNITY_SUPPORT_LINKS = [
+  {
+    id: "buymeacoffee",
+    label: "Buy me a coffee",
+    description: "Chip in toward server costs, hosting and keeping the app free.",
+    url: "https://buymeacoffee.com/onsightmartin",
+  },
+  {
+    id: "paypal",
+    label: "PayPal",
+    description: "Send any amount directly to support the community.",
+    url: "https://www.paypal.me/onsightmartin",
+  },
+  {
+    id: "youtube",
+    label: "Subscribe on YouTube",
+    description: "Free way to help — watch time helps fund the project.",
+    url: "https://www.youtube.com/@onsightmartin",
+  },
+] as const;

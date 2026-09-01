@@ -1,1 +1,38 @@
-RFJPUCBGVU5DVElPTiBJRiBFWElTVFMgcHVibGljLnNlYXJjaF93b3JsZF9wZWFrcyh0ZXh0LCBpbnRlZ2VyLCB0ZXh0LCBpbnRlZ2VyKTsKCkNSRUFURSBGVU5DVElPTiBwdWJsaWMuc2VhcmNoX3dvcmxkX3BlYWtzKAogIF9xIHRleHQsCiAgX2xpbWl0IGludGVnZXIgREVGQVVMVCAyMCwKICBfY291bnRyeSB0ZXh0IERFRkFVTFQgTlVMTCwKICBfbWluX2VsZXZhdGlvbiBpbnRlZ2VyIERFRkFVTFQgTlVMTCwKICBfbWluX3Byb21pbmVuY2UgaW50ZWdlciBERUZBVUxUIE5VTEwKKQpSRVRVUk5TIFRBQkxFKAogIGlkIGJpZ2ludCwKICBuYW1lIHRleHQsCiAgbGF0IGRvdWJsZSBwcmVjaXNpb24sCiAgbG9uIGRvdWJsZSBwcmVjaXNpb24sCiAgZmVhdHVyZV9jb2RlIHRleHQsCiAgY291bnRyeV9jb2RlIHRleHQsCiAgYWRtaW4xIHRleHQsCiAgZWxldmF0aW9uIGludGVnZXIsCiAgcHJvbWluZW5jZSBpbnRlZ2VyCikKTEFOR1VBR0Ugc3FsClNUQUJMRQpTRVQgc2VhcmNoX3BhdGggVE8gJ3B1YmxpYycKQVMgJGZ1bmN0aW9uJAogIFNFTEVDVCBwLmlkLCBwLm5hbWUsIHAubGF0LCBwLmxvbiwgcC5mZWF0dXJlX2NvZGUsIHAuY291bnRyeV9jb2RlLCBwLmFkbWluMSwgcC5lbGV2YXRpb24sIHAucHJvbWluZW5jZQogIEZST00gcHVibGljLndvcmxkX3BlYWtzIHAKICBXSEVSRSBsZW5ndGgoY29hbGVzY2UoX3EsICcnKSkgPj0gMgogICAgQU5EIChwLm5hbWUgSUxJS0UgX3EgfHwgJyUnIE9SIHAubmFtZSAlIF9xKQogICAgQU5EIChfY291bnRyeSBJUyBOVUxMIE9SIHAuY291bnRyeV9jb2RlID0gX2NvdW50cnkpCiAgICBBTkQgKF9taW5fZWxldmF0aW9uIElTIE5VTEwgT1IgcC5lbGV2YXRpb24gPj0gX21pbl9lbGV2YXRpb24pCiAgICBBTkQgKF9taW5fcHJvbWluZW5jZSBJUyBOVUxMIE9SIHAucHJvbWluZW5jZSA+PSBfbWluX3Byb21pbmVuY2UpCiAgT1JERVIgQlkgKHAubmFtZSBJTElLRSBfcSB8fCAnJScpIERFU0MsCiAgICAgICAgICAgcHVibGljLnNpbWlsYXJpdHkocC5uYW1lLCBfcSkgREVTQywKICAgICAgICAgICBwLmVsZXZhdGlvbiBERVNDIE5VTExTIExBU1QKICBMSU1JVCBMRUFTVChHUkVBVEVTVChjb2FsZXNjZShfbGltaXQsIDIwKSwgMSksIDUwKTsKJGZ1bmN0aW9uJDsKCkdSQU5UIEVYRUNVVEUgT04gRlVOQ1RJT04gcHVibGljLnNlYXJjaF93b3JsZF9wZWFrcyh0ZXh0LCBpbnRlZ2VyLCB0ZXh0LCBpbnRlZ2VyLCBpbnRlZ2VyKSBUTyBhbm9uLCBhdXRoZW50aWNhdGVkOw==
+DROP FUNCTION IF EXISTS public.search_world_peaks(text, integer, text, integer);
+
+CREATE FUNCTION public.search_world_peaks(
+  _q text,
+  _limit integer DEFAULT 20,
+  _country text DEFAULT NULL,
+  _min_elevation integer DEFAULT NULL,
+  _min_prominence integer DEFAULT NULL
+)
+RETURNS TABLE(
+  id bigint,
+  name text,
+  lat double precision,
+  lon double precision,
+  feature_code text,
+  country_code text,
+  admin1 text,
+  elevation integer,
+  prominence integer
+)
+LANGUAGE sql
+STABLE
+SET search_path TO 'public'
+AS $function$
+  SELECT p.id, p.name, p.lat, p.lon, p.feature_code, p.country_code, p.admin1, p.elevation, p.prominence
+  FROM public.world_peaks p
+  WHERE length(coalesce(_q, '')) >= 2
+    AND (p.name ILIKE _q || '%' OR p.name % _q)
+    AND (_country IS NULL OR p.country_code = _country)
+    AND (_min_elevation IS NULL OR p.elevation >= _min_elevation)
+    AND (_min_prominence IS NULL OR p.prominence >= _min_prominence)
+  ORDER BY (p.name ILIKE _q || '%') DESC,
+           public.similarity(p.name, _q) DESC,
+           p.elevation DESC NULLS LAST
+  LIMIT LEAST(GREATEST(coalesce(_limit, 20), 1), 50);
+$function$;
+
+GRANT EXECUTE ON FUNCTION public.search_world_peaks(text, integer, text, integer, integer) TO anon, authenticated;

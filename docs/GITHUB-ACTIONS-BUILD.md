@@ -1,1 +1,58 @@
-IyBCdWlsZGluZyB0aGUgVGlja2xlbGlzdCBBQUIgd2l0aCBHaXRIdWIgQWN0aW9ucyAobm8gQW5kcm9pZCBTdHVkaW8gbmVlZGVkKQoKVGhlIHdvcmtmbG93IGluIGAuZ2l0aHViL3dvcmtmbG93cy9hbmRyb2lkLXJlbGVhc2UueW1sYCBidWlsZHMgeW91ciBzaWduZWQKQW5kcm9pZCBBcHAgQnVuZGxlIGluIHRoZSBjbG91ZC4gWW91IHRyaWdnZXIgaXQgZnJvbSBHaXRIdWIgYW5kIGRvd25sb2FkIHRoZQpgLmFhYmAg4oCUIG5vIEFuZHJvaWQgU3R1ZGlvIHJlcXVpcmVkLgoKIyMgT25lLXRpbWUgc2V0dXAKCiMjIyAxLiBDcmVhdGUgeW91ciByZWxlYXNlIGtleXN0b3JlIFtZT1VdCgpPbiBhbnkgY29tcHV0ZXIgd2l0aCBhIHRlcm1pbmFsIChvciBhc2sgYSBmcmllbmQpOgoKYGBgYmFzaAprZXl0b29sIC1nZW5rZXkgLXYgLWtleXN0b3JlIHRpY2tsZWxpc3QtcmVsZWFzZS5rZXlzdG9yZSAtYWxpYXMgdGlja2xlbGlzdCAta2V5YWxnIFJTQSAta2V5c2l6ZSAyMDQ4IC12YWxpZGl0eSAxMDAwMApgYGAKClBpY2sgYSBrZXlzdG9yZSBwYXNzd29yZCBhbmQgc2F2ZSBpdCBzYWZlbHkuICoqTmV2ZXIgbG9zZSB0aGlzIGZpbGUqKiDigJQgaXQncwpyZXF1aXJlZCBmb3IgZXZlcnkgZnV0dXJlIHVwZGF0ZSBvZiB0aGUgYXBwLgoKIyMjIDIuIENvbnZlcnQgdGhlIGtleXN0b3JlIHRvIEJhc2U2NCBbWU9VXQoKYGBgYmFzaApiYXNlNjQgLXcgMCB0aWNrbGVsaXN0LXJlbGVhc2Uua2V5c3RvcmUgPiBrZXlzdG9yZS5iNjQudHh0CmBgYAoKKE9uIFdpbmRvd3MgUG93ZXJTaGVsbDogYGNlcnR1dGlsIC1lbmNvZGUgdGlja2xlbGlzdC1yZWxlYXNlLmtleXN0b3JlIGtleXN0b3JlLmI2NC50eHRgCnRoZW4gc3RyaXAgdGhlIGhlYWRlci9mb290ZXIgbGluZXMuKQoKIyMjIDMuIEFkZCBHaXRIdWIgc2VjcmV0cyBbWU9VXQoKSW4geW91ciBHaXRIdWIgcmVwbyDihpIgKipTZXR0aW5ncyDihpIgU2VjcmV0cyBhbmQgdmFyaWFibGVzIOKGkiBBY3Rpb25zIOKGkiBOZXcgcmVwb3NpdG9yeSBzZWNyZXQqKjoKCnwgU2VjcmV0IG5hbWUgfCBWYWx1ZSB8CnwtLS18LS0tfAp8IGBBTkRST0lEX0tFWVNUT1JFX0JBU0U2NGAgfCBjb250ZW50cyBvZiBga2V5c3RvcmUuYjY0LnR4dGAgfAp8IGBLU1RPUkVfUFdgIHwgeW91ciBrZXlzdG9yZSBwYXNzd29yZCB8CnwgYEtFWV9QV2AgfCB5b3VyIGtleSBwYXNzd29yZCAoc2FtZSBhcyBrZXlzdG9yZSBwYXNzd29yZCBpZiB5b3UgcmV1c2VkIGl0KSB8CgpEbyBOT1QgY29tbWl0IHRoZSBrZXlzdG9yZSBmaWxlIGl0c2VsZiB0byB0aGUgcmVwby4KCiMjIEV2ZXJ5IGJ1aWxkCgoxLiBHbyB0byB5b3VyIHJlcG8gb24gR2l0SHViIOKGkiAqKkFjdGlvbnMqKiB0YWIg4oaSICoqQnVpbGQgQW5kcm9pZCBBcHAgQnVuZGxlIChBQUIpKiouCjIuIENsaWNrICoqUnVuIHdvcmtmbG93Kiog4oaSIGZpbGwgaW46CiAgIC0gYHZlcnNpb25fY29kZWA6IGluY3JlYXNlIGJ5IDEgZXZlcnkgdXBsb2FkICgxLCAyLCAz4oCmKQogICAtIGB2ZXJzaW9uX25hbWVgOiBlLmcuIGAxLjBgLCBgMS4xYAozLiBXYWl0IH4xMCBtaW51dGVzLiBXaGVuIGl0IHR1cm5zIGdyZWVuLCBvcGVuIHRoZSBydW4gYW5kIGRvd25sb2FkIHRoZQogICAqKmFwcC1yZWxlYXNlLWFhYioqIGFydGlmYWN0IChhIHppcCBjb250YWluaW5nIGBhcHAtcmVsZWFzZS5hYWJgKS4KNC4gVXBsb2FkIHRoYXQgYC5hYWJgIGluIFBsYXkgQ29uc29sZSDihpIgUHJvZHVjdGlvbiDihpIgQ3JlYXRlIHJlbGVhc2UuCgojIyBOb3RlcwoKLSBUaGUgd2ViIGFwcCBpcyBidWlsdCBhbmQgc3luY2VkIGludG8gdGhlIEFuZHJvaWQgc2hlbGwgZHVyaW5nIHRoZSB3b3JrZmxvdywKICBzbyB0aGUgQUFCIGFsd2F5cyBtYXRjaGVzIHRoZSBjdXJyZW50IGNvZGViYXNlLiAoVGhlIGFwcCBzdGlsbCBsb2FkcwogIGB0aWNrbGVsaXN0Lm9yZy9jb21tdW5pdHlgIGxpdmUgYXQgcnVudGltZS4pCi0gSWYgdGhlIGJ1aWxkIGZhaWxzLCBvcGVuIHRoZSBmYWlsaW5nIHN0ZXAncyBsb2dzIGluIHRoZSBBY3Rpb25zIHJ1biDigJQgdGhlCiAgZXJyb3IgaXMgdXN1YWxseSBzaG93biBhdCB0aGUgYm90dG9tLgotIEtlZXAgYHZlcnNpb25Db2RlYCBzdHJpY3RseSBpbmNyZWFzaW5nOyBHb29nbGUgUGxheSByZWplY3RzIGR1cGxpY2F0ZXMuCg==
+# Building the Ticklelist AAB with GitHub Actions (no Android Studio needed)
+
+The workflow in `.github/workflows/android-release.yml` builds your signed
+Android App Bundle in the cloud. You trigger it from GitHub and download the
+`.aab` — no Android Studio required.
+
+## One-time setup
+
+### 1. Create your release keystore [YOU]
+
+On any computer with a terminal (or ask a friend):
+
+```bash
+keytool -genkey -v -keystore ticklelist-release.keystore -alias ticklelist -keyalg RSA -keysize 2048 -validity 10000
+```
+
+Pick a keystore password and save it safely. **Never lose this file** — it's
+required for every future update of the app.
+
+### 2. Convert the keystore to Base64 [YOU]
+
+```bash
+base64 -w 0 ticklelist-release.keystore > keystore.b64.txt
+```
+
+(On Windows PowerShell: `certutil -encode ticklelist-release.keystore keystore.b64.txt`
+then strip the header/footer lines.)
+
+### 3. Add GitHub secrets [YOU]
+
+In your GitHub repo → **Settings → Secrets and variables → Actions → New repository secret**:
+
+| Secret name | Value |
+|---|---|
+| `ANDROID_KEYSTORE_BASE64` | contents of `keystore.b64.txt` |
+| `KSTORE_PW` | your keystore password |
+| `KEY_PW` | your key password (same as keystore password if you reused it) |
+
+Do NOT commit the keystore file itself to the repo.
+
+## Every build
+
+1. Go to your repo on GitHub → **Actions** tab → **Build Android App Bundle (AAB)**.
+2. Click **Run workflow** → fill in:
+   - `version_code`: increase by 1 every upload (1, 2, 3…)
+   - `version_name`: e.g. `1.0`, `1.1`
+3. Wait ~10 minutes. When it turns green, open the run and download the
+   **app-release-aab** artifact (a zip containing `app-release.aab`).
+4. Upload that `.aab` in Play Console → Production → Create release.
+
+## Notes
+
+- The web app is built and synced into the Android shell during the workflow,
+  so the AAB always matches the current codebase. (The app still loads
+  `ticklelist.org/community` live at runtime.)
+- If the build fails, open the failing step's logs in the Actions run — the
+  error is usually shown at the bottom.
+- Keep `versionCode` strictly increasing; Google Play rejects duplicates.

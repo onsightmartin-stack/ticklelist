@@ -1,1 +1,7 @@
-PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPHJlc291cmNlcz4KICAgIDxzdHJpbmcgbmFtZT0iYXBwX25hbWUiPlRpY2tsZWxpc3Q8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0idGl0bGVfYWN0aXZpdHlfbWFpbiI+VGlja2xlbGlzdDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJwYWNrYWdlX25hbWUiPmNvbS5vbnNpZ2h0bWFydGluLnRpY2tsZWxpc3Q8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0iY3VzdG9tX3VybF9zY2hlbWUiPmNvbS5vbnNpZ2h0bWFydGluLnRpY2tsZWxpc3Q8L3N0cmluZz4KPC9yZXNvdXJjZXM+Cg==
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Ticklelist</string>
+    <string name="title_activity_main">Ticklelist</string>
+    <string name="package_name">com.onsightmartin.ticklelist</string>
+    <string name="custom_url_scheme">com.onsightmartin.ticklelist</string>
+</resources>

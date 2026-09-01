@@ -1,1 +1,191 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBBcnJvd1JpZ2h0LCBNb3VudGFpbiB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCBOYXZiYXIgZnJvbSAiQC9jb21wb25lbnRzL05hdmJhciI7CmltcG9ydCBTZW8gZnJvbSAiQC9jb21wb25lbnRzL1NlbyI7CmltcG9ydCBUaWNrbGVsaXN0Q3RhIGZyb20gIkAvY29tcG9uZW50cy9UaWNrbGVsaXN0Q3RhIjsKaW1wb3J0IHsgdXNlQWJWYXJpYW50IH0gZnJvbSAiQC9ob29rcy91c2VBYlZhcmlhbnQiOwppbXBvcnQgewogIGNvbnRpbmVudEh1YnMsCiAgZmVldCwKICBodWJSb3dzLAogIG1ldHJlcywKICB0eXBlIENvbnRpbmVudEh1YiwKfSBmcm9tICJAL2xpYi9oaWdoZXN0LW1vdW50YWlucyI7CgppbnRlcmZhY2UgUHJvcHMgewogIC8qKiBVbmRlZmluZWQgb24gdGhlIGdsb2JhbCBodWIsIHNldCBvbiBhIGNvbnRpbmVudCBwYWdlLiAqLwogIGh1Yj86IENvbnRpbmVudEh1YjsKfQoKY29uc3QgSGlnaGVzdE1vdW50YWluc1BhZ2UgPSAoeyBodWIgfTogUHJvcHMpID0+IHsKICBjb25zdCByb3dzID0gaHViUm93cyhodWI/Lm5hbWUpOwogIGNvbnN0IGN0YVZhcmlhbnQgPSB1c2VBYlZhcmlhbnQoInRpY2tsZWxpc3RfY3RhX2NvcHkiKTsKICBjb25zdCBwYXRoID0gaHViID8gYC9oaWdoZXN0LW1vdW50YWlucy8ke2h1Yi5zbHVnfWAgOiAiL2hpZ2hlc3QtbW91bnRhaW5zIjsKICBjb25zdCB0aXRsZSA9IGh1YgogICAgPyBgSGlnaGVzdCBNb3VudGFpbiBpbiBFdmVyeSAke2h1Yi5hZGplY3RpdmV9IENvdW50cnkgKCR7cm93cy5sZW5ndGh9KWAKICAgIDogIkhpZ2hlc3QgTW91bnRhaW4gaW4gRXZlcnkgQ291bnRyeSBvbiBFYXJ0aCDigJQgRnVsbCBMaXN0IjsKICBjb25zdCBkZXNjcmlwdGlvbiA9IGh1YgogICAgPyBgRXZlcnkgJHtodWIuYWRqZWN0aXZlfSBjb3VudHJ5J3MgaGlnaGVzdCBtb3VudGFpbiwgcmFua2VkIGJ5IGVsZXZhdGlvbjogJHtyb3dzWzBdPy5wZWFrfSBkb3duIHRvICR7cm93c1tyb3dzLmxlbmd0aCAtIDFdPy5wZWFrfS4gSGVpZ2h0cyBpbiBtZXRyZXMgYW5kIGZlZXQsIHdpdGggcm91dGUgbm90ZXMuYAogICAgOiAiVGhlIGhpZ2hlc3QgbW91bnRhaW4gb2YgYWxsIDE5NSBjb3VudHJpZXMsIHJhbmtlZCBieSBlbGV2YXRpb24sIHdpdGggaGVpZ2h0cyBpbiBtZXRyZXMgYW5kIGZlZXQgcGx1cyByb3V0ZSBub3RlcywgZGlmZmljdWx0eSBhbmQgc3VtbWl0IHZpZGVvcyBmb3IgZWFjaC4iOwoKICBjb25zdCBjbGltYmVkID0gcm93cy5maWx0ZXIoKHIpID0+IHIuY2xpbWJlZCkubGVuZ3RoOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy1iYWNrZ3JvdW5kIj4KICAgICAgPFNlbwogICAgICAgIHRpdGxlPXt0aXRsZS5sZW5ndGggPiA2MCA/IHRpdGxlLnNsaWNlKDAsIDYwKSA6IHRpdGxlfQogICAgICAgIGRlc2NyaXB0aW9uPXtkZXNjcmlwdGlvbn0KICAgICAgICBwYXRoPXtwYXRofQogICAgICAgIHR5cGU9ImFydGljbGUiCiAgICAgICAgYnJlYWRjcnVtYkxlYWY9e2h1YiA/IGBIaWdoZXN0IG1vdW50YWlucyBpbiAke2h1Yi5uYW1lfWAgOiAiSGlnaGVzdCBtb3VudGFpbiBpbiBldmVyeSBjb3VudHJ5In0KICAgICAgICBqc29uTGQ9e1sKICAgICAgICAgIHsKICAgICAgICAgICAgIkBjb250ZXh0IjogImh0dHBzOi8vc2NoZW1hLm9yZyIsCiAgICAgICAgICAgICJAdHlwZSI6ICJJdGVtTGlzdCIsCiAgICAgICAgICAgIG5hbWU6IHRpdGxlLAogICAgICAgICAgICBkZXNjcmlwdGlvbiwKICAgICAgICAgICAgbnVtYmVyT2ZJdGVtczogcm93cy5sZW5ndGgsCiAgICAgICAgICAgIGl0ZW1MaXN0RWxlbWVudDogcm93cy5tYXAoKHIsIGkpID0+ICh7CiAgICAgICAgICAgICAgIkB0eXBlIjogIkxpc3RJdGVtIiwKICAgICAgICAgICAgICBwb3NpdGlvbjogaSArIDEsCiAgICAgICAgICAgICAgbmFtZTogYCR7ci5wZWFrfSDigJQgJHtyLmNvdW50cnl9YCwKICAgICAgICAgICAgICB1cmw6IGBodHRwczovL29uc2lnaHRtYXJ0aW4uY29tJHtyLnBhdGh9YCwKICAgICAgICAgICAgfSkpLAogICAgICAgICAgfSwKICAgICAgICBdfQogICAgICAvPgogICAgICA8TmF2YmFyIC8+CiAgICAgIDxtYWluIGNsYXNzTmFtZT0ibXgtYXV0byBtYXgtdy01eGwgcHgtNCBwdC0yNCBwYi0xNiI+CiAgICAgICAgPG5hdiBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIDxMaW5rIHRvPSIvIiBjbGFzc05hbWU9ImhvdmVyOnRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIEhvbWUKICAgICAgICAgIDwvTGluaz4KICAgICAgICAgIHtodWIgJiYgKAogICAgICAgICAgICA8PgogICAgICAgICAgICAgIHsiIC8gIn0KICAgICAgICAgICAgICA8TGluayB0bz0iL2hpZ2hlc3QtbW91bnRhaW5zIiBjbGFzc05hbWU9ImhvdmVyOnRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICBIaWdoZXN0IG1vdW50YWlucwogICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgPC8+CiAgICAgICAgICApfQogICAgICAgIDwvbmF2PgoKICAgICAgICA8aDEgY2xhc3NOYW1lPSJtdC00IGZvbnQtZGlzcGxheSB0ZXh0LTN4bCBzbTp0ZXh0LTR4bCB0cmFja2luZy13aWRlIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7aHViCiAgICAgICAgICAgID8gYEhpZ2hlc3QgbW91bnRhaW4gaW4gZXZlcnkgJHtodWIuYWRqZWN0aXZlfSBjb3VudHJ5YAogICAgICAgICAgICA6ICJIaWdoZXN0IG1vdW50YWluIGluIGV2ZXJ5IGNvdW50cnkgb24gRWFydGgifQogICAgICAgIDwvaDE+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC00IG1heC13LTN4bCB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAge2h1YgogICAgICAgICAgICA/IGh1Yi5ibHVyYgogICAgICAgICAgICA6ICJUaGVyZSBhcmUgMTk1IGNvdW50cnkgaGlnaHBvaW50cyBvbiB0aGlzIGxpc3Qg4oCUIDE5MyBVTiBtZW1iZXIgc3RhdGVzIHBsdXMgVGFpd2FuIGFuZCBBbnRhcmN0aWNhLiBUaGV5IHJhbmdlIGZyb20gRXZlcmVzdCBhdCA4LDg0OSBtIHRvIHRoZSBNYWxkaXZlcycgMi40IG0gc2FuZCByaWRnZS4gTWFydGluIGhhcyBzdW1taXRlZCAiICsKICAgICAgICAgICAgICBgJHtjbGltYmVkfSBvZiB0aGVtIHNvIGZhcjsgZXZlcnkgcm93IGxpbmtzIHRvIGEgZnVsbCBwYWdlIHdpdGggcm91dGUsIHNlYXNvbiwgZGlmZmljdWx0eSBhbmQsIHdoZXJlIGl0IGV4aXN0cywgYSBzdW1taXQgdmlkZW8uYH0KICAgICAgICA8L3A+CgogICAgICAgIHtodWIgJiYgKAogICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0zIG1heC13LTN4bCB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7cm93cy5sZW5ndGh9IHtodWIuYWRqZWN0aXZlfSBjb3VudHJ5IGhpZ2hwb2ludHMgYXJlIGxpc3RlZCBiZWxvdywgdGFsbGVzdCBmaXJzdC57IiAifQogICAgICAgICAgICB7Y2xpbWJlZCA+IDAgJiYgYCR7Y2xpbWJlZH0gb2YgdGhlbSBoYXZlIGJlZW4gc3VtbWl0ZWQgb24gdGhpcyBwcm9qZWN0LmB9CiAgICAgICAgICA8L3A+CiAgICAgICAgKX0KCiAgICAgICAge2N0YVZhcmlhbnQgPT09ICJCIiAmJiAoCiAgICAgICAgICA8VGlja2xlbGlzdEN0YQogICAgICAgICAgICB2YXJpYW50PXtjdGFWYXJpYW50fQogICAgICAgICAgICBjbGFzc05hbWU9Im10LTgiCiAgICAgICAgICAgIHNvdXJjZT17aHViID8gYGh1Yi0ke2h1Yi5zbHVnfWAgOiAiaHViLWFsbCJ9CiAgICAgICAgICAvPgogICAgICAgICl9CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC04IG92ZXJmbG93LXgtYXV0byByb3VuZGVkLXhsIGJvcmRlciBib3JkZXItYm9yZGVyIj4KICAgICAgICAgIDx0YWJsZSBjbGFzc05hbWU9InctZnVsbCBtaW4tdy1bMzZyZW1dIHRleHQtc20iPgogICAgICAgICAgICA8Y2FwdGlvbiBjbGFzc05hbWU9InNyLW9ubHkiPnt0aXRsZX08L2NhcHRpb24+CiAgICAgICAgICAgIDx0aGVhZCBjbGFzc05hbWU9ImJnLWNhcmQvNzAgdGV4dC1sZWZ0IHRleHQteHMgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgICAgPHRoIHNjb3BlPSJjb2wiIGNsYXNzTmFtZT0icHgtMyBweS0yIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICAgICAgIwogICAgICAgICAgICAgICAgPC90aD4KICAgICAgICAgICAgICAgIDx0aCBzY29wZT0iY29sIiBjbGFzc05hbWU9InB4LTMgcHktMiBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICAgIENvdW50cnkKICAgICAgICAgICAgICAgIDwvdGg+CiAgICAgICAgICAgICAgICA8dGggc2NvcGU9ImNvbCIgY2xhc3NOYW1lPSJweC0zIHB5LTIgZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAgICBIaWdoZXN0IG1vdW50YWluCiAgICAgICAgICAgICAgICA8L3RoPgogICAgICAgICAgICAgICAgPHRoIHNjb3BlPSJjb2wiIGNsYXNzTmFtZT0icHgtMyBweS0yIHRleHQtcmlnaHQgZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgICAgICBFbGV2YXRpb24KICAgICAgICAgICAgICAgIDwvdGg+CiAgICAgICAgICAgICAgICA8dGggc2NvcGU9ImNvbCIgY2xhc3NOYW1lPSJweC0zIHB5LTIgdGV4dC1yaWdodCBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICAgIEZlZXQKICAgICAgICAgICAgICAgIDwvdGg+CiAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgPC90aGVhZD4KICAgICAgICAgICAgPHRib2R5PgogICAgICAgICAgICAgIHtyb3dzLm1hcCgociwgaSkgPT4gKAogICAgICAgICAgICAgICAgPHRyIGtleT17YCR7ci5jb3VudHJ5fS0ke3IucGVha31gfSBjbGFzc05hbWU9ImJvcmRlci10IGJvcmRlci1ib3JkZXIvNjAiPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJweC0zIHB5LTIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57aSArIDF9PC90ZD4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtMyBweS0yIj4KICAgICAgICAgICAgICAgICAgICA8TGluayB0bz17ci5wYXRofSBjbGFzc05hbWU9InRleHQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LXByaW1hcnkiPgogICAgICAgICAgICAgICAgICAgICAge3IuY291bnRyeX0KICAgICAgICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTMgcHktMiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICAgIDxMaW5rIHRvPXtyLnBhdGh9IGNsYXNzTmFtZT0iaG92ZXI6dGV4dC1wcmltYXJ5Ij4KICAgICAgICAgICAgICAgICAgICAgIHtyLnBlYWt9CiAgICAgICAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgICAgICAgIHtyLmNsaW1iZWQgJiYgKAogICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtbC0yIHRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciB0ZXh0LXByaW1hcnkiPgogICAgICAgICAgICAgICAgICAgICAgICBzdW1taXRlZAogICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTMgcHktMiB0ZXh0LXJpZ2h0IHRleHQtZm9yZWdyb3VuZCI+e21ldHJlcyhyLmVsZXZhdGlvbil9PC90ZD4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtMyBweS0yIHRleHQtcmlnaHQgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57ZmVldChyLmVsZXZhdGlvbil9PC90ZD4KICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvdGJvZHk+CiAgICAgICAgICA8L3RhYmxlPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8aDIgY2xhc3NOYW1lPSJtdC0xMiBmb250LWRpc3BsYXkgdGV4dC14bCB0cmFja2luZy13aWRlIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICBCcm93c2UgYnkgY29udGluZW50CiAgICAgICAgPC9oMj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNCBncmlkIGdhcC0zIHNtOmdyaWQtY29scy0yIGxnOmdyaWQtY29scy0zIj4KICAgICAgICAgIHtjb250aW5lbnRIdWJzCiAgICAgICAgICAgIC5maWx0ZXIoKGMpID0+IGMuc2x1ZyAhPT0gaHViPy5zbHVnKQogICAgICAgICAgICAubWFwKChjKSA9PiAoCiAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgIGtleT17Yy5zbHVnfQogICAgICAgICAgICAgICAgdG89e2AvaGlnaGVzdC1tb3VudGFpbnMvJHtjLnNsdWd9YH0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0yIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZC82MCBweC00IHB5LTMgdGV4dC1zbSB0ZXh0LWZvcmVncm91bmQgaG92ZXI6Ym9yZGVyLXByaW1hcnkvNjAiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICAgIDxNb3VudGFpbiBjbGFzc05hbWU9ImgtNCB3LTQgdGV4dC1wcmltYXJ5IiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4KICAgICAgICAgICAgICAgICAgSGlnaGVzdCBtb3VudGFpbnMgaW4ge2MubmFtZX0KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDxBcnJvd1JpZ2h0IGNsYXNzTmFtZT0iaC00IHctNCBzaHJpbmstMCB0ZXh0LW11dGVkLWZvcmVncm91bmQiIGFyaWEtaGlkZGVuPSJ0cnVlIiAvPgogICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgKSl9CiAgICAgICAgICB7aHViICYmICgKICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICB0bz0iL2hpZ2hlc3QtbW91bnRhaW5zIgogICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0yIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZC82MCBweC00IHB5LTMgdGV4dC1zbSB0ZXh0LWZvcmVncm91bmQgaG92ZXI6Ym9yZGVyLXByaW1hcnkvNjAiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8c3Bhbj5BbGwgMTk1IGNvdW50cnkgaGlnaHBvaW50czwvc3Bhbj4KICAgICAgICAgICAgICA8QXJyb3dSaWdodCBjbGFzc05hbWU9ImgtNCB3LTQgc2hyaW5rLTAgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4KICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KCiAgICAgICAge2N0YVZhcmlhbnQgPT09ICJBIiAmJiAoCiAgICAgICAgICA8VGlja2xlbGlzdEN0YQogICAgICAgICAgICB2YXJpYW50PXtjdGFWYXJpYW50fQogICAgICAgICAgICBjbGFzc05hbWU9Im10LTEyIgogICAgICAgICAgICBzb3VyY2U9e2h1YiA/IGBodWItJHtodWIuc2x1Z31gIDogImh1Yi1hbGwifQogICAgICAgICAgLz4KICAgICAgICApfQogICAgICA8L21haW4+CiAgICA8L2Rpdj4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgSGlnaGVzdE1vdW50YWluc1BhZ2U7Cg==
+import { Link } from "@/lib/router-compat";
+import { ArrowRight, Mountain } from "lucide-react";
+import Navbar from "@/components/Navbar";
+import Seo from "@/components/Seo";
+import TicklelistCta from "@/components/TicklelistCta";
+import { useAbVariant } from "@/hooks/useAbVariant";
+import {
+  continentHubs,
+  feet,
+  hubRows,
+  metres,
+  type ContinentHub,
+} from "@/lib/highest-mountains";
+
+interface Props {
+  /** Undefined on the global hub, set on a continent page. */
+  hub?: ContinentHub;
+}
+
+const HighestMountainsPage = ({ hub }: Props) => {
+  const rows = hubRows(hub?.name);
+  const ctaVariant = useAbVariant("ticklelist_cta_copy");
+  const path = hub ? `/highest-mountains/${hub.slug}` : "/highest-mountains";
+  const title = hub
+    ? `Highest Mountain in Every ${hub.adjective} Country (${rows.length})`
+    : "Highest Mountain in Every Country on Earth — Full List";
+  const description = hub
+    ? `Every ${hub.adjective} country's highest mountain, ranked by elevation: ${rows[0]?.peak} down to ${rows[rows.length - 1]?.peak}. Heights in metres and feet, with route notes.`
+    : "The highest mountain of all 195 countries, ranked by elevation, with heights in metres and feet plus route notes, difficulty and summit videos for each.";
+
+  const climbed = rows.filter((r) => r.climbed).length;
+
+  return (
+    <div className="min-h-screen bg-background">
+      <Seo
+        title={title.length > 60 ? title.slice(0, 60) : title}
+        description={description}
+        path={path}
+        type="article"
+        breadcrumbLeaf={hub ? `Highest mountains in ${hub.name}` : "Highest mountain in every country"}
+        jsonLd={[
+          {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name: title,
+            description,
+            numberOfItems: rows.length,
+            itemListElement: rows.map((r, i) => ({
+              "@type": "ListItem",
+              position: i + 1,
+              name: `${r.peak} — ${r.country}`,
+              url: `https://onsightmartin.com${r.path}`,
+            })),
+          },
+        ]}
+      />
+      <Navbar />
+      <main className="mx-auto max-w-5xl px-4 pt-24 pb-16">
+        <nav className="text-sm text-muted-foreground">
+          <Link to="/" className="hover:text-foreground">
+            Home
+          </Link>
+          {hub && (
+            <>
+              {" / "}
+              <Link to="/highest-mountains" className="hover:text-foreground">
+                Highest mountains
+              </Link>
+            </>
+          )}
+        </nav>
+
+        <h1 className="mt-4 font-display text-3xl sm:text-4xl tracking-wide text-foreground">
+          {hub
+            ? `Highest mountain in every ${hub.adjective} country`
+            : "Highest mountain in every country on Earth"}
+        </h1>
+        <p className="mt-4 max-w-3xl text-muted-foreground">
+          {hub
+            ? hub.blurb
+            : "There are 195 country highpoints on this list — 193 UN member states plus Taiwan and Antarctica. They range from Everest at 8,849 m to the Maldives' 2.4 m sand ridge. Martin has summited " +
+              `${climbed} of them so far; every row links to a full page with route, season, difficulty and, where it exists, a summit video.`}
+        </p>
+
+        {hub && (
+          <p className="mt-3 max-w-3xl text-muted-foreground">
+            {rows.length} {hub.adjective} country highpoints are listed below, tallest first.{" "}
+            {climbed > 0 && `${climbed} of them have been summited on this project.`}
+          </p>
+        )}
+
+        {ctaVariant === "B" && (
+          <TicklelistCta
+            variant={ctaVariant}
+            className="mt-8"
+            source={hub ? `hub-${hub.slug}` : "hub-all"}
+          />
+        )}
+
+        <div className="mt-8 overflow-x-auto rounded-xl border border-border">
+          <table className="w-full min-w-[36rem] text-sm">
+            <caption className="sr-only">{title}</caption>
+            <thead className="bg-card/70 text-left text-xs uppercase tracking-wider text-muted-foreground">
+              <tr>
+                <th scope="col" className="px-3 py-2 font-medium">
+                  #
+                </th>
+                <th scope="col" className="px-3 py-2 font-medium">
+                  Country
+                </th>
+                <th scope="col" className="px-3 py-2 font-medium">
+                  Highest mountain
+                </th>
+                <th scope="col" className="px-3 py-2 text-right font-medium">
+                  Elevation
+                </th>
+                <th scope="col" className="px-3 py-2 text-right font-medium">
+                  Feet
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map((r, i) => (
+                <tr key={`${r.country}-${r.peak}`} className="border-t border-border/60">
+                  <td className="px-3 py-2 text-muted-foreground">{i + 1}</td>
+                  <td className="px-3 py-2">
+                    <Link to={r.path} className="text-foreground hover:text-primary">
+                      {r.country}
+                    </Link>
+                  </td>
+                  <td className="px-3 py-2 text-muted-foreground">
+                    <Link to={r.path} className="hover:text-primary">
+                      {r.peak}
+                    </Link>
+                    {r.climbed && (
+                      <span className="ml-2 text-[10px] uppercase tracking-wider text-primary">
+                        summited
+                      </span>
+                    )}
+                  </td>
+                  <td className="px-3 py-2 text-right text-foreground">{metres(r.elevation)}</td>
+                  <td className="px-3 py-2 text-right text-muted-foreground">{feet(r.elevation)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <h2 className="mt-12 font-display text-xl tracking-wide text-foreground">
+          Browse by continent
+        </h2>
+        <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {continentHubs
+            .filter((c) => c.slug !== hub?.slug)
+            .map((c) => (
+              <Link
+                key={c.slug}
+                to={`/highest-mountains/${c.slug}`}
+                className="flex items-center justify-between gap-2 rounded-lg border border-border bg-card/60 px-4 py-3 text-sm text-foreground hover:border-primary/60"
+              >
+                <span className="flex items-center gap-2">
+                  <Mountain className="h-4 w-4 text-primary" aria-hidden="true" />
+                  Highest mountains in {c.name}
+                </span>
+                <ArrowRight className="h-4 w-4 shrink-0 text-muted-foreground" aria-hidden="true" />
+              </Link>
+            ))}
+          {hub && (
+            <Link
+              to="/highest-mountains"
+              className="flex items-center justify-between gap-2 rounded-lg border border-border bg-card/60 px-4 py-3 text-sm text-foreground hover:border-primary/60"
+            >
+              <span>All 195 country highpoints</span>
+              <ArrowRight className="h-4 w-4 shrink-0 text-muted-foreground" aria-hidden="true" />
+            </Link>
+          )}
+        </div>
+
+        {ctaVariant === "A" && (
+          <TicklelistCta
+            variant={ctaVariant}
+            className="mt-12"
+            source={hub ? `hub-${hub.slug}` : "hub-all"}
+          />
+        )}
+      </main>
+    </div>
+  );
+};
+
+export default HighestMountainsPage;

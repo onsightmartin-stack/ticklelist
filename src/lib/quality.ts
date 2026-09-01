@@ -1,1 +1,193 @@
-LyoqCiAqIEdyYXBoaWNzIHF1YWxpdHkgcHJlZmVyZW5jZSBmb3IgdGhlIDNEIGNsaW1iZXIgYXZhdGFycy4KICoKICogQ29udHJvbHMgdGhlIHJlbmRlcmVyJ3MgaW50ZXJuYWwgcmVzb2x1dGlvbiwgd2hldGhlciB0aGUgM0Qgc3RhZ2UgYmFja2Ryb3AKICogKHNreSwgZ3JvdW5kLCByaWRnZSBsaW5lKSBpcyBkcmF3biwgYW5kIGhvdyBtYW55IGxpdmUgV2ViR0wgY2FudmFzZXMgbWF5IHJ1bgogKiBhdCBvbmNlLiBTYXZlZCBwZXIgZGV2aWNlIOKAlCBhIHBob25lIGFuZCBhIGxhcHRvcCBjYW4gZGlmZmVyLgogKi8KZXhwb3J0IHR5cGUgUXVhbGl0eVByZWYgPSAiYXV0byIgfCAiaGlnaCIgfCAiYmFsYW5jZWQiIHwgImxvdyI7CgpleHBvcnQgaW50ZXJmYWNlIFF1YWxpdHlTZXR0aW5ncyB7CiAgLyoqIEludGVybmFsIHJlbmRlciBzY2FsZSDigJQgMSA9IG5hdGl2ZSwgbG93ZXIgPSBjaHVua2llciBidXQgZmFzdGVyLiAqLwogIHBpeGVsU2NhbGU6IG51bWJlcjsKICAvKiogTWF4IGRldmljZSBwaXhlbCByYXRpbyB0YWtlbiBpbnRvIGFjY291bnQuICovCiAgbWF4RHByOiBudW1iZXI7CiAgLyoqIFNtb290aCBlZGdlcyAoTVNBQSArIHNtb290aCBjYW52YXMgc2NhbGluZykgaW5zdGVhZCBvZiBoYXJkIHBpeGVsIHN0ZXBzLiAqLwogIGFudGlhbGlhczogYm9vbGVhbjsKICAvKiogRHJhdyB0aGUgM0Qgc3RhZ2UgYmFja2Ryb3AgKHNreSwgZ3JvdW5kLCByaWRnZSBwZWFrcykuICovCiAgYmFja2Ryb3A6IGJvb2xlYW47CiAgLyoqIE51bWJlciBvZiByaWRnZSBwZWFrcyBpbiB0aGUgYmFja2Ryb3AuICovCiAgcmlkZ2VQZWFrczogbnVtYmVyOwogIC8qKiBIb3cgbWFueSBsaXZlIDNEIGF2YXRhcnMgbWF5IHNoYXJlIHRoZSBwYWdlIGJlZm9yZSBmYWxsaW5nIGJhY2sgdG8gZmxhdCBhcnQuICovCiAgbWF4Q29udGV4dHM6IG51bWJlcjsKfQoKZXhwb3J0IGNvbnN0IFFVQUxJVFlfT1BUSU9OUzogewogIGlkOiBRdWFsaXR5UHJlZjsKICBuYW1lOiBzdHJpbmc7CiAgZGVzY3JpcHRpb246IHN0cmluZzsKfVtdID0gWwogIHsKICAgIGlkOiAiYXV0byIsCiAgICBuYW1lOiAiQXV0byIsCiAgICBkZXNjcmlwdGlvbjoKICAgICAgIlN0YXJ0cyBmcm9tIHlvdXIgZGV2aWNlJ3MgY2FwYWJpbGl0aWVzLCB0aGVuIG1lYXN1cmVzIHRoZSByZWFsIGZyYW1lIHJhdGUgd2hpbGUgYXZhdGFycyBzcGluIGFuZCBzdGVwcyBkZXRhaWwgdXAgb3IgZG93biB0byBrZWVwIG1vdGlvbiBzbW9vdGguIiwKICB9LAogIHsKICAgIGlkOiAiaGlnaCIsCiAgICBuYW1lOiAiSGlnaCBkZXRhaWwiLAogICAgZGVzY3JpcHRpb246CiAgICAgICJGdWxsLXJlc29sdXRpb24sIGFudGktYWxpYXNlZCBhdmF0YXJzLCBmdWxsIDNEIHN0YWdlIGJhY2tkcm9wIGFuZCB0aGUgbW9zdCBsaXZlIG1vZGVscyBvbiBzY3JlZW4uIEJlc3Qgb24gYSBmYXN0IG1hY2hpbmUuIiwKICB9LAogIHsKICAgIGlkOiAiYmFsYW5jZWQiLAogICAgbmFtZTogIkJhbGFuY2VkIiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAiU2xpZ2h0bHkgcmVkdWNlZCByZXNvbHV0aW9uIHdpdGggc21vb3RoaW5nIGFuZCB0aGUgc3RhZ2UgYmFja2Ryb3Aga2VwdC4gU21vb3RoIG9uIG1vc3QgbGFwdG9wcyBhbmQgbmV3ZXIgcGhvbmVzLiIsCiAgfSwKICB7CiAgICBpZDogImxvdyIsCiAgICBuYW1lOiAiUGVyZm9ybWFuY2UiLAogICAgZGVzY3JpcHRpb246CiAgICAgICJMb3dlc3QgcmVzb2x1dGlvbiwgbm8gM0QgYmFja2Ryb3AgYW5kIGZld2VyIGxpdmUgbW9kZWxzIOKAlCBzbW9vdGhlc3QgbW90aW9uIG9uIHNsb3dlciBvciBvbGRlciBkZXZpY2VzLiIsCiAgfSwKXTsKCmNvbnN0IFBSRVNFVFM6IFJlY29yZDxFeGNsdWRlPFF1YWxpdHlQcmVmLCAiYXV0byI+LCBRdWFsaXR5U2V0dGluZ3M+ID0gewogIGhpZ2g6IHsgcGl4ZWxTY2FsZTogMSwgbWF4RHByOiAyLCBhbnRpYWxpYXM6IHRydWUsIGJhY2tkcm9wOiB0cnVlLCByaWRnZVBlYWtzOiA4LCBtYXhDb250ZXh0czogMTAgfSwKICBiYWxhbmNlZDogeyBwaXhlbFNjYWxlOiAwLjc1LCBtYXhEcHI6IDIsIGFudGlhbGlhczogdHJ1ZSwgYmFja2Ryb3A6IHRydWUsIHJpZGdlUGVha3M6IDYsIG1heENvbnRleHRzOiA4IH0sCiAgbG93OiB7IHBpeGVsU2NhbGU6IDAuNSwgbWF4RHByOiAxLjUsIGFudGlhbGlhczogZmFsc2UsIGJhY2tkcm9wOiBmYWxzZSwgcmlkZ2VQZWFrczogMCwgbWF4Q29udGV4dHM6IDMgfSwKfTsKCmV4cG9ydCBjb25zdCBERUZBVUxUX1FVQUxJVFk6IFF1YWxpdHlQcmVmID0gImF1dG8iOwpleHBvcnQgY29uc3QgUVVBTElUWV9TVE9SQUdFX0tFWSA9ICJvbnNpZ2h0LXF1YWxpdHkiOwpleHBvcnQgY29uc3QgUVVBTElUWV9FVkVOVCA9ICJvbnNpZ2h0LXF1YWxpdHktY2hhbmdlIjsKCmV4cG9ydCBjb25zdCBpc1F1YWxpdHlQcmVmID0gKHZhbHVlOiB1bmtub3duKTogdmFsdWUgaXMgUXVhbGl0eVByZWYgPT4KICB0eXBlb2YgdmFsdWUgPT09ICJzdHJpbmciICYmIFFVQUxJVFlfT1BUSU9OUy5zb21lKChvKSA9PiBvLmlkID09PSB2YWx1ZSk7CgpleHBvcnQgY29uc3QgZ2V0U3RvcmVkUXVhbGl0eSA9ICgpOiBRdWFsaXR5UHJlZiA9PiB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm4gREVGQVVMVF9RVUFMSVRZOwogIHRyeSB7CiAgICBjb25zdCBzdG9yZWQgPSB3aW5kb3cubG9jYWxTdG9yYWdlLmdldEl0ZW0oUVVBTElUWV9TVE9SQUdFX0tFWSk7CiAgICByZXR1cm4gaXNRdWFsaXR5UHJlZihzdG9yZWQpID8gc3RvcmVkIDogREVGQVVMVF9RVUFMSVRZOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIERFRkFVTFRfUVVBTElUWTsKICB9Cn07CgpleHBvcnQgY29uc3Qgc2V0UXVhbGl0eSA9IChwcmVmOiBRdWFsaXR5UHJlZikgPT4gewogIHRyeSB7CiAgICB3aW5kb3cubG9jYWxTdG9yYWdlLnNldEl0ZW0oUVVBTElUWV9TVE9SQUdFX0tFWSwgcHJlZik7CiAgfSBjYXRjaCB7CiAgICAvKiBzdG9yYWdlIHVuYXZhaWxhYmxlIOKAlCBwcmVmZXJlbmNlIHN0aWxsIGFwcGxpZXMgZm9yIHRoaXMgc2Vzc2lvbiAqLwogIH0KICB3aW5kb3cuZGlzcGF0Y2hFdmVudChuZXcgQ3VzdG9tRXZlbnQoUVVBTElUWV9FVkVOVCwgeyBkZXRhaWw6IHByZWYgfSkpOwp9OwoKLyoqIEJlc3QgZ3Vlc3MgZm9yIHRoZSBjdXJyZW50IGRldmljZSB3aGVuIHRoZSBwcmVmZXJlbmNlIGlzICJhdXRvIi4gKi8KZXhwb3J0IGNvbnN0IGRldGVjdFF1YWxpdHkgPSAoKTogRXhjbHVkZTxRdWFsaXR5UHJlZiwgImF1dG8iPiA9PiB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm4gImJhbGFuY2VkIjsKICBjb25zdCBuYXYgPSB3aW5kb3cubmF2aWdhdG9yIGFzIE5hdmlnYXRvciAmIHsKICAgIGRldmljZU1lbW9yeT86IG51bWJlcjsKICAgIGhhcmR3YXJlQ29uY3VycmVuY3k/OiBudW1iZXI7CiAgfTsKICBjb25zdCBtZW1vcnkgPSBuYXYuZGV2aWNlTWVtb3J5ID8/IDg7CiAgY29uc3QgY29yZXMgPSBuYXYuaGFyZHdhcmVDb25jdXJyZW5jeSA/PyA4OwogIGlmIChtZW1vcnkgPD0gMyB8fCBjb3JlcyA8PSAzKSByZXR1cm4gImxvdyI7CiAgY29uc3QgY29hcnNlID0gd2luZG93Lm1hdGNoTWVkaWE/LigiKHBvaW50ZXI6IGNvYXJzZSkiKS5tYXRjaGVzID8/IGZhbHNlOwogIGlmIChjb2Fyc2UgfHwgbWVtb3J5IDw9IDYgfHwgY29yZXMgPD0gNikgcmV0dXJuICJiYWxhbmNlZCI7CiAgcmV0dXJuICJoaWdoIjsKfTsKCmV4cG9ydCBjb25zdCBBVVRPX1RJRVJfRVZFTlQgPSAib25zaWdodC1xdWFsaXR5LWF1dG8iOwpjb25zdCBBVVRPX1RJRVJfS0VZID0gIm9uc2lnaHQtcXVhbGl0eS1hdXRvLXRpZXIiOwoKdHlwZSBBdXRvVGllciA9IEV4Y2x1ZGU8UXVhbGl0eVByZWYsICJhdXRvIj47CmNvbnN0IFRJRVJfT1JERVI6IEF1dG9UaWVyW10gPSBbImxvdyIsICJiYWxhbmNlZCIsICJoaWdoIl07CgovKiogRnJhbWUtcmF0ZSB0aHJlc2hvbGRzIGZvciBzdGVwcGluZyB0aGUgYXV0byB0aWVyIGRvd24gLyB1cC4gKi8KY29uc3QgRE9XTkdSQURFX0ZQUyA9IDQwOwpjb25zdCBVUEdSQURFX0ZQUyA9IDU2OwovKiogQ29uc2VjdXRpdmUgc2FtcGxlcyBuZWVkZWQgYmVmb3JlIHRoZSB0aWVyIG1vdmVzLiAqLwpjb25zdCBET1dOX1NBTVBMRVMgPSAyOwpjb25zdCBVUF9TQU1QTEVTID0gNDsKCmxldCBhdXRvVGllcjogQXV0b1RpZXIgfCBudWxsID0gbnVsbDsKbGV0IHNsb3dTdHJlYWsgPSAwOwpsZXQgZmFzdFN0cmVhayA9IDA7CgovKiogQ3VycmVudCB0aWVyIHVzZWQgd2hlbiB0aGUgcHJlZmVyZW5jZSBpcyAiYXV0byIgKGRldmljZSBndWVzcyArIG1lYXN1cmVkIEZQUykuICovCmV4cG9ydCBjb25zdCBnZXRBdXRvVGllciA9ICgpOiBBdXRvVGllciA9PiB7CiAgaWYgKGF1dG9UaWVyKSByZXR1cm4gYXV0b1RpZXI7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm4gImJhbGFuY2VkIjsKICB0cnkgewogICAgY29uc3Qgc3RvcmVkID0gd2luZG93LnNlc3Npb25TdG9yYWdlLmdldEl0ZW0oQVVUT19USUVSX0tFWSk7CiAgICBpZiAoc3RvcmVkICYmIFRJRVJfT1JERVIuaW5jbHVkZXMoc3RvcmVkIGFzIEF1dG9UaWVyKSkgewogICAgICBhdXRvVGllciA9IHN0b3JlZCBhcyBBdXRvVGllcjsKICAgICAgcmV0dXJuIGF1dG9UaWVyOwogICAgfQogIH0gY2F0Y2ggewogICAgLyogaWdub3JlICovCiAgfQogIGF1dG9UaWVyID0gZGV0ZWN0UXVhbGl0eSgpOwogIHJldHVybiBhdXRvVGllcjsKfTsKCmNvbnN0IGFwcGx5QXV0b1RpZXIgPSAodGllcjogQXV0b1RpZXIpID0+IHsKICBpZiAodGllciA9PT0gZ2V0QXV0b1RpZXIoKSkgcmV0dXJuOwogIGF1dG9UaWVyID0gdGllcjsKICBzbG93U3RyZWFrID0gMDsKICBmYXN0U3RyZWFrID0gMDsKICB0cnkgewogICAgd2luZG93LnNlc3Npb25TdG9yYWdlLnNldEl0ZW0oQVVUT19USUVSX0tFWSwgdGllcik7CiAgfSBjYXRjaCB7CiAgICAvKiBpZ25vcmUgKi8KICB9CiAgd2luZG93LmRpc3BhdGNoRXZlbnQobmV3IEN1c3RvbUV2ZW50KEFVVE9fVElFUl9FVkVOVCwgeyBkZXRhaWw6IHRpZXIgfSkpOwp9OwoKLyoqCiAqIEZvcmNlIHRoZSBhdXRvIHRpZXIgdG8gYSBtZWFzdXJlZCB2YWx1ZSAodXNlZCBieSB0aGUgb25lLXRhcCBiZW5jaG1hcmspIHNvCiAqIGxpdmUgcmVuZGVyZXJzIHJlLWluaXQgaW1tZWRpYXRlbHkgaW5zdGVhZCBvZiB3YWl0aW5nIGZvciBGUFMgc2FtcGxlcy4KICovCmV4cG9ydCBjb25zdCBzZXRBdXRvVGllciA9ICh0aWVyOiBBdXRvVGllcikgPT4gewogIHNsb3dTdHJlYWsgPSAwOwogIGZhc3RTdHJlYWsgPSAwOwogIGFwcGx5QXV0b1RpZXIodGllcik7Cn07CgovKioKICogRmVlZCBhIG1lYXN1cmVkIGZyYW1lIHJhdGUgZnJvbSBhIGxpdmUgM0QgYXZhdGFyLiBXaGVuIHRoZSBwcmVmZXJlbmNlIGlzCiAqICJhdXRvIiwgc3VzdGFpbmVkIHNsb3cgZnJhbWVzIHN0ZXAgdGhlIHRpZXIgZG93biBhbmQgc3VzdGFpbmVkIHNtb290aCBmcmFtZXMKICogc3RlcCBpdCBiYWNrIHVwOyByZW5kZXJlcnMgbGlzdGVuaW5nIHRvIEFVVE9fVElFUl9FVkVOVCByZS1pbml0IGF0IHRoZSBuZXcgbGV2ZWwuCiAqLwoKZXhwb3J0IGNvbnN0IHJlcG9ydEF2YXRhckZwcyA9IChmcHM6IG51bWJlcikgPT4gewogIGlmICh0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIikgcmV0dXJuOwogIGlmIChnZXRTdG9yZWRRdWFsaXR5KCkgIT09ICJhdXRvIikgcmV0dXJuOwogIGlmICghTnVtYmVyLmlzRmluaXRlKGZwcykgfHwgZnBzIDw9IDApIHJldHVybjsKCiAgY29uc3QgY3VycmVudCA9IGdldEF1dG9UaWVyKCk7CiAgY29uc3QgaW5kZXggPSBUSUVSX09SREVSLmluZGV4T2YoY3VycmVudCk7CgogIGlmIChmcHMgPCBET1dOR1JBREVfRlBTKSB7CiAgICBmYXN0U3RyZWFrID0gMDsKICAgIHNsb3dTdHJlYWsgKz0gMTsKICAgIGlmIChzbG93U3RyZWFrID49IERPV05fU0FNUExFUyAmJiBpbmRleCA+IDApIGFwcGx5QXV0b1RpZXIoVElFUl9PUkRFUltpbmRleCAtIDFdISk7CiAgICByZXR1cm47CiAgfQogIGlmIChmcHMgPiBVUEdSQURFX0ZQUykgewogICAgc2xvd1N0cmVhayA9IDA7CiAgICBmYXN0U3RyZWFrICs9IDE7CiAgICBpZiAoZmFzdFN0cmVhayA+PSBVUF9TQU1QTEVTICYmIGluZGV4IDwgVElFUl9PUkRFUi5sZW5ndGggLSAxKSB7CiAgICAgIGFwcGx5QXV0b1RpZXIoVElFUl9PUkRFUltpbmRleCArIDFdISk7CiAgICB9CiAgICByZXR1cm47CiAgfQogIHNsb3dTdHJlYWsgPSAwOwogIGZhc3RTdHJlYWsgPSAwOwp9OwoKZXhwb3J0IGNvbnN0IHF1YWxpdHlTZXR0aW5ncyA9IChwcmVmOiBRdWFsaXR5UHJlZiA9IGdldFN0b3JlZFF1YWxpdHkoKSk6IFF1YWxpdHlTZXR0aW5ncyA9PgogIFBSRVNFVFNbcHJlZiA9PT0gImF1dG8iID8gZ2V0QXV0b1RpZXIoKSA6IHByZWZdOwo=
+/**
+ * Graphics quality preference for the 3D climber avatars.
+ *
+ * Controls the renderer's internal resolution, whether the 3D stage backdrop
+ * (sky, ground, ridge line) is drawn, and how many live WebGL canvases may run
+ * at once. Saved per device — a phone and a laptop can differ.
+ */
+export type QualityPref = "auto" | "high" | "balanced" | "low";
+
+export interface QualitySettings {
+  /** Internal render scale — 1 = native, lower = chunkier but faster. */
+  pixelScale: number;
+  /** Max device pixel ratio taken into account. */
+  maxDpr: number;
+  /** Smooth edges (MSAA + smooth canvas scaling) instead of hard pixel steps. */
+  antialias: boolean;
+  /** Draw the 3D stage backdrop (sky, ground, ridge peaks). */
+  backdrop: boolean;
+  /** Number of ridge peaks in the backdrop. */
+  ridgePeaks: number;
+  /** How many live 3D avatars may share the page before falling back to flat art. */
+  maxContexts: number;
+}
+
+export const QUALITY_OPTIONS: {
+  id: QualityPref;
+  name: string;
+  description: string;
+}[] = [
+  {
+    id: "auto",
+    name: "Auto",
+    description:
+      "Starts from your device's capabilities, then measures the real frame rate while avatars spin and steps detail up or down to keep motion smooth.",
+  },
+  {
+    id: "high",
+    name: "High detail",
+    description:
+      "Full-resolution, anti-aliased avatars, full 3D stage backdrop and the most live models on screen. Best on a fast machine.",
+  },
+  {
+    id: "balanced",
+    name: "Balanced",
+    description:
+      "Slightly reduced resolution with smoothing and the stage backdrop kept. Smooth on most laptops and newer phones.",
+  },
+  {
+    id: "low",
+    name: "Performance",
+    description:
+      "Lowest resolution, no 3D backdrop and fewer live models — smoothest motion on slower or older devices.",
+  },
+];
+
+const PRESETS: Record<Exclude<QualityPref, "auto">, QualitySettings> = {
+  high: { pixelScale: 1, maxDpr: 2, antialias: true, backdrop: true, ridgePeaks: 8, maxContexts: 10 },
+  balanced: { pixelScale: 0.75, maxDpr: 2, antialias: true, backdrop: true, ridgePeaks: 6, maxContexts: 8 },
+  low: { pixelScale: 0.5, maxDpr: 1.5, antialias: false, backdrop: false, ridgePeaks: 0, maxContexts: 3 },
+};
+
+export const DEFAULT_QUALITY: QualityPref = "auto";
+export const QUALITY_STORAGE_KEY = "onsight-quality";
+export const QUALITY_EVENT = "onsight-quality-change";
+
+export const isQualityPref = (value: unknown): value is QualityPref =>
+  typeof value === "string" && QUALITY_OPTIONS.some((o) => o.id === value);
+
+export const getStoredQuality = (): QualityPref => {
+  if (typeof window === "undefined") return DEFAULT_QUALITY;
+  try {
+    const stored = window.localStorage.getItem(QUALITY_STORAGE_KEY);
+    return isQualityPref(stored) ? stored : DEFAULT_QUALITY;
+  } catch {
+    return DEFAULT_QUALITY;
+  }
+};
+
+export const setQuality = (pref: QualityPref) => {
+  try {
+    window.localStorage.setItem(QUALITY_STORAGE_KEY, pref);
+  } catch {
+    /* storage unavailable — preference still applies for this session */
+  }
+  window.dispatchEvent(new CustomEvent(QUALITY_EVENT, { detail: pref }));
+};
+
+/** Best guess for the current device when the preference is "auto". */
+export const detectQuality = (): Exclude<QualityPref, "auto"> => {
+  if (typeof window === "undefined") return "balanced";
+  const nav = window.navigator as Navigator & {
+    deviceMemory?: number;
+    hardwareConcurrency?: number;
+  };
+  const memory = nav.deviceMemory ?? 8;
+  const cores = nav.hardwareConcurrency ?? 8;
+  if (memory <= 3 || cores <= 3) return "low";
+  const coarse = window.matchMedia?.("(pointer: coarse)").matches ?? false;
+  if (coarse || memory <= 6 || cores <= 6) return "balanced";
+  return "high";
+};
+
+export const AUTO_TIER_EVENT = "onsight-quality-auto";
+const AUTO_TIER_KEY = "onsight-quality-auto-tier";
+
+type AutoTier = Exclude<QualityPref, "auto">;
+const TIER_ORDER: AutoTier[] = ["low", "balanced", "high"];
+
+/** Frame-rate thresholds for stepping the auto tier down / up. */
+const DOWNGRADE_FPS = 40;
+const UPGRADE_FPS = 56;
+/** Consecutive samples needed before the tier moves. */
+const DOWN_SAMPLES = 2;
+const UP_SAMPLES = 4;
+
+let autoTier: AutoTier | null = null;
+let slowStreak = 0;
+let fastStreak = 0;
+
+/** Current tier used when the preference is "auto" (device guess + measured FPS). */
+export const getAutoTier = (): AutoTier => {
+  if (autoTier) return autoTier;
+  if (typeof window === "undefined") return "balanced";
+  try {
+    const stored = window.sessionStorage.getItem(AUTO_TIER_KEY);
+    if (stored && TIER_ORDER.includes(stored as AutoTier)) {
+      autoTier = stored as AutoTier;
+      return autoTier;
+    }
+  } catch {
+    /* ignore */
+  }
+  autoTier = detectQuality();
+  return autoTier;
+};
+
+const applyAutoTier = (tier: AutoTier) => {
+  if (tier === getAutoTier()) return;
+  autoTier = tier;
+  slowStreak = 0;
+  fastStreak = 0;
+  try {
+    window.sessionStorage.setItem(AUTO_TIER_KEY, tier);
+  } catch {
+    /* ignore */
+  }
+  window.dispatchEvent(new CustomEvent(AUTO_TIER_EVENT, { detail: tier }));
+};
+
+/**
+ * Force the auto tier to a measured value (used by the one-tap benchmark) so
+ * live renderers re-init immediately instead of waiting for FPS samples.
+ */
+export const setAutoTier = (tier: AutoTier) => {
+  slowStreak = 0;
+  fastStreak = 0;
+  applyAutoTier(tier);
+};
+
+/**
+ * Feed a measured frame rate from a live 3D avatar. When the preference is
+ * "auto", sustained slow frames step the tier down and sustained smooth frames
+ * step it back up; renderers listening to AUTO_TIER_EVENT re-init at the new level.
+ */
+
+export const reportAvatarFps = (fps: number) => {
+  if (typeof window === "undefined") return;
+  if (getStoredQuality() !== "auto") return;
+  if (!Number.isFinite(fps) || fps <= 0) return;
+
+  const current = getAutoTier();
+  const index = TIER_ORDER.indexOf(current);
+
+  if (fps < DOWNGRADE_FPS) {
+    fastStreak = 0;
+    slowStreak += 1;
+    if (slowStreak >= DOWN_SAMPLES && index > 0) applyAutoTier(TIER_ORDER[index - 1]!);
+    return;
+  }
+  if (fps > UPGRADE_FPS) {
+    slowStreak = 0;
+    fastStreak += 1;
+    if (fastStreak >= UP_SAMPLES && index < TIER_ORDER.length - 1) {
+      applyAutoTier(TIER_ORDER[index + 1]!);
+    }
+    return;
+  }
+  slowStreak = 0;
+  fastStreak = 0;
+};
+
+export const qualitySettings = (pref: QualityPref = getStoredQuality()): QualitySettings =>
+  PRESETS[pref === "auto" ? getAutoTier() : pref];

@@ -1,1 +1,22 @@
-QUxURVIgVEFCTEUgcHVibGljLnBvc3RzCiAgQUREIENPTFVNTiBJRiBOT1QgRVhJU1RTIG1lZGlhX3VybCB0ZXh0LAogIEFERCBDT0xVTU4gSUYgTk9UIEVYSVNUUyBtZWRpYV90eXBlIHRleHQ7CgpBTFRFUiBUQUJMRSBwdWJsaWMucG9zdHMgRFJPUCBDT05TVFJBSU5UIElGIEVYSVNUUyBwb3N0c19tZWRpYV90eXBlX2NoZWNrOwpBTFRFUiBUQUJMRSBwdWJsaWMucG9zdHMgQUREIENPTlNUUkFJTlQgcG9zdHNfbWVkaWFfdHlwZV9jaGVjawogIENIRUNLIChtZWRpYV90eXBlIElTIE5VTEwgT1IgbWVkaWFfdHlwZSBJTiAoJ2ltYWdlJywndmlkZW8nLCd5b3V0dWJlJykpOwoKRFJPUCBQT0xJQ1kgSUYgRVhJU1RTICJNZW1iZXJzIGNhbiB1cGxvYWQgb3duIHdhbGwgbWVkaWEiIE9OIHN0b3JhZ2Uub2JqZWN0czsKQ1JFQVRFIFBPTElDWSAiTWVtYmVycyBjYW4gdXBsb2FkIG93biB3YWxsIG1lZGlhIgpPTiBzdG9yYWdlLm9iamVjdHMgRk9SIElOU0VSVCBUTyBhdXRoZW50aWNhdGVkCldJVEggQ0hFQ0sgKGJ1Y2tldF9pZCA9ICd3YWxsLW1lZGlhJyBBTkQgKHN0b3JhZ2UuZm9sZGVybmFtZShuYW1lKSlbMV0gPSBhdXRoLnVpZCgpOjp0ZXh0KTsKCkRST1AgUE9MSUNZIElGIEVYSVNUUyAiTWVtYmVycyBjYW4gcmVhZCB3YWxsIG1lZGlhIiBPTiBzdG9yYWdlLm9iamVjdHM7CkNSRUFURSBQT0xJQ1kgIk1lbWJlcnMgY2FuIHJlYWQgd2FsbCBtZWRpYSIKT04gc3RvcmFnZS5vYmplY3RzIEZPUiBTRUxFQ1QgVE8gYXV0aGVudGljYXRlZApVU0lORyAoYnVja2V0X2lkID0gJ3dhbGwtbWVkaWEnKTsKCkRST1AgUE9MSUNZIElGIEVYSVNUUyAiTWVtYmVycyBjYW4gZGVsZXRlIG93biB3YWxsIG1lZGlhIiBPTiBzdG9yYWdlLm9iamVjdHM7CkNSRUFURSBQT0xJQ1kgIk1lbWJlcnMgY2FuIGRlbGV0ZSBvd24gd2FsbCBtZWRpYSIKT04gc3RvcmFnZS5vYmplY3RzIEZPUiBERUxFVEUgVE8gYXV0aGVudGljYXRlZApVU0lORyAoYnVja2V0X2lkID0gJ3dhbGwtbWVkaWEnIEFORCAoc3RvcmFnZS5mb2xkZXJuYW1lKG5hbWUpKVsxXSA9IGF1dGgudWlkKCk6OnRleHQpOw==
+ALTER TABLE public.posts
+  ADD COLUMN IF NOT EXISTS media_url text,
+  ADD COLUMN IF NOT EXISTS media_type text;
+
+ALTER TABLE public.posts DROP CONSTRAINT IF EXISTS posts_media_type_check;
+ALTER TABLE public.posts ADD CONSTRAINT posts_media_type_check
+  CHECK (media_type IS NULL OR media_type IN ('image','video','youtube'));
+
+DROP POLICY IF EXISTS "Members can upload own wall media" ON storage.objects;
+CREATE POLICY "Members can upload own wall media"
+ON storage.objects FOR INSERT TO authenticated
+WITH CHECK (bucket_id = 'wall-media' AND (storage.foldername(name))[1] = auth.uid()::text);
+
+DROP POLICY IF EXISTS "Members can read wall media" ON storage.objects;
+CREATE POLICY "Members can read wall media"
+ON storage.objects FOR SELECT TO authenticated
+USING (bucket_id = 'wall-media');
+
+DROP POLICY IF EXISTS "Members can delete own wall media" ON storage.objects;
+CREATE POLICY "Members can delete own wall media"
+ON storage.objects FOR DELETE TO authenticated
+USING (bucket_id = 'wall-media' AND (storage.foldername(name))[1] = auth.uid()::text);

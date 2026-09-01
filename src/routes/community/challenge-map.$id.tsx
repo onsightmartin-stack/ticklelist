@@ -1,1 +1,6 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBDaGFsbGVuZ2VNYXBQYWdlIGZyb20gIkAvcGFnZXMvY29tbXVuaXR5L0NoYWxsZW5nZU1hcFBhZ2UiOwoKZXhwb3J0IGNvbnN0IFJvdXRlID0gY3JlYXRlRmlsZVJvdXRlKCIvY29tbXVuaXR5L2NoYWxsZW5nZS1tYXAvJGlkIikoewogIGNvbXBvbmVudDogQ2hhbGxlbmdlTWFwUGFnZSwKfSk7Cg==
+import { createFileRoute } from "@tanstack/react-router";
+import ChallengeMapPage from "@/pages/community/ChallengeMapPage";
+
+export const Route = createFileRoute("/community/challenge-map/$id")({
+  component: ChallengeMapPage,
+});

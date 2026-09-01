@@ -1,1 +1,6 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBOb3RpZmljYXRpb25zUGFnZSBmcm9tICJAL3BhZ2VzL2NvbW11bml0eS9Ob3RpZmljYXRpb25zUGFnZSI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9jb21tdW5pdHkvbm90aWZpY2F0aW9ucy8iKSh7CiAgY29tcG9uZW50OiBOb3RpZmljYXRpb25zUGFnZSwKfSk7Cg==
+import { createFileRoute } from "@tanstack/react-router";
+import NotificationsPage from "@/pages/community/NotificationsPage";
+
+export const Route = createFileRoute("/community/notifications/")({
+  component: NotificationsPage,
+});

@@ -1,1 +1,67 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYgfSBmcm9tICJyZWFjdCI7CmltcG9ydCBMIGZyb20gImxlYWZsZXQiOwppbXBvcnQgImxlYWZsZXQvZGlzdC9sZWFmbGV0LmNzcyI7Cgpjb25zdCBCQVNFX1RJTEVfVVJMID0KICAiaHR0cHM6Ly97c30uYmFzZW1hcHMuY2FydG9jZG4uY29tL3Jhc3RlcnRpbGVzL3ZveWFnZXJfbm9sYWJlbHMve3p9L3t4fS97eX17cn0ucG5nIjsKY29uc3QgTEFCRUxTX1VSTCA9ICJodHRwczovL3tzfS5iYXNlbWFwcy5jYXJ0b2Nkbi5jb20vZGFya19vbmx5X2xhYmVscy97en0ve3h9L3t5fXtyfS5wbmciOwpjb25zdCBUSUxFX0FUVFJJQlVUSU9OID0KICAnJmNvcHk7IDxhIGhyZWY9Imh0dHBzOi8vd3d3Lm9wZW5zdHJlZXRtYXAub3JnL2NvcHlyaWdodCI+T3BlblN0cmVldE1hcDwvYT4gfCA8YSBocmVmPSJodHRwczovL2NhcnRvLmNvbS8iPkNBUlRPPC9hPic7CgppbnRlcmZhY2UgUHJvcHMgewogIGxhdDogbnVtYmVyOwogIGxuZzogbnVtYmVyOwogIGxhYmVsOiBzdHJpbmc7CiAgem9vbT86IG51bWJlcjsKICBjbGFzc05hbWU/OiBzdHJpbmc7Cn0KCi8qKiBTaW5nbGUtbWFya2VyIExlYWZsZXQgcHJldmlldyB1c2VkIG9uIHBlYWsgZGV0YWlsIHBhZ2VzLiAqLwpjb25zdCBQZWFrTWFwUHJldmlldyA9ICh7IGxhdCwgbG5nLCBsYWJlbCwgem9vbSA9IDEwLCBjbGFzc05hbWUgfTogUHJvcHMpID0+IHsKICBjb25zdCBjb250YWluZXJSZWYgPSB1c2VSZWY8SFRNTERpdkVsZW1lbnQgfCBudWxsPihudWxsKTsKICBjb25zdCBtYXBSZWYgPSB1c2VSZWY8TC5NYXAgfCBudWxsPihudWxsKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnN0IGNvbnRhaW5lciA9IGNvbnRhaW5lclJlZi5jdXJyZW50OwogICAgaWYgKCFjb250YWluZXIgfHwgbWFwUmVmLmN1cnJlbnQpIHJldHVybjsKCiAgICBjb25zdCBtYXAgPSBMLm1hcChjb250YWluZXIsIHsgc2Nyb2xsV2hlZWxab29tOiBmYWxzZSB9KS5zZXRWaWV3KFtsYXQsIGxuZ10sIHpvb20pOwogICAgTC50aWxlTGF5ZXIoQkFTRV9USUxFX1VSTCwgeyBhdHRyaWJ1dGlvbjogVElMRV9BVFRSSUJVVElPTiB9KS5hZGRUbyhtYXApOwogICAgY29uc3QgcGFuZSA9IG1hcC5jcmVhdGVQYW5lKCJwZWFrTGFiZWxzIik7CiAgICBwYW5lLnN0eWxlLnpJbmRleCA9ICI0NTAiOwogICAgcGFuZS5zdHlsZS5wb2ludGVyRXZlbnRzID0gIm5vbmUiOwogICAgTC50aWxlTGF5ZXIoTEFCRUxTX1VSTCwgeyBwYW5lOiAicGVha0xhYmVscyIsIGNsYXNzTmFtZTogIm1hcC1sYWJlbHMtd2hpdGUiIH0pLmFkZFRvKG1hcCk7CgogICAgTC5tYXJrZXIoW2xhdCwgbG5nXSwgewogICAgICBpY29uOiBMLmRpdkljb24oewogICAgICAgIGNsYXNzTmFtZTogIiIsCiAgICAgICAgaHRtbDogYDxkaXYgc3R5bGU9IgogICAgICAgICAgd2lkdGg6MThweDtoZWlnaHQ6MThweDtib3JkZXItcmFkaXVzOjk5OTlweDsKICAgICAgICAgIGJhY2tncm91bmQ6aHNsKHZhcigtLXByaW1hcnkpKTsKICAgICAgICAgIGJvcmRlcjoycHggc29saWQgaHNsKHZhcigtLWJhY2tncm91bmQpKTsKICAgICAgICAgIGJveC1zaGFkb3c6MCAwIDEycHggaHNsKHZhcigtLXByaW1hcnkpKTsKICAgICAgICAiPjwvZGl2PmAsCiAgICAgICAgaWNvblNpemU6IFsxOCwgMThdLAogICAgICAgIGljb25BbmNob3I6IFs5LCA5XSwKICAgICAgfSksCiAgICB9KQogICAgICAuYWRkVG8obWFwKQogICAgICAuYmluZFRvb2x0aXAobGFiZWwsIHsgZGlyZWN0aW9uOiAidG9wIiwgb2Zmc2V0OiBbMCwgLTEyXSB9KTsKCiAgICBtYXBSZWYuY3VycmVudCA9IG1hcDsKICAgIHJldHVybiAoKSA9PiB7CiAgICAgIG1hcC5yZW1vdmUoKTsKICAgICAgbWFwUmVmLmN1cnJlbnQgPSBudWxsOwogICAgfTsKICB9LCBbbGF0LCBsbmcsIHpvb20sIGxhYmVsXSk7CgogIHJldHVybiAoCiAgICA8ZGl2CiAgICAgIHJlZj17Y29udGFpbmVyUmVmfQogICAgICBjbGFzc05hbWU9e2NsYXNzTmFtZSA/PyAiaC1bMzYwcHhdIHctZnVsbCBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciJ9CiAgICAgIGFyaWEtbGFiZWw9e2BNYXAgc2hvd2luZyB0aGUgbG9jYXRpb24gb2YgJHtsYWJlbH1gfQogICAgLz4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgUGVha01hcFByZXZpZXc7Cg==
+import { useEffect, useRef } from "react";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
+
+const BASE_TILE_URL =
+  "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png";
+const LABELS_URL = "https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png";
+const TILE_ATTRIBUTION =
+  '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | <a href="https://carto.com/">CARTO</a>';
+
+interface Props {
+  lat: number;
+  lng: number;
+  label: string;
+  zoom?: number;
+  className?: string;
+}
+
+/** Single-marker Leaflet preview used on peak detail pages. */
+const PeakMapPreview = ({ lat, lng, label, zoom = 10, className }: Props) => {
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  const mapRef = useRef<L.Map | null>(null);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container || mapRef.current) return;
+
+    const map = L.map(container, { scrollWheelZoom: false }).setView([lat, lng], zoom);
+    L.tileLayer(BASE_TILE_URL, { attribution: TILE_ATTRIBUTION }).addTo(map);
+    const pane = map.createPane("peakLabels");
+    pane.style.zIndex = "450";
+    pane.style.pointerEvents = "none";
+    L.tileLayer(LABELS_URL, { pane: "peakLabels", className: "map-labels-white" }).addTo(map);
+
+    L.marker([lat, lng], {
+      icon: L.divIcon({
+        className: "",
+        html: `<div style="
+          width:18px;height:18px;border-radius:9999px;
+          background:hsl(var(--primary));
+          border:2px solid hsl(var(--background));
+          box-shadow:0 0 12px hsl(var(--primary));
+        "></div>`,
+        iconSize: [18, 18],
+        iconAnchor: [9, 9],
+      }),
+    })
+      .addTo(map)
+      .bindTooltip(label, { direction: "top", offset: [0, -12] });
+
+    mapRef.current = map;
+    return () => {
+      map.remove();
+      mapRef.current = null;
+    };
+  }, [lat, lng, zoom, label]);
+
+  return (
+    <div
+      ref={containerRef}
+      className={className ?? "h-[360px] w-full overflow-hidden rounded-lg border border-border"}
+      aria-label={`Map showing the location of ${label}`}
+    />
+  );
+};
+
+export default PeakMapPreview;

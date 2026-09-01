@@ -1,1 +1,17 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBQZWFrSW1wb3J0UGFnZSBmcm9tICJAL3BhZ2VzL2NvbW11bml0eS9QZWFrSW1wb3J0UGFnZSI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9jb21tdW5pdHkvaW1wb3J0LXBlYWtzIikoewogIGhlYWQ6ICgpID0+ICh7CiAgICBtZXRhOiBbCiAgICAgIHsgdGl0bGU6ICJQZWFrIGltcG9ydCDigJQgVGlja2xlbGlzdCIgfSwKICAgICAgeyBuYW1lOiAiZGVzY3JpcHRpb24iLCBjb250ZW50OiAiQWRtaW4gdG9vbCBmb3IgYnVsay1hZGRpbmcgcGVha3MgdG8gdGhlIFRpY2tsZWxpc3QgY2F0YWxvZyBmcm9tIENTViBvciBKU09OLiIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnRpdGxlIiwgY29udGVudDogIlBlYWsgaW1wb3J0IOKAlCBUaWNrbGVsaXN0IiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6ZGVzY3JpcHRpb24iLCBjb250ZW50OiAiQnVsay1hZGQgcGVha3MgdG8gdGhlIFRpY2tsZWxpc3QgY2F0YWxvZy4iIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0eXBlIiwgY29udGVudDogIndlYnNpdGUiIH0sCiAgICAgIHsgbmFtZTogInR3aXR0ZXI6Y2FyZCIsIGNvbnRlbnQ6ICJzdW1tYXJ5IiB9LAogICAgICB7IG5hbWU6ICJyb2JvdHMiLCBjb250ZW50OiAibm9pbmRleCIgfSwKICAgIF0sCiAgfSksCiAgY29tcG9uZW50OiBQZWFrSW1wb3J0UGFnZSwKfSk7Cg==
+import { createFileRoute } from "@tanstack/react-router";
+import PeakImportPage from "@/pages/community/PeakImportPage";
+
+export const Route = createFileRoute("/community/import-peaks")({
+  head: () => ({
+    meta: [
+      { title: "Peak import — Ticklelist" },
+      { name: "description", content: "Admin tool for bulk-adding peaks to the Ticklelist catalog from CSV or JSON." },
+      { property: "og:title", content: "Peak import — Ticklelist" },
+      { property: "og:description", content: "Bulk-add peaks to the Ticklelist catalog." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
+      { name: "robots", content: "noindex" },
+    ],
+  }),
+  component: PeakImportPage,
+});

@@ -1,1 +1,102 @@
-aW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IEZsYWcgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dGb290ZXIsCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgeyBUZXh0YXJlYSB9IGZyb20gIkAvY29tcG9uZW50cy91aS90ZXh0YXJlYSI7CmltcG9ydCB7IFJFUE9SVF9SRUFTT05TLCB1c2VSZXBvcnRpbmcsIHR5cGUgUmVwb3J0VGFyZ2V0IH0gZnJvbSAiQC9ob29rcy91c2VSZXBvcnRzIjsKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyI7CgppbnRlcmZhY2UgUHJvcHMgewogIHRhcmdldFR5cGU6IFJlcG9ydFRhcmdldDsKICB0YXJnZXRJZDogc3RyaW5nOwogIGNsYXNzTmFtZT86IHN0cmluZzsKICBzaXplPzogInNtIiB8ICJ4cyI7Cn0KCi8qKiBMZXRzIGEgbWVtYmVyIGZsYWcgYSBwb3N0IG9yIGNvbW1lbnQgZm9yIG1vZGVyYXRvciByZXZpZXcuICovCmNvbnN0IFJlcG9ydEJ1dHRvbiA9ICh7IHRhcmdldFR5cGUsIHRhcmdldElkLCBjbGFzc05hbWUsIHNpemUgPSAic20iIH06IFByb3BzKSA9PiB7CiAgY29uc3QgeyByZXBvcnQsIGNhblJlcG9ydCB9ID0gdXNlUmVwb3J0aW5nKCk7CiAgY29uc3QgW29wZW4sIHNldE9wZW5dID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtyZWFzb24sIHNldFJlYXNvbl0gPSB1c2VTdGF0ZTxzdHJpbmc+KFJFUE9SVF9SRUFTT05TWzBdLnZhbHVlKTsKICBjb25zdCBbZGV0YWlscywgc2V0RGV0YWlsc10gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2J1c3ksIHNldEJ1c3ldID0gdXNlU3RhdGUoZmFsc2UpOwoKICBpZiAoIWNhblJlcG9ydCkgcmV0dXJuIG51bGw7CgogIGNvbnN0IHN1Ym1pdCA9IGFzeW5jICgpID0+IHsKICAgIHNldEJ1c3kodHJ1ZSk7CiAgICBjb25zdCBvayA9IGF3YWl0IHJlcG9ydCh0YXJnZXRUeXBlLCB0YXJnZXRJZCwgcmVhc29uLCBkZXRhaWxzKTsKICAgIHNldEJ1c3koZmFsc2UpOwogICAgaWYgKG9rKSB7CiAgICAgIHNldE9wZW4oZmFsc2UpOwogICAgICBzZXREZXRhaWxzKCIiKTsKICAgIH0KICB9OwoKICByZXR1cm4gKAogICAgPD4KICAgICAgPGJ1dHRvbgogICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRPcGVuKHRydWUpfQogICAgICAgIGFyaWEtbGFiZWw9e2BSZXBvcnQgdGhpcyAke3RhcmdldFR5cGV9YH0KICAgICAgICB0aXRsZT17YFJlcG9ydCB0aGlzICR7dGFyZ2V0VHlwZX1gfQogICAgICAgIGNsYXNzTmFtZT17Y24oInRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LWRlc3RydWN0aXZlIiwgY2xhc3NOYW1lKX0KICAgICAgPgogICAgICAgIDxGbGFnIGNsYXNzTmFtZT17c2l6ZSA9PT0gInhzIiA/ICJ3LTMuNSBoLTMuNSIgOiAidy00IGgtNCJ9IC8+CiAgICAgIDwvYnV0dG9uPgoKICAgICAgPERpYWxvZyBvcGVuPXtvcGVufSBvbk9wZW5DaGFuZ2U9e3NldE9wZW59PgogICAgICAgIDxEaWFsb2dDb250ZW50PgogICAgICAgICAgPERpYWxvZ0hlYWRlcj4KICAgICAgICAgICAgPERpYWxvZ1RpdGxlIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGVyIj5SZXBvcnQgdGhpcyB7dGFyZ2V0VHlwZX08L0RpYWxvZ1RpdGxlPgogICAgICAgICAgICA8RGlhbG9nRGVzY3JpcHRpb24+CiAgICAgICAgICAgICAgVGVsbCB1cyB3aGF0IGlzIHdyb25nLiBNb2RlcmF0b3JzIHJldmlldyBldmVyeSByZXBvcnQgYW5kIGNhbiByZW1vdmUgY29udGVudC4KICAgICAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgIDwvRGlhbG9nSGVhZGVyPgoKICAgICAgICAgIDxmaWVsZHNldCBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgICAgICAgIDxsZWdlbmQgY2xhc3NOYW1lPSJzci1vbmx5Ij5SZWFzb248L2xlZ2VuZD4KICAgICAgICAgICAge1JFUE9SVF9SRUFTT05TLm1hcCgocikgPT4gKAogICAgICAgICAgICAgIDxsYWJlbCBrZXk9e3IudmFsdWV9IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1zbSBjdXJzb3ItcG9pbnRlciI+CiAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgdHlwZT0icmFkaW8iCiAgICAgICAgICAgICAgICAgIG5hbWU9InJlcG9ydC1yZWFzb24iCiAgICAgICAgICAgICAgICAgIHZhbHVlPXtyLnZhbHVlfQogICAgICAgICAgICAgICAgICBjaGVja2VkPXtyZWFzb24gPT09IHIudmFsdWV9CiAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoKSA9PiBzZXRSZWFzb24oci52YWx1ZSl9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYWNjZW50LVtoc2wodmFyKC0tcHJpbWFyeSkpXSIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICB7ci5sYWJlbH0KICAgICAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvZmllbGRzZXQ+CgogICAgICAgICAgPFRleHRhcmVhCiAgICAgICAgICAgIHZhbHVlPXtkZXRhaWxzfQogICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldERldGFpbHMoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICBtYXhMZW5ndGg9ezUwMH0KICAgICAgICAgICAgcm93cz17M30KICAgICAgICAgICAgcGxhY2Vob2xkZXI9IkV4dHJhIGRldGFpbHMgKG9wdGlvbmFsKSIKICAgICAgICAgICAgYXJpYS1sYWJlbD0iUmVwb3J0IGRldGFpbHMiCiAgICAgICAgICAvPgoKICAgICAgICAgIDxEaWFsb2dGb290ZXI+CiAgICAgICAgICAgIDxCdXR0b24gdHlwZT0iYnV0dG9uIiB2YXJpYW50PSJnaG9zdCIgb25DbGljaz17KCkgPT4gc2V0T3BlbihmYWxzZSl9PkNhbmNlbDwvQnV0dG9uPgogICAgICAgICAgICA8QnV0dG9uIHR5cGU9ImJ1dHRvbiIgdmFyaWFudD0iZGVzdHJ1Y3RpdmUiIG9uQ2xpY2s9e3N1Ym1pdH0gZGlzYWJsZWQ9e2J1c3l9PgogICAgICAgICAgICAgIHtidXN5ID8gIlNlbmRpbmfigKYiIDogIlNlbmQgcmVwb3J0In0KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L0RpYWxvZ0Zvb3Rlcj4KICAgICAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgICAgIDwvRGlhbG9nPgogICAgPC8+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IFJlcG9ydEJ1dHRvbjsK
+import { useState } from "react";
+import { Flag } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Textarea } from "@/components/ui/textarea";
+import { REPORT_REASONS, useReporting, type ReportTarget } from "@/hooks/useReports";
+import { cn } from "@/lib/utils";
+
+interface Props {
+  targetType: ReportTarget;
+  targetId: string;
+  className?: string;
+  size?: "sm" | "xs";
+}
+
+/** Lets a member flag a post or comment for moderator review. */
+const ReportButton = ({ targetType, targetId, className, size = "sm" }: Props) => {
+  const { report, canReport } = useReporting();
+  const [open, setOpen] = useState(false);
+  const [reason, setReason] = useState<string>(REPORT_REASONS[0].value);
+  const [details, setDetails] = useState("");
+  const [busy, setBusy] = useState(false);
+
+  if (!canReport) return null;
+
+  const submit = async () => {
+    setBusy(true);
+    const ok = await report(targetType, targetId, reason, details);
+    setBusy(false);
+    if (ok) {
+      setOpen(false);
+      setDetails("");
+    }
+  };
+
+  return (
+    <>
+      <button
+        type="button"
+        onClick={() => setOpen(true)}
+        aria-label={`Report this ${targetType}`}
+        title={`Report this ${targetType}`}
+        className={cn("text-muted-foreground hover:text-destructive", className)}
+      >
+        <Flag className={size === "xs" ? "w-3.5 h-3.5" : "w-4 h-4"} />
+      </button>
+
+      <Dialog open={open} onOpenChange={setOpen}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle className="font-display tracking-wider">Report this {targetType}</DialogTitle>
+            <DialogDescription>
+              Tell us what is wrong. Moderators review every report and can remove content.
+            </DialogDescription>
+          </DialogHeader>
+
+          <fieldset className="space-y-2">
+            <legend className="sr-only">Reason</legend>
+            {REPORT_REASONS.map((r) => (
+              <label key={r.value} className="flex items-center gap-2 text-sm cursor-pointer">
+                <input
+                  type="radio"
+                  name="report-reason"
+                  value={r.value}
+                  checked={reason === r.value}
+                  onChange={() => setReason(r.value)}
+                  className="accent-[hsl(var(--primary))]"
+                />
+                {r.label}
+              </label>
+            ))}
+          </fieldset>
+
+          <Textarea
+            value={details}
+            onChange={(e) => setDetails(e.target.value)}
+            maxLength={500}
+            rows={3}
+            placeholder="Extra details (optional)"
+            aria-label="Report details"
+          />
+
+          <DialogFooter>
+            <Button type="button" variant="ghost" onClick={() => setOpen(false)}>Cancel</Button>
+            <Button type="button" variant="destructive" onClick={submit} disabled={busy}>
+              {busy ? "Sending…" : "Send report"}
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+    </>
+  );
+};
+
+export default ReportButton;

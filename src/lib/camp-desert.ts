@@ -1,1 +1,24 @@
-LyoqCiAqIFRoZSBEZXNlcnQgUmFuZ2U6IGhvdCwgZHJ5IGFuZCB1bmZvcmdpdmluZy4gV2FsayBpbiBhbmQgYSBkZWh5ZHJhdGlvbiBjbG9jawogKiBzdGFydHMuIERvdWJsZS10YXAg4oaTIGFueXdoZXJlIG9uIHRoZSBzYW5kIHRvIGRpZyBmb3Igd2F0ZXIg4oCUIGEgd2VsbCBidXlzIHlvdQogKiBhbm90aGVyIG1pbnV0ZSwgYW5kIHlvdSBjYW4gZ28gYmFjayBhbmQgZHJpbmsgZnJvbSBpdCBhZ2FpbiBvbmNlIGl0IHJlZmlsbHMuCiAqIExldCB0aGUgY2xvY2sgaGl0IHplcm8gYW5kIHlvdSBjb2xsYXBzZSBhbmQgYXJlIGRyYWdnZWQgdG8gdGhlIG5leHQgem9uZS4KICovCgovKiogU2Vjb25kcyBiZWZvcmUgeW91IGNvbGxhcHNlIGZyb20gdGhpcnN0LCB3aXRoIG5vdGhpbmcgdG8gZHJpbmsuICovCmV4cG9ydCBjb25zdCBERUhZRFJBVElPTl9TRUNPTkRTID0gOTA7CgovKiogU2Vjb25kcyBhIGRpZyAvIGEgZHJpbmsgZnJvbSB5b3VyIHdlbGwgYWRkcyB0byB0aGUgY2xvY2suICovCmV4cG9ydCBjb25zdCBXQVRFUl9TRUNPTkRTID0gNjA7CgovKiogVGhlIGNsb2NrIG5ldmVyIGdvZXMgYWJvdmUgdGhpcywgaG93ZXZlciBtdWNoIHlvdSBkcmluay4gKi8KZXhwb3J0IGNvbnN0IE1BWF9IWURSQVRJT05fU0VDT05EUyA9IDE4MDsKCi8qKiBIb3cgbG9uZyAobXMpIGJlZm9yZSB0aGUgd2VsbCBzZWVwcyBmdWxsIGVub3VnaCB0byBkcmluayBhZ2Fpbi4gKi8KZXhwb3J0IGNvbnN0IFdFTExfUkVGSUxMX01TID0gMjBfMDAwOwoKLyoqIEhvdyBjbG9zZSAod29ybGQgcHgpIHlvdSBtdXN0IHN0YW5kIHRvIHlvdXIgd2VsbCB0byBkcmluayBmcm9tIGl0LiAqLwpleHBvcnQgY29uc3QgV0VMTF9SQURJVVMgPSAxMjA7CgovKiogQmVsb3cgdGhpcyBtYW55IHNlY29uZHMgbGVmdCwgdGhlIGNsaW1iZXIgYmxpbmtzIHJlZC4gKi8KZXhwb3J0IGNvbnN0IFBBUkNIRURfU0VDT05EUyA9IDEwOwo=
+/**
+ * The Desert Range: hot, dry and unforgiving. Walk in and a dehydration clock
+ * starts. Double-tap ↓ anywhere on the sand to dig for water — a well buys you
+ * another minute, and you can go back and drink from it again once it refills.
+ * Let the clock hit zero and you collapse and are dragged to the next zone.
+ */
+
+/** Seconds before you collapse from thirst, with nothing to drink. */
+export const DEHYDRATION_SECONDS = 90;
+
+/** Seconds a dig / a drink from your well adds to the clock. */
+export const WATER_SECONDS = 60;
+
+/** The clock never goes above this, however much you drink. */
+export const MAX_HYDRATION_SECONDS = 180;
+
+/** How long (ms) before the well seeps full enough to drink again. */
+export const WELL_REFILL_MS = 20_000;
+
+/** How close (world px) you must stand to your well to drink from it. */
+export const WELL_RADIUS = 120;
+
+/** Below this many seconds left, the climber blinks red. */
+export const PARCHED_SECONDS = 10;

@@ -1,1 +1,35 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCByZWRpcmVjdCB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwppbXBvcnQgeyBjcmVhdGVJc29tb3JwaGljRm4gfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtc3RhcnQiOwppbXBvcnQgSW5kZXggZnJvbSAiQC9wYWdlcy9JbmRleCI7Cgpjb25zdCBDT01NVU5JVFlfSE9TVFMgPSBbInRpY2tsZWxpc3Qub3JnIiwgInd3dy50aWNrbGVsaXN0Lm9yZyJdOwoKLyoqCiAqIEN1cnJlbnQgcmVxdWVzdCBob3N0IOKAlCByZWFkIGZyb20gdGhlIGJyb3dzZXIgb24gdGhlIGNsaWVudCBhbmQgZnJvbSB0aGUKICogcmVxdWVzdCBvbiB0aGUgc2VydmVyLiBjcmVhdGVJc29tb3JwaGljRm4ga2VlcHMgdGhlIHNlcnZlci1vbmx5IGltcG9ydCBvdXQKICogb2YgdGhlIGNsaWVudCBidW5kbGUuCiAqLwpjb25zdCBjdXJyZW50SG9zdCA9IGNyZWF0ZUlzb21vcnBoaWNGbigpCiAgLmNsaWVudCgoKSA9PiB3aW5kb3cubG9jYXRpb24uaG9zdC50b0xvd2VyQ2FzZSgpKQogIC5zZXJ2ZXIoYXN5bmMgKCkgPT4gewogICAgY29uc3QgeyBnZXRSZXF1ZXN0SG9zdCB9ID0gYXdhaXQgaW1wb3J0KCJAdGFuc3RhY2svcmVhY3Qtc3RhcnQvc2VydmVyIik7CiAgICByZXR1cm4gKGdldFJlcXVlc3RIb3N0KCkgPz8gIiIpLnRvTG93ZXJDYXNlKCk7CiAgfSk7CgoKLyoqCiAqIFdoZW4gdGhlIGNvbW11bml0eSBsaXZlcyBvbiBpdHMgb3duIGRvbWFpbiAodGlja2xlbGlzdC5vcmcpLCB2aXNpdGluZyB0aGF0CiAqIGRvbWFpbidzIHJvb3Qgc2hvdWxkIGxhbmQgb24gL2NvbW11bml0eSByYXRoZXIgdGhhbiB0aGUgbWFya2V0aW5nIGhvbWVwYWdlLgogKiBDaGVja2VkIG9uIHRoZSBzZXJ2ZXIgKHZpYSByZXF1ZXN0IGhvc3QpIHNvIHRoZXJlIGlzIG5vIGZsYXNoIG9mIHRoZSBob21lcGFnZS4KICovCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiLyIpKHsKICBiZWZvcmVMb2FkOiBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBob3N0ID0gYXdhaXQgY3VycmVudEhvc3QoKTsKCiAgICBpZiAoaG9zdCAmJiBDT01NVU5JVFlfSE9TVFMuaW5jbHVkZXMoaG9zdCkpIHsKICAgICAgdGhyb3cgcmVkaXJlY3QoeyB0bzogIi9jb21tdW5pdHkiIH0pOwogICAgfQogIH0sCgogIGNvbXBvbmVudDogSW5kZXgsCn0pOwo=
+import { createFileRoute, redirect } from "@tanstack/react-router";
+import { createIsomorphicFn } from "@tanstack/react-start";
+import Index from "@/pages/Index";
+
+const COMMUNITY_HOSTS = ["ticklelist.org", "www.ticklelist.org"];
+
+/**
+ * Current request host — read from the browser on the client and from the
+ * request on the server. createIsomorphicFn keeps the server-only import out
+ * of the client bundle.
+ */
+const currentHost = createIsomorphicFn()
+  .client(() => window.location.host.toLowerCase())
+  .server(async () => {
+    const { getRequestHost } = await import("@tanstack/react-start/server");
+    return (getRequestHost() ?? "").toLowerCase();
+  });
+
+
+/**
+ * When the community lives on its own domain (ticklelist.org), visiting that
+ * domain's root should land on /community rather than the marketing homepage.
+ * Checked on the server (via request host) so there is no flash of the homepage.
+ */
+export const Route = createFileRoute("/")({
+  beforeLoad: async () => {
+    const host = await currentHost();
+
+    if (host && COMMUNITY_HOSTS.includes(host)) {
+      throw redirect({ to: "/community" });
+    }
+  },
+
+  component: Index,
+});

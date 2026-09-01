@@ -1,1 +1,300 @@
-aW1wb3J0IHsgcGVha0RldGFpbHMgfSBmcm9tICJAL2RhdGEvcGVhay1kZXRhaWxzIjsKaW1wb3J0IHsgc3dlZGVuVGlueVBlYWtDb29yZGluYXRlcyB9IGZyb20gIkAvZGF0YS9zd2VkZW4tcGVha3MiOwppbXBvcnQgeyBmaW5kUGxhY2UgfSBmcm9tICJAL2RhdGEvcGxhY2VzIjsKCmV4cG9ydCBpbnRlcmZhY2UgTGF0TG5nIHsKICBsYXQ6IG51bWJlcjsKICBsbmc6IG51bWJlcjsKfQoKLyoqCiAqIEFwcHJveGltYXRlIHN1bW1pdCBjb29yZGluYXRlcyBmb3IgdGhlIGN1cmF0ZWQgZmFtb3VzLXBlYWsgY2F0YWxvZy4KICogQ291bnRyeSBoaWdoIHBvaW50cyBnZXQgdGhlaXIgY29vcmRpbmF0ZXMgZnJvbSBgcGVhay1kZXRhaWxzLnRzYC4KICogVmFsdWVzIGFyZSBnb29kIGVub3VnaCBmb3IgbWFwIHBsYWNlbWVudCwgbm90IGZvciBuYXZpZ2F0aW9uLgogKi8KZXhwb3J0IGNvbnN0IGZhbW91c1BlYWtDb29yZGluYXRlczogUmVjb3JkPHN0cmluZywgTGF0TG5nPiA9IHsKICAvLyA4MDAwZXJzCiAgIkV2ZXJlc3QiOiB7IGxhdDogMjcuOTg4MSwgbG5nOiA4Ni45MjUgfSwKICAiSzIiOiB7IGxhdDogMzUuODgwOCwgbG5nOiA3Ni41MTMzIH0sCiAgIkthbmdjaGVuanVuZ2EiOiB7IGxhdDogMjcuNzAyNSwgbG5nOiA4OC4xNDc1IH0sCiAgIkxob3RzZSI6IHsgbGF0OiAyNy45NjE3LCBsbmc6IDg2LjkzMzEgfSwKICAiTWFrYWx1IjogeyBsYXQ6IDI3Ljg4OTcsIGxuZzogODcuMDg4OSB9LAogICJDaG8gT3l1IjogeyBsYXQ6IDI4LjA5NDIsIGxuZzogODYuNjYwOCB9LAogICJEaGF1bGFnaXJpIEkiOiB7IGxhdDogMjguNjk4MywgbG5nOiA4My40ODc1IH0sCiAgIk1hbmFzbHUiOiB7IGxhdDogMjguNTQ5NywgbG5nOiA4NC41NTk3IH0sCiAgIk5hbmdhIFBhcmJhdCI6IHsgbGF0OiAzNS4yMzc1LCBsbmc6IDc0LjU4OTIgfSwKICAiQW5uYXB1cm5hIEkiOiB7IGxhdDogMjguNTk2MSwgbG5nOiA4My44MjAzIH0sCiAgIkdhc2hlcmJydW0gSSI6IHsgbGF0OiAzNS43MjQyLCBsbmc6IDc2LjY5NjQgfSwKICAiQnJvYWQgUGVhayI6IHsgbGF0OiAzNS44MTA4LCBsbmc6IDc2LjU2ODYgfSwKICAiR2FzaGVyYnJ1bSBJSSI6IHsgbGF0OiAzNS43NTgzLCBsbmc6IDc2LjY1MzMgfSwKICAiU2hpc2hhcGFuZ21hIjogeyBsYXQ6IDI4LjM1MjUsIGxuZzogODUuNzc5MiB9LAoKICAvLyBTZXZlbiBTdW1taXRzICYgY2xhc3NpY3MKICAiQWNvbmNhZ3VhIjogeyBsYXQ6IC0zMi42NTMyLCBsbmc6IC03MC4wMTA5IH0sCiAgIkRlbmFsaSI6IHsgbGF0OiA2My4wNjk1LCBsbmc6IC0xNTEuMDA3NCB9LAogICJLaWxpbWFuamFybyI6IHsgbGF0OiAtMy4wNjc0LCBsbmc6IDM3LjM1NTYgfSwKICAiRWxicnVzIjogeyBsYXQ6IDQzLjM0OTksIGxuZzogNDIuNDQ1MyB9LAogICJWaW5zb24iOiB7IGxhdDogLTc4LjUyNTQsIGxuZzogLTg1LjYxNzEgfSwKICAiUHVuY2FrIEpheWEgKENhcnN0ZW5zeiBQeXJhbWlkKSI6IHsgbGF0OiAtNC4wNzg0LCBsbmc6IDEzNy4xNTgzIH0sCiAgIktvc2NpdXN6a28iOiB7IGxhdDogLTM2LjQ1NTgsIGxuZzogMTQ4LjI2MzQgfSwKCiAgLy8gSGltYWxheWEgLyBLYXJha29yYW0KICAiQW1hIERhYmxhbSI6IHsgbGF0OiAyNy44NjE3LCBsbmc6IDg2Ljg2MTEgfSwKICAiQ2hvIExhIC8gSXNsYW5kIFBlYWsgKEltamEgVHNlKSI6IHsgbGF0OiAyNy45MjE5LCBsbmc6IDg2LjkzODYgfSwKICAiTWVyYSBQZWFrIjogeyBsYXQ6IDI3LjcwNzUsIGxuZzogODYuODcyMiB9LAogICJMb2J1Y2hlIEVhc3QiOiB7IGxhdDogMjcuOTUzOSwgbG5nOiA4Ni44MDgxIH0sCiAgIkJhcnVudHNlIjogeyBsYXQ6IDI3Ljg3MjIsIGxuZzogODYuOTggfSwKICAiUHVtb3JpIjogeyBsYXQ6IDI4LjAxNDcsIGxuZzogODYuODI1NiB9LAogICJMYWlsYSBQZWFrIjogeyBsYXQ6IDM1LjUzMzMsIGxuZzogNzYuMzE2NyB9LAogICJTcGFudGlrIjogeyBsYXQ6IDM2LjA0MTcsIGxuZzogNzUuMDE4OSB9LAogICJTdG9rIEthbmdyaSI6IHsgbGF0OiAzMy45ODc4LCBsbmc6IDc3LjQ3MzYgfSwKCiAgLy8gQWxwcyAmIEV1cm9wZQogICJNYXR0ZXJob3JuIjogeyBsYXQ6IDQ1Ljk3NjMsIGxuZzogNy42NTg2IH0sCiAgIkVpZ2VyIjogeyBsYXQ6IDQ2LjU3NzUsIGxuZzogOC4wMDUzIH0sCiAgIk1vbnRlIFJvc2EgKER1Zm91cnNwaXR6ZSkiOiB7IGxhdDogNDUuOTM2OSwgbG5nOiA3Ljg2NjkgfSwKICAiSnVuZ2ZyYXUiOiB7IGxhdDogNDYuNTM2NywgbG5nOiA3Ljk2MjUgfSwKICAiTcO2bmNoIjogeyBsYXQ6IDQ2LjU1ODYsIGxuZzogNy45OTY0IH0sCiAgIldlaXNzaG9ybiI6IHsgbGF0OiA0Ni4xMDE3LCBsbmc6IDcuNzE2MSB9LAogICJEZW50IEJsYW5jaGUiOiB7IGxhdDogNDYuMDM0NywgbG5nOiA3LjYxMTkgfSwKICAiUGl6IEJhZGlsZSI6IHsgbGF0OiA0Ni4yOTE3LCBsbmc6IDkuNjQyNSB9LAogICJHcmFuZGVzIEpvcmFzc2VzIjogeyBsYXQ6IDQ1Ljg2OTcsIGxuZzogNi45ODc4IH0sCiAgIkFpZ3VpbGxlIGR1IE1pZGkiOiB7IGxhdDogNDUuODc4NiwgbG5nOiA2Ljg4NzUgfSwKICAiQWlndWlsbGUgVmVydGUiOiB7IGxhdDogNDUuOTM0NCwgbG5nOiA2Ljk1NzUgfSwKICAiQmFycmUgZGVzIMOJY3JpbnMiOiB7IGxhdDogNDQuOTIxOSwgbG5nOiA2LjM2MTcgfSwKICAiT3J0bGVyIjogeyBsYXQ6IDQ2LjUwODksIGxuZzogMTAuNTQ0NyB9LAogICJNYXJtb2xhZGEiOiB7IGxhdDogNDYuNDMzOSwgbG5nOiAxMS44NTE3IH0sCiAgIlRyZSBDaW1lIGRpIExhdmFyZWRvIChDaW1hIEdyYW5kZSkiOiB7IGxhdDogNDYuNjE4NiwgbG5nOiAxMi4zMDUzIH0sCiAgIldhdHptYW5uIjogeyBsYXQ6IDQ3LjU1NTMsIGxuZzogMTIuOTIzMSB9LAogICJTdG9yZSBUcm9sbHRpbmQgKFRyb2xsdmVnZ2VuKSI6IHsgbGF0OiA2Mi41MDU4LCBsbmc6IDcuNzM4MyB9LAogICJTdGV0aW5kIjogeyBsYXQ6IDY4LjE2ODMsIGxuZzogMTYuNTg4MyB9LAogICJCZW4gTmV2aXMiOiB7IGxhdDogNTYuNzk2OSwgbG5nOiAtNS4wMDM2IH0sCiAgIlNjYWZlbGwgUGlrZSI6IHsgbGF0OiA1NC40NTQyLCBsbmc6IC0zLjIxMTcgfSwKICAiU25vd2RvbiAoWXIgV3lkZGZhKSI6IHsgbGF0OiA1My4wNjg1LCBsbmc6IC00LjA3NjQgfSwKICAiTW91bnQgRXRuYSI6IHsgbGF0OiAzNy43NTEsIGxuZzogMTQuOTkzNCB9LAogICJNb3VudCBPbHltcHVzIjogeyBsYXQ6IDQwLjA4NTUsIGxuZzogMjIuMzU4OSB9LAoKICAvLyBBbWVyaWNhcwogICJDaGltYm9yYXpvIjogeyBsYXQ6IC0xLjQ2OTIsIGxuZzogLTc4LjgxNzUgfSwKICAiQ290b3BheGkiOiB7IGxhdDogLTAuNjgwMywgbG5nOiAtNzguNDM3OCB9LAogICJIdWFzY2Fyw6FuIjogeyBsYXQ6IC05LjEyMTcsIGxuZzogLTc3LjYwNDIgfSwKICAiQWxwYW1heW8iOiB7IGxhdDogLTguODg3OCwgbG5nOiAtNzcuNjUzOSB9LAogICJPam9zIGRlbCBTYWxhZG8iOiB7IGxhdDogLTI3LjEwOTIsIGxuZzogLTY4LjU0MTcgfSwKICAiRml0eiBSb3kiOiB7IGxhdDogLTQ5LjI3MTcsIGxuZzogLTczLjA0MzkgfSwKICAiQ2Vycm8gVG9ycmUiOiB7IGxhdDogLTQ5LjI5MjUsIGxuZzogLTczLjA5OTcgfSwKICAiVG9ycmVzIGRlbCBQYWluZSAoQ2VudHJhbCBUb3dlcikiOiB7IGxhdDogLTUwLjk0MzMsIGxuZzogLTcyLjkxODYgfSwKICAiUGljbyBkZSBPcml6YWJhIjogeyBsYXQ6IDE5LjAzMDMsIGxuZzogLTk3LjI2ODYgfSwKICAiTW91bnQgUmFpbmllciI6IHsgbGF0OiA0Ni44NTIzLCBsbmc6IC0xMjEuNzYwMyB9LAogICJHcmFuZCBUZXRvbiI6IHsgbGF0OiA0My43NDEyLCBsbmc6IC0xMTAuODAyNSB9LAogICJFbCBDYXBpdGFuIjogeyBsYXQ6IDM3LjczNCwgbG5nOiAtMTE5LjYzNzcgfSwKICAiSGFsZiBEb21lIjogeyBsYXQ6IDM3Ljc0NiwgbG5nOiAtMTE5LjUzMzIgfSwKICAiTW91bnQgUm9ic29uIjogeyBsYXQ6IDUzLjEwNjksIGxuZzogLTExOS4xNTU4IH0sCiAgIlZpbGxhcnJpY2EiOiB7IGxhdDogLTM5LjQyLCBsbmc6IC03MS45Mzk0IH0sCgogIC8vIFJlc3Qgb2Ygd29ybGQKICAiTW91bnQgS2VueWEgKEJhdGlhbikiOiB7IGxhdDogLTAuMTUyMSwgbG5nOiAzNy4zMDg0IH0sCiAgIk1vdW50IEZ1amkiOiB7IGxhdDogMzUuMzYwNiwgbG5nOiAxMzguNzI3NCB9LAogICJNb3VudCBLaW5hYmFsdSI6IHsgbGF0OiA2LjA3NTQsIGxuZzogMTE2LjU1ODMgfSwKICAiTW91bnQgQ29vayAoQW9yYWtpKSI6IHsgbGF0OiAtNDMuNTk0OSwgbG5nOiAxNzAuMTQxOCB9LAogICJNb3VudCBBcmFyYXQiOiB7IGxhdDogMzkuNzAyNSwgbG5nOiA0NC4yOTg2IH0sCiAgIk1vdW50IFNpbmFpIjogeyBsYXQ6IDI4LjUzOTIsIGxuZzogMzMuOTc1MCB9LAogICJNb3VudCBHaWx1d2UiOiB7IGxhdDogLTYuMDQyOCwgbG5nOiAxNDMuODg2NyB9LAogICJNb3VudCBTaWRsZXkiOiB7IGxhdDogLTc3LjAzMzMsIGxuZzogLTEyNi4xIH0sCiAgIkRhbWF2YW5kIjogeyBsYXQ6IDM1Ljk1NTMsIGxuZzogNTIuMTA5NyB9LAoKICAvLyBOb24tVU4gc3RhdGVzCiAgIsSQZXJhdmljYSAoS29zb3ZvKSI6IHsgbGF0OiA0Mi41Mzg2LCBsbmc6IDIwLjEzNjEgfSwKICAiTW91bnQgTmFiaSBZdW5pcyAoUGFsZXN0aW5lKSI6IHsgbGF0OiAzMS41MjE3LCBsbmc6IDM1LjEyNTggfSwKICAiR3VlbGIgZXIgUmljaGF0IGhpZ2hwb2ludCAoV2VzdGVybiBTYWhhcmEpIjogeyBsYXQ6IDIyLjMxNjcsIGxuZzogLTEzLjAzMzMgfSwKICAiVGUgTWFuZ2EgKENvb2sgSXNsYW5kcykiOiB7IGxhdDogLTIxLjIyODYsIGxuZzogLTE1OS43NjQ3IH0sCiAgIk5pdWUgaGlnaHBvaW50IjogeyBsYXQ6IC0xOS4wODM5LCBsbmc6IC0xNjkuODUwMyB9LAoKICAvLyBVUyBzdGF0ZSBoaWdoIHBvaW50cwogICJDaGVhaGEgTW91bnRhaW4gKEFsYWJhbWEpIjogeyBsYXQ6IDMzLjQ4NTcsIGxuZzogLTg1LjgwOTEgfSwKICAiSHVtcGhyZXlzIFBlYWsgKEFyaXpvbmEpIjogeyBsYXQ6IDM1LjM0NjQsIGxuZzogLTExMS42Nzc5IH0sCiAgIk1hZ2F6aW5lIE1vdW50YWluIChBcmthbnNhcykiOiB7IGxhdDogMzUuMTY3MiwgbG5nOiAtOTMuNjQ0NCB9LAogICJNb3VudCBXaGl0bmV5IChDYWxpZm9ybmlhKSI6IHsgbGF0OiAzNi41Nzg1LCBsbmc6IC0xMTguMjkyMyB9LAogICJNb3VudCBFbGJlcnQgKENvbG9yYWRvKSI6IHsgbGF0OiAzOS4xMTc4LCBsbmc6IC0xMDYuNDQ1MyB9LAogICJNb3VudCBGcmlzc2VsbCAoc291dGggc2xvcGUpIChDb25uZWN0aWN1dCkiOiB7IGxhdDogNDIuMDQ5NywgbG5nOiAtNzMuNDgyMiB9LAogICJFYnJpZ2h0IEF6aW11dGggKERlbGF3YXJlKSI6IHsgbGF0OiAzOS44MzY0LCBsbmc6IC03NS41MTk0IH0sCiAgIkJyaXR0b24gSGlsbCAoRmxvcmlkYSkiOiB7IGxhdDogMzAuOTg3OCwgbG5nOiAtODYuMjgxNCB9LAogICJCcmFzc3Rvd24gQmFsZCAoR2VvcmdpYSkiOiB7IGxhdDogMzQuODc0MiwgbG5nOiAtODMuODExNCB9LAogICJNYXVuYSBLZWEgKEhhd2FpaSkiOiB7IGxhdDogMTkuODIwNywgbG5nOiAtMTU1LjQ2ODEgfSwKICAiQm9yYWggUGVhayAoSWRhaG8pIjogeyBsYXQ6IDQ0LjEzNzQsIGxuZzogLTExMy43ODExIH0sCiAgIkNoYXJsZXMgTW91bmQgKElsbGlub2lzKSI6IHsgbGF0OiA0Mi41MDQ0LCBsbmc6IC05MC4yMzk0IH0sCiAgIkhvb3NpZXIgSGlsbCAoSW5kaWFuYSkiOiB7IGxhdDogNDAuMCwgbG5nOiAtODQuODUgfSwKICAiSGF3a2V5ZSBQb2ludCAoSW93YSkiOiB7IGxhdDogNDMuNDU5NCwgbG5nOiAtOTUuNzA3OCB9LAogICJNb3VudCBTdW5mbG93ZXIgKEthbnNhcykiOiB7IGxhdDogMzkuMDIyNSwgbG5nOiAtMTAyLjAzNzIgfSwKICAiQmxhY2sgTW91bnRhaW4gKEtlbnR1Y2t5KSI6IHsgbGF0OiAzNi45MTQyLCBsbmc6IC04Mi44OTQyIH0sCiAgIkRyaXNraWxsIE1vdW50YWluIChMb3Vpc2lhbmEpIjogeyBsYXQ6IDMyLjQyNDcsIGxuZzogLTkyLjg5NjQgfSwKICAiS2F0YWhkaW4gKE1haW5lKSI6IHsgbGF0OiA0NS45MDQ0LCBsbmc6IC02OC45MjE2IH0sCiAgIkJhY2tib25lIE1vdW50YWluIChNYXJ5bGFuZCkiOiB7IGxhdDogMzkuMjM2MSwgbG5nOiAtNzkuNDg2NyB9LAogICJNb3VudCBHcmV5bG9jayAoTWFzc2FjaHVzZXR0cykiOiB7IGxhdDogNDIuNjM3NiwgbG5nOiAtNzMuMTY2NSB9LAogICJNb3VudCBBcnZvbiAoTWljaGlnYW4pIjogeyBsYXQ6IDQ2Ljc1NjEsIGxuZzogLTg4LjE1NTggfSwKICAiRWFnbGUgTW91bnRhaW4gKE1pbm5lc290YSkiOiB7IGxhdDogNDcuODk3NSwgbG5nOiAtOTAuNTU5NyB9LAogICJXb29kYWxsIE1vdW50YWluIChNaXNzaXNzaXBwaSkiOiB7IGxhdDogMzQuNzg4MSwgbG5nOiAtODguMjQxNyB9LAogICJUYXVtIFNhdWsgTW91bnRhaW4gKE1pc3NvdXJpKSI6IHsgbGF0OiAzNy41NzE3LCBsbmc6IC05MC43Mjg2IH0sCiAgIkdyYW5pdGUgUGVhayAoTW9udGFuYSkiOiB7IGxhdDogNDUuMTYzMywgbG5nOiAtMTA5LjgwNzggfSwKICAiUGFub3JhbWEgUG9pbnQgKE5lYnJhc2thKSI6IHsgbGF0OiA0MS4wMDY0LCBsbmc6IC0xMDQuMDMyMiB9LAogICJCb3VuZGFyeSBQZWFrIChOZXZhZGEpIjogeyBsYXQ6IDM3Ljg0NjEsIGxuZzogLTExOC4zNTEyIH0sCiAgIk1vdW50IFdhc2hpbmd0b24gKE5ldyBIYW1wc2hpcmUpIjogeyBsYXQ6IDQ0LjI3MDUsIGxuZzogLTcxLjMwMzMgfSwKICAiSGlnaCBQb2ludCAoTmV3IEplcnNleSkiOiB7IGxhdDogNDEuMzIwNiwgbG5nOiAtNzQuNjYxNCB9LAogICJXaGVlbGVyIFBlYWsgKE5ldyBNZXhpY28pIjogeyBsYXQ6IDM2LjU1NjksIGxuZzogLTEwNS40MTY5IH0sCiAgIk1vdW50IE1hcmN5IChOZXcgWW9yaykiOiB7IGxhdDogNDQuMTEyNiwgbG5nOiAtNzMuOTIzNiB9LAogICJNb3VudCBNaXRjaGVsbCAoTm9ydGggQ2Fyb2xpbmEpIjogeyBsYXQ6IDM1Ljc2NDgsIGxuZzogLTgyLjI2NTIgfSwKICAiV2hpdGUgQnV0dGUgKE5vcnRoIERha290YSkiOiB7IGxhdDogNDYuMzg2MSwgbG5nOiAtMTAzLjMwMDYgfSwKICAiQ2FtcGJlbGwgSGlsbCAoT2hpbykiOiB7IGxhdDogNDAuMzY5NywgbG5nOiAtODMuNzIwMyB9LAogICJCbGFjayBNZXNhIChPa2xhaG9tYSkiOiB7IGxhdDogMzYuOTM1OCwgbG5nOiAtMTAyLjk5ODEgfSwKICAiTW91bnQgSG9vZCAoT3JlZ29uKSI6IHsgbGF0OiA0NS4zNzM2LCBsbmc6IC0xMjEuNjk1OSB9LAogICJNb3VudCBEYXZpcyAoUGVubnN5bHZhbmlhKSI6IHsgbGF0OiAzOS43ODY5LCBsbmc6IC03OS4xNzU4IH0sCiAgIkplcmltb3RoIEhpbGwgKFJob2RlIElzbGFuZCkiOiB7IGxhdDogNDEuODUxNywgbG5nOiAtNzEuNzc3MiB9LAogICJTYXNzYWZyYXMgTW91bnRhaW4gKFNvdXRoIENhcm9saW5hKSI6IHsgbGF0OiAzNS4wNjQyLCBsbmc6IC04Mi43NzcyIH0sCiAgIkJsYWNrIEVsayBQZWFrIChTb3V0aCBEYWtvdGEpIjogeyBsYXQ6IDQzLjg2NjEsIGxuZzogLTEwMy41MzE0IH0sCiAgIkNsaW5nbWFucyBEb21lIChUZW5uZXNzZWUpIjogeyBsYXQ6IDM1LjU2MjgsIGxuZzogLTgzLjQ5ODYgfSwKICAiR3VhZGFsdXBlIFBlYWsgKFRleGFzKSI6IHsgbGF0OiAzMS44OTE3LCBsbmc6IC0xMDQuODYwMyB9LAogICJLaW5ncyBQZWFrIChVdGFoKSI6IHsgbGF0OiA0MC43NzYzLCBsbmc6IC0xMTAuMzcyOSB9LAogICJNb3VudCBNYW5zZmllbGQgKFZlcm1vbnQpIjogeyBsYXQ6IDQ0LjU0MzgsIGxuZzogLTcyLjgxNDMgfSwKICAiTW91bnQgUm9nZXJzIChWaXJnaW5pYSkiOiB7IGxhdDogMzYuNjU5OCwgbG5nOiAtODEuNTQ0NSB9LAogICJTcHJ1Y2UgS25vYiAoV2VzdCBWaXJnaW5pYSkiOiB7IGxhdDogMzguNjk5OCwgbG5nOiAtNzkuNTMyNiB9LAogICJUaW1tcyBIaWxsIChXaXNjb25zaW4pIjogeyBsYXQ6IDQ1LjQ1MTQsIGxuZzogLTkwLjE5NTMgfSwKICAiR2FubmV0dCBQZWFrIChXeW9taW5nKSI6IHsgbGF0OiA0My4xODQyLCBsbmc6IC0xMDkuNjU0MiB9LAoKICAvLyBQb2xhbmQgdm9pdm9kZXNoaXBzCiAgIsWabmllxbxrYSAoTG93ZXIgU2lsZXNpYSkiOiB7IGxhdDogNTAuNzM2MSwgbG5nOiAxNS43Mzk3IH0sCiAgIkN6YXJuYSBHw7NyYSAoR8OzcnkgT2JrYXNraWUpIChLdXlhdmlhbi1Qb21lcmFuaWFuKSI6IHsgbGF0OiA1My4wNSwgbG5nOiAxOC4xODMzIH0sCiAgIldpZWxraSBEemlhxYIgKEx1YmxpbikiOiB7IGxhdDogNTAuNjE2NywgbG5nOiAyMi45ODMzIH0sCiAgIkdvxYLEmWJpYSAoR8OzcmEgxbthcnNrYSkgKEx1YnVzeikiOiB7IGxhdDogNTEuNjE2NywgbG5nOiAxNS4wMzMzIH0sCiAgIkZham5hIFJ5YmEgKMWBw7NkxbopIjogeyBsYXQ6IDUwLjk4MzMsIGxuZzogMTkuODgzMyB9LAogICJSeXN5IChMZXNzZXIgUG9sYW5kKSI6IHsgbGF0OiA0OS4xNzk0LCBsbmc6IDIwLjA4ODEgfSwKICAiQWx0YW5hIChNYXNvdmlhKSI6IHsgbGF0OiA1MS4xMTY3LCBsbmc6IDIwLjYxNjcgfSwKICAiQmlza3VwaWEgS29wYSAoT3BvbGUpIjogeyBsYXQ6IDUwLjI0NDcsIGxuZzogMTcuNDMxOSB9LAogICJUYXJuaWNhIChTdWJjYXJwYXRoaWEpIjogeyBsYXQ6IDQ5LjA3NjEsIGxuZzogMjIuNzI2MSB9LAogICJSb3dlbHNrYSBHw7NyYSAoUG9kbGFza2llKSI6IHsgbGF0OiA1NC4yMzMzLCBsbmc6IDIyLjc2NjcgfSwKICAiV2llxbx5Y2EgKFBvbWVyYW5pYSkiOiB7IGxhdDogNTQuMjMwNiwgbG5nOiAxOC4xNTY3IH0sCiAgIkfDs3JhIFBpxJljaXUgS29wY8OzdyAoU2lsZXNpYSkiOiB7IGxhdDogNDkuNTk2NywgbG5nOiAxOC45ODYxIH0sCiAgIsWBeXNpY2EgKEhvbHkgQ3Jvc3MpIjogeyBsYXQ6IDUwLjg4OTIsIGxuZzogMjAuOTAzNiB9LAogICJEeWxld3NrYSBHw7NyYSAoV2FybWlhLU1hc3VyaWEpIjogeyBsYXQ6IDUzLjU0ODYsIGxuZzogMjAuMDI2OSB9LAogICJLb2J5bGEgR8OzcmEgKEdyZWF0ZXIgUG9sYW5kKSI6IHsgbGF0OiA1MS4zNTM2LCBsbmc6IDE3Ljc2NTggfSwKICAiR8OzcmEgS3Jham96bmF3Y8OzdyAoV2VzdCBQb21lcmFuaWEpIjogeyBsYXQ6IDUzLjcxNjcsIGxuZzogMTUuMDMzMyB9LAoKICAvLyBDYW5hZGEgcHJvdmluY2VzICYgdGVycml0b3JpZXMKICAiTW91bnQgTG9nYW4gKFl1a29uKSI6IHsgbGF0OiA2MC41NjcyLCBsbmc6IC0xNDAuNDA1MyB9LAogICJGYWlyd2VhdGhlciBNb3VudGFpbiAoQnJpdGlzaCBDb2x1bWJpYSkiOiB7IGxhdDogNTguOTA2NCwgbG5nOiAtMTM3LjUyNjcgfSwKICAiTW91bnQgQ29sdW1iaWEgKEFsYmVydGEpIjogeyBsYXQ6IDUyLjE0ODksIGxuZzogLTExNy40NTQ0IH0sCiAgIk1vdW50IE5pcnZhbmEgKE5vcnRod2VzdCBUZXJyaXRvcmllcykiOiB7IGxhdDogNjIuMTgzMywgbG5nOiAtMTI3LjYxNjcgfSwKICAiQmFyYmVhdSBQZWFrIChOdW5hdnV0KSI6IHsgbGF0OiA4MS45MTY3LCBsbmc6IC03NS4wMTY3IH0sCiAgIk1vdW50IENhdWJ2aWNrIChOZXdmb3VuZGxhbmQgYW5kIExhYnJhZG9yKSI6IHsgbGF0OiA1OC44ODMzLCBsbmc6IC02My43MTY3IH0sCiAgIk1vbnQgZCdJYmVydmlsbGUgKFF1ZWJlYykiOiB7IGxhdDogNTguODgzMywgbG5nOiAtNjMuNzE2NyB9LAogICJDeXByZXNzIEhpbGxzIChTYXNrYXRjaGV3YW4pIjogeyBsYXQ6IDQ5LjYxNjcsIGxuZzogLTEwOS45MTY3IH0sCiAgIkJhbGR5IE1vdW50YWluIChNYW5pdG9iYSkiOiB7IGxhdDogNTEuNDY2NywgbG5nOiAtMTAwLjc2NjcgfSwKICAiTW91bnQgQ2FybGV0b24gKE5ldyBCcnVuc3dpY2spIjogeyBsYXQ6IDQ3LjM5NTYsIGxuZzogLTY2Ljg4MTcgfSwKICAiSXNocGF0aW5hIFJpZGdlIChPbnRhcmlvKSI6IHsgbGF0OiA0Ny4zMzMzLCBsbmc6IC04MC43MzMzIH0sCiAgIldoaXRlIEhpbGwgKE5vdmEgU2NvdGlhKSI6IHsgbGF0OiA0Ni43LCBsbmc6IC02MC42IH0sCiAgIkdsZW4gVmFsbGV5IChQcmluY2UgRWR3YXJkIElzbGFuZCkiOiB7IGxhdDogNDYuMzUsIGxuZzogLTYzLjQxNjcgfSwKICAvLyBJbmRvbmVzaWEg4oCUIGlzbGFuZCBoaWdoIHBvaW50cwogICJQdW5jYWsgTWFuZGFsYSI6IHsgbGF0OiAtNC43MTY3LCBsbmc6IDE0MC4yODMzIH0sCiAgIlB1bmNhayBUcmlrb3JhIjogeyBsYXQ6IC00LjIzMzMsIGxuZzogMTM4LjY4MzMgfSwKICAiTmdnYSBQdWx1IjogeyBsYXQ6IC00LjA2MDMsIGxuZzogMTM3LjE2MzEgfSwKICAiU3VtYW50cmkiOiB7IGxhdDogLTQuMDU2MSwgbG5nOiAxMzcuMTQ5NCB9LAogICJLZXJpbmNpIjogeyBsYXQ6IC0xLjY5NzAsIGxuZzogMTAxLjI2NDAgfSwKICAiUmluamFuaSI6IHsgbGF0OiAtOC40MTE0LCBsbmc6IDExNi40NTcwIH0sCiAgIlNlbWVydSI6IHsgbGF0OiAtOC4xMDc3LCBsbmc6IDExMi45MjI0IH0sCiAgIlJhbnRlbWFyaW8gKExhdGltb2pvbmcpIjogeyBsYXQ6IC0zLjM4MzMsIGxuZzogMTIwLjAxNjcgfSwKICAiQnVraXQgUmF5YSI6IHsgbGF0OiAtMC42MzMzLCBsbmc6IDExMi42ODMzIH0sCiAgIkJpbmFpeWEiOiB7IGxhdDogLTMuMTc1MCwgbG5nOiAxMjkuNDY2NyB9LAoKICAvLyBJbmRvbmVzaWEg4oCUIEJhbGkgJiBOdXNhIFRlbmdnYXJhCiAgIkd1bnVuZyBBZ3VuZyI6IHsgbGF0OiAtOC4zNDI4LCBsbmc6IDExNS41MDc1IH0sCiAgIkd1bnVuZyBCYXR1ciI6IHsgbGF0OiAtOC4yNDIyLCBsbmc6IDExNS4zNzUzIH0sCiAgIkd1bnVuZyBBYmFuZyI6IHsgbGF0OiAtOC4yNjk0LCBsbmc6IDExNS40MTM5IH0sCiAgIkd1bnVuZyBCYXR1a2FydSI6IHsgbGF0OiAtOC4zMjM2LCBsbmc6IDExNS4wOTcyIH0sCiAgIkd1bnVuZyBDYXR1ciAoUHVjYWsgTWFuZ3UpIjogeyBsYXQ6IC04LjI1MDAsIGxuZzogMTE1LjIzMzMgfSwKICAiR3VudW5nIExlc3VuZyI6IHsgbGF0OiAtOC4yODUzLCBsbmc6IDExNS4xMDY5IH0sCiAgIkd1bnVuZyBTYW5naHlhbmciOiB7IGxhdDogLTguMzAwMCwgbG5nOiAxMTUuMTE2NyB9LAogICJHdW51bmcgQWRlbmciOiB7IGxhdDogLTguMjkzOSwgbG5nOiAxMTUuMTIzNiB9LAogICJHdW51bmcgUG9oZW4iOiB7IGxhdDogLTguMjgyOCwgbG5nOiAxMTUuMTU4MyB9LAogICJHdW51bmcgVGFwYWsiOiB7IGxhdDogLTguMjc2NCwgbG5nOiAxMTUuMTYxMSB9LAogICJHdW51bmcgU2VyYXlhIjogeyBsYXQ6IC04LjQyNzgsIGxuZzogMTE1LjY0NzIgfSwKICAiR3VudW5nIExlbXB1eWFuZyI6IHsgbGF0OiAtOC4zOTIyLCBsbmc6IDExNS42MzE3IH0sCiAgIkJhcnVqYXJpIChBbmFrIFJpbmphbmkpIjogeyBsYXQ6IC04LjQyMDAsIGxuZzogMTE2LjQ2NTAgfSwKICAiR3VudW5nIFRhbWJvcmEiOiB7IGxhdDogLTguMjUwMCwgbG5nOiAxMTguMDAwMCB9LAogICJHdW51bmcgSW5lcmllIjogeyBsYXQ6IC04Ljg3NTAsIGxuZzogMTIwLjk1ODMgfSwKICAiS2VsaW11dHUiOiB7IGxhdDogLTguNzcwMCwgbG5nOiAxMjEuODIwMCB9LAogICJHdW51bmcgRWJ1bG9ibyI6IHsgbGF0OiAtOC44MDgzLCBsbmc6IDEyMS4xODMzIH0sCiAgIkd1bnVuZyBFZ29uIjogeyBsYXQ6IC04LjY3NjcsIGxuZzogMTIyLjQ1NTAgfSwKICAiSWxlIEFwZSAoTGV3b3RvbG9rKSI6IHsgbGF0OiAtOC4yNzQyLCBsbmc6IDEyMy41MDUwIH0sCiAgIkd1bnVuZyBTYW5nZWFuZyBBcGkiOiB7IGxhdDogLTguMjAwMCwgbG5nOiAxMTkuMDY2NyB9LAogICJNb3VudCBNdXRpcyAoVGltb3IpIjogeyBsYXQ6IC05LjU4MzMsIGxuZzogMTI0LjIzMzMgfSwKCiAgLy8gSW5kb25lc2lhIOKAlCBKYXZhCiAgIk1haGFtZXJ1IChTZW1lcnUgc3VtbWl0KSI6IHsgbGF0OiAtOC4xMDc3LCBsbmc6IDExMi45MjI0IH0sCiAgIkpvbmdncmluZyBTYWxva28gKFNlbWVydSBjcmF0ZXIpIjogeyBsYXQ6IC04LjEwODksIGxuZzogMTEyLjkyMzEgfSwKICAiR3VudW5nIEJyb21vIjogeyBsYXQ6IC03Ljk0MjUsIGxuZzogMTEyLjk1MzAgfSwKICAiR3VudW5nIEJhdG9rIjogeyBsYXQ6IC03LjkzMzMsIGxuZzogMTEyLjk0NTAgfSwKICAiR3VudW5nIEt1cnNpIjogeyBsYXQ6IC03Ljk0NTAsIGxuZzogMTEyLjk3MDAgfSwKICAiR3VudW5nIFdpZG9kYXJlbiI6IHsgbGF0OiAtNy45MzMzLCBsbmc6IDExMi45NjAwIH0sCiAgIkd1bnVuZyBQZW5hbmpha2FuIjogeyBsYXQ6IC03LjkxNjcsIGxuZzogMTEyLjk1MDAgfSwKICAiR3VudW5nIE1lcmFwaSI6IHsgbGF0OiAtNy41NDA3LCBsbmc6IDExMC40NDU3IH0sCiAgIkd1bnVuZyBNZXJiYWJ1IjogeyBsYXQ6IC03LjQ1NTAsIGxuZzogMTEwLjQ0MDAgfSwKICAiR3VudW5nIFNsYW1ldCI6IHsgbGF0OiAtNy4yNDIyLCBsbmc6IDEwOS4yMDgxIH0sCiAgIkd1bnVuZyBTdW1iaW5nIjogeyBsYXQ6IC03LjM4NDQsIGxuZzogMTEwLjA3MDMgfSwKICAiR3VudW5nIFNpbmRvcm8iOiB7IGxhdDogLTcuMzAwMCwgbG5nOiAxMDkuOTkyNSB9LAogICJHdW51bmcgTGF3dSI6IHsgbGF0OiAtNy42MjU2LCBsbmc6IDExMS4xOTE3IH0sCiAgIkd1bnVuZyBBcmp1bm8iOiB7IGxhdDogLTcuNzI1NiwgbG5nOiAxMTIuNTg5MiB9LAogICJHdW51bmcgV2VsaXJhbmciOiB7IGxhdDogLTcuNzMzMywgbG5nOiAxMTIuNTY2NyB9LAogICJHdW51bmcgUmF1bmciOiB7IGxhdDogLTguMTI1MCwgbG5nOiAxMTQuMDQyMCB9LAogICJHdW51bmcgQXJnb3B1cm8iOiB7IGxhdDogLTcuOTcwMCwgbG5nOiAxMTMuNTcwMCB9LAogICJHdW51bmcgQ2lyZW1haSI6IHsgbGF0OiAtNi44OTE5LCBsbmc6IDEwOC40MDAwIH0sCiAgIkd1bnVuZyBQYW5ncmFuZ28iOiB7IGxhdDogLTYuNzgwMCwgbG5nOiAxMDYuOTc1MCB9LAogICJHdW51bmcgR2VkZSI6IHsgbGF0OiAtNi43ODY3LCBsbmc6IDEwNi45ODAwIH0sCiAgIkd1bnVuZyBTYWxhayI6IHsgbGF0OiAtNi43MTY3LCBsbmc6IDEwNi43MzMzIH0sCiAgIkd1bnVuZyBQYXBhbmRheWFuIjogeyBsYXQ6IC03LjMyMDAsIGxuZzogMTA3LjczMDAgfSwKICAiR3VudW5nIEtlbHVkIjogeyBsYXQ6IC03LjkzMjAsIGxuZzogMTEyLjMwODAgfSwKICAiS2F3YWggSWplbiI6IHsgbGF0OiAtOC4wNTgzLCBsbmc6IDExNC4yNDE3IH0sCiAgIkd1bnVuZyBQcmF1IjogeyBsYXQ6IC03LjE4ODksIGxuZzogMTA5LjkyNTAgfSwKICAiR3VudW5nIEFuZG9uZyI6IHsgbGF0OiAtNy40MDI4LCBsbmc6IDExMC4zNDE3IH0sCiAgIkd1bnVuZyBHdW50dXIiOiB7IGxhdDogLTcuMTQyOCwgbG5nOiAxMDcuODQwMCB9LAogICJHdW51bmcgQ2lrdXJheSI6IHsgbGF0OiAtNy4zMjIyLCBsbmc6IDEwNy44NTgzIH0sCiAgIkd1bnVuZyBHYWx1bmdndW5nIjogeyBsYXQ6IC03LjI1MDAsIGxuZzogMTA4LjA1ODAgfSwKICAiQW5hayBLcmFrYXRhdSI6IHsgbGF0OiAtNi4xMDIwLCBsbmc6IDEwNS40MjMwIH0sCiAgIlJha2F0YSAoS3Jha2F0b2EpIjogeyBsYXQ6IC02LjE1MDAsIGxuZzogMTA1LjQzMzMgfSwKCiAgLy8gSW5kb25lc2lhIOKAlCBTdW1hdHJhLCBTdWxhd2VzaSwgTWFsdWt1LCBCb3JuZW8KICAiR3VudW5nIE1hcmFwaSAoU3VtYXRyYSkiOiB7IGxhdDogLTAuMzgwMCwgbG5nOiAxMDAuNDczMCB9LAogICJHdW51bmcgU2luZ2dhbGFuZyI6IHsgbGF0OiAtMC4zODMzLCBsbmc6IDEwMC4zMzMzIH0sCiAgIkd1bnVuZyBUYW5kaWthdCI6IHsgbGF0OiAtMC40MzMzLCBsbmc6IDEwMC4zMTY3IH0sCiAgIkd1bnVuZyBUYWxhbWF1IjogeyBsYXQ6IDAuMDgwMCwgbG5nOiA5OS45ODAwIH0sCiAgIkd1bnVuZyBEZW1wbyI6IHsgbGF0OiAtNC4wMzAwLCBsbmc6IDEwMy4xMzAwIH0sCiAgIkd1bnVuZyBTaW5hYnVuZyI6IHsgbGF0OiAzLjE3MDAsIGxuZzogOTguMzkyMCB9LAogICJHdW51bmcgU2liYXlhayI6IHsgbGF0OiAzLjIzMDAsIGxuZzogOTguNTA3MCB9LAogICJHdW51bmcgTGV1c2VyIjogeyBsYXQ6IDMuNzQ1MCwgbG5nOiA5Ny4xNTUwIH0sCiAgIkd1bnVuZyBCYXdha2FyYWVuZyI6IHsgbGF0OiAtNS4zMTY3LCBsbmc6IDExOS45MzMzIH0sCiAgIkd1bnVuZyBMb21wb2JhdHRhbmciOiB7IGxhdDogLTUuMzY2NywgbG5nOiAxMTkuOTUwMCB9LAogICJHdW51bmcgS2xhYmF0IjogeyBsYXQ6IDEuNDcwMCwgbG5nOiAxMjUuMDMwMCB9LAogICJHdW51bmcgTG9rb24iOiB7IGxhdDogMS4zNTgwLCBsbmc6IDEyNC43OTIwIH0sCiAgIkd1bnVuZyBTb3B1dGFuIjogeyBsYXQ6IDEuMTEyMCwgbG5nOiAxMjQuNzM3MCB9LAogICJHdW51bmcgR2FtYWxhbWEgKFRlcm5hdGUpIjogeyBsYXQ6IDAuODAwMCwgbG5nOiAxMjcuMzMwMCB9LAogICJHdW51bmcgR2Fta29ub3JhIjogeyBsYXQ6IDEuMzgwMCwgbG5nOiAxMjcuNTMwMCB9LAogICJHdW51bmcgQXBpIEJhbmRhIjogeyBsYXQ6IC00LjUyNTAsIGxuZzogMTI5Ljg3MTAgfSwKICAiQnVraXQgQmFrYSI6IHsgbGF0OiAtMC42MTY3LCBsbmc6IDExMi4zMTY3IH0sCgogIC8vIFN3ZWRlbgogIC4uLnN3ZWRlblRpbnlQZWFrQ29vcmRpbmF0ZXMsCn07CgoKLyoqIFJlc29sdmUgY29vcmRpbmF0ZXMgZm9yIGEgY2F0YWxvZyBrZXkgKGBocDpDb3VudHJ5YCwgYGZwOlBlYWsgbmFtZWAsIG9yIGBwbDpQbGFjZWApLiAqLwpleHBvcnQgY29uc3QgY29vcmRzRm9yS2V5ID0gKGtleTogc3RyaW5nKTogTGF0TG5nIHwgbnVsbCA9PiB7CiAgaWYgKGtleS5zdGFydHNXaXRoKCJocDoiKSkgewogICAgY29uc3QgZGV0YWlsID0gcGVha0RldGFpbHNba2V5LnNsaWNlKDMpXTsKICAgIHJldHVybiBkZXRhaWwgPyBkZXRhaWwuY29vcmRpbmF0ZXMgOiBudWxsOwogIH0KICBpZiAoa2V5LnN0YXJ0c1dpdGgoInBsOiIpKSB7CiAgICBjb25zdCBwbGFjZSA9IGZpbmRQbGFjZShrZXkpOwogICAgaWYgKHBsYWNlICYmIHR5cGVvZiBwbGFjZS5sYXQgPT09ICJudW1iZXIiICYmIHR5cGVvZiBwbGFjZS5sbmcgPT09ICJudW1iZXIiKSB7CiAgICAgIHJldHVybiB7IGxhdDogcGxhY2UubGF0LCBsbmc6IHBsYWNlLmxuZyB9OwogICAgfQogICAgcmV0dXJuIG51bGw7CiAgfQogIHJldHVybiBmYW1vdXNQZWFrQ29vcmRpbmF0ZXNba2V5LnNsaWNlKDMpXSA/PyBudWxsOwp9Owo=
+import { peakDetails } from "@/data/peak-details";
+import { swedenTinyPeakCoordinates } from "@/data/sweden-peaks";
+import { findPlace } from "@/data/places";
+
+export interface LatLng {
+  lat: number;
+  lng: number;
+}
+
+/**
+ * Approximate summit coordinates for the curated famous-peak catalog.
+ * Country high points get their coordinates from `peak-details.ts`.
+ * Values are good enough for map placement, not for navigation.
+ */
+export const famousPeakCoordinates: Record<string, LatLng> = {
+  // 8000ers
+  "Everest": { lat: 27.9881, lng: 86.925 },
+  "K2": { lat: 35.8808, lng: 76.5133 },
+  "Kangchenjunga": { lat: 27.7025, lng: 88.1475 },
+  "Lhotse": { lat: 27.9617, lng: 86.9331 },
+  "Makalu": { lat: 27.8897, lng: 87.0889 },
+  "Cho Oyu": { lat: 28.0942, lng: 86.6608 },
+  "Dhaulagiri I": { lat: 28.6983, lng: 83.4875 },
+  "Manaslu": { lat: 28.5497, lng: 84.5597 },
+  "Nanga Parbat": { lat: 35.2375, lng: 74.5892 },
+  "Annapurna I": { lat: 28.5961, lng: 83.8203 },
+  "Gasherbrum I": { lat: 35.7242, lng: 76.6964 },
+  "Broad Peak": { lat: 35.8108, lng: 76.5686 },
+  "Gasherbrum II": { lat: 35.7583, lng: 76.6533 },
+  "Shishapangma": { lat: 28.3525, lng: 85.7792 },
+
+  // Seven Summits & classics
+  "Aconcagua": { lat: -32.6532, lng: -70.0109 },
+  "Denali": { lat: 63.0695, lng: -151.0074 },
+  "Kilimanjaro": { lat: -3.0674, lng: 37.3556 },
+  "Elbrus": { lat: 43.3499, lng: 42.4453 },
+  "Vinson": { lat: -78.5254, lng: -85.6171 },
+  "Puncak Jaya (Carstensz Pyramid)": { lat: -4.0784, lng: 137.1583 },
+  "Kosciuszko": { lat: -36.4558, lng: 148.2634 },
+
+  // Himalaya / Karakoram
+  "Ama Dablam": { lat: 27.8617, lng: 86.8611 },
+  "Cho La / Island Peak (Imja Tse)": { lat: 27.9219, lng: 86.9386 },
+  "Mera Peak": { lat: 27.7075, lng: 86.8722 },
+  "Lobuche East": { lat: 27.9539, lng: 86.8081 },
+  "Baruntse": { lat: 27.8722, lng: 86.98 },
+  "Pumori": { lat: 28.0147, lng: 86.8256 },
+  "Laila Peak": { lat: 35.5333, lng: 76.3167 },
+  "Spantik": { lat: 36.0417, lng: 75.0189 },
+  "Stok Kangri": { lat: 33.9878, lng: 77.4736 },
+
+  // Alps & Europe
+  "Matterhorn": { lat: 45.9763, lng: 7.6586 },
+  "Eiger": { lat: 46.5775, lng: 8.0053 },
+  "Monte Rosa (Dufourspitze)": { lat: 45.9369, lng: 7.8669 },
+  "Jungfrau": { lat: 46.5367, lng: 7.9625 },
+  "Mönch": { lat: 46.5586, lng: 7.9964 },
+  "Weisshorn": { lat: 46.1017, lng: 7.7161 },
+  "Dent Blanche": { lat: 46.0347, lng: 7.6119 },
+  "Piz Badile": { lat: 46.2917, lng: 9.6425 },
+  "Grandes Jorasses": { lat: 45.8697, lng: 6.9878 },
+  "Aiguille du Midi": { lat: 45.8786, lng: 6.8875 },
+  "Aiguille Verte": { lat: 45.9344, lng: 6.9575 },
+  "Barre des Écrins": { lat: 44.9219, lng: 6.3617 },
+  "Ortler": { lat: 46.5089, lng: 10.5447 },
+  "Marmolada": { lat: 46.4339, lng: 11.8517 },
+  "Tre Cime di Lavaredo (Cima Grande)": { lat: 46.6186, lng: 12.3053 },
+  "Watzmann": { lat: 47.5553, lng: 12.9231 },
+  "Store Trolltind (Trollveggen)": { lat: 62.5058, lng: 7.7383 },
+  "Stetind": { lat: 68.1683, lng: 16.5883 },
+  "Ben Nevis": { lat: 56.7969, lng: -5.0036 },
+  "Scafell Pike": { lat: 54.4542, lng: -3.2117 },
+  "Snowdon (Yr Wyddfa)": { lat: 53.0685, lng: -4.0764 },
+  "Mount Etna": { lat: 37.751, lng: 14.9934 },
+  "Mount Olympus": { lat: 40.0855, lng: 22.3589 },
+
+  // Americas
+  "Chimborazo": { lat: -1.4692, lng: -78.8175 },
+  "Cotopaxi": { lat: -0.6803, lng: -78.4378 },
+  "Huascarán": { lat: -9.1217, lng: -77.6042 },
+  "Alpamayo": { lat: -8.8878, lng: -77.6539 },
+  "Ojos del Salado": { lat: -27.1092, lng: -68.5417 },
+  "Fitz Roy": { lat: -49.2717, lng: -73.0439 },
+  "Cerro Torre": { lat: -49.2925, lng: -73.0997 },
+  "Torres del Paine (Central Tower)": { lat: -50.9433, lng: -72.9186 },
+  "Pico de Orizaba": { lat: 19.0303, lng: -97.2686 },
+  "Mount Rainier": { lat: 46.8523, lng: -121.7603 },
+  "Grand Teton": { lat: 43.7412, lng: -110.8025 },
+  "El Capitan": { lat: 37.734, lng: -119.6377 },
+  "Half Dome": { lat: 37.746, lng: -119.5332 },
+  "Mount Robson": { lat: 53.1069, lng: -119.1558 },
+  "Villarrica": { lat: -39.42, lng: -71.9394 },
+
+  // Rest of world
+  "Mount Kenya (Batian)": { lat: -0.1521, lng: 37.3084 },
+  "Mount Fuji": { lat: 35.3606, lng: 138.7274 },
+  "Mount Kinabalu": { lat: 6.0754, lng: 116.5583 },
+  "Mount Cook (Aoraki)": { lat: -43.5949, lng: 170.1418 },
+  "Mount Ararat": { lat: 39.7025, lng: 44.2986 },
+  "Mount Sinai": { lat: 28.5392, lng: 33.9750 },
+  "Mount Giluwe": { lat: -6.0428, lng: 143.8867 },
+  "Mount Sidley": { lat: -77.0333, lng: -126.1 },
+  "Damavand": { lat: 35.9553, lng: 52.1097 },
+
+  // Non-UN states
+  "Đeravica (Kosovo)": { lat: 42.5386, lng: 20.1361 },
+  "Mount Nabi Yunis (Palestine)": { lat: 31.5217, lng: 35.1258 },
+  "Guelb er Richat highpoint (Western Sahara)": { lat: 22.3167, lng: -13.0333 },
+  "Te Manga (Cook Islands)": { lat: -21.2286, lng: -159.7647 },
+  "Niue highpoint": { lat: -19.0839, lng: -169.8503 },
+
+  // US state high points
+  "Cheaha Mountain (Alabama)": { lat: 33.4857, lng: -85.8091 },
+  "Humphreys Peak (Arizona)": { lat: 35.3464, lng: -111.6779 },
+  "Magazine Mountain (Arkansas)": { lat: 35.1672, lng: -93.6444 },
+  "Mount Whitney (California)": { lat: 36.5785, lng: -118.2923 },
+  "Mount Elbert (Colorado)": { lat: 39.1178, lng: -106.4453 },
+  "Mount Frissell (south slope) (Connecticut)": { lat: 42.0497, lng: -73.4822 },
+  "Ebright Azimuth (Delaware)": { lat: 39.8364, lng: -75.5194 },
+  "Britton Hill (Florida)": { lat: 30.9878, lng: -86.2814 },
+  "Brasstown Bald (Georgia)": { lat: 34.8742, lng: -83.8114 },
+  "Mauna Kea (Hawaii)": { lat: 19.8207, lng: -155.4681 },
+  "Borah Peak (Idaho)": { lat: 44.1374, lng: -113.7811 },
+  "Charles Mound (Illinois)": { lat: 42.5044, lng: -90.2394 },
+  "Hoosier Hill (Indiana)": { lat: 40.0, lng: -84.85 },
+  "Hawkeye Point (Iowa)": { lat: 43.4594, lng: -95.7078 },
+  "Mount Sunflower (Kansas)": { lat: 39.0225, lng: -102.0372 },
+  "Black Mountain (Kentucky)": { lat: 36.9142, lng: -82.8942 },
+  "Driskill Mountain (Louisiana)": { lat: 32.4247, lng: -92.8964 },
+  "Katahdin (Maine)": { lat: 45.9044, lng: -68.9216 },
+  "Backbone Mountain (Maryland)": { lat: 39.2361, lng: -79.4867 },
+  "Mount Greylock (Massachusetts)": { lat: 42.6376, lng: -73.1665 },
+  "Mount Arvon (Michigan)": { lat: 46.7561, lng: -88.1558 },
+  "Eagle Mountain (Minnesota)": { lat: 47.8975, lng: -90.5597 },
+  "Woodall Mountain (Mississippi)": { lat: 34.7881, lng: -88.2417 },
+  "Taum Sauk Mountain (Missouri)": { lat: 37.5717, lng: -90.7286 },
+  "Granite Peak (Montana)": { lat: 45.1633, lng: -109.8078 },
+  "Panorama Point (Nebraska)": { lat: 41.0064, lng: -104.0322 },
+  "Boundary Peak (Nevada)": { lat: 37.8461, lng: -118.3512 },
+  "Mount Washington (New Hampshire)": { lat: 44.2705, lng: -71.3033 },
+  "High Point (New Jersey)": { lat: 41.3206, lng: -74.6614 },
+  "Wheeler Peak (New Mexico)": { lat: 36.5569, lng: -105.4169 },
+  "Mount Marcy (New York)": { lat: 44.1126, lng: -73.9236 },
+  "Mount Mitchell (North Carolina)": { lat: 35.7648, lng: -82.2652 },
+  "White Butte (North Dakota)": { lat: 46.3861, lng: -103.3006 },
+  "Campbell Hill (Ohio)": { lat: 40.3697, lng: -83.7203 },
+  "Black Mesa (Oklahoma)": { lat: 36.9358, lng: -102.9981 },
+  "Mount Hood (Oregon)": { lat: 45.3736, lng: -121.6959 },
+  "Mount Davis (Pennsylvania)": { lat: 39.7869, lng: -79.1758 },
+  "Jerimoth Hill (Rhode Island)": { lat: 41.8517, lng: -71.7772 },
+  "Sassafras Mountain (South Carolina)": { lat: 35.0642, lng: -82.7772 },
+  "Black Elk Peak (South Dakota)": { lat: 43.8661, lng: -103.5314 },
+  "Clingmans Dome (Tennessee)": { lat: 35.5628, lng: -83.4986 },
+  "Guadalupe Peak (Texas)": { lat: 31.8917, lng: -104.8603 },
+  "Kings Peak (Utah)": { lat: 40.7763, lng: -110.3729 },
+  "Mount Mansfield (Vermont)": { lat: 44.5438, lng: -72.8143 },
+  "Mount Rogers (Virginia)": { lat: 36.6598, lng: -81.5445 },
+  "Spruce Knob (West Virginia)": { lat: 38.6998, lng: -79.5326 },
+  "Timms Hill (Wisconsin)": { lat: 45.4514, lng: -90.1953 },
+  "Gannett Peak (Wyoming)": { lat: 43.1842, lng: -109.6542 },
+
+  // Poland voivodeships
+  "Śnieżka (Lower Silesia)": { lat: 50.7361, lng: 15.7397 },
+  "Czarna Góra (Góry Obkaskie) (Kuyavian-Pomeranian)": { lat: 53.05, lng: 18.1833 },
+  "Wielki Dział (Lublin)": { lat: 50.6167, lng: 22.9833 },
+  "Gołębia (Góra Żarska) (Lubusz)": { lat: 51.6167, lng: 15.0333 },
+  "Fajna Ryba (Łódź)": { lat: 50.9833, lng: 19.8833 },
+  "Rysy (Lesser Poland)": { lat: 49.1794, lng: 20.0881 },
+  "Altana (Masovia)": { lat: 51.1167, lng: 20.6167 },
+  "Biskupia Kopa (Opole)": { lat: 50.2447, lng: 17.4319 },
+  "Tarnica (Subcarpathia)": { lat: 49.0761, lng: 22.7261 },
+  "Rowelska Góra (Podlaskie)": { lat: 54.2333, lng: 22.7667 },
+  "Wieżyca (Pomerania)": { lat: 54.2306, lng: 18.1567 },
+  "Góra Pięciu Kopców (Silesia)": { lat: 49.5967, lng: 18.9861 },
+  "Łysica (Holy Cross)": { lat: 50.8892, lng: 20.9036 },
+  "Dylewska Góra (Warmia-Masuria)": { lat: 53.5486, lng: 20.0269 },
+  "Kobyla Góra (Greater Poland)": { lat: 51.3536, lng: 17.7658 },
+  "Góra Krajoznawców (West Pomerania)": { lat: 53.7167, lng: 15.0333 },
+
+  // Canada provinces & territories
+  "Mount Logan (Yukon)": { lat: 60.5672, lng: -140.4053 },
+  "Fairweather Mountain (British Columbia)": { lat: 58.9064, lng: -137.5267 },
+  "Mount Columbia (Alberta)": { lat: 52.1489, lng: -117.4544 },
+  "Mount Nirvana (Northwest Territories)": { lat: 62.1833, lng: -127.6167 },
+  "Barbeau Peak (Nunavut)": { lat: 81.9167, lng: -75.0167 },
+  "Mount Caubvick (Newfoundland and Labrador)": { lat: 58.8833, lng: -63.7167 },
+  "Mont d'Iberville (Quebec)": { lat: 58.8833, lng: -63.7167 },
+  "Cypress Hills (Saskatchewan)": { lat: 49.6167, lng: -109.9167 },
+  "Baldy Mountain (Manitoba)": { lat: 51.4667, lng: -100.7667 },
+  "Mount Carleton (New Brunswick)": { lat: 47.3956, lng: -66.8817 },
+  "Ishpatina Ridge (Ontario)": { lat: 47.3333, lng: -80.7333 },
+  "White Hill (Nova Scotia)": { lat: 46.7, lng: -60.6 },
+  "Glen Valley (Prince Edward Island)": { lat: 46.35, lng: -63.4167 },
+  // Indonesia — island high points
+  "Puncak Mandala": { lat: -4.7167, lng: 140.2833 },
+  "Puncak Trikora": { lat: -4.2333, lng: 138.6833 },
+  "Ngga Pulu": { lat: -4.0603, lng: 137.1631 },
+  "Sumantri": { lat: -4.0561, lng: 137.1494 },
+  "Kerinci": { lat: -1.6970, lng: 101.2640 },
+  "Rinjani": { lat: -8.4114, lng: 116.4570 },
+  "Semeru": { lat: -8.1077, lng: 112.9224 },
+  "Rantemario (Latimojong)": { lat: -3.3833, lng: 120.0167 },
+  "Bukit Raya": { lat: -0.6333, lng: 112.6833 },
+  "Binaiya": { lat: -3.1750, lng: 129.4667 },
+
+  // Indonesia — Bali & Nusa Tenggara
+  "Gunung Agung": { lat: -8.3428, lng: 115.5075 },
+  "Gunung Batur": { lat: -8.2422, lng: 115.3753 },
+  "Gunung Abang": { lat: -8.2694, lng: 115.4139 },
+  "Gunung Batukaru": { lat: -8.3236, lng: 115.0972 },
+  "Gunung Catur (Pucak Mangu)": { lat: -8.2500, lng: 115.2333 },
+  "Gunung Lesung": { lat: -8.2853, lng: 115.1069 },
+  "Gunung Sanghyang": { lat: -8.3000, lng: 115.1167 },
+  "Gunung Adeng": { lat: -8.2939, lng: 115.1236 },
+  "Gunung Pohen": { lat: -8.2828, lng: 115.1583 },
+  "Gunung Tapak": { lat: -8.2764, lng: 115.1611 },
+  "Gunung Seraya": { lat: -8.4278, lng: 115.6472 },
+  "Gunung Lempuyang": { lat: -8.3922, lng: 115.6317 },
+  "Barujari (Anak Rinjani)": { lat: -8.4200, lng: 116.4650 },
+  "Gunung Tambora": { lat: -8.2500, lng: 118.0000 },
+  "Gunung Inerie": { lat: -8.8750, lng: 120.9583 },
+  "Kelimutu": { lat: -8.7700, lng: 121.8200 },
+  "Gunung Ebulobo": { lat: -8.8083, lng: 121.1833 },
+  "Gunung Egon": { lat: -8.6767, lng: 122.4550 },
+  "Ile Ape (Lewotolok)": { lat: -8.2742, lng: 123.5050 },
+  "Gunung Sangeang Api": { lat: -8.2000, lng: 119.0667 },
+  "Mount Mutis (Timor)": { lat: -9.5833, lng: 124.2333 },
+
+  // Indonesia — Java
+  "Mahameru (Semeru summit)": { lat: -8.1077, lng: 112.9224 },
+  "Jonggring Saloko (Semeru crater)": { lat: -8.1089, lng: 112.9231 },
+  "Gunung Bromo": { lat: -7.9425, lng: 112.9530 },
+  "Gunung Batok": { lat: -7.9333, lng: 112.9450 },
+  "Gunung Kursi": { lat: -7.9450, lng: 112.9700 },
+  "Gunung Widodaren": { lat: -7.9333, lng: 112.9600 },
+  "Gunung Penanjakan": { lat: -7.9167, lng: 112.9500 },
+  "Gunung Merapi": { lat: -7.5407, lng: 110.4457 },
+  "Gunung Merbabu": { lat: -7.4550, lng: 110.4400 },
+  "Gunung Slamet": { lat: -7.2422, lng: 109.2081 },
+  "Gunung Sumbing": { lat: -7.3844, lng: 110.0703 },
+  "Gunung Sindoro": { lat: -7.3000, lng: 109.9925 },
+  "Gunung Lawu": { lat: -7.6256, lng: 111.1917 },
+  "Gunung Arjuno": { lat: -7.7256, lng: 112.5892 },
+  "Gunung Welirang": { lat: -7.7333, lng: 112.5667 },
+  "Gunung Raung": { lat: -8.1250, lng: 114.0420 },
+  "Gunung Argopuro": { lat: -7.9700, lng: 113.5700 },
+  "Gunung Ciremai": { lat: -6.8919, lng: 108.4000 },
+  "Gunung Pangrango": { lat: -6.7800, lng: 106.9750 },
+  "Gunung Gede": { lat: -6.7867, lng: 106.9800 },
+  "Gunung Salak": { lat: -6.7167, lng: 106.7333 },
+  "Gunung Papandayan": { lat: -7.3200, lng: 107.7300 },
+  "Gunung Kelud": { lat: -7.9320, lng: 112.3080 },
+  "Kawah Ijen": { lat: -8.0583, lng: 114.2417 },
+  "Gunung Prau": { lat: -7.1889, lng: 109.9250 },
+  "Gunung Andong": { lat: -7.4028, lng: 110.3417 },
+  "Gunung Guntur": { lat: -7.1428, lng: 107.8400 },
+  "Gunung Cikuray": { lat: -7.3222, lng: 107.8583 },
+  "Gunung Galunggung": { lat: -7.2500, lng: 108.0580 },
+  "Anak Krakatau": { lat: -6.1020, lng: 105.4230 },
+  "Rakata (Krakatoa)": { lat: -6.1500, lng: 105.4333 },
+
+  // Indonesia — Sumatra, Sulawesi, Maluku, Borneo
+  "Gunung Marapi (Sumatra)": { lat: -0.3800, lng: 100.4730 },
+  "Gunung Singgalang": { lat: -0.3833, lng: 100.3333 },
+  "Gunung Tandikat": { lat: -0.4333, lng: 100.3167 },
+  "Gunung Talamau": { lat: 0.0800, lng: 99.9800 },
+  "Gunung Dempo": { lat: -4.0300, lng: 103.1300 },
+  "Gunung Sinabung": { lat: 3.1700, lng: 98.3920 },
+  "Gunung Sibayak": { lat: 3.2300, lng: 98.5070 },
+  "Gunung Leuser": { lat: 3.7450, lng: 97.1550 },
+  "Gunung Bawakaraeng": { lat: -5.3167, lng: 119.9333 },
+  "Gunung Lompobattang": { lat: -5.3667, lng: 119.9500 },
+  "Gunung Klabat": { lat: 1.4700, lng: 125.0300 },
+  "Gunung Lokon": { lat: 1.3580, lng: 124.7920 },
+  "Gunung Soputan": { lat: 1.1120, lng: 124.7370 },
+  "Gunung Gamalama (Ternate)": { lat: 0.8000, lng: 127.3300 },
+  "Gunung Gamkonora": { lat: 1.3800, lng: 127.5300 },
+  "Gunung Api Banda": { lat: -4.5250, lng: 129.8710 },
+  "Bukit Baka": { lat: -0.6167, lng: 112.3167 },
+
+  // Sweden
+  ...swedenTinyPeakCoordinates,
+};
+
+
+/** Resolve coordinates for a catalog key (`hp:Country`, `fp:Peak name`, or `pl:Place`). */
+export const coordsForKey = (key: string): LatLng | null => {
+  if (key.startsWith("hp:")) {
+    const detail = peakDetails[key.slice(3)];
+    return detail ? detail.coordinates : null;
+  }
+  if (key.startsWith("pl:")) {
+    const place = findPlace(key);
+    if (place && typeof place.lat === "number" && typeof place.lng === "number") {
+      return { lat: place.lat, lng: place.lng };
+    }
+    return null;
+  }
+  return famousPeakCoordinates[key.slice(3)] ?? null;
+};

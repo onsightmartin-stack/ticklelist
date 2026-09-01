@@ -1,1 +1,69 @@
-LyoqCiAqIExpbmtzIHRoZSBwdWJsaWMgcHJvamVjdCBwcm9ncmVzcyBvbiBvbnNpZ2h0bWFydGluLmNvbSB3aXRoIE1hcnRpbidzCiAqIFRpY2tsZWxpc3QgY29tbXVuaXR5IHByb2ZpbGUgKEBvbnNpZ2h0bWFydGluKSDigJQgc2FtZSBwZXJzb24sIG9uZSBwcm9ncmVzcy4KICoKICogVGhlIHNpdGUgZGF0YXNldCAoYGNvdW50cmllcy50c2ApIGNhcnJpZXMgbnVhbmNlIHRoZSBjb21tdW5pdHkgbG9nIGNhbm5vdAogKiBleHByZXNzIChtYWlubGFuZC1vbmx5LCBsZWdhbCBoaWdoIHBvaW50LCAidmlzaXRlZCBidXQgbm90IHN1bW1pdGVkIiksIHNvIGl0CiAqIHN0YXlzIGF1dGhvcml0YXRpdmUgZm9yIHRob3NlIGNhc2VzLiBBbnl0aGluZyBsb2dnZWQgaW4gdGhlIGNvbW11bml0eSBwcm9maWxlCiAqIGZvciBhIGNvdW50cnkgdGhhdCB0aGUgc2l0ZSBzdGlsbCBsaXN0cyBhcyB1bmNsaW1iZWQgaXMgcHJvbW90ZWQgdG8KICogImNsaW1iZWQiLCBzbyBhIG5ldyB0aWNrIGluIHRoZSBhcHAgc2hvd3MgdXAgb24gdGhlIHdlYnNpdGUgYXV0b21hdGljYWxseS4KICovCmltcG9ydCB7IGNvdW50cmllcywgdHlwZSBDb3VudHJ5SGlnaFBvaW50IH0gZnJvbSAiQC9kYXRhL2NvdW50cmllcyI7CgovKiogTWFydGluIEfDpXJkbGluZyAvIE9uc2lnaHQgTWFydGluIOKAlCB0aGUgc2FtZSBwZXJzb24gb24gYm90aCBzaXRlcy4gKi8KZXhwb3J0IGNvbnN0IE1BUlRJTl9QUk9GSUxFX0lEID0gIjQxYmRkZTNjLWRhZDktNDY5Ni1iODY0LWJhZDE4NmRkN2E3YSI7CmV4cG9ydCBjb25zdCBNQVJUSU5fVVNFUk5BTUUgPSAib25zaWdodG1hcnRpbiI7CgpleHBvcnQgaW50ZXJmYWNlIExvZ2dlZEhpZ2hQb2ludCB7CiAgY291bnRyeTogc3RyaW5nOwogIGFzY2VudF9kYXRlOiBzdHJpbmcgfCBudWxsOwp9CgovKioKICogTWVyZ2UgbG9nZ2VkIGNvbW11bml0eSBhc2NlbnRzIGludG8gdGhlIHNoYXJlZCBjb3VudHJ5IGRhdGFzZXQgaW4gcGxhY2UuCiAqIFJldHVybnMgdHJ1ZSB3aGVuIHNvbWV0aGluZyBhY3R1YWxseSBjaGFuZ2VkIChzbyBjYWxsZXJzIGNhbiByZS1yZW5kZXIpLgogKi8KZXhwb3J0IGZ1bmN0aW9uIGFwcGx5UHJvZ3Jlc3NPdmVybGF5KHJvd3M6IExvZ2dlZEhpZ2hQb2ludFtdKTogYm9vbGVhbiB7CiAgbGV0IGNoYW5nZWQgPSBmYWxzZTsKICBjb25zdCBieUNvdW50cnkgPSBuZXcgTWFwPHN0cmluZywgc3RyaW5nIHwgbnVsbD4oKTsKCiAgZm9yIChjb25zdCByb3cgb2Ygcm93cykgewogICAgY29uc3QgY291bnRyeSA9IHJvdy5jb3VudHJ5Py50cmltKCk7CiAgICBpZiAoIWNvdW50cnkpIGNvbnRpbnVlOwogICAgY29uc3QgZXhpc3RpbmcgPSBieUNvdW50cnkuZ2V0KGNvdW50cnkpOwogICAgLy8gS2VlcCB0aGUgZWFybGllc3Qga25vd24gZGF0ZSBmb3IgYSBjb3VudHJ5LgogICAgaWYgKGV4aXN0aW5nID09PSB1bmRlZmluZWQgfHwgKHJvdy5hc2NlbnRfZGF0ZSAmJiAoIWV4aXN0aW5nIHx8IHJvdy5hc2NlbnRfZGF0ZSA8IGV4aXN0aW5nKSkpIHsKICAgICAgYnlDb3VudHJ5LnNldChjb3VudHJ5LCByb3cuYXNjZW50X2RhdGUgPz8gbnVsbCk7CiAgICB9CiAgfQoKICBmb3IgKGNvbnN0IGVudHJ5IG9mIGNvdW50cmllcyBhcyBDb3VudHJ5SGlnaFBvaW50W10pIHsKICAgIGNvbnN0IGRhdGUgPSBieUNvdW50cnkuZ2V0KGVudHJ5LmNvdW50cnkpOwogICAgaWYgKGRhdGUgPT09IHVuZGVmaW5lZCkgY29udGludWU7CgogICAgLy8gT25seSBwcm9tb3RlIGNvdW50cmllcyB0aGUgc2l0ZSBzdGlsbCBsaXN0cyBhcyB1bmNsaW1iZWQuIE1haW5sYW5kLW9ubHksCiAgICAvLyBsZWdhbC1oaWdoLXBvaW50IGFuZCAidmlzaXRlZCIgZW50cmllcyBhcmUgZGVsaWJlcmF0ZSBhbmQgc3RheSBwdXQuCiAgICBpZiAoZW50cnkuc3RhdHVzID09PSAibm90X3Zpc2l0ZWQiKSB7CiAgICAgIGVudHJ5LnN0YXR1cyA9ICJjbGltYmVkIjsKICAgICAgY2hhbmdlZCA9IHRydWU7CiAgICB9CgogICAgaWYgKGRhdGUgJiYgKGVudHJ5LnllYXIgPT0gbnVsbCB8fCBlbnRyeS5tb250aCA9PSBudWxsKSkgewogICAgICBjb25zdCBbeSwgbV0gPSBkYXRlLnNwbGl0KCItIik7CiAgICAgIGlmICh5ICYmIGVudHJ5LnllYXIgPT0gbnVsbCkgewogICAgICAgIGVudHJ5LnllYXIgPSBOdW1iZXIoeSk7CiAgICAgICAgY2hhbmdlZCA9IHRydWU7CiAgICAgIH0KICAgICAgaWYgKG0gJiYgZW50cnkubW9udGggPT0gbnVsbCkgewogICAgICAgIGVudHJ5Lm1vbnRoID0gTnVtYmVyKG0pOwogICAgICAgIGNoYW5nZWQgPSB0cnVlOwogICAgICB9CiAgICB9CiAgfQoKICByZXR1cm4gY2hhbmdlZDsKfQoKLyoqIENvdW50cmllcyB0aGUgd2Vic2l0ZSBjb3VudHMgYXMgc3VtbWl0ZWQg4oCUIHVzZWQgdG8ga2VlcCB0aGUgcHJvZmlsZSBpbiBzeW5jLiAqLwpleHBvcnQgY29uc3Qgc2l0ZUNsaW1iZWRDb3VudHJpZXMgPSAoKSA9PgogIGNvdW50cmllcy5maWx0ZXIoKGMpID0+IChjLnN0YXR1cyA9PT0gImNsaW1iZWQiIHx8IGMuc3RhdHVzID09PSAibGVnYWxfaGlnaF9wb2ludCIpICYmIGMudW5NZW1iZXIgIT09IGZhbHNlKTsK
+/**
+ * Links the public project progress on onsightmartin.com with Martin's
+ * Ticklelist community profile (@onsightmartin) — same person, one progress.
+ *
+ * The site dataset (`countries.ts`) carries nuance the community log cannot
+ * express (mainland-only, legal high point, "visited but not summited"), so it
+ * stays authoritative for those cases. Anything logged in the community profile
+ * for a country that the site still lists as unclimbed is promoted to
+ * "climbed", so a new tick in the app shows up on the website automatically.
+ */
+import { countries, type CountryHighPoint } from "@/data/countries";
+
+/** Martin Gårdling / Onsight Martin — the same person on both sites. */
+export const MARTIN_PROFILE_ID = "41bdde3c-dad9-4696-b864-bad186dd7a7a";
+export const MARTIN_USERNAME = "onsightmartin";
+
+export interface LoggedHighPoint {
+  country: string;
+  ascent_date: string | null;
+}
+
+/**
+ * Merge logged community ascents into the shared country dataset in place.
+ * Returns true when something actually changed (so callers can re-render).
+ */
+export function applyProgressOverlay(rows: LoggedHighPoint[]): boolean {
+  let changed = false;
+  const byCountry = new Map<string, string | null>();
+
+  for (const row of rows) {
+    const country = row.country?.trim();
+    if (!country) continue;
+    const existing = byCountry.get(country);
+    // Keep the earliest known date for a country.
+    if (existing === undefined || (row.ascent_date && (!existing || row.ascent_date < existing))) {
+      byCountry.set(country, row.ascent_date ?? null);
+    }
+  }
+
+  for (const entry of countries as CountryHighPoint[]) {
+    const date = byCountry.get(entry.country);
+    if (date === undefined) continue;
+
+    // Only promote countries the site still lists as unclimbed. Mainland-only,
+    // legal-high-point and "visited" entries are deliberate and stay put.
+    if (entry.status === "not_visited") {
+      entry.status = "climbed";
+      changed = true;
+    }
+
+    if (date && (entry.year == null || entry.month == null)) {
+      const [y, m] = date.split("-");
+      if (y && entry.year == null) {
+        entry.year = Number(y);
+        changed = true;
+      }
+      if (m && entry.month == null) {
+        entry.month = Number(m);
+        changed = true;
+      }
+    }
+  }
+
+  return changed;
+}
+
+/** Countries the website counts as summited — used to keep the profile in sync. */
+export const siteClimbedCountries = () =>
+  countries.filter((c) => (c.status === "climbed" || c.status === "legal_high_point") && c.unMember !== false);

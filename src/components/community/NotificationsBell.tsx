@@ -1,1 +1,54 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBCZWxsIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsKICBEcm9wZG93bk1lbnUsCiAgRHJvcGRvd25NZW51Q29udGVudCwKICBEcm9wZG93bk1lbnVUcmlnZ2VyLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kcm9wZG93bi1tZW51IjsKaW1wb3J0IE5vdGlmaWNhdGlvbkxpc3QgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9Ob3RpZmljYXRpb25MaXN0IjsKaW1wb3J0IHsgdXNlTm90aWZpY2F0aW9ucyB9IGZyb20gIkAvaG9va3MvdXNlTm90aWZpY2F0aW9ucyI7Cgpjb25zdCBOb3RpZmljYXRpb25zQmVsbCA9ICgpID0+IHsKICBjb25zdCB7IGl0ZW1zLCB1bnJlYWQsIG1hcmtSZWFkLCBtYXJrQWxsUmVhZCB9ID0gdXNlTm90aWZpY2F0aW9ucygpOwoKICByZXR1cm4gKAogICAgPERyb3Bkb3duTWVudT4KICAgICAgPERyb3Bkb3duTWVudVRyaWdnZXIgYXNDaGlsZD4KICAgICAgICA8YnV0dG9uCiAgICAgICAgICBjbGFzc05hbWU9InJlbGF0aXZlIHJvdW5kZWQtZnVsbCBib3JkZXIgYm9yZGVyLWJvcmRlciBwLTIgaG92ZXI6Ymctc2Vjb25kYXJ5IHRyYW5zaXRpb24tY29sb3JzIgogICAgICAgICAgYXJpYS1sYWJlbD17dW5yZWFkID4gMCA/IGBOb3RpZmljYXRpb25zLCAke3VucmVhZH0gdW5yZWFkYCA6ICJOb3RpZmljYXRpb25zIn0KICAgICAgICA+CiAgICAgICAgICA8QmVsbCBjbGFzc05hbWU9InctNCBoLTQiIC8+CiAgICAgICAgICB7dW5yZWFkID4gMCAmJiAoCiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYWJzb2x1dGUgLXRvcC0xIC1yaWdodC0xIG1pbi13LVsxLjFyZW1dIGgtWzEuMXJlbV0gcHgtMSByb3VuZGVkLWZ1bGwgYmctcHJpbWFyeSB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCB0ZXh0LVsxMHB4XSBmb250LXNlbWlib2xkIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIj4KICAgICAgICAgICAgICB7dW5yZWFkID4gOSA/ICI5KyIgOiB1bnJlYWR9CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICl9CiAgICAgICAgPC9idXR0b24+CiAgICAgIDwvRHJvcGRvd25NZW51VHJpZ2dlcj4KICAgICAgPERyb3Bkb3duTWVudUNvbnRlbnQgYWxpZ249ImVuZCIgY2xhc3NOYW1lPSJ3LTgwIHAtMCBiZy1wb3BvdmVyIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHB4LTMgcHktMiBib3JkZXItYiBib3JkZXItYm9yZGVyIj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdXBwZXJjYXNlIHRyYWNraW5nLVswLjJlbV0gdGV4dC1wcmltYXJ5Ij5Ob3RpZmljYXRpb25zPC9wPgogICAgICAgICAge3VucmVhZCA+IDAgJiYgKAogICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e21hcmtBbGxSZWFkfSBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGhvdmVyOnRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgTWFyayBhbGwgcmVhZAogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC1oLTk2IG92ZXJmbG93LXktYXV0byI+CiAgICAgICAgICA8Tm90aWZpY2F0aW9uTGlzdCBpdGVtcz17aXRlbXMuc2xpY2UoMCwgOCl9IGNvbXBhY3Qgb25SZWFkPXttYXJrUmVhZH0gLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBweC0zIHB5LTIgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICAgIDxMaW5rIHRvPSIvY29tbXVuaXR5L25vdGlmaWNhdGlvbnMiIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgU2VlIGFsbCBub3RpZmljYXRpb25zCiAgICAgICAgICA8L0xpbms+CiAgICAgICAgICA8TGluayB0bz0iL2NvbW11bml0eS9ub3RpZmljYXRpb25zL3NldHRpbmdzIiBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGhvdmVyOnRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIFNldHRpbmdzCiAgICAgICAgICA8L0xpbms+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvRHJvcGRvd25NZW51Q29udGVudD4KICAgIDwvRHJvcGRvd25NZW51PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBOb3RpZmljYXRpb25zQmVsbDsK
+import { Link } from "@/lib/router-compat";
+import { Bell } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import NotificationList from "@/components/community/NotificationList";
+import { useNotifications } from "@/hooks/useNotifications";
+
+const NotificationsBell = () => {
+  const { items, unread, markRead, markAllRead } = useNotifications();
+
+  return (
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <button
+          className="relative rounded-full border border-border p-2 hover:bg-secondary transition-colors"
+          aria-label={unread > 0 ? `Notifications, ${unread} unread` : "Notifications"}
+        >
+          <Bell className="w-4 h-4" />
+          {unread > 0 && (
+            <span className="absolute -top-1 -right-1 min-w-[1.1rem] h-[1.1rem] px-1 rounded-full bg-primary text-primary-foreground text-[10px] font-semibold flex items-center justify-center">
+              {unread > 9 ? "9+" : unread}
+            </span>
+          )}
+        </button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="end" className="w-80 p-0 bg-popover">
+        <div className="flex items-center justify-between px-3 py-2 border-b border-border">
+          <p className="text-[10px] uppercase tracking-[0.2em] text-primary">Notifications</p>
+          {unread > 0 && (
+            <button onClick={markAllRead} className="text-xs text-muted-foreground hover:text-foreground">
+              Mark all read
+            </button>
+          )}
+        </div>
+        <div className="max-h-96 overflow-y-auto">
+          <NotificationList items={items.slice(0, 8)} compact onRead={markRead} />
+        </div>
+        <div className="border-t border-border px-3 py-2 flex items-center justify-between">
+          <Link to="/community/notifications" className="text-xs text-muted-foreground hover:text-foreground">
+            See all notifications
+          </Link>
+          <Link to="/community/notifications/settings" className="text-xs text-muted-foreground hover:text-foreground">
+            Settings
+          </Link>
+        </div>
+      </DropdownMenuContent>
+    </DropdownMenu>
+  );
+};
+
+export default NotificationsBell;

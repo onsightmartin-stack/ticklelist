@@ -1,1 +1,118 @@
-LyoqCiAqIE1haW5sYW5kIChob21lLXRlcnJpdG9yeSkgY291bnRyeSBoaWdoIHBvaW50cy4KICoKICogU29tZSBjb3VudHJpZXMnIG9mZmljaWFsIGhpZ2ggcG9pbnQgc2l0cyBvbiBhIGZhci1mbHVuZyBpc2xhbmQgb3Igb3ZlcnNlYXMKICogdGVycml0b3J5LiBQbGVudHkgb2YgaGlnaHBvaW50ZXJzIG9ubHkgY291bnQgdGhlIG1haW5sYW5kIC8gbWV0cm9wb2xpdGFuCiAqIHN1bW1pdCwgc28gdGhlc2UgZW50cmllcyBhcmUgdHJhY2tlZCBzZXBhcmF0ZWx5IGFuZCBjYW4gYmUgbG9nZ2VkIGFzIGFzY2VudHMuCiAqLwpleHBvcnQgaW50ZXJmYWNlIE1haW5sYW5kSGlnaFBvaW50IHsKICAvKiogQ291bnRyeSB0aGUgbWFpbmxhbmQgaGlnaCBwb2ludCBiZWxvbmdzIHRvLiAqLwogIGNvdW50cnk6IHN0cmluZzsKICAvKiogTWFpbmxhbmQgLyBob21lLXRlcnJpdG9yeSBzdW1taXQgbmFtZS4gKi8KICBuYW1lOiBzdHJpbmc7CiAgZWxldmF0aW9uOiBzdHJpbmc7CiAgLyoqIFdoeSBpdCBkaWZmZXJzIGZyb20gdGhlIG9mZmljaWFsIGNvdW50cnkgaGlnaCBwb2ludC4gKi8KICBub3RlOiBzdHJpbmc7Cn0KCmV4cG9ydCBjb25zdCBtYWlubGFuZEhpZ2hQb2ludHM6IE1haW5sYW5kSGlnaFBvaW50W10gPSBbCiAgewogICAgY291bnRyeTogIkRlbm1hcmsiLAogICAgbmFtZTogIk3DuGxsZWjDuGoiLAogICAgZWxldmF0aW9uOiAiMTcxIG0iLAogICAgbm90ZTogIk9mZmljaWFsIERhbmlzaCBoaWdoIHBvaW50IGlzIEd1bm5iasO4cm4gRmplbGQgKDMsNjk0IG0pIGluIEdyZWVubGFuZC4iLAogIH0sCiAgewogICAgY291bnRyeTogIk5ldGhlcmxhbmRzIiwKICAgIG5hbWU6ICJWYWFsc2VyYmVyZyIsCiAgICBlbGV2YXRpb246ICIzMjIgbSIsCiAgICBub3RlOiAiT2ZmaWNpYWwgRHV0Y2ggaGlnaCBwb2ludCBpcyBNb3VudCBTY2VuZXJ5ICg4ODcgbSkgb24gU2FiYSwgQ2FyaWJiZWFuIE5ldGhlcmxhbmRzLiIsCiAgfSwKICB7CiAgICBjb3VudHJ5OiAiU3BhaW4iLAogICAgbmFtZTogIk11bGhhY8OpbiIsCiAgICBlbGV2YXRpb246ICIzLDQ3OSBtIiwKICAgIG5vdGU6ICJPZmZpY2lhbCBTcGFuaXNoIGhpZ2ggcG9pbnQgaXMgUGljbyBkZWwgVGVpZGUgKDMsNzE1IG0pIG9uIFRlbmVyaWZlLCBDYW5hcnkgSXNsYW5kcy4iLAogIH0sCiAgewogICAgY291bnRyeTogIlBvcnR1Z2FsIiwKICAgIG5hbWU6ICJUb3JyZSIsCiAgICBlbGV2YXRpb246ICIxLDk5MyBtIiwKICAgIG5vdGU6ICJPZmZpY2lhbCBQb3J0dWd1ZXNlIGhpZ2ggcG9pbnQgaXMgTW9udGFuaGEgZG8gUGljbyAoMiwzNTEgbSkgaW4gdGhlIEF6b3Jlcy4iLAogIH0sCiAgewogICAgY291bnRyeTogIlVuaXRlZCBLaW5nZG9tIiwKICAgIG5hbWU6ICJCZW4gTmV2aXMiLAogICAgZWxldmF0aW9uOiAiMSwzNDUgbSIsCiAgICBub3RlOiAiT2ZmaWNpYWwgVUsgaGlnaCBwb2ludCBpcyBNb3VudCBQYWdldCAoMiw5MzQgbSkgb24gU291dGggR2VvcmdpYS4iLAogIH0sCiAgewogICAgY291bnRyeTogIkF1c3RyYWxpYSIsCiAgICBuYW1lOiAiS29zY2l1c3prbyIsCiAgICBlbGV2YXRpb246ICIyLDIyOCBtIiwKICAgIG5vdGU6ICJPZmZpY2lhbCBBdXN0cmFsaWFuIGhpZ2ggcG9pbnQgaXMgTWF3c29uIFBlYWsgKDIsNzQ1IG0pIG9uIEhlYXJkIElzbGFuZC4iLAogIH0sCiAgewogICAgY291bnRyeTogIkVxdWF0b3JpYWwgR3VpbmVhIiwKICAgIG5hbWU6ICJNb250ZSBDaG9jb2xhdGUiLAogICAgZWxldmF0aW9uOiAiMSwyNTAgbSIsCiAgICBub3RlOiAiT2ZmaWNpYWwgaGlnaCBwb2ludCBpcyBQaWNvIEJhc2lsZSAoMywwMTEgbSkgb24gQmlva28gaXNsYW5kLiIsCiAgfSwKICB7CiAgICBjb3VudHJ5OiAiTWFsYXlzaWEiLAogICAgbmFtZTogIkd1bnVuZyBUYWhhbiIsCiAgICBlbGV2YXRpb246ICIyLDE4NyBtIiwKICAgIG5vdGU6ICJPZmZpY2lhbCBNYWxheXNpYW4gaGlnaCBwb2ludCBpcyBLaW5hYmFsdSAoNCwwOTUgbSkgb24gQm9ybmVvLiIsCiAgfSwKICB7CiAgICBjb3VudHJ5OiAiRnJhbmNlIiwKICAgIG5hbWU6ICJNb250IEJsYW5jIiwKICAgIGVsZXZhdGlvbjogIjQsODA3IG0iLAogICAgbm90ZTogIk1ldHJvcG9saXRhbiBGcmFuY2U7IG92ZXJzZWFzIGhpZ2ggcG9pbnQgUGl0b24gZGVzIE5laWdlcyBpcyBsb3dlci4iLAogIH0sCiAgewogICAgY291bnRyeTogIk5vcndheSIsCiAgICBuYW1lOiAiR2FsZGjDuHBpZ2dlbiIsCiAgICBlbGV2YXRpb246ICIyLDQ2OSBtIiwKICAgIG5vdGU6ICJNYWlubGFuZCBOb3J3YXk7IFN2YWxiYXJkJ3MgTmV3dG9udG9wcGVuICgxLDcxMyBtKSBpcyBsb3dlci4iLAogIH0sCiAgewogICAgY291bnRyeTogIkVjdWFkb3IiLAogICAgbmFtZTogIkNoaW1ib3Jhem8iLAogICAgZWxldmF0aW9uOiAiNiwyNjMgbSIsCiAgICBub3RlOiAiTWFpbmxhbmQgRWN1YWRvcjsgdGhlIEdhbMOhcGFnb3MgaGlnaCBwb2ludCBXb2xmIFZvbGNhbm8gaXMgbG93ZXIuIiwKICB9LAogIHsKICAgIGNvdW50cnk6ICJZZW1lbiIsCiAgICBuYW1lOiAiSmFiYWwgQW4tTmFiaSBTaHUnYXliIiwKICAgIGVsZXZhdGlvbjogIjMsNjY2IG0iLAogICAgbm90ZTogIk1haW5sYW5kIFllbWVuOyBTb2NvdHJhJ3MgSmFiYWwgSGFqaGlyIGlzIGxvd2VyLiIsCiAgfSwKICB7CiAgICBjb3VudHJ5OiAiU291dGggQWZyaWNhIiwKICAgIG5hbWU6ICJNYWZhZGkiLAogICAgZWxldmF0aW9uOiAiMyw0NTAgbSIsCiAgICBub3RlOiAiTWFpbmxhbmQgU291dGggQWZyaWNhOyBQcmluY2UgRWR3YXJkIElzbGFuZHMgYXJlIGxvd2VyLiIsCiAgfSwKICB7CiAgICBjb3VudHJ5OiAiVW5pdGVkIFN0YXRlcyIsCiAgICBuYW1lOiAiRGVuYWxpIiwKICAgIGVsZXZhdGlvbjogIjYsMTkwIG0iLAogICAgbm90ZTogIkNvbnRpbmVudGFsIFVTQSBpbmNsdWRpbmcgQWxhc2thOyBIYXdhaWkncyBNYXVuYSBLZWEgaXMgbG93ZXIuIiwKICB9LApdOwoKLyoqIENvdW50cmllcyB3aGVyZSB0aGUgbWFpbmxhbmQgaGlnaCBwb2ludCBkaWZmZXJzIGZyb20gdGhlIG9mZmljaWFsIG9uZS4gKi8KZXhwb3J0IGNvbnN0IG1haW5sYW5kRGlmZmVycyA9IG5ldyBTZXQoWwogICJEZW5tYXJrIiwKICAiTmV0aGVybGFuZHMiLAogICJTcGFpbiIsCiAgIlBvcnR1Z2FsIiwKICAiVW5pdGVkIEtpbmdkb20iLAogICJBdXN0cmFsaWEiLAogICJFcXVhdG9yaWFsIEd1aW5lYSIsCiAgIk1hbGF5c2lhIiwKXSk7CgpleHBvcnQgY29uc3QgZmluZE1haW5sYW5kSGlnaFBvaW50ID0gKGNvdW50cnk6IHN0cmluZykgPT4KICBtYWlubGFuZEhpZ2hQb2ludHMuZmluZCgobSkgPT4gbS5jb3VudHJ5ID09PSBjb3VudHJ5KSA/PyBudWxsOwo=
+/**
+ * Mainland (home-territory) country high points.
+ *
+ * Some countries' official high point sits on a far-flung island or overseas
+ * territory. Plenty of highpointers only count the mainland / metropolitan
+ * summit, so these entries are tracked separately and can be logged as ascents.
+ */
+export interface MainlandHighPoint {
+  /** Country the mainland high point belongs to. */
+  country: string;
+  /** Mainland / home-territory summit name. */
+  name: string;
+  elevation: string;
+  /** Why it differs from the official country high point. */
+  note: string;
+}
+
+export const mainlandHighPoints: MainlandHighPoint[] = [
+  {
+    country: "Denmark",
+    name: "Møllehøj",
+    elevation: "171 m",
+    note: "Official Danish high point is Gunnbjørn Fjeld (3,694 m) in Greenland.",
+  },
+  {
+    country: "Netherlands",
+    name: "Vaalserberg",
+    elevation: "322 m",
+    note: "Official Dutch high point is Mount Scenery (887 m) on Saba, Caribbean Netherlands.",
+  },
+  {
+    country: "Spain",
+    name: "Mulhacén",
+    elevation: "3,479 m",
+    note: "Official Spanish high point is Pico del Teide (3,715 m) on Tenerife, Canary Islands.",
+  },
+  {
+    country: "Portugal",
+    name: "Torre",
+    elevation: "1,993 m",
+    note: "Official Portuguese high point is Montanha do Pico (2,351 m) in the Azores.",
+  },
+  {
+    country: "United Kingdom",
+    name: "Ben Nevis",
+    elevation: "1,345 m",
+    note: "Official UK high point is Mount Paget (2,934 m) on South Georgia.",
+  },
+  {
+    country: "Australia",
+    name: "Kosciuszko",
+    elevation: "2,228 m",
+    note: "Official Australian high point is Mawson Peak (2,745 m) on Heard Island.",
+  },
+  {
+    country: "Equatorial Guinea",
+    name: "Monte Chocolate",
+    elevation: "1,250 m",
+    note: "Official high point is Pico Basile (3,011 m) on Bioko island.",
+  },
+  {
+    country: "Malaysia",
+    name: "Gunung Tahan",
+    elevation: "2,187 m",
+    note: "Official Malaysian high point is Kinabalu (4,095 m) on Borneo.",
+  },
+  {
+    country: "France",
+    name: "Mont Blanc",
+    elevation: "4,807 m",
+    note: "Metropolitan France; overseas high point Piton des Neiges is lower.",
+  },
+  {
+    country: "Norway",
+    name: "Galdhøpiggen",
+    elevation: "2,469 m",
+    note: "Mainland Norway; Svalbard's Newtontoppen (1,713 m) is lower.",
+  },
+  {
+    country: "Ecuador",
+    name: "Chimborazo",
+    elevation: "6,263 m",
+    note: "Mainland Ecuador; the Galápagos high point Wolf Volcano is lower.",
+  },
+  {
+    country: "Yemen",
+    name: "Jabal An-Nabi Shu'ayb",
+    elevation: "3,666 m",
+    note: "Mainland Yemen; Socotra's Jabal Hajhir is lower.",
+  },
+  {
+    country: "South Africa",
+    name: "Mafadi",
+    elevation: "3,450 m",
+    note: "Mainland South Africa; Prince Edward Islands are lower.",
+  },
+  {
+    country: "United States",
+    name: "Denali",
+    elevation: "6,190 m",
+    note: "Continental USA including Alaska; Hawaii's Mauna Kea is lower.",
+  },
+];
+
+/** Countries where the mainland high point differs from the official one. */
+export const mainlandDiffers = new Set([
+  "Denmark",
+  "Netherlands",
+  "Spain",
+  "Portugal",
+  "United Kingdom",
+  "Australia",
+  "Equatorial Guinea",
+  "Malaysia",
+]);
+
+export const findMainlandHighPoint = (country: string) =>
+  mainlandHighPoints.find((m) => m.country === country) ?? null;

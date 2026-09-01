@@ -1,1 +1,37 @@
-aW1wb3J0IHsgbG9nT3V0Ym91bmRDbGljayB9IGZyb20gIkAvbGliL2NsaWNrLXRyYWNrLmZ1bmN0aW9ucyI7CgpleHBvcnQgaW50ZXJmYWNlIENsaWNrSW5mbyB7CiAgLyoqIGUuZy4gInlvdXR1YmVfdmlkZW8iLCAieW91dHViZV9jaGFubmVsIiwgInlvdXR1YmVfc2VhcmNoIiwgInN1cHBvcnQiICovCiAga2luZDogc3RyaW5nOwogIHVybDogc3RyaW5nOwogIHZpZGVvSWQ/OiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkOwogIGxhYmVsPzogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZDsKfQoKLyoqIEV4dHJhY3RzIGEgWW91VHViZSB2aWRlbyBpZCBmcm9tIHdhdGNoL2VtYmVkL3Nob3J0IGxpbmtzLiAqLwpleHBvcnQgY29uc3QgdmlkZW9JZEZyb21VcmwgPSAodXJsOiBzdHJpbmcpOiBzdHJpbmcgfCBudWxsID0+IHsKICBjb25zdCBtID0KICAgIHVybC5tYXRjaCgvWz8mXXY9KFtcdy1dezYsMjB9KS8pIHx8CiAgICB1cmwubWF0Y2goL3lvdXR1XC5iZVwvKFtcdy1dezYsMjB9KS8pIHx8CiAgICB1cmwubWF0Y2goL1wvZW1iZWRcLyhbXHctXXs2LDIwfSkvKTsKICByZXR1cm4gbT8uWzFdID8/IG51bGw7Cn07CgovKioKICogRmlyZS1hbmQtZm9yZ2V0IGNsaWNrIGxvZ2dpbmcuIE5ldmVyIGJsb2NrcyBvciBicmVha3MgbmF2aWdhdGlvbiDigJQgdGhlIGxpbmsKICogb3BlbnMgaW4gYSBuZXcgdGFiIHJlZ2FyZGxlc3Mgb2Ygd2hldGhlciB0aGUgbG9nIGNhbGwgc3VjY2VlZHMuCiAqLwpleHBvcnQgY29uc3QgdHJhY2tPdXRib3VuZENsaWNrID0gKGluZm86IENsaWNrSW5mbykgPT4gewogIGlmICh0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIikgcmV0dXJuOwogIHZvaWQgbG9nT3V0Ym91bmRDbGljayh7CiAgICBkYXRhOiB7CiAgICAgIGtpbmQ6IGluZm8ua2luZCwKICAgICAgdXJsOiBpbmZvLnVybCwKICAgICAgdmlkZW9JZDogaW5mby52aWRlb0lkID8/IHZpZGVvSWRGcm9tVXJsKGluZm8udXJsKSwKICAgICAgbGFiZWw6IGluZm8ubGFiZWwgPz8gbnVsbCwKICAgICAgcGFnZVBhdGg6IHdpbmRvdy5sb2NhdGlvbi5wYXRobmFtZSwKICAgIH0sCiAgfSkuY2F0Y2goKCkgPT4gewogICAgLyogYW5hbHl0aWNzIGlzIGJlc3QtZWZmb3J0ICovCiAgfSk7Cn07Cg==
+import { logOutboundClick } from "@/lib/click-track.functions";
+
+export interface ClickInfo {
+  /** e.g. "youtube_video", "youtube_channel", "youtube_search", "support" */
+  kind: string;
+  url: string;
+  videoId?: string | null | undefined;
+  label?: string | null | undefined;
+}
+
+/** Extracts a YouTube video id from watch/embed/short links. */
+export const videoIdFromUrl = (url: string): string | null => {
+  const m =
+    url.match(/[?&]v=([\w-]{6,20})/) ||
+    url.match(/youtu\.be\/([\w-]{6,20})/) ||
+    url.match(/\/embed\/([\w-]{6,20})/);
+  return m?.[1] ?? null;
+};
+
+/**
+ * Fire-and-forget click logging. Never blocks or breaks navigation — the link
+ * opens in a new tab regardless of whether the log call succeeds.
+ */
+export const trackOutboundClick = (info: ClickInfo) => {
+  if (typeof window === "undefined") return;
+  void logOutboundClick({
+    data: {
+      kind: info.kind,
+      url: info.url,
+      videoId: info.videoId ?? videoIdFromUrl(info.url),
+      label: info.label ?? null,
+      pagePath: window.location.pathname,
+    },
+  }).catch(() => {
+    /* analytics is best-effort */
+  });
+};

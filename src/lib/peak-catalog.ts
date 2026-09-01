@@ -1,1 +1,220 @@
-aW1wb3J0IHsgZnV6enlGaWVsZFNjb3JlIH0gZnJvbSAiQC9saWIvZnV6enkiOwppbXBvcnQgeyBjb3VudHJpZXMgfSBmcm9tICJAL2RhdGEvY291bnRyaWVzIjsKaW1wb3J0IHsgZmFtb3VzUGVha3MgfSBmcm9tICJAL2RhdGEvZmFtb3VzLXBlYWtzIjsKaW1wb3J0IHsgY291bnRzQXNDb3VudHJ5SGlnaHBvaW50LCBoaXN0b3JpY0hpZ2hwb2ludHMgfSBmcm9tICJAL2xpYi9oaXN0b3JpYy1oaWdocG9pbnRzIjsKCmV4cG9ydCB0eXBlIFBlYWtUeXBlID0gImNvdW50cnlfaGlnaHBvaW50IiB8ICJmYW1vdXNfcGVhayI7CgpleHBvcnQgaW50ZXJmYWNlIENhdGFsb2dQZWFrIHsKICBrZXk6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgZWxldmF0aW9uOiBzdHJpbmc7CiAgY291bnRyeTogc3RyaW5nOwogIHR5cGU6IFBlYWtUeXBlOwogIGdyb3VwOiBzdHJpbmc7CiAgLyoqIE51bWVyaWMgZWxldmF0aW9uIGluIG1ldHJlcywgd2hlbiBrbm93bi4gKi8KICBlbGV2YXRpb25NPzogbnVtYmVyIHwgbnVsbDsKICAvKiogVG9wb2dyYXBoaWMgcHJvbWluZW5jZSBpbiBtZXRyZXMsIHdoZW4ga25vd24uICovCiAgcHJvbWluZW5jZU0/OiBudW1iZXIgfCBudWxsOwogIC8qKiBBbHRlcm5hdGl2ZSBuYW1lcyBmb3IgdGhlIHNhbWUgc3VtbWl0IChuYXRpdmUgLyBFbmdsaXNoIC8gUGVha2JhZ2dlcikuICovCiAgYWx0TmFtZXM/OiBzdHJpbmdbXTsKfQoKLyoqIFBhcnNlICI4LDg0OCBtIiAvICI0ODEwbSIgc3R5bGUgc3RyaW5ncyBpbnRvIG1ldHJlcy4gKi8KZXhwb3J0IGNvbnN0IHBhcnNlRWxldmF0aW9uTSA9ICh2YWx1ZTogc3RyaW5nIHwgdW5kZWZpbmVkIHwgbnVsbCk6IG51bWJlciB8IG51bGwgPT4gewogIGlmICghdmFsdWUpIHJldHVybiBudWxsOwogIGNvbnN0IG0gPSB2YWx1ZS5yZXBsYWNlKC9bLFxzXS9nLCAiIikubWF0Y2goLyhcZCspLyk7CiAgcmV0dXJuIG0gPyBOdW1iZXIobVsxXSkgOiBudWxsOwp9OwoKLyoqIENvdW50cnkgaGlnaCBwb2ludHMg4oCUIG9uZSBlbnRyeSBwZXIgY291bnRyeSAoc2hhcmVkIHN1bW1pdHMgYXBwZWFyIHBlciBjb3VudHJ5KS4gKi8KY29uc3QgaGlnaFBvaW50RW50cmllczogQ2F0YWxvZ1BlYWtbXSA9IGNvdW50cmllcy5tYXAoKGMpID0+ICh7CiAga2V5OiBgaHA6JHtjLmNvdW50cnl9YCwKICBuYW1lOiBjLmhpZ2hQb2ludCwKICBlbGV2YXRpb246IGMuZWxldmF0aW9uLAogIGNvdW50cnk6IGMuY291bnRyeSwKICB0eXBlOiAiY291bnRyeV9oaWdocG9pbnQiIGFzIGNvbnN0LAogIGdyb3VwOiBgQ291bnRyeSBoaWdoIHBvaW50cyDCtyAke2MuY29udGluZW50fWAsCiAgLi4uKGMuYWx0TmFtZXM/Lmxlbmd0aCA/IHsgYWx0TmFtZXM6IGMuYWx0TmFtZXMgfSA6IHt9KSwKfSkpOwoKLyoqCiAqIEhpc3RvcmljIGhpZ2ggcG9pbnRzIOKAlCBsb2dnYWJsZSBhcyBhIGNvdW50cnkgaGlnaCBwb2ludCwgYnV0IG9ubHkgY3JlZGl0ZWQKICogYXMgc3VjaCBmb3IgYXNjZW50cyBvbiBvciBiZWZvcmUgdGhlIGRhdGUgdGhleSBsb3N0IHRoZSB0aXRsZS4KICovCmNvbnN0IGhpc3RvcmljRW50cmllczogQ2F0YWxvZ1BlYWtbXSA9IGhpc3RvcmljSGlnaHBvaW50cy5tYXAoKGgpID0+ICh7CiAga2V5OiBgaGhwOiR7aC5jb3VudHJ5fToke2gucGVha31gLAogIG5hbWU6IGgucGVhaywKICBlbGV2YXRpb246IGguZWxldmF0aW9uLAogIGNvdW50cnk6IGguY291bnRyeSwKICB0eXBlOiAiY291bnRyeV9oaWdocG9pbnQiIGFzIGNvbnN0LAogIGdyb3VwOiBgSGlzdG9yaWMgaGlnaCBwb2ludHMgwrcgaGlnaGVzdCBvZiAke2guY291bnRyeX0gdW50aWwgJHtoLmhlbGRVbnRpbH1gLAogIGVsZXZhdGlvbk06IGguZWxldmF0aW9uTSwKICBhbHROYW1lczogW2gucGVhaywgLi4uaC5hbGlhc2VzXSwKfSkpOwoKY29uc3QgZmFtb3VzRW50cmllczogQ2F0YWxvZ1BlYWtbXSA9IGZhbW91c1BlYWtzLm1hcCgocCkgPT4gKHsKICBrZXk6IGBmcDoke3AubmFtZX1gLAogIG5hbWU6IHAubmFtZSwKICBlbGV2YXRpb246IHAuZWxldmF0aW9uLAogIGNvdW50cnk6IHAuY291bnRyeSwKICB0eXBlOiAiZmFtb3VzX3BlYWsiIGFzIGNvbnN0LAogIGdyb3VwOiBgRmFtb3VzIHBlYWtzIMK3ICR7cC5ncm91cH1gLAp9KSk7CgovKioKICogTG9nZ2FibGUgcGVha3Mg4oCUIGNvdW50cnkgaGlnaCBwb2ludHMgKyBjdXJhdGVkIGZhbW91cyBwZWFrcywgcGx1cyB+NiwwMDAKICogd29ybGQgcGVha3MgbGF6aWx5IG1lcmdlZCBpbiBmcm9tIGB3b3JsZC1wZWFrcy5qc29uYCAoc2VlIGxvYWRXb3JsZFBlYWtzKS4KICovCmV4cG9ydCBjb25zdCBwZWFrQ2F0YWxvZzogQ2F0YWxvZ1BlYWtbXSA9IFsuLi5oaWdoUG9pbnRFbnRyaWVzLCAuLi5oaXN0b3JpY0VudHJpZXMsIC4uLmZhbW91c0VudHJpZXNdOwoKZXhwb3J0IGNvbnN0IGZpbmRQZWFrID0gKGtleTogc3RyaW5nKSA9PiBwZWFrQ2F0YWxvZy5maW5kKChwKSA9PiBwLmtleSA9PT0ga2V5KTsKCi8qKiBDb29yZGluYXRlcyBmb3IgbGF6aWx5LWxvYWRlZCB3b3JsZCBwZWFrcywga2V5ZWQgYnkgY2F0YWxvZyBrZXkuICovCmV4cG9ydCBjb25zdCB3b3JsZFBlYWtDb29yZHMgPSBuZXcgTWFwPHN0cmluZywgeyBsYXQ6IG51bWJlcjsgbG5nOiBudW1iZXIgfT4oKTsKCnR5cGUgV29ybGRQZWFrUm93ID0gW3N0cmluZywgbnVtYmVyLCBudW1iZXIsIHN0cmluZywgbnVtYmVyIHwgbnVsbCwgbnVtYmVyIHwgbnVsbF07CgpsZXQgd29ybGRQZWFrc1Byb21pc2U6IFByb21pc2U8dm9pZD4gfCBudWxsID0gbnVsbDsKbGV0IHdvcmxkUGVha3NSZWFkeSA9IGZhbHNlOwpjb25zdCByZWFkeUxpc3RlbmVycyA9IG5ldyBTZXQ8KCkgPT4gdm9pZD4oKTsKCmV4cG9ydCBjb25zdCB3b3JsZFBlYWtzTG9hZGVkID0gKCkgPT4gd29ybGRQZWFrc1JlYWR5OwoKZXhwb3J0IGNvbnN0IG9uV29ybGRQZWFrc0xvYWRlZCA9IChmbjogKCkgPT4gdm9pZCkgPT4gewogIHJlYWR5TGlzdGVuZXJzLmFkZChmbik7CiAgcmV0dXJuICgpID0+IHsKICAgIHJlYWR5TGlzdGVuZXJzLmRlbGV0ZShmbik7CiAgfTsKfTsKCi8qKgogKiBNZXJnZSB0aGUgYmlnIHdvcmxkLXBlYWsgZGF0YXNldCBpbnRvIHRoZSBjYXRhbG9nIG9uIGRlbWFuZCwgc28gdGhlIGluaXRpYWwKICogYnVuZGxlIHN0YXlzIHNtYWxsIGJ1dCBzZWFyY2ggY292ZXJzIGZhciBtb3JlIHRoYW4gY291bnRyeSBoaWdoIHBvaW50cy4KICovCmV4cG9ydCBjb25zdCBsb2FkV29ybGRQZWFrcyA9ICgpOiBQcm9taXNlPHZvaWQ+ID0+IHsKICBpZiAod29ybGRQZWFrc1Byb21pc2UpIHJldHVybiB3b3JsZFBlYWtzUHJvbWlzZTsKICB3b3JsZFBlYWtzUHJvbWlzZSA9IGltcG9ydCgiQC9kYXRhL3dvcmxkLXBlYWtzLmpzb24iKQogICAgLnRoZW4oKG1vZCkgPT4gewogICAgICBjb25zdCByb3dzID0gKG1vZC5kZWZhdWx0ID8/IG1vZCkgYXMgdW5rbm93biBhcyBXb3JsZFBlYWtSb3dbXTsKICAgICAgY29uc3Qga25vd24gPSBuZXcgU2V0KHBlYWtDYXRhbG9nLm1hcCgocCkgPT4gcC5uYW1lLnRvTG93ZXJDYXNlKCkpKTsKICAgICAgZm9yIChjb25zdCBbbmFtZSwgZWwsIHByb20sIGNvdW50cnksIGxhdCwgbG5nXSBvZiByb3dzKSB7CiAgICAgICAgY29uc3QgbG93ZXIgPSBuYW1lLnRvTG93ZXJDYXNlKCk7CiAgICAgICAgaWYgKGtub3duLmhhcyhsb3dlcikpIGNvbnRpbnVlOwogICAgICAgIGtub3duLmFkZChsb3dlcik7CiAgICAgICAgY29uc3Qga2V5ID0gYHdwOiR7bmFtZX1gOwogICAgICAgIHBlYWtDYXRhbG9nLnB1c2goewogICAgICAgICAga2V5LAogICAgICAgICAgbmFtZSwKICAgICAgICAgIGVsZXZhdGlvbjogYCR7ZWwudG9Mb2NhbGVTdHJpbmcoImVuLVVTIil9IG1gLAogICAgICAgICAgY291bnRyeTogY291bnRyeSB8fCAi4oCUIiwKICAgICAgICAgIHR5cGU6ICJmYW1vdXNfcGVhayIsCiAgICAgICAgICBncm91cDogYFdvcmxkIHBlYWtzIMK3ICR7Y291bnRyeSB8fCAiT3RoZXIifSR7cHJvbSA+PSAxNTAwID8gIiAodWx0cmEpIiA6ICIifWAsCiAgICAgICAgfSk7CiAgICAgICAgaWYgKGxhdCAhPSBudWxsICYmIGxuZyAhPSBudWxsKSB3b3JsZFBlYWtDb29yZHMuc2V0KGtleSwgeyBsYXQsIGxuZyB9KTsKICAgICAgfQogICAgICB3b3JsZFBlYWtzUmVhZHkgPSB0cnVlOwogICAgICByZWFkeUxpc3RlbmVycy5mb3JFYWNoKChmbikgPT4gZm4oKSk7CiAgICB9KQogICAgLmNhdGNoKCgpID0+IHsKICAgICAgd29ybGRQZWFrc1Byb21pc2UgPSBudWxsOwogICAgfSk7CiAgcmV0dXJuIHdvcmxkUGVha3NQcm9taXNlOwp9OwoKCgoKLyoqCiAqIFR5cG8tdG9sZXJhbnQgcGVhayBzZWFyY2ggYnVpbHQgb24gdGhlIHNoYXJlZCBzaXRlLXdpZGUgZnV6enkgbWF0Y2hlci4KICogTmFtZSBtYXRjaGVzIGFsd2F5cyBvdXRyYW5rIGNvdW50cnkgbWF0Y2hlcy4KICovCmV4cG9ydCBjb25zdCBzZWFyY2hQZWFrcyA9IChxdWVyeTogc3RyaW5nLCBsaW1pdCA9IDYwKTogQ2F0YWxvZ1BlYWtbXSA9PiB7CiAgY29uc3QgcSA9IHF1ZXJ5LnRyaW0oKTsKICBpZiAoIXEpIHJldHVybiBwZWFrQ2F0YWxvZy5zbGljZSgwLCBsaW1pdCk7CgogIGNvbnN0IHNjb3JlZDogeyBwZWFrOiBDYXRhbG9nUGVhazsgc2NvcmU6IG51bWJlciB9W10gPSBbXTsKICBmb3IgKGNvbnN0IHAgb2YgcGVha0NhdGFsb2cpIHsKICAgIGNvbnN0IHNjb3JlID0gTWF0aC5taW4oCiAgICAgIGZ1enp5RmllbGRTY29yZShxLCBwLm5hbWUpLAogICAgICAuLi4ocC5hbHROYW1lcyA/PyBbXSkubWFwKChuKSA9PiBmdXp6eUZpZWxkU2NvcmUocSwgbikgKyAwLjEpLAogICAgICBmdXp6eUZpZWxkU2NvcmUocSwgcC5jb3VudHJ5KSArIDAuNSwKICAgICk7CiAgICBpZiAoTnVtYmVyLmlzRmluaXRlKHNjb3JlKSkgc2NvcmVkLnB1c2goeyBwZWFrOiBwLCBzY29yZSB9KTsKICB9CgogIHJldHVybiBzY29yZWQKICAgIC5zb3J0KAogICAgICAoYSwgYikgPT4KICAgICAgICBhLnNjb3JlIC0gYi5zY29yZSB8fAogICAgICAgIGEucGVhay5uYW1lLmxlbmd0aCAtIGIucGVhay5uYW1lLmxlbmd0aCB8fAogICAgICAgIGEucGVhay5uYW1lLmxvY2FsZUNvbXBhcmUoYi5wZWFrLm5hbWUpLAogICAgKQogICAgLnNsaWNlKDAsIGxpbWl0KQogICAgLm1hcCgocykgPT4gcy5wZWFrKTsKfTsKCgovKiogSG93IGV4YWN0IHRoZSBsb2dnZWQgZGF0ZSBpcyDigJQgc29tZSBvbGQgYXNjZW50cyBvbmx5IGhhdmUgYSB5ZWFyIG9yIG1vbnRoLiAqLwpleHBvcnQgdHlwZSBEYXRlUHJlY2lzaW9uID0gImRheSIgfCAibW9udGgiIHwgInllYXIiOwoKZXhwb3J0IGludGVyZmFjZSBBc2NlbnQgewogIGlkOiBzdHJpbmc7CiAgdXNlcl9pZDogc3RyaW5nOwogIHBlYWtfbmFtZTogc3RyaW5nOwogIHBlYWtfdHlwZTogUGVha1R5cGU7CiAgY291bnRyeTogc3RyaW5nIHwgbnVsbDsKICBlbGV2YXRpb246IHN0cmluZyB8IG51bGw7CiAgYXNjZW50X2RhdGU6IHN0cmluZzsKICBkYXRlX3ByZWNpc2lvbj86IERhdGVQcmVjaXNpb24gfCBudWxsOwogIHJvdXRlOiBzdHJpbmcgfCBudWxsOwogIHRyaXBfcmVwb3J0OiBzdHJpbmcgfCBudWxsOwogIHBob3RvX3VybDogc3RyaW5nIHwgbnVsbDsKICBpc19wdWJsaWM6IGJvb2xlYW47CiAgY3JlYXRlZF9hdDogc3RyaW5nOwogIC8qKiBUaWNrbGVsaXN0IG1lbWJlcnMgY2xpbWJlZCB3aXRoLiAqLwogIHBhcnRuZXJfaWRzPzogc3RyaW5nW10gfCBudWxsOwogIC8qKiBGcmVlLXRleHQgY28tY2xpbWJlcnMgd2hvIGFyZW4ndCBtZW1iZXJzLiAqLwogIHBhcnRuZXJfbmFtZXM/OiBzdHJpbmdbXSB8IG51bGw7CiAgLyoqIENsaW1iZWQgYXMgcGFydCBvZiBhIGdyb3VwIC8gb3JnYW5pc2VkIHBhcnR5LiAqLwogIHdpdGhfZ3JvdXA/OiBib29sZWFuIHwgbnVsbDsKICAvKiogMzAwMCBtKyBzdHlsZTogc2VsZi1ndWlkZWQgb3Igd2l0aCBhIGd1aWRlLiAqLwogIGd1aWRpbmc/OiAic2VsZl9ndWlkZWQiIHwgImd1aWRlZCIgfCBudWxsOwogIC8qKiBIaWdoLWFsdGl0dWRlIHN0eWxlOiB3aXRoIG9yIHdpdGhvdXQgc3VwcGxlbWVudGFsIG94eWdlbi4gKi8KICBveHlnZW4/OiAibm9fb3h5Z2VuIiB8ICJveHlnZW4iIHwgbnVsbDsKfQoKZXhwb3J0IGNvbnN0IGZvcm1hdEFzY2VudERhdGUgPSAoZDogc3RyaW5nLCBwcmVjaXNpb246IERhdGVQcmVjaXNpb24gfCBudWxsID0gImRheSIpID0+IHsKICBjb25zdCBkYXRlID0gbmV3IERhdGUoZCArICJUMDA6MDA6MDAiKTsKICBpZiAocHJlY2lzaW9uID09PSAieWVhciIpIHJldHVybiBTdHJpbmcoZGF0ZS5nZXRGdWxsWWVhcigpKTsKICBpZiAocHJlY2lzaW9uID09PSAibW9udGgiKQogICAgcmV0dXJuIGRhdGUudG9Mb2NhbGVEYXRlU3RyaW5nKHVuZGVmaW5lZCwgeyBtb250aDogInNob3J0IiwgeWVhcjogIm51bWVyaWMiIH0pOwogIHJldHVybiBkYXRlLnRvTG9jYWxlRGF0ZVN0cmluZyh1bmRlZmluZWQsIHsgZGF5OiAibnVtZXJpYyIsIG1vbnRoOiAic2hvcnQiLCB5ZWFyOiAibnVtZXJpYyIgfSk7Cn07CgoKZXhwb3J0IGludGVyZmFjZSBMZWFkZXJib2FyZFJvdyB7CiAgdXNlcklkOiBzdHJpbmc7CiAgaGlnaFBvaW50czogbnVtYmVyOwogIGZhbW91czogbnVtYmVyOwogIHRvdGFsOiBudW1iZXI7Cn0KCi8qKiBSYW5rIG1lbWJlcnMgYnkgZGlzdGluY3QgY291bnRyeSBoaWdoIHBvaW50cywgdGhlbiBmYW1vdXMgcGVha3MuICovCmV4cG9ydCBjb25zdCBidWlsZExlYWRlcmJvYXJkID0gKGFzY2VudHM6IEFzY2VudFtdKTogTGVhZGVyYm9hcmRSb3dbXSA9PiB7CiAgY29uc3QgYnlVc2VyID0gbmV3IE1hcDxzdHJpbmcsIHsgaHA6IFNldDxzdHJpbmc+OyBmcDogU2V0PHN0cmluZz4gfT4oKTsKICBmb3IgKGNvbnN0IGEgb2YgYXNjZW50cykgewogICAgaWYgKCFieVVzZXIuaGFzKGEudXNlcl9pZCkpIGJ5VXNlci5zZXQoYS51c2VyX2lkLCB7IGhwOiBuZXcgU2V0KCksIGZwOiBuZXcgU2V0KCkgfSk7CiAgICBjb25zdCBlbnRyeSA9IGJ5VXNlci5nZXQoYS51c2VyX2lkKSE7CiAgICBpZiAoY291bnRzQXNDb3VudHJ5SGlnaHBvaW50KGEpKSBlbnRyeS5ocC5hZGQoYS5jb3VudHJ5ID8/IGEucGVha19uYW1lKTsKICAgIGVsc2UgZW50cnkuZnAuYWRkKGEucGVha19uYW1lKTsKICB9CiAgcmV0dXJuIFsuLi5ieVVzZXIuZW50cmllcygpXQogICAgLm1hcCgoW3VzZXJJZCwgdl0pID0+ICh7CiAgICAgIHVzZXJJZCwKICAgICAgaGlnaFBvaW50czogdi5ocC5zaXplLAogICAgICBmYW1vdXM6IHYuZnAuc2l6ZSwKICAgICAgdG90YWw6IHYuaHAuc2l6ZSArIHYuZnAuc2l6ZSwKICAgIH0pKQogICAgLnNvcnQoKGEsIGIpID0+IGIuaGlnaFBvaW50cyAtIGEuaGlnaFBvaW50cyB8fCBiLmZhbW91cyAtIGEuZmFtb3VzKTsKfTsK
+import { fuzzyFieldScore } from "@/lib/fuzzy";
+import { countries } from "@/data/countries";
+import { famousPeaks } from "@/data/famous-peaks";
+import { countsAsCountryHighpoint, historicHighpoints } from "@/lib/historic-highpoints";
+
+export type PeakType = "country_highpoint" | "famous_peak";
+
+export interface CatalogPeak {
+  key: string;
+  name: string;
+  elevation: string;
+  country: string;
+  type: PeakType;
+  group: string;
+  /** Numeric elevation in metres, when known. */
+  elevationM?: number | null;
+  /** Topographic prominence in metres, when known. */
+  prominenceM?: number | null;
+  /** Alternative names for the same summit (native / English / Peakbagger). */
+  altNames?: string[];
+}
+
+/** Parse "8,848 m" / "4810m" style strings into metres. */
+export const parseElevationM = (value: string | undefined | null): number | null => {
+  if (!value) return null;
+  const m = value.replace(/[,\s]/g, "").match(/(\d+)/);
+  return m ? Number(m[1]) : null;
+};
+
+/** Country high points — one entry per country (shared summits appear per country). */
+const highPointEntries: CatalogPeak[] = countries.map((c) => ({
+  key: `hp:${c.country}`,
+  name: c.highPoint,
+  elevation: c.elevation,
+  country: c.country,
+  type: "country_highpoint" as const,
+  group: `Country high points · ${c.continent}`,
+  ...(c.altNames?.length ? { altNames: c.altNames } : {}),
+}));
+
+/**
+ * Historic high points — loggable as a country high point, but only credited
+ * as such for ascents on or before the date they lost the title.
+ */
+const historicEntries: CatalogPeak[] = historicHighpoints.map((h) => ({
+  key: `hhp:${h.country}:${h.peak}`,
+  name: h.peak,
+  elevation: h.elevation,
+  country: h.country,
+  type: "country_highpoint" as const,
+  group: `Historic high points · highest of ${h.country} until ${h.heldUntil}`,
+  elevationM: h.elevationM,
+  altNames: [h.peak, ...h.aliases],
+}));
+
+const famousEntries: CatalogPeak[] = famousPeaks.map((p) => ({
+  key: `fp:${p.name}`,
+  name: p.name,
+  elevation: p.elevation,
+  country: p.country,
+  type: "famous_peak" as const,
+  group: `Famous peaks · ${p.group}`,
+}));
+
+/**
+ * Loggable peaks — country high points + curated famous peaks, plus ~6,000
+ * world peaks lazily merged in from `world-peaks.json` (see loadWorldPeaks).
+ */
+export const peakCatalog: CatalogPeak[] = [...highPointEntries, ...historicEntries, ...famousEntries];
+
+export const findPeak = (key: string) => peakCatalog.find((p) => p.key === key);
+
+/** Coordinates for lazily-loaded world peaks, keyed by catalog key. */
+export const worldPeakCoords = new Map<string, { lat: number; lng: number }>();
+
+type WorldPeakRow = [string, number, number, string, number | null, number | null];
+
+let worldPeaksPromise: Promise<void> | null = null;
+let worldPeaksReady = false;
+const readyListeners = new Set<() => void>();
+
+export const worldPeaksLoaded = () => worldPeaksReady;
+
+export const onWorldPeaksLoaded = (fn: () => void) => {
+  readyListeners.add(fn);
+  return () => {
+    readyListeners.delete(fn);
+  };
+};
+
+/**
+ * Merge the big world-peak dataset into the catalog on demand, so the initial
+ * bundle stays small but search covers far more than country high points.
+ */
+export const loadWorldPeaks = (): Promise<void> => {
+  if (worldPeaksPromise) return worldPeaksPromise;
+  worldPeaksPromise = import("@/data/world-peaks.json")
+    .then((mod) => {
+      const rows = (mod.default ?? mod) as unknown as WorldPeakRow[];
+      const known = new Set(peakCatalog.map((p) => p.name.toLowerCase()));
+      for (const [name, el, prom, country, lat, lng] of rows) {
+        const lower = name.toLowerCase();
+        if (known.has(lower)) continue;
+        known.add(lower);
+        const key = `wp:${name}`;
+        peakCatalog.push({
+          key,
+          name,
+          elevation: `${el.toLocaleString("en-US")} m`,
+          country: country || "—",
+          type: "famous_peak",
+          group: `World peaks · ${country || "Other"}${prom >= 1500 ? " (ultra)" : ""}`,
+        });
+        if (lat != null && lng != null) worldPeakCoords.set(key, { lat, lng });
+      }
+      worldPeaksReady = true;
+      readyListeners.forEach((fn) => fn());
+    })
+    .catch(() => {
+      worldPeaksPromise = null;
+    });
+  return worldPeaksPromise;
+};
+
+
+
+
+/**
+ * Typo-tolerant peak search built on the shared site-wide fuzzy matcher.
+ * Name matches always outrank country matches.
+ */
+export const searchPeaks = (query: string, limit = 60): CatalogPeak[] => {
+  const q = query.trim();
+  if (!q) return peakCatalog.slice(0, limit);
+
+  const scored: { peak: CatalogPeak; score: number }[] = [];
+  for (const p of peakCatalog) {
+    const score = Math.min(
+      fuzzyFieldScore(q, p.name),
+      ...(p.altNames ?? []).map((n) => fuzzyFieldScore(q, n) + 0.1),
+      fuzzyFieldScore(q, p.country) + 0.5,
+    );
+    if (Number.isFinite(score)) scored.push({ peak: p, score });
+  }
+
+  return scored
+    .sort(
+      (a, b) =>
+        a.score - b.score ||
+        a.peak.name.length - b.peak.name.length ||
+        a.peak.name.localeCompare(b.peak.name),
+    )
+    .slice(0, limit)
+    .map((s) => s.peak);
+};
+
+
+/** How exact the logged date is — some old ascents only have a year or month. */
+export type DatePrecision = "day" | "month" | "year";
+
+export interface Ascent {
+  id: string;
+  user_id: string;
+  peak_name: string;
+  peak_type: PeakType;
+  country: string | null;
+  elevation: string | null;
+  ascent_date: string;
+  date_precision?: DatePrecision | null;
+  route: string | null;
+  trip_report: string | null;
+  photo_url: string | null;
+  is_public: boolean;
+  created_at: string;
+  /** Ticklelist members climbed with. */
+  partner_ids?: string[] | null;
+  /** Free-text co-climbers who aren't members. */
+  partner_names?: string[] | null;
+  /** Climbed as part of a group / organised party. */
+  with_group?: boolean | null;
+  /** 3000 m+ style: self-guided or with a guide. */
+  guiding?: "self_guided" | "guided" | null;
+  /** High-altitude style: with or without supplemental oxygen. */
+  oxygen?: "no_oxygen" | "oxygen" | null;
+}
+
+export const formatAscentDate = (d: string, precision: DatePrecision | null = "day") => {
+  const date = new Date(d + "T00:00:00");
+  if (precision === "year") return String(date.getFullYear());
+  if (precision === "month")
+    return date.toLocaleDateString(undefined, { month: "short", year: "numeric" });
+  return date.toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" });
+};
+
+
+export interface LeaderboardRow {
+  userId: string;
+  highPoints: number;
+  famous: number;
+  total: number;
+}
+
+/** Rank members by distinct country high points, then famous peaks. */
+export const buildLeaderboard = (ascents: Ascent[]): LeaderboardRow[] => {
+  const byUser = new Map<string, { hp: Set<string>; fp: Set<string> }>();
+  for (const a of ascents) {
+    if (!byUser.has(a.user_id)) byUser.set(a.user_id, { hp: new Set(), fp: new Set() });
+    const entry = byUser.get(a.user_id)!;
+    if (countsAsCountryHighpoint(a)) entry.hp.add(a.country ?? a.peak_name);
+    else entry.fp.add(a.peak_name);
+  }
+  return [...byUser.entries()]
+    .map(([userId, v]) => ({
+      userId,
+      highPoints: v.hp.size,
+      famous: v.fp.size,
+      total: v.hp.size + v.fp.size,
+    }))
+    .sort((a, b) => b.highPoints - a.highPoints || b.famous - a.famous);
+};

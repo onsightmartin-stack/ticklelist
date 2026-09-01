@@ -1,1 +1,68 @@
-LyoqCiAqIEJhc2UgQ2FtcCB0ZXJyYWluOiB3aGVyZSBhIGNsaW1iZXIncyBmZWV0IGNhbiBhY3R1YWxseSBiZS4KICoKICogVGhlIHNjZW5lIFNWRyBpcyBkcmF3biB3aXRoIHZpZXdCb3ggMCAwIDIwMDAgOTAwIGFuZCBzbGljZWQgaW50byB0aGUKICogMTgwMHg5MDAgd29ybGQsIGNlbnRyZWQgaG9yaXpvbnRhbGx5IOKAlCBzbyB0aGUgU1ZHIHNpdHMgMTAwcHggdG8gdGhlIGxlZnQgb2YKICogdGhlIHdvcmxkIG9yaWdpbi4gVGhlIG1pZCByaWRnZSBwb2x5bGluZSBiZWxvdyBpcyB0aGUgc2t5bGluZSBvZiB0aGUKICogd2Fsa2FibGUgbW91bnRhaW5zOiBub2JvZHkgbWF5IHN0YW5kIGhpZ2hlciB0aGFuIHRoYXQgY3Jlc3QsIGFuZCBub2JvZHkgbWF5CiAqIGRyb3AgYmVsb3cgdGhlIHZhbGxleSBmbG9vci4KICovCgppbXBvcnQgeyBDQU1QX0dST1VORCB9IGZyb20gIkAvbGliL2NhbXAtYnVpbGRzIjsKCmNvbnN0IFNDRU5FX1cgPSAyMDAwOwpjb25zdCBXT1JMRF9XID0gMTgwMDsKLyoqIEhvcml6b250YWwgb2Zmc2V0IGZyb20gd29ybGQgcGl4ZWxzIHRvIHNjZW5lIChTVkcpIHBpeGVscy4gKi8KY29uc3QgU0NFTkVfT0ZGU0VUID0gKFNDRU5FX1cgLSBXT1JMRF9XKSAvIDI7CgovKiogTWlkIHJpZGdlIGNyZXN0LCBhcyBbc2NlbmVYLCBzY2VuZVldIHBhaXJzIChtYXRjaGVzIEJhc2VDYW1wU2NlbmUpLiAqLwpjb25zdCBSSURHRTogQXJyYXk8W251bWJlciwgbnVtYmVyXT4gPSBbCiAgWzAsIDU2MF0sCiAgW1NDRU5FX1cgKiAwLjEzLCA0MjBdLAogIFtTQ0VORV9XICogMC4yNiwgNTQ1XSwKICBbU0NFTkVfVyAqIDAuNDEsIDQwMF0sCiAgW1NDRU5FX1cgKiAwLjU4LCA1NTBdLAogIFtTQ0VORV9XICogMC43MiwgNDMwXSwKICBbU0NFTkVfVyAqIDAuODcsIDU0NV0sCiAgW1NDRU5FX1csIDQ1MF0sCl07CgovKiogQSBsaXR0bGUgc2luayBzbyBmZWV0IGJpdGUgaW50byB0aGUgc2xvcGUgaW5zdGVhZCBvZiBob3ZlcmluZyBvbiB0aGUgZWRnZS4gKi8KY29uc3QgRk9PVF9TSU5LID0gODsKCi8qKiBIaWdoZXN0IHBvaW50IChzbWFsbGVzdCB5KSBhIGNsaW1iZXIgbWF5IHN0YW5kIGF0IHRoaXMgd29ybGQgeC4gKi8KZXhwb3J0IGNvbnN0IGNhbXBTdXJmYWNlWSA9ICh3b3JsZFg6IG51bWJlcik6IG51bWJlciA9PiB7CiAgY29uc3QgeCA9IHdvcmxkWCArIFNDRU5FX09GRlNFVDsKICBsZXQgeSA9IFJJREdFW1JJREdFLmxlbmd0aCAtIDFdIVsxXTsKICBmb3IgKGxldCBpID0gMDsgaSA8IFJJREdFLmxlbmd0aCAtIDE7IGkrKykgewogICAgY29uc3QgW3gwLCB5MF0gPSBSSURHRVtpXSE7CiAgICBjb25zdCBbeDEsIHkxXSA9IFJJREdFW2kgKyAxXSE7CiAgICBpZiAoeCA+PSB4MCAmJiB4IDw9IHgxKSB7CiAgICAgIGNvbnN0IHQgPSB4MSA9PT0geDAgPyAwIDogKHggLSB4MCkgLyAoeDEgLSB4MCk7CiAgICAgIHkgPSB5MCArICh5MSAtIHkwKSAqIHQ7CiAgICAgIGJyZWFrOwogICAgfQogIH0KICByZXR1cm4geSArIEZPT1RfU0lOSzsKfTsKCi8qKiBMb3dlc3QgcG9pbnQgKGxhcmdlc3QgeSkgYSBjbGltYmVyIG1heSBzdGFuZCBhdCDigJQgdGhlIHZhbGxleSBmbG9vci4gKi8KZXhwb3J0IGNvbnN0IENBTVBfRkxPT1JfWSA9IENBTVBfR1JPVU5ELm1heFk7CgovKioKICogUHVsbCBhbnkgcG9zaXRpb24gb250byBzb2xpZCB0ZXJyYWluOiBpbnNpZGUgdGhlIHdvcmxkIGhvcml6b250YWxseSwgbmV2ZXIKICogYWJvdmUgdGhlIG1vdW50YWluIHRvcHMgYW5kIG5ldmVyIGJlbG93IHRoZSB2YWxsZXkgZmxvb3IuCiAqLwpleHBvcnQgY29uc3QgZ3JvdW5kUG9zaXRpb24gPSAoeDogbnVtYmVyLCB5OiBudW1iZXIpID0+IHsKICBjb25zdCBneCA9IE1hdGgubWluKENBTVBfR1JPVU5ELm1heFgsIE1hdGgubWF4KENBTVBfR1JPVU5ELm1pblgsIHgpKTsKICBjb25zdCB0b3AgPSBjYW1wU3VyZmFjZVkoZ3gpOwogIGNvbnN0IGd5ID0gTWF0aC5taW4oQ0FNUF9GTE9PUl9ZLCBNYXRoLm1heCh0b3AsIHkpKTsKICByZXR1cm4geyB4OiBneCwgeTogZ3kgfTsKfTsKCi8qKiBDbGltYmVycyBoaWdoZXIgdXAgdGhlIHNsb3BlIGFyZSBmdXJ0aGVyIGF3YXksIHNvIGRyYXcgdGhlbSBzbWFsbGVyLiAqLwpleHBvcnQgY29uc3QgY2FtcERlcHRoU2NhbGUgPSAoeTogbnVtYmVyKSA9PiB7CiAgY29uc3QgdG9wID0gNDAwOwogIGNvbnN0IHQgPSBNYXRoLm1pbigxLCBNYXRoLm1heCgwLCAoeSAtIHRvcCkgLyAoQ0FNUF9GTE9PUl9ZIC0gdG9wKSkpOwogIHJldHVybiAwLjYgKyB0ICogMC40NTsKfTsK
+/**
+ * Base Camp terrain: where a climber's feet can actually be.
+ *
+ * The scene SVG is drawn with viewBox 0 0 2000 900 and sliced into the
+ * 1800x900 world, centred horizontally — so the SVG sits 100px to the left of
+ * the world origin. The mid ridge polyline below is the skyline of the
+ * walkable mountains: nobody may stand higher than that crest, and nobody may
+ * drop below the valley floor.
+ */
+
+import { CAMP_GROUND } from "@/lib/camp-builds";
+
+const SCENE_W = 2000;
+const WORLD_W = 1800;
+/** Horizontal offset from world pixels to scene (SVG) pixels. */
+const SCENE_OFFSET = (SCENE_W - WORLD_W) / 2;
+
+/** Mid ridge crest, as [sceneX, sceneY] pairs (matches BaseCampScene). */
+const RIDGE: Array<[number, number]> = [
+  [0, 560],
+  [SCENE_W * 0.13, 420],
+  [SCENE_W * 0.26, 545],
+  [SCENE_W * 0.41, 400],
+  [SCENE_W * 0.58, 550],
+  [SCENE_W * 0.72, 430],
+  [SCENE_W * 0.87, 545],
+  [SCENE_W, 450],
+];
+
+/** A little sink so feet bite into the slope instead of hovering on the edge. */
+const FOOT_SINK = 8;
+
+/** Highest point (smallest y) a climber may stand at this world x. */
+export const campSurfaceY = (worldX: number): number => {
+  const x = worldX + SCENE_OFFSET;
+  let y = RIDGE[RIDGE.length - 1]![1];
+  for (let i = 0; i < RIDGE.length - 1; i++) {
+    const [x0, y0] = RIDGE[i]!;
+    const [x1, y1] = RIDGE[i + 1]!;
+    if (x >= x0 && x <= x1) {
+      const t = x1 === x0 ? 0 : (x - x0) / (x1 - x0);
+      y = y0 + (y1 - y0) * t;
+      break;
+    }
+  }
+  return y + FOOT_SINK;
+};
+
+/** Lowest point (largest y) a climber may stand at — the valley floor. */
+export const CAMP_FLOOR_Y = CAMP_GROUND.maxY;
+
+/**
+ * Pull any position onto solid terrain: inside the world horizontally, never
+ * above the mountain tops and never below the valley floor.
+ */
+export const groundPosition = (x: number, y: number) => {
+  const gx = Math.min(CAMP_GROUND.maxX, Math.max(CAMP_GROUND.minX, x));
+  const top = campSurfaceY(gx);
+  const gy = Math.min(CAMP_FLOOR_Y, Math.max(top, y));
+  return { x: gx, y: gy };
+};
+
+/** Climbers higher up the slope are further away, so draw them smaller. */
+export const campDepthScale = (y: number) => {
+  const top = 400;
+  const t = Math.min(1, Math.max(0, (y - top) / (CAMP_FLOOR_Y - top)));
+  return 0.6 + t * 0.45;
+};

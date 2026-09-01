@@ -1,1 +1,18 @@
-LyoqCiAqIEZ1bmdhbCBIb2xsb3cncyBtYWdpYyBtdXNocm9vbTogZWF0IGl0IGFuZCB5b3VyIGx1bmdzIGZlZWwgdHdpY2UgdGhlIHNpemUKICogZm9yIGZpdmUgbWludXRlcyDigJQgZG91YmxlIHN0YW1pbmEsIGluc3RhbnRseSB0b3BwZWQgdXAuIE9uY2UgaXQncyBlYXRlbiB0aGUKICogcGF0Y2ggaXMgYmFyZSB1bnRpbCB0aGUgYm9vc3Qgd2VhcnMgb2ZmLCB0aGVuIGEgZnJlc2ggY2FwIHB1c2hlcyB0aHJvdWdoLgogKi8KCi8qKiBXaGVyZSB0aGUgZ2xvd2luZyBjYXAgZ3Jvd3MgaW4gdGhlIG11c2hyb29tIHpvbmUgKHdvcmxkIGNvb3JkcykuICovCmV4cG9ydCBjb25zdCBNVVNIUk9PTV9YID0gNjQwOwpleHBvcnQgY29uc3QgTVVTSFJPT01fWSA9IDgyMDsKCi8qKiBIb3cgY2xvc2UgKHdvcmxkIHB4KSB5b3UgbXVzdCB3YWxrIHRvIGVhdCBpdC4gKi8KZXhwb3J0IGNvbnN0IE1VU0hST09NX1JBRElVUyA9IDkwOwoKLyoqIFNlY29uZHMgdGhlIHN0YW1pbmEgYm9vc3QgbGFzdHMuICovCmV4cG9ydCBjb25zdCBNVVNIUk9PTV9CT09TVF9TRUNPTkRTID0gMzAwOwoKLyoqIFN0YW1pbmEgbXVsdGlwbGllciB3aGlsZSB0aGUgYm9vc3QgaXMgcnVubmluZy4gKi8KZXhwb3J0IGNvbnN0IE1VU0hST09NX1NUQU1JTkFfTVVMVElQTElFUiA9IDI7Cg==
+/**
+ * Fungal Hollow's magic mushroom: eat it and your lungs feel twice the size
+ * for five minutes — double stamina, instantly topped up. Once it's eaten the
+ * patch is bare until the boost wears off, then a fresh cap pushes through.
+ */
+
+/** Where the glowing cap grows in the mushroom zone (world coords). */
+export const MUSHROOM_X = 640;
+export const MUSHROOM_Y = 820;
+
+/** How close (world px) you must walk to eat it. */
+export const MUSHROOM_RADIUS = 90;
+
+/** Seconds the stamina boost lasts. */
+export const MUSHROOM_BOOST_SECONDS = 300;
+
+/** Stamina multiplier while the boost is running. */
+export const MUSHROOM_STAMINA_MULTIPLIER = 2;

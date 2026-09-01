@@ -1,1 +1,106 @@
-aW1wb3J0IHsgY3JlYXRlU2VydmVyRm4gfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtc3RhcnQiOwppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICJAc3VwYWJhc2Uvc3VwYWJhc2UtanMiOwoKZXhwb3J0IGludGVyZmFjZSBEaXJlY3RvcnlQZWFrIHsKICBpZDogbnVtYmVyOwogIG5hbWU6IHN0cmluZzsKICBlbGV2YXRpb246IG51bWJlciB8IG51bGw7CiAgcHJvbWluZW5jZTogbnVtYmVyIHwgbnVsbDsKICBjb3VudHJ5Q29kZTogc3RyaW5nIHwgbnVsbDsKfQoKZXhwb3J0IGludGVyZmFjZSBEaXJlY3RvcnlDb3VudHJ5IHsKICBjb2RlOiBzdHJpbmc7CiAgcGVha0NvdW50OiBudW1iZXI7CiAgbWF4RWxldmF0aW9uOiBudW1iZXIgfCBudWxsOwp9Cgpjb25zdCBzZXJ2ZXJDbGllbnQgPSAoKSA9PgogIGNyZWF0ZUNsaWVudChwcm9jZXNzLmVudlsiU1VQQUJBU0VfVVJMIl0hLCBwcm9jZXNzLmVudlsiU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWSJdISwgewogICAgYXV0aDogeyBwZXJzaXN0U2Vzc2lvbjogZmFsc2UgfSwKICB9KTsKCmNvbnN0IG1hcFBlYWtzID0gKHJvd3M6IFJlY29yZDxzdHJpbmcsIHVua25vd24+W10gfCBudWxsKTogRGlyZWN0b3J5UGVha1tdID0+CiAgKHJvd3MgPz8gW10pLm1hcCgocikgPT4gKHsKICAgIGlkOiBOdW1iZXIoclsiaWQiXSksCiAgICBuYW1lOiBTdHJpbmcoclsibmFtZSJdKSwKICAgIGVsZXZhdGlvbjogclsiZWxldmF0aW9uIl0gPT0gbnVsbCA/IG51bGwgOiBOdW1iZXIoclsiZWxldmF0aW9uIl0pLAogICAgcHJvbWluZW5jZTogclsicHJvbWluZW5jZSJdID09IG51bGwgPyBudWxsIDogTnVtYmVyKHJbInByb21pbmVuY2UiXSksCiAgICBjb3VudHJ5Q29kZTogKHJbImNvdW50cnlfY29kZSJdIGFzIHN0cmluZyB8IG51bGwpID8/IG51bGwsCiAgfSkpOwoKLyoqIENvdW50cmllcyB0aGF0IGhhdmUgY2F0YWxvZ3VlZCBwZWFrcywgd2l0aCBjb3VudHMgKGZyb20gYSBjYWNoZWQgc3VtbWFyeSkuICovCmV4cG9ydCBjb25zdCBnZXRQZWFrQ291bnRyaWVzID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJHRVQiIH0pLmhhbmRsZXIoCiAgYXN5bmMgKCk6IFByb21pc2U8RGlyZWN0b3J5Q291bnRyeVtdPiA9PiB7CiAgICBjb25zdCBzdXBhYmFzZSA9IHNlcnZlckNsaWVudCgpOwogICAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgLmZyb20oIndvcmxkX3BlYWtfY291bnRyeV9zdGF0cyIpCiAgICAgIC5zZWxlY3QoImNvdW50cnlfY29kZSwgcGVha19jb3VudCwgbWF4X2VsZXZhdGlvbiIpCiAgICAgIC5vcmRlcigicGVha19jb3VudCIsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KQogICAgICAubGltaXQoMzAwKTsKICAgIGlmIChlcnJvciB8fCAhZGF0YSkgcmV0dXJuIFtdOwogICAgcmV0dXJuIChkYXRhIGFzIFJlY29yZDxzdHJpbmcsIHVua25vd24+W10pCiAgICAgIC5maWx0ZXIoKHIpID0+IFN0cmluZyhyWyJjb3VudHJ5X2NvZGUiXSA/PyAiIikubGVuZ3RoID09PSAyKQogICAgICAubWFwKChyKSA9PiAoewogICAgICAgIGNvZGU6IFN0cmluZyhyWyJjb3VudHJ5X2NvZGUiXSksCiAgICAgICAgcGVha0NvdW50OiBOdW1iZXIoclsicGVha19jb3VudCJdID8/IDApLAogICAgICAgIG1heEVsZXZhdGlvbjogclsibWF4X2VsZXZhdGlvbiJdID09IG51bGwgPyBudWxsIDogTnVtYmVyKHJbIm1heF9lbGV2YXRpb24iXSksCiAgICAgIH0pKTsKICB9LAopOwoKLyoqIE1vc3QgcHJvbWluZW50IHBlYWtzIHdvcmxkd2lkZS4gKi8KZXhwb3J0IGNvbnN0IGdldFRvcFBlYWtzID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJHRVQiIH0pCiAgLmlucHV0VmFsaWRhdG9yKChpbnB1dDogeyBsaW1pdD86IG51bWJlciB9IHwgdW5kZWZpbmVkKSA9PiAoewogICAgbGltaXQ6IE1hdGgubWluKE1hdGgubWF4KE51bWJlcihpbnB1dD8ubGltaXQgPz8gMTAwKSwgMSksIDMwMCksCiAgfSkpCiAgLmhhbmRsZXIoYXN5bmMgKHsgZGF0YSB9KTogUHJvbWlzZTxEaXJlY3RvcnlQZWFrW10+ID0+IHsKICAgIGNvbnN0IHN1cGFiYXNlID0gc2VydmVyQ2xpZW50KCk7CiAgICBjb25zdCB7IGRhdGE6IHJvd3MgfSA9IGF3YWl0IHN1cGFiYXNlCiAgICAgIC5mcm9tKCJ3b3JsZF9wZWFrcyIpCiAgICAgIC5zZWxlY3QoImlkLCBuYW1lLCBlbGV2YXRpb24sIHByb21pbmVuY2UsIGNvdW50cnlfY29kZSIpCiAgICAgIC5vcmRlcigicHJvbWluZW5jZSIsIHsgYXNjZW5kaW5nOiBmYWxzZSwgbnVsbHNGaXJzdDogZmFsc2UgfSkKICAgICAgLmxpbWl0KGRhdGEubGltaXQpOwogICAgcmV0dXJuIG1hcFBlYWtzKHJvd3MgYXMgUmVjb3JkPHN0cmluZywgdW5rbm93bj5bXSB8IG51bGwpOwogIH0pOwoKLyoqIE1vc3QgcHJvbWluZW50IHBlYWtzIHdpdGhpbiBvbmUgY291bnRyeS4gKi8KZXhwb3J0IGNvbnN0IGdldENvdW50cnlQZWFrcyA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiR0VUIiB9KQogIC5pbnB1dFZhbGlkYXRvcigoaW5wdXQ6IHsgY29kZTogc3RyaW5nOyBsaW1pdD86IG51bWJlciB9KSA9PiB7CiAgICBjb25zdCBjb2RlID0gU3RyaW5nKGlucHV0Py5jb2RlID8/ICIiKQogICAgICAudHJpbSgpCiAgICAgIC50b1VwcGVyQ2FzZSgpOwogICAgaWYgKCEvXltBLVpdezJ9JC8udGVzdChjb2RlKSkgdGhyb3cgbmV3IEVycm9yKCJJbnZhbGlkIGNvdW50cnkgY29kZSIpOwogICAgcmV0dXJuIHsgY29kZSwgbGltaXQ6IE1hdGgubWluKE1hdGgubWF4KE51bWJlcihpbnB1dD8ubGltaXQgPz8gMTUwKSwgMSksIDMwMCkgfTsKICB9KQogIC5oYW5kbGVyKGFzeW5jICh7IGRhdGEgfSk6IFByb21pc2U8RGlyZWN0b3J5UGVha1tdPiA9PiB7CiAgICBjb25zdCBzdXBhYmFzZSA9IHNlcnZlckNsaWVudCgpOwogICAgY29uc3QgeyBkYXRhOiByb3dzIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAuZnJvbSgid29ybGRfcGVha3MiKQogICAgICAuc2VsZWN0KCJpZCwgbmFtZSwgZWxldmF0aW9uLCBwcm9taW5lbmNlLCBjb3VudHJ5X2NvZGUiKQogICAgICAuZXEoImNvdW50cnlfY29kZSIsIGRhdGEuY29kZSkKICAgICAgLm9yZGVyKCJwcm9taW5lbmNlIiwgeyBhc2NlbmRpbmc6IGZhbHNlLCBudWxsc0ZpcnN0OiBmYWxzZSB9KQogICAgICAubGltaXQoZGF0YS5saW1pdCk7CiAgICByZXR1cm4gbWFwUGVha3Mocm93cyBhcyBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPltdIHwgbnVsbCk7CiAgfSk7CgovKiogSWRzIHVzZWQgdG8gYnVpbGQgdGhlIHB1YmxpYyBwZWFrIHNpdGVtYXAuICovCmV4cG9ydCBjb25zdCBnZXRTaXRlbWFwUGVha3MgPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIkdFVCIgfSkuaGFuZGxlcigKICBhc3luYyAoKTogUHJvbWlzZTx7IGlkOiBudW1iZXIgfVtdPiA9PiB7CiAgICBjb25zdCBzdXBhYmFzZSA9IHNlcnZlckNsaWVudCgpOwogICAgY29uc3Qgb3V0OiB7IGlkOiBudW1iZXIgfVtdID0gW107CiAgICAvLyBQb3N0Z1JFU1QgY2FwcyBhIHJlc3BvbnNlIGF0IDEwMDAgcm93cywgc28gcGFnZSB0aHJvdWdoIHRoZSB0b3AgcGVha3MuCiAgICBmb3IgKGxldCBwYWdlID0gMDsgcGFnZSA8IDU7IHBhZ2UrKykgewogICAgICBjb25zdCB7IGRhdGEgfSA9IGF3YWl0IHN1cGFiYXNlCiAgICAgICAgLmZyb20oIndvcmxkX3BlYWtzIikKICAgICAgICAuc2VsZWN0KCJpZCIpCiAgICAgICAgLm9yZGVyKCJwcm9taW5lbmNlIiwgeyBhc2NlbmRpbmc6IGZhbHNlLCBudWxsc0ZpcnN0OiBmYWxzZSB9KQogICAgICAgIC5yYW5nZShwYWdlICogMTAwMCwgcGFnZSAqIDEwMDAgKyA5OTkpOwogICAgICBjb25zdCByb3dzID0gKGRhdGEgYXMgUmVjb3JkPHN0cmluZywgdW5rbm93bj5bXSB8IG51bGwpID8/IFtdOwogICAgICBvdXQucHVzaCguLi5yb3dzLm1hcCgocikgPT4gKHsgaWQ6IE51bWJlcihyWyJpZCJdKSB9KSkpOwogICAgICBpZiAocm93cy5sZW5ndGggPCAxMDAwKSBicmVhazsKICAgIH0KICAgIHJldHVybiBvdXQ7CiAgfSwKKTsKCg==
+import { createServerFn } from "@tanstack/react-start";
+import { createClient } from "@supabase/supabase-js";
+
+export interface DirectoryPeak {
+  id: number;
+  name: string;
+  elevation: number | null;
+  prominence: number | null;
+  countryCode: string | null;
+}
+
+export interface DirectoryCountry {
+  code: string;
+  peakCount: number;
+  maxElevation: number | null;
+}
+
+const serverClient = () =>
+  createClient(process.env["SUPABASE_URL"]!, process.env["SUPABASE_SERVICE_ROLE_KEY"]!, {
+    auth: { persistSession: false },
+  });
+
+const mapPeaks = (rows: Record<string, unknown>[] | null): DirectoryPeak[] =>
+  (rows ?? []).map((r) => ({
+    id: Number(r["id"]),
+    name: String(r["name"]),
+    elevation: r["elevation"] == null ? null : Number(r["elevation"]),
+    prominence: r["prominence"] == null ? null : Number(r["prominence"]),
+    countryCode: (r["country_code"] as string | null) ?? null,
+  }));
+
+/** Countries that have catalogued peaks, with counts (from a cached summary). */
+export const getPeakCountries = createServerFn({ method: "GET" }).handler(
+  async (): Promise<DirectoryCountry[]> => {
+    const supabase = serverClient();
+    const { data, error } = await supabase
+      .from("world_peak_country_stats")
+      .select("country_code, peak_count, max_elevation")
+      .order("peak_count", { ascending: false })
+      .limit(300);
+    if (error || !data) return [];
+    return (data as Record<string, unknown>[])
+      .filter((r) => String(r["country_code"] ?? "").length === 2)
+      .map((r) => ({
+        code: String(r["country_code"]),
+        peakCount: Number(r["peak_count"] ?? 0),
+        maxElevation: r["max_elevation"] == null ? null : Number(r["max_elevation"]),
+      }));
+  },
+);
+
+/** Most prominent peaks worldwide. */
+export const getTopPeaks = createServerFn({ method: "GET" })
+  .inputValidator((input: { limit?: number } | undefined) => ({
+    limit: Math.min(Math.max(Number(input?.limit ?? 100), 1), 300),
+  }))
+  .handler(async ({ data }): Promise<DirectoryPeak[]> => {
+    const supabase = serverClient();
+    const { data: rows } = await supabase
+      .from("world_peaks")
+      .select("id, name, elevation, prominence, country_code")
+      .order("prominence", { ascending: false, nullsFirst: false })
+      .limit(data.limit);
+    return mapPeaks(rows as Record<string, unknown>[] | null);
+  });
+
+/** Most prominent peaks within one country. */
+export const getCountryPeaks = createServerFn({ method: "GET" })
+  .inputValidator((input: { code: string; limit?: number }) => {
+    const code = String(input?.code ?? "")
+      .trim()
+      .toUpperCase();
+    if (!/^[A-Z]{2}$/.test(code)) throw new Error("Invalid country code");
+    return { code, limit: Math.min(Math.max(Number(input?.limit ?? 150), 1), 300) };
+  })
+  .handler(async ({ data }): Promise<DirectoryPeak[]> => {
+    const supabase = serverClient();
+    const { data: rows } = await supabase
+      .from("world_peaks")
+      .select("id, name, elevation, prominence, country_code")
+      .eq("country_code", data.code)
+      .order("prominence", { ascending: false, nullsFirst: false })
+      .limit(data.limit);
+    return mapPeaks(rows as Record<string, unknown>[] | null);
+  });
+
+/** Ids used to build the public peak sitemap. */
+export const getSitemapPeaks = createServerFn({ method: "GET" }).handler(
+  async (): Promise<{ id: number }[]> => {
+    const supabase = serverClient();
+    const out: { id: number }[] = [];
+    // PostgREST caps a response at 1000 rows, so page through the top peaks.
+    for (let page = 0; page < 5; page++) {
+      const { data } = await supabase
+        .from("world_peaks")
+        .select("id")
+        .order("prominence", { ascending: false, nullsFirst: false })
+        .range(page * 1000, page * 1000 + 999);
+      const rows = (data as Record<string, unknown>[] | null) ?? [];
+      out.push(...rows.map((r) => ({ id: Number(r["id"]) })));
+      if (rows.length < 1000) break;
+    }
+    return out;
+  },
+);
+

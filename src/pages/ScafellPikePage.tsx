@@ -1,1 +1,340 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBBcnJvd0xlZnQsIE1vdW50YWluLCBDbG9jaywgTmF2aWdhdGlvbiwgQ2FsZW5kYXIsIFlvdXR1YmUsIE1hcFBpbiB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCBTZW8gZnJvbSAiQC9jb21wb25lbnRzL1NlbyI7CmltcG9ydCBOYXZiYXIgZnJvbSAiQC9jb21wb25lbnRzL05hdmJhciI7CmltcG9ydCBQZWFrSW1hZ2UgZnJvbSAiQC9jb21wb25lbnRzL1BlYWtJbWFnZSI7CmltcG9ydCB7IG9yZ2FuaXphdGlvblNjaGVtYSB9IGZyb20gIkAvbGliL3N0cnVjdHVyZWQtZGF0YSI7CmltcG9ydCBzY2FmZWxsU3VtbWl0IGZyb20gIkAvYXNzZXRzL3NjYWZlbGwtcGlrZS1zdW1taXQuanBnLmFzc2V0Lmpzb24iOwppbXBvcnQgc2NhZmVsbFNlbGZpZSBmcm9tICJAL2Fzc2V0cy9zY2FmZWxsLXBpa2Utc2VsZmllLmpwZy5hc3NldC5qc29uIjsKCmNvbnN0IFZJREVPX0lEID0gIkQzbWgzRGRpY19FIjsKY29uc3QgVklERU9fVVJMID0gYGh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9JHtWSURFT19JRH1gOwpjb25zdCBDQU5PTklDQUwgPSAiaHR0cHM6Ly9vbnNpZ2h0bWFydGluLmNvbS9wZWFrL3NjYWZlbGwtcGlrZSI7CmNvbnN0IEVMRVZBVElPTiA9IDk3ODsKCmNvbnN0IHJvdXRlczogeyBuYW1lOiBzdHJpbmc7IHN0YXRzOiBzdHJpbmc7IGRldGFpbDogc3RyaW5nIH1bXSA9IFsKICB7CiAgICBuYW1lOiAiV2FzZGFsZSBIZWFkICh0aGUgc2hvcnQgb25lKSIsCiAgICBzdGF0czogIn42IGttIHJldHVybiwgOTAwIG0gYXNjZW50LCA04oCTNSBoIiwKICAgIGRldGFpbDoKICAgICAgIlRoZSBjbGFzc2ljIGFuZCBzdGVlcGVzdCBhc2NlbnQuIEEgcmVsZW50bGVzcyBzdGFpcmNhc2UgdXAgQnJvd24gVG9uZ3VlIGFuZCBIb2xsb3cgU3RvbmVzIHRvIExpbmdtZWxsIENvbCwgdGhlbiBib3VsZGVycyB0byB0aGUgc3VtbWl0IHBsYXRlYXUuIFNob3J0ZXN0IHJvdXRlLCBidXQgYWxtb3N0IG5vIGZsYXQgZ3JvdW5kLiIsCiAgfSwKICB7CiAgICBuYW1lOiAiU2VhdGh3YWl0ZSB2aWEgQ29ycmlkb3IgUm91dGUiLAogICAgc3RhdHM6ICJ+MTQga20gcmV0dXJuLCAxLDAwMCBtIGFzY2VudCwgNuKAkzcgaCIsCiAgICBkZXRhaWw6CiAgICAgICJUaGUgYmVzdCBzY2VuZXJ5IG9mIHRoZSBzdGFuZGFyZCBsaW5lcy4gVXAgU3R5aGVhZCBHaWxsIHRvIFN0eSBIZWFkLCB0aGVuIHRoZSBDb3JyaWRvciBSb3V0ZSB0cmF2ZXJzZXMgYWJvdmUgUGllcnMgR2lsbCBiZWZvcmUgdGhlIGZpbmFsIHB1bGwgdG8gdGhlIHN1bW1pdC4gU29tZSBlYXN5IHNjcmFtYmxpbmcgYW5kIGV4cG9zdXJlLiIsCiAgfSwKICB7CiAgICBuYW1lOiAiQm9ycm93ZGFsZSB2aWEgRXNrIEhhdXNlIiwKICAgIHN0YXRzOiAifjE3IGttIHJldHVybiwgMSwwMDAgbSBhc2NlbnQsIDfigJM4IGgiLAogICAgZGV0YWlsOgogICAgICAiVGhlIGxvbmdlc3Qgb2YgdGhlIHBvcHVsYXIgYXBwcm9hY2hlcywgd2l0aCB0aGUgZ2VudGxlc3QgZ3JhZGllbnRzLiBHb29kIGluIHBvb3IgdmlzaWJpbGl0eSBiZWNhdXNlIHRoZSBwYXRoIGp1bmN0aW9ucyBhcmUgd2VsbCBjYWlybmVkLCB0aG91Z2ggdGhlIHN1bW1pdCBwbGF0ZWF1IHN0aWxsIGRlbWFuZHMgYSBiZWFyaW5nLiIsCiAgfSwKICB7CiAgICBuYW1lOiAiR3JlYXQgTGFuZ2RhbGUgKHdpdGggSmFjaydzIFJha2Ugb3B0aW9uKSIsCiAgICBzdGF0czogIn4xOCBrbSByZXR1cm4sIDEsMjAwIG0gYXNjZW50LCA44oCTOSBoIiwKICAgIGRldGFpbDoKICAgICAgIlRoZSByb3V0ZSBJIGZpbG1lZC4gSmFjaydzIFJha2Ugb24gUGF2ZXkgQXJrIGlzIGEgR3JhZGUgMSBzY3JhbWJsZSB1cCBhIGRpYWdvbmFsIGZhdWx0IGxpbmUg4oCUIHN0ZWVwLCBwb2xpc2hlZCBhbmQgZXhwb3NlZCDigJQgYmVzdCBrZXB0IGZvciBkcnkgZGF5cywgYW5kIGVhc2lseSBieXBhc3NlZCB2aWEgUm9zc2V0dCBHaWxsIGlmIHRoZSByb2NrIGlzIHdldC4iLAogIH0sCl07Cgpjb25zdCBmYXFzID0gWwogIHsKICAgIHF1ZXN0aW9uOiAiSG93IHRhbGwgaXMgU2NhZmVsbCBQaWtlPyIsCiAgICBhbnN3ZXI6CiAgICAgICJTY2FmZWxsIFBpa2UgaXMgOTc4IG1ldHJlcyAoMywyMDkgZmVldCkgaGlnaCwgbWFraW5nIGl0IHRoZSBoaWdoZXN0IG1vdW50YWluIGluIEVuZ2xhbmQgYW5kIHRoZSBoaWdoZXN0IHBvaW50IG9mIHRoZSBMYWtlIERpc3RyaWN0LiIsCiAgfSwKICB7CiAgICBxdWVzdGlvbjogIkhvdyBsb25nIGRvZXMgaXQgdGFrZSB0byBjbGltYiBTY2FmZWxsIFBpa2U/IiwKICAgIGFuc3dlcjoKICAgICAgIkFsbG93IDTigJM1IGhvdXJzIHJldHVybiBmcm9tIFdhc2RhbGUgSGVhZCwgNuKAkzcgaG91cnMgdmlhIHRoZSBDb3JyaWRvciBSb3V0ZSBmcm9tIFNlYXRod2FpdGUsIGFuZCA34oCTOSBob3VycyBmcm9tIEJvcnJvd2RhbGUgb3IgR3JlYXQgTGFuZ2RhbGUuIiwKICB9LAogIHsKICAgIHF1ZXN0aW9uOiAiSXMgU2NhZmVsbCBQaWtlIGhhcmQgdG8gY2xpbWI/IiwKICAgIGFuc3dlcjoKICAgICAgIk5vIHRlY2huaWNhbCBjbGltYmluZyBpcyByZXF1aXJlZCBvbiB0aGUgd2Fsa2Vycycgcm91dGVzLCBidXQgaXQgaXMgYSBzZXJpb3VzIGhpbGwgd2Fsazogc3RlZXAsIHJvY2t5IGdyb3VuZCwgYSBib3VsZGVyLWZpZWxkIHN1bW1pdCBwbGF0ZWF1IGFuZCBmYXN0LWNoYW5naW5nIHdlYXRoZXIuIE5hdmlnYXRpb24gc2tpbGxzIG1hdHRlciBtb3JlIHRoYW4gZml0bmVzcyBpbiBjbG91ZC4iLAogIH0sCiAgewogICAgcXVlc3Rpb246ICJXaGF0IGlzIHRoZSBlYXNpZXN0IHJvdXRlIHVwIFNjYWZlbGwgUGlrZT8iLAogICAgYW5zd2VyOgogICAgICAiVGhlIHNob3J0ZXN0IGlzIHRoZSBXYXNkYWxlIEhlYWQgcGF0aCwgYnV0IGl0IGlzIGFsc28gdGhlIHN0ZWVwZXN0LiBUaGUgZ2VudGxlc3QgZ3JhZGllbnQgaXMgdGhlIEJvcnJvd2RhbGUgYXBwcm9hY2ggdmlhIEVzayBIYXVzZSwgYXQgdGhlIGNvc3Qgb2YgZXh0cmEgZGlzdGFuY2UuIiwKICB9LAogIHsKICAgIHF1ZXN0aW9uOiAiRG8geW91IG5lZWQgYSBndWlkZSBvciBwZXJtaXQgZm9yIFNjYWZlbGwgUGlrZT8iLAogICAgYW5zd2VyOgogICAgICAiTm8gcGVybWl0IGFuZCBubyBndWlkZSBhcmUgbmVlZGVkLiBQYXJraW5nIGF0IFdhc2RhbGUgSGVhZCBhbmQgU2VhdGh3YWl0ZSBpcyBsaW1pdGVkIGFuZCBmaWxscyBlYXJseSwgc28gYXJyaXZlIGF0IGRhd24gaW4gc3VtbWVyLiIsCiAgfSwKICB7CiAgICBxdWVzdGlvbjogIldoYXQgaXMgdGhlIGRpZmZlcmVuY2UgYmV0d2VlbiBTY2FmZWxsIFBpa2UgYW5kIFNjYWZlbGw/IiwKICAgIGFuc3dlcjoKICAgICAgIlRoZXkgYXJlIHR3byBzZXBhcmF0ZSBzdW1taXRzLiBTY2FmZWxsIFBpa2UgKDk3OCBtKSBpcyB0aGUgaGlnaGVyIGFuZCBpcyBFbmdsYW5kJ3MgaGlnaCBwb2ludDsgbmVpZ2hib3VyaW5nIFNjYWZlbGwgKDk2NCBtKSBpcyBzZXBhcmF0ZWQgYnkgdGhlIE1pY2tsZWRvcmUgY29sIGFuZCB0aGUgdHJpY2t5IEJyb2FkIFN0YW5kIHN0ZXAuIiwKICB9LAogIHsKICAgIHF1ZXN0aW9uOiAiV2hlbiBpcyB0aGUgYmVzdCB0aW1lIHRvIGNsaW1iIFNjYWZlbGwgUGlrZT8iLAogICAgYW5zd2VyOgogICAgICAiTWF5IHRvIFNlcHRlbWJlciBnaXZlcyB0aGUgbG9uZ2VzdCBkYXlzIGFuZCBtb3N0IHNldHRsZWQgd2VhdGhlci4gV2ludGVyIGFzY2VudHMgYXJlIHBvc3NpYmxlIGJ1dCB0aGUgc3VtbWl0IHBsYXRlYXUgaG9sZHMgc25vdyBhbmQgaWNlLCBzbyBheGUsIGNyYW1wb25zIGFuZCBuYXZpZ2F0aW9uIGV4cGVyaWVuY2UgYXJlIG5lZWRlZC4iLAogIH0sCiAgewogICAgcXVlc3Rpb246ICJIb3cgZGFuZ2Vyb3VzIGlzIEphY2sncyBSYWtlPyIsCiAgICBhbnN3ZXI6CiAgICAgICJKYWNrJ3MgUmFrZSBpcyBhIEdyYWRlIDEgc2NyYW1ibGUgb24gUGF2ZXkgQXJrIHdpdGggcmVhbCBleHBvc3VyZSBhbmQgcG9saXNoZWQgcm9jay4gSXQgaXMgZmluZSBmb3IgY29uZmlkZW50IHNjcmFtYmxlcnMgaW4gZHJ5IGNvbmRpdGlvbnMgYnV0IHNob3VsZCBiZSBhdm9pZGVkIHdoZW4gd2V0LCB3aW5keSBvciBpY3kuIiwKICB9LApdOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gU2NhZmVsbFBpa2VQYWdlKCkgewogIGNvbnN0IGpzb25MZCA9IFsKICAgIHsKICAgICAgIkBjb250ZXh0IjogImh0dHBzOi8vc2NoZW1hLm9yZyIsCiAgICAgICJAdHlwZSI6ICJBcnRpY2xlIiwKICAgICAgaGVhZGxpbmU6ICJTY2FmZWxsIFBpa2UgKDk3OCBtKTogQ2xpbWJpbmcgdGhlIEhpZ2hlc3QgTW91bnRhaW4gaW4gRW5nbGFuZCIsCiAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICJSb3V0ZXMsIHRpbWluZ3MsIGNvbmRpdGlvbnMgYW5kIGEgc3VtbWl0IHZpZGVvIGZvciBTY2FmZWxsIFBpa2UsIEVuZ2xhbmQncyBoaWdoZXN0IG1vdW50YWluIGF0IDk3OCBtIGluIHRoZSBMYWtlIERpc3RyaWN0LiIsCiAgICAgIGltYWdlOiBzY2FmZWxsU3VtbWl0LnVybCwKICAgICAgZGF0ZVB1Ymxpc2hlZDogIjIwMjYtMDgtMTciLAogICAgICBhdXRob3I6IHsgIkB0eXBlIjogIlBlcnNvbiIsIG5hbWU6ICJNYXJ0aW4gR8OlcmRsaW5nIiwgdXJsOiAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQG9uc2lnaHRtYXJ0aW4iIH0sCiAgICAgIHB1Ymxpc2hlcjogb3JnYW5pemF0aW9uU2NoZW1hLAogICAgICBtYWluRW50aXR5T2ZQYWdlOiB7ICJAdHlwZSI6ICJXZWJQYWdlIiwgIkBpZCI6IENBTk9OSUNBTCB9LAogICAgICBhYm91dDogewogICAgICAgICJAdHlwZSI6ICJNb3VudGFpbiIsCiAgICAgICAgbmFtZTogIlNjYWZlbGwgUGlrZSIsCiAgICAgICAgYWx0ZXJuYXRlTmFtZTogWyJTY2FmZWxsIFBpa2VzIiwgIlNjYSBGZWxsIFBpa2UiXSwKICAgICAgICBlbGV2YXRpb246IGAke0VMRVZBVElPTn0gbWAsCiAgICAgICAgZ2VvOiB7ICJAdHlwZSI6ICJHZW9Db29yZGluYXRlcyIsIGxhdGl0dWRlOiA1NC40NTQyLCBsb25naXR1ZGU6IC0zLjIxMTcgfSwKICAgICAgICBhZGRyZXNzOiB7CiAgICAgICAgICAiQHR5cGUiOiAiUG9zdGFsQWRkcmVzcyIsCiAgICAgICAgICBhZGRyZXNzQ291bnRyeTogIlVuaXRlZCBLaW5nZG9tIiwKICAgICAgICAgIGFkZHJlc3NSZWdpb246ICJFbmdsYW5kLCBMYWtlIERpc3RyaWN0LCBDdW1icmlhIiwKICAgICAgICB9LAogICAgICB9LAogICAgfSwKICAgIHsKICAgICAgIkBjb250ZXh0IjogImh0dHBzOi8vc2NoZW1hLm9yZyIsCiAgICAgICJAdHlwZSI6ICJWaWRlb09iamVjdCIsCiAgICAgIG5hbWU6ICJJIENsaW1iZWQgSmFjaydzIFJha2U/IC0gU2NhZmVsbCBQaWtlIEVuZ2xhbmQiLAogICAgICBkZXNjcmlwdGlvbjoKICAgICAgICAiTWFydGluIEfDpXJkbGluZyBjbGltYnMgU2NhZmVsbCBQaWtlICg5NzggbSksIHRoZSBoaWdoZXN0IG1vdW50YWluIGluIEVuZ2xhbmQsIHRha2luZyBpbiBKYWNrJ3MgUmFrZSBvbiBQYXZleSBBcmsuIiwKICAgICAgdGh1bWJuYWlsVXJsOiBbYGh0dHBzOi8vaS55dGltZy5jb20vdmkvJHtWSURFT19JRH0vaHFkZWZhdWx0LmpwZ2BdLAogICAgICB1cGxvYWREYXRlOiAiMjAyNi0wOC0xNyIsCiAgICAgIGNvbnRlbnRVcmw6IFZJREVPX1VSTCwKICAgICAgZW1iZWRVcmw6IGBodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC8ke1ZJREVPX0lEfWAsCiAgICAgIHB1Ymxpc2hlcjogb3JnYW5pemF0aW9uU2NoZW1hLAogICAgfSwKICAgIHsKICAgICAgIkBjb250ZXh0IjogImh0dHBzOi8vc2NoZW1hLm9yZyIsCiAgICAgICJAdHlwZSI6ICJGQVFQYWdlIiwKICAgICAgbWFpbkVudGl0eTogZmFxcy5tYXAoKGYpID0+ICh7CiAgICAgICAgIkB0eXBlIjogIlF1ZXN0aW9uIiwKICAgICAgICBuYW1lOiBmLnF1ZXN0aW9uLAogICAgICAgIGFjY2VwdGVkQW5zd2VyOiB7ICJAdHlwZSI6ICJBbnN3ZXIiLCB0ZXh0OiBmLmFuc3dlciB9LAogICAgICB9KSksCiAgICB9LAogIF07CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLWgtc2NyZWVuIGJnLWJhY2tncm91bmQiPgogICAgICA8U2VvCiAgICAgICAgdGl0bGU9IlNjYWZlbGwgUGlrZSAoOTc4IG0pOiBIaWdoZXN0IE1vdW50YWluIGluIEVuZ2xhbmQiCiAgICAgICAgZGVzY3JpcHRpb249IlNjYWZlbGwgUGlrZSwgOTc4IG0sIGlzIEVuZ2xhbmQncyBoaWdoZXN0IG1vdW50YWluLiBSb3V0ZXMgZnJvbSBXYXNkYWxlLCBTZWF0aHdhaXRlIGFuZCBMYW5nZGFsZSwgdGltaW5ncywgY29uZGl0aW9ucywgcGhvdG9zIGFuZCBhIHN1bW1pdCB2aWRlby4iCiAgICAgICAgcGF0aD0iL3BlYWsvc2NhZmVsbC1waWtlIgogICAgICAgIGltYWdlPXtzY2FmZWxsU3VtbWl0LnVybH0KICAgICAgICB0eXBlPSJhcnRpY2xlIgogICAgICAgIGJyZWFkY3J1bWJMZWFmPSJTY2FmZWxsIFBpa2UgKEVuZ2xhbmQpIgogICAgICAgIGpzb25MZD17anNvbkxkfQogICAgICAvPgogICAgICA8TmF2YmFyIC8+CgogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InJlbGF0aXZlIGgtWzUwdmhdIG1kOmgtWzYwdmhdIGZsZXggaXRlbXMtZW5kIG92ZXJmbG93LWhpZGRlbiI+CiAgICAgICAgPFBlYWtJbWFnZQogICAgICAgICAgc3JjPXtzY2FmZWxsU3VtbWl0LnVybH0KICAgICAgICAgIGFsdD0iU3VtbWl0IGNhaXJuIG9uIFNjYWZlbGwgUGlrZSAoOTc4IG0pLCB0aGUgaGlnaGVzdCBtb3VudGFpbiBpbiBFbmdsYW5kLCBMYWtlIERpc3RyaWN0IgogICAgICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIHctZnVsbCBoLWZ1bGwgb2JqZWN0LWNvdmVyIG9iamVjdC1jZW50ZXIiCiAgICAgICAgICB3aWR0aD17MTYwMH0KICAgICAgICAgIGhlaWdodD17OTAwfQogICAgICAgICAgbG9hZGluZz0iZWFnZXIiCiAgICAgICAgICBmZXRjaFByaW9yaXR5PSJoaWdoIgogICAgICAgIC8+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgYmctZ3JhZGllbnQtdG8tdCBmcm9tLWJhY2tncm91bmQgdmlhLWJhY2tncm91bmQvNjAgdG8tdHJhbnNwYXJlbnQiIC8+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIGNvbnRhaW5lciBteC1hdXRvIHB4LTQgcGItMTAiPgogICAgICAgICAgPExpbmsKICAgICAgICAgICAgdG89Ii9mZWF0dXJlZCIKICAgICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGhvdmVyOnRleHQtZm9yZWdyb3VuZCB0ZXh0LXNtIG1iLTQgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxBcnJvd0xlZnQgY2xhc3NOYW1lPSJ3LTQgaC00IiAvPiBGZWF0dXJlZCBwZWFrcwogICAgICAgICAgPC9MaW5rPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdHJhY2tpbmctd2lkZXN0IHRleHQtcHJpbWFyeSB0ZXh0LXhzIG1kOnRleHQtc20gbWItMiI+CiAgICAgICAgICAgIEZFQVRVUkVEIOKAlCBFTkdMQU5EIEhJR0ggUE9JTlQKICAgICAgICAgIDwvcD4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTN4bCBtZDp0ZXh0LTZ4bCBmb250LWJvbGQgdGV4dC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgU2NhZmVsbCBQaWtlCiAgICAgICAgICA8L2gxPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMiBtYXgtdy0yeGwiPgogICAgICAgICAgICA5NzggbSDCtyBMYWtlIERpc3RyaWN0LCBDdW1icmlhIMK3IHRoZSBoaWdoZXN0IG1vdW50YWluIGluIEVuZ2xhbmQg4oCUIHN1bW1pdGVkIDIyIEp1bHkgMjAyNgogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIG14LWF1dG8gcHgtNCBweS0xMiBtYXgtdy00eGwiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIG1kOmdyaWQtY29scy00IGdhcC0zIG1iLTEyIj4KICAgICAgICAgIHtbCiAgICAgICAgICAgIHsgaWNvbjogTW91bnRhaW4sIGxhYmVsOiAiRWxldmF0aW9uIiwgdmFsdWU6ICI5NzggbSAvIDMsMjA5IGZ0IiB9LAogICAgICAgICAgICB7IGljb246IE5hdmlnYXRpb24sIGxhYmVsOiAiUmFuZ2UiLCB2YWx1ZTogIlNvdXRoZXJuIEZlbGxzIiB9LAogICAgICAgICAgICB7IGljb246IENsb2NrLCBsYWJlbDogIlR5cGljYWwgZGF5IiwgdmFsdWU6ICI04oCTOSBoIHJldHVybiIgfSwKICAgICAgICAgICAgeyBpY29uOiBDYWxlbmRhciwgbGFiZWw6ICJCZXN0IHNlYXNvbiIsIHZhbHVlOiAiTWF5IOKAkyBTZXB0ZW1iZXIiIH0sCiAgICAgICAgICBdLm1hcCgoeyBpY29uOiBJY29uLCBsYWJlbCwgdmFsdWUgfSkgPT4gKAogICAgICAgICAgICA8ZGl2IGtleT17bGFiZWx9IGNsYXNzTmFtZT0iYmctY2FyZCByb3VuZGVkLXNtIHAtNCBib3JkZXIgYm9yZGVyLWJvcmRlciI+CiAgICAgICAgICAgICAgPEljb24gY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtcHJpbWFyeSBtYi0yIiAvPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPntsYWJlbH08L3A+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZm9yZWdyb3VuZCI+e3ZhbHVlfTwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApKX0KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJtYi0xMiI+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0yeGwgdGV4dC1mb3JlZ3JvdW5kIG1iLTQiPkFib3V0IFNjYWZlbGwgUGlrZTwvaDI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS00IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBsZWFkaW5nLXJlbGF4ZWQiPgogICAgICAgICAgICA8cD4KICAgICAgICAgICAgICBTY2FmZWxsIFBpa2UgaXMgdGhlIGhpZ2hlc3QgbW91bnRhaW4gaW4gRW5nbGFuZCBhdCA5NzggbWV0cmVzICgzLDIwOSBmZWV0KSwgc3RhbmRpbmcgYXQgdGhlCiAgICAgICAgICAgICAgaGVhcnQgb2YgdGhlIFNvdXRoZXJuIEZlbGxzIGluIHRoZSBMYWtlIERpc3RyaWN0LiBJdCBpcyB0aGUgRW5nbGlzaCBsZWcgb2YgdGhlIE5hdGlvbmFsIFRocmVlCiAgICAgICAgICAgICAgUGVha3MgQ2hhbGxlbmdlIGFsb25nc2lkZSBCZW4gTmV2aXMgYW5kIFNub3dkb24sIGFuZCBvbmUgb2YgdGhlIGZvdXIgY29uc3RpdHVlbnQtY291bnRyeSBoaWdoCiAgICAgICAgICAgICAgcG9pbnRzIG9mIHRoZSBVbml0ZWQgS2luZ2RvbS4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8cD4KICAgICAgICAgICAgICBEZXNwaXRlIHRoZSBtb2Rlc3QgaGVpZ2h0LCBpdCBmZWVscyBmYXIgYmlnZ2VyIHRoYW4gdGhlIG51bWJlciBzdWdnZXN0cy4gRXZlcnkgcm91dGUgc3RhcnRzCiAgICAgICAgICAgICAgY2xvc2UgdG8gc2VhIGxldmVsLCB0aGUgdXBwZXIgbW91bnRhaW4gaXMgYSBjaGFvdGljIGJvdWxkZXIgZmllbGQsIGFuZCB0aGUgc3VtbWl0IHBsYXRlYXUgaXMKICAgICAgICAgICAgICBub3RvcmlvdXMgZm9yIHN3YWxsb3dpbmcgd2Fsa2VycyBpbiBjbG91ZCDigJQgY29tcGFzcyBhbmQgbWFwLCBub3QgYSBwaG9uZSwgYXJlIHRoZSB0b29scyB0aGF0CiAgICAgICAgICAgICAgZ2V0IHBlb3BsZSBkb3duIHNhZmVseS4gVGhlIHN1bW1pdCBjYWlybiBpcyBhbHNvIGEgd2FyIG1lbW9yaWFsLCBnaWZ0ZWQgdG8gdGhlIE5hdGlvbmFsIFRydXN0CiAgICAgICAgICAgICAgYnkgTG9yZCBMZWNvbmZpZWxkIGluIDE5MTkgaW4gbWVtb3J5IG9mIHRoZSBtZW4gb2YgdGhlIExha2UgRGlzdHJpY3Qgd2hvIGRpZWQgaW4gdGhlIEZpcnN0CiAgICAgICAgICAgICAgV29ybGQgV2FyLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ibWItMTIiPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtMnhsIHRleHQtZm9yZWdyb3VuZCBtYi00Ij5Sb3V0ZXMgdXAgU2NhZmVsbCBQaWtlPC9oMj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMiPgogICAgICAgICAgICB7cm91dGVzLm1hcCgocikgPT4gKAogICAgICAgICAgICAgIDxkaXYga2V5PXtyLm5hbWV9IGNsYXNzTmFtZT0iYmctY2FyZCBib3JkZXIgYm9yZGVyLWJvcmRlciByb3VuZGVkLXNtIHAtNCI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtYmFzZWxpbmUganVzdGlmeS1iZXR3ZWVuIGdhcC0yIG1iLTEiPgogICAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJmb250LW1lZGl1bSB0ZXh0LWZvcmVncm91bmQiPntyLm5hbWV9PC9oMz4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtcHJpbWFyeSBmb250LWRpc3BsYXkiPntyLnN0YXRzfTwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBsZWFkaW5nLXJlbGF4ZWQiPntyLmRldGFpbH08L3A+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9Im1iLTEyIj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTJ4bCB0ZXh0LWZvcmVncm91bmQgbWItNCI+Q29uZGl0aW9ucywgZ2VhciBhbmQgYWNjZXNzPC9oMj4KICAgICAgICAgIDx1bCBjbGFzc05hbWU9InNwYWNlLXktMiB0ZXh0LW11dGVkLWZvcmVncm91bmQgdGV4dC1zbSBsaXN0LWRpc2MgcGwtNSI+CiAgICAgICAgICAgIDxsaT5ObyBwZXJtaXQsIG5vIGZlZXMgYW5kIG5vIGd1aWRlIHJlcXVpcmVkIOKAlCBTY2FmZWxsIFBpa2UgaXMgb3BlbiBhY2Nlc3MgbGFuZC48L2xpPgogICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgUGFya2luZyBpcyB0aGUgcmVhbCBib3R0bGVuZWNrOiBXYXNkYWxlIEhlYWQgYW5kIFNlYXRod2FpdGUgZmlsbCBieSBlYXJseSBtb3JuaW5nIGluIHN1bW1lcgogICAgICAgICAgICAgIGFuZCByb2Fkc2lkZSBwYXJraW5nIGlzIGhlYXZpbHkgcmVzdHJpY3RlZC4KICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgPGxpPgogICAgICAgICAgICAgIFN1bW1lciBraXQ6IGJvb3RzIHdpdGggYSBzdGlmZiBzb2xlIGZvciB0aGUgYm91bGRlciBmaWVsZHMsIHdhdGVycHJvb2Ygc2hlbGwsIHdhcm0gbGF5ZXIsIDIgTAogICAgICAgICAgICAgIG9mIHdhdGVyLCBoZWFkIHRvcmNoIGFuZCBhIHBhcGVyIG1hcCAoT1MgRXhwbG9yZXIgT0w2KS4KICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgPGxpPgogICAgICAgICAgICAgIFdpbnRlcjogdGhlIHBsYXRlYXUgaG9sZHMgaGFyZCBuw6l2w6kgYW5kIHZlcmdsYXMg4oCUIGljZSBheGUsIGNyYW1wb25zIGFuZCB3aW50ZXIgbmF2aWdhdGlvbgogICAgICAgICAgICAgIGV4cGVyaWVuY2UgYXJlIG5lZWRlZCBmcm9tIHJvdWdobHkgTm92ZW1iZXIgdG8gQXByaWwuCiAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgIDxsaT4KICAgICAgICAgICAgICBXZWF0aGVyIGZsaXBzIGZhc3QuIFN1bW1pdCB0ZW1wZXJhdHVyZXMgdHlwaWNhbGx5IHJ1biA24oCTOCDCsEMgYmVsb3cgdGhlIHZhbGxleSwgd2l0aCB3aW5kIGNoaWxsCiAgICAgICAgICAgICAgb24gdG9wIG9mIHRoYXQuCiAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICA8L3VsPgogICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJtYi0xMiI+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0yeGwgdGV4dC1mb3JlZ3JvdW5kIG1iLTQiPgogICAgICAgICAgICA8WW91dHViZSBjbGFzc05hbWU9ImlubGluZSB3LTUgaC01IHRleHQtcHJpbWFyeSBtci0yIiAvPgogICAgICAgICAgICBUaGUgc3VtbWl0IHZpZGVvCiAgICAgICAgICA8L2gyPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFzcGVjdC12aWRlbyB3LWZ1bGwgcm91bmRlZC1zbSBvdmVyZmxvdy1oaWRkZW4gYm9yZGVyIGJvcmRlci1ib3JkZXIiPgogICAgICAgICAgICA8aWZyYW1lCiAgICAgICAgICAgICAgc3JjPXtgaHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvJHtWSURFT19JRH1gfQogICAgICAgICAgICAgIHRpdGxlPSJJIENsaW1iZWQgSmFjaydzIFJha2U/IC0gU2NhZmVsbCBQaWtlIEVuZ2xhbmQiCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgaC1mdWxsIgogICAgICAgICAgICAgIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgY2xpcGJvYXJkLXdyaXRlOyBlbmNyeXB0ZWQtbWVkaWE7IGd5cm9zY29wZTsgcGljdHVyZS1pbi1waWN0dXJlIgogICAgICAgICAgICAgIGFsbG93RnVsbFNjcmVlbgogICAgICAgICAgICAgIGxvYWRpbmc9ImxhenkiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMyI+CiAgICAgICAgICAgIEphY2sncyBSYWtlIG9uIFBhdmV5IEFyaywgdGhlbiBvdmVyIHRvIHRoZSBFbmdsYW5kIGhpZ2ggcG9pbnQg4oCUIHRoZSBmdWxsIExha2UgRGlzdHJpY3QgZGF5LgogICAgICAgICAgPC9wPgogICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJtYi0xMiI+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0yeGwgdGV4dC1mb3JlZ3JvdW5kIG1iLTQiPk15IGNsaW1iPC9oMj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIG1kOmdyaWQtY29scy0yIGdhcC00Ij4KICAgICAgICAgICAgPFBlYWtJbWFnZQogICAgICAgICAgICAgIHNyYz17c2NhZmVsbFNlbGZpZS51cmx9CiAgICAgICAgICAgICAgYWx0PSJNYXJ0aW4gR8OlcmRsaW5nIG9uIHRoZSBTY2FmZWxsIFBpa2Ugc3VtbWl0IHJpZGdlLCBFbmdsYW5kLCBKdWx5IDIwMjYiCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgcm91bmRlZC1zbSBvYmplY3QtY292ZXIiCiAgICAgICAgICAgICAgd2lkdGg9ezgwMH0KICAgICAgICAgICAgICBoZWlnaHQ9ezYwMH0KICAgICAgICAgICAgICBsb2FkaW5nPSJsYXp5IgogICAgICAgICAgICAvPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRleHQtc20gbGVhZGluZy1yZWxheGVkIHNwYWNlLXktMyI+CiAgICAgICAgICAgICAgPHA+CiAgICAgICAgICAgICAgICBTdW1taXRlZCBvbiAyMiBKdWx5IDIwMjYgYXMgdGhlIGxhc3Qgb2YgdGhlIGZvdXIgVUsgY29uc3RpdHVlbnQtY291bnRyeSBoaWdoIHBvaW50cywgYWZ0ZXIKICAgICAgICAgICAgICAgIFNub3dkb24sIFNsaWV2ZSBEb25hcmQgYW5kIEJlbiBOZXZpcyBlYXJsaWVyIHRoZSBzYW1lIG1vbnRoLiBTYW1lIHRyaXAgdG9vayBpbiBIYXJyaXNvbgogICAgICAgICAgICAgICAgU3RpY2tsZSBhbmQgdGhlIExhbmdkYWxlIFBpa2VzLgogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgIDxNYXBQaW4gY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtcHJpbWFyeSIgLz4gNTQuNDU0MsKwIE4sIDMuMjExN8KwIFcKICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9Im1iLTEyIj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTJ4bCB0ZXh0LWZvcmVncm91bmQgbWItNCI+U2NhZmVsbCBQaWtlIEZBUTwvaDI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS00Ij4KICAgICAgICAgICAge2ZhcXMubWFwKChmKSA9PiAoCiAgICAgICAgICAgICAgPGRpdiBrZXk9e2YucXVlc3Rpb259IGNsYXNzTmFtZT0iYm9yZGVyLWIgYm9yZGVyLWJvcmRlciBwYi00Ij4KICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9ImZvbnQtbWVkaXVtIHRleHQtZm9yZWdyb3VuZCBtYi0xIj57Zi5xdWVzdGlvbn08L2gzPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBsZWFkaW5nLXJlbGF4ZWQiPntmLmFuc3dlcn08L3A+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTJ4bCB0ZXh0LWZvcmVncm91bmQgbWItNCI+TmVhcmJ5IGhpZ2ggcG9pbnRzPC9oMj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiI+CiAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAgdG89Ii9wZWFrL3VuaXRlZC1raW5nZG9tIgogICAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtMyBweS0yIGJnLWNhcmQgYm9yZGVyIGJvcmRlci1ib3JkZXIgcm91bmRlZC1zbSB0ZXh0LXNtIHRleHQtZm9yZWdyb3VuZCBob3Zlcjpib3JkZXItcHJpbWFyeSB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIFVuaXRlZCBLaW5nZG9tIOKAlCBCZW4gTmV2aXMgKDEsMzQ1IG0pCiAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICB0bz0iL3BlYWsvaXJlbGFuZCIKICAgICAgICAgICAgICBjbGFzc05hbWU9InB4LTMgcHktMiBiZy1jYXJkIGJvcmRlciBib3JkZXItYm9yZGVyIHJvdW5kZWQtc20gdGV4dC1zbSB0ZXh0LWZvcmVncm91bmQgaG92ZXI6Ym9yZGVyLXByaW1hcnkgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICBJcmVsYW5kIOKAlCBDYXJyYXVudG9vaGlsICgxLDAzOCBtKQogICAgICAgICAgICA8L0xpbms+CgogICAgICAgICAgICA8TGluawogICAgICAgICAgICAgIHRvPSIvb3RoZXItcGVha3MiCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJweC0zIHB5LTIgYmctY2FyZCBib3JkZXIgYm9yZGVyLWJvcmRlciByb3VuZGVkLXNtIHRleHQtc20gdGV4dC1mb3JlZ3JvdW5kIGhvdmVyOmJvcmRlci1wcmltYXJ5IHRyYW5zaXRpb24tY29sb3JzIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgQWxsIG90aGVyIHBlYWtzIGNsaW1iZWQKICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9zZWN0aW9uPgogICAgICA8L2Rpdj4KCiAgICAgIDxmb290ZXIgY2xhc3NOYW1lPSJiZy1iYWNrZ3JvdW5kIGJvcmRlci10IGJvcmRlci1ib3JkZXIgcHktOCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciBteC1hdXRvIHB4LTQgdGV4dC1jZW50ZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRleHQtc20iPgogICAgICAgICAgPHA+wqkge25ldyBEYXRlKCkuZ2V0RnVsbFllYXIoKX0gT25zaWdodCBNYXJ0aW4g4oCUIE1hcnRpbiBHw6VyZGxpbmc8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZm9vdGVyPgogICAgPC9kaXY+CiAgKTsKfQo=
+import { Link } from "@/lib/router-compat";
+import { ArrowLeft, Mountain, Clock, Navigation, Calendar, Youtube, MapPin } from "lucide-react";
+import Seo from "@/components/Seo";
+import Navbar from "@/components/Navbar";
+import PeakImage from "@/components/PeakImage";
+import { organizationSchema } from "@/lib/structured-data";
+import scafellSummit from "@/assets/scafell-pike-summit.jpg.asset.json";
+import scafellSelfie from "@/assets/scafell-pike-selfie.jpg.asset.json";
+
+const VIDEO_ID = "D3mh3Ddic_E";
+const VIDEO_URL = `https://www.youtube.com/watch?v=${VIDEO_ID}`;
+const CANONICAL = "https://onsightmartin.com/peak/scafell-pike";
+const ELEVATION = 978;
+
+const routes: { name: string; stats: string; detail: string }[] = [
+  {
+    name: "Wasdale Head (the short one)",
+    stats: "~6 km return, 900 m ascent, 4–5 h",
+    detail:
+      "The classic and steepest ascent. A relentless staircase up Brown Tongue and Hollow Stones to Lingmell Col, then boulders to the summit plateau. Shortest route, but almost no flat ground.",
+  },
+  {
+    name: "Seathwaite via Corridor Route",
+    stats: "~14 km return, 1,000 m ascent, 6–7 h",
+    detail:
+      "The best scenery of the standard lines. Up Styhead Gill to Sty Head, then the Corridor Route traverses above Piers Gill before the final pull to the summit. Some easy scrambling and exposure.",
+  },
+  {
+    name: "Borrowdale via Esk Hause",
+    stats: "~17 km return, 1,000 m ascent, 7–8 h",
+    detail:
+      "The longest of the popular approaches, with the gentlest gradients. Good in poor visibility because the path junctions are well cairned, though the summit plateau still demands a bearing.",
+  },
+  {
+    name: "Great Langdale (with Jack's Rake option)",
+    stats: "~18 km return, 1,200 m ascent, 8–9 h",
+    detail:
+      "The route I filmed. Jack's Rake on Pavey Ark is a Grade 1 scramble up a diagonal fault line — steep, polished and exposed — best kept for dry days, and easily bypassed via Rossett Gill if the rock is wet.",
+  },
+];
+
+const faqs = [
+  {
+    question: "How tall is Scafell Pike?",
+    answer:
+      "Scafell Pike is 978 metres (3,209 feet) high, making it the highest mountain in England and the highest point of the Lake District.",
+  },
+  {
+    question: "How long does it take to climb Scafell Pike?",
+    answer:
+      "Allow 4–5 hours return from Wasdale Head, 6–7 hours via the Corridor Route from Seathwaite, and 7–9 hours from Borrowdale or Great Langdale.",
+  },
+  {
+    question: "Is Scafell Pike hard to climb?",
+    answer:
+      "No technical climbing is required on the walkers' routes, but it is a serious hill walk: steep, rocky ground, a boulder-field summit plateau and fast-changing weather. Navigation skills matter more than fitness in cloud.",
+  },
+  {
+    question: "What is the easiest route up Scafell Pike?",
+    answer:
+      "The shortest is the Wasdale Head path, but it is also the steepest. The gentlest gradient is the Borrowdale approach via Esk Hause, at the cost of extra distance.",
+  },
+  {
+    question: "Do you need a guide or permit for Scafell Pike?",
+    answer:
+      "No permit and no guide are needed. Parking at Wasdale Head and Seathwaite is limited and fills early, so arrive at dawn in summer.",
+  },
+  {
+    question: "What is the difference between Scafell Pike and Scafell?",
+    answer:
+      "They are two separate summits. Scafell Pike (978 m) is the higher and is England's high point; neighbouring Scafell (964 m) is separated by the Mickledore col and the tricky Broad Stand step.",
+  },
+  {
+    question: "When is the best time to climb Scafell Pike?",
+    answer:
+      "May to September gives the longest days and most settled weather. Winter ascents are possible but the summit plateau holds snow and ice, so axe, crampons and navigation experience are needed.",
+  },
+  {
+    question: "How dangerous is Jack's Rake?",
+    answer:
+      "Jack's Rake is a Grade 1 scramble on Pavey Ark with real exposure and polished rock. It is fine for confident scramblers in dry conditions but should be avoided when wet, windy or icy.",
+  },
+];
+
+export default function ScafellPikePage() {
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: "Scafell Pike (978 m): Climbing the Highest Mountain in England",
+      description:
+        "Routes, timings, conditions and a summit video for Scafell Pike, England's highest mountain at 978 m in the Lake District.",
+      image: scafellSummit.url,
+      datePublished: "2026-08-17",
+      author: { "@type": "Person", name: "Martin Gårdling", url: "https://www.youtube.com/@onsightmartin" },
+      publisher: organizationSchema,
+      mainEntityOfPage: { "@type": "WebPage", "@id": CANONICAL },
+      about: {
+        "@type": "Mountain",
+        name: "Scafell Pike",
+        alternateName: ["Scafell Pikes", "Sca Fell Pike"],
+        elevation: `${ELEVATION} m`,
+        geo: { "@type": "GeoCoordinates", latitude: 54.4542, longitude: -3.2117 },
+        address: {
+          "@type": "PostalAddress",
+          addressCountry: "United Kingdom",
+          addressRegion: "England, Lake District, Cumbria",
+        },
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      name: "I Climbed Jack's Rake? - Scafell Pike England",
+      description:
+        "Martin Gårdling climbs Scafell Pike (978 m), the highest mountain in England, taking in Jack's Rake on Pavey Ark.",
+      thumbnailUrl: [`https://i.ytimg.com/vi/${VIDEO_ID}/hqdefault.jpg`],
+      uploadDate: "2026-08-17",
+      contentUrl: VIDEO_URL,
+      embedUrl: `https://www.youtube.com/embed/${VIDEO_ID}`,
+      publisher: organizationSchema,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqs.map((f) => ({
+        "@type": "Question",
+        name: f.question,
+        acceptedAnswer: { "@type": "Answer", text: f.answer },
+      })),
+    },
+  ];
+
+  return (
+    <div className="min-h-screen bg-background">
+      <Seo
+        title="Scafell Pike (978 m): Highest Mountain in England"
+        description="Scafell Pike, 978 m, is England's highest mountain. Routes from Wasdale, Seathwaite and Langdale, timings, conditions, photos and a summit video."
+        path="/peak/scafell-pike"
+        image={scafellSummit.url}
+        type="article"
+        breadcrumbLeaf="Scafell Pike (England)"
+        jsonLd={jsonLd}
+      />
+      <Navbar />
+
+      <section className="relative h-[50vh] md:h-[60vh] flex items-end overflow-hidden">
+        <PeakImage
+          src={scafellSummit.url}
+          alt="Summit cairn on Scafell Pike (978 m), the highest mountain in England, Lake District"
+          className="absolute inset-0 w-full h-full object-cover object-center"
+          width={1600}
+          height={900}
+          loading="eager"
+          fetchPriority="high"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
+        <div className="relative container mx-auto px-4 pb-10">
+          <Link
+            to="/featured"
+            className="inline-flex items-center gap-1 text-muted-foreground hover:text-foreground text-sm mb-4 transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" /> Featured peaks
+          </Link>
+          <p className="font-display tracking-widest text-primary text-xs md:text-sm mb-2">
+            FEATURED — ENGLAND HIGH POINT
+          </p>
+          <h1 className="font-display text-3xl md:text-6xl font-bold text-foreground">
+            Scafell Pike
+          </h1>
+          <p className="text-muted-foreground mt-2 max-w-2xl">
+            978 m · Lake District, Cumbria · the highest mountain in England — summited 22 July 2026
+          </p>
+        </div>
+      </section>
+
+      <div className="container mx-auto px-4 py-12 max-w-4xl">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-12">
+          {[
+            { icon: Mountain, label: "Elevation", value: "978 m / 3,209 ft" },
+            { icon: Navigation, label: "Range", value: "Southern Fells" },
+            { icon: Clock, label: "Typical day", value: "4–9 h return" },
+            { icon: Calendar, label: "Best season", value: "May – September" },
+          ].map(({ icon: Icon, label, value }) => (
+            <div key={label} className="bg-card rounded-sm p-4 border border-border">
+              <Icon className="w-4 h-4 text-primary mb-2" />
+              <p className="text-xs text-muted-foreground">{label}</p>
+              <p className="text-sm font-medium text-foreground">{value}</p>
+            </div>
+          ))}
+        </div>
+
+        <section className="mb-12">
+          <h2 className="font-display text-2xl text-foreground mb-4">About Scafell Pike</h2>
+          <div className="space-y-4 text-muted-foreground leading-relaxed">
+            <p>
+              Scafell Pike is the highest mountain in England at 978 metres (3,209 feet), standing at the
+              heart of the Southern Fells in the Lake District. It is the English leg of the National Three
+              Peaks Challenge alongside Ben Nevis and Snowdon, and one of the four constituent-country high
+              points of the United Kingdom.
+            </p>
+            <p>
+              Despite the modest height, it feels far bigger than the number suggests. Every route starts
+              close to sea level, the upper mountain is a chaotic boulder field, and the summit plateau is
+              notorious for swallowing walkers in cloud — compass and map, not a phone, are the tools that
+              get people down safely. The summit cairn is also a war memorial, gifted to the National Trust
+              by Lord Leconfield in 1919 in memory of the men of the Lake District who died in the First
+              World War.
+            </p>
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="font-display text-2xl text-foreground mb-4">Routes up Scafell Pike</h2>
+          <div className="space-y-3">
+            {routes.map((r) => (
+              <div key={r.name} className="bg-card border border-border rounded-sm p-4">
+                <div className="flex flex-wrap items-baseline justify-between gap-2 mb-1">
+                  <h3 className="font-medium text-foreground">{r.name}</h3>
+                  <span className="text-xs text-primary font-display">{r.stats}</span>
+                </div>
+                <p className="text-sm text-muted-foreground leading-relaxed">{r.detail}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="font-display text-2xl text-foreground mb-4">Conditions, gear and access</h2>
+          <ul className="space-y-2 text-muted-foreground text-sm list-disc pl-5">
+            <li>No permit, no fees and no guide required — Scafell Pike is open access land.</li>
+            <li>
+              Parking is the real bottleneck: Wasdale Head and Seathwaite fill by early morning in summer
+              and roadside parking is heavily restricted.
+            </li>
+            <li>
+              Summer kit: boots with a stiff sole for the boulder fields, waterproof shell, warm layer, 2 L
+              of water, head torch and a paper map (OS Explorer OL6).
+            </li>
+            <li>
+              Winter: the plateau holds hard névé and verglas — ice axe, crampons and winter navigation
+              experience are needed from roughly November to April.
+            </li>
+            <li>
+              Weather flips fast. Summit temperatures typically run 6–8 °C below the valley, with wind chill
+              on top of that.
+            </li>
+          </ul>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="font-display text-2xl text-foreground mb-4">
+            <Youtube className="inline w-5 h-5 text-primary mr-2" />
+            The summit video
+          </h2>
+          <div className="aspect-video w-full rounded-sm overflow-hidden border border-border">
+            <iframe
+              src={`https://www.youtube.com/embed/${VIDEO_ID}`}
+              title="I Climbed Jack's Rake? - Scafell Pike England"
+              className="w-full h-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              loading="lazy"
+            />
+          </div>
+          <p className="text-sm text-muted-foreground mt-3">
+            Jack's Rake on Pavey Ark, then over to the England high point — the full Lake District day.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="font-display text-2xl text-foreground mb-4">My climb</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <PeakImage
+              src={scafellSelfie.url}
+              alt="Martin Gårdling on the Scafell Pike summit ridge, England, July 2026"
+              className="w-full rounded-sm object-cover"
+              width={800}
+              height={600}
+              loading="lazy"
+            />
+            <div className="text-muted-foreground text-sm leading-relaxed space-y-3">
+              <p>
+                Summited on 22 July 2026 as the last of the four UK constituent-country high points, after
+                Snowdon, Slieve Donard and Ben Nevis earlier the same month. Same trip took in Harrison
+                Stickle and the Langdale Pikes.
+              </p>
+              <p className="flex items-center gap-2">
+                <MapPin className="w-4 h-4 text-primary" /> 54.4542° N, 3.2117° W
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="font-display text-2xl text-foreground mb-4">Scafell Pike FAQ</h2>
+          <div className="space-y-4">
+            {faqs.map((f) => (
+              <div key={f.question} className="border-b border-border pb-4">
+                <h3 className="font-medium text-foreground mb-1">{f.question}</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">{f.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section>
+          <h2 className="font-display text-2xl text-foreground mb-4">Nearby high points</h2>
+          <div className="flex flex-wrap gap-2">
+            <Link
+              to="/peak/united-kingdom"
+              className="px-3 py-2 bg-card border border-border rounded-sm text-sm text-foreground hover:border-primary transition-colors"
+            >
+              United Kingdom — Ben Nevis (1,345 m)
+            </Link>
+            <Link
+              to="/peak/ireland"
+              className="px-3 py-2 bg-card border border-border rounded-sm text-sm text-foreground hover:border-primary transition-colors"
+            >
+              Ireland — Carrauntoohil (1,038 m)
+            </Link>
+
+            <Link
+              to="/other-peaks"
+              className="px-3 py-2 bg-card border border-border rounded-sm text-sm text-foreground hover:border-primary transition-colors"
+            >
+              All other peaks climbed
+            </Link>
+          </div>
+        </section>
+      </div>
+
+      <footer className="bg-background border-t border-border py-8">
+        <div className="container mx-auto px-4 text-center text-muted-foreground text-sm">
+          <p>© {new Date().getFullYear()} Onsight Martin — Martin Gårdling</p>
+        </div>
+      </footer>
+    </div>
+  );
+}

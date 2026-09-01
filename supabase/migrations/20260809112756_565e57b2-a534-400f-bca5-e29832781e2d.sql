@@ -1,1 +1,50 @@
-Q1JFQVRFIFRBQkxFIHB1YmxpYy5hc2NlbnRzICgKICBpZCB1dWlkIFBSSU1BUlkgS0VZIERFRkFVTFQgZ2VuX3JhbmRvbV91dWlkKCksCiAgdXNlcl9pZCB1dWlkIE5PVCBOVUxMIFJFRkVSRU5DRVMgYXV0aC51c2VycyhpZCkgT04gREVMRVRFIENBU0NBREUsCiAgcGVha19uYW1lIHRleHQgTk9UIE5VTEwsCiAgcGVha190eXBlIHRleHQgTk9UIE5VTEwgREVGQVVMVCAnY291bnRyeV9oaWdocG9pbnQnLAogIGNvdW50cnkgdGV4dCwKICBlbGV2YXRpb24gdGV4dCwKICBhc2NlbnRfZGF0ZSBkYXRlIE5PVCBOVUxMLAogIHJvdXRlIHRleHQsCiAgdHJpcF9yZXBvcnQgdGV4dCwKICBwaG90b191cmwgdGV4dCwKICBpc19wdWJsaWMgYm9vbGVhbiBOT1QgTlVMTCBERUZBVUxUIHRydWUsCiAgY3JlYXRlZF9hdCB0aW1lc3RhbXAgd2l0aCB0aW1lIHpvbmUgTk9UIE5VTEwgREVGQVVMVCBub3coKSwKICB1cGRhdGVkX2F0IHRpbWVzdGFtcCB3aXRoIHRpbWUgem9uZSBOT1QgTlVMTCBERUZBVUxUIG5vdygpLAogIENPTlNUUkFJTlQgYXNjZW50c19wZWFrX3R5cGVfY2hlY2sgQ0hFQ0sgKHBlYWtfdHlwZSBJTiAoJ2NvdW50cnlfaGlnaHBvaW50JywnZmFtb3VzX3BlYWsnKSksCiAgQ09OU1RSQUlOVCBhc2NlbnRzX3VuaXF1ZV9wZXJfZGF5IFVOSVFVRSAodXNlcl9pZCwgcGVha19uYW1lLCBhc2NlbnRfZGF0ZSkKKTsKCkdSQU5UIFNFTEVDVCwgSU5TRVJULCBVUERBVEUsIERFTEVURSBPTiBwdWJsaWMuYXNjZW50cyBUTyBhdXRoZW50aWNhdGVkOwpHUkFOVCBTRUxFQ1QgT04gcHVibGljLmFzY2VudHMgVE8gYW5vbjsKR1JBTlQgQUxMIE9OIHB1YmxpYy5hc2NlbnRzIFRPIHNlcnZpY2Vfcm9sZTsKCkFMVEVSIFRBQkxFIHB1YmxpYy5hc2NlbnRzIEVOQUJMRSBST1cgTEVWRUwgU0VDVVJJVFk7CgpDUkVBVEUgUE9MSUNZICJQdWJsaWMgYXNjZW50cyBhcmUgdmlld2FibGUgYnkgZXZlcnlvbmUiCiAgT04gcHVibGljLmFzY2VudHMgRk9SIFNFTEVDVAogIFVTSU5HIChpc19wdWJsaWMgPSB0cnVlKTsKCkNSRUFURSBQT0xJQ1kgIlVzZXJzIGNhbiB2aWV3IHRoZWlyIG93biBhc2NlbnRzIgogIE9OIHB1YmxpYy5hc2NlbnRzIEZPUiBTRUxFQ1QgVE8gYXV0aGVudGljYXRlZAogIFVTSU5HIChhdXRoLnVpZCgpID0gdXNlcl9pZCk7CgpDUkVBVEUgUE9MSUNZICJVc2VycyBjYW4gaW5zZXJ0IHRoZWlyIG93biBhc2NlbnRzIgogIE9OIHB1YmxpYy5hc2NlbnRzIEZPUiBJTlNFUlQgVE8gYXV0aGVudGljYXRlZAogIFdJVEggQ0hFQ0sgKGF1dGgudWlkKCkgPSB1c2VyX2lkKTsKCkNSRUFURSBQT0xJQ1kgIlVzZXJzIGNhbiB1cGRhdGUgdGhlaXIgb3duIGFzY2VudHMiCiAgT04gcHVibGljLmFzY2VudHMgRk9SIFVQREFURSBUTyBhdXRoZW50aWNhdGVkCiAgVVNJTkcgKGF1dGgudWlkKCkgPSB1c2VyX2lkKSBXSVRIIENIRUNLIChhdXRoLnVpZCgpID0gdXNlcl9pZCk7CgpDUkVBVEUgUE9MSUNZICJVc2VycyBjYW4gZGVsZXRlIHRoZWlyIG93biBhc2NlbnRzIgogIE9OIHB1YmxpYy5hc2NlbnRzIEZPUiBERUxFVEUgVE8gYXV0aGVudGljYXRlZAogIFVTSU5HIChhdXRoLnVpZCgpID0gdXNlcl9pZCk7CgpDUkVBVEUgVFJJR0dFUiB1cGRhdGVfYXNjZW50c191cGRhdGVkX2F0CiAgQkVGT1JFIFVQREFURSBPTiBwdWJsaWMuYXNjZW50cwogIEZPUiBFQUNIIFJPVyBFWEVDVVRFIEZVTkNUSU9OIHB1YmxpYy51cGRhdGVfdXBkYXRlZF9hdF9jb2x1bW4oKTsKCkNSRUFURSBJTkRFWCBhc2NlbnRzX3VzZXJfaWR4IE9OIHB1YmxpYy5hc2NlbnRzKHVzZXJfaWQpOwpDUkVBVEUgSU5ERVggYXNjZW50c19kYXRlX2lkeCBPTiBwdWJsaWMuYXNjZW50cyhhc2NlbnRfZGF0ZSBERVNDKTs=
+CREATE TABLE public.ascents (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id uuid NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
+  peak_name text NOT NULL,
+  peak_type text NOT NULL DEFAULT 'country_highpoint',
+  country text,
+  elevation text,
+  ascent_date date NOT NULL,
+  route text,
+  trip_report text,
+  photo_url text,
+  is_public boolean NOT NULL DEFAULT true,
+  created_at timestamp with time zone NOT NULL DEFAULT now(),
+  updated_at timestamp with time zone NOT NULL DEFAULT now(),
+  CONSTRAINT ascents_peak_type_check CHECK (peak_type IN ('country_highpoint','famous_peak')),
+  CONSTRAINT ascents_unique_per_day UNIQUE (user_id, peak_name, ascent_date)
+);
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.ascents TO authenticated;
+GRANT SELECT ON public.ascents TO anon;
+GRANT ALL ON public.ascents TO service_role;
+
+ALTER TABLE public.ascents ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Public ascents are viewable by everyone"
+  ON public.ascents FOR SELECT
+  USING (is_public = true);
+
+CREATE POLICY "Users can view their own ascents"
+  ON public.ascents FOR SELECT TO authenticated
+  USING (auth.uid() = user_id);
+
+CREATE POLICY "Users can insert their own ascents"
+  ON public.ascents FOR INSERT TO authenticated
+  WITH CHECK (auth.uid() = user_id);
+
+CREATE POLICY "Users can update their own ascents"
+  ON public.ascents FOR UPDATE TO authenticated
+  USING (auth.uid() = user_id) WITH CHECK (auth.uid() = user_id);
+
+CREATE POLICY "Users can delete their own ascents"
+  ON public.ascents FOR DELETE TO authenticated
+  USING (auth.uid() = user_id);
+
+CREATE TRIGGER update_ascents_updated_at
+  BEFORE UPDATE ON public.ascents
+  FOR EACH ROW EXECUTE FUNCTION public.update_updated_at_column();
+
+CREATE INDEX ascents_user_idx ON public.ascents(user_id);
+CREATE INDEX ascents_date_idx ON public.ascents(ascent_date DESC);

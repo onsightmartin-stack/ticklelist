@@ -1,1 +1,360 @@
-aW1wb3J0IHsgZnV6enlNYXRjaCB9IGZyb20gIkAvbGliL2Z1enp5IjsKaW1wb3J0IFBlYWtTZWxlY3RvciBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L1BlYWtTZWxlY3RvciI7CmltcG9ydCBXYWxsQ29udHJvbHMsIHsgdHlwZSBXYWxsU29ydCB9IGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvV2FsbENvbnRyb2xzIjsKaW1wb3J0IHsgdXNlTWVtbywgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKCmltcG9ydCB7IExpbmsgfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKaW1wb3J0IHsgSW1hZ2VQbHVzLCBTZW5kLCBUcm9waHksIFZpZGVvLCBYLCBZb3V0dWJlIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IExpbmtQcmV2aWV3Q2FyZCBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L0xpbmtQcmV2aWV3Q2FyZCI7CmltcG9ydCBQb3N0Q2FyZCBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L1Bvc3RDYXJkIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgVGV4dGFyZWEgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGV4dGFyZWEiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkAvaG9va3MvdXNlLXRvYXN0IjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvaG9va3MvdXNlQXV0aCI7CmltcG9ydCB7IHVzZVBvc3RzLCBQT1NUX01BWCB9IGZyb20gIkAvaG9va3MvdXNlUG9zdHMiOwppbXBvcnQgeyB1c2VQaG90b0NvbnRlc3QgfSBmcm9tICJAL2hvb2tzL3VzZVBob3RvQ29udGVzdCI7CmltcG9ydCB0eXBlIHsgUHVibGljUHJvZmlsZSB9IGZyb20gIkAvbGliL2NvbW11bml0eSI7CmltcG9ydCB7IGZpbmRQcmV2aWV3IH0gZnJvbSAiQC9saWIvbGluay1wcmV2aWV3IjsKaW1wb3J0IHsgcGVha0NvdW50cnkgfSBmcm9tICJAL2xpYi9wZWFrLWxpbmsiOwppbXBvcnQgeyBzbHVnaWZ5IH0gZnJvbSAiQC9saWIvc2x1ZyI7CmltcG9ydCB7IHVwbG9hZFdhbGxNZWRpYSwgeW91dHViZUlkLCB0eXBlIE1lZGlhVHlwZSB9IGZyb20gIkAvbGliL3dhbGwtbWVkaWEiOwppbXBvcnQgeyBjZWxlYnJhdGUgfSBmcm9tICJAL2NvbXBvbmVudHMvQ2VsZWJyYXRpb24iOwoKCmludGVyZmFjZSBQcm9wcyB7CiAgcHJvZmlsZXM6IFJlY29yZDxzdHJpbmcsIFB1YmxpY1Byb2ZpbGU+Owp9CgovKiogTWVtYmVyLXdyaXR0ZW4gcG9zdHMgd2l0aCBwaWN0dXJlcywgdmlkZW9zLCBsaWtlcyBhbmQgY29tbWVudHMuICovCmNvbnN0IFBvc3RGZWVkID0gKHsgcHJvZmlsZXMgfTogUHJvcHMpID0+IHsKICBjb25zdCB7IHVzZXIsIGlzQWRtaW4gfSA9IHVzZUF1dGgoKTsKICBjb25zdCB7CiAgICBwb3N0cywgY29tbWVudHMsIGxpa2VDb3VudHMsIG15TGlrZXMsIHJlYWN0aW9ucywgbXlSZWFjdGlvbnMsIHNhdmVkLCBlbmdhZ2VtZW50LCBsb2FkaW5nLAogICAgY3JlYXRlUG9zdCwgdXBkYXRlUG9zdCwgZGVsZXRlUG9zdCwgdG9nZ2xlTGlrZSwgc2V0UmVhY3Rpb24sIHRvZ2dsZVNhdmUsCiAgICBhZGRDb21tZW50LCB1cGRhdGVDb21tZW50LCBkZWxldGVDb21tZW50LAogIH0gPSB1c2VQb3N0cygpOwogIGNvbnN0IFtib2R5LCBzZXRCb2R5XSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbcGVhaywgc2V0UGVha10gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2J1c3ksIHNldEJ1c3ldID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFt1cGxvYWRpbmcsIHNldFVwbG9hZGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW21lZGlhLCBzZXRNZWRpYV0gPSB1c2VTdGF0ZTx7IHVybDogc3RyaW5nOyB0eXBlOiBNZWRpYVR5cGUgfSB8IG51bGw+KG51bGwpOwogIGNvbnN0IFt0dWJlLCBzZXRUdWJlXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbc2hvd1R1YmUsIHNldFNob3dUdWJlXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbZW50ZXJDb250ZXN0LCBzZXRFbnRlckNvbnRlc3RdID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IHsgc3VibWl0RW50cnkgfSA9IHVzZVBob3RvQ29udGVzdCgpOwogIGNvbnN0IGZpbGVSZWYgPSB1c2VSZWY8SFRNTElucHV0RWxlbWVudD4obnVsbCk7CiAgY29uc3QgZHJhZnRQcmV2aWV3ID0gbWVkaWEgPyBudWxsIDogZmluZFByZXZpZXcoYm9keSk7CgoKICAvLyBTb3J0IC8gZmlsdGVyIC8gcGFnaW5hdGlvbgogIGNvbnN0IFtzYXZlZE9ubHksIHNldFNhdmVkT25seV0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW3NvcnQsIHNldFNvcnRdID0gdXNlU3RhdGU8V2FsbFNvcnQ+KCJuZXdlc3QiKTsKICBjb25zdCBbcXVlcnksIHNldFF1ZXJ5XSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbcGVha0ZpbHRlciwgc2V0UGVha0ZpbHRlcl0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW3BhZ2UsIHNldFBhZ2VdID0gdXNlU3RhdGUoMSk7CiAgY29uc3QgUEFHRV9TSVpFID0gMTA7CgogIGNvbnN0IHBlYWtPcHRpb25zID0gdXNlTWVtbygoKSA9PiB7CiAgICBjb25zdCBjb3VudHMgPSBuZXcgTWFwPHN0cmluZywgbnVtYmVyPigpOwogICAgcG9zdHMuZm9yRWFjaCgocCkgPT4gewogICAgICBpZiAocC5wZWFrX25hbWUpIGNvdW50cy5zZXQocC5wZWFrX25hbWUsIChjb3VudHMuZ2V0KHAucGVha19uYW1lKSA/PyAwKSArIDEpOwogICAgfSk7CiAgICByZXR1cm4gWy4uLmNvdW50cy5lbnRyaWVzKCldCiAgICAgIC5zb3J0KChhLCBiKSA9PiBiWzFdIC0gYVsxXSB8fCBhWzBdLmxvY2FsZUNvbXBhcmUoYlswXSkpCiAgICAgIC5zbGljZSgwLCAxMikKICAgICAgLm1hcCgoW25hbWVdKSA9PiBuYW1lKTsKICB9LCBbcG9zdHNdKTsKCiAgY29uc3QgZmlsdGVyZWQgPSB1c2VNZW1vKCgpID0+IHsKICAgIGNvbnN0IHEgPSBxdWVyeS50cmltKCk7CiAgICBjb25zdCBsaXN0ID0gcG9zdHMuZmlsdGVyKChwKSA9PiB7CiAgICAgIGlmIChwZWFrRmlsdGVyICYmIHAucGVha19uYW1lICE9PSBwZWFrRmlsdGVyKSByZXR1cm4gZmFsc2U7CiAgICAgIGlmIChzYXZlZE9ubHkgJiYgIXNhdmVkLmhhcyhwLmlkKSkgcmV0dXJuIGZhbHNlOwogICAgICBpZiAoIXEpIHJldHVybiB0cnVlOwogICAgICByZXR1cm4gZnV6enlNYXRjaChxLCBwLmJvZHksIHAucGVha19uYW1lLCBwcm9maWxlc1twLnVzZXJfaWRdPy5kaXNwbGF5X25hbWUpOwogICAgfSk7CiAgICByZXR1cm4gWy4uLmxpc3RdLnNvcnQoKGEsIGIpID0+IHsKICAgICAgaWYgKHNvcnQgPT09ICJ0b3AiKSB7CiAgICAgICAgY29uc3QgZGlmZiA9IChlbmdhZ2VtZW50W2IuaWRdID8/IDApIC0gKGVuZ2FnZW1lbnRbYS5pZF0gPz8gMCk7CiAgICAgICAgaWYgKGRpZmYgIT09IDApIHJldHVybiBkaWZmOwogICAgICAgIHJldHVybiBiLmNyZWF0ZWRfYXQubG9jYWxlQ29tcGFyZShhLmNyZWF0ZWRfYXQpOwogICAgICB9CiAgICAgIHJldHVybiBzb3J0ID09PSAib2xkZXN0IgogICAgICAgID8gYS5jcmVhdGVkX2F0LmxvY2FsZUNvbXBhcmUoYi5jcmVhdGVkX2F0KQogICAgICAgIDogYi5jcmVhdGVkX2F0LmxvY2FsZUNvbXBhcmUoYS5jcmVhdGVkX2F0KTsKICAgIH0pOwogIH0sIFtwb3N0cywgcXVlcnksIHBlYWtGaWx0ZXIsIHNvcnQsIGVuZ2FnZW1lbnQsIHByb2ZpbGVzLCBzYXZlZE9ubHksIHNhdmVkXSk7CgogIGNvbnN0IHBhZ2VDb3VudCA9IE1hdGgubWF4KDEsIE1hdGguY2VpbChmaWx0ZXJlZC5sZW5ndGggLyBQQUdFX1NJWkUpKTsKICBjb25zdCBzYWZlUGFnZSA9IE1hdGgubWluKHBhZ2UsIHBhZ2VDb3VudCk7CiAgY29uc3QgdmlzaWJsZSA9IGZpbHRlcmVkLnNsaWNlKChzYWZlUGFnZSAtIDEpICogUEFHRV9TSVpFLCBzYWZlUGFnZSAqIFBBR0VfU0laRSk7CgoKICBjb25zdCBwaWNrRmlsZSA9IGFzeW5jIChmaWxlOiBGaWxlIHwgdW5kZWZpbmVkKSA9PiB7CiAgICBpZiAoIWZpbGUgfHwgIXVzZXIpIHJldHVybjsKICAgIHNldFVwbG9hZGluZyh0cnVlKTsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IHVwbG9hZFdhbGxNZWRpYShmaWxlLCB1c2VyLmlkKTsKICAgIHNldFVwbG9hZGluZyhmYWxzZSk7CiAgICBpZiAoImVycm9yIiBpbiByZXMpIHsKICAgICAgdG9hc3QoeyB0aXRsZTogIlVwbG9hZCBmYWlsZWQiLCBkZXNjcmlwdGlvbjogcmVzLmVycm9yLCB2YXJpYW50OiAiZGVzdHJ1Y3RpdmUiIH0pOwogICAgICByZXR1cm47CiAgICB9CiAgICBzZXRNZWRpYShyZXMpOwogICAgc2V0U2hvd1R1YmUoZmFsc2UpOwogIH07CgogIGNvbnN0IGF0dGFjaFR1YmUgPSAoKSA9PiB7CiAgICBjb25zdCBpZCA9IHlvdXR1YmVJZCh0dWJlLnRyaW0oKSk7CiAgICBpZiAoIWlkKSB7CiAgICAgIHRvYXN0KHsgdGl0bGU6ICJUaGF0IGRvZXMgbm90IGxvb2sgbGlrZSBhIFlvdVR1YmUgbGluayIsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHNldE1lZGlhKHsgdXJsOiBpZCwgdHlwZTogInlvdXR1YmUiIH0pOwogICAgc2V0VHViZSgiIik7CiAgICBzZXRTaG93VHViZShmYWxzZSk7CiAgfTsKCiAgY29uc3QgY2FuRW50ZXJDb250ZXN0ID0gISFtZWRpYSAmJiBtZWRpYS50eXBlID09PSAiaW1hZ2UiOwoKICBjb25zdCBzdWJtaXQgPSBhc3luYyAoZTogUmVhY3QuRm9ybUV2ZW50KSA9PiB7CiAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICBzZXRCdXN5KHRydWUpOwogICAgY29uc3QgcGhvdG9VcmwgPSBtZWRpYT8udHlwZSA9PT0gImltYWdlIiA/IG1lZGlhLnVybCA6IG51bGw7CiAgICBjb25zdCBvayA9IGF3YWl0IGNyZWF0ZVBvc3QoYm9keSwgcGVhaywgbWVkaWEpOwogICAgaWYgKG9rICYmIGVudGVyQ29udGVzdCAmJiBwaG90b1VybCkgewogICAgICBjb25zdCByZXNvbHZlZENvdW50cnkgPSBwZWFrQ291bnRyeShwZWFrKTsKICAgICAgY29uc3QgcGVha05hbWUgPSBwZWFrLmluY2x1ZGVzKCLCtyIpID8gKHBlYWsuc3BsaXQoIsK3IilbMF0gPz8gIiIpLnRyaW0oKSA6IHBlYWsudHJpbSgpOwogICAgICBpZiAocmVzb2x2ZWRDb3VudHJ5ICYmIHBlYWtOYW1lKSB7CiAgICAgICAgY29uc3QgZW50ZXJlZCA9IGF3YWl0IHN1Ym1pdEVudHJ5KHsKICAgICAgICAgIGNvdW50cnlTbHVnOiBzbHVnaWZ5KHJlc29sdmVkQ291bnRyeSksCiAgICAgICAgICBjb3VudHJ5OiByZXNvbHZlZENvdW50cnksCiAgICAgICAgICBwZWFrTmFtZSwKICAgICAgICAgIHBob3RvVXJsLAogICAgICAgICAgY2FwdGlvbjogYm9keS50cmltKCksCiAgICAgICAgfSk7CiAgICAgICAgaWYgKGVudGVyZWQpIHsKICAgICAgICAgIHRvYXN0KHsgdGl0bGU6ICJFbnRlcmVkIHRoZSBwaG90byBjb250ZXN0IPCfj4YiLCBkZXNjcmlwdGlvbjogIk1lbWJlcnMgY2FuIG5vdyB2b3RlIGZvciB5b3VyIHNob3QuIiB9KTsKICAgICAgICB9CiAgICAgIH0gZWxzZSB7CiAgICAgICAgdG9hc3QoewogICAgICAgICAgdGl0bGU6ICJDb3VsZCBub3QgZW50ZXIgdGhlIGNvbnRlc3QiLAogICAgICAgICAgZGVzY3JpcHRpb246ICJQaWNrIGEgcmVjb2duaXplZCBjb3VudHJ5IGhpZ2ggcG9pbnQgdG8gZW50ZXIgdGhlIGNvbnRlc3QuIiwKICAgICAgICAgIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIsCiAgICAgICAgfSk7CiAgICAgIH0KICAgIH0KICAgIHNldEJ1c3koZmFsc2UpOwogICAgaWYgKG9rKSB7CiAgICAgIGNlbGVicmF0ZSgpOwogICAgICBzZXRCb2R5KCIiKTsKICAgICAgc2V0UGVhaygiIik7CiAgICAgIHNldE1lZGlhKG51bGwpOwogICAgICBzZXRFbnRlckNvbnRlc3QoZmFsc2UpOwogICAgICBpZiAoZmlsZVJlZi5jdXJyZW50KSBmaWxlUmVmLmN1cnJlbnQudmFsdWUgPSAiIjsKICAgIH0KICB9OwoKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTQiPgogICAgICB7dXNlciA/ICgKICAgICAgICA8Zm9ybSBvblN1Ym1pdD17c3VibWl0fSBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBwLTQgc3BhY2UteS0zIj4KICAgICAgICAgIDxUZXh0YXJlYQogICAgICAgICAgICB2YWx1ZT17Ym9keX0KICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRCb2R5KGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgbWF4TGVuZ3RoPXtQT1NUX01BWH0KICAgICAgICAgICAgcm93cz17M30KICAgICAgICAgICAgcGxhY2Vob2xkZXI9IlNoYXJlIGEgY2xpbWIsIGEgcGhvdG8sIGEgdmlkZW8sIGEgcXVlc3Rpb24gb3IgYSBwbGFu4oCmIgogICAgICAgICAgICBhcmlhLWxhYmVsPSJQb3N0IHRleHQiCiAgICAgICAgICAvPgoKICAgICAgICAgIHtkcmFmdFByZXZpZXcgJiYgKAogICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5QcmV2aWV3PC9wPgogICAgICAgICAgICAgIDxMaW5rUHJldmlld0NhcmQgcHJldmlldz17ZHJhZnRQcmV2aWV3fSBjbGFzc05hbWU9Im10LTEiIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KCiAgICAgICAgICB7bWVkaWEgJiYgKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIiPgogICAgICAgICAgICAgIHttZWRpYS50eXBlID09PSAiaW1hZ2UiICYmIDxpbWcgc3JjPXttZWRpYS51cmx9IGFsdD0iQXR0YWNobWVudCBwcmV2aWV3IiBjbGFzc05hbWU9InctZnVsbCBtYXgtaC03MiBvYmplY3QtY292ZXIiIC8+fQogICAgICAgICAgICAgIHttZWRpYS50eXBlID09PSAidmlkZW8iICYmIDx2aWRlbyBzcmM9e21lZGlhLnVybH0gY29udHJvbHMgcGxheXNJbmxpbmUgY2xhc3NOYW1lPSJ3LWZ1bGwgbWF4LWgtNzIiIC8+fQogICAgICAgICAgICAgIHttZWRpYS50eXBlID09PSAieW91dHViZSIgJiYgKAogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFzcGVjdC12aWRlbyB3LWZ1bGwiPgogICAgICAgICAgICAgICAgICA8aWZyYW1lCiAgICAgICAgICAgICAgICAgICAgc3JjPXtgaHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvJHttZWRpYS51cmx9YH0KICAgICAgICAgICAgICAgICAgICB0aXRsZT0iWW91VHViZSBwcmV2aWV3IgogICAgICAgICAgICAgICAgICAgIGFsbG93RnVsbFNjcmVlbgogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaC1mdWxsIHctZnVsbCIKICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gewogICAgICAgICAgICAgICAgICBzZXRNZWRpYShudWxsKTsKICAgICAgICAgICAgICAgICAgaWYgKGZpbGVSZWYuY3VycmVudCkgZmlsZVJlZi5jdXJyZW50LnZhbHVlID0gIiI7CiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgYXJpYS1sYWJlbD0iUmVtb3ZlIGF0dGFjaG1lbnQiCiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImFic29sdXRlIHRvcC0yIHJpZ2h0LTIgcm91bmRlZC1mdWxsIGJnLWJhY2tncm91bmQvODAgcC0xIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxYIGNsYXNzTmFtZT0idy00IGgtNCIgLz4KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApfQoKICAgICAgICAgIHtzaG93VHViZSAmJiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0yIj4KICAgICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICAgIHZhbHVlPXt0dWJlfQogICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRUdWJlKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJQYXN0ZSBhIFlvdVR1YmUgbGluayIKICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9IllvdVR1YmUgbGluayIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDxCdXR0b24gdHlwZT0iYnV0dG9uIiBzaXplPSJzbSIgdmFyaWFudD0ic2Vjb25kYXJ5IiBvbkNsaWNrPXthdHRhY2hUdWJlfT5BdHRhY2g8L0J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApfQoKICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICByZWY9e2ZpbGVSZWZ9CiAgICAgICAgICAgIHR5cGU9ImZpbGUiCiAgICAgICAgICAgIGFjY2VwdD0iaW1hZ2UvKix2aWRlby8qIgogICAgICAgICAgICBjbGFzc05hbWU9ImhpZGRlbiIKICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBwaWNrRmlsZShlLnRhcmdldC5maWxlcz8uWzBdKX0KICAgICAgICAgIC8+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICAgICAgICBkaXNhYmxlZD17dXBsb2FkaW5nfQogICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IGZpbGVSZWYuY3VycmVudD8uY2xpY2soKX0KICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxJbWFnZVBsdXMgY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSBtci0xIiAvPiB7dXBsb2FkaW5nID8gIlVwbG9hZGluZ+KApiIgOiAiUGhvdG8gLyB2aWRlbyJ9CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8QnV0dG9uIHR5cGU9ImJ1dHRvbiIgc2l6ZT0ic20iIHZhcmlhbnQ9Im91dGxpbmUiIG9uQ2xpY2s9eygpID0+IHNldFNob3dUdWJlKCh2KSA9PiAhdil9PgogICAgICAgICAgICAgIDxZb3V0dWJlIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUgbXItMSIgLz4gWW91VHViZQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPFBlYWtTZWxlY3RvciB2YWx1ZT17cGVha30gb25DaGFuZ2U9e3NldFBlYWt9IGNsYXNzTmFtZT0ic206dy02NCIgLz4KCiAgICAgICAgICAgIHtjYW5FbnRlckNvbnRlc3QgJiYgKAogICAgICAgICAgICAgIDxsYWJlbAogICAgICAgICAgICAgICAgaHRtbEZvcj0id2FsbC1jb250ZXN0IgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLW11dGVkLzMwIHB4LTIuNSBweS0xLjUgdGV4dC14cyBjdXJzb3ItcG9pbnRlciBob3Zlcjpib3JkZXItcHJpbWFyeS81MCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgICAgIHRpdGxlPSJUaGUgd2lubmluZyBwaG90byBiZWNvbWVzIHRoZSBwZWFrIHBhZ2UncyBoZXJvIGltYWdlIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICBpZD0id2FsbC1jb250ZXN0IgogICAgICAgICAgICAgICAgICB0eXBlPSJjaGVja2JveCIKICAgICAgICAgICAgICAgICAgY2hlY2tlZD17ZW50ZXJDb250ZXN0fQogICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldEVudGVyQ29udGVzdChlLnRhcmdldC5jaGVja2VkKX0KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSBhY2NlbnQtcHJpbWFyeSIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8VHJvcGh5IGNsYXNzTmFtZT0idy0zLjUgaC0zLjUgdGV4dC1wcmltYXJ5IiAvPgogICAgICAgICAgICAgICAgRW50ZXIgcGhvdG8gY29udGVzdAogICAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICAgICl9CgoKCiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1sLWF1dG8iPntib2R5Lmxlbmd0aH0ve1BPU1RfTUFYfTwvc3Bhbj4KICAgICAgICAgICAgPEJ1dHRvbiB0eXBlPSJzdWJtaXQiIHNpemU9InNtIiBkaXNhYmxlZD17YnVzeSB8fCB1cGxvYWRpbmcgfHwgKCFib2R5LnRyaW0oKSAmJiAhbWVkaWEpfT4KICAgICAgICAgICAgICA8U2VuZCBjbGFzc05hbWU9InctMy41IGgtMy41IG1yLTEiIC8+IFBvc3QKICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Zvcm0+CiAgICAgICkgOiAoCiAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICA8TGluayB0bz0iL2F1dGgiIGNsYXNzTmFtZT0idGV4dC1wcmltYXJ5IHVuZGVybGluZSI+U2lnbiBpbjwvTGluaz4gdG8gcG9zdCwgbGlrZSBhbmQgY29tbWVudC4KICAgICAgICA8L3A+CiAgICAgICl9CgogICAgICB7IWxvYWRpbmcgJiYgcG9zdHMubGVuZ3RoID4gMCAmJiAoCiAgICAgICAgPFdhbGxDb250cm9scwogICAgICAgICAgc29ydD17c29ydH0KICAgICAgICAgIG9uU29ydD17KHMpID0+IHsgc2V0U29ydChzKTsgc2V0UGFnZSgxKTsgfX0KICAgICAgICAgIHF1ZXJ5PXtxdWVyeX0KICAgICAgICAgIG9uUXVlcnk9eyhxKSA9PiB7IHNldFF1ZXJ5KHEpOyBzZXRQYWdlKDEpOyB9fQogICAgICAgICAgcGVhaz17cGVha0ZpbHRlcn0KICAgICAgICAgIG9uUGVhaz17KHApID0+IHsgc2V0UGVha0ZpbHRlcihwKTsgc2V0UGFnZSgxKTsgfX0KICAgICAgICAgIHBlYWtzPXtwZWFrT3B0aW9uc30KICAgICAgICAgIHRvdGFsPXtmaWx0ZXJlZC5sZW5ndGh9CiAgICAgICAgICBzaG93bj17dmlzaWJsZS5sZW5ndGh9CiAgICAgICAgICBzYXZlZE9ubHk9e3NhdmVkT25seX0KICAgICAgICAgIHsuLi4odXNlciA/IHsgb25TYXZlZE9ubHk6ICh2OiBib29sZWFuKSA9PiB7IHNldFNhdmVkT25seSh2KTsgc2V0UGFnZSgxKTsgfSB9IDoge30pfQogICAgICAgICAgc2F2ZWRDb3VudD17c2F2ZWQuc2l6ZX0KICAgICAgICAvPgoKICAgICAgKX0KCiAgICAgIHtsb2FkaW5nID8gKAogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPkxvYWRpbmcgcG9zdHPigKY8L3A+CiAgICAgICkgOiBwb3N0cy5sZW5ndGggPT09IDAgPyAoCiAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICA8VmlkZW8gY2xhc3NOYW1lPSJ3LTQgaC00IiAvPiBOb3RoaW5nIG9uIHRoZSB3YWxsIHlldCDigJQgYmUgdGhlIGZpcnN0IHRvIHBvc3QuCiAgICAgICAgPC9wPgogICAgICApIDogZmlsdGVyZWQubGVuZ3RoID09PSAwID8gKAogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPk5vIHBvc3RzIG1hdGNoIHRob3NlIGZpbHRlcnMuPC9wPgogICAgICApIDogKAogICAgICAgIDw+CiAgICAgICAgICB7dmlzaWJsZS5tYXAoKHApID0+ICgKICAgICAgICAgICAgPFBvc3RDYXJkCiAgICAgICAgICAgICAga2V5PXtwLmlkfQogICAgICAgICAgICAgIHBvc3Q9e3B9CiAgICAgICAgICAgICAgY29tbWVudHM9e2NvbW1lbnRzLmZpbHRlcigoYykgPT4gYy5wb3N0X2lkID09PSBwLmlkKX0KICAgICAgICAgICAgICBwcm9maWxlcz17cHJvZmlsZXN9CiAgICAgICAgICAgICAgbGlrZUNvdW50PXtsaWtlQ291bnRzW3AuaWRdID8/IDB9CiAgICAgICAgICAgICAgbGlrZWQ9e215TGlrZXMuaGFzKHAuaWQpfQogICAgICAgICAgICAgIHJlYWN0aW9uQ291bnRzPXtyZWFjdGlvbnNbcC5pZF0gPz8ge319CiAgICAgICAgICAgICAgbXlSZWFjdGlvbj17bXlSZWFjdGlvbnNbcC5pZF0gPz8gbnVsbH0KICAgICAgICAgICAgICBpc1NhdmVkPXtzYXZlZC5oYXMocC5pZCl9CiAgICAgICAgICAgICAgY3VycmVudFVzZXJJZD17dXNlcj8uaWQgPz8gbnVsbH0KICAgICAgICAgICAgICBpc0FkbWluPXtpc0FkbWlufQogICAgICAgICAgICAgIG9uVG9nZ2xlTGlrZT17KCkgPT4gdG9nZ2xlTGlrZShwLmlkKX0KICAgICAgICAgICAgICBvblJlYWN0PXsoa2V5KSA9PiBzZXRSZWFjdGlvbihwLmlkLCBrZXkpfQogICAgICAgICAgICAgIG9uVG9nZ2xlU2F2ZT17KCkgPT4gdG9nZ2xlU2F2ZShwLmlkKX0KICAgICAgICAgICAgICBvbkNvbW1lbnQ9eyh0ZXh0LCBwYXJlbnRJZCkgPT4gYWRkQ29tbWVudChwLmlkLCB0ZXh0LCBwYXJlbnRJZCl9CiAgICAgICAgICAgICAgb25FZGl0Q29tbWVudD17dXBkYXRlQ29tbWVudH0KICAgICAgICAgICAgICBvbkVkaXQ9eyhib2R5LCBwZWFrTmFtZSkgPT4gdXBkYXRlUG9zdChwLmlkLCBib2R5LCBwZWFrTmFtZSl9CiAgICAgICAgICAgICAgb25EZWxldGU9eygpID0+IGRlbGV0ZVBvc3QocC5pZCl9CiAgICAgICAgICAgICAgb25EZWxldGVDb21tZW50PXtkZWxldGVDb21tZW50fQogICAgICAgICAgICAgIG9uVGFnPXsodGFnKSA9PiB7IHNldFF1ZXJ5KGAjJHt0YWd9YCk7IHNldFBhZ2UoMSk7IH19CiAgICAgICAgICAgIC8+CgogICAgICAgICAgKSl9CgogICAgICAgICAge3BhZ2VDb3VudCA+IDEgJiYgKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTMgcHQtMiI+CiAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgICAgZGlzYWJsZWQ9e3NhZmVQYWdlIDw9IDF9CiAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRQYWdlKHNhZmVQYWdlIC0gMSl9CiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgUHJldmlvdXMKICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIFBhZ2Uge3NhZmVQYWdlfSBvZiB7cGFnZUNvdW50fQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgICBkaXNhYmxlZD17c2FmZVBhZ2UgPj0gcGFnZUNvdW50fQogICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0UGFnZShzYWZlUGFnZSArIDEpfQogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIE5leHQKICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApfQogICAgICAgIDwvPgogICAgICApfQoKICAgIDwvZGl2PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBQb3N0RmVlZDsK
+import { fuzzyMatch } from "@/lib/fuzzy";
+import PeakSelector from "@/components/community/PeakSelector";
+import WallControls, { type WallSort } from "@/components/community/WallControls";
+import { useMemo, useRef, useState } from "react";
+
+import { Link } from "@/lib/router-compat";
+import { ImagePlus, Send, Trophy, Video, X, Youtube } from "lucide-react";
+import LinkPreviewCard from "@/components/community/LinkPreviewCard";
+import PostCard from "@/components/community/PostCard";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { toast } from "@/hooks/use-toast";
+import { useAuth } from "@/hooks/useAuth";
+import { usePosts, POST_MAX } from "@/hooks/usePosts";
+import { usePhotoContest } from "@/hooks/usePhotoContest";
+import type { PublicProfile } from "@/lib/community";
+import { findPreview } from "@/lib/link-preview";
+import { peakCountry } from "@/lib/peak-link";
+import { slugify } from "@/lib/slug";
+import { uploadWallMedia, youtubeId, type MediaType } from "@/lib/wall-media";
+import { celebrate } from "@/components/Celebration";
+
+
+interface Props {
+  profiles: Record<string, PublicProfile>;
+}
+
+/** Member-written posts with pictures, videos, likes and comments. */
+const PostFeed = ({ profiles }: Props) => {
+  const { user, isAdmin } = useAuth();
+  const {
+    posts, comments, likeCounts, myLikes, reactions, myReactions, saved, engagement, loading,
+    createPost, updatePost, deletePost, toggleLike, setReaction, toggleSave,
+    addComment, updateComment, deleteComment,
+  } = usePosts();
+  const [body, setBody] = useState("");
+  const [peak, setPeak] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [uploading, setUploading] = useState(false);
+  const [media, setMedia] = useState<{ url: string; type: MediaType } | null>(null);
+  const [tube, setTube] = useState("");
+  const [showTube, setShowTube] = useState(false);
+  const [enterContest, setEnterContest] = useState(false);
+  const { submitEntry } = usePhotoContest();
+  const fileRef = useRef<HTMLInputElement>(null);
+  const draftPreview = media ? null : findPreview(body);
+
+
+  // Sort / filter / pagination
+  const [savedOnly, setSavedOnly] = useState(false);
+  const [sort, setSort] = useState<WallSort>("newest");
+  const [query, setQuery] = useState("");
+  const [peakFilter, setPeakFilter] = useState("");
+  const [page, setPage] = useState(1);
+  const PAGE_SIZE = 10;
+
+  const peakOptions = useMemo(() => {
+    const counts = new Map<string, number>();
+    posts.forEach((p) => {
+      if (p.peak_name) counts.set(p.peak_name, (counts.get(p.peak_name) ?? 0) + 1);
+    });
+    return [...counts.entries()]
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .slice(0, 12)
+      .map(([name]) => name);
+  }, [posts]);
+
+  const filtered = useMemo(() => {
+    const q = query.trim();
+    const list = posts.filter((p) => {
+      if (peakFilter && p.peak_name !== peakFilter) return false;
+      if (savedOnly && !saved.has(p.id)) return false;
+      if (!q) return true;
+      return fuzzyMatch(q, p.body, p.peak_name, profiles[p.user_id]?.display_name);
+    });
+    return [...list].sort((a, b) => {
+      if (sort === "top") {
+        const diff = (engagement[b.id] ?? 0) - (engagement[a.id] ?? 0);
+        if (diff !== 0) return diff;
+        return b.created_at.localeCompare(a.created_at);
+      }
+      return sort === "oldest"
+        ? a.created_at.localeCompare(b.created_at)
+        : b.created_at.localeCompare(a.created_at);
+    });
+  }, [posts, query, peakFilter, sort, engagement, profiles, savedOnly, saved]);
+
+  const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const safePage = Math.min(page, pageCount);
+  const visible = filtered.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE);
+
+
+  const pickFile = async (file: File | undefined) => {
+    if (!file || !user) return;
+    setUploading(true);
+    const res = await uploadWallMedia(file, user.id);
+    setUploading(false);
+    if ("error" in res) {
+      toast({ title: "Upload failed", description: res.error, variant: "destructive" });
+      return;
+    }
+    setMedia(res);
+    setShowTube(false);
+  };
+
+  const attachTube = () => {
+    const id = youtubeId(tube.trim());
+    if (!id) {
+      toast({ title: "That does not look like a YouTube link", variant: "destructive" });
+      return;
+    }
+    setMedia({ url: id, type: "youtube" });
+    setTube("");
+    setShowTube(false);
+  };
+
+  const canEnterContest = !!media && media.type === "image";
+
+  const submit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setBusy(true);
+    const photoUrl = media?.type === "image" ? media.url : null;
+    const ok = await createPost(body, peak, media);
+    if (ok && enterContest && photoUrl) {
+      const resolvedCountry = peakCountry(peak);
+      const peakName = peak.includes("·") ? (peak.split("·")[0] ?? "").trim() : peak.trim();
+      if (resolvedCountry && peakName) {
+        const entered = await submitEntry({
+          countrySlug: slugify(resolvedCountry),
+          country: resolvedCountry,
+          peakName,
+          photoUrl,
+          caption: body.trim(),
+        });
+        if (entered) {
+          toast({ title: "Entered the photo contest 🏆", description: "Members can now vote for your shot." });
+        }
+      } else {
+        toast({
+          title: "Could not enter the contest",
+          description: "Pick a recognized country high point to enter the contest.",
+          variant: "destructive",
+        });
+      }
+    }
+    setBusy(false);
+    if (ok) {
+      celebrate();
+      setBody("");
+      setPeak("");
+      setMedia(null);
+      setEnterContest(false);
+      if (fileRef.current) fileRef.current.value = "";
+    }
+  };
+
+
+  return (
+    <div className="space-y-4">
+      {user ? (
+        <form onSubmit={submit} className="rounded-lg border border-border bg-card p-4 space-y-3">
+          <Textarea
+            value={body}
+            onChange={(e) => setBody(e.target.value)}
+            maxLength={POST_MAX}
+            rows={3}
+            placeholder="Share a climb, a photo, a video, a question or a plan…"
+            aria-label="Post text"
+          />
+
+          {draftPreview && (
+            <div>
+              <p className="text-[11px] text-muted-foreground">Preview</p>
+              <LinkPreviewCard preview={draftPreview} className="mt-1" />
+            </div>
+          )}
+
+          {media && (
+            <div className="relative overflow-hidden rounded-md border border-border">
+              {media.type === "image" && <img src={media.url} alt="Attachment preview" className="w-full max-h-72 object-cover" />}
+              {media.type === "video" && <video src={media.url} controls playsInline className="w-full max-h-72" />}
+              {media.type === "youtube" && (
+                <div className="aspect-video w-full">
+                  <iframe
+                    src={`https://www.youtube.com/embed/${media.url}`}
+                    title="YouTube preview"
+                    allowFullScreen
+                    className="h-full w-full"
+                  />
+                </div>
+              )}
+              <button
+                type="button"
+                onClick={() => {
+                  setMedia(null);
+                  if (fileRef.current) fileRef.current.value = "";
+                }}
+                aria-label="Remove attachment"
+                className="absolute top-2 right-2 rounded-full bg-background/80 p-1 text-muted-foreground hover:text-destructive"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+          )}
+
+          {showTube && (
+            <div className="flex gap-2">
+              <Input
+                value={tube}
+                onChange={(e) => setTube(e.target.value)}
+                placeholder="Paste a YouTube link"
+                aria-label="YouTube link"
+              />
+              <Button type="button" size="sm" variant="secondary" onClick={attachTube}>Attach</Button>
+            </div>
+          )}
+
+          <input
+            ref={fileRef}
+            type="file"
+            accept="image/*,video/*"
+            className="hidden"
+            onChange={(e) => pickFile(e.target.files?.[0])}
+          />
+
+          <div className="flex flex-wrap items-center gap-2">
+            <Button
+              type="button"
+              size="sm"
+              variant="outline"
+              disabled={uploading}
+              onClick={() => fileRef.current?.click()}
+            >
+              <ImagePlus className="w-3.5 h-3.5 mr-1" /> {uploading ? "Uploading…" : "Photo / video"}
+            </Button>
+            <Button type="button" size="sm" variant="outline" onClick={() => setShowTube((v) => !v)}>
+              <Youtube className="w-3.5 h-3.5 mr-1" /> YouTube
+            </Button>
+            <PeakSelector value={peak} onChange={setPeak} className="sm:w-64" />
+
+            {canEnterContest && (
+              <label
+                htmlFor="wall-contest"
+                className="flex items-center gap-2 rounded-md border border-border bg-muted/30 px-2.5 py-1.5 text-xs cursor-pointer hover:border-primary/50 transition-colors"
+                title="The winning photo becomes the peak page's hero image"
+              >
+                <input
+                  id="wall-contest"
+                  type="checkbox"
+                  checked={enterContest}
+                  onChange={(e) => setEnterContest(e.target.checked)}
+                  className="h-3.5 w-3.5 accent-primary"
+                />
+                <Trophy className="w-3.5 h-3.5 text-primary" />
+                Enter photo contest
+              </label>
+            )}
+
+
+
+            <span className="text-[11px] text-muted-foreground ml-auto">{body.length}/{POST_MAX}</span>
+            <Button type="submit" size="sm" disabled={busy || uploading || (!body.trim() && !media)}>
+              <Send className="w-3.5 h-3.5 mr-1" /> Post
+            </Button>
+          </div>
+        </form>
+      ) : (
+        <p className="text-sm text-muted-foreground">
+          <Link to="/auth" className="text-primary underline">Sign in</Link> to post, like and comment.
+        </p>
+      )}
+
+      {!loading && posts.length > 0 && (
+        <WallControls
+          sort={sort}
+          onSort={(s) => { setSort(s); setPage(1); }}
+          query={query}
+          onQuery={(q) => { setQuery(q); setPage(1); }}
+          peak={peakFilter}
+          onPeak={(p) => { setPeakFilter(p); setPage(1); }}
+          peaks={peakOptions}
+          total={filtered.length}
+          shown={visible.length}
+          savedOnly={savedOnly}
+          {...(user ? { onSavedOnly: (v: boolean) => { setSavedOnly(v); setPage(1); } } : {})}
+          savedCount={saved.size}
+        />
+
+      )}
+
+      {loading ? (
+        <p className="text-sm text-muted-foreground">Loading posts…</p>
+      ) : posts.length === 0 ? (
+        <p className="text-sm text-muted-foreground flex items-center gap-2">
+          <Video className="w-4 h-4" /> Nothing on the wall yet — be the first to post.
+        </p>
+      ) : filtered.length === 0 ? (
+        <p className="text-sm text-muted-foreground">No posts match those filters.</p>
+      ) : (
+        <>
+          {visible.map((p) => (
+            <PostCard
+              key={p.id}
+              post={p}
+              comments={comments.filter((c) => c.post_id === p.id)}
+              profiles={profiles}
+              likeCount={likeCounts[p.id] ?? 0}
+              liked={myLikes.has(p.id)}
+              reactionCounts={reactions[p.id] ?? {}}
+              myReaction={myReactions[p.id] ?? null}
+              isSaved={saved.has(p.id)}
+              currentUserId={user?.id ?? null}
+              isAdmin={isAdmin}
+              onToggleLike={() => toggleLike(p.id)}
+              onReact={(key) => setReaction(p.id, key)}
+              onToggleSave={() => toggleSave(p.id)}
+              onComment={(text, parentId) => addComment(p.id, text, parentId)}
+              onEditComment={updateComment}
+              onEdit={(body, peakName) => updatePost(p.id, body, peakName)}
+              onDelete={() => deletePost(p.id)}
+              onDeleteComment={deleteComment}
+              onTag={(tag) => { setQuery(`#${tag}`); setPage(1); }}
+            />
+
+          ))}
+
+          {pageCount > 1 && (
+            <div className="flex items-center justify-center gap-3 pt-2">
+              <Button
+                type="button"
+                size="sm"
+                variant="outline"
+                disabled={safePage <= 1}
+                onClick={() => setPage(safePage - 1)}
+              >
+                Previous
+              </Button>
+              <span className="text-xs text-muted-foreground">
+                Page {safePage} of {pageCount}
+              </span>
+              <Button
+                type="button"
+                size="sm"
+                variant="outline"
+                disabled={safePage >= pageCount}
+                onClick={() => setPage(safePage + 1)}
+              >
+                Next
+              </Button>
+            </div>
+          )}
+        </>
+      )}
+
+    </div>
+  );
+};
+
+export default PostFeed;

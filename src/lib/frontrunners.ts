@@ -1,1 +1,70 @@
-aW1wb3J0IHsgY29tcHV0ZUdvYWxzLCBnb2FsRGVmcywgdHlwZSBHb2FsRGVmIH0gZnJvbSAiQC9saWIvcHJvZmlsZS1nb2FscyI7CmltcG9ydCB0eXBlIHsgQXNjZW50IH0gZnJvbSAiQC9saWIvcGVhay1jYXRhbG9nIjsKaW1wb3J0IHR5cGUgeyBWaXNpdCB9IGZyb20gIkAvZGF0YS9wbGFjZXMiOwppbXBvcnQgdHlwZSB7IFB1YmxpY1Byb2ZpbGUgfSBmcm9tICJAL2xpYi9jb21tdW5pdHkiOwoKLyoqIEV2ZXJ5IGJvYXJkIGEgbWVtYmVyIGNhbiBiZSByYW5rZWQgb24g4oCUIHNhbWUgcm9zdGVyIGFzIHByb2ZpbGUgZ29hbHMuICovCmV4cG9ydCBjb25zdCBmcm9udFJ1bm5lckJvYXJkczogR29hbERlZltdID0gZ29hbERlZnM7CgpleHBvcnQgY29uc3QgYm9hcmRCeUlkID0gKGlkOiBzdHJpbmcpID0+IGZyb250UnVubmVyQm9hcmRzLmZpbmQoKGIpID0+IGIuaWQgPT09IGlkKTsKCi8qKiBMaW5rIHRvIHRoZSBmcm9udCBydW5uZXJzIGJvYXJkIGZvciBvbmUgbGlzdCwgY2hhbGxlbmdlIG9yIGNvdW50ZXIuICovCmV4cG9ydCBjb25zdCBmcm9udFJ1bm5lcnNIcmVmID0gKGJvYXJkSWQ6IHN0cmluZykgPT4KICBgL2NvbW11bml0eS9mcm9udHJ1bm5lcnM/Ym9hcmQ9JHtlbmNvZGVVUklDb21wb25lbnQoYm9hcmRJZCl9YDsKCmV4cG9ydCBjb25zdCBsaXN0Qm9hcmRJZCA9IChsaXN0SWQ6IHN0cmluZykgPT4gYGxpc3Q6JHtsaXN0SWR9YDsKZXhwb3J0IGNvbnN0IGNoYWxsZW5nZUJvYXJkSWQgPSAoY2hhbGxlbmdlSWQ6IHN0cmluZykgPT4gYGNoYWxsZW5nZToke2NoYWxsZW5nZUlkfWA7CgpleHBvcnQgaW50ZXJmYWNlIEZyb250UnVubmVyUm93IHsKICBwcm9maWxlOiBQdWJsaWNQcm9maWxlOwogIGRvbmU6IG51bWJlcjsKICB0b3RhbDogbnVtYmVyIHwgbnVsbDsKICAvKiogRGVuc2UgcmFuayDigJQgbWVtYmVycyBvbiB0aGUgc2FtZSBzY29yZSBzaGFyZSBhIHBsYWNlLiAqLwogIHJhbms6IG51bWJlcjsKfQoKaW50ZXJmYWNlIEJ1aWxkQXJncyB7CiAgYm9hcmRJZDogc3RyaW5nOwogIHByb2ZpbGVzOiBSZWNvcmQ8c3RyaW5nLCBQdWJsaWNQcm9maWxlPjsKICBhc2NlbnRzOiBBc2NlbnRbXTsKICB2aXNpdHM6IFZpc2l0W107Cn0KCi8qKiBSYW5rIGV2ZXJ5IG1lbWJlciBvbiBvbmUgYm9hcmQsIGJlc3QgZmlyc3QsIHdpdGggdGllcyBzaGFyaW5nIGEgcmFuay4gKi8KZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkRnJvbnRSdW5uZXJzKHsgYm9hcmRJZCwgcHJvZmlsZXMsIGFzY2VudHMsIHZpc2l0cyB9OiBCdWlsZEFyZ3MpOiBGcm9udFJ1bm5lclJvd1tdIHsKICBjb25zdCBhc2NlbnRzQnkgPSBuZXcgTWFwPHN0cmluZywgQXNjZW50W10+KCk7CiAgZm9yIChjb25zdCBhIG9mIGFzY2VudHMpIHsKICAgIGNvbnN0IGFyciA9IGFzY2VudHNCeS5nZXQoYS51c2VyX2lkKTsKICAgIGlmIChhcnIpIGFyci5wdXNoKGEpOwogICAgZWxzZSBhc2NlbnRzQnkuc2V0KGEudXNlcl9pZCwgW2FdKTsKICB9CiAgY29uc3QgdmlzaXRzQnkgPSBuZXcgTWFwPHN0cmluZywgVmlzaXRbXT4oKTsKICBmb3IgKGNvbnN0IHYgb2YgdmlzaXRzKSB7CiAgICBjb25zdCBhcnIgPSB2aXNpdHNCeS5nZXQodi51c2VyX2lkKTsKICAgIGlmIChhcnIpIGFyci5wdXNoKHYpOwogICAgZWxzZSB2aXNpdHNCeS5zZXQodi51c2VyX2lkLCBbdl0pOwogIH0KCiAgY29uc3Qgc2NvcmVkID0gT2JqZWN0LnZhbHVlcyhwcm9maWxlcykubWFwKChwcm9maWxlKSA9PiB7CiAgICBjb25zdCBwcm9ncmVzcyA9IGNvbXB1dGVHb2FscygKICAgICAgW2JvYXJkSWRdLAogICAgICBhc2NlbnRzQnkuZ2V0KHByb2ZpbGUuaWQpID8/IFtdLAogICAgICB2aXNpdHNCeS5nZXQocHJvZmlsZS5pZCkgPz8gW10sCiAgICApWzBdOwogICAgcmV0dXJuIHsgcHJvZmlsZSwgZG9uZTogcHJvZ3Jlc3M/LmRvbmUgPz8gMCwgdG90YWw6IHByb2dyZXNzPy50b3RhbCA/PyBudWxsIH07CiAgfSk7CgogIHNjb3JlZC5zb3J0KAogICAgKGEsIGIpID0+IGIuZG9uZSAtIGEuZG9uZSB8fCBhLnByb2ZpbGUuZGlzcGxheV9uYW1lLmxvY2FsZUNvbXBhcmUoYi5wcm9maWxlLmRpc3BsYXlfbmFtZSksCiAgKTsKCiAgbGV0IHJhbmsgPSAwOwogIGxldCBsYXN0U2NvcmU6IG51bWJlciB8IG51bGwgPSBudWxsOwogIHJldHVybiBzY29yZWQubWFwKChyb3csIGkpID0+IHsKICAgIGlmIChsYXN0U2NvcmUgPT09IG51bGwgfHwgcm93LmRvbmUgIT09IGxhc3RTY29yZSkgewogICAgICByYW5rID0gaSArIDE7CiAgICAgIGxhc3RTY29yZSA9IHJvdy5kb25lOwogICAgfQogICAgcmV0dXJuIHsgLi4ucm93LCByYW5rIH07CiAgfSk7Cn0K
+import { computeGoals, goalDefs, type GoalDef } from "@/lib/profile-goals";
+import type { Ascent } from "@/lib/peak-catalog";
+import type { Visit } from "@/data/places";
+import type { PublicProfile } from "@/lib/community";
+
+/** Every board a member can be ranked on — same roster as profile goals. */
+export const frontRunnerBoards: GoalDef[] = goalDefs;
+
+export const boardById = (id: string) => frontRunnerBoards.find((b) => b.id === id);
+
+/** Link to the front runners board for one list, challenge or counter. */
+export const frontRunnersHref = (boardId: string) =>
+  `/community/frontrunners?board=${encodeURIComponent(boardId)}`;
+
+export const listBoardId = (listId: string) => `list:${listId}`;
+export const challengeBoardId = (challengeId: string) => `challenge:${challengeId}`;
+
+export interface FrontRunnerRow {
+  profile: PublicProfile;
+  done: number;
+  total: number | null;
+  /** Dense rank — members on the same score share a place. */
+  rank: number;
+}
+
+interface BuildArgs {
+  boardId: string;
+  profiles: Record<string, PublicProfile>;
+  ascents: Ascent[];
+  visits: Visit[];
+}
+
+/** Rank every member on one board, best first, with ties sharing a rank. */
+export function buildFrontRunners({ boardId, profiles, ascents, visits }: BuildArgs): FrontRunnerRow[] {
+  const ascentsBy = new Map<string, Ascent[]>();
+  for (const a of ascents) {
+    const arr = ascentsBy.get(a.user_id);
+    if (arr) arr.push(a);
+    else ascentsBy.set(a.user_id, [a]);
+  }
+  const visitsBy = new Map<string, Visit[]>();
+  for (const v of visits) {
+    const arr = visitsBy.get(v.user_id);
+    if (arr) arr.push(v);
+    else visitsBy.set(v.user_id, [v]);
+  }
+
+  const scored = Object.values(profiles).map((profile) => {
+    const progress = computeGoals(
+      [boardId],
+      ascentsBy.get(profile.id) ?? [],
+      visitsBy.get(profile.id) ?? [],
+    )[0];
+    return { profile, done: progress?.done ?? 0, total: progress?.total ?? null };
+  });
+
+  scored.sort(
+    (a, b) => b.done - a.done || a.profile.display_name.localeCompare(b.profile.display_name),
+  );
+
+  let rank = 0;
+  let lastScore: number | null = null;
+  return scored.map((row, i) => {
+    if (lastScore === null || row.done !== lastScore) {
+      rank = i + 1;
+      lastScore = row.done;
+    }
+    return { ...row, rank };
+  });
+}

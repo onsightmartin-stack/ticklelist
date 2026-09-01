@@ -1,1 +1,22 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBXaGVyZUlzTWFydGluIGZyb20gIkAvcGFnZXMvV2hlcmVJc01hcnRpbiI7Cgpjb25zdCB0aXRsZSA9ICJXaGVyZSBJcyBNYXJ0aW4/IExpdmUgRXhwZWRpdGlvbiBUcmFja2VyIjsKY29uc3QgZGVzY3JpcHRpb24gPQogICJTZWUgTWFydGluJ3MgbGF0ZXN0IHRyYWNrZWQgcG9zaXRpb24gYW5kIHRoZSByb3V0ZSBzbyBmYXIgb24gdGhlIHdheSB0byB0aGUgaGlnaGVzdCBtb3VudGFpbiBvZiBldmVyeSBjb3VudHJ5IG9uIEVhcnRoLiI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi93aGVyZSIpKHsKICBoZWFkOiAoKSA9PiAoewogICAgbWV0YTogWwogICAgICB7IHRpdGxlIH0sCiAgICAgIHsgbmFtZTogImRlc2NyaXB0aW9uIiwgY29udGVudDogZGVzY3JpcHRpb24gfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnRpdGxlIiwgY29udGVudDogdGl0bGUgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOmRlc2NyaXB0aW9uIiwgY29udGVudDogZGVzY3JpcHRpb24gfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnR5cGUiLCBjb250ZW50OiAid2Vic2l0ZSIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnVybCIsIGNvbnRlbnQ6ICJodHRwczovL29uc2lnaHRtYXJ0aW4uY29tL3doZXJlIiB9LAogICAgICB7IG5hbWU6ICJ0d2l0dGVyOmNhcmQiLCBjb250ZW50OiAic3VtbWFyeV9sYXJnZV9pbWFnZSIgfSwKICAgIF0sCiAgICBsaW5rczogW3sgcmVsOiAiY2Fub25pY2FsIiwgaHJlZjogImh0dHBzOi8vb25zaWdodG1hcnRpbi5jb20vd2hlcmUiIH1dLAogIH0pLAogIGNvbXBvbmVudDogV2hlcmVJc01hcnRpbiwKfSk7Cg==
+import { createFileRoute } from "@tanstack/react-router";
+import WhereIsMartin from "@/pages/WhereIsMartin";
+
+const title = "Where Is Martin? Live Expedition Tracker";
+const description =
+  "See Martin's latest tracked position and the route so far on the way to the highest mountain of every country on Earth.";
+
+export const Route = createFileRoute("/where")({
+  head: () => ({
+    meta: [
+      { title },
+      { name: "description", content: description },
+      { property: "og:title", content: title },
+      { property: "og:description", content: description },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://onsightmartin.com/where" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [{ rel: "canonical", href: "https://onsightmartin.com/where" }],
+  }),
+  component: WhereIsMartin,
+});

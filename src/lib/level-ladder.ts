@@ -1,1 +1,74 @@
-LyoqCiAqIEVuZGxlc3MgbGV2ZWwgbGFkZGVyLiBUaGUgY3VyYXRlZCB0aXRsZXMgY292ZXIgdGhlIGZpcnN0IHN0cmV0Y2g7IHBhc3QgdGhlCiAqIGxhc3QgcnVuZyBsZXZlbHMga2VlcCBjb21pbmcgZm9yZXZlciwgZWFjaCBvbmUgY29zdGluZyBhIGJpdCBtb3JlIHRoYW4gdGhlCiAqIGxhc3QuIE5vYm9keSBldmVyIGhpdHMgYSBjZWlsaW5nLgogKi8KCmV4cG9ydCBpbnRlcmZhY2UgTGFkZGVyTGV2ZWwgewogIGxldmVsOiBudW1iZXI7CiAgdGl0bGU6IHN0cmluZzsKICBtaW46IG51bWJlcjsKfQoKLyoqIEVhY2ggbGV2ZWwgcGFzdCB0aGUgdGFibGUgY29zdHMgdGhpcyBtdWNoIG1vcmUgdGhhbiB0aGUgcHJldmlvdXMgb25lLiAqLwpjb25zdCBHUk9XVEggPSAxLjEyOwoKY29uc3QgUk9NQU46IFtudW1iZXIsIHN0cmluZ11bXSA9IFsKICBbMTAwMCwgIk0iXSwgWzkwMCwgIkNNIl0sIFs1MDAsICJEIl0sIFs0MDAsICJDRCJdLCBbMTAwLCAiQyJdLCBbOTAsICJYQyJdLAogIFs1MCwgIkwiXSwgWzQwLCAiWEwiXSwgWzEwLCAiWCJdLCBbOSwgIklYIl0sIFs1LCAiViJdLCBbNCwgIklWIl0sIFsxLCAiSSJdLApdOwoKZXhwb3J0IGNvbnN0IHJvbWFuID0gKG46IG51bWJlcik6IHN0cmluZyA9PiB7CiAgbGV0IG91dCA9ICIiOwogIGxldCBsZWZ0ID0gbjsKICBmb3IgKGNvbnN0IFt2YWx1ZSwgc3ltXSBvZiBST01BTikgewogICAgd2hpbGUgKGxlZnQgPj0gdmFsdWUpIHsKICAgICAgb3V0ICs9IHN5bTsKICAgICAgbGVmdCAtPSB2YWx1ZTsKICAgIH0KICB9CiAgcmV0dXJuIG91dDsKfTsKCmNvbnN0IHN0ZXAgPSAoc3BhbjogbnVtYmVyKSA9PiBNYXRoLm1heCg1MCwgTWF0aC5yb3VuZCgoc3BhbiAqIEdST1dUSCkgLyA1MCkgKiA1MCk7CgovKioKICogUmVzb2x2ZSB0aGUgbGV2ZWwgZm9yIGFuIFhQIHRvdGFsLCBleHRlbmRpbmcgdGhlIGxhZGRlciBpbmRlZmluaXRlbHkgYmV5b25kCiAqIHRoZSBjdXJhdGVkIHRpdGxlcy4gQWx3YXlzIHJldHVybnMgYSBgbmV4dGAgbGV2ZWwg4oCUIHRoZXJlIGlzIG5vIGNhcC4KICovCmV4cG9ydCBjb25zdCByZXNvbHZlTGV2ZWwgPSA8VCBleHRlbmRzIExhZGRlckxldmVsPigKICB0YWJsZTogVFtdLAogIHRvdGFsOiBudW1iZXIsCik6IHsgbGV2ZWw6IExhZGRlckxldmVsOyBuZXh0OiBMYWRkZXJMZXZlbCB9ID0+IHsKICBjb25zdCBsYXN0ID0gdGFibGVbdGFibGUubGVuZ3RoIC0gMV0hOwogIGNvbnN0IHByZXYgPSB0YWJsZVt0YWJsZS5sZW5ndGggLSAyXSA/PyB7IG1pbjogMCB9OwoKICBpZiAodG90YWwgPCBsYXN0Lm1pbikgewogICAgbGV0IGxldmVsOiBMYWRkZXJMZXZlbCA9IHRhYmxlWzBdITsKICAgIGZvciAoY29uc3QgbCBvZiB0YWJsZSkgaWYgKHRvdGFsID49IGwubWluKSBsZXZlbCA9IGw7CiAgICBjb25zdCBuZXh0ID0gdGFibGUuZmluZCgobCkgPT4gbC5taW4gPiB0b3RhbCkhOwogICAgcmV0dXJuIHsgbGV2ZWwsIG5leHQgfTsKICB9CgogIGNvbnN0IGV4dGVuZGVkID0gKG46IG51bWJlciwgbWluOiBudW1iZXIpOiBMYWRkZXJMZXZlbCA9PiAoewogICAgbGV2ZWw6IG4sCiAgICB0aXRsZTogYCR7bGFzdC50aXRsZX0gJHtyb21hbihuIC0gbGFzdC5sZXZlbCArIDEpfWAsCiAgICBtaW4sCiAgfSk7CgogIGxldCBuID0gbGFzdC5sZXZlbDsKICBsZXQgbWluID0gbGFzdC5taW47CiAgbGV0IHNwYW4gPSBNYXRoLm1heCg1MCwgbGFzdC5taW4gLSBwcmV2Lm1pbik7CgogIGZvciAoOzspIHsKICAgIGNvbnN0IG5leHRTcGFuID0gc3RlcChzcGFuKTsKICAgIGNvbnN0IG5leHRNaW4gPSBtaW4gKyBuZXh0U3BhbjsKICAgIGlmICh0b3RhbCA8IG5leHRNaW4pIHsKICAgICAgY29uc3QgbGV2ZWw6IExhZGRlckxldmVsID0gbiA9PT0gbGFzdC5sZXZlbCA/IGxhc3QgOiBleHRlbmRlZChuLCBtaW4pOwogICAgICByZXR1cm4geyBsZXZlbCwgbmV4dDogZXh0ZW5kZWQobiArIDEsIG5leHRNaW4pIH07CiAgICB9CiAgICBtaW4gPSBuZXh0TWluOwogICAgc3BhbiA9IG5leHRTcGFuOwogICAgbiArPSAxOwogIH0KfTsK
+/**
+ * Endless level ladder. The curated titles cover the first stretch; past the
+ * last rung levels keep coming forever, each one costing a bit more than the
+ * last. Nobody ever hits a ceiling.
+ */
+
+export interface LadderLevel {
+  level: number;
+  title: string;
+  min: number;
+}
+
+/** Each level past the table costs this much more than the previous one. */
+const GROWTH = 1.12;
+
+const ROMAN: [number, string][] = [
+  [1000, "M"], [900, "CM"], [500, "D"], [400, "CD"], [100, "C"], [90, "XC"],
+  [50, "L"], [40, "XL"], [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"],
+];
+
+export const roman = (n: number): string => {
+  let out = "";
+  let left = n;
+  for (const [value, sym] of ROMAN) {
+    while (left >= value) {
+      out += sym;
+      left -= value;
+    }
+  }
+  return out;
+};
+
+const step = (span: number) => Math.max(50, Math.round((span * GROWTH) / 50) * 50);
+
+/**
+ * Resolve the level for an XP total, extending the ladder indefinitely beyond
+ * the curated titles. Always returns a `next` level — there is no cap.
+ */
+export const resolveLevel = <T extends LadderLevel>(
+  table: T[],
+  total: number,
+): { level: LadderLevel; next: LadderLevel } => {
+  const last = table[table.length - 1]!;
+  const prev = table[table.length - 2] ?? { min: 0 };
+
+  if (total < last.min) {
+    let level: LadderLevel = table[0]!;
+    for (const l of table) if (total >= l.min) level = l;
+    const next = table.find((l) => l.min > total)!;
+    return { level, next };
+  }
+
+  const extended = (n: number, min: number): LadderLevel => ({
+    level: n,
+    title: `${last.title} ${roman(n - last.level + 1)}`,
+    min,
+  });
+
+  let n = last.level;
+  let min = last.min;
+  let span = Math.max(50, last.min - prev.min);
+
+  for (;;) {
+    const nextSpan = step(span);
+    const nextMin = min + nextSpan;
+    if (total < nextMin) {
+      const level: LadderLevel = n === last.level ? last : extended(n, min);
+      return { level, next: extended(n + 1, nextMin) };
+    }
+    min = nextMin;
+    span = nextSpan;
+    n += 1;
+  }
+};

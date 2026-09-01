@@ -1,1 +1,1 @@
-UkVGUkVTSCBNQVRFUklBTElaRUQgVklFVyBwdWJsaWMud29ybGRfcGVha19jb3VudHJ5X3N0YXRzOw==
+REFRESH MATERIALIZED VIEW public.world_peak_country_stats;

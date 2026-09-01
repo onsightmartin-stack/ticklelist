@@ -1,1 +1,177 @@
-aW1wb3J0IHR5cGUgeyBTb3J0T3B0aW9uIH0gZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9Tb3J0U2VsZWN0IjsKaW1wb3J0IHsgeHBGb3JBc2NlbnQgfSBmcm9tICJAL2xpYi94cCI7CgovKiogU29ydCBrZXlzIHNoYXJlZCBieSBldmVyeSBhc2NlbnQgbGlzdCBvbiB0aGUgc2l0ZS4gKi8KZXhwb3J0IGNvbnN0IGFzY2VudFNvcnRPcHRpb25zOiBTb3J0T3B0aW9uW10gPSBbCiAgeyB2YWx1ZTogImRhdGVfZGVzYyIsIGxhYmVsOiAiTGF0ZXN0IGZpcnN0IiB9LAogIHsgdmFsdWU6ICJkYXRlX2FzYyIsIGxhYmVsOiAiT2xkZXN0IGZpcnN0IiB9LAogIHsgdmFsdWU6ICJlbGV2X2Rlc2MiLCBsYWJlbDogIkhpZ2hlc3QgZmlyc3QiIH0sCiAgeyB2YWx1ZTogImVsZXZfYXNjIiwgbGFiZWw6ICJMb3dlc3QgZmlyc3QiIH0sCiAgeyB2YWx1ZTogIm5hbWVfYXNjIiwgbGFiZWw6ICJOYW1lIEHigJNaIiB9LAogIHsgdmFsdWU6ICJuYW1lX2Rlc2MiLCBsYWJlbDogIk5hbWUgWuKAk0EiIH0sCiAgeyB2YWx1ZTogImNvdW50cnlfYXNjIiwgbGFiZWw6ICJDb3VudHJ5IEHigJNaIiB9LAogIHsgdmFsdWU6ICJ4cF9kZXNjIiwgbGFiZWw6ICJNb3N0IFhQIiB9LApdOwoKZXhwb3J0IGNvbnN0IHZpc2l0U29ydE9wdGlvbnM6IFNvcnRPcHRpb25bXSA9IFsKICB7IHZhbHVlOiAiZGF0ZV9kZXNjIiwgbGFiZWw6ICJMYXRlc3QgZmlyc3QiIH0sCiAgeyB2YWx1ZTogImRhdGVfYXNjIiwgbGFiZWw6ICJPbGRlc3QgZmlyc3QiIH0sCiAgeyB2YWx1ZTogIm5hbWVfYXNjIiwgbGFiZWw6ICJOYW1lIEHigJNaIiB9LAogIHsgdmFsdWU6ICJuYW1lX2Rlc2MiLCBsYWJlbDogIk5hbWUgWuKAk0EiIH0sCiAgeyB2YWx1ZTogImNvdW50cnlfYXNjIiwgbGFiZWw6ICJDb3VudHJ5IEHigJNaIiB9LAogIHsgdmFsdWU6ICJ0eXBlX2FzYyIsIGxhYmVsOiAiUGxhY2UgdHlwZSIgfSwKXTsKCmV4cG9ydCBjb25zdCBsaXN0U29ydE9wdGlvbnM6IFNvcnRPcHRpb25bXSA9IFsKICB7IHZhbHVlOiAicGN0X2Rlc2MiLCBsYWJlbDogIk1vc3QgY29tcGxldGUiIH0sCiAgeyB2YWx1ZTogInBjdF9hc2MiLCBsYWJlbDogIkxlYXN0IGNvbXBsZXRlIiB9LAogIHsgdmFsdWU6ICJkb25lX2Rlc2MiLCBsYWJlbDogIk1vc3QgdGlja2VkIiB9LAogIHsgdmFsdWU6ICJzaXplX2Rlc2MiLCBsYWJlbDogIkJpZ2dlc3QgbGlzdCIgfSwKICB7IHZhbHVlOiAic2l6ZV9hc2MiLCBsYWJlbDogIlNtYWxsZXN0IGxpc3QiIH0sCiAgeyB2YWx1ZTogIm5hbWVfYXNjIiwgbGFiZWw6ICJOYW1lIEHigJNaIiB9LAogIHsgdmFsdWU6ICJjYXRlZ29yeV9hc2MiLCBsYWJlbDogIkNhdGVnb3J5IiB9LApdOwoKZXhwb3J0IGNvbnN0IGFkdmVudHVyZVNvcnRPcHRpb25zOiBTb3J0T3B0aW9uW10gPSBbCiAgeyB2YWx1ZTogImRhdGVfYXNjIiwgbGFiZWw6ICJTb29uZXN0IGZpcnN0IiB9LAogIHsgdmFsdWU6ICJkYXRlX2Rlc2MiLCBsYWJlbDogIkxhdGVzdCBmaXJzdCIgfSwKICB7IHZhbHVlOiAibmFtZV9hc2MiLCBsYWJlbDogIlBlYWsgQeKAk1oiIH0sCiAgeyB2YWx1ZTogImNvdW50cnlfYXNjIiwgbGFiZWw6ICJDb3VudHJ5IEHigJNaIiB9LAogIHsgdmFsdWU6ICJlbGV2X2Rlc2MiLCBsYWJlbDogIkhpZ2hlc3QgZmlyc3QiIH0sCiAgeyB2YWx1ZTogImNyZWF0ZWRfZGVzYyIsIGxhYmVsOiAiTmV3ZXN0IHBvc3RlZCIgfSwKXTsKCmNvbnN0IHRleHQgPSAodjogdW5rbm93bikgPT4gKHR5cGVvZiB2ID09PSAic3RyaW5nIiA/IHYgOiAiIik7CmNvbnN0IGNtcFRleHQgPSAoYTogdW5rbm93biwgYjogdW5rbm93bikgPT4KICB0ZXh0KGEpLmxvY2FsZUNvbXBhcmUodGV4dChiKSwgdW5kZWZpbmVkLCB7IHNlbnNpdGl2aXR5OiAiYmFzZSIgfSk7CmNvbnN0IHRpbWUgPSAoZDogdW5rbm93bikgPT4gewogIGNvbnN0IHQgPSBEYXRlLnBhcnNlKHRleHQoZCkpOwogIHJldHVybiBOdW1iZXIuaXNOYU4odCkgPyAwIDogdDsKfTsKY29uc3QgbnVtID0gKHY6IHVua25vd24pID0+CiAgdHlwZW9mIHYgPT09ICJudW1iZXIiID8gdiA6IHBhcnNlSW50KFN0cmluZyh2ID8/ICIiKS5yZXBsYWNlKC9bXjAtOS4tXS9nLCAiIiksIDEwKSB8fCAwOwoKaW50ZXJmYWNlIEFzY2VudExpa2UgewogIHBlYWtfbmFtZTogc3RyaW5nOwogIGNvdW50cnk/OiBzdHJpbmcgfCBudWxsOwogIGVsZXZhdGlvbj86IHN0cmluZyB8IG51bWJlciB8IG51bGw7CiAgYXNjZW50X2RhdGU/OiBzdHJpbmcgfCBudWxsOwp9CgpleHBvcnQgZnVuY3Rpb24gc29ydEFzY2VudHM8VCBleHRlbmRzIEFzY2VudExpa2U+KGl0ZW1zOiBUW10sIGtleTogc3RyaW5nKTogVFtdIHsKICBjb25zdCBvdXQgPSBbLi4uaXRlbXNdOwogIG91dC5zb3J0KChhLCBiKSA9PiB7CiAgICBzd2l0Y2ggKGtleSkgewogICAgICBjYXNlICJkYXRlX2FzYyI6CiAgICAgICAgcmV0dXJuIHRpbWUoYS5hc2NlbnRfZGF0ZSkgLSB0aW1lKGIuYXNjZW50X2RhdGUpOwogICAgICBjYXNlICJlbGV2X2Rlc2MiOgogICAgICAgIHJldHVybiBudW0oYi5lbGV2YXRpb24pIC0gbnVtKGEuZWxldmF0aW9uKTsKICAgICAgY2FzZSAiZWxldl9hc2MiOgogICAgICAgIHJldHVybiBudW0oYS5lbGV2YXRpb24pIC0gbnVtKGIuZWxldmF0aW9uKTsKICAgICAgY2FzZSAibmFtZV9hc2MiOgogICAgICAgIHJldHVybiBjbXBUZXh0KGEucGVha19uYW1lLCBiLnBlYWtfbmFtZSk7CiAgICAgIGNhc2UgIm5hbWVfZGVzYyI6CiAgICAgICAgcmV0dXJuIGNtcFRleHQoYi5wZWFrX25hbWUsIGEucGVha19uYW1lKTsKICAgICAgY2FzZSAiY291bnRyeV9hc2MiOgogICAgICAgIHJldHVybiBjbXBUZXh0KGEuY291bnRyeSwgYi5jb3VudHJ5KSB8fCBjbXBUZXh0KGEucGVha19uYW1lLCBiLnBlYWtfbmFtZSk7CiAgICAgIGNhc2UgInhwX2Rlc2MiOgogICAgICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBAdHlwZXNjcmlwdC1lc2xpbnQvbm8tZXhwbGljaXQtYW55CiAgICAgICAgcmV0dXJuIHhwRm9yQXNjZW50KGIgYXMgYW55KS54cCAtIHhwRm9yQXNjZW50KGEgYXMgYW55KS54cDsKICAgICAgZGVmYXVsdDoKICAgICAgICByZXR1cm4gdGltZShiLmFzY2VudF9kYXRlKSAtIHRpbWUoYS5hc2NlbnRfZGF0ZSk7CiAgICB9CiAgfSk7CiAgcmV0dXJuIG91dDsKfQoKaW50ZXJmYWNlIFZpc2l0TGlrZSB7CiAgcGxhY2VfbmFtZTogc3RyaW5nOwogIGNvdW50cnk/OiBzdHJpbmcgfCBudWxsOwogIHBsYWNlX3R5cGU/OiBzdHJpbmcgfCBudWxsOwogIHZpc2l0X2RhdGU/OiBzdHJpbmcgfCBudWxsOwp9CgpleHBvcnQgZnVuY3Rpb24gc29ydFZpc2l0czxUIGV4dGVuZHMgVmlzaXRMaWtlPihpdGVtczogVFtdLCBrZXk6IHN0cmluZyk6IFRbXSB7CiAgY29uc3Qgb3V0ID0gWy4uLml0ZW1zXTsKICBvdXQuc29ydCgoYSwgYikgPT4gewogICAgc3dpdGNoIChrZXkpIHsKICAgICAgY2FzZSAiZGF0ZV9hc2MiOgogICAgICAgIHJldHVybiB0aW1lKGEudmlzaXRfZGF0ZSkgLSB0aW1lKGIudmlzaXRfZGF0ZSk7CiAgICAgIGNhc2UgIm5hbWVfYXNjIjoKICAgICAgICByZXR1cm4gY21wVGV4dChhLnBsYWNlX25hbWUsIGIucGxhY2VfbmFtZSk7CiAgICAgIGNhc2UgIm5hbWVfZGVzYyI6CiAgICAgICAgcmV0dXJuIGNtcFRleHQoYi5wbGFjZV9uYW1lLCBhLnBsYWNlX25hbWUpOwogICAgICBjYXNlICJjb3VudHJ5X2FzYyI6CiAgICAgICAgcmV0dXJuIGNtcFRleHQoYS5jb3VudHJ5LCBiLmNvdW50cnkpIHx8IGNtcFRleHQoYS5wbGFjZV9uYW1lLCBiLnBsYWNlX25hbWUpOwogICAgICBjYXNlICJ0eXBlX2FzYyI6CiAgICAgICAgcmV0dXJuIGNtcFRleHQoYS5wbGFjZV90eXBlLCBiLnBsYWNlX3R5cGUpIHx8IGNtcFRleHQoYS5wbGFjZV9uYW1lLCBiLnBsYWNlX25hbWUpOwogICAgICBkZWZhdWx0OgogICAgICAgIHJldHVybiB0aW1lKGIudmlzaXRfZGF0ZSkgLSB0aW1lKGEudmlzaXRfZGF0ZSk7CiAgICB9CiAgfSk7CiAgcmV0dXJuIG91dDsKfQoKaW50ZXJmYWNlIExpc3RQcm9ncmVzc0xpa2UgewogIGxpc3Q6IHsgbmFtZTogc3RyaW5nOyBjYXRlZ29yeTogc3RyaW5nIH07CiAgZG9uZTogbnVtYmVyOwogIHRvdGFsOiBudW1iZXI7CiAgcGN0OiBudW1iZXI7Cn0KCmV4cG9ydCBmdW5jdGlvbiBzb3J0TGlzdFByb2dyZXNzPFQgZXh0ZW5kcyBMaXN0UHJvZ3Jlc3NMaWtlPihpdGVtczogVFtdLCBrZXk6IHN0cmluZyk6IFRbXSB7CiAgY29uc3Qgb3V0ID0gWy4uLml0ZW1zXTsKICBvdXQuc29ydCgoYSwgYikgPT4gewogICAgc3dpdGNoIChrZXkpIHsKICAgICAgY2FzZSAicGN0X2FzYyI6CiAgICAgICAgcmV0dXJuIGEucGN0IC0gYi5wY3QgfHwgYS5kb25lIC0gYi5kb25lOwogICAgICBjYXNlICJkb25lX2Rlc2MiOgogICAgICAgIHJldHVybiBiLmRvbmUgLSBhLmRvbmUgfHwgYi5wY3QgLSBhLnBjdDsKICAgICAgY2FzZSAic2l6ZV9kZXNjIjoKICAgICAgICByZXR1cm4gYi50b3RhbCAtIGEudG90YWw7CiAgICAgIGNhc2UgInNpemVfYXNjIjoKICAgICAgICByZXR1cm4gYS50b3RhbCAtIGIudG90YWw7CiAgICAgIGNhc2UgIm5hbWVfYXNjIjoKICAgICAgICByZXR1cm4gY21wVGV4dChhLmxpc3QubmFtZSwgYi5saXN0Lm5hbWUpOwogICAgICBjYXNlICJjYXRlZ29yeV9hc2MiOgogICAgICAgIHJldHVybiBjbXBUZXh0KGEubGlzdC5jYXRlZ29yeSwgYi5saXN0LmNhdGVnb3J5KSB8fCBjbXBUZXh0KGEubGlzdC5uYW1lLCBiLmxpc3QubmFtZSk7CiAgICAgIGRlZmF1bHQ6CiAgICAgICAgcmV0dXJuIGIucGN0IC0gYS5wY3QgfHwgYi5kb25lIC0gYS5kb25lOwogICAgfQogIH0pOwogIHJldHVybiBvdXQ7Cn0KCmludGVyZmFjZSBBZHZlbnR1cmVMaWtlIHsKICBwZWFrX25hbWU/OiBzdHJpbmcgfCBudWxsOwogIGNvdW50cnk/OiBzdHJpbmcgfCBudWxsOwogIGVsZXZhdGlvbj86IHN0cmluZyB8IG51bWJlciB8IG51bGw7CiAgdGFyZ2V0X2RhdGU/OiBzdHJpbmcgfCBudWxsOwogIHRhcmdldF95ZWFyPzogbnVtYmVyIHwgbnVsbDsKICBjcmVhdGVkX2F0Pzogc3RyaW5nIHwgbnVsbDsKfQoKY29uc3QgYWR2VGltZSA9IChhOiBBZHZlbnR1cmVMaWtlKSA9PgogIGEudGFyZ2V0X2RhdGUgPyB0aW1lKGEudGFyZ2V0X2RhdGUpIDogYS50YXJnZXRfeWVhciA/IERhdGUuVVRDKGEudGFyZ2V0X3llYXIsIDAsIDEpIDogMDsKY29uc3QgYWR2RWxldiA9IChhOiBBZHZlbnR1cmVMaWtlKSA9PiBwYXJzZUludChTdHJpbmcoYS5lbGV2YXRpb24gPz8gIiIpLnJlcGxhY2UoL1teMC05XS9nLCAiIiksIDEwKSB8fCAwOwoKZXhwb3J0IGZ1bmN0aW9uIHNvcnRBZHZlbnR1cmVzPFQgZXh0ZW5kcyBBZHZlbnR1cmVMaWtlPihpdGVtczogVFtdLCBrZXk6IHN0cmluZyk6IFRbXSB7CiAgY29uc3Qgb3V0ID0gWy4uLml0ZW1zXTsKICBvdXQuc29ydCgoYSwgYikgPT4gewogICAgc3dpdGNoIChrZXkpIHsKICAgICAgY2FzZSAiZGF0ZV9kZXNjIjoKICAgICAgICByZXR1cm4gYWR2VGltZShiKSAtIGFkdlRpbWUoYSk7CiAgICAgIGNhc2UgIm5hbWVfYXNjIjoKICAgICAgICByZXR1cm4gY21wVGV4dChhLnBlYWtfbmFtZSwgYi5wZWFrX25hbWUpOwogICAgICBjYXNlICJjb3VudHJ5X2FzYyI6CiAgICAgICAgcmV0dXJuIGNtcFRleHQoYS5jb3VudHJ5LCBiLmNvdW50cnkpIHx8IGNtcFRleHQoYS5wZWFrX25hbWUsIGIucGVha19uYW1lKTsKICAgICAgY2FzZSAiZWxldl9kZXNjIjoKICAgICAgICByZXR1cm4gYWR2RWxldihiKSAtIGFkdkVsZXYoYSk7CiAgICAgIGNhc2UgImNyZWF0ZWRfZGVzYyI6CiAgICAgICAgcmV0dXJuIHRpbWUoYi5jcmVhdGVkX2F0KSAtIHRpbWUoYS5jcmVhdGVkX2F0KTsKICAgICAgZGVmYXVsdDoKICAgICAgICByZXR1cm4gYWR2VGltZShhKSAtIGFkdlRpbWUoYik7CiAgICB9CiAgfSk7CiAgcmV0dXJuIG91dDsKfQo=
+import type { SortOption } from "@/components/community/SortSelect";
+import { xpForAscent } from "@/lib/xp";
+
+/** Sort keys shared by every ascent list on the site. */
+export const ascentSortOptions: SortOption[] = [
+  { value: "date_desc", label: "Latest first" },
+  { value: "date_asc", label: "Oldest first" },
+  { value: "elev_desc", label: "Highest first" },
+  { value: "elev_asc", label: "Lowest first" },
+  { value: "name_asc", label: "Name A–Z" },
+  { value: "name_desc", label: "Name Z–A" },
+  { value: "country_asc", label: "Country A–Z" },
+  { value: "xp_desc", label: "Most XP" },
+];
+
+export const visitSortOptions: SortOption[] = [
+  { value: "date_desc", label: "Latest first" },
+  { value: "date_asc", label: "Oldest first" },
+  { value: "name_asc", label: "Name A–Z" },
+  { value: "name_desc", label: "Name Z–A" },
+  { value: "country_asc", label: "Country A–Z" },
+  { value: "type_asc", label: "Place type" },
+];
+
+export const listSortOptions: SortOption[] = [
+  { value: "pct_desc", label: "Most complete" },
+  { value: "pct_asc", label: "Least complete" },
+  { value: "done_desc", label: "Most ticked" },
+  { value: "size_desc", label: "Biggest list" },
+  { value: "size_asc", label: "Smallest list" },
+  { value: "name_asc", label: "Name A–Z" },
+  { value: "category_asc", label: "Category" },
+];
+
+export const adventureSortOptions: SortOption[] = [
+  { value: "date_asc", label: "Soonest first" },
+  { value: "date_desc", label: "Latest first" },
+  { value: "name_asc", label: "Peak A–Z" },
+  { value: "country_asc", label: "Country A–Z" },
+  { value: "elev_desc", label: "Highest first" },
+  { value: "created_desc", label: "Newest posted" },
+];
+
+const text = (v: unknown) => (typeof v === "string" ? v : "");
+const cmpText = (a: unknown, b: unknown) =>
+  text(a).localeCompare(text(b), undefined, { sensitivity: "base" });
+const time = (d: unknown) => {
+  const t = Date.parse(text(d));
+  return Number.isNaN(t) ? 0 : t;
+};
+const num = (v: unknown) =>
+  typeof v === "number" ? v : parseInt(String(v ?? "").replace(/[^0-9.-]/g, ""), 10) || 0;
+
+interface AscentLike {
+  peak_name: string;
+  country?: string | null;
+  elevation?: string | number | null;
+  ascent_date?: string | null;
+}
+
+export function sortAscents<T extends AscentLike>(items: T[], key: string): T[] {
+  const out = [...items];
+  out.sort((a, b) => {
+    switch (key) {
+      case "date_asc":
+        return time(a.ascent_date) - time(b.ascent_date);
+      case "elev_desc":
+        return num(b.elevation) - num(a.elevation);
+      case "elev_asc":
+        return num(a.elevation) - num(b.elevation);
+      case "name_asc":
+        return cmpText(a.peak_name, b.peak_name);
+      case "name_desc":
+        return cmpText(b.peak_name, a.peak_name);
+      case "country_asc":
+        return cmpText(a.country, b.country) || cmpText(a.peak_name, b.peak_name);
+      case "xp_desc":
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        return xpForAscent(b as any).xp - xpForAscent(a as any).xp;
+      default:
+        return time(b.ascent_date) - time(a.ascent_date);
+    }
+  });
+  return out;
+}
+
+interface VisitLike {
+  place_name: string;
+  country?: string | null;
+  place_type?: string | null;
+  visit_date?: string | null;
+}
+
+export function sortVisits<T extends VisitLike>(items: T[], key: string): T[] {
+  const out = [...items];
+  out.sort((a, b) => {
+    switch (key) {
+      case "date_asc":
+        return time(a.visit_date) - time(b.visit_date);
+      case "name_asc":
+        return cmpText(a.place_name, b.place_name);
+      case "name_desc":
+        return cmpText(b.place_name, a.place_name);
+      case "country_asc":
+        return cmpText(a.country, b.country) || cmpText(a.place_name, b.place_name);
+      case "type_asc":
+        return cmpText(a.place_type, b.place_type) || cmpText(a.place_name, b.place_name);
+      default:
+        return time(b.visit_date) - time(a.visit_date);
+    }
+  });
+  return out;
+}
+
+interface ListProgressLike {
+  list: { name: string; category: string };
+  done: number;
+  total: number;
+  pct: number;
+}
+
+export function sortListProgress<T extends ListProgressLike>(items: T[], key: string): T[] {
+  const out = [...items];
+  out.sort((a, b) => {
+    switch (key) {
+      case "pct_asc":
+        return a.pct - b.pct || a.done - b.done;
+      case "done_desc":
+        return b.done - a.done || b.pct - a.pct;
+      case "size_desc":
+        return b.total - a.total;
+      case "size_asc":
+        return a.total - b.total;
+      case "name_asc":
+        return cmpText(a.list.name, b.list.name);
+      case "category_asc":
+        return cmpText(a.list.category, b.list.category) || cmpText(a.list.name, b.list.name);
+      default:
+        return b.pct - a.pct || b.done - a.done;
+    }
+  });
+  return out;
+}
+
+interface AdventureLike {
+  peak_name?: string | null;
+  country?: string | null;
+  elevation?: string | number | null;
+  target_date?: string | null;
+  target_year?: number | null;
+  created_at?: string | null;
+}
+
+const advTime = (a: AdventureLike) =>
+  a.target_date ? time(a.target_date) : a.target_year ? Date.UTC(a.target_year, 0, 1) : 0;
+const advElev = (a: AdventureLike) => parseInt(String(a.elevation ?? "").replace(/[^0-9]/g, ""), 10) || 0;
+
+export function sortAdventures<T extends AdventureLike>(items: T[], key: string): T[] {
+  const out = [...items];
+  out.sort((a, b) => {
+    switch (key) {
+      case "date_desc":
+        return advTime(b) - advTime(a);
+      case "name_asc":
+        return cmpText(a.peak_name, b.peak_name);
+      case "country_asc":
+        return cmpText(a.country, b.country) || cmpText(a.peak_name, b.peak_name);
+      case "elev_desc":
+        return advElev(b) - advElev(a);
+      case "created_desc":
+        return time(b.created_at) - time(a.created_at);
+      default:
+        return advTime(a) - advTime(b);
+    }
+  });
+  return out;
+}

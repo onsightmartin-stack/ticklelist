@@ -1,1 +1,112 @@
-aW1wb3J0IHsgdXNlTWVtbyB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgY291bnRyaWVzIH0gZnJvbSAiQC9kYXRhL2NvdW50cmllcyI7CmltcG9ydCB7IHBlYWtMaXN0cyB9IGZyb20gIkAvZGF0YS9wZWFrLWxpc3RzIjsKaW1wb3J0IHsgZmluZFBlYWssIHR5cGUgQXNjZW50IH0gZnJvbSAiQC9saWIvcGVhay1jYXRhbG9nIjsKCmludGVyZmFjZSBQcm9wcyB7CiAgLyoqIEFzY2VudHMgb2YgdGhlIHZpZXdpbmcgbWVtYmVyIOKAlCBsb2dnZWQgc3VtbWl0cyBjb3VudCBhcyBjbGltYmVkLiAqLwogIGFzY2VudHM6IEFzY2VudFtdOwp9Cgpjb25zdCBzdGF0dXNCeUNvdW50cnkgPSBuZXcgTWFwKGNvdW50cmllcy5tYXAoKGMpID0+IFtjLmNvdW50cnksIGMuc3RhdHVzXSkpOwoKY29uc3QgY2xpbWJlZFN0YXR1c2VzID0gbmV3IFNldChbImNsaW1iZWQiLCAibWFpbmxhbmRfY2xpbWJlZCIsICJsZWdhbF9oaWdoX3BvaW50Il0pOwoKLyoqCiAqIFBlciBjaGFsbGVuZ2UgbGlzdDogaG93IG1hbnkgZW50cmllcyBhcmUgc3VtbWl0ZWQsIGhvdyBtYW55IGFyZSBpbiBhIGNvdW50cnkKICogdGhhdCBoYXMgYmVlbiB2aXNpdGVkIGJ1dCBub3Qgc3VtbWl0ZWQsIGFuZCBob3cgbWFueSBhcmUgc3RpbGwgdW50b3VjaGVkLgogKi8KY29uc3QgTGlzdFByb2dyZXNzRGFzaGJvYXJkID0gKHsgYXNjZW50cyB9OiBQcm9wcykgPT4gewogIGNvbnN0IG15S2V5cyA9IHVzZU1lbW8oKCkgPT4gewogICAgY29uc3Qgc2V0ID0gbmV3IFNldDxzdHJpbmc+KCk7CiAgICBmb3IgKGNvbnN0IGEgb2YgYXNjZW50cykgewogICAgICBzZXQuYWRkKAogICAgICAgIGEucGVha190eXBlID09PSAiY291bnRyeV9oaWdocG9pbnQiCiAgICAgICAgICA/IGBocDoke2EuY291bnRyeSA/PyBhLnBlYWtfbmFtZX1gCiAgICAgICAgICA6IGBmcDoke2EucGVha19uYW1lfWAsCiAgICAgICk7CiAgICB9CiAgICByZXR1cm4gc2V0OwogIH0sIFthc2NlbnRzXSk7CgogIGNvbnN0IHJvd3MgPSB1c2VNZW1vKAogICAgKCkgPT4KICAgICAgcGVha0xpc3RzLm1hcCgobGlzdCkgPT4gewogICAgICAgIGxldCBjbGltYmVkID0gMDsKICAgICAgICBsZXQgdmlzaXRlZCA9IDA7CgogICAgICAgIGZvciAoY29uc3QgZSBvZiBsaXN0LmVudHJpZXMpIHsKICAgICAgICAgIGNvbnN0IHRpY2tlZCA9IG15S2V5cy5oYXMoZS5rZXkpIHx8IChlLmFsdCA/PyBbXSkuc29tZSgoaykgPT4gbXlLZXlzLmhhcyhrKSk7CiAgICAgICAgICBpZiAodGlja2VkKSB7CiAgICAgICAgICAgIGNsaW1iZWQgKz0gMTsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICB9CiAgICAgICAgICBjb25zdCBwZWFrID0gZmluZFBlYWsoZS5rZXkpOwogICAgICAgICAgY29uc3QgY291bnRyeSA9IHBlYWs/LmNvdW50cnkgPz8gKGUua2V5LnN0YXJ0c1dpdGgoImhwOiIpID8gZS5rZXkuc2xpY2UoMykgOiBudWxsKTsKICAgICAgICAgIGNvbnN0IHN0YXR1cyA9IGNvdW50cnkgPyBzdGF0dXNCeUNvdW50cnkuZ2V0KGNvdW50cnkpIDogdW5kZWZpbmVkOwogICAgICAgICAgaWYgKHN0YXR1cyAmJiAoc3RhdHVzID09PSAidmlzaXRlZCIgfHwgY2xpbWJlZFN0YXR1c2VzLmhhcyhzdGF0dXMpKSkgdmlzaXRlZCArPSAxOwogICAgICAgIH0KCiAgICAgICAgY29uc3QgdG90YWwgPSBsaXN0LmVudHJpZXMubGVuZ3RoOwogICAgICAgIHJldHVybiB7IGxpc3QsIGNsaW1iZWQsIHZpc2l0ZWQsIHJlbWFpbmluZzogdG90YWwgLSBjbGltYmVkIC0gdmlzaXRlZCwgdG90YWwgfTsKICAgICAgfSksCiAgICBbbXlLZXlzXSwKICApOwoKICBjb25zdCB0b3RhbHMgPSByb3dzLnJlZHVjZSgKICAgIChhY2MsIHIpID0+ICh7CiAgICAgIGNsaW1iZWQ6IGFjYy5jbGltYmVkICsgci5jbGltYmVkLAogICAgICB2aXNpdGVkOiBhY2MudmlzaXRlZCArIHIudmlzaXRlZCwKICAgICAgcmVtYWluaW5nOiBhY2MucmVtYWluaW5nICsgci5yZW1haW5pbmcsCiAgICAgIHRvdGFsOiBhY2MudG90YWwgKyByLnRvdGFsLAogICAgfSksCiAgICB7IGNsaW1iZWQ6IDAsIHZpc2l0ZWQ6IDAsIHJlbWFpbmluZzogMCwgdG90YWw6IDAgfSwKICApOwoKICBjb25zdCBCYXIgPSAoeyBjbGltYmVkLCB2aXNpdGVkLCByZW1haW5pbmcsIHRvdGFsIH06IHsgY2xpbWJlZDogbnVtYmVyOyB2aXNpdGVkOiBudW1iZXI7IHJlbWFpbmluZzogbnVtYmVyOyB0b3RhbDogbnVtYmVyIH0pID0+ICgKICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGgtMiB3LWZ1bGwgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtZnVsbCBiZy1tdXRlZCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1wcmltYXJ5IiBzdHlsZT17eyB3aWR0aDogYCR7KGNsaW1iZWQgLyB0b3RhbCkgKiAxMDB9JWAgfX0gLz4KICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXN1bW1pdCBvcGFjaXR5LTcwIiBzdHlsZT17eyB3aWR0aDogYCR7KHZpc2l0ZWQgLyB0b3RhbCkgKiAxMDB9JWAgfX0gLz4KICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLW11dGVkIiBzdHlsZT17eyB3aWR0aDogYCR7KHJlbWFpbmluZyAvIHRvdGFsKSAqIDEwMH0lYCB9fSAvPgogICAgPC9kaXY+CiAgKTsKCiAgcmV0dXJuICgKICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkIHAtNCBtYi02Ij4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtYmFzZWxpbmUganVzdGlmeS1iZXR3ZWVuIGdhcC0zIGZsZXgtd3JhcCI+CiAgICAgICAgPGgyIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGVyIj5Qcm9ncmVzcyBkYXNoYm9hcmQ8L2gyPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtNCB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InctMi41IGgtMi41IHJvdW5kZWQtZnVsbCBiZy1wcmltYXJ5IGlubGluZS1ibG9jayIgLz4gQ2xpbWJlZCB7dG90YWxzLmNsaW1iZWR9CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InctMi41IGgtMi41IHJvdW5kZWQtZnVsbCBiZy1zdW1taXQgb3BhY2l0eS03MCBpbmxpbmUtYmxvY2siIC8+IFZpc2l0ZWQge3RvdGFscy52aXNpdGVkfQogICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ3LTIuNSBoLTIuNSByb3VuZGVkLWZ1bGwgYmctbXV0ZWQgaW5saW5lLWJsb2NrIiAvPiBSZW1haW5pbmcge3RvdGFscy5yZW1haW5pbmd9CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC0xIj4KICAgICAgICBDbGltYmVkID0gc3VtbWl0IGxvZ2dlZC4gVmlzaXRlZCA9IHlvdSZhcG9zO3ZlIGJlZW4gdG8gdGhhdCBjb3VudHJ5IGJ1dCB0aGUgcGVhayBpcyBzdGlsbCBvcGVuLgogICAgICA8L3A+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNCBzcGFjZS15LTMiPgogICAgICAgIHtyb3dzLm1hcCgocikgPT4gKAogICAgICAgICAgPGRpdiBrZXk9e3IubGlzdC5pZH0gY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy1bMWZyX2F1dG9dIGdhcC14LTQgZ2FwLXktMSBpdGVtcy1jZW50ZXIiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gdHJ1bmNhdGUiPntyLmxpc3QubmFtZX08L3NwYW4+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyB0YWJ1bGFyLW51bXMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICB7ci5jbGltYmVkfSDCtyB7ci52aXNpdGVkfSDCtyB7ci5yZW1haW5pbmd9IC8ge3IudG90YWx9CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbC1zcGFuLTIiPgogICAgICAgICAgICAgIDxCYXIgey4uLnJ9IC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKSl9CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBMaXN0UHJvZ3Jlc3NEYXNoYm9hcmQ7Cg==
+import { useMemo } from "react";
+import { countries } from "@/data/countries";
+import { peakLists } from "@/data/peak-lists";
+import { findPeak, type Ascent } from "@/lib/peak-catalog";
+
+interface Props {
+  /** Ascents of the viewing member — logged summits count as climbed. */
+  ascents: Ascent[];
+}
+
+const statusByCountry = new Map(countries.map((c) => [c.country, c.status]));
+
+const climbedStatuses = new Set(["climbed", "mainland_climbed", "legal_high_point"]);
+
+/**
+ * Per challenge list: how many entries are summited, how many are in a country
+ * that has been visited but not summited, and how many are still untouched.
+ */
+const ListProgressDashboard = ({ ascents }: Props) => {
+  const myKeys = useMemo(() => {
+    const set = new Set<string>();
+    for (const a of ascents) {
+      set.add(
+        a.peak_type === "country_highpoint"
+          ? `hp:${a.country ?? a.peak_name}`
+          : `fp:${a.peak_name}`,
+      );
+    }
+    return set;
+  }, [ascents]);
+
+  const rows = useMemo(
+    () =>
+      peakLists.map((list) => {
+        let climbed = 0;
+        let visited = 0;
+
+        for (const e of list.entries) {
+          const ticked = myKeys.has(e.key) || (e.alt ?? []).some((k) => myKeys.has(k));
+          if (ticked) {
+            climbed += 1;
+            continue;
+          }
+          const peak = findPeak(e.key);
+          const country = peak?.country ?? (e.key.startsWith("hp:") ? e.key.slice(3) : null);
+          const status = country ? statusByCountry.get(country) : undefined;
+          if (status && (status === "visited" || climbedStatuses.has(status))) visited += 1;
+        }
+
+        const total = list.entries.length;
+        return { list, climbed, visited, remaining: total - climbed - visited, total };
+      }),
+    [myKeys],
+  );
+
+  const totals = rows.reduce(
+    (acc, r) => ({
+      climbed: acc.climbed + r.climbed,
+      visited: acc.visited + r.visited,
+      remaining: acc.remaining + r.remaining,
+      total: acc.total + r.total,
+    }),
+    { climbed: 0, visited: 0, remaining: 0, total: 0 },
+  );
+
+  const Bar = ({ climbed, visited, remaining, total }: { climbed: number; visited: number; remaining: number; total: number }) => (
+    <div className="flex h-2 w-full overflow-hidden rounded-full bg-muted">
+      <div className="bg-primary" style={{ width: `${(climbed / total) * 100}%` }} />
+      <div className="bg-summit opacity-70" style={{ width: `${(visited / total) * 100}%` }} />
+      <div className="bg-muted" style={{ width: `${(remaining / total) * 100}%` }} />
+    </div>
+  );
+
+  return (
+    <section className="rounded-lg border border-border bg-card p-4 mb-6">
+      <div className="flex items-baseline justify-between gap-3 flex-wrap">
+        <h2 className="font-display tracking-wider">Progress dashboard</h2>
+        <div className="flex items-center gap-4 text-xs text-muted-foreground">
+          <span className="flex items-center gap-1.5">
+            <span className="w-2.5 h-2.5 rounded-full bg-primary inline-block" /> Climbed {totals.climbed}
+          </span>
+          <span className="flex items-center gap-1.5">
+            <span className="w-2.5 h-2.5 rounded-full bg-summit opacity-70 inline-block" /> Visited {totals.visited}
+          </span>
+          <span className="flex items-center gap-1.5">
+            <span className="w-2.5 h-2.5 rounded-full bg-muted inline-block" /> Remaining {totals.remaining}
+          </span>
+        </div>
+      </div>
+
+      <p className="text-xs text-muted-foreground mt-1">
+        Climbed = summit logged. Visited = you&apos;ve been to that country but the peak is still open.
+      </p>
+
+      <div className="mt-4 space-y-3">
+        {rows.map((r) => (
+          <div key={r.list.id} className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 items-center">
+            <span className="text-sm truncate">{r.list.name}</span>
+            <span className="text-xs tabular-nums text-muted-foreground">
+              {r.climbed} · {r.visited} · {r.remaining} / {r.total}
+            </span>
+            <div className="col-span-2">
+              <Bar {...r} />
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default ListProgressDashboard;

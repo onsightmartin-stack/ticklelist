@@ -1,1 +1,71 @@
-Q1JFQVRFIFRBQkxFIHB1YmxpYy53b3JsZF9wbGFjZXMgKAogIGlkIEJJR1NFUklBTCBQUklNQVJZIEtFWSwKICBuYW1lIFRFWFQgTk9UIE5VTEwsCiAgY291bnRyeV9jb2RlIFRFWFQsCiAgYWRtaW4xIFRFWFQsCiAgbGF0IERPVUJMRSBQUkVDSVNJT04sCiAgbG9uIERPVUJMRSBQUkVDSVNJT04sCiAgY2F0ZWdvcnkgVEVYVCBOT1QgTlVMTCBERUZBVUxUICdzaWdodHNlZWluZycsCiAgZmVhdHVyZV9jb2RlIFRFWFQsCiAgc291cmNlIFRFWFQgTk9UIE5VTEwgREVGQVVMVCAnZ2VvbmFtZXMnLAogIHNvdXJjZV9pZCBURVhULAogIGFkZGVkX2J5IFVVSUQgUkVGRVJFTkNFUyBhdXRoLnVzZXJzLAogIGNyZWF0ZWRfYXQgVElNRVNUQU1QIFdJVEggVElNRSBaT05FIE5PVCBOVUxMIERFRkFVTFQgbm93KCkKKTsKCkNSRUFURSBVTklRVUUgSU5ERVggd29ybGRfcGxhY2VzX3NvdXJjZV9rZXkgT04gcHVibGljLndvcmxkX3BsYWNlcyAoc291cmNlLCBzb3VyY2VfaWQpIFdIRVJFIHNvdXJjZV9pZCBJUyBOT1QgTlVMTDsKQ1JFQVRFIElOREVYIHdvcmxkX3BsYWNlc19uYW1lX3RyZ20gT04gcHVibGljLndvcmxkX3BsYWNlcyBVU0lORyBnaW4gKHB1YmxpYy5wZWFrX25vcm0obmFtZSkgcHVibGljLmdpbl90cmdtX29wcyk7CkNSRUFURSBJTkRFWCB3b3JsZF9wbGFjZXNfY291bnRyeV9pZHggT04gcHVibGljLndvcmxkX3BsYWNlcyAoY291bnRyeV9jb2RlKTsKCkdSQU5UIFNFTEVDVCBPTiBwdWJsaWMud29ybGRfcGxhY2VzIFRPIGFub247CkdSQU5UIFNFTEVDVCwgSU5TRVJUIE9OIHB1YmxpYy53b3JsZF9wbGFjZXMgVE8gYXV0aGVudGljYXRlZDsKR1JBTlQgQUxMIE9OIHB1YmxpYy53b3JsZF9wbGFjZXMgVE8gc2VydmljZV9yb2xlOwoKQUxURVIgVEFCTEUgcHVibGljLndvcmxkX3BsYWNlcyBFTkFCTEUgUk9XIExFVkVMIFNFQ1VSSVRZOwoKQ1JFQVRFIFBPTElDWSAiQW55b25lIGNhbiByZWFkIHdvcmxkIHBsYWNlcyIKICBPTiBwdWJsaWMud29ybGRfcGxhY2VzIEZPUiBTRUxFQ1QKICBVU0lORyAodHJ1ZSk7CgpDUkVBVEUgUE9MSUNZICJNZW1iZXJzIGNhbiBhZGQgd29ybGQgcGxhY2VzIgogIE9OIHB1YmxpYy53b3JsZF9wbGFjZXMgRk9SIElOU0VSVCBUTyBhdXRoZW50aWNhdGVkCiAgV0lUSCBDSEVDSyAoYXV0aC51aWQoKSA9IGFkZGVkX2J5KTsKCkNSRUFURSBPUiBSRVBMQUNFIEZVTkNUSU9OIHB1YmxpYy5zZWFyY2hfd29ybGRfcGxhY2VzKAogIF9xIHRleHQsCiAgX2xpbWl0IGludGVnZXIgREVGQVVMVCAyMCwKICBfY291bnRyeSB0ZXh0IERFRkFVTFQgTlVMTCwKICBfY2F0ZWdvcnkgdGV4dCBERUZBVUxUIE5VTEwKKQpSRVRVUk5TIFRBQkxFKGlkIGJpZ2ludCwgbmFtZSB0ZXh0LCBsYXQgZG91YmxlIHByZWNpc2lvbiwgbG9uIGRvdWJsZSBwcmVjaXNpb24sIGNhdGVnb3J5IHRleHQsIGZlYXR1cmVfY29kZSB0ZXh0LCBjb3VudHJ5X2NvZGUgdGV4dCwgYWRtaW4xIHRleHQpCkxBTkdVQUdFIHBscGdzcWwKU1RBQkxFClNFVCBzZWFyY2hfcGF0aCBUTyAncHVibGljJwpBUyAkZnVuY3Rpb24kCkRFQ0xBUkUKICBuIHRleHQgOj0gcHVibGljLnBlYWtfbm9ybShjb2FsZXNjZShfcSwgJycpKTsKQkVHSU4KICBJRiBsZW5ndGgobikgPCAyIFRIRU4KICAgIFJFVFVSTjsKICBFTkQgSUY7CgogIFJFVFVSTiBRVUVSWQogIFNFTEVDVCBwLmlkLCBwLm5hbWUsIHAubGF0LCBwLmxvbiwgcC5jYXRlZ29yeSwgcC5mZWF0dXJlX2NvZGUsIHAuY291bnRyeV9jb2RlLCBwLmFkbWluMQogIEZST00gcHVibGljLndvcmxkX3BsYWNlcyBwCiAgV0hFUkUgKAogICAgICBwdWJsaWMucGVha19ub3JtKHAubmFtZSkgTElLRSBuIHx8ICclJwogICAgICBPUiBuIE9QRVJBVE9SKHB1YmxpYy48JSkgcHVibGljLnBlYWtfbm9ybShwLm5hbWUpCiAgICApCiAgICBBTkQgKF9jb3VudHJ5IElTIE5VTEwgT1IgcC5jb3VudHJ5X2NvZGUgPSBfY291bnRyeSkKICAgIEFORCAoX2NhdGVnb3J5IElTIE5VTEwgT1IgcC5jYXRlZ29yeSA9IF9jYXRlZ29yeSkKICBPUkRFUiBCWQogICAgKHB1YmxpYy5wZWFrX25vcm0ocC5uYW1lKSA9IG4pIERFU0MsCiAgICAocHVibGljLnBlYWtfbm9ybShwLm5hbWUpIExJS0UgbiB8fCAnJScpIERFU0MsCiAgICBwdWJsaWMuc2ltaWxhcml0eShwdWJsaWMucGVha19ub3JtKHAubmFtZSksIG4pIERFU0MsCiAgICBwLm5hbWUKICBMSU1JVCBMRUFTVChHUkVBVEVTVChjb2FsZXNjZShfbGltaXQsIDIwKSwgMSksIDUwKTsKRU5EOwokZnVuY3Rpb24kOwoKUkVWT0tFIEVYRUNVVEUgT04gRlVOQ1RJT04gcHVibGljLnNlYXJjaF93b3JsZF9wbGFjZXModGV4dCwgaW50ZWdlciwgdGV4dCwgdGV4dCkgRlJPTSBQVUJMSUM7CkdSQU5UIEVYRUNVVEUgT04gRlVOQ1RJT04gcHVibGljLnNlYXJjaF93b3JsZF9wbGFjZXModGV4dCwgaW50ZWdlciwgdGV4dCwgdGV4dCkgVE8gYW5vbiwgYXV0aGVudGljYXRlZCwgc2VydmljZV9yb2xlOw==
+CREATE TABLE public.world_places (
+  id BIGSERIAL PRIMARY KEY,
+  name TEXT NOT NULL,
+  country_code TEXT,
+  admin1 TEXT,
+  lat DOUBLE PRECISION,
+  lon DOUBLE PRECISION,
+  category TEXT NOT NULL DEFAULT 'sightseeing',
+  feature_code TEXT,
+  source TEXT NOT NULL DEFAULT 'geonames',
+  source_id TEXT,
+  added_by UUID REFERENCES auth.users,
+  created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT now()
+);
+
+CREATE UNIQUE INDEX world_places_source_key ON public.world_places (source, source_id) WHERE source_id IS NOT NULL;
+CREATE INDEX world_places_name_trgm ON public.world_places USING gin (public.peak_norm(name) public.gin_trgm_ops);
+CREATE INDEX world_places_country_idx ON public.world_places (country_code);
+
+GRANT SELECT ON public.world_places TO anon;
+GRANT SELECT, INSERT ON public.world_places TO authenticated;
+GRANT ALL ON public.world_places TO service_role;
+
+ALTER TABLE public.world_places ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Anyone can read world places"
+  ON public.world_places FOR SELECT
+  USING (true);
+
+CREATE POLICY "Members can add world places"
+  ON public.world_places FOR INSERT TO authenticated
+  WITH CHECK (auth.uid() = added_by);
+
+CREATE OR REPLACE FUNCTION public.search_world_places(
+  _q text,
+  _limit integer DEFAULT 20,
+  _country text DEFAULT NULL,
+  _category text DEFAULT NULL
+)
+RETURNS TABLE(id bigint, name text, lat double precision, lon double precision, category text, feature_code text, country_code text, admin1 text)
+LANGUAGE plpgsql
+STABLE
+SET search_path TO 'public'
+AS $function$
+DECLARE
+  n text := public.peak_norm(coalesce(_q, ''));
+BEGIN
+  IF length(n) < 2 THEN
+    RETURN;
+  END IF;
+
+  RETURN QUERY
+  SELECT p.id, p.name, p.lat, p.lon, p.category, p.feature_code, p.country_code, p.admin1
+  FROM public.world_places p
+  WHERE (
+      public.peak_norm(p.name) LIKE n || '%'
+      OR n OPERATOR(public.<%) public.peak_norm(p.name)
+    )
+    AND (_country IS NULL OR p.country_code = _country)
+    AND (_category IS NULL OR p.category = _category)
+  ORDER BY
+    (public.peak_norm(p.name) = n) DESC,
+    (public.peak_norm(p.name) LIKE n || '%') DESC,
+    public.similarity(public.peak_norm(p.name), n) DESC,
+    p.name
+  LIMIT LEAST(GREATEST(coalesce(_limit, 20), 1), 50);
+END;
+$function$;
+
+REVOKE EXECUTE ON FUNCTION public.search_world_places(text, integer, text, text) FROM PUBLIC;
+GRANT EXECUTE ON FUNCTION public.search_world_places(text, integer, text, text) TO anon, authenticated, service_role;

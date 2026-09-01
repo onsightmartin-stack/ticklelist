@@ -1,1 +1,209 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IEwgZnJvbSAibGVhZmxldCI7CmltcG9ydCAibGVhZmxldC9kaXN0L2xlYWZsZXQuY3NzIjsKaW1wb3J0IHsgdXNlQ3VycmVudExvY2F0aW9uIH0gZnJvbSAiQC9ob29rcy91c2VDdXJyZW50TG9jYXRpb24iOwppbXBvcnQgeyB1c2VMb2NhdGlvbkhpc3RvcnkgfSBmcm9tICJAL2hvb2tzL3VzZUxvY2F0aW9uSGlzdG9yeSI7CmltcG9ydCB7IGZvcm1hdCB9IGZyb20gImRhdGUtZm5zIjsKaW1wb3J0IHsgTWF4aW1pemUyLCBNaW5pbWl6ZTIgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgdmFuSWNvbiBmcm9tICJAL2Fzc2V0cy92YW4taWNvbi5wbmciOwoKY29uc3QgTUFQX1pPT00gPSA2Owpjb25zdCBCQVNFX1RJTEVfVVJMID0gImh0dHBzOi8ve3N9LmJhc2VtYXBzLmNhcnRvY2RuLmNvbS9yYXN0ZXJ0aWxlcy92b3lhZ2VyX25vbGFiZWxzL3t6fS97eH0ve3l9e3J9LnBuZyI7CmNvbnN0IExBQkVMU19VUkwgPSAiaHR0cHM6Ly97c30uYmFzZW1hcHMuY2FydG9jZG4uY29tL2Rhcmtfb25seV9sYWJlbHMve3p9L3t4fS97eX17cn0ucG5nIjsKY29uc3QgVElMRV9BVFRSSUJVVElPTiA9ICcmY29weTsgPGEgaHJlZj0iaHR0cHM6Ly93d3cub3BlbnN0cmVldG1hcC5vcmcvY29weXJpZ2h0Ij5PcGVuU3RyZWV0TWFwPC9hPiB8IDxhIGhyZWY9Imh0dHBzOi8vY2FydG8uY29tLyI+Q0FSVE88L2E+JzsKCmZ1bmN0aW9uIGNyZWF0ZVZhbkljb24oc2l6ZTogbnVtYmVyKSB7CiAgY29uc3QgaGFsZiA9IHNpemUgLyAyOwogIHJldHVybiBMLmRpdkljb24oewogICAgY2xhc3NOYW1lOiAiIiwKICAgIGh0bWw6IGA8ZGl2IHN0eWxlPSIKICAgICAgd2lkdGg6ICR7c2l6ZX1weDsgaGVpZ2h0OiAke3NpemV9cHg7CiAgICAgIGFuaW1hdGlvbjogdmFuRHJvcCA5MDBtcyBjdWJpYy1iZXppZXIoMC4zNCwgMS4zLCAwLjY0LCAxKSBib3RoLCB2YW5Cb3VuY2UgMnMgZWFzZS1pbi1vdXQgOTAwbXMgaW5maW5pdGU7CiAgICAgIGZpbHRlcjogZHJvcC1zaGFkb3coMCA0cHggNnB4IHJnYmEoMCwwLDAsMC40KSk7CiAgICAiPgogICAgICA8aW1nIHNyYz0iJHt2YW5JY29ufSIgYWx0PSIiIGFyaWEtaGlkZGVuPSJ0cnVlIiBzdHlsZT0id2lkdGg6MTAwJTtoZWlnaHQ6MTAwJTtvYmplY3QtZml0OmNvbnRhaW47IiAvPgogICAgPC9kaXY+CiAgICA8c3R5bGU+CiAgICAgIEBrZXlmcmFtZXMgdmFuQm91bmNlIHsKICAgICAgICAwJSwgMTAwJSB7IHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsgfQogICAgICAgIDUwJSB7IHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNnB4KTsgfQogICAgICB9CiAgICAgIEBrZXlmcmFtZXMgdmFuRHJvcCB7CiAgICAgICAgMCUgeyB0cmFuc2Zvcm06IHNjYWxlKDIuMik7IH0KICAgICAgICAxMDAlIHsgdHJhbnNmb3JtOiBzY2FsZSgxKTsgfQogICAgICB9CiAgICA8L3N0eWxlPmAsCiAgICBpY29uU2l6ZTogW3NpemUsIHNpemVdLAogICAgaWNvbkFuY2hvcjogW2hhbGYsIGhhbGZdLAogIH0pOwp9CgoKY29uc3QgSm91cm5leU1hcCA9ICgpID0+IHsKICBjb25zdCB7IGRhdGE6IGxvY2F0aW9uIH0gPSB1c2VDdXJyZW50TG9jYXRpb24oKTsKICBjb25zdCB7IGRhdGE6IGhpc3RvcnkgfSA9IHVzZUxvY2F0aW9uSGlzdG9yeSgpOwogIGNvbnN0IG1hcEVsZW1lbnRSZWYgPSB1c2VSZWY8SFRNTERpdkVsZW1lbnQgfCBudWxsPihudWxsKTsKICBjb25zdCB3cmFwcGVyUmVmID0gdXNlUmVmPEhUTUxEaXZFbGVtZW50IHwgbnVsbD4obnVsbCk7CiAgY29uc3QgbWFwUmVmID0gdXNlUmVmPEwuTWFwIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgbWFya2VyUmVmID0gdXNlUmVmPEwuTWFya2VyIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgcG9seWxpbmVSZWYgPSB1c2VSZWY8TC5Qb2x5bGluZSB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtpc0Z1bGxzY3JlZW4sIHNldElzRnVsbHNjcmVlbl0gPSB1c2VTdGF0ZShmYWxzZSk7CgogIGNvbnN0IGxhdCA9IGxvY2F0aW9uPy5sYXQgPz8gNTcuNzA4OTsKICBjb25zdCBsbmcgPSBsb2NhdGlvbj8ubG5nID8/IDExLjk3NDY7CiAgY29uc3QgZGF0ZUxhYmVsID0gbG9jYXRpb24gPyBmb3JtYXQobmV3IERhdGUobG9jYXRpb24ucmVjb3JkZWRfYXQpLCAiTU1NIGQsIHl5eXkgJ2F0JyBISDptbSIpIDogIkZldGNoaW5nIGxhdGVzdCBsb2NhdGlvbi4uLiI7CiAgY29uc3QgcG9wdXBDb250ZW50ID0gbG9jYXRpb24KICAgID8gYDxzdHJvbmc+8J+TjSBNYXJ0aW4gaXMgaGVyZTwvc3Ryb25nPjxiciAvPiR7bGF0LnRvRml4ZWQoNCl9LCAke2xuZy50b0ZpeGVkKDQpfWAKICAgIDogIjxzdHJvbmc+8J+TjSBMb2NhdGluZyBNYXJ0aW4uLi48L3N0cm9uZz4iOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgY29uc3QgY29udGFpbmVyID0gbWFwRWxlbWVudFJlZi5jdXJyZW50OwoKICAgIGlmICghY29udGFpbmVyIHx8IG1hcFJlZi5jdXJyZW50KSByZXR1cm47CgogICAgY29uc3QgbWFwID0gTC5tYXAoY29udGFpbmVyLCB7CiAgICAgIHNjcm9sbFdoZWVsWm9vbTogdHJ1ZSwKICAgICAgem9vbUNvbnRyb2w6IHRydWUsCiAgICB9KS5zZXRWaWV3KFtsYXQsIGxuZ10sIE1BUF9aT09NKTsKCiAgICBMLnRpbGVMYXllcihCQVNFX1RJTEVfVVJMLCB7CiAgICAgIGF0dHJpYnV0aW9uOiBUSUxFX0FUVFJJQlVUSU9OLAogICAgICBjbGFzc05hbWU6ICJqb3VybmV5LW1hcC1iYXNlIiwKICAgIH0pLmFkZFRvKG1hcCk7CgogICAgLy8gT3ZlcnJpZGU6IGFkZCB3aGl0ZSBsYWJlbHMgbGF5ZXIgb24gdG9wCiAgICBjb25zdCBsYWJlbHNQYW5lID0gbWFwLmNyZWF0ZVBhbmUoImxhYmVsc1BhbmUiKTsKICAgIGxhYmVsc1BhbmUuc3R5bGUuekluZGV4ID0gIjQ1MCI7CiAgICBsYWJlbHNQYW5lLnN0eWxlLnBvaW50ZXJFdmVudHMgPSAibm9uZSI7CiAgICBMLnRpbGVMYXllcihMQUJFTFNfVVJMLCB7CiAgICAgIHBhbmU6ICJsYWJlbHNQYW5lIiwKICAgICAgY2xhc3NOYW1lOiAibWFwLWxhYmVscy13aGl0ZSIsCiAgICB9KS5hZGRUbyhtYXApOwoKICAgIC8vIFJvdXRlIHBhbmUgc2l0cyBhYm92ZSB0aWxlcy9sYWJlbHMgc28gdGhlIGpvdXJuZXkgbGluZSBpcyBhbHdheXMgdmlzaWJsZQogICAgY29uc3Qgcm91dGVQYW5lID0gbWFwLmNyZWF0ZVBhbmUoInJvdXRlUGFuZSIpOwogICAgcm91dGVQYW5lLnN0eWxlLnpJbmRleCA9ICI0NjAiOwogICAgcm91dGVQYW5lLnN0eWxlLnBvaW50ZXJFdmVudHMgPSAibm9uZSI7CgogICAgY29uc3QgbWFya2VyID0gTC5tYXJrZXIoW2xhdCwgbG5nXSwgeyBpY29uOiBjcmVhdGVWYW5JY29uKDEzMCkgfSkuYWRkVG8obWFwKTsKICAgIG1hcmtlci5iaW5kUG9wdXAocG9wdXBDb250ZW50KTsKCiAgICBtYXBSZWYuY3VycmVudCA9IG1hcDsKICAgIG1hcmtlclJlZi5jdXJyZW50ID0gbWFya2VyOwoKICAgIHJlcXVlc3RBbmltYXRpb25GcmFtZSgoKSA9PiB7CiAgICAgIG1hcC5pbnZhbGlkYXRlU2l6ZSgpOwogICAgfSk7CgogICAgcmV0dXJuICgpID0+IHsKICAgICAgbWFya2VyUmVmLmN1cnJlbnQ/LnJlbW92ZSgpOwogICAgICBtYXJrZXJSZWYuY3VycmVudCA9IG51bGw7CiAgICAgIG1hcC5yZW1vdmUoKTsKICAgICAgbWFwUmVmLmN1cnJlbnQgPSBudWxsOwogICAgfTsKICB9LCBbXSk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIW1hcFJlZi5jdXJyZW50IHx8ICFtYXJrZXJSZWYuY3VycmVudCkgcmV0dXJuOwoKICAgIGNvbnN0IG5leHRQb3NpdGlvbjogTC5MYXRMbmdFeHByZXNzaW9uID0gW2xhdCwgbG5nXTsKCiAgICBtYXJrZXJSZWYuY3VycmVudC5zZXRMYXRMbmcobmV4dFBvc2l0aW9uKTsKICAgIG1hcmtlclJlZi5jdXJyZW50LmJpbmRQb3B1cChwb3B1cENvbnRlbnQpOwogICAgbWFwUmVmLmN1cnJlbnQuc2V0VmlldyhuZXh0UG9zaXRpb24sIE1BUF9aT09NKTsKICB9LCBbbGF0LCBsbmcsIHBvcHVwQ29udGVudF0pOwoKICAvLyBEcmF3IHJvdXRlIHBvbHlsaW5lIGZyb20gbG9jYXRpb24gaGlzdG9yeQogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIW1hcFJlZi5jdXJyZW50IHx8ICFoaXN0b3J5IHx8IGhpc3RvcnkubGVuZ3RoIDwgMikgcmV0dXJuOwoKICAgIGNvbnN0IGNvb3JkczogTC5MYXRMbmdFeHByZXNzaW9uW10gPSBoaXN0b3J5Lm1hcCgocCkgPT4gW3AubGF0LCBwLmxuZ10pOwoKICAgIGlmIChwb2x5bGluZVJlZi5jdXJyZW50KSB7CiAgICAgIHBvbHlsaW5lUmVmLmN1cnJlbnQuc2V0TGF0TG5ncyhjb29yZHMpOwogICAgICAvLyBLZWVwIHRoZSBzaGFkb3ctc20gbGluZSBpbiBzeW5jIGlmIGl0IGV4aXN0cwogICAgICBjb25zdCBzaGFkb3dMaW5lID0gKHBvbHlsaW5lUmVmLmN1cnJlbnQgYXMgYW55KS5fc2hhZG93TGluZSBhcyBMLlBvbHlsaW5lIHwgdW5kZWZpbmVkOwogICAgICBzaGFkb3dMaW5lPy5zZXRMYXRMbmdzKGNvb3Jkcyk7CiAgICB9IGVsc2UgewogICAgICAvLyBXaWRlIGRhcmsgc2hhZG93LXNtL291dGxpbmUgc28gdGhlIHJvdXRlIHBvcHMgYWdhaW5zdCBhbnkgdGVycmFpbgogICAgICBjb25zdCBzaGFkb3dMaW5lID0gTC5wb2x5bGluZShjb29yZHMsIHsKICAgICAgICBwYW5lOiAicm91dGVQYW5lIiwKICAgICAgICBjb2xvcjogInJnYmEoMTUsIDIzLCA0MiwgMC44NSkiLAogICAgICAgIHdlaWdodDogMTIsCiAgICAgICAgb3BhY2l0eTogMSwKICAgICAgICBzbW9vdGhGYWN0b3I6IDEsCiAgICAgICAgbGluZUNhcDogInJvdW5kIiwKICAgICAgICBsaW5lSm9pbjogInJvdW5kIiwKICAgICAgfSkuYWRkVG8obWFwUmVmLmN1cnJlbnQpOwoKICAgICAgY29uc3QgbWFpbkxpbmUgPSBMLnBvbHlsaW5lKGNvb3JkcywgewogICAgICAgIHBhbmU6ICJyb3V0ZVBhbmUiLAogICAgICAgIGNvbG9yOiAiaHNsKDE3NSwgODAlLCA1NSUpIiwKICAgICAgICB3ZWlnaHQ6IDYsCiAgICAgICAgb3BhY2l0eTogMSwKICAgICAgICBzbW9vdGhGYWN0b3I6IDEsCiAgICAgICAgZGFzaEFycmF5OiAiMTIgNiIsCiAgICAgICAgbGluZUNhcDogInJvdW5kIiwKICAgICAgICBsaW5lSm9pbjogInJvdW5kIiwKICAgICAgfSkuYWRkVG8obWFwUmVmLmN1cnJlbnQpOwoKICAgICAgKG1haW5MaW5lIGFzIGFueSkuX3NoYWRvd0xpbmUgPSBzaGFkb3dMaW5lOwogICAgICBwb2x5bGluZVJlZi5jdXJyZW50ID0gbWFpbkxpbmU7CiAgICB9CiAgfSwgW2hpc3RvcnldKTsKCiAgLy8gVG9nZ2xlIGZ1bGxzY3JlZW4KICBjb25zdCB0b2dnbGVGdWxsc2NyZWVuID0gdXNlQ2FsbGJhY2soKCkgPT4gewogICAgY29uc3QgZWwgPSB3cmFwcGVyUmVmLmN1cnJlbnQ7CiAgICBpZiAoIWVsKSByZXR1cm47CgogICAgaWYgKCFkb2N1bWVudC5mdWxsc2NyZWVuRWxlbWVudCkgewogICAgICBlbC5yZXF1ZXN0RnVsbHNjcmVlbigpLmNhdGNoKCgpID0+IHt9KTsKICAgIH0gZWxzZSB7CiAgICAgIGRvY3VtZW50LmV4aXRGdWxsc2NyZWVuKCkuY2F0Y2goKCkgPT4ge30pOwogICAgfQogIH0sIFtdKTsKCiAgLy8gTGlzdGVuIGZvciBmdWxsc2NyZWVuIGNoYW5nZXMgdG8gdXBkYXRlIGljb24gc2l6ZQogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCBvbkNoYW5nZSA9ICgpID0+IHsKICAgICAgY29uc3QgZnMgPSAhIWRvY3VtZW50LmZ1bGxzY3JlZW5FbGVtZW50OwogICAgICBzZXRJc0Z1bGxzY3JlZW4oZnMpOwoKICAgICAgaWYgKG1hcmtlclJlZi5jdXJyZW50KSB7CiAgICAgICAgbWFya2VyUmVmLmN1cnJlbnQuc2V0SWNvbihjcmVhdGVWYW5JY29uKGZzID8gMTcwIDogMTMwKSk7CiAgICAgIH0KCiAgICAgIC8vIExldCB0aGUgbWFwIHJlY2FsY3VsYXRlIGFmdGVyIHJlc2l6ZQogICAgICBzZXRUaW1lb3V0KCgpID0+IHsKICAgICAgICBtYXBSZWYuY3VycmVudD8uaW52YWxpZGF0ZVNpemUoKTsKICAgICAgfSwgMjAwKTsKICAgIH07CgogICAgZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigiZnVsbHNjcmVlbmNoYW5nZSIsIG9uQ2hhbmdlKTsKICAgIHJldHVybiAoKSA9PiBkb2N1bWVudC5yZW1vdmVFdmVudExpc3RlbmVyKCJmdWxsc2NyZWVuY2hhbmdlIiwgb25DaGFuZ2UpOwogIH0sIFtdKTsKCiAgcmV0dXJuICgKICAgIDxkaXYgcmVmPXt3cmFwcGVyUmVmfSBjbGFzc05hbWU9Im14LWF1dG8gdy1mdWxsIG1heC13LTZ4bCBweC00IHB5LTggcmVsYXRpdmUiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItNCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImgtMy41IHctMy41IHJvdW5kZWQtZnVsbCBiZy1kZXN0cnVjdGl2ZSByaW5nLTIgcmluZy1kZXN0cnVjdGl2ZS8zMCIgLz4KICAgICAgICA8c3Bhbj5NYXJ0aW4ncyBjdXJyZW50IGxvY2F0aW9uPC9zcGFuPgogICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibWwtYXV0byB0ZXh0LXhzIj57ZGF0ZUxhYmVsfTwvc3Bhbj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0ib3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQteGwgYm9yZGVyIHNoYWRvdy1sZyByZWxhdGl2ZSI+CiAgICAgICAgPGRpdiByZWY9e21hcEVsZW1lbnRSZWZ9IGNsYXNzTmFtZT0iam91cm5leS1tYXAiIHN0eWxlPXt7IGhlaWdodDogaXNGdWxsc2NyZWVuID8gIjEwMHZoIiA6ICI1MDBweCIsIHdpZHRoOiAiMTAwJSIgfX0gLz4KICAgICAgICA8YnV0dG9uCiAgICAgICAgICBvbkNsaWNrPXt0b2dnbGVGdWxsc2NyZWVufQogICAgICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSB0b3AtMyByaWdodC0zIHotWzEwMDBdIHJvdW5kZWQtbWQgYmctYmFja2dyb3VuZC84MCBwLTIgdGV4dC1mb3JlZ3JvdW5kIGJhY2tkcm9wLWJsdXIteHMgYm9yZGVyIGJvcmRlci1ib3JkZXIgaG92ZXI6YmctYmFja2dyb3VuZCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgIHRpdGxlPXtpc0Z1bGxzY3JlZW4gPyAiRXhpdCBmdWxsc2NyZWVuIiA6ICJGdWxsc2NyZWVuIn0KICAgICAgICA+CiAgICAgICAgICB7aXNGdWxsc2NyZWVuID8gPE1pbmltaXplMiBjbGFzc05hbWU9ImgtNSB3LTUiIC8+IDogPE1heGltaXplMiBjbGFzc05hbWU9ImgtNSB3LTUiIC8+fQogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBKb3VybmV5TWFwOwo=
+import { useCallback, useEffect, useRef, useState } from "react";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
+import { useCurrentLocation } from "@/hooks/useCurrentLocation";
+import { useLocationHistory } from "@/hooks/useLocationHistory";
+import { format } from "date-fns";
+import { Maximize2, Minimize2 } from "lucide-react";
+import vanIcon from "@/assets/van-icon.png";
+
+const MAP_ZOOM = 6;
+const BASE_TILE_URL = "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png";
+const LABELS_URL = "https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png";
+const TILE_ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | <a href="https://carto.com/">CARTO</a>';
+
+function createVanIcon(size: number) {
+  const half = size / 2;
+  return L.divIcon({
+    className: "",
+    html: `<div style="
+      width: ${size}px; height: ${size}px;
+      animation: vanDrop 900ms cubic-bezier(0.34, 1.3, 0.64, 1) both, vanBounce 2s ease-in-out 900ms infinite;
+      filter: drop-shadow(0 4px 6px rgba(0,0,0,0.4));
+    ">
+      <img src="${vanIcon}" alt="" aria-hidden="true" style="width:100%;height:100%;object-fit:contain;" />
+    </div>
+    <style>
+      @keyframes vanBounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-6px); }
+      }
+      @keyframes vanDrop {
+        0% { transform: scale(2.2); }
+        100% { transform: scale(1); }
+      }
+    </style>`,
+    iconSize: [size, size],
+    iconAnchor: [half, half],
+  });
+}
+
+
+const JourneyMap = () => {
+  const { data: location } = useCurrentLocation();
+  const { data: history } = useLocationHistory();
+  const mapElementRef = useRef<HTMLDivElement | null>(null);
+  const wrapperRef = useRef<HTMLDivElement | null>(null);
+  const mapRef = useRef<L.Map | null>(null);
+  const markerRef = useRef<L.Marker | null>(null);
+  const polylineRef = useRef<L.Polyline | null>(null);
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
+  const lat = location?.lat ?? 57.7089;
+  const lng = location?.lng ?? 11.9746;
+  const dateLabel = location ? format(new Date(location.recorded_at), "MMM d, yyyy 'at' HH:mm") : "Fetching latest location...";
+  const popupContent = location
+    ? `<strong>📍 Martin is here</strong><br />${lat.toFixed(4)}, ${lng.toFixed(4)}`
+    : "<strong>📍 Locating Martin...</strong>";
+
+  useEffect(() => {
+    const container = mapElementRef.current;
+
+    if (!container || mapRef.current) return;
+
+    const map = L.map(container, {
+      scrollWheelZoom: true,
+      zoomControl: true,
+    }).setView([lat, lng], MAP_ZOOM);
+
+    L.tileLayer(BASE_TILE_URL, {
+      attribution: TILE_ATTRIBUTION,
+      className: "journey-map-base",
+    }).addTo(map);
+
+    // Override: add white labels layer on top
+    const labelsPane = map.createPane("labelsPane");
+    labelsPane.style.zIndex = "450";
+    labelsPane.style.pointerEvents = "none";
+    L.tileLayer(LABELS_URL, {
+      pane: "labelsPane",
+      className: "map-labels-white",
+    }).addTo(map);
+
+    // Route pane sits above tiles/labels so the journey line is always visible
+    const routePane = map.createPane("routePane");
+    routePane.style.zIndex = "460";
+    routePane.style.pointerEvents = "none";
+
+    const marker = L.marker([lat, lng], { icon: createVanIcon(130) }).addTo(map);
+    marker.bindPopup(popupContent);
+
+    mapRef.current = map;
+    markerRef.current = marker;
+
+    requestAnimationFrame(() => {
+      map.invalidateSize();
+    });
+
+    return () => {
+      markerRef.current?.remove();
+      markerRef.current = null;
+      map.remove();
+      mapRef.current = null;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!mapRef.current || !markerRef.current) return;
+
+    const nextPosition: L.LatLngExpression = [lat, lng];
+
+    markerRef.current.setLatLng(nextPosition);
+    markerRef.current.bindPopup(popupContent);
+    mapRef.current.setView(nextPosition, MAP_ZOOM);
+  }, [lat, lng, popupContent]);
+
+  // Draw route polyline from location history
+  useEffect(() => {
+    if (!mapRef.current || !history || history.length < 2) return;
+
+    const coords: L.LatLngExpression[] = history.map((p) => [p.lat, p.lng]);
+
+    if (polylineRef.current) {
+      polylineRef.current.setLatLngs(coords);
+      // Keep the shadow-sm line in sync if it exists
+      const shadowLine = (polylineRef.current as any)._shadowLine as L.Polyline | undefined;
+      shadowLine?.setLatLngs(coords);
+    } else {
+      // Wide dark shadow-sm/outline so the route pops against any terrain
+      const shadowLine = L.polyline(coords, {
+        pane: "routePane",
+        color: "rgba(15, 23, 42, 0.85)",
+        weight: 12,
+        opacity: 1,
+        smoothFactor: 1,
+        lineCap: "round",
+        lineJoin: "round",
+      }).addTo(mapRef.current);
+
+      const mainLine = L.polyline(coords, {
+        pane: "routePane",
+        color: "hsl(175, 80%, 55%)",
+        weight: 6,
+        opacity: 1,
+        smoothFactor: 1,
+        dashArray: "12 6",
+        lineCap: "round",
+        lineJoin: "round",
+      }).addTo(mapRef.current);
+
+      (mainLine as any)._shadowLine = shadowLine;
+      polylineRef.current = mainLine;
+    }
+  }, [history]);
+
+  // Toggle fullscreen
+  const toggleFullscreen = useCallback(() => {
+    const el = wrapperRef.current;
+    if (!el) return;
+
+    if (!document.fullscreenElement) {
+      el.requestFullscreen().catch(() => {});
+    } else {
+      document.exitFullscreen().catch(() => {});
+    }
+  }, []);
+
+  // Listen for fullscreen changes to update icon size
+  useEffect(() => {
+    const onChange = () => {
+      const fs = !!document.fullscreenElement;
+      setIsFullscreen(fs);
+
+      if (markerRef.current) {
+        markerRef.current.setIcon(createVanIcon(fs ? 170 : 130));
+      }
+
+      // Let the map recalculate after resize
+      setTimeout(() => {
+        mapRef.current?.invalidateSize();
+      }, 200);
+    };
+
+    document.addEventListener("fullscreenchange", onChange);
+    return () => document.removeEventListener("fullscreenchange", onChange);
+  }, []);
+
+  return (
+    <div ref={wrapperRef} className="mx-auto w-full max-w-6xl px-4 py-8 relative">
+      <div className="mb-4 flex items-center gap-2 text-sm text-muted-foreground">
+        <div className="h-3.5 w-3.5 rounded-full bg-destructive ring-2 ring-destructive/30" />
+        <span>Martin's current location</span>
+        <span className="ml-auto text-xs">{dateLabel}</span>
+      </div>
+
+      <div className="overflow-hidden rounded-xl border shadow-lg relative">
+        <div ref={mapElementRef} className="journey-map" style={{ height: isFullscreen ? "100vh" : "500px", width: "100%" }} />
+        <button
+          onClick={toggleFullscreen}
+          className="absolute top-3 right-3 z-[1000] rounded-md bg-background/80 p-2 text-foreground backdrop-blur-xs border border-border hover:bg-background transition-colors"
+          title={isFullscreen ? "Exit fullscreen" : "Fullscreen"}
+        >
+          {isFullscreen ? <Minimize2 className="h-5 w-5" /> : <Maximize2 className="h-5 w-5" />}
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default JourneyMap;

@@ -1,1 +1,28 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgTU9USU9OX0NIQU5HRV9FVkVOVCwgbW90aW9uQWxsb3dlZCB9IGZyb20gIkAvbGliL21vdGlvbiI7CgovKioKICogUmVhY3RpdmUgdmVyc2lvbiBvZiBtb3Rpb25BbGxvd2VkKCk6IHJlLXJlbmRlcnMgd2hlbiB0aGUgdXNlciBjaGFuZ2VzIHRoZQogKiBtb3Rpb24gcHJlZmVyZW5jZSBpbiBBcHBlYXJhbmNlIHNldHRpbmdzLCBpbiBhbm90aGVyIHRhYiwgb3IgYXQgT1MgbGV2ZWwuCiAqIFJldHVybnMgdHJ1ZSBvbiB0aGUgc2VydmVyIHNvIFNTUiBtYXJrdXAgbWF0Y2hlcyB0aGUgImFuaW1hdGlvbnMgb24iIGRlZmF1bHQuCiAqLwpleHBvcnQgZnVuY3Rpb24gdXNlTW90aW9uQWxsb3dlZCgpOiBib29sZWFuIHsKICBjb25zdCBbYWxsb3dlZCwgc2V0QWxsb3dlZF0gPSB1c2VTdGF0ZSh0cnVlKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnN0IHN5bmMgPSAoKSA9PiBzZXRBbGxvd2VkKG1vdGlvbkFsbG93ZWQoKSk7CiAgICBzeW5jKCk7CgogICAgY29uc3QgbXEgPSB3aW5kb3cubWF0Y2hNZWRpYT8uKCIocHJlZmVycy1yZWR1Y2VkLW1vdGlvbjogcmVkdWNlKSIpOwogICAgbXE/LmFkZEV2ZW50TGlzdGVuZXI/LigiY2hhbmdlIiwgc3luYyk7CiAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcihNT1RJT05fQ0hBTkdFX0VWRU5ULCBzeW5jKTsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJzdG9yYWdlIiwgc3luYyk7CiAgICByZXR1cm4gKCkgPT4gewogICAgICBtcT8ucmVtb3ZlRXZlbnRMaXN0ZW5lcj8uKCJjaGFuZ2UiLCBzeW5jKTsKICAgICAgd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoTU9USU9OX0NIQU5HRV9FVkVOVCwgc3luYyk7CiAgICAgIHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKCJzdG9yYWdlIiwgc3luYyk7CiAgICB9OwogIH0sIFtdKTsKCiAgcmV0dXJuIGFsbG93ZWQ7Cn0K
+import { useEffect, useState } from "react";
+import { MOTION_CHANGE_EVENT, motionAllowed } from "@/lib/motion";
+
+/**
+ * Reactive version of motionAllowed(): re-renders when the user changes the
+ * motion preference in Appearance settings, in another tab, or at OS level.
+ * Returns true on the server so SSR markup matches the "animations on" default.
+ */
+export function useMotionAllowed(): boolean {
+  const [allowed, setAllowed] = useState(true);
+
+  useEffect(() => {
+    const sync = () => setAllowed(motionAllowed());
+    sync();
+
+    const mq = window.matchMedia?.("(prefers-reduced-motion: reduce)");
+    mq?.addEventListener?.("change", sync);
+    window.addEventListener(MOTION_CHANGE_EVENT, sync);
+    window.addEventListener("storage", sync);
+    return () => {
+      mq?.removeEventListener?.("change", sync);
+      window.removeEventListener(MOTION_CHANGE_EVENT, sync);
+      window.removeEventListener("storage", sync);
+    };
+  }, []);
+
+  return allowed;
+}

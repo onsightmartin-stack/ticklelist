@@ -1,1 +1,141 @@
-Ly8gU2NoZW1hdGljIChoZWF2aWx5IHNpbXBsaWZpZWQpIGdlb2dyYXBoeSBmb3IgdGhlIHJvdXRlIG1hcC4KLy8gQ29vcmRpbmF0ZXMgYXJlIFtsb24sIGxhdF0gcGFpcnMg4oCUIGFjY3VyYXRlIGVub3VnaCBmb3Igb3JpZW50YXRpb24sIG5vdCBuYXZpZ2F0aW9uLgoKZXhwb3J0IHR5cGUgTEwgPSBbbnVtYmVyLCBudW1iZXJdOwoKZXhwb3J0IGNvbnN0IEJPUkRFUlM6IExMW11bXSA9IFsKICAvLyBQb2xhbmQg4oCTIEN6ZWNoaWEgLyBTbG92YWtpYSAvIFVrcmFpbmUKICBbWzE2LjAsIDUwLjZdLCBbMTcuMCwgNTAuMjhdLCBbMTguMDUsIDQ5LjVdLCBbMTkuNSwgNDkuNF0sIFsyMC45LCA0OS4zXSwgWzIyLjAsIDQ5LjBdLCBbMjIuNTUsIDQ5LjA4XSwgWzIzLjYsIDUwLjRdLCBbMjQuMSwgNTAuODVdLCBbMjMuNiwgNTEuNl0sIFsyMy45LCA1Mi40XV0sCiAgLy8gU2xvdmFraWEgLyBIdW5nYXJ5ICsgQXVzdHJpYQogIFtbMTYuMCwgNDguN10sIFsxNy4wLCA0OC40XSwgWzE3Ljc1LCA0Ny43NV0sIFsxOC44LCA0Ny44XSwgWzE5LjksIDQ4LjJdLCBbMjEuMSwgNDguNTVdLCBbMjIuMTUsIDQ4LjRdLCBbMjIuNTUsIDQ5LjA4XV0sCiAgLy8gVWtyYWluZSDigJMgSHVuZ2FyeSAvIFJvbWFuaWEgLyBNb2xkb3ZhCiAgW1syMi4xNSwgNDguNF0sIFsyMi45LCA0Ny45NV0sIFsyMy4yLCA0OC4xXSwgWzI0LjksIDQ3LjcyXSwgWzI2LjIsIDQ3Ljk5XSwgWzI3LjU1LCA0OC40NV1dLAogIC8vIE1vbGRvdmEg4oCTIFVrcmFpbmUgKGVhc3QpCiAgW1syNy41NSwgNDguNDVdLCBbMjguMywgNDguMTZdLCBbMjkuMiwgNDcuNDVdLCBbMjkuNTcsIDQ2LjRdLCBbMzAuMCwgNDYuMzVdXSwKICAvLyBNb2xkb3ZhIOKAkyBSb21hbmlhIChQcnV0KQogIFtbMjcuNTUsIDQ4LjQ1XSwgWzI2LjYyLCA0OC4yNl0sIFsyNy41LCA0Ny4yXSwgWzI4LjAsIDQ1LjldLCBbMjguMTksIDQ1LjQ1XSwgWzI4LjcsIDQ1LjJdXSwKICAvLyBVa3JhaW5lIOKAkyBSb21hbmlhIChEYW51YmUgZGVsdGEpCiAgW1syOC43LCA0NS4yXSwgWzI5LjY1LCA0NS4yXV0sCiAgLy8gUm9tYW5pYSDigJMgQnVsZ2FyaWEgKERhbnViZSArIGNvYXN0KQogIFtbMjIuNywgNDQuNl0sIFsyMy4wLCA0NC4xXSwgWzI0LjAsIDQzLjc1XSwgWzI1LjQsIDQzLjY1XSwgWzI2LjEsIDQ0LjA1XSwgWzI3LjAsIDQ0LjE1XSwgWzI3LjksIDQzLjk1XSwgWzI4LjYsIDQzLjc1XV0sCiAgLy8gUm9tYW5pYSDigJMgU2VyYmlhIC8gSHVuZ2FyeQogIFtbMjIuNywgNDQuNl0sIFsyMS42LCA0NC43XSwgWzIxLjQsIDQ0LjldLCBbMjAuNzUsIDQ1LjVdLCBbMjAuMywgNDYuMTVdLCBbMjEuMCwgNDYuMjVdLCBbMjEuNSwgNDYuN10sIFsyMi4zLCA0Ny42XSwgWzIyLjksIDQ3Ljk1XV0sCiAgLy8gSHVuZ2FyeSDigJMgU2VyYmlhIC8gQ3JvYXRpYQogIFtbMjAuMywgNDYuMTVdLCBbMTkuNSwgNDYuMTddLCBbMTguOSwgNDUuOV0sIFsxNy42LCA0NS45NV0sIFsxNi41LCA0Ni40XSwgWzE2LjAsIDQ2LjVdXSwKICAvLyBDcm9hdGlhIOKAkyBTZXJiaWEgLyBCb3NuaWEKICBbWzE4LjksIDQ1LjldLCBbMTkuMCwgNDUuMl0sIFsxOS40LCA0NC45XSwgWzE5LjE1LCA0NC41NV0sIFsxOS42LCA0NC4wNV1dLAogIFtbMTkuMCwgNDUuMl0sIFsxOC42LCA0NS4wOF0sIFsxNy44LCA0NS4wOF0sIFsxNi45LCA0NS4yOF0sIFsxNi4zLCA0NS4wXSwgWzE2LjAsIDQ1LjFdXSwKICBbWzE2LjAsIDQ0LjddLCBbMTYuMSwgNDQuNV0sIFsxNi42LCA0NC4yXSwgWzE3LjMsIDQzLjVdLCBbMTcuNiwgNDMuMF0sIFsxOC41LCA0Mi42XV0sCiAgLy8gQm9zbmlhIOKAkyBTZXJiaWEgLyBNb250ZW5lZ3JvIChEcmluYSkKICBbWzE5LjYsIDQ0LjA1XSwgWzE5LjM1LCA0My42XSwgWzE5LjUsIDQzLjM1XSwgWzE4LjksIDQzLjJdLCBbMTguNSwgNDIuNl1dLAogIC8vIFNlcmJpYSDigJMgTW9udGVuZWdybyAvIEtvc292bwogIFtbMTkuNSwgNDMuMzVdLCBbMjAuMzUsIDQyLjg1XSwgWzIwLjA1LCA0Mi41NV1dLAogIFtbMjAuMzUsIDQyLjg1XSwgWzIwLjg1LCA0My4yXSwgWzIxLjQsIDQyLjldLCBbMjEuNywgNDIuN10sIFsyMi4zNSwgNDIuMzFdXSwKICAvLyBTZXJiaWEg4oCTIEJ1bGdhcmlhCiAgW1syMi4zNSwgNDQuMF0sIFsyMi41LCA0My40XSwgWzIyLjk4LCA0My4xOV0sIFsyMi41LCA0Mi45XSwgWzIyLjM1LCA0Mi4zMV1dLAogIC8vIEtvc292byDigJMgQWxiYW5pYSAvIE5vcnRoIE1hY2Vkb25pYQogIFtbMjAuMDUsIDQyLjU1XSwgWzIwLjQsIDQyLjBdLCBbMjAuNTUsIDQxLjg1XSwgWzIxLjAsIDQyLjE1XSwgWzIxLjMsIDQyLjM1XSwgWzIxLjcsIDQyLjddXSwKICAvLyBBbGJhbmlhIOKAkyBOb3J0aCBNYWNlZG9uaWEKICBbWzIwLjU1LCA0MS44NV0sIFsyMC41LCA0MS4yNV0sIFsyMC43LCA0MC45XSwgWzIxLjA1LCA0MC44NV0sIFsyMC45OCwgNDAuNV0sIFsyMC42NSwgNDAuMV1dLAogIC8vIE5vcnRoIE1hY2Vkb25pYSDigJMgR3JlZWNlIC8gQnVsZ2FyaWEKICBbWzIwLjk4LCA0MC41XSwgWzIxLjksIDQxLjFdLCBbMjIuOSwgNDEuMzRdLCBbMjMuMCwgNDEuNF0sIFsyMi45LCA0MS45XSwgWzIyLjM1LCA0Mi4zMV1dLAogIC8vIEJ1bGdhcmlhIOKAkyBHcmVlY2UgLyBUdXJrZXkKICBbWzIzLjAsIDQxLjRdLCBbMjQuNSwgNDEuNTVdLCBbMjUuMywgNDEuMjVdLCBbMjYuMTUsIDQxLjM1XSwgWzI2LjYsIDQxLjM1XSwgWzI2LjM1LCA0MC45XV0sCiAgW1syNi4xNSwgNDEuMzVdLCBbMjcuNSwgNDEuOTVdLCBbMjguMCwgNDIuMF1dLAogIC8vIEFsYmFuaWEg4oCTIEdyZWVjZQogIFtbMjAuNjUsIDQwLjFdLCBbMjAuMywgMzkuOV0sIFsyMC4wLCAzOS42NV1dLApdOwoKZXhwb3J0IGNvbnN0IENPQVNUUzogTExbXVtdID0gWwogIC8vIEFkcmlhdGljIC8gSW9uaWFuCiAgW1sxNi4wLCA0My45XSwgWzE2LjIsIDQzLjRdLCBbMTcuMywgNDIuOV0sIFsxOC4zLCA0Mi41XSwgWzE5LjEsIDQxLjldLCBbMTkuNSwgNDEuMl0sIFsxOS4zNSwgNDAuNV0sIFsyMC4wLCAzOS42NV0sIFsyMC4yLCAzOS4yXSwgWzIwLjc1LCAzOC45XSwgWzIxLjEsIDM4LjM1XSwgWzIxLjQsIDM4LjM1XSwgWzIyLjAsIDM4LjNdLCBbMjMuMCwgMzguNV0sIFsyMy41LCAzOS4yXSwgWzIyLjgsIDM5LjVdLCBbMjIuNiwgNDAuMF0sIFsyMy4wLCA0MC41XSwgWzI0LjAsIDQwLjddLCBbMjQuOCwgNDAuOV0sIFsyNS45LCA0MC44NV0sIFsyNi4zNSwgNDAuOV1dLAogIC8vIEJsYWNrIFNlYQogIFtbMzAuNiwgNDYuM10sIFszMC40LCA0NS45XSwgWzI5LjY1LCA0NS4yXSwgWzI4Ljg1LCA0NC43XSwgWzI4LjYsIDQzLjc1XSwgWzI3LjksIDQzLjJdLCBbMjcuOSwgNDIuN10sIFsyOC4wLCA0Mi4wXSwgWzI4LjYsIDQxLjZdLCBbMzEuMCwgNDEuNl1dLApdOwoKZXhwb3J0IGNvbnN0IFNFQVM6IHsgbmFtZTogc3RyaW5nOyBwb2x5OiBMTFtdOyBsYWJlbDogTEw7IHJvdD86IG51bWJlciB9W10gPSBbCiAgewogICAgbmFtZTogIkFkcmlhdGljIFNlYSIsCiAgICBwb2x5OiBbWzE2LjAsIDQzLjldLCBbMTYuMiwgNDMuNF0sIFsxNy4zLCA0Mi45XSwgWzE4LjMsIDQyLjVdLCBbMTkuMSwgNDEuOV0sIFsxOS41LCA0MS4yXSwgWzE5LjM1LCA0MC41XSwgWzIwLjAsIDM5LjY1XSwgWzIwLjIsIDM5LjJdLCBbMjAuNzUsIDM4LjldLCBbMjEuMSwgMzguMzVdLCBbMjAuOSwgMzcuNV0sIFsxNi4wLCAzNy41XV0sCiAgICBsYWJlbDogWzE2LjksIDQyLjRdLAogICAgcm90OiAtMzgsCiAgfSwKICB7CiAgICBuYW1lOiAiSW9uaWFuIFNlYSIsCiAgICBwb2x5OiBbWzE5LjM1LCA0MC41XSwgWzIwLjAsIDM5LjY1XSwgWzIwLjIsIDM5LjJdLCBbMjAuNzUsIDM4LjldLCBbMjEuMSwgMzguMzVdLCBbMjAuOSwgMzcuNV0sIFsxOC40LCAzNy41XSwgWzE4LjQsIDQwLjBdXSwKICAgIGxhYmVsOiBbMTkuMywgMzguNl0sCiAgfSwKICB7CiAgICBuYW1lOiAiQWVnZWFuIFNlYSIsCiAgICBwb2x5OiBbWzIzLjUsIDM5LjJdLCBbMjMuMCwgMzguNV0sIFsyMi4wLCAzOC4zXSwgWzIxLjQsIDM4LjM1XSwgWzIxLjEsIDM4LjM1XSwgWzIwLjksIDM3LjVdLCBbMjYuNiwgMzcuNV0sIFsyNi4zNSwgNDAuOV0sIFsyNS45LCA0MC44NV0sIFsyNC44LCA0MC45XSwgWzI0LjAsIDQwLjddLCBbMjMuMCwgNDAuNV0sIFsyMi42LCA0MC4wXSwgWzIyLjgsIDM5LjVdXSwKICAgIGxhYmVsOiBbMjUuMiwgMzkuMF0sCiAgfSwKICB7CiAgICBuYW1lOiAiQmxhY2sgU2VhIiwKICAgIHBvbHk6IFtbMjguNiwgNDMuNzVdLCBbMjcuOSwgNDMuMl0sIFsyNy45LCA0Mi43XSwgWzI4LjAsIDQyLjBdLCBbMjguNiwgNDEuNl0sIFszMS4wLCA0MS42XSwgWzMxLjAsIDQ2LjZdLCBbMzAuNiwgNDYuM10sIFszMC40LCA0NS45XSwgWzI5LjY1LCA0NS4yXSwgWzI4Ljg1LCA0NC43XV0sCiAgICBsYWJlbDogWzI5LjksIDQzLjRdLAogIH0sCiAgewogICAgbmFtZTogIlNlYSBvZiBNYXJtYXJhIiwKICAgIHBvbHk6IFtbMjYuNiwgNDAuNl0sIFsyOC42LCA0MC40XSwgWzI5LjYsIDQwLjVdLCBbMjkuNiwgNDEuMV0sIFsyOC42LCA0MS4zXSwgWzI2LjksIDQwLjk1XV0sCiAgICBsYWJlbDogWzI4LjMsIDQwLjc1XSwKICB9LApdOwoKZXhwb3J0IGNvbnN0IFJBTkdFUzogeyBuYW1lOiBzdHJpbmc7IGF0OiBMTDsgcm90OiBudW1iZXIgfVtdID0gWwogIHsgbmFtZTogIlRhdHJhIE10cyIsIGF0OiBbMTkuOSwgNDkuNV0sIHJvdDogLTggfSwKICB7IG5hbWU6ICJDYXJwYXRoaWFuIE10cyIsIGF0OiBbMjIuNiwgNDguOV0sIHJvdDogLTM4IH0sCiAgeyBuYW1lOiAiRWFzdGVybiBDYXJwYXRoaWFucyIsIGF0OiBbMjUuNCwgNDcuMV0sIHJvdDogLTcwIH0sCiAgeyBuYW1lOiAiU291dGhlcm4gQ2FycGF0aGlhbnMiLCBhdDogWzIzLjYsIDQ1LjM1XSwgcm90OiAtOCB9LAogIHsgbmFtZTogIkFwdXNlbmkgTXRzIiwgYXQ6IFsyMi45LCA0Ni41XSwgcm90OiAtMjAgfSwKICB7IG5hbWU6ICJEaW5hcmljIEFscHMiLCBhdDogWzE3LjIsIDQ0LjFdLCByb3Q6IC00MiB9LAogIHsgbmFtZTogIkR1cm1pdG9yIiwgYXQ6IFsxOS4wLCA0My40NV0sIHJvdDogLTIwIH0sCiAgeyBuYW1lOiAiQWNjdXJzZWQgTXRzIiwgYXQ6IFsxOS43NSwgNDIuOV0sIHJvdDogLTI1IH0sCiAgeyBuYW1lOiAixaBhciBNdHMiLCBhdDogWzIwLjksIDQyLjVdLCByb3Q6IC0zNSB9LAogIHsgbmFtZTogIkJhbGthbiBNdHMgKFN0YXJhIFBsYW5pbmEpIiwgYXQ6IFsyNC44LCA0Mi45NV0sIHJvdDogLTYgfSwKICB7IG5hbWU6ICJSaWxh4oCTUGlyaW4iLCBhdDogWzIzLjIsIDQxLjc1XSwgcm90OiAtMzUgfSwKICB7IG5hbWU6ICJSaG9kb3BlIE10cyIsIGF0OiBbMjUuMSwgNDEuNjVdLCByb3Q6IC02IH0sCiAgeyBuYW1lOiAiUGluZHVzIE10cyIsIGF0OiBbMjEuMiwgMzkuN10sIHJvdDogLTYyIH0sCl07CgpleHBvcnQgY29uc3QgQ0FQSVRBTFM6IHsgbmFtZTogc3RyaW5nOyBhdDogTEw7IGR4PzogbnVtYmVyOyBkeT86IG51bWJlcjsgYW5jaG9yPzogInN0YXJ0IiB8ICJlbmQiIH1bXSA9IFsKICB7IG5hbWU6ICJXYXJzYXciLCBhdDogWzIxLjAxLCA1Mi4yM10gfSwKICB7IG5hbWU6ICJCcmF0aXNsYXZhIiwgYXQ6IFsxNy4xMSwgNDguMTVdLCBkeDogLTgsIGFuY2hvcjogImVuZCIgfSwKICB7IG5hbWU6ICJCdWRhcGVzdCIsIGF0OiBbMTkuMDQsIDQ3LjVdIH0sCiAgeyBuYW1lOiAiS3lpdiIsIGF0OiBbMzAuNTIsIDUwLjQ1XSwgZHg6IC04LCBhbmNob3I6ICJlbmQiIH0sCiAgeyBuYW1lOiAiQ2hpyJlpbsSDdSIsIGF0OiBbMjguODYsIDQ3LjAxXSB9LAogIHsgbmFtZTogIkJ1Y2hhcmVzdCIsIGF0OiBbMjYuMSwgNDQuNDNdIH0sCiAgeyBuYW1lOiAiQmVsZ3JhZGUiLCBhdDogWzIwLjQ1LCA0NC43OV0sIGR4OiAtOCwgYW5jaG9yOiAiZW5kIiB9LAogIHsgbmFtZTogIlNhcmFqZXZvIiwgYXQ6IFsxOC40MSwgNDMuODZdLCBkeDogLTgsIGFuY2hvcjogImVuZCIgfSwKICB7IG5hbWU6ICJaYWdyZWIiLCBhdDogWzE1Ljk4LCA0NS44MV0gfSwKICB7IG5hbWU6ICJQb2Rnb3JpY2EiLCBhdDogWzE5LjI2LCA0Mi40NF0sIGR4OiAtOCwgZHk6IDEyLCBhbmNob3I6ICJlbmQiIH0sCiAgeyBuYW1lOiAiUHJpc3RpbmEiLCBhdDogWzIxLjE2LCA0Mi42Nl0sIGR5OiAtNiB9LAogIHsgbmFtZTogIlRpcmFuYSIsIGF0OiBbMTkuODIsIDQxLjMzXSwgZHg6IC04LCBhbmNob3I6ICJlbmQiIH0sCiAgeyBuYW1lOiAiU2tvcGplIiwgYXQ6IFsyMS40MywgNDEuOTldLCBkeTogMTQgfSwKICB7IG5hbWU6ICJTb2ZpYSIsIGF0OiBbMjMuMzIsIDQyLjddLCBkeTogLTYgfSwKICB7IG5hbWU6ICJBdGhlbnMiLCBhdDogWzIzLjczLCAzNy45OF0gfSwKXTsKCmV4cG9ydCBjb25zdCBDSVRJRVM6IHsgbmFtZTogc3RyaW5nOyBhdDogTEw7IGR4PzogbnVtYmVyOyBhbmNob3I/OiAic3RhcnQiIHwgImVuZCIgfVtdID0gWwogIHsgbmFtZTogIkx2aXYiLCBhdDogWzI0LjAzLCA0OS44NF0gfSwKICB7IG5hbWU6ICJJdmFuby1GcmFua2l2c2siLCBhdDogWzI0LjcxLCA0OC45Ml0gfSwKXTsKCmV4cG9ydCBjb25zdCBDT1VOVFJJRVM6IHsgbmFtZTogc3RyaW5nOyBhdDogTEwgfVtdID0gWwogIHsgbmFtZTogIlBPTEFORCIsIGF0OiBbMTkuNiwgNTEuNF0gfSwKICB7IG5hbWU6ICJVS1JBSU5FIiwgYXQ6IFsyNy41LCA0OS42XSB9LAogIHsgbmFtZTogIk1PTERPVkEiLCBhdDogWzI4LjYsIDQ2LjZdIH0sCiAgeyBuYW1lOiAiUk9NQU5JQSIsIGF0OiBbMjUuMiwgNDUuNl0gfSwKICB7IG5hbWU6ICJIVU5HQVJZIiwgYXQ6IFsxOS4yLCA0Ni43XSB9LAogIHsgbmFtZTogIlNMT1ZBS0lBIiwgYXQ6IFsxOS40LCA0OC43XSB9LAogIHsgbmFtZTogIlNFUkJJQSIsIGF0OiBbMjAuOCwgNDQuMl0gfSwKICB7IG5hbWU6ICJCT1NOSUEiLCBhdDogWzE3LjYsIDQ0LjNdIH0sCiAgeyBuYW1lOiAiQ1JPQVRJQSIsIGF0OiBbMTYuNCwgNDUuNV0gfSwKICB7IG5hbWU6ICJNT05URU5FR1JPIiwgYXQ6IFsxOS4yLCA0Mi44NV0gfSwKICB7IG5hbWU6ICJLT1NPVk8iLCBhdDogWzIwLjgsIDQyLjc1XSB9LAogIHsgbmFtZTogIkFMQkFOSUEiLCBhdDogWzIwLjEsIDQwLjhdIH0sCiAgeyBuYW1lOiAiTi4gTUFDRURPTklBIiwgYXQ6IFsyMS43LCA0MS41XSB9LAogIHsgbmFtZTogIkJVTEdBUklBIiwgYXQ6IFsyNS4zLCA0Mi42XSB9LAogIHsgbmFtZTogIkdSRUVDRSIsIGF0OiBbMjIuMywgMzkuMl0gfSwKICB7IG5hbWU6ICJUVVJLRVkiLCBhdDogWzI3LjYsIDQwLjJdIH0sCl07Cg==
+// Schematic (heavily simplified) geography for the route map.
+// Coordinates are [lon, lat] pairs — accurate enough for orientation, not navigation.
+
+export type LL = [number, number];
+
+export const BORDERS: LL[][] = [
+  // Poland – Czechia / Slovakia / Ukraine
+  [[16.0, 50.6], [17.0, 50.28], [18.05, 49.5], [19.5, 49.4], [20.9, 49.3], [22.0, 49.0], [22.55, 49.08], [23.6, 50.4], [24.1, 50.85], [23.6, 51.6], [23.9, 52.4]],
+  // Slovakia / Hungary + Austria
+  [[16.0, 48.7], [17.0, 48.4], [17.75, 47.75], [18.8, 47.8], [19.9, 48.2], [21.1, 48.55], [22.15, 48.4], [22.55, 49.08]],
+  // Ukraine – Hungary / Romania / Moldova
+  [[22.15, 48.4], [22.9, 47.95], [23.2, 48.1], [24.9, 47.72], [26.2, 47.99], [27.55, 48.45]],
+  // Moldova – Ukraine (east)
+  [[27.55, 48.45], [28.3, 48.16], [29.2, 47.45], [29.57, 46.4], [30.0, 46.35]],
+  // Moldova – Romania (Prut)
+  [[27.55, 48.45], [26.62, 48.26], [27.5, 47.2], [28.0, 45.9], [28.19, 45.45], [28.7, 45.2]],
+  // Ukraine – Romania (Danube delta)
+  [[28.7, 45.2], [29.65, 45.2]],
+  // Romania – Bulgaria (Danube + coast)
+  [[22.7, 44.6], [23.0, 44.1], [24.0, 43.75], [25.4, 43.65], [26.1, 44.05], [27.0, 44.15], [27.9, 43.95], [28.6, 43.75]],
+  // Romania – Serbia / Hungary
+  [[22.7, 44.6], [21.6, 44.7], [21.4, 44.9], [20.75, 45.5], [20.3, 46.15], [21.0, 46.25], [21.5, 46.7], [22.3, 47.6], [22.9, 47.95]],
+  // Hungary – Serbia / Croatia
+  [[20.3, 46.15], [19.5, 46.17], [18.9, 45.9], [17.6, 45.95], [16.5, 46.4], [16.0, 46.5]],
+  // Croatia – Serbia / Bosnia
+  [[18.9, 45.9], [19.0, 45.2], [19.4, 44.9], [19.15, 44.55], [19.6, 44.05]],
+  [[19.0, 45.2], [18.6, 45.08], [17.8, 45.08], [16.9, 45.28], [16.3, 45.0], [16.0, 45.1]],
+  [[16.0, 44.7], [16.1, 44.5], [16.6, 44.2], [17.3, 43.5], [17.6, 43.0], [18.5, 42.6]],
+  // Bosnia – Serbia / Montenegro (Drina)
+  [[19.6, 44.05], [19.35, 43.6], [19.5, 43.35], [18.9, 43.2], [18.5, 42.6]],
+  // Serbia – Montenegro / Kosovo
+  [[19.5, 43.35], [20.35, 42.85], [20.05, 42.55]],
+  [[20.35, 42.85], [20.85, 43.2], [21.4, 42.9], [21.7, 42.7], [22.35, 42.31]],
+  // Serbia – Bulgaria
+  [[22.35, 44.0], [22.5, 43.4], [22.98, 43.19], [22.5, 42.9], [22.35, 42.31]],
+  // Kosovo – Albania / North Macedonia
+  [[20.05, 42.55], [20.4, 42.0], [20.55, 41.85], [21.0, 42.15], [21.3, 42.35], [21.7, 42.7]],
+  // Albania – North Macedonia
+  [[20.55, 41.85], [20.5, 41.25], [20.7, 40.9], [21.05, 40.85], [20.98, 40.5], [20.65, 40.1]],
+  // North Macedonia – Greece / Bulgaria
+  [[20.98, 40.5], [21.9, 41.1], [22.9, 41.34], [23.0, 41.4], [22.9, 41.9], [22.35, 42.31]],
+  // Bulgaria – Greece / Turkey
+  [[23.0, 41.4], [24.5, 41.55], [25.3, 41.25], [26.15, 41.35], [26.6, 41.35], [26.35, 40.9]],
+  [[26.15, 41.35], [27.5, 41.95], [28.0, 42.0]],
+  // Albania – Greece
+  [[20.65, 40.1], [20.3, 39.9], [20.0, 39.65]],
+];
+
+export const COASTS: LL[][] = [
+  // Adriatic / Ionian
+  [[16.0, 43.9], [16.2, 43.4], [17.3, 42.9], [18.3, 42.5], [19.1, 41.9], [19.5, 41.2], [19.35, 40.5], [20.0, 39.65], [20.2, 39.2], [20.75, 38.9], [21.1, 38.35], [21.4, 38.35], [22.0, 38.3], [23.0, 38.5], [23.5, 39.2], [22.8, 39.5], [22.6, 40.0], [23.0, 40.5], [24.0, 40.7], [24.8, 40.9], [25.9, 40.85], [26.35, 40.9]],
+  // Black Sea
+  [[30.6, 46.3], [30.4, 45.9], [29.65, 45.2], [28.85, 44.7], [28.6, 43.75], [27.9, 43.2], [27.9, 42.7], [28.0, 42.0], [28.6, 41.6], [31.0, 41.6]],
+];
+
+export const SEAS: { name: string; poly: LL[]; label: LL; rot?: number }[] = [
+  {
+    name: "Adriatic Sea",
+    poly: [[16.0, 43.9], [16.2, 43.4], [17.3, 42.9], [18.3, 42.5], [19.1, 41.9], [19.5, 41.2], [19.35, 40.5], [20.0, 39.65], [20.2, 39.2], [20.75, 38.9], [21.1, 38.35], [20.9, 37.5], [16.0, 37.5]],
+    label: [16.9, 42.4],
+    rot: -38,
+  },
+  {
+    name: "Ionian Sea",
+    poly: [[19.35, 40.5], [20.0, 39.65], [20.2, 39.2], [20.75, 38.9], [21.1, 38.35], [20.9, 37.5], [18.4, 37.5], [18.4, 40.0]],
+    label: [19.3, 38.6],
+  },
+  {
+    name: "Aegean Sea",
+    poly: [[23.5, 39.2], [23.0, 38.5], [22.0, 38.3], [21.4, 38.35], [21.1, 38.35], [20.9, 37.5], [26.6, 37.5], [26.35, 40.9], [25.9, 40.85], [24.8, 40.9], [24.0, 40.7], [23.0, 40.5], [22.6, 40.0], [22.8, 39.5]],
+    label: [25.2, 39.0],
+  },
+  {
+    name: "Black Sea",
+    poly: [[28.6, 43.75], [27.9, 43.2], [27.9, 42.7], [28.0, 42.0], [28.6, 41.6], [31.0, 41.6], [31.0, 46.6], [30.6, 46.3], [30.4, 45.9], [29.65, 45.2], [28.85, 44.7]],
+    label: [29.9, 43.4],
+  },
+  {
+    name: "Sea of Marmara",
+    poly: [[26.6, 40.6], [28.6, 40.4], [29.6, 40.5], [29.6, 41.1], [28.6, 41.3], [26.9, 40.95]],
+    label: [28.3, 40.75],
+  },
+];
+
+export const RANGES: { name: string; at: LL; rot: number }[] = [
+  { name: "Tatra Mts", at: [19.9, 49.5], rot: -8 },
+  { name: "Carpathian Mts", at: [22.6, 48.9], rot: -38 },
+  { name: "Eastern Carpathians", at: [25.4, 47.1], rot: -70 },
+  { name: "Southern Carpathians", at: [23.6, 45.35], rot: -8 },
+  { name: "Apuseni Mts", at: [22.9, 46.5], rot: -20 },
+  { name: "Dinaric Alps", at: [17.2, 44.1], rot: -42 },
+  { name: "Durmitor", at: [19.0, 43.45], rot: -20 },
+  { name: "Accursed Mts", at: [19.75, 42.9], rot: -25 },
+  { name: "Šar Mts", at: [20.9, 42.5], rot: -35 },
+  { name: "Balkan Mts (Stara Planina)", at: [24.8, 42.95], rot: -6 },
+  { name: "Rila–Pirin", at: [23.2, 41.75], rot: -35 },
+  { name: "Rhodope Mts", at: [25.1, 41.65], rot: -6 },
+  { name: "Pindus Mts", at: [21.2, 39.7], rot: -62 },
+];
+
+export const CAPITALS: { name: string; at: LL; dx?: number; dy?: number; anchor?: "start" | "end" }[] = [
+  { name: "Warsaw", at: [21.01, 52.23] },
+  { name: "Bratislava", at: [17.11, 48.15], dx: -8, anchor: "end" },
+  { name: "Budapest", at: [19.04, 47.5] },
+  { name: "Kyiv", at: [30.52, 50.45], dx: -8, anchor: "end" },
+  { name: "Chișinău", at: [28.86, 47.01] },
+  { name: "Bucharest", at: [26.1, 44.43] },
+  { name: "Belgrade", at: [20.45, 44.79], dx: -8, anchor: "end" },
+  { name: "Sarajevo", at: [18.41, 43.86], dx: -8, anchor: "end" },
+  { name: "Zagreb", at: [15.98, 45.81] },
+  { name: "Podgorica", at: [19.26, 42.44], dx: -8, dy: 12, anchor: "end" },
+  { name: "Pristina", at: [21.16, 42.66], dy: -6 },
+  { name: "Tirana", at: [19.82, 41.33], dx: -8, anchor: "end" },
+  { name: "Skopje", at: [21.43, 41.99], dy: 14 },
+  { name: "Sofia", at: [23.32, 42.7], dy: -6 },
+  { name: "Athens", at: [23.73, 37.98] },
+];
+
+export const CITIES: { name: string; at: LL; dx?: number; anchor?: "start" | "end" }[] = [
+  { name: "Lviv", at: [24.03, 49.84] },
+  { name: "Ivano-Frankivsk", at: [24.71, 48.92] },
+];
+
+export const COUNTRIES: { name: string; at: LL }[] = [
+  { name: "POLAND", at: [19.6, 51.4] },
+  { name: "UKRAINE", at: [27.5, 49.6] },
+  { name: "MOLDOVA", at: [28.6, 46.6] },
+  { name: "ROMANIA", at: [25.2, 45.6] },
+  { name: "HUNGARY", at: [19.2, 46.7] },
+  { name: "SLOVAKIA", at: [19.4, 48.7] },
+  { name: "SERBIA", at: [20.8, 44.2] },
+  { name: "BOSNIA", at: [17.6, 44.3] },
+  { name: "CROATIA", at: [16.4, 45.5] },
+  { name: "MONTENEGRO", at: [19.2, 42.85] },
+  { name: "KOSOVO", at: [20.8, 42.75] },
+  { name: "ALBANIA", at: [20.1, 40.8] },
+  { name: "N. MACEDONIA", at: [21.7, 41.5] },
+  { name: "BULGARIA", at: [25.3, 42.6] },
+  { name: "GREECE", at: [22.3, 39.2] },
+  { name: "TURKEY", at: [27.6, 40.2] },
+];

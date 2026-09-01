@@ -1,1 +1,6 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBNZW1iZXJQcm9maWxlUGFnZSBmcm9tICJAL3BhZ2VzL2NvbW11bml0eS9NZW1iZXJQcm9maWxlUGFnZSI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9jb21tdW5pdHkvbWVtYmVycy8kaWQiKSh7CiAgY29tcG9uZW50OiBNZW1iZXJQcm9maWxlUGFnZSwKfSk7Cg==
+import { createFileRoute } from "@tanstack/react-router";
+import MemberProfilePage from "@/pages/community/MemberProfilePage";
+
+export const Route = createFileRoute("/community/members/$id")({
+  component: MemberProfilePage,
+});

@@ -1,1 +1,232 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IFNlbyBmcm9tICJAL2NvbXBvbmVudHMvU2VvIjsKaW1wb3J0IHsgTGluaywgdXNlTmF2aWdhdGUgfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKaW1wb3J0IHsgTGluazIsIExvYWRlcjIsIFNoaWVsZENoZWNrLCBVbmxpbmsgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgdHlwZSB7IFVzZXJJZGVudGl0eSB9IGZyb20gIkBzdXBhYmFzZS9zdXBhYmFzZS1qcyI7CmltcG9ydCBOYXZiYXIgZnJvbSAiQC9jb21wb25lbnRzL05hdmJhciI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDYXJkIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwppbXBvcnQgeyBsb3ZhYmxlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvbG92YWJsZS9pbmRleCI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQC9ob29rcy91c2UtdG9hc3QiOwppbXBvcnQgeyBtZXJnZUdvb2dsZUFjY291bnQgfSBmcm9tICJAL2xpYi9tZXJnZS1nb29nbGUtYWNjb3VudC5mdW5jdGlvbnMiOwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAiQC9ob29rcy91c2VBdXRoIjsKCmNvbnN0IExpbmtlZEFjY291bnRzID0gKCkgPT4gewogIGNvbnN0IHsgdXNlciwgbG9hZGluZyB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IG5hdmlnYXRlID0gdXNlTmF2aWdhdGUoKTsKICBjb25zdCBbaWRlbnRpdGllcywgc2V0SWRlbnRpdGllc10gPSB1c2VTdGF0ZTxVc2VySWRlbnRpdHlbXT4oW10pOwogIGNvbnN0IFtidXN5LCBzZXRCdXN5XSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbaWRlbnRpZmllciwgc2V0SWRlbnRpZmllcl0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW3Bhc3N3b3JkLCBzZXRQYXNzd29yZF0gPSB1c2VTdGF0ZSgiIik7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIWxvYWRpbmcgJiYgIXVzZXIpIG5hdmlnYXRlKCIvYXV0aCIpOwogIH0sIFtsb2FkaW5nLCB1c2VyLCBuYXZpZ2F0ZV0pOwoKICBjb25zdCByZWZyZXNoID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZS5hdXRoLmdldFVzZXJJZGVudGl0aWVzKCk7CiAgICBzZXRJZGVudGl0aWVzKGRhdGE/LmlkZW50aXRpZXMgPz8gW10pOwogIH07CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAodXNlcikgcmVmcmVzaCgpOwogIH0sIFt1c2VyXSk7CgogIGNvbnN0IGdvb2dsZSA9IGlkZW50aXRpZXMuZmluZCgoaSkgPT4gaS5wcm92aWRlciA9PT0gImdvb2dsZSIpOwogIGNvbnN0IGVtYWlsSWRlbnRpdHkgPSBpZGVudGl0aWVzLmZpbmQoKGkpID0+IGkucHJvdmlkZXIgPT09ICJlbWFpbCIpOwoKICBjb25zdCBoYW5kbGVMaW5rID0gYXN5bmMgKCkgPT4gewogICAgc2V0QnVzeSh0cnVlKTsKICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLmF1dGgubGlua0lkZW50aXR5KHsKICAgICAgcHJvdmlkZXI6ICJnb29nbGUiLAogICAgICBvcHRpb25zOiB7IHJlZGlyZWN0VG86IGAke3dpbmRvdy5sb2NhdGlvbi5vcmlnaW59L2FjY291bnQvbGlua2VkYCB9LAogICAgfSk7CiAgICBzZXRCdXN5KGZhbHNlKTsKICAgIGlmIChlcnJvcikgewogICAgICB0b2FzdCh7CiAgICAgICAgdGl0bGU6ICJDb3VsZCBub3Qgc3RhcnQgR29vZ2xlIGxpbmtpbmciLAogICAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICAgIkRpcmVjdCBsaW5raW5nIGlzIHVuYXZhaWxhYmxlIG9uIHRoaXMgYWNjb3VudC4gVXNlIHRoZSBtZXJnZSBvcHRpb24gYmVsb3cgaW5zdGVhZDogc2lnbiBpbiB3aXRoIEdvb2dsZSwgdGhlbiBjb25maXJtIHlvdXIgZXhpc3RpbmcgcGFzc3dvcmQgaGVyZS4iLAogICAgICAgIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIsCiAgICAgIH0pOwogICAgfQogIH07CgogIGNvbnN0IGhhbmRsZVVubGluayA9IGFzeW5jICgpID0+IHsKICAgIGlmICghZ29vZ2xlKSByZXR1cm47CiAgICBpZiAoIWVtYWlsSWRlbnRpdHkpIHsKICAgICAgdG9hc3QoewogICAgICAgIHRpdGxlOiAiQ2Fubm90IHVubGluayIsCiAgICAgICAgZGVzY3JpcHRpb246ICJHb29nbGUgaXMgdGhlIG9ubHkgd2F5IGludG8gdGhpcyBhY2NvdW50LiBTZXQgYSBwYXNzd29yZCBmaXJzdC4iLAogICAgICAgIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIsCiAgICAgIH0pOwogICAgICByZXR1cm47CiAgICB9CiAgICBzZXRCdXN5KHRydWUpOwogICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UuYXV0aC51bmxpbmtJZGVudGl0eShnb29nbGUpOwogICAgc2V0QnVzeShmYWxzZSk7CiAgICBpZiAoZXJyb3IpIHsKICAgICAgdG9hc3QoeyB0aXRsZTogIkNvdWxkIG5vdCB1bmxpbmsgR29vZ2xlIiwgZGVzY3JpcHRpb246IGVycm9yLm1lc3NhZ2UsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHRvYXN0KHsgdGl0bGU6ICJHb29nbGUgZGlzY29ubmVjdGVkIiB9KTsKICAgIHJlZnJlc2goKTsKICB9OwoKICBjb25zdCBoYW5kbGVNZXJnZSA9IGFzeW5jIChlOiBSZWFjdC5Gb3JtRXZlbnQpID0+IHsKICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgIHNldEJ1c3kodHJ1ZSk7CiAgICBsZXQgZGF0YTogeyBtZXJnZWQ/OiBib29sZWFuOyBtZXNzYWdlPzogc3RyaW5nOyBlbWFpbD86IHN0cmluZzsgZXJyb3I/OiBzdHJpbmcgfSB8IG51bGwgPSBudWxsOwogICAgdHJ5IHsKICAgICAgZGF0YSA9IGF3YWl0IG1lcmdlR29vZ2xlQWNjb3VudCh7IGRhdGE6IHsgaWRlbnRpZmllcjogaWRlbnRpZmllci50cmltKCksIHBhc3N3b3JkIH0gfSk7CiAgICB9IGNhdGNoIHsKICAgICAgZGF0YSA9IG51bGw7CiAgICB9CiAgICBzZXRCdXN5KGZhbHNlKTsKICAgIGlmICghZGF0YSB8fCBkYXRhLmVycm9yKSB7CiAgICAgIHRvYXN0KHsKICAgICAgICB0aXRsZTogIk1lcmdlIGZhaWxlZCIsCiAgICAgICAgZGVzY3JpcHRpb246IGRhdGE/LmVycm9yID8/ICJDaGVjayB0aGUgdXNlcm5hbWUgYW5kIHBhc3N3b3JkIG9mIHlvdXIgZXhpc3RpbmcgYWNjb3VudC4iLAogICAgICAgIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIsCiAgICAgIH0pOwogICAgICByZXR1cm47CiAgICB9CiAgICBzZXRQYXNzd29yZCgiIik7CiAgICBpZiAoZGF0YT8ubWVyZ2VkID09PSBmYWxzZSkgewogICAgICB0b2FzdCh7IHRpdGxlOiAiQWxyZWFkeSBjb25uZWN0ZWQiLCBkZXNjcmlwdGlvbjogZGF0YS5tZXNzYWdlIH0pOwogICAgICByZXR1cm47CiAgICB9CiAgICB0b2FzdCh7CiAgICAgIHRpdGxlOiAiQWNjb3VudHMgbWVyZ2VkIiwKICAgICAgZGVzY3JpcHRpb246ICJFdmVyeXRoaW5nIG5vdyBsaXZlcyBvbiB5b3VyIG9yaWdpbmFsIGFjY291bnQuIFNpZ24gaW4gYWdhaW4gd2l0aCBHb29nbGUuIiwKICAgIH0pOwogICAgYXdhaXQgc3VwYWJhc2UuYXV0aC5zaWduT3V0KCk7CiAgICBuYXZpZ2F0ZSgiL2F1dGgiKTsKICB9OwoKICBjb25zdCBoYW5kbGVHb29nbGVTaWduSW4gPSBhc3luYyAoKSA9PiB7CiAgICBzZXRCdXN5KHRydWUpOwogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgbG92YWJsZS5hdXRoLnNpZ25JbldpdGhPQXV0aCgiZ29vZ2xlIiwgewogICAgICByZWRpcmVjdF91cmk6IGAke3dpbmRvdy5sb2NhdGlvbi5vcmlnaW59L2FjY291bnQvbGlua2VkYCwKICAgIH0pOwogICAgaWYgKHJlc3VsdC5lcnJvcikgewogICAgICBzZXRCdXN5KGZhbHNlKTsKICAgICAgdG9hc3QoeyB0aXRsZTogIkdvb2dsZSBzaWduLWluIGZhaWxlZCIsIGRlc2NyaXB0aW9uOiBTdHJpbmcocmVzdWx0LmVycm9yKSwgdmFyaWFudDogImRlc3RydWN0aXZlIiB9KTsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKHJlc3VsdC5yZWRpcmVjdGVkKSByZXR1cm47CiAgICBzZXRCdXN5KGZhbHNlKTsKICAgIHJlZnJlc2goKTsKICB9OwoKICBpZiAobG9hZGluZykgewogICAgcmV0dXJuICgKICAgICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy1iYWNrZ3JvdW5kIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIj4KICAgICAgICA8TG9hZGVyMiBjbGFzc05hbWU9InctNSBoLTUgYW5pbWF0ZS1zcGluIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz4KICAgICAgPC9kaXY+CiAgICApOwogIH0KCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctYmFja2dyb3VuZCB0ZXh0LWZvcmVncm91bmQiPgogICAgICA8U2VvCiAgICAgICAgdGl0bGU9IkxpbmtlZCBBY2NvdW50cyDigJQgVGlja2xlbGlzdCIKICAgICAgICBkZXNjcmlwdGlvbj0iQ29ubmVjdCBvciBtZXJnZSB5b3VyIEdvb2dsZSBzaWduLWluIHdpdGggeW91ciBUaWNrbGVsaXN0IGFjY291bnQuIgogICAgICAgIG5vaW5kZXgKICAgICAgLz4KICAgICAgPE5hdmJhciAvPgogICAgICA8bWFpbiBjbGFzc05hbWU9Im1heC13LWxnIG14LWF1dG8gcHgtNCBwdC0yOCBwYi0yMCBzcGFjZS15LTYiPgogICAgICAgIDxkaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgbWItMiI+CiAgICAgICAgICAgIDxMaW5rMiBjbGFzc05hbWU9InctNSBoLTUgdGV4dC1wcmltYXJ5IiAvPgogICAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0yeGwgdHJhY2tpbmctd2lkZXIiPkxpbmtlZCBhY2NvdW50czwvaDE+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICBTaWduZWQgaW4gYXMgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWZvcmVncm91bmQiPnt1c2VyPy5lbWFpbH08L3NwYW4+CiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxDYXJkIGNsYXNzTmFtZT0icC02IHNwYWNlLXktNCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC00Ij4KICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9ImZvbnQtbWVkaXVtIj5Hb29nbGU8L3A+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICB7Z29vZ2xlID8gYENvbm5lY3RlZCBhcyAke2dvb2dsZS5pZGVudGl0eV9kYXRhPy5bImVtYWlsIl0gPz8gInlvdXIgR29vZ2xlIGFjY291bnQifWAgOiAiTm90IGNvbm5lY3RlZCJ9CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAge2dvb2dsZSA/ICgKICAgICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIG9uQ2xpY2s9e2hhbmRsZVVubGlua30gZGlzYWJsZWQ9e2J1c3l9PgogICAgICAgICAgICAgICAgPFVubGluayBjbGFzc05hbWU9InctNCBoLTQgbXItMiIgLz4gRGlzY29ubmVjdAogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICApIDogKAogICAgICAgICAgICAgIDxCdXR0b24gb25DbGljaz17aGFuZGxlTGlua30gZGlzYWJsZWQ9e2J1c3l9PkNvbm5lY3QgR29vZ2xlPC9CdXR0b24+CiAgICAgICAgICAgICl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQgYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBwdC00Ij4KICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9ImZvbnQtbWVkaXVtIj5QYXNzd29yZDwvcD4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHtlbWFpbElkZW50aXR5ID8gIkVuYWJsZWQiIDogIk5vdCBzZXQifQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIGFzQ2hpbGQ+CiAgICAgICAgICAgICAgPExpbmsgdG89Ii9hY2NvdW50L3Bhc3N3b3JkIj5DaGFuZ2U8L0xpbms+CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9DYXJkPgoKICAgICAgICA8Q2FyZCBjbGFzc05hbWU9InAtNiBzcGFjZS15LTQiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgPFNoaWVsZENoZWNrIGNsYXNzTmFtZT0idy00IGgtNCB0ZXh0LXByaW1hcnkiIC8+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtbWVkaXVtIj5FbmRlZCB1cCB3aXRoIHR3byBhY2NvdW50cz88L2gyPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgSWYgR29vZ2xlIGNyZWF0ZWQgYSBzZXBhcmF0ZSBhY2NvdW50LCBzaWduIGluIHdpdGggR29vZ2xlLCB0aGVuIGNvbmZpcm0geW91ciBvcmlnaW5hbAogICAgICAgICAgICBsb2dpbiBiZWxvdy4gWW91ciBhc2NlbnRzLCBhZHZlbnR1cmVzLCBzaWduLXVwcyBhbmQgZm9sbG93cyBtb3ZlIGFjcm9zcywgdGhlIGR1cGxpY2F0ZSBpcwogICAgICAgICAgICByZW1vdmVkLCBhbmQgR29vZ2xlIHNpZ24taW4gd2lsbCBsYW5kIG9uIHlvdXIgb3JpZ2luYWwgYWNjb3VudCBmcm9tIHRoZW4gb24uCiAgICAgICAgICA8L3A+CgogICAgICAgICAgeyFnb29nbGUgJiYgKAogICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIGNsYXNzTmFtZT0idy1mdWxsIiBvbkNsaWNrPXtoYW5kbGVHb29nbGVTaWduSW59IGRpc2FibGVkPXtidXN5fT4KICAgICAgICAgICAgICBTaWduIGluIHdpdGggR29vZ2xlIGZpcnN0CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgKX0KCiAgICAgICAgICA8Zm9ybSBvblN1Ym1pdD17aGFuZGxlTWVyZ2V9IGNsYXNzTmFtZT0ic3BhY2UteS00Ij4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgICAgICAgICAgPExhYmVsIGh0bWxGb3I9Im1lcmdlLWlkIj5PcmlnaW5hbCB1c2VybmFtZSBvciBlbWFpbDwvTGFiZWw+CiAgICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgICBpZD0ibWVyZ2UtaWQiCiAgICAgICAgICAgICAgICBhdXRvQ29tcGxldGU9InVzZXJuYW1lIgogICAgICAgICAgICAgICAgcmVxdWlyZWQKICAgICAgICAgICAgICAgIHZhbHVlPXtpZGVudGlmaWVyfQogICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRJZGVudGlmaWVyKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJvbnNpZ2h0bWFydGluIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgICAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0ibWVyZ2UtcHciPk9yaWdpbmFsIHBhc3N3b3JkPC9MYWJlbD4KICAgICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICAgIGlkPSJtZXJnZS1wdyIKICAgICAgICAgICAgICAgIHR5cGU9InBhc3N3b3JkIgogICAgICAgICAgICAgICAgYXV0b0NvbXBsZXRlPSJjdXJyZW50LXBhc3N3b3JkIgogICAgICAgICAgICAgICAgcmVxdWlyZWQKICAgICAgICAgICAgICAgIHZhbHVlPXtwYXNzd29yZH0KICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0UGFzc3dvcmQoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8QnV0dG9uIHR5cGU9InN1Ym1pdCIgY2xhc3NOYW1lPSJ3LWZ1bGwiIGRpc2FibGVkPXtidXN5IHx8ICFnb29nbGV9PgogICAgICAgICAgICAgIHtidXN5ID8gPExvYWRlcjIgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTIgYW5pbWF0ZS1zcGluIiAvPiA6IG51bGx9CiAgICAgICAgICAgICAgTWVyZ2UgaW50byBteSBvcmlnaW5hbCBhY2NvdW50CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9mb3JtPgogICAgICAgIDwvQ2FyZD4KICAgICAgPC9tYWluPgogICAgPC9kaXY+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IExpbmtlZEFjY291bnRzOwo=
+import { useEffect, useState } from "react";
+import Seo from "@/components/Seo";
+import { Link, useNavigate } from "@/lib/router-compat";
+import { Link2, Loader2, ShieldCheck, Unlink } from "lucide-react";
+import type { UserIdentity } from "@supabase/supabase-js";
+import Navbar from "@/components/Navbar";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { supabase } from "@/integrations/supabase/client";
+import { lovable } from "@/integrations/lovable/index";
+import { toast } from "@/hooks/use-toast";
+import { mergeGoogleAccount } from "@/lib/merge-google-account.functions";
+import { useAuth } from "@/hooks/useAuth";
+
+const LinkedAccounts = () => {
+  const { user, loading } = useAuth();
+  const navigate = useNavigate();
+  const [identities, setIdentities] = useState<UserIdentity[]>([]);
+  const [busy, setBusy] = useState(false);
+  const [identifier, setIdentifier] = useState("");
+  const [password, setPassword] = useState("");
+
+  useEffect(() => {
+    if (!loading && !user) navigate("/auth");
+  }, [loading, user, navigate]);
+
+  const refresh = async () => {
+    const { data } = await supabase.auth.getUserIdentities();
+    setIdentities(data?.identities ?? []);
+  };
+
+  useEffect(() => {
+    if (user) refresh();
+  }, [user]);
+
+  const google = identities.find((i) => i.provider === "google");
+  const emailIdentity = identities.find((i) => i.provider === "email");
+
+  const handleLink = async () => {
+    setBusy(true);
+    const { error } = await supabase.auth.linkIdentity({
+      provider: "google",
+      options: { redirectTo: `${window.location.origin}/account/linked` },
+    });
+    setBusy(false);
+    if (error) {
+      toast({
+        title: "Could not start Google linking",
+        description:
+          "Direct linking is unavailable on this account. Use the merge option below instead: sign in with Google, then confirm your existing password here.",
+        variant: "destructive",
+      });
+    }
+  };
+
+  const handleUnlink = async () => {
+    if (!google) return;
+    if (!emailIdentity) {
+      toast({
+        title: "Cannot unlink",
+        description: "Google is the only way into this account. Set a password first.",
+        variant: "destructive",
+      });
+      return;
+    }
+    setBusy(true);
+    const { error } = await supabase.auth.unlinkIdentity(google);
+    setBusy(false);
+    if (error) {
+      toast({ title: "Could not unlink Google", description: error.message, variant: "destructive" });
+      return;
+    }
+    toast({ title: "Google disconnected" });
+    refresh();
+  };
+
+  const handleMerge = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setBusy(true);
+    let data: { merged?: boolean; message?: string; email?: string; error?: string } | null = null;
+    try {
+      data = await mergeGoogleAccount({ data: { identifier: identifier.trim(), password } });
+    } catch {
+      data = null;
+    }
+    setBusy(false);
+    if (!data || data.error) {
+      toast({
+        title: "Merge failed",
+        description: data?.error ?? "Check the username and password of your existing account.",
+        variant: "destructive",
+      });
+      return;
+    }
+    setPassword("");
+    if (data?.merged === false) {
+      toast({ title: "Already connected", description: data.message });
+      return;
+    }
+    toast({
+      title: "Accounts merged",
+      description: "Everything now lives on your original account. Sign in again with Google.",
+    });
+    await supabase.auth.signOut();
+    navigate("/auth");
+  };
+
+  const handleGoogleSignIn = async () => {
+    setBusy(true);
+    const result = await lovable.auth.signInWithOAuth("google", {
+      redirect_uri: `${window.location.origin}/account/linked`,
+    });
+    if (result.error) {
+      setBusy(false);
+      toast({ title: "Google sign-in failed", description: String(result.error), variant: "destructive" });
+      return;
+    }
+    if (result.redirected) return;
+    setBusy(false);
+    refresh();
+  };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <Loader2 className="w-5 h-5 animate-spin text-muted-foreground" />
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-background text-foreground">
+      <Seo
+        title="Linked Accounts — Ticklelist"
+        description="Connect or merge your Google sign-in with your Ticklelist account."
+        noindex
+      />
+      <Navbar />
+      <main className="max-w-lg mx-auto px-4 pt-28 pb-20 space-y-6">
+        <div>
+          <div className="flex items-center gap-2 mb-2">
+            <Link2 className="w-5 h-5 text-primary" />
+            <h1 className="font-display text-2xl tracking-wider">Linked accounts</h1>
+          </div>
+          <p className="text-sm text-muted-foreground">
+            Signed in as <span className="text-foreground">{user?.email}</span>
+          </p>
+        </div>
+
+        <Card className="p-6 space-y-4">
+          <div className="flex items-center justify-between gap-4">
+            <div>
+              <p className="font-medium">Google</p>
+              <p className="text-sm text-muted-foreground">
+                {google ? `Connected as ${google.identity_data?.["email"] ?? "your Google account"}` : "Not connected"}
+              </p>
+            </div>
+            {google ? (
+              <Button variant="outline" onClick={handleUnlink} disabled={busy}>
+                <Unlink className="w-4 h-4 mr-2" /> Disconnect
+              </Button>
+            ) : (
+              <Button onClick={handleLink} disabled={busy}>Connect Google</Button>
+            )}
+          </div>
+          <div className="flex items-center justify-between gap-4 border-t border-border pt-4">
+            <div>
+              <p className="font-medium">Password</p>
+              <p className="text-sm text-muted-foreground">
+                {emailIdentity ? "Enabled" : "Not set"}
+              </p>
+            </div>
+            <Button variant="ghost" asChild>
+              <Link to="/account/password">Change</Link>
+            </Button>
+          </div>
+        </Card>
+
+        <Card className="p-6 space-y-4">
+          <div className="flex items-center gap-2">
+            <ShieldCheck className="w-4 h-4 text-primary" />
+            <h2 className="font-medium">Ended up with two accounts?</h2>
+          </div>
+          <p className="text-sm text-muted-foreground">
+            If Google created a separate account, sign in with Google, then confirm your original
+            login below. Your ascents, adventures, sign-ups and follows move across, the duplicate is
+            removed, and Google sign-in will land on your original account from then on.
+          </p>
+
+          {!google && (
+            <Button variant="outline" className="w-full" onClick={handleGoogleSignIn} disabled={busy}>
+              Sign in with Google first
+            </Button>
+          )}
+
+          <form onSubmit={handleMerge} className="space-y-4">
+            <div className="space-y-2">
+              <Label htmlFor="merge-id">Original username or email</Label>
+              <Input
+                id="merge-id"
+                autoComplete="username"
+                required
+                value={identifier}
+                onChange={(e) => setIdentifier(e.target.value)}
+                placeholder="onsightmartin"
+              />
+            </div>
+            <div className="space-y-2">
+              <Label htmlFor="merge-pw">Original password</Label>
+              <Input
+                id="merge-pw"
+                type="password"
+                autoComplete="current-password"
+                required
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+            </div>
+            <Button type="submit" className="w-full" disabled={busy || !google}>
+              {busy ? <Loader2 className="w-4 h-4 mr-2 animate-spin" /> : null}
+              Merge into my original account
+            </Button>
+          </form>
+        </Card>
+      </main>
+    </div>
+  );
+};
+
+export default LinkedAccounts;

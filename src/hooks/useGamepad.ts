@@ -1,1 +1,128 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwoKLyoqCiAqIFhib3gtc3R5bGUgY29udHJvbGxlciBzdXBwb3J0IGZvciB0aGUgY29tbXVuaXR5IGFwcCBuYXZpZ2F0aW9uLgogKgogKiBQb2xscyB0aGUgR2FtZXBhZCBBUEkgZWFjaCBmcmFtZSAodGhlIHNwZWMgZ2l2ZXMgbm8gaW5wdXQgZXZlbnRzKSBhbmQgdHVybnMKICogdGhlIHN0YW5kYXJkIG1hcHBpbmcgaW50byBlZGdlLXRyaWdnZXJlZCBzZW1hbnRpYyBhY3Rpb25zLCBzbyBhIGhlbGQgc3RpY2sKICogcmVwZWF0cyBzbG93bHkgaW5zdGVhZCBvZiBmaXJpbmcgNjAgdGltZXMgYSBzZWNvbmQuCiAqLwpleHBvcnQgdHlwZSBHYW1lcGFkQWN0aW9uID0gImxlZnQiIHwgInJpZ2h0IiB8ICJ1cCIgfCAiZG93biIgfCAiY29uZmlybSIgfCAiYmFjayIgfCAibWVudSI7CgovKiogU3RpY2sgZGVmbGVjdGlvbiBiZWZvcmUgaXQgY291bnRzIGFzIGEgZGlyZWN0aW9uLiAqLwpjb25zdCBERUFEWk9ORSA9IDAuNTU7Ci8qKiBEZWxheSBiZWZvcmUgYSBoZWxkIGRpcmVjdGlvbiBzdGFydHMgcmVwZWF0aW5nIChtcykuICovCmNvbnN0IFJFUEVBVF9ERUxBWSA9IDQyMDsKLyoqIFJlcGVhdCBpbnRlcnZhbCB3aGlsZSBhIGRpcmVjdGlvbiBzdGF5cyBoZWxkIChtcykuICovCmNvbnN0IFJFUEVBVF9SQVRFID0gMTQwOwoKLyoqIFN0YW5kYXJkLW1hcHBpbmcgYnV0dG9uIGluZGljZXMgd2UgY2FyZSBhYm91dC4gKi8KY29uc3QgQlVUVE9OUzogUmVjb3JkPG51bWJlciwgR2FtZXBhZEFjdGlvbj4gPSB7CiAgMDogImNvbmZpcm0iLCAvLyBBCiAgMTogImJhY2siLCAvLyBCCiAgMzogIm1lbnUiLCAvLyBZCiAgOTogIm1lbnUiLCAvLyBTdGFydCAvIE1lbnUKICAxMjogInVwIiwKICAxMzogImRvd24iLAogIDE0OiAibGVmdCIsCiAgMTU6ICJyaWdodCIsCn07CgovKiogU2hvcnQgY29udHJvbGxlciBydW1ibGU7IHNpbGVudGx5IGlnbm9yZWQgb24gcGFkcyB3aXRob3V0IGFjdHVhdG9ycy4gKi8KZXhwb3J0IGNvbnN0IHJ1bWJsZSA9IChkdXJhdGlvbiA9IDYwLCBzdHJlbmd0aCA9IDAuMzUpID0+IHsKICBpZiAodHlwZW9mIG5hdmlnYXRvciA9PT0gInVuZGVmaW5lZCIgfHwgIW5hdmlnYXRvci5nZXRHYW1lcGFkcykgcmV0dXJuOwogIGZvciAoY29uc3QgcGFkIG9mIG5hdmlnYXRvci5nZXRHYW1lcGFkcygpKSB7CiAgICBjb25zdCBhY3R1YXRvciA9IChwYWQgYXMgR2FtZXBhZCAmIHsKICAgICAgdmlicmF0aW9uQWN0dWF0b3I/OiB7IHBsYXlFZmZlY3Q/OiAodDogc3RyaW5nLCBvOiBSZWNvcmQ8c3RyaW5nLCBudW1iZXI+KSA9PiBQcm9taXNlPHVua25vd24+IH07CiAgICB9KT8udmlicmF0aW9uQWN0dWF0b3I7CiAgICB0cnkgewogICAgICB2b2lkIGFjdHVhdG9yPy5wbGF5RWZmZWN0Py4oImR1YWwtcnVtYmxlIiwgewogICAgICAgIGR1cmF0aW9uLAogICAgICAgIHN0cm9uZ01hZ25pdHVkZTogc3RyZW5ndGgsCiAgICAgICAgd2Vha01hZ25pdHVkZTogc3RyZW5ndGggKiAwLjcsCiAgICAgIH0pOwogICAgfSBjYXRjaCB7CiAgICAgIC8qIGFjdHVhdG9yIHVuYXZhaWxhYmxlIOKAlCB2aXN1YWwgZmVlZGJhY2sgc3RpbGwgcGxheXMgKi8KICAgIH0KICB9Cn07CgppbnRlcmZhY2UgT3B0aW9ucyB7CiAgLyoqIEZpcmVkIG9uY2UgcGVyIHByZXNzLCBvciBvbiBhIHNsb3cgcmVwZWF0IHdoaWxlIGhlbGQuICovCiAgb25BY3Rpb246IChhY3Rpb246IEdhbWVwYWRBY3Rpb24pID0+IHZvaWQ7CiAgLyoqIFR1cm4gcG9sbGluZyBvZmYgd2hlbiB0aGUgc3VyZmFjZSBpcyBub3QgaW50ZXJhY3RpdmUuICovCiAgZW5hYmxlZD86IGJvb2xlYW47Cn0KCi8qKiBSZXR1cm5zIHdoZXRoZXIgYSBjb250cm9sbGVyIGlzIGN1cnJlbnRseSBjb25uZWN0ZWQuICovCmV4cG9ydCBjb25zdCB1c2VHYW1lcGFkID0gKHsgb25BY3Rpb24sIGVuYWJsZWQgPSB0cnVlIH06IE9wdGlvbnMpID0+IHsKICBjb25zdCBbY29ubmVjdGVkLCBzZXRDb25uZWN0ZWRdID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IGhhbmRsZXIgPSB1c2VSZWYob25BY3Rpb24pOwogIGhhbmRsZXIuY3VycmVudCA9IG9uQWN0aW9uOwoKICAvLyBDb25uZWN0aW9uIHN0YXRlIGRyaXZlcyB0aGUgb24tc2NyZWVuIGJ1dHRvbiBsZWdlbmQuCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmICh0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIiB8fCAhbmF2aWdhdG9yLmdldEdhbWVwYWRzKSByZXR1cm47CiAgICBjb25zdCBzeW5jID0gKCkgPT4gc2V0Q29ubmVjdGVkKEFycmF5LmZyb20obmF2aWdhdG9yLmdldEdhbWVwYWRzKCkpLnNvbWUoQm9vbGVhbikpOwogICAgc3luYygpOwogICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoImdhbWVwYWRjb25uZWN0ZWQiLCBzeW5jKTsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJnYW1lcGFkZGlzY29ubmVjdGVkIiwgc3luYyk7CiAgICByZXR1cm4gKCkgPT4gewogICAgICB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcigiZ2FtZXBhZGNvbm5lY3RlZCIsIHN5bmMpOwogICAgICB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcigiZ2FtZXBhZGRpc2Nvbm5lY3RlZCIsIHN5bmMpOwogICAgfTsKICB9LCBbXSk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIWVuYWJsZWQgfHwgdHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIgfHwgIW5hdmlnYXRvci5nZXRHYW1lcGFkcykgcmV0dXJuOwoKICAgIGxldCBmcmFtZSA9IDA7CiAgICAvKiogYWN0aW9uIC0+IHRpbWVzdGFtcCB3aGVuIGl0IG1heSBuZXh0IGZpcmUgKDAgPSByZWxlYXNlZCkuICovCiAgICBjb25zdCBoZWxkID0gbmV3IE1hcDxHYW1lcGFkQWN0aW9uLCBudW1iZXI+KCk7CgogICAgY29uc3QgcHJlc3MgPSAoYWN0aW9uOiBHYW1lcGFkQWN0aW9uLCBub3c6IG51bWJlcikgPT4gewogICAgICBjb25zdCBuZXh0ID0gaGVsZC5nZXQoYWN0aW9uKTsKICAgICAgaWYgKG5leHQgPT09IHVuZGVmaW5lZCkgewogICAgICAgIGhlbGQuc2V0KGFjdGlvbiwgbm93ICsgUkVQRUFUX0RFTEFZKTsKICAgICAgICBoYW5kbGVyLmN1cnJlbnQoYWN0aW9uKTsKICAgICAgICByZXR1cm47CiAgICAgIH0KICAgICAgLy8gT25seSBkaXJlY3Rpb25zIGF1dG8tcmVwZWF0OyBidXR0b25zIG11c3QgYmUgcmVsZWFzZWQgYW5kIHByZXNzZWQgYWdhaW4uCiAgICAgIGlmIChhY3Rpb24gPT09ICJjb25maXJtIiB8fCBhY3Rpb24gPT09ICJiYWNrIiB8fCBhY3Rpb24gPT09ICJtZW51IikgcmV0dXJuOwogICAgICBpZiAobm93ID49IG5leHQpIHsKICAgICAgICBoZWxkLnNldChhY3Rpb24sIG5vdyArIFJFUEVBVF9SQVRFKTsKICAgICAgICBoYW5kbGVyLmN1cnJlbnQoYWN0aW9uKTsKICAgICAgfQogICAgfTsKCiAgICBjb25zdCBwb2xsID0gKCkgPT4gewogICAgICBmcmFtZSA9IHJlcXVlc3RBbmltYXRpb25GcmFtZShwb2xsKTsKICAgICAgY29uc3QgcGFkcyA9IG5hdmlnYXRvci5nZXRHYW1lcGFkcz8uKCkgPz8gW107CiAgICAgIGNvbnN0IG5vdyA9IHBlcmZvcm1hbmNlLm5vdygpOwogICAgICBjb25zdCBhY3RpdmUgPSBuZXcgU2V0PEdhbWVwYWRBY3Rpb24+KCk7CgogICAgICBmb3IgKGNvbnN0IHBhZCBvZiBwYWRzKSB7CiAgICAgICAgaWYgKCFwYWQpIGNvbnRpbnVlOwogICAgICAgIHBhZC5idXR0b25zLmZvckVhY2goKGJ1dHRvbiwgaSkgPT4gewogICAgICAgICAgY29uc3QgYWN0aW9uID0gQlVUVE9OU1tpXTsKICAgICAgICAgIGlmIChhY3Rpb24gJiYgYnV0dG9uLnByZXNzZWQpIGFjdGl2ZS5hZGQoYWN0aW9uKTsKICAgICAgICB9KTsKICAgICAgICBjb25zdCBbeCA9IDAsIHkgPSAwXSA9IHBhZC5heGVzOwogICAgICAgIGlmICh4IDw9IC1ERUFEWk9ORSkgYWN0aXZlLmFkZCgibGVmdCIpOwogICAgICAgIGlmICh4ID49IERFQURaT05FKSBhY3RpdmUuYWRkKCJyaWdodCIpOwogICAgICAgIGlmICh5IDw9IC1ERUFEWk9ORSkgYWN0aXZlLmFkZCgidXAiKTsKICAgICAgICBpZiAoeSA+PSBERUFEWk9ORSkgYWN0aXZlLmFkZCgiZG93biIpOwogICAgICB9CgogICAgICBhY3RpdmUuZm9yRWFjaCgoYWN0aW9uKSA9PiBwcmVzcyhhY3Rpb24sIG5vdykpOwogICAgICBoZWxkLmZvckVhY2goKF8sIGFjdGlvbikgPT4gewogICAgICAgIGlmICghYWN0aXZlLmhhcyhhY3Rpb24pKSBoZWxkLmRlbGV0ZShhY3Rpb24pOwogICAgICB9KTsKICAgIH07CgogICAgZnJhbWUgPSByZXF1ZXN0QW5pbWF0aW9uRnJhbWUocG9sbCk7CiAgICByZXR1cm4gKCkgPT4gY2FuY2VsQW5pbWF0aW9uRnJhbWUoZnJhbWUpOwogIH0sIFtlbmFibGVkXSk7CgogIHJldHVybiBjb25uZWN0ZWQ7Cn07Cg==
+import { useEffect, useRef, useState } from "react";
+
+/**
+ * Xbox-style controller support for the community app navigation.
+ *
+ * Polls the Gamepad API each frame (the spec gives no input events) and turns
+ * the standard mapping into edge-triggered semantic actions, so a held stick
+ * repeats slowly instead of firing 60 times a second.
+ */
+export type GamepadAction = "left" | "right" | "up" | "down" | "confirm" | "back" | "menu";
+
+/** Stick deflection before it counts as a direction. */
+const DEADZONE = 0.55;
+/** Delay before a held direction starts repeating (ms). */
+const REPEAT_DELAY = 420;
+/** Repeat interval while a direction stays held (ms). */
+const REPEAT_RATE = 140;
+
+/** Standard-mapping button indices we care about. */
+const BUTTONS: Record<number, GamepadAction> = {
+  0: "confirm", // A
+  1: "back", // B
+  3: "menu", // Y
+  9: "menu", // Start / Menu
+  12: "up",
+  13: "down",
+  14: "left",
+  15: "right",
+};
+
+/** Short controller rumble; silently ignored on pads without actuators. */
+export const rumble = (duration = 60, strength = 0.35) => {
+  if (typeof navigator === "undefined" || !navigator.getGamepads) return;
+  for (const pad of navigator.getGamepads()) {
+    const actuator = (pad as Gamepad & {
+      vibrationActuator?: { playEffect?: (t: string, o: Record<string, number>) => Promise<unknown> };
+    })?.vibrationActuator;
+    try {
+      void actuator?.playEffect?.("dual-rumble", {
+        duration,
+        strongMagnitude: strength,
+        weakMagnitude: strength * 0.7,
+      });
+    } catch {
+      /* actuator unavailable — visual feedback still plays */
+    }
+  }
+};
+
+interface Options {
+  /** Fired once per press, or on a slow repeat while held. */
+  onAction: (action: GamepadAction) => void;
+  /** Turn polling off when the surface is not interactive. */
+  enabled?: boolean;
+}
+
+/** Returns whether a controller is currently connected. */
+export const useGamepad = ({ onAction, enabled = true }: Options) => {
+  const [connected, setConnected] = useState(false);
+  const handler = useRef(onAction);
+  handler.current = onAction;
+
+  // Connection state drives the on-screen button legend.
+  useEffect(() => {
+    if (typeof window === "undefined" || !navigator.getGamepads) return;
+    const sync = () => setConnected(Array.from(navigator.getGamepads()).some(Boolean));
+    sync();
+    window.addEventListener("gamepadconnected", sync);
+    window.addEventListener("gamepaddisconnected", sync);
+    return () => {
+      window.removeEventListener("gamepadconnected", sync);
+      window.removeEventListener("gamepaddisconnected", sync);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!enabled || typeof window === "undefined" || !navigator.getGamepads) return;
+
+    let frame = 0;
+    /** action -> timestamp when it may next fire (0 = released). */
+    const held = new Map<GamepadAction, number>();
+
+    const press = (action: GamepadAction, now: number) => {
+      const next = held.get(action);
+      if (next === undefined) {
+        held.set(action, now + REPEAT_DELAY);
+        handler.current(action);
+        return;
+      }
+      // Only directions auto-repeat; buttons must be released and pressed again.
+      if (action === "confirm" || action === "back" || action === "menu") return;
+      if (now >= next) {
+        held.set(action, now + REPEAT_RATE);
+        handler.current(action);
+      }
+    };
+
+    const poll = () => {
+      frame = requestAnimationFrame(poll);
+      const pads = navigator.getGamepads?.() ?? [];
+      const now = performance.now();
+      const active = new Set<GamepadAction>();
+
+      for (const pad of pads) {
+        if (!pad) continue;
+        pad.buttons.forEach((button, i) => {
+          const action = BUTTONS[i];
+          if (action && button.pressed) active.add(action);
+        });
+        const [x = 0, y = 0] = pad.axes;
+        if (x <= -DEADZONE) active.add("left");
+        if (x >= DEADZONE) active.add("right");
+        if (y <= -DEADZONE) active.add("up");
+        if (y >= DEADZONE) active.add("down");
+      }
+
+      active.forEach((action) => press(action, now));
+      held.forEach((_, action) => {
+        if (!active.has(action)) held.delete(action);
+      });
+    };
+
+    frame = requestAnimationFrame(poll);
+    return () => cancelAnimationFrame(frame);
+  }, [enabled]);
+
+  return connected;
+};

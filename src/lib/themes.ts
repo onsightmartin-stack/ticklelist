@@ -1,1 +1,103 @@
-ZXhwb3J0IHR5cGUgVGhlbWVJZCA9CiAgfCAiYWxwaW5lIgogIHwgIm1pZG5pZ2h0IgogIHwgInNub3dsaW5lIgogIHwgImdyYW5pdGUiCiAgfCAic3RlYW1wdW5rIgogIHwgImZsb3dlci1wb3dlciIKICB8ICJob2JiaXQiCiAgfCAiY3liZXJwdW5rIjsKCmV4cG9ydCBpbnRlcmZhY2UgVGhlbWVPcHRpb24gewogIGlkOiBUaGVtZUlkOwogIG5hbWU6IHN0cmluZzsKICBkZXNjcmlwdGlvbjogc3RyaW5nOwogIC8qKiBTd2F0Y2ggY29sb3VycyBmb3IgdGhlIHBpY2tlciBwcmV2aWV3IChwbGFpbiBDU1MgY29sb3VycywgcHJldmlldyBvbmx5KS4gKi8KICBzd2F0Y2hlczogW3N0cmluZywgc3RyaW5nLCBzdHJpbmcsIHN0cmluZ107Cn0KCmV4cG9ydCBjb25zdCBUSEVNRVM6IFRoZW1lT3B0aW9uW10gPSBbCiAgewogICAgaWQ6ICJhbHBpbmUiLAogICAgbmFtZTogIkFscGluZSBEYXJrIiwKICAgIGRlc2NyaXB0aW9uOiAiVGhlIG9yaWdpbmFsIE9uc2lnaHQgTWFydGluIGxvb2sg4oCUIGRlZXAgc2xhdGUgd2l0aCBvcmFuZ2Ugc3VtbWl0IGFjY2VudHMuIiwKICAgIHN3YXRjaGVzOiBbIiMxMjE3MWEiLCAiIzFjMjIyNiIsICIjZTA4YjNjIiwgIiMzZDljOTYiXSwKICB9LAogIHsKICAgIGlkOiAibWlkbmlnaHQiLAogICAgbmFtZTogIk1pZG5pZ2h0IEJsYWNrIiwKICAgIGRlc2NyaXB0aW9uOiAiTmVhci1ibGFjayBzdXJmYWNlcyB3aXRoIGNyaXNwIHdoaXRlIHR5cGUuIE1heGltdW0gY29udHJhc3QuIiwKICAgIHN3YXRjaGVzOiBbIiMwMDAwMDAiLCAiIzBmMGYwZiIsICIjZjVmNWY1IiwgIiM3ZGQzZmMiXSwKICB9LAogIHsKICAgIGlkOiAic25vd2xpbmUiLAogICAgbmFtZTogIlNub3dsaW5lIFdoaXRlIiwKICAgIGRlc2NyaXB0aW9uOiAiQnJpZ2h0IGRheWxpZ2h0IHRoZW1lIOKAlCB3aGl0ZSBwYXBlciwgaW5rIHRleHQsIGdsYWNpZXIgYmx1ZSBhY2NlbnRzLiIsCiAgICBzd2F0Y2hlczogWyIjZmZmZmZmIiwgIiNlZWYyZjUiLCAiIzEyMTgxZCIsICIjMWY3YThjIl0sCiAgfSwKICB7CiAgICBpZDogImdyYW5pdGUiLAogICAgbmFtZTogIkdyYW5pdGUgR3JleSIsCiAgICBkZXNjcmlwdGlvbjogIlNvZnQgbmV1dHJhbCBncmV5cywgZWFzeSBvbiB0aGUgZXllcyBmb3IgbG9uZyBzY3JvbGwgc2Vzc2lvbnMuIiwKICAgIHN3YXRjaGVzOiBbIiMzYTNmNDQiLCAiIzRiNTE1NyIsICIjZTZlOGVhIiwgIiM5ZmI0YzciXSwKICB9LAogIHsKICAgIGlkOiAic3RlYW1wdW5rIiwKICAgIG5hbWU6ICJTdGVhbXB1bmsiLAogICAgZGVzY3JpcHRpb246ICJCcmFzcywgY29wcGVyIGFuZCBvaWxlZCBsZWF0aGVyIHdpdGggYSB3YXJtIGdhc2xpZ2h0IGdsb3cuIiwKICAgIHN3YXRjaGVzOiBbIiMyNDFhMTIiLCAiIzMzMjUxYSIsICIjYzk4ZjJiIiwgIiM5YzVhMmQiXSwKICB9LAogIHsKICAgIGlkOiAiZmxvd2VyLXBvd2VyIiwKICAgIG5hbWU6ICJGbG93ZXIgUG93ZXIiLAogICAgZGVzY3JpcHRpb246ICJTZXZlbnRpZXMgYmxvb20g4oCUIGNyZWFtLCBtYXJpZ29sZCwgcG9wcHkgcGluayBhbmQgYXZvY2FkbyBncmVlbi4iLAogICAgc3dhdGNoZXM6IFsiI2ZkZjNlMiIsICIjZjdlM2M0IiwgIiNlMDUzM2QiLCAiIzdhOWEzYyJdLAogIH0sCiAgewogICAgaWQ6ICJob2JiaXQiLAogICAgbmFtZTogIkhvYmJpdCIsCiAgICBkZXNjcmlwdGlvbjogIlNoaXJlIGdyZWVucywgcGFyY2htZW50IGFuZCBNaWRkbGUtZWFydGggbGV0dGVyaW5nIOKAlCBDaW56ZWwgaGVhZGluZ3Mgb24gRUIgR2FyYW1vbmQuIiwKICAgIHN3YXRjaGVzOiBbIiNmMmVjZGYiLCAiI2UzZDhjMyIsICIjNDM2MDJmIiwgIiNhNTY1MmIiXSwKICB9LAogIHsKICAgIGlkOiAiY3liZXJwdW5rIiwKICAgIG5hbWU6ICJDeWJlcnB1bmsiLAogICAgZGVzY3JpcHRpb246ICJOZW9uLW9uLWJsYWNrIE5pZ2h0IENpdHkgdmliZSDigJQgT3JiaXRyb24gaGVhZGluZ3Mgb24gUmFqZGhhbmksIG1hZ2VudGEgYW5kIGN5YW4gZ2xvdy4iLAogICAgc3dhdGNoZXM6IFsiIzBhMDExOCIsICIjMTIwMDI0IiwgIiNmZjJiZDYiLCAiIzAwZjBmZiJdLAogIH0sCl07CgpleHBvcnQgY29uc3QgREVGQVVMVF9USEVNRTogVGhlbWVJZCA9ICJhbHBpbmUiOwpleHBvcnQgY29uc3QgVEhFTUVfU1RPUkFHRV9LRVkgPSAib25zaWdodC10aGVtZSI7CgpleHBvcnQgY29uc3QgaXNUaGVtZUlkID0gKHZhbHVlOiB1bmtub3duKTogdmFsdWUgaXMgVGhlbWVJZCA9PgogIHR5cGVvZiB2YWx1ZSA9PT0gInN0cmluZyIgJiYgVEhFTUVTLnNvbWUoKHQpID0+IHQuaWQgPT09IHZhbHVlKTsKCmV4cG9ydCBjb25zdCBnZXRTdG9yZWRUaGVtZSA9ICgpOiBUaGVtZUlkID0+IHsKICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHJldHVybiBERUZBVUxUX1RIRU1FOwogIHRyeSB7CiAgICBjb25zdCBzdG9yZWQgPSB3aW5kb3cubG9jYWxTdG9yYWdlLmdldEl0ZW0oVEhFTUVfU1RPUkFHRV9LRVkpOwogICAgcmV0dXJuIGlzVGhlbWVJZChzdG9yZWQpID8gc3RvcmVkIDogREVGQVVMVF9USEVNRTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBERUZBVUxUX1RIRU1FOwogIH0KfTsKCmV4cG9ydCBjb25zdCBhcHBseVRoZW1lID0gKHRoZW1lOiBUaGVtZUlkKSA9PiB7CiAgaWYgKHR5cGVvZiBkb2N1bWVudCA9PT0gInVuZGVmaW5lZCIpIHJldHVybjsKICBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuc2V0QXR0cmlidXRlKCJkYXRhLXRoZW1lIiwgdGhlbWUpOwp9OwoKZXhwb3J0IGNvbnN0IHNldFRoZW1lID0gKHRoZW1lOiBUaGVtZUlkKSA9PiB7CiAgYXBwbHlUaGVtZSh0aGVtZSk7CiAgdHJ5IHsKICAgIHdpbmRvdy5sb2NhbFN0b3JhZ2Uuc2V0SXRlbShUSEVNRV9TVE9SQUdFX0tFWSwgdGhlbWUpOwogIH0gY2F0Y2ggewogICAgLyogc3RvcmFnZSB1bmF2YWlsYWJsZSDigJQgdGhlbWUgc3RpbGwgYXBwbGllcyBmb3IgdGhpcyBzZXNzaW9uICovCiAgfQp9OwoKLyoqIElubGluZSBzY3JpcHQgdGhhdCBhcHBsaWVzIHRoZSBzYXZlZCB0aGVtZSBiZWZvcmUgZmlyc3QgcGFpbnQuICovCmV4cG9ydCBjb25zdCB0aGVtZUJvb3RzdHJhcFNjcmlwdCA9IGAoZnVuY3Rpb24oKXt0cnl7dmFyIHQ9bG9jYWxTdG9yYWdlLmdldEl0ZW0oJyR7VEhFTUVfU1RPUkFHRV9LRVl9Jyk7dmFyIG9rPSR7SlNPTi5zdHJpbmdpZnkoCiAgVEhFTUVTLm1hcCgodCkgPT4gdC5pZCksCil9O2lmKHQmJm9rLmluZGV4T2YodCk+LTEpe2RvY3VtZW50LmRvY3VtZW50RWxlbWVudC5zZXRBdHRyaWJ1dGUoJ2RhdGEtdGhlbWUnLHQpO319Y2F0Y2goZSl7fX0pKCk7YDsK
+export type ThemeId =
+  | "alpine"
+  | "midnight"
+  | "snowline"
+  | "granite"
+  | "steampunk"
+  | "flower-power"
+  | "hobbit"
+  | "cyberpunk";
+
+export interface ThemeOption {
+  id: ThemeId;
+  name: string;
+  description: string;
+  /** Swatch colours for the picker preview (plain CSS colours, preview only). */
+  swatches: [string, string, string, string];
+}
+
+export const THEMES: ThemeOption[] = [
+  {
+    id: "alpine",
+    name: "Alpine Dark",
+    description: "The original Onsight Martin look — deep slate with orange summit accents.",
+    swatches: ["#12171a", "#1c2226", "#e08b3c", "#3d9c96"],
+  },
+  {
+    id: "midnight",
+    name: "Midnight Black",
+    description: "Near-black surfaces with crisp white type. Maximum contrast.",
+    swatches: ["#000000", "#0f0f0f", "#f5f5f5", "#7dd3fc"],
+  },
+  {
+    id: "snowline",
+    name: "Snowline White",
+    description: "Bright daylight theme — white paper, ink text, glacier blue accents.",
+    swatches: ["#ffffff", "#eef2f5", "#12181d", "#1f7a8c"],
+  },
+  {
+    id: "granite",
+    name: "Granite Grey",
+    description: "Soft neutral greys, easy on the eyes for long scroll sessions.",
+    swatches: ["#3a3f44", "#4b5157", "#e6e8ea", "#9fb4c7"],
+  },
+  {
+    id: "steampunk",
+    name: "Steampunk",
+    description: "Brass, copper and oiled leather with a warm gaslight glow.",
+    swatches: ["#241a12", "#33251a", "#c98f2b", "#9c5a2d"],
+  },
+  {
+    id: "flower-power",
+    name: "Flower Power",
+    description: "Seventies bloom — cream, marigold, poppy pink and avocado green.",
+    swatches: ["#fdf3e2", "#f7e3c4", "#e0533d", "#7a9a3c"],
+  },
+  {
+    id: "hobbit",
+    name: "Hobbit",
+    description: "Shire greens, parchment and Middle-earth lettering — Cinzel headings on EB Garamond.",
+    swatches: ["#f2ecdf", "#e3d8c3", "#43602f", "#a5652b"],
+  },
+  {
+    id: "cyberpunk",
+    name: "Cyberpunk",
+    description: "Neon-on-black Night City vibe — Orbitron headings on Rajdhani, magenta and cyan glow.",
+    swatches: ["#0a0118", "#120024", "#ff2bd6", "#00f0ff"],
+  },
+];
+
+export const DEFAULT_THEME: ThemeId = "alpine";
+export const THEME_STORAGE_KEY = "onsight-theme";
+
+export const isThemeId = (value: unknown): value is ThemeId =>
+  typeof value === "string" && THEMES.some((t) => t.id === value);
+
+export const getStoredTheme = (): ThemeId => {
+  if (typeof window === "undefined") return DEFAULT_THEME;
+  try {
+    const stored = window.localStorage.getItem(THEME_STORAGE_KEY);
+    return isThemeId(stored) ? stored : DEFAULT_THEME;
+  } catch {
+    return DEFAULT_THEME;
+  }
+};
+
+export const applyTheme = (theme: ThemeId) => {
+  if (typeof document === "undefined") return;
+  document.documentElement.setAttribute("data-theme", theme);
+};
+
+export const setTheme = (theme: ThemeId) => {
+  applyTheme(theme);
+  try {
+    window.localStorage.setItem(THEME_STORAGE_KEY, theme);
+  } catch {
+    /* storage unavailable — theme still applies for this session */
+  }
+};
+
+/** Inline script that applies the saved theme before first paint. */
+export const themeBootstrapScript = `(function(){try{var t=localStorage.getItem('${THEME_STORAGE_KEY}');var ok=${JSON.stringify(
+  THEMES.map((t) => t.id),
+)};if(t&&ok.indexOf(t)>-1){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();`;

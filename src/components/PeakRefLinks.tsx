@@ -1,1 +1,64 @@
-aW1wb3J0IHsgRXh0ZXJuYWxMaW5rLCBNYXBQaW4sIFlvdXR1YmUgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgVHJhY2tlZExpbmsgZnJvbSAiQC9jb21wb25lbnRzL1RyYWNrZWRMaW5rIjsKaW1wb3J0IHsgdXNlUGVha0Nvb3JkcyB9IGZyb20gIkAvaG9va3MvdXNlUGVha0Nvb3JkcyI7CmltcG9ydCB7IGdvb2dsZU1hcHNVcmwgfSBmcm9tICJAL2xpYi9wZWFrLWNvb3JkcyI7CgoKaW50ZXJmYWNlIFByb3BzIHsKICAvKiogUGVhayBuYW1lLCBlLmcuICJNb250IEJsYW5jIiAqLwogIHBlYWs6IHN0cmluZzsKICAvKiogQ291bnRyeSB0aGUgcGVhayBiZWxvbmdzIHRvIOKAlCBzaGFycGVucyB0aGUgc2VhcmNoIHF1ZXJpZXMgKi8KICBjb3VudHJ5Pzogc3RyaW5nIHwgdW5kZWZpbmVkOwogIC8qKiBEaXJlY3Qgc3VtbWl0IHZpZGVvLCB3aGVuIG9uZSBleGlzdHMgKi8KICB5b3V0dWJlVXJsPzogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZDsKICBjbGFzc05hbWU/OiBzdHJpbmcgfCB1bmRlZmluZWQ7Cn0KCmNvbnN0IHN1bW1pdHBvc3RVcmwgPSAocGVhazogc3RyaW5nKSA9PgogIGBodHRwczovL3d3dy5zdW1taXRwb3N0Lm9yZy9vYmplY3RfbGlzdC5waHA/b2JqZWN0X3R5cGU9MSZzZWFyY2hfcXVlcnk9JHtlbmNvZGVVUklDb21wb25lbnQocGVhayl9YDsKCmNvbnN0IHBlYWtiYWdnZXJVcmwgPSAocGVhazogc3RyaW5nKSA9PgogIGBodHRwczovL3d3dy5wZWFrYmFnZ2VyLmNvbS9zZWFyY2guYXNweD90aWQ9UCZzcz0ke2VuY29kZVVSSUNvbXBvbmVudChwZWFrKX1gOwoKY29uc3QgeW91dHViZVNlYXJjaFVybCA9IChwZWFrOiBzdHJpbmcsIGNvdW50cnk/OiBzdHJpbmcpID0+CiAgYGh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3Jlc3VsdHM/c2VhcmNoX3F1ZXJ5PSR7ZW5jb2RlVVJJQ29tcG9uZW50KAogICAgYE9uc2lnaHQgTWFydGluICR7cGVha30ke2NvdW50cnkgPyBgICR7Y291bnRyeX1gIDogIiJ9YCwKICApfWA7CgovKiogUXVpY2sgcmVmZXJlbmNlIGxpbmtzIChTdW1taXRwb3N0LCBQZWFrYmFnZ2VyLCBZb3VUdWJlKSBmb3IgYSBzdW1taXQuICovCmNvbnN0IFBlYWtSZWZMaW5rcyA9ICh7IHBlYWssIGNvdW50cnksIHlvdXR1YmVVcmwsIGNsYXNzTmFtZSA9ICIiIH06IFByb3BzKSA9PiB7CiAgY29uc3QgY29vcmRzID0gdXNlUGVha0Nvb3JkcyhwZWFrKTsKICBjb25zdCBsaW5rID0KICAgICJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgdGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6dGV4dC1wcmltYXJ5IGhvdmVyOnVuZGVybGluZSI7CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT17YGZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAteC00IGdhcC15LTEgJHtjbGFzc05hbWV9YH0+CiAgICAgIDxhCiAgICAgICAgaHJlZj17Z29vZ2xlTWFwc1VybChjb29yZHMsIHBlYWssIGNvdW50cnkpfQogICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIKICAgICAgICBjbGFzc05hbWU9e2xpbmt9CiAgICAgICAgdGl0bGU9e2Nvb3JkcyA/IGAke2Nvb3Jkcy5sYXQudG9GaXhlZCg1KX0sICR7Y29vcmRzLmxvbi50b0ZpeGVkKDUpfWAgOiAiU2VhcmNoIEdvb2dsZSBNYXBzIn0KICAgICAgPgogICAgICAgIDxNYXBQaW4gY2xhc3NOYW1lPSJoLTMgdy0zIHRleHQtcHJpbWFyeSIgLz4ge2Nvb3JkcyA/ICJNYXAiIDogIkZpbmQgb24gbWFwIn0KICAgICAgPC9hPgogICAgICA8YSBocmVmPXtzdW1taXRwb3N0VXJsKHBlYWspfSB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciBub3JlZmVycmVyIiBjbGFzc05hbWU9e2xpbmt9PgogICAgICAgIDxFeHRlcm5hbExpbmsgY2xhc3NOYW1lPSJoLTMgdy0zIiAvPiBTdW1taXRwb3N0CiAgICAgIDwvYT4KICAgICAgPGEgaHJlZj17cGVha2JhZ2dlclVybChwZWFrKX0gdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIgY2xhc3NOYW1lPXtsaW5rfT4KICAgICAgICA8RXh0ZXJuYWxMaW5rIGNsYXNzTmFtZT0iaC0zIHctMyIgLz4gUGVha2JhZ2dlcgogICAgICA8L2E+CiAgICAgIDxUcmFja2VkTGluawogICAgICAgIGhyZWY9e3lvdXR1YmVVcmwgfHwgeW91dHViZVNlYXJjaFVybChwZWFrLCBjb3VudHJ5KX0KICAgICAgICBraW5kPXt5b3V0dWJlVXJsID8gInlvdXR1YmVfdmlkZW8iIDogInlvdXR1YmVfc2VhcmNoIn0KICAgICAgICB0cmFja0xhYmVsPXtgJHtwZWFrfSR7Y291bnRyeSA/IGAgKCR7Y291bnRyeX0pYCA6ICIifWB9CiAgICAgICAgY2xhc3NOYW1lPXtsaW5rfQogICAgICA+CiAgICAgICAgPFlvdXR1YmUgY2xhc3NOYW1lPSJoLTMgdy0zIHRleHQtcmVkLTUwMCIgLz4ge3lvdXR1YmVVcmwgPyAiU3VtbWl0IHZpZGVvIiA6ICJZb3VUdWJlIn0KICAgICAgPC9UcmFja2VkTGluaz4KCiAgICA8L2Rpdj4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgUGVha1JlZkxpbmtzOwo=
+import { ExternalLink, MapPin, Youtube } from "lucide-react";
+import TrackedLink from "@/components/TrackedLink";
+import { usePeakCoords } from "@/hooks/usePeakCoords";
+import { googleMapsUrl } from "@/lib/peak-coords";
+
+
+interface Props {
+  /** Peak name, e.g. "Mont Blanc" */
+  peak: string;
+  /** Country the peak belongs to — sharpens the search queries */
+  country?: string | undefined;
+  /** Direct summit video, when one exists */
+  youtubeUrl?: string | null | undefined;
+  className?: string | undefined;
+}
+
+const summitpostUrl = (peak: string) =>
+  `https://www.summitpost.org/object_list.php?object_type=1&search_query=${encodeURIComponent(peak)}`;
+
+const peakbaggerUrl = (peak: string) =>
+  `https://www.peakbagger.com/search.aspx?tid=P&ss=${encodeURIComponent(peak)}`;
+
+const youtubeSearchUrl = (peak: string, country?: string) =>
+  `https://www.youtube.com/results?search_query=${encodeURIComponent(
+    `Onsight Martin ${peak}${country ? ` ${country}` : ""}`,
+  )}`;
+
+/** Quick reference links (Summitpost, Peakbagger, YouTube) for a summit. */
+const PeakRefLinks = ({ peak, country, youtubeUrl, className = "" }: Props) => {
+  const coords = usePeakCoords(peak);
+  const link =
+    "inline-flex items-center gap-1 text-xs font-medium text-muted-foreground hover:text-primary hover:underline";
+
+  return (
+    <div className={`flex flex-wrap items-center gap-x-4 gap-y-1 ${className}`}>
+      <a
+        href={googleMapsUrl(coords, peak, country)}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={link}
+        title={coords ? `${coords.lat.toFixed(5)}, ${coords.lon.toFixed(5)}` : "Search Google Maps"}
+      >
+        <MapPin className="h-3 w-3 text-primary" /> {coords ? "Map" : "Find on map"}
+      </a>
+      <a href={summitpostUrl(peak)} target="_blank" rel="noopener noreferrer" className={link}>
+        <ExternalLink className="h-3 w-3" /> Summitpost
+      </a>
+      <a href={peakbaggerUrl(peak)} target="_blank" rel="noopener noreferrer" className={link}>
+        <ExternalLink className="h-3 w-3" /> Peakbagger
+      </a>
+      <TrackedLink
+        href={youtubeUrl || youtubeSearchUrl(peak, country)}
+        kind={youtubeUrl ? "youtube_video" : "youtube_search"}
+        trackLabel={`${peak}${country ? ` (${country})` : ""}`}
+        className={link}
+      >
+        <Youtube className="h-3 w-3 text-red-500" /> {youtubeUrl ? "Summit video" : "YouTube"}
+      </TrackedLink>
+
+    </div>
+  );
+};
+
+export default PeakRefLinks;

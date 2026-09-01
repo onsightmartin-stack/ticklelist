@@ -1,1 +1,90 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBBcnJvd1JpZ2h0LCBNb3VudGFpbiB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCBQZWFrSW1hZ2UgZnJvbSAiQC9jb21wb25lbnRzL1BlYWtJbWFnZSI7CmltcG9ydCB7IHNsdWdpZnkgfSBmcm9tICJAL2xpYi9zbHVnIjsKaW1wb3J0IHsgcGVha0RldGFpbHMgfSBmcm9tICJAL2RhdGEvcGVhay1kZXRhaWxzIjsKaW1wb3J0IHsgY291bnRyaWVzIH0gZnJvbSAiQC9kYXRhL2NvdW50cmllcyI7CgovLyBDdXJhdGVkIHNldCBvZiB0aGUgbW9zdCBpbXBvcnRhbnQgcGVhayBwYWdlcyB0byBzdXJmYWNlIG9uIHRoZSBob21lcGFnZS4KY29uc3QgRkVBVFVSRURfQ09VTlRSSUVTID0gWwogICJGcmFuY2UiLAogICJHZXJtYW55IiwKICAiSXJlbGFuZCIsCiAgIlRhbnphbmlhIiwKICAiU2xvdmVuaWEiLAogICJTcGFpbiIsCl07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBGZWF0dXJlZFBlYWtzKCkgewogIGNvbnN0IGZlYXR1cmVkID0gRkVBVFVSRURfQ09VTlRSSUVTLm1hcCgoY291bnRyeSkgPT4gewogICAgY29uc3QgZGV0YWlsID0gcGVha0RldGFpbHNbY291bnRyeV07CiAgICBjb25zdCBlbnRyeSA9IGNvdW50cmllcy5maW5kKChjKSA9PiBjLmNvdW50cnkgPT09IGNvdW50cnkpOwogICAgaWYgKCFkZXRhaWwgfHwgIWVudHJ5KSByZXR1cm4gbnVsbDsKICAgIHJldHVybiB7IGNvdW50cnksIGRldGFpbCwgZW50cnkgfTsKICB9KS5maWx0ZXIoQm9vbGVhbikgYXMgewogICAgY291bnRyeTogc3RyaW5nOwogICAgZGV0YWlsOiAodHlwZW9mIHBlYWtEZXRhaWxzKVtzdHJpbmddOwogICAgZW50cnk6ICh0eXBlb2YgY291bnRyaWVzKVtudW1iZXJdOwogIH1bXTsKCiAgaWYgKGZlYXR1cmVkLmxlbmd0aCA9PT0gMCkgcmV0dXJuIG51bGw7CgogIHJldHVybiAoCiAgICA8c2VjdGlvbiBpZD0iZmVhdHVyZWQiIGNsYXNzTmFtZT0iY29udGFpbmVyIG14LWF1dG8gcHgtNCBweS0xMiBtZDpweS0xNiI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWVuZCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQgbWItNiI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTN4bCBtZDp0ZXh0LTR4bCBmb250LWJvbGQgdGV4dC1mb3JlZ3JvdW5kIG1iLTIiPgogICAgICAgICAgICBGZWF0dXJlZCBQZWFrcwogICAgICAgICAgPC9oMj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRleHQtc20gbWQ6dGV4dC1iYXNlIG1heC13LXhsIj4KICAgICAgICAgICAgRGVlcCBkaXZlcyBpbnRvIHRoZSBoaWdoIHBvaW50cyB0aGF0IHNoYXBlZCB0aGUgam91cm5leSDigJQgcm91dGUgbm90ZXMsIHN0YXRzIGFuZAogICAgICAgICAgICBzdW1taXQgc3Rvcmllcy4KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBzbTpncmlkLWNvbHMtMiBsZzpncmlkLWNvbHMtMyBnYXAtNSI+CiAgICAgICAge2ZlYXR1cmVkLm1hcCgoeyBjb3VudHJ5LCBkZXRhaWwsIGVudHJ5IH0pID0+ICgKICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgIGtleT17Y291bnRyeX0KICAgICAgICAgICAgdG89e2AvcGVhay8ke3NsdWdpZnkoY291bnRyeSl9YH0KICAgICAgICAgICAgY2xhc3NOYW1lPSJncm91cCBibG9jayByb3VuZGVkLWxnIG92ZXJmbG93LWhpZGRlbiBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkIGhvdmVyOmJvcmRlci1wcmltYXJ5IHRyYW5zaXRpb24tY29sb3JzIgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgaC00NCBvdmVyZmxvdy1oaWRkZW4gYmctc2Vjb25kYXJ5Ij4KICAgICAgICAgICAgICA8UGVha0ltYWdlCiAgICAgICAgICAgICAgICBzcmM9e2RldGFpbC5waG90b1VybH0KICAgICAgICAgICAgICAgIGFsdD17YCR7ZGV0YWlsLnBlYWt9LCB0aGUgaGlnaGVzdCBtb3VudGFpbiBpbiAke2NvdW50cnl9YH0KICAgICAgICAgICAgICAgIHdpZHRoPXs4MDB9CiAgICAgICAgICAgICAgICBoZWlnaHQ9ezQ1MH0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGgtZnVsbCBvYmplY3QtY292ZXIgdHJhbnNpdGlvbi10cmFuc2Zvcm0gZHVyYXRpb24tNTAwIGdyb3VwLWhvdmVyOnNjYWxlLTEwNSIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGJnLWdyYWRpZW50LXRvLXQgZnJvbS1iYWNrZ3JvdW5kLzkwIHRvLXRyYW5zcGFyZW50IiAvPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBib3R0b20tMyBsZWZ0LTQgcmlnaHQtNCI+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e2NvdW50cnl9PC9wPgogICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQteGwgZm9udC1ib2xkIHRleHQtZm9yZWdyb3VuZCBsZWFkaW5nLXRpZ2h0Ij4KICAgICAgICAgICAgICAgICAge2RldGFpbC5wZWFrfQogICAgICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJwLTQiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUiPgogICAgICAgICAgICAgICAgICA8TW91bnRhaW4gY2xhc3NOYW1lPSJoLTQgdy00IHRleHQtcHJpbWFyeSIgYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgICAgICAgICAgICAgIHtlbnRyeS5lbGV2YXRpb259CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRydW5jYXRlIj57ZGV0YWlsLnJhbmdlfTwvc3Bhbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbGluZS1jbGFtcC0yIj4KICAgICAgICAgICAgICAgIHtkZXRhaWwuZGVzY3JpcHRpb259CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibXQtMyBpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXByaW1hcnkiPgogICAgICAgICAgICAgICAgVmlldyBwZWFrIHBhZ2UKICAgICAgICAgICAgICAgIDxBcnJvd1JpZ2h0IGNsYXNzTmFtZT0iaC00IHctNCB0cmFuc2l0aW9uLXRyYW5zZm9ybSBncm91cC1ob3Zlcjp0cmFuc2xhdGUteC0xIiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9MaW5rPgogICAgICAgICkpfQogICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KICApOwp9Cg==
+import { Link } from "@/lib/router-compat";
+import { ArrowRight, Mountain } from "lucide-react";
+import PeakImage from "@/components/PeakImage";
+import { slugify } from "@/lib/slug";
+import { peakDetails } from "@/data/peak-details";
+import { countries } from "@/data/countries";
+
+// Curated set of the most important peak pages to surface on the homepage.
+const FEATURED_COUNTRIES = [
+  "France",
+  "Germany",
+  "Ireland",
+  "Tanzania",
+  "Slovenia",
+  "Spain",
+];
+
+export default function FeaturedPeaks() {
+  const featured = FEATURED_COUNTRIES.map((country) => {
+    const detail = peakDetails[country];
+    const entry = countries.find((c) => c.country === country);
+    if (!detail || !entry) return null;
+    return { country, detail, entry };
+  }).filter(Boolean) as {
+    country: string;
+    detail: (typeof peakDetails)[string];
+    entry: (typeof countries)[number];
+  }[];
+
+  if (featured.length === 0) return null;
+
+  return (
+    <section id="featured" className="container mx-auto px-4 py-12 md:py-16">
+      <div className="flex items-end justify-between gap-4 mb-6">
+        <div>
+          <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">
+            Featured Peaks
+          </h2>
+          <p className="text-muted-foreground text-sm md:text-base max-w-xl">
+            Deep dives into the high points that shaped the journey — route notes, stats and
+            summit stories.
+          </p>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {featured.map(({ country, detail, entry }) => (
+          <Link
+            key={country}
+            to={`/peak/${slugify(country)}`}
+            className="group block rounded-lg overflow-hidden border border-border bg-card hover:border-primary transition-colors"
+          >
+            <div className="relative h-44 overflow-hidden bg-secondary">
+              <PeakImage
+                src={detail.photoUrl}
+                alt={`${detail.peak}, the highest mountain in ${country}`}
+                width={800}
+                height={450}
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent" />
+              <div className="absolute bottom-3 left-4 right-4">
+                <p className="text-xs uppercase tracking-wider text-muted-foreground">{country}</p>
+                <h3 className="font-display text-xl font-bold text-foreground leading-tight">
+                  {detail.peak}
+                </h3>
+              </div>
+            </div>
+            <div className="p-4">
+              <div className="flex items-center gap-3 text-sm text-muted-foreground">
+                <span className="flex items-center gap-1.5">
+                  <Mountain className="h-4 w-4 text-primary" aria-hidden="true" />
+                  {entry.elevation}
+                </span>
+                <span className="truncate">{detail.range}</span>
+              </div>
+              <p className="mt-2 text-sm text-muted-foreground line-clamp-2">
+                {detail.description}
+              </p>
+              <span className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-primary">
+                View peak page
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" />
+              </span>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}

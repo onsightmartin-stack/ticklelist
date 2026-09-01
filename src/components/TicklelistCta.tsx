@@ -1,1 +1,77 @@
-aW1wb3J0IHsgQ2hlY2tDaXJjbGUyLCBMaXN0Q2hlY2tzLCBVc2VycyB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCBDcm9zc1NpdGVMaW5rIGZyb20gIkAvY29tcG9uZW50cy9Dcm9zc1NpdGVMaW5rIjsKaW1wb3J0IHsgY29tbXVuaXR5SHJlZiwgQ09NTVVOSVRZX05BTUUgfSBmcm9tICJAL2xpYi9zaXRlLWxpbmtzIjsKaW1wb3J0IHsgdHJhY2tFdmVudCB9IGZyb20gIkAvbGliL2FuYWx5dGljcyI7CgppbnRlcmZhY2UgUHJvcHMgewogIC8qKiBPcHRpb25hbCBjb250ZXh0IGxpbmUsIGUuZy4gIkNsaW1iZWQgS2lsaW1hbmphcm8/IiAqLwogIGhlYWRsaW5lPzogc3RyaW5nOwogIC8qKiBXaGVyZSB0aGUgQ1RBIHNpdHMg4oCUIGFwcGVuZGVkIGFzID9yZWY9IHNvIHdlIGNhbiBzZWUgd2hhdCBjb252ZXJ0cy4gKi8KICBzb3VyY2U/OiBzdHJpbmc7CiAgY2xhc3NOYW1lPzogc3RyaW5nOwogIC8qKgogICAqIEEvQiB2YXJpYW50IGZvciB0aGUgYHRpY2tsZWxpc3RfY3RhX2NvcHlgIHRlc3QuIFRoZSBwYWdlIG93bmluZyB0aGUgQ1RBCiAgICogYXNzaWducyB0aGUgdmFyaWFudCB2aWEgdXNlQWJWYXJpYW50KCkgYW5kIHBhc3NlcyBpdCBkb3duIHNvIHRoZQogICAqIGV4cG9zdXJlIGV2ZW50IGlzIHJlY29yZGVkIG9uY2UgYW5kIHRoZSBjb3B5ICsgY2xpY2sgdGFnIHN0YXkgaW4gc3luYy4KICAgKi8KICB2YXJpYW50PzogIkEiIHwgIkIiOwp9CgovKioKICogQ29udmVyc2lvbiBibG9jazogdHVybnMgYSByZWFkZXIgb2YgYSBwZWFrL2d1aWRlIHBhZ2UgaW50byBhIFRpY2tsZWxpc3QKICogbWVtYmVyLiBSZW5kZXJlZCBuZWFyIHRoZSBib3R0b20gb2YgbG9uZyBjb250ZW50IHBhZ2VzICh2YXJpYW50IEEpIG9yCiAqIGhpZ2hlciB1cCB0aGUgcGFnZSAodmFyaWFudCBCKSBkZXBlbmRpbmcgb24gdGhlIEEvQiBhc3NpZ25tZW50LgogKi8KY29uc3QgVGlja2xlbGlzdEN0YSA9ICh7CiAgaGVhZGxpbmUsCiAgc291cmNlID0gIm9uc2lnaHRtYXJ0aW4iLAogIGNsYXNzTmFtZSA9ICIiLAogIHZhcmlhbnQgPSAiQSIsCn06IFByb3BzKSA9PiB7CiAgY29uc3QgaHJlZiA9IGAke2NvbW11bml0eUhyZWYoIi8iKX0ke2NvbW11bml0eUhyZWYoIi8iKS5pbmNsdWRlcygiPyIpID8gIiYiIDogIj8ifXJlZj0ke2VuY29kZVVSSUNvbXBvbmVudChzb3VyY2UpfWA7CiAgY29uc3QgaXNCID0gdmFyaWFudCA9PT0gIkIiOwoKICBjb25zdCBoYW5kbGVDbGljayA9ICgpID0+IHsKICAgIHRyYWNrRXZlbnQoInRpY2tsZWxpc3RfY3RhX2NsaWNrIiwgeyBzb3VyY2UsIHZhcmlhbnQgfSk7CiAgfTsKCiAgY29uc3QgcmVzb2x2ZWRIZWFkbGluZSA9CiAgICBoZWFkbGluZSA/PwogICAgKGlzQiA/IGBKb2luIHRoZSBjbGltYmVycyBvbiAke0NPTU1VTklUWV9OQU1FfWAgOiBgS2VlcCB5b3VyIG93biB0aWNrIGxpc3Qgb24gJHtDT01NVU5JVFlfTkFNRX1gKTsKICBjb25zdCBzdWJDb3B5ID0gaXNCCiAgICA/ICJUaWNrIHN1bW1pdHMsIG1hcCB5b3VyIGNvdW50cnkgY291bnQgYW5kIGZvbGxvdyBjbGltYmVycyBjaGFzaW5nIHRoZSBzYW1lIHBlYWtzIGFzIHlvdS4gRnJlZSDigJQgc2lnbiB1cCBpbiB1bmRlciBhIG1pbnV0ZS4iCiAgICA6ICJMb2cgdGhlIHN1bW1pdHMgeW91J3ZlIGNsaW1iZWQsIGJ1aWxkIGJ1Y2tldCBsaXN0cywgZm9sbG93IG90aGVyIGNsaW1iZXJzIGFuZCB3YXRjaCB5b3VyIGNvdW50cnkgY291bnQgZ3Jvdy4gRnJlZSwgYW5kIGJ1aWx0IGJ5IGNsaW1iZXJzIGZvciBjbGltYmVycy4iOwogIGNvbnN0IGN0YUxhYmVsID0gaXNCID8gIkJ1aWxkIHlvdXIgdGljayBsaXN0IG5vdyIgOiAiU3RhcnQgeW91ciB0aWNrIGxpc3Qg4oCUIGl0J3MgZnJlZSI7CgogIHJldHVybiAoCiAgICA8c2VjdGlvbiBjbGFzc05hbWU9e2Byb3VuZGVkLXhsIGJvcmRlciBib3JkZXItcHJpbWFyeS80MCBiZy1wcmltYXJ5LzUgcC02ICR7Y2xhc3NOYW1lfWB9PgogICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC1sZyB0cmFja2luZy13aWRlIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAge3Jlc29sdmVkSGVhZGxpbmV9CiAgICAgIDwvaDI+CiAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3N1YkNvcHl9PC9wPgogICAgICA8dWwgY2xhc3NOYW1lPSJtdC00IGdyaWQgZ2FwLTIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgc206Z3JpZC1jb2xzLTMiPgogICAgICAgIDxsaSBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgIDxDaGVja0NpcmNsZTIgY2xhc3NOYW1lPSJoLTQgdy00IHNocmluay0wIHRleHQtcHJpbWFyeSIgYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgICAgICBUaWNrIGFzY2VudHMgd2l0aCBkYXRlcyAmIHBob3RvcwogICAgICAgIDwvbGk+CiAgICAgICAgPGxpIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgPExpc3RDaGVja3MgY2xhc3NOYW1lPSJoLTQgdy00IHNocmluay0wIHRleHQtcHJpbWFyeSIgYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgICAgICBUcmFjayBjaGFsbGVuZ2UgbGlzdHMgJiBnb2FscwogICAgICAgIDwvbGk+CiAgICAgICAgPGxpIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgPFVzZXJzIGNsYXNzTmFtZT0iaC00IHctNCBzaHJpbmstMCB0ZXh0LXByaW1hcnkiIGFyaWEtaGlkZGVuPSJ0cnVlIiAvPgogICAgICAgICAgRm9sbG93IGNsaW1iZXJzLCBzaGFyZSB0cmlwcwogICAgICAgIDwvbGk+CiAgICAgIDwvdWw+CiAgICAgIDxDcm9zc1NpdGVMaW5rCiAgICAgICAgaHJlZj17aHJlZn0KICAgICAgICBvbkNsaWNrPXtoYW5kbGVDbGlja30KICAgICAgICBjbGFzc05hbWU9Im10LTUgaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIHJvdW5kZWQtZnVsbCBiZy1wcmltYXJ5IHB4LTUgcHktMiB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIGhvdmVyOm9wYWNpdHktOTAgdHJhbnNpdGlvbi1vcGFjaXR5IgogICAgICA+CiAgICAgICAge2N0YUxhYmVsfQogICAgICA8L0Nyb3NzU2l0ZUxpbms+CiAgICA8L3NlY3Rpb24+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IFRpY2tsZWxpc3RDdGE7Cg==
+import { CheckCircle2, ListChecks, Users } from "lucide-react";
+import CrossSiteLink from "@/components/CrossSiteLink";
+import { communityHref, COMMUNITY_NAME } from "@/lib/site-links";
+import { trackEvent } from "@/lib/analytics";
+
+interface Props {
+  /** Optional context line, e.g. "Climbed Kilimanjaro?" */
+  headline?: string;
+  /** Where the CTA sits — appended as ?ref= so we can see what converts. */
+  source?: string;
+  className?: string;
+  /**
+   * A/B variant for the `ticklelist_cta_copy` test. The page owning the CTA
+   * assigns the variant via useAbVariant() and passes it down so the
+   * exposure event is recorded once and the copy + click tag stay in sync.
+   */
+  variant?: "A" | "B";
+}
+
+/**
+ * Conversion block: turns a reader of a peak/guide page into a Ticklelist
+ * member. Rendered near the bottom of long content pages (variant A) or
+ * higher up the page (variant B) depending on the A/B assignment.
+ */
+const TicklelistCta = ({
+  headline,
+  source = "onsightmartin",
+  className = "",
+  variant = "A",
+}: Props) => {
+  const href = `${communityHref("/")}${communityHref("/").includes("?") ? "&" : "?"}ref=${encodeURIComponent(source)}`;
+  const isB = variant === "B";
+
+  const handleClick = () => {
+    trackEvent("ticklelist_cta_click", { source, variant });
+  };
+
+  const resolvedHeadline =
+    headline ??
+    (isB ? `Join the climbers on ${COMMUNITY_NAME}` : `Keep your own tick list on ${COMMUNITY_NAME}`);
+  const subCopy = isB
+    ? "Tick summits, map your country count and follow climbers chasing the same peaks as you. Free — sign up in under a minute."
+    : "Log the summits you've climbed, build bucket lists, follow other climbers and watch your country count grow. Free, and built by climbers for climbers.";
+  const ctaLabel = isB ? "Build your tick list now" : "Start your tick list — it's free";
+
+  return (
+    <section className={`rounded-xl border border-primary/40 bg-primary/5 p-6 ${className}`}>
+      <h2 className="font-display text-lg tracking-wide text-foreground">
+        {resolvedHeadline}
+      </h2>
+      <p className="mt-2 text-sm text-muted-foreground">{subCopy}</p>
+      <ul className="mt-4 grid gap-2 text-sm text-muted-foreground sm:grid-cols-3">
+        <li className="flex items-center gap-2">
+          <CheckCircle2 className="h-4 w-4 shrink-0 text-primary" aria-hidden="true" />
+          Tick ascents with dates & photos
+        </li>
+        <li className="flex items-center gap-2">
+          <ListChecks className="h-4 w-4 shrink-0 text-primary" aria-hidden="true" />
+          Track challenge lists & goals
+        </li>
+        <li className="flex items-center gap-2">
+          <Users className="h-4 w-4 shrink-0 text-primary" aria-hidden="true" />
+          Follow climbers, share trips
+        </li>
+      </ul>
+      <CrossSiteLink
+        href={href}
+        onClick={handleClick}
+        className="mt-5 inline-flex items-center rounded-full bg-primary px-5 py-2 text-sm font-medium text-primary-foreground hover:opacity-90 transition-opacity"
+      >
+        {ctaLabel}
+      </CrossSiteLink>
+    </section>
+  );
+};
+
+export default TicklelistCta;

@@ -1,1 +1,20 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBQZWFrYmFnZ2VySW1wb3J0UGFnZSBmcm9tICJAL3BhZ2VzL1BlYWtiYWdnZXJJbXBvcnRQYWdlIjsKCmNvbnN0IHRpdGxlID0gIlBlYWtiYWdnZXIgaW1wb3J0IHN0YXR1cyDigJQgT25zaWdodCBNYXJ0aW4iOwpjb25zdCBkZXNjcmlwdGlvbiA9ICJQcml2YXRlIGRhc2hib2FyZCBzaG93aW5nIFBlYWtiYWdnZXIgaW1wb3J0IHByb2dyZXNzIGFuZCBlcnJvcnMuIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL2FkbWluL3BlYWtiYWdnZXItaW1wb3J0IikoewogIGhlYWQ6ICgpID0+ICh7CiAgICBtZXRhOiBbCiAgICAgIHsgdGl0bGUgfSwKICAgICAgeyBuYW1lOiAiZGVzY3JpcHRpb24iLCBjb250ZW50OiBkZXNjcmlwdGlvbiB9LAogICAgICB7IG5hbWU6ICJyb2JvdHMiLCBjb250ZW50OiAibm9pbmRleCwgbm9mb2xsb3ciIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0aXRsZSIsIGNvbnRlbnQ6IHRpdGxlIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzpkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6IGRlc2NyaXB0aW9uIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0eXBlIiwgY29udGVudDogIndlYnNpdGUiIH0sCiAgICAgIHsgbmFtZTogInR3aXR0ZXI6Y2FyZCIsIGNvbnRlbnQ6ICJzdW1tYXJ5IiB9LAogICAgXSwKICB9KSwKICBjb21wb25lbnQ6IFBlYWtiYWdnZXJJbXBvcnRQYWdlLAp9KTsK
+import { createFileRoute } from "@tanstack/react-router";
+import PeakbaggerImportPage from "@/pages/PeakbaggerImportPage";
+
+const title = "Peakbagger import status — Onsight Martin";
+const description = "Private dashboard showing Peakbagger import progress and errors.";
+
+export const Route = createFileRoute("/admin/peakbagger-import")({
+  head: () => ({
+    meta: [
+      { title },
+      { name: "description", content: description },
+      { name: "robots", content: "noindex, nofollow" },
+      { property: "og:title", content: title },
+      { property: "og:description", content: description },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
+  component: PeakbaggerImportPage,
+});

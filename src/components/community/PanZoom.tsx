@@ -1,1 +1,388 @@
-aW1wb3J0IHsKICB1c2VDYWxsYmFjaywKICB1c2VFZmZlY3QsCiAgdXNlTGF5b3V0RWZmZWN0LAogIHVzZVJlZiwKICB1c2VTdGF0ZSwKICB0eXBlIENTU1Byb3BlcnRpZXMsCiAgdHlwZSBSZWFjdE5vZGUsCn0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBNaW51cywgUGx1cywgTWF4aW1pemUyLCBGcmFtZSB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IG1vdGlvbkFsbG93ZWQgfSBmcm9tICJAL2xpYi9tb3Rpb24iOwoKaW50ZXJmYWNlIFByb3BzIHsKICAvKiogSW50cmluc2ljIHNpemUgb2YgdGhlIHdvcmxkIGJlaW5nIGRpc3BsYXllZC4gKi8KICB3b3JsZFdpZHRoOiBudW1iZXI7CiAgd29ybGRIZWlnaHQ6IG51bWJlcjsKICBjaGlsZHJlbjogUmVhY3ROb2RlOwogIGNsYXNzTmFtZT86IHN0cmluZzsKICBzdHlsZT86IENTU1Byb3BlcnRpZXM7CiAgLyoqIEV4dHJhIHpvb20gYWxsb3dlZCBiZXlvbmQgdGhlIGZpdHRlZCBzY2FsZS4gKi8KICBtYXhTY2FsZUZhY3Rvcj86IG51bWJlcjsKICBtaW5TY2FsZUZhY3Rvcj86IG51bWJlcjsKICAvKiogV2hlbiBzZXQsIHBhbi96b29tIGlzIHJlbWVtYmVyZWQgaW4gbG9jYWxTdG9yYWdlIHVuZGVyIHRoaXMga2V5LiAqLwogIHN0b3JhZ2VLZXk/OiBzdHJpbmc7CiAgLyoqIFNob3cgdGhlIHpvb20vZml0L3Jlc2V0IGNvbnRyb2wgY2x1c3RlciAoYm90dG9tLXJpZ2h0KS4gRGVmYXVsdCB0cnVlLiAqLwogIHNob3dDb250cm9scz86IGJvb2xlYW47Cn0KCmludGVyZmFjZSBTYXZlZFZpZXcgewogIC8qKiB6b29tIGV4cHJlc3NlZCBhcyBhIG11bHRpcGxlIG9mIHRoZSBmaXR0ZWQgc2NhbGUsIHNvIGl0IHN1cnZpdmVzIHJlc2l6ZXMgKi8KICBmOiBudW1iZXI7CiAgLyoqIHdvcmxkLXNwYWNlIHBvaW50IHNob3duIGF0IHRoZSBjZW50cmUgb2YgdGhlIHZpZXdwb3J0ICovCiAgY3g6IG51bWJlcjsKICBjeTogbnVtYmVyOwp9Cgpjb25zdCByZWFkU2F2ZWQgPSAoa2V5Pzogc3RyaW5nKTogU2F2ZWRWaWV3IHwgbnVsbCA9PiB7CiAgaWYgKCFrZXkgfHwgdHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHJldHVybiBudWxsOwogIHRyeSB7CiAgICBjb25zdCByYXcgPSB3aW5kb3cubG9jYWxTdG9yYWdlLmdldEl0ZW0oa2V5KTsKICAgIGlmICghcmF3KSByZXR1cm4gbnVsbDsKICAgIGNvbnN0IHYgPSBKU09OLnBhcnNlKHJhdykgYXMgU2F2ZWRWaWV3OwogICAgaWYgKFt2Py5mLCB2Py5jeCwgdj8uY3ldLmV2ZXJ5KChuKSA9PiB0eXBlb2YgbiA9PT0gIm51bWJlciIgJiYgTnVtYmVyLmlzRmluaXRlKG4pKSkgcmV0dXJuIHY7CiAgfSBjYXRjaCB7CiAgICAvKiBpZ25vcmUgdW5yZWFkYWJsZSBzdG9yYWdlICovCiAgfQogIHJldHVybiBudWxsOwp9OwoKY29uc3QgY2xhbXAgPSAodjogbnVtYmVyLCBtaW46IG51bWJlciwgbWF4OiBudW1iZXIpID0+IE1hdGgubWluKG1heCwgTWF0aC5tYXgobWluLCB2KSk7CgovKioKICogV2hlZWwgLyBwaW5jaCB6b29tICsgZHJhZyBwYW4gdmlld3BvcnQgZm9yIGEgZml4ZWQtc2l6ZSB3b3JsZC4KICogVGhlIHdvcmxkIGFsd2F5cyBjb3ZlcnMgdGhlIHZpZXdwb3J0LCBzbyB5b3UgY2FuIG5ldmVyIHBhbiBpbnRvIGVtcHR5IHNwYWNlLgogKi8KY29uc3QgUGFuWm9vbSA9ICh7CiAgd29ybGRXaWR0aCwKICB3b3JsZEhlaWdodCwKICBjaGlsZHJlbiwKICBjbGFzc05hbWUgPSAiIiwKICBzdHlsZSwKICBtYXhTY2FsZUZhY3RvciA9IDQsCiAgbWluU2NhbGVGYWN0b3IgPSAxLAogIHN0b3JhZ2VLZXksCiAgc2hvd0NvbnRyb2xzID0gdHJ1ZSwKfTogUHJvcHMpID0+IHsKICBjb25zdCBob3N0UmVmID0gdXNlUmVmPEhUTUxEaXZFbGVtZW50IHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW3NpemUsIHNldFNpemVdID0gdXNlU3RhdGUoeyB3OiAwLCBoOiAwIH0pOwogIGNvbnN0IFt6b29tLCBzZXRab29tXSA9IHVzZVN0YXRlKDEpOwogIGNvbnN0IFtvZmZzZXQsIHNldE9mZnNldF0gPSB1c2VTdGF0ZSh7IHg6IDAsIHk6IDAgfSk7CiAgY29uc3QgW2RyYWdnaW5nLCBzZXREcmFnZ2luZ10gPSB1c2VTdGF0ZShmYWxzZSk7CgogIC8vIFNjYWxlIGF0IHdoaWNoIHRoZSB3b3JsZCBleGFjdGx5IGNvdmVycyB0aGUgdmlld3BvcnQuCiAgY29uc3QgZml0ID0gc2l6ZS53ICYmIHNpemUuaCA/IE1hdGgubWF4KHNpemUudyAvIHdvcmxkV2lkdGgsIHNpemUuaCAvIHdvcmxkSGVpZ2h0KSA6IDE7CiAgY29uc3QgbWluWm9vbSA9IGZpdCAqIG1pblNjYWxlRmFjdG9yOwogIGNvbnN0IG1heFpvb20gPSBmaXQgKiBtYXhTY2FsZUZhY3RvcjsKCiAgY29uc3QgY2xhbXBPZmZzZXQgPSB1c2VDYWxsYmFjaygKICAgIChvOiB7IHg6IG51bWJlcjsgeTogbnVtYmVyIH0sIHo6IG51bWJlcikgPT4gewogICAgICBjb25zdCB3ID0gd29ybGRXaWR0aCAqIHo7CiAgICAgIGNvbnN0IGggPSB3b3JsZEhlaWdodCAqIHo7CiAgICAgIHJldHVybiB7CiAgICAgICAgeDogY2xhbXAoby54LCBNYXRoLm1pbigwLCBzaXplLncgLSB3KSwgTWF0aC5tYXgoMCwgc2l6ZS53IC0gdykpLAogICAgICAgIHk6IGNsYW1wKG8ueSwgTWF0aC5taW4oMCwgc2l6ZS5oIC0gaCksIE1hdGgubWF4KDAsIHNpemUuaCAtIGgpKSwKICAgICAgfTsKICAgIH0sCiAgICBbc2l6ZS53LCBzaXplLmgsIHdvcmxkV2lkdGgsIHdvcmxkSGVpZ2h0XSwKICApOwoKICAvLyBUcmFjayB2aWV3cG9ydCBzaXplLgogIHVzZUxheW91dEVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCBlbCA9IGhvc3RSZWYuY3VycmVudDsKICAgIGlmICghZWwpIHJldHVybjsKICAgIGNvbnN0IHJvID0gbmV3IFJlc2l6ZU9ic2VydmVyKChbZW50cnldKSA9PiB7CiAgICAgIGNvbnN0IHIgPSBlbnRyeT8uY29udGVudFJlY3Q7CiAgICAgIGlmIChyKSBzZXRTaXplKHsgdzogci53aWR0aCwgaDogci5oZWlnaHQgfSk7CiAgICB9KTsKICAgIHJvLm9ic2VydmUoZWwpOwogICAgcmV0dXJuICgpID0+IHJvLmRpc2Nvbm5lY3QoKTsKICB9LCBbXSk7CgogIGNvbnN0IHJlc3RvcmUgPSB1c2VDYWxsYmFjaygKICAgICh2OiBTYXZlZFZpZXcpID0+IHsKICAgICAgaWYgKCFzaXplLncgfHwgIXNpemUuaCkgcmV0dXJuIGZhbHNlOwogICAgICBjb25zdCBmID0gTWF0aC5tYXgoc2l6ZS53IC8gd29ybGRXaWR0aCwgc2l6ZS5oIC8gd29ybGRIZWlnaHQpOwogICAgICBjb25zdCB6ID0gY2xhbXAoZiAqIHYuZiwgZiAqIG1pblNjYWxlRmFjdG9yLCBmICogbWF4U2NhbGVGYWN0b3IpOwogICAgICBzZXRab29tKHopOwogICAgICBzZXRPZmZzZXQoY2xhbXBPZmZzZXQoeyB4OiBzaXplLncgLyAyIC0gdi5jeCAqIHosIHk6IHNpemUuaCAvIDIgLSB2LmN5ICogeiB9LCB6KSk7CiAgICAgIHJldHVybiB0cnVlOwogICAgfSwKICAgIFtzaXplLncsIHNpemUuaCwgd29ybGRXaWR0aCwgd29ybGRIZWlnaHQsIGNsYW1wT2Zmc2V0LCBtaW5TY2FsZUZhY3RvciwgbWF4U2NhbGVGYWN0b3JdLAogICk7CgogIGNvbnN0IHJlc2V0ID0gdXNlQ2FsbGJhY2soKCkgPT4gewogICAgaWYgKCFzaXplLncgfHwgIXNpemUuaCkgcmV0dXJuOwogICAgY29uc3QgeiA9IE1hdGgubWF4KHNpemUudyAvIHdvcmxkV2lkdGgsIHNpemUuaCAvIHdvcmxkSGVpZ2h0KTsKICAgIHNldFpvb20oeik7CiAgICAvLyBTdGFydCBjZW50cmVkIGhvcml6b250YWxseSwgYW5jaG9yZWQgdG8gdGhlIGdyb3VuZCBhdCB0aGUgYm90dG9tLgogICAgc2V0T2Zmc2V0KGNsYW1wT2Zmc2V0KHsgeDogKHNpemUudyAtIHdvcmxkV2lkdGggKiB6KSAvIDIsIHk6IHNpemUuaCAtIHdvcmxkSGVpZ2h0ICogeiB9LCB6KSk7CiAgICBpZiAoc3RvcmFnZUtleSkgewogICAgICB0cnkgewogICAgICAgIHdpbmRvdy5sb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbShzdG9yYWdlS2V5KTsKICAgICAgfSBjYXRjaCB7CiAgICAgICAgLyogaWdub3JlICovCiAgICAgIH0KICAgIH0KICB9LCBbc2l6ZS53LCBzaXplLmgsIHdvcmxkV2lkdGgsIHdvcmxkSGVpZ2h0LCBjbGFtcE9mZnNldCwgc3RvcmFnZUtleV0pOwoKICAvLyAtLS0gU21vb3RoIHBhbi96b29tIHR3ZWVuIGZvciB0aGUgIkZpdCB0byB2aWV3IiAvICJSZXNldCB2aWV3IiBidXR0b25zIC0tLQogIGNvbnN0IHJhZlJlZiA9IHVzZVJlZjxudW1iZXIgfCBudWxsPihudWxsKTsKICBjb25zdCBvZmZzZXRSZWYgPSB1c2VSZWYob2Zmc2V0KTsKICBvZmZzZXRSZWYuY3VycmVudCA9IG9mZnNldDsKCiAgY29uc3QgY2FuY2VsQW5pbSA9IHVzZUNhbGxiYWNrKCgpID0+IHsKICAgIGlmIChyYWZSZWYuY3VycmVudCAhPSBudWxsKSB7CiAgICAgIGNhbmNlbEFuaW1hdGlvbkZyYW1lKHJhZlJlZi5jdXJyZW50KTsKICAgICAgcmFmUmVmLmN1cnJlbnQgPSBudWxsOwogICAgfQogIH0sIFtdKTsKCiAgLyoqIEFuaW1hdGUgdGhlIHZpZXdwb3J0IHRvIGB0YXJnZXRgICh6b29tICsgb2Zmc2V0KSBvdmVyIH40NTBtcyB3aXRoIGVhc2Utb3V0LiAqLwogIGNvbnN0IHR3ZWVuVG8gPSB1c2VDYWxsYmFjaygKICAgICh0YXJnZXQ6IHsgejogbnVtYmVyOyB4OiBudW1iZXI7IHk6IG51bWJlciB9LCBkdXJhdGlvbiA9IDQ1MCkgPT4gewogICAgICBpZiAoIXNpemUudyB8fCAhc2l6ZS5oKSByZXR1cm47CiAgICAgIC8vIFJlc3BlY3QgdGhlIGdsb2JhbCBtb3Rpb24gcHJlZmVyZW5jZToganVtcCBpbnN0YW50bHkgd2hlbiBtb3Rpb24gaXMgb2ZmLgogICAgICBpZiAoIW1vdGlvbkFsbG93ZWQoKSkgewogICAgICAgIHNldFpvb20odGFyZ2V0LnopOwogICAgICAgIHNldE9mZnNldChjbGFtcE9mZnNldCh7IHg6IHRhcmdldC54LCB5OiB0YXJnZXQueSB9LCB0YXJnZXQueikpOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBjb25zdCBzdGFydFogPSB6b29tUmVmLmN1cnJlbnQ7CiAgICAgIGNvbnN0IHN0YXJ0ID0gb2Zmc2V0UmVmLmN1cnJlbnQ7CiAgICAgIGNvbnN0IGR6ID0gdGFyZ2V0LnogLSBzdGFydFo7CiAgICAgIGNvbnN0IGR4ID0gdGFyZ2V0LnggLSBzdGFydC54OwogICAgICBjb25zdCBkeSA9IHRhcmdldC55IC0gc3RhcnQueTsKICAgICAgaWYgKHJhZlJlZi5jdXJyZW50ICE9IG51bGwpIGNhbmNlbEFuaW1hdGlvbkZyYW1lKHJhZlJlZi5jdXJyZW50KTsKICAgICAgY29uc3QgZWFzZSA9ICh0OiBudW1iZXIpID0+IDEgLSBNYXRoLnBvdygxIC0gdCwgMyk7IC8vIGVhc2VPdXRDdWJpYwogICAgICBjb25zdCB0MCA9IHBlcmZvcm1hbmNlLm5vdygpOwogICAgICBjb25zdCBzdGVwID0gKG5vdzogbnVtYmVyKSA9PiB7CiAgICAgICAgY29uc3QgdCA9IE1hdGgubWluKDEsIChub3cgLSB0MCkgLyBkdXJhdGlvbik7CiAgICAgICAgY29uc3QgZSA9IGVhc2UodCk7CiAgICAgICAgY29uc3QgeiA9IHN0YXJ0WiArIGR6ICogZTsKICAgICAgICBzZXRPZmZzZXQoY2xhbXBPZmZzZXQoeyB4OiBzdGFydC54ICsgZHggKiBlLCB5OiBzdGFydC55ICsgZHkgKiBlIH0sIHopKTsKICAgICAgICBzZXRab29tKHopOwogICAgICAgIGlmICh0IDwgMSkgewogICAgICAgICAgcmFmUmVmLmN1cnJlbnQgPSByZXF1ZXN0QW5pbWF0aW9uRnJhbWUoc3RlcCk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIHJhZlJlZi5jdXJyZW50ID0gbnVsbDsKICAgICAgICB9CiAgICAgIH07CiAgICAgIHJhZlJlZi5jdXJyZW50ID0gcmVxdWVzdEFuaW1hdGlvbkZyYW1lKHN0ZXApOwogICAgfSwKICAgIFtzaXplLncsIHNpemUuaCwgY2xhbXBPZmZzZXRdLAogICk7CgogIC8qKiBBbmltYXRlZCB2ZXJzaW9uIG9mIGByZXNldGAgZm9yIHRoZSB0b29sYmFyIGJ1dHRvbiAoa2VlcHMgaW5pdCBpbnN0YW50KS4gKi8KICBjb25zdCByZXNldEFuaW1hdGVkID0gdXNlQ2FsbGJhY2soKCkgPT4gewogICAgaWYgKCFzaXplLncgfHwgIXNpemUuaCkgcmV0dXJuOwogICAgY29uc3QgeiA9IE1hdGgubWF4KHNpemUudyAvIHdvcmxkV2lkdGgsIHNpemUuaCAvIHdvcmxkSGVpZ2h0KTsKICAgIHR3ZWVuVG8oeyB6LCB4OiAoc2l6ZS53IC0gd29ybGRXaWR0aCAqIHopIC8gMiwgeTogc2l6ZS5oIC0gd29ybGRIZWlnaHQgKiB6IH0pOwogICAgaWYgKHN0b3JhZ2VLZXkpIHsKICAgICAgdHJ5IHsKICAgICAgICB3aW5kb3cubG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oc3RvcmFnZUtleSk7CiAgICAgIH0gY2F0Y2ggewogICAgICAgIC8qIGlnbm9yZSAqLwogICAgICB9CiAgICB9CiAgfSwgW3NpemUudywgc2l6ZS5oLCB3b3JsZFdpZHRoLCB3b3JsZEhlaWdodCwgdHdlZW5Ubywgc3RvcmFnZUtleV0pOwoKICAvKiogRml0IHRoZSBlbnRpcmUgd29ybGQgaW5zaWRlIHRoZSB2aWV3cG9ydCwgY2VudHJlZCBvbiBib3RoIGF4ZXMuICovCiAgY29uc3QgZml0VmlldyA9IHVzZUNhbGxiYWNrKCgpID0+IHsKICAgIGlmICghc2l6ZS53IHx8ICFzaXplLmgpIHJldHVybjsKICAgIGNvbnN0IHogPSBNYXRoLm1heChzaXplLncgLyB3b3JsZFdpZHRoLCBzaXplLmggLyB3b3JsZEhlaWdodCk7CiAgICB0d2VlblRvKHsgeiwgeDogKHNpemUudyAtIHdvcmxkV2lkdGggKiB6KSAvIDIsIHk6IChzaXplLmggLSB3b3JsZEhlaWdodCAqIHopIC8gMiB9KTsKICB9LCBbc2l6ZS53LCBzaXplLmgsIHdvcmxkV2lkdGgsIHdvcmxkSGVpZ2h0LCB0d2VlblRvXSk7CgogIGNvbnN0IGluaXRlZCA9IHVzZVJlZihmYWxzZSk7CiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmICghc2l6ZS53IHx8ICFzaXplLmgpIHJldHVybjsKICAgIGlmIChpbml0ZWQuY3VycmVudCkgewogICAgICBzZXRPZmZzZXQoKG8pID0+IGNsYW1wT2Zmc2V0KG8sIHpvb20pKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgaW5pdGVkLmN1cnJlbnQgPSB0cnVlOwogICAgY29uc3Qgc2F2ZWQgPSByZWFkU2F2ZWQoc3RvcmFnZUtleSk7CiAgICBpZiAoc2F2ZWQgJiYgcmVzdG9yZShzYXZlZCkpIHJldHVybjsKICAgIHJlc2V0KCk7CiAgfSwgW3NpemUudywgc2l6ZS5oLCByZXNldCwgcmVzdG9yZSwgY2xhbXBPZmZzZXQsIHpvb20sIHN0b3JhZ2VLZXldKTsKCiAgLy8gUGVyc2lzdCB0aGUgY3VycmVudCB2aWV3IChkZWJvdW5jZWQpIHNvIHJldmlzaXRzIHJlc3VtZSB3aGVyZSB5b3UgbGVmdCBvZmYuCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmICghc3RvcmFnZUtleSB8fCAhaW5pdGVkLmN1cnJlbnQgfHwgIXNpemUudyB8fCAhc2l6ZS5oIHx8ICF6b29tKSByZXR1cm47CiAgICBjb25zdCB0ID0gd2luZG93LnNldFRpbWVvdXQoKCkgPT4gewogICAgICBjb25zdCBmID0gTWF0aC5tYXgoc2l6ZS53IC8gd29ybGRXaWR0aCwgc2l6ZS5oIC8gd29ybGRIZWlnaHQpOwogICAgICB0cnkgewogICAgICAgIHdpbmRvdy5sb2NhbFN0b3JhZ2Uuc2V0SXRlbSgKICAgICAgICAgIHN0b3JhZ2VLZXksCiAgICAgICAgICBKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgICAgIGY6IHpvb20gLyBmLAogICAgICAgICAgICBjeDogKHNpemUudyAvIDIgLSBvZmZzZXQueCkgLyB6b29tLAogICAgICAgICAgICBjeTogKHNpemUuaCAvIDIgLSBvZmZzZXQueSkgLyB6b29tLAogICAgICAgICAgfSBzYXRpc2ZpZXMgU2F2ZWRWaWV3KSwKICAgICAgICApOwogICAgICB9IGNhdGNoIHsKICAgICAgICAvKiBzdG9yYWdlIGZ1bGwgb3IgYmxvY2tlZCAqLwogICAgICB9CiAgICB9LCAyNTApOwogICAgcmV0dXJuICgpID0+IHdpbmRvdy5jbGVhclRpbWVvdXQodCk7CiAgfSwgW3N0b3JhZ2VLZXksIHpvb20sIG9mZnNldC54LCBvZmZzZXQueSwgc2l6ZS53LCBzaXplLmgsIHdvcmxkV2lkdGgsIHdvcmxkSGVpZ2h0XSk7CgogIC8qKiBab29tIHRvIGBuZXh0YCwga2VlcGluZyB0aGUgcG9pbnQgKHB4LCBweSkgaW4gdmlld3BvcnQgc3BhY2Ugc3RpbGwuICovCiAgY29uc3Qgem9vbVRvID0gdXNlQ2FsbGJhY2soCiAgICAobmV4dDogbnVtYmVyLCBweDogbnVtYmVyLCBweTogbnVtYmVyKSA9PiB7CiAgICAgIHNldFpvb20oKHopID0+IHsKICAgICAgICBjb25zdCB0YXJnZXQgPSBjbGFtcChuZXh0LCBtaW5ab29tLCBtYXhab29tKTsKICAgICAgICBjb25zdCBrID0gdGFyZ2V0IC8gejsKICAgICAgICBzZXRPZmZzZXQoKG8pID0+IGNsYW1wT2Zmc2V0KHsgeDogcHggLSAocHggLSBvLngpICogaywgeTogcHkgLSAocHkgLSBvLnkpICogayB9LCB0YXJnZXQpKTsKICAgICAgICByZXR1cm4gdGFyZ2V0OwogICAgICB9KTsKICAgIH0sCiAgICBbY2xhbXBPZmZzZXQsIG1pblpvb20sIG1heFpvb21dLAogICk7CgogIGNvbnN0IHpvb21SZWYgPSB1c2VSZWYoem9vbSk7CiAgem9vbVJlZi5jdXJyZW50ID0gem9vbTsKICBjb25zdCB6b29tVG9SZWYgPSB1c2VSZWYoem9vbVRvKTsKICB6b29tVG9SZWYuY3VycmVudCA9IHpvb21UbzsKCiAgLy8gTmF0aXZlIG5vbi1wYXNzaXZlIHdoZWVsIGxpc3RlbmVyIChSZWFjdCdzIG9uV2hlZWwgaXMgcGFzc2l2ZSkuCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnN0IGVsID0gaG9zdFJlZi5jdXJyZW50OwogICAgaWYgKCFlbCkgcmV0dXJuOwogICAgY29uc3Qgb25XaGVlbCA9IChlOiBXaGVlbEV2ZW50KSA9PiB7CiAgICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgICAgY2FuY2VsQW5pbSgpOwogICAgICBjb25zdCBkeSA9IGUuZGVsdGFZICogKGUuZGVsdGFNb2RlID09PSAxID8gMTYgOiBlLmRlbHRhTW9kZSA9PT0gMiA/IDEwMCA6IDEpOwogICAgICBjb25zdCByZWN0ID0gZWwuZ2V0Qm91bmRpbmdDbGllbnRSZWN0KCk7CiAgICAgIHpvb21Ub1JlZi5jdXJyZW50KAogICAgICAgIHpvb21SZWYuY3VycmVudCAqIE1hdGguZXhwKC1keSAqIDAuMDAxOCksCiAgICAgICAgZS5jbGllbnRYIC0gcmVjdC5sZWZ0LAogICAgICAgIGUuY2xpZW50WSAtIHJlY3QudG9wLAogICAgICApOwogICAgfTsKICAgIGVsLmFkZEV2ZW50TGlzdGVuZXIoIndoZWVsIiwgb25XaGVlbCwgeyBwYXNzaXZlOiBmYWxzZSB9KTsKICAgIHJldHVybiAoKSA9PiBlbC5yZW1vdmVFdmVudExpc3RlbmVyKCJ3aGVlbCIsIG9uV2hlZWwpOwogIH0sIFtdKTsKCiAgLy8gUG9pbnRlciBkcmFnICsgdHdvLWZpbmdlciBwaW5jaC4KICBjb25zdCBwb2ludGVycyA9IHVzZVJlZihuZXcgTWFwPG51bWJlciwgeyB4OiBudW1iZXI7IHk6IG51bWJlciB9PigpKTsKICBjb25zdCBwaW5jaCA9IHVzZVJlZjx7IGRpc3Q6IG51bWJlcjsgY3g6IG51bWJlcjsgY3k6IG51bWJlciB9IHwgbnVsbD4obnVsbCk7CgogIGNvbnN0IGxvY2FsID0gKGU6IFJlYWN0LlBvaW50ZXJFdmVudCkgPT4gewogICAgY29uc3QgcmVjdCA9IGhvc3RSZWYuY3VycmVudD8uZ2V0Qm91bmRpbmdDbGllbnRSZWN0KCk7CiAgICByZXR1cm4geyB4OiBlLmNsaWVudFggLSAocmVjdD8ubGVmdCA/PyAwKSwgeTogZS5jbGllbnRZIC0gKHJlY3Q/LnRvcCA/PyAwKSB9OwogIH07CgogIC8qKiBEaXN0YW5jZSB0cmF2ZWxsZWQgc2luY2UgcG9pbnRlci1kb3duLCB1c2VkIHRvIHN3YWxsb3cgZHJhZy1jbGlja3MuICovCiAgY29uc3QgbW92ZWQgPSB1c2VSZWYoMCk7CgogIGNvbnN0IG9uUG9pbnRlckRvd24gPSAoZTogUmVhY3QuUG9pbnRlckV2ZW50KSA9PiB7CiAgICBpZiAoZS5wb2ludGVyVHlwZSA9PT0gIm1vdXNlIiAmJiBlLmJ1dHRvbiAhPT0gMCkgcmV0dXJuOwogICAgY2FuY2VsQW5pbSgpOwogICAgbW92ZWQuY3VycmVudCA9IDA7CiAgICBwb2ludGVycy5jdXJyZW50LnNldChlLnBvaW50ZXJJZCwgbG9jYWwoZSkpOwogICAgaWYgKHBvaW50ZXJzLmN1cnJlbnQuc2l6ZSA9PT0gMSkgc2V0RHJhZ2dpbmcodHJ1ZSk7CiAgICBpZiAocG9pbnRlcnMuY3VycmVudC5zaXplID09PSAyKSB7CiAgICAgIGNvbnN0IFthLCBiXSA9IFsuLi5wb2ludGVycy5jdXJyZW50LnZhbHVlcygpXTsKICAgICAgaWYgKGEgJiYgYikgewogICAgICAgIHBpbmNoLmN1cnJlbnQgPSB7CiAgICAgICAgICBkaXN0OiBNYXRoLmh5cG90KGEueCAtIGIueCwgYS55IC0gYi55KSwKICAgICAgICAgIGN4OiAoYS54ICsgYi54KSAvIDIsCiAgICAgICAgICBjeTogKGEueSArIGIueSkgLyAyLAogICAgICAgIH07CiAgICAgIH0KICAgICAgc2V0RHJhZ2dpbmcoZmFsc2UpOwogICAgfQogICAgKGUuY3VycmVudFRhcmdldCBhcyBIVE1MRWxlbWVudCkuc2V0UG9pbnRlckNhcHR1cmUoZS5wb2ludGVySWQpOwogIH07CgogIGNvbnN0IG9uUG9pbnRlck1vdmUgPSAoZTogUmVhY3QuUG9pbnRlckV2ZW50KSA9PiB7CiAgICBjb25zdCBwcmV2ID0gcG9pbnRlcnMuY3VycmVudC5nZXQoZS5wb2ludGVySWQpOwogICAgaWYgKCFwcmV2KSByZXR1cm47CiAgICBjb25zdCBub3cgPSBsb2NhbChlKTsKICAgIHBvaW50ZXJzLmN1cnJlbnQuc2V0KGUucG9pbnRlcklkLCBub3cpOwoKICAgIGlmIChwb2ludGVycy5jdXJyZW50LnNpemUgPj0gMiAmJiBwaW5jaC5jdXJyZW50KSB7CiAgICAgIGNvbnN0IFthLCBiXSA9IFsuLi5wb2ludGVycy5jdXJyZW50LnZhbHVlcygpXTsKICAgICAgaWYgKCFhIHx8ICFiKSByZXR1cm47CiAgICAgIGNvbnN0IGRpc3QgPSBNYXRoLmh5cG90KGEueCAtIGIueCwgYS55IC0gYi55KTsKICAgICAgY29uc3QgY3ggPSAoYS54ICsgYi54KSAvIDI7CiAgICAgIGNvbnN0IGN5ID0gKGEueSArIGIueSkgLyAyOwogICAgICBpZiAocGluY2guY3VycmVudC5kaXN0ID4gMCkgem9vbVRvKHpvb20gKiAoZGlzdCAvIHBpbmNoLmN1cnJlbnQuZGlzdCksIGN4LCBjeSk7CiAgICAgIHBpbmNoLmN1cnJlbnQgPSB7IGRpc3QsIGN4LCBjeSB9OwogICAgICByZXR1cm47CiAgICB9CgogICAgaWYgKCFkcmFnZ2luZykgcmV0dXJuOwogICAgY29uc3QgZHggPSBub3cueCAtIHByZXYueDsKICAgIGNvbnN0IGR5ID0gbm93LnkgLSBwcmV2Lnk7CiAgICBtb3ZlZC5jdXJyZW50ICs9IE1hdGguYWJzKGR4KSArIE1hdGguYWJzKGR5KTsKICAgIGlmIChkeCB8fCBkeSkgc2V0T2Zmc2V0KChvKSA9PiBjbGFtcE9mZnNldCh7IHg6IG8ueCArIGR4LCB5OiBvLnkgKyBkeSB9LCB6b29tKSk7CiAgfTsKCiAgY29uc3QgZW5kUG9pbnRlciA9IChlOiBSZWFjdC5Qb2ludGVyRXZlbnQpID0+IHsKICAgIHBvaW50ZXJzLmN1cnJlbnQuZGVsZXRlKGUucG9pbnRlcklkKTsKICAgIGlmIChwb2ludGVycy5jdXJyZW50LnNpemUgPCAyKSBwaW5jaC5jdXJyZW50ID0gbnVsbDsKICAgIGlmIChwb2ludGVycy5jdXJyZW50LnNpemUgPT09IDApIHNldERyYWdnaW5nKGZhbHNlKTsKICB9OwoKICBjb25zdCB6b29tQnV0dG9uID0gKGZhY3RvcjogbnVtYmVyKSA9PiB6b29tVG8oem9vbSAqIGZhY3Rvciwgc2l6ZS53IC8gMiwgc2l6ZS5oIC8gMik7CgogIHJldHVybiAoCiAgICA8ZGl2CiAgICAgIHJlZj17aG9zdFJlZn0KICAgICAgY2xhc3NOYW1lPXtgcmVsYXRpdmUgb3ZlcmZsb3ctaGlkZGVuICR7ZHJhZ2dpbmcgPyAiY3Vyc29yLWdyYWJiaW5nIiA6ICJjdXJzb3ItZ3JhYiJ9ICR7Y2xhc3NOYW1lfWB9CiAgICAgIHN0eWxlPXt7IHRvdWNoQWN0aW9uOiAibm9uZSIsIG92ZXJzY3JvbGxCZWhhdmlvcjogImNvbnRhaW4iLCAuLi5zdHlsZSB9fQogICAgICBvblBvaW50ZXJEb3duPXtvblBvaW50ZXJEb3dufQogICAgICBvbkNsaWNrQ2FwdHVyZT17KGUpID0+IHsKICAgICAgICBpZiAobW92ZWQuY3VycmVudCA+IDgpIHsKICAgICAgICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgICAgICAgIGUuc3RvcFByb3BhZ2F0aW9uKCk7CiAgICAgICAgfQogICAgICB9fQogICAgICBvblBvaW50ZXJNb3ZlPXtvblBvaW50ZXJNb3ZlfQogICAgICBvblBvaW50ZXJVcD17ZW5kUG9pbnRlcn0KICAgICAgb25Qb2ludGVyQ2FuY2VsPXtlbmRQb2ludGVyfQogICAgICBvblBvaW50ZXJMZWF2ZT17ZW5kUG9pbnRlcn0KICAgICAgZGF0YS1uby1zd2lwZQogICAgPgogICAgICA8ZGl2CiAgICAgICAgc3R5bGU9e3sKICAgICAgICAgIHdpZHRoOiB3b3JsZFdpZHRoLAogICAgICAgICAgaGVpZ2h0OiB3b3JsZEhlaWdodCwKICAgICAgICAgIHRyYW5zZm9ybU9yaWdpbjogIjAgMCIsCiAgICAgICAgICB0cmFuc2Zvcm06IGB0cmFuc2xhdGUzZCgke29mZnNldC54fXB4LCAke29mZnNldC55fXB4LCAwKSBzY2FsZSgke3pvb219KWAsCiAgICAgICAgICB3aWxsQ2hhbmdlOiAidHJhbnNmb3JtIiwKICAgICAgICB9fQogICAgICA+CiAgICAgICAge2NoaWxkcmVufQogICAgICA8L2Rpdj4KCiAgICAgIHtzaG93Q29udHJvbHMgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBib3R0b20tMyByaWdodC0zIHotMjAgZmxleCBmbGV4LWNvbCBnYXAtMSI+CiAgICAgICAgICB7WwogICAgICAgICAgICB7IGljb246IFBsdXMsIGxhYmVsOiAiWm9vbSBpbiIsIGFjdGlvbjogKCkgPT4gem9vbUJ1dHRvbigxLjM1KSB9LAogICAgICAgICAgICB7IGljb246IE1pbnVzLCBsYWJlbDogIlpvb20gb3V0IiwgYWN0aW9uOiAoKSA9PiB6b29tQnV0dG9uKDEgLyAxLjM1KSB9LAogICAgICAgICAgICB7IGljb246IEZyYW1lLCBsYWJlbDogIkZpdCB0byB2aWV3IiwgYWN0aW9uOiBmaXRWaWV3IH0sCiAgICAgICAgICAgIHsgaWNvbjogTWF4aW1pemUyLCBsYWJlbDogIlJlc2V0IHZpZXciLCBhY3Rpb246IHJlc2V0QW5pbWF0ZWQgfSwKICAgICAgICAgIF0ubWFwKCh7IGljb246IEljb24sIGxhYmVsLCBhY3Rpb24gfSkgPT4gKAogICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAga2V5PXtsYWJlbH0KICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgYXJpYS1sYWJlbD17bGFiZWx9CiAgICAgICAgICAgICAgdGl0bGU9e2xhYmVsfQogICAgICAgICAgICAgIG9uUG9pbnRlckRvd249eyhlKSA9PiBlLnN0b3BQcm9wYWdhdGlvbigpfQogICAgICAgICAgICAgIG9uQ2xpY2s9e2FjdGlvbn0KICAgICAgICAgICAgICBjbGFzc05hbWU9ImdyaWQgaC05IHctOSBwbGFjZS1pdGVtcy1jZW50ZXIgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLXdoaXRlLzI1IGJnLXNsYXRlLTk1MC83MCB0ZXh0LXNsYXRlLTEwMCBiYWNrZHJvcC1ibHVyIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLXNsYXRlLTk1MC85MCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxJY29uIGNsYXNzTmFtZT0iaC00IHctNCIgLz4KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICApKX0KICAgICAgICA8L2Rpdj4KICAgICAgKX0KICAgIDwvZGl2PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBQYW5ab29tOwo=
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+  type CSSProperties,
+  type ReactNode,
+} from "react";
+import { Minus, Plus, Maximize2, Frame } from "lucide-react";
+import { motionAllowed } from "@/lib/motion";
+
+interface Props {
+  /** Intrinsic size of the world being displayed. */
+  worldWidth: number;
+  worldHeight: number;
+  children: ReactNode;
+  className?: string;
+  style?: CSSProperties;
+  /** Extra zoom allowed beyond the fitted scale. */
+  maxScaleFactor?: number;
+  minScaleFactor?: number;
+  /** When set, pan/zoom is remembered in localStorage under this key. */
+  storageKey?: string;
+  /** Show the zoom/fit/reset control cluster (bottom-right). Default true. */
+  showControls?: boolean;
+}
+
+interface SavedView {
+  /** zoom expressed as a multiple of the fitted scale, so it survives resizes */
+  f: number;
+  /** world-space point shown at the centre of the viewport */
+  cx: number;
+  cy: number;
+}
+
+const readSaved = (key?: string): SavedView | null => {
+  if (!key || typeof window === "undefined") return null;
+  try {
+    const raw = window.localStorage.getItem(key);
+    if (!raw) return null;
+    const v = JSON.parse(raw) as SavedView;
+    if ([v?.f, v?.cx, v?.cy].every((n) => typeof n === "number" && Number.isFinite(n))) return v;
+  } catch {
+    /* ignore unreadable storage */
+  }
+  return null;
+};
+
+const clamp = (v: number, min: number, max: number) => Math.min(max, Math.max(min, v));
+
+/**
+ * Wheel / pinch zoom + drag pan viewport for a fixed-size world.
+ * The world always covers the viewport, so you can never pan into empty space.
+ */
+const PanZoom = ({
+  worldWidth,
+  worldHeight,
+  children,
+  className = "",
+  style,
+  maxScaleFactor = 4,
+  minScaleFactor = 1,
+  storageKey,
+  showControls = true,
+}: Props) => {
+  const hostRef = useRef<HTMLDivElement | null>(null);
+  const [size, setSize] = useState({ w: 0, h: 0 });
+  const [zoom, setZoom] = useState(1);
+  const [offset, setOffset] = useState({ x: 0, y: 0 });
+  const [dragging, setDragging] = useState(false);
+
+  // Scale at which the world exactly covers the viewport.
+  const fit = size.w && size.h ? Math.max(size.w / worldWidth, size.h / worldHeight) : 1;
+  const minZoom = fit * minScaleFactor;
+  const maxZoom = fit * maxScaleFactor;
+
+  const clampOffset = useCallback(
+    (o: { x: number; y: number }, z: number) => {
+      const w = worldWidth * z;
+      const h = worldHeight * z;
+      return {
+        x: clamp(o.x, Math.min(0, size.w - w), Math.max(0, size.w - w)),
+        y: clamp(o.y, Math.min(0, size.h - h), Math.max(0, size.h - h)),
+      };
+    },
+    [size.w, size.h, worldWidth, worldHeight],
+  );
+
+  // Track viewport size.
+  useLayoutEffect(() => {
+    const el = hostRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver(([entry]) => {
+      const r = entry?.contentRect;
+      if (r) setSize({ w: r.width, h: r.height });
+    });
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
+  const restore = useCallback(
+    (v: SavedView) => {
+      if (!size.w || !size.h) return false;
+      const f = Math.max(size.w / worldWidth, size.h / worldHeight);
+      const z = clamp(f * v.f, f * minScaleFactor, f * maxScaleFactor);
+      setZoom(z);
+      setOffset(clampOffset({ x: size.w / 2 - v.cx * z, y: size.h / 2 - v.cy * z }, z));
+      return true;
+    },
+    [size.w, size.h, worldWidth, worldHeight, clampOffset, minScaleFactor, maxScaleFactor],
+  );
+
+  const reset = useCallback(() => {
+    if (!size.w || !size.h) return;
+    const z = Math.max(size.w / worldWidth, size.h / worldHeight);
+    setZoom(z);
+    // Start centred horizontally, anchored to the ground at the bottom.
+    setOffset(clampOffset({ x: (size.w - worldWidth * z) / 2, y: size.h - worldHeight * z }, z));
+    if (storageKey) {
+      try {
+        window.localStorage.removeItem(storageKey);
+      } catch {
+        /* ignore */
+      }
+    }
+  }, [size.w, size.h, worldWidth, worldHeight, clampOffset, storageKey]);
+
+  // --- Smooth pan/zoom tween for the "Fit to view" / "Reset view" buttons ---
+  const rafRef = useRef<number | null>(null);
+  const offsetRef = useRef(offset);
+  offsetRef.current = offset;
+
+  const cancelAnim = useCallback(() => {
+    if (rafRef.current != null) {
+      cancelAnimationFrame(rafRef.current);
+      rafRef.current = null;
+    }
+  }, []);
+
+  /** Animate the viewport to `target` (zoom + offset) over ~450ms with ease-out. */
+  const tweenTo = useCallback(
+    (target: { z: number; x: number; y: number }, duration = 450) => {
+      if (!size.w || !size.h) return;
+      // Respect the global motion preference: jump instantly when motion is off.
+      if (!motionAllowed()) {
+        setZoom(target.z);
+        setOffset(clampOffset({ x: target.x, y: target.y }, target.z));
+        return;
+      }
+      const startZ = zoomRef.current;
+      const start = offsetRef.current;
+      const dz = target.z - startZ;
+      const dx = target.x - start.x;
+      const dy = target.y - start.y;
+      if (rafRef.current != null) cancelAnimationFrame(rafRef.current);
+      const ease = (t: number) => 1 - Math.pow(1 - t, 3); // easeOutCubic
+      const t0 = performance.now();
+      const step = (now: number) => {
+        const t = Math.min(1, (now - t0) / duration);
+        const e = ease(t);
+        const z = startZ + dz * e;
+        setOffset(clampOffset({ x: start.x + dx * e, y: start.y + dy * e }, z));
+        setZoom(z);
+        if (t < 1) {
+          rafRef.current = requestAnimationFrame(step);
+        } else {
+          rafRef.current = null;
+        }
+      };
+      rafRef.current = requestAnimationFrame(step);
+    },
+    [size.w, size.h, clampOffset],
+  );
+
+  /** Animated version of `reset` for the toolbar button (keeps init instant). */
+  const resetAnimated = useCallback(() => {
+    if (!size.w || !size.h) return;
+    const z = Math.max(size.w / worldWidth, size.h / worldHeight);
+    tweenTo({ z, x: (size.w - worldWidth * z) / 2, y: size.h - worldHeight * z });
+    if (storageKey) {
+      try {
+        window.localStorage.removeItem(storageKey);
+      } catch {
+        /* ignore */
+      }
+    }
+  }, [size.w, size.h, worldWidth, worldHeight, tweenTo, storageKey]);
+
+  /** Fit the entire world inside the viewport, centred on both axes. */
+  const fitView = useCallback(() => {
+    if (!size.w || !size.h) return;
+    const z = Math.max(size.w / worldWidth, size.h / worldHeight);
+    tweenTo({ z, x: (size.w - worldWidth * z) / 2, y: (size.h - worldHeight * z) / 2 });
+  }, [size.w, size.h, worldWidth, worldHeight, tweenTo]);
+
+  const inited = useRef(false);
+  useEffect(() => {
+    if (!size.w || !size.h) return;
+    if (inited.current) {
+      setOffset((o) => clampOffset(o, zoom));
+      return;
+    }
+    inited.current = true;
+    const saved = readSaved(storageKey);
+    if (saved && restore(saved)) return;
+    reset();
+  }, [size.w, size.h, reset, restore, clampOffset, zoom, storageKey]);
+
+  // Persist the current view (debounced) so revisits resume where you left off.
+  useEffect(() => {
+    if (!storageKey || !inited.current || !size.w || !size.h || !zoom) return;
+    const t = window.setTimeout(() => {
+      const f = Math.max(size.w / worldWidth, size.h / worldHeight);
+      try {
+        window.localStorage.setItem(
+          storageKey,
+          JSON.stringify({
+            f: zoom / f,
+            cx: (size.w / 2 - offset.x) / zoom,
+            cy: (size.h / 2 - offset.y) / zoom,
+          } satisfies SavedView),
+        );
+      } catch {
+        /* storage full or blocked */
+      }
+    }, 250);
+    return () => window.clearTimeout(t);
+  }, [storageKey, zoom, offset.x, offset.y, size.w, size.h, worldWidth, worldHeight]);
+
+  /** Zoom to `next`, keeping the point (px, py) in viewport space still. */
+  const zoomTo = useCallback(
+    (next: number, px: number, py: number) => {
+      setZoom((z) => {
+        const target = clamp(next, minZoom, maxZoom);
+        const k = target / z;
+        setOffset((o) => clampOffset({ x: px - (px - o.x) * k, y: py - (py - o.y) * k }, target));
+        return target;
+      });
+    },
+    [clampOffset, minZoom, maxZoom],
+  );
+
+  const zoomRef = useRef(zoom);
+  zoomRef.current = zoom;
+  const zoomToRef = useRef(zoomTo);
+  zoomToRef.current = zoomTo;
+
+  // Native non-passive wheel listener (React's onWheel is passive).
+  useEffect(() => {
+    const el = hostRef.current;
+    if (!el) return;
+    const onWheel = (e: WheelEvent) => {
+      e.preventDefault();
+      cancelAnim();
+      const dy = e.deltaY * (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? 100 : 1);
+      const rect = el.getBoundingClientRect();
+      zoomToRef.current(
+        zoomRef.current * Math.exp(-dy * 0.0018),
+        e.clientX - rect.left,
+        e.clientY - rect.top,
+      );
+    };
+    el.addEventListener("wheel", onWheel, { passive: false });
+    return () => el.removeEventListener("wheel", onWheel);
+  }, []);
+
+  // Pointer drag + two-finger pinch.
+  const pointers = useRef(new Map<number, { x: number; y: number }>());
+  const pinch = useRef<{ dist: number; cx: number; cy: number } | null>(null);
+
+  const local = (e: React.PointerEvent) => {
+    const rect = hostRef.current?.getBoundingClientRect();
+    return { x: e.clientX - (rect?.left ?? 0), y: e.clientY - (rect?.top ?? 0) };
+  };
+
+  /** Distance travelled since pointer-down, used to swallow drag-clicks. */
+  const moved = useRef(0);
+
+  const onPointerDown = (e: React.PointerEvent) => {
+    if (e.pointerType === "mouse" && e.button !== 0) return;
+    cancelAnim();
+    moved.current = 0;
+    pointers.current.set(e.pointerId, local(e));
+    if (pointers.current.size === 1) setDragging(true);
+    if (pointers.current.size === 2) {
+      const [a, b] = [...pointers.current.values()];
+      if (a && b) {
+        pinch.current = {
+          dist: Math.hypot(a.x - b.x, a.y - b.y),
+          cx: (a.x + b.x) / 2,
+          cy: (a.y + b.y) / 2,
+        };
+      }
+      setDragging(false);
+    }
+    (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
+  };
+
+  const onPointerMove = (e: React.PointerEvent) => {
+    const prev = pointers.current.get(e.pointerId);
+    if (!prev) return;
+    const now = local(e);
+    pointers.current.set(e.pointerId, now);
+
+    if (pointers.current.size >= 2 && pinch.current) {
+      const [a, b] = [...pointers.current.values()];
+      if (!a || !b) return;
+      const dist = Math.hypot(a.x - b.x, a.y - b.y);
+      const cx = (a.x + b.x) / 2;
+      const cy = (a.y + b.y) / 2;
+      if (pinch.current.dist > 0) zoomTo(zoom * (dist / pinch.current.dist), cx, cy);
+      pinch.current = { dist, cx, cy };
+      return;
+    }
+
+    if (!dragging) return;
+    const dx = now.x - prev.x;
+    const dy = now.y - prev.y;
+    moved.current += Math.abs(dx) + Math.abs(dy);
+    if (dx || dy) setOffset((o) => clampOffset({ x: o.x + dx, y: o.y + dy }, zoom));
+  };
+
+  const endPointer = (e: React.PointerEvent) => {
+    pointers.current.delete(e.pointerId);
+    if (pointers.current.size < 2) pinch.current = null;
+    if (pointers.current.size === 0) setDragging(false);
+  };
+
+  const zoomButton = (factor: number) => zoomTo(zoom * factor, size.w / 2, size.h / 2);
+
+  return (
+    <div
+      ref={hostRef}
+      className={`relative overflow-hidden ${dragging ? "cursor-grabbing" : "cursor-grab"} ${className}`}
+      style={{ touchAction: "none", overscrollBehavior: "contain", ...style }}
+      onPointerDown={onPointerDown}
+      onClickCapture={(e) => {
+        if (moved.current > 8) {
+          e.preventDefault();
+          e.stopPropagation();
+        }
+      }}
+      onPointerMove={onPointerMove}
+      onPointerUp={endPointer}
+      onPointerCancel={endPointer}
+      onPointerLeave={endPointer}
+      data-no-swipe
+    >
+      <div
+        style={{
+          width: worldWidth,
+          height: worldHeight,
+          transformOrigin: "0 0",
+          transform: `translate3d(${offset.x}px, ${offset.y}px, 0) scale(${zoom})`,
+          willChange: "transform",
+        }}
+      >
+        {children}
+      </div>
+
+      {showControls && (
+        <div className="absolute bottom-3 right-3 z-20 flex flex-col gap-1">
+          {[
+            { icon: Plus, label: "Zoom in", action: () => zoomButton(1.35) },
+            { icon: Minus, label: "Zoom out", action: () => zoomButton(1 / 1.35) },
+            { icon: Frame, label: "Fit to view", action: fitView },
+            { icon: Maximize2, label: "Reset view", action: resetAnimated },
+          ].map(({ icon: Icon, label, action }) => (
+            <button
+              key={label}
+              type="button"
+              aria-label={label}
+              title={label}
+              onPointerDown={(e) => e.stopPropagation()}
+              onClick={action}
+              className="grid h-9 w-9 place-items-center rounded-lg border border-white/25 bg-slate-950/70 text-slate-100 backdrop-blur transition-colors hover:bg-slate-950/90"
+            >
+              <Icon className="h-4 w-4" />
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default PanZoom;

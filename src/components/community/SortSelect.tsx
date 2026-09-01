@@ -1,1 +1,42 @@
-aW1wb3J0IHsgQXJyb3dEb3duV2lkZU5hcnJvdyB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7CiAgU2VsZWN0LAogIFNlbGVjdENvbnRlbnQsCiAgU2VsZWN0SXRlbSwKICBTZWxlY3RUcmlnZ2VyLAogIFNlbGVjdFZhbHVlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9zZWxlY3QiOwoKZXhwb3J0IGludGVyZmFjZSBTb3J0T3B0aW9uIHsKICB2YWx1ZTogc3RyaW5nOwogIGxhYmVsOiBzdHJpbmc7Cn0KCmludGVyZmFjZSBQcm9wcyB7CiAgdmFsdWU6IHN0cmluZzsKICBvbkNoYW5nZTogKHY6IHN0cmluZykgPT4gdm9pZDsKICBvcHRpb25zOiBTb3J0T3B0aW9uW107CiAgbGFiZWw/OiBzdHJpbmc7CiAgY2xhc3NOYW1lPzogc3RyaW5nOwp9CgovKiogQ29tcGFjdCBzb3J0IHBpY2tlciB1c2VkIGFjcm9zcyBhc2NlbnQgLyBwbGFjZSAvIGxpc3Qgdmlld3MuICovCmNvbnN0IFNvcnRTZWxlY3QgPSAoeyB2YWx1ZSwgb25DaGFuZ2UsIG9wdGlvbnMsIGxhYmVsID0gIlNvcnQiLCBjbGFzc05hbWUgfTogUHJvcHMpID0+ICgKICA8ZGl2IGNsYXNzTmFtZT17Y2xhc3NOYW1lfT4KICAgIDxTZWxlY3QgdmFsdWU9e3ZhbHVlfSBvblZhbHVlQ2hhbmdlPXtvbkNoYW5nZX0+CiAgICAgIDxTZWxlY3RUcmlnZ2VyIGNsYXNzTmFtZT0iaC04IHctWzE3MHB4XSB0ZXh0LXhzIiBhcmlhLWxhYmVsPXtsYWJlbH0+CiAgICAgICAgPEFycm93RG93bldpZGVOYXJyb3cgY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSBtci0xIHNocmluay0wIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz4KICAgICAgICA8U2VsZWN0VmFsdWUgcGxhY2Vob2xkZXI9e2xhYmVsfSAvPgogICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgIHtvcHRpb25zLm1hcCgobykgPT4gKAogICAgICAgICAgPFNlbGVjdEl0ZW0ga2V5PXtvLnZhbHVlfSB2YWx1ZT17by52YWx1ZX0gY2xhc3NOYW1lPSJ0ZXh0LXhzIj4KICAgICAgICAgICAge28ubGFiZWx9CiAgICAgICAgICA8L1NlbGVjdEl0ZW0+CiAgICAgICAgKSl9CiAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgIDwvU2VsZWN0PgogIDwvZGl2PgopOwoKZXhwb3J0IGRlZmF1bHQgU29ydFNlbGVjdDsK
+import { ArrowDownWideNarrow } from "lucide-react";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+
+export interface SortOption {
+  value: string;
+  label: string;
+}
+
+interface Props {
+  value: string;
+  onChange: (v: string) => void;
+  options: SortOption[];
+  label?: string;
+  className?: string;
+}
+
+/** Compact sort picker used across ascent / place / list views. */
+const SortSelect = ({ value, onChange, options, label = "Sort", className }: Props) => (
+  <div className={className}>
+    <Select value={value} onValueChange={onChange}>
+      <SelectTrigger className="h-8 w-[170px] text-xs" aria-label={label}>
+        <ArrowDownWideNarrow className="w-3.5 h-3.5 mr-1 shrink-0 text-muted-foreground" />
+        <SelectValue placeholder={label} />
+      </SelectTrigger>
+      <SelectContent>
+        {options.map((o) => (
+          <SelectItem key={o.value} value={o.value} className="text-xs">
+            {o.label}
+          </SelectItem>
+        ))}
+      </SelectContent>
+    </Select>
+  </div>
+);
+
+export default SortSelect;

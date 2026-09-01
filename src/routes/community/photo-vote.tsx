@@ -1,1 +1,23 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBQaG90b1ZvdGVQYWdlIGZyb20gIkAvcGFnZXMvY29tbXVuaXR5L1Bob3RvVm90ZVBhZ2UiOwoKZXhwb3J0IGNvbnN0IFJvdXRlID0gY3JlYXRlRmlsZVJvdXRlKCIvY29tbXVuaXR5L3Bob3RvLXZvdGUiKSh7CiAgaGVhZDogKCkgPT4gKHsKICAgIG1ldGE6IFsKICAgICAgeyB0aXRsZTogIlN1bW1pdCBQaG90byBWb3RlIOKAlCBUaWNrbGVsaXN0IiB9LAogICAgICB7CiAgICAgICAgbmFtZTogImRlc2NyaXB0aW9uIiwKICAgICAgICBjb250ZW50OgogICAgICAgICAgIlZvdGUgb24gbWVtYmVyIHN1bW1pdCBwaG90b3MuIEVhY2ggcGVhaydzIHJvdW5kIHJ1bnMgMzAgZGF5cyBmcm9tIGl0cyBmaXJzdCB2b3RlIGFuZCB0aGUgd2lubmVyIGJlY29tZXMgdGhlIHBlYWsgcGFnZSdzIG1haW4gaW1hZ2UuIiwKICAgICAgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnRpdGxlIiwgY29udGVudDogIlN1bW1pdCBQaG90byBWb3RlIOKAlCBUaWNrbGVsaXN0IiB9LAogICAgICB7CiAgICAgICAgcHJvcGVydHk6ICJvZzpkZXNjcmlwdGlvbiIsCiAgICAgICAgY29udGVudDogIkVudGVyIHlvdXIgYmVzdCBzdW1taXQgc2hvdCBhbmQgdm90ZSBmb3IgdGhlIHBob3RvIHRoYXQgc2hvdWxkIGhlYWRsaW5lIGVhY2ggY291bnRyeSBoaWdoIHBvaW50LiIsCiAgICAgIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0eXBlIiwgY29udGVudDogIndlYnNpdGUiIH0sCiAgICAgIHsgbmFtZTogInR3aXR0ZXI6Y2FyZCIsIGNvbnRlbnQ6ICJzdW1tYXJ5X2xhcmdlX2ltYWdlIiB9LAogICAgXSwKICB9KSwKICBjb21wb25lbnQ6IFBob3RvVm90ZVBhZ2UsCn0pOwo=
+import { createFileRoute } from "@tanstack/react-router";
+import PhotoVotePage from "@/pages/community/PhotoVotePage";
+
+export const Route = createFileRoute("/community/photo-vote")({
+  head: () => ({
+    meta: [
+      { title: "Summit Photo Vote — Ticklelist" },
+      {
+        name: "description",
+        content:
+          "Vote on member summit photos. Each peak's round runs 30 days from its first vote and the winner becomes the peak page's main image.",
+      },
+      { property: "og:title", content: "Summit Photo Vote — Ticklelist" },
+      {
+        property: "og:description",
+        content: "Enter your best summit shot and vote for the photo that should headline each country high point.",
+      },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
+  component: PhotoVotePage,
+});

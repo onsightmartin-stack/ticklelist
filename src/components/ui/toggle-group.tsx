@@ -1,1 +1,49 @@
-aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAicmVhY3QiOwppbXBvcnQgKiBhcyBUb2dnbGVHcm91cFByaW1pdGl2ZSBmcm9tICJAcmFkaXgtdWkvcmVhY3QtdG9nZ2xlLWdyb3VwIjsKaW1wb3J0IHsgdHlwZSBWYXJpYW50UHJvcHMgfSBmcm9tICJjbGFzcy12YXJpYW5jZS1hdXRob3JpdHkiOwoKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyI7CmltcG9ydCB7IHRvZ2dsZVZhcmlhbnRzIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RvZ2dsZSI7Cgpjb25zdCBUb2dnbGVHcm91cENvbnRleHQgPSBSZWFjdC5jcmVhdGVDb250ZXh0PFZhcmlhbnRQcm9wczx0eXBlb2YgdG9nZ2xlVmFyaWFudHM+Pih7CiAgc2l6ZTogImRlZmF1bHQiLAogIHZhcmlhbnQ6ICJkZWZhdWx0IiwKfSk7Cgpjb25zdCBUb2dnbGVHcm91cCA9IFJlYWN0LmZvcndhcmRSZWY8CiAgUmVhY3QuRWxlbWVudFJlZjx0eXBlb2YgVG9nZ2xlR3JvdXBQcmltaXRpdmUuUm9vdD4sCiAgUmVhY3QuQ29tcG9uZW50UHJvcHNXaXRob3V0UmVmPHR5cGVvZiBUb2dnbGVHcm91cFByaW1pdGl2ZS5Sb290PiAmIFZhcmlhbnRQcm9wczx0eXBlb2YgdG9nZ2xlVmFyaWFudHM+Cj4oKHsgY2xhc3NOYW1lLCB2YXJpYW50LCBzaXplLCBjaGlsZHJlbiwgLi4ucHJvcHMgfSwgcmVmKSA9PiAoCiAgPFRvZ2dsZUdyb3VwUHJpbWl0aXZlLlJvb3QgcmVmPXtyZWZ9IGNsYXNzTmFtZT17Y24oImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0xIiwgY2xhc3NOYW1lKX0gey4uLnByb3BzfT4KICAgIDxUb2dnbGVHcm91cENvbnRleHQuUHJvdmlkZXIgdmFsdWU9e3sgdmFyaWFudCwgc2l6ZSB9fT57Y2hpbGRyZW59PC9Ub2dnbGVHcm91cENvbnRleHQuUHJvdmlkZXI+CiAgPC9Ub2dnbGVHcm91cFByaW1pdGl2ZS5Sb290PgopKTsKClRvZ2dsZUdyb3VwLmRpc3BsYXlOYW1lID0gVG9nZ2xlR3JvdXBQcmltaXRpdmUuUm9vdC5kaXNwbGF5TmFtZTsKCmNvbnN0IFRvZ2dsZUdyb3VwSXRlbSA9IFJlYWN0LmZvcndhcmRSZWY8CiAgUmVhY3QuRWxlbWVudFJlZjx0eXBlb2YgVG9nZ2xlR3JvdXBQcmltaXRpdmUuSXRlbT4sCiAgUmVhY3QuQ29tcG9uZW50UHJvcHNXaXRob3V0UmVmPHR5cGVvZiBUb2dnbGVHcm91cFByaW1pdGl2ZS5JdGVtPiAmIFZhcmlhbnRQcm9wczx0eXBlb2YgdG9nZ2xlVmFyaWFudHM+Cj4oKHsgY2xhc3NOYW1lLCBjaGlsZHJlbiwgdmFyaWFudCwgc2l6ZSwgLi4ucHJvcHMgfSwgcmVmKSA9PiB7CiAgY29uc3QgY29udGV4dCA9IFJlYWN0LnVzZUNvbnRleHQoVG9nZ2xlR3JvdXBDb250ZXh0KTsKCiAgcmV0dXJuICgKICAgIDxUb2dnbGVHcm91cFByaW1pdGl2ZS5JdGVtCiAgICAgIHJlZj17cmVmfQogICAgICBjbGFzc05hbWU9e2NuKAogICAgICAgIHRvZ2dsZVZhcmlhbnRzKHsKICAgICAgICAgIHZhcmlhbnQ6IGNvbnRleHQudmFyaWFudCB8fCB2YXJpYW50LAogICAgICAgICAgc2l6ZTogY29udGV4dC5zaXplIHx8IHNpemUsCiAgICAgICAgfSksCiAgICAgICAgY2xhc3NOYW1lLAogICAgICApfQogICAgICB7Li4ucHJvcHN9CiAgICA+CiAgICAgIHtjaGlsZHJlbn0KICAgIDwvVG9nZ2xlR3JvdXBQcmltaXRpdmUuSXRlbT4KICApOwp9KTsKClRvZ2dsZUdyb3VwSXRlbS5kaXNwbGF5TmFtZSA9IFRvZ2dsZUdyb3VwUHJpbWl0aXZlLkl0ZW0uZGlzcGxheU5hbWU7CgpleHBvcnQgeyBUb2dnbGVHcm91cCwgVG9nZ2xlR3JvdXBJdGVtIH07Cg==
+import * as React from "react";
+import * as ToggleGroupPrimitive from "@radix-ui/react-toggle-group";
+import { type VariantProps } from "class-variance-authority";
+
+import { cn } from "@/lib/utils";
+import { toggleVariants } from "@/components/ui/toggle";
+
+const ToggleGroupContext = React.createContext<VariantProps<typeof toggleVariants>>({
+  size: "default",
+  variant: "default",
+});
+
+const ToggleGroup = React.forwardRef<
+  React.ElementRef<typeof ToggleGroupPrimitive.Root>,
+  React.ComponentPropsWithoutRef<typeof ToggleGroupPrimitive.Root> & VariantProps<typeof toggleVariants>
+>(({ className, variant, size, children, ...props }, ref) => (
+  <ToggleGroupPrimitive.Root ref={ref} className={cn("flex items-center justify-center gap-1", className)} {...props}>
+    <ToggleGroupContext.Provider value={{ variant, size }}>{children}</ToggleGroupContext.Provider>
+  </ToggleGroupPrimitive.Root>
+));
+
+ToggleGroup.displayName = ToggleGroupPrimitive.Root.displayName;
+
+const ToggleGroupItem = React.forwardRef<
+  React.ElementRef<typeof ToggleGroupPrimitive.Item>,
+  React.ComponentPropsWithoutRef<typeof ToggleGroupPrimitive.Item> & VariantProps<typeof toggleVariants>
+>(({ className, children, variant, size, ...props }, ref) => {
+  const context = React.useContext(ToggleGroupContext);
+
+  return (
+    <ToggleGroupPrimitive.Item
+      ref={ref}
+      className={cn(
+        toggleVariants({
+          variant: context.variant || variant,
+          size: context.size || size,
+        }),
+        className,
+      )}
+      {...props}
+    >
+      {children}
+    </ToggleGroupPrimitive.Item>
+  );
+});
+
+ToggleGroupItem.displayName = ToggleGroupPrimitive.Item.displayName;
+
+export { ToggleGroup, ToggleGroupItem };

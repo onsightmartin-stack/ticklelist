@@ -1,1 +1,268 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgWCwgR2FtZXBhZDIgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwoKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyI7CmltcG9ydCB0eXBlIHsgQ29tbXVuaXR5UGFnZSB9IGZyb20gIkAvbGliL2NvbW11bml0eS1wYWdlcyI7CmltcG9ydCB7IHVzZUdhbWVwYWQsIHJ1bWJsZSwgdHlwZSBHYW1lcGFkQWN0aW9uIH0gZnJvbSAiQC9ob29rcy91c2VHYW1lcGFkIjsKaW1wb3J0IHsgaGFwdGljIH0gZnJvbSAiQC9saWIvaGFwdGljcyI7CgppbnRlcmZhY2UgUGFnZVN3aXRjaGVyUHJvcHMgewogIHBhZ2VzOiBDb21tdW5pdHlQYWdlW107CiAgYWN0aXZlSW5kZXg6IG51bWJlcjsKICBvcGVuOiBib29sZWFuOwogIG9uQ2xvc2U6ICgpID0+IHZvaWQ7CiAgb25QaWNrOiAocGFnZTogQ29tbXVuaXR5UGFnZSwgaW5kZXg6IG51bWJlcikgPT4gdm9pZDsKfQoKLyoqCiAqIFpvb21lZC1vdXQgaG9tZSBzY3JlZW4sIFhib3ggZGFzaGJvYXJkIHN0eWxlOiBvbmUgYmlnIGhlcm8gdGlsZSBmb3IgdGhlCiAqIGZvY3VzZWQgcGFnZSBmb2xsb3dlZCBieSBhIGhvcml6b250YWxseSBzbmFwcGluZyByYWlsIG9mIHNtYWxsZXIgdGlsZXMsCiAqIGVhY2ggYW5nbGVkIGluIDNELiBPcGVuZWQgYnkgZG91YmxlLXRhcHBpbmcgdGhlIHBhZ2UsIGNsb3NlZCBieSBwaWNraW5nIGEKICogdGlsZSAoem9vbSBpbikgb3IgdGhlIGJhY2tkcm9wLgogKi8KY29uc3QgUGFnZVN3aXRjaGVyID0gKHsgcGFnZXMsIGFjdGl2ZUluZGV4LCBvcGVuLCBvbkNsb3NlLCBvblBpY2sgfTogUGFnZVN3aXRjaGVyUHJvcHMpID0+IHsKICBjb25zdCBbZm9jdXMsIHNldEZvY3VzXSA9IHVzZVN0YXRlKE1hdGgubWF4KGFjdGl2ZUluZGV4LCAwKSk7CiAgLyoqIFdoaWNoIGJsb2NrIHRoZSBjb250cm9sbGVyL2tleWJvYXJkIGZvY3VzIGxpdmVzIGluLiAqLwogIGNvbnN0IFt6b25lLCBzZXRab25lXSA9IHVzZVN0YXRlPCJoZXJvIiB8ICJyYWlsIj4oInJhaWwiKTsKICBjb25zdCByYWlsUmVmID0gdXNlUmVmPEhUTUxEaXZFbGVtZW50IHwgbnVsbD4obnVsbCk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAob3BlbikgewogICAgICBzZXRGb2N1cyhNYXRoLm1heChhY3RpdmVJbmRleCwgMCkpOwogICAgICBzZXRab25lKCJyYWlsIik7CiAgICB9CiAgfSwgW29wZW4sIGFjdGl2ZUluZGV4XSk7CgogIGNvbnN0IG1vdmUgPSB1c2VDYWxsYmFjaygKICAgIChkZWx0YTogbnVtYmVyKSA9PiB7CiAgICAgIHNldEZvY3VzKChmKSA9PiB7CiAgICAgICAgY29uc3QgbmV4dCA9IE1hdGgubWluKE1hdGgubWF4KGYgKyBkZWx0YSwgMCksIHBhZ2VzLmxlbmd0aCAtIDEpOwogICAgICAgIGlmIChuZXh0ICE9PSBmKSB7CiAgICAgICAgICBoYXB0aWMoInRpY2siKTsKICAgICAgICAgIHJ1bWJsZSgzNSwgMC4yMik7CiAgICAgICAgfQogICAgICAgIHJldHVybiBuZXh0OwogICAgICB9KTsKICAgIH0sCiAgICBbcGFnZXMubGVuZ3RoXSwKICApOwoKICBjb25zdCBvcGVuRm9jdXNlZCA9IHVzZUNhbGxiYWNrKCgpID0+IHsKICAgIGNvbnN0IHBhZ2UgPSBwYWdlc1tmb2N1c107CiAgICBpZiAoIXBhZ2UpIHJldHVybjsKICAgIGhhcHRpYygic2VsZWN0Iik7CiAgICBydW1ibGUoODAsIDAuNSk7CiAgICBvblBpY2socGFnZSwgZm9jdXMpOwogIH0sIFtmb2N1cywgb25QaWNrLCBwYWdlc10pOwoKICAvKiogU2hhcmVkIGhhbmRsaW5nIGZvciBELXBhZC9zdGljaywgQS9CIGFuZCB0aGUgYXJyb3cga2V5cy4gKi8KICBjb25zdCBoYW5kbGVBY3Rpb24gPSB1c2VDYWxsYmFjaygKICAgIChhY3Rpb246IEdhbWVwYWRBY3Rpb24pID0+IHsKICAgICAgaWYgKGFjdGlvbiA9PT0gImxlZnQiKSBtb3ZlKC0xKTsKICAgICAgZWxzZSBpZiAoYWN0aW9uID09PSAicmlnaHQiKSBtb3ZlKDEpOwogICAgICBlbHNlIGlmIChhY3Rpb24gPT09ICJ1cCIpIHNldFpvbmUoImhlcm8iKTsKICAgICAgZWxzZSBpZiAoYWN0aW9uID09PSAiZG93biIpIHNldFpvbmUoInJhaWwiKTsKICAgICAgZWxzZSBpZiAoYWN0aW9uID09PSAiY29uZmlybSIpIG9wZW5Gb2N1c2VkKCk7CiAgICAgIGVsc2UgaWYgKGFjdGlvbiA9PT0gImJhY2siIHx8IGFjdGlvbiA9PT0gIm1lbnUiKSB7CiAgICAgICAgcnVtYmxlKDQwLCAwLjI1KTsKICAgICAgICBvbkNsb3NlKCk7CiAgICAgIH0KICAgIH0sCiAgICBbbW92ZSwgb25DbG9zZSwgb3BlbkZvY3VzZWRdLAogICk7CgogIGNvbnN0IHBhZENvbm5lY3RlZCA9IHVzZUdhbWVwYWQoeyBvbkFjdGlvbjogaGFuZGxlQWN0aW9uLCBlbmFibGVkOiBvcGVuIH0pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKCFvcGVuKSByZXR1cm47CiAgICBjb25zdCBvbktleSA9IChlOiBLZXlib2FyZEV2ZW50KSA9PiB7CiAgICAgIGlmIChlLmtleSA9PT0gIkVzY2FwZSIpIGhhbmRsZUFjdGlvbigiYmFjayIpOwogICAgICBlbHNlIGlmIChlLmtleSA9PT0gIkFycm93UmlnaHQiKSBoYW5kbGVBY3Rpb24oInJpZ2h0Iik7CiAgICAgIGVsc2UgaWYgKGUua2V5ID09PSAiQXJyb3dMZWZ0IikgaGFuZGxlQWN0aW9uKCJsZWZ0Iik7CiAgICAgIGVsc2UgaWYgKGUua2V5ID09PSAiQXJyb3dVcCIpIGhhbmRsZUFjdGlvbigidXAiKTsKICAgICAgZWxzZSBpZiAoZS5rZXkgPT09ICJBcnJvd0Rvd24iKSBoYW5kbGVBY3Rpb24oImRvd24iKTsKICAgICAgZWxzZSBpZiAoZS5rZXkgPT09ICJFbnRlciIgfHwgZS5rZXkgPT09ICIgIikgewogICAgICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgICAgICBoYW5kbGVBY3Rpb24oImNvbmZpcm0iKTsKICAgICAgfQogICAgfTsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJrZXlkb3duIiwgb25LZXkpOwogICAgY29uc3QgcHJldiA9IGRvY3VtZW50LmJvZHkuc3R5bGUub3ZlcmZsb3c7CiAgICBkb2N1bWVudC5ib2R5LnN0eWxlLm92ZXJmbG93ID0gImhpZGRlbiI7CiAgICByZXR1cm4gKCkgPT4gewogICAgICB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcigia2V5ZG93biIsIG9uS2V5KTsKICAgICAgZG9jdW1lbnQuYm9keS5zdHlsZS5vdmVyZmxvdyA9IHByZXY7CiAgICB9OwogIH0sIFtvcGVuLCBoYW5kbGVBY3Rpb25dKTsKCiAgLy8gS2VlcCB0aGUgZm9jdXNlZCB0aWxlIGNlbnRyZWQgaW4gdGhlIHJhaWwuCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmICghb3BlbikgcmV0dXJuOwogICAgY29uc3QgcmFpbCA9IHJhaWxSZWYuY3VycmVudDsKICAgIGNvbnN0IHRpbGUgPSByYWlsPy5jaGlsZHJlbltmb2N1c10gYXMgSFRNTEVsZW1lbnQgfCB1bmRlZmluZWQ7CiAgICBpZiAoIXJhaWwgfHwgIXRpbGUpIHJldHVybjsKICAgIHJhaWwuc2Nyb2xsVG8oewogICAgICBsZWZ0OiB0aWxlLm9mZnNldExlZnQgLSByYWlsLmNsaWVudFdpZHRoIC8gMiArIHRpbGUuY2xpZW50V2lkdGggLyAyLAogICAgICBiZWhhdmlvcjogInNtb290aCIsCiAgICB9KTsKICB9LCBbZm9jdXMsIG9wZW5dKTsKCgogIGlmICghb3BlbikgcmV0dXJuIG51bGw7CgogIGNvbnN0IGhlcm8gPSBwYWdlc1tmb2N1c10gPz8gcGFnZXNbMF07CiAgaWYgKCFoZXJvKSByZXR1cm4gbnVsbDsKICBjb25zdCBIZXJvSWNvbiA9IGhlcm8uaWNvbjsKCiAgcmV0dXJuICgKICAgIDxkaXYKICAgICAgcm9sZT0iZGlhbG9nIgogICAgICBhcmlhLW1vZGFsPSJ0cnVlIgogICAgICBhcmlhLWxhYmVsPSJBbGwgY29tbXVuaXR5IHBhZ2VzIgogICAgICBjbGFzc05hbWU9ImZpeGVkIGluc2V0LTAgei1bNzBdIGJnLWJhY2tncm91bmQvOTAgYmFja2Ryb3AtYmx1ci14bCBhbmltYXRlLWZhZGUtaW4iCiAgICAgIG9uQ2xpY2s9e29uQ2xvc2V9CiAgICA+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGgtZnVsbCBmbGV4LWNvbCIgb25DbGljaz17KGUpID0+IGUuc3RvcFByb3BhZ2F0aW9uKCl9PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcHgtNSBwdC02Ij4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdXBwZXJjYXNlIHRyYWNraW5nLVswLjNlbV0gdGV4dC1wcmltYXJ5Ij5UaWNrbGVsaXN0PC9wPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC14bCB0cmFja2luZy13aWRlciI+RGFzaGJvYXJkPC9oMj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAge3BhZENvbm5lY3RlZCAmJiAoCiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSByb3VuZGVkLWZ1bGwgYm9yZGVyIGJvcmRlci1wcmltYXJ5LzYwIGJnLXByaW1hcnkvMTAgcHgtMiBweS0xIHRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy1bMC4yZW1dIHRleHQtcHJpbWFyeSI+CiAgICAgICAgICAgICAgICA8R2FtZXBhZDIgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgICAgICAgICAgICBDb250cm9sbGVyCiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICApfQogICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgIG9uQ2xpY2s9e29uQ2xvc2V9CiAgICAgICAgICAgICAgYXJpYS1sYWJlbD0iQ2xvc2UgcGFnZSBzd2l0Y2hlciIKICAgICAgICAgICAgICBjbGFzc05hbWU9InJvdW5kZWQtZnVsbCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkIHAtMiB0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPFggY2xhc3NOYW1lPSJoLTQgdy00IiAvPgogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICB7LyogSGVybyB0aWxlIOKAlCB0aGUgY3VycmVudGx5IGZvY3VzZWQgcGFnZSwgYmxvd24gdXAgbGlrZSB0aGUgWGJveCBob21lIGJsb2NrLiAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHgtNSBwdC01IiBzdHlsZT17eyBwZXJzcGVjdGl2ZTogIjExMDBweCIgfX0+CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgb25DbGljaz17KCkgPT4gb25QaWNrKGhlcm8sIGZvY3VzKX0KICAgICAgICAgICAgb25Nb3VzZUVudGVyPXsoKSA9PiBzZXRab25lKCJoZXJvIil9CiAgICAgICAgICAgIGRhdGEtZm9jdXNlZD17em9uZSA9PT0gImhlcm8iID8gInRydWUiIDogdW5kZWZpbmVkfQogICAgICAgICAgICBjbGFzc05hbWU9e2NuKAogICAgICAgICAgICAgICJncm91cCByZWxhdGl2ZSB3LWZ1bGwgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQteGwgYm9yZGVyIGJnLWdyYWRpZW50LXRvLWJyIHAtNSB0ZXh0LWxlZnQgc2hhZG93LTJ4bCBzaGFkb3ctcHJpbWFyeS8yMCB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi0zMDAgYWN0aXZlOnNjYWxlLVswLjk4XSBvdXRsaW5lLW5vbmUiLAogICAgICAgICAgICAgIGhlcm8udGludCwKICAgICAgICAgICAgICB6b25lID09PSAiaGVybyIKICAgICAgICAgICAgICAgID8gImJvcmRlci1wcmltYXJ5IHJpbmctNCByaW5nLXByaW1hcnkvNjAgcmluZy1vZmZzZXQtMiByaW5nLW9mZnNldC1iYWNrZ3JvdW5kIHNjYWxlLVsxLjAxXSIKICAgICAgICAgICAgICAgIDogImJvcmRlci1wcmltYXJ5LzQwIiwKICAgICAgICAgICAgKX0KICAgICAgICAgICAgc3R5bGU9e3sgdHJhbnNmb3JtOiAicm90YXRlWCg0ZGVnKSIsIHRyYW5zZm9ybVN0eWxlOiAicHJlc2VydmUtM2QiIH19CiAgICAgICAgICA+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0icG9pbnRlci1ldmVudHMtbm9uZSBhYnNvbHV0ZSBpbnNldC14LTAgdG9wLTAgaC0xLzIgYmctZm9yZWdyb3VuZC8xMCIgYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtNCI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJncmlkIGgtMTYgdy0xNiBzaHJpbmstMCBwbGFjZS1pdGVtcy1jZW50ZXIgcm91bmRlZC1sZyBiZy1iYWNrZ3JvdW5kLzQwIGJhY2tkcm9wLWJsdXItc20iPgogICAgICAgICAgICAgICAgPEhlcm9JY29uIGNsYXNzTmFtZT0iaC04IHctOCB0ZXh0LWZvcmVncm91bmQiIGFyaWEtaGlkZGVuPSJ0cnVlIiAvPgogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCI+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy1bMC4yNWVtXSB0ZXh0LWZvcmVncm91bmQvNzAiPgogICAgICAgICAgICAgICAgICB7Zm9jdXMgPT09IGFjdGl2ZUluZGV4ID8gIllvdSBhcmUgaGVyZSIgOiAiSnVtcCB0byJ9CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTJ4bCB0cmFja2luZy13aWRlciB0cnVuY2F0ZSI+e2hlcm8ubGFiZWx9PC9wPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtZm9yZWdyb3VuZC83MCI+CiAgICAgICAgICAgICAgICAgIHtwYWRDb25uZWN0ZWQgPyAiUHJlc3MgQSB0byBvcGVuIiA6ICJUYXAgdG8gb3BlbiJ9CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHsvKiBUaWxlIHJhaWwg4oCUIHNuYXBwaW5nLCBhbmdsZWQsIE1ldHJvLXN0eWxlIGJsb2Nrcy4gKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgtMSBvdmVyZmxvdy1oaWRkZW4gcHQtNiIgc3R5bGU9e3sgcGVyc3BlY3RpdmU6ICIxMjAwcHgiIH19PgogICAgICAgICAgPGRpdgogICAgICAgICAgICByZWY9e3JhaWxSZWZ9CiAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBoLWZ1bGwgaXRlbXMtc3RhcnQgZ2FwLTMgb3ZlcmZsb3cteC1hdXRvIHB4LTUgcGItMTAgc25hcC14IHNuYXAtbWFuZGF0b3J5IFtzY3JvbGxiYXItd2lkdGg6bm9uZV0gWyY6Oi13ZWJraXQtc2Nyb2xsYmFyXTpoaWRkZW4iCiAgICAgICAgICAgIHN0eWxlPXt7IHRyYW5zZm9ybVN0eWxlOiAicHJlc2VydmUtM2QiIH19CiAgICAgICAgICA+CiAgICAgICAgICAgIHtwYWdlcy5tYXAoKHBhZ2UsIGkpID0+IHsKICAgICAgICAgICAgICBjb25zdCBJY29uID0gcGFnZS5pY29uOwogICAgICAgICAgICAgIGNvbnN0IGZvY3VzZWQgPSBpID09PSBmb2N1czsKICAgICAgICAgICAgICBjb25zdCBzZWxlY3RlZCA9IGZvY3VzZWQgJiYgem9uZSA9PT0gInJhaWwiOwogICAgICAgICAgICAgIGNvbnN0IGN1cnJlbnQgPSBpID09PSBhY3RpdmVJbmRleDsKICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICBrZXk9e3BhZ2UudG99CiAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gewogICAgICAgICAgICAgICAgICAgIHNldFpvbmUoInJhaWwiKTsKICAgICAgICAgICAgICAgICAgICBpZiAoZm9jdXNlZCkgb25QaWNrKHBhZ2UsIGkpOwogICAgICAgICAgICAgICAgICAgIGVsc2Ugc2V0Rm9jdXMoaSk7CiAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAgICAgICAgICAgInJlbGF0aXZlIHNuYXAtY2VudGVyIHNocmluay0wIHJvdW5kZWQtbGcgYm9yZGVyIGJnLWdyYWRpZW50LXRvLWJyIHAtMyB0ZXh0LWxlZnQgdHJhbnNpdGlvbi1hbGwgZHVyYXRpb24tMzAwIG91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctMiBmb2N1cy12aXNpYmxlOnJpbmctcHJpbWFyeSIsCiAgICAgICAgICAgICAgICAgICAgcGFnZS50aW50LAogICAgICAgICAgICAgICAgICAgIGZvY3VzZWQKICAgICAgICAgICAgICAgICAgICAgID8gImgtMzYgdy0zNiBib3JkZXItcHJpbWFyeSBzaGFkb3cteGwgc2hhZG93LXByaW1hcnkvMjUiCiAgICAgICAgICAgICAgICAgICAgICA6ICJoLTI4IHctMjggYm9yZGVyLWJvcmRlci83MCBvcGFjaXR5LTcwIiwKICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZCAmJiAicmluZy00IHJpbmctcHJpbWFyeS83MCByaW5nLW9mZnNldC0yIHJpbmctb2Zmc2V0LWJhY2tncm91bmQiLAogICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgIHRyYW5zZm9ybTogZm9jdXNlZAogICAgICAgICAgICAgICAgICAgICAgPyAidHJhbnNsYXRlWig2MHB4KSByb3RhdGVZKDBkZWcpIgogICAgICAgICAgICAgICAgICAgICAgOiBgdHJhbnNsYXRlWigwcHgpIHJvdGF0ZVkoJHtpIDwgZm9jdXMgPyAxNiA6IC0xNn1kZWcpYCwKICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgYXJpYS1jdXJyZW50PXtjdXJyZW50ID8gInBhZ2UiIDogdW5kZWZpbmVkfQogICAgICAgICAgICAgICAgICBhcmlhLXNlbGVjdGVkPXtmb2N1c2VkfQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImdyaWQgaC0xMCB3LTEwIHBsYWNlLWl0ZW1zLWNlbnRlciByb3VuZGVkLW1kIGJnLWJhY2tncm91bmQvNDAiPgogICAgICAgICAgICAgICAgICAgIDxJY29uIGNsYXNzTmFtZT0iaC01IHctNSB0ZXh0LWZvcmVncm91bmQiIGFyaWEtaGlkZGVuPSJ0cnVlIiAvPgogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibXQtMyBibG9jayBmb250LWRpc3BsYXkgdGV4dC1zbSB0cmFja2luZy13aWRlciI+e3BhZ2UubGFiZWx9PC9zcGFuPgogICAgICAgICAgICAgICAgICB7Y3VycmVudCAmJiAoCiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtdC0xIGJsb2NrIHRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy1bMC4yZW1dIHRleHQtZm9yZWdyb3VuZC83MCI+CiAgICAgICAgICAgICAgICAgICAgICBDdXJyZW50CiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICB7c2VsZWN0ZWQgJiYgKAogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYWJzb2x1dGUgcmlnaHQtMiB0b3AtMiBncmlkIGgtNiB3LTYgcGxhY2UtaXRlbXMtY2VudGVyIHJvdW5kZWQtZnVsbCBiZy1lbWVyYWxkLTUwMCB0ZXh0LVsxMXB4XSBmb250LWJvbGQgdGV4dC1iYWNrZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgICAgIEEKICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICApOwogICAgICAgICAgICB9KX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICB7cGFkQ29ubmVjdGVkID8gKAogICAgICAgICAgPHAgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLXgtNCBnYXAteS0xIHB4LTUgcGItOCB0ZXh0LWNlbnRlciB0ZXh0LVsxMXB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICA8c3Bhbj5ELXBhZCAvIHN0aWNrIOKAlCBtb3ZlPC9zcGFuPgogICAgICAgICAgICA8c3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1yLTEgaW5saW5lLWdyaWQgaC00IHctNCBwbGFjZS1pdGVtcy1jZW50ZXIgcm91bmRlZC1mdWxsIGJnLWVtZXJhbGQtNTAwIHRleHQtWzlweF0gZm9udC1ib2xkIHRleHQtYmFja2dyb3VuZCI+CiAgICAgICAgICAgICAgICBBCiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIG9wZW4KICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8c3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1yLTEgaW5saW5lLWdyaWQgaC00IHctNCBwbGFjZS1pdGVtcy1jZW50ZXIgcm91bmRlZC1mdWxsIGJnLXJlZC01MDAgdGV4dC1bOXB4XSBmb250LWJvbGQgdGV4dC1iYWNrZ3JvdW5kIj4KICAgICAgICAgICAgICAgIEIKICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgY2xvc2UKICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPC9wPgogICAgICAgICkgOiAoCiAgICAgICAgICA8cCBjbGFzc05hbWU9InB4LTUgcGItOCB0ZXh0LWNlbnRlciB0ZXh0LVsxMXB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICBTd2lwZSB0aGUgcmFpbCBvciB1c2Ug4oaQL+KGkiDCtyB0YXAgYSB0aWxlIHRvIHNlbGVjdCwgdGFwIGFnYWluIHRvIG9wZW4gwrcgY29udHJvbGxlcjogRC1wYWQKICAgICAgICAgICAgdG8gbW92ZSwgQSB0byBvcGVuLCBCIHRvIGNsb3NlCiAgICAgICAgICA8L3A+CiAgICAgICAgKX0KCiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IFBhZ2VTd2l0Y2hlcjsK
+import { useCallback, useEffect, useRef, useState } from "react";
+import { X, Gamepad2 } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+import type { CommunityPage } from "@/lib/community-pages";
+import { useGamepad, rumble, type GamepadAction } from "@/hooks/useGamepad";
+import { haptic } from "@/lib/haptics";
+
+interface PageSwitcherProps {
+  pages: CommunityPage[];
+  activeIndex: number;
+  open: boolean;
+  onClose: () => void;
+  onPick: (page: CommunityPage, index: number) => void;
+}
+
+/**
+ * Zoomed-out home screen, Xbox dashboard style: one big hero tile for the
+ * focused page followed by a horizontally snapping rail of smaller tiles,
+ * each angled in 3D. Opened by double-tapping the page, closed by picking a
+ * tile (zoom in) or the backdrop.
+ */
+const PageSwitcher = ({ pages, activeIndex, open, onClose, onPick }: PageSwitcherProps) => {
+  const [focus, setFocus] = useState(Math.max(activeIndex, 0));
+  /** Which block the controller/keyboard focus lives in. */
+  const [zone, setZone] = useState<"hero" | "rail">("rail");
+  const railRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (open) {
+      setFocus(Math.max(activeIndex, 0));
+      setZone("rail");
+    }
+  }, [open, activeIndex]);
+
+  const move = useCallback(
+    (delta: number) => {
+      setFocus((f) => {
+        const next = Math.min(Math.max(f + delta, 0), pages.length - 1);
+        if (next !== f) {
+          haptic("tick");
+          rumble(35, 0.22);
+        }
+        return next;
+      });
+    },
+    [pages.length],
+  );
+
+  const openFocused = useCallback(() => {
+    const page = pages[focus];
+    if (!page) return;
+    haptic("select");
+    rumble(80, 0.5);
+    onPick(page, focus);
+  }, [focus, onPick, pages]);
+
+  /** Shared handling for D-pad/stick, A/B and the arrow keys. */
+  const handleAction = useCallback(
+    (action: GamepadAction) => {
+      if (action === "left") move(-1);
+      else if (action === "right") move(1);
+      else if (action === "up") setZone("hero");
+      else if (action === "down") setZone("rail");
+      else if (action === "confirm") openFocused();
+      else if (action === "back" || action === "menu") {
+        rumble(40, 0.25);
+        onClose();
+      }
+    },
+    [move, onClose, openFocused],
+  );
+
+  const padConnected = useGamepad({ onAction: handleAction, enabled: open });
+
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") handleAction("back");
+      else if (e.key === "ArrowRight") handleAction("right");
+      else if (e.key === "ArrowLeft") handleAction("left");
+      else if (e.key === "ArrowUp") handleAction("up");
+      else if (e.key === "ArrowDown") handleAction("down");
+      else if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        handleAction("confirm");
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = prev;
+    };
+  }, [open, handleAction]);
+
+  // Keep the focused tile centred in the rail.
+  useEffect(() => {
+    if (!open) return;
+    const rail = railRef.current;
+    const tile = rail?.children[focus] as HTMLElement | undefined;
+    if (!rail || !tile) return;
+    rail.scrollTo({
+      left: tile.offsetLeft - rail.clientWidth / 2 + tile.clientWidth / 2,
+      behavior: "smooth",
+    });
+  }, [focus, open]);
+
+
+  if (!open) return null;
+
+  const hero = pages[focus] ?? pages[0];
+  if (!hero) return null;
+  const HeroIcon = hero.icon;
+
+  return (
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-label="All community pages"
+      className="fixed inset-0 z-[70] bg-background/90 backdrop-blur-xl animate-fade-in"
+      onClick={onClose}
+    >
+      <div className="flex h-full flex-col" onClick={(e) => e.stopPropagation()}>
+        <div className="flex items-center justify-between px-5 pt-6">
+          <div>
+            <p className="text-[10px] uppercase tracking-[0.3em] text-primary">Ticklelist</p>
+            <h2 className="font-display text-xl tracking-wider">Dashboard</h2>
+          </div>
+          <div className="flex items-center gap-2">
+            {padConnected && (
+              <span className="flex items-center gap-1 rounded-full border border-primary/60 bg-primary/10 px-2 py-1 text-[10px] uppercase tracking-[0.2em] text-primary">
+                <Gamepad2 className="h-3.5 w-3.5" aria-hidden="true" />
+                Controller
+              </span>
+            )}
+            <button
+              type="button"
+              onClick={onClose}
+              aria-label="Close page switcher"
+              className="rounded-full border border-border bg-card p-2 text-muted-foreground hover:text-foreground"
+            >
+              <X className="h-4 w-4" />
+            </button>
+          </div>
+        </div>
+
+        {/* Hero tile — the currently focused page, blown up like the Xbox home block. */}
+        <div className="px-5 pt-5" style={{ perspective: "1100px" }}>
+          <button
+            type="button"
+            onClick={() => onPick(hero, focus)}
+            onMouseEnter={() => setZone("hero")}
+            data-focused={zone === "hero" ? "true" : undefined}
+            className={cn(
+              "group relative w-full overflow-hidden rounded-xl border bg-gradient-to-br p-5 text-left shadow-2xl shadow-primary/20 transition-all duration-300 active:scale-[0.98] outline-none",
+              hero.tint,
+              zone === "hero"
+                ? "border-primary ring-4 ring-primary/60 ring-offset-2 ring-offset-background scale-[1.01]"
+                : "border-primary/40",
+            )}
+            style={{ transform: "rotateX(4deg)", transformStyle: "preserve-3d" }}
+          >
+            <span className="pointer-events-none absolute inset-x-0 top-0 h-1/2 bg-foreground/10" aria-hidden="true" />
+            <div className="relative flex items-center gap-4">
+              <span className="grid h-16 w-16 shrink-0 place-items-center rounded-lg bg-background/40 backdrop-blur-sm">
+                <HeroIcon className="h-8 w-8 text-foreground" aria-hidden="true" />
+              </span>
+              <div className="min-w-0">
+                <p className="text-[10px] uppercase tracking-[0.25em] text-foreground/70">
+                  {focus === activeIndex ? "You are here" : "Jump to"}
+                </p>
+                <p className="font-display text-2xl tracking-wider truncate">{hero.label}</p>
+                <p className="text-xs text-foreground/70">
+                  {padConnected ? "Press A to open" : "Tap to open"}
+                </p>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        {/* Tile rail — snapping, angled, Metro-style blocks. */}
+        <div className="flex-1 overflow-hidden pt-6" style={{ perspective: "1200px" }}>
+          <div
+            ref={railRef}
+            className="flex h-full items-start gap-3 overflow-x-auto px-5 pb-10 snap-x snap-mandatory [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+            style={{ transformStyle: "preserve-3d" }}
+          >
+            {pages.map((page, i) => {
+              const Icon = page.icon;
+              const focused = i === focus;
+              const selected = focused && zone === "rail";
+              const current = i === activeIndex;
+              return (
+                <button
+                  key={page.to}
+                  type="button"
+                  onClick={() => {
+                    setZone("rail");
+                    if (focused) onPick(page, i);
+                    else setFocus(i);
+                  }}
+                  className={cn(
+                    "relative snap-center shrink-0 rounded-lg border bg-gradient-to-br p-3 text-left transition-all duration-300 outline-none focus-visible:ring-2 focus-visible:ring-primary",
+                    page.tint,
+                    focused
+                      ? "h-36 w-36 border-primary shadow-xl shadow-primary/25"
+                      : "h-28 w-28 border-border/70 opacity-70",
+                    selected && "ring-4 ring-primary/70 ring-offset-2 ring-offset-background",
+                  )}
+                  style={{
+                    transform: focused
+                      ? "translateZ(60px) rotateY(0deg)"
+                      : `translateZ(0px) rotateY(${i < focus ? 16 : -16}deg)`,
+                  }}
+                  aria-current={current ? "page" : undefined}
+                  aria-selected={focused}
+                >
+                  <span className="grid h-10 w-10 place-items-center rounded-md bg-background/40">
+                    <Icon className="h-5 w-5 text-foreground" aria-hidden="true" />
+                  </span>
+                  <span className="mt-3 block font-display text-sm tracking-wider">{page.label}</span>
+                  {current && (
+                    <span className="mt-1 block text-[10px] uppercase tracking-[0.2em] text-foreground/70">
+                      Current
+                    </span>
+                  )}
+                  {selected && (
+                    <span className="absolute right-2 top-2 grid h-6 w-6 place-items-center rounded-full bg-emerald-500 text-[11px] font-bold text-background">
+                      A
+                    </span>
+                  )}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {padConnected ? (
+          <p className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 px-5 pb-8 text-center text-[11px] text-muted-foreground">
+            <span>D-pad / stick — move</span>
+            <span>
+              <span className="mr-1 inline-grid h-4 w-4 place-items-center rounded-full bg-emerald-500 text-[9px] font-bold text-background">
+                A
+              </span>
+              open
+            </span>
+            <span>
+              <span className="mr-1 inline-grid h-4 w-4 place-items-center rounded-full bg-red-500 text-[9px] font-bold text-background">
+                B
+              </span>
+              close
+            </span>
+          </p>
+        ) : (
+          <p className="px-5 pb-8 text-center text-[11px] text-muted-foreground">
+            Swipe the rail or use ←/→ · tap a tile to select, tap again to open · controller: D-pad
+            to move, A to open, B to close
+          </p>
+        )}
+
+      </div>
+    </div>
+  );
+};
+
+export default PageSwitcher;

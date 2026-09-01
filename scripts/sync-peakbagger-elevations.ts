@@ -1,1 +1,201 @@
-LyoqCiAqIFB1bGxzIHBlYWsgZWxldmF0aW9ucyBmcm9tIFBlYWtiYWdnZXIgKHRoZSBvbmx5IHNvdXJjZSBvZiByZWNvcmQgZm9yIHBlYWsKICogZmFjdHMgb24gdGhpcyBzaXRlKSB0aHJvdWdoIHRoZSBGaXJlY3Jhd2wgcHJveHkgYW5kIHdyaXRlcyB0aGVtIHRvCiAqIGBzcmMvZGF0YS9wZWFrYmFnZ2VyLWVsZXZhdGlvbnMuanNvbmAuCiAqCiAqIFJ1bjogIGJ1biBzY3JpcHRzL3N5bmMtcGVha2JhZ2dlci1lbGV2YXRpb25zLnRzIFstLW5hbWVzICJQZWFrIEEiICJQZWFrIEIiXQogKgogKiBUaGUgSlNPTiBpcyBhIGNhY2hlL2F1ZGl0IHRyYWlsOiBuYW1lIC0+IHsgcGlkLCBlbGV2YXRpb25NLCB1cmwsIGZldGNoZWRBdCB9LgogKiBEYXRhIGZpbGVzIChjb3VudHJpZXMudHMsIGZhbW91cy1wZWFrcy50cywg4oCmKSBhcmUgdXBkYXRlZCBmcm9tIGl0LgogKi8KaW1wb3J0IHsgZmV0Y2hQZWFrYmFnZ2VyLCBzZWFyY2hQZWFrYmFnZ2VyUGlkIH0gZnJvbSAiLi4vc3JjL2xpYi9wZWFrYmFnZ2VyLWZldGNoLnNlcnZlciI7Cgpjb25zdCBPVVQgPSAic3JjL2RhdGEvcGVha2JhZ2dlci1lbGV2YXRpb25zLmpzb24iOwoKZXhwb3J0IGludGVyZmFjZSBQZWFrYmFnZ2VyUmVjb3JkIHsKICBwaWQ6IHN0cmluZzsKICBwZWFrOiBzdHJpbmc7CiAgZWxldmF0aW9uTTogbnVtYmVyOwogIHByb21pbmVuY2VNPzogbnVtYmVyOwogIGNvdW50cnk/OiBzdHJpbmc7CiAgdXJsOiBzdHJpbmc7CiAgZmV0Y2hlZEF0OiBzdHJpbmc7Cn0KCmNvbnN0IGxvYWQgPSBhc3luYyAoKTogUHJvbWlzZTxSZWNvcmQ8c3RyaW5nLCBQZWFrYmFnZ2VyUmVjb3JkPj4gPT4gewogIHRyeSB7CiAgICByZXR1cm4gSlNPTi5wYXJzZShhd2FpdCBCdW4uZmlsZShPVVQpLnRleHQoKSk7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4ge307CiAgfQp9OwoKY29uc3Qgc2F2ZSA9IGFzeW5jIChkYXRhOiBSZWNvcmQ8c3RyaW5nLCBQZWFrYmFnZ2VyUmVjb3JkPikgPT4gewogIGNvbnN0IHNvcnRlZCA9IE9iamVjdC5mcm9tRW50cmllcyhPYmplY3QuZW50cmllcyhkYXRhKS5zb3J0KChbYV0sIFtiXSkgPT4gYS5sb2NhbGVDb21wYXJlKGIpKSk7CiAgYXdhaXQgQnVuLndyaXRlKE9VVCwgYCR7SlNPTi5zdHJpbmdpZnkoc29ydGVkLCBudWxsLCAyKX1cbmApOwp9OwoKLyoqIFNjcmFwZSBhIFBlYWtiYWdnZXIgbGlzdCBwYWdlIChtZXRyaWMpIGludG8gcm93cy4gKi8KZXhwb3J0IGNvbnN0IHNjcmFwZUxpc3QgPSBhc3luYyAobGlkOiBudW1iZXIpID0+IHsKICBjb25zdCBwYWdlID0gYXdhaXQgZmV0Y2hQZWFrYmFnZ2VyKGBodHRwczovL3BlYWtiYWdnZXIuY29tL2xpc3QuYXNweD9saWQ9JHtsaWR9JnU9bWApOwogIGNvbnN0IHJvd3M6IEFycmF5PHsgZ3JvdXA6IHN0cmluZzsgcGlkOiBzdHJpbmc7IHBlYWs6IHN0cmluZzsgZWxldk06IG51bWJlciB9PiA9IFtdOwogIGNvbnN0IHJlID0KICAgIC88dHI+KD86XHMqPHRkPltcZC5dKzxcL3RkPilccyo8dGQ+KFtePF0qKTxcL3RkPlxzKjx0ZD48YSBocmVmPSJodHRwczpcL1wvcGVha2JhZ2dlclwuY29tXC9wZWFrXC5hc3B4XD9waWQ9KFxkKykiPihbXjxdKik8XC9hPjxcL3RkPlxzKjx0ZCBzdHlsZT0idGV4dC1hbGlnbjogcmlnaHQiPihbXGQuXSspL2c7CiAgZm9yIChjb25zdCBtIG9mIHBhZ2UuaHRtbC5tYXRjaEFsbChyZSkpIHsKICAgIHJvd3MucHVzaCh7IGdyb3VwOiBtWzFdISwgcGlkOiBtWzJdISwgcGVhazogbVszXSEsIGVsZXZNOiBOdW1iZXIobVs0XSkgfSk7CiAgfQogIHJldHVybiByb3dzOwp9OwoKLyoqCiAqIFBhcnNlIGFueSBQZWFrYmFnZ2VyIGxpc3QgcGFnZSAobWV0cmljKSBmcm9tIGl0cyBtYXJrZG93biB0YWJsZS4gQ29sdW1uCiAqIG9yZGVyIGRpZmZlcnMgcGVyIGxpc3QgdHlwZSAoZWxldmF0aW9uIGxpc3RzLCBwcm9taW5lbmNlIGxpc3RzLCBpc29sYXRpb24KICogbGlzdHPigKYpLCBzbyB3ZSByZWFkIHRoZSBoZWFkZXIgcm93IGFuZCBwaWNrIHRoZSBFbGV2LU0gLyBQcm9tLU0gY29sdW1ucyBieQogKiBuYW1lLiBHdWVzc2luZyBieSBwb3NpdGlvbiBzaWxlbnRseSBzdG9yZXMgcHJvbWluZW5jZSBhcyBlbGV2YXRpb24uCiAqLwpleHBvcnQgY29uc3Qgc2NyYXBlTGlzdE1hcmtkb3duID0gYXN5bmMgKGxpZDogbnVtYmVyKSA9PiB7CiAgY29uc3QgcGFnZSA9IGF3YWl0IGZldGNoUGVha2JhZ2dlcihgaHR0cHM6Ly9wZWFrYmFnZ2VyLmNvbS9saXN0LmFzcHg/bGlkPSR7bGlkfSZ1PW1gKTsKICBjb25zdCByb3dzOiBBcnJheTx7IHBpZDogc3RyaW5nOyBwZWFrOiBzdHJpbmc7IGVsZXZNOiBudW1iZXI7IHByb21NPzogbnVtYmVyIH0+ID0gW107CiAgY29uc3Qgc2VlbiA9IG5ldyBTZXQ8c3RyaW5nPigpOwogIGxldCBlbGV2Q29sID0gLTE7CiAgbGV0IHByb21Db2wgPSAtMTsKCiAgY29uc3QgY2VsbHNPZiA9IChsaW5lOiBzdHJpbmcpID0+IGxpbmUuc3BsaXQoInwiKS5tYXAoKGMpID0+IGMudHJpbSgpKTsKCiAgZm9yIChjb25zdCBsaW5lIG9mIChwYWdlLm1hcmtkb3duIHx8ICIiKS5zcGxpdCgiXG4iKSkgewogICAgY29uc3QgY2VsbHMgPSBjZWxsc09mKGxpbmUpOwoKICAgIGlmIChlbGV2Q29sIDwgMCAmJiAvRWxldi1NL2kudGVzdChsaW5lKSkgewogICAgICBlbGV2Q29sID0gY2VsbHMuZmluZEluZGV4KChjKSA9PiAvRWxldi1NL2kudGVzdChjKSk7CiAgICAgIHByb21Db2wgPSBjZWxscy5maW5kSW5kZXgoKGMpID0+IC9Qcm9tLU0vaS50ZXN0KGMpKTsKICAgICAgY29udGludWU7CiAgICB9CgogICAgaWYgKCFsaW5lLmluY2x1ZGVzKCJwZWFrLmFzcHg/cGlkPSIpIHx8IGVsZXZDb2wgPCAwKSBjb250aW51ZTsKICAgIGNvbnN0IG0gPSBsaW5lLm1hdGNoKC9cWyhbXlxdXSspXF1cKGh0dHBzOlwvXC9wZWFrYmFnZ2VyXC5jb21cL3BlYWtcLmFzcHhcP3BpZD0oXGQrKVwpLyk7CiAgICBpZiAoIW0pIGNvbnRpbnVlOwogICAgY29uc3QgcGVhayA9IG1bMV0hLnRyaW0oKTsKICAgIGNvbnN0IHBpZCA9IG1bMl0hOwogICAgaWYgKHNlZW4uaGFzKHBpZCkpIGNvbnRpbnVlOwoKICAgIGNvbnN0IG51bSA9IChpOiBudW1iZXIpID0+IHsKICAgICAgY29uc3QgcmF3ID0gY2VsbHNbaV07CiAgICAgIGlmIChyYXcgPT09IHVuZGVmaW5lZCkgcmV0dXJuIHVuZGVmaW5lZDsKICAgICAgY29uc3QgbiA9IE51bWJlcihyYXcucmVwbGFjZSgvLC9nLCAiIikpOwogICAgICByZXR1cm4gTnVtYmVyLmlzRmluaXRlKG4pID8gbiA6IHVuZGVmaW5lZDsKICAgIH07CiAgICBjb25zdCBlbGV2TSA9IG51bShlbGV2Q29sKTsKICAgIGlmIChlbGV2TSA9PT0gdW5kZWZpbmVkIHx8IGVsZXZNIDwgLTQ1MCB8fCBlbGV2TSA+IDg4NTApIGNvbnRpbnVlOwogICAgY29uc3QgcHJvbU0gPSBwcm9tQ29sID49IDAgPyBudW0ocHJvbUNvbCkgOiB1bmRlZmluZWQ7CiAgICBzZWVuLmFkZChwaWQpOwogICAgcm93cy5wdXNoKHsKICAgICAgcGlkLAogICAgICBwZWFrLAogICAgICBlbGV2TSwKICAgICAgLi4uKHByb21NICE9PSB1bmRlZmluZWQgJiYgcHJvbU0gPD0gZWxldk0gPyB7IHByb21NIH0gOiB7fSksCiAgICB9KTsKICB9CiAgcmV0dXJuIHJvd3M7Cn07CgoKCmNvbnN0IG51bUZyb20gPSAodGV4dDogc3RyaW5nLCBsYWJlbDogc3RyaW5nKTogbnVtYmVyIHwgbnVsbCA9PiB7CiAgY29uc3QgYXQgPSB0ZXh0LnNlYXJjaChuZXcgUmVnRXhwKGxhYmVsLCAiaSIpKTsKICBpZiAoYXQgPCAwKSByZXR1cm4gbnVsbDsKICBjb25zdCB3aW5kb3cgPSB0ZXh0LnNsaWNlKGF0LCBhdCArIDE0MCk7CiAgY29uc3QgbSA9IHdpbmRvdy5tYXRjaCgvKC0/W1xkLF0rKD86XC5cZCspPylccyooPzptZXRlcnM/fG1ldHJlcz98bVxiKS9pKTsKICBpZiAoIW0pIHJldHVybiBudWxsOwogIGNvbnN0IG4gPSBOdW1iZXIobVsxXSEucmVwbGFjZSgvLC9nLCAiIikpOwogIHJldHVybiBOdW1iZXIuaXNGaW5pdGUobikgPyBuIDogbnVsbDsKfTsKCi8qKiBMb29rIG9uZSBwZWFrIHVwIGJ5IG5hbWUgKG9yIHBpZCkgYW5kIHJldHVybiBpdHMgUGVha2JhZ2dlciBmYWN0cy4gKi8KZXhwb3J0IGNvbnN0IGxvb2t1cFBlYWsgPSBhc3luYyAoCiAgbmFtZTogc3RyaW5nLAogIGhpbnQgPSAiIiwKKTogUHJvbWlzZTxQZWFrYmFnZ2VyUmVjb3JkIHwgbnVsbD4gPT4gewogIGNvbnN0IHBpZCA9IC9eXGQrJC8udGVzdChuYW1lKSA/IG5hbWUgOiAoYXdhaXQgc2VhcmNoUGVha2JhZ2dlclBpZChgJHtuYW1lfSAke2hpbnR9YC50cmltKCkpKS5waWQ7CiAgaWYgKCFwaWQpIHJldHVybiBudWxsOwogIGNvbnN0IHBhZ2UgPSBhd2FpdCBmZXRjaFBlYWtiYWdnZXIoYGh0dHBzOi8vcGVha2JhZ2dlci5jb20vcGVhay5hc3B4P3BpZD0ke3BpZH1gKTsKICBpZiAocGFnZS5ibG9ja2VkKSByZXR1cm4gbnVsbDsKICBjb25zdCB0ZXh0ID0gKHBhZ2UubWFya2Rvd24gfHwgcGFnZS5odG1sKQogICAgLnJlcGxhY2UoLzxbXj5dKj4vZywgIiAiKQogICAgLnJlcGxhY2UoLyZuYnNwOy9nLCAiICIpCiAgICAucmVwbGFjZSgvXHMrL2csICIgIik7CiAgY29uc3QgZWxldmF0aW9uTSA9IG51bUZyb20odGV4dCwgIkVsZXZhdGlvbiIpOwogIGlmIChlbGV2YXRpb25NID09PSBudWxsKSByZXR1cm4gbnVsbDsKICBjb25zdCBwcm9taW5lbmNlTSA9IG51bUZyb20odGV4dCwgIlByb21pbmVuY2UiKTsKICBjb25zdCBwZWFrID0KICAgIChwYWdlLm1hcmtkb3duLm1hdGNoKC9eI1xzKyguKykkL20pPy5bMV0gPz8gcGFnZS5odG1sLm1hdGNoKC88aDFbXj5dKj4oW148XSopPFwvaDE+L2kpPy5bMV0gPz8gbmFtZSkKICAgICAgLnNwbGl0KCIsIilbMF0hCiAgICAgIC50cmltKCk7CiAgcmV0dXJuIHsKICAgIHBpZCwKICAgIHBlYWssCiAgICBlbGV2YXRpb25NLAogICAgLi4uKHByb21pbmVuY2VNICE9PSBudWxsID8geyBwcm9taW5lbmNlTSB9IDoge30pLAogICAgdXJsOiBgaHR0cHM6Ly9wZWFrYmFnZ2VyLmNvbS9wZWFrLmFzcHg/cGlkPSR7cGlkfWAsCiAgICBmZXRjaGVkQXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKS5zbGljZSgwLCAxMCksCiAgfTsKfTsKCmNvbnN0IG1haW4gPSBhc3luYyAoKSA9PiB7CiAgY29uc3QgYXJncyA9IHByb2Nlc3MuYXJndi5zbGljZSgyKTsKICBjb25zdCBjYWNoZSA9IGF3YWl0IGxvYWQoKTsKCiAgaWYgKGFyZ3NbMF0gPT09ICItLW5hbWVzIikgewogICAgZm9yIChjb25zdCBuYW1lIG9mIGFyZ3Muc2xpY2UoMSkpIHsKICAgICAgY29uc3QgcmVjID0gYXdhaXQgbG9va3VwUGVhayhuYW1lKTsKICAgICAgY29uc29sZS5sb2cobmFtZSwgIuKGkiIsIHJlYyA/IGAke3JlYy5wZWFrfSAke3JlYy5lbGV2YXRpb25NfSBtIChwaWQgJHtyZWMucGlkfSlgIDogIm5vdCBmb3VuZCIpOwogICAgICBpZiAocmVjKSBjYWNoZVtuYW1lXSA9IHJlYzsKICAgIH0KICAgIGF3YWl0IHNhdmUoY2FjaGUpOwogICAgcmV0dXJuOwogIH0KCiAgaWYgKGFyZ3NbMF0gPT09ICItLWxpc3RzIikgewogICAgY29uc3QgdG9kYXkgPSBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkuc2xpY2UoMCwgMTApOwogICAgZm9yIChjb25zdCBsaWQgb2YgYXJncy5zbGljZSgxKSkgewogICAgICBjb25zdCByb3dzID0gYXdhaXQgc2NyYXBlTGlzdE1hcmtkb3duKE51bWJlcihsaWQpKTsKICAgICAgY29uc29sZS5sb2coYGxpc3QgJHtsaWR9OiAke3Jvd3MubGVuZ3RofSByb3dzYCk7CiAgICAgIGZvciAoY29uc3QgciBvZiByb3dzKSB7CiAgICAgICAgY29uc3QgcHJldiA9IGNhY2hlW3IucGVha107CiAgICAgICAgLy8gQ291bnRyeSBoaWdoLXBvaW50IHJlY29yZHMgYWxyZWFkeSBjYXJyeSBhIGNvdW50cnkgbGFiZWwg4oCUIGtlZXAgaXQuCiAgICAgICAgY2FjaGVbci5wZWFrXSA9IHsKICAgICAgICAgIHBpZDogci5waWQsCiAgICAgICAgICBwZWFrOiByLnBlYWssCiAgICAgICAgICBlbGV2YXRpb25NOiByLmVsZXZNLAogICAgICAgICAgLi4uKHByZXY/LmNvdW50cnkgPyB7IGNvdW50cnk6IHByZXYuY291bnRyeSB9IDoge30pLAogICAgICAgICAgLi4uKHIucHJvbU0gIT09IHVuZGVmaW5lZCA/IHsgcHJvbWluZW5jZU06IHIucHJvbU0gfSA6IHt9KSwKICAgICAgICAgIHVybDogYGh0dHBzOi8vcGVha2JhZ2dlci5jb20vcGVhay5hc3B4P3BpZD0ke3IucGlkfWAsCiAgICAgICAgICBmZXRjaGVkQXQ6IHRvZGF5LAogICAgICAgIH07CiAgICAgIH0KICAgICAgYXdhaXQgc2F2ZShjYWNoZSk7CiAgICB9CiAgICBjb25zb2xlLmxvZyhgY2FjaGUgbm93IGhvbGRzICR7T2JqZWN0LmtleXMoY2FjaGUpLmxlbmd0aH0gcmVjb3Jkc2ApOwogICAgcmV0dXJuOwogIH0KCgoKICAvLyBEZWZhdWx0OiB0aGUgd29ybGQgY291bnRyeSBoaWdoIHBvaW50cyBsaXN0LgogIGNvbnN0IHJvd3MgPSBhd2FpdCBzY3JhcGVMaXN0KDExMDApOwogIGNvbnNvbGUubG9nKGBjb3VudHJ5IGhpZ2ggcG9pbnRzOiAke3Jvd3MubGVuZ3RofSByb3dzYCk7CiAgY29uc3QgdG9kYXkgPSBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkuc2xpY2UoMCwgMTApOwogIGZvciAoY29uc3QgciBvZiByb3dzKSB7CiAgICBjYWNoZVtyLnBlYWtdID0gewogICAgICBwaWQ6IHIucGlkLAogICAgICBwZWFrOiByLnBlYWssCiAgICAgIGVsZXZhdGlvbk06IHIuZWxldk0sCiAgICAgIGNvdW50cnk6IHIuZ3JvdXAsCiAgICAgIHVybDogYGh0dHBzOi8vcGVha2JhZ2dlci5jb20vcGVhay5hc3B4P3BpZD0ke3IucGlkfWAsCiAgICAgIGZldGNoZWRBdDogdG9kYXksCiAgICB9OwogIH0KICBhd2FpdCBzYXZlKGNhY2hlKTsKICBjb25zb2xlLmxvZyhgd3JvdGUgJHtPYmplY3Qua2V5cyhjYWNoZSkubGVuZ3RofSByZWNvcmRzIHRvICR7T1VUfWApOwp9OwoKaWYgKGltcG9ydC5tZXRhLm1haW4pIGF3YWl0IG1haW4oKTsK
+/**
+ * Pulls peak elevations from Peakbagger (the only source of record for peak
+ * facts on this site) through the Firecrawl proxy and writes them to
+ * `src/data/peakbagger-elevations.json`.
+ *
+ * Run:  bun scripts/sync-peakbagger-elevations.ts [--names "Peak A" "Peak B"]
+ *
+ * The JSON is a cache/audit trail: name -> { pid, elevationM, url, fetchedAt }.
+ * Data files (countries.ts, famous-peaks.ts, …) are updated from it.
+ */
+import { fetchPeakbagger, searchPeakbaggerPid } from "../src/lib/peakbagger-fetch.server";
+
+const OUT = "src/data/peakbagger-elevations.json";
+
+export interface PeakbaggerRecord {
+  pid: string;
+  peak: string;
+  elevationM: number;
+  prominenceM?: number;
+  country?: string;
+  url: string;
+  fetchedAt: string;
+}
+
+const load = async (): Promise<Record<string, PeakbaggerRecord>> => {
+  try {
+    return JSON.parse(await Bun.file(OUT).text());
+  } catch {
+    return {};
+  }
+};
+
+const save = async (data: Record<string, PeakbaggerRecord>) => {
+  const sorted = Object.fromEntries(Object.entries(data).sort(([a], [b]) => a.localeCompare(b)));
+  await Bun.write(OUT, `${JSON.stringify(sorted, null, 2)}\n`);
+};
+
+/** Scrape a Peakbagger list page (metric) into rows. */
+export const scrapeList = async (lid: number) => {
+  const page = await fetchPeakbagger(`https://peakbagger.com/list.aspx?lid=${lid}&u=m`);
+  const rows: Array<{ group: string; pid: string; peak: string; elevM: number }> = [];
+  const re =
+    /<tr>(?:\s*<td>[\d.]+<\/td>)\s*<td>([^<]*)<\/td>\s*<td><a href="https:\/\/peakbagger\.com\/peak\.aspx\?pid=(\d+)">([^<]*)<\/a><\/td>\s*<td style="text-align: right">([\d.]+)/g;
+  for (const m of page.html.matchAll(re)) {
+    rows.push({ group: m[1]!, pid: m[2]!, peak: m[3]!, elevM: Number(m[4]) });
+  }
+  return rows;
+};
+
+/**
+ * Parse any Peakbagger list page (metric) from its markdown table. Column
+ * order differs per list type (elevation lists, prominence lists, isolation
+ * lists…), so we read the header row and pick the Elev-M / Prom-M columns by
+ * name. Guessing by position silently stores prominence as elevation.
+ */
+export const scrapeListMarkdown = async (lid: number) => {
+  const page = await fetchPeakbagger(`https://peakbagger.com/list.aspx?lid=${lid}&u=m`);
+  const rows: Array<{ pid: string; peak: string; elevM: number; promM?: number }> = [];
+  const seen = new Set<string>();
+  let elevCol = -1;
+  let promCol = -1;
+
+  const cellsOf = (line: string) => line.split("|").map((c) => c.trim());
+
+  for (const line of (page.markdown || "").split("\n")) {
+    const cells = cellsOf(line);
+
+    if (elevCol < 0 && /Elev-M/i.test(line)) {
+      elevCol = cells.findIndex((c) => /Elev-M/i.test(c));
+      promCol = cells.findIndex((c) => /Prom-M/i.test(c));
+      continue;
+    }
+
+    if (!line.includes("peak.aspx?pid=") || elevCol < 0) continue;
+    const m = line.match(/\[([^\]]+)\]\(https:\/\/peakbagger\.com\/peak\.aspx\?pid=(\d+)\)/);
+    if (!m) continue;
+    const peak = m[1]!.trim();
+    const pid = m[2]!;
+    if (seen.has(pid)) continue;
+
+    const num = (i: number) => {
+      const raw = cells[i];
+      if (raw === undefined) return undefined;
+      const n = Number(raw.replace(/,/g, ""));
+      return Number.isFinite(n) ? n : undefined;
+    };
+    const elevM = num(elevCol);
+    if (elevM === undefined || elevM < -450 || elevM > 8850) continue;
+    const promM = promCol >= 0 ? num(promCol) : undefined;
+    seen.add(pid);
+    rows.push({
+      pid,
+      peak,
+      elevM,
+      ...(promM !== undefined && promM <= elevM ? { promM } : {}),
+    });
+  }
+  return rows;
+};
+
+
+
+const numFrom = (text: string, label: string): number | null => {
+  const at = text.search(new RegExp(label, "i"));
+  if (at < 0) return null;
+  const window = text.slice(at, at + 140);
+  const m = window.match(/(-?[\d,]+(?:\.\d+)?)\s*(?:meters?|metres?|m\b)/i);
+  if (!m) return null;
+  const n = Number(m[1]!.replace(/,/g, ""));
+  return Number.isFinite(n) ? n : null;
+};
+
+/** Look one peak up by name (or pid) and return its Peakbagger facts. */
+export const lookupPeak = async (
+  name: string,
+  hint = "",
+): Promise<PeakbaggerRecord | null> => {
+  const pid = /^\d+$/.test(name) ? name : (await searchPeakbaggerPid(`${name} ${hint}`.trim())).pid;
+  if (!pid) return null;
+  const page = await fetchPeakbagger(`https://peakbagger.com/peak.aspx?pid=${pid}`);
+  if (page.blocked) return null;
+  const text = (page.markdown || page.html)
+    .replace(/<[^>]*>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/\s+/g, " ");
+  const elevationM = numFrom(text, "Elevation");
+  if (elevationM === null) return null;
+  const prominenceM = numFrom(text, "Prominence");
+  const peak =
+    (page.markdown.match(/^#\s+(.+)$/m)?.[1] ?? page.html.match(/<h1[^>]*>([^<]*)<\/h1>/i)?.[1] ?? name)
+      .split(",")[0]!
+      .trim();
+  return {
+    pid,
+    peak,
+    elevationM,
+    ...(prominenceM !== null ? { prominenceM } : {}),
+    url: `https://peakbagger.com/peak.aspx?pid=${pid}`,
+    fetchedAt: new Date().toISOString().slice(0, 10),
+  };
+};
+
+const main = async () => {
+  const args = process.argv.slice(2);
+  const cache = await load();
+
+  if (args[0] === "--names") {
+    for (const name of args.slice(1)) {
+      const rec = await lookupPeak(name);
+      console.log(name, "→", rec ? `${rec.peak} ${rec.elevationM} m (pid ${rec.pid})` : "not found");
+      if (rec) cache[name] = rec;
+    }
+    await save(cache);
+    return;
+  }
+
+  if (args[0] === "--lists") {
+    const today = new Date().toISOString().slice(0, 10);
+    for (const lid of args.slice(1)) {
+      const rows = await scrapeListMarkdown(Number(lid));
+      console.log(`list ${lid}: ${rows.length} rows`);
+      for (const r of rows) {
+        const prev = cache[r.peak];
+        // Country high-point records already carry a country label — keep it.
+        cache[r.peak] = {
+          pid: r.pid,
+          peak: r.peak,
+          elevationM: r.elevM,
+          ...(prev?.country ? { country: prev.country } : {}),
+          ...(r.promM !== undefined ? { prominenceM: r.promM } : {}),
+          url: `https://peakbagger.com/peak.aspx?pid=${r.pid}`,
+          fetchedAt: today,
+        };
+      }
+      await save(cache);
+    }
+    console.log(`cache now holds ${Object.keys(cache).length} records`);
+    return;
+  }
+
+
+
+  // Default: the world country high points list.
+  const rows = await scrapeList(1100);
+  console.log(`country high points: ${rows.length} rows`);
+  const today = new Date().toISOString().slice(0, 10);
+  for (const r of rows) {
+    cache[r.peak] = {
+      pid: r.pid,
+      peak: r.peak,
+      elevationM: r.elevM,
+      country: r.group,
+      url: `https://peakbagger.com/peak.aspx?pid=${r.pid}`,
+      fetchedAt: today,
+    };
+  }
+  await save(cache);
+  console.log(`wrote ${Object.keys(cache).length} records to ${OUT}`);
+};
+
+if (import.meta.main) await main();

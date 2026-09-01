@@ -1,1 +1,88 @@
-aW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwoKLyoqIExlbmd0aCBvZiBhIHBlYWsncyBwaG90byBjb250ZXN0LCBzdGFydGluZyBhdCB0aGUgZmlyc3Qgdm90ZSBjYXN0LiAqLwpleHBvcnQgY29uc3QgUk9VTkRfREFZUyA9IDMwOwoKZXhwb3J0IGludGVyZmFjZSBQaG90b0VudHJ5IHsKICBpZDogc3RyaW5nOwogIHVzZXJfaWQ6IHN0cmluZzsKICBjb3VudHJ5X3NsdWc6IHN0cmluZzsKICBjb3VudHJ5OiBzdHJpbmc7CiAgcGVha19uYW1lOiBzdHJpbmc7CiAgcGhvdG9fdXJsOiBzdHJpbmc7CiAgY2FwdGlvbjogc3RyaW5nIHwgbnVsbDsKICBjcmVhdGVkX2F0OiBzdHJpbmc7CiAgdm90ZXM6IG51bWJlcjsKfQoKZXhwb3J0IGludGVyZmFjZSBQaG90b1JvdW5kIHsKICBjb3VudHJ5X3NsdWc6IHN0cmluZzsKICBzdGFydGVkX2F0OiBzdHJpbmc7CiAgZW5kc19hdDogc3RyaW5nOwp9CgovKiogVGhlIFN1cGFiYXNlIGNsaWVudCdzIGdlbmVyYXRlZCB0eXBlcyBkb24ndCBjb3ZlciB0aGUgY29udGVzdCB0YWJsZXMgeWV0LiAqLwpjb25zdCBkYiA9IHN1cGFiYXNlIGFzIHVua25vd24gYXMgewogIGZyb206ICh0YWJsZTogc3RyaW5nKSA9PiBhbnk7CiAgcnBjOiAoZm46IHN0cmluZywgYXJncz86IFJlY29yZDxzdHJpbmcsIHVua25vd24+KSA9PiBQcm9taXNlPHsgZGF0YTogYW55OyBlcnJvcjogYW55IH0+Owp9OwoKLyoqIFRydWUgb25jZSBhIHJvdW5kJ3MgMzAgZGF5cyBoYXZlIGVsYXBzZWQg4oCUIHRoZSB0YWxseSBpcyB0aGVuIGZpbmFsLiAqLwpleHBvcnQgY29uc3Qgcm91bmRDbG9zZWQgPSAocm91bmQ/OiBQaG90b1JvdW5kIHwgbnVsbCkgPT4KICAhIXJvdW5kICYmIG5ldyBEYXRlKHJvdW5kLmVuZHNfYXQpLmdldFRpbWUoKSA8PSBEYXRlLm5vdygpOwoKLyoqIFdob2xlIGRheXMgbGVmdCBpbiBhIHJvdW5kICgwIHdoZW4gY2xvc2VkIG9yIG5vdCBzdGFydGVkKS4gKi8KZXhwb3J0IGNvbnN0IGRheXNMZWZ0ID0gKHJvdW5kPzogUGhvdG9Sb3VuZCB8IG51bGwpID0+IHsKICBpZiAoIXJvdW5kKSByZXR1cm4gbnVsbDsKICBjb25zdCBtcyA9IG5ldyBEYXRlKHJvdW5kLmVuZHNfYXQpLmdldFRpbWUoKSAtIERhdGUubm93KCk7CiAgcmV0dXJuIG1zIDw9IDAgPyAwIDogTWF0aC5jZWlsKG1zIC8gODZfNDAwXzAwMCk7Cn07CgovKiogTW9zdC12b3RlZCBlbnRyeTsgdGllcyBicmVhayB0byB0aGUgZWFybGllc3Qgc3VibWlzc2lvbi4gKi8KZXhwb3J0IGNvbnN0IGxlYWRlciA9IChlbnRyaWVzOiBQaG90b0VudHJ5W10pOiBQaG90b0VudHJ5IHwgbnVsbCA9PiB7CiAgY29uc3QgcmFua2VkID0gWy4uLmVudHJpZXNdLnNvcnQoCiAgICAoYSwgYikgPT4gYi52b3RlcyAtIGEudm90ZXMgfHwgYS5jcmVhdGVkX2F0LmxvY2FsZUNvbXBhcmUoYi5jcmVhdGVkX2F0KSwKICApOwogIGNvbnN0IHRvcCA9IHJhbmtlZFswXTsKICByZXR1cm4gdG9wICYmIHRvcC52b3RlcyA+IDAgPyB0b3AgOiBudWxsOwp9OwoKLyoqIFRoZSBjb25maXJtZWQgd2lubmVyIOKAlCBvbmx5IG9uY2UgdGhlIHJvdW5kIGhhcyBjbG9zZWQuICovCmV4cG9ydCBjb25zdCB3aW5uZXJPZiA9IChlbnRyaWVzOiBQaG90b0VudHJ5W10sIHJvdW5kPzogUGhvdG9Sb3VuZCB8IG51bGwpID0+CiAgcm91bmRDbG9zZWQocm91bmQpID8gbGVhZGVyKGVudHJpZXMpIDogbnVsbDsKCmludGVyZmFjZSBDb250ZXN0RGF0YSB7CiAgZW50cmllczogUGhvdG9FbnRyeVtdOwogIHJvdW5kczogUmVjb3JkPHN0cmluZywgUGhvdG9Sb3VuZD47Cn0KCi8qKiBMb2FkIGNvbnRlc3QgZW50cmllcyAod2l0aCBwdWJsaWMgdGFsbGllcykgYW5kIHJvdW5kcywgb3B0aW9uYWxseSBmb3Igb25lIHBlYWsuICovCmV4cG9ydCBjb25zdCBmZXRjaENvbnRlc3QgPSBhc3luYyAoY291bnRyeVNsdWc/OiBzdHJpbmcpOiBQcm9taXNlPENvbnRlc3REYXRhPiA9PiB7CiAgbGV0IGVudHJ5UXVlcnkgPSBkYi5mcm9tKCJwZWFrX3Bob3RvX2VudHJpZXMiKS5zZWxlY3QoIioiKS5vcmRlcigiY3JlYXRlZF9hdCIsIHsgYXNjZW5kaW5nOiB0cnVlIH0pOwogIGxldCByb3VuZFF1ZXJ5ID0gZGIuZnJvbSgicGVha19waG90b19yb3VuZHMiKS5zZWxlY3QoIioiKTsKICBpZiAoY291bnRyeVNsdWcpIHsKICAgIGVudHJ5UXVlcnkgPSBlbnRyeVF1ZXJ5LmVxKCJjb3VudHJ5X3NsdWciLCBjb3VudHJ5U2x1Zyk7CiAgICByb3VuZFF1ZXJ5ID0gcm91bmRRdWVyeS5lcSgiY291bnRyeV9zbHVnIiwgY291bnRyeVNsdWcpOwogIH0KCiAgY29uc3QgW2VudHJ5UmVzLCByb3VuZFJlc10gPSBhd2FpdCBQcm9taXNlLmFsbChbZW50cnlRdWVyeSwgcm91bmRRdWVyeV0pOwoKICBjb25zdCBlbnRyaWVzOiBQaG90b0VudHJ5W10gPSAoZW50cnlSZXMuZGF0YSA/PyBbXSkubWFwKChlOiBQaG90b0VudHJ5KSA9PiAoewogICAgLi4uZSwKICAgIHZvdGVzOiBOdW1iZXIoZS52b3RlcyA/PyAwKSwKICB9KSk7CgogIGNvbnN0IHJvdW5kczogUmVjb3JkPHN0cmluZywgUGhvdG9Sb3VuZD4gPSB7fTsKICAocm91bmRSZXMuZGF0YSA/PyBbXSkuZm9yRWFjaCgocjogUGhvdG9Sb3VuZCkgPT4gewogICAgcm91bmRzW3IuY291bnRyeV9zbHVnXSA9IHI7CiAgfSk7CgogIHJldHVybiB7IGVudHJpZXMsIHJvdW5kcyB9Owp9OwoKCi8qKiBXaW5uaW5nIHBob3RvIFVSTCBmb3IgYSBwZWFrIHBhZ2UsIG9yIG51bGwgd2hpbGUgdm90aW5nIGlzIHN0aWxsIG9wZW4uICovCmV4cG9ydCBjb25zdCBmZXRjaFdpbm5lclBob3RvID0gYXN5bmMgKGNvdW50cnlTbHVnOiBzdHJpbmcpOiBQcm9taXNlPFBob3RvRW50cnkgfCBudWxsPiA9PiB7CiAgY29uc3QgeyBlbnRyaWVzLCByb3VuZHMgfSA9IGF3YWl0IGZldGNoQ29udGVzdChjb3VudHJ5U2x1Zyk7CiAgcmV0dXJuIHdpbm5lck9mKGVudHJpZXMsIHJvdW5kc1tjb3VudHJ5U2x1Z10pOwp9Owo=
+import { supabase } from "@/integrations/supabase/client";
+
+/** Length of a peak's photo contest, starting at the first vote cast. */
+export const ROUND_DAYS = 30;
+
+export interface PhotoEntry {
+  id: string;
+  user_id: string;
+  country_slug: string;
+  country: string;
+  peak_name: string;
+  photo_url: string;
+  caption: string | null;
+  created_at: string;
+  votes: number;
+}
+
+export interface PhotoRound {
+  country_slug: string;
+  started_at: string;
+  ends_at: string;
+}
+
+/** The Supabase client's generated types don't cover the contest tables yet. */
+const db = supabase as unknown as {
+  from: (table: string) => any;
+  rpc: (fn: string, args?: Record<string, unknown>) => Promise<{ data: any; error: any }>;
+};
+
+/** True once a round's 30 days have elapsed — the tally is then final. */
+export const roundClosed = (round?: PhotoRound | null) =>
+  !!round && new Date(round.ends_at).getTime() <= Date.now();
+
+/** Whole days left in a round (0 when closed or not started). */
+export const daysLeft = (round?: PhotoRound | null) => {
+  if (!round) return null;
+  const ms = new Date(round.ends_at).getTime() - Date.now();
+  return ms <= 0 ? 0 : Math.ceil(ms / 86_400_000);
+};
+
+/** Most-voted entry; ties break to the earliest submission. */
+export const leader = (entries: PhotoEntry[]): PhotoEntry | null => {
+  const ranked = [...entries].sort(
+    (a, b) => b.votes - a.votes || a.created_at.localeCompare(b.created_at),
+  );
+  const top = ranked[0];
+  return top && top.votes > 0 ? top : null;
+};
+
+/** The confirmed winner — only once the round has closed. */
+export const winnerOf = (entries: PhotoEntry[], round?: PhotoRound | null) =>
+  roundClosed(round) ? leader(entries) : null;
+
+interface ContestData {
+  entries: PhotoEntry[];
+  rounds: Record<string, PhotoRound>;
+}
+
+/** Load contest entries (with public tallies) and rounds, optionally for one peak. */
+export const fetchContest = async (countrySlug?: string): Promise<ContestData> => {
+  let entryQuery = db.from("peak_photo_entries").select("*").order("created_at", { ascending: true });
+  let roundQuery = db.from("peak_photo_rounds").select("*");
+  if (countrySlug) {
+    entryQuery = entryQuery.eq("country_slug", countrySlug);
+    roundQuery = roundQuery.eq("country_slug", countrySlug);
+  }
+
+  const [entryRes, roundRes] = await Promise.all([entryQuery, roundQuery]);
+
+  const entries: PhotoEntry[] = (entryRes.data ?? []).map((e: PhotoEntry) => ({
+    ...e,
+    votes: Number(e.votes ?? 0),
+  }));
+
+  const rounds: Record<string, PhotoRound> = {};
+  (roundRes.data ?? []).forEach((r: PhotoRound) => {
+    rounds[r.country_slug] = r;
+  });
+
+  return { entries, rounds };
+};
+
+
+/** Winning photo URL for a peak page, or null while voting is still open. */
+export const fetchWinnerPhoto = async (countrySlug: string): Promise<PhotoEntry | null> => {
+  const { entries, rounds } = await fetchContest(countrySlug);
+  return winnerOf(entries, rounds[countrySlug]);
+};

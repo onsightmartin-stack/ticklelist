@@ -1,1 +1,17 @@
-LyoqCiAqIFVSTC1zYWZlIHNsdWcgaGVscGVycyBmb3IgY291bnRyeSBoaWdocG9pbnQgcGFnZXMuCiAqLwpleHBvcnQgZnVuY3Rpb24gc2x1Z2lmeShuYW1lOiBzdHJpbmcpOiBzdHJpbmcgewogIHJldHVybiBuYW1lCiAgICAudG9Mb3dlckNhc2UoKQogICAgLm5vcm1hbGl6ZSgiTkZEIikKICAgIC5yZXBsYWNlKC9bXHUwMzAwLVx1MDM2Zl0vZywgIiIpCiAgICAucmVwbGFjZSgvW15hLXowLTldKy9nLCAiLSIpCiAgICAucmVwbGFjZSgvXi0rfC0rJC9nLCAiIik7Cn0KCmV4cG9ydCBmdW5jdGlvbiBmaW5kQ291bnRyeUJ5U2x1ZyhzbHVnOiBzdHJpbmcsIGNvdW50cmllczogeyBjb3VudHJ5OiBzdHJpbmcgfVtdKTogc3RyaW5nIHwgbnVsbCB7CiAgY29uc3QgdGFyZ2V0ID0gc2x1Zy50b0xvd2VyQ2FzZSgpOwogIGNvbnN0IG1hdGNoID0gY291bnRyaWVzLmZpbmQoKGMpID0+IHNsdWdpZnkoYy5jb3VudHJ5KSA9PT0gdGFyZ2V0KTsKICByZXR1cm4gbWF0Y2g/LmNvdW50cnkgPz8gbnVsbDsKfQo=
+/**
+ * URL-safe slug helpers for country highpoint pages.
+ */
+export function slugify(name: string): string {
+  return name
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+export function findCountryBySlug(slug: string, countries: { country: string }[]): string | null {
+  const target = slug.toLowerCase();
+  const match = countries.find((c) => slugify(c.country) === target);
+  return match?.country ?? null;
+}

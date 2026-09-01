@@ -1,1 +1,185 @@
-LyoqCiAqIERhaWx5IFBlYWtiYWdnZXIgc2NyYXBlLgogKgogKiBDYWxsZWQgYnkgcGdfY3JvbiBvbmNlIGEgZGF5LiBFYWNoIHJ1biB0YWtlcyB0aGUgbGVhc3QtcmVjZW50bHktc2NyYXBlZAogKiBzbGljZSBvZiB0aGUgUGVha2JhZ2dlciBsaXN0IGNhdGFsb2csIHJlLXNjcmFwZXMgdGhvc2UgbGlzdHMgYW5kIHVwc2VydHMKICogZXZlcnkgcGVhayBpbnRvIGBwZWFrYmFnZ2VyX3BlYWtzYC4gT3ZlciB0aW1lIHRoZSB3aG9sZSBjYXRhbG9nIHJvdGF0ZXMsCiAqIHNvIG5ld2x5IHB1Ymxpc2hlZCBwZWFrcyBhbmQgY29ycmVjdGVkIGVsZXZhdGlvbnMgZmxvdyBpbiBhdXRvbWF0aWNhbGx5LgogKgogKiBBdXRoOiB0aGUgU3VwYWJhc2UgcHVibGlzaGFibGUvYW5vbiBrZXkgaW4gdGhlIGBhcGlrZXlgIGhlYWRlci4KICovCmltcG9ydCB7IGNyZWF0ZUZpbGVSb3V0ZSB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwoKaW1wb3J0IGxpc3RJZHMgZnJvbSAiQC9kYXRhL3BlYWtiYWdnZXItbGlzdC1pZHMuanNvbiI7Cgpjb25zdCBERUZBVUxUX0JBVENIID0gMzA7Cgpjb25zdCBqc29uID0gKGJvZHk6IHVua25vd24sIHN0YXR1cyA9IDIwMCkgPT4KICBuZXcgUmVzcG9uc2UoSlNPTi5zdHJpbmdpZnkoYm9keSksIHsgc3RhdHVzLCBoZWFkZXJzOiB7ICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIgfSB9KTsKCmNvbnN0IGhhbmRsZXIgPSBhc3luYyAoeyByZXF1ZXN0IH06IHsgcmVxdWVzdDogUmVxdWVzdCB9KSA9PiB7CiAgY29uc3QgYW5vbktleSA9IHByb2Nlc3MuZW52WyJTVVBBQkFTRV9QVUJMSVNIQUJMRV9LRVkiXSA/PyBwcm9jZXNzLmVudlsiU1VQQUJBU0VfQU5PTl9LRVkiXTsKICBjb25zdCBwcm92aWRlZCA9IHJlcXVlc3QuaGVhZGVycy5nZXQoImFwaWtleSIpID8/ICIiOwogIGlmICghYW5vbktleSB8fCBwcm92aWRlZCAhPT0gYW5vbktleSkgcmV0dXJuIGpzb24oeyBlcnJvcjogInVuYXV0aG9yaXplZCIgfSwgNDAxKTsKCiAgY29uc3QgdXJsID0gbmV3IFVSTChyZXF1ZXN0LnVybCk7CiAgY29uc3QgbGltaXQgPSBNYXRoLm1pbihNYXRoLm1heChOdW1iZXIodXJsLnNlYXJjaFBhcmFtcy5nZXQoImxpbWl0IikgPz8gREVGQVVMVF9CQVRDSCkgfHwgREVGQVVMVF9CQVRDSCwgMSksIDYwKTsKCiAgY29uc3QgeyBzdXBhYmFzZUFkbWluIH0gPSBhd2FpdCBpbXBvcnQoIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudC5zZXJ2ZXIiKTsKICBjb25zdCB7IGZldGNoUGVha2JhZ2dlciB9ID0gYXdhaXQgaW1wb3J0KCJAL2xpYi9wZWFrYmFnZ2VyLWZldGNoLnNlcnZlciIpOwogIGNvbnN0IHsgcGFyc2VMaXN0TWFya2Rvd24gfSA9IGF3YWl0IGltcG9ydCgiQC9saWIvcGVha2JhZ2dlci1saXN0LXBhcnNlIik7CgogIGNvbnN0IGNhdGFsb2cgPSBsaXN0SWRzIGFzIHN0cmluZ1tdOwoKICAvLyBQaWNrIHRoZSBvbGRlc3Qtc2NyYXBlZCBsaXN0cyBmaXJzdDsgbGlzdHMgbmV2ZXIgc2NyYXBlZCBjb21lIGZpcnN0IG9mIGFsbC4KICBjb25zdCB7IGRhdGE6IHRyYWNrZWQgfSA9IGF3YWl0IHN1cGFiYXNlQWRtaW4KICAgIC5mcm9tKCJwZWFrYmFnZ2VyX2ltcG9ydF9saXN0cyIpCiAgICAuc2VsZWN0KCJsaXN0X2lkLCBzY3JhcGVkX2F0IikKICAgIC5vcmRlcigic2NyYXBlZF9hdCIsIHsgYXNjZW5kaW5nOiB0cnVlIH0pOwoKICBjb25zdCBzZWVuQXQgPSBuZXcgTWFwKCh0cmFja2VkID8/IFtdKS5tYXAoKHIpID0+IFtyLmxpc3RfaWQsIHIuc2NyYXBlZF9hdF0pKTsKICBjb25zdCBxdWV1ZSA9IFsuLi5jYXRhbG9nXQogICAgLnNvcnQoKGEsIGIpID0+IHsKICAgICAgY29uc3QgYXYgPSBzZWVuQXQuZ2V0KGEpID8/ICIiOwogICAgICBjb25zdCBidiA9IHNlZW5BdC5nZXQoYikgPz8gIiI7CiAgICAgIHJldHVybiBhdiA9PT0gYnYgPyBOdW1iZXIoYSkgLSBOdW1iZXIoYikgOiBhdiA8IGJ2ID8gLTEgOiAxOwogICAgfSkKICAgIC5zbGljZSgwLCBsaW1pdCk7CgogIGNvbnN0IHsgZGF0YTogcnVuIH0gPSBhd2FpdCBzdXBhYmFzZUFkbWluCiAgICAuZnJvbSgicGVha2JhZ2dlcl9pbXBvcnRfcnVucyIpCiAgICAuaW5zZXJ0KHsgc3RhdHVzOiAicnVubmluZyIsIGxpc3RzX3RvdGFsOiBxdWV1ZS5sZW5ndGggfSkKICAgIC5zZWxlY3QoImlkIikKICAgIC5zaW5nbGUoKTsKICBjb25zdCBydW5JZCA9IHJ1bj8uaWQgPz8gbnVsbDsKCiAgY29uc3QgbG9nID0gYXN5bmMgKGxldmVsOiBzdHJpbmcsIG1lc3NhZ2U6IHN0cmluZykgPT4gewogICAgaWYgKCFydW5JZCkgcmV0dXJuOwogICAgYXdhaXQgc3VwYWJhc2VBZG1pbi5mcm9tKCJwZWFrYmFnZ2VyX2ltcG9ydF9ldmVudHMiKS5pbnNlcnQoeyBydW5faWQ6IHJ1bklkLCBsZXZlbCwgbWVzc2FnZSwgc2NvcGU6ICJkYWlseS1jcm9uIiB9KTsKICB9OwoKICBsZXQgcGVha3MgPSAwOwogIGxldCBpbnNlcnRlZCA9IDA7CiAgbGV0IGJsb2NrZWQgPSAwOwoKICBmb3IgKGNvbnN0IGxpZCBvZiBxdWV1ZSkgewogICAgdHJ5IHsKICAgICAgY29uc3QgcGFnZSA9IGF3YWl0IGZldGNoUGVha2JhZ2dlcihgaHR0cHM6Ly9wZWFrYmFnZ2VyLmNvbS9saXN0LmFzcHg/bGlkPSR7bGlkfSZ1PW1gKTsKICAgICAgaWYgKHBhZ2UuYmxvY2tlZCB8fCAhcGFnZS5tYXJrZG93bikgewogICAgICAgIGJsb2NrZWQrKzsKICAgICAgICBhd2FpdCBzdXBhYmFzZUFkbWluLmZyb20oInBlYWtiYWdnZXJfaW1wb3J0X2xpc3RzIikudXBzZXJ0KHsKICAgICAgICAgIGxpc3RfaWQ6IGxpZCwKICAgICAgICAgIHJ1bl9pZDogcnVuSWQsCiAgICAgICAgICBzdGF0dXM6ICJibG9ja2VkIiwKICAgICAgICAgIHJvd19jb3VudDogMCwKICAgICAgICAgIGVycm9yOiAiYmxvY2tlZCBieSBQZWFrYmFnZ2VyIiwKICAgICAgICAgIHNjcmFwZWRfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwKICAgICAgICB9KTsKICAgICAgICBjb250aW51ZTsKICAgICAgfQoKICAgICAgY29uc3Qgcm93cyA9IHBhcnNlTGlzdE1hcmtkb3duKHBhZ2UubWFya2Rvd24sIGxpZCk7CiAgICAgIHBlYWtzICs9IHJvd3MubGVuZ3RoOwoKICAgICAgaWYgKHJvd3MubGVuZ3RoID4gMCkgewogICAgICAgIGNvbnN0IHsgZGF0YTogZXhpc3RpbmcgfSA9IGF3YWl0IHN1cGFiYXNlQWRtaW4KICAgICAgICAgIC5mcm9tKCJwZWFrYmFnZ2VyX3BlYWtzIikKICAgICAgICAgIC5zZWxlY3QoInBpZCIpCiAgICAgICAgICAuaW4oInBpZCIsIHJvd3MubWFwKChyKSA9PiByLnBpZCkpOwogICAgICAgIGNvbnN0IGtub3duID0gbmV3IFNldCgoZXhpc3RpbmcgPz8gW10pLm1hcCgocikgPT4gci5waWQpKTsKICAgICAgICBpbnNlcnRlZCArPSByb3dzLmZpbHRlcigocikgPT4gIWtub3duLmhhcyhyLnBpZCkpLmxlbmd0aDsKCiAgICAgICAgZm9yIChsZXQgaSA9IDA7IGkgPCByb3dzLmxlbmd0aDsgaSArPSA1MDApIHsKICAgICAgICAgIGNvbnN0IGNodW5rID0gcm93cy5zbGljZShpLCBpICsgNTAwKS5tYXAoKHIpID0+ICh7CiAgICAgICAgICAgIHBpZDogci5waWQsCiAgICAgICAgICAgIG5hbWU6IHIucGVhaywKICAgICAgICAgICAgZWxldmF0aW9uOiByLmVsZXZNLAogICAgICAgICAgICBwcm9taW5lbmNlOiByLnByb21NID8/IG51bGwsCiAgICAgICAgICAgIGxvY2F0aW9uOiByLmNvdW50cnkgPz8gbnVsbCwKICAgICAgICAgICAgcmFuZ2U6IHIucmFuZ2UgPz8gbnVsbCwKICAgICAgICAgICAgZmV0Y2hlZF9hdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpLAogICAgICAgICAgfSkpOwogICAgICAgICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2VBZG1pbi5mcm9tKCJwZWFrYmFnZ2VyX3BlYWtzIikudXBzZXJ0KGNodW5rLCB7IG9uQ29uZmxpY3Q6ICJwaWQiIH0pOwogICAgICAgICAgaWYgKGVycm9yKSB0aHJvdyBuZXcgRXJyb3IoZXJyb3IubWVzc2FnZSk7CiAgICAgICAgfQogICAgICB9CgogICAgICBhd2FpdCBzdXBhYmFzZUFkbWluLmZyb20oInBlYWtiYWdnZXJfaW1wb3J0X2xpc3RzIikudXBzZXJ0KHsKICAgICAgICBsaXN0X2lkOiBsaWQsCiAgICAgICAgcnVuX2lkOiBydW5JZCwKICAgICAgICBzdGF0dXM6ICJkb25lIiwKICAgICAgICByb3dfY291bnQ6IHJvd3MubGVuZ3RoLAogICAgICAgIGVycm9yOiBudWxsLAogICAgICAgIHNjcmFwZWRfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwKICAgICAgfSk7CiAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgY29uc3QgbWVzc2FnZSA9IGVyciBpbnN0YW5jZW9mIEVycm9yID8gZXJyLm1lc3NhZ2UgOiBTdHJpbmcoZXJyKTsKICAgICAgYXdhaXQgbG9nKCJlcnJvciIsIGBsaWQgJHtsaWR9OiAke21lc3NhZ2V9YCk7CiAgICAgIGF3YWl0IHN1cGFiYXNlQWRtaW4uZnJvbSgicGVha2JhZ2dlcl9pbXBvcnRfbGlzdHMiKS51cHNlcnQoewogICAgICAgIGxpc3RfaWQ6IGxpZCwKICAgICAgICBydW5faWQ6IHJ1bklkLAogICAgICAgIHN0YXR1czogImZhaWxlZCIsCiAgICAgICAgcm93X2NvdW50OiAwLAogICAgICAgIGVycm9yOiBtZXNzYWdlLnNsaWNlKDAsIDUwMCksCiAgICAgICAgc2NyYXBlZF9hdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpLAogICAgICB9KTsKICAgIH0KICB9CgogIC8vIENvb3JkaW5hdGUgZW5yaWNobWVudDogdG9wIHVwIHBlYWtzIHRoYXQgc3RpbGwgaGF2ZSBubyBsYXQvbG9uIGJ5IHJlYWRpbmcKICAvLyB0aGVpciBQZWFrYmFnZ2VyIHBlYWsgcGFnZSAodGhlIG9ubHkgc291cmNlIG9mIHJlY29yZCBmb3IgcGVhayBmYWN0cykuCiAgY29uc3QgY29vcmRMaW1pdCA9IE1hdGgubWluKAogICAgTWF0aC5tYXgoTnVtYmVyKHVybC5zZWFyY2hQYXJhbXMuZ2V0KCJjb29yZHMiKSA/PyAyNSkgfHwgMCwgMCksCiAgICA2MCwKICApOwogIGxldCBjb29yZHNBZGRlZCA9IDA7CiAgaWYgKGNvb3JkTGltaXQgPiAwKSB7CiAgICBjb25zdCB7IHBhcnNlUGVha0Nvb3JkcyB9ID0gYXdhaXQgaW1wb3J0KCJAL2xpYi9wZWFrYmFnZ2VyLWxpc3QtcGFyc2UiKTsKICAgIGNvbnN0IHsgZGF0YTogbWlzc2luZyB9ID0gYXdhaXQgc3VwYWJhc2VBZG1pbgogICAgICAuZnJvbSgicGVha2JhZ2dlcl9wZWFrcyIpCiAgICAgIC5zZWxlY3QoInBpZCIpCiAgICAgIC5pcygibGF0IiwgbnVsbCkKICAgICAgLm9yZGVyKCJjb29yZHNfY2hlY2tlZF9hdCIsIHsgYXNjZW5kaW5nOiB0cnVlLCBudWxsc0ZpcnN0OiB0cnVlIH0pCiAgICAgIC5saW1pdChjb29yZExpbWl0KTsKCiAgICBmb3IgKGNvbnN0IHJvdyBvZiBtaXNzaW5nID8/IFtdKSB7CiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgcGFnZSA9IGF3YWl0IGZldGNoUGVha2JhZ2dlcihgaHR0cHM6Ly9wZWFrYmFnZ2VyLmNvbS9wZWFrLmFzcHg/cGlkPSR7cm93LnBpZH1gKTsKICAgICAgICBjb25zdCBjb29yZHMgPSBwYWdlLmJsb2NrZWQgPyBudWxsIDogcGFyc2VQZWFrQ29vcmRzKHBhZ2UubWFya2Rvd24gPz8gIiIpOwogICAgICAgIGF3YWl0IHN1cGFiYXNlQWRtaW4KICAgICAgICAgIC5mcm9tKCJwZWFrYmFnZ2VyX3BlYWtzIikKICAgICAgICAgIC51cGRhdGUoewogICAgICAgICAgICAuLi4oY29vcmRzID8geyBsYXQ6IGNvb3Jkcy5sYXQsIGxvbjogY29vcmRzLmxvbiwgY29vcmRzX3NvdXJjZTogInBlYWtiYWdnZXIiIH0gOiB7fSksCiAgICAgICAgICAgIGNvb3Jkc19jaGVja2VkX2F0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCksCiAgICAgICAgICB9KQogICAgICAgICAgLmVxKCJwaWQiLCByb3cucGlkKTsKICAgICAgICBpZiAoY29vcmRzKSBjb29yZHNBZGRlZCsrOwogICAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgICBhd2FpdCBsb2coImVycm9yIiwgYGNvb3JkcyBwaWQgJHtyb3cucGlkfTogJHtlcnIgaW5zdGFuY2VvZiBFcnJvciA/IGVyci5tZXNzYWdlIDogU3RyaW5nKGVycil9YCk7CiAgICAgIH0KICAgIH0KICAgIGlmIChtaXNzaW5nPy5sZW5ndGgpIGF3YWl0IGxvZygiaW5mbyIsIGBjb29yZHM6ICR7Y29vcmRzQWRkZWR9LyR7bWlzc2luZy5sZW5ndGh9IHBlYWtzIGxvY2F0ZWRgKTsKICB9CgogIGNvbnN0IHN1bW1hcnkgPSBgZGFpbHkgc2NyYXBlOiAke3F1ZXVlLmxlbmd0aH0gbGlzdHMsICR7cGVha3N9IHBlYWtzIHNlZW4sICR7aW5zZXJ0ZWR9IG5ldywgJHtibG9ja2VkfSBibG9ja2VkLCAke2Nvb3Jkc0FkZGVkfSBjb29yZHNgOwogIGF3YWl0IGxvZygiaW5mbyIsIHN1bW1hcnkpOwogIGlmIChydW5JZCkgewogICAgYXdhaXQgc3VwYWJhc2VBZG1pbgogICAgICAuZnJvbSgicGVha2JhZ2dlcl9pbXBvcnRfcnVucyIpCiAgICAgIC51cGRhdGUoewogICAgICAgIHN0YXR1czogImNvbXBsZXRlZCIsCiAgICAgICAgbGlzdHNfZG9uZTogcXVldWUubGVuZ3RoIC0gYmxvY2tlZCwKICAgICAgICBsaXN0c19ibG9ja2VkOiBibG9ja2VkLAogICAgICAgIHBlYWtzX2NhcHR1cmVkOiBwZWFrcywKICAgICAgICBmaW5pc2hlZF9hdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpLAogICAgICAgIHVwZGF0ZWRfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwKICAgICAgfSkKICAgICAgLmVxKCJpZCIsIHJ1bklkKTsKICB9CgogIHJldHVybiBqc29uKHsgb2s6IHRydWUsIGxpc3RzOiBxdWV1ZS5sZW5ndGgsIHBlYWtzLCBpbnNlcnRlZCwgYmxvY2tlZCwgY29vcmRzQWRkZWQsIHJ1bklkIH0pOwp9OwoKZXhwb3J0IGNvbnN0IFJvdXRlID0gY3JlYXRlRmlsZVJvdXRlKCIvYXBpL3B1YmxpYy9ob29rcy9zY3JhcGUtcGVha2JhZ2dlciIpKHsKICBzZXJ2ZXI6IHsgaGFuZGxlcnM6IHsgUE9TVDogaGFuZGxlciwgR0VUOiBoYW5kbGVyIH0gfSwKfSk7Cg==
+/**
+ * Daily Peakbagger scrape.
+ *
+ * Called by pg_cron once a day. Each run takes the least-recently-scraped
+ * slice of the Peakbagger list catalog, re-scrapes those lists and upserts
+ * every peak into `peakbagger_peaks`. Over time the whole catalog rotates,
+ * so newly published peaks and corrected elevations flow in automatically.
+ *
+ * Auth: the Supabase publishable/anon key in the `apikey` header.
+ */
+import { createFileRoute } from "@tanstack/react-router";
+
+import listIds from "@/data/peakbagger-list-ids.json";
+
+const DEFAULT_BATCH = 30;
+
+const json = (body: unknown, status = 200) =>
+  new Response(JSON.stringify(body), { status, headers: { "Content-Type": "application/json" } });
+
+const handler = async ({ request }: { request: Request }) => {
+  const anonKey = process.env["SUPABASE_PUBLISHABLE_KEY"] ?? process.env["SUPABASE_ANON_KEY"];
+  const provided = request.headers.get("apikey") ?? "";
+  if (!anonKey || provided !== anonKey) return json({ error: "unauthorized" }, 401);
+
+  const url = new URL(request.url);
+  const limit = Math.min(Math.max(Number(url.searchParams.get("limit") ?? DEFAULT_BATCH) || DEFAULT_BATCH, 1), 60);
+
+  const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+  const { fetchPeakbagger } = await import("@/lib/peakbagger-fetch.server");
+  const { parseListMarkdown } = await import("@/lib/peakbagger-list-parse");
+
+  const catalog = listIds as string[];
+
+  // Pick the oldest-scraped lists first; lists never scraped come first of all.
+  const { data: tracked } = await supabaseAdmin
+    .from("peakbagger_import_lists")
+    .select("list_id, scraped_at")
+    .order("scraped_at", { ascending: true });
+
+  const seenAt = new Map((tracked ?? []).map((r) => [r.list_id, r.scraped_at]));
+  const queue = [...catalog]
+    .sort((a, b) => {
+      const av = seenAt.get(a) ?? "";
+      const bv = seenAt.get(b) ?? "";
+      return av === bv ? Number(a) - Number(b) : av < bv ? -1 : 1;
+    })
+    .slice(0, limit);
+
+  const { data: run } = await supabaseAdmin
+    .from("peakbagger_import_runs")
+    .insert({ status: "running", lists_total: queue.length })
+    .select("id")
+    .single();
+  const runId = run?.id ?? null;
+
+  const log = async (level: string, message: string) => {
+    if (!runId) return;
+    await supabaseAdmin.from("peakbagger_import_events").insert({ run_id: runId, level, message, scope: "daily-cron" });
+  };
+
+  let peaks = 0;
+  let inserted = 0;
+  let blocked = 0;
+
+  for (const lid of queue) {
+    try {
+      const page = await fetchPeakbagger(`https://peakbagger.com/list.aspx?lid=${lid}&u=m`);
+      if (page.blocked || !page.markdown) {
+        blocked++;
+        await supabaseAdmin.from("peakbagger_import_lists").upsert({
+          list_id: lid,
+          run_id: runId,
+          status: "blocked",
+          row_count: 0,
+          error: "blocked by Peakbagger",
+          scraped_at: new Date().toISOString(),
+        });
+        continue;
+      }
+
+      const rows = parseListMarkdown(page.markdown, lid);
+      peaks += rows.length;
+
+      if (rows.length > 0) {
+        const { data: existing } = await supabaseAdmin
+          .from("peakbagger_peaks")
+          .select("pid")
+          .in("pid", rows.map((r) => r.pid));
+        const known = new Set((existing ?? []).map((r) => r.pid));
+        inserted += rows.filter((r) => !known.has(r.pid)).length;
+
+        for (let i = 0; i < rows.length; i += 500) {
+          const chunk = rows.slice(i, i + 500).map((r) => ({
+            pid: r.pid,
+            name: r.peak,
+            elevation: r.elevM,
+            prominence: r.promM ?? null,
+            location: r.country ?? null,
+            range: r.range ?? null,
+            fetched_at: new Date().toISOString(),
+          }));
+          const { error } = await supabaseAdmin.from("peakbagger_peaks").upsert(chunk, { onConflict: "pid" });
+          if (error) throw new Error(error.message);
+        }
+      }
+
+      await supabaseAdmin.from("peakbagger_import_lists").upsert({
+        list_id: lid,
+        run_id: runId,
+        status: "done",
+        row_count: rows.length,
+        error: null,
+        scraped_at: new Date().toISOString(),
+      });
+    } catch (err) {
+      const message = err instanceof Error ? err.message : String(err);
+      await log("error", `lid ${lid}: ${message}`);
+      await supabaseAdmin.from("peakbagger_import_lists").upsert({
+        list_id: lid,
+        run_id: runId,
+        status: "failed",
+        row_count: 0,
+        error: message.slice(0, 500),
+        scraped_at: new Date().toISOString(),
+      });
+    }
+  }
+
+  // Coordinate enrichment: top up peaks that still have no lat/lon by reading
+  // their Peakbagger peak page (the only source of record for peak facts).
+  const coordLimit = Math.min(
+    Math.max(Number(url.searchParams.get("coords") ?? 25) || 0, 0),
+    60,
+  );
+  let coordsAdded = 0;
+  if (coordLimit > 0) {
+    const { parsePeakCoords } = await import("@/lib/peakbagger-list-parse");
+    const { data: missing } = await supabaseAdmin
+      .from("peakbagger_peaks")
+      .select("pid")
+      .is("lat", null)
+      .order("coords_checked_at", { ascending: true, nullsFirst: true })
+      .limit(coordLimit);
+
+    for (const row of missing ?? []) {
+      try {
+        const page = await fetchPeakbagger(`https://peakbagger.com/peak.aspx?pid=${row.pid}`);
+        const coords = page.blocked ? null : parsePeakCoords(page.markdown ?? "");
+        await supabaseAdmin
+          .from("peakbagger_peaks")
+          .update({
+            ...(coords ? { lat: coords.lat, lon: coords.lon, coords_source: "peakbagger" } : {}),
+            coords_checked_at: new Date().toISOString(),
+          })
+          .eq("pid", row.pid);
+        if (coords) coordsAdded++;
+      } catch (err) {
+        await log("error", `coords pid ${row.pid}: ${err instanceof Error ? err.message : String(err)}`);
+      }
+    }
+    if (missing?.length) await log("info", `coords: ${coordsAdded}/${missing.length} peaks located`);
+  }
+
+  const summary = `daily scrape: ${queue.length} lists, ${peaks} peaks seen, ${inserted} new, ${blocked} blocked, ${coordsAdded} coords`;
+  await log("info", summary);
+  if (runId) {
+    await supabaseAdmin
+      .from("peakbagger_import_runs")
+      .update({
+        status: "completed",
+        lists_done: queue.length - blocked,
+        lists_blocked: blocked,
+        peaks_captured: peaks,
+        finished_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+      })
+      .eq("id", runId);
+  }
+
+  return json({ ok: true, lists: queue.length, peaks, inserted, blocked, coordsAdded, runId });
+};
+
+export const Route = createFileRoute("/api/public/hooks/scrape-peakbagger")({
+  server: { handlers: { POST: handler, GET: handler } },
+});

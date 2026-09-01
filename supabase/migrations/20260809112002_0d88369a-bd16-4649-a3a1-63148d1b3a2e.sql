@@ -1,1 +1,1 @@
-UkVWT0tFIEVYRUNVVEUgT04gRlVOQ1RJT04gcHVibGljLmhhbmRsZV9uZXdfdXNlcigpIEZST00gYW5vbiwgYXV0aGVudGljYXRlZCwgUFVCTElDOw==
+REVOKE EXECUTE ON FUNCTION public.handle_new_user() FROM anon, authenticated, PUBLIC;

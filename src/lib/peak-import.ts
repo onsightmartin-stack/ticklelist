@@ -1,1 +1,233 @@
-LyoqCiAqIFBhcnNpbmcgaGVscGVycyBmb3IgdGhlIGFkbWluIGJ1bGsgcGVhayBpbXBvcnRlci4KICogQWNjZXB0cyBDU1YgKHdpdGggaGVhZGVyIHJvdykgb3IgYSBKU09OIGFycmF5IG9mIG9iamVjdHMuCiAqLwoKZXhwb3J0IGludGVyZmFjZSBJbXBvcnRQZWFrIHsKICBuYW1lOiBzdHJpbmc7CiAgZWxldmF0aW9uOiBudW1iZXIgfCBudWxsOwogIHByb21pbmVuY2U6IG51bWJlciB8IG51bGw7CiAgbGF0OiBudW1iZXIgfCBudWxsOwogIGxvbjogbnVtYmVyIHwgbnVsbDsKICBjb3VudHJ5X2NvZGU6IHN0cmluZyB8IG51bGw7CiAgYWRtaW4xOiBzdHJpbmcgfCBudWxsOwogIGZlYXR1cmVfY29kZTogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIFBhcnNlUmVzdWx0IHsKICByb3dzOiBJbXBvcnRQZWFrW107CiAgZXJyb3JzOiBzdHJpbmdbXTsKfQoKLyoqIEhlYWRlciBhbGlhc2VzIOKGkiBjYW5vbmljYWwgZmllbGQuICovCmNvbnN0IEZJRUxEX0FMSUFTRVM6IFJlY29yZDxzdHJpbmcsIGtleW9mIEltcG9ydFBlYWs+ID0gewogIG5hbWU6ICJuYW1lIiwKICBwZWFrOiAibmFtZSIsCiAgcGVha19uYW1lOiAibmFtZSIsCiAgdGl0bGU6ICJuYW1lIiwKICBlbGV2YXRpb246ICJlbGV2YXRpb24iLAogIGVsZXY6ICJlbGV2YXRpb24iLAogIGhlaWdodDogImVsZXZhdGlvbiIsCiAgYWx0aXR1ZGU6ICJlbGV2YXRpb24iLAogIG1ldHJlczogImVsZXZhdGlvbiIsCiAgbWV0ZXJzOiAiZWxldmF0aW9uIiwKICBwcm9taW5lbmNlOiAicHJvbWluZW5jZSIsCiAgcHJvbTogInByb21pbmVuY2UiLAogIGxhdDogImxhdCIsCiAgbGF0aXR1ZGU6ICJsYXQiLAogIGxvbjogImxvbiIsCiAgbG5nOiAibG9uIiwKICBsb25nOiAibG9uIiwKICBsb25naXR1ZGU6ICJsb24iLAogIGNvdW50cnk6ICJjb3VudHJ5X2NvZGUiLAogIGNvdW50cnlfY29kZTogImNvdW50cnlfY29kZSIsCiAgY2M6ICJjb3VudHJ5X2NvZGUiLAogIGlzbzogImNvdW50cnlfY29kZSIsCiAgcmVnaW9uOiAiYWRtaW4xIiwKICBhZG1pbjE6ICJhZG1pbjEiLAogIHN0YXRlOiAiYWRtaW4xIiwKICBwcm92aW5jZTogImFkbWluMSIsCiAgY291bnR5OiAiYWRtaW4xIiwKICB0eXBlOiAiZmVhdHVyZV9jb2RlIiwKICBmZWF0dXJlX2NvZGU6ICJmZWF0dXJlX2NvZGUiLAp9OwoKY29uc3Qgbm9ybUtleSA9IChrOiBzdHJpbmcpID0+IGsudHJpbSgpLnRvTG93ZXJDYXNlKCkucmVwbGFjZSgvXHMrL2csICJfIik7Cgpjb25zdCBudW0gPSAodjogdW5rbm93bik6IG51bWJlciB8IG51bGwgPT4gewogIGlmICh2ID09PSBudWxsIHx8IHYgPT09IHVuZGVmaW5lZCB8fCB2ID09PSAiIikgcmV0dXJuIG51bGw7CiAgY29uc3QgbiA9IE51bWJlcihTdHJpbmcodikucmVwbGFjZSgvW15cZC5cLV0vZywgIiIpKTsKICByZXR1cm4gTnVtYmVyLmlzRmluaXRlKG4pID8gbiA6IG51bGw7Cn07Cgpjb25zdCBzdHIgPSAodjogdW5rbm93bik6IHN0cmluZyB8IG51bGwgPT4gewogIGNvbnN0IHMgPSB2ID09PSBudWxsIHx8IHYgPT09IHVuZGVmaW5lZCA/ICIiIDogU3RyaW5nKHYpLnRyaW0oKTsKICByZXR1cm4gcyA9PT0gIiIgPyBudWxsIDogczsKfTsKCi8qKiBGZWF0dXJlIGNvZGVzIG1pcnJvciBHZW9OYW1lczogUEsgcGVhaywgTVQgbW91bnRhaW4sIEhMTCBoaWxsLCBWTEMgdm9sY2Fuby4gKi8KY29uc3QgRkVBVFVSRV9DT0RFUyA9IG5ldyBTZXQoWyJQSyIsICJNVCIsICJITEwiLCAiVkxDIiwgIlBLUyIsICJNVFMiLCAiUkRHRSJdKTsKCmNvbnN0IHRvUGVhayA9IChyYXc6IFJlY29yZDxzdHJpbmcsIHVua25vd24+LCBpbmRleDogbnVtYmVyLCBlcnJvcnM6IHN0cmluZ1tdKTogSW1wb3J0UGVhayB8IG51bGwgPT4gewogIGNvbnN0IG1hcHBlZDogUmVjb3JkPHN0cmluZywgdW5rbm93bj4gPSB7fTsKICBmb3IgKGNvbnN0IFtrZXksIHZhbHVlXSBvZiBPYmplY3QuZW50cmllcyhyYXcpKSB7CiAgICBjb25zdCBmaWVsZCA9IEZJRUxEX0FMSUFTRVNbbm9ybUtleShrZXkpXTsKICAgIGlmIChmaWVsZCkgbWFwcGVkW2ZpZWxkXSA9IHZhbHVlOwogIH0KCiAgY29uc3QgbmFtZSA9IHN0cihtYXBwZWRbIm5hbWUiXSk7CiAgaWYgKCFuYW1lKSB7CiAgICBlcnJvcnMucHVzaChgUm93ICR7aW5kZXggKyAxfTogbWlzc2luZyBhIHBlYWsgbmFtZSDigJQgc2tpcHBlZC5gKTsKICAgIHJldHVybiBudWxsOwogIH0KICBpZiAobmFtZS5sZW5ndGggPiAxNjApIHsKICAgIGVycm9ycy5wdXNoKGBSb3cgJHtpbmRleCArIDF9OiBuYW1lIHRvbyBsb25nIOKAlCBza2lwcGVkLmApOwogICAgcmV0dXJuIG51bGw7CiAgfQoKICBjb25zdCBsYXQgPSBudW0obWFwcGVkWyJsYXQiXSk7CiAgY29uc3QgbG9uID0gbnVtKG1hcHBlZFsibG9uIl0pOwogIGlmIChsYXQgIT09IG51bGwgJiYgKGxhdCA8IC05MCB8fCBsYXQgPiA5MCkpIHsKICAgIGVycm9ycy5wdXNoKGBSb3cgJHtpbmRleCArIDF9ICgke25hbWV9KTogbGF0aXR1ZGUgb3V0IG9mIHJhbmdlIOKAlCBza2lwcGVkLmApOwogICAgcmV0dXJuIG51bGw7CiAgfQogIGlmIChsb24gIT09IG51bGwgJiYgKGxvbiA8IC0xODAgfHwgbG9uID4gMTgwKSkgewogICAgZXJyb3JzLnB1c2goYFJvdyAke2luZGV4ICsgMX0gKCR7bmFtZX0pOiBsb25naXR1ZGUgb3V0IG9mIHJhbmdlIOKAlCBza2lwcGVkLmApOwogICAgcmV0dXJuIG51bGw7CiAgfQoKICBjb25zdCBlbGV2YXRpb24gPSBudW0obWFwcGVkWyJlbGV2YXRpb24iXSk7CiAgaWYgKGVsZXZhdGlvbiAhPT0gbnVsbCAmJiAoZWxldmF0aW9uIDwgLTUwMCB8fCBlbGV2YXRpb24gPiA5MDAwKSkgewogICAgZXJyb3JzLnB1c2goYFJvdyAke2luZGV4ICsgMX0gKCR7bmFtZX0pOiBlbGV2YXRpb24gJHtlbGV2YXRpb259IG0gbG9va3Mgd3Jvbmcg4oCUIHNraXBwZWQuYCk7CiAgICByZXR1cm4gbnVsbDsKICB9CgogIGNvbnN0IGNjID0gc3RyKG1hcHBlZFsiY291bnRyeV9jb2RlIl0pOwogIGNvbnN0IGNvZGUgPSAoc3RyKG1hcHBlZFsiZmVhdHVyZV9jb2RlIl0pID8/ICJQSyIpLnRvVXBwZXJDYXNlKCk7CgogIGNvbnN0IHByb21pbmVuY2UgPSBudW0obWFwcGVkWyJwcm9taW5lbmNlIl0pOwoKICByZXR1cm4gewogICAgbmFtZSwKICAgIGVsZXZhdGlvbjogZWxldmF0aW9uID09PSBudWxsID8gbnVsbCA6IE1hdGgucm91bmQoZWxldmF0aW9uKSwKICAgIHByb21pbmVuY2U6CiAgICAgIHByb21pbmVuY2UgPT09IG51bGwgfHwgcHJvbWluZW5jZSA8IDAgfHwgcHJvbWluZW5jZSA+IDkwMDAKICAgICAgICA/IG51bGwKICAgICAgICA6IE1hdGgucm91bmQocHJvbWluZW5jZSksCiAgICBsYXQsCiAgICBsb24sCiAgICBjb3VudHJ5X2NvZGU6IGNjID8gY2Muc2xpY2UoMCwgMikudG9VcHBlckNhc2UoKSA6IG51bGwsCiAgICBhZG1pbjE6IHN0cihtYXBwZWRbImFkbWluMSJdKT8uc2xpY2UoMCwgNDApID8/IG51bGwsCiAgICBmZWF0dXJlX2NvZGU6IEZFQVRVUkVfQ09ERVMuaGFzKGNvZGUpID8gY29kZSA6ICJQSyIsCiAgfTsKfTsKCi8qKiBNaW5pbWFsIFJGQzQxODAtaXNoIENTViBzcGxpdHRlciAoaGFuZGxlcyBxdW90ZXMsIGNvbW1hcywgc2VtaWNvbG9ucyBhbmQgdGFicykuICovCmV4cG9ydCBjb25zdCBzcGxpdENzdiA9ICh0ZXh0OiBzdHJpbmcpOiBzdHJpbmdbXVtdID0+IHsKICBjb25zdCBkZWxpbWl0ZXIgPSAoKCkgPT4gewogICAgY29uc3QgaGVhZCA9IHRleHQuc3BsaXQoL1xyP1xuLylbMF0gPz8gIiI7CiAgICBjb25zdCBjb3VudHMgPSBbCiAgICAgIFsiLCIsIChoZWFkLm1hdGNoKC8sL2cpID8/IFtdKS5sZW5ndGhdLAogICAgICBbIjsiLCAoaGVhZC5tYXRjaCgvOy9nKSA/PyBbXSkubGVuZ3RoXSwKICAgICAgWyJcdCIsIChoZWFkLm1hdGNoKC9cdC9nKSA/PyBbXSkubGVuZ3RoXSwKICAgIF0gYXMgY29uc3Q7CiAgICByZXR1cm4gWy4uLmNvdW50c10uc29ydCgoYSwgYikgPT4gYlsxXSAtIGFbMV0pWzBdIVswXTsKICB9KSgpOwoKICBjb25zdCByb3dzOiBzdHJpbmdbXVtdID0gW107CiAgbGV0IHJvdzogc3RyaW5nW10gPSBbXTsKICBsZXQgY2VsbCA9ICIiOwogIGxldCBxdW90ZWQgPSBmYWxzZTsKCiAgZm9yIChsZXQgaSA9IDA7IGkgPCB0ZXh0Lmxlbmd0aDsgaSArPSAxKSB7CiAgICBjb25zdCBjaCA9IHRleHRbaV0hOwogICAgaWYgKHF1b3RlZCkgewogICAgICBpZiAoY2ggPT09ICciJykgewogICAgICAgIGlmICh0ZXh0W2kgKyAxXSA9PT0gJyInKSB7CiAgICAgICAgICBjZWxsICs9ICciJzsKICAgICAgICAgIGkgKz0gMTsKICAgICAgICB9IGVsc2UgcXVvdGVkID0gZmFsc2U7CiAgICAgIH0gZWxzZSBjZWxsICs9IGNoOwogICAgICBjb250aW51ZTsKICAgIH0KICAgIGlmIChjaCA9PT0gJyInKSBxdW90ZWQgPSB0cnVlOwogICAgZWxzZSBpZiAoY2ggPT09IGRlbGltaXRlcikgewogICAgICByb3cucHVzaChjZWxsKTsKICAgICAgY2VsbCA9ICIiOwogICAgfSBlbHNlIGlmIChjaCA9PT0gIlxuIikgewogICAgICByb3cucHVzaChjZWxsKTsKICAgICAgcm93cy5wdXNoKHJvdyk7CiAgICAgIHJvdyA9IFtdOwogICAgICBjZWxsID0gIiI7CiAgICB9IGVsc2UgaWYgKGNoICE9PSAiXHIiKSBjZWxsICs9IGNoOwogIH0KICByb3cucHVzaChjZWxsKTsKICByb3dzLnB1c2gocm93KTsKCiAgcmV0dXJuIHJvd3MuZmlsdGVyKChyKSA9PiByLnNvbWUoKGMpID0+IGMudHJpbSgpICE9PSAiIikpOwp9OwoKLyoqIFBhcnNlIHBhc3RlZC91cGxvYWRlZCB0ZXh0IGFzIEpTT04gYXJyYXkgb3IgQ1NWIGludG8gdmFsaWRhdGVkIHBlYWsgcm93cy4gKi8KZXhwb3J0IGNvbnN0IHBhcnNlUGVha0ZpbGUgPSAodGV4dDogc3RyaW5nKTogUGFyc2VSZXN1bHQgPT4gewogIGNvbnN0IGVycm9yczogc3RyaW5nW10gPSBbXTsKICBjb25zdCB0cmltbWVkID0gdGV4dC50cmltKCk7CiAgaWYgKCF0cmltbWVkKSByZXR1cm4geyByb3dzOiBbXSwgZXJyb3JzOiBbIlRoZSBmaWxlIGlzIGVtcHR5LiJdIH07CgogIGxldCByZWNvcmRzOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPltdID0gW107CgogIGlmICh0cmltbWVkLnN0YXJ0c1dpdGgoIlsiKSB8fCB0cmltbWVkLnN0YXJ0c1dpdGgoInsiKSkgewogICAgdHJ5IHsKICAgICAgY29uc3QgcGFyc2VkOiB1bmtub3duID0gSlNPTi5wYXJzZSh0cmltbWVkKTsKICAgICAgY29uc3QgbGlzdCA9IEFycmF5LmlzQXJyYXkocGFyc2VkKQogICAgICAgID8gcGFyc2VkCiAgICAgICAgOiBBcnJheS5pc0FycmF5KChwYXJzZWQgYXMgeyBwZWFrcz86IHVua25vd24gfSkucGVha3MpCiAgICAgICAgICA/IChwYXJzZWQgYXMgeyBwZWFrczogdW5rbm93bltdIH0pLnBlYWtzCiAgICAgICAgICA6IFtwYXJzZWRdOwogICAgICByZWNvcmRzID0gbGlzdC5maWx0ZXIoKHIpOiByIGlzIFJlY29yZDxzdHJpbmcsIHVua25vd24+ID0+ICEhciAmJiB0eXBlb2YgciA9PT0gIm9iamVjdCIpOwogICAgICBpZiAocmVjb3Jkcy5sZW5ndGggPT09IDApIGVycm9ycy5wdXNoKCJObyBvYmplY3RzIGZvdW5kIGluIHRoZSBKU09OLiIpOwogICAgfSBjYXRjaCB7CiAgICAgIHJldHVybiB7IHJvd3M6IFtdLCBlcnJvcnM6IFsiVGhhdCBKU09OIGNvdWxkIG5vdCBiZSBwYXJzZWQg4oCUIGNoZWNrIGZvciBhIHRyYWlsaW5nIGNvbW1hLiJdIH07CiAgICB9CiAgfSBlbHNlIHsKICAgIGNvbnN0IHRhYmxlID0gc3BsaXRDc3YodHJpbW1lZCk7CiAgICBjb25zdCBoZWFkZXIgPSB0YWJsZS5zaGlmdCgpOwogICAgaWYgKCFoZWFkZXIpIHJldHVybiB7IHJvd3M6IFtdLCBlcnJvcnM6IFsiTm8gaGVhZGVyIHJvdyBmb3VuZC4iXSB9OwogICAgY29uc3Qga25vd24gPSBoZWFkZXIuZmlsdGVyKChoKSA9PiBGSUVMRF9BTElBU0VTW25vcm1LZXkoaCldKTsKICAgIGlmIChrbm93bi5sZW5ndGggPT09IDApIHsKICAgICAgcmV0dXJuIHsKICAgICAgICByb3dzOiBbXSwKICAgICAgICBlcnJvcnM6IFsKICAgICAgICAgICJOb25lIG9mIHRoZSBDU1YgY29sdW1ucyB3ZXJlIHJlY29nbmlzZWQuIEV4cGVjdGVkIGEgaGVhZGVyIHJvdyB3aXRoIGF0IGxlYXN0OiBuYW1lIChwbHVzIG9wdGlvbmFsIGVsZXZhdGlvbiwgbGF0LCBsb24sIGNvdW50cnksIHJlZ2lvbikuIiwKICAgICAgICBdLAogICAgICB9OwogICAgfQogICAgcmVjb3JkcyA9IHRhYmxlLm1hcCgoY2VsbHMpID0+IHsKICAgICAgY29uc3Qgb2JqOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiA9IHt9OwogICAgICBoZWFkZXIuZm9yRWFjaCgoaCwgaSkgPT4gewogICAgICAgIG9ialtoXSA9IGNlbGxzW2ldID8/ICIiOwogICAgICB9KTsKICAgICAgcmV0dXJuIG9iajsKICAgIH0pOwogIH0KCiAgY29uc3Qgcm93czogSW1wb3J0UGVha1tdID0gW107CiAgY29uc3Qgc2VlbiA9IG5ldyBTZXQ8c3RyaW5nPigpOwogIHJlY29yZHMuZm9yRWFjaCgocmF3LCBpKSA9PiB7CiAgICBjb25zdCBwZWFrID0gdG9QZWFrKHJhdywgaSwgZXJyb3JzKTsKICAgIGlmICghcGVhaykgcmV0dXJuOwogICAgY29uc3Qga2V5ID0gYCR7cGVhay5uYW1lLnRvTG93ZXJDYXNlKCl9fCR7cGVhay5jb3VudHJ5X2NvZGUgPz8gIiJ9fCR7cGVhay5lbGV2YXRpb24gPz8gIiJ9YDsKICAgIGlmIChzZWVuLmhhcyhrZXkpKSB7CiAgICAgIGVycm9ycy5wdXNoKGBSb3cgJHtpICsgMX0gKCR7cGVhay5uYW1lfSk6IGR1cGxpY2F0ZSBpbnNpZGUgdGhpcyBmaWxlIOKAlCBza2lwcGVkLmApOwogICAgICByZXR1cm47CiAgICB9CiAgICBzZWVuLmFkZChrZXkpOwogICAgcm93cy5wdXNoKHBlYWspOwogIH0pOwoKICByZXR1cm4geyByb3dzLCBlcnJvcnMgfTsKfTsKCmV4cG9ydCBjb25zdCBTQU1QTEVfQ1NWID0gYG5hbWUsZWxldmF0aW9uLGxhdCxsb24sY291bnRyeSxyZWdpb24KQmFiaWEgR8OzcmEsMTcyNSw0OS41NzMyLDE5LjUyOTYsUEwsTGVzc2VyIFBvbGFuZApSeXN5LDI0OTksNDkuMTc5NCwyMC4wODgxLFBMLExlc3NlciBQb2xhbmQKxZpuaWXFvGthLDE2MDMsNTAuNzM2MCwxNS43Mzk3LFBMLExvd2VyIFNpbGVzaWFgOwo=
+/**
+ * Parsing helpers for the admin bulk peak importer.
+ * Accepts CSV (with header row) or a JSON array of objects.
+ */
+
+export interface ImportPeak {
+  name: string;
+  elevation: number | null;
+  prominence: number | null;
+  lat: number | null;
+  lon: number | null;
+  country_code: string | null;
+  admin1: string | null;
+  feature_code: string;
+}
+
+export interface ParseResult {
+  rows: ImportPeak[];
+  errors: string[];
+}
+
+/** Header aliases → canonical field. */
+const FIELD_ALIASES: Record<string, keyof ImportPeak> = {
+  name: "name",
+  peak: "name",
+  peak_name: "name",
+  title: "name",
+  elevation: "elevation",
+  elev: "elevation",
+  height: "elevation",
+  altitude: "elevation",
+  metres: "elevation",
+  meters: "elevation",
+  prominence: "prominence",
+  prom: "prominence",
+  lat: "lat",
+  latitude: "lat",
+  lon: "lon",
+  lng: "lon",
+  long: "lon",
+  longitude: "lon",
+  country: "country_code",
+  country_code: "country_code",
+  cc: "country_code",
+  iso: "country_code",
+  region: "admin1",
+  admin1: "admin1",
+  state: "admin1",
+  province: "admin1",
+  county: "admin1",
+  type: "feature_code",
+  feature_code: "feature_code",
+};
+
+const normKey = (k: string) => k.trim().toLowerCase().replace(/\s+/g, "_");
+
+const num = (v: unknown): number | null => {
+  if (v === null || v === undefined || v === "") return null;
+  const n = Number(String(v).replace(/[^\d.\-]/g, ""));
+  return Number.isFinite(n) ? n : null;
+};
+
+const str = (v: unknown): string | null => {
+  const s = v === null || v === undefined ? "" : String(v).trim();
+  return s === "" ? null : s;
+};
+
+/** Feature codes mirror GeoNames: PK peak, MT mountain, HLL hill, VLC volcano. */
+const FEATURE_CODES = new Set(["PK", "MT", "HLL", "VLC", "PKS", "MTS", "RDGE"]);
+
+const toPeak = (raw: Record<string, unknown>, index: number, errors: string[]): ImportPeak | null => {
+  const mapped: Record<string, unknown> = {};
+  for (const [key, value] of Object.entries(raw)) {
+    const field = FIELD_ALIASES[normKey(key)];
+    if (field) mapped[field] = value;
+  }
+
+  const name = str(mapped["name"]);
+  if (!name) {
+    errors.push(`Row ${index + 1}: missing a peak name — skipped.`);
+    return null;
+  }
+  if (name.length > 160) {
+    errors.push(`Row ${index + 1}: name too long — skipped.`);
+    return null;
+  }
+
+  const lat = num(mapped["lat"]);
+  const lon = num(mapped["lon"]);
+  if (lat !== null && (lat < -90 || lat > 90)) {
+    errors.push(`Row ${index + 1} (${name}): latitude out of range — skipped.`);
+    return null;
+  }
+  if (lon !== null && (lon < -180 || lon > 180)) {
+    errors.push(`Row ${index + 1} (${name}): longitude out of range — skipped.`);
+    return null;
+  }
+
+  const elevation = num(mapped["elevation"]);
+  if (elevation !== null && (elevation < -500 || elevation > 9000)) {
+    errors.push(`Row ${index + 1} (${name}): elevation ${elevation} m looks wrong — skipped.`);
+    return null;
+  }
+
+  const cc = str(mapped["country_code"]);
+  const code = (str(mapped["feature_code"]) ?? "PK").toUpperCase();
+
+  const prominence = num(mapped["prominence"]);
+
+  return {
+    name,
+    elevation: elevation === null ? null : Math.round(elevation),
+    prominence:
+      prominence === null || prominence < 0 || prominence > 9000
+        ? null
+        : Math.round(prominence),
+    lat,
+    lon,
+    country_code: cc ? cc.slice(0, 2).toUpperCase() : null,
+    admin1: str(mapped["admin1"])?.slice(0, 40) ?? null,
+    feature_code: FEATURE_CODES.has(code) ? code : "PK",
+  };
+};
+
+/** Minimal RFC4180-ish CSV splitter (handles quotes, commas, semicolons and tabs). */
+export const splitCsv = (text: string): string[][] => {
+  const delimiter = (() => {
+    const head = text.split(/\r?\n/)[0] ?? "";
+    const counts = [
+      [",", (head.match(/,/g) ?? []).length],
+      [";", (head.match(/;/g) ?? []).length],
+      ["\t", (head.match(/\t/g) ?? []).length],
+    ] as const;
+    return [...counts].sort((a, b) => b[1] - a[1])[0]![0];
+  })();
+
+  const rows: string[][] = [];
+  let row: string[] = [];
+  let cell = "";
+  let quoted = false;
+
+  for (let i = 0; i < text.length; i += 1) {
+    const ch = text[i]!;
+    if (quoted) {
+      if (ch === '"') {
+        if (text[i + 1] === '"') {
+          cell += '"';
+          i += 1;
+        } else quoted = false;
+      } else cell += ch;
+      continue;
+    }
+    if (ch === '"') quoted = true;
+    else if (ch === delimiter) {
+      row.push(cell);
+      cell = "";
+    } else if (ch === "\n") {
+      row.push(cell);
+      rows.push(row);
+      row = [];
+      cell = "";
+    } else if (ch !== "\r") cell += ch;
+  }
+  row.push(cell);
+  rows.push(row);
+
+  return rows.filter((r) => r.some((c) => c.trim() !== ""));
+};
+
+/** Parse pasted/uploaded text as JSON array or CSV into validated peak rows. */
+export const parsePeakFile = (text: string): ParseResult => {
+  const errors: string[] = [];
+  const trimmed = text.trim();
+  if (!trimmed) return { rows: [], errors: ["The file is empty."] };
+
+  let records: Record<string, unknown>[] = [];
+
+  if (trimmed.startsWith("[") || trimmed.startsWith("{")) {
+    try {
+      const parsed: unknown = JSON.parse(trimmed);
+      const list = Array.isArray(parsed)
+        ? parsed
+        : Array.isArray((parsed as { peaks?: unknown }).peaks)
+          ? (parsed as { peaks: unknown[] }).peaks
+          : [parsed];
+      records = list.filter((r): r is Record<string, unknown> => !!r && typeof r === "object");
+      if (records.length === 0) errors.push("No objects found in the JSON.");
+    } catch {
+      return { rows: [], errors: ["That JSON could not be parsed — check for a trailing comma."] };
+    }
+  } else {
+    const table = splitCsv(trimmed);
+    const header = table.shift();
+    if (!header) return { rows: [], errors: ["No header row found."] };
+    const known = header.filter((h) => FIELD_ALIASES[normKey(h)]);
+    if (known.length === 0) {
+      return {
+        rows: [],
+        errors: [
+          "None of the CSV columns were recognised. Expected a header row with at least: name (plus optional elevation, lat, lon, country, region).",
+        ],
+      };
+    }
+    records = table.map((cells) => {
+      const obj: Record<string, unknown> = {};
+      header.forEach((h, i) => {
+        obj[h] = cells[i] ?? "";
+      });
+      return obj;
+    });
+  }
+
+  const rows: ImportPeak[] = [];
+  const seen = new Set<string>();
+  records.forEach((raw, i) => {
+    const peak = toPeak(raw, i, errors);
+    if (!peak) return;
+    const key = `${peak.name.toLowerCase()}|${peak.country_code ?? ""}|${peak.elevation ?? ""}`;
+    if (seen.has(key)) {
+      errors.push(`Row ${i + 1} (${peak.name}): duplicate inside this file — skipped.`);
+      return;
+    }
+    seen.add(key);
+    rows.push(peak);
+  });
+
+  return { rows, errors };
+};
+
+export const SAMPLE_CSV = `name,elevation,lat,lon,country,region
+Babia Góra,1725,49.5732,19.5296,PL,Lesser Poland
+Rysy,2499,49.1794,20.0881,PL,Lesser Poland
+Śnieżka,1603,50.7360,15.7397,PL,Lower Silesia`;

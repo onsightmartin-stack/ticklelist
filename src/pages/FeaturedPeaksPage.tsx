@@ -1,1 +1,45 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBBcnJvd0xlZnQgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgU2VvIGZyb20gIkAvY29tcG9uZW50cy9TZW8iOwppbXBvcnQgTmF2YmFyIGZyb20gIkAvY29tcG9uZW50cy9OYXZiYXIiOwppbXBvcnQgRmVhdHVyZWRQZWFrcyBmcm9tICJAL2NvbXBvbmVudHMvRmVhdHVyZWRQZWFrcyI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBGZWF0dXJlZFBlYWtzUGFnZSgpIHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy1iYWNrZ3JvdW5kIj4KICAgICAgPFNlbwogICAgICAgIHRpdGxlPSJGZWF0dXJlZCBQZWFrcyDigJQgT25zaWdodCBNYXJ0aW4iCiAgICAgICAgZGVzY3JpcHRpb249IkEgY3VyYXRlZCBzZWxlY3Rpb24gb2YgY291bnRyeSBoaWdoIHBvaW50cyB3aXRoIHJvdXRlIG5vdGVzLCBlbGV2YXRpb24gc3RhdHMgYW5kIHRyaXAgcmVwb3J0cyBmcm9tIHRoZSBtaXNzaW9uIHRvIGNsaW1iIGV2ZXJ5IGNvdW50cnkncyBoaWdoZXN0IG1vdW50YWluLiIKICAgICAgICBwYXRoPSIvZmVhdHVyZWQiCiAgICAgIC8+CiAgICAgIDxOYXZiYXIgLz4KICAgICAgPG1haW4gY2xhc3NOYW1lPSJwdC0yNCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciBteC1hdXRvIHB4LTQiPgogICAgICAgICAgPExpbmsKICAgICAgICAgICAgdG89Ii8iCiAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGhvdmVyOnRleHQtZm9yZWdyb3VuZCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgID4KICAgICAgICAgICAgPEFycm93TGVmdCBjbGFzc05hbWU9InctNCBoLTQiIGFyaWEtaGlkZGVuPSJ0cnVlIiAvPgogICAgICAgICAgICBCYWNrIGhvbWUKICAgICAgICAgIDwvTGluaz4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTR4bCBtZDp0ZXh0LTV4bCBmb250LWJvbGQgdGV4dC1mb3JlZ3JvdW5kIG10LTYiPgogICAgICAgICAgICBGZWF0dXJlZCBQZWFrcwogICAgICAgICAgPC9oMT4KICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgIHRvPSIvcGVhay9zY2FmZWxsLXBpa2UiCiAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWJsb2NrIG10LTQgcHgtNCBweS0zIGJnLWNhcmQgYm9yZGVyIGJvcmRlci1ib3JkZXIgcm91bmRlZC1zbSBob3Zlcjpib3JkZXItcHJpbWFyeSB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgID4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC14cyB0cmFja2luZy13aWRlc3QgdGV4dC1wcmltYXJ5IGJsb2NrIj4KICAgICAgICAgICAgICBORVcg4oCUIExBVEVTVCBWSURFTwogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1mb3JlZ3JvdW5kIHRleHQtc20iPgogICAgICAgICAgICAgIFNjYWZlbGwgUGlrZSAoOTc4IG0pIOKAlCBoaWdoZXN0IG1vdW50YWluIGluIEVuZ2xhbmQKICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPC9MaW5rPgoKICAgICAgICA8L2Rpdj4KICAgICAgICA8RmVhdHVyZWRQZWFrcyAvPgogICAgICA8L21haW4+CiAgICA8L2Rpdj4KICApOwp9Cg==
+import { Link } from "@/lib/router-compat";
+import { ArrowLeft } from "lucide-react";
+import Seo from "@/components/Seo";
+import Navbar from "@/components/Navbar";
+import FeaturedPeaks from "@/components/FeaturedPeaks";
+
+export default function FeaturedPeaksPage() {
+  return (
+    <div className="min-h-screen bg-background">
+      <Seo
+        title="Featured Peaks — Onsight Martin"
+        description="A curated selection of country high points with route notes, elevation stats and trip reports from the mission to climb every country's highest mountain."
+        path="/featured"
+      />
+      <Navbar />
+      <main className="pt-24">
+        <div className="container mx-auto px-4">
+          <Link
+            to="/"
+            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" aria-hidden="true" />
+            Back home
+          </Link>
+          <h1 className="font-display text-4xl md:text-5xl font-bold text-foreground mt-6">
+            Featured Peaks
+          </h1>
+          <Link
+            to="/peak/scafell-pike"
+            className="inline-block mt-4 px-4 py-3 bg-card border border-border rounded-sm hover:border-primary transition-colors"
+          >
+            <span className="font-display text-xs tracking-widest text-primary block">
+              NEW — LATEST VIDEO
+            </span>
+            <span className="text-foreground text-sm">
+              Scafell Pike (978 m) — highest mountain in England
+            </span>
+          </Link>
+
+        </div>
+        <FeaturedPeaks />
+      </main>
+    </div>
+  );
+}

@@ -1,1 +1,73 @@
-ZXhwb3J0IGNvbnN0IFNJVEVfVVJMID0gImh0dHBzOi8vb25zaWdodG1hcnRpbi5jb20iOwoKZXhwb3J0IGNvbnN0IG9yZ2FuaXphdGlvblNjaGVtYSA9IHsKICAiQGNvbnRleHQiOiAiaHR0cHM6Ly9zY2hlbWEub3JnIiwKICAiQHR5cGUiOiAiT3JnYW5pemF0aW9uIiwKICBuYW1lOiAiT25zaWdodCBNYXJ0aW4iLAogIGFsdGVybmF0ZU5hbWU6ICJPbnNpZ2h0IE1hcnRpbiDigJQgQ291bnRyeSBIaWdocG9pbnRpbmciLAogIHVybDogU0lURV9VUkwsCiAgbG9nbzogYCR7U0lURV9VUkx9L2FwcC1pY29uLTUxMi5wbmdgLAogIGRlc2NyaXB0aW9uOgogICAgIk1hcnRpbiBHw6VyZGxpbmcncyBwcm9qZWN0IHRvIGNsaW1iIHRoZSBoaWdoZXN0IG1vdW50YWluIG9mIGV2ZXJ5IGNvdW50cnkgb24gRWFydGguIiwKICBmb3VuZGVyOiB7CiAgICAiQHR5cGUiOiAiUGVyc29uIiwKICAgIG5hbWU6ICJNYXJ0aW4gR8OlcmRsaW5nIiwKICAgIHVybDogImh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL0BvbnNpZ2h0bWFydGluIiwKICB9LAogIHNhbWVBczogWwogICAgImh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL0BvbnNpZ2h0bWFydGluIiwKICAgICJodHRwczovL3d3dy5pbnN0YWdyYW0uY29tL29uc2lnaHRtYXJ0aW4iLAogICAgImh0dHBzOi8vd3d3LnBlYWtiYWdnZXIuY29tL2NsaW1iZXIvY2xpbWJlci5hc3B4P2NpZD00MjI5NyIsCiAgXSwKfTsKCmNvbnN0IExBQkVMX09WRVJSSURFUzogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICBsYXRlc3Q6ICJMYXRlc3QgQ2xpbWJzIiwKICAib3RoZXItcGVha3MiOiAiT3RoZXIgUGVha3MiLAogIHdoZXJlOiAiV2hlcmUgSXMgTWFydGluIiwKICBwZWFrOiAiQ291bnRyeSBIaWdocG9pbnRzIiwKICBjb21tdW5pdHk6ICJUaWNrbGVsaXN0IiwKICBub3BlOiAiTm9wZSBMaXN0IiwKfTsKCmZ1bmN0aW9uIGxhYmVsRm9yKHNlZ21lbnQ6IHN0cmluZyk6IHN0cmluZyB7CiAgaWYgKExBQkVMX09WRVJSSURFU1tzZWdtZW50XSkgcmV0dXJuIExBQkVMX09WRVJSSURFU1tzZWdtZW50XTsKICByZXR1cm4gc2VnbWVudAogICAgLnNwbGl0KCItIikKICAgIC5tYXAoKHdvcmQpID0+IHdvcmQuY2hhckF0KDApLnRvVXBwZXJDYXNlKCkgKyB3b3JkLnNsaWNlKDEpKQogICAgLmpvaW4oIiAiKTsKfQoKZXhwb3J0IGludGVyZmFjZSBDcnVtYiB7CiAgbmFtZTogc3RyaW5nOwogIHBhdGg6IHN0cmluZzsKfQoKLyoqIEJ1aWxkIGNydW1icyBmcm9tIGEgcm91dGUgcGF0aCwgZS5nLiAiL2NvbW11bml0eS9tZW1iZXJzIiAtPiBIb21lIC8gVGlja2xlbGlzdCAvIE1lbWJlcnMuICovCmV4cG9ydCBmdW5jdGlvbiBjcnVtYnNGcm9tUGF0aChwYXRoOiBzdHJpbmcsIGxlYWZOYW1lPzogc3RyaW5nKTogQ3J1bWJbXSB7CiAgY29uc3Qgc2VnbWVudHMgPSBwYXRoLnNwbGl0KCIvIikuZmlsdGVyKEJvb2xlYW4pOwogIGNvbnN0IGNydW1iczogQ3J1bWJbXSA9IFt7IG5hbWU6ICJIb21lIiwgcGF0aDogIi8iIH1dOwogIGxldCBjdXJyZW50ID0gIiI7CiAgc2VnbWVudHMuZm9yRWFjaCgoc2VnbWVudCwgaW5kZXgpID0+IHsKICAgIGN1cnJlbnQgKz0gYC8ke3NlZ21lbnR9YDsKICAgIGNvbnN0IGlzTGVhZiA9IGluZGV4ID09PSBzZWdtZW50cy5sZW5ndGggLSAxOwogICAgY3J1bWJzLnB1c2goewogICAgICBuYW1lOiBpc0xlYWYgJiYgbGVhZk5hbWUgPyBsZWFmTmFtZSA6IGxhYmVsRm9yKHNlZ21lbnQpLAogICAgICBwYXRoOiBjdXJyZW50LAogICAgfSk7CiAgfSk7CiAgcmV0dXJuIGNydW1iczsKfQoKZXhwb3J0IGZ1bmN0aW9uIGJyZWFkY3J1bWJTY2hlbWEoY3J1bWJzOiBDcnVtYltdKSB7CiAgcmV0dXJuIHsKICAgICJAY29udGV4dCI6ICJodHRwczovL3NjaGVtYS5vcmciLAogICAgIkB0eXBlIjogIkJyZWFkY3J1bWJMaXN0IiwKICAgIGl0ZW1MaXN0RWxlbWVudDogY3J1bWJzLm1hcCgoY3J1bWIsIGluZGV4KSA9PiAoewogICAgICAiQHR5cGUiOiAiTGlzdEl0ZW0iLAogICAgICBwb3NpdGlvbjogaW5kZXggKyAxLAogICAgICBuYW1lOiBjcnVtYi5uYW1lLAogICAgICBpdGVtOiBgJHtTSVRFX1VSTH0ke2NydW1iLnBhdGggPT09ICIvIiA/ICIiIDogY3J1bWIucGF0aH1gLAogICAgfSkpLAogIH07Cn0K
+export const SITE_URL = "https://onsightmartin.com";
+
+export const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Onsight Martin",
+  alternateName: "Onsight Martin — Country Highpointing",
+  url: SITE_URL,
+  logo: `${SITE_URL}/app-icon-512.png`,
+  description:
+    "Martin Gårdling's project to climb the highest mountain of every country on Earth.",
+  founder: {
+    "@type": "Person",
+    name: "Martin Gårdling",
+    url: "https://www.youtube.com/@onsightmartin",
+  },
+  sameAs: [
+    "https://www.youtube.com/@onsightmartin",
+    "https://www.instagram.com/onsightmartin",
+    "https://www.peakbagger.com/climber/climber.aspx?cid=42297",
+  ],
+};
+
+const LABEL_OVERRIDES: Record<string, string> = {
+  latest: "Latest Climbs",
+  "other-peaks": "Other Peaks",
+  where: "Where Is Martin",
+  peak: "Country Highpoints",
+  community: "Ticklelist",
+  nope: "Nope List",
+};
+
+function labelFor(segment: string): string {
+  if (LABEL_OVERRIDES[segment]) return LABEL_OVERRIDES[segment];
+  return segment
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+
+export interface Crumb {
+  name: string;
+  path: string;
+}
+
+/** Build crumbs from a route path, e.g. "/community/members" -> Home / Ticklelist / Members. */
+export function crumbsFromPath(path: string, leafName?: string): Crumb[] {
+  const segments = path.split("/").filter(Boolean);
+  const crumbs: Crumb[] = [{ name: "Home", path: "/" }];
+  let current = "";
+  segments.forEach((segment, index) => {
+    current += `/${segment}`;
+    const isLeaf = index === segments.length - 1;
+    crumbs.push({
+      name: isLeaf && leafName ? leafName : labelFor(segment),
+      path: current,
+    });
+  });
+  return crumbs;
+}
+
+export function breadcrumbSchema(crumbs: Crumb[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: crumbs.map((crumb, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: crumb.name,
+      item: `${SITE_URL}${crumb.path === "/" ? "" : crumb.path}`,
+    })),
+  };
+}

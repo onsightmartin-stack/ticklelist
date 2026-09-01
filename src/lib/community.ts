@@ -1,1 +1,86 @@
-aW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwppbXBvcnQgeyBhdmF0YXJEYXRhVXJsLCBkZWNvZGVBdmF0YXJDb25maWcgfSBmcm9tICJAL2xpYi9hdmF0YXItYnVpbGRlciI7CgoKZXhwb3J0IHR5cGUgVGltaW5nVHlwZSA9ICJleGFjdCIgfCAibW9udGgiIHwgInllYXIiIHwgImFueXRpbWUiIHwgImFzYXAiOwoKZXhwb3J0IGludGVyZmFjZSBBZHZlbnR1cmUgewogIGlkOiBzdHJpbmc7CiAgY3JlYXRvcl9pZDogc3RyaW5nOwogIHBlYWtfbmFtZTogc3RyaW5nOwogIGNvdW50cnk6IHN0cmluZyB8IG51bGw7CiAgZWxldmF0aW9uOiBzdHJpbmcgfCBudWxsOwogIHRpbWluZ190eXBlOiBUaW1pbmdUeXBlOwogIHRhcmdldF9kYXRlOiBzdHJpbmcgfCBudWxsOwogIHRhcmdldF9tb250aDogbnVtYmVyIHwgbnVsbDsKICB0YXJnZXRfeWVhcjogbnVtYmVyIHwgbnVsbDsKICBkaWZmaWN1bHR5OiBzdHJpbmcgfCBudWxsOwogIG1heF9ncm91cF9zaXplOiBudW1iZXIgfCBudWxsOwogIG1lZXRpbmdfcG9pbnQ6IHN0cmluZyB8IG51bGw7CiAgbm90ZXM6IHN0cmluZyB8IG51bGw7CiAgY3JlYXRlZF9hdDogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIFNpZ251cCB7CiAgaWQ6IHN0cmluZzsKICBhZHZlbnR1cmVfaWQ6IHN0cmluZzsKICB1c2VyX2lkOiBzdHJpbmc7CiAgc3RhdHVzOiAiaW50ZXJlc3RlZCIgfCAiam9pbmluZyIgfCAiaW52aXRlZCI7CiAgbWVzc2FnZT86IHN0cmluZyB8IG51bGw7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgUHVibGljUHJvZmlsZSB7CiAgaWQ6IHN0cmluZzsKICBkaXNwbGF5X25hbWU6IHN0cmluZzsKICBjb3VudHJ5OiBzdHJpbmcgfCBudWxsOwogIGF2YXRhcl91cmw6IHN0cmluZyB8IG51bGw7Cn0KCmNvbnN0IE1PTlRIUyA9IFsKICAiSmFudWFyeSIsICJGZWJydWFyeSIsICJNYXJjaCIsICJBcHJpbCIsICJNYXkiLCAiSnVuZSIsCiAgIkp1bHkiLCAiQXVndXN0IiwgIlNlcHRlbWJlciIsICJPY3RvYmVyIiwgIk5vdmVtYmVyIiwgIkRlY2VtYmVyIiwKXTsKCmV4cG9ydCBjb25zdCBmb3JtYXRUaW1pbmcgPSAoYTogQWR2ZW50dXJlKTogc3RyaW5nID0+IHsKICBzd2l0Y2ggKGEudGltaW5nX3R5cGUpIHsKICAgIGNhc2UgImV4YWN0IjoKICAgICAgcmV0dXJuIGEudGFyZ2V0X2RhdGUKICAgICAgICA/IG5ldyBEYXRlKGEudGFyZ2V0X2RhdGUgKyAiVDAwOjAwOjAwIikudG9Mb2NhbGVEYXRlU3RyaW5nKHVuZGVmaW5lZCwgewogICAgICAgICAgICBkYXk6ICJudW1lcmljIiwKICAgICAgICAgICAgbW9udGg6ICJsb25nIiwKICAgICAgICAgICAgeWVhcjogIm51bWVyaWMiLAogICAgICAgICAgfSkKICAgICAgICA6ICJEYXRlIFRCRCI7CiAgICBjYXNlICJtb250aCI6CiAgICAgIHJldHVybiBhLnRhcmdldF9tb250aCAmJiBhLnRhcmdldF95ZWFyCiAgICAgICAgPyBgJHtNT05USFNbYS50YXJnZXRfbW9udGggLSAxXX0gJHthLnRhcmdldF95ZWFyfWAKICAgICAgICA6ICJNb250aCBUQkQiOwogICAgY2FzZSAieWVhciI6CiAgICAgIHJldHVybiBhLnRhcmdldF95ZWFyID8gYFNvbWV0aW1lIGluICR7YS50YXJnZXRfeWVhcn1gIDogIlllYXIgVEJEIjsKICAgIGNhc2UgImFzYXAiOgogICAgICByZXR1cm4gIkFTQVAiOwogICAgZGVmYXVsdDoKICAgICAgcmV0dXJuICJBbnkgdGltZSI7CiAgfQp9OwoKY29uc3Qgc2lnbmVkVXJsQ2FjaGUgPSBuZXcgTWFwPHN0cmluZywgc3RyaW5nPigpOwoKLyoqIEF2YXRhcnMgbGl2ZSBpbiBhIHByaXZhdGUgYnVja2V0LCBzbyByZXNvbHZlIGEgc2lnbmVkIFVSTCBmb3IgZGlzcGxheS4gKi8KZXhwb3J0IGNvbnN0IHJlc29sdmVBdmF0YXJVcmwgPSBhc3luYyAocGF0aDogc3RyaW5nIHwgbnVsbCk6IFByb21pc2U8c3RyaW5nIHwgbnVsbD4gPT4gewogIGlmICghcGF0aCkgcmV0dXJuIG51bGw7CiAgLy8gRGVzaWduZWQgYXZhdGFycyBhcmUgc3RvcmVkIGFzIGFuIGVuY29kZWQgY29uZmlnLCBub3QgYSBmaWxlLgogIGNvbnN0IGRlc2lnbmVkID0gZGVjb2RlQXZhdGFyQ29uZmlnKHBhdGgpOwogIGlmIChkZXNpZ25lZCkgcmV0dXJuIGF2YXRhckRhdGFVcmwoZGVzaWduZWQsIGRlc2lnbmVkLmFuaW1hdGVkICE9PSBmYWxzZSk7CiAgaWYgKHBhdGguc3RhcnRzV2l0aCgiaHR0cCIpKSByZXR1cm4gcGF0aDsKCiAgaWYgKHNpZ25lZFVybENhY2hlLmhhcyhwYXRoKSkgcmV0dXJuIHNpZ25lZFVybENhY2hlLmdldChwYXRoKSE7CiAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZS5zdG9yYWdlLmZyb20oImF2YXRhcnMiKS5jcmVhdGVTaWduZWRVcmwocGF0aCwgNjAgKiA2MCAqIDI0ICogNyk7CiAgaWYgKCFkYXRhPy5zaWduZWRVcmwpIHJldHVybiBudWxsOwogIHNpZ25lZFVybENhY2hlLnNldChwYXRoLCBkYXRhLnNpZ25lZFVybCk7CiAgcmV0dXJuIGRhdGEuc2lnbmVkVXJsOwp9OwoKZXhwb3J0IGNvbnN0IGNsZWFyQXZhdGFyQ2FjaGUgPSAocGF0aDogc3RyaW5nIHwgbnVsbCkgPT4gewogIGlmIChwYXRoKSBzaWduZWRVcmxDYWNoZS5kZWxldGUocGF0aCk7Cn07Cg==
+import { supabase } from "@/integrations/supabase/client";
+import { avatarDataUrl, decodeAvatarConfig } from "@/lib/avatar-builder";
+
+
+export type TimingType = "exact" | "month" | "year" | "anytime" | "asap";
+
+export interface Adventure {
+  id: string;
+  creator_id: string;
+  peak_name: string;
+  country: string | null;
+  elevation: string | null;
+  timing_type: TimingType;
+  target_date: string | null;
+  target_month: number | null;
+  target_year: number | null;
+  difficulty: string | null;
+  max_group_size: number | null;
+  meeting_point: string | null;
+  notes: string | null;
+  created_at: string;
+}
+
+export interface Signup {
+  id: string;
+  adventure_id: string;
+  user_id: string;
+  status: "interested" | "joining" | "invited";
+  message?: string | null;
+}
+
+export interface PublicProfile {
+  id: string;
+  display_name: string;
+  country: string | null;
+  avatar_url: string | null;
+}
+
+const MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+
+export const formatTiming = (a: Adventure): string => {
+  switch (a.timing_type) {
+    case "exact":
+      return a.target_date
+        ? new Date(a.target_date + "T00:00:00").toLocaleDateString(undefined, {
+            day: "numeric",
+            month: "long",
+            year: "numeric",
+          })
+        : "Date TBD";
+    case "month":
+      return a.target_month && a.target_year
+        ? `${MONTHS[a.target_month - 1]} ${a.target_year}`
+        : "Month TBD";
+    case "year":
+      return a.target_year ? `Sometime in ${a.target_year}` : "Year TBD";
+    case "asap":
+      return "ASAP";
+    default:
+      return "Any time";
+  }
+};
+
+const signedUrlCache = new Map<string, string>();
+
+/** Avatars live in a private bucket, so resolve a signed URL for display. */
+export const resolveAvatarUrl = async (path: string | null): Promise<string | null> => {
+  if (!path) return null;
+  // Designed avatars are stored as an encoded config, not a file.
+  const designed = decodeAvatarConfig(path);
+  if (designed) return avatarDataUrl(designed, designed.animated !== false);
+  if (path.startsWith("http")) return path;
+
+  if (signedUrlCache.has(path)) return signedUrlCache.get(path)!;
+  const { data } = await supabase.storage.from("avatars").createSignedUrl(path, 60 * 60 * 24 * 7);
+  if (!data?.signedUrl) return null;
+  signedUrlCache.set(path, data.signedUrl);
+  return data.signedUrl;
+};
+
+export const clearAvatarCache = (path: string | null) => {
+  if (path) signedUrlCache.delete(path);
+};

@@ -1,1 +1,147 @@
-LyoqCiAqIE9uZS10YXAgZ3JhcGhpY3MgYmVuY2htYXJrIGZvciB0aGUgM0QgY2xpbWJlciBhdmF0YXJzLgogKgogKiBSZW5kZXJzIGEgc2hvcnQsIGRlbGliZXJhdGVseSBHUFUtaGVhdnkgV2ViR0wgbG9vcCBpbiBhbiBvZmZzY3JlZW4gY2FudmFzIOKAlAogKiByb3VnaGx5IHRoZSB3b3JrIGEgcGFnZSBmdWxsIG9mIHNwaW5uaW5nIGF2YXRhcnMgZG9lcyDigJQgbWVhc3VyZXMgdGhlIGZyYW1lCiAqIHJhdGUsIGFuZCBtYXBzIGl0IG9udG8gYSBxdWFsaXR5IHRpZXIuIFJ1bnMgZm9yIHdlbGwgdW5kZXIgdHdvIHNlY29uZHMgYW5kCiAqIGNsZWFucyB0aGUgY2FudmFzIHVwIGFmdGVyd2FyZHMuCiAqLwppbXBvcnQgdHlwZSB7IFF1YWxpdHlQcmVmIH0gZnJvbSAiQC9saWIvcXVhbGl0eSI7CgpleHBvcnQgdHlwZSBCZW5jaFRpZXIgPSBFeGNsdWRlPFF1YWxpdHlQcmVmLCAiYXV0byI+OwoKZXhwb3J0IGludGVyZmFjZSBCZW5jaG1hcmtSZXN1bHQgewogIC8qKiBNZWFzdXJlZCBmcmFtZXMgcGVyIHNlY29uZCBkdXJpbmcgdGhlIHRpbWVkIHdpbmRvdy4gKi8KICBmcHM6IG51bWJlcjsKICAvKiogUXVhbGl0eSB0aWVyIHRoYXQgc3VpdHMgdGhlIG1lYXN1cmVkIGZyYW1lIHJhdGUuICovCiAgdGllcjogQmVuY2hUaWVyOwogIC8qKiBUcnVlIHdoZW4gV2ViR0wgd2FzIHVuYXZhaWxhYmxlIGFuZCB0aGUgdGllciBpcyBhIGRldmljZSBndWVzcy4gKi8KICBmYWxsYmFjazogYm9vbGVhbjsKfQoKY29uc3QgVkVSVCA9IGAKYXR0cmlidXRlIHZlYzIgcDsKdW5pZm9ybSBmbG9hdCB0Owp2b2lkIG1haW4oKSB7CiAgZmxvYXQgYSA9IHQgKyBwLng7CiAgZ2xfUG9zaXRpb24gPSB2ZWM0KHAueCAqIGNvcyhhKSAqIDAuOSwgcC55ICogc2luKGEpICogMC45LCAwLjAsIDEuMCk7Cn1gOwoKY29uc3QgRlJBRyA9IGAKcHJlY2lzaW9uIG1lZGl1bXAgZmxvYXQ7CnVuaWZvcm0gZmxvYXQgdDsKdm9pZCBtYWluKCkgewogIC8vIERlbGliZXJhdGUgcGVyLXBpeGVsIGxvYWQgc28gdGhlIHRlc3QgcmVmbGVjdHMgcmVhbCBzaGFkaW5nIGNvc3QuCiAgZmxvYXQgdiA9IDAuMDsKICBmb3IgKGludCBpID0gMDsgaSA8IDQ4OyBpKyspIHsKICAgIHYgKz0gc2luKGdsX0ZyYWdDb29yZC54ICogMC4wMyArIHQgKyBmbG9hdChpKSkgKiBjb3MoZ2xfRnJhZ0Nvb3JkLnkgKiAwLjAzIC0gdCk7CiAgfQogIGdsX0ZyYWdDb2xvciA9IHZlYzQoYWJzKHYpICogMC4wMiwgMC4yLCAwLjQsIDEuMCk7Cn1gOwoKY29uc3QgY29tcGlsZSA9IChnbDogV2ViR0xSZW5kZXJpbmdDb250ZXh0LCB0eXBlOiBudW1iZXIsIHNyYzogc3RyaW5nKSA9PiB7CiAgY29uc3Qgc2hhZGVyID0gZ2wuY3JlYXRlU2hhZGVyKHR5cGUpITsKICBnbC5zaGFkZXJTb3VyY2Uoc2hhZGVyLCBzcmMpOwogIGdsLmNvbXBpbGVTaGFkZXIoc2hhZGVyKTsKICByZXR1cm4gc2hhZGVyOwp9OwoKLyoqIFdhcm0tdXAgYmVmb3JlIHRpbWluZyBzdGFydHMgKG1zKS4gKi8KY29uc3QgV0FSTVVQX01TID0gMjUwOwovKiogVGltZWQgd2luZG93IChtcykuICovCmNvbnN0IFNBTVBMRV9NUyA9IDEyMDA7Ci8qKiBEcmF3IGNhbGxzIHBlciBmcmFtZSDigJQgbWltaWNzIHNldmVyYWwgYXZhdGFycyBvbiBzY3JlZW4gYXQgb25jZS4gKi8KY29uc3QgRFJBV1MgPSA5MDsKCmV4cG9ydCBjb25zdCB0aWVyRm9yRnBzID0gKGZwczogbnVtYmVyKTogQmVuY2hUaWVyID0+IHsKICBpZiAoZnBzID49IDU1KSByZXR1cm4gImhpZ2giOwogIGlmIChmcHMgPj0gMzIpIHJldHVybiAiYmFsYW5jZWQiOwogIHJldHVybiAibG93IjsKfTsKCi8qKgogKiBSdW5zIHRoZSBiZW5jaG1hcmsuIGBvblByb2dyZXNzYCBnZXRzIDAuLjEgc28gdGhlIGJ1dHRvbiBjYW4gc2hvdyBhIGJhci4KICogTmV2ZXIgdGhyb3dzIOKAlCBhIG1pc3NpbmcgV2ViR0wgY29udGV4dCByZXNvbHZlcyBhcyBhIGNvbnNlcnZhdGl2ZSBmYWxsYmFjay4KICovCmV4cG9ydCBjb25zdCBydW5RdWFsaXR5QmVuY2htYXJrID0gKAogIG9uUHJvZ3Jlc3M/OiAocHJvZ3Jlc3M6IG51bWJlcikgPT4gdm9pZCwKKTogUHJvbWlzZTxCZW5jaG1hcmtSZXN1bHQ+ID0+CiAgbmV3IFByb21pc2UoKHJlc29sdmUpID0+IHsKICAgIGlmICh0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIikgewogICAgICByZXNvbHZlKHsgZnBzOiAwLCB0aWVyOiAiYmFsYW5jZWQiLCBmYWxsYmFjazogdHJ1ZSB9KTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGNvbnN0IGNhbnZhcyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoImNhbnZhcyIpOwogICAgY29uc3QgZHByID0gTWF0aC5taW4od2luZG93LmRldmljZVBpeGVsUmF0aW8gfHwgMSwgMik7CiAgICBjYW52YXMud2lkdGggPSBNYXRoLnJvdW5kKDMyMCAqIGRwcik7CiAgICBjYW52YXMuaGVpZ2h0ID0gTWF0aC5yb3VuZCgzMjAgKiBkcHIpOwogICAgY2FudmFzLnN0eWxlLmNzc1RleHQgPSAicG9zaXRpb246Zml4ZWQ7bGVmdDotOTk5OXB4O3RvcDowO3dpZHRoOjMyMHB4O2hlaWdodDozMjBweDsiOwogICAgZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChjYW52YXMpOwoKICAgIGNvbnN0IGdsID0gKGNhbnZhcy5nZXRDb250ZXh0KCJ3ZWJnbCIsIHsgYW50aWFsaWFzOiBmYWxzZSwgcG93ZXJQcmVmZXJlbmNlOiAiaGlnaC1wZXJmb3JtYW5jZSIgfSkgPz8KICAgICAgY2FudmFzLmdldENvbnRleHQoImV4cGVyaW1lbnRhbC13ZWJnbCIpKSBhcyBXZWJHTFJlbmRlcmluZ0NvbnRleHQgfCBudWxsOwoKICAgIGNvbnN0IGZpbmlzaCA9IChyZXN1bHQ6IEJlbmNobWFya1Jlc3VsdCkgPT4gewogICAgICBjYW52YXMucmVtb3ZlKCk7CiAgICAgIG9uUHJvZ3Jlc3M/LigxKTsKICAgICAgcmVzb2x2ZShyZXN1bHQpOwogICAgfTsKCiAgICBpZiAoIWdsKSB7CiAgICAgIGZpbmlzaCh7IGZwczogMCwgdGllcjogImxvdyIsIGZhbGxiYWNrOiB0cnVlIH0pOwogICAgICByZXR1cm47CiAgICB9CgogICAgY29uc3QgcHJvZ3JhbSA9IGdsLmNyZWF0ZVByb2dyYW0oKSE7CiAgICBnbC5hdHRhY2hTaGFkZXIocHJvZ3JhbSwgY29tcGlsZShnbCwgZ2wuVkVSVEVYX1NIQURFUiwgVkVSVCkpOwogICAgZ2wuYXR0YWNoU2hhZGVyKHByb2dyYW0sIGNvbXBpbGUoZ2wsIGdsLkZSQUdNRU5UX1NIQURFUiwgRlJBRykpOwogICAgZ2wubGlua1Byb2dyYW0ocHJvZ3JhbSk7CiAgICBnbC51c2VQcm9ncmFtKHByb2dyYW0pOwoKICAgIGNvbnN0IGJ1ZmZlciA9IGdsLmNyZWF0ZUJ1ZmZlcigpOwogICAgZ2wuYmluZEJ1ZmZlcihnbC5BUlJBWV9CVUZGRVIsIGJ1ZmZlcik7CiAgICBnbC5idWZmZXJEYXRhKAogICAgICBnbC5BUlJBWV9CVUZGRVIsCiAgICAgIG5ldyBGbG9hdDMyQXJyYXkoWy0xLCAtMSwgMSwgLTEsIC0xLCAxLCAxLCAtMSwgMSwgMSwgLTEsIDFdKSwKICAgICAgZ2wuU1RBVElDX0RSQVcsCiAgICApOwogICAgY29uc3QgbG9jID0gZ2wuZ2V0QXR0cmliTG9jYXRpb24ocHJvZ3JhbSwgInAiKTsKICAgIGdsLmVuYWJsZVZlcnRleEF0dHJpYkFycmF5KGxvYyk7CiAgICBnbC52ZXJ0ZXhBdHRyaWJQb2ludGVyKGxvYywgMiwgZ2wuRkxPQVQsIGZhbHNlLCAwLCAwKTsKICAgIGNvbnN0IHRMb2MgPSBnbC5nZXRVbmlmb3JtTG9jYXRpb24ocHJvZ3JhbSwgInQiKTsKCiAgICBjb25zdCBzdGFydCA9IHBlcmZvcm1hbmNlLm5vdygpOwogICAgbGV0IGZyYW1lcyA9IDA7CiAgICBsZXQgdGltZWRTdGFydCA9IDA7CiAgICBsZXQgcmFmID0gMDsKCiAgICBjb25zdCBzdGVwID0gKCkgPT4gewogICAgICBjb25zdCBub3cgPSBwZXJmb3JtYW5jZS5ub3coKTsKICAgICAgY29uc3QgZWxhcHNlZCA9IG5vdyAtIHN0YXJ0OwoKICAgICAgZm9yIChsZXQgaSA9IDA7IGkgPCBEUkFXUzsgaSsrKSB7CiAgICAgICAgZ2wudW5pZm9ybTFmKHRMb2MsIGVsYXBzZWQgKiAwLjAwMSArIGkgKiAwLjA1KTsKICAgICAgICBnbC5kcmF3QXJyYXlzKGdsLlRSSUFOR0xFUywgMCwgNik7CiAgICAgIH0KICAgICAgLy8gRm9yY2UgdGhlIEdQVSB0byBmaW5pc2ggc28gdGhlIHRpbWluZyByZWZsZWN0cyByZWFsIHdvcmsuCiAgICAgIGdsLmZsdXNoKCk7CgogICAgICBpZiAoZWxhcHNlZCA+PSBXQVJNVVBfTVMpIHsKICAgICAgICBpZiAoIXRpbWVkU3RhcnQpIHRpbWVkU3RhcnQgPSBub3c7CiAgICAgICAgZWxzZSBmcmFtZXMgKz0gMTsKICAgICAgfQoKICAgICAgb25Qcm9ncmVzcz8uKE1hdGgubWluKGVsYXBzZWQgLyAoV0FSTVVQX01TICsgU0FNUExFX01TKSwgMC45OCkpOwoKICAgICAgaWYgKHRpbWVkU3RhcnQgJiYgbm93IC0gdGltZWRTdGFydCA+PSBTQU1QTEVfTVMpIHsKICAgICAgICBjYW5jZWxBbmltYXRpb25GcmFtZShyYWYpOwogICAgICAgIGNvbnN0IGZwcyA9IE1hdGgucm91bmQoKGZyYW1lcyAqIDEwMDApIC8gKG5vdyAtIHRpbWVkU3RhcnQpKTsKICAgICAgICBmaW5pc2goeyBmcHMsIHRpZXI6IHRpZXJGb3JGcHMoZnBzKSwgZmFsbGJhY2s6IGZhbHNlIH0pOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICByYWYgPSByZXF1ZXN0QW5pbWF0aW9uRnJhbWUoc3RlcCk7CiAgICB9OwoKICAgIHJhZiA9IHJlcXVlc3RBbmltYXRpb25GcmFtZShzdGVwKTsKICB9KTsK
+/**
+ * One-tap graphics benchmark for the 3D climber avatars.
+ *
+ * Renders a short, deliberately GPU-heavy WebGL loop in an offscreen canvas —
+ * roughly the work a page full of spinning avatars does — measures the frame
+ * rate, and maps it onto a quality tier. Runs for well under two seconds and
+ * cleans the canvas up afterwards.
+ */
+import type { QualityPref } from "@/lib/quality";
+
+export type BenchTier = Exclude<QualityPref, "auto">;
+
+export interface BenchmarkResult {
+  /** Measured frames per second during the timed window. */
+  fps: number;
+  /** Quality tier that suits the measured frame rate. */
+  tier: BenchTier;
+  /** True when WebGL was unavailable and the tier is a device guess. */
+  fallback: boolean;
+}
+
+const VERT = `
+attribute vec2 p;
+uniform float t;
+void main() {
+  float a = t + p.x;
+  gl_Position = vec4(p.x * cos(a) * 0.9, p.y * sin(a) * 0.9, 0.0, 1.0);
+}`;
+
+const FRAG = `
+precision mediump float;
+uniform float t;
+void main() {
+  // Deliberate per-pixel load so the test reflects real shading cost.
+  float v = 0.0;
+  for (int i = 0; i < 48; i++) {
+    v += sin(gl_FragCoord.x * 0.03 + t + float(i)) * cos(gl_FragCoord.y * 0.03 - t);
+  }
+  gl_FragColor = vec4(abs(v) * 0.02, 0.2, 0.4, 1.0);
+}`;
+
+const compile = (gl: WebGLRenderingContext, type: number, src: string) => {
+  const shader = gl.createShader(type)!;
+  gl.shaderSource(shader, src);
+  gl.compileShader(shader);
+  return shader;
+};
+
+/** Warm-up before timing starts (ms). */
+const WARMUP_MS = 250;
+/** Timed window (ms). */
+const SAMPLE_MS = 1200;
+/** Draw calls per frame — mimics several avatars on screen at once. */
+const DRAWS = 90;
+
+export const tierForFps = (fps: number): BenchTier => {
+  if (fps >= 55) return "high";
+  if (fps >= 32) return "balanced";
+  return "low";
+};
+
+/**
+ * Runs the benchmark. `onProgress` gets 0..1 so the button can show a bar.
+ * Never throws — a missing WebGL context resolves as a conservative fallback.
+ */
+export const runQualityBenchmark = (
+  onProgress?: (progress: number) => void,
+): Promise<BenchmarkResult> =>
+  new Promise((resolve) => {
+    if (typeof window === "undefined") {
+      resolve({ fps: 0, tier: "balanced", fallback: true });
+      return;
+    }
+
+    const canvas = document.createElement("canvas");
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = Math.round(320 * dpr);
+    canvas.height = Math.round(320 * dpr);
+    canvas.style.cssText = "position:fixed;left:-9999px;top:0;width:320px;height:320px;";
+    document.body.appendChild(canvas);
+
+    const gl = (canvas.getContext("webgl", { antialias: false, powerPreference: "high-performance" }) ??
+      canvas.getContext("experimental-webgl")) as WebGLRenderingContext | null;
+
+    const finish = (result: BenchmarkResult) => {
+      canvas.remove();
+      onProgress?.(1);
+      resolve(result);
+    };
+
+    if (!gl) {
+      finish({ fps: 0, tier: "low", fallback: true });
+      return;
+    }
+
+    const program = gl.createProgram()!;
+    gl.attachShader(program, compile(gl, gl.VERTEX_SHADER, VERT));
+    gl.attachShader(program, compile(gl, gl.FRAGMENT_SHADER, FRAG));
+    gl.linkProgram(program);
+    gl.useProgram(program);
+
+    const buffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
+    gl.bufferData(
+      gl.ARRAY_BUFFER,
+      new Float32Array([-1, -1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1]),
+      gl.STATIC_DRAW,
+    );
+    const loc = gl.getAttribLocation(program, "p");
+    gl.enableVertexAttribArray(loc);
+    gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+    const tLoc = gl.getUniformLocation(program, "t");
+
+    const start = performance.now();
+    let frames = 0;
+    let timedStart = 0;
+    let raf = 0;
+
+    const step = () => {
+      const now = performance.now();
+      const elapsed = now - start;
+
+      for (let i = 0; i < DRAWS; i++) {
+        gl.uniform1f(tLoc, elapsed * 0.001 + i * 0.05);
+        gl.drawArrays(gl.TRIANGLES, 0, 6);
+      }
+      // Force the GPU to finish so the timing reflects real work.
+      gl.flush();
+
+      if (elapsed >= WARMUP_MS) {
+        if (!timedStart) timedStart = now;
+        else frames += 1;
+      }
+
+      onProgress?.(Math.min(elapsed / (WARMUP_MS + SAMPLE_MS), 0.98));
+
+      if (timedStart && now - timedStart >= SAMPLE_MS) {
+        cancelAnimationFrame(raf);
+        const fps = Math.round((frames * 1000) / (now - timedStart));
+        finish({ fps, tier: tierForFps(fps), fallback: false });
+        return;
+      }
+      raf = requestAnimationFrame(step);
+    };
+
+    raf = requestAnimationFrame(step);
+  });

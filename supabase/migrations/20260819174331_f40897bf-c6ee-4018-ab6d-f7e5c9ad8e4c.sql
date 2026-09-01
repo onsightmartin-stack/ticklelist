@@ -1,1 +1,1 @@
-c2VsZWN0IGNyb24uYWx0ZXJfam9iKGpvYl9pZCA6PSAzLCBzY2hlZHVsZSA6PSAnMCAqLzggKiAqIConKTs=
+select cron.alter_job(job_id := 3, schedule := '0 */8 * * *');

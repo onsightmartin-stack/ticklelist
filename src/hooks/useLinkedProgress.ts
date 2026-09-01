@@ -1,1 +1,40 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwppbXBvcnQgeyBhcHBseVByb2dyZXNzT3ZlcmxheSwgTUFSVElOX1BST0ZJTEVfSUQgfSBmcm9tICJAL2xpYi9wcm9ncmVzcy1saW5rIjsKCmxldCBhcHBsaWVkID0gZmFsc2U7CgovKioKICogUHVsbHMgTWFydGluJ3MgY291bnRyeSBoaWdoLXBvaW50IGFzY2VudHMgZnJvbSBoaXMgVGlja2xlbGlzdCBwcm9maWxlIGFuZAogKiBtZXJnZXMgdGhlbSBpbnRvIHRoZSB3ZWJzaXRlJ3MgcHJvZ3Jlc3MgZGF0YSwgc28gdGlja2luZyBhIHBlYWsgaW4gdGhlCiAqIGNvbW11bml0eSBhcHAgdXBkYXRlcyBvbnNpZ2h0bWFydGluLmNvbSB0b28uIFJldHVybnMgYSB2ZXJzaW9uIGNvdW50ZXIgdGhhdAogKiBjaGFuZ2VzIHdoZW4gdGhlIG92ZXJsYXkgbW9kaWZpZWQgYW55dGhpbmcsIGZvcmNpbmcgYSByZS1yZW5kZXIuCiAqLwpleHBvcnQgZnVuY3Rpb24gdXNlTGlua2VkUHJvZ3Jlc3MoKTogbnVtYmVyIHsKICBjb25zdCBbdmVyc2lvbiwgc2V0VmVyc2lvbl0gPSB1c2VTdGF0ZSgwKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmIChhcHBsaWVkKSByZXR1cm47CiAgICBsZXQgYWN0aXZlID0gdHJ1ZTsKCiAgICB2b2lkIHN1cGFiYXNlCiAgICAgIC5mcm9tKCJhc2NlbnRzIikKICAgICAgLnNlbGVjdCgiY291bnRyeSwgYXNjZW50X2RhdGUiKQogICAgICAuZXEoInVzZXJfaWQiLCBNQVJUSU5fUFJPRklMRV9JRCkKICAgICAgLmVxKCJwZWFrX3R5cGUiLCAiY291bnRyeV9oaWdocG9pbnQiKQogICAgICAuZXEoImlzX3B1YmxpYyIsIHRydWUpCiAgICAgIC50aGVuKCh7IGRhdGEsIGVycm9yIH0pID0+IHsKICAgICAgICBpZiAoIWFjdGl2ZSB8fCBlcnJvciB8fCAhZGF0YSkgcmV0dXJuOwogICAgICAgIGFwcGxpZWQgPSB0cnVlOwogICAgICAgIGlmIChhcHBseVByb2dyZXNzT3ZlcmxheShkYXRhIGFzIHsgY291bnRyeTogc3RyaW5nOyBhc2NlbnRfZGF0ZTogc3RyaW5nIHwgbnVsbCB9W10pKSB7CiAgICAgICAgICBzZXRWZXJzaW9uKCh2KSA9PiB2ICsgMSk7CiAgICAgICAgfQogICAgICB9KTsKCiAgICByZXR1cm4gKCkgPT4gewogICAgICBhY3RpdmUgPSBmYWxzZTsKICAgIH07CiAgfSwgW10pOwoKICByZXR1cm4gdmVyc2lvbjsKfQo=
+import { useEffect, useState } from "react";
+import { supabase } from "@/integrations/supabase/client";
+import { applyProgressOverlay, MARTIN_PROFILE_ID } from "@/lib/progress-link";
+
+let applied = false;
+
+/**
+ * Pulls Martin's country high-point ascents from his Ticklelist profile and
+ * merges them into the website's progress data, so ticking a peak in the
+ * community app updates onsightmartin.com too. Returns a version counter that
+ * changes when the overlay modified anything, forcing a re-render.
+ */
+export function useLinkedProgress(): number {
+  const [version, setVersion] = useState(0);
+
+  useEffect(() => {
+    if (applied) return;
+    let active = true;
+
+    void supabase
+      .from("ascents")
+      .select("country, ascent_date")
+      .eq("user_id", MARTIN_PROFILE_ID)
+      .eq("peak_type", "country_highpoint")
+      .eq("is_public", true)
+      .then(({ data, error }) => {
+        if (!active || error || !data) return;
+        applied = true;
+        if (applyProgressOverlay(data as { country: string; ascent_date: string | null }[])) {
+          setVersion((v) => v + 1);
+        }
+      });
+
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  return version;
+}

@@ -1,1 +1,40 @@
-aW1wb3J0IHsgY3JlYXRlU2VydmVyRm4gfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtc3RhcnQiOwppbXBvcnQgeyByZXF1aXJlU3VwYWJhc2VBdXRoIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvYXV0aC1taWRkbGV3YXJlIjsKaW1wb3J0IHsgeiB9IGZyb20gInpvZCI7Cgpjb25zdCBjbGlja0lucHV0ID0gei5vYmplY3QoewogIGtpbmQ6IHouc3RyaW5nKCkubWluKDEpLm1heCg0MCksCiAgdXJsOiB6LnN0cmluZygpLnVybCgpLm1heCg2MDApLAogIHZpZGVvSWQ6IHouc3RyaW5nKCkubWF4KDQwKS5udWxsaXNoKCksCiAgbGFiZWw6IHouc3RyaW5nKCkubWF4KDIwMCkubnVsbGlzaCgpLAogIHBhZ2VQYXRoOiB6LnN0cmluZygpLm1heCgzMDApLm51bGxpc2goKSwKfSk7CgovKiogUmVjb3JkcyBhbiBvdXRib3VuZCBsaW5rIGNsaWNrIChZb3VUdWJlIGxpbmtzLCBzdXBwb3J0IGxpbmtzLCAuLi4pLiAqLwpleHBvcnQgY29uc3QgbG9nT3V0Ym91bmRDbGljayA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAuaW5wdXRWYWxpZGF0b3IoKGRhdGE6IHVua25vd24pID0+IGNsaWNrSW5wdXQucGFyc2UoZGF0YSkpCiAgLmhhbmRsZXIoYXN5bmMgKHsgZGF0YSB9KSA9PiB7CiAgICBjb25zdCB7IHN1cGFiYXNlQWRtaW4gfSA9IGF3YWl0IGltcG9ydCgiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50LnNlcnZlciIpOwogICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2VBZG1pbi5mcm9tKCJvdXRib3VuZF9jbGlja3MiKS5pbnNlcnQoewogICAgICBraW5kOiBkYXRhLmtpbmQsCiAgICAgIHVybDogZGF0YS51cmwsCiAgICAgIHZpZGVvX2lkOiBkYXRhLnZpZGVvSWQgPz8gbnVsbCwKICAgICAgbGFiZWw6IGRhdGEubGFiZWwgPz8gbnVsbCwKICAgICAgcGFnZV9wYXRoOiBkYXRhLnBhZ2VQYXRoID8/IG51bGwsCiAgICB9KTsKICAgIGlmIChlcnJvcikgY29uc29sZS5lcnJvcigiW291dGJvdW5kLWNsaWNrXSIsIGVycm9yLm1lc3NhZ2UpOwogICAgcmV0dXJuIHsgb2s6ICFlcnJvciB9OwogIH0pOwoKLyoqIEFkbWluLW9ubHk6IHJhdyBjbGljayByb3dzIGZvciB0aGUgc3RhdHMgZGFzaGJvYXJkIChSTFMgYWxzbyBlbmZvcmNlcyB0aGlzKS4gKi8KZXhwb3J0IGNvbnN0IG91dGJvdW5kQ2xpY2tSb3dzID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJHRVQiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5oYW5kbGVyKGFzeW5jICh7IGNvbnRleHQgfSkgPT4gewogICAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgY29udGV4dC5zdXBhYmFzZQogICAgICAuZnJvbSgib3V0Ym91bmRfY2xpY2tzIikKICAgICAgLnNlbGVjdCgia2luZCwgdXJsLCB2aWRlb19pZCwgbGFiZWwsIHBhZ2VfcGF0aCwgY3JlYXRlZF9hdCIpCiAgICAgIC5vcmRlcigiY3JlYXRlZF9hdCIsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KQogICAgICAubGltaXQoNTAwMCk7CiAgICBpZiAoZXJyb3IpIHRocm93IG5ldyBFcnJvcihlcnJvci5tZXNzYWdlKTsKICAgIHJldHVybiB7IHJvd3M6IGRhdGEgPz8gW10gfTsKICB9KTsK
+import { createServerFn } from "@tanstack/react-start";
+import { requireSupabaseAuth } from "@/integrations/supabase/auth-middleware";
+import { z } from "zod";
+
+const clickInput = z.object({
+  kind: z.string().min(1).max(40),
+  url: z.string().url().max(600),
+  videoId: z.string().max(40).nullish(),
+  label: z.string().max(200).nullish(),
+  pagePath: z.string().max(300).nullish(),
+});
+
+/** Records an outbound link click (YouTube links, support links, ...). */
+export const logOutboundClick = createServerFn({ method: "POST" })
+  .inputValidator((data: unknown) => clickInput.parse(data))
+  .handler(async ({ data }) => {
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    const { error } = await supabaseAdmin.from("outbound_clicks").insert({
+      kind: data.kind,
+      url: data.url,
+      video_id: data.videoId ?? null,
+      label: data.label ?? null,
+      page_path: data.pagePath ?? null,
+    });
+    if (error) console.error("[outbound-click]", error.message);
+    return { ok: !error };
+  });
+
+/** Admin-only: raw click rows for the stats dashboard (RLS also enforces this). */
+export const outboundClickRows = createServerFn({ method: "GET" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    const { data, error } = await context.supabase
+      .from("outbound_clicks")
+      .select("kind, url, video_id, label, page_path, created_at")
+      .order("created_at", { ascending: false })
+      .limit(5000);
+    if (error) throw new Error(error.message);
+    return { rows: data ?? [] };
+  });

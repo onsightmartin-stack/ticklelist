@@ -1,1 +1,34 @@
-Q1JFQVRFIE9SIFJFUExBQ0UgRlVOQ1RJT04gcHVibGljLmFwcGx5X3BlYWtfbWV0cmljcyhfcm93cyBqc29uYikKUkVUVVJOUyBpbnRlZ2VyCkxBTkdVQUdFIHBscGdzcWwKU0VDVVJJVFkgREVGSU5FUgpTRVQgc2VhcmNoX3BhdGggPSBwdWJsaWMKQVMgJCQKREVDTEFSRSBuIGludGVnZXI7CkJFR0lOCiAgV0lUSCBzcmMgQVMgKAogICAgU0VMRUNUIChyLT4+J2lkJyk6OmJpZ2ludCBBUyBpZCwKICAgICAgICAgICBOVUxMSUYoci0+Pidwcm9taW5lbmNlJywnJyk6OmludCBBUyBwcm9taW5lbmNlLAogICAgICAgICAgIE5VTExJRihyLT4+J3NhZGRsZV9sYXQnLCcnKTo6ZG91YmxlIHByZWNpc2lvbiBBUyBzYWRkbGVfbGF0LAogICAgICAgICAgIE5VTExJRihyLT4+J3NhZGRsZV9sb24nLCcnKTo6ZG91YmxlIHByZWNpc2lvbiBBUyBzYWRkbGVfbG9uLAogICAgICAgICAgIE5VTExJRihyLT4+J2RlbV9lbGV2YXRpb24nLCcnKTo6aW50IEFTIGRlbV9lbGV2YXRpb24sCiAgICAgICAgICAgTlVMTElGKHItPj4naXNvbGF0aW9uX2ttJywnJyk6OmRvdWJsZSBwcmVjaXNpb24gQVMgaXNvbGF0aW9uX2ttCiAgICBGUk9NIGpzb25iX2FycmF5X2VsZW1lbnRzKF9yb3dzKSByCiAgKSwgdXBkIEFTICgKICAgIFVQREFURSBwdWJsaWMud29ybGRfcGVha3MgdyBTRVQKICAgICAgcHJvbWluZW5jZSA9IENPQUxFU0NFKHcucHJvbWluZW5jZSwgcy5wcm9taW5lbmNlKSwKICAgICAgc2FkZGxlX2xhdCA9IENPQUxFU0NFKHMuc2FkZGxlX2xhdCwgdy5zYWRkbGVfbGF0KSwKICAgICAgc2FkZGxlX2xvbiA9IENPQUxFU0NFKHMuc2FkZGxlX2xvbiwgdy5zYWRkbGVfbG9uKSwKICAgICAgZGVtX2VsZXZhdGlvbiA9IENPQUxFU0NFKHMuZGVtX2VsZXZhdGlvbiwgdy5kZW1fZWxldmF0aW9uKSwKICAgICAgaXNvbGF0aW9uX2ttID0gQ09BTEVTQ0Uocy5pc29sYXRpb25fa20sIHcuaXNvbGF0aW9uX2ttKSwKICAgICAgcHJvbWluZW5jZV9zb3VyY2UgPSBDT0FMRVNDRSh3LnByb21pbmVuY2Vfc291cmNlLCAna2lybXNlLXAxMDAnKQogICAgRlJPTSBzcmMgcyBXSEVSRSBzLmlkID0gdy5pZAogICAgUkVUVVJOSU5HIDEKICApCiAgU0VMRUNUIGNvdW50KCopIElOVE8gbiBGUk9NIHVwZDsKICBSRVRVUk4gbjsKRU5EOwokJDsKClJFVk9LRSBBTEwgT04gRlVOQ1RJT04gcHVibGljLmFwcGx5X3BlYWtfbWV0cmljcyhqc29uYikgRlJPTSBQVUJMSUMsIGFub24sIGF1dGhlbnRpY2F0ZWQ7CkdSQU5UIEVYRUNVVEUgT04gRlVOQ1RJT04gcHVibGljLmFwcGx5X3BlYWtfbWV0cmljcyhqc29uYikgVE8gc2VydmljZV9yb2xlOw==
+CREATE OR REPLACE FUNCTION public.apply_peak_metrics(_rows jsonb)
+RETURNS integer
+LANGUAGE plpgsql
+SECURITY DEFINER
+SET search_path = public
+AS $$
+DECLARE n integer;
+BEGIN
+  WITH src AS (
+    SELECT (r->>'id')::bigint AS id,
+           NULLIF(r->>'prominence','')::int AS prominence,
+           NULLIF(r->>'saddle_lat','')::double precision AS saddle_lat,
+           NULLIF(r->>'saddle_lon','')::double precision AS saddle_lon,
+           NULLIF(r->>'dem_elevation','')::int AS dem_elevation,
+           NULLIF(r->>'isolation_km','')::double precision AS isolation_km
+    FROM jsonb_array_elements(_rows) r
+  ), upd AS (
+    UPDATE public.world_peaks w SET
+      prominence = COALESCE(w.prominence, s.prominence),
+      saddle_lat = COALESCE(s.saddle_lat, w.saddle_lat),
+      saddle_lon = COALESCE(s.saddle_lon, w.saddle_lon),
+      dem_elevation = COALESCE(s.dem_elevation, w.dem_elevation),
+      isolation_km = COALESCE(s.isolation_km, w.isolation_km),
+      prominence_source = COALESCE(w.prominence_source, 'kirmse-p100')
+    FROM src s WHERE s.id = w.id
+    RETURNING 1
+  )
+  SELECT count(*) INTO n FROM upd;
+  RETURN n;
+END;
+$$;
+
+REVOKE ALL ON FUNCTION public.apply_peak_metrics(jsonb) FROM PUBLIC, anon, authenticated;
+GRANT EXECUTE ON FUNCTION public.apply_peak_metrics(jsonb) TO service_role;

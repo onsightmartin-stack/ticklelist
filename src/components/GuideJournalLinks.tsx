@@ -1,1 +1,99 @@
-aW1wb3J0IHsgQ2hlY2tDaXJjbGUyLCBDaXJjbGUsIE1hcFBpbiwgQXJyb3dSaWdodCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IExpbmsgfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKaW1wb3J0IHR5cGUgeyBDb3VudHJ5SGlnaFBvaW50IH0gZnJvbSAiQC9kYXRhL2NvdW50cmllcyI7Cgp0eXBlIFByb3BzID0gewogIHJvd3M6IENvdW50cnlIaWdoUG9pbnRbXTsKICBoZWFkaW5nOiBzdHJpbmc7CiAgY2xhc3NOYW1lPzogc3RyaW5nOwp9OwoKLyoqCiAqIEF1dG9tYXRpYyBpbnRlcm5hbCBsaW5rcyBmcm9tIGEgZ3VpZGUgdG8gdGhlIG1hdGNoaW5nIHNlY3Rpb25zIG9mIHRoZSBqb3VybmFsCiAqIChzdW1taXRlZCAvIHZpc2l0ZWQgLyB5ZXQtdG8tY2xpbWIpIHBsdXMgZGlyZWN0IHBlYWsgcGFnZSBsaW5rcy4KICovCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEd1aWRlSm91cm5hbExpbmtzKHsgcm93cywgaGVhZGluZywgY2xhc3NOYW1lID0gIiIgfTogUHJvcHMpIHsKICBjb25zdCBzdW1taXRlZCA9IHJvd3MuZmlsdGVyKChjKSA9PiAoYy5zdGF0dXMgPT09ICJjbGltYmVkIiB8fCBjLnN0YXR1cyA9PT0gImxlZ2FsX2hpZ2hfcG9pbnQiKSAmJiBjLnVuTWVtYmVyICE9PSBmYWxzZSk7CiAgY29uc3QgdmlzaXRlZCA9IHJvd3MuZmlsdGVyKChjKSA9PiBjLnN0YXR1cyAhPT0gIm5vdF92aXNpdGVkIik7CiAgY29uc3QgdG9kbyA9IHJvd3MuZmlsdGVyKChjKSA9PiBjLnN0YXR1cyAhPT0gImNsaW1iZWQiICYmIGMuc3RhdHVzICE9PSAibGVnYWxfaGlnaF9wb2ludCIpOwoKICBjb25zdCBzZWN0aW9ucyA9IFsKICAgIHsKICAgICAga2V5OiAiY2xpbWJlZCIsCiAgICAgIGxhYmVsOiAiU3VtbWl0ZWQgaGlnaCBwb2ludHMiLAogICAgICBpY29uOiBDaGVja0NpcmNsZTIsCiAgICAgIGNvdW50OiBzdW1taXRlZC5sZW5ndGgsCiAgICAgIGNvbG9yOiAidGV4dC1pY2UiLAogICAgICBkZXNjOiBgUGVha3MgZnJvbSAke2hlYWRpbmd9IGFscmVhZHkgdG9wcGVkIG91dC5gLAogICAgfSwKICAgIHsKICAgICAga2V5OiAidmlzaXRlZCIsCiAgICAgIGxhYmVsOiAiVmlzaXRlZCBjb3VudHJpZXMiLAogICAgICBpY29uOiBNYXBQaW4sCiAgICAgIGNvdW50OiB2aXNpdGVkLmxlbmd0aCwKICAgICAgY29sb3I6ICJ0ZXh0LWFjY2VudCIsCiAgICAgIGRlc2M6ICJDb3VudHJpZXMgcmVhY2hlZCDigJQgc3VtbWl0IGRvbmUsIGF0dGVtcHRlZCBvciBzY291dGVkLiIsCiAgICB9LAogICAgewogICAgICBrZXk6ICJub3RfdmlzaXRlZCIsCiAgICAgIGxhYmVsOiAiWWV0IHRvIGNsaW1iIiwKICAgICAgaWNvbjogQ2lyY2xlLAogICAgICBjb3VudDogdG9kby5sZW5ndGgsCiAgICAgIGNvbG9yOiAidGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiwKICAgICAgZGVzYzogIlN0aWxsIG9wZW4gb24gdGhlIGxpc3Qg4oCUIHRoZSByb2FkIGFoZWFkLiIsCiAgICB9LAogIF07CgogIHJldHVybiAoCiAgICA8c2VjdGlvbiBjbGFzc05hbWU9e2BtdC0xMiAke2NsYXNzTmFtZX1gfT4KICAgICAgPGgyIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtMnhsIG1kOnRleHQtM3hsIGZvbnQtYm9sZCB0ZXh0LWZvcmVncm91bmQgbWItMiI+CiAgICAgICAgRm9sbG93IHRoaXMgbGlzdCBpbiB0aGUgam91cm5hbAogICAgICA8L2gyPgogICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1iLTQgbWF4LXctM3hsIj4KICAgICAgICBKdW1wIHN0cmFpZ2h0IGludG8gdGhlIGxpdmUgcHJvZ3Jlc3MgdHJhY2tlciwgZmlsdGVyZWQgdG8gdGhlIHN0YXR1cyB5b3UgY2FyZSBhYm91dC4KICAgICAgPC9wPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBnYXAtMyBzbTpncmlkLWNvbHMtMyI+CiAgICAgICAge3NlY3Rpb25zLm1hcCgocykgPT4gewogICAgICAgICAgY29uc3QgSWNvbiA9IHMuaWNvbjsKICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAga2V5PXtzLmtleX0KICAgICAgICAgICAgICB0bz17YC8/ZmlsdGVyPSR7cy5rZXl9I3Byb2dyZXNzYH0KICAgICAgICAgICAgICBjbGFzc05hbWU9Imdyb3VwIGJnLWNhcmQgYm9yZGVyIGJvcmRlci1ib3JkZXIgcm91bmRlZC1sZyBwLTQgaG92ZXI6Ym9yZGVyLXByaW1hcnkvNTAgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgPEljb24gY2xhc3NOYW1lPXtgdy00IGgtNCAke3MuY29sb3J9YH0gYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSBmb250LWJvbGQgdGV4dC1mb3JlZ3JvdW5kIj57cy5sYWJlbH08L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1sLWF1dG8gdGV4dC1zbSB0ZXh0LXByaW1hcnkgZm9udC1kaXNwbGF5Ij57cy5jb3VudH08L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC0yIj57cy5kZXNjfTwvcD4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im10LTMgaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0xIHRleHQteHMgdGV4dC1wcmltYXJ5Ij4KICAgICAgICAgICAgICAgIE9wZW4gaW4gam91cm5hbAogICAgICAgICAgICAgICAgPEFycm93UmlnaHQgY2xhc3NOYW1lPSJ3LTMgaC0zIGdyb3VwLWhvdmVyOnRyYW5zbGF0ZS14LTAuNSB0cmFuc2l0aW9uLXRyYW5zZm9ybSIgYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICApOwogICAgICAgIH0pfQogICAgICA8L2Rpdj4KCiAgICAgIHtzdW1taXRlZC5sZW5ndGggPiAwICYmICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNSI+CiAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC1zbSB0cmFja2luZy13aWRlciB0ZXh0LXByaW1hcnkgbWItMiI+CiAgICAgICAgICAgIEpvdXJuYWwgZW50cmllcyBmcm9tIHRoaXMgbGlzdAogICAgICAgICAgPC9oMz4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiI+CiAgICAgICAgICAgIHtzdW1taXRlZC5tYXAoKGMpID0+ICgKICAgICAgICAgICAgICA8TGluawogICAgICAgICAgICAgICAga2V5PXtjLmNvdW50cnl9CiAgICAgICAgICAgICAgICB0bz17YC8/ZmlsdGVyPWNsaW1iZWQmY291bnRyeT0ke2VuY29kZVVSSUNvbXBvbmVudChjLmNvdW50cnkpfSNwcm9ncmVzc2B9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQteHMgYmctc2Vjb25kYXJ5IHRleHQtc2Vjb25kYXJ5LWZvcmVncm91bmQgaG92ZXI6YmctbXV0ZWQgcm91bmRlZC1zbSBweC0zIHB5LTEuNSB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7Yy5oaWdoUG9pbnR9IMK3IHtjLmNvdW50cnl9CiAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICApfQogICAgPC9zZWN0aW9uPgogICk7Cn0K
+import { CheckCircle2, Circle, MapPin, ArrowRight } from "lucide-react";
+import { Link } from "@/lib/router-compat";
+import type { CountryHighPoint } from "@/data/countries";
+
+type Props = {
+  rows: CountryHighPoint[];
+  heading: string;
+  className?: string;
+};
+
+/**
+ * Automatic internal links from a guide to the matching sections of the journal
+ * (summited / visited / yet-to-climb) plus direct peak page links.
+ */
+export default function GuideJournalLinks({ rows, heading, className = "" }: Props) {
+  const summited = rows.filter((c) => (c.status === "climbed" || c.status === "legal_high_point") && c.unMember !== false);
+  const visited = rows.filter((c) => c.status !== "not_visited");
+  const todo = rows.filter((c) => c.status !== "climbed" && c.status !== "legal_high_point");
+
+  const sections = [
+    {
+      key: "climbed",
+      label: "Summited high points",
+      icon: CheckCircle2,
+      count: summited.length,
+      color: "text-ice",
+      desc: `Peaks from ${heading} already topped out.`,
+    },
+    {
+      key: "visited",
+      label: "Visited countries",
+      icon: MapPin,
+      count: visited.length,
+      color: "text-accent",
+      desc: "Countries reached — summit done, attempted or scouted.",
+    },
+    {
+      key: "not_visited",
+      label: "Yet to climb",
+      icon: Circle,
+      count: todo.length,
+      color: "text-muted-foreground",
+      desc: "Still open on the list — the road ahead.",
+    },
+  ];
+
+  return (
+    <section className={`mt-12 ${className}`}>
+      <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-2">
+        Follow this list in the journal
+      </h2>
+      <p className="text-sm text-muted-foreground mb-4 max-w-3xl">
+        Jump straight into the live progress tracker, filtered to the status you care about.
+      </p>
+      <div className="grid gap-3 sm:grid-cols-3">
+        {sections.map((s) => {
+          const Icon = s.icon;
+          return (
+            <Link
+              key={s.key}
+              to={`/?filter=${s.key}#progress`}
+              className="group bg-card border border-border rounded-lg p-4 hover:border-primary/50 transition-colors"
+            >
+              <div className="flex items-center gap-2">
+                <Icon className={`w-4 h-4 ${s.color}`} aria-hidden="true" />
+                <span className="font-display font-bold text-foreground">{s.label}</span>
+                <span className="ml-auto text-sm text-primary font-display">{s.count}</span>
+              </div>
+              <p className="text-xs text-muted-foreground mt-2">{s.desc}</p>
+              <span className="mt-3 inline-flex items-center gap-1 text-xs text-primary">
+                Open in journal
+                <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" aria-hidden="true" />
+              </span>
+            </Link>
+          );
+        })}
+      </div>
+
+      {summited.length > 0 && (
+        <div className="mt-5">
+          <h3 className="font-display text-sm tracking-wider text-primary mb-2">
+            Journal entries from this list
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {summited.map((c) => (
+              <Link
+                key={c.country}
+                to={`/?filter=climbed&country=${encodeURIComponent(c.country)}#progress`}
+                className="text-xs bg-secondary text-secondary-foreground hover:bg-muted rounded-sm px-3 py-1.5 transition-colors"
+              >
+                {c.highPoint} · {c.country}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+    </section>
+  );
+}

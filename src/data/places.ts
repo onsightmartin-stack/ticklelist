@@ -1,1 +1,138 @@
-aW1wb3J0IHsgZnV6enlGaWVsZFNjb3JlIH0gZnJvbSAiQC9saWIvZnV6enkiOwppbXBvcnQgeyBjb3VudHJpZXMgfSBmcm9tICJAL2RhdGEvY291bnRyaWVzIjsKCmV4cG9ydCB0eXBlIFBsYWNlVHlwZSA9ICJjb3VudHJ5IiB8ICJ3b25kZXIiIHwgIm5hdHVyYWxfd29uZGVyIiB8ICJwb2xlIiB8ICJsYW5kbWFyayI7CgpleHBvcnQgaW50ZXJmYWNlIENhdGFsb2dQbGFjZSB7CiAga2V5OiBzdHJpbmc7CiAgbmFtZTogc3RyaW5nOwogIGNvdW50cnk6IHN0cmluZyB8IG51bGw7CiAgdHlwZTogUGxhY2VUeXBlOwogIGdyb3VwOiBzdHJpbmc7CiAgLyoqIEFwcHJveGltYXRlIGNvb3JkaW5hdGVzIGZvciBtYXAgcGxhY2VtZW50LCB3aGVuIGtub3duLiAqLwogIGxhdD86IG51bWJlcjsKICBsbmc/OiBudW1iZXI7Cn0KCmNvbnN0IGNvdW50cnlFbnRyaWVzOiBDYXRhbG9nUGxhY2VbXSA9IGNvdW50cmllcwogIC5maWx0ZXIoKGMpID0+IGMuY291bnRyeSAhPT0gIkFudGFyY3RpY2EiKQogIC5tYXAoKGMpID0+ICh7CiAgICBrZXk6IGBjbzoke2MuY291bnRyeX1gLAogICAgbmFtZTogYy5jb3VudHJ5LAogICAgY291bnRyeTogYy5jb3VudHJ5LAogICAgdHlwZTogImNvdW50cnkiIGFzIGNvbnN0LAogICAgZ3JvdXA6IGBDb3VudHJpZXMgwrcgJHtjLmNvbnRpbmVudH1gLAogIH0pKTsKCi8qKiBDdXJhdGVkIG5vbi1jb3VudHJ5IHBsYWNlcyB3b3J0aCB0aWNraW5nIG9mZi4gKi8KY29uc3QgY3VyYXRlZDogQXJyYXk8T21pdDxDYXRhbG9nUGxhY2UsICJrZXkiPj4gPSBbCiAgLy8gTmV3N1dvbmRlcnMgb2YgdGhlIFdvcmxkCiAgeyBuYW1lOiAiR3JlYXQgV2FsbCBvZiBDaGluYSIsIGNvdW50cnk6ICJDaGluYSIsIHR5cGU6ICJ3b25kZXIiLCBncm91cDogIk5ldyA3IFdvbmRlcnMiLCBsYXQ6IDQwLjQzMTksIGxuZzogMTE2LjU3MDQgfSwKICB7IG5hbWU6ICJQZXRyYSIsIGNvdW50cnk6ICJKb3JkYW4iLCB0eXBlOiAid29uZGVyIiwgZ3JvdXA6ICJOZXcgNyBXb25kZXJzIiwgbGF0OiAzMC4zMjg1LCBsbmc6IDM1LjQ0NDQgfSwKICB7IG5hbWU6ICJDaHJpc3QgdGhlIFJlZGVlbWVyIiwgY291bnRyeTogIkJyYXppbCIsIHR5cGU6ICJ3b25kZXIiLCBncm91cDogIk5ldyA3IFdvbmRlcnMiLCBsYXQ6IDIyLjk1MTksIGxuZzogNDMuMjEwNSB9LAogIHsgbmFtZTogIk1hY2h1IFBpY2NodSIsIGNvdW50cnk6ICJQZXJ1IiwgdHlwZTogIndvbmRlciIsIGdyb3VwOiAiTmV3IDcgV29uZGVycyIsIGxhdDogLTEzLjE2MzEsIGxuZzogLTcyLjU0NTAgfSwKICB7IG5hbWU6ICJDaGljaMOpbiBJdHrDoSIsIGNvdW50cnk6ICJNZXhpY28iLCB0eXBlOiAid29uZGVyIiwgZ3JvdXA6ICJOZXcgNyBXb25kZXJzIiwgbGF0OiAyMC42ODQzLCBsbmc6IC04OC41Njc4IH0sCiAgeyBuYW1lOiAiQ29sb3NzZXVtIiwgY291bnRyeTogIkl0YWx5IiwgdHlwZTogIndvbmRlciIsIGdyb3VwOiAiTmV3IDcgV29uZGVycyIsIGxhdDogNDEuODkwMiwgbG5nOiAxMi40OTIyIH0sCiAgeyBuYW1lOiAiVGFqIE1haGFsIiwgY291bnRyeTogIkluZGlhIiwgdHlwZTogIndvbmRlciIsIGdyb3VwOiAiTmV3IDcgV29uZGVycyIsIGxhdDogMjcuMTc1MSwgbG5nOiA3OC4wNDIxIH0sCiAgeyBuYW1lOiAiR3JlYXQgUHlyYW1pZCBvZiBHaXphIiwgY291bnRyeTogIkVneXB0IiwgdHlwZTogIndvbmRlciIsIGdyb3VwOiAiTmV3IDcgV29uZGVycyIsIGxhdDogMjkuOTc5MiwgbG5nOiAzMS4xMzQyIH0sCgogIC8vIFNldmVuIFdvbmRlcnMgb2YgdGhlIEFuY2llbnQgV29ybGQKICB7IG5hbWU6ICJIYW5naW5nIEdhcmRlbnMgb2YgQmFieWxvbiIsIGNvdW50cnk6ICJJcmFxIiwgdHlwZTogIndvbmRlciIsIGdyb3VwOiAiQW5jaWVudCA3IFdvbmRlcnMiLCBsYXQ6IDMyLjU0MjIsIGxuZzogNDQuNDIzMSB9LAogIHsgbmFtZTogIlN0YXR1ZSBvZiBaZXVzIGF0IE9seW1waWEiLCBjb3VudHJ5OiAiR3JlZWNlIiwgdHlwZTogIndvbmRlciIsIGdyb3VwOiAiQW5jaWVudCA3IFdvbmRlcnMiLCBsYXQ6IDM3LjYzODYsIGxuZzogMjEuNjMwMSB9LAogIHsgbmFtZTogIlRlbXBsZSBvZiBBcnRlbWlzIGF0IEVwaGVzdXMiLCBjb3VudHJ5OiAiVHVya2V5IiwgdHlwZTogIndvbmRlciIsIGdyb3VwOiAiQW5jaWVudCA3IFdvbmRlcnMiLCBsYXQ6IDM3Ljk0OTcsIGxuZzogMjcuMzYzOSB9LAogIHsgbmFtZTogIk1hdXNvbGV1bSBhdCBIYWxpY2FybmFzc3VzIiwgY291bnRyeTogIlR1cmtleSIsIHR5cGU6ICJ3b25kZXIiLCBncm91cDogIkFuY2llbnQgNyBXb25kZXJzIiwgbGF0OiAzNy4wMzc5LCBsbmc6IDI3LjQyMzYgfSwKICB7IG5hbWU6ICJDb2xvc3N1cyBvZiBSaG9kZXMiLCBjb3VudHJ5OiAiR3JlZWNlIiwgdHlwZTogIndvbmRlciIsIGdyb3VwOiAiQW5jaWVudCA3IFdvbmRlcnMiLCBsYXQ6IDM2LjQ1MTIsIGxuZzogMjguMjIxNyB9LAogIHsgbmFtZTogIkxpZ2h0aG91c2Ugb2YgQWxleGFuZHJpYSIsIGNvdW50cnk6ICJFZ3lwdCIsIHR5cGU6ICJ3b25kZXIiLCBncm91cDogIkFuY2llbnQgNyBXb25kZXJzIiwgbGF0OiAzMS4yMDc5LCBsbmc6IDI5Ljg4NzAgfSwKCiAgLy8gTmF0dXJhbCB3b25kZXJzCiAgeyBuYW1lOiAiR3JhbmQgQ2FueW9uIiwgY291bnRyeTogIlVuaXRlZCBTdGF0ZXMiLCB0eXBlOiAibmF0dXJhbF93b25kZXIiLCBncm91cDogIk5hdHVyYWwgd29uZGVycyIsIGxhdDogMzYuMDU0NCwgbG5nOiAtMTEyLjE0MDEgfSwKICB7IG5hbWU6ICJHcmVhdCBCYXJyaWVyIFJlZWYiLCBjb3VudHJ5OiAiQXVzdHJhbGlhIiwgdHlwZTogIm5hdHVyYWxfd29uZGVyIiwgZ3JvdXA6ICJOYXR1cmFsIHdvbmRlcnMiLCBsYXQ6IC0xOC4yODcxLCBsbmc6IDE0Ny42OTkyIH0sCiAgeyBuYW1lOiAiSGFyYm91ciBvZiBSaW8gZGUgSmFuZWlybyIsIGNvdW50cnk6ICJCcmF6aWwiLCB0eXBlOiAibmF0dXJhbF93b25kZXIiLCBncm91cDogIk5hdHVyYWwgd29uZGVycyIsIGxhdDogLTIyLjk3MDcsIGxuZzogLTQzLjMwNDUgfSwKICB7IG5hbWU6ICJWaWN0b3JpYSBGYWxscyIsIGNvdW50cnk6ICJaYW1iaWEvWmltYmFid2UiLCB0eXBlOiAibmF0dXJhbF93b25kZXIiLCBncm91cDogIk5hdHVyYWwgd29uZGVycyIsIGxhdDogLTE3LjkyNDMsIGxuZzogMjUuODU3MiB9LAogIHsgbmFtZTogIk5vcnRoZXJuIExpZ2h0cyIsIGNvdW50cnk6IG51bGwsIHR5cGU6ICJuYXR1cmFsX3dvbmRlciIsIGdyb3VwOiAiTmF0dXJhbCB3b25kZXJzIiwgbGF0OiA2OS42NDkyLCBsbmc6IDE4Ljk1NTMgfSwKICB7IG5hbWU6ICJQYXLDrWN1dGluIHZvbGNhbm8iLCBjb3VudHJ5OiAiTWV4aWNvIiwgdHlwZTogIm5hdHVyYWxfd29uZGVyIiwgZ3JvdXA6ICJOYXR1cmFsIHdvbmRlcnMiLCBsYXQ6IDE5LjQ5OTUsIGxuZzogLTEwMi4yNTI3IH0sCiAgeyBuYW1lOiAiTW91bnQgRXZlcmVzdCBCYXNlIENhbXAiLCBjb3VudHJ5OiAiTmVwYWwiLCB0eXBlOiAibmF0dXJhbF93b25kZXIiLCBncm91cDogIk5hdHVyYWwgd29uZGVycyIsIGxhdDogMjguMDAyMiwgbG5nOiA4Ni44NTI3IH0sCgogIC8vIFBvbGVzCiAgeyBuYW1lOiAiTm9ydGggUG9sZSIsIGNvdW50cnk6IG51bGwsIHR5cGU6ICJwb2xlIiwgZ3JvdXA6ICJQb2xlcyIsIGxhdDogOTAsIGxuZzogMCB9LAogIHsgbmFtZTogIlNvdXRoIFBvbGUiLCBjb3VudHJ5OiAiQW50YXJjdGljYSIsIHR5cGU6ICJwb2xlIiwgZ3JvdXA6ICJQb2xlcyIsIGxhdDogLTkwLCBsbmc6IDAgfSwKICB7IG5hbWU6ICJBbnRhcmN0aWNhIChjb250aW5lbnQpIiwgY291bnRyeTogIkFudGFyY3RpY2EiLCB0eXBlOiAicG9sZSIsIGdyb3VwOiAiUG9sZXMiLCBsYXQ6IC04MiwgbG5nOiAwIH0sCgogIC8vIExhbmRtYXJrcyBwZW9wbGUgbG92ZSB0aWNraW5nCiAgeyBuYW1lOiAiRWlmZmVsIFRvd2VyIiwgY291bnRyeTogIkZyYW5jZSIsIHR5cGU6ICJsYW5kbWFyayIsIGdyb3VwOiAiTGFuZG1hcmtzIiwgbGF0OiA0OC44NTg0LCBsbmc6IDIuMjk0NSB9LAogIHsgbmFtZTogIlN0b25laGVuZ2UiLCBjb3VudHJ5OiAiVW5pdGVkIEtpbmdkb20iLCB0eXBlOiAibGFuZG1hcmsiLCBncm91cDogIkxhbmRtYXJrcyIsIGxhdDogNTEuMTc4OSwgbG5nOiAtMS44MjYyIH0sCiAgeyBuYW1lOiAiQW5na29yIFdhdCIsIGNvdW50cnk6ICJDYW1ib2RpYSIsIHR5cGU6ICJsYW5kbWFyayIsIGdyb3VwOiAiTGFuZG1hcmtzIiwgbGF0OiAxMy40MTI1LCBsbmc6IDEwMy44NjcwIH0sCiAgeyBuYW1lOiAiSGFnaWEgU29waGlhIiwgY291bnRyeTogIlR1cmtleSIsIHR5cGU6ICJsYW5kbWFyayIsIGdyb3VwOiAiTGFuZG1hcmtzIiwgbGF0OiA0MS4wMDg2LCBsbmc6IDI4Ljk4MDIgfSwKICB7IG5hbWU6ICJTYWdyYWRhIEZhbcOtbGlhIiwgY291bnRyeTogIlNwYWluIiwgdHlwZTogImxhbmRtYXJrIiwgZ3JvdXA6ICJMYW5kbWFya3MiLCBsYXQ6IDQxLjQwMzYsIGxuZzogMi4xNzQ0IH0sCiAgeyBuYW1lOiAiU3RhdHVlIG9mIExpYmVydHkiLCBjb3VudHJ5OiAiVW5pdGVkIFN0YXRlcyIsIHR5cGU6ICJsYW5kbWFyayIsIGdyb3VwOiAiTGFuZG1hcmtzIiwgbGF0OiA0MC42ODkyLCBsbmc6IC03NC4wNDQ1IH0sCiAgeyBuYW1lOiAiVWx1cnUiLCBjb3VudHJ5OiAiQXVzdHJhbGlhIiwgdHlwZTogImxhbmRtYXJrIiwgZ3JvdXA6ICJMYW5kbWFya3MiLCBsYXQ6IC0yNS4zNDQ0LCBsbmc6IDEzMS4wMzY5IH0sCiAgeyBuYW1lOiAiU2FsYXIgZGUgVXl1bmkiLCBjb3VudHJ5OiAiQm9saXZpYSIsIHR5cGU6ICJsYW5kbWFyayIsIGdyb3VwOiAiTGFuZG1hcmtzIiwgbGF0OiAtMjAuMTMzOCwgbG5nOiAtNjcuNDg5MSB9LAogIHsgbmFtZTogIlNhaGFyYSBkZXNlcnQiLCBjb3VudHJ5OiBudWxsLCB0eXBlOiAibGFuZG1hcmsiLCBncm91cDogIkxhbmRtYXJrcyIsIGxhdDogMjMuNDE2MiwgbG5nOiAyNS42NjI4IH0sCiAgeyBuYW1lOiAiR2Fsw6FwYWdvcyBJc2xhbmRzIiwgY291bnRyeTogIkVjdWFkb3IiLCB0eXBlOiAibGFuZG1hcmsiLCBncm91cDogIkxhbmRtYXJrcyIsIGxhdDogLTAuNzM5MywgbG5nOiAtOTAuMzMxOCB9LAoKICAvLyBPY2VhbnMg4oCUIGZvciB0aGUgInN3aW0gaW4gZXZlcnkgb2NlYW4iIGNyb3dkCiAgeyBuYW1lOiAiQXRsYW50aWMgT2NlYW4iLCBjb3VudHJ5OiBudWxsLCB0eXBlOiAibmF0dXJhbF93b25kZXIiLCBncm91cDogIk9jZWFucyIgfSwKICB7IG5hbWU6ICJQYWNpZmljIE9jZWFuIiwgY291bnRyeTogbnVsbCwgdHlwZTogIm5hdHVyYWxfd29uZGVyIiwgZ3JvdXA6ICJPY2VhbnMiIH0sCiAgeyBuYW1lOiAiSW5kaWFuIE9jZWFuIiwgY291bnRyeTogbnVsbCwgdHlwZTogIm5hdHVyYWxfd29uZGVyIiwgZ3JvdXA6ICJPY2VhbnMiIH0sCiAgeyBuYW1lOiAiQXJjdGljIE9jZWFuIiwgY291bnRyeTogbnVsbCwgdHlwZTogIm5hdHVyYWxfd29uZGVyIiwgZ3JvdXA6ICJPY2VhbnMiIH0sCiAgeyBuYW1lOiAiU291dGhlcm4gT2NlYW4iLCBjb3VudHJ5OiBudWxsLCB0eXBlOiAibmF0dXJhbF93b25kZXIiLCBncm91cDogIk9jZWFucyIgfSwKCiAgLy8gU2VhcyBhbmQgZmFtb3VzIHdhdGVycwogIHsgbmFtZTogIk1lZGl0ZXJyYW5lYW4gU2VhIiwgY291bnRyeTogbnVsbCwgdHlwZTogIm5hdHVyYWxfd29uZGVyIiwgZ3JvdXA6ICJTZWFzICYgd2F0ZXJzIiB9LAogIHsgbmFtZTogIkJhbHRpYyBTZWEiLCBjb3VudHJ5OiBudWxsLCB0eXBlOiAibmF0dXJhbF93b25kZXIiLCBncm91cDogIlNlYXMgJiB3YXRlcnMiIH0sCiAgeyBuYW1lOiAiQmxhY2sgU2VhIiwgY291bnRyeTogbnVsbCwgdHlwZTogIm5hdHVyYWxfd29uZGVyIiwgZ3JvdXA6ICJTZWFzICYgd2F0ZXJzIiB9LAogIHsgbmFtZTogIlJlZCBTZWEiLCBjb3VudHJ5OiBudWxsLCB0eXBlOiAibmF0dXJhbF93b25kZXIiLCBncm91cDogIlNlYXMgJiB3YXRlcnMiIH0sCiAgeyBuYW1lOiAiQ2FyaWJiZWFuIFNlYSIsIGNvdW50cnk6IG51bGwsIHR5cGU6ICJuYXR1cmFsX3dvbmRlciIsIGdyb3VwOiAiU2VhcyAmIHdhdGVycyIgfSwKICB7IG5hbWU6ICJDYXNwaWFuIFNlYSIsIGNvdW50cnk6IG51bGwsIHR5cGU6ICJuYXR1cmFsX3dvbmRlciIsIGdyb3VwOiAiU2VhcyAmIHdhdGVycyIgfSwKICB7IG5hbWU6ICJEZWFkIFNlYSIsIGNvdW50cnk6ICJJc3JhZWwvSm9yZGFuIiwgdHlwZTogIm5hdHVyYWxfd29uZGVyIiwgZ3JvdXA6ICJTZWFzICYgd2F0ZXJzIiB9LAogIHsgbmFtZTogIkxha2UgQmFpa2FsIiwgY291bnRyeTogIlJ1c3NpYSIsIHR5cGU6ICJuYXR1cmFsX3dvbmRlciIsIGdyb3VwOiAiU2VhcyAmIHdhdGVycyIgfSwKCiAgLy8gR3JlYXQgZGVzZXJ0cwogIHsgbmFtZTogIkdvYmkgZGVzZXJ0IiwgY291bnRyeTogbnVsbCwgdHlwZTogIm5hdHVyYWxfd29uZGVyIiwgZ3JvdXA6ICJHcmVhdCBkZXNlcnRzIiB9LAogIHsgbmFtZTogIkF0YWNhbWEgZGVzZXJ0IiwgY291bnRyeTogIkNoaWxlIiwgdHlwZTogIm5hdHVyYWxfd29uZGVyIiwgZ3JvdXA6ICJHcmVhdCBkZXNlcnRzIiB9LAogIHsgbmFtZTogIk5hbWliIGRlc2VydCIsIGNvdW50cnk6ICJOYW1pYmlhIiwgdHlwZTogIm5hdHVyYWxfd29uZGVyIiwgZ3JvdXA6ICJHcmVhdCBkZXNlcnRzIiB9LAogIHsgbmFtZTogIkthbGFoYXJpIGRlc2VydCIsIGNvdW50cnk6IG51bGwsIHR5cGU6ICJuYXR1cmFsX3dvbmRlciIsIGdyb3VwOiAiR3JlYXQgZGVzZXJ0cyIgfSwKICB7IG5hbWU6ICJSdWInIGFsIEtoYWxpIChFbXB0eSBRdWFydGVyKSIsIGNvdW50cnk6ICJTYXVkaSBBcmFiaWEiLCB0eXBlOiAibmF0dXJhbF93b25kZXIiLCBncm91cDogIkdyZWF0IGRlc2VydHMiIH0sCiAgeyBuYW1lOiAiQW50YXJjdGljIHBvbGFyIGRlc2VydCIsIGNvdW50cnk6ICJBbnRhcmN0aWNhIiwgdHlwZTogIm5hdHVyYWxfd29uZGVyIiwgZ3JvdXA6ICJHcmVhdCBkZXNlcnRzIiB9LAoKICAvLyBFeHRyZW1pdGllcyBvZiBtYWlubGFuZCBFdXJvcGUKICB7IG5hbWU6ICJDYWJvIGRhIFJvY2EgKHdlc3Rlcm5tb3N0KSIsIGNvdW50cnk6ICJQb3J0dWdhbCIsIHR5cGU6ICJsYW5kbWFyayIsIGdyb3VwOiAiRXVyb3BlYW4gZXh0cmVtaXRpZXMiIH0sCiAgeyBuYW1lOiAiS2lubmFyb2RkZW4gKG5vcnRoZXJubW9zdCkiLCBjb3VudHJ5OiAiTm9yd2F5IiwgdHlwZTogImxhbmRtYXJrIiwgZ3JvdXA6ICJFdXJvcGVhbiBleHRyZW1pdGllcyIgfSwKICB7IG5hbWU6ICJQdW50YSBkZSBUYXJpZmEgKHNvdXRoZXJubW9zdCkiLCBjb3VudHJ5OiAiU3BhaW4iLCB0eXBlOiAibGFuZG1hcmsiLCBncm91cDogIkV1cm9wZWFuIGV4dHJlbWl0aWVzIiB9LAogIHsgbmFtZTogIkNhcGUgRmxpc3Npbmdza3kgKGVhc3Rlcm5tb3N0KSIsIGNvdW50cnk6ICJSdXNzaWEiLCB0eXBlOiAibGFuZG1hcmsiLCBncm91cDogIkV1cm9wZWFuIGV4dHJlbWl0aWVzIiB9LApdOwoKCmNvbnN0IGN1cmF0ZWRFbnRyaWVzOiBDYXRhbG9nUGxhY2VbXSA9IGN1cmF0ZWQubWFwKChwKSA9PiAoeyAuLi5wLCBrZXk6IGBwbDoke3AubmFtZX1gIH0pKTsKCmV4cG9ydCBjb25zdCBwbGFjZUNhdGFsb2c6IENhdGFsb2dQbGFjZVtdID0gWy4uLmNvdW50cnlFbnRyaWVzLCAuLi5jdXJhdGVkRW50cmllc107CgpleHBvcnQgY29uc3QgZmluZFBsYWNlID0gKGtleTogc3RyaW5nKSA9PiBwbGFjZUNhdGFsb2cuZmluZCgocCkgPT4gcC5rZXkgPT09IGtleSk7CgpleHBvcnQgY29uc3Qgc2VhcmNoUGxhY2VzID0gKHF1ZXJ5OiBzdHJpbmcsIGxpbWl0ID0gOCk6IENhdGFsb2dQbGFjZVtdID0+IHsKICBpZiAoIXF1ZXJ5LnRyaW0oKSkgcmV0dXJuIFtdOwogIGNvbnN0IHNjb3JlZCA9IHBsYWNlQ2F0YWxvZwogICAgLm1hcCgocCkgPT4gKHsKICAgICAgcCwKICAgICAgc2NvcmU6IE1hdGgubWluKGZ1enp5RmllbGRTY29yZShxdWVyeSwgcC5uYW1lKSwgZnV6enlGaWVsZFNjb3JlKHF1ZXJ5LCBwLmNvdW50cnkgPz8gIiIpICsgMC41KSwKICAgIH0pKQogICAgLmZpbHRlcigocykgPT4gTnVtYmVyLmlzRmluaXRlKHMuc2NvcmUpKQogICAgLnNvcnQoKGEsIGIpID0+IGEuc2NvcmUgLSBiLnNjb3JlIHx8IGEucC5uYW1lLmxvY2FsZUNvbXBhcmUoYi5wLm5hbWUpKTsKICByZXR1cm4gc2NvcmVkLnNsaWNlKDAsIGxpbWl0KS5tYXAoKHMpID0+IHMucCk7Cn07CgpleHBvcnQgaW50ZXJmYWNlIFZpc2l0IHsKICBpZDogc3RyaW5nOwogIHVzZXJfaWQ6IHN0cmluZzsKICBwbGFjZV9rZXk6IHN0cmluZzsKICBwbGFjZV9uYW1lOiBzdHJpbmc7CiAgY291bnRyeTogc3RyaW5nIHwgbnVsbDsKICBwbGFjZV90eXBlOiBzdHJpbmc7CiAgdmlzaXRfZGF0ZTogc3RyaW5nIHwgbnVsbDsKICBkYXRlX3ByZWNpc2lvbj86ICJkYXkiIHwgIm1vbnRoIiB8ICJ5ZWFyIiB8IG51bGw7CiAgbm90ZXM6IHN0cmluZyB8IG51bGw7CiAgcGhvdG9fdXJsOiBzdHJpbmcgfCBudWxsOwogIGlzX3B1YmxpYzogYm9vbGVhbjsKICBjcmVhdGVkX2F0OiBzdHJpbmc7CiAgdXBkYXRlZF9hdDogc3RyaW5nOwp9Cg==
+import { fuzzyFieldScore } from "@/lib/fuzzy";
+import { countries } from "@/data/countries";
+
+export type PlaceType = "country" | "wonder" | "natural_wonder" | "pole" | "landmark";
+
+export interface CatalogPlace {
+  key: string;
+  name: string;
+  country: string | null;
+  type: PlaceType;
+  group: string;
+  /** Approximate coordinates for map placement, when known. */
+  lat?: number;
+  lng?: number;
+}
+
+const countryEntries: CatalogPlace[] = countries
+  .filter((c) => c.country !== "Antarctica")
+  .map((c) => ({
+    key: `co:${c.country}`,
+    name: c.country,
+    country: c.country,
+    type: "country" as const,
+    group: `Countries · ${c.continent}`,
+  }));
+
+/** Curated non-country places worth ticking off. */
+const curated: Array<Omit<CatalogPlace, "key">> = [
+  // New7Wonders of the World
+  { name: "Great Wall of China", country: "China", type: "wonder", group: "New 7 Wonders", lat: 40.4319, lng: 116.5704 },
+  { name: "Petra", country: "Jordan", type: "wonder", group: "New 7 Wonders", lat: 30.3285, lng: 35.4444 },
+  { name: "Christ the Redeemer", country: "Brazil", type: "wonder", group: "New 7 Wonders", lat: 22.9519, lng: 43.2105 },
+  { name: "Machu Picchu", country: "Peru", type: "wonder", group: "New 7 Wonders", lat: -13.1631, lng: -72.5450 },
+  { name: "Chichén Itzá", country: "Mexico", type: "wonder", group: "New 7 Wonders", lat: 20.6843, lng: -88.5678 },
+  { name: "Colosseum", country: "Italy", type: "wonder", group: "New 7 Wonders", lat: 41.8902, lng: 12.4922 },
+  { name: "Taj Mahal", country: "India", type: "wonder", group: "New 7 Wonders", lat: 27.1751, lng: 78.0421 },
+  { name: "Great Pyramid of Giza", country: "Egypt", type: "wonder", group: "New 7 Wonders", lat: 29.9792, lng: 31.1342 },
+
+  // Seven Wonders of the Ancient World
+  { name: "Hanging Gardens of Babylon", country: "Iraq", type: "wonder", group: "Ancient 7 Wonders", lat: 32.5422, lng: 44.4231 },
+  { name: "Statue of Zeus at Olympia", country: "Greece", type: "wonder", group: "Ancient 7 Wonders", lat: 37.6386, lng: 21.6301 },
+  { name: "Temple of Artemis at Ephesus", country: "Turkey", type: "wonder", group: "Ancient 7 Wonders", lat: 37.9497, lng: 27.3639 },
+  { name: "Mausoleum at Halicarnassus", country: "Turkey", type: "wonder", group: "Ancient 7 Wonders", lat: 37.0379, lng: 27.4236 },
+  { name: "Colossus of Rhodes", country: "Greece", type: "wonder", group: "Ancient 7 Wonders", lat: 36.4512, lng: 28.2217 },
+  { name: "Lighthouse of Alexandria", country: "Egypt", type: "wonder", group: "Ancient 7 Wonders", lat: 31.2079, lng: 29.8870 },
+
+  // Natural wonders
+  { name: "Grand Canyon", country: "United States", type: "natural_wonder", group: "Natural wonders", lat: 36.0544, lng: -112.1401 },
+  { name: "Great Barrier Reef", country: "Australia", type: "natural_wonder", group: "Natural wonders", lat: -18.2871, lng: 147.6992 },
+  { name: "Harbour of Rio de Janeiro", country: "Brazil", type: "natural_wonder", group: "Natural wonders", lat: -22.9707, lng: -43.3045 },
+  { name: "Victoria Falls", country: "Zambia/Zimbabwe", type: "natural_wonder", group: "Natural wonders", lat: -17.9243, lng: 25.8572 },
+  { name: "Northern Lights", country: null, type: "natural_wonder", group: "Natural wonders", lat: 69.6492, lng: 18.9553 },
+  { name: "Parícutin volcano", country: "Mexico", type: "natural_wonder", group: "Natural wonders", lat: 19.4995, lng: -102.2527 },
+  { name: "Mount Everest Base Camp", country: "Nepal", type: "natural_wonder", group: "Natural wonders", lat: 28.0022, lng: 86.8527 },
+
+  // Poles
+  { name: "North Pole", country: null, type: "pole", group: "Poles", lat: 90, lng: 0 },
+  { name: "South Pole", country: "Antarctica", type: "pole", group: "Poles", lat: -90, lng: 0 },
+  { name: "Antarctica (continent)", country: "Antarctica", type: "pole", group: "Poles", lat: -82, lng: 0 },
+
+  // Landmarks people love ticking
+  { name: "Eiffel Tower", country: "France", type: "landmark", group: "Landmarks", lat: 48.8584, lng: 2.2945 },
+  { name: "Stonehenge", country: "United Kingdom", type: "landmark", group: "Landmarks", lat: 51.1789, lng: -1.8262 },
+  { name: "Angkor Wat", country: "Cambodia", type: "landmark", group: "Landmarks", lat: 13.4125, lng: 103.8670 },
+  { name: "Hagia Sophia", country: "Turkey", type: "landmark", group: "Landmarks", lat: 41.0086, lng: 28.9802 },
+  { name: "Sagrada Família", country: "Spain", type: "landmark", group: "Landmarks", lat: 41.4036, lng: 2.1744 },
+  { name: "Statue of Liberty", country: "United States", type: "landmark", group: "Landmarks", lat: 40.6892, lng: -74.0445 },
+  { name: "Uluru", country: "Australia", type: "landmark", group: "Landmarks", lat: -25.3444, lng: 131.0369 },
+  { name: "Salar de Uyuni", country: "Bolivia", type: "landmark", group: "Landmarks", lat: -20.1338, lng: -67.4891 },
+  { name: "Sahara desert", country: null, type: "landmark", group: "Landmarks", lat: 23.4162, lng: 25.6628 },
+  { name: "Galápagos Islands", country: "Ecuador", type: "landmark", group: "Landmarks", lat: -0.7393, lng: -90.3318 },
+
+  // Oceans — for the "swim in every ocean" crowd
+  { name: "Atlantic Ocean", country: null, type: "natural_wonder", group: "Oceans" },
+  { name: "Pacific Ocean", country: null, type: "natural_wonder", group: "Oceans" },
+  { name: "Indian Ocean", country: null, type: "natural_wonder", group: "Oceans" },
+  { name: "Arctic Ocean", country: null, type: "natural_wonder", group: "Oceans" },
+  { name: "Southern Ocean", country: null, type: "natural_wonder", group: "Oceans" },
+
+  // Seas and famous waters
+  { name: "Mediterranean Sea", country: null, type: "natural_wonder", group: "Seas & waters" },
+  { name: "Baltic Sea", country: null, type: "natural_wonder", group: "Seas & waters" },
+  { name: "Black Sea", country: null, type: "natural_wonder", group: "Seas & waters" },
+  { name: "Red Sea", country: null, type: "natural_wonder", group: "Seas & waters" },
+  { name: "Caribbean Sea", country: null, type: "natural_wonder", group: "Seas & waters" },
+  { name: "Caspian Sea", country: null, type: "natural_wonder", group: "Seas & waters" },
+  { name: "Dead Sea", country: "Israel/Jordan", type: "natural_wonder", group: "Seas & waters" },
+  { name: "Lake Baikal", country: "Russia", type: "natural_wonder", group: "Seas & waters" },
+
+  // Great deserts
+  { name: "Gobi desert", country: null, type: "natural_wonder", group: "Great deserts" },
+  { name: "Atacama desert", country: "Chile", type: "natural_wonder", group: "Great deserts" },
+  { name: "Namib desert", country: "Namibia", type: "natural_wonder", group: "Great deserts" },
+  { name: "Kalahari desert", country: null, type: "natural_wonder", group: "Great deserts" },
+  { name: "Rub' al Khali (Empty Quarter)", country: "Saudi Arabia", type: "natural_wonder", group: "Great deserts" },
+  { name: "Antarctic polar desert", country: "Antarctica", type: "natural_wonder", group: "Great deserts" },
+
+  // Extremities of mainland Europe
+  { name: "Cabo da Roca (westernmost)", country: "Portugal", type: "landmark", group: "European extremities" },
+  { name: "Kinnarodden (northernmost)", country: "Norway", type: "landmark", group: "European extremities" },
+  { name: "Punta de Tarifa (southernmost)", country: "Spain", type: "landmark", group: "European extremities" },
+  { name: "Cape Flissingsky (easternmost)", country: "Russia", type: "landmark", group: "European extremities" },
+];
+
+
+const curatedEntries: CatalogPlace[] = curated.map((p) => ({ ...p, key: `pl:${p.name}` }));
+
+export const placeCatalog: CatalogPlace[] = [...countryEntries, ...curatedEntries];
+
+export const findPlace = (key: string) => placeCatalog.find((p) => p.key === key);
+
+export const searchPlaces = (query: string, limit = 8): CatalogPlace[] => {
+  if (!query.trim()) return [];
+  const scored = placeCatalog
+    .map((p) => ({
+      p,
+      score: Math.min(fuzzyFieldScore(query, p.name), fuzzyFieldScore(query, p.country ?? "") + 0.5),
+    }))
+    .filter((s) => Number.isFinite(s.score))
+    .sort((a, b) => a.score - b.score || a.p.name.localeCompare(b.p.name));
+  return scored.slice(0, limit).map((s) => s.p);
+};
+
+export interface Visit {
+  id: string;
+  user_id: string;
+  place_key: string;
+  place_name: string;
+  country: string | null;
+  place_type: string;
+  visit_date: string | null;
+  date_precision?: "day" | "month" | "year" | null;
+  notes: string | null;
+  photo_url: string | null;
+  is_public: boolean;
+  created_at: string;
+  updated_at: string;
+}

@@ -1,1 +1,72 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBUcm9waHkgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwoKaW1wb3J0IE1lbWJlckF2YXRhciBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L01lbWJlckF2YXRhciI7CmltcG9ydCB7IFByb2dyZXNzIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3Byb2dyZXNzIjsKaW1wb3J0IHR5cGUgeyBQZWFrTGlzdCB9IGZyb20gIkAvZGF0YS9wZWFrLWxpc3RzIjsKaW1wb3J0IHR5cGUgeyBQdWJsaWNQcm9maWxlIH0gZnJvbSAiQC9saWIvY29tbXVuaXR5IjsKCmludGVyZmFjZSBQcm9wcyB7CiAgbGlzdDogUGVha0xpc3Q7CiAgLyoqIENsaW1iZWQgcGVhayBrZXlzIHBlciBtZW1iZXIgaWQuICovCiAgYnlVc2VyOiBNYXA8c3RyaW5nLCBTZXQ8c3RyaW5nPj47CiAgcHJvZmlsZXM6IFJlY29yZDxzdHJpbmcsIFB1YmxpY1Byb2ZpbGU+OwogIGN1cnJlbnRVc2VySWQ6IHN0cmluZyB8IG51bGw7Cn0KCmNvbnN0IGNvdW50Rm9yID0gKGxpc3Q6IFBlYWtMaXN0LCBrZXlzOiBTZXQ8c3RyaW5nPiB8IHVuZGVmaW5lZCkgPT4KICBrZXlzID8gbGlzdC5lbnRyaWVzLmZpbHRlcigoZSkgPT4ga2V5cy5oYXMoZS5rZXkpIHx8IChlLmFsdCA/PyBbXSkuc29tZSgoaykgPT4ga2V5cy5oYXMoaykpKS5sZW5ndGggOiAwOwoKLyoqIEV2ZXJ5IG1lbWJlcidzIHN0YW5kaW5nIG9uIG9uZSBjaGFsbGVuZ2UgbGlzdCwgYmVzdCBmaXJzdC4gKi8KY29uc3QgTGlzdE1lbWJlcnNQcm9ncmVzcyA9ICh7IGxpc3QsIGJ5VXNlciwgcHJvZmlsZXMsIGN1cnJlbnRVc2VySWQgfTogUHJvcHMpID0+IHsKICBjb25zdCB0b3RhbCA9IGxpc3QuZW50cmllcy5sZW5ndGg7CiAgY29uc3Qgcm93cyA9IE9iamVjdC52YWx1ZXMocHJvZmlsZXMpCiAgICAubWFwKChwKSA9PiAoeyBwLCBuOiBjb3VudEZvcihsaXN0LCBieVVzZXIuZ2V0KHAuaWQpKSB9KSkKICAgIC5zb3J0KChhLCBiKSA9PiBiLm4gLSBhLm4gfHwgYS5wLmRpc3BsYXlfbmFtZS5sb2NhbGVDb21wYXJlKGIucC5kaXNwbGF5X25hbWUpKTsKCiAgY29uc3QgYWN0aXZlID0gcm93cy5maWx0ZXIoKHIpID0+IHIubiA+IDApOwogIGlmIChhY3RpdmUubGVuZ3RoID09PSAwKSB7CiAgICByZXR1cm4gKAogICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICBOb2JvZHkgaGFzIHRpY2tlZCBhIHBlYWsgb24gdGhpcyBsaXN0IHlldCDigJQgYmUgdGhlIGZpcnN0LgogICAgICA8L3A+CiAgICApOwogIH0KCiAgcmV0dXJuICgKICAgIDxvbCBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgIHthY3RpdmUubWFwKChyLCBpKSA9PiB7CiAgICAgICAgY29uc3QgcGN0ID0gTWF0aC5yb3VuZCgoci5uIC8gdG90YWwpICogMTAwKTsKICAgICAgICBjb25zdCBpc01lID0gci5wLmlkID09PSBjdXJyZW50VXNlcklkOwogICAgICAgIHJldHVybiAoCiAgICAgICAgICA8bGkga2V5PXtyLnAuaWR9PgogICAgICAgICAgICA8TGluawogICAgICAgICAgICAgIHRvPXtgL2NvbW11bml0eS9tZW1iZXJzLyR7ci5wLmlkfWB9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMgcm91bmRlZC1sZyBib3JkZXIgcC0yIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLW11dGVkLzUwICR7CiAgICAgICAgICAgICAgICBpc01lID8gImJvcmRlci1wcmltYXJ5LzYwIGJnLXByaW1hcnkvNSIgOiAiYm9yZGVyLWJvcmRlciIKICAgICAgICAgICAgICB9YH0KICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idy01IHNocmluay0wIHRleHQtY2VudGVyIHRleHQteHMgdGFidWxhci1udW1zIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICB7aSArIDF9CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDxNZW1iZXJBdmF0YXIgcGF0aD17ci5wLmF2YXRhcl91cmx9IG5hbWU9e3IucC5kaXNwbGF5X25hbWV9IGNsYXNzTmFtZT0iaC04IHctOCBzaHJpbmstMCIgLz4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCBmbGV4LTEiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0cnVuY2F0ZSB0ZXh0LXNtIj57ci5wLmRpc3BsYXlfbmFtZX08L3NwYW4+CiAgICAgICAgICAgICAgICAgIHtpc01lICYmIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIHRleHQtcHJpbWFyeSI+WW91PC9zcGFuPn0KICAgICAgICAgICAgICAgICAge3IubiA9PT0gdG90YWwgJiYgPFRyb3BoeSBjbGFzc05hbWU9ImgtMy41IHctMy41IHRleHQtYW1iZXItNDAwIiAvPn0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPFByb2dyZXNzIHZhbHVlPXtwY3R9IGNsYXNzTmFtZT0ibXQtMSBoLTEuNSIgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InNocmluay0wIHRleHQteHMgdGFidWxhci1udW1zIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICB7ci5ufS97dG90YWx9CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICA8L2xpPgogICAgICAgICk7CiAgICAgIH0pfQogICAgPC9vbD4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgTGlzdE1lbWJlcnNQcm9ncmVzczsK
+import { Link } from "@/lib/router-compat";
+import { Trophy } from "lucide-react";
+
+import MemberAvatar from "@/components/community/MemberAvatar";
+import { Progress } from "@/components/ui/progress";
+import type { PeakList } from "@/data/peak-lists";
+import type { PublicProfile } from "@/lib/community";
+
+interface Props {
+  list: PeakList;
+  /** Climbed peak keys per member id. */
+  byUser: Map<string, Set<string>>;
+  profiles: Record<string, PublicProfile>;
+  currentUserId: string | null;
+}
+
+const countFor = (list: PeakList, keys: Set<string> | undefined) =>
+  keys ? list.entries.filter((e) => keys.has(e.key) || (e.alt ?? []).some((k) => keys.has(k))).length : 0;
+
+/** Every member's standing on one challenge list, best first. */
+const ListMembersProgress = ({ list, byUser, profiles, currentUserId }: Props) => {
+  const total = list.entries.length;
+  const rows = Object.values(profiles)
+    .map((p) => ({ p, n: countFor(list, byUser.get(p.id)) }))
+    .sort((a, b) => b.n - a.n || a.p.display_name.localeCompare(b.p.display_name));
+
+  const active = rows.filter((r) => r.n > 0);
+  if (active.length === 0) {
+    return (
+      <p className="text-sm text-muted-foreground">
+        Nobody has ticked a peak on this list yet — be the first.
+      </p>
+    );
+  }
+
+  return (
+    <ol className="space-y-2">
+      {active.map((r, i) => {
+        const pct = Math.round((r.n / total) * 100);
+        const isMe = r.p.id === currentUserId;
+        return (
+          <li key={r.p.id}>
+            <Link
+              to={`/community/members/${r.p.id}`}
+              className={`flex items-center gap-3 rounded-lg border p-2 transition-colors hover:bg-muted/50 ${
+                isMe ? "border-primary/60 bg-primary/5" : "border-border"
+              }`}
+            >
+              <span className="w-5 shrink-0 text-center text-xs tabular-nums text-muted-foreground">
+                {i + 1}
+              </span>
+              <MemberAvatar path={r.p.avatar_url} name={r.p.display_name} className="h-8 w-8 shrink-0" />
+              <div className="min-w-0 flex-1">
+                <div className="flex items-center gap-2">
+                  <span className="truncate text-sm">{r.p.display_name}</span>
+                  {isMe && <span className="text-[10px] uppercase tracking-wider text-primary">You</span>}
+                  {r.n === total && <Trophy className="h-3.5 w-3.5 text-amber-400" />}
+                </div>
+                <Progress value={pct} className="mt-1 h-1.5" />
+              </div>
+              <span className="shrink-0 text-xs tabular-nums text-muted-foreground">
+                {r.n}/{total}
+              </span>
+            </Link>
+          </li>
+        );
+      })}
+    </ol>
+  );
+};
+
+export default ListMembersProgress;

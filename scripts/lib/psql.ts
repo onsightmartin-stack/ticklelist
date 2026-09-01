@@ -1,1 +1,28 @@
-LyoqIFRpbnkgcHNxbCBoZWxwZXIgc2hhcmVkIGJ5IHRoZSBQZWFrYmFnZ2VyIGltcG9ydCBzY3JpcHRzLiAqLwpleHBvcnQgY29uc3QgcHNxbCA9IGFzeW5jIChzcWw6IHN0cmluZyk6IFByb21pc2U8c3RyaW5nPiA9PiB7CiAgY29uc3QgcHJvYyA9IEJ1bi5zcGF3bihbInBzcWwiLCAiLUF0cSIsICItYyIsIHNxbF0sIHsgc3Rkb3V0OiAicGlwZSIsIHN0ZGVycjogInBpcGUiIH0pOwogIGNvbnN0IFtvdXQsIGVyciwgY29kZV0gPSBhd2FpdCBQcm9taXNlLmFsbChbCiAgICBuZXcgUmVzcG9uc2UocHJvYy5zdGRvdXQpLnRleHQoKSwKICAgIG5ldyBSZXNwb25zZShwcm9jLnN0ZGVycikudGV4dCgpLAogICAgcHJvYy5leGl0ZWQsCiAgXSk7CiAgaWYgKGNvZGUgIT09IDApIHRocm93IG5ldyBFcnJvcihlcnIudHJpbSgpIHx8IGBwc3FsIGV4aXRlZCAke2NvZGV9YCk7CiAgcmV0dXJuIG91dC50cmltKCk7Cn07CgovKiogUnVuIGEgd2hvbGUgU1FMIGZpbGUgaW5zaWRlIG9uZSB0cmFuc2FjdGlvbi4gKi8KZXhwb3J0IGNvbnN0IHBzcWxGaWxlID0gYXN5bmMgKHBhdGg6IHN0cmluZyk6IFByb21pc2U8c3RyaW5nPiA9PiB7CiAgY29uc3QgcHJvYyA9IEJ1bi5zcGF3bihbInBzcWwiLCAiLUF0cSIsICItdiIsICJPTl9FUlJPUl9TVE9QPTEiLCAiLS1zaW5nbGUtdHJhbnNhY3Rpb24iLCAiLWYiLCBwYXRoXSwgewogICAgc3Rkb3V0OiAicGlwZSIsCiAgICBzdGRlcnI6ICJwaXBlIiwKICB9KTsKICBjb25zdCBbb3V0LCBlcnIsIGNvZGVdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgbmV3IFJlc3BvbnNlKHByb2Muc3Rkb3V0KS50ZXh0KCksCiAgICBuZXcgUmVzcG9uc2UocHJvYy5zdGRlcnIpLnRleHQoKSwKICAgIHByb2MuZXhpdGVkLAogIF0pOwogIGlmIChjb2RlICE9PSAwKSB0aHJvdyBuZXcgRXJyb3IoZXJyLnRyaW0oKSB8fCBgcHNxbCBleGl0ZWQgJHtjb2RlfWApOwogIHJldHVybiBvdXQudHJpbSgpOwp9OwoKZXhwb3J0IGNvbnN0IGxpdCA9ICh2OiBzdHJpbmcpID0+IGAnJHt2LnJlcGxhY2UoLycvZywgIicnIil9J2A7Cg==
+/** Tiny psql helper shared by the Peakbagger import scripts. */
+export const psql = async (sql: string): Promise<string> => {
+  const proc = Bun.spawn(["psql", "-Atq", "-c", sql], { stdout: "pipe", stderr: "pipe" });
+  const [out, err, code] = await Promise.all([
+    new Response(proc.stdout).text(),
+    new Response(proc.stderr).text(),
+    proc.exited,
+  ]);
+  if (code !== 0) throw new Error(err.trim() || `psql exited ${code}`);
+  return out.trim();
+};
+
+/** Run a whole SQL file inside one transaction. */
+export const psqlFile = async (path: string): Promise<string> => {
+  const proc = Bun.spawn(["psql", "-Atq", "-v", "ON_ERROR_STOP=1", "--single-transaction", "-f", path], {
+    stdout: "pipe",
+    stderr: "pipe",
+  });
+  const [out, err, code] = await Promise.all([
+    new Response(proc.stdout).text(),
+    new Response(proc.stderr).text(),
+    proc.exited,
+  ]);
+  if (code !== 0) throw new Error(err.trim() || `psql exited ${code}`);
+  return out.trim();
+};
+
+export const lit = (v: string) => `'${v.replace(/'/g, "''")}'`;

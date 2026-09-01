@@ -1,1 +1,185 @@
-aW1wb3J0IHsgdXNlTWVtbyB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgdXNlUXVlcnkgfSBmcm9tICJAdGFuc3RhY2svcmVhY3QtcXVlcnkiOwppbXBvcnQgeyB1c2VTZXJ2ZXJGbiB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1zdGFydCI7CmltcG9ydCB7IEJhckNoYXJ0MywgWW91dHViZSwgTG9jayB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCBOYXZiYXIgZnJvbSAiQC9jb21wb25lbnRzL05hdmJhciI7CmltcG9ydCBTZW8gZnJvbSAiQC9jb21wb25lbnRzL1NlbyI7CmltcG9ydCB7IHVzZUF1dGggfSBmcm9tICJAL2hvb2tzL3VzZUF1dGgiOwppbXBvcnQgeyBvdXRib3VuZENsaWNrUm93cyB9IGZyb20gIkAvbGliL2NsaWNrLXRyYWNrLmZ1bmN0aW9ucyI7CgppbnRlcmZhY2UgUm93IHsKICBraW5kOiBzdHJpbmc7CiAgdXJsOiBzdHJpbmc7CiAgdmlkZW9faWQ6IHN0cmluZyB8IG51bGw7CiAgbGFiZWw6IHN0cmluZyB8IG51bGw7CiAgcGFnZV9wYXRoOiBzdHJpbmcgfCBudWxsOwogIGNyZWF0ZWRfYXQ6IHN0cmluZzsKfQoKY29uc3QgS0lORF9MQUJFTDogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICB5b3V0dWJlX3ZpZGVvOiAiVmlkZW8gbGlua3MiLAogIHlvdXR1YmVfY2hhbm5lbDogIkNoYW5uZWwgLyBzdWJzY3JpYmUiLAogIHlvdXR1YmVfc2VhcmNoOiAiWW91VHViZSBzZWFyY2giLAp9OwoKY29uc3QgZGF5S2V5ID0gKGlzbzogc3RyaW5nKSA9PiBpc28uc2xpY2UoMCwgMTApOwpjb25zdCBzaW5jZSA9IChkYXlzOiBudW1iZXIpID0+IERhdGUubm93KCkgLSBkYXlzICogODZfNDAwXzAwMDsKCmNvbnN0IHRhbGx5ID0gPFQsPihyb3dzOiBUW10sIGtleTogKHI6IFQpID0+IHN0cmluZyB8IG51bGwpID0+IHsKICBjb25zdCBtYXAgPSBuZXcgTWFwPHN0cmluZywgbnVtYmVyPigpOwogIGZvciAoY29uc3QgciBvZiByb3dzKSB7CiAgICBjb25zdCBrID0ga2V5KHIpOwogICAgaWYgKCFrKSBjb250aW51ZTsKICAgIG1hcC5zZXQoaywgKG1hcC5nZXQoaykgPz8gMCkgKyAxKTsKICB9CiAgcmV0dXJuIFsuLi5tYXAuZW50cmllcygpXS5zb3J0KChhLCBiKSA9PiBiWzFdIC0gYVsxXSk7Cn07CgovKiogQWRtaW4tb25seSBkYXNoYm9hcmQ6IGhvdyBvZnRlbiB2aXNpdG9ycyBjbGljayB0aHJvdWdoIHRvIFlvdVR1YmUuICovCmNvbnN0IFlvdVR1YmVTdGF0c1BhZ2UgPSAoKSA9PiB7CiAgY29uc3QgeyB1c2VyLCBpc0FkbWluLCBsb2FkaW5nIH0gPSB1c2VBdXRoKCk7CiAgY29uc3QgZmV0Y2hSb3dzID0gdXNlU2VydmVyRm4ob3V0Ym91bmRDbGlja1Jvd3MpOwoKICBjb25zdCB7IGRhdGEsIGlzTG9hZGluZyB9ID0gdXNlUXVlcnkoewogICAgcXVlcnlLZXk6IFsib3V0Ym91bmQtY2xpY2tzIl0sCiAgICBxdWVyeUZuOiAoKSA9PiBmZXRjaFJvd3MoKSwKICAgIGVuYWJsZWQ6IEJvb2xlYW4odXNlciAmJiBpc0FkbWluKSwKICB9KTsKCiAgY29uc3Qgcm93cyA9IChkYXRhPy5yb3dzID8/IFtdKSBhcyBSb3dbXTsKCiAgY29uc3Qgc3RhdHMgPSB1c2VNZW1vKCgpID0+IHsKICAgIGNvbnN0IHl0ID0gcm93cy5maWx0ZXIoKHIpID0+IHIua2luZC5zdGFydHNXaXRoKCJ5b3V0dWJlIikpOwogICAgY29uc3QgbGFzdDcgPSB5dC5maWx0ZXIoKHIpID0+IG5ldyBEYXRlKHIuY3JlYXRlZF9hdCkuZ2V0VGltZSgpID4gc2luY2UoNykpOwogICAgY29uc3QgbGFzdDMwID0geXQuZmlsdGVyKChyKSA9PiBuZXcgRGF0ZShyLmNyZWF0ZWRfYXQpLmdldFRpbWUoKSA+IHNpbmNlKDMwKSk7CiAgICBjb25zdCBkYXlzID0gdGFsbHkobGFzdDMwLCAocikgPT4gZGF5S2V5KHIuY3JlYXRlZF9hdCkpLnNvcnQoKGEsIGIpID0+CiAgICAgIGFbMF0gPCBiWzBdID8gLTEgOiAxLAogICAgKTsKICAgIHJldHVybiB7CiAgICAgIHRvdGFsOiB5dC5sZW5ndGgsCiAgICAgIGxhc3Q3OiBsYXN0Ny5sZW5ndGgsCiAgICAgIGxhc3QzMDogbGFzdDMwLmxlbmd0aCwKICAgICAgYnlLaW5kOiB0YWxseSh5dCwgKHIpID0+IHIua2luZCksCiAgICAgIGJ5VmlkZW86IHRhbGx5KAogICAgICAgIHl0LmZpbHRlcigocikgPT4gci5raW5kID09PSAieW91dHViZV92aWRlbyIpLAogICAgICAgIChyKSA9PiByLmxhYmVsIHx8IHIudmlkZW9faWQgfHwgci51cmwsCiAgICAgICkuc2xpY2UoMCwgMjApLAogICAgICBieVBhZ2U6IHRhbGx5KHl0LCAocikgPT4gci5wYWdlX3BhdGgpLnNsaWNlKDAsIDE1KSwKICAgICAgZGF5cywKICAgICAgcmVjZW50OiB5dC5zbGljZSgwLCAyNSksCiAgICB9OwogIH0sIFtyb3dzXSk7CgogIGNvbnN0IHBlYWtEYXkgPSBNYXRoLm1heCgxLCAuLi5zdGF0cy5kYXlzLm1hcCgoWywgbl0pID0+IG4pKTsKCiAgaWYgKCFsb2FkaW5nICYmICghdXNlciB8fCAhaXNBZG1pbikpIHsKICAgIHJldHVybiAoCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctYmFja2dyb3VuZCI+CiAgICAgICAgPFNlbyB0aXRsZT0iWW91VHViZSBzdGF0cyIgZGVzY3JpcHRpb249IlByaXZhdGUgZGFzaGJvYXJkLiIgcGF0aD0iL2FkbWluL3lvdXR1YmUtc3RhdHMiIG5vaW5kZXggLz4KICAgICAgICA8TmF2YmFyIC8+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciBteC1hdXRvIHB4LTQgcHktMjQgbWF4LXctbWQgdGV4dC1jZW50ZXIiPgogICAgICAgICAgPExvY2sgY2xhc3NOYW1lPSJ3LTggaC04IG14LWF1dG8gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1iLTQiIC8+CiAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0yeGwgZm9udC1ib2xkIHRleHQtZm9yZWdyb3VuZCI+UHJpdmF0ZTwvaDE+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC0yIj5UaGlzIGRhc2hib2FyZCBpcyBvbmx5IHZpc2libGUgdG8gTWFydGluLjwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICApOwogIH0KCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctYmFja2dyb3VuZCI+CiAgICAgIDxTZW8gdGl0bGU9IllvdVR1YmUgc3RhdHMiIGRlc2NyaXB0aW9uPSJQcml2YXRlIGRhc2hib2FyZC4iIHBhdGg9Ii9hZG1pbi95b3V0dWJlLXN0YXRzIiBub2luZGV4IC8+CiAgICAgIDxOYXZiYXIgLz4KICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciBteC1hdXRvIHB4LTQgcHktMTAgbWF4LXctNHhsIj4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0zeGwgZm9udC1ib2xkIHRleHQtZm9yZWdyb3VuZCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICA8QmFyQ2hhcnQzIGNsYXNzTmFtZT0idy02IGgtNiB0ZXh0LXByaW1hcnkiIC8+IFlvdVR1YmUgbGluayBzdGF0cwogICAgICAgIDwvaDE+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMiB0ZXh0LXNtIj4KICAgICAgICAgIENsaWNrcyBmcm9tIG9uc2lnaHRtYXJ0aW4uY29tIGFuZCBUaWNrbGVsaXN0IG91dCB0byBZb3VUdWJlIOKAlCB2aWRlbyBsaW5rcywgc3Vic2NyaWJlCiAgICAgICAgICBidXR0b25zIGFuZCBzZWFyY2ggbGlua3MuIFRyYWNraW5nIHN0YXJ0ZWQgdG9kYXksIHNvIG51bWJlcnMgYnVpbGQgdXAgZnJvbSBub3cgb24uCiAgICAgICAgPC9wPgoKICAgICAgICB7aXNMb2FkaW5nID8gKAogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtOCI+TG9hZGluZ+KApjwvcD4KICAgICAgICApIDogKAogICAgICAgICAgPD4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTMgZ2FwLTMgbXQtOCI+CiAgICAgICAgICAgICAge1sKICAgICAgICAgICAgICAgIFsiQWxsIHRpbWUiLCBzdGF0cy50b3RhbF0sCiAgICAgICAgICAgICAgICBbIkxhc3QgMzAgZGF5cyIsIHN0YXRzLmxhc3QzMF0sCiAgICAgICAgICAgICAgICBbIkxhc3QgNyBkYXlzIiwgc3RhdHMubGFzdDddLAogICAgICAgICAgICAgIF0ubWFwKChbbGFiZWwsIHZhbHVlXSkgPT4gKAogICAgICAgICAgICAgICAgPGRpdiBrZXk9e2xhYmVsIGFzIHN0cmluZ30gY2xhc3NOYW1lPSJiZy1jYXJkIGJvcmRlciBib3JkZXItYm9yZGVyIHJvdW5kZWQtbGcgcC00Ij4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciB0ZXh0LW11dGVkLWZvcmVncm91bmQiPntsYWJlbH08L3A+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWZvcmVncm91bmQgbXQtMSI+e3ZhbHVlfTwvcD4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ibXQtOCBiZy1jYXJkIGJvcmRlciBib3JkZXItYm9yZGVyIHJvdW5kZWQtbGcgcC01Ij4KICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC1sZyBmb250LWJvbGQgdGV4dC1mb3JlZ3JvdW5kIG1iLTMiPkJ5IGxpbmsgdHlwZTwvaDI+CiAgICAgICAgICAgICAge3N0YXRzLmJ5S2luZC5sZW5ndGggPT09IDAgJiYgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+Tm8gY2xpY2tzIHlldC48L3A+fQogICAgICAgICAgICAgIHtzdGF0cy5ieUtpbmQubWFwKChba2luZCwgbl0pID0+ICgKICAgICAgICAgICAgICAgIDxkaXYga2V5PXtraW5kfSBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1iZXR3ZWVuIHRleHQtc20gcHktMSBib3JkZXItYiBib3JkZXItYm9yZGVyLzUwIGxhc3Q6Ym9yZGVyLTAiPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e0tJTkRfTEFCRUxba2luZF0gPz8ga2luZH08L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1mb3JlZ3JvdW5kIGZvbnQtbWVkaXVtIj57bn08L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJtdC02IGJnLWNhcmQgYm9yZGVyIGJvcmRlci1ib3JkZXIgcm91bmRlZC1sZyBwLTUiPgogICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LWxnIGZvbnQtYm9sZCB0ZXh0LWZvcmVncm91bmQgbWItMyBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICA8WW91dHViZSBjbGFzc05hbWU9InctNCBoLTQgdGV4dC1yZWQtNTAwIiAvPiBUb3AgdmlkZW9zCiAgICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgICB7c3RhdHMuYnlWaWRlby5sZW5ndGggPT09IDAgJiYgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+Tm8gdmlkZW8gY2xpY2tzIHlldC48L3A+fQogICAgICAgICAgICAgIHtzdGF0cy5ieVZpZGVvLm1hcCgoW2xhYmVsLCBuXSkgPT4gKAogICAgICAgICAgICAgICAgPGRpdiBrZXk9e2xhYmVsfSBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1iZXR3ZWVuIGdhcC00IHRleHQtc20gcHktMSBib3JkZXItYiBib3JkZXItYm9yZGVyLzUwIGxhc3Q6Ym9yZGVyLTAiPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCB0cnVuY2F0ZSI+e2xhYmVsfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWZvcmVncm91bmQgZm9udC1tZWRpdW0gc2hyaW5rLTAiPntufTwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9Im10LTYgYmctY2FyZCBib3JkZXIgYm9yZGVyLWJvcmRlciByb3VuZGVkLWxnIHAtNSI+CiAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtbGcgZm9udC1ib2xkIHRleHQtZm9yZWdyb3VuZCBtYi0zIj5XaGVyZSB0aGV5IGNsaWNrZWQ8L2gyPgogICAgICAgICAgICAgIHtzdGF0cy5ieVBhZ2UubGVuZ3RoID09PSAwICYmIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPk5vIGRhdGEgeWV0LjwvcD59CiAgICAgICAgICAgICAge3N0YXRzLmJ5UGFnZS5tYXAoKFtwYXRoLCBuXSkgPT4gKAogICAgICAgICAgICAgICAgPGRpdiBrZXk9e3BhdGh9IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQgdGV4dC1zbSBweS0xIGJvcmRlci1iIGJvcmRlci1ib3JkZXIvNTAgbGFzdDpib3JkZXItMCI+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRydW5jYXRlIj57cGF0aH08L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1mb3JlZ3JvdW5kIGZvbnQtbWVkaXVtIHNocmluay0wIj57bn08L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJtdC02IGJnLWNhcmQgYm9yZGVyIGJvcmRlci1ib3JkZXIgcm91bmRlZC1sZyBwLTUiPgogICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LWxnIGZvbnQtYm9sZCB0ZXh0LWZvcmVncm91bmQgbWItMyI+TGFzdCAzMCBkYXlzPC9oMj4KICAgICAgICAgICAgICB7c3RhdHMuZGF5cy5sZW5ndGggPT09IDAgPyAoCiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5ObyBjbGlja3MgeWV0LjwvcD4KICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtZW5kIGdhcC0xIGgtMjgiPgogICAgICAgICAgICAgICAgICB7c3RhdHMuZGF5cy5tYXAoKFtkYXksIG5dKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgPGRpdiBrZXk9e2RheX0gY2xhc3NOYW1lPSJmbGV4LTEgYmctcHJpbWFyeS83MCByb3VuZGVkLXQiIHN0eWxlPXt7IGhlaWdodDogYCR7KG4gLyBwZWFrRGF5KSAqIDEwMH0lYCB9fSB0aXRsZT17YCR7ZGF5fTogJHtufWB9IC8+CiAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJtdC02IGJnLWNhcmQgYm9yZGVyIGJvcmRlci1ib3JkZXIgcm91bmRlZC1sZyBwLTUiPgogICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LWxnIGZvbnQtYm9sZCB0ZXh0LWZvcmVncm91bmQgbWItMyI+UmVjZW50IGNsaWNrczwvaDI+CiAgICAgICAgICAgICAge3N0YXRzLnJlY2VudC5sZW5ndGggPT09IDAgJiYgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+Tm90aGluZyB5ZXQuPC9wPn0KICAgICAgICAgICAgICB7c3RhdHMucmVjZW50Lm1hcCgociwgaSkgPT4gKAogICAgICAgICAgICAgICAgPGRpdiBrZXk9e2l9IGNsYXNzTmFtZT0idGV4dC1zbSBweS0xLjUgYm9yZGVyLWIgYm9yZGVyLWJvcmRlci81MCBsYXN0OmJvcmRlci0wIj4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPntuZXcgRGF0ZShyLmNyZWF0ZWRfYXQpLnRvTG9jYWxlU3RyaW5nKCl9PC9zcGFuPnsiICJ9CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1mb3JlZ3JvdW5kIj57ci5sYWJlbCB8fCByLnVybH08L3NwYW4+eyIgIn0KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgdGV4dC14cyI+KHtLSU5EX0xBQkVMW3Iua2luZF0gPz8gci5raW5kfXtyLnBhZ2VfcGF0aCA/IGAgwrcgJHtyLnBhZ2VfcGF0aH1gIDogIiJ9KTwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L3NlY3Rpb24+CiAgICAgICAgICA8Lz4KICAgICAgICApfQogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBZb3VUdWJlU3RhdHNQYWdlOwo=
+import { useMemo } from "react";
+import { useQuery } from "@tanstack/react-query";
+import { useServerFn } from "@tanstack/react-start";
+import { BarChart3, Youtube, Lock } from "lucide-react";
+import Navbar from "@/components/Navbar";
+import Seo from "@/components/Seo";
+import { useAuth } from "@/hooks/useAuth";
+import { outboundClickRows } from "@/lib/click-track.functions";
+
+interface Row {
+  kind: string;
+  url: string;
+  video_id: string | null;
+  label: string | null;
+  page_path: string | null;
+  created_at: string;
+}
+
+const KIND_LABEL: Record<string, string> = {
+  youtube_video: "Video links",
+  youtube_channel: "Channel / subscribe",
+  youtube_search: "YouTube search",
+};
+
+const dayKey = (iso: string) => iso.slice(0, 10);
+const since = (days: number) => Date.now() - days * 86_400_000;
+
+const tally = <T,>(rows: T[], key: (r: T) => string | null) => {
+  const map = new Map<string, number>();
+  for (const r of rows) {
+    const k = key(r);
+    if (!k) continue;
+    map.set(k, (map.get(k) ?? 0) + 1);
+  }
+  return [...map.entries()].sort((a, b) => b[1] - a[1]);
+};
+
+/** Admin-only dashboard: how often visitors click through to YouTube. */
+const YouTubeStatsPage = () => {
+  const { user, isAdmin, loading } = useAuth();
+  const fetchRows = useServerFn(outboundClickRows);
+
+  const { data, isLoading } = useQuery({
+    queryKey: ["outbound-clicks"],
+    queryFn: () => fetchRows(),
+    enabled: Boolean(user && isAdmin),
+  });
+
+  const rows = (data?.rows ?? []) as Row[];
+
+  const stats = useMemo(() => {
+    const yt = rows.filter((r) => r.kind.startsWith("youtube"));
+    const last7 = yt.filter((r) => new Date(r.created_at).getTime() > since(7));
+    const last30 = yt.filter((r) => new Date(r.created_at).getTime() > since(30));
+    const days = tally(last30, (r) => dayKey(r.created_at)).sort((a, b) =>
+      a[0] < b[0] ? -1 : 1,
+    );
+    return {
+      total: yt.length,
+      last7: last7.length,
+      last30: last30.length,
+      byKind: tally(yt, (r) => r.kind),
+      byVideo: tally(
+        yt.filter((r) => r.kind === "youtube_video"),
+        (r) => r.label || r.video_id || r.url,
+      ).slice(0, 20),
+      byPage: tally(yt, (r) => r.page_path).slice(0, 15),
+      days,
+      recent: yt.slice(0, 25),
+    };
+  }, [rows]);
+
+  const peakDay = Math.max(1, ...stats.days.map(([, n]) => n));
+
+  if (!loading && (!user || !isAdmin)) {
+    return (
+      <div className="min-h-screen bg-background">
+        <Seo title="YouTube stats" description="Private dashboard." path="/admin/youtube-stats" noindex />
+        <Navbar />
+        <div className="container mx-auto px-4 py-24 max-w-md text-center">
+          <Lock className="w-8 h-8 mx-auto text-muted-foreground mb-4" />
+          <h1 className="font-display text-2xl font-bold text-foreground">Private</h1>
+          <p className="text-muted-foreground mt-2">This dashboard is only visible to Martin.</p>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-background">
+      <Seo title="YouTube stats" description="Private dashboard." path="/admin/youtube-stats" noindex />
+      <Navbar />
+      <div className="container mx-auto px-4 py-10 max-w-4xl">
+        <h1 className="font-display text-3xl font-bold text-foreground flex items-center gap-2">
+          <BarChart3 className="w-6 h-6 text-primary" /> YouTube link stats
+        </h1>
+        <p className="text-muted-foreground mt-2 text-sm">
+          Clicks from onsightmartin.com and Ticklelist out to YouTube — video links, subscribe
+          buttons and search links. Tracking started today, so numbers build up from now on.
+        </p>
+
+        {isLoading ? (
+          <p className="text-muted-foreground mt-8">Loading…</p>
+        ) : (
+          <>
+            <div className="grid grid-cols-3 gap-3 mt-8">
+              {[
+                ["All time", stats.total],
+                ["Last 30 days", stats.last30],
+                ["Last 7 days", stats.last7],
+              ].map(([label, value]) => (
+                <div key={label as string} className="bg-card border border-border rounded-lg p-4">
+                  <p className="text-xs uppercase tracking-wider text-muted-foreground">{label}</p>
+                  <p className="font-display text-2xl font-bold text-foreground mt-1">{value}</p>
+                </div>
+              ))}
+            </div>
+
+            <section className="mt-8 bg-card border border-border rounded-lg p-5">
+              <h2 className="font-display text-lg font-bold text-foreground mb-3">By link type</h2>
+              {stats.byKind.length === 0 && <p className="text-sm text-muted-foreground">No clicks yet.</p>}
+              {stats.byKind.map(([kind, n]) => (
+                <div key={kind} className="flex justify-between text-sm py-1 border-b border-border/50 last:border-0">
+                  <span className="text-muted-foreground">{KIND_LABEL[kind] ?? kind}</span>
+                  <span className="text-foreground font-medium">{n}</span>
+                </div>
+              ))}
+            </section>
+
+            <section className="mt-6 bg-card border border-border rounded-lg p-5">
+              <h2 className="font-display text-lg font-bold text-foreground mb-3 flex items-center gap-2">
+                <Youtube className="w-4 h-4 text-red-500" /> Top videos
+              </h2>
+              {stats.byVideo.length === 0 && <p className="text-sm text-muted-foreground">No video clicks yet.</p>}
+              {stats.byVideo.map(([label, n]) => (
+                <div key={label} className="flex justify-between gap-4 text-sm py-1 border-b border-border/50 last:border-0">
+                  <span className="text-muted-foreground truncate">{label}</span>
+                  <span className="text-foreground font-medium shrink-0">{n}</span>
+                </div>
+              ))}
+            </section>
+
+            <section className="mt-6 bg-card border border-border rounded-lg p-5">
+              <h2 className="font-display text-lg font-bold text-foreground mb-3">Where they clicked</h2>
+              {stats.byPage.length === 0 && <p className="text-sm text-muted-foreground">No data yet.</p>}
+              {stats.byPage.map(([path, n]) => (
+                <div key={path} className="flex justify-between gap-4 text-sm py-1 border-b border-border/50 last:border-0">
+                  <span className="text-muted-foreground truncate">{path}</span>
+                  <span className="text-foreground font-medium shrink-0">{n}</span>
+                </div>
+              ))}
+            </section>
+
+            <section className="mt-6 bg-card border border-border rounded-lg p-5">
+              <h2 className="font-display text-lg font-bold text-foreground mb-3">Last 30 days</h2>
+              {stats.days.length === 0 ? (
+                <p className="text-sm text-muted-foreground">No clicks yet.</p>
+              ) : (
+                <div className="flex items-end gap-1 h-28">
+                  {stats.days.map(([day, n]) => (
+                    <div key={day} className="flex-1 bg-primary/70 rounded-t" style={{ height: `${(n / peakDay) * 100}%` }} title={`${day}: ${n}`} />
+                  ))}
+                </div>
+              )}
+            </section>
+
+            <section className="mt-6 bg-card border border-border rounded-lg p-5">
+              <h2 className="font-display text-lg font-bold text-foreground mb-3">Recent clicks</h2>
+              {stats.recent.length === 0 && <p className="text-sm text-muted-foreground">Nothing yet.</p>}
+              {stats.recent.map((r, i) => (
+                <div key={i} className="text-sm py-1.5 border-b border-border/50 last:border-0">
+                  <span className="text-muted-foreground">{new Date(r.created_at).toLocaleString()}</span>{" "}
+                  <span className="text-foreground">{r.label || r.url}</span>{" "}
+                  <span className="text-muted-foreground text-xs">({KIND_LABEL[r.kind] ?? r.kind}{r.page_path ? ` · ${r.page_path}` : ""})</span>
+                </div>
+              ))}
+            </section>
+          </>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default YouTubeStatsPage;

@@ -1,1 +1,104 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgdXNlTG9jYXRpb24gfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKaW1wb3J0IHVzZUluc3RhbGxQcm9tcHQgZnJvbSAiQC9ob29rcy91c2VJbnN0YWxsUHJvbXB0IjsKaW1wb3J0IEluc3RhbGxHdWlkZSBmcm9tICJAL2NvbXBvbmVudHMvSW5zdGFsbEd1aWRlIjsKaW1wb3J0IHsgaXNPbkNvbW11bml0eU9yaWdpbiB9IGZyb20gIkAvbGliL3NpdGUtbGlua3MiOwoKY29uc3QgRElTTUlTU19LRVkgPSAic2MtaW5zdGFsbC1kaXNtaXNzZWQtdW50aWwtdjIiOwpjb25zdCBTTk9PWkVfTVMgPSAzICogMjQgKiA2MCAqIDYwICogMTAwMDsKCmNvbnN0IHJlYWRTbm9vemVkID0gKCkgPT4gewogIHRyeSB7CiAgICBjb25zdCByYXcgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbShESVNNSVNTX0tFWSk7CiAgICBpZiAoIXJhdykgcmV0dXJuIGZhbHNlOwogICAgLy8gTGVnYWN5IHZhbHVlIGZyb20gdGhlIG9sZCBiYW5uZXIuCiAgICBpZiAocmF3ID09PSAiMSIpIHJldHVybiB0cnVlOwogICAgcmV0dXJuIE51bWJlcihyYXcpID4gRGF0ZS5ub3coKTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBmYWxzZTsKICB9Cn07CgovKioKICogSW5zdGFsbCBiYW5uZXIgc2hvd24gb24gZXZlcnkgcm91dGUuIENocm9taXVtIGZpcmVzIGJlZm9yZWluc3RhbGxwcm9tcHQKICogKGNhcHR1cmVkIGJlZm9yZSBtb3VudCksIGlPUyBTYWZhcmkgbmVlZHMgU2hhcmUgLT4gQWRkIHRvIEhvbWUgU2NyZWVuLCBhbmQKICogRmlyZWZveC9kZXNrdG9wIFNhZmFyaSBpbnN0YWxsIGZyb20gdGhlIGJyb3dzZXIgbWVudS4KICovCmNvbnN0IEluc3RhbGxBcHBQcm9tcHQgPSAoKSA9PiB7CiAgY29uc3QgeyBjYW5TaG93Q3RhLCBoYXNOYXRpdmVQcm9tcHQsIG1ldGhvZCwgaW5zdGFsbCB9ID0gdXNlSW5zdGFsbFByb21wdCgpOwogIGNvbnN0IGxvY2F0aW9uID0gdXNlTG9jYXRpb24oKTsKICBjb25zdCBbc25vb3plZCwgc2V0U25vb3plZF0gPSB1c2VTdGF0ZSh0cnVlKTsKICBjb25zdCBbZ3VpZGVPcGVuLCBzZXRHdWlkZU9wZW5dID0gdXNlU3RhdGUoZmFsc2UpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgc2V0U25vb3plZChyZWFkU25vb3plZCgpKTsKICB9LCBbXSk7CgogIC8vIENvbW11bml0eS1vbmx5OiBuZXZlciBzaG93biBvbiB0aGUgT25zaWdodCBNYXJ0aW4gbWFya2V0aW5nIHNpdGUuCiAgY29uc3Qgb25Db21tdW5pdHkgPQogICAgbG9jYXRpb24ucGF0aG5hbWUuc3RhcnRzV2l0aCgiL2NvbW11bml0eSIpIHx8IGlzT25Db21tdW5pdHlPcmlnaW4oKTsKCiAgaWYgKCFvbkNvbW11bml0eSB8fCBzbm9vemVkIHx8ICFjYW5TaG93Q3RhKSByZXR1cm4gbnVsbDsKCiAgY29uc3QgZGlzbWlzcyA9ICgpID0+IHsKICAgIHRyeSB7CiAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKERJU01JU1NfS0VZLCBTdHJpbmcoRGF0ZS5ub3coKSArIFNOT09aRV9NUykpOwogICAgfSBjYXRjaCB7CiAgICAgIC8qIHN0b3JhZ2UgdW5hdmFpbGFibGUg4oCUIGhpZGUgZm9yIHRoaXMgc2Vzc2lvbiBvbmx5ICovCiAgICB9CiAgICBzZXRTbm9vemVkKHRydWUpOwogIH07CgogIGNvbnN0IGhpbnQgPSBoYXNOYXRpdmVQcm9tcHQKICAgID8gIkFkZCB0aGUgY29tbXVuaXR5IGFwcCB0byB5b3VyIGhvbWUgc2NyZWVuLiIKICAgIDogbWV0aG9kID09PSAiaW9zLXNoYXJlIgogICAgICA/ICJUYXAgU2hhcmUsIHRoZW4gXHUyMDFjQWRkIHRvIEhvbWUgU2NyZWVuXHUyMDFkLiIKICAgICAgOiAiT3BlbiB5b3VyIGJyb3dzZXIgbWVudSBhbmQgY2hvb3NlIFx1MjAxY0luc3RhbGxcdTIwMWQgLyBcdTIwMWNBZGQgdG8gSG9tZSBTY3JlZW5cdTIwMWQuIjsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJmaXhlZCBpbnNldC14LTMgYm90dG9tLTMgei1bNzBdIHNtOmxlZnQtYXV0byBzbTpyaWdodC00IHNtOnctODAiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkLzk1IGJhY2tkcm9wLWJsdXIgcC0zIHNoYWRvdy1sZyI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RhcnQgZ2FwLTMiPgogICAgICAgICAgPGltZyBzcmM9Ii9hcHAtaWNvbi0xOTIucG5nIiBhbHQ9IiIgY2xhc3NOYW1lPSJoLTEwIHctMTAgcm91bmRlZC1sZyIgLz4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgbWluLXctMCI+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtZm9yZWdyb3VuZCI+SW5zdGFsbCBUaWNrbGVsaXN0PC9wPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG10LTAuNSI+e2hpbnR9PC9wPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1wcmltYXJ5IG10LTEiPgogICAgICAgICAgICAgIEZyZWUgZm9yIGZpcnN0IGRvd25sb2FkcyB1bnRpbCAyNS84IDIwMjYKICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTMgZmxleCBqdXN0aWZ5LWVuZCBnYXAtMiI+CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIG9uQ2xpY2s9e2Rpc21pc3N9CiAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtMyBweS0xLjUgdGV4dC14cyByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgID4KICAgICAgICAgICAgTm90IG5vdwogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldEd1aWRlT3Blbih0cnVlKX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJweC0zIHB5LTEuNSB0ZXh0LXhzIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgdGV4dC1mb3JlZ3JvdW5kIgogICAgICAgICAgPgogICAgICAgICAgICBIb3cgdG8gaW5zdGFsbAogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICB7aGFzTmF0aXZlUHJvbXB0ICYmICgKICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgIG9uQ2xpY2s9e2FzeW5jICgpID0+IHsKICAgICAgICAgICAgICAgIGNvbnN0IG91dGNvbWUgPSBhd2FpdCBpbnN0YWxsKCk7CiAgICAgICAgICAgICAgICBpZiAob3V0Y29tZSA9PT0gImFjY2VwdGVkIikgc2V0U25vb3plZCh0cnVlKTsKICAgICAgICAgICAgICAgIGVsc2UgaWYgKG91dGNvbWUgPT09ICJ1bmF2YWlsYWJsZSIpIHNldEd1aWRlT3Blbih0cnVlKTsKICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtMyBweS0xLjUgdGV4dC14cyByb3VuZGVkLW1kIGJnLXByaW1hcnkgdGV4dC1wcmltYXJ5LWZvcmVncm91bmQgZm9udC1tZWRpdW0iCiAgICAgICAgICAgID4KICAgICAgICAgICAgICBJbnN0YWxsCiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxJbnN0YWxsR3VpZGUgb3Blbj17Z3VpZGVPcGVufSBvbk9wZW5DaGFuZ2U9e3NldEd1aWRlT3Blbn0gLz4KCiAgICA8L2Rpdj4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgSW5zdGFsbEFwcFByb21wdDsK
+import { useEffect, useState } from "react";
+import { useLocation } from "@/lib/router-compat";
+import useInstallPrompt from "@/hooks/useInstallPrompt";
+import InstallGuide from "@/components/InstallGuide";
+import { isOnCommunityOrigin } from "@/lib/site-links";
+
+const DISMISS_KEY = "sc-install-dismissed-until-v2";
+const SNOOZE_MS = 3 * 24 * 60 * 60 * 1000;
+
+const readSnoozed = () => {
+  try {
+    const raw = localStorage.getItem(DISMISS_KEY);
+    if (!raw) return false;
+    // Legacy value from the old banner.
+    if (raw === "1") return true;
+    return Number(raw) > Date.now();
+  } catch {
+    return false;
+  }
+};
+
+/**
+ * Install banner shown on every route. Chromium fires beforeinstallprompt
+ * (captured before mount), iOS Safari needs Share -> Add to Home Screen, and
+ * Firefox/desktop Safari install from the browser menu.
+ */
+const InstallAppPrompt = () => {
+  const { canShowCta, hasNativePrompt, method, install } = useInstallPrompt();
+  const location = useLocation();
+  const [snoozed, setSnoozed] = useState(true);
+  const [guideOpen, setGuideOpen] = useState(false);
+
+  useEffect(() => {
+    setSnoozed(readSnoozed());
+  }, []);
+
+  // Community-only: never shown on the Onsight Martin marketing site.
+  const onCommunity =
+    location.pathname.startsWith("/community") || isOnCommunityOrigin();
+
+  if (!onCommunity || snoozed || !canShowCta) return null;
+
+  const dismiss = () => {
+    try {
+      localStorage.setItem(DISMISS_KEY, String(Date.now() + SNOOZE_MS));
+    } catch {
+      /* storage unavailable — hide for this session only */
+    }
+    setSnoozed(true);
+  };
+
+  const hint = hasNativePrompt
+    ? "Add the community app to your home screen."
+    : method === "ios-share"
+      ? "Tap Share, then \u201cAdd to Home Screen\u201d."
+      : "Open your browser menu and choose \u201cInstall\u201d / \u201cAdd to Home Screen\u201d.";
+
+  return (
+    <div className="fixed inset-x-3 bottom-3 z-[70] sm:left-auto sm:right-4 sm:w-80">
+      <div className="rounded-xl border border-border bg-card/95 backdrop-blur p-3 shadow-lg">
+        <div className="flex items-start gap-3">
+          <img src="/app-icon-192.png" alt="" className="h-10 w-10 rounded-lg" />
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-semibold text-foreground">Install Ticklelist</p>
+            <p className="text-xs text-muted-foreground mt-0.5">{hint}</p>
+            <p className="text-xs font-medium text-primary mt-1">
+              Free for first downloads until 25/8 2026
+            </p>
+          </div>
+        </div>
+        <div className="mt-3 flex justify-end gap-2">
+          <button
+            onClick={dismiss}
+            className="px-3 py-1.5 text-xs rounded-md border border-border text-muted-foreground"
+          >
+            Not now
+          </button>
+          <button
+            onClick={() => setGuideOpen(true)}
+            className="px-3 py-1.5 text-xs rounded-md border border-border text-foreground"
+          >
+            How to install
+          </button>
+          {hasNativePrompt && (
+            <button
+              onClick={async () => {
+                const outcome = await install();
+                if (outcome === "accepted") setSnoozed(true);
+                else if (outcome === "unavailable") setGuideOpen(true);
+              }}
+              className="px-3 py-1.5 text-xs rounded-md bg-primary text-primary-foreground font-medium"
+            >
+              Install
+            </button>
+          )}
+        </div>
+      </div>
+      <InstallGuide open={guideOpen} onOpenChange={setGuideOpen} />
+
+    </div>
+  );
+};
+
+export default InstallAppPrompt;

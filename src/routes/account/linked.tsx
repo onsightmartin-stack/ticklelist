@@ -1,1 +1,6 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBMaW5rZWRBY2NvdW50cyBmcm9tICJAL3BhZ2VzL0xpbmtlZEFjY291bnRzIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL2FjY291bnQvbGlua2VkIikoewogIGNvbXBvbmVudDogTGlua2VkQWNjb3VudHMsCn0pOwo=
+import { createFileRoute } from "@tanstack/react-router";
+import LinkedAccounts from "@/pages/LinkedAccounts";
+
+export const Route = createFileRoute("/account/linked")({
+  component: LinkedAccounts,
+});

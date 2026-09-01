@@ -1,1 +1,22 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBMYXRlc3RDbGltYnMgZnJvbSAiQC9wYWdlcy9MYXRlc3RDbGltYnMiOwoKY29uc3QgdGl0bGUgPSAiTGF0ZXN0IENsaW1icyDigJQgTmV3ZXN0IENvdW50cnkgSGlnaHBvaW50cyI7CmNvbnN0IGRlc2NyaXB0aW9uID0KICAiVGhlIG1vc3QgcmVjZW50IGNvdW50cnkgaGlnaHBvaW50cyBNYXJ0aW4gaGFzIHN1bW1pdGVkLCB3aXRoIGRhdGVzLCBlbGV2YXRpb25zIGFuZCB0aGUgc3VtbWl0IHZpZGVvcyBmcm9tIGVhY2ggY2xpbWIuIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL2xhdGVzdCIpKHsKICBoZWFkOiAoKSA9PiAoewogICAgbWV0YTogWwogICAgICB7IHRpdGxlIH0sCiAgICAgIHsgbmFtZTogImRlc2NyaXB0aW9uIiwgY29udGVudDogZGVzY3JpcHRpb24gfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnRpdGxlIiwgY29udGVudDogdGl0bGUgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOmRlc2NyaXB0aW9uIiwgY29udGVudDogZGVzY3JpcHRpb24gfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnR5cGUiLCBjb250ZW50OiAid2Vic2l0ZSIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnVybCIsIGNvbnRlbnQ6ICJodHRwczovL29uc2lnaHRtYXJ0aW4uY29tL2xhdGVzdCIgfSwKICAgICAgeyBuYW1lOiAidHdpdHRlcjpjYXJkIiwgY29udGVudDogInN1bW1hcnlfbGFyZ2VfaW1hZ2UiIH0sCiAgICBdLAogICAgbGlua3M6IFt7IHJlbDogImNhbm9uaWNhbCIsIGhyZWY6ICJodHRwczovL29uc2lnaHRtYXJ0aW4uY29tL2xhdGVzdCIgfV0sCiAgfSksCiAgY29tcG9uZW50OiBMYXRlc3RDbGltYnMsCn0pOwo=
+import { createFileRoute } from "@tanstack/react-router";
+import LatestClimbs from "@/pages/LatestClimbs";
+
+const title = "Latest Climbs — Newest Country Highpoints";
+const description =
+  "The most recent country highpoints Martin has summited, with dates, elevations and the summit videos from each climb.";
+
+export const Route = createFileRoute("/latest")({
+  head: () => ({
+    meta: [
+      { title },
+      { name: "description", content: description },
+      { property: "og:title", content: title },
+      { property: "og:description", content: description },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://onsightmartin.com/latest" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [{ rel: "canonical", href: "https://onsightmartin.com/latest" }],
+  }),
+  component: LatestClimbs,
+});

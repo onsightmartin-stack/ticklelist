@@ -1,1 +1,282 @@
-aW1wb3J0IHsgdXNlUXVlcnkgfSBmcm9tICJAdGFuc3RhY2svcmVhY3QtcXVlcnkiOwppbXBvcnQgeyB1c2VTZXJ2ZXJGbiB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1zdGFydCI7CmltcG9ydCB7IERhdGFiYXNlLCBMb2NrLCBBbGVydFRyaWFuZ2xlLCBSZWZyZXNoQ3cgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgTmF2YmFyIGZyb20gIkAvY29tcG9uZW50cy9OYXZiYXIiOwppbXBvcnQgU2VvIGZyb20gIkAvY29tcG9uZW50cy9TZW8iOwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAiQC9ob29rcy91c2VBdXRoIjsKaW1wb3J0IHsgcGVha2JhZ2dlckltcG9ydFN0YXR1cyB9IGZyb20gIkAvbGliL2ltcG9ydC1zdGF0dXMuZnVuY3Rpb25zIjsKCmludGVyZmFjZSBSdW4gewogIGlkOiBzdHJpbmc7CiAgc3RhdHVzOiBzdHJpbmc7CiAgbGlzdHNfdG90YWw6IG51bWJlcjsKICBsaXN0c19kb25lOiBudW1iZXI7CiAgbGlzdHNfYmxvY2tlZDogbnVtYmVyOwogIHBlYWtzX2NhcHR1cmVkOiBudW1iZXI7CiAgYmF0Y2hlc190b3RhbDogbnVtYmVyOwogIGJhdGNoZXNfYXBwbGllZDogbnVtYmVyOwogIHJvd3NfdXBzZXJ0ZWQ6IG51bWJlcjsKICBsYXN0X2Vycm9yOiBzdHJpbmcgfCBudWxsOwogIHN0YXJ0ZWRfYXQ6IHN0cmluZzsKICBmaW5pc2hlZF9hdDogc3RyaW5nIHwgbnVsbDsKICB1cGRhdGVkX2F0OiBzdHJpbmc7Cn0KCmludGVyZmFjZSBFdmVudCB7CiAgaWQ6IHN0cmluZzsKICBydW5faWQ6IHN0cmluZyB8IG51bGw7CiAgbGV2ZWw6IHN0cmluZzsKICBzY29wZTogc3RyaW5nIHwgbnVsbDsKICBtZXNzYWdlOiBzdHJpbmc7CiAgY3JlYXRlZF9hdDogc3RyaW5nOwp9Cgpjb25zdCBwY3QgPSAoZG9uZTogbnVtYmVyLCB0b3RhbDogbnVtYmVyKSA9PgogIHRvdGFsID4gMCA/IE1hdGgubWluKDEwMCwgTWF0aC5yb3VuZCgoZG9uZSAvIHRvdGFsKSAqIDEwMCkpIDogMDsKCmNvbnN0IHdoZW4gPSAoaXNvOiBzdHJpbmcgfCBudWxsKSA9PgogIGlzbyA/IG5ldyBEYXRlKGlzbykudG9Mb2NhbGVTdHJpbmcodW5kZWZpbmVkLCB7IGRhdGVTdHlsZTogIm1lZGl1bSIsIHRpbWVTdHlsZTogInNob3J0IiB9KSA6ICLigJQiOwoKY29uc3QgU3RhdCA9ICh7IGxhYmVsLCB2YWx1ZSB9OiB7IGxhYmVsOiBzdHJpbmc7IHZhbHVlOiBzdHJpbmcgfCBudW1iZXIgfSkgPT4gKAogIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQvNjAgcC00Ij4KICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXhzIHVwcGVyY2FzZSB0cmFja2luZy13aWRlIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e2xhYmVsfTwvZGl2PgogICAgPGRpdiBjbGFzc05hbWU9Im10LTEgdGV4dC0yeGwgZm9udC1zZW1pYm9sZCB0ZXh0LWZvcmVncm91bmQiPnt2YWx1ZX08L2Rpdj4KICA8L2Rpdj4KKTsKCi8qKiBBZG1pbi1vbmx5IGRhc2hib2FyZDogcHJvZ3Jlc3MgYW5kIGVycm9ycyBvZiB0aGUgUGVha2JhZ2dlciBpbXBvcnQgcGlwZWxpbmUuICovCmNvbnN0IFBlYWtiYWdnZXJJbXBvcnRQYWdlID0gKCkgPT4gewogIGNvbnN0IHsgdXNlciwgaXNBZG1pbiwgbG9hZGluZyB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IGZldGNoU3RhdHVzID0gdXNlU2VydmVyRm4ocGVha2JhZ2dlckltcG9ydFN0YXR1cyk7CgogIGNvbnN0IHsgZGF0YSwgaXNMb2FkaW5nLCByZWZldGNoLCBpc0ZldGNoaW5nIH0gPSB1c2VRdWVyeSh7CiAgICBxdWVyeUtleTogWyJwZWFrYmFnZ2VyLWltcG9ydC1zdGF0dXMiXSwKICAgIHF1ZXJ5Rm46ICgpID0+IGZldGNoU3RhdHVzKCksCiAgICBlbmFibGVkOiBCb29sZWFuKHVzZXIgJiYgaXNBZG1pbiksCiAgICByZWZldGNoSW50ZXJ2YWw6IDMwXzAwMCwKICB9KTsKCiAgY29uc3QgcnVucyA9IChkYXRhPy5ydW5zID8/IFtdKSBhcyBSdW5bXTsKICBjb25zdCBldmVudHMgPSAoZGF0YT8uZXZlbnRzID8/IFtdKSBhcyBFdmVudFtdOwogIGNvbnN0IGN1cnJlbnQgPSBydW5zWzBdOwogIGNvbnN0IGVycm9ycyA9IGV2ZW50cy5maWx0ZXIoKGUpID0+IGUubGV2ZWwgPT09ICJlcnJvciIpOwoKICBpZiAoIWxvYWRpbmcgJiYgKCF1c2VyIHx8ICFpc0FkbWluKSkgewogICAgcmV0dXJuICgKICAgICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy1iYWNrZ3JvdW5kIj4KICAgICAgICA8TmF2YmFyIC8+CiAgICAgICAgPG1haW4gY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTN4bCBweC00IHB5LTI0IHRleHQtY2VudGVyIj4KICAgICAgICAgIDxMb2NrIGNsYXNzTmFtZT0ibXgtYXV0byBtYi00IGgtOCB3LTggdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiAvPgogICAgICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC14bCBmb250LXNlbWlib2xkIHRleHQtZm9yZWdyb3VuZCI+QWRtaW5zIG9ubHk8L2gxPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0yIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIFRoaXMgZGFzaGJvYXJkIHNob3dzIGludGVybmFsIGltcG9ydCBkaWFnbm9zdGljcy4KICAgICAgICAgIDwvcD4KICAgICAgICA8L21haW4+CiAgICAgIDwvZGl2PgogICAgKTsKICB9CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLWgtc2NyZWVuIGJnLWJhY2tncm91bmQiPgogICAgICA8U2VvCiAgICAgICAgdGl0bGU9IlBlYWtiYWdnZXIgaW1wb3J0IHN0YXR1cyDigJQgT25zaWdodCBNYXJ0aW4iCiAgICAgICAgZGVzY3JpcHRpb249IlByaXZhdGUgZGFzaGJvYXJkIGZvciB0aGUgUGVha2JhZ2dlciByZWZlcmVuY2UgaW1wb3J0LiIKICAgICAgICBub2luZGV4CiAgICAgIC8+CiAgICAgIDxOYXZiYXIgLz4KICAgICAgPG1haW4gY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTV4bCBweC00IHB5LTEwIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItNiBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgICAgPGgxIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC0yeGwgZm9udC1ib2xkIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIDxEYXRhYmFzZSBjbGFzc05hbWU9ImgtNiB3LTYgdGV4dC1wcmltYXJ5IiAvPgogICAgICAgICAgICBQZWFrYmFnZ2VyIGltcG9ydAogICAgICAgICAgPC9oMT4KICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiByZWZldGNoKCl9CiAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgcHgtMyBweS0xLjUgdGV4dC1zbSB0ZXh0LWZvcmVncm91bmQgaG92ZXI6YmctbXV0ZWQiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxSZWZyZXNoQ3cgY2xhc3NOYW1lPXtgaC00IHctNCAke2lzRmV0Y2hpbmcgPyAiYW5pbWF0ZS1zcGluIiA6ICIifWB9IC8+CiAgICAgICAgICAgIFJlZnJlc2gKICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgoKICAgICAgICB7aXNMb2FkaW5nICYmIDxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5Mb2FkaW5n4oCmPC9wPn0KCiAgICAgICAgeyFpc0xvYWRpbmcgJiYgIWN1cnJlbnQgJiYgKAogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICBObyBpbXBvcnQgcnVuIGhhcyBiZWVuIHJlY29yZGVkIHlldC4gUnVucyBhcHBlYXIgaGVyZSBvbmNlIHRoZSBzY3JhcGUvbG9hZCBwaXBlbGluZQogICAgICAgICAgICByZXBvcnRzIHByb2dyZXNzLgogICAgICAgICAgPC9wPgogICAgICAgICl9CgogICAgICAgIHtjdXJyZW50ICYmICgKICAgICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ic3BhY2UteS01Ij4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZC82MCBwLTUiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0yIj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICBTdGFydGVkIHt3aGVuKGN1cnJlbnQuc3RhcnRlZF9hdCl9IMK3IHVwZGF0ZWQge3doZW4oY3VycmVudC51cGRhdGVkX2F0KX0KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0icm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItYm9yZGVyIHB4LTMgcHktMC41IHRleHQteHMgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGUgdGV4dC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAge2N1cnJlbnQuc3RhdHVzfQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC00Ij4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi0xIGZsZXgganVzdGlmeS1iZXR3ZWVuIHRleHQtc20gdGV4dC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgPHNwYW4+CiAgICAgICAgICAgICAgICAgICAgTGlzdHMge2N1cnJlbnQubGlzdHNfZG9uZX0gLyB7Y3VycmVudC5saXN0c190b3RhbH0KICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICA8c3Bhbj57cGN0KGN1cnJlbnQubGlzdHNfZG9uZSwgY3VycmVudC5saXN0c190b3RhbCl9JTwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImgtMiB3LWZ1bGwgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtZnVsbCBiZy1tdXRlZCI+CiAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImgtZnVsbCByb3VuZGVkLWZ1bGwgYmctcHJpbWFyeSB0cmFuc2l0aW9uLWFsbCIKICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyB3aWR0aDogYCR7cGN0KGN1cnJlbnQubGlzdHNfZG9uZSwgY3VycmVudC5saXN0c190b3RhbCl9JWAgfX0KICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIGdhcC0zIG1kOmdyaWQtY29scy00Ij4KICAgICAgICAgICAgICA8U3RhdCBsYWJlbD0iUGVha3MgY2FwdHVyZWQiIHZhbHVlPXtjdXJyZW50LnBlYWtzX2NhcHR1cmVkLnRvTG9jYWxlU3RyaW5nKCl9IC8+CiAgICAgICAgICAgICAgPFN0YXQKICAgICAgICAgICAgICAgIGxhYmVsPSJCYXRjaGVzIGFwcGxpZWQiCiAgICAgICAgICAgICAgICB2YWx1ZT17YCR7Y3VycmVudC5iYXRjaGVzX2FwcGxpZWR9IC8gJHtjdXJyZW50LmJhdGNoZXNfdG90YWx9YH0KICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDxTdGF0IGxhYmVsPSJSb3dzIHVwc2VydGVkIiB2YWx1ZT17Y3VycmVudC5yb3dzX3Vwc2VydGVkLnRvTG9jYWxlU3RyaW5nKCl9IC8+CiAgICAgICAgICAgICAgPFN0YXQgbGFiZWw9Ikxpc3RzIGJsb2NrZWQiIHZhbHVlPXtjdXJyZW50Lmxpc3RzX2Jsb2NrZWR9IC8+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgZ2FwLTMgbWQ6Z3JpZC1jb2xzLTMiPgogICAgICAgICAgICAgIDxTdGF0CiAgICAgICAgICAgICAgICBsYWJlbD0iUmVmZXJlbmNlIHRhYmxlIHJvd3MgKHBlYWtiYWdnZXJfcGVha3MpIgogICAgICAgICAgICAgICAgdmFsdWU9eyhkYXRhPy5yZWZlcmVuY2VSb3dzID8/IDApLnRvTG9jYWxlU3RyaW5nKCl9CiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8U3RhdAogICAgICAgICAgICAgICAgbGFiZWw9Ikxpc3RzIHNjcmFwZWQgKHJlc3VtZSBjaGVja3BvaW50KSIKICAgICAgICAgICAgICAgIHZhbHVlPXsoZGF0YT8ubGlzdHNTY3JhcGVkID8/IDApLnRvTG9jYWxlU3RyaW5nKCl9CiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8U3RhdAogICAgICAgICAgICAgICAgbGFiZWw9Ikxpc3RzIHRvIHJldHJ5IgogICAgICAgICAgICAgICAgdmFsdWU9eyhkYXRhPy5saXN0c1VuZmluaXNoZWQgPz8gMCkudG9Mb2NhbGVTdHJpbmcoKX0KICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIHtjdXJyZW50Lmxhc3RfZXJyb3IgJiYgKAogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItZGVzdHJ1Y3RpdmUvNDAgYmctZGVzdHJ1Y3RpdmUvMTAgcC00Ij4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1kZXN0cnVjdGl2ZSI+CiAgICAgICAgICAgICAgICAgIDxBbGVydFRyaWFuZ2xlIGNsYXNzTmFtZT0iaC00IHctNCIgLz4gTGFzdCBlcnJvcgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgYnJlYWstd29yZHMgdGV4dC1zbSB0ZXh0LWZvcmVncm91bmQiPntjdXJyZW50Lmxhc3RfZXJyb3J9PC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApfQogICAgICAgICAgPC9zZWN0aW9uPgogICAgICAgICl9CgogICAgICAgIHsoZGF0YT8uYmF0Y2hlcz8ubGVuZ3RoID8/IDApID4gMCAmJiAoCiAgICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9Im10LTgiPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJtYi0zIHRleHQtbGcgZm9udC1zZW1pYm9sZCB0ZXh0LWZvcmVncm91bmQiPgogICAgICAgICAgICAgIEJhdGNoZXMgKHtkYXRhIS5iYXRjaGVzLmZpbHRlcigoYikgPT4gYi5zdGF0dXMgPT09ICJhcHBsaWVkIikubGVuZ3RofSBhcHBsaWVkIG9meyIgIn0KICAgICAgICAgICAgICB7ZGF0YSEuYmF0Y2hlcy5sZW5ndGh9KQogICAgICAgICAgICA8L2gyPgogICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJzcGFjZS15LTEgdGV4dC1zbSI+CiAgICAgICAgICAgICAge2RhdGEhLmJhdGNoZXMubWFwKChiKSA9PiAoCiAgICAgICAgICAgICAgICA8bGkKICAgICAgICAgICAgICAgICAga2V5PXtiLmlkfQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMyBib3JkZXItYiBib3JkZXItYm9yZGVyLzYwIHB5LTEuNSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ3LTIwIHNocmluay0wIGZvbnQtbW9ubyB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgI3tTdHJpbmcoYi5iYXRjaF9ubykucGFkU3RhcnQoMywgIjAiKX0KICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17CiAgICAgICAgICAgICAgICAgICAgICBiLnN0YXR1cyA9PT0gImFwcGxpZWQiCiAgICAgICAgICAgICAgICAgICAgICAgID8gInRleHQtcHJpbWFyeSIKICAgICAgICAgICAgICAgICAgICAgICAgOiBiLnN0YXR1cyA9PT0gImZhaWxlZCIKICAgICAgICAgICAgICAgICAgICAgICAgICA/ICJ0ZXh0LWRlc3RydWN0aXZlIgogICAgICAgICAgICAgICAgICAgICAgICAgIDogInRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7Yi5zdGF0dXN9CiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWZvcmVncm91bmQvODAiPntiLnJvd19jb3VudC50b0xvY2FsZVN0cmluZygpfSByb3dzPC9zcGFuPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtbW9ubyB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAge2IuY2hlY2tzdW0uc2xpY2UoMCwgMTApfQogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIHtiLmFwcGxpZWRfYXQgJiYgKAogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt3aGVuKGIuYXBwbGllZF9hdCl9PC9zcGFuPgogICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICB7Yi5lcnJvciAmJiA8c3BhbiBjbGFzc05hbWU9InctZnVsbCBicmVhay13b3JkcyB0ZXh0LWRlc3RydWN0aXZlIj57Yi5lcnJvcn08L3NwYW4+fQogICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0yIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICBCYXRjaGVzIGFyZSBmaW5nZXJwcmludGVkIGJ5IGNvbnRlbnQg4oCUIGEgcmUtcnVuIHNraXBzIGV2ZXJ5IGNoZWNrc3VtIGFscmVhZHkgbWFya2VkCiAgICAgICAgICAgICAgYXBwbGllZCBhbmQgb25seSBleGVjdXRlcyB0aGUgbWlzc2luZyBvbmVzLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L3NlY3Rpb24+CiAgICAgICAgKX0KCiAgICAgICAge2Vycm9ycy5sZW5ndGggPiAwICYmICgKICAgICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ibXQtOCI+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9Im1iLTMgdGV4dC1sZyBmb250LXNlbWlib2xkIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgRXJyb3JzICh7ZXJyb3JzLmxlbmd0aH0pCiAgICAgICAgICAgIDwvaDI+CiAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgICAgICAgICAge2Vycm9ycy5tYXAoKGUpID0+ICgKICAgICAgICAgICAgICAgIDxsaQogICAgICAgICAgICAgICAgICBrZXk9e2UuaWR9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWRlc3RydWN0aXZlLzMwIGJnLWNhcmQvNjAgcC0zIHRleHQtc20iCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAge3doZW4oZS5jcmVhdGVkX2F0KX0KICAgICAgICAgICAgICAgICAgICB7ZS5zY29wZSA/IGAgwrcgJHtlLnNjb3BlfWAgOiAiIn0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xIGJyZWFrLXdvcmRzIHRleHQtZm9yZWdyb3VuZCI+e2UubWVzc2FnZX08L2Rpdj4KICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICA8L3NlY3Rpb24+CiAgICAgICAgKX0KCiAgICAgICAge2V2ZW50cy5sZW5ndGggPiAwICYmICgKICAgICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ibXQtOCI+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9Im1iLTMgdGV4dC1sZyBmb250LXNlbWlib2xkIHRleHQtZm9yZWdyb3VuZCI+UmVjZW50IGFjdGl2aXR5PC9oMj4KICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT0ic3BhY2UteS0xIHRleHQtc20iPgogICAgICAgICAgICAgIHtldmVudHMuc2xpY2UoMCwgNTApLm1hcCgoZSkgPT4gKAogICAgICAgICAgICAgICAgPGxpIGtleT17ZS5pZH0gY2xhc3NOYW1lPSJmbGV4IGdhcC0zIGJvcmRlci1iIGJvcmRlci1ib3JkZXIvNjAgcHktMS41Ij4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJzaHJpbmstMCB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAge3doZW4oZS5jcmVhdGVkX2F0KX0KICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17CiAgICAgICAgICAgICAgICAgICAgICBlLmxldmVsID09PSAiZXJyb3IiID8gInRleHQtZGVzdHJ1Y3RpdmUiIDogInRleHQtZm9yZWdyb3VuZC84MCIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7ZS5zY29wZSA/IGBbJHtlLnNjb3BlfV0gYCA6ICIifQogICAgICAgICAgICAgICAgICAgIHtlLm1lc3NhZ2V9CiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICA8L3NlY3Rpb24+CiAgICAgICAgKX0KCiAgICAgICAge3J1bnMubGVuZ3RoID4gMSAmJiAoCiAgICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9Im10LTgiPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJtYi0zIHRleHQtbGcgZm9udC1zZW1pYm9sZCB0ZXh0LWZvcmVncm91bmQiPlByZXZpb3VzIHJ1bnM8L2gyPgogICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJzcGFjZS15LTEgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIHtydW5zLnNsaWNlKDEpLm1hcCgocikgPT4gKAogICAgICAgICAgICAgICAgPGxpIGtleT17ci5pZH0gY2xhc3NOYW1lPSJib3JkZXItYiBib3JkZXItYm9yZGVyLzYwIHB5LTEuNSI+CiAgICAgICAgICAgICAgICAgIHt3aGVuKHIuc3RhcnRlZF9hdCl9IOKAlCB7ci5zdGF0dXN9IMK3IGxpc3RzIHtyLmxpc3RzX2RvbmV9L3tyLmxpc3RzX3RvdGFsfSDCtyByb3dzeyIgIn0KICAgICAgICAgICAgICAgICAge3Iucm93c191cHNlcnRlZC50b0xvY2FsZVN0cmluZygpfQogICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC91bD4KICAgICAgICAgIDwvc2VjdGlvbj4KICAgICAgICApfQogICAgICA8L21haW4+CiAgICA8L2Rpdj4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgUGVha2JhZ2dlckltcG9ydFBhZ2U7Cg==
+import { useQuery } from "@tanstack/react-query";
+import { useServerFn } from "@tanstack/react-start";
+import { Database, Lock, AlertTriangle, RefreshCw } from "lucide-react";
+import Navbar from "@/components/Navbar";
+import Seo from "@/components/Seo";
+import { useAuth } from "@/hooks/useAuth";
+import { peakbaggerImportStatus } from "@/lib/import-status.functions";
+
+interface Run {
+  id: string;
+  status: string;
+  lists_total: number;
+  lists_done: number;
+  lists_blocked: number;
+  peaks_captured: number;
+  batches_total: number;
+  batches_applied: number;
+  rows_upserted: number;
+  last_error: string | null;
+  started_at: string;
+  finished_at: string | null;
+  updated_at: string;
+}
+
+interface Event {
+  id: string;
+  run_id: string | null;
+  level: string;
+  scope: string | null;
+  message: string;
+  created_at: string;
+}
+
+const pct = (done: number, total: number) =>
+  total > 0 ? Math.min(100, Math.round((done / total) * 100)) : 0;
+
+const when = (iso: string | null) =>
+  iso ? new Date(iso).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" }) : "—";
+
+const Stat = ({ label, value }: { label: string; value: string | number }) => (
+  <div className="rounded-lg border border-border bg-card/60 p-4">
+    <div className="text-xs uppercase tracking-wide text-muted-foreground">{label}</div>
+    <div className="mt-1 text-2xl font-semibold text-foreground">{value}</div>
+  </div>
+);
+
+/** Admin-only dashboard: progress and errors of the Peakbagger import pipeline. */
+const PeakbaggerImportPage = () => {
+  const { user, isAdmin, loading } = useAuth();
+  const fetchStatus = useServerFn(peakbaggerImportStatus);
+
+  const { data, isLoading, refetch, isFetching } = useQuery({
+    queryKey: ["peakbagger-import-status"],
+    queryFn: () => fetchStatus(),
+    enabled: Boolean(user && isAdmin),
+    refetchInterval: 30_000,
+  });
+
+  const runs = (data?.runs ?? []) as Run[];
+  const events = (data?.events ?? []) as Event[];
+  const current = runs[0];
+  const errors = events.filter((e) => e.level === "error");
+
+  if (!loading && (!user || !isAdmin)) {
+    return (
+      <div className="min-h-screen bg-background">
+        <Navbar />
+        <main className="mx-auto max-w-3xl px-4 py-24 text-center">
+          <Lock className="mx-auto mb-4 h-8 w-8 text-muted-foreground" />
+          <h1 className="text-xl font-semibold text-foreground">Admins only</h1>
+          <p className="mt-2 text-muted-foreground">
+            This dashboard shows internal import diagnostics.
+          </p>
+        </main>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-background">
+      <Seo
+        title="Peakbagger import status — Onsight Martin"
+        description="Private dashboard for the Peakbagger reference import."
+        noindex
+      />
+      <Navbar />
+      <main className="mx-auto max-w-5xl px-4 py-10">
+        <div className="mb-6 flex items-center justify-between gap-3">
+          <h1 className="flex items-center gap-2 text-2xl font-bold text-foreground">
+            <Database className="h-6 w-6 text-primary" />
+            Peakbagger import
+          </h1>
+          <button
+            type="button"
+            onClick={() => refetch()}
+            className="inline-flex items-center gap-2 rounded-md border border-border px-3 py-1.5 text-sm text-foreground hover:bg-muted"
+          >
+            <RefreshCw className={`h-4 w-4 ${isFetching ? "animate-spin" : ""}`} />
+            Refresh
+          </button>
+        </div>
+
+        {isLoading && <p className="text-muted-foreground">Loading…</p>}
+
+        {!isLoading && !current && (
+          <p className="text-muted-foreground">
+            No import run has been recorded yet. Runs appear here once the scrape/load pipeline
+            reports progress.
+          </p>
+        )}
+
+        {current && (
+          <section className="space-y-5">
+            <div className="rounded-xl border border-border bg-card/60 p-5">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <span className="text-sm text-muted-foreground">
+                  Started {when(current.started_at)} · updated {when(current.updated_at)}
+                </span>
+                <span className="rounded-full border border-border px-3 py-0.5 text-xs uppercase tracking-wide text-foreground">
+                  {current.status}
+                </span>
+              </div>
+              <div className="mt-4">
+                <div className="mb-1 flex justify-between text-sm text-foreground">
+                  <span>
+                    Lists {current.lists_done} / {current.lists_total}
+                  </span>
+                  <span>{pct(current.lists_done, current.lists_total)}%</span>
+                </div>
+                <div className="h-2 w-full overflow-hidden rounded-full bg-muted">
+                  <div
+                    className="h-full rounded-full bg-primary transition-all"
+                    style={{ width: `${pct(current.lists_done, current.lists_total)}%` }}
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+              <Stat label="Peaks captured" value={current.peaks_captured.toLocaleString()} />
+              <Stat
+                label="Batches applied"
+                value={`${current.batches_applied} / ${current.batches_total}`}
+              />
+              <Stat label="Rows upserted" value={current.rows_upserted.toLocaleString()} />
+              <Stat label="Lists blocked" value={current.lists_blocked} />
+            </div>
+
+            <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
+              <Stat
+                label="Reference table rows (peakbagger_peaks)"
+                value={(data?.referenceRows ?? 0).toLocaleString()}
+              />
+              <Stat
+                label="Lists scraped (resume checkpoint)"
+                value={(data?.listsScraped ?? 0).toLocaleString()}
+              />
+              <Stat
+                label="Lists to retry"
+                value={(data?.listsUnfinished ?? 0).toLocaleString()}
+              />
+            </div>
+
+            {current.last_error && (
+              <div className="rounded-lg border border-destructive/40 bg-destructive/10 p-4">
+                <div className="flex items-center gap-2 text-sm font-semibold text-destructive">
+                  <AlertTriangle className="h-4 w-4" /> Last error
+                </div>
+                <p className="mt-1 break-words text-sm text-foreground">{current.last_error}</p>
+              </div>
+            )}
+          </section>
+        )}
+
+        {(data?.batches?.length ?? 0) > 0 && (
+          <section className="mt-8">
+            <h2 className="mb-3 text-lg font-semibold text-foreground">
+              Batches ({data!.batches.filter((b) => b.status === "applied").length} applied of{" "}
+              {data!.batches.length})
+            </h2>
+            <ul className="space-y-1 text-sm">
+              {data!.batches.map((b) => (
+                <li
+                  key={b.id}
+                  className="flex flex-wrap items-center gap-3 border-b border-border/60 py-1.5"
+                >
+                  <span className="w-20 shrink-0 font-mono text-xs text-muted-foreground">
+                    #{String(b.batch_no).padStart(3, "0")}
+                  </span>
+                  <span
+                    className={
+                      b.status === "applied"
+                        ? "text-primary"
+                        : b.status === "failed"
+                          ? "text-destructive"
+                          : "text-muted-foreground"
+                    }
+                  >
+                    {b.status}
+                  </span>
+                  <span className="text-foreground/80">{b.row_count.toLocaleString()} rows</span>
+                  <span className="font-mono text-xs text-muted-foreground">
+                    {b.checksum.slice(0, 10)}
+                  </span>
+                  {b.applied_at && (
+                    <span className="text-xs text-muted-foreground">{when(b.applied_at)}</span>
+                  )}
+                  {b.error && <span className="w-full break-words text-destructive">{b.error}</span>}
+                </li>
+              ))}
+            </ul>
+            <p className="mt-2 text-xs text-muted-foreground">
+              Batches are fingerprinted by content — a re-run skips every checksum already marked
+              applied and only executes the missing ones.
+            </p>
+          </section>
+        )}
+
+        {errors.length > 0 && (
+          <section className="mt-8">
+            <h2 className="mb-3 text-lg font-semibold text-foreground">
+              Errors ({errors.length})
+            </h2>
+            <ul className="space-y-2">
+              {errors.map((e) => (
+                <li
+                  key={e.id}
+                  className="rounded-lg border border-destructive/30 bg-card/60 p-3 text-sm"
+                >
+                  <div className="text-xs text-muted-foreground">
+                    {when(e.created_at)}
+                    {e.scope ? ` · ${e.scope}` : ""}
+                  </div>
+                  <div className="mt-1 break-words text-foreground">{e.message}</div>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {events.length > 0 && (
+          <section className="mt-8">
+            <h2 className="mb-3 text-lg font-semibold text-foreground">Recent activity</h2>
+            <ul className="space-y-1 text-sm">
+              {events.slice(0, 50).map((e) => (
+                <li key={e.id} className="flex gap-3 border-b border-border/60 py-1.5">
+                  <span className="shrink-0 text-xs text-muted-foreground">
+                    {when(e.created_at)}
+                  </span>
+                  <span
+                    className={
+                      e.level === "error" ? "text-destructive" : "text-foreground/80"
+                    }
+                  >
+                    {e.scope ? `[${e.scope}] ` : ""}
+                    {e.message}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {runs.length > 1 && (
+          <section className="mt-8">
+            <h2 className="mb-3 text-lg font-semibold text-foreground">Previous runs</h2>
+            <ul className="space-y-1 text-sm text-muted-foreground">
+              {runs.slice(1).map((r) => (
+                <li key={r.id} className="border-b border-border/60 py-1.5">
+                  {when(r.started_at)} — {r.status} · lists {r.lists_done}/{r.lists_total} · rows{" "}
+                  {r.rows_upserted.toLocaleString()}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </main>
+    </div>
+  );
+};
+
+export default PeakbaggerImportPage;

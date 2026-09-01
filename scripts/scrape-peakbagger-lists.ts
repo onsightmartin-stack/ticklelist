@@ -1,1 +1,169 @@
-LyoqCiAqIEJ1bGstc2NyYXBlcyBQZWFrYmFnZ2VyIHBlYWsgbGlzdHMgKHRoZSBvbmx5IHNvdXJjZSBvZiByZWNvcmQgZm9yIHBlYWsgZmFjdHMKICogb24gdGhpcyBzaXRlKSBhbmQgd3JpdGVzIG9uZSBKU09OTCByb3cgcGVyIHBlYWsgdG8gYC0tb3V0YC4KICoKICogUGVha2JhZ2dlciBwdWJsaXNoZXMgbm8gYnVsayBleHBvcnQsIGJ1dCBpdHMgfjg2MCBwdWJsaWMgbGlzdHMgY292ZXIgcm91Z2hseQogKiA4MCwwMDAgcGVhayBzbG90cy4gRWFjaCBsaXN0IHBhZ2UgaXMgYSBzaW5nbGUgZmV0Y2gsIHNvIHRoZSB3aG9sZSBjYXRhbG9nIGlzCiAqIGEgZmV3IGh1bmRyZWQgcmVxdWVzdHMgaW5zdGVhZCBvZiBhIHBlci1wZWFrIGNyYXdsLgogKgogKiBSdW46IGJ1biBzY3JpcHRzL3NjcmFwZS1wZWFrYmFnZ2VyLWxpc3RzLnRzIC0tbGlkcyAvdG1wL3BiL2xpZHMuanNvbiAtLW91dCAvdG1wL3BiL3Jvd3MuanNvbmwKICoKICogUmVzdW1hYmxlOiBhbHJlYWR5LXNjcmFwZWQgbGlkcyBhcmUgc2tpcHBlZC4gUHJvZ3Jlc3MgbGl2ZXMgYm90aCBpbiB0aGUgbG9jYWwKICogYDxvdXQ+LmRvbmVgIGZpbGUgYW5kIGluIGBwdWJsaWMucGVha2JhZ2dlcl9pbXBvcnRfbGlzdHNgLCBzbyBhIHJlc3RhcnQgaW4gYQogKiBmcmVzaCBzYW5kYm94IHN0aWxsIHJlc3VtZXMgZnJvbSB0aGUgbGFzdCBzdWNjZXNzZnVsbHkgc2NyYXBlZCBsaXN0LgogKi8KaW1wb3J0IHsgY3JlYXRlV3JpdGVTdHJlYW0gfSBmcm9tICJub2RlOmZzIjsKCmltcG9ydCB7IGxpdCwgcHNxbCB9IGZyb20gIi4vbGliL3BzcWwiOwoKaW1wb3J0IHsgZmV0Y2hQZWFrYmFnZ2VyIH0gZnJvbSAiLi4vc3JjL2xpYi9wZWFrYmFnZ2VyLWZldGNoLnNlcnZlciI7CgpleHBvcnQgaW50ZXJmYWNlIExpc3RSb3cgewogIHBpZDogc3RyaW5nOwogIHBlYWs6IHN0cmluZzsKICBlbGV2TTogbnVtYmVyOwogIHByb21NPzogbnVtYmVyOwogIGNvdW50cnk/OiBzdHJpbmc7CiAgcmFuZ2U/OiBzdHJpbmc7CiAgbGlkOiBzdHJpbmc7Cn0KCmNvbnN0IG51bSA9IChyYXc6IHN0cmluZyB8IHVuZGVmaW5lZCk6IG51bWJlciB8IHVuZGVmaW5lZCA9PiB7CiAgaWYgKHJhdyA9PT0gdW5kZWZpbmVkKSByZXR1cm4gdW5kZWZpbmVkOwogIGNvbnN0IG4gPSBOdW1iZXIocmF3LnJlcGxhY2UoLywvZywgIiIpLnJlcGxhY2UoL1teXGQuXC1dL2csICIiKSk7CiAgcmV0dXJuIE51bWJlci5pc0Zpbml0ZShuKSA/IG4gOiB1bmRlZmluZWQ7Cn07CgovKiogUGFyc2UgYSBQZWFrYmFnZ2VyIGxpc3QgcGFnZSAobWV0cmljKSBieSByZWFkaW5nIGl0cyBoZWFkZXIgcm93LiAqLwpleHBvcnQgY29uc3QgcGFyc2VMaXN0TWFya2Rvd24gPSAobWFya2Rvd246IHN0cmluZywgbGlkOiBzdHJpbmcpOiBMaXN0Um93W10gPT4gewogIGNvbnN0IHJvd3M6IExpc3RSb3dbXSA9IFtdOwogIGNvbnN0IHNlZW4gPSBuZXcgU2V0PHN0cmluZz4oKTsKICBsZXQgZWxldkNvbCA9IC0xOwogIGxldCBwcm9tQ29sID0gLTE7CiAgbGV0IGNvdW50cnlDb2wgPSAtMTsKICBsZXQgcmFuZ2VDb2wgPSAtMTsKCiAgZm9yIChjb25zdCBsaW5lIG9mIG1hcmtkb3duLnNwbGl0KCJcbiIpKSB7CiAgICBjb25zdCBjZWxscyA9IGxpbmUuc3BsaXQoInwiKS5tYXAoKGMpID0+IGMudHJpbSgpKTsKCiAgICBpZiAoZWxldkNvbCA8IDAgJiYgL0VsZXYtTS9pLnRlc3QobGluZSkpIHsKICAgICAgY29uc3QgZmluZCA9IChyZTogUmVnRXhwKSA9PiBjZWxscy5maW5kSW5kZXgoKGMpID0+IHJlLnRlc3QoYykpOwogICAgICBlbGV2Q29sID0gZmluZCgvRWxldi1NL2kpOwogICAgICBwcm9tQ29sID0gZmluZCgvUHJvbS1NL2kpOwogICAgICBjb3VudHJ5Q29sID0gZmluZCgvXGIoQ291bnRyeXxOYXRpb258TG9jYXRpb258U3RhdGV8UmVnaW9uKVxiL2kpOwogICAgICByYW5nZUNvbCA9IGZpbmQoL1JhbmdlL2kpOwogICAgICBjb250aW51ZTsKICAgIH0KCiAgICBpZiAoZWxldkNvbCA8IDAgfHwgIWxpbmUuaW5jbHVkZXMoInBlYWsuYXNweD9waWQ9IikpIGNvbnRpbnVlOwogICAgY29uc3QgbSA9IGxpbmUubWF0Y2goL1xbKFteXF1dKylcXVwoaHR0cHM6XC9cL3BlYWtiYWdnZXJcLmNvbVwvcGVha1wuYXNweFw/cGlkPShcZCspXCkvKTsKICAgIGlmICghbSkgY29udGludWU7CiAgICBjb25zdCBwaWQgPSBtWzJdITsKICAgIGlmIChzZWVuLmhhcyhwaWQpKSBjb250aW51ZTsKCiAgICBjb25zdCBlbGV2TSA9IG51bShjZWxsc1tlbGV2Q29sXSk7CiAgICBpZiAoZWxldk0gPT09IHVuZGVmaW5lZCB8fCBlbGV2TSA8IC00NTAgfHwgZWxldk0gPiA4ODUwKSBjb250aW51ZTsKICAgIGNvbnN0IHByb21NID0gcHJvbUNvbCA+PSAwID8gbnVtKGNlbGxzW3Byb21Db2xdKSA6IHVuZGVmaW5lZDsKCiAgICBjb25zdCBwbGFpbiA9IChpOiBudW1iZXIpID0+CiAgICAgIGkgPj0gMCAmJiBjZWxsc1tpXSA/IGNlbGxzW2ldIS5yZXBsYWNlKC9cWyhbXlxdXSopXF1cKFteKV0qXCkvZywgIiQxIikudHJpbSgpIHx8IHVuZGVmaW5lZCA6IHVuZGVmaW5lZDsKCiAgICBzZWVuLmFkZChwaWQpOwogICAgcm93cy5wdXNoKHsKICAgICAgcGlkLAogICAgICBwZWFrOiBtWzFdIS50cmltKCksCiAgICAgIGVsZXZNLAogICAgICAuLi4ocHJvbU0gIT09IHVuZGVmaW5lZCAmJiBwcm9tTSA+PSAwICYmIHByb21NIDw9IGVsZXZNID8geyBwcm9tTSB9IDoge30pLAogICAgICAuLi4ocGxhaW4oY291bnRyeUNvbCkgPyB7IGNvdW50cnk6IHBsYWluKGNvdW50cnlDb2wpIH0gOiB7fSksCiAgICAgIC4uLihwbGFpbihyYW5nZUNvbCkgPyB7IHJhbmdlOiBwbGFpbihyYW5nZUNvbCkgfSA6IHt9KSwKICAgICAgbGlkLAogICAgfSk7CiAgfQogIHJldHVybiByb3dzOwp9OwoKY29uc3QgYXJnID0gKGZsYWc6IHN0cmluZywgZmFsbGJhY2s6IHN0cmluZykgPT4gewogIGNvbnN0IGkgPSBwcm9jZXNzLmFyZ3YuaW5kZXhPZihmbGFnKTsKICByZXR1cm4gaSA+IDAgPyAocHJvY2Vzcy5hcmd2W2kgKyAxXSA/PyBmYWxsYmFjaykgOiBmYWxsYmFjazsKfTsKCmNvbnN0IG1haW4gPSBhc3luYyAoKSA9PiB7CiAgY29uc3QgbGlkc0ZpbGUgPSBhcmcoIi0tbGlkcyIsICIvdG1wL3BiL2xpZHMuanNvbiIpOwogIGNvbnN0IG91dCA9IGFyZygiLS1vdXQiLCAiL3RtcC9wYi9yb3dzLmpzb25sIik7CiAgY29uc3QgY29uY3VycmVuY3kgPSBOdW1iZXIoYXJnKCItLWNvbmN1cnJlbmN5IiwgIjQiKSk7CiAgY29uc3QgZG9uZVBhdGggPSBgJHtvdXR9LmRvbmVgOwogIGNvbnN0IHJ1bklkID0gYXJnKCItLXJ1biIsICIiKTsKCiAgY29uc3QgbGlkcyA9IChKU09OLnBhcnNlKGF3YWl0IEJ1bi5maWxlKGxpZHNGaWxlKS50ZXh0KCkpIGFzIHsgbGlkOiBzdHJpbmcgfVtdKS5tYXAoKGwpID0+IGwubGlkKTsKICBsZXQgZG9uZSA9IG5ldyBTZXQ8c3RyaW5nPigpOwogIHRyeSB7CiAgICBkb25lID0gbmV3IFNldCgoYXdhaXQgQnVuLmZpbGUoZG9uZVBhdGgpLnRleHQoKSkuc3BsaXQoIlxuIikuZmlsdGVyKEJvb2xlYW4pKTsKICB9IGNhdGNoIHsKICAgIC8qIGZpcnN0IHJ1biAqLwogIH0KICB0cnkgewogICAgY29uc3QgcmVtb3RlID0gYXdhaXQgcHNxbChgU0VMRUNUIGxpc3RfaWQgRlJPTSBwdWJsaWMucGVha2JhZ2dlcl9pbXBvcnRfbGlzdHMgV0hFUkUgc3RhdHVzID0gJ2RvbmUnO2ApOwogICAgZm9yIChjb25zdCBsaWQgb2YgcmVtb3RlLnNwbGl0KCJcbiIpLmZpbHRlcihCb29sZWFuKSkgZG9uZS5hZGQobGlkKTsKICB9IGNhdGNoIChlcnIpIHsKICAgIGNvbnNvbGUubG9nKGBjb3VsZCBub3QgcmVhZCByZW1vdGUgcHJvZ3Jlc3M6ICR7ZXJyIGluc3RhbmNlb2YgRXJyb3IgPyBlcnIubWVzc2FnZSA6IFN0cmluZyhlcnIpfWApOwogIH0KICBjb25zdCBxdWV1ZSA9IGxpZHMuZmlsdGVyKChsKSA9PiAhZG9uZS5oYXMobCkpOwogIGNvbnNvbGUubG9nKGAke3F1ZXVlLmxlbmd0aH0gbGlzdHMgdG8gc2NyYXBlICgke2RvbmUuc2l6ZX0gYWxyZWFkeSBkb25lKWApOwoKICBjb25zdCByb3dzU2luayA9IGNyZWF0ZVdyaXRlU3RyZWFtKG91dCwgeyBmbGFnczogImEiIH0pOwogIGNvbnN0IGRvbmVTaW5rID0gY3JlYXRlV3JpdGVTdHJlYW0oZG9uZVBhdGgsIHsgZmxhZ3M6ICJhIiB9KTsKICBsZXQgY3Vyc29yID0gMDsKICBsZXQgdG90YWwgPSAwOwoKICBjb25zdCByZWNvcmRMaXN0ID0gYXN5bmMgKGxpZDogc3RyaW5nLCBzdGF0dXM6IHN0cmluZywgcm93Q291bnQ6IG51bWJlciwgZXJyb3I/OiBzdHJpbmcpID0+IHsKICAgIHRyeSB7CiAgICAgIGF3YWl0IHBzcWwoCiAgICAgICAgYElOU0VSVCBJTlRPIHB1YmxpYy5wZWFrYmFnZ2VyX2ltcG9ydF9saXN0cyAobGlzdF9pZCwgcnVuX2lkLCBzdGF0dXMsIHJvd19jb3VudCwgZXJyb3IsIHNjcmFwZWRfYXQpCiAgICAgICAgIFZBTFVFUyAoJHtsaXQobGlkKX0sICR7cnVuSWQgPyBsaXQocnVuSWQpIDogIk5VTEwifSwgJHtsaXQoc3RhdHVzKX0sICR7cm93Q291bnR9LCAke2Vycm9yID8gbGl0KGVycm9yLnNsaWNlKDAsIDUwMCkpIDogIk5VTEwifSwgbm93KCkpCiAgICAgICAgIE9OIENPTkZMSUNUIChsaXN0X2lkKSBETyBVUERBVEUgU0VUIHJ1bl9pZCA9IENPQUxFU0NFKEVYQ0xVREVELnJ1bl9pZCwgcHVibGljLnBlYWtiYWdnZXJfaW1wb3J0X2xpc3RzLnJ1bl9pZCksCiAgICAgICAgICAgc3RhdHVzID0gRVhDTFVERUQuc3RhdHVzLCByb3dfY291bnQgPSBFWENMVURFRC5yb3dfY291bnQsIGVycm9yID0gRVhDTFVERUQuZXJyb3IsIHNjcmFwZWRfYXQgPSBub3coKTtgLAogICAgICApOwogICAgICBpZiAocnVuSWQpIHsKICAgICAgICBhd2FpdCBwc3FsKAogICAgICAgICAgYFVQREFURSBwdWJsaWMucGVha2JhZ2dlcl9pbXBvcnRfcnVucyBTRVQKICAgICAgICAgICAgIGxpc3RzX2RvbmUgPSAoU0VMRUNUIGNvdW50KCopIEZST00gcHVibGljLnBlYWtiYWdnZXJfaW1wb3J0X2xpc3RzIFdIRVJFIHN0YXR1cyA9ICdkb25lJyksCiAgICAgICAgICAgICBsaXN0c19ibG9ja2VkID0gKFNFTEVDVCBjb3VudCgqKSBGUk9NIHB1YmxpYy5wZWFrYmFnZ2VyX2ltcG9ydF9saXN0cyBXSEVSRSBzdGF0dXMgPD4gJ2RvbmUnKSwKICAgICAgICAgICAgIHVwZGF0ZWRfYXQgPSBub3coKSBXSEVSRSBpZCA9ICR7bGl0KHJ1bklkKX07YCwKICAgICAgICApOwogICAgICB9CiAgICB9IGNhdGNoIHsKICAgICAgLyogcHJvZ3Jlc3MgdHJhY2tpbmcgbXVzdCBuZXZlciBicmVhayB0aGUgY3Jhd2wgKi8KICAgIH0KICB9OwoKICBjb25zdCB3b3JrZXIgPSBhc3luYyAoKSA9PiB7CiAgICB3aGlsZSAoY3Vyc29yIDwgcXVldWUubGVuZ3RoKSB7CiAgICAgIGNvbnN0IGxpZCA9IHF1ZXVlW2N1cnNvcisrXSE7CiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgcGFnZSA9IGF3YWl0IGZldGNoUGVha2JhZ2dlcihgaHR0cHM6Ly9wZWFrYmFnZ2VyLmNvbS9saXN0LmFzcHg/bGlkPSR7bGlkfSZ1PW1gKTsKICAgICAgICBpZiAocGFnZS5ibG9ja2VkIHx8ICFwYWdlLm1hcmtkb3duKSB7CiAgICAgICAgICBjb25zb2xlLmxvZyhgbGlkICR7bGlkfTogYmxvY2tlZGApOwogICAgICAgICAgYXdhaXQgcmVjb3JkTGlzdChsaWQsICJibG9ja2VkIiwgMCwgImJsb2NrZWQgYnkgUGVha2JhZ2dlciIpOwogICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGNvbnN0IHJvd3MgPSBwYXJzZUxpc3RNYXJrZG93bihwYWdlLm1hcmtkb3duLCBsaWQpOwogICAgICAgIGZvciAoY29uc3QgciBvZiByb3dzKSByb3dzU2luay53cml0ZShgJHtKU09OLnN0cmluZ2lmeShyKX1cbmApOwogICAgICAgIGRvbmVTaW5rLndyaXRlKGAke2xpZH1cbmApOwogICAgICAgIGF3YWl0IHJlY29yZExpc3QobGlkLCAiZG9uZSIsIHJvd3MubGVuZ3RoKTsKICAgICAgICB0b3RhbCArPSByb3dzLmxlbmd0aDsKICAgICAgICBjb25zb2xlLmxvZyhgbGlkICR7bGlkfTogJHtyb3dzLmxlbmd0aH0gcm93cyAodG90YWwgJHt0b3RhbH0sICR7Y3Vyc29yfS8ke3F1ZXVlLmxlbmd0aH0pYCk7CiAgICAgIH0gY2F0Y2ggKGVycikgewogICAgICAgIGNvbnN0IG1lc3NhZ2UgPSBlcnIgaW5zdGFuY2VvZiBFcnJvciA/IGVyci5tZXNzYWdlIDogU3RyaW5nKGVycik7CiAgICAgICAgY29uc29sZS5sb2coYGxpZCAke2xpZH06IGVycm9yICR7bWVzc2FnZX1gKTsKICAgICAgICBhd2FpdCByZWNvcmRMaXN0KGxpZCwgImZhaWxlZCIsIDAsIG1lc3NhZ2UpOwogICAgICB9CiAgICB9CiAgfTsKCiAgYXdhaXQgUHJvbWlzZS5hbGwoQXJyYXkuZnJvbSh7IGxlbmd0aDogY29uY3VycmVuY3kgfSwgd29ya2VyKSk7CiAgcm93c1NpbmsuZW5kKCk7CiAgZG9uZVNpbmsuZW5kKCk7CiAgY29uc29sZS5sb2coYHNjcmFwZWQgJHt0b3RhbH0gcm93cyBpbnRvICR7b3V0fWApOwp9OwoKaWYgKGltcG9ydC5tZXRhLm1haW4pIGF3YWl0IG1haW4oKTsK
+/**
+ * Bulk-scrapes Peakbagger peak lists (the only source of record for peak facts
+ * on this site) and writes one JSONL row per peak to `--out`.
+ *
+ * Peakbagger publishes no bulk export, but its ~860 public lists cover roughly
+ * 80,000 peak slots. Each list page is a single fetch, so the whole catalog is
+ * a few hundred requests instead of a per-peak crawl.
+ *
+ * Run: bun scripts/scrape-peakbagger-lists.ts --lids /tmp/pb/lids.json --out /tmp/pb/rows.jsonl
+ *
+ * Resumable: already-scraped lids are skipped. Progress lives both in the local
+ * `<out>.done` file and in `public.peakbagger_import_lists`, so a restart in a
+ * fresh sandbox still resumes from the last successfully scraped list.
+ */
+import { createWriteStream } from "node:fs";
+
+import { lit, psql } from "./lib/psql";
+
+import { fetchPeakbagger } from "../src/lib/peakbagger-fetch.server";
+
+export interface ListRow {
+  pid: string;
+  peak: string;
+  elevM: number;
+  promM?: number;
+  country?: string;
+  range?: string;
+  lid: string;
+}
+
+const num = (raw: string | undefined): number | undefined => {
+  if (raw === undefined) return undefined;
+  const n = Number(raw.replace(/,/g, "").replace(/[^\d.\-]/g, ""));
+  return Number.isFinite(n) ? n : undefined;
+};
+
+/** Parse a Peakbagger list page (metric) by reading its header row. */
+export const parseListMarkdown = (markdown: string, lid: string): ListRow[] => {
+  const rows: ListRow[] = [];
+  const seen = new Set<string>();
+  let elevCol = -1;
+  let promCol = -1;
+  let countryCol = -1;
+  let rangeCol = -1;
+
+  for (const line of markdown.split("\n")) {
+    const cells = line.split("|").map((c) => c.trim());
+
+    if (elevCol < 0 && /Elev-M/i.test(line)) {
+      const find = (re: RegExp) => cells.findIndex((c) => re.test(c));
+      elevCol = find(/Elev-M/i);
+      promCol = find(/Prom-M/i);
+      countryCol = find(/\b(Country|Nation|Location|State|Region)\b/i);
+      rangeCol = find(/Range/i);
+      continue;
+    }
+
+    if (elevCol < 0 || !line.includes("peak.aspx?pid=")) continue;
+    const m = line.match(/\[([^\]]+)\]\(https:\/\/peakbagger\.com\/peak\.aspx\?pid=(\d+)\)/);
+    if (!m) continue;
+    const pid = m[2]!;
+    if (seen.has(pid)) continue;
+
+    const elevM = num(cells[elevCol]);
+    if (elevM === undefined || elevM < -450 || elevM > 8850) continue;
+    const promM = promCol >= 0 ? num(cells[promCol]) : undefined;
+
+    const plain = (i: number) =>
+      i >= 0 && cells[i] ? cells[i]!.replace(/\[([^\]]*)\]\([^)]*\)/g, "$1").trim() || undefined : undefined;
+
+    seen.add(pid);
+    rows.push({
+      pid,
+      peak: m[1]!.trim(),
+      elevM,
+      ...(promM !== undefined && promM >= 0 && promM <= elevM ? { promM } : {}),
+      ...(plain(countryCol) ? { country: plain(countryCol) } : {}),
+      ...(plain(rangeCol) ? { range: plain(rangeCol) } : {}),
+      lid,
+    });
+  }
+  return rows;
+};
+
+const arg = (flag: string, fallback: string) => {
+  const i = process.argv.indexOf(flag);
+  return i > 0 ? (process.argv[i + 1] ?? fallback) : fallback;
+};
+
+const main = async () => {
+  const lidsFile = arg("--lids", "/tmp/pb/lids.json");
+  const out = arg("--out", "/tmp/pb/rows.jsonl");
+  const concurrency = Number(arg("--concurrency", "4"));
+  const donePath = `${out}.done`;
+  const runId = arg("--run", "");
+
+  const lids = (JSON.parse(await Bun.file(lidsFile).text()) as { lid: string }[]).map((l) => l.lid);
+  let done = new Set<string>();
+  try {
+    done = new Set((await Bun.file(donePath).text()).split("\n").filter(Boolean));
+  } catch {
+    /* first run */
+  }
+  try {
+    const remote = await psql(`SELECT list_id FROM public.peakbagger_import_lists WHERE status = 'done';`);
+    for (const lid of remote.split("\n").filter(Boolean)) done.add(lid);
+  } catch (err) {
+    console.log(`could not read remote progress: ${err instanceof Error ? err.message : String(err)}`);
+  }
+  const queue = lids.filter((l) => !done.has(l));
+  console.log(`${queue.length} lists to scrape (${done.size} already done)`);
+
+  const rowsSink = createWriteStream(out, { flags: "a" });
+  const doneSink = createWriteStream(donePath, { flags: "a" });
+  let cursor = 0;
+  let total = 0;
+
+  const recordList = async (lid: string, status: string, rowCount: number, error?: string) => {
+    try {
+      await psql(
+        `INSERT INTO public.peakbagger_import_lists (list_id, run_id, status, row_count, error, scraped_at)
+         VALUES (${lit(lid)}, ${runId ? lit(runId) : "NULL"}, ${lit(status)}, ${rowCount}, ${error ? lit(error.slice(0, 500)) : "NULL"}, now())
+         ON CONFLICT (list_id) DO UPDATE SET run_id = COALESCE(EXCLUDED.run_id, public.peakbagger_import_lists.run_id),
+           status = EXCLUDED.status, row_count = EXCLUDED.row_count, error = EXCLUDED.error, scraped_at = now();`,
+      );
+      if (runId) {
+        await psql(
+          `UPDATE public.peakbagger_import_runs SET
+             lists_done = (SELECT count(*) FROM public.peakbagger_import_lists WHERE status = 'done'),
+             lists_blocked = (SELECT count(*) FROM public.peakbagger_import_lists WHERE status <> 'done'),
+             updated_at = now() WHERE id = ${lit(runId)};`,
+        );
+      }
+    } catch {
+      /* progress tracking must never break the crawl */
+    }
+  };
+
+  const worker = async () => {
+    while (cursor < queue.length) {
+      const lid = queue[cursor++]!;
+      try {
+        const page = await fetchPeakbagger(`https://peakbagger.com/list.aspx?lid=${lid}&u=m`);
+        if (page.blocked || !page.markdown) {
+          console.log(`lid ${lid}: blocked`);
+          await recordList(lid, "blocked", 0, "blocked by Peakbagger");
+          continue;
+        }
+        const rows = parseListMarkdown(page.markdown, lid);
+        for (const r of rows) rowsSink.write(`${JSON.stringify(r)}\n`);
+        doneSink.write(`${lid}\n`);
+        await recordList(lid, "done", rows.length);
+        total += rows.length;
+        console.log(`lid ${lid}: ${rows.length} rows (total ${total}, ${cursor}/${queue.length})`);
+      } catch (err) {
+        const message = err instanceof Error ? err.message : String(err);
+        console.log(`lid ${lid}: error ${message}`);
+        await recordList(lid, "failed", 0, message);
+      }
+    }
+  };
+
+  await Promise.all(Array.from({ length: concurrency }, worker));
+  rowsSink.end();
+  doneSink.end();
+  console.log(`scraped ${total} rows into ${out}`);
+};
+
+if (import.meta.main) await main();

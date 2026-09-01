@@ -1,1 +1,46 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7CiAgZ2V0SW5zdGFsbFN0YXRlLAogIHByb21wdEluc3RhbGwsCiAgc3Vic2NyaWJlSW5zdGFsbCwKICB0eXBlIEluc3RhbGxTdGF0ZSwKfSBmcm9tICJAL2xpYi9pbnN0YWxsIjsKaW1wb3J0IHsgaXNOYXRpdmVBcHAgfSBmcm9tICJAL2xpYi9uYXRpdmUiOwoKY29uc3QgU1NSX1NUQVRFOiBJbnN0YWxsU3RhdGUgPSB7CiAgZGVmZXJyZWQ6IG51bGwsCiAgaW5zdGFsbGVkOiBmYWxzZSwKICBtZXRob2Q6ICJwcm9tcHQiLAogIHN1cHBvcnRlZDogZmFsc2UsCn07CgovKioKICogTGl2ZSBpbnN0YWxsIGF2YWlsYWJpbGl0eSBmb3IgdGhlIGN1cnJlbnQgYnJvd3Nlci4gU2FmZSBkdXJpbmcgU1NSOgogKiBpdCByZXBvcnRzICJub3QgYXZhaWxhYmxlIiB1bnRpbCBoeWRyYXRpb24sIHRoZW4gZmVhdHVyZS1kZXRlY3RzLgogKi8KZXhwb3J0IGNvbnN0IHVzZUluc3RhbGxQcm9tcHQgPSAoKSA9PiB7CiAgY29uc3QgW3N0YXRlLCBzZXRTdGF0ZV0gPSB1c2VTdGF0ZTxJbnN0YWxsU3RhdGU+KFNTUl9TVEFURSk7CiAgY29uc3QgW2h5ZHJhdGVkLCBzZXRIeWRyYXRlZF0gPSB1c2VTdGF0ZShmYWxzZSk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBzZXRIeWRyYXRlZCh0cnVlKTsKICAgIHNldFN0YXRlKGdldEluc3RhbGxTdGF0ZSgpKTsKICAgIHJldHVybiBzdWJzY3JpYmVJbnN0YWxsKHNldFN0YXRlKTsKICB9LCBbXSk7CgogIGNvbnN0IGluc3RhbGwgPSB1c2VDYWxsYmFjaygoKSA9PiBwcm9tcHRJbnN0YWxsKCksIFtdKTsKCiAgY29uc3QgbmF0aXZlID0gaHlkcmF0ZWQgJiYgaXNOYXRpdmVBcHAoKTsKCiAgcmV0dXJuIHsKICAgIC4uLnN0YXRlLAogICAgaW5zdGFsbCwKICAgIGh5ZHJhdGVkLAogICAgLyoqIFRydWUgd2hlbiBhbiBpbnN0YWxsIENUQSBtYWtlcyBzZW5zZSBvbiBzY3JlZW4uICovCiAgICBjYW5TaG93Q3RhOiBoeWRyYXRlZCAmJiAhbmF0aXZlICYmICFzdGF0ZS5pbnN0YWxsZWQgJiYgc3RhdGUuc3VwcG9ydGVkLAogICAgLyoqIFRydWUgd2hlbiBjbGlja2luZyB0cmlnZ2VycyB0aGUgYnJvd3NlcidzIG93biBpbnN0YWxsIGRpYWxvZy4gKi8KICAgIGhhc05hdGl2ZVByb21wdDogQm9vbGVhbihzdGF0ZS5kZWZlcnJlZCksCiAgfTsKfTsKCmV4cG9ydCBkZWZhdWx0IHVzZUluc3RhbGxQcm9tcHQ7Cg==
+import { useCallback, useEffect, useState } from "react";
+import {
+  getInstallState,
+  promptInstall,
+  subscribeInstall,
+  type InstallState,
+} from "@/lib/install";
+import { isNativeApp } from "@/lib/native";
+
+const SSR_STATE: InstallState = {
+  deferred: null,
+  installed: false,
+  method: "prompt",
+  supported: false,
+};
+
+/**
+ * Live install availability for the current browser. Safe during SSR:
+ * it reports "not available" until hydration, then feature-detects.
+ */
+export const useInstallPrompt = () => {
+  const [state, setState] = useState<InstallState>(SSR_STATE);
+  const [hydrated, setHydrated] = useState(false);
+
+  useEffect(() => {
+    setHydrated(true);
+    setState(getInstallState());
+    return subscribeInstall(setState);
+  }, []);
+
+  const install = useCallback(() => promptInstall(), []);
+
+  const native = hydrated && isNativeApp();
+
+  return {
+    ...state,
+    install,
+    hydrated,
+    /** True when an install CTA makes sense on screen. */
+    canShowCta: hydrated && !native && !state.installed && state.supported,
+    /** True when clicking triggers the browser's own install dialog. */
+    hasNativePrompt: Boolean(state.deferred),
+  };
+};
+
+export default useInstallPrompt;

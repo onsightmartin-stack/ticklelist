@@ -1,1 +1,251 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VNZW1vLCB1c2VSZWYsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBDYW1lcmEsIExvYWRlcjIsIExvY2ssIFBhdXNlLCBQbGF5LCBTaHVmZmxlLCBTcGFya2xlcyB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IHVzZVNlcnZlckZuIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXN0YXJ0IjsKaW1wb3J0IEF2YXRhclR1cm50YWJsZSBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L0F2YXRhclR1cm50YWJsZSI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBzdXBhYmFzZSB9IGZyb20gIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudCI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAiQC9ob29rcy91c2UtdG9hc3QiOwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAiQC9ob29rcy91c2VBdXRoIjsKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyI7CmltcG9ydCB7IGNvbXB1dGVYcCB9IGZyb20gIkAvbGliL3hwIjsKaW1wb3J0IHR5cGUgeyBBc2NlbnQgfSBmcm9tICJAL2xpYi9wZWFrLWNhdGFsb2ciOwppbXBvcnQgeyBmaWxlVG9EYXRhVXJsIH0gZnJvbSAiQC9saWIvaW1hZ2UtZG93bnNjYWxlIjsKaW1wb3J0IHsgc3VnZ2VzdEF2YXRhckZyb21QaG90byB9IGZyb20gIkAvbGliL2F2YXRhci1zdWdnZXN0LmZ1bmN0aW9ucyI7CmltcG9ydCB7CiAgYnVpbGRBdmF0YXJTdmcsCiAgYXZhdGFyUGFydHMsCiAgZGVjb2RlQXZhdGFyQ29uZmlnLAogIGRlZmF1bHRBdmF0YXJDb25maWcsCiAgZW5jb2RlQXZhdGFyQ29uZmlnLAogIGlzVW5sb2NrZWQsCiAgcmFuZG9tQ29uZmlnLAogIHNhbml0aXplQ29uZmlnLAogIHRvdGFsT3B0aW9uQ291bnQsCiAgdW5sb2NrZWRDb3VudCwKICB0eXBlIEF2YXRhckNvbmZpZywKfSBmcm9tICJAL2xpYi9hdmF0YXItYnVpbGRlciI7CgovKiogRHJlc3MtdXAgZ2FtZSBmb3IgdGhlIG1lbWJlciBhdmF0YXIg4oCUIGdlYXIgdW5sb2NrcyBhcyB5b3VyIFhQIGxldmVsIGNsaW1icy4gKi8KY29uc3QgQXZhdGFyU3R1ZGlvID0gKHsgb25DbG9zZSB9OiB7IG9uQ2xvc2U6ICgpID0+IHZvaWQgfSkgPT4gewogIGNvbnN0IHsgdXNlciwgcHJvZmlsZSwgcmVmcmVzaFByb2ZpbGUgfSA9IHVzZUF1dGgoKTsKICBjb25zdCBbY29uZmlnLCBzZXRDb25maWddID0gdXNlU3RhdGU8QXZhdGFyQ29uZmlnPigKICAgICgpID0+IGRlY29kZUF2YXRhckNvbmZpZyhwcm9maWxlPy5hdmF0YXJfdXJsKSA/PyBkZWZhdWx0QXZhdGFyQ29uZmlnLAogICk7CiAgY29uc3QgW2xldmVsLCBzZXRMZXZlbF0gPSB1c2VTdGF0ZSgxKTsKICBjb25zdCBbYnVzeSwgc2V0QnVzeV0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW3N1Z2dlc3RpbmcsIHNldFN1Z2dlc3RpbmddID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IHBob3RvSW5wdXQgPSB1c2VSZWY8SFRNTElucHV0RWxlbWVudD4obnVsbCk7CiAgY29uc3Qgc3VnZ2VzdCA9IHVzZVNlcnZlckZuKHN1Z2dlc3RBdmF0YXJGcm9tUGhvdG8pOwoKICBjb25zdCBzdWdnZXN0RnJvbVBob3RvID0gYXN5bmMgKGZpbGU6IEZpbGUpID0+IHsKICAgIHNldFN1Z2dlc3RpbmcodHJ1ZSk7CiAgICB0cnkgewogICAgICBjb25zdCBpbWFnZSA9IGF3YWl0IGZpbGVUb0RhdGFVcmwoZmlsZSk7CiAgICAgIGNvbnN0IHsgY29uZmlnOiBzdWdnZXN0ZWQgfSA9IGF3YWl0IHN1Z2dlc3QoeyBkYXRhOiB7IGltYWdlIH0gfSk7CiAgICAgIHNldENvbmZpZyh7IC4uLnNhbml0aXplQ29uZmlnKHN1Z2dlc3RlZCwgbGV2ZWwpLCBhbmltYXRlZDogYW5pbWF0ZSB9KTsKICAgICAgdG9hc3QoewogICAgICAgIHRpdGxlOiAiQXZhdGFyIHN1Z2dlc3RlZCIsCiAgICAgICAgZGVzY3JpcHRpb246ICJCdWlsdCBmcm9tIHlvdXIgcGhvdG8g4oCUIHR3ZWFrIGFueXRoaW5nIHlvdSBsaWtlIGJlZm9yZSBzYXZpbmcuIiwKICAgICAgfSk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0b2FzdCh7CiAgICAgICAgdGl0bGU6ICJDb3VsZCBub3QgcmVhZCB0aGF0IHBob3RvIiwKICAgICAgICBkZXNjcmlwdGlvbjogZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yLm1lc3NhZ2UgOiAiVHJ5IGFub3RoZXIgcGljdHVyZS4iLAogICAgICAgIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIsCiAgICAgIH0pOwogICAgfSBmaW5hbGx5IHsKICAgICAgc2V0U3VnZ2VzdGluZyhmYWxzZSk7CiAgICAgIGlmIChwaG90b0lucHV0LmN1cnJlbnQpIHBob3RvSW5wdXQuY3VycmVudC52YWx1ZSA9ICIiOwogICAgfQogIH07CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIXVzZXIpIHJldHVybjsKICAgIGxldCBhY3RpdmUgPSB0cnVlOwogICAgc3VwYWJhc2UKICAgICAgLmZyb20oImFzY2VudHMiKQogICAgICAuc2VsZWN0KCIqIikKICAgICAgLmVxKCJ1c2VyX2lkIiwgdXNlci5pZCkKICAgICAgLnRoZW4oKHsgZGF0YSB9KSA9PiB7CiAgICAgICAgaWYgKCFhY3RpdmUpIHJldHVybjsKICAgICAgICBzZXRMZXZlbChjb21wdXRlWHAoKGRhdGEgPz8gW10pIGFzIEFzY2VudFtdKS5sZXZlbC5sZXZlbCk7CiAgICAgIH0pOwogICAgcmV0dXJuICgpID0+IHsKICAgICAgYWN0aXZlID0gZmFsc2U7CiAgICB9OwogIH0sIFt1c2VyXSk7CgogIGNvbnN0IFthbmltYXRlLCBzZXRBbmltYXRlXSA9IHVzZVN0YXRlKCgpID0+IGNvbmZpZy5hbmltYXRlZCAhPT0gZmFsc2UpOwogIGNvbnN0IHByZXZpZXdTdmcgPSB1c2VNZW1vKCgpID0+IGJ1aWxkQXZhdGFyU3ZnKGNvbmZpZywgYW5pbWF0ZSksIFtjb25maWcsIGFuaW1hdGVdKTsKICBjb25zdCB1bmxvY2tlZCA9IHVubG9ja2VkQ291bnQobGV2ZWwpOwoKICBjb25zdCBuZXh0VW5sb2NrID0gdXNlTWVtbygoKSA9PiB7CiAgICBjb25zdCBsb2NrZWQgPSBhdmF0YXJQYXJ0cwogICAgICAuZmxhdE1hcCgocCkgPT4gcC5vcHRpb25zLm1hcCgobykgPT4gKHsgLi4ubywgcGFydDogcC5sYWJlbCB9KSkpCiAgICAgIC5maWx0ZXIoKG8pID0+IG8ubGV2ZWwgPiBsZXZlbCkKICAgICAgLnNvcnQoKGEsIGIpID0+IGEubGV2ZWwgLSBiLmxldmVsKTsKICAgIHJldHVybiBsb2NrZWRbMF0gPz8gbnVsbDsKICB9LCBbbGV2ZWxdKTsKCiAgaWYgKCF1c2VyKSByZXR1cm4gbnVsbDsKCiAgY29uc3Qgc2F2ZSA9IGFzeW5jICgpID0+IHsKICAgIHNldEJ1c3kodHJ1ZSk7CiAgICBjb25zdCBjbGVhbiA9IHsgLi4uc2FuaXRpemVDb25maWcoY29uZmlnLCBsZXZlbCksIGFuaW1hdGVkOiBhbmltYXRlIH07CiAgICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAuZnJvbSgicHJvZmlsZXMiKQogICAgICAudXBkYXRlKHsgYXZhdGFyX3VybDogZW5jb2RlQXZhdGFyQ29uZmlnKGNsZWFuKSB9KQogICAgICAuZXEoImlkIiwgdXNlci5pZCk7CiAgICBzZXRCdXN5KGZhbHNlKTsKICAgIGlmIChlcnJvcikgewogICAgICB0b2FzdCh7IHRpdGxlOiAiQ291bGQgbm90IHNhdmUgYXZhdGFyIiwgZGVzY3JpcHRpb246IGVycm9yLm1lc3NhZ2UsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGF3YWl0IHJlZnJlc2hQcm9maWxlKCk7CiAgICB0b2FzdCh7IHRpdGxlOiAiQXZhdGFyIHNhdmVkIiwgZGVzY3JpcHRpb246ICJZb3VyIG5ldyBjbGltYmVyIGlzIGxpdmUgYWNyb3NzIHRoZSBUaWNrbGVsaXN0LiIgfSk7CiAgICBvbkNsb3NlKCk7CiAgfTsKCiAgcmV0dXJuICgKICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkIHAtNSBzcGFjZS15LTUiPgogICAgICA8aGVhZGVyIGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICA8ZGl2PgogICAgICAgICAgPGgzIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGVyIHRleHQtbGcgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICA8U3BhcmtsZXMgY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtcHJpbWFyeSIgLz4gQXZhdGFyIHN0dWRpbwogICAgICAgICAgPC9oMz4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICBCdWlsZCB5b3VyIGNsaW1iZXIuIEdlYXIgdW5sb2NrcyBhcyB5b3UgbG9nIGFzY2VudHMgYW5kIGxldmVsIHVwLgogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXJpZ2h0IHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdHJhY2tpbmctd2lkZXIgdGV4dC1wcmltYXJ5IHRleHQtc20iPkxldmVsIHtsZXZlbH08L2Rpdj4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIHt1bmxvY2tlZH0ve3RvdGFsT3B0aW9uQ291bnR9IGl0ZW1zIHVubG9ja2VkCiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9oZWFkZXI+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC00Ij4KICAgICAgICA8ZGl2CiAgICAgICAgICByb2xlPSJpbWciCiAgICAgICAgICBhcmlhLWxhYmVsPSJZb3VyIGNsaW1iZXIgYXZhdGFyIHByZXZpZXciCiAgICAgICAgICBjbGFzc05hbWU9ImgtMjggdy0yOCBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLXNlY29uZGFyeSBbJj5zdmddOmgtZnVsbCBbJj5zdmddOnctZnVsbCIKICAgICAgICAgIGRhbmdlcm91c2x5U2V0SW5uZXJIVE1MPXt7IF9faHRtbDogcHJldmlld1N2ZyB9fQogICAgICAgIC8+CiAgICAgICAgPEF2YXRhclR1cm50YWJsZQogICAgICAgICAgY29uZmlnPXt7IC4uLmNvbmZpZywgYW5pbWF0ZWQ6IGFuaW1hdGUgfX0KICAgICAgICAgIG5hbWU9IllvdXIgY2xpbWJlciIKICAgICAgICAgIGFuaW1hdGVkPXthbmltYXRlfQogICAgICAgICAgc3RhZ2UKICAgICAgICAgIGNsYXNzTmFtZT0iaC01MiB3LTQwIG92ZXJmbG93LWhpZGRlbiByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIgogICAgICAgIC8+CgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgIDxCdXR0b24gdHlwZT0iYnV0dG9uIiB2YXJpYW50PSJzZWNvbmRhcnkiIHNpemU9InNtIiBvbkNsaWNrPXsoKSA9PiBzZXRDb25maWcocmFuZG9tQ29uZmlnKGxldmVsKSl9PgogICAgICAgICAgICAgIDxTaHVmZmxlIGNsYXNzTmFtZT0idy00IGgtNCBtci0yIiAvPiBTdXJwcmlzZSBtZQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbiB0eXBlPSJidXR0b24iIHZhcmlhbnQ9Imdob3N0IiBzaXplPSJzbSIgb25DbGljaz17KCkgPT4gc2V0QW5pbWF0ZSgoYSkgPT4gIWEpfT4KICAgICAgICAgICAgICB7YW5pbWF0ZSA/IDxQYXVzZSBjbGFzc05hbWU9InctNCBoLTQgbXItMiIgLz4gOiA8UGxheSBjbGFzc05hbWU9InctNCBoLTQgbXItMiIgLz59CiAgICAgICAgICAgICAge2FuaW1hdGUgPyAiUGF1c2UiIDogIkFuaW1hdGUifQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgcmVmPXtwaG90b0lucHV0fQogICAgICAgICAgICAgIGlkPSJhdmF0YXItaW5zcG8iCiAgICAgICAgICAgICAgdHlwZT0iZmlsZSIKICAgICAgICAgICAgICBhY2NlcHQ9ImltYWdlLyoiCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJoaWRkZW4iCiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBmID0gZS50YXJnZXQuZmlsZXM/LlswXTsKICAgICAgICAgICAgICAgIGlmIChmKSB2b2lkIHN1Z2dlc3RGcm9tUGhvdG8oZik7CiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgLz4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICB2YXJpYW50PSJzZWNvbmRhcnkiCiAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgZGlzYWJsZWQ9e3N1Z2dlc3Rpbmd9CiAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gcGhvdG9JbnB1dC5jdXJyZW50Py5jbGljaygpfQogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3N1Z2dlc3RpbmcgPyAoCiAgICAgICAgICAgICAgICA8TG9hZGVyMiBjbGFzc05hbWU9InctNCBoLTQgbXItMiBhbmltYXRlLXNwaW4iIC8+CiAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgIDxDYW1lcmEgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTIiIC8+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICB7c3VnZ2VzdGluZyA/ICJSZWFkaW5nIHlvdXIgcGhvdG/igKYiIDogIkJ1aWxkIGZyb20gYSBwaG90byJ9CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzExcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC0xIG1heC13LXhzIj4KICAgICAgICAgICAgICBGb3IgdGhlIGxhenkgb25lczogdXBsb2FkIGEgc2VsZmllIGFuZCB3ZSdsbCBtYXRjaCBza2luIHRvbmUsIGhhaXIsIGJlYXJkIGFuZCBraXQuIFRoZQogICAgICAgICAgICAgIHBob3RvIGlzIG9ubHkgdXNlZCBmb3IgdGhlIHN1Z2dlc3Rpb24g4oCUIG5vdGhpbmcgaXMgc3RvcmVkLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIHtuZXh0VW5sb2NrICYmICgKICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtYXgtdy14cyI+CiAgICAgICAgICAgICAgTmV4dCB1bmxvY2sgYXQgbGV2ZWwge25leHRVbmxvY2subGV2ZWx9OnsiICJ9CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAge25leHRVbmxvY2subGFiZWx9ICh7bmV4dFVubG9jay5wYXJ0fSkKICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAge2F2YXRhclBhcnRzLm1hcCgocGFydCkgPT4gKAogICAgICAgICAgPGRpdiBrZXk9e3BhcnQua2V5fT4KICAgICAgICAgICAgPGg0IGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdXBwZXJjYXNlIHRyYWNraW5nLVswLjJlbV0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1iLTIiPntwYXJ0LmxhYmVsfTwvaDQ+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiI+CiAgICAgICAgICAgICAge3BhcnQub3B0aW9ucy5tYXAoKG9wdGlvbikgPT4gewogICAgICAgICAgICAgICAgY29uc3Qgb3BlbiA9IGlzVW5sb2NrZWQob3B0aW9uLCBsZXZlbCk7CiAgICAgICAgICAgICAgICBjb25zdCBhY3RpdmUgPSBjb25maWdbcGFydC5rZXldID09PSBvcHRpb24uaWQ7CiAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAga2V5PXtvcHRpb24uaWR9CiAgICAgICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgICAgIGRpc2FibGVkPXshb3Blbn0KICAgICAgICAgICAgICAgICAgICB0aXRsZT17b3BlbiA/IG9wdGlvbi5sYWJlbCA6IGBVbmxvY2tzIGF0IGxldmVsICR7b3B0aW9uLmxldmVsfWB9CiAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0Q29uZmlnKChjKSA9PiAoeyAuLi5jLCBbcGFydC5rZXldOiBvcHRpb24uaWQgfSkpfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAgICAgICAgICAgICAiZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1tZCBib3JkZXIgcHgtMyBweS0xLjUgdGV4dC14cyB0cmFuc2l0aW9uLWNvbG9ycyIsCiAgICAgICAgICAgICAgICAgICAgICBhY3RpdmUKICAgICAgICAgICAgICAgICAgICAgICAgPyAiYm9yZGVyLXByaW1hcnkgYmctcHJpbWFyeS8xMCB0ZXh0LWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICAgICAgICAgIDogImJvcmRlci1ib3JkZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGhvdmVyOnRleHQtZm9yZWdyb3VuZCBob3Zlcjpib3JkZXItbXV0ZWQtZm9yZWdyb3VuZCIsCiAgICAgICAgICAgICAgICAgICAgICAhb3BlbiAmJiAib3BhY2l0eS01MCBjdXJzb3Itbm90LWFsbG93ZWQgaG92ZXI6dGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiwKICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAge3BhcnQuc3dhdGNoICYmIG9wdGlvbi5jb2xvciAmJiAoCiAgICAgICAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImgtMy41IHctMy41IHJvdW5kZWQtZnVsbCBib3JkZXIgYm9yZGVyLWJvcmRlciIKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiBvcHRpb24uY29sb3IgfX0KICAgICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICA8c3Bhbj57b3B0aW9uLmxhYmVsfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICB7IW9wZW4gJiYgKAogICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSB0ZXh0LVsxMHB4XSI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxMb2NrIGNsYXNzTmFtZT0idy0zIGgtMyIgLz4ge29wdGlvbi5sZXZlbH0KICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgfSl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKSl9CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTMiPgogICAgICAgIDxCdXR0b24gdHlwZT0iYnV0dG9uIiBvbkNsaWNrPXtzYXZlfSBkaXNhYmxlZD17YnVzeX0+CiAgICAgICAgICBVc2UgdGhpcyBhdmF0YXIKICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8QnV0dG9uIHR5cGU9ImJ1dHRvbiIgdmFyaWFudD0iZ2hvc3QiIG9uQ2xpY2s9e29uQ2xvc2V9PgogICAgICAgICAgQ2FuY2VsCiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBBdmF0YXJTdHVkaW87Cg==
+import { useEffect, useMemo, useRef, useState } from "react";
+import { Camera, Loader2, Lock, Pause, Play, Shuffle, Sparkles } from "lucide-react";
+import { useServerFn } from "@tanstack/react-start";
+import AvatarTurntable from "@/components/community/AvatarTurntable";
+import { Button } from "@/components/ui/button";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "@/hooks/use-toast";
+import { useAuth } from "@/hooks/useAuth";
+import { cn } from "@/lib/utils";
+import { computeXp } from "@/lib/xp";
+import type { Ascent } from "@/lib/peak-catalog";
+import { fileToDataUrl } from "@/lib/image-downscale";
+import { suggestAvatarFromPhoto } from "@/lib/avatar-suggest.functions";
+import {
+  buildAvatarSvg,
+  avatarParts,
+  decodeAvatarConfig,
+  defaultAvatarConfig,
+  encodeAvatarConfig,
+  isUnlocked,
+  randomConfig,
+  sanitizeConfig,
+  totalOptionCount,
+  unlockedCount,
+  type AvatarConfig,
+} from "@/lib/avatar-builder";
+
+/** Dress-up game for the member avatar — gear unlocks as your XP level climbs. */
+const AvatarStudio = ({ onClose }: { onClose: () => void }) => {
+  const { user, profile, refreshProfile } = useAuth();
+  const [config, setConfig] = useState<AvatarConfig>(
+    () => decodeAvatarConfig(profile?.avatar_url) ?? defaultAvatarConfig,
+  );
+  const [level, setLevel] = useState(1);
+  const [busy, setBusy] = useState(false);
+  const [suggesting, setSuggesting] = useState(false);
+  const photoInput = useRef<HTMLInputElement>(null);
+  const suggest = useServerFn(suggestAvatarFromPhoto);
+
+  const suggestFromPhoto = async (file: File) => {
+    setSuggesting(true);
+    try {
+      const image = await fileToDataUrl(file);
+      const { config: suggested } = await suggest({ data: { image } });
+      setConfig({ ...sanitizeConfig(suggested, level), animated: animate });
+      toast({
+        title: "Avatar suggested",
+        description: "Built from your photo — tweak anything you like before saving.",
+      });
+    } catch (error) {
+      toast({
+        title: "Could not read that photo",
+        description: error instanceof Error ? error.message : "Try another picture.",
+        variant: "destructive",
+      });
+    } finally {
+      setSuggesting(false);
+      if (photoInput.current) photoInput.current.value = "";
+    }
+  };
+
+  useEffect(() => {
+    if (!user) return;
+    let active = true;
+    supabase
+      .from("ascents")
+      .select("*")
+      .eq("user_id", user.id)
+      .then(({ data }) => {
+        if (!active) return;
+        setLevel(computeXp((data ?? []) as Ascent[]).level.level);
+      });
+    return () => {
+      active = false;
+    };
+  }, [user]);
+
+  const [animate, setAnimate] = useState(() => config.animated !== false);
+  const previewSvg = useMemo(() => buildAvatarSvg(config, animate), [config, animate]);
+  const unlocked = unlockedCount(level);
+
+  const nextUnlock = useMemo(() => {
+    const locked = avatarParts
+      .flatMap((p) => p.options.map((o) => ({ ...o, part: p.label })))
+      .filter((o) => o.level > level)
+      .sort((a, b) => a.level - b.level);
+    return locked[0] ?? null;
+  }, [level]);
+
+  if (!user) return null;
+
+  const save = async () => {
+    setBusy(true);
+    const clean = { ...sanitizeConfig(config, level), animated: animate };
+    const { error } = await supabase
+      .from("profiles")
+      .update({ avatar_url: encodeAvatarConfig(clean) })
+      .eq("id", user.id);
+    setBusy(false);
+    if (error) {
+      toast({ title: "Could not save avatar", description: error.message, variant: "destructive" });
+      return;
+    }
+    await refreshProfile();
+    toast({ title: "Avatar saved", description: "Your new climber is live across the Ticklelist." });
+    onClose();
+  };
+
+  return (
+    <section className="rounded-lg border border-border bg-card p-5 space-y-5">
+      <header className="flex flex-wrap items-start justify-between gap-3">
+        <div>
+          <h3 className="font-display tracking-wider text-lg flex items-center gap-2">
+            <Sparkles className="w-4 h-4 text-primary" /> Avatar studio
+          </h3>
+          <p className="text-sm text-muted-foreground">
+            Build your climber. Gear unlocks as you log ascents and level up.
+          </p>
+        </div>
+        <div className="text-right text-xs text-muted-foreground">
+          <div className="font-display tracking-wider text-primary text-sm">Level {level}</div>
+          <div>
+            {unlocked}/{totalOptionCount} items unlocked
+          </div>
+        </div>
+      </header>
+
+      <div className="flex flex-wrap items-center gap-4">
+        <div
+          role="img"
+          aria-label="Your climber avatar preview"
+          className="h-28 w-28 overflow-hidden rounded-full border border-border bg-secondary [&>svg]:h-full [&>svg]:w-full"
+          dangerouslySetInnerHTML={{ __html: previewSvg }}
+        />
+        <AvatarTurntable
+          config={{ ...config, animated: animate }}
+          name="Your climber"
+          animated={animate}
+          stage
+          className="h-52 w-40 overflow-hidden rounded-lg border border-border"
+        />
+
+
+        <div className="space-y-2">
+          <div className="flex items-center gap-2">
+            <Button type="button" variant="secondary" size="sm" onClick={() => setConfig(randomConfig(level))}>
+              <Shuffle className="w-4 h-4 mr-2" /> Surprise me
+            </Button>
+            <Button type="button" variant="ghost" size="sm" onClick={() => setAnimate((a) => !a)}>
+              {animate ? <Pause className="w-4 h-4 mr-2" /> : <Play className="w-4 h-4 mr-2" />}
+              {animate ? "Pause" : "Animate"}
+            </Button>
+          </div>
+          <div>
+            <input
+              ref={photoInput}
+              id="avatar-inspo"
+              type="file"
+              accept="image/*"
+              className="hidden"
+              onChange={(e) => {
+                const f = e.target.files?.[0];
+                if (f) void suggestFromPhoto(f);
+              }}
+            />
+            <Button
+              type="button"
+              variant="secondary"
+              size="sm"
+              disabled={suggesting}
+              onClick={() => photoInput.current?.click()}
+            >
+              {suggesting ? (
+                <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+              ) : (
+                <Camera className="w-4 h-4 mr-2" />
+              )}
+              {suggesting ? "Reading your photo…" : "Build from a photo"}
+            </Button>
+            <p className="text-[11px] text-muted-foreground mt-1 max-w-xs">
+              For the lazy ones: upload a selfie and we'll match skin tone, hair, beard and kit. The
+              photo is only used for the suggestion — nothing is stored.
+            </p>
+          </div>
+          {nextUnlock && (
+            <p className="text-xs text-muted-foreground max-w-xs">
+              Next unlock at level {nextUnlock.level}:{" "}
+              <span className="text-foreground">
+                {nextUnlock.label} ({nextUnlock.part})
+              </span>
+            </p>
+          )}
+        </div>
+      </div>
+
+      <div className="space-y-4">
+        {avatarParts.map((part) => (
+          <div key={part.key}>
+            <h4 className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground mb-2">{part.label}</h4>
+            <div className="flex flex-wrap gap-2">
+              {part.options.map((option) => {
+                const open = isUnlocked(option, level);
+                const active = config[part.key] === option.id;
+                return (
+                  <button
+                    key={option.id}
+                    type="button"
+                    disabled={!open}
+                    title={open ? option.label : `Unlocks at level ${option.level}`}
+                    onClick={() => setConfig((c) => ({ ...c, [part.key]: option.id }))}
+                    className={cn(
+                      "flex items-center gap-2 rounded-md border px-3 py-1.5 text-xs transition-colors",
+                      active
+                        ? "border-primary bg-primary/10 text-foreground"
+                        : "border-border text-muted-foreground hover:text-foreground hover:border-muted-foreground",
+                      !open && "opacity-50 cursor-not-allowed hover:text-muted-foreground",
+                    )}
+                  >
+                    {part.swatch && option.color && (
+                      <span
+                        className="h-3.5 w-3.5 rounded-full border border-border"
+                        style={{ backgroundColor: option.color }}
+                      />
+                    )}
+                    <span>{option.label}</span>
+                    {!open && (
+                      <span className="flex items-center gap-1 text-[10px]">
+                        <Lock className="w-3 h-3" /> {option.level}
+                      </span>
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="flex gap-3">
+        <Button type="button" onClick={save} disabled={busy}>
+          Use this avatar
+        </Button>
+        <Button type="button" variant="ghost" onClick={onClose}>
+          Cancel
+        </Button>
+      </div>
+    </section>
+  );
+};
+
+export default AvatarStudio;

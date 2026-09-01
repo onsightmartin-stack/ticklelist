@@ -1,1 +1,18 @@
-aW1wb3J0IHsgR2xvYmUgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwoKaW50ZXJmYWNlIFVuTWVtYmVyQmFkZ2VQcm9wcyB7CiAgdW5NZW1iZXI/OiBib29sZWFuIHwgdW5kZWZpbmVkOwp9CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBVbk1lbWJlckJhZGdlKHsgdW5NZW1iZXIgfTogVW5NZW1iZXJCYWRnZVByb3BzKSB7CiAgaWYgKHVuTWVtYmVyICE9PSBmYWxzZSkgcmV0dXJuIG51bGw7CiAgcmV0dXJuICgKICAgIDxzcGFuCiAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0xIHRleHQtWzEwcHhdIGZvbnQtbWVkaXVtIHB4LTEuNSBweS0wLjUgcm91bmRlZC1zbSBiZy1tdXRlZCB0ZXh0LW11dGVkLWZvcmVncm91bmQgYm9yZGVyIGJvcmRlci1ib3JkZXIgd2hpdGVzcGFjZS1ub3dyYXAiCiAgICAgIHRpdGxlPSJOb3QgYSBtZW1iZXIgc3RhdGUgb2YgdGhlIFVuaXRlZCBOYXRpb25zIgogICAgPgogICAgICA8R2xvYmUgY2xhc3NOYW1lPSJ3LTMgaC0zIiAvPgogICAgICBOb3QgYSBVTiBjb3VudHJ5CiAgICA8L3NwYW4+CiAgKTsKfQo=
+import { Globe } from "lucide-react";
+
+interface UnMemberBadgeProps {
+  unMember?: boolean | undefined;
+}
+
+export default function UnMemberBadge({ unMember }: UnMemberBadgeProps) {
+  if (unMember !== false) return null;
+  return (
+    <span
+      className="inline-flex items-center gap-1 text-[10px] font-medium px-1.5 py-0.5 rounded-sm bg-muted text-muted-foreground border border-border whitespace-nowrap"
+      title="Not a member state of the United Nations"
+    >
+      <Globe className="w-3 h-3" />
+      Not a UN country
+    </span>
+  );
+}

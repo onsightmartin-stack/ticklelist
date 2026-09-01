@@ -1,1 +1,1 @@
-UkVWT0tFIFNFTEVDVCBPTiBwdWJsaWMud29ybGRfcGVha19jb3VudHJ5X3N0YXRzIEZST00gYW5vbiwgYXV0aGVudGljYXRlZDs=
+REVOKE SELECT ON public.world_peak_country_stats FROM anon, authenticated;

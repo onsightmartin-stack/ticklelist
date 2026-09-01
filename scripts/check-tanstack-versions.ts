@@ -1,1 +1,110 @@
-LyoqCiAqIEd1YXJkcyBhZ2FpbnN0IG1peGVkIFRhblN0YWNrIHBhY2thZ2UgdmVyc2lvbnMuCiAqCiAqIEEgdmVyc2lvbiBza2V3IGJldHdlZW4gQHRhbnN0YWNrL3JlYWN0LXN0YXJ0LCBAdGFuc3RhY2svcmVhY3Qtcm91dGVyIGFuZAogKiBAdGFuc3RhY2svcm91dGVyLXBsdWdpbiBwcmV2aW91c2x5IHByb2R1Y2VkIGEgbWlzc2luZyBgY3JlYXRlTWlkZGxld2FyZWAKICogZXhwb3J0IGluIHRoZSBTU1IgYnVuZGxlIGFuZCBhIGhhcmQgNTAwIG9uIHRoZSBsaXZlIHNpdGUuIERldiwgYnVpbGQgYW5kCiAqIGluc3RhbGwgYWxsIHJ1biB0aGlzIGNoZWNrIHNvIGl0IGNhbiBuZXZlciBzaGlwIGFnYWluLgogKgogKiBDaGVja3M6CiAqICAxLiBUaGUgY29yZSBUYW5TdGFjayBwYWNrYWdlcyBhcmUgcGlubmVkIGV4YWN0bHkgaW4gcGFja2FnZS5qc29uIChubyBeIG9yIH4pLgogKiAgMi4gYnVuLmxvY2sgcmVzb2x2ZXMgZXZlcnkgQHRhbnN0YWNrLyogcGFja2FnZSB0byBhIHNpbmdsZSB2ZXJzaW9uCiAqICAgICAobm8gZHVwbGljYXRlL25lc3RlZCBjb3BpZXMpLgogKiAgMy4gVGhlIHZlcnNpb25zIEB0YW5zdGFjay9yZWFjdC1zdGFydCBkZWNsYXJlcyBmb3IgaXRzIFRhblN0YWNrIGRlcHMgbWF0Y2gKICogICAgIHdoYXQgdGhlIGxvY2tmaWxlIGFjdHVhbGx5IHJlc29sdmVkLgogKi8KaW1wb3J0IHsgcmVhZEZpbGVTeW5jIH0gZnJvbSAibm9kZTpmcyI7CmltcG9ydCB7IHJlc29sdmUgfSBmcm9tICJub2RlOnBhdGgiOwoKY29uc3Qgcm9vdCA9IHJlc29sdmUoaW1wb3J0Lm1ldGEuZGlybmFtZSwgIi4uIik7CgovKiogUGFja2FnZXMgdGhhdCBNVVNUIGJlIGV4YWN0LXBpbm5lZCBpbiBwYWNrYWdlLmpzb24uICovCmNvbnN0IFBJTk5FRCA9IFsKICAiQHRhbnN0YWNrL3JlYWN0LXN0YXJ0IiwKICAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciIsCiAgIkB0YW5zdGFjay9yb3V0ZXItcGx1Z2luIiwKXSBhcyBjb25zdDsKCmNvbnN0IGVycm9yczogc3RyaW5nW10gPSBbXTsKCi8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gcGFja2FnZS5qc29uCmNvbnN0IHBrZyA9IEpTT04ucGFyc2UocmVhZEZpbGVTeW5jKHJlc29sdmUocm9vdCwgInBhY2thZ2UuanNvbiIpLCAidXRmOCIpKSBhcyB7CiAgZGVwZW5kZW5jaWVzPzogUmVjb3JkPHN0cmluZywgc3RyaW5nPjsKICBkZXZEZXBlbmRlbmNpZXM/OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+Owp9Owpjb25zdCBkZWNsYXJlZCA9IHsgLi4ucGtnLmRlcGVuZGVuY2llcywgLi4ucGtnLmRldkRlcGVuZGVuY2llcyB9OwoKZm9yIChjb25zdCBuYW1lIG9mIFBJTk5FRCkgewogIGNvbnN0IHJhbmdlID0gZGVjbGFyZWRbbmFtZV07CiAgaWYgKCFyYW5nZSkgewogICAgZXJyb3JzLnB1c2goYCR7bmFtZX0gaXMgbWlzc2luZyBmcm9tIHBhY2thZ2UuanNvbmApOwogICAgY29udGludWU7CiAgfQogIGlmICghL15cZCtcLlxkK1wuXGQrLy50ZXN0KHJhbmdlKSkgewogICAgZXJyb3JzLnB1c2goCiAgICAgIGAke25hbWV9IG11c3QgYmUgcGlubmVkIHRvIGFuIGV4YWN0IHZlcnNpb24gKGZvdW5kICIke3JhbmdlfSIpIOKAlCByYW5nZXMgbGV0IGluc3RhbGxzIGRyaWZ0IGludG8gYSBtaXhlZCBUYW5TdGFjayBzZXQuYCwKICAgICk7CiAgfQp9CgovLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSBidW4ubG9jawpjb25zdCBsb2NrID0gcmVhZEZpbGVTeW5jKHJlc29sdmUocm9vdCwgImJ1bi5sb2NrIiksICJ1dGY4Iik7CgovKiogbmFtZSAtPiBzZXQgb2YgcmVzb2x2ZWQgdmVyc2lvbnMgZm91bmQgYW55d2hlcmUgaW4gdGhlIGxvY2sgdHJlZS4gKi8KY29uc3QgcmVzb2x2ZWQgPSBuZXcgTWFwPHN0cmluZywgU2V0PHN0cmluZz4+KCk7CmNvbnN0IGVudHJ5ID0gLyIoPzpbXiJdKlwvKT8oQHRhbnN0YWNrXC9bYS16MC05LV0rKSI6XHMqXFsiXDFAKFswLTldW14iXSopIi9nOwpmb3IgKGNvbnN0IG0gb2YgbG9jay5tYXRjaEFsbChlbnRyeSkpIHsKICBjb25zdCBbLCBuYW1lLCB2ZXJzaW9uXSA9IG0gYXMgdW5rbm93biBhcyBbc3RyaW5nLCBzdHJpbmcsIHN0cmluZ107CiAgaWYgKCFyZXNvbHZlZC5oYXMobmFtZSkpIHJlc29sdmVkLnNldChuYW1lLCBuZXcgU2V0KCkpOwogIHJlc29sdmVkLmdldChuYW1lKSEuYWRkKHZlcnNpb24pOwp9CgppZiAocmVzb2x2ZWQuc2l6ZSA9PT0gMCkgewogIGVycm9ycy5wdXNoKCJidW4ubG9jayBjb250YWlucyBubyBAdGFuc3RhY2svKiBlbnRyaWVzIOKAlCBsb2NrZmlsZSBsb29rcyBzdGFsZSBvciB1bnJlYWRhYmxlLiIpOwp9Cgpmb3IgKGNvbnN0IFtuYW1lLCB2ZXJzaW9uc10gb2YgcmVzb2x2ZWQpIHsKICBpZiAodmVyc2lvbnMuc2l6ZSA+IDEpIHsKICAgIGVycm9ycy5wdXNoKAogICAgICBgJHtuYW1lfSByZXNvbHZlcyB0byBtdWx0aXBsZSB2ZXJzaW9ucyBpbiBidW4ubG9jazogJHtbLi4udmVyc2lvbnNdLnNvcnQoKS5qb2luKCIsICIpfS4gUnVuICJidW4gaW5zdGFsbCIgYWZ0ZXIgYWxpZ25pbmcgdGhlIHBpbnMsIG9yIGRlZHVwZSB0aGUgdHJlZS5gLAogICAgKTsKICB9Cn0KCi8vIHBhY2thZ2UuanNvbiBwaW4gbXVzdCBlcXVhbCB3aGF0IHRoZSBsb2NrIHJlc29sdmVkCmZvciAoY29uc3QgbmFtZSBvZiBQSU5ORUQpIHsKICBjb25zdCBwaW4gPSBkZWNsYXJlZFtuYW1lXTsKICBjb25zdCBnb3QgPSByZXNvbHZlZC5nZXQobmFtZSk7CiAgaWYgKCFwaW4gfHwgIWdvdCkgY29udGludWU7CiAgaWYgKCFnb3QuaGFzKHBpbikpIHsKICAgIGVycm9ycy5wdXNoKAogICAgICBgJHtuYW1lfSBpcyBwaW5uZWQgdG8gJHtwaW59IGJ1dCBidW4ubG9jayBoYXMgJHtbLi4uZ290XS5qb2luKCIsICIpfS4gUnVuICJidW4gaW5zdGFsbCIgdG8gcmVmcmVzaCB0aGUgbG9ja2ZpbGUuYCwKICAgICk7CiAgfQp9CgovLyAtLS0tLS0tLS0tLS0tLS0tLS0tLSBAdGFuc3RhY2svcmVhY3Qtc3RhcnQncyBvd24gVGFuU3RhY2sgZGVwcyB2cyB0aGUgbG9ja2ZpbGUKY29uc3Qgc3RhcnRCbG9jayA9IGxvY2subWF0Y2goLyJAdGFuc3RhY2tcL3JlYWN0LXN0YXJ0IjpccypcWy4qP1xdLFxuL3MpPy5bMF0gPz8gIiI7CmNvbnN0IGRlcHNCbG9jayA9IHN0YXJ0QmxvY2subWF0Y2goLyJkZXBlbmRlbmNpZXMiOlxzKlx7KFtefV0qKVx9Lyk/LlsxXSA/PyAiIjsKZm9yIChjb25zdCBtIG9mIGRlcHNCbG9jay5tYXRjaEFsbCgvIihAdGFuc3RhY2tcL1thLXowLTktXSspIjpccyoiKFswLTldW14iXSopIi9nKSkgewogIGNvbnN0IFssIG5hbWUsIHdhbnRdID0gbSBhcyB1bmtub3duIGFzIFtzdHJpbmcsIHN0cmluZywgc3RyaW5nXTsKICBjb25zdCBnb3QgPSByZXNvbHZlZC5nZXQobmFtZSk7CiAgaWYgKGdvdCAmJiAhZ290Lmhhcyh3YW50KSkgewogICAgZXJyb3JzLnB1c2goCiAgICAgIGBAdGFuc3RhY2svcmVhY3Qtc3RhcnQgZXhwZWN0cyAke25hbWV9QCR7d2FudH0gYnV0IHRoZSBsb2NrZmlsZSByZXNvbHZlZCAke1suLi5nb3RdLmpvaW4oIiwgIil9IOKAlCB0aGlzIGlzIHRoZSBleGFjdCBza2V3IHRoYXQgYnJva2UgU1NSIGJlZm9yZS5gLAogICAgKTsKICB9Cn0KCi8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHJlcG9ydAppZiAoZXJyb3JzLmxlbmd0aCA+IDApIHsKICBjb25zb2xlLmVycm9yKCJcbuKclyBUYW5TdGFjayBkZXBlbmRlbmN5IGNoZWNrIGZhaWxlZDpcbiIpOwogIGZvciAoY29uc3QgZSBvZiBlcnJvcnMpIGNvbnNvbGUuZXJyb3IoYCAg4oCiICR7ZX1gKTsKICBjb25zb2xlLmVycm9yKAogICAgIlxuRml4IGJ5IHBpbm5pbmcgYWxsIFRhblN0YWNrIHBhY2thZ2VzIHRvIGEgY29tcGF0aWJsZSBzZXQgYW5kIHJlLXJ1bm5pbmcgYnVuIGluc3RhbGwuXG4iLAogICk7CiAgcHJvY2Vzcy5leGl0KDEpOwp9Cgpjb25zdCBzdW1tYXJ5ID0gUElOTkVELm1hcCgobikgPT4gYCR7bi5yZXBsYWNlKCJAdGFuc3RhY2svIiwgIiIpfUAke2RlY2xhcmVkW25dfWApLmpvaW4oIiwgIik7CmNvbnNvbGUubG9nKGDinJMgVGFuU3RhY2sgdmVyc2lvbnMgY29uc2lzdGVudCAoJHtyZXNvbHZlZC5zaXplfSBwYWNrYWdlcywgc2luZ2xlIHZlcnNpb24gZWFjaCk6ICR7c3VtbWFyeX1gKTsK
+/**
+ * Guards against mixed TanStack package versions.
+ *
+ * A version skew between @tanstack/react-start, @tanstack/react-router and
+ * @tanstack/router-plugin previously produced a missing `createMiddleware`
+ * export in the SSR bundle and a hard 500 on the live site. Dev, build and
+ * install all run this check so it can never ship again.
+ *
+ * Checks:
+ *  1. The core TanStack packages are pinned exactly in package.json (no ^ or ~).
+ *  2. bun.lock resolves every @tanstack/* package to a single version
+ *     (no duplicate/nested copies).
+ *  3. The versions @tanstack/react-start declares for its TanStack deps match
+ *     what the lockfile actually resolved.
+ */
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
+
+const root = resolve(import.meta.dirname, "..");
+
+/** Packages that MUST be exact-pinned in package.json. */
+const PINNED = [
+  "@tanstack/react-start",
+  "@tanstack/react-router",
+  "@tanstack/router-plugin",
+] as const;
+
+const errors: string[] = [];
+
+// ---------------------------------------------------------------- package.json
+const pkg = JSON.parse(readFileSync(resolve(root, "package.json"), "utf8")) as {
+  dependencies?: Record<string, string>;
+  devDependencies?: Record<string, string>;
+};
+const declared = { ...pkg.dependencies, ...pkg.devDependencies };
+
+for (const name of PINNED) {
+  const range = declared[name];
+  if (!range) {
+    errors.push(`${name} is missing from package.json`);
+    continue;
+  }
+  if (!/^\d+\.\d+\.\d+/.test(range)) {
+    errors.push(
+      `${name} must be pinned to an exact version (found "${range}") — ranges let installs drift into a mixed TanStack set.`,
+    );
+  }
+}
+
+// -------------------------------------------------------------------- bun.lock
+const lock = readFileSync(resolve(root, "bun.lock"), "utf8");
+
+/** name -> set of resolved versions found anywhere in the lock tree. */
+const resolved = new Map<string, Set<string>>();
+const entry = /"(?:[^"]*\/)?(@tanstack\/[a-z0-9-]+)":\s*\["\1@([0-9][^"]*)"/g;
+for (const m of lock.matchAll(entry)) {
+  const [, name, version] = m as unknown as [string, string, string];
+  if (!resolved.has(name)) resolved.set(name, new Set());
+  resolved.get(name)!.add(version);
+}
+
+if (resolved.size === 0) {
+  errors.push("bun.lock contains no @tanstack/* entries — lockfile looks stale or unreadable.");
+}
+
+for (const [name, versions] of resolved) {
+  if (versions.size > 1) {
+    errors.push(
+      `${name} resolves to multiple versions in bun.lock: ${[...versions].sort().join(", ")}. Run "bun install" after aligning the pins, or dedupe the tree.`,
+    );
+  }
+}
+
+// package.json pin must equal what the lock resolved
+for (const name of PINNED) {
+  const pin = declared[name];
+  const got = resolved.get(name);
+  if (!pin || !got) continue;
+  if (!got.has(pin)) {
+    errors.push(
+      `${name} is pinned to ${pin} but bun.lock has ${[...got].join(", ")}. Run "bun install" to refresh the lockfile.`,
+    );
+  }
+}
+
+// -------------------- @tanstack/react-start's own TanStack deps vs the lockfile
+const startBlock = lock.match(/"@tanstack\/react-start":\s*\[.*?\],\n/s)?.[0] ?? "";
+const depsBlock = startBlock.match(/"dependencies":\s*\{([^}]*)\}/)?.[1] ?? "";
+for (const m of depsBlock.matchAll(/"(@tanstack\/[a-z0-9-]+)":\s*"([0-9][^"]*)"/g)) {
+  const [, name, want] = m as unknown as [string, string, string];
+  const got = resolved.get(name);
+  if (got && !got.has(want)) {
+    errors.push(
+      `@tanstack/react-start expects ${name}@${want} but the lockfile resolved ${[...got].join(", ")} — this is the exact skew that broke SSR before.`,
+    );
+  }
+}
+
+// ----------------------------------------------------------------------- report
+if (errors.length > 0) {
+  console.error("\n✗ TanStack dependency check failed:\n");
+  for (const e of errors) console.error(`  • ${e}`);
+  console.error(
+    "\nFix by pinning all TanStack packages to a compatible set and re-running bun install.\n",
+  );
+  process.exit(1);
+}
+
+const summary = PINNED.map((n) => `${n.replace("@tanstack/", "")}@${declared[n]}`).join(", ");
+console.log(`✓ TanStack versions consistent (${resolved.size} packages, single version each): ${summary}`);

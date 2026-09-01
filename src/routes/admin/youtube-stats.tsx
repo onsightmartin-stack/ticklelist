@@ -1,1 +1,20 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBZb3VUdWJlU3RhdHNQYWdlIGZyb20gIkAvcGFnZXMvWW91VHViZVN0YXRzUGFnZSI7Cgpjb25zdCB0aXRsZSA9ICJZb3VUdWJlIGxpbmsgc3RhdHMg4oCUIE9uc2lnaHQgTWFydGluIjsKY29uc3QgZGVzY3JpcHRpb24gPSAiUHJpdmF0ZSBkYXNoYm9hcmQgc2hvd2luZyBvdXRib3VuZCBZb3VUdWJlIGxpbmsgY2xpY2tzLiI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9hZG1pbi95b3V0dWJlLXN0YXRzIikoewogIGhlYWQ6ICgpID0+ICh7CiAgICBtZXRhOiBbCiAgICAgIHsgdGl0bGUgfSwKICAgICAgeyBuYW1lOiAiZGVzY3JpcHRpb24iLCBjb250ZW50OiBkZXNjcmlwdGlvbiB9LAogICAgICB7IG5hbWU6ICJyb2JvdHMiLCBjb250ZW50OiAibm9pbmRleCwgbm9mb2xsb3ciIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0aXRsZSIsIGNvbnRlbnQ6IHRpdGxlIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzpkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6IGRlc2NyaXB0aW9uIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0eXBlIiwgY29udGVudDogIndlYnNpdGUiIH0sCiAgICAgIHsgbmFtZTogInR3aXR0ZXI6Y2FyZCIsIGNvbnRlbnQ6ICJzdW1tYXJ5IiB9LAogICAgXSwKICB9KSwKICBjb21wb25lbnQ6IFlvdVR1YmVTdGF0c1BhZ2UsCn0pOwo=
+import { createFileRoute } from "@tanstack/react-router";
+import YouTubeStatsPage from "@/pages/YouTubeStatsPage";
+
+const title = "YouTube link stats — Onsight Martin";
+const description = "Private dashboard showing outbound YouTube link clicks.";
+
+export const Route = createFileRoute("/admin/youtube-stats")({
+  head: () => ({
+    meta: [
+      { title },
+      { name: "description", content: description },
+      { name: "robots", content: "noindex, nofollow" },
+      { property: "og:title", content: title },
+      { property: "og:description", content: description },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
+  component: YouTubeStatsPage,
+});

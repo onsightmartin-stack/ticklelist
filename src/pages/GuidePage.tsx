@@ -1,1 +1,246 @@
-aW1wb3J0IHsgdXNlTWVtbywgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IExpbmssIE5hdmlnYXRlLCB1c2VQYXJhbXMgfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKaW1wb3J0IHsgQXJyb3dMZWZ0LCBBcnJvd1JpZ2h0LCBDaGVjaywgU2VhcmNoIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IFNlbyBmcm9tICJAL2NvbXBvbmVudHMvU2VvIjsKaW1wb3J0IFlvdVR1YmVDdGEgZnJvbSAiQC9jb21wb25lbnRzL1lvdVR1YmVDdGEiOwppbXBvcnQgR3VpZGVEZXRhaWxCbG9ja3MgZnJvbSAiQC9jb21wb25lbnRzL0d1aWRlRGV0YWlsQmxvY2tzIjsKaW1wb3J0IEd1aWRlSm91cm5hbExpbmtzIGZyb20gIkAvY29tcG9uZW50cy9HdWlkZUpvdXJuYWxMaW5rcyI7CgoKaW1wb3J0IE5hdmJhciBmcm9tICJAL2NvbXBvbmVudHMvTmF2YmFyIjsKaW1wb3J0IHsgZ2V0R3VpZGUsIGd1aWRlcywgZWxldmF0aW9uT2YgfSBmcm9tICJAL2RhdGEvZ3VpZGVzIjsKaW1wb3J0IHsgY291bnRyeURpZmZpY3VsdHksIGRpZmZpY3VsdHlDb25maWcgfSBmcm9tICJAL2RhdGEvZGlmZmljdWx0eSI7CmltcG9ydCB7IHBlYWtEZXRhaWxzIH0gZnJvbSAiQC9kYXRhL3BlYWstZGV0YWlscyI7CmltcG9ydCB7IG9yZ2FuaXphdGlvblNjaGVtYSB9IGZyb20gIkAvbGliL3N0cnVjdHVyZWQtZGF0YSI7CmltcG9ydCB7IHNsdWdpZnkgfSBmcm9tICJAL2xpYi9zbHVnIjsKaW1wb3J0IHsgdXNlTGlua2VkUHJvZ3Jlc3MgfSBmcm9tICJAL2hvb2tzL3VzZUxpbmtlZFByb2dyZXNzIjsKCmNvbnN0IFNJVEUgPSAiaHR0cHM6Ly9vbnNpZ2h0bWFydGluLmNvbSI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBHdWlkZVBhZ2UoKSB7CiAgY29uc3QgeyBndWlkZVNsdWcgfSA9IHVzZVBhcmFtczx7IGd1aWRlU2x1Zzogc3RyaW5nIH0+KCk7CiAgY29uc3QgZ3VpZGUgPSB1c2VNZW1vKCgpID0+IChndWlkZVNsdWcgPyBnZXRHdWlkZShndWlkZVNsdWcpIDogdW5kZWZpbmVkKSwgW2d1aWRlU2x1Z10pOwogIGNvbnN0IFtxdWVyeSwgc2V0UXVlcnldID0gdXNlU3RhdGUoIiIpOwogIC8vIEtlZXBzIGd1aWRlIHByb2dyZXNzIGluIHN5bmMgd2l0aCBNYXJ0aW4ncyBUaWNrbGVsaXN0IHByb2ZpbGUgKHNhbWUgcGVyc29uKS4KICB1c2VMaW5rZWRQcm9ncmVzcygpOwoKICBpZiAoIWd1aWRlKSByZXR1cm4gPE5hdmlnYXRlIHRvPSIvZ3VpZGVzIiByZXBsYWNlIC8+OwoKICBjb25zdCByb3dzID0gZ3VpZGUuc2VsZWN0KCk7CiAgLy8gTWFpbmxhbmQtb25seSB0aWNrcyAoZS5nLiBNw7hsbGVow7hqIGZvciBEZW5tYXJrKSBhcmUgTk9UIHRoZSBjb3VudHJ5IGhpZ2gKICAvLyBwb2ludCDigJQgR3VubmJqw7hybiBGamVsZCBpcyBzdGlsbCB1bmNsaW1iZWQg4oCUIHNvIHRoZXkgZG9uJ3QgY291bnQgaGVyZS4KICBjb25zdCBjbGltYmVkID0gcm93cy5maWx0ZXIoKGMpID0+IChjLnN0YXR1cyA9PT0gImNsaW1iZWQiIHx8IGMuc3RhdHVzID09PSAibGVnYWxfaGlnaF9wb2ludCIpICYmIGMudW5NZW1iZXIgIT09IGZhbHNlKS5sZW5ndGg7CiAgY29uc3QgcSA9IHF1ZXJ5LnRyaW0oKS50b0xvd2VyQ2FzZSgpOwogIGNvbnN0IHZpc2libGUgPSBxCiAgICA/IHJvd3MuZmlsdGVyKChjKSA9PgogICAgICAgIGAke2MuY291bnRyeX0gJHtjLmhpZ2hQb2ludH0gJHtwZWFrRGV0YWlsc1tjLmNvdW50cnldPy5wZWFrID8/ICIifSAke2MuY29udGluZW50fWAKICAgICAgICAgIC50b0xvd2VyQ2FzZSgpCiAgICAgICAgICAuaW5jbHVkZXMocSksCiAgICAgICkKICAgIDogcm93czsKICBjb25zdCBwYXRoID0gYC9ndWlkZXMvJHtndWlkZS5zbHVnfWA7CiAgY29uc3QgdGl0bGUgPSBgJHtndWlkZS5zZW9UaXRsZX0gfCBPbnNpZ2h0IE1hcnRpbmA7CiAgY29uc3Qgb3RoZXJzID0gZ3VpZGVzLmZpbHRlcigoZykgPT4gZy5zbHVnICE9PSBndWlkZS5zbHVnKTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctYmFja2dyb3VuZCI+CiAgICAgIDxTZW8KICAgICAgICB0aXRsZT17dGl0bGUubGVuZ3RoID4gNjAgPyBgJHtndWlkZS5zZW9UaXRsZX1gIDogdGl0bGV9CiAgICAgICAgZGVzY3JpcHRpb249e2d1aWRlLmRlc2NyaXB0aW9ufQogICAgICAgIHBhdGg9e3BhdGh9CiAgICAgICAgdHlwZT0iYXJ0aWNsZSIKICAgICAgICBicmVhZGNydW1iTGVhZj17Z3VpZGUuaGVhZGluZ30KICAgICAgICBzdHJ1Y3R1cmVkRGF0YU9ubHkKCiAgICAgICAganNvbkxkPXtbCiAgICAgICAgICB7CiAgICAgICAgICAgICJAY29udGV4dCI6ICJodHRwczovL3NjaGVtYS5vcmciLAogICAgICAgICAgICAiQHR5cGUiOiAiQXJ0aWNsZSIsCiAgICAgICAgICAgIGhlYWRsaW5lOiBndWlkZS5oZWFkaW5nLAogICAgICAgICAgICBkZXNjcmlwdGlvbjogZ3VpZGUuZGVzY3JpcHRpb24sCiAgICAgICAgICAgIGF1dGhvcjogeyAiQHR5cGUiOiAiUGVyc29uIiwgbmFtZTogIk1hcnRpbiBHw6VyZGxpbmciLCB1cmw6IGAke1NJVEV9L3RlYW1gIH0sCiAgICAgICAgICAgIHB1Ymxpc2hlcjogb3JnYW5pemF0aW9uU2NoZW1hLAogICAgICAgICAgICBtYWluRW50aXR5T2ZQYWdlOiB7ICJAdHlwZSI6ICJXZWJQYWdlIiwgIkBpZCI6IGAke1NJVEV9JHtwYXRofWAgfSwKICAgICAgICAgIH0sCiAgICAgICAgICB7CiAgICAgICAgICAgICJAY29udGV4dCI6ICJodHRwczovL3NjaGVtYS5vcmciLAogICAgICAgICAgICAiQHR5cGUiOiAiSXRlbUxpc3QiLAogICAgICAgICAgICBuYW1lOiBndWlkZS5oZWFkaW5nLAogICAgICAgICAgICBudW1iZXJPZkl0ZW1zOiByb3dzLmxlbmd0aCwKICAgICAgICAgICAgaXRlbUxpc3RFbGVtZW50OiByb3dzLnNsaWNlKDAsIDEwMCkubWFwKChjLCBpKSA9PiAoewogICAgICAgICAgICAgICJAdHlwZSI6ICJMaXN0SXRlbSIsCiAgICAgICAgICAgICAgcG9zaXRpb246IGkgKyAxLAogICAgICAgICAgICAgIG5hbWU6IGAke2MuaGlnaFBvaW50fSDigJQgJHtjLmNvdW50cnl9YCwKICAgICAgICAgICAgICB1cmw6IGAke1NJVEV9L3BlYWsvJHtzbHVnaWZ5KGMuY291bnRyeSl9YCwKICAgICAgICAgICAgfSkpLAogICAgICAgICAgfSwKICAgICAgICAgIHsKICAgICAgICAgICAgIkBjb250ZXh0IjogImh0dHBzOi8vc2NoZW1hLm9yZyIsCiAgICAgICAgICAgICJAdHlwZSI6ICJGQVFQYWdlIiwKICAgICAgICAgICAgbWFpbkVudGl0eTogZ3VpZGUuZmFxcy5tYXAoKGYpID0+ICh7CiAgICAgICAgICAgICAgIkB0eXBlIjogIlF1ZXN0aW9uIiwKICAgICAgICAgICAgICBuYW1lOiBmLnF1ZXN0aW9uLAogICAgICAgICAgICAgIGFjY2VwdGVkQW5zd2VyOiB7ICJAdHlwZSI6ICJBbnN3ZXIiLCB0ZXh0OiBmLmFuc3dlciB9LAogICAgICAgICAgICB9KSksCiAgICAgICAgICB9LAogICAgICAgIF19CiAgICAgIC8+CiAgICAgIDxOYXZiYXIgLz4KCiAgICAgIDxtYWluIGNsYXNzTmFtZT0icHQtMjQgcGItMTYiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXIgbXgtYXV0byBweC00Ij4KICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgIHRvPSIvZ3VpZGVzIgogICAgICAgICAgICBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBob3Zlcjp0ZXh0LWZvcmVncm91bmQgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxBcnJvd0xlZnQgY2xhc3NOYW1lPSJ3LTQgaC00IiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4gQWxsIGd1aWRlcwogICAgICAgICAgPC9MaW5rPgoKICAgICAgICAgIDxoMSBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTN4bCBtZDp0ZXh0LTV4bCBmb250LWJvbGQgdGV4dC1mb3JlZ3JvdW5kIG10LTYiPgogICAgICAgICAgICB7Z3VpZGUuaGVhZGluZ30KICAgICAgICAgIDwvaDE+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC00IG1heC13LTN4bCBsZWFkaW5nLXJlbGF4ZWQiPntndWlkZS5pbnRyb308L3A+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTYgZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWZvcmVncm91bmQgZm9udC1kaXNwbGF5IGZvbnQtYm9sZCI+e3Jvd3MubGVuZ3RofTwvc3Bhbj4gcGVha3Mgwrd7IiAifQogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1wcmltYXJ5IGZvbnQtZGlzcGxheSBmb250LWJvbGQiPntjbGltYmVkfTwvc3Bhbj4gY2xpbWJlZCBieSBNYXJ0aW4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJyZWxhdGl2ZSBtbC1hdXRvIHctZnVsbCBzbTp3LTY0Ij4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InNyLW9ubHkiPlNlYXJjaCB0aGlzIGxpc3Q8L3NwYW4+CiAgICAgICAgICAgICAgPFNlYXJjaAogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJwb2ludGVyLWV2ZW50cy1ub25lIGFic29sdXRlIGxlZnQtMyB0b3AtMS8yIC10cmFuc2xhdGUteS0xLzIgdy00IGgtNCB0ZXh0LW11dGVkLWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgdHlwZT0ic2VhcmNoIgogICAgICAgICAgICAgICAgdmFsdWU9e3F1ZXJ5fQogICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRRdWVyeShlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iU2VhcmNoIGNvdW50cnkgb3IgcGVha+KApiIKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBwbC05IHByLTMgcHktMiB0ZXh0LXNtIHRleHQtZm9yZWdyb3VuZCBwbGFjZWhvbGRlcjp0ZXh0LW11dGVkLWZvcmVncm91bmQgZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzOnJpbmctMiBmb2N1czpyaW5nLXByaW1hcnkvNTAiCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC00IG92ZXJmbG93LXgtYXV0byByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIj4KICAgICAgICAgICAgPHRhYmxlIGNsYXNzTmFtZT0idy1mdWxsIHRleHQtc20iPgogICAgICAgICAgICAgIDxjYXB0aW9uIGNsYXNzTmFtZT0ic3Itb25seSI+e2d1aWRlLmhlYWRpbmd9PC9jYXB0aW9uPgogICAgICAgICAgICAgIDx0aGVhZCBjbGFzc05hbWU9ImJnLXNlY29uZGFyeSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgICAgICA8dGggc2NvcGU9ImNvbCIgY2xhc3NOYW1lPSJ0ZXh0LWxlZnQgZm9udC1kaXNwbGF5IHB4LTMgcHktMiB3LTEwIj4jPC90aD4KICAgICAgICAgICAgICAgICAgPHRoIHNjb3BlPSJjb2wiIGNsYXNzTmFtZT0idGV4dC1sZWZ0IGZvbnQtZGlzcGxheSBweC0zIHB5LTIiPkNvdW50cnk8L3RoPgogICAgICAgICAgICAgICAgICA8dGggc2NvcGU9ImNvbCIgY2xhc3NOYW1lPSJ0ZXh0LWxlZnQgZm9udC1kaXNwbGF5IHB4LTMgcHktMiI+SGlnaGVzdCBwb2ludDwvdGg+CiAgICAgICAgICAgICAgICAgIDx0aCBzY29wZT0iY29sIiBjbGFzc05hbWU9InRleHQtcmlnaHQgZm9udC1kaXNwbGF5IHB4LTMgcHktMiI+RWxldmF0aW9uPC90aD4KICAgICAgICAgICAgICAgICAgPHRoIHNjb3BlPSJjb2wiIGNsYXNzTmFtZT0idGV4dC1sZWZ0IGZvbnQtZGlzcGxheSBweC0zIHB5LTIgaGlkZGVuIG1kOnRhYmxlLWNlbGwiPkNvbnRpbmVudDwvdGg+CiAgICAgICAgICAgICAgICAgIDx0aCBzY29wZT0iY29sIiBjbGFzc05hbWU9InRleHQtbGVmdCBmb250LWRpc3BsYXkgcHgtMyBweS0yIGhpZGRlbiBzbTp0YWJsZS1jZWxsIj5EaWZmaWN1bHR5PC90aD4KICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgPC90aGVhZD4KICAgICAgICAgICAgICA8dGJvZHk+CiAgICAgICAgICAgICAgICB7dmlzaWJsZS5tYXAoKGMsIGkpID0+IHsKICAgICAgICAgICAgICAgICAgY29uc3QgZGlmZiA9IGNvdW50cnlEaWZmaWN1bHR5W2MuY291bnRyeV0/LmRpZmZpY3VsdHk7CiAgICAgICAgICAgICAgICAgIGNvbnN0IGRldGFpbCA9IHBlYWtEZXRhaWxzW2MuY291bnRyeV07CiAgICAgICAgICAgICAgICAgIGNvbnN0IGRvbmUgPSBjLnN0YXR1cyA9PT0gImNsaW1iZWQiIHx8IGMuc3RhdHVzID09PSAibGVnYWxfaGlnaF9wb2ludCI7CiAgICAgICAgICAgICAgICAgIGNvbnN0IG1haW5sYW5kT25seSA9IGMuc3RhdHVzID09PSAibWFpbmxhbmRfY2xpbWJlZCI7CiAgICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgPHRyIGtleT17YCR7Yy5jb3VudHJ5fS0ke2l9YH0gY2xhc3NOYW1lPSJib3JkZXItdCBib3JkZXItYm9yZGVyIGhvdmVyOmJnLXNlY29uZGFyeS81MCI+CiAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJweC0zIHB5LTIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57cm93cy5pbmRleE9mKGMpICsgMX08L3RkPgogICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtMyBweS0yIj4KICAgICAgICAgICAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgICAgICAgICAgICB0bz17YC9wZWFrLyR7c2x1Z2lmeShjLmNvdW50cnkpfWB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LWZvcmVncm91bmQgaG92ZXI6dGV4dC1wcmltYXJ5IGZvbnQtbWVkaXVtIHRyYW5zaXRpb24tY29sb3JzIGlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IgogICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAge2MuY291bnRyeX0KICAgICAgICAgICAgICAgICAgICAgICAgICB7ZG9uZSAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8Q2hlY2sKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSB0ZXh0LXByaW1hcnkgc2hyaW5rLTAiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9IkNsaW1iZWQgYnkgTWFydGluIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgIHttYWlubGFuZE9ubHkgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgdGV4dC1tYWlubGFuZCBzaHJpbmstMCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGl0bGU9Ik1haW5sYW5kIGhpZ2ggcG9pbnQgc3VtbWl0ZWQg4oCUIHRoZSBjb3VudHJ5IGhpZ2ggcG9pbnQgaXMgc3RpbGwgdW5jbGltYmVkIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYWlubGFuZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJweC0zIHB5LTIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgICAgICAge2RldGFpbD8ucGVhayA/PyBjLmhpZ2hQb2ludH0KICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJweC0zIHB5LTIgdGV4dC1yaWdodCB0ZXh0LWZvcmVncm91bmQgd2hpdGVzcGFjZS1ub3dyYXAiPgogICAgICAgICAgICAgICAgICAgICAgICB7ZWxldmF0aW9uT2YoYykudG9Mb2NhbGVTdHJpbmcoKX0gbQogICAgICAgICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTMgcHktMiB0ZXh0LW11dGVkLWZvcmVncm91bmQgaGlkZGVuIG1kOnRhYmxlLWNlbGwgd2hpdGVzcGFjZS1ub3dyYXAiPgogICAgICAgICAgICAgICAgICAgICAgICB7Yy5jb250aW5lbnR9CiAgICAgICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtMyBweS0yIGhpZGRlbiBzbTp0YWJsZS1jZWxsIj4KICAgICAgICAgICAgICAgICAgICAgICAge2RpZmYgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2B0ZXh0LXhzIGZvbnQtZGlzcGxheSBmb250LWJvbGQgcHgtMiBweS0wLjUgcm91bmRlZC1zbSAke2RpZmZpY3VsdHlDb25maWdbZGlmZl0uY29sb3J9ICR7ZGlmZmljdWx0eUNvbmZpZ1tkaWZmXS5iZ0NvbG9yfWB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge2RpZmZpY3VsdHlDb25maWdbZGlmZl0ubGFiZWx9CiAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgfSl9CiAgICAgICAgICAgICAgICB7dmlzaWJsZS5sZW5ndGggPT09IDAgJiYgKAogICAgICAgICAgICAgICAgICA8dHIgY2xhc3NOYW1lPSJib3JkZXItdCBib3JkZXItYm9yZGVyIj4KICAgICAgICAgICAgICAgICAgICA8dGQgY29sU3Bhbj17Nn0gY2xhc3NOYW1lPSJweC0zIHB5LTYgdGV4dC1jZW50ZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgICAgIE5vIHBlYWtzIG1hdGNoIOKAnHtxdWVyeX3igJ0uCiAgICAgICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPC90Ym9keT4KICAgICAgICAgICAgPC90YWJsZT4KICAgICAgICAgIDwvZGl2PgoKCiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG10LTQgbWF4LXctM3hsIj57Z3VpZGUub3V0cm99PC9wPgoKICAgICAgICAgIDxHdWlkZURldGFpbEJsb2NrcyByb3dzPXtyb3dzfSAvPgoKICAgICAgICAgIDxHdWlkZUpvdXJuYWxMaW5rcyByb3dzPXtyb3dzfSBoZWFkaW5nPXtndWlkZS5oZWFkaW5nfSAvPgoKCgogICAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJtdC0xMiI+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTJ4bCBtZDp0ZXh0LTN4bCBmb250LWJvbGQgdGV4dC1mb3JlZ3JvdW5kIG1iLTQiPgogICAgICAgICAgICAgIEZyZXF1ZW50bHkgYXNrZWQgcXVlc3Rpb25zCiAgICAgICAgICAgIDwvaDI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMgbWF4LXctM3hsIj4KICAgICAgICAgICAgICB7Z3VpZGUuZmFxcy5tYXAoKGYpID0+ICgKICAgICAgICAgICAgICAgIDxkaXYga2V5PXtmLnF1ZXN0aW9ufSBjbGFzc05hbWU9ImJnLXNlY29uZGFyeSByb3VuZGVkLWxnIHAtNCI+CiAgICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSBmb250LWJvbGQgdGV4dC1mb3JlZ3JvdW5kIG1iLTEiPntmLnF1ZXN0aW9ufTwvaDM+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPntmLmFuc3dlcn08L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJtdC0xMiI+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1mb3JlZ3JvdW5kIG1iLTQiPk1vcmUgbGlzdHM8L2gyPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBnYXAtMyBzbTpncmlkLWNvbHMtMiI+CiAgICAgICAgICAgICAge290aGVycy5tYXAoKGcpID0+ICgKICAgICAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAgICAgIGtleT17Zy5zbHVnfQogICAgICAgICAgICAgICAgICB0bz17YC9ndWlkZXMvJHtnLnNsdWd9YH0KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMgYmctY2FyZCBib3JkZXIgYm9yZGVyLWJvcmRlciByb3VuZGVkLWxnIHB4LTQgcHktMyBob3Zlcjpib3JkZXItcHJpbWFyeS81MCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWZvcmVncm91bmQiPntnLmhlYWRpbmd9PC9zcGFuPgogICAgICAgICAgICAgICAgICA8QXJyb3dSaWdodCBjbGFzc05hbWU9InctNCBoLTQgdGV4dC1wcmltYXJ5IHNocmluay0wIiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4KICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgICAgPFlvdVR1YmVDdGEgY2xhc3NOYW1lPSJtdC0xMiIgLz4KCiAgICAgICAgPC9kaXY+CiAgICAgIDwvbWFpbj4KICAgIDwvZGl2PgogICk7Cn0K
+import { useMemo, useState } from "react";
+import { Link, Navigate, useParams } from "@/lib/router-compat";
+import { ArrowLeft, ArrowRight, Check, Search } from "lucide-react";
+import Seo from "@/components/Seo";
+import YouTubeCta from "@/components/YouTubeCta";
+import GuideDetailBlocks from "@/components/GuideDetailBlocks";
+import GuideJournalLinks from "@/components/GuideJournalLinks";
+
+
+import Navbar from "@/components/Navbar";
+import { getGuide, guides, elevationOf } from "@/data/guides";
+import { countryDifficulty, difficultyConfig } from "@/data/difficulty";
+import { peakDetails } from "@/data/peak-details";
+import { organizationSchema } from "@/lib/structured-data";
+import { slugify } from "@/lib/slug";
+import { useLinkedProgress } from "@/hooks/useLinkedProgress";
+
+const SITE = "https://onsightmartin.com";
+
+export default function GuidePage() {
+  const { guideSlug } = useParams<{ guideSlug: string }>();
+  const guide = useMemo(() => (guideSlug ? getGuide(guideSlug) : undefined), [guideSlug]);
+  const [query, setQuery] = useState("");
+  // Keeps guide progress in sync with Martin's Ticklelist profile (same person).
+  useLinkedProgress();
+
+  if (!guide) return <Navigate to="/guides" replace />;
+
+  const rows = guide.select();
+  // Mainland-only ticks (e.g. Møllehøj for Denmark) are NOT the country high
+  // point — Gunnbjørn Fjeld is still unclimbed — so they don't count here.
+  const climbed = rows.filter((c) => (c.status === "climbed" || c.status === "legal_high_point") && c.unMember !== false).length;
+  const q = query.trim().toLowerCase();
+  const visible = q
+    ? rows.filter((c) =>
+        `${c.country} ${c.highPoint} ${peakDetails[c.country]?.peak ?? ""} ${c.continent}`
+          .toLowerCase()
+          .includes(q),
+      )
+    : rows;
+  const path = `/guides/${guide.slug}`;
+  const title = `${guide.seoTitle} | Onsight Martin`;
+  const others = guides.filter((g) => g.slug !== guide.slug);
+
+  return (
+    <div className="min-h-screen bg-background">
+      <Seo
+        title={title.length > 60 ? `${guide.seoTitle}` : title}
+        description={guide.description}
+        path={path}
+        type="article"
+        breadcrumbLeaf={guide.heading}
+        structuredDataOnly
+
+        jsonLd={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: guide.heading,
+            description: guide.description,
+            author: { "@type": "Person", name: "Martin Gårdling", url: `${SITE}/team` },
+            publisher: organizationSchema,
+            mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}${path}` },
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name: guide.heading,
+            numberOfItems: rows.length,
+            itemListElement: rows.slice(0, 100).map((c, i) => ({
+              "@type": "ListItem",
+              position: i + 1,
+              name: `${c.highPoint} — ${c.country}`,
+              url: `${SITE}/peak/${slugify(c.country)}`,
+            })),
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: guide.faqs.map((f) => ({
+              "@type": "Question",
+              name: f.question,
+              acceptedAnswer: { "@type": "Answer", text: f.answer },
+            })),
+          },
+        ]}
+      />
+      <Navbar />
+
+      <main className="pt-24 pb-16">
+        <div className="container mx-auto px-4">
+          <Link
+            to="/guides"
+            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" aria-hidden="true" /> All guides
+          </Link>
+
+          <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground mt-6">
+            {guide.heading}
+          </h1>
+          <p className="text-muted-foreground mt-4 max-w-3xl leading-relaxed">{guide.intro}</p>
+
+          <div className="mt-6 flex flex-wrap items-center gap-3">
+            <p className="text-sm text-muted-foreground">
+              <span className="text-foreground font-display font-bold">{rows.length}</span> peaks ·{" "}
+              <span className="text-primary font-display font-bold">{climbed}</span> climbed by Martin
+            </p>
+            <label className="relative ml-auto w-full sm:w-64">
+              <span className="sr-only">Search this list</span>
+              <Search
+                className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground"
+                aria-hidden="true"
+              />
+              <input
+                type="search"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="Search country or peak…"
+                className="w-full rounded-md border border-border bg-card pl-9 pr-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
+              />
+            </label>
+          </div>
+
+          <div className="mt-4 overflow-x-auto rounded-lg border border-border">
+            <table className="w-full text-sm">
+              <caption className="sr-only">{guide.heading}</caption>
+              <thead className="bg-secondary text-muted-foreground">
+                <tr>
+                  <th scope="col" className="text-left font-display px-3 py-2 w-10">#</th>
+                  <th scope="col" className="text-left font-display px-3 py-2">Country</th>
+                  <th scope="col" className="text-left font-display px-3 py-2">Highest point</th>
+                  <th scope="col" className="text-right font-display px-3 py-2">Elevation</th>
+                  <th scope="col" className="text-left font-display px-3 py-2 hidden md:table-cell">Continent</th>
+                  <th scope="col" className="text-left font-display px-3 py-2 hidden sm:table-cell">Difficulty</th>
+                </tr>
+              </thead>
+              <tbody>
+                {visible.map((c, i) => {
+                  const diff = countryDifficulty[c.country]?.difficulty;
+                  const detail = peakDetails[c.country];
+                  const done = c.status === "climbed" || c.status === "legal_high_point";
+                  const mainlandOnly = c.status === "mainland_climbed";
+                  return (
+                    <tr key={`${c.country}-${i}`} className="border-t border-border hover:bg-secondary/50">
+                      <td className="px-3 py-2 text-muted-foreground">{rows.indexOf(c) + 1}</td>
+                      <td className="px-3 py-2">
+                        <Link
+                          to={`/peak/${slugify(c.country)}`}
+                          className="text-foreground hover:text-primary font-medium transition-colors inline-flex items-center gap-1.5"
+                        >
+                          {c.country}
+                          {done && (
+                            <Check
+                              className="w-3.5 h-3.5 text-primary shrink-0"
+                              aria-label="Climbed by Martin"
+                            />
+                          )}
+                          {mainlandOnly && (
+                            <span
+                              className="text-[10px] uppercase tracking-wider text-mainland shrink-0"
+                              title="Mainland high point summited — the country high point is still unclimbed"
+                            >
+                              mainland
+                            </span>
+                          )}
+                        </Link>
+                      </td>
+                      <td className="px-3 py-2 text-muted-foreground">
+                        {detail?.peak ?? c.highPoint}
+                      </td>
+                      <td className="px-3 py-2 text-right text-foreground whitespace-nowrap">
+                        {elevationOf(c).toLocaleString()} m
+                      </td>
+                      <td className="px-3 py-2 text-muted-foreground hidden md:table-cell whitespace-nowrap">
+                        {c.continent}
+                      </td>
+                      <td className="px-3 py-2 hidden sm:table-cell">
+                        {diff && (
+                          <span
+                            className={`text-xs font-display font-bold px-2 py-0.5 rounded-sm ${difficultyConfig[diff].color} ${difficultyConfig[diff].bgColor}`}
+                          >
+                            {difficultyConfig[diff].label}
+                          </span>
+                        )}
+                      </td>
+                    </tr>
+                  );
+                })}
+                {visible.length === 0 && (
+                  <tr className="border-t border-border">
+                    <td colSpan={6} className="px-3 py-6 text-center text-muted-foreground">
+                      No peaks match “{query}”.
+                    </td>
+                  </tr>
+                )}
+              </tbody>
+            </table>
+          </div>
+
+
+          <p className="text-sm text-muted-foreground mt-4 max-w-3xl">{guide.outro}</p>
+
+          <GuideDetailBlocks rows={rows} />
+
+          <GuideJournalLinks rows={rows} heading={guide.heading} />
+
+
+
+          <section className="mt-12">
+            <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-4">
+              Frequently asked questions
+            </h2>
+            <div className="space-y-3 max-w-3xl">
+              {guide.faqs.map((f) => (
+                <div key={f.question} className="bg-secondary rounded-lg p-4">
+                  <h3 className="font-display font-bold text-foreground mb-1">{f.question}</h3>
+                  <p className="text-sm text-muted-foreground">{f.answer}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section className="mt-12">
+            <h2 className="font-display text-2xl font-bold text-foreground mb-4">More lists</h2>
+            <div className="grid gap-3 sm:grid-cols-2">
+              {others.map((g) => (
+                <Link
+                  key={g.slug}
+                  to={`/guides/${g.slug}`}
+                  className="flex items-center justify-between gap-3 bg-card border border-border rounded-lg px-4 py-3 hover:border-primary/50 transition-colors"
+                >
+                  <span className="text-foreground">{g.heading}</span>
+                  <ArrowRight className="w-4 h-4 text-primary shrink-0" aria-hidden="true" />
+                </Link>
+              ))}
+            </div>
+          </section>
+
+          <YouTubeCta className="mt-12" />
+
+        </div>
+      </main>
+    </div>
+  );
+}

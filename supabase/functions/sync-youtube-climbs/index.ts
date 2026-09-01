@@ -1,1 +1,186 @@
-aW1wb3J0IHsgc2VydmUgfSBmcm9tICJodHRwczovL2Rlbm8ubGFuZC9zdGRAMC4xNjguMC9odHRwL3NlcnZlci50cyI7CmltcG9ydCB7IGNyZWF0ZUNsaWVudCB9IGZyb20gImh0dHBzOi8vZXNtLnNoL0BzdXBhYmFzZS9zdXBhYmFzZS1qc0AyIjsKCmNvbnN0IGNvcnNIZWFkZXJzID0gewogICJBY2Nlc3MtQ29udHJvbC1BbGxvdy1PcmlnaW4iOiAiKiIsCiAgIkFjY2Vzcy1Db250cm9sLUFsbG93LUhlYWRlcnMiOgogICAgImF1dGhvcml6YXRpb24sIHgtY2xpZW50LWluZm8sIGFwaWtleSwgY29udGVudC10eXBlLCB4LXN1cGFiYXNlLWNsaWVudC1wbGF0Zm9ybSwgeC1zdXBhYmFzZS1jbGllbnQtcGxhdGZvcm0tdmVyc2lvbiwgeC1zdXBhYmFzZS1jbGllbnQtcnVudGltZSwgeC1zdXBhYmFzZS1jbGllbnQtcnVudGltZS12ZXJzaW9uIiwKfTsKCmNvbnN0IFlPVVRVQkVfQ0hBTk5FTF9JRCA9ICJVQ3dUVHdtQXJfWDd6VVhkYldJQmJCUHciOyAvLyBAb25zaWdodG1hcnRpbgpjb25zdCBZT1VUVUJFX0FQSV9VUkwgPSAiaHR0cHM6Ly93d3cuZ29vZ2xlYXBpcy5jb20veW91dHViZS92MyI7CmNvbnN0IEFJX0dBVEVXQVlfVVJMID0gImh0dHBzOi8vYWkuZ2F0ZXdheS5sb3ZhYmxlLmRldi92MS9jaGF0L2NvbXBsZXRpb25zIjsKCnNlcnZlKGFzeW5jIChyZXEpID0+IHsKICBpZiAocmVxLm1ldGhvZCA9PT0gIk9QVElPTlMiKSB7CiAgICByZXR1cm4gbmV3IFJlc3BvbnNlKG51bGwsIHsgaGVhZGVyczogY29yc0hlYWRlcnMgfSk7CiAgfQoKICB0cnkgewogICAgY29uc3QgWU9VVFVCRV9BUElfS0VZID0gRGVuby5lbnYuZ2V0KCJZT1VUVUJFX0FQSV9LRVkiKTsKICAgIGlmICghWU9VVFVCRV9BUElfS0VZKSB7CiAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UoCiAgICAgICAgSlNPTi5zdHJpbmdpZnkoeyBlcnJvcjogIllPVVRVQkVfQVBJX0tFWSBpcyBub3QgY29uZmlndXJlZC4gQWRkIGl0IGluIHByb2plY3Qgc2VjcmV0cy4iIH0pLAogICAgICAgIHsgc3RhdHVzOiA1MDAsIGhlYWRlcnM6IHsgLi4uY29yc0hlYWRlcnMsICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIgfSB9CiAgICAgICk7CiAgICB9CgogICAgY29uc3QgTE9WQUJMRV9BUElfS0VZID0gRGVuby5lbnYuZ2V0KCJMT1ZBQkxFX0FQSV9LRVkiKTsKICAgIGlmICghTE9WQUJMRV9BUElfS0VZKSB7CiAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UoCiAgICAgICAgSlNPTi5zdHJpbmdpZnkoeyBlcnJvcjogIkxPVkFCTEVfQVBJX0tFWSBpcyBub3QgY29uZmlndXJlZC4iIH0pLAogICAgICAgIHsgc3RhdHVzOiA1MDAsIGhlYWRlcnM6IHsgLi4uY29yc0hlYWRlcnMsICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIgfSB9CiAgICAgICk7CiAgICB9CgogICAgY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoCiAgICAgIERlbm8uZW52LmdldCgiU1VQQUJBU0VfVVJMIikhLAogICAgICBEZW5vLmVudi5nZXQoIlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkiKSEKICAgICk7CgogICAgLy8gRmV0Y2ggbGF0ZXN0IHZpZGVvcyBmcm9tIHRoZSBjaGFubmVsCiAgICBjb25zdCBzZWFyY2hVcmwgPSBgJHtZT1VUVUJFX0FQSV9VUkx9L3NlYXJjaD9wYXJ0PXNuaXBwZXQmY2hhbm5lbElkPSR7WU9VVFVCRV9DSEFOTkVMX0lEfSZvcmRlcj1kYXRlJm1heFJlc3VsdHM9MTUmdHlwZT12aWRlbyZrZXk9JHtZT1VUVUJFX0FQSV9LRVl9YDsKICAgIGNvbnN0IHl0UmVzcG9uc2UgPSBhd2FpdCBmZXRjaChzZWFyY2hVcmwpOwoKICAgIGlmICgheXRSZXNwb25zZS5vaykgewogICAgICBjb25zdCBlcnJvclRleHQgPSBhd2FpdCB5dFJlc3BvbnNlLnRleHQoKTsKICAgICAgY29uc29sZS5lcnJvcigiWW91VHViZSBBUEkgZXJyb3I6IiwgeXRSZXNwb25zZS5zdGF0dXMsIGVycm9yVGV4dCk7CiAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UoCiAgICAgICAgSlNPTi5zdHJpbmdpZnkoeyBlcnJvcjogYFlvdVR1YmUgQVBJIGVycm9yOiAke3l0UmVzcG9uc2Uuc3RhdHVzfWAgfSksCiAgICAgICAgeyBzdGF0dXM6IDUwMCwgaGVhZGVyczogeyAuLi5jb3JzSGVhZGVycywgIkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9qc29uIiB9IH0KICAgICAgKTsKICAgIH0KCiAgICBjb25zdCB5dERhdGEgPSBhd2FpdCB5dFJlc3BvbnNlLmpzb24oKTsKICAgIGNvbnN0IHZpZGVvcyA9IHl0RGF0YS5pdGVtcyB8fCBbXTsKICAgIGNvbnNvbGUubG9nKGBZb3VUdWJlIEFQSSByZXR1cm5lZCAke3ZpZGVvcy5sZW5ndGh9IHZpZGVvcyBmb3IgY2hhbm5lbCAke1lPVVRVQkVfQ0hBTk5FTF9JRH1gKTsKCiAgICAvLyBDaGVjayB3aGljaCB2aWRlb3Mgd2UgYWxyZWFkeSBoYXZlCiAgICBjb25zdCB2aWRlb0lkcyA9IHZpZGVvcy5tYXAoKHY6IGFueSkgPT4gdi5pZC52aWRlb0lkKS5maWx0ZXIoQm9vbGVhbik7CiAgICBjb25zb2xlLmxvZyhgVmlkZW8gSURzOiAke0pTT04uc3RyaW5naWZ5KHZpZGVvSWRzKX1gKTsKICAgIAogICAgY29uc3QgeyBkYXRhOiBleGlzdGluZywgZXJyb3I6IGV4aXN0RXJyIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAuZnJvbSgieW91dHViZV9jbGltYnMiKQogICAgICAuc2VsZWN0KCJ2aWRlb19pZCIpCiAgICAgIC5pbigidmlkZW9faWQiLCB2aWRlb0lkcyk7CgogICAgY29uc29sZS5sb2coYEV4aXN0aW5nIGluIERCOiAke2V4aXN0aW5nPy5sZW5ndGggfHwgMH0sIGVycm9yOiAke2V4aXN0RXJyPy5tZXNzYWdlIHx8ICdub25lJ31gKTsKICAgIGNvbnN0IGV4aXN0aW5nSWRzID0gbmV3IFNldCgoZXhpc3RpbmcgfHwgW10pLm1hcCgoZTogYW55KSA9PiBlLnZpZGVvX2lkKSk7CiAgICBjb25zdCBuZXdWaWRlb3MgPSB2aWRlb3MuZmlsdGVyKCh2OiBhbnkpID0+IHYuaWQudmlkZW9JZCAmJiAhZXhpc3RpbmdJZHMuaGFzKHYuaWQudmlkZW9JZCkpOwogICAgY29uc29sZS5sb2coYE5ldyB2aWRlb3MgdG8gcHJvY2VzczogJHtuZXdWaWRlb3MubGVuZ3RofWApOwoKICAgIGlmIChuZXdWaWRlb3MubGVuZ3RoID09PSAwKSB7CiAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UoCiAgICAgICAgSlNPTi5zdHJpbmdpZnkoeyBtZXNzYWdlOiAiTm8gbmV3IHZpZGVvcyBmb3VuZC4iLCBzeW5jZWQ6IDAgfSksCiAgICAgICAgeyBoZWFkZXJzOiB7IC4uLmNvcnNIZWFkZXJzLCAiQ29udGVudC1UeXBlIjogImFwcGxpY2F0aW9uL2pzb24iIH0gfQogICAgICApOwogICAgfQoKICAgIC8vIFVzZSBBSSB0byBhbmFseXplIGVhY2ggbmV3IHZpZGVvIGZvciBjbGltYiBkYXRhCiAgICBjb25zdCByZXN1bHRzID0gW107CgogICAgZm9yIChjb25zdCB2aWRlbyBvZiBuZXdWaWRlb3MpIHsKICAgICAgY29uc3Qgc25pcHBldCA9IHZpZGVvLnNuaXBwZXQ7CiAgICAgIGNvbnN0IHZpZGVvSWQgPSB2aWRlby5pZC52aWRlb0lkOwoKICAgICAgY29uc3QgYWlQcm9tcHQgPSBgQW5hbHl6ZSB0aGlzIFlvdVR1YmUgdmlkZW8gZnJvbSBhIG1vdW50YWluIGNsaW1iZXIgd2hvIGlzIGNsaW1iaW5nIHRoZSBoaWdoZXN0IHBvaW50IG9mIGV2ZXJ5IGNvdW50cnkgaW4gdGhlIHdvcmxkLgoKVGl0bGU6ICIke3NuaXBwZXQudGl0bGV9IgpEZXNjcmlwdGlvbjogIiR7c25pcHBldC5kZXNjcmlwdGlvbn0iClB1Ymxpc2hlZDogJHtzbmlwcGV0LnB1Ymxpc2hlZEF0fQoKRG9lcyB0aGlzIHZpZGVvIGRvY3VtZW50IGEgc3BlY2lmaWMgY291bnRyeSBoaWdocG9pbnQgY2xpbWI/IElmIHllcywgZXh0cmFjdDoKLSBwZWFrX25hbWU6IFRoZSBuYW1lIG9mIHRoZSBwZWFrL21vdW50YWluCi0gY291bnRyeTogVGhlIGNvdW50cnkgaXQncyB0aGUgaGlnaHBvaW50IG9mCi0gY29udGluZW50OiBXaGljaCBjb250aW5lbnQKLSBlbGV2YXRpb246IEVsZXZhdGlvbiBpZiBtZW50aW9uZWQgKGUuZy4gIjQsODA3IG0iKQotIGNsaW1iX2RhdGU6IFdoZW4gdGhlIGNsaW1iIGhhcHBlbmVkIChZWVlZLU1NIGZvcm1hdCBpZiBwb3NzaWJsZSkKCklmIHRoaXMgdmlkZW8gaXMgTk9UIGFib3V0IGEgc3BlY2lmaWMgY291bnRyeSBoaWdocG9pbnQgY2xpbWIgKGUuZy4gaXQncyBhIGdlYXIgcmV2aWV3LCB0cmF2ZWwgdmxvZyB3aXRob3V0IGEgc3VtbWl0LCBRJkEsIGV0Yy4pLCBzZXQgaXNfY2xpbWIgdG8gZmFsc2UuCgpSZXNwb25kIHdpdGggYSBKU09OIG9iamVjdCB1c2luZyB0aGlzIGV4YWN0IHN0cnVjdHVyZToKeyJpc19jbGltYiI6IHRydWUvZmFsc2UsICJwZWFrX25hbWUiOiAiLi4uIiwgImNvdW50cnkiOiAiLi4uIiwgImNvbnRpbmVudCI6ICIuLi4iLCAiZWxldmF0aW9uIjogIi4uLiIsICJjbGltYl9kYXRlIjogIi4uLiJ9YDsKCiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgYWlSZXNwb25zZSA9IGF3YWl0IGZldGNoKEFJX0dBVEVXQVlfVVJMLCB7CiAgICAgICAgICBtZXRob2Q6ICJQT1NUIiwKICAgICAgICAgIGhlYWRlcnM6IHsKICAgICAgICAgICAgQXV0aG9yaXphdGlvbjogYEJlYXJlciAke0xPVkFCTEVfQVBJX0tFWX1gLAogICAgICAgICAgICAiQ29udGVudC1UeXBlIjogImFwcGxpY2F0aW9uL2pzb24iLAogICAgICAgICAgfSwKICAgICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsKICAgICAgICAgICAgbW9kZWw6ICJnb29nbGUvZ2VtaW5pLTMtZmxhc2gtcHJldmlldyIsCiAgICAgICAgICAgIG1lc3NhZ2VzOiBbCiAgICAgICAgICAgICAgeyByb2xlOiAic3lzdGVtIiwgY29udGVudDogIllvdSBhcmUgYSBkYXRhIGV4dHJhY3Rpb24gYXNzaXN0YW50LiBBbHdheXMgcmVzcG9uZCB3aXRoIHZhbGlkIEpTT04gb25seSwgbm8gbWFya2Rvd24gZmVuY2VzLiIgfSwKICAgICAgICAgICAgICB7IHJvbGU6ICJ1c2VyIiwgY29udGVudDogYWlQcm9tcHQgfSwKICAgICAgICAgICAgXSwKICAgICAgICAgIH0pLAogICAgICAgIH0pOwoKICAgICAgICBpZiAoIWFpUmVzcG9uc2Uub2spIHsKICAgICAgICAgIGNvbnNvbGUuZXJyb3IoYEFJIGVycm9yIGZvciAke3ZpZGVvSWR9OmAsIGFpUmVzcG9uc2Uuc3RhdHVzKTsKICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KCiAgICAgICAgY29uc3QgYWlEYXRhID0gYXdhaXQgYWlSZXNwb25zZS5qc29uKCk7CiAgICAgICAgY29uc3QgY29udGVudCA9IGFpRGF0YS5jaG9pY2VzPy5bMF0/Lm1lc3NhZ2U/LmNvbnRlbnQgfHwgIiI7CiAgICAgICAgCiAgICAgICAgLy8gUGFyc2UgQUkgcmVzcG9uc2UKICAgICAgICBsZXQgcGFyc2VkOwogICAgICAgIHRyeSB7CiAgICAgICAgICAvLyBTdHJpcCBwb3RlbnRpYWwgbWFya2Rvd24gZmVuY2VzCiAgICAgICAgICBjb25zdCBjbGVhbmVkID0gY29udGVudC5yZXBsYWNlKC9gYGBqc29uXG4/L2csICIiKS5yZXBsYWNlKC9gYGBcbj8vZywgIiIpLnRyaW0oKTsKICAgICAgICAgIHBhcnNlZCA9IEpTT04ucGFyc2UoY2xlYW5lZCk7CiAgICAgICAgfSBjYXRjaCB7CiAgICAgICAgICBjb25zb2xlLmVycm9yKGBGYWlsZWQgdG8gcGFyc2UgQUkgcmVzcG9uc2UgZm9yICR7dmlkZW9JZH06YCwgY29udGVudCk7CiAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CgogICAgICAgIGNvbnN0IHRodW1ibmFpbCA9IHNuaXBwZXQudGh1bWJuYWlscz8uaGlnaD8udXJsIHx8IHNuaXBwZXQudGh1bWJuYWlscz8ubWVkaXVtPy51cmwgfHwgc25pcHBldC50aHVtYm5haWxzPy5kZWZhdWx0Py51cmw7CgogICAgICAgIGNvbnN0IHJlY29yZCA9IHsKICAgICAgICAgIHZpZGVvX2lkOiB2aWRlb0lkLAogICAgICAgICAgdmlkZW9fdGl0bGU6IHNuaXBwZXQudGl0bGUsCiAgICAgICAgICB2aWRlb19kZXNjcmlwdGlvbjogc25pcHBldC5kZXNjcmlwdGlvbiwKICAgICAgICAgIHZpZGVvX3VybDogYGh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9JHt2aWRlb0lkfWAsCiAgICAgICAgICB0aHVtYm5haWxfdXJsOiB0aHVtYm5haWwsCiAgICAgICAgICBwdWJsaXNoZWRfYXQ6IHNuaXBwZXQucHVibGlzaGVkQXQsCiAgICAgICAgICBwZWFrX25hbWU6IHBhcnNlZC5pc19jbGltYiA/IHBhcnNlZC5wZWFrX25hbWUgOiBudWxsLAogICAgICAgICAgY291bnRyeTogcGFyc2VkLmlzX2NsaW1iID8gcGFyc2VkLmNvdW50cnkgOiBudWxsLAogICAgICAgICAgY29udGluZW50OiBwYXJzZWQuaXNfY2xpbWIgPyBwYXJzZWQuY29udGluZW50IDogbnVsbCwKICAgICAgICAgIGVsZXZhdGlvbjogcGFyc2VkLmlzX2NsaW1iID8gcGFyc2VkLmVsZXZhdGlvbiA6IG51bGwsCiAgICAgICAgICBjbGltYl9kYXRlOiBwYXJzZWQuaXNfY2xpbWIgPyBwYXJzZWQuY2xpbWJfZGF0ZSA6IG51bGwsCiAgICAgICAgICBzdGF0dXM6IHBhcnNlZC5pc19jbGltYiA/ICJwZW5kaW5nIiA6ICJyZWplY3RlZCIsCiAgICAgICAgfTsKCiAgICAgICAgY29uc3QgeyBlcnJvcjogaW5zZXJ0RXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlCiAgICAgICAgICAuZnJvbSgieW91dHViZV9jbGltYnMiKQogICAgICAgICAgLmluc2VydChyZWNvcmQpOwoKICAgICAgICBpZiAoaW5zZXJ0RXJyb3IpIHsKICAgICAgICAgIGNvbnNvbGUuZXJyb3IoYEluc2VydCBlcnJvciBmb3IgJHt2aWRlb0lkfTpgLCBpbnNlcnRFcnJvcik7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIHJlc3VsdHMucHVzaChyZWNvcmQpOwogICAgICAgIH0KICAgICAgfSBjYXRjaCAoYWlFcnIpIHsKICAgICAgICBjb25zb2xlLmVycm9yKGBFcnJvciBwcm9jZXNzaW5nICR7dmlkZW9JZH06YCwgYWlFcnIpOwogICAgICB9CiAgICB9CgogICAgcmV0dXJuIG5ldyBSZXNwb25zZSgKICAgICAgSlNPTi5zdHJpbmdpZnkoewogICAgICAgIG1lc3NhZ2U6IGBTeW5jZWQgJHtyZXN1bHRzLmxlbmd0aH0gbmV3IHZpZGVvcy5gLAogICAgICAgIHN5bmNlZDogcmVzdWx0cy5sZW5ndGgsCiAgICAgICAgY2xpbWJzX2RldGVjdGVkOiByZXN1bHRzLmZpbHRlcigocikgPT4gci5zdGF0dXMgPT09ICJwZW5kaW5nIikubGVuZ3RoLAogICAgICAgIHJlc3VsdHMsCiAgICAgIH0pLAogICAgICB7IGhlYWRlcnM6IHsgLi4uY29yc0hlYWRlcnMsICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIgfSB9CiAgICApOwogIH0gY2F0Y2ggKGUpIHsKICAgIGNvbnNvbGUuZXJyb3IoInN5bmMgZXJyb3I6IiwgZSk7CiAgICByZXR1cm4gbmV3IFJlc3BvbnNlKAogICAgICBKU09OLnN0cmluZ2lmeSh7IGVycm9yOiBlIGluc3RhbmNlb2YgRXJyb3IgPyBlLm1lc3NhZ2UgOiAiVW5rbm93biBlcnJvciIgfSksCiAgICAgIHsgc3RhdHVzOiA1MDAsIGhlYWRlcnM6IHsgLi4uY29yc0hlYWRlcnMsICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIgfSB9CiAgICApOwogIH0KfSk7Cg==
+import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+
+const corsHeaders = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers":
+    "authorization, x-client-info, apikey, content-type, x-supabase-client-platform, x-supabase-client-platform-version, x-supabase-client-runtime, x-supabase-client-runtime-version",
+};
+
+const YOUTUBE_CHANNEL_ID = "UCwTTwmAr_X7zUXdbWIBbBPw"; // @onsightmartin
+const YOUTUBE_API_URL = "https://www.googleapis.com/youtube/v3";
+const AI_GATEWAY_URL = "https://ai.gateway.lovable.dev/v1/chat/completions";
+
+serve(async (req) => {
+  if (req.method === "OPTIONS") {
+    return new Response(null, { headers: corsHeaders });
+  }
+
+  try {
+    const YOUTUBE_API_KEY = Deno.env.get("YOUTUBE_API_KEY");
+    if (!YOUTUBE_API_KEY) {
+      return new Response(
+        JSON.stringify({ error: "YOUTUBE_API_KEY is not configured. Add it in project secrets." }),
+        { status: 500, headers: { ...corsHeaders, "Content-Type": "application/json" } }
+      );
+    }
+
+    const LOVABLE_API_KEY = Deno.env.get("LOVABLE_API_KEY");
+    if (!LOVABLE_API_KEY) {
+      return new Response(
+        JSON.stringify({ error: "LOVABLE_API_KEY is not configured." }),
+        { status: 500, headers: { ...corsHeaders, "Content-Type": "application/json" } }
+      );
+    }
+
+    const supabase = createClient(
+      Deno.env.get("SUPABASE_URL")!,
+      Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!
+    );
+
+    // Fetch latest videos from the channel
+    const searchUrl = `${YOUTUBE_API_URL}/search?part=snippet&channelId=${YOUTUBE_CHANNEL_ID}&order=date&maxResults=15&type=video&key=${YOUTUBE_API_KEY}`;
+    const ytResponse = await fetch(searchUrl);
+
+    if (!ytResponse.ok) {
+      const errorText = await ytResponse.text();
+      console.error("YouTube API error:", ytResponse.status, errorText);
+      return new Response(
+        JSON.stringify({ error: `YouTube API error: ${ytResponse.status}` }),
+        { status: 500, headers: { ...corsHeaders, "Content-Type": "application/json" } }
+      );
+    }
+
+    const ytData = await ytResponse.json();
+    const videos = ytData.items || [];
+    console.log(`YouTube API returned ${videos.length} videos for channel ${YOUTUBE_CHANNEL_ID}`);
+
+    // Check which videos we already have
+    const videoIds = videos.map((v: any) => v.id.videoId).filter(Boolean);
+    console.log(`Video IDs: ${JSON.stringify(videoIds)}`);
+    
+    const { data: existing, error: existErr } = await supabase
+      .from("youtube_climbs")
+      .select("video_id")
+      .in("video_id", videoIds);
+
+    console.log(`Existing in DB: ${existing?.length || 0}, error: ${existErr?.message || 'none'}`);
+    const existingIds = new Set((existing || []).map((e: any) => e.video_id));
+    const newVideos = videos.filter((v: any) => v.id.videoId && !existingIds.has(v.id.videoId));
+    console.log(`New videos to process: ${newVideos.length}`);
+
+    if (newVideos.length === 0) {
+      return new Response(
+        JSON.stringify({ message: "No new videos found.", synced: 0 }),
+        { headers: { ...corsHeaders, "Content-Type": "application/json" } }
+      );
+    }
+
+    // Use AI to analyze each new video for climb data
+    const results = [];
+
+    for (const video of newVideos) {
+      const snippet = video.snippet;
+      const videoId = video.id.videoId;
+
+      const aiPrompt = `Analyze this YouTube video from a mountain climber who is climbing the highest point of every country in the world.
+
+Title: "${snippet.title}"
+Description: "${snippet.description}"
+Published: ${snippet.publishedAt}
+
+Does this video document a specific country highpoint climb? If yes, extract:
+- peak_name: The name of the peak/mountain
+- country: The country it's the highpoint of
+- continent: Which continent
+- elevation: Elevation if mentioned (e.g. "4,807 m")
+- climb_date: When the climb happened (YYYY-MM format if possible)
+
+If this video is NOT about a specific country highpoint climb (e.g. it's a gear review, travel vlog without a summit, Q&A, etc.), set is_climb to false.
+
+Respond with a JSON object using this exact structure:
+{"is_climb": true/false, "peak_name": "...", "country": "...", "continent": "...", "elevation": "...", "climb_date": "..."}`;
+
+      try {
+        const aiResponse = await fetch(AI_GATEWAY_URL, {
+          method: "POST",
+          headers: {
+            Authorization: `Bearer ${LOVABLE_API_KEY}`,
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            model: "google/gemini-3-flash-preview",
+            messages: [
+              { role: "system", content: "You are a data extraction assistant. Always respond with valid JSON only, no markdown fences." },
+              { role: "user", content: aiPrompt },
+            ],
+          }),
+        });
+
+        if (!aiResponse.ok) {
+          console.error(`AI error for ${videoId}:`, aiResponse.status);
+          continue;
+        }
+
+        const aiData = await aiResponse.json();
+        const content = aiData.choices?.[0]?.message?.content || "";
+        
+        // Parse AI response
+        let parsed;
+        try {
+          // Strip potential markdown fences
+          const cleaned = content.replace(/```json\n?/g, "").replace(/```\n?/g, "").trim();
+          parsed = JSON.parse(cleaned);
+        } catch {
+          console.error(`Failed to parse AI response for ${videoId}:`, content);
+          continue;
+        }
+
+        const thumbnail = snippet.thumbnails?.high?.url || snippet.thumbnails?.medium?.url || snippet.thumbnails?.default?.url;
+
+        const record = {
+          video_id: videoId,
+          video_title: snippet.title,
+          video_description: snippet.description,
+          video_url: `https://www.youtube.com/watch?v=${videoId}`,
+          thumbnail_url: thumbnail,
+          published_at: snippet.publishedAt,
+          peak_name: parsed.is_climb ? parsed.peak_name : null,
+          country: parsed.is_climb ? parsed.country : null,
+          continent: parsed.is_climb ? parsed.continent : null,
+          elevation: parsed.is_climb ? parsed.elevation : null,
+          climb_date: parsed.is_climb ? parsed.climb_date : null,
+          status: parsed.is_climb ? "pending" : "rejected",
+        };
+
+        const { error: insertError } = await supabase
+          .from("youtube_climbs")
+          .insert(record);
+
+        if (insertError) {
+          console.error(`Insert error for ${videoId}:`, insertError);
+        } else {
+          results.push(record);
+        }
+      } catch (aiErr) {
+        console.error(`Error processing ${videoId}:`, aiErr);
+      }
+    }
+
+    return new Response(
+      JSON.stringify({
+        message: `Synced ${results.length} new videos.`,
+        synced: results.length,
+        climbs_detected: results.filter((r) => r.status === "pending").length,
+        results,
+      }),
+      { headers: { ...corsHeaders, "Content-Type": "application/json" } }
+    );
+  } catch (e) {
+    console.error("sync error:", e);
+    return new Response(
+      JSON.stringify({ error: e instanceof Error ? e.message : "Unknown error" }),
+      { status: 500, headers: { ...corsHeaders, "Content-Type": "application/json" } }
+    );
+  }
+});

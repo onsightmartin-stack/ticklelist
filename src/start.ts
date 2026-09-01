@@ -1,1 +1,10 @@
-aW1wb3J0IHsgY3JlYXRlU3RhcnQgfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtc3RhcnQiOwoKaW1wb3J0IHsgYXR0YWNoU3VwYWJhc2VBdXRoIH0gZnJvbSAiLi9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvYXV0aC1hdHRhY2hlciI7CgpleHBvcnQgY29uc3Qgc3RhcnRJbnN0YW5jZSA9IGNyZWF0ZVN0YXJ0KCgpID0+IHsKICByZXR1cm4gewogICAgZnVuY3Rpb25NaWRkbGV3YXJlOiBbYXR0YWNoU3VwYWJhc2VBdXRoXSwKICB9Owp9KTsKCg==
+import { createStart } from "@tanstack/react-start";
+
+import { attachSupabaseAuth } from "./integrations/supabase/auth-attacher";
+
+export const startInstance = createStart(() => {
+  return {
+    functionMiddleware: [attachSupabaseAuth],
+  };
+});
+

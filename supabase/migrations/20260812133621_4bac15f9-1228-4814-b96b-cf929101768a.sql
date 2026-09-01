@@ -1,1 +1,2 @@
-UkVWT0tFIEVYRUNVVEUgT04gRlVOQ1RJT04gcHVibGljLndhbnRzX25vdGlmaWNhdGlvbih1dWlkLCB0ZXh0KSBGUk9NIHB1YmxpYywgYW5vbiwgYXV0aGVudGljYXRlZDsKR1JBTlQgRVhFQ1VURSBPTiBGVU5DVElPTiBwdWJsaWMud2FudHNfbm90aWZpY2F0aW9uKHV1aWQsIHRleHQpIFRPIHNlcnZpY2Vfcm9sZTs=
+REVOKE EXECUTE ON FUNCTION public.wants_notification(uuid, text) FROM public, anon, authenticated;
+GRANT EXECUTE ON FUNCTION public.wants_notification(uuid, text) TO service_role;

@@ -1,1 +1,260 @@
-aW1wb3J0IHsgaXNVbkNvdW50cnkgfSBmcm9tICJAL2xpYi9wcm9maWxlLWdvYWxzIjsKaW1wb3J0IHsgY291bnRyaWVzIH0gZnJvbSAiQC9kYXRhL2NvdW50cmllcyI7CmltcG9ydCB0eXBlIHsgQXNjZW50IH0gZnJvbSAiQC9saWIvcGVhay1jYXRhbG9nIjsKaW1wb3J0IHsgY291bnRzQXNDb3VudHJ5SGlnaHBvaW50LCBoaWdocG9pbnRDcmVkaXRLZXkgfSBmcm9tICJAL2xpYi9oaXN0b3JpYy1oaWdocG9pbnRzIjsKaW1wb3J0IHsgY3JlZGl0ZWRIaWdocG9pbnRDb3VudHJpZXMsIGlzTWFpbmxhbmRIaWdocG9pbnRBc2NlbnQgfSBmcm9tICJAL2xpYi9tYWlubGFuZC1jcmVkaXQiOwoKZXhwb3J0IGludGVyZmFjZSBCYWRnZSB7CiAgaWQ6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgZGVzY3JpcHRpb246IHN0cmluZzsKICBpY29uOiBzdHJpbmc7CiAgZWFybmVkOiBib29sZWFuOwogIHByb2dyZXNzOiBudW1iZXI7CiAgdGFyZ2V0OiBudW1iZXI7CiAgLyoqIFBsYWluLWxhbmd1YWdlIGV4cGxhbmF0aW9uIG9mIGV4YWN0bHkgd2hhdCBjb3VudHMgdG93YXJkcyB0aGlzIGJhZGdlLiAqLwogIGRldGFpbD86IHN0cmluZyB8IHVuZGVmaW5lZDsKICAvKiogVGhlIG1lbWJlcidzIG93biBlbnRyaWVzIHRoYXQgY3VycmVudGx5IGNvdW50IChwZWFrIG5hbWVzLCBjb3VudHJpZXPigKYpLiAqLwogIGNvdW50ZWQ/OiBzdHJpbmdbXSB8IHVuZGVmaW5lZDsKICAvKiogTGFiZWwgZm9yIHRoZSBjb3VudGVkIGxpc3QsIGUuZy4gIlBlYWtzIHRoYXQgY291bnQiLiAqLwogIGNvdW50ZWRMYWJlbD86IHN0cmluZyB8IHVuZGVmaW5lZDsKfQoKZXhwb3J0IGludGVyZmFjZSBSYW5rIHsKICBuYW1lOiBzdHJpbmc7CiAgbWluOiBudW1iZXI7CiAgYmx1cmI6IHN0cmluZzsKfQoKLyoqIFJhbmsgbGFkZGVyIOKAlCBkcml2ZW4gYnkgdG90YWwgbG9nZ2VkIGFzY2VudHMuICovCmV4cG9ydCBjb25zdCByYW5rczogUmFua1tdID0gWwogIHsgbmFtZTogIlRyYWlsaGVhZCIsIG1pbjogMCwgYmx1cmI6ICJKdXN0IGdldHRpbmcgc3RhcnRlZC4iIH0sCiAgeyBuYW1lOiAiSGlrZXIiLCBtaW46IDEsIGJsdXJiOiAiRmlyc3Qgc3VtbWl0IGluIHRoZSBib29rLiIgfSwKICB7IG5hbWU6ICJTY3JhbWJsZXIiLCBtaW46IDUsIGJsdXJiOiAiSGFuZHMgb24gcm9jaywgcmVndWxhcmx5IG91dC4iIH0sCiAgeyBuYW1lOiAiQWxwaW5pc3QiLCBtaW46IDE1LCBibHVyYjogIlNlcmlvdXMgbW91bnRhaW4gbWlsZWFnZS4iIH0sCiAgeyBuYW1lOiAiSGlnaHBvaW50ZXIiLCBtaW46IDMwLCBibHVyYjogIkNvbGxlY3Rpbmcgc3VtbWl0cyBieSBjb3VudHJ5LiIgfSwKICB7IG5hbWU6ICJNb3VudGFpbmVlciIsIG1pbjogNjAsIGJsdXJiOiAiQSBkZWVwIHN1bW1pdCByw6lzdW3DqS4iIH0sCiAgeyBuYW1lOiAiU3VtbWl0IExlZ2VuZCIsIG1pbjogMTAwLCBibHVyYjogIlJhcmVmaWVkIGFpci4iIH0sCl07Cgpjb25zdCBjb250aW5lbnRPZiA9IChjb3VudHJ5OiBzdHJpbmcgfCBudWxsKSA9PgogIGNvdW50cnkgPyBjb3VudHJpZXMuZmluZCgoYykgPT4gYy5jb3VudHJ5ID09PSBjb3VudHJ5KT8uY29udGluZW50ID8/IG51bGwgOiBudWxsOwoKZXhwb3J0IGludGVyZmFjZSBNZW1iZXJTdGF0cyB7CiAgdG90YWw6IG51bWJlcjsKICBoaWdocG9pbnRzOiBudW1iZXI7CiAgZmFtb3VzOiBudW1iZXI7CiAgY291bnRyaWVzOiBudW1iZXI7CiAgY29udGluZW50czogbnVtYmVyOwogIHllYXJTdHJlYWs6IG51bWJlcjsKICBtb250aFN0cmVhazogbnVtYmVyOwogIGJlc3RZZWFyOiBudW1iZXI7CiAgLyoqIE5hbWVzIGJlaGluZCB0aGUgbnVtYmVycywgc28gYmFkZ2VzIGNhbiBzaG93IHdoYXQgYWN0dWFsbHkgY291bnRlZC4gKi8KICBwZWFrTmFtZXM6IHN0cmluZ1tdOwogIGhpZ2hwb2ludE5hbWVzOiBzdHJpbmdbXTsKICBmYW1vdXNOYW1lczogc3RyaW5nW107CiAgY291bnRyeU5hbWVzOiBzdHJpbmdbXTsKICBjb250aW5lbnROYW1lczogc3RyaW5nW107CiAgYmVzdFllYXJMYWJlbDogc3RyaW5nIHwgbnVsbDsKICAvKiogQXNjZW50cyBzaGFyZWQgd2l0aCBhdCBsZWFzdCBvbmUgbmFtZWQgcGFydG5lciBvciBsb2dnZWQgYXMgYSBncm91cCB0cmlwLiAqLwogIHRvZ2V0aGVyOiBudW1iZXI7CiAgdG9nZXRoZXJOYW1lczogc3RyaW5nW107CiAgLyoqIERpc3RpbmN0IHBlb3BsZSB5b3UndmUgc2hhcmVkIGFuIGFkdmVudHVyZSB3aXRoLiAqLwogIHBhcnRuZXJzOiBudW1iZXI7CiAgcGFydG5lck5hbWVzOiBzdHJpbmdbXTsKfQoKLyoqIExvbmdlc3QgcnVuIG9mIGNvbnNlY3V0aXZlIHBlcmlvZHMgdGhhdCBlYWNoIGNvbnRhaW4gYXQgbGVhc3Qgb25lIGFzY2VudC4gKi8KY29uc3QgbG9uZ2VzdFN0cmVhayA9IChrZXlzOiBudW1iZXJbXSkgPT4gewogIGNvbnN0IHNvcnRlZCA9IFsuLi5uZXcgU2V0KGtleXMpXS5zb3J0KChhLCBiKSA9PiBhIC0gYik7CiAgbGV0IGJlc3QgPSAwOwogIGxldCBydW4gPSAwOwogIGxldCBwcmV2OiBudW1iZXIgfCBudWxsID0gbnVsbDsKICBmb3IgKGNvbnN0IGsgb2Ygc29ydGVkKSB7CiAgICBydW4gPSBwcmV2ICE9PSBudWxsICYmIGsgPT09IHByZXYgKyAxID8gcnVuICsgMSA6IDE7CiAgICBwcmV2ID0gazsKICAgIGlmIChydW4gPiBiZXN0KSBiZXN0ID0gcnVuOwogIH0KICByZXR1cm4gYmVzdDsKfTsKCmV4cG9ydCBjb25zdCBjb21wdXRlU3RhdHMgPSAoYXNjZW50czogQXNjZW50W10pOiBNZW1iZXJTdGF0cyA9PiB7CiAgY29uc3QgY291bnRyeVNldCA9IG5ldyBTZXQ8c3RyaW5nPigpOwogIGNvbnN0IGNvbnRpbmVudFNldCA9IG5ldyBTZXQ8c3RyaW5nPigpOwogIGNvbnN0IHllYXJzOiBudW1iZXJbXSA9IFtdOwogIGNvbnN0IG1vbnRoczogbnVtYmVyW10gPSBbXTsKICBjb25zdCBwZXJZZWFyOiBSZWNvcmQ8bnVtYmVyLCBudW1iZXI+ID0ge307CgogIGZvciAoY29uc3QgYSBvZiBhc2NlbnRzKSB7CiAgICBpZiAoYS5jb3VudHJ5KSBjb3VudHJ5U2V0LmFkZChhLmNvdW50cnkpOwogICAgY29uc3QgY29udCA9IGNvbnRpbmVudE9mKGEuY291bnRyeSk7CiAgICBpZiAoY29udCkgY29udGluZW50U2V0LmFkZChjb250KTsKICAgIGNvbnN0IGQgPSBuZXcgRGF0ZShhLmFzY2VudF9kYXRlKTsKICAgIGlmICghTnVtYmVyLmlzTmFOKGQuZ2V0VGltZSgpKSkgewogICAgICBjb25zdCB5ID0gZC5nZXRGdWxsWWVhcigpOwogICAgICB5ZWFycy5wdXNoKHkpOwogICAgICBtb250aHMucHVzaCh5ICogMTIgKyBkLmdldE1vbnRoKCkpOwogICAgICBwZXJZZWFyW3ldID0gKHBlclllYXJbeV0gPz8gMCkgKyAxOwogICAgfQogIH0KCiAgY29uc3QgY3JlZGl0ZWRDb3VudHJpZXMgPSBjcmVkaXRlZEhpZ2hwb2ludENvdW50cmllcyhhc2NlbnRzKTsKICBjb25zdCBoaWdocG9pbnROYW1lcyA9IFsKICAgIC4uLm5ldyBTZXQoCiAgICAgIGFzY2VudHMKICAgICAgICAuZmlsdGVyKAogICAgICAgICAgKGEpID0+CiAgICAgICAgICAgIGlzVW5Db3VudHJ5KGEuY291bnRyeSA/PyBhLnBlYWtfbmFtZSkgJiYKICAgICAgICAgICAgY3JlZGl0ZWRDb3VudHJpZXMuaGFzKGEuY291bnRyeSA/PyBhLnBlYWtfbmFtZSkgJiYKICAgICAgICAgICAgKGNvdW50c0FzQ291bnRyeUhpZ2hwb2ludChhKSB8fCBpc01haW5sYW5kSGlnaHBvaW50QXNjZW50KGEpKSwKICAgICAgICApCiAgICAgICAgLm1hcCgoYSkgPT4gYCR7YS5wZWFrX25hbWV9JHthLmNvdW50cnkgPyBgICgke2EuY291bnRyeX0pYCA6ICIifWApLAogICAgKSwKICBdOwogIGNvbnN0IGZhbW91c05hbWVzID0gYXNjZW50cwogICAgLmZpbHRlcigoYSkgPT4gYS5wZWFrX3R5cGUgIT09ICJjb3VudHJ5X2hpZ2hwb2ludCIpCiAgICAubWFwKChhKSA9PiBgJHthLnBlYWtfbmFtZX0ke2EuY291bnRyeSA/IGAgKCR7YS5jb3VudHJ5fSlgIDogIiJ9YCk7CiAgY29uc3QgYmVzdFllYXJFbnRyeSA9IE9iamVjdC5lbnRyaWVzKHBlclllYXIpLnNvcnQoKGEsIGIpID0+IGJbMV0gLSBhWzFdKVswXSA/PyBudWxsOwoKICBjb25zdCBwYXJ0bmVyU2V0ID0gbmV3IFNldDxzdHJpbmc+KCk7CiAgY29uc3QgdG9nZXRoZXJOYW1lczogc3RyaW5nW10gPSBbXTsKICBmb3IgKGNvbnN0IGEgb2YgYXNjZW50cykgewogICAgY29uc3QgaWRzID0gYS5wYXJ0bmVyX2lkcyA/PyBbXTsKICAgIGNvbnN0IG5hbWVzID0gKGEucGFydG5lcl9uYW1lcyA/PyBbXSkuZmlsdGVyKChuKSA9PiBuICYmIG4udHJpbSgpKTsKICAgIGNvbnN0IHNoYXJlZCA9IGlkcy5sZW5ndGggPiAwIHx8IG5hbWVzLmxlbmd0aCA+IDAgfHwgYS53aXRoX2dyb3VwID09PSB0cnVlOwogICAgaWYgKCFzaGFyZWQpIGNvbnRpbnVlOwogICAgZm9yIChjb25zdCBpZCBvZiBpZHMpIHBhcnRuZXJTZXQuYWRkKGBpZDoke2lkfWApOwogICAgZm9yIChjb25zdCBuIG9mIG5hbWVzKSBwYXJ0bmVyU2V0LmFkZChgbmFtZToke24udHJpbSgpLnRvTG93ZXJDYXNlKCl9YCk7CiAgICBjb25zdCB3aG8gPSBuYW1lcy5sZW5ndGgKICAgICAgPyBuYW1lcy5qb2luKCIsICIpCiAgICAgIDogaWRzLmxlbmd0aAogICAgICAgID8gYCR7aWRzLmxlbmd0aH0gbWVtYmVyJHtpZHMubGVuZ3RoID4gMSA/ICJzIiA6ICIifWAKICAgICAgICA6ICJncm91cCB0cmlwIjsKICAgIHRvZ2V0aGVyTmFtZXMucHVzaChgJHthLnBlYWtfbmFtZX0ke2EuY291bnRyeSA/IGAgKCR7YS5jb3VudHJ5fSlgIDogIiJ9IOKAlCB3aXRoICR7d2hvfWApOwogIH0KCiAgcmV0dXJuIHsKICAgIHRvdGFsOiBhc2NlbnRzLmxlbmd0aCwKICAgIGhpZ2hwb2ludHM6IGhpZ2hwb2ludE5hbWVzLmxlbmd0aCwKICAgIGZhbW91czogZmFtb3VzTmFtZXMubGVuZ3RoLAogICAgcGVha05hbWVzOiBhc2NlbnRzLm1hcCgoYSkgPT4gYS5wZWFrX25hbWUpLAogICAgaGlnaHBvaW50TmFtZXMsCiAgICBmYW1vdXNOYW1lcywKICAgIGNvdW50cnlOYW1lczogWy4uLmNvdW50cnlTZXRdLnNvcnQoKSwKICAgIGNvbnRpbmVudE5hbWVzOiBbLi4uY29udGluZW50U2V0XS5zb3J0KCksCiAgICBiZXN0WWVhckxhYmVsOiBiZXN0WWVhckVudHJ5ID8gYCR7YmVzdFllYXJFbnRyeVswXX0g4oCUICR7YmVzdFllYXJFbnRyeVsxXX0gYXNjZW50c2AgOiBudWxsLAogICAgY291bnRyaWVzOiBjb3VudHJ5U2V0LnNpemUsCiAgICBjb250aW5lbnRzOiBjb250aW5lbnRTZXQuc2l6ZSwKICAgIHllYXJTdHJlYWs6IGxvbmdlc3RTdHJlYWsoeWVhcnMpLAogICAgbW9udGhTdHJlYWs6IGxvbmdlc3RTdHJlYWsobW9udGhzKSwKICAgIGJlc3RZZWFyOiBNYXRoLm1heCgwLCAuLi5PYmplY3QudmFsdWVzKHBlclllYXIpKSwKICAgIHRvZ2V0aGVyOiB0b2dldGhlck5hbWVzLmxlbmd0aCwKICAgIHRvZ2V0aGVyTmFtZXMsCiAgICBwYXJ0bmVyczogcGFydG5lclNldC5zaXplLAogICAgcGFydG5lck5hbWVzOiBbCiAgICAgIC4uLm5ldyBTZXQoKGFzY2VudHMuZmxhdE1hcCgoYSkgPT4gYS5wYXJ0bmVyX25hbWVzID8/IFtdKSBhcyBzdHJpbmdbXSkubWFwKChuKSA9PiBuLnRyaW0oKSkuZmlsdGVyKEJvb2xlYW4pKSwKICAgIF0uc29ydCgpLAogIH07Cn07CgpleHBvcnQgY29uc3QgcmFua0ZvciA9ICh0b3RhbDogbnVtYmVyKTogeyBjdXJyZW50OiBSYW5rOyBuZXh0OiBSYW5rIHwgbnVsbCB9ID0+IHsKICBsZXQgY3VycmVudCA9IHJhbmtzWzBdITsKICBmb3IgKGNvbnN0IHIgb2YgcmFua3MpIGlmICh0b3RhbCA+PSByLm1pbikgY3VycmVudCA9IHI7CiAgY29uc3QgbmV4dCA9IHJhbmtzLmZpbmQoKHIpID0+IHIubWluID4gdG90YWwpID8/IG51bGw7CiAgcmV0dXJuIHsgY3VycmVudCwgbmV4dCB9Owp9OwoKY29uc3QgYmFkZ2UgPSAoCiAgaWQ6IHN0cmluZywKICBuYW1lOiBzdHJpbmcsCiAgZGVzY3JpcHRpb246IHN0cmluZywKICBpY29uOiBzdHJpbmcsCiAgcHJvZ3Jlc3M6IG51bWJlciwKICB0YXJnZXQ6IG51bWJlciwKICBkZXRhaWw/OiBzdHJpbmcsCiAgY291bnRlZD86IHN0cmluZ1tdLAogIGNvdW50ZWRMYWJlbD86IHN0cmluZywKKTogQmFkZ2UgPT4gKHsKICBpZCwKICBuYW1lLAogIGRlc2NyaXB0aW9uLAogIGljb24sCiAgcHJvZ3Jlc3M6IE1hdGgubWluKHByb2dyZXNzLCB0YXJnZXQpLAogIHRhcmdldCwKICBlYXJuZWQ6IHByb2dyZXNzID49IHRhcmdldCwKICBkZXRhaWwsCiAgY291bnRlZCwKICBjb3VudGVkTGFiZWwsCn0pOwoKLyoqIFhQIG1pbGVzdG9uZSBsYWRkZXIg4oCUIGNvbWJpbmVkIGNsaW1iaW5nICsgZXhwbG9yaW5nIFhQLiAqLwpjb25zdCB4cE1pbGVzdG9uZXM6IHsgaWQ6IHN0cmluZzsgbmFtZTogc3RyaW5nOyBpY29uOiBzdHJpbmc7IHRhcmdldDogbnVtYmVyIH1bXSA9IFsKICB7IGlkOiAieHAtMWsiLCBuYW1lOiAiRmlyc3QgVGhvdXNhbmQiLCBpY29uOiAi4pyoIiwgdGFyZ2V0OiAxXzAwMCB9LAogIHsgaWQ6ICJ4cC0xMGsiLCBuYW1lOiAiVGVuIFRob3VzYW5kIENsdWIiLCBpY29uOiAi8J+SoCIsIHRhcmdldDogMTBfMDAwIH0sCiAgeyBpZDogInhwLTUwayIsIG5hbWU6ICJGaWZ0eSBLIiwgaWNvbjogIvCflLciLCB0YXJnZXQ6IDUwXzAwMCB9LAogIHsgaWQ6ICJ4cC0xMDBrIiwgbmFtZTogIlNpeCBGaWd1cmVzIiwgaWNvbjogIvCfko4iLCB0YXJnZXQ6IDEwMF8wMDAgfSwKICB7IGlkOiAieHAtMjUwayIsIG5hbWU6ICJRdWFydGVyIE1pbGxpb24iLCBpY29uOiAi8J+PhSIsIHRhcmdldDogMjUwXzAwMCB9LAogIHsgaWQ6ICJ4cC01MDBrIiwgbmFtZTogIkhhbGYgTWlsbGlvbiIsIGljb246ICLwn6WHIiwgdGFyZ2V0OiA1MDBfMDAwIH0sCiAgeyBpZDogInhwLTFtIiwgbmFtZTogIk1pbGxpb25haXJlIiwgaWNvbjogIvCfkZEiLCB0YXJnZXQ6IDFfMDAwXzAwMCB9LAogIHsgaWQ6ICJ4cC01bSIsIG5hbWU6ICJGaXZlIE1pbGxpb24iLCBpY29uOiAi8J+MnyIsIHRhcmdldDogNV8wMDBfMDAwIH0sCiAgeyBpZDogInhwLTEwbSIsIG5hbWU6ICJMZWdlbmQgb2YgdGhlIExlZGdlciIsIGljb246ICLwn6qQIiwgdGFyZ2V0OiAxMF8wMDBfMDAwIH0sCl07Cgpjb25zdCBmbXQgPSAobjogbnVtYmVyKSA9PgogIG4gPj0gMV8wMDBfMDAwID8gYCR7biAvIDFfMDAwXzAwMH1NYCA6IG4gPj0gMV8wMDAgPyBgJHtuIC8gMV8wMDB9a2AgOiBgJHtufWA7Cgpjb25zdCBBTExfQVNDRU5UUyA9ICJFdmVyeSBhc2NlbnQgaW4geW91ciBsb2cgY291bnRzIG9uY2UsIGluY2x1ZGluZyByZXBlYXRzIG9mIHRoZSBzYW1lIHBlYWsuIjsKY29uc3QgSFBfUlVMRSA9CiAgIk9ubHkgYXNjZW50cyBsb2dnZWQgYXMgYSBjb3VudHJ5IGhpZ2ggcG9pbnQsIGFuZCBvbmx5IGZvciBVTiBtZW1iZXIgc3RhdGVzIOKAlCBvbmUgcGVyIGNvdW50cnksIHNvIHJlcGVhdHMgZG9uJ3QgZG91YmxlIHVwLiBUYWl3YW4gYW5kIG5vbi1VTiB0ZXJyaXRvcmllcyBhcmUgZXhjbHVkZWQuIjsKY29uc3QgRkFNT1VTX1JVTEUgPQogICJBbnkgbG9nZ2VkIGFzY2VudCB0aGF0IGlzIE5PVCBhIGNvdW50cnkgaGlnaCBwb2ludDogbmFtZWQgY2xhc3NpY3MsIHZvbGNhbm9lcywgbG9jYWwgaGlsbHMsIGltcG9ydGVkIHBlYWtzIOKAlCB0aGUgb3JkaW5hcnkgbW91bnRhaW5zIGluIHlvdXIgbG9nLiBFYWNoIGFzY2VudCBjb3VudHMsIHNvIGZpdmUgc2VwYXJhdGUgb3V0aW5ncyBvbiB0aGUgc2FtZSBoaWxsIGFsc28gZ2V0IHlvdSB0aGVyZS4iOwpjb25zdCBDT1VOVFJZX1JVTEUgPSAiRGlzdGluY3QgY291bnRyaWVzIGF0dGFjaGVkIHRvIHlvdXIgYXNjZW50cyAoYW55IHBlYWsgdHlwZSwgaGlnaCBwb2ludCBvciBub3QpLiI7CmNvbnN0IENPTlRJTkVOVF9SVUxFID0KICAiQ29udGluZW50cyBkZXJpdmVkIGZyb20gdGhlIGNvdW50cnkgb24gZWFjaCBhc2NlbnQg4oCUIEV1cm9wZSwgQXNpYSwgQWZyaWNhLCBOb3J0aCBBbWVyaWNhLCBTb3V0aCBBbWVyaWNhLCBPY2VhbmlhLCBBbnRhcmN0aWNhLiI7CmNvbnN0IFRPR0VUSEVSX1JVTEUgPQogICJBbnkgbG9nZ2VkIGFkdmVudHVyZSB3aGVyZSB5b3UgdGFnZ2VkIGF0IGxlYXN0IG9uZSBjby1jbGltYmVyIChhIFRpY2tsZWxpc3QgbWVtYmVyIG9yIGEgZnJlZS10ZXh0IG5hbWUpIG9yIG1hcmtlZCBpdCBhcyBhIGdyb3VwIHRyaXAuIEVhY2ggb3V0aW5nIGNvdW50cyBvbmNlLiI7CmNvbnN0IFBBUlRORVJTX1JVTEUgPQogICJEaXN0aW5jdCBwZW9wbGUgYWNyb3NzIGFsbCB5b3VyIGFkdmVudHVyZXMg4oCUIHRhZ2dlZCBtZW1iZXJzIGFuZCBuYW1lZCBjby1jbGltYmVycyBjb3VudGVkIHNlcGFyYXRlbHksIGVhY2ggcGVyc29uIG9ubHkgb25jZSBubyBtYXR0ZXIgaG93IG9mdGVuIHlvdSBnbyBvdXQgdG9nZXRoZXIuIjsKCmV4cG9ydCBjb25zdCBjb21wdXRlQmFkZ2VzID0gKHN0YXRzOiBNZW1iZXJTdGF0cywgdG90YWxYcCA9IDApOiBCYWRnZVtdID0+IFsKICBiYWRnZSgiZmlyc3Qtc3VtbWl0IiwgIkZpcnN0IFN1bW1pdCIsICJMb2cgeW91ciBmaXJzdCBhc2NlbnQiLCAi8J+lviIsIHN0YXRzLnRvdGFsLCAxLCBBTExfQVNDRU5UUyksCiAgYmFkZ2UoInRlbi1zdW1taXRzIiwgIlRlbiBTdW1taXRzIiwgIkxvZyAxMCBhc2NlbnRzIiwgIuKbsO+4jyIsIHN0YXRzLnRvdGFsLCAxMCwgQUxMX0FTQ0VOVFMpLAogIGJhZGdlKCJmaWZ0eS1zdW1taXRzIiwgIkZpZnR5IFN1bW1pdHMiLCAiTG9nIDUwIGFzY2VudHMiLCAi8J+PlO+4jyIsIHN0YXRzLnRvdGFsLCA1MCwgQUxMX0FTQ0VOVFMpLAogIGJhZGdlKCJocC01IiwgIkNvdW50cnkgQ29sbGVjdG9yIiwgIjUgY291bnRyeSBoaWdoIHBvaW50cyIsICLwn5qpIiwgc3RhdHMuaGlnaHBvaW50cywgNSwgSFBfUlVMRSwgc3RhdHMuaGlnaHBvaW50TmFtZXMsICJZb3VyIGhpZ2ggcG9pbnRzIiksCiAgYmFkZ2UoImhwLTI1IiwgIkJvcmRlciBIb3BwZXIiLCAiMjUgY291bnRyeSBoaWdoIHBvaW50cyIsICLwn4yNIiwgc3RhdHMuaGlnaHBvaW50cywgMjUsIEhQX1JVTEUsIHN0YXRzLmhpZ2hwb2ludE5hbWVzLCAiWW91ciBoaWdoIHBvaW50cyIpLAogIGJhZGdlKCJjb3VudHJpZXMtMTAiLCAiVGVuIENvdW50cmllcyIsICJDbGltYiBpbiAxMCBkaWZmZXJlbnQgY291bnRyaWVzIiwgIvCfl7rvuI8iLCBzdGF0cy5jb3VudHJpZXMsIDEwLCBDT1VOVFJZX1JVTEUsIHN0YXRzLmNvdW50cnlOYW1lcywgIkNvdW50cmllcyB5b3UndmUgY2xpbWJlZCBpbiIpLAogIGJhZGdlKCJjb250aW5lbnRzLTMiLCAiVGhyZWUgQ29udGluZW50cyIsICJDbGltYiBvbiAzIGNvbnRpbmVudHMiLCAi8J+nrSIsIHN0YXRzLmNvbnRpbmVudHMsIDMsIENPTlRJTkVOVF9SVUxFLCBzdGF0cy5jb250aW5lbnROYW1lcywgIkNvbnRpbmVudHMgc28gZmFyIiksCiAgYmFkZ2UoImNvbnRpbmVudHMtNiIsICJHbG9iZXRyb3R0ZXIiLCAiQ2xpbWIgb24gNiBjb250aW5lbnRzIiwgIuKciO+4jyIsIHN0YXRzLmNvbnRpbmVudHMsIDYsIENPTlRJTkVOVF9SVUxFLCBzdGF0cy5jb250aW5lbnROYW1lcywgIkNvbnRpbmVudHMgc28gZmFyIiksCiAgYmFkZ2UoImZhbW91cy01IiwgIkNsYXNzaWMgTGluZXMiLCAiNSBwZWFrcyB0aGF0IGFyZW4ndCBjb3VudHJ5IGhpZ2ggcG9pbnRzIiwgIuKtkCIsIHN0YXRzLmZhbW91cywgNSwgRkFNT1VTX1JVTEUsIHN0YXRzLmZhbW91c05hbWVzLCAiUGVha3MgY291bnRpbmcgdG93YXJkcyB0aGlzIiksCiAgYmFkZ2UoInN0cmVhay1tb250aHMtMyIsICJPbiBhIFJvbGwiLCAiQXNjZW50cyBpbiAzIGNvbnNlY3V0aXZlIG1vbnRocyIsICLwn5SlIiwgc3RhdHMubW9udGhTdHJlYWssIDMsICJZb3VyIGxvbmdlc3QgcnVuIG9mIGJhY2stdG8tYmFjayBjYWxlbmRhciBtb250aHMgd2l0aCBhdCBsZWFzdCBvbmUgYXNjZW50IGluIGVhY2guIE9uZSBlbXB0eSBtb250aCByZXNldHMgdGhlIHJ1bi4iKSwKICBiYWRnZSgic3RyZWFrLW1vbnRocy02IiwgIkhhbGYtWWVhciBTdHJlYWsiLCAiQXNjZW50cyBpbiA2IGNvbnNlY3V0aXZlIG1vbnRocyIsICLwn5SlIiwgc3RhdHMubW9udGhTdHJlYWssIDYsICJZb3VyIGxvbmdlc3QgcnVuIG9mIGJhY2stdG8tYmFjayBjYWxlbmRhciBtb250aHMgd2l0aCBhdCBsZWFzdCBvbmUgYXNjZW50IGluIGVhY2guIE9uZSBlbXB0eSBtb250aCByZXNldHMgdGhlIHJ1bi4iKSwKICBiYWRnZSgic3RyZWFrLXllYXJzLTMiLCAiQ29uc2lzdGVudCIsICJBc2NlbnRzIGluIDMgY29uc2VjdXRpdmUgeWVhcnMiLCAi8J+ThSIsIHN0YXRzLnllYXJTdHJlYWssIDMsICJZb3VyIGxvbmdlc3QgcnVuIG9mIGJhY2stdG8tYmFjayBjYWxlbmRhciB5ZWFycyB3aXRoIGF0IGxlYXN0IG9uZSBhc2NlbnQgaW4gZWFjaC4iKSwKICBiYWRnZSgKICAgICJiaWcteWVhciIsCiAgICAiQmlnIFllYXIiLAogICAgIjEyIGFzY2VudHMgaW4gYSBzaW5nbGUgeWVhciIsCiAgICAi8J+PhiIsCiAgICBzdGF0cy5iZXN0WWVhciwKICAgIDEyLAogICAgIkNvdW50cyBhc2NlbnRzIGJ5IGNhbGVuZGFyIHllYXIgYW5kIHRha2VzIHlvdXIgYnVzaWVzdCBvbmUuIFllYXItb25seSBkYXRlcyBjb3VudCB0b3dhcmRzIHRoYXQgeWVhci4iLAogICAgc3RhdHMuYmVzdFllYXJMYWJlbCA/IFtzdGF0cy5iZXN0WWVhckxhYmVsXSA6IFtdLAogICAgIllvdXIgYnVzaWVzdCB5ZWFyIiwKICApLAogIGJhZGdlKCJ0b2dldGhlci0xIiwgIkJldHRlciBUb2dldGhlciIsICJTaGFyZSAxIGFkdmVudHVyZSB3aXRoIGEgZnJpZW5kIiwgIvCfpJ0iLCBzdGF0cy50b2dldGhlciwgMSwgVE9HRVRIRVJfUlVMRSwgc3RhdHMudG9nZXRoZXJOYW1lcywgIlNoYXJlZCBhZHZlbnR1cmVzIiksCiAgYmFkZ2UoInRvZ2V0aGVyLTEwIiwgIlJvcGUgVGVhbSIsICJTaGFyZSAxMCBhZHZlbnR1cmVzIHdpdGggZnJpZW5kcyIsICLwn6eXIiwgc3RhdHMudG9nZXRoZXIsIDEwLCBUT0dFVEhFUl9SVUxFLCBzdGF0cy50b2dldGhlck5hbWVzLCAiU2hhcmVkIGFkdmVudHVyZXMiKSwKICBiYWRnZSgidG9nZXRoZXItMjUiLCAiRXhwZWRpdGlvbiBDcmV3IiwgIlNoYXJlIDI1IGFkdmVudHVyZXMgd2l0aCBmcmllbmRzIiwgIuKbuiIsIHN0YXRzLnRvZ2V0aGVyLCAyNSwgVE9HRVRIRVJfUlVMRSwgc3RhdHMudG9nZXRoZXJOYW1lcywgIlNoYXJlZCBhZHZlbnR1cmVzIiksCiAgYmFkZ2UoInRvZ2V0aGVyLTUwIiwgIk5ldmVyIFNvbG8iLCAiU2hhcmUgNTAgYWR2ZW50dXJlcyB3aXRoIGZyaWVuZHMiLCAi8J+rgiIsIHN0YXRzLnRvZ2V0aGVyLCA1MCwgVE9HRVRIRVJfUlVMRSwgc3RhdHMudG9nZXRoZXJOYW1lcywgIlNoYXJlZCBhZHZlbnR1cmVzIiksCiAgYmFkZ2UoInBhcnRuZXJzLTUiLCAiR29vZCBDb21wYW55IiwgIkFkdmVudHVyZSB3aXRoIDUgZGlmZmVyZW50IHBlb3BsZSIsICLwn5GlIiwgc3RhdHMucGFydG5lcnMsIDUsIFBBUlRORVJTX1JVTEUsIHN0YXRzLnBhcnRuZXJOYW1lcywgIlBlb3BsZSB5b3UndmUgbmFtZWQiKSwKICBiYWRnZSgicGFydG5lcnMtMTUiLCAiU29jaWFsIENsaW1iZXIiLCAiQWR2ZW50dXJlIHdpdGggMTUgZGlmZmVyZW50IHBlb3BsZSIsICLwn46JIiwgc3RhdHMucGFydG5lcnMsIDE1LCBQQVJUTkVSU19SVUxFLCBzdGF0cy5wYXJ0bmVyTmFtZXMsICJQZW9wbGUgeW91J3ZlIG5hbWVkIiksCiAgLi4ueHBNaWxlc3RvbmVzLm1hcCgobSkgPT4KICAgIGJhZGdlKAogICAgICBtLmlkLAogICAgICBtLm5hbWUsCiAgICAgIGBSZWFjaCAke2ZtdChtLnRhcmdldCl9IHRvdGFsIFhQIChjbGltYmluZyArIGV4cGxvcmluZylgLAogICAgICBtLmljb24sCiAgICAgIHRvdGFsWHAsCiAgICAgIG0udGFyZ2V0LAogICAgICAiQ2xpbWJpbmcgWFAgKGFsdGl0dWRlIMOXIGRpZmZpY3VsdHksIHJlcGVhdHMgYXQgMjUlLCBwbHVzIGNvbXBsZXRlZC1saXN0IGJvbnVzZXMpIGFkZGVkIHRvIEV4cGxvcmVyIFhQIGZyb20gY291bnRyaWVzLCBwbGFjZXMgYW5kIGNvbnRpbmVudCBib251c2VzLiIsCiAgICApLAogICksCl07Cg==
+import { isUnCountry } from "@/lib/profile-goals";
+import { countries } from "@/data/countries";
+import type { Ascent } from "@/lib/peak-catalog";
+import { countsAsCountryHighpoint, highpointCreditKey } from "@/lib/historic-highpoints";
+import { creditedHighpointCountries, isMainlandHighpointAscent } from "@/lib/mainland-credit";
+
+export interface Badge {
+  id: string;
+  name: string;
+  description: string;
+  icon: string;
+  earned: boolean;
+  progress: number;
+  target: number;
+  /** Plain-language explanation of exactly what counts towards this badge. */
+  detail?: string | undefined;
+  /** The member's own entries that currently count (peak names, countries…). */
+  counted?: string[] | undefined;
+  /** Label for the counted list, e.g. "Peaks that count". */
+  countedLabel?: string | undefined;
+}
+
+export interface Rank {
+  name: string;
+  min: number;
+  blurb: string;
+}
+
+/** Rank ladder — driven by total logged ascents. */
+export const ranks: Rank[] = [
+  { name: "Trailhead", min: 0, blurb: "Just getting started." },
+  { name: "Hiker", min: 1, blurb: "First summit in the book." },
+  { name: "Scrambler", min: 5, blurb: "Hands on rock, regularly out." },
+  { name: "Alpinist", min: 15, blurb: "Serious mountain mileage." },
+  { name: "Highpointer", min: 30, blurb: "Collecting summits by country." },
+  { name: "Mountaineer", min: 60, blurb: "A deep summit résumé." },
+  { name: "Summit Legend", min: 100, blurb: "Rarefied air." },
+];
+
+const continentOf = (country: string | null) =>
+  country ? countries.find((c) => c.country === country)?.continent ?? null : null;
+
+export interface MemberStats {
+  total: number;
+  highpoints: number;
+  famous: number;
+  countries: number;
+  continents: number;
+  yearStreak: number;
+  monthStreak: number;
+  bestYear: number;
+  /** Names behind the numbers, so badges can show what actually counted. */
+  peakNames: string[];
+  highpointNames: string[];
+  famousNames: string[];
+  countryNames: string[];
+  continentNames: string[];
+  bestYearLabel: string | null;
+  /** Ascents shared with at least one named partner or logged as a group trip. */
+  together: number;
+  togetherNames: string[];
+  /** Distinct people you've shared an adventure with. */
+  partners: number;
+  partnerNames: string[];
+}
+
+/** Longest run of consecutive periods that each contain at least one ascent. */
+const longestStreak = (keys: number[]) => {
+  const sorted = [...new Set(keys)].sort((a, b) => a - b);
+  let best = 0;
+  let run = 0;
+  let prev: number | null = null;
+  for (const k of sorted) {
+    run = prev !== null && k === prev + 1 ? run + 1 : 1;
+    prev = k;
+    if (run > best) best = run;
+  }
+  return best;
+};
+
+export const computeStats = (ascents: Ascent[]): MemberStats => {
+  const countrySet = new Set<string>();
+  const continentSet = new Set<string>();
+  const years: number[] = [];
+  const months: number[] = [];
+  const perYear: Record<number, number> = {};
+
+  for (const a of ascents) {
+    if (a.country) countrySet.add(a.country);
+    const cont = continentOf(a.country);
+    if (cont) continentSet.add(cont);
+    const d = new Date(a.ascent_date);
+    if (!Number.isNaN(d.getTime())) {
+      const y = d.getFullYear();
+      years.push(y);
+      months.push(y * 12 + d.getMonth());
+      perYear[y] = (perYear[y] ?? 0) + 1;
+    }
+  }
+
+  const creditedCountries = creditedHighpointCountries(ascents);
+  const highpointNames = [
+    ...new Set(
+      ascents
+        .filter(
+          (a) =>
+            isUnCountry(a.country ?? a.peak_name) &&
+            creditedCountries.has(a.country ?? a.peak_name) &&
+            (countsAsCountryHighpoint(a) || isMainlandHighpointAscent(a)),
+        )
+        .map((a) => `${a.peak_name}${a.country ? ` (${a.country})` : ""}`),
+    ),
+  ];
+  const famousNames = ascents
+    .filter((a) => a.peak_type !== "country_highpoint")
+    .map((a) => `${a.peak_name}${a.country ? ` (${a.country})` : ""}`);
+  const bestYearEntry = Object.entries(perYear).sort((a, b) => b[1] - a[1])[0] ?? null;
+
+  const partnerSet = new Set<string>();
+  const togetherNames: string[] = [];
+  for (const a of ascents) {
+    const ids = a.partner_ids ?? [];
+    const names = (a.partner_names ?? []).filter((n) => n && n.trim());
+    const shared = ids.length > 0 || names.length > 0 || a.with_group === true;
+    if (!shared) continue;
+    for (const id of ids) partnerSet.add(`id:${id}`);
+    for (const n of names) partnerSet.add(`name:${n.trim().toLowerCase()}`);
+    const who = names.length
+      ? names.join(", ")
+      : ids.length
+        ? `${ids.length} member${ids.length > 1 ? "s" : ""}`
+        : "group trip";
+    togetherNames.push(`${a.peak_name}${a.country ? ` (${a.country})` : ""} — with ${who}`);
+  }
+
+  return {
+    total: ascents.length,
+    highpoints: highpointNames.length,
+    famous: famousNames.length,
+    peakNames: ascents.map((a) => a.peak_name),
+    highpointNames,
+    famousNames,
+    countryNames: [...countrySet].sort(),
+    continentNames: [...continentSet].sort(),
+    bestYearLabel: bestYearEntry ? `${bestYearEntry[0]} — ${bestYearEntry[1]} ascents` : null,
+    countries: countrySet.size,
+    continents: continentSet.size,
+    yearStreak: longestStreak(years),
+    monthStreak: longestStreak(months),
+    bestYear: Math.max(0, ...Object.values(perYear)),
+    together: togetherNames.length,
+    togetherNames,
+    partners: partnerSet.size,
+    partnerNames: [
+      ...new Set((ascents.flatMap((a) => a.partner_names ?? []) as string[]).map((n) => n.trim()).filter(Boolean)),
+    ].sort(),
+  };
+};
+
+export const rankFor = (total: number): { current: Rank; next: Rank | null } => {
+  let current = ranks[0]!;
+  for (const r of ranks) if (total >= r.min) current = r;
+  const next = ranks.find((r) => r.min > total) ?? null;
+  return { current, next };
+};
+
+const badge = (
+  id: string,
+  name: string,
+  description: string,
+  icon: string,
+  progress: number,
+  target: number,
+  detail?: string,
+  counted?: string[],
+  countedLabel?: string,
+): Badge => ({
+  id,
+  name,
+  description,
+  icon,
+  progress: Math.min(progress, target),
+  target,
+  earned: progress >= target,
+  detail,
+  counted,
+  countedLabel,
+});
+
+/** XP milestone ladder — combined climbing + exploring XP. */
+const xpMilestones: { id: string; name: string; icon: string; target: number }[] = [
+  { id: "xp-1k", name: "First Thousand", icon: "✨", target: 1_000 },
+  { id: "xp-10k", name: "Ten Thousand Club", icon: "💠", target: 10_000 },
+  { id: "xp-50k", name: "Fifty K", icon: "🔷", target: 50_000 },
+  { id: "xp-100k", name: "Six Figures", icon: "💎", target: 100_000 },
+  { id: "xp-250k", name: "Quarter Million", icon: "🏅", target: 250_000 },
+  { id: "xp-500k", name: "Half Million", icon: "🥇", target: 500_000 },
+  { id: "xp-1m", name: "Millionaire", icon: "👑", target: 1_000_000 },
+  { id: "xp-5m", name: "Five Million", icon: "🌟", target: 5_000_000 },
+  { id: "xp-10m", name: "Legend of the Ledger", icon: "🪐", target: 10_000_000 },
+];
+
+const fmt = (n: number) =>
+  n >= 1_000_000 ? `${n / 1_000_000}M` : n >= 1_000 ? `${n / 1_000}k` : `${n}`;
+
+const ALL_ASCENTS = "Every ascent in your log counts once, including repeats of the same peak.";
+const HP_RULE =
+  "Only ascents logged as a country high point, and only for UN member states — one per country, so repeats don't double up. Taiwan and non-UN territories are excluded.";
+const FAMOUS_RULE =
+  "Any logged ascent that is NOT a country high point: named classics, volcanoes, local hills, imported peaks — the ordinary mountains in your log. Each ascent counts, so five separate outings on the same hill also get you there.";
+const COUNTRY_RULE = "Distinct countries attached to your ascents (any peak type, high point or not).";
+const CONTINENT_RULE =
+  "Continents derived from the country on each ascent — Europe, Asia, Africa, North America, South America, Oceania, Antarctica.";
+const TOGETHER_RULE =
+  "Any logged adventure where you tagged at least one co-climber (a Ticklelist member or a free-text name) or marked it as a group trip. Each outing counts once.";
+const PARTNERS_RULE =
+  "Distinct people across all your adventures — tagged members and named co-climbers counted separately, each person only once no matter how often you go out together.";
+
+export const computeBadges = (stats: MemberStats, totalXp = 0): Badge[] => [
+  badge("first-summit", "First Summit", "Log your first ascent", "🥾", stats.total, 1, ALL_ASCENTS),
+  badge("ten-summits", "Ten Summits", "Log 10 ascents", "⛰️", stats.total, 10, ALL_ASCENTS),
+  badge("fifty-summits", "Fifty Summits", "Log 50 ascents", "🏔️", stats.total, 50, ALL_ASCENTS),
+  badge("hp-5", "Country Collector", "5 country high points", "🚩", stats.highpoints, 5, HP_RULE, stats.highpointNames, "Your high points"),
+  badge("hp-25", "Border Hopper", "25 country high points", "🌍", stats.highpoints, 25, HP_RULE, stats.highpointNames, "Your high points"),
+  badge("countries-10", "Ten Countries", "Climb in 10 different countries", "🗺️", stats.countries, 10, COUNTRY_RULE, stats.countryNames, "Countries you've climbed in"),
+  badge("continents-3", "Three Continents", "Climb on 3 continents", "🧭", stats.continents, 3, CONTINENT_RULE, stats.continentNames, "Continents so far"),
+  badge("continents-6", "Globetrotter", "Climb on 6 continents", "✈️", stats.continents, 6, CONTINENT_RULE, stats.continentNames, "Continents so far"),
+  badge("famous-5", "Classic Lines", "5 peaks that aren't country high points", "⭐", stats.famous, 5, FAMOUS_RULE, stats.famousNames, "Peaks counting towards this"),
+  badge("streak-months-3", "On a Roll", "Ascents in 3 consecutive months", "🔥", stats.monthStreak, 3, "Your longest run of back-to-back calendar months with at least one ascent in each. One empty month resets the run."),
+  badge("streak-months-6", "Half-Year Streak", "Ascents in 6 consecutive months", "🔥", stats.monthStreak, 6, "Your longest run of back-to-back calendar months with at least one ascent in each. One empty month resets the run."),
+  badge("streak-years-3", "Consistent", "Ascents in 3 consecutive years", "📅", stats.yearStreak, 3, "Your longest run of back-to-back calendar years with at least one ascent in each."),
+  badge(
+    "big-year",
+    "Big Year",
+    "12 ascents in a single year",
+    "🏆",
+    stats.bestYear,
+    12,
+    "Counts ascents by calendar year and takes your busiest one. Year-only dates count towards that year.",
+    stats.bestYearLabel ? [stats.bestYearLabel] : [],
+    "Your busiest year",
+  ),
+  badge("together-1", "Better Together", "Share 1 adventure with a friend", "🤝", stats.together, 1, TOGETHER_RULE, stats.togetherNames, "Shared adventures"),
+  badge("together-10", "Rope Team", "Share 10 adventures with friends", "🧗", stats.together, 10, TOGETHER_RULE, stats.togetherNames, "Shared adventures"),
+  badge("together-25", "Expedition Crew", "Share 25 adventures with friends", "⛺", stats.together, 25, TOGETHER_RULE, stats.togetherNames, "Shared adventures"),
+  badge("together-50", "Never Solo", "Share 50 adventures with friends", "🫂", stats.together, 50, TOGETHER_RULE, stats.togetherNames, "Shared adventures"),
+  badge("partners-5", "Good Company", "Adventure with 5 different people", "👥", stats.partners, 5, PARTNERS_RULE, stats.partnerNames, "People you've named"),
+  badge("partners-15", "Social Climber", "Adventure with 15 different people", "🎉", stats.partners, 15, PARTNERS_RULE, stats.partnerNames, "People you've named"),
+  ...xpMilestones.map((m) =>
+    badge(
+      m.id,
+      m.name,
+      `Reach ${fmt(m.target)} total XP (climbing + exploring)`,
+      m.icon,
+      totalXp,
+      m.target,
+      "Climbing XP (altitude × difficulty, repeats at 25%, plus completed-list bonuses) added to Explorer XP from countries, places and continent bonuses.",
+    ),
+  ),
+];

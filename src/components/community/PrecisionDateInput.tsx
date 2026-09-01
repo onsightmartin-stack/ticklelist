@@ -1,1 +1,121 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKCmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgdHlwZSB7IERhdGVQcmVjaXNpb24gfSBmcm9tICJAL2xpYi9wZWFrLWNhdGFsb2ciOwoKY29uc3QgTU9OVEhTID0gWwogICJKYW51YXJ5IiwgIkZlYnJ1YXJ5IiwgIk1hcmNoIiwgIkFwcmlsIiwgIk1heSIsICJKdW5lIiwKICAiSnVseSIsICJBdWd1c3QiLCAiU2VwdGVtYmVyIiwgIk9jdG9iZXIiLCAiTm92ZW1iZXIiLCAiRGVjZW1iZXIiLApdOwoKaW50ZXJmYWNlIFByb3BzIHsKICBpZD86IHN0cmluZzsKICBsYWJlbD86IHN0cmluZzsKICAvKiogSVNPIGRhdGUgc3RyaW5nIChZWVlZLU1NLUREKSBvciAiIiB3aGVuIHVua25vd24uICovCiAgdmFsdWU6IHN0cmluZzsKICBwcmVjaXNpb246IERhdGVQcmVjaXNpb247CiAgb25DaGFuZ2U6ICh2YWx1ZTogc3RyaW5nLCBwcmVjaXNpb246IERhdGVQcmVjaXNpb24pID0+IHZvaWQ7CiAgaGludD86IHN0cmluZzsKfQoKLyoqCiAqIERhdGUgZmllbGQgd2l0aCB0aHJlZSBsZXZlbHMgb2YgbWVtb3J5OiBleGFjdCBkYXRlLCBtb250aCAmIHllYXIsIG9yIHllYXIgb25seS4KICogWWVhciBpcyBhIGZyZWUgdGV4dCBmaWVsZCBzbyB5b3UgY2FuIHR5cGUgaXQgZGlnaXQgYnkgZGlnaXQuCiAqLwpjb25zdCBQcmVjaXNpb25EYXRlSW5wdXQgPSAoewogIGlkID0gInByZWNpc2lvbi1kYXRlIiwKICBsYWJlbCA9ICJEYXRlIiwKICB2YWx1ZSwKICBwcmVjaXNpb24sCiAgb25DaGFuZ2UsCiAgaGludCA9ICJEb24ndCByZW1lbWJlciB0aGUgZXhhY3QgZGF5PyBMb2cgdGhlIG1vbnRoIGFuZCB5ZWFyLCBvciBqdXN0IHRoZSB5ZWFyLiIsCn06IFByb3BzKSA9PiB7CiAgY29uc3QgW3llYXIsIHNldFllYXJdID0gdXNlU3RhdGUodmFsdWUgPyB2YWx1ZS5zbGljZSgwLCA0KSA6ICIiKTsKICBjb25zdCBbbW9udGgsIHNldE1vbnRoXSA9IHVzZVN0YXRlKHZhbHVlID8gdmFsdWUuc2xpY2UoNSwgNykgOiAiIik7CgogIC8vIEtlZXAgbG9jYWwgcGFydHMgaW4gc3luYyB3aGVuIHRoZSBwYXJlbnQgcmVzZXRzIG9yIGxvYWRzIGEgdmFsdWUuCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIHNldFllYXIodmFsdWUgPyB2YWx1ZS5zbGljZSgwLCA0KSA6ICIiKTsKICAgIHNldE1vbnRoKHZhbHVlID8gdmFsdWUuc2xpY2UoNSwgNykgOiAiIik7CiAgfSwgW3ZhbHVlXSk7CgogIGNvbnN0IGVtaXQgPSAobmV4dFllYXI6IHN0cmluZywgbmV4dE1vbnRoOiBzdHJpbmcsIG5leHRQcmVjaXNpb246IERhdGVQcmVjaXNpb24pID0+IHsKICAgIGlmIChuZXh0WWVhci5sZW5ndGggIT09IDQpIHsKICAgICAgb25DaGFuZ2UoIiIsIG5leHRQcmVjaXNpb24pOwogICAgICByZXR1cm47CiAgICB9CiAgICBjb25zdCBtbSA9IG5leHRQcmVjaXNpb24gPT09ICJ5ZWFyIiA/ICIwMSIgOiBuZXh0TW9udGggfHwgIjAxIjsKICAgIG9uQ2hhbmdlKGAke25leHRZZWFyfS0ke21tfS0wMWAsIG5leHRQcmVjaXNpb24pOwogIH07CgogIGNvbnN0IGNoYW5nZVByZWNpc2lvbiA9IChuZXh0OiBEYXRlUHJlY2lzaW9uKSA9PiB7CiAgICBpZiAobmV4dCA9PT0gImRheSIpIHsKICAgICAgLy8gTm90aGluZyByZWxpYWJsZSB0byBjYXJyeSBvdmVyIOKAlCBsZXQgdGhlIHVzZXIgcGljayBhIHJlYWwgZGF0ZS4KICAgICAgb25DaGFuZ2UodmFsdWUgJiYgdmFsdWUubGVuZ3RoID09PSAxMCA/IHZhbHVlIDogIiIsIG5leHQpOwogICAgICByZXR1cm47CiAgICB9CiAgICBlbWl0KHllYXIsIG1vbnRoLCBuZXh0KTsKICB9OwoKICByZXR1cm4gKAogICAgPGRpdj4KICAgICAgPExhYmVsIGh0bWxGb3I9e2lkfT57bGFiZWx9PC9MYWJlbD4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0yIj4KICAgICAgICB7cHJlY2lzaW9uID09PSAiZGF5IiA/ICgKICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICBpZD17aWR9CiAgICAgICAgICAgIHR5cGU9ImRhdGUiCiAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleC0xIG1pbi13LVsxMHJlbV0iCiAgICAgICAgICAgIHZhbHVlPXt2YWx1ZX0KICAgICAgICAgICAgbWF4PXtuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkuc2xpY2UoMCwgMTApfQogICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IG9uQ2hhbmdlKGUudGFyZ2V0LnZhbHVlLCAiZGF5Iil9CiAgICAgICAgICAvPgogICAgICAgICkgOiAoCiAgICAgICAgICA8PgogICAgICAgICAgICB7cHJlY2lzaW9uID09PSAibW9udGgiICYmICgKICAgICAgICAgICAgICA8c2VsZWN0CiAgICAgICAgICAgICAgICBhcmlhLWxhYmVsPSJNb250aCIKICAgICAgICAgICAgICAgIHZhbHVlPXttb250aH0KICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4geyBzZXRNb250aChlLnRhcmdldC52YWx1ZSk7IGVtaXQoeWVhciwgZS50YXJnZXQudmFsdWUsICJtb250aCIpOyB9fQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJoLTEwIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1pbnB1dCBiZy1iYWNrZ3JvdW5kIHB4LTIgdGV4dC1zbSBmbGV4LTEgbWluLXctWzhyZW1dIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IiI+TW9udGjigKY8L29wdGlvbj4KICAgICAgICAgICAgICAgIHtNT05USFMubWFwKChtLCBpKSA9PiAoCiAgICAgICAgICAgICAgICAgIDxvcHRpb24ga2V5PXttfSB2YWx1ZT17U3RyaW5nKGkgKyAxKS5wYWRTdGFydCgyLCAiMCIpfT57bX08L29wdGlvbj4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvc2VsZWN0PgogICAgICAgICAgICApfQogICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICBpZD17aWR9CiAgICAgICAgICAgICAgdHlwZT0idGV4dCIKICAgICAgICAgICAgICBpbnB1dE1vZGU9Im51bWVyaWMiCiAgICAgICAgICAgICAgbWF4TGVuZ3RoPXs0fQogICAgICAgICAgICAgIGNsYXNzTmFtZT0idy0yNCIKICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iWWVhciIKICAgICAgICAgICAgICB2YWx1ZT17eWVhcn0KICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHsKICAgICAgICAgICAgICAgIGNvbnN0IG5leHQgPSBlLnRhcmdldC52YWx1ZS5yZXBsYWNlKC9cRC9nLCAiIikuc2xpY2UoMCwgNCk7CiAgICAgICAgICAgICAgICBzZXRZZWFyKG5leHQpOwogICAgICAgICAgICAgICAgZW1pdChuZXh0LCBtb250aCwgcHJlY2lzaW9uKTsKICAgICAgICAgICAgICB9fQogICAgICAgICAgICAvPgogICAgICAgICAgPC8+CiAgICAgICAgKX0KICAgICAgICA8c2VsZWN0CiAgICAgICAgICBhcmlhLWxhYmVsPSJIb3cgZXhhY3QgaXMgdGhlIGRhdGU/IgogICAgICAgICAgdmFsdWU9e3ByZWNpc2lvbn0KICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gY2hhbmdlUHJlY2lzaW9uKGUudGFyZ2V0LnZhbHVlIGFzIERhdGVQcmVjaXNpb24pfQogICAgICAgICAgY2xhc3NOYW1lPSJoLTEwIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1pbnB1dCBiZy1iYWNrZ3JvdW5kIHB4LTIgdGV4dC1zbSBzaHJpbmstMCIKICAgICAgICA+CiAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJkYXkiPkV4YWN0IGRhdGU8L29wdGlvbj4KICAgICAgICAgIDxvcHRpb24gdmFsdWU9Im1vbnRoIj5Nb250aCAmYW1wOyB5ZWFyPC9vcHRpb24+CiAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJ5ZWFyIj5ZZWFyIG9ubHk8L29wdGlvbj4KICAgICAgICA8L3NlbGVjdD4KICAgICAgPC9kaXY+CiAgICAgIHtoaW50ICYmIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMSI+e2hpbnR9PC9wPn0KICAgIDwvZGl2PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBQcmVjaXNpb25EYXRlSW5wdXQ7Cg==
+import { useEffect, useState } from "react";
+
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import type { DatePrecision } from "@/lib/peak-catalog";
+
+const MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+
+interface Props {
+  id?: string;
+  label?: string;
+  /** ISO date string (YYYY-MM-DD) or "" when unknown. */
+  value: string;
+  precision: DatePrecision;
+  onChange: (value: string, precision: DatePrecision) => void;
+  hint?: string;
+}
+
+/**
+ * Date field with three levels of memory: exact date, month & year, or year only.
+ * Year is a free text field so you can type it digit by digit.
+ */
+const PrecisionDateInput = ({
+  id = "precision-date",
+  label = "Date",
+  value,
+  precision,
+  onChange,
+  hint = "Don't remember the exact day? Log the month and year, or just the year.",
+}: Props) => {
+  const [year, setYear] = useState(value ? value.slice(0, 4) : "");
+  const [month, setMonth] = useState(value ? value.slice(5, 7) : "");
+
+  // Keep local parts in sync when the parent resets or loads a value.
+  useEffect(() => {
+    setYear(value ? value.slice(0, 4) : "");
+    setMonth(value ? value.slice(5, 7) : "");
+  }, [value]);
+
+  const emit = (nextYear: string, nextMonth: string, nextPrecision: DatePrecision) => {
+    if (nextYear.length !== 4) {
+      onChange("", nextPrecision);
+      return;
+    }
+    const mm = nextPrecision === "year" ? "01" : nextMonth || "01";
+    onChange(`${nextYear}-${mm}-01`, nextPrecision);
+  };
+
+  const changePrecision = (next: DatePrecision) => {
+    if (next === "day") {
+      // Nothing reliable to carry over — let the user pick a real date.
+      onChange(value && value.length === 10 ? value : "", next);
+      return;
+    }
+    emit(year, month, next);
+  };
+
+  return (
+    <div>
+      <Label htmlFor={id}>{label}</Label>
+      <div className="flex flex-wrap gap-2">
+        {precision === "day" ? (
+          <Input
+            id={id}
+            type="date"
+            className="flex-1 min-w-[10rem]"
+            value={value}
+            max={new Date().toISOString().slice(0, 10)}
+            onChange={(e) => onChange(e.target.value, "day")}
+          />
+        ) : (
+          <>
+            {precision === "month" && (
+              <select
+                aria-label="Month"
+                value={month}
+                onChange={(e) => { setMonth(e.target.value); emit(year, e.target.value, "month"); }}
+                className="h-10 rounded-md border border-input bg-background px-2 text-sm flex-1 min-w-[8rem]"
+              >
+                <option value="">Month…</option>
+                {MONTHS.map((m, i) => (
+                  <option key={m} value={String(i + 1).padStart(2, "0")}>{m}</option>
+                ))}
+              </select>
+            )}
+            <Input
+              id={id}
+              type="text"
+              inputMode="numeric"
+              maxLength={4}
+              className="w-24"
+              placeholder="Year"
+              value={year}
+              onChange={(e) => {
+                const next = e.target.value.replace(/\D/g, "").slice(0, 4);
+                setYear(next);
+                emit(next, month, precision);
+              }}
+            />
+          </>
+        )}
+        <select
+          aria-label="How exact is the date?"
+          value={precision}
+          onChange={(e) => changePrecision(e.target.value as DatePrecision)}
+          className="h-10 rounded-md border border-input bg-background px-2 text-sm shrink-0"
+        >
+          <option value="day">Exact date</option>
+          <option value="month">Month &amp; year</option>
+          <option value="year">Year only</option>
+        </select>
+      </div>
+      {hint && <p className="text-xs text-muted-foreground mt-1">{hint}</p>}
+    </div>
+  );
+};
+
+export default PrecisionDateInput;

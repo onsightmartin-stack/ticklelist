@@ -1,1 +1,74 @@
-Q1JFQVRFIEVYVEVOU0lPTiBJRiBOT1QgRVhJU1RTIHVuYWNjZW50IFdJVEggU0NIRU1BIHB1YmxpYzsKCkNSRUFURSBPUiBSRVBMQUNFIEZVTkNUSU9OIHB1YmxpYy5wZWFrX25vcm0oX3QgdGV4dCkKUkVUVVJOUyB0ZXh0CkxBTkdVQUdFIHNxbApJTU1VVEFCTEUKU1RSSUNUClBBUkFMTEVMIFNBRkUKU0VUIHNlYXJjaF9wYXRoIFRPICdwdWJsaWMnCkFTICQkIFNFTEVDVCBsb3dlcihwdWJsaWMudW5hY2NlbnQoJ3B1YmxpYy51bmFjY2VudCcsIF90KSkgJCQ7CgpSRVZPS0UgQUxMIE9OIEZVTkNUSU9OIHB1YmxpYy5wZWFrX25vcm0odGV4dCkgRlJPTSBQVUJMSUM7CkdSQU5UIEVYRUNVVEUgT04gRlVOQ1RJT04gcHVibGljLnBlYWtfbm9ybSh0ZXh0KSBUTyBhbm9uLCBhdXRoZW50aWNhdGVkLCBzZXJ2aWNlX3JvbGU7CgpDUkVBVEUgSU5ERVggSUYgTk9UIEVYSVNUUyB3b3JsZF9wZWFrc19uYW1lX25vcm1fdHJnbV9pZHgKICBPTiBwdWJsaWMud29ybGRfcGVha3MgVVNJTkcgZ2luIChwdWJsaWMucGVha19ub3JtKG5hbWUpIHB1YmxpYy5naW5fdHJnbV9vcHMpOwoKQ1JFQVRFIElOREVYIElGIE5PVCBFWElTVFMgd29ybGRfcGVha3NfbmFtZV9ub3JtX3ByZWZpeF9pZHgKICBPTiBwdWJsaWMud29ybGRfcGVha3MgKHB1YmxpYy5wZWFrX25vcm0obmFtZSkgdGV4dF9wYXR0ZXJuX29wcyk7CgpDUkVBVEUgT1IgUkVQTEFDRSBGVU5DVElPTiBwdWJsaWMuc2VhcmNoX3dvcmxkX3BlYWtzKAogIF9xIHRleHQsCiAgX2xpbWl0IGludGVnZXIgREVGQVVMVCAyMCwKICBfY291bnRyeSB0ZXh0IERFRkFVTFQgTlVMTCwKICBfbWluX2VsZXZhdGlvbiBpbnRlZ2VyIERFRkFVTFQgTlVMTCwKICBfbWluX3Byb21pbmVuY2UgaW50ZWdlciBERUZBVUxUIE5VTEwKKQpSRVRVUk5TIFRBQkxFKAogIGlkIGJpZ2ludCwKICBuYW1lIHRleHQsCiAgbGF0IGRvdWJsZSBwcmVjaXNpb24sCiAgbG9uIGRvdWJsZSBwcmVjaXNpb24sCiAgZmVhdHVyZV9jb2RlIHRleHQsCiAgY291bnRyeV9jb2RlIHRleHQsCiAgYWRtaW4xIHRleHQsCiAgZWxldmF0aW9uIGludGVnZXIsCiAgcHJvbWluZW5jZSBpbnRlZ2VyCikKTEFOR1VBR0Ugc3FsClNUQUJMRQpTRVQgc2VhcmNoX3BhdGggVE8gJ3B1YmxpYycKQVMgJGZ1bmN0aW9uJAogIFdJVEggcSBBUyAoCiAgICBTRUxFQ1QgcHVibGljLnBlYWtfbm9ybShjb2FsZXNjZShfcSwgJycpKSBBUyBuCiAgKQogIFNFTEVDVCBwLmlkLCBwLm5hbWUsIHAubGF0LCBwLmxvbiwgcC5mZWF0dXJlX2NvZGUsIHAuY291bnRyeV9jb2RlLCBwLmFkbWluMSwgcC5lbGV2YXRpb24sIHAucHJvbWluZW5jZQogIEZST00gcHVibGljLndvcmxkX3BlYWtzIHAsIHEKICBXSEVSRSBsZW5ndGgocS5uKSA+PSAyCiAgICBBTkQgKAogICAgICBwdWJsaWMucGVha19ub3JtKHAubmFtZSkgTElLRSBxLm4gfHwgJyUnCiAgICAgIE9SIHB1YmxpYy5wZWFrX25vcm0ocC5uYW1lKSAlIHEubgogICAgICBPUiBwdWJsaWMud29yZF9zaW1pbGFyaXR5KHEubiwgcHVibGljLnBlYWtfbm9ybShwLm5hbWUpKSA+IDAuNgogICAgKQogICAgQU5EIChfY291bnRyeSBJUyBOVUxMIE9SIHAuY291bnRyeV9jb2RlID0gX2NvdW50cnkpCiAgICBBTkQgKF9taW5fZWxldmF0aW9uIElTIE5VTEwgT1IgcC5lbGV2YXRpb24gPj0gX21pbl9lbGV2YXRpb24pCiAgICBBTkQgKF9taW5fcHJvbWluZW5jZSBJUyBOVUxMIE9SIHAucHJvbWluZW5jZSA+PSBfbWluX3Byb21pbmVuY2UpCiAgT1JERVIgQlkKICAgIChwdWJsaWMucGVha19ub3JtKHAubmFtZSkgPSBxLm4pIERFU0MsCiAgICAocHVibGljLnBlYWtfbm9ybShwLm5hbWUpIExJS0UgcS5uIHx8ICclJykgREVTQywKICAgIENBU0UgcC5mZWF0dXJlX2NvZGUKICAgICAgV0hFTiAnUEsnIFRIRU4gMAogICAgICBXSEVOICdWTEMnIFRIRU4gMAogICAgICBXSEVOICdNVCcgVEhFTiAxCiAgICAgIFdIRU4gJ01UUycgVEhFTiAyCiAgICAgIFdIRU4gJ0hMTCcgVEhFTiAzCiAgICAgIFdIRU4gJ0hMTFMnIFRIRU4gMwogICAgICBFTFNFIDQKICAgIEVORCwKICAgIHB1YmxpYy5zaW1pbGFyaXR5KHB1YmxpYy5wZWFrX25vcm0ocC5uYW1lKSwgcS5uKSBERVNDLAogICAgcC5lbGV2YXRpb24gREVTQyBOVUxMUyBMQVNUCiAgTElNSVQgTEVBU1QoR1JFQVRFU1QoY29hbGVzY2UoX2xpbWl0LCAyMCksIDEpLCA1MCk7CiRmdW5jdGlvbiQ7CgpHUkFOVCBFWEVDVVRFIE9OIEZVTkNUSU9OIHB1YmxpYy5zZWFyY2hfd29ybGRfcGVha3ModGV4dCwgaW50ZWdlciwgdGV4dCwgaW50ZWdlciwgaW50ZWdlcikgVE8gYW5vbiwgYXV0aGVudGljYXRlZDs=
+CREATE EXTENSION IF NOT EXISTS unaccent WITH SCHEMA public;
+
+CREATE OR REPLACE FUNCTION public.peak_norm(_t text)
+RETURNS text
+LANGUAGE sql
+IMMUTABLE
+STRICT
+PARALLEL SAFE
+SET search_path TO 'public'
+AS $$ SELECT lower(public.unaccent('public.unaccent', _t)) $$;
+
+REVOKE ALL ON FUNCTION public.peak_norm(text) FROM PUBLIC;
+GRANT EXECUTE ON FUNCTION public.peak_norm(text) TO anon, authenticated, service_role;
+
+CREATE INDEX IF NOT EXISTS world_peaks_name_norm_trgm_idx
+  ON public.world_peaks USING gin (public.peak_norm(name) public.gin_trgm_ops);
+
+CREATE INDEX IF NOT EXISTS world_peaks_name_norm_prefix_idx
+  ON public.world_peaks (public.peak_norm(name) text_pattern_ops);
+
+CREATE OR REPLACE FUNCTION public.search_world_peaks(
+  _q text,
+  _limit integer DEFAULT 20,
+  _country text DEFAULT NULL,
+  _min_elevation integer DEFAULT NULL,
+  _min_prominence integer DEFAULT NULL
+)
+RETURNS TABLE(
+  id bigint,
+  name text,
+  lat double precision,
+  lon double precision,
+  feature_code text,
+  country_code text,
+  admin1 text,
+  elevation integer,
+  prominence integer
+)
+LANGUAGE sql
+STABLE
+SET search_path TO 'public'
+AS $function$
+  WITH q AS (
+    SELECT public.peak_norm(coalesce(_q, '')) AS n
+  )
+  SELECT p.id, p.name, p.lat, p.lon, p.feature_code, p.country_code, p.admin1, p.elevation, p.prominence
+  FROM public.world_peaks p, q
+  WHERE length(q.n) >= 2
+    AND (
+      public.peak_norm(p.name) LIKE q.n || '%'
+      OR public.peak_norm(p.name) % q.n
+      OR public.word_similarity(q.n, public.peak_norm(p.name)) > 0.6
+    )
+    AND (_country IS NULL OR p.country_code = _country)
+    AND (_min_elevation IS NULL OR p.elevation >= _min_elevation)
+    AND (_min_prominence IS NULL OR p.prominence >= _min_prominence)
+  ORDER BY
+    (public.peak_norm(p.name) = q.n) DESC,
+    (public.peak_norm(p.name) LIKE q.n || '%') DESC,
+    CASE p.feature_code
+      WHEN 'PK' THEN 0
+      WHEN 'VLC' THEN 0
+      WHEN 'MT' THEN 1
+      WHEN 'MTS' THEN 2
+      WHEN 'HLL' THEN 3
+      WHEN 'HLLS' THEN 3
+      ELSE 4
+    END,
+    public.similarity(public.peak_norm(p.name), q.n) DESC,
+    p.elevation DESC NULLS LAST
+  LIMIT LEAST(GREATEST(coalesce(_limit, 20), 1), 50);
+$function$;
+
+GRANT EXECUTE ON FUNCTION public.search_world_peaks(text, integer, text, integer, integer) TO anon, authenticated;

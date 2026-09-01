@@ -1,1 +1,57 @@
-aW1wb3J0IHsgQXJyb3dMZWZ0IH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgTmF2YmFyIGZyb20gIkAvY29tcG9uZW50cy9OYXZiYXIiOwppbXBvcnQgdHlwZSB7IERpcmVjdG9yeVBlYWsgfSBmcm9tICJAL2xpYi9wZWFrLWRpcmVjdG9yeS5mdW5jdGlvbnMiOwppbXBvcnQgeyBjb3VudHJ5TmFtZSB9IGZyb20gIkAvcGFnZXMvV29ybGRQZWFrUGFnZSI7CgppbnRlcmZhY2UgUHJvcHMgewogIGNvZGU6IHN0cmluZzsKICBwZWFrczogRGlyZWN0b3J5UGVha1tdOwp9Cgpjb25zdCBQZWFrQ291bnRyeVBhZ2UgPSAoeyBjb2RlLCBwZWFrcyB9OiBQcm9wcykgPT4gewogIGNvbnN0IG5hbWUgPSBjb3VudHJ5TmFtZShjb2RlLnRvVXBwZXJDYXNlKCkpID8/IGNvZGUudG9VcHBlckNhc2UoKTsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy1iYWNrZ3JvdW5kIj4KICAgICAgPE5hdmJhciAvPgogICAgICA8bWFpbiBjbGFzc05hbWU9Im14LWF1dG8gbWF4LXctNHhsIHB4LTQgcHktMTAiPgogICAgICAgIDxMaW5rCiAgICAgICAgICB0bz0iL3BlYWtzIgogICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIgogICAgICAgID4KICAgICAgICAgIDxBcnJvd0xlZnQgY2xhc3NOYW1lPSJoLTQgdy00IiAvPiBQZWFrIGRpcmVjdG9yeQogICAgICAgIDwvTGluaz4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJtdC00IHRleHQtM3hsIGZvbnQtYm9sZCB0ZXh0LWZvcmVncm91bmQiPkhpZ2hlc3QgcGVha3MgaW4ge25hbWV9PC9oMT4KICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIFRoZSBtb3N0IHByb21pbmVudCBzdW1taXRzIGluIHtuYW1lfSB3aXRoIGVsZXZhdGlvbiwgcHJvbWluZW5jZSBhbmQgY29tbXVuaXR5IGFzY2VudHMuCiAgICAgICAgPC9wPgoKICAgICAgICB7cGVha3MubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC04IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+Tm8gY2F0YWxvZ3VlZCBwZWFrcyBmb3IgdGhpcyBjb3VudHJ5IHlldC48L3A+CiAgICAgICAgKSA6ICgKICAgICAgICAgIDxvbCBjbGFzc05hbWU9Im10LTYgZ3JpZCBnYXAtMiBzbTpncmlkLWNvbHMtMiI+CiAgICAgICAgICAgIHtwZWFrcy5tYXAoKHAsIGkpID0+ICgKICAgICAgICAgICAgICA8bGkga2V5PXtwLmlkfT4KICAgICAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAgICAgIHRvPXtgL3BlYWtzLyR7cC5pZH1gfQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMyByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQvNjAgcHgtMyBweS0yIHRleHQtc20gaG92ZXI6Ym9yZGVyLXByaW1hcnkvNjAiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idHJ1bmNhdGUgdGV4dC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1yLTIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57aSArIDF9Ljwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICB7cC5uYW1lfQogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ic2hyaW5rLTAgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICAgIHtwLmVsZXZhdGlvbiA/IGAke3AuZWxldmF0aW9ufSBtYCA6ICIifQogICAgICAgICAgICAgICAgICAgIHtwLnByb21pbmVuY2UgPyBgIMK3ICR7cC5wcm9taW5lbmNlfSBtIHByb21gIDogIiJ9CiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvb2w+CiAgICAgICAgKX0KICAgICAgPC9tYWluPgogICAgPC9kaXY+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IFBlYWtDb3VudHJ5UGFnZTsK
+import { ArrowLeft } from "lucide-react";
+import { Link } from "@/lib/router-compat";
+import Navbar from "@/components/Navbar";
+import type { DirectoryPeak } from "@/lib/peak-directory.functions";
+import { countryName } from "@/pages/WorldPeakPage";
+
+interface Props {
+  code: string;
+  peaks: DirectoryPeak[];
+}
+
+const PeakCountryPage = ({ code, peaks }: Props) => {
+  const name = countryName(code.toUpperCase()) ?? code.toUpperCase();
+  return (
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <main className="mx-auto max-w-4xl px-4 py-10">
+        <Link
+          to="/peaks"
+          className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
+        >
+          <ArrowLeft className="h-4 w-4" /> Peak directory
+        </Link>
+        <h1 className="mt-4 text-3xl font-bold text-foreground">Highest peaks in {name}</h1>
+        <p className="mt-2 text-muted-foreground">
+          The most prominent summits in {name} with elevation, prominence and community ascents.
+        </p>
+
+        {peaks.length === 0 ? (
+          <p className="mt-8 text-muted-foreground">No catalogued peaks for this country yet.</p>
+        ) : (
+          <ol className="mt-6 grid gap-2 sm:grid-cols-2">
+            {peaks.map((p, i) => (
+              <li key={p.id}>
+                <Link
+                  to={`/peaks/${p.id}`}
+                  className="flex items-center justify-between gap-3 rounded-lg border border-border bg-card/60 px-3 py-2 text-sm hover:border-primary/60"
+                >
+                  <span className="truncate text-foreground">
+                    <span className="mr-2 text-muted-foreground">{i + 1}.</span>
+                    {p.name}
+                  </span>
+                  <span className="shrink-0 text-xs text-muted-foreground">
+                    {p.elevation ? `${p.elevation} m` : ""}
+                    {p.prominence ? ` · ${p.prominence} m prom` : ""}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ol>
+        )}
+      </main>
+    </div>
+  );
+};
+
+export default PeakCountryPage;

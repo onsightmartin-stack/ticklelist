@@ -1,1 +1,301 @@
-aW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IERvd25sb2FkLCBMb2FkZXIyLCBQbHVzIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJzb25uZXIiOwppbXBvcnQgeyB1c2VTZXJ2ZXJGbiB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1zdGFydCI7CgppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IFRleHRhcmVhIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RleHRhcmVhIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dEZXNjcmlwdGlvbiwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCiAgRGlhbG9nVHJpZ2dlciwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAiQC9ob29rcy91c2VBdXRoIjsKaW1wb3J0IHsgbG9va3VwUGVha2JhZ2dlclBlYWsgfSBmcm9tICJAL2xpYi9wZWFrYmFnZ2VyLXBlYWsuZnVuY3Rpb25zIjsKaW1wb3J0IHR5cGUgeyBDYXRhbG9nUGVhayB9IGZyb20gIkAvbGliL3BlYWstY2F0YWxvZyI7CgppbnRlcmZhY2UgUHJvcHMgewogIC8qKiBQcmUtZmlsbHMgdGhlIG5hbWUgZmllbGQgd2l0aCB3aGF0ZXZlciB0aGUgbWVtYmVyIGFscmVhZHkgdHlwZWQuICovCiAgaW5pdGlhbE5hbWU/OiBzdHJpbmc7CiAgLyoqIEZpcmVkIHdpdGggdGhlIG5ld2x5IGNyZWF0ZWQgY2F0YWxvZyBlbnRyeSBzbyB0aGUgY2FsbGVyIGNhbiBzZWxlY3QgaXQuICovCiAgb25DcmVhdGVkPzogKHBlYWs6IENhdGFsb2dQZWFrKSA9PiB2b2lkOwogIGNsYXNzTmFtZT86IHN0cmluZzsKfQoKaW50ZXJmYWNlIEZvcm1TdGF0ZSB7CiAgbmFtZTogc3RyaW5nOwogIGNvdW50cnk6IHN0cmluZzsKICBhZG1pbjE6IHN0cmluZzsKICBlbGV2YXRpb246IHN0cmluZzsKICBwcm9taW5lbmNlOiBzdHJpbmc7CiAgbGF0OiBzdHJpbmc7CiAgbG9uOiBzdHJpbmc7CiAgZmlyc3RBc2NlbnREYXRlOiBzdHJpbmc7CiAgZmlyc3RBc2NlbnRCeTogc3RyaW5nOwogIG5vdGVzOiBzdHJpbmc7CiAgcGVha2JhZ2dlcklkOiBzdHJpbmc7Cn0KCmNvbnN0IEVNUFRZOiBGb3JtU3RhdGUgPSB7CiAgbmFtZTogIiIsCiAgY291bnRyeTogIiIsCiAgYWRtaW4xOiAiIiwKICBlbGV2YXRpb246ICIiLAogIHByb21pbmVuY2U6ICIiLAogIGxhdDogIiIsCiAgbG9uOiAiIiwKICBmaXJzdEFzY2VudERhdGU6ICIiLAogIGZpcnN0QXNjZW50Qnk6ICIiLAogIG5vdGVzOiAiIiwKICBwZWFrYmFnZ2VySWQ6ICIiLAp9OwoKY29uc3QgbnVtT3JOdWxsID0gKHY6IHN0cmluZyk6IG51bWJlciB8IG51bGwgPT4gewogIGNvbnN0IG4gPSBOdW1iZXIodi5yZXBsYWNlKCIsIiwgIi4iKS50cmltKCkpOwogIHJldHVybiB2LnRyaW0oKSA9PT0gIiIgfHwgIU51bWJlci5pc0Zpbml0ZShuKSA/IG51bGwgOiBuOwp9OwoKLyoqCiAqICJDYW4ndCBmaW5kIGEgcGVhaz8iIGVzY2FwZSBoYXRjaDogbWVtYmVycyBhZGQgdGhlIG1pc3Npbmcgc3VtbWl0IG9yIHBsYWNlCiAqIHN0cmFpZ2h0IGludG8gdGhlIHNoYXJlZCB3b3JsZCBjYXRhbG9nLCBvcHRpb25hbGx5IHB1bGxpbmcgdGhlIGZhY3RzIGZyb20KICogUGVha2JhZ2dlciBmaXJzdC4KICovCmNvbnN0IEFkZFBlYWtEaWFsb2cgPSAoeyBpbml0aWFsTmFtZSA9ICIiLCBvbkNyZWF0ZWQsIGNsYXNzTmFtZSB9OiBQcm9wcykgPT4gewogIGNvbnN0IHsgdXNlciB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IFtvcGVuLCBzZXRPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbZm9ybSwgc2V0Rm9ybV0gPSB1c2VTdGF0ZTxGb3JtU3RhdGU+KHsgLi4uRU1QVFksIG5hbWU6IGluaXRpYWxOYW1lIH0pOwogIGNvbnN0IFtwdWxsaW5nLCBzZXRQdWxsaW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbc2F2aW5nLCBzZXRTYXZpbmddID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IGxvb2t1cCA9IHVzZVNlcnZlckZuKGxvb2t1cFBlYWtiYWdnZXJQZWFrKTsKCiAgY29uc3Qgc2V0ID0gKGs6IGtleW9mIEZvcm1TdGF0ZSwgdjogc3RyaW5nKSA9PiBzZXRGb3JtKChmKSA9PiAoeyAuLi5mLCBba106IHYgfSkpOwoKICBjb25zdCBwdWxsRnJvbVBlYWtiYWdnZXIgPSBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBxdWVyeSA9IGZvcm0ucGVha2JhZ2dlcklkLnRyaW0oKSB8fCBmb3JtLm5hbWUudHJpbSgpOwogICAgaWYgKHF1ZXJ5Lmxlbmd0aCA8IDIpIHsKICAgICAgdG9hc3QuZXJyb3IoIlR5cGUgYSBwZWFrIG5hbWUgb3IgcGFzdGUgYSBQZWFrYmFnZ2VyIGxpbmsgZmlyc3QuIik7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHNldFB1bGxpbmcodHJ1ZSk7CiAgICB0cnkgewogICAgICBjb25zdCBpbmZvID0gYXdhaXQgbG9va3VwKHsgZGF0YTogeyBxdWVyeSB9IH0pOwogICAgICBpZiAoaW5mby5ibG9ja2VkKSB7CiAgICAgICAgdG9hc3QuZXJyb3IoIlBlYWtiYWdnZXIgYmxvY2tlZCB0aGUgcmVxdWVzdCDigJQgZmlsbCB0aGUgZGV0YWlscyBpbiBieSBoYW5kLiIpOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBpZiAoIWluZm8uZm91bmQpIHsKICAgICAgICB0b2FzdC5lcnJvcihpbmZvLmVycm9yID8/ICJOb3RoaW5nIGZvdW5kIG9uIFBlYWtiYWdnZXIuIik7CiAgICAgICAgcmV0dXJuOwogICAgICB9CiAgICAgIHNldEZvcm0oKGYpID0+ICh7CiAgICAgICAgLi4uZiwKICAgICAgICBuYW1lOiBmLm5hbWUudHJpbSgpIHx8IGluZm8ubmFtZSB8fCAiIiwKICAgICAgICBjb3VudHJ5OiBmLmNvdW50cnkudHJpbSgpIHx8IChpbmZvLmNvdW50cnlDb2RlID8/ICIiKSwKICAgICAgICBhZG1pbjE6IGYuYWRtaW4xLnRyaW0oKSB8fCAoaW5mby5hZG1pbjEgPz8gIiIpLAogICAgICAgIGVsZXZhdGlvbjogZi5lbGV2YXRpb24udHJpbSgpIHx8IChpbmZvLmVsZXZhdGlvbiAhPSBudWxsID8gU3RyaW5nKGluZm8uZWxldmF0aW9uKSA6ICIiKSwKICAgICAgICBwcm9taW5lbmNlOiBmLnByb21pbmVuY2UudHJpbSgpIHx8IChpbmZvLnByb21pbmVuY2UgIT0gbnVsbCA/IFN0cmluZyhpbmZvLnByb21pbmVuY2UpIDogIiIpLAogICAgICAgIGxhdDogZi5sYXQudHJpbSgpIHx8IChpbmZvLmxhdCAhPSBudWxsID8gU3RyaW5nKGluZm8ubGF0KSA6ICIiKSwKICAgICAgICBsb246IGYubG9uLnRyaW0oKSB8fCAoaW5mby5sb24gIT0gbnVsbCA/IFN0cmluZyhpbmZvLmxvbikgOiAiIiksCiAgICAgICAgZmlyc3RBc2NlbnREYXRlOiBmLmZpcnN0QXNjZW50RGF0ZS50cmltKCkgfHwgKGluZm8uZmlyc3RBc2NlbnREYXRlID8/ICIiKSwKICAgICAgICBmaXJzdEFzY2VudEJ5OiBmLmZpcnN0QXNjZW50QnkudHJpbSgpIHx8IChpbmZvLmZpcnN0QXNjZW50QnkgPz8gIiIpLAogICAgICAgIHBlYWtiYWdnZXJJZDogaW5mby5waWQgPz8gZi5wZWFrYmFnZ2VySWQsCiAgICAgIH0pKTsKICAgICAgdG9hc3Quc3VjY2VzcygiUHVsbGVkIHdoYXQgUGVha2JhZ2dlciBoYXMg4oCUIGNoZWNrIGl0IGJlZm9yZSBzYXZpbmcuIik7CiAgICB9IGNhdGNoIHsKICAgICAgdG9hc3QuZXJyb3IoIkNvdWxkIG5vdCByZWFjaCBQZWFrYmFnZ2VyIHJpZ2h0IG5vdy4iKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldFB1bGxpbmcoZmFsc2UpOwogICAgfQogIH07CgogIGNvbnN0IHNhdmUgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoIXVzZXIpIHsKICAgICAgdG9hc3QuZXJyb3IoIlNpZ24gaW4gdG8gYWRkIGEgcGVhay4iKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgY29uc3QgbmFtZSA9IGZvcm0ubmFtZS50cmltKCk7CiAgICBpZiAobmFtZS5sZW5ndGggPCAyKSB7CiAgICAgIHRvYXN0LmVycm9yKCJHaXZlIHRoZSBwZWFrIGEgbmFtZS4iKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgY29uc3QgbGF0ID0gbnVtT3JOdWxsKGZvcm0ubGF0KTsKICAgIGNvbnN0IGxvbiA9IG51bU9yTnVsbChmb3JtLmxvbik7CiAgICBpZiAobGF0ICE9PSBudWxsICYmIChsYXQgPCAtOTAgfHwgbGF0ID4gOTApKSB7CiAgICAgIHRvYXN0LmVycm9yKCJMYXRpdHVkZSBtdXN0IGJlIGJldHdlZW4gLTkwIGFuZCA5MC4iKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKGxvbiAhPT0gbnVsbCAmJiAobG9uIDwgLTE4MCB8fCBsb24gPiAxODApKSB7CiAgICAgIHRvYXN0LmVycm9yKCJMb25naXR1ZGUgbXVzdCBiZSBiZXR3ZWVuIC0xODAgYW5kIDE4MC4iKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgY29uc3QgZWxldmF0aW9uID0gbnVtT3JOdWxsKGZvcm0uZWxldmF0aW9uKTsKICAgIGlmIChlbGV2YXRpb24gIT09IG51bGwgJiYgKGVsZXZhdGlvbiA8IC01MDAgfHwgZWxldmF0aW9uID4gODkwMCkpIHsKICAgICAgdG9hc3QuZXJyb3IoIlRoYXQgZWxldmF0aW9uIChpbiBtZXRyZXMpIGxvb2tzIHdyb25nLiIpOwogICAgICByZXR1cm47CiAgICB9CgogICAgc2V0U2F2aW5nKHRydWUpOwogICAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgLmZyb20oIndvcmxkX3BlYWtzIikKICAgICAgLmluc2VydCh7CiAgICAgICAgbmFtZSwKICAgICAgICBjb3VudHJ5X2NvZGU6IGZvcm0uY291bnRyeS50cmltKCkgPyBmb3JtLmNvdW50cnkudHJpbSgpLnNsaWNlKDAsIDIpLnRvVXBwZXJDYXNlKCkgOiBudWxsLAogICAgICAgIGFkbWluMTogZm9ybS5hZG1pbjEudHJpbSgpLnNsaWNlKDAsIDQwKSB8fCBudWxsLAogICAgICAgIGVsZXZhdGlvbjogZWxldmF0aW9uID09PSBudWxsID8gbnVsbCA6IE1hdGgucm91bmQoZWxldmF0aW9uKSwKICAgICAgICBwcm9taW5lbmNlOiAoKCkgPT4gewogICAgICAgICAgY29uc3QgcCA9IG51bU9yTnVsbChmb3JtLnByb21pbmVuY2UpOwogICAgICAgICAgcmV0dXJuIHAgPT09IG51bGwgfHwgcCA8IDAgfHwgcCA+IDg5MDAgPyBudWxsIDogTWF0aC5yb3VuZChwKTsKICAgICAgICB9KSgpLAogICAgICAgIGxhdCwKICAgICAgICBsb24sCiAgICAgICAgZmVhdHVyZV9jb2RlOiAiUEsiLAogICAgICAgIHNvdXJjZTogIm1lbWJlciIsCiAgICAgICAgYWRkZWRfYnk6IHVzZXIuaWQsCiAgICAgICAgZmlyc3RfYXNjZW50X2RhdGU6IGZvcm0uZmlyc3RBc2NlbnREYXRlLnRyaW0oKS5zbGljZSgwLCA0MCkgfHwgbnVsbCwKICAgICAgICBmaXJzdF9hc2NlbnRfYnk6IGZvcm0uZmlyc3RBc2NlbnRCeS50cmltKCkuc2xpY2UoMCwgMTYwKSB8fCBudWxsLAogICAgICAgIG5vdGVzOiBmb3JtLm5vdGVzLnRyaW0oKS5zbGljZSgwLCA4MDApIHx8IG51bGwsCiAgICAgICAgcGVha2JhZ2dlcl9pZDogZm9ybS5wZWFrYmFnZ2VySWQudHJpbSgpLnNsaWNlKDAsIDIwKSB8fCBudWxsLAogICAgICB9KQogICAgICAuc2VsZWN0KCJpZCwgbmFtZSwgZWxldmF0aW9uLCBjb3VudHJ5X2NvZGUsIHByb21pbmVuY2UiKQogICAgICAuc2luZ2xlKCk7CiAgICBzZXRTYXZpbmcoZmFsc2UpOwoKICAgIGlmIChlcnJvcikgewogICAgICB0b2FzdC5lcnJvcigKICAgICAgICBlcnJvci5jb2RlID09PSAiMjM1MDUiID8gIlRoYXQgcGVhayBpcyBhbHJlYWR5IGluIHRoZSBkYXRhYmFzZS4iIDogZXJyb3IubWVzc2FnZSwKICAgICAgKTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIHRvYXN0LnN1Y2Nlc3MoYCR7ZGF0YS5uYW1lfSBhZGRlZCB0byB0aGUgZGF0YWJhc2UuYCk7CiAgICBvbkNyZWF0ZWQ/Lih7CiAgICAgIGtleTogYHdwOiR7U3RyaW5nKGRhdGEuaWQpfWAsCiAgICAgIG5hbWU6IGRhdGEubmFtZSwKICAgICAgZWxldmF0aW9uOiBkYXRhLmVsZXZhdGlvbiA/IGAke2RhdGEuZWxldmF0aW9ufSBtYCA6ICLigJQiLAogICAgICBjb3VudHJ5OiBkYXRhLmNvdW50cnlfY29kZSA/PyAiIiwKICAgICAgdHlwZTogImZhbW91c19wZWFrIiwKICAgICAgZ3JvdXA6ICJXb3JsZCBwZWFrcyIsCiAgICAgIGVsZXZhdGlvbk06IGRhdGEuZWxldmF0aW9uID8/IG51bGwsCiAgICAgIHByb21pbmVuY2VNOiBkYXRhLnByb21pbmVuY2UgPz8gbnVsbCwKICAgIH0pOwogICAgc2V0Rm9ybSh7IC4uLkVNUFRZIH0pOwogICAgc2V0T3BlbihmYWxzZSk7CiAgfTsKCiAgcmV0dXJuICgKICAgIDxEaWFsb2cgb3Blbj17b3Blbn0gb25PcGVuQ2hhbmdlPXtzZXRPcGVufT4KICAgICAgPERpYWxvZ1RyaWdnZXIgYXNDaGlsZD4KICAgICAgICA8YnV0dG9uCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICBjbGFzc05hbWU9ewogICAgICAgICAgICBjbGFzc05hbWUgPz8KICAgICAgICAgICAgImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSB0ZXh0LXhzIHRleHQtcHJpbWFyeSBob3Zlcjp1bmRlcmxpbmUiCiAgICAgICAgICB9CiAgICAgICAgPgogICAgICAgICAgPFBsdXMgY2xhc3NOYW1lPSJ3LTMgaC0zIiAvPiBDYW4ndCBmaW5kIGEgcGVhayBvciBwbGFjZT8gQWRkIHlvdXIgb3duCiAgICAgICAgPC9idXR0b24+CiAgICAgIDwvRGlhbG9nVHJpZ2dlcj4KICAgICAgPERpYWxvZ0NvbnRlbnQgY2xhc3NOYW1lPSJtYXgtaC1bODV2aF0gb3ZlcmZsb3cteS1hdXRvIHNtOm1heC13LWxnIj4KICAgICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgICAgPERpYWxvZ1RpdGxlIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGVyIj5BZGQgYSBwZWFrIG9yIHBsYWNlPC9EaWFsb2dUaXRsZT4KICAgICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgICAgSXQgZ29lcyBzdHJhaWdodCBpbnRvIHRoZSBzaGFyZWQgd29ybGQgZGF0YWJhc2Ugc28gZXZlcnlvbmUgY2FuIGxvZyBpdC4gUHVsbCB0aGUKICAgICAgICAgICAgZGV0YWlscyBmcm9tIFBlYWtiYWdnZXIsIHRoZW4gY2hlY2sgdGhlbSBiZWZvcmUgc2F2aW5nLgogICAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICA8L0RpYWxvZ0hlYWRlcj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMyI+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0iYXAtbmFtZSI+TmFtZTwvTGFiZWw+CiAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgIGlkPSJhcC1uYW1lIgogICAgICAgICAgICAgIHZhbHVlPXtmb3JtLm5hbWV9CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXQoIm5hbWUiLCBlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgbWF4TGVuZ3RoPXsxNjB9CiAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IkJhYmlhIEfDs3JhIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgcC0zIHNwYWNlLXktMiI+CiAgICAgICAgICAgIDxMYWJlbCBodG1sRm9yPSJhcC1wYiI+UGVha2JhZ2dlciBsaW5rIG9yIHBlYWsgSUQgKG9wdGlvbmFsKTwvTGFiZWw+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0yIj4KICAgICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICAgIGlkPSJhcC1wYiIKICAgICAgICAgICAgICAgIHZhbHVlPXtmb3JtLnBlYWtiYWdnZXJJZH0KICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0KCJwZWFrYmFnZ2VySWQiLCBlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iaHR0cHM6Ly9wZWFrYmFnZ2VyLmNvbS9wZWFrLmFzcHg/cGlkPTExNDIzIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPEJ1dHRvbiB0eXBlPSJidXR0b24iIHZhcmlhbnQ9InNlY29uZGFyeSIgb25DbGljaz17cHVsbEZyb21QZWFrYmFnZ2VyfSBkaXNhYmxlZD17cHVsbGluZ30+CiAgICAgICAgICAgICAgICB7cHVsbGluZyA/IDxMb2FkZXIyIGNsYXNzTmFtZT0idy00IGgtNCBhbmltYXRlLXNwaW4iIC8+IDogPERvd25sb2FkIGNsYXNzTmFtZT0idy00IGgtNCIgLz59CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1sLTEgaGlkZGVuIHNtOmlubGluZSI+UHVsbCBpbmZvPC9zcGFuPgogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgTGVhdmUgaXQgYmxhbmsgdG8gc2VhcmNoIFBlYWtiYWdnZXIgYnkgdGhlIG5hbWUgYWJvdmUuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIGdhcC0zIj4KICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0iYXAtY291bnRyeSI+Q291bnRyeSBjb2RlPC9MYWJlbD4KICAgICAgICAgICAgICA8SW5wdXQgaWQ9ImFwLWNvdW50cnkiIHZhbHVlPXtmb3JtLmNvdW50cnl9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0KCJjb3VudHJ5IiwgZS50YXJnZXQudmFsdWUpfSBwbGFjZWhvbGRlcj0iUEwiIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgIDxMYWJlbCBodG1sRm9yPSJhcC1hZG1pbjEiPlJlZ2lvbjwvTGFiZWw+CiAgICAgICAgICAgICAgPElucHV0IGlkPSJhcC1hZG1pbjEiIHZhbHVlPXtmb3JtLmFkbWluMX0gb25DaGFuZ2U9eyhlKSA9PiBzZXQoImFkbWluMSIsIGUudGFyZ2V0LnZhbHVlKX0gcGxhY2Vob2xkZXI9Ikxlc3NlciBQb2xhbmQiIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgIDxMYWJlbCBodG1sRm9yPSJhcC1lbGV2Ij5FbGV2YXRpb24gKG0pPC9MYWJlbD4KICAgICAgICAgICAgICA8SW5wdXQgaWQ9ImFwLWVsZXYiIGlucHV0TW9kZT0iZGVjaW1hbCIgdmFsdWU9e2Zvcm0uZWxldmF0aW9ufSBvbkNoYW5nZT17KGUpID0+IHNldCgiZWxldmF0aW9uIiwgZS50YXJnZXQudmFsdWUpfSBwbGFjZWhvbGRlcj0iMTcyNSIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgPExhYmVsIGh0bWxGb3I9ImFwLXByb20iPlByb21pbmVuY2UgKG0pPC9MYWJlbD4KICAgICAgICAgICAgICA8SW5wdXQgaWQ9ImFwLXByb20iIGlucHV0TW9kZT0iZGVjaW1hbCIgdmFsdWU9e2Zvcm0ucHJvbWluZW5jZX0gb25DaGFuZ2U9eyhlKSA9PiBzZXQoInByb21pbmVuY2UiLCBlLnRhcmdldC52YWx1ZSl9IHBsYWNlaG9sZGVyPSIxMDEzIiAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0iYXAtbGF0Ij5MYXRpdHVkZTwvTGFiZWw+CiAgICAgICAgICAgICAgPElucHV0IGlkPSJhcC1sYXQiIGlucHV0TW9kZT0iZGVjaW1hbCIgdmFsdWU9e2Zvcm0ubGF0fSBvbkNoYW5nZT17KGUpID0+IHNldCgibGF0IiwgZS50YXJnZXQudmFsdWUpfSBwbGFjZWhvbGRlcj0iNDkuNTczMiIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgPExhYmVsIGh0bWxGb3I9ImFwLWxvbiI+TG9uZ2l0dWRlPC9MYWJlbD4KICAgICAgICAgICAgICA8SW5wdXQgaWQ9ImFwLWxvbiIgaW5wdXRNb2RlPSJkZWNpbWFsIiB2YWx1ZT17Zm9ybS5sb259IG9uQ2hhbmdlPXsoZSkgPT4gc2V0KCJsb24iLCBlLnRhcmdldC52YWx1ZSl9IHBsYWNlaG9sZGVyPSIxOS41Mjk2IiAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0iYXAtZmFkIj5GaXJzdCBhc2NlbnQgKGRhdGUgb3IgeWVhcik8L0xhYmVsPgogICAgICAgICAgICAgIDxJbnB1dCBpZD0iYXAtZmFkIiB2YWx1ZT17Zm9ybS5maXJzdEFzY2VudERhdGV9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0KCJmaXJzdEFzY2VudERhdGUiLCBlLnRhcmdldC52YWx1ZSl9IHBsYWNlaG9sZGVyPSIxNzgyIiAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0iYXAtZmFiIj5GaXJzdCBhc2NlbnQgYnk8L0xhYmVsPgogICAgICAgICAgICAgIDxJbnB1dCBpZD0iYXAtZmFiIiB2YWx1ZT17Zm9ybS5maXJzdEFzY2VudEJ5fSBvbkNoYW5nZT17KGUpID0+IHNldCgiZmlyc3RBc2NlbnRCeSIsIGUudGFyZ2V0LnZhbHVlKX0gcGxhY2Vob2xkZXI9Ik5hbWUocykiIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPExhYmVsIGh0bWxGb3I9ImFwLW5vdGVzIj5Ob3RlcyAob3B0aW9uYWwpPC9MYWJlbD4KICAgICAgICAgICAgPFRleHRhcmVhCiAgICAgICAgICAgICAgaWQ9ImFwLW5vdGVzIgogICAgICAgICAgICAgIHZhbHVlPXtmb3JtLm5vdGVzfQogICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0KCJub3RlcyIsIGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICBtYXhMZW5ndGg9ezgwMH0KICAgICAgICAgICAgICByb3dzPXszfQogICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJBY2Nlc3MsIHJvdXRlcywgcGVybWl0cywgc291cmNlc+KApiIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxCdXR0b24gdHlwZT0iYnV0dG9uIiBvbkNsaWNrPXtzYXZlfSBkaXNhYmxlZD17c2F2aW5nfSBjbGFzc05hbWU9InctZnVsbCI+CiAgICAgICAgICAgIHtzYXZpbmcgPyA8TG9hZGVyMiBjbGFzc05hbWU9InctNCBoLTQgYW5pbWF0ZS1zcGluIiAvPiA6IDxQbHVzIGNsYXNzTmFtZT0idy00IGgtNCIgLz59CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibWwtMSI+QWRkIHRvIHRoZSBkYXRhYmFzZTwvc3Bhbj4KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgICA8L0RpYWxvZz4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgQWRkUGVha0RpYWxvZzsK
+import { useState } from "react";
+import { Download, Loader2, Plus } from "lucide-react";
+import { toast } from "sonner";
+import { useServerFn } from "@tanstack/react-start";
+
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import { supabase } from "@/integrations/supabase/client";
+import { useAuth } from "@/hooks/useAuth";
+import { lookupPeakbaggerPeak } from "@/lib/peakbagger-peak.functions";
+import type { CatalogPeak } from "@/lib/peak-catalog";
+
+interface Props {
+  /** Pre-fills the name field with whatever the member already typed. */
+  initialName?: string;
+  /** Fired with the newly created catalog entry so the caller can select it. */
+  onCreated?: (peak: CatalogPeak) => void;
+  className?: string;
+}
+
+interface FormState {
+  name: string;
+  country: string;
+  admin1: string;
+  elevation: string;
+  prominence: string;
+  lat: string;
+  lon: string;
+  firstAscentDate: string;
+  firstAscentBy: string;
+  notes: string;
+  peakbaggerId: string;
+}
+
+const EMPTY: FormState = {
+  name: "",
+  country: "",
+  admin1: "",
+  elevation: "",
+  prominence: "",
+  lat: "",
+  lon: "",
+  firstAscentDate: "",
+  firstAscentBy: "",
+  notes: "",
+  peakbaggerId: "",
+};
+
+const numOrNull = (v: string): number | null => {
+  const n = Number(v.replace(",", ".").trim());
+  return v.trim() === "" || !Number.isFinite(n) ? null : n;
+};
+
+/**
+ * "Can't find a peak?" escape hatch: members add the missing summit or place
+ * straight into the shared world catalog, optionally pulling the facts from
+ * Peakbagger first.
+ */
+const AddPeakDialog = ({ initialName = "", onCreated, className }: Props) => {
+  const { user } = useAuth();
+  const [open, setOpen] = useState(false);
+  const [form, setForm] = useState<FormState>({ ...EMPTY, name: initialName });
+  const [pulling, setPulling] = useState(false);
+  const [saving, setSaving] = useState(false);
+  const lookup = useServerFn(lookupPeakbaggerPeak);
+
+  const set = (k: keyof FormState, v: string) => setForm((f) => ({ ...f, [k]: v }));
+
+  const pullFromPeakbagger = async () => {
+    const query = form.peakbaggerId.trim() || form.name.trim();
+    if (query.length < 2) {
+      toast.error("Type a peak name or paste a Peakbagger link first.");
+      return;
+    }
+    setPulling(true);
+    try {
+      const info = await lookup({ data: { query } });
+      if (info.blocked) {
+        toast.error("Peakbagger blocked the request — fill the details in by hand.");
+        return;
+      }
+      if (!info.found) {
+        toast.error(info.error ?? "Nothing found on Peakbagger.");
+        return;
+      }
+      setForm((f) => ({
+        ...f,
+        name: f.name.trim() || info.name || "",
+        country: f.country.trim() || (info.countryCode ?? ""),
+        admin1: f.admin1.trim() || (info.admin1 ?? ""),
+        elevation: f.elevation.trim() || (info.elevation != null ? String(info.elevation) : ""),
+        prominence: f.prominence.trim() || (info.prominence != null ? String(info.prominence) : ""),
+        lat: f.lat.trim() || (info.lat != null ? String(info.lat) : ""),
+        lon: f.lon.trim() || (info.lon != null ? String(info.lon) : ""),
+        firstAscentDate: f.firstAscentDate.trim() || (info.firstAscentDate ?? ""),
+        firstAscentBy: f.firstAscentBy.trim() || (info.firstAscentBy ?? ""),
+        peakbaggerId: info.pid ?? f.peakbaggerId,
+      }));
+      toast.success("Pulled what Peakbagger has — check it before saving.");
+    } catch {
+      toast.error("Could not reach Peakbagger right now.");
+    } finally {
+      setPulling(false);
+    }
+  };
+
+  const save = async () => {
+    if (!user) {
+      toast.error("Sign in to add a peak.");
+      return;
+    }
+    const name = form.name.trim();
+    if (name.length < 2) {
+      toast.error("Give the peak a name.");
+      return;
+    }
+    const lat = numOrNull(form.lat);
+    const lon = numOrNull(form.lon);
+    if (lat !== null && (lat < -90 || lat > 90)) {
+      toast.error("Latitude must be between -90 and 90.");
+      return;
+    }
+    if (lon !== null && (lon < -180 || lon > 180)) {
+      toast.error("Longitude must be between -180 and 180.");
+      return;
+    }
+    const elevation = numOrNull(form.elevation);
+    if (elevation !== null && (elevation < -500 || elevation > 8900)) {
+      toast.error("That elevation (in metres) looks wrong.");
+      return;
+    }
+
+    setSaving(true);
+    const { data, error } = await supabase
+      .from("world_peaks")
+      .insert({
+        name,
+        country_code: form.country.trim() ? form.country.trim().slice(0, 2).toUpperCase() : null,
+        admin1: form.admin1.trim().slice(0, 40) || null,
+        elevation: elevation === null ? null : Math.round(elevation),
+        prominence: (() => {
+          const p = numOrNull(form.prominence);
+          return p === null || p < 0 || p > 8900 ? null : Math.round(p);
+        })(),
+        lat,
+        lon,
+        feature_code: "PK",
+        source: "member",
+        added_by: user.id,
+        first_ascent_date: form.firstAscentDate.trim().slice(0, 40) || null,
+        first_ascent_by: form.firstAscentBy.trim().slice(0, 160) || null,
+        notes: form.notes.trim().slice(0, 800) || null,
+        peakbagger_id: form.peakbaggerId.trim().slice(0, 20) || null,
+      })
+      .select("id, name, elevation, country_code, prominence")
+      .single();
+    setSaving(false);
+
+    if (error) {
+      toast.error(
+        error.code === "23505" ? "That peak is already in the database." : error.message,
+      );
+      return;
+    }
+
+    toast.success(`${data.name} added to the database.`);
+    onCreated?.({
+      key: `wp:${String(data.id)}`,
+      name: data.name,
+      elevation: data.elevation ? `${data.elevation} m` : "—",
+      country: data.country_code ?? "",
+      type: "famous_peak",
+      group: "World peaks",
+      elevationM: data.elevation ?? null,
+      prominenceM: data.prominence ?? null,
+    });
+    setForm({ ...EMPTY });
+    setOpen(false);
+  };
+
+  return (
+    <Dialog open={open} onOpenChange={setOpen}>
+      <DialogTrigger asChild>
+        <button
+          type="button"
+          className={
+            className ??
+            "inline-flex items-center gap-1 text-xs text-primary hover:underline"
+          }
+        >
+          <Plus className="w-3 h-3" /> Can't find a peak or place? Add your own
+        </button>
+      </DialogTrigger>
+      <DialogContent className="max-h-[85vh] overflow-y-auto sm:max-w-lg">
+        <DialogHeader>
+          <DialogTitle className="font-display tracking-wider">Add a peak or place</DialogTitle>
+          <DialogDescription>
+            It goes straight into the shared world database so everyone can log it. Pull the
+            details from Peakbagger, then check them before saving.
+          </DialogDescription>
+        </DialogHeader>
+
+        <div className="space-y-3">
+          <div>
+            <Label htmlFor="ap-name">Name</Label>
+            <Input
+              id="ap-name"
+              value={form.name}
+              onChange={(e) => set("name", e.target.value)}
+              maxLength={160}
+              placeholder="Babia Góra"
+            />
+          </div>
+
+          <div className="rounded-md border border-border p-3 space-y-2">
+            <Label htmlFor="ap-pb">Peakbagger link or peak ID (optional)</Label>
+            <div className="flex gap-2">
+              <Input
+                id="ap-pb"
+                value={form.peakbaggerId}
+                onChange={(e) => set("peakbaggerId", e.target.value)}
+                placeholder="https://peakbagger.com/peak.aspx?pid=11423"
+              />
+              <Button type="button" variant="secondary" onClick={pullFromPeakbagger} disabled={pulling}>
+                {pulling ? <Loader2 className="w-4 h-4 animate-spin" /> : <Download className="w-4 h-4" />}
+                <span className="ml-1 hidden sm:inline">Pull info</span>
+              </Button>
+            </div>
+            <p className="text-xs text-muted-foreground">
+              Leave it blank to search Peakbagger by the name above.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 gap-3">
+            <div>
+              <Label htmlFor="ap-country">Country code</Label>
+              <Input id="ap-country" value={form.country} onChange={(e) => set("country", e.target.value)} placeholder="PL" />
+            </div>
+            <div>
+              <Label htmlFor="ap-admin1">Region</Label>
+              <Input id="ap-admin1" value={form.admin1} onChange={(e) => set("admin1", e.target.value)} placeholder="Lesser Poland" />
+            </div>
+            <div>
+              <Label htmlFor="ap-elev">Elevation (m)</Label>
+              <Input id="ap-elev" inputMode="decimal" value={form.elevation} onChange={(e) => set("elevation", e.target.value)} placeholder="1725" />
+            </div>
+            <div>
+              <Label htmlFor="ap-prom">Prominence (m)</Label>
+              <Input id="ap-prom" inputMode="decimal" value={form.prominence} onChange={(e) => set("prominence", e.target.value)} placeholder="1013" />
+            </div>
+            <div>
+              <Label htmlFor="ap-lat">Latitude</Label>
+              <Input id="ap-lat" inputMode="decimal" value={form.lat} onChange={(e) => set("lat", e.target.value)} placeholder="49.5732" />
+            </div>
+            <div>
+              <Label htmlFor="ap-lon">Longitude</Label>
+              <Input id="ap-lon" inputMode="decimal" value={form.lon} onChange={(e) => set("lon", e.target.value)} placeholder="19.5296" />
+            </div>
+            <div>
+              <Label htmlFor="ap-fad">First ascent (date or year)</Label>
+              <Input id="ap-fad" value={form.firstAscentDate} onChange={(e) => set("firstAscentDate", e.target.value)} placeholder="1782" />
+            </div>
+            <div>
+              <Label htmlFor="ap-fab">First ascent by</Label>
+              <Input id="ap-fab" value={form.firstAscentBy} onChange={(e) => set("firstAscentBy", e.target.value)} placeholder="Name(s)" />
+            </div>
+          </div>
+
+          <div>
+            <Label htmlFor="ap-notes">Notes (optional)</Label>
+            <Textarea
+              id="ap-notes"
+              value={form.notes}
+              onChange={(e) => set("notes", e.target.value)}
+              maxLength={800}
+              rows={3}
+              placeholder="Access, routes, permits, sources…"
+            />
+          </div>
+
+          <Button type="button" onClick={save} disabled={saving} className="w-full">
+            {saving ? <Loader2 className="w-4 h-4 animate-spin" /> : <Plus className="w-4 h-4" />}
+            <span className="ml-1">Add to the database</span>
+          </Button>
+        </div>
+      </DialogContent>
+    </Dialog>
+  );
+};
+
+export default AddPeakDialog;

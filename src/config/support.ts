@@ -1,1 +1,27 @@
-LyoqCiAqIFdoZXJlICJTdXBwb3J0IHRoZSBleHBlZGl0aW9uIiBidXR0b25zIHBvaW50LgogKgogKiBHb29nbGUgUGxheSBwb2xpY3kgbm90ZTogZG9uYXRpb25zIHRvIGFuIGluZGl2aWR1YWwvY3JlYXRvciBtYXkgYmUgdGFrZW4KICogb3V0c2lkZSBHb29nbGUgUGxheSBCaWxsaW5nLCBidXQgc2VsbGluZyBkaWdpdGFsIGdvb2RzIG9yIG1lbWJlcnNoaXBzCiAqIGluc2lkZSB0aGUgQW5kcm9pZCBhcHAgbXVzdCB1c2UgUGxheSBCaWxsaW5nLiBLZWVwIHRoZXNlIGxpbmtzIGRvbmF0aW9uLW9ubHkuCiAqLwpleHBvcnQgY29uc3QgU1VQUE9SVF9MSU5LUyA9IFsKICB7CiAgICBpZDogImJ1eW1lYWNvZmZlZSIsCiAgICBsYWJlbDogIkJ1eSBtZSBhIGNvZmZlZSIsCiAgICBkZXNjcmlwdGlvbjogIk9uZS1vZmYgdGlwIOKAlCBmdWVsLCBmZXJyaWVzLCBhbmQgbW91bnRhaW4gaHV0IG5pZ2h0cy4iLAogICAgdXJsOiAiaHR0cHM6Ly9idXltZWFjb2ZmZWUuY29tL29uc2lnaHRtYXJ0aW4iLAogIH0sCiAgewogICAgaWQ6ICJwYXlwYWwiLAogICAgbGFiZWw6ICJQYXlQYWwiLAogICAgZGVzY3JpcHRpb246ICJTZW5kIGFueSBhbW91bnQgZGlyZWN0bHkuIiwKICAgIHVybDogImh0dHBzOi8vd3d3LnBheXBhbC5tZS9vbnNpZ2h0bWFydGluIiwKICB9LAogIHsKICAgIGlkOiAieW91dHViZSIsCiAgICBsYWJlbDogIlN1YnNjcmliZSBvbiBZb3VUdWJlIiwKICAgIGRlc2NyaXB0aW9uOiAiRnJlZSB3YXkgdG8gaGVscCDigJQgZXZlcnkgdmlldyBzdXBwb3J0cyB0aGUgcHJvamVjdC4iLAogICAgdXJsOiAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQG9uc2lnaHRtYXJ0aW4iLAogIH0sCl0gYXMgY29uc3Q7Cg==
+/**
+ * Where "Support the expedition" buttons point.
+ *
+ * Google Play policy note: donations to an individual/creator may be taken
+ * outside Google Play Billing, but selling digital goods or memberships
+ * inside the Android app must use Play Billing. Keep these links donation-only.
+ */
+export const SUPPORT_LINKS = [
+  {
+    id: "buymeacoffee",
+    label: "Buy me a coffee",
+    description: "One-off tip — fuel, ferries, and mountain hut nights.",
+    url: "https://buymeacoffee.com/onsightmartin",
+  },
+  {
+    id: "paypal",
+    label: "PayPal",
+    description: "Send any amount directly.",
+    url: "https://www.paypal.me/onsightmartin",
+  },
+  {
+    id: "youtube",
+    label: "Subscribe on YouTube",
+    description: "Free way to help — every view supports the project.",
+    url: "https://www.youtube.com/@onsightmartin",
+  },
+] as const;

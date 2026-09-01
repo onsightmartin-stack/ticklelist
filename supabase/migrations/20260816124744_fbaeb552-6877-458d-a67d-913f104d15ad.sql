@@ -1,1 +1,5 @@
-VVBEQVRFIHB1YmxpYy5hc2NlbnRzIFNFVCBwZWFrX3R5cGU9J2NvdW50cnlfaGlnaHBvaW50JywgcGVha19uYW1lPSdSeXN5JywgY291bnRyeT0nUG9sYW5kJyBXSEVSRSBpZD0nMGUyYTAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwJzsKVVBEQVRFIHB1YmxpYy5hc2NlbnRzIFNFVCBwZWFrX3R5cGU9J2NvdW50cnlfaGlnaHBvaW50JywgcGVha19uYW1lPSdSeXN5JywgY291bnRyeT0nUG9sYW5kJwogIFdIRVJFIHVzZXJfaWQ9JzQxYmRkZTNjLWRhZDktNDY5Ni1iODY0LWJhZDE4NmRkN2E3YScgQU5EIHBlYWtfbmFtZT0nUnlzeSAoTGVzc2VyIFBvbGFuZCknOwpVUERBVEUgcHVibGljLmFzY2VudHMgU0VUIHBlYWtfdHlwZT0nY291bnRyeV9oaWdocG9pbnQnCiAgV0hFUkUgdXNlcl9pZD0nNDFiZGRlM2MtZGFkOS00Njk2LWI4NjQtYmFkMTg2ZGQ3YTdhJyBBTkQgcGVha19uYW1lPSdCZW4gTmV2aXMnIEFORCBjb3VudHJ5PSdVbml0ZWQgS2luZ2RvbSc7
+UPDATE public.ascents SET peak_type='country_highpoint', peak_name='Rysy', country='Poland' WHERE id='0e2a0000-0000-0000-0000-000000000000';
+UPDATE public.ascents SET peak_type='country_highpoint', peak_name='Rysy', country='Poland'
+  WHERE user_id='41bdde3c-dad9-4696-b864-bad186dd7a7a' AND peak_name='Rysy (Lesser Poland)';
+UPDATE public.ascents SET peak_type='country_highpoint'
+  WHERE user_id='41bdde3c-dad9-4696-b864-bad186dd7a7a' AND peak_name='Ben Nevis' AND country='United Kingdom';

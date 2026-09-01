@@ -1,1 +1,333 @@
-aW1wb3J0IHR5cGUgeyBMdWNpZGVJY29uIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsKICBBd2FyZCwKICBCYXJDaGFydDMsCiAgQmVsbCwKICBDYW1lcmEsCiAgQ29tcGFzcywKICBIb21lLAogIExpc3RDaGVja3MsCiAgTWFwUGluLAogIE1lc3NhZ2VTcXVhcmUsCiAgTW91bnRhaW4sCiAgUGFsZXR0ZSwKICBTZWFyY2gsCiAgU21hcnRwaG9uZSwKICBTcGFya2xlcywKICBUZW50LAogIFRyb3BoeSwKICBVc2VycywKfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgU2VvIGZyb20gIkAvY29tcG9uZW50cy9TZW8iOwppbXBvcnQgQ29tbXVuaXR5TGF5b3V0IGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvQ29tbXVuaXR5TGF5b3V0IjsKaW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAiQC9ob29rcy91c2VBdXRoIjsKCmludGVyZmFjZSBGZWF0dXJlIHsKICBpY29uOiBMdWNpZGVJY29uOwogIHRpdGxlOiBzdHJpbmc7CiAgdG8/OiBzdHJpbmc7CiAgYm9keTogc3RyaW5nOwogIGhvdzogc3RyaW5nW107Cn0KCmNvbnN0IHNlY3Rpb25zOiB7IGhlYWRpbmc6IHN0cmluZzsgYmx1cmI6IHN0cmluZzsgZmVhdHVyZXM6IEZlYXR1cmVbXSB9W10gPSBbCiAgewogICAgaGVhZGluZzogIlN0YXJ0IGhlcmUiLAogICAgYmx1cmI6ICJUaGUgdGhyZWUgdGhpbmdzIHlvdSdsbCB1c2UgZXZlcnkgZGF5LiIsCiAgICBmZWF0dXJlczogWwogICAgICB7CiAgICAgICAgaWNvbjogU2VhcmNoLAogICAgICAgIHRpdGxlOiAiU2VhcmNoIGFueXRoaW5nIiwKICAgICAgICBib2R5OgogICAgICAgICAgIlRoZSBzZWFyY2ggYmFyIGF0IHRoZSB0b3Agc2VhcmNoZXMgb3ZlciBhIG1pbGxpb24gc3VtbWl0cyB3b3JsZHdpZGUgcGx1cyBwbGFjZXMsIGxhbmRtYXJrcyBhbmQgbWVtYmVycy4gSXQncyBmdXp6eSwgc28gdHlwb3MgYW5kIGhhbGYtcmVtZW1iZXJlZCBuYW1lcyBzdGlsbCBmaW5kIHRoZSBwZWFrLiIsCiAgICAgICAgaG93OiBbCiAgICAgICAgICAiVHlwZSBhIHN1bW1pdCwgYSBjb3VudHJ5LCBhIGxhbmRtYXJrIG9yIGEgbWVtYmVyIG5hbWUuIiwKICAgICAgICAgICJQaWNrIGEgc3VnZ2VzdGlvbiB0byBsb2cgaXQgc3RyYWlnaHQgYXdheSwgb3Igb3BlbiBpdHMgcGFnZS4iLAogICAgICAgICAgIkVsZXZhdGlvbiBzaG93cyBpbiBtZXRyZXMgb3IgZmVldCBhdXRvbWF0aWNhbGx5LCBiYXNlZCBvbiB5b3VyIGNvdW50cnkuIiwKICAgICAgICBdLAogICAgICB9LAogICAgICB7CiAgICAgICAgaWNvbjogTW91bnRhaW4sCiAgICAgICAgdGl0bGU6ICJMb2cgYW4gYXNjZW50IiwKICAgICAgICB0bzogIi9jb21tdW5pdHkvYXNjZW50cyIsCiAgICAgICAgYm9keToKICAgICAgICAgICJFdmVyeSBjbGltYiB5b3UgdGljayBmZWVkcyB5b3VyIFhQLCB5b3VyIGJhZGdlcywgeW91ciBsaXN0cyBhbmQgdGhlIHJhbmtpbmdzLiBRdWljayBBZGQgYXNrcyBvbmx5IHdoYXQgYW5kIHdoZW4g4oCUIGV2ZXJ5dGhpbmcgZWxzZSBpcyBvcHRpb25hbC4iLAogICAgICAgIGhvdzogWwogICAgICAgICAgIlF1aWNrIEFkZDogc2VhcmNoIHRoZSBwZWFrLCBzZXQgdGhlIGRhdGUsIGRvbmUuIiwKICAgICAgICAgICJEYXRlcyBjYW4gYmUgYW4gZXhhY3QgZGF5LCBhIG1vbnRoIGFuZCB5ZWFyLCBvciBqdXN0IGEgeWVhci4iLAogICAgICAgICAgIlwiQWRkIG1vcmUgaW5mb1wiIGhvbGRzIG5vdGVzLCBwaG90b3MsIHBhcnRuZXJzLCBndWlkaW5nIGFuZCBveHlnZW4uIiwKICAgICAgICAgICJEdXBsaWNhdGVzIG9uIHRoZSBzYW1lIGRheSBhcmUgYmxvY2tlZCBhdXRvbWF0aWNhbGx5LiIsCiAgICAgICAgXSwKICAgICAgfSwKICAgICAgewogICAgICAgIGljb246IE1hcFBpbiwKICAgICAgICB0aXRsZTogIkxvZyBhIHBsYWNlIiwKICAgICAgICB0bzogIi9jb21tdW5pdHkvYWR2ZW50dXJlcyIsCiAgICAgICAgYm9keToKICAgICAgICAgICJOb3QgZXZlcnl0aGluZyBpcyBhIHN1bW1pdC4gQ291bnRyaWVzIHZpc2l0ZWQsIHNpZ2h0c2VlaW5nIHNwb3RzLCBvY2VhbnMgc3d1bSBhbmQgcG9sZXMgcmVhY2hlZCBhbGwgY291bnQgdG93YXJkcyBFeHBsb3JlciBYUC4iLAogICAgICAgIGhvdzogWwogICAgICAgICAgIkFkZCBwbGFjZXMgdGhlIHNhbWUgd2F5IHlvdSBhZGQgYXNjZW50cy4iLAogICAgICAgICAgIkNsaW1iaW5nIGEgY291bnRyeSBoaWdoIHBvaW50IG1hcmtzIHRoYXQgY291bnRyeSBhcyB2aXNpdGVkIGF1dG9tYXRpY2FsbHkuIiwKICAgICAgICBdLAogICAgICB9LAogICAgXSwKICB9LAogIHsKICAgIGhlYWRpbmc6ICJZb3VyIHByb2dyZXNzIiwKICAgIGJsdXJiOiAiV2hlcmUgeW91ciB0aWNrcyB0dXJuIGludG8gbnVtYmVycywgbGV2ZWxzIGFuZCBicmFnZ2luZyByaWdodHMuIiwKICAgIGZlYXR1cmVzOiBbCiAgICAgIHsKICAgICAgICBpY29uOiBDb21wYXNzLAogICAgICAgIHRpdGxlOiAiTXkgQWR2ZW50dXJlcyIsCiAgICAgICAgdG86ICIvY29tbXVuaXR5L215LWFkdmVudHVyZXMiLAogICAgICAgIGJvZHk6CiAgICAgICAgICAiWW91ciBwZXJzb25hbCBodWI6IHRvdGFsIGFzY2VudHMsIGNvdW50cnkgaGlnaCBwb2ludHMsIGNvdW50cmllcyB2aXNpdGVkLCBhbmQgZXZlcnkgdGljayBsaXN0IHlvdSdyZSBjaGlwcGluZyBhd2F5IGF0LiIsCiAgICAgICAgaG93OiBbCiAgICAgICAgICAiVGFicyBmb3IgYXNjZW50cywgcGxhY2VzLCBsaXN0cyBhbmQgbWl4ZWQgY2hhbGxlbmdlcy4iLAogICAgICAgICAgIlRhcCBhbnkgbGlzdCB0byBleHBhbmQgaXQgYW5kIHNlZSBleGFjdGx5IHdoaWNoIGVudHJpZXMgeW91J3ZlIHRpY2tlZC4iLAogICAgICAgICAgIlNvcnQgYnkgbGF0ZXN0LCBoaWdoZXN0IG9yIGFscGhhYmV0aWNhbCwgYW5kIHN3aXRjaCBsaXN0IGRlbnNpdHkgKHNtYWxsIGZpdHMgfjcwIHJvd3Mgb24gYSBzY3JlZW4pLiIsCiAgICAgICAgICAiRWRpdCBvciBkZWxldGUgYW55dGhpbmcg4oCUIFhQIHJlY2FsY3VsYXRlcyBpbnN0YW50bHkuIiwKICAgICAgICBdLAogICAgICB9LAogICAgICB7CiAgICAgICAgaWNvbjogTGlzdENoZWNrcywKICAgICAgICB0aXRsZTogIkxpc3RzICYgY2hhbGxlbmdlcyIsCiAgICAgICAgdG86ICIvY29tbXVuaXR5L215LWFkdmVudHVyZXMiLAogICAgICAgIGJvZHk6CiAgICAgICAgICAiVU4gbWVtYmVyIGhpZ2ggcG9pbnRzLCBtYWlubGFuZCBoaWdoIHBvaW50cywgdGhlIDgyIEFscGluZSA0MDAwZXJzLCBDb2xvcmFkbyAxNGVycywgdGhlIDgwMDBlcnMsIEluZG9uZXNpYSdzIHZvbGNhbm9lcywgU3dlZGVuJ3MgdGlueSBtb3VudGFpbnMsIHRoZSBTZXZlbiBXb25kZXJzLCB0aGUgRXhwbG9yZXJzIEdyYW5kIFNsYW0gYW5kIG1hbnkgbW9yZS4iLAogICAgICAgIGhvdzogWwogICAgICAgICAgIkVhY2ggbGlzdCBzaG93cyBwcm9ncmVzcywgYSBtYXAgb2YgaXRzIHBlYWtzIGFuZCB0aGUgZnVsbCBkZWZpbml0aW9uLiIsCiAgICAgICAgICAiQ29tcGxldGluZyBhIGxpc3QgaXMgd29ydGggYSBsYXJnZSBYUCBib251cy4iLAogICAgICAgIF0sCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBpY29uOiBTcGFya2xlcywKICAgICAgICB0aXRsZTogIlhQLCBsZXZlbHMgYW5kIHRpdGxlcyIsCiAgICAgICAgYm9keToKICAgICAgICAgICJUd28gbGFkZGVycyBydW4gc2lkZSBieSBzaWRlOiBDbGltYmluZyBYUCBmcm9tIHN1bW1pdHMgKGhlaWdodCBhbmQgZGlmZmljdWx0eSB3ZWlnaHRlZCkgYW5kIEV4cGxvcmVyIFhQIGZyb20gcGxhY2VzIGFuZCBjb250aW5lbnRzLiBCb3RoIHJ1biB0byBsZXZlbCAxMDAuIiwKICAgICAgICBob3c6IFsKICAgICAgICAgICJIaWdoZXIgYW5kIGhhcmRlciBwZWFrcyBhcmUgd29ydGggbW9yZS4iLAogICAgICAgICAgIkZpbmlzaGluZyBsaXN0cyBhbmQgcmVhY2hpbmcgYWxsIGNvbnRpbmVudHMgZ2l2ZSBiaWcgYm9udXNlcy4iLAogICAgICAgICAgIlRpdGxlcyB1bmxvY2sgYXMgeW91IGNsaW1iIHRoZSBsYWRkZXIuIiwKICAgICAgICBdLAogICAgICB9LAogICAgICB7CiAgICAgICAgaWNvbjogQXdhcmQsCiAgICAgICAgdGl0bGU6ICJCYWRnZXMiLAogICAgICAgIGJvZHk6CiAgICAgICAgICAiQXV0b21hdGljIGJhZGdlcyBmb3IgbWlsZXN0b25lcyBhbmQgaG9ub3VyIGJhZGdlcyB5b3UgY2xhaW0gd2l0aCBhIHN0b3J5IOKAlCBSZXNjdWUgSGVybywgRGFyZWRldmlsIGFuZCBmcmllbmRzLiIsCiAgICAgICAgaG93OiBbCiAgICAgICAgICAiT3BlbiBhIGJhZGdlIHRvIHNlZSBleGFjdGx5IHdoYXQgcXVhbGlmaWVzIGFuZCB3aGljaCBpdGVtcyB5b3UgYWxyZWFkeSBoYXZlLiIsCiAgICAgICAgICAiSG9ub3VyIGJhZGdlcyBhcmUgY2xhaW1lZCB3aXRoIGEgc2hvcnQgd3JpdGUtdXAgYW5kIHJldmlld2VkLiIsCiAgICAgICAgXSwKICAgICAgfSwKICAgICAgewogICAgICAgIGljb246IEJhckNoYXJ0MywKICAgICAgICB0aXRsZTogIk15IGFuYWx5dGljcyIsCiAgICAgICAgYm9keToKICAgICAgICAgICJDaGFydHMgb2YgeW91ciBjbGltYmluZzogd2ludGVyIGFzY2VudHMsIGFsdGl0dWRlIGJhbmRzLCBzZWFzb25zLCBjb3VudHJpZXMgYW5kIGhvdyBpdCBhbGwgdHJlbmRzIG92ZXIgdGltZS4iLAogICAgICAgIGhvdzogWyJPcGVuIGl0IGZyb20gTXkgQWR2ZW50dXJlcyBvbmNlIHlvdSBoYXZlIGEgZmV3IGFzY2VudHMgbG9nZ2VkLiJdLAogICAgICB9LAogICAgXSwKICB9LAogIHsKICAgIGhlYWRpbmc6ICJUaGUgY29tbXVuaXR5IiwKICAgIGJsdXJiOiAiT3RoZXIgcGVvcGxlLCBhbmQgaG93IHlvdSBmaW5kIGFuZCBmb2xsb3cgdGhlbS4iLAogICAgZmVhdHVyZXM6IFsKICAgICAgewogICAgICAgIGljb246IEhvbWUsCiAgICAgICAgdGl0bGU6ICJGZWVkIiwKICAgICAgICB0bzogIi9jb21tdW5pdHkiLAogICAgICAgIGJvZHk6ICJUaGUgbGl2ZSBzdHJlYW0gb2Ygd2hhdCBldmVyeW9uZSBoYXMgYmVlbiB1cCB0byDigJQgbmV3IGFzY2VudHMsIHBsYWNlcyBhbmQgcG9zdHMuIiwKICAgICAgICBob3c6IFsiQ2hlZXIgYW4gYXNjZW50IHRvIGNvbmdyYXR1bGF0ZSBzb21lb25lOyB0aGV5IGdldCBhIG5vdGlmaWNhdGlvbi4iXSwKICAgICAgfSwKICAgICAgewogICAgICAgIGljb246IE1lc3NhZ2VTcXVhcmUsCiAgICAgICAgdGl0bGU6ICJXYWxsIiwKICAgICAgICB0bzogIi9jb21tdW5pdHkvd2FsbCIsCiAgICAgICAgYm9keToKICAgICAgICAgICJMb25nZXIgcG9zdHM6IHRyaXAgcmVwb3J0cywgcGhvdG9zLCB2aWRlb3MgYW5kIHF1ZXN0aW9ucy4gUmVwbGllcywgcmVhY3Rpb25zLCBib29rbWFya3MgYW5kIEBtZW50aW9ucyBhbGwgd29yay4iLAogICAgICAgIGhvdzogWwogICAgICAgICAgIkF0dGFjaCBhIHJlbGF0ZWQgcGVhayBzbyB0aGUgcG9zdCBzaG93cyB1cCBvbiB0aGF0IHBlYWsncyBwYWdlLiIsCiAgICAgICAgICAiU29ydCBhbmQgZmlsdGVyIHRoZSB3YWxsIHRvIGZpbmQgd2hhdCB5b3UgY2FyZSBhYm91dC4iLAogICAgICAgIF0sCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBpY29uOiBUcm9waHksCiAgICAgICAgdGl0bGU6ICJMZWFkZXJib2FyZCAmIEZyb250IFJ1bm5lcnMiLAogICAgICAgIHRvOiAiL2NvbW11bml0eS9mcm9udHJ1bm5lcnMiLAogICAgICAgIGJvZHk6CiAgICAgICAgICAiVGhlIExlYWRlcmJvYXJkIHJhbmtzIG92ZXJhbGwgY2xpbWJpbmcuIEZyb250IFJ1bm5lcnMgcmFua3MgYSBzaW5nbGUgYm9hcmQg4oCUIFVOIGhpZ2ggcG9pbnRzLCBtYWlubGFuZCBoaWdoIHBvaW50cywgY291bnRyaWVzIHZpc2l0ZWQsIGFueSBsaXN0IG9yIGNoYWxsZW5nZSDigJQgYW5kIHNob3dzIHdoZXJlIHlvdSBzdGFuZC4iLAogICAgICAgIGhvdzogWwogICAgICAgICAgIlBpY2sgYSBib2FyZCwgdGhlbiBzZWFyY2ggZm9yIHlvdXJzZWxmIG9yIGEgZnJpZW5kLiIsCiAgICAgICAgICAiRXZlcnkgbGlzdCBhbmQgZ29hbCBoYXMgYSBcIkZyb250IHJ1bm5lcnNcIiBsaW5rIHN0cmFpZ2h0IHRvIGl0cyByYW5raW5nLiIsCiAgICAgICAgXSwKICAgICAgfSwKICAgICAgewogICAgICAgIGljb246IFVzZXJzLAogICAgICAgIHRpdGxlOiAiTWVtYmVycyAmIGZvbGxvd2luZyIsCiAgICAgICAgdG86ICIvY29tbXVuaXR5L21lbWJlcnMiLAogICAgICAgIGJvZHk6CiAgICAgICAgICAiQnJvd3NlIHByb2ZpbGVzLCBmb2xsb3cgY2xpbWJlcnMgeW91IGxpa2UsIGFuZCBjb21wYXJlIHlvdXIgdGlja3Mgd2l0aCB0aGVpcnMuIiwKICAgICAgICBob3c6IFsKICAgICAgICAgICJQcm9maWxlcyBzaG93IGZvdXIgcGlubmVkIGdvYWxzIOKAlCB0YXAgYSBnb2FsIHRvIGNvbXBhcmUgdGhlaXIgdGlja3Mgd2l0aCB5b3VycyBzaWRlIGJ5IHNpZGUuIiwKICAgICAgICAgICJZb3UgY2FuIHNlZSB3aG8gdmlzaXRlZCB5b3VyIHByb2ZpbGUgbGFzdC4iLAogICAgICAgIF0sCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBpY29uOiBUZW50LAogICAgICAgIHRpdGxlOiAiQmFzZSBDYW1wIiwKICAgICAgICB0bzogIi9jb21tdW5pdHkvYmFzZWNhbXAiLAogICAgICAgIGJvZHk6ICJBIDNEIGNhbXAgd2hlcmUgZXZlcnkgbWVtYmVyIHN0YW5kcyBhcyB0aGVpciBvd24gbG93LXBvbHkgY2xpbWJlci4gVGFwIGEgZmlndXJlIHRvIG9wZW4gdGhlaXIgcHJvZmlsZS4iLAogICAgICAgIGhvdzogWyJQYW4gYW5kIHpvb20gYXJvdW5kIGNhbXA7IHF1YWxpdHkgYWRhcHRzIHRvIHlvdXIgZGV2aWNlLiJdLAogICAgICB9LAogICAgICB7CiAgICAgICAgaWNvbjogQ2FtZXJhLAogICAgICAgIHRpdGxlOiAiUGhvdG8gdm90ZSIsCiAgICAgICAgdG86ICIvY29tbXVuaXR5L3Bob3RvLXZvdGUiLAogICAgICAgIGJvZHk6ICJNZW1iZXJzIHZvdGUgb24gc3VtbWl0IHBob3RvcywgYW5kIHRoZSB3aW5uZXIgYmVjb21lcyB0aGUgaGVybyBpbWFnZSBvbiB0aGF0IHBlYWsncyBwYWdlLiIsCiAgICAgICAgaG93OiBbIlJvdW5kcyBydW4gZm9yIDMwIGRheXMsIHRoZW4gdGhlIHdpbm5pbmcgcGhvdG8gaXMgcHJvbW90ZWQuIl0sCiAgICAgIH0sCiAgICBdLAogIH0sCiAgewogICAgaGVhZGluZzogIk1ha2UgaXQgeW91cnMiLAogICAgYmx1cmI6ICJTZXR0aW5ncywgaW1wb3J0cyBhbmQgdGhlIGFwcC4iLAogICAgZmVhdHVyZXM6IFsKICAgICAgewogICAgICAgIGljb246IFBhbGV0dGUsCiAgICAgICAgdGl0bGU6ICJQcm9maWxlICYgdGhlbWVzIiwKICAgICAgICB0bzogIi9jb21tdW5pdHkvc2V0dGluZ3MiLAogICAgICAgIGJvZHk6CiAgICAgICAgICAiUGluIHVwIHRvIGZvdXIgZ29hbHMgdG8geW91ciBwcm9maWxlLCBidWlsZCBhIDNEIGF2YXRhciBpbiBBdmF0YXIgU3R1ZGlvIGFuZCBwaWNrIGEgdGhlbWUg4oCUIFN0ZWFtcHVuaywgRmxvd2VyIFBvd2VyLCBIb2JiaXQsIEN5YmVycHVuayBhbmQgbW9yZS4iLAogICAgICAgIGhvdzogWwogICAgICAgICAgIkdvYWxzOiBwaWNrIHlvdXIgb3duLCBvciBoaXQgXCJTdWdnZXN0IGdvYWxzIGZvciBtZVwiLiIsCiAgICAgICAgICAiWW91ciB0aGVtZSBmb2xsb3dzIHlvdSBhY3Jvc3MgZGV2aWNlcy4iLAogICAgICAgIF0sCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBpY29uOiBNb3VudGFpbiwKICAgICAgICB0aXRsZTogIkltcG9ydCBmcm9tIFBlYWtiYWdnZXIiLAogICAgICAgIGJvZHk6ICJCcmluZyB5b3VyIHdob2xlIGNsaW1iaW5nIGhpc3RvcnkgYWNyb3NzIGluIG9uZSBnbywgYWxsIHllYXJzIGluY2x1ZGVkLiIsCiAgICAgICAgaG93OiBbCiAgICAgICAgICAiUGFzdGUgeW91ciBQZWFrYmFnZ2VyIGNsaW1iZXIgcGFnZSBvciBJRC4iLAogICAgICAgICAgIk9wdGlvbmFsIGZyb20vdG8geWVhciByYW5nZSBpZiB5b3Ugb25seSB3YW50IHBhcnQgb2YgaXQuIiwKICAgICAgICBdLAogICAgICB9LAogICAgICB7CiAgICAgICAgaWNvbjogQmVsbCwKICAgICAgICB0aXRsZTogIk5vdGlmaWNhdGlvbnMiLAogICAgICAgIHRvOiAiL2NvbW11bml0eS9ub3RpZmljYXRpb25zIiwKICAgICAgICBib2R5OiAiQ2hlZXJzLCBjb21tZW50cywgcmVwbGllcywgbWVudGlvbnMgYW5kIG5ldyBmb2xsb3dlcnMsIHdpdGggcGVyLXR5cGUgc3dpdGNoZXMuIiwKICAgICAgICBob3c6IFsiVHVuZSB3aGF0IHlvdSBnZXQgaW4gbm90aWZpY2F0aW9uIHByZWZlcmVuY2VzLiJdLAogICAgICB9LAogICAgICB7CiAgICAgICAgaWNvbjogU21hcnRwaG9uZSwKICAgICAgICB0aXRsZTogIk9uIHlvdXIgcGhvbmUiLAogICAgICAgIGJvZHk6ICJJbnN0YWxsIFRpY2tsZWxpc3QgYXMgYW4gYXBwLiBPbiBtb2JpbGUgeW91IGNhbiBzd2lwZSBiZXR3ZWVuIHBhZ2VzIGxpa2UgYSAzRCBjdWJlLiIsCiAgICAgICAgaG93OiBbIlVzZSB0aGUgaW5zdGFsbCBwcm9tcHQsIG9yIHlvdXIgYnJvd3NlcidzIFwiQWRkIHRvIEhvbWUgU2NyZWVuXCIuIl0sCiAgICAgIH0sCiAgICBdLAogIH0sCl07Cgpjb25zdCBJbnRyb1BhZ2UgPSAoKSA9PiB7CiAgY29uc3QgeyB1c2VyIH0gPSB1c2VBdXRoKCk7CgogIHJldHVybiAoCiAgICA8Q29tbXVuaXR5TGF5b3V0PgogICAgICA8U2VvCiAgICAgICAgdGl0bGU9IkludHJvZHVjdGlvbiDigJQgaG93IFRpY2tsZWxpc3Qgd29ya3MiCiAgICAgICAgZGVzY3JpcHRpb249IkEgZ3VpZGUgdG8gZXZlcnkgVGlja2xlbGlzdCBmZWF0dXJlOiBsb2dnaW5nIGFzY2VudHMgYW5kIHBsYWNlcywgWFAgYW5kIGxldmVscywgYmFkZ2VzLCB0aWNrIGxpc3RzLCByYW5raW5ncywgdGhlIHdhbGwsIEJhc2UgQ2FtcCwgdGhlbWVzIGFuZCB0aGUgbW9iaWxlIGFwcC4iCiAgICAgIC8+CgogICAgICA8aGVhZGVyIGNsYXNzTmFtZT0ibWItOCI+CiAgICAgICAgPGgxIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtMnhsIHNtOnRleHQtM3hsIHRyYWNraW5nLXdpZGVyIj5JbnRyb2R1Y3Rpb248L2gxPgogICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtYXgtdy0yeGwiPgogICAgICAgICAgVGlja2xlbGlzdCBpcyBhIHRpY2sgbGlzdCBmb3IgeW91ciB3aG9sZSBhZHZlbnR1cmluZyBsaWZlIOKAlCBzdW1taXRzLCBjb3VudHJpZXMsIGxhbmRtYXJrcyBhbmQgb2NlYW5zLiBMb2cgd2hhdAogICAgICAgICAgeW91J3ZlIGRvbmUsIHdhdGNoIHRoZSBYUCBhbmQgYmFkZ2VzIHN0YWNrIHVwLCBhbmQgc2VlIHdoZXJlIHlvdSBzdGFuZCBhZ2FpbnN0IGV2ZXJ5b25lIGVsc2UuIEhlcmUncyB3aGF0J3Mgb24KICAgICAgICAgIHRoZSBzaXRlIGFuZCBob3cgZWFjaCBwYXJ0IHdvcmtzLgogICAgICAgIDwvcD4KICAgICAgICB7IXVzZXIgJiYgKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTQgZmxleCBmbGV4LXdyYXAgZ2FwLTIiPgogICAgICAgICAgICA8TGluawogICAgICAgICAgICAgIHRvPSIvYXV0aCIKICAgICAgICAgICAgICBjbGFzc05hbWU9InJvdW5kZWQtZnVsbCBiZy1wcmltYXJ5IHB4LTQgcHktMS41IHRleHQtc20gZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGVyIHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgQ3JlYXRlIGFuIGFjY291bnQKICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICA8TGluawogICAgICAgICAgICAgIHRvPSIvY29tbXVuaXR5IgogICAgICAgICAgICAgIGNsYXNzTmFtZT0icm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItYm9yZGVyIHB4LTQgcHktMS41IHRleHQtc20gZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGVyIGhvdmVyOnRleHQtcHJpbWFyeSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIExvb2sgYXJvdW5kIGZpcnN0CiAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CiAgICAgIDwvaGVhZGVyPgoKICAgICAgPG5hdiBhcmlhLWxhYmVsPSJTZWN0aW9ucyIgY2xhc3NOYW1lPSJtYi04IGZsZXggZmxleC13cmFwIGdhcC0yIj4KICAgICAgICB7c2VjdGlvbnMubWFwKChzKSA9PiAoCiAgICAgICAgICA8YQogICAgICAgICAgICBrZXk9e3MuaGVhZGluZ30KICAgICAgICAgICAgaHJlZj17YCMke3MuaGVhZGluZy50b0xvd2VyQ2FzZSgpLnJlcGxhY2UoL1xzKy9nLCAiLSIpfWB9CiAgICAgICAgICAgIGNsYXNzTmFtZT0icm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItYm9yZGVyIHB4LTMgcHktMSB0ZXh0LXhzIGZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlciB0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6dGV4dC1wcmltYXJ5IgogICAgICAgICAgPgogICAgICAgICAgICB7cy5oZWFkaW5nfQogICAgICAgICAgPC9hPgogICAgICAgICkpfQogICAgICA8L25hdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTEwIj4KICAgICAgICB7c2VjdGlvbnMubWFwKChzZWN0aW9uKSA9PiAoCiAgICAgICAgICA8c2VjdGlvbiBrZXk9e3NlY3Rpb24uaGVhZGluZ30gaWQ9e3NlY3Rpb24uaGVhZGluZy50b0xvd2VyQ2FzZSgpLnJlcGxhY2UoL1xzKy9nLCAiLSIpfT4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtbGcgdHJhY2tpbmctd2lkZXIiPntzZWN0aW9uLmhlYWRpbmd9PC9oMj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3NlY3Rpb24uYmx1cmJ9PC9wPgoKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTQgZ3JpZCBnYXAtMyBzbTpncmlkLWNvbHMtMiI+CiAgICAgICAgICAgICAge3NlY3Rpb24uZmVhdHVyZXMubWFwKChmKSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBJY29uID0gZi5pY29uOwogICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgPGFydGljbGUga2V5PXtmLnRpdGxlfSBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBwLTQiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICAgICAgICA8SWNvbiBjbGFzc05hbWU9ImgtNCB3LTQgc2hyaW5rLTAgdGV4dC1wcmltYXJ5IiAvPgogICAgICAgICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtc20gdHJhY2tpbmctd2lkZXIiPgogICAgICAgICAgICAgICAgICAgICAgICB7Zi50byA/ICgKICAgICAgICAgICAgICAgICAgICAgICAgICA8TGluayB0bz17Zi50b30gY2xhc3NOYW1lPSJob3Zlcjp0ZXh0LXByaW1hcnkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge2YudGl0bGV9CiAgICAgICAgICAgICAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICAgICAgICAgIGYudGl0bGUKICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0yIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57Zi5ib2R5fTwvcD4KICAgICAgICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJtdC0yIHNwYWNlLXktMSI+CiAgICAgICAgICAgICAgICAgICAgICB7Zi5ob3cubWFwKChoKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBrZXk9e2h9IGNsYXNzTmFtZT0iZmxleCBnYXAtMiB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXByaW1hcnkiPuKAujwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj57aH08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgICA8L2FydGljbGU+CiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgIH0pfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvc2VjdGlvbj4KICAgICAgICApKX0KICAgICAgPC9kaXY+CgogICAgICA8cCBjbGFzc05hbWU9Im10LTEwIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICBTdGlsbCBzdHVjayBvbiBzb21ldGhpbmc/IFBvc3QgaXQgb24gdGhleyIgIn0KICAgICAgICA8TGluayB0bz0iL2NvbW11bml0eS93YWxsIiBjbGFzc05hbWU9InRleHQtcHJpbWFyeSBob3Zlcjp1bmRlcmxpbmUiPgogICAgICAgICAgV2FsbAogICAgICAgIDwvTGluaz57IiAifQogICAgICAgIOKAlCBzb21lb25lIHdpbGwga25vdy4KICAgICAgPC9wPgogICAgPC9Db21tdW5pdHlMYXlvdXQ+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IEludHJvUGFnZTsK
+import type { LucideIcon } from "lucide-react";
+import {
+  Award,
+  BarChart3,
+  Bell,
+  Camera,
+  Compass,
+  Home,
+  ListChecks,
+  MapPin,
+  MessageSquare,
+  Mountain,
+  Palette,
+  Search,
+  Smartphone,
+  Sparkles,
+  Tent,
+  Trophy,
+  Users,
+} from "lucide-react";
+import Seo from "@/components/Seo";
+import CommunityLayout from "@/components/community/CommunityLayout";
+import { Link } from "@/lib/router-compat";
+import { useAuth } from "@/hooks/useAuth";
+
+interface Feature {
+  icon: LucideIcon;
+  title: string;
+  to?: string;
+  body: string;
+  how: string[];
+}
+
+const sections: { heading: string; blurb: string; features: Feature[] }[] = [
+  {
+    heading: "Start here",
+    blurb: "The three things you'll use every day.",
+    features: [
+      {
+        icon: Search,
+        title: "Search anything",
+        body:
+          "The search bar at the top searches over a million summits worldwide plus places, landmarks and members. It's fuzzy, so typos and half-remembered names still find the peak.",
+        how: [
+          "Type a summit, a country, a landmark or a member name.",
+          "Pick a suggestion to log it straight away, or open its page.",
+          "Elevation shows in metres or feet automatically, based on your country.",
+        ],
+      },
+      {
+        icon: Mountain,
+        title: "Log an ascent",
+        to: "/community/ascents",
+        body:
+          "Every climb you tick feeds your XP, your badges, your lists and the rankings. Quick Add asks only what and when — everything else is optional.",
+        how: [
+          "Quick Add: search the peak, set the date, done.",
+          "Dates can be an exact day, a month and year, or just a year.",
+          "\"Add more info\" holds notes, photos, partners, guiding and oxygen.",
+          "Duplicates on the same day are blocked automatically.",
+        ],
+      },
+      {
+        icon: MapPin,
+        title: "Log a place",
+        to: "/community/adventures",
+        body:
+          "Not everything is a summit. Countries visited, sightseeing spots, oceans swum and poles reached all count towards Explorer XP.",
+        how: [
+          "Add places the same way you add ascents.",
+          "Climbing a country high point marks that country as visited automatically.",
+        ],
+      },
+    ],
+  },
+  {
+    heading: "Your progress",
+    blurb: "Where your ticks turn into numbers, levels and bragging rights.",
+    features: [
+      {
+        icon: Compass,
+        title: "My Adventures",
+        to: "/community/my-adventures",
+        body:
+          "Your personal hub: total ascents, country high points, countries visited, and every tick list you're chipping away at.",
+        how: [
+          "Tabs for ascents, places, lists and mixed challenges.",
+          "Tap any list to expand it and see exactly which entries you've ticked.",
+          "Sort by latest, highest or alphabetical, and switch list density (small fits ~70 rows on a screen).",
+          "Edit or delete anything — XP recalculates instantly.",
+        ],
+      },
+      {
+        icon: ListChecks,
+        title: "Lists & challenges",
+        to: "/community/my-adventures",
+        body:
+          "UN member high points, mainland high points, the 82 Alpine 4000ers, Colorado 14ers, the 8000ers, Indonesia's volcanoes, Sweden's tiny mountains, the Seven Wonders, the Explorers Grand Slam and many more.",
+        how: [
+          "Each list shows progress, a map of its peaks and the full definition.",
+          "Completing a list is worth a large XP bonus.",
+        ],
+      },
+      {
+        icon: Sparkles,
+        title: "XP, levels and titles",
+        body:
+          "Two ladders run side by side: Climbing XP from summits (height and difficulty weighted) and Explorer XP from places and continents. Both run to level 100.",
+        how: [
+          "Higher and harder peaks are worth more.",
+          "Finishing lists and reaching all continents give big bonuses.",
+          "Titles unlock as you climb the ladder.",
+        ],
+      },
+      {
+        icon: Award,
+        title: "Badges",
+        body:
+          "Automatic badges for milestones and honour badges you claim with a story — Rescue Hero, Daredevil and friends.",
+        how: [
+          "Open a badge to see exactly what qualifies and which items you already have.",
+          "Honour badges are claimed with a short write-up and reviewed.",
+        ],
+      },
+      {
+        icon: BarChart3,
+        title: "My analytics",
+        body:
+          "Charts of your climbing: winter ascents, altitude bands, seasons, countries and how it all trends over time.",
+        how: ["Open it from My Adventures once you have a few ascents logged."],
+      },
+    ],
+  },
+  {
+    heading: "The community",
+    blurb: "Other people, and how you find and follow them.",
+    features: [
+      {
+        icon: Home,
+        title: "Feed",
+        to: "/community",
+        body: "The live stream of what everyone has been up to — new ascents, places and posts.",
+        how: ["Cheer an ascent to congratulate someone; they get a notification."],
+      },
+      {
+        icon: MessageSquare,
+        title: "Wall",
+        to: "/community/wall",
+        body:
+          "Longer posts: trip reports, photos, videos and questions. Replies, reactions, bookmarks and @mentions all work.",
+        how: [
+          "Attach a related peak so the post shows up on that peak's page.",
+          "Sort and filter the wall to find what you care about.",
+        ],
+      },
+      {
+        icon: Trophy,
+        title: "Leaderboard & Front Runners",
+        to: "/community/frontrunners",
+        body:
+          "The Leaderboard ranks overall climbing. Front Runners ranks a single board — UN high points, mainland high points, countries visited, any list or challenge — and shows where you stand.",
+        how: [
+          "Pick a board, then search for yourself or a friend.",
+          "Every list and goal has a \"Front runners\" link straight to its ranking.",
+        ],
+      },
+      {
+        icon: Users,
+        title: "Members & following",
+        to: "/community/members",
+        body:
+          "Browse profiles, follow climbers you like, and compare your ticks with theirs.",
+        how: [
+          "Profiles show four pinned goals — tap a goal to compare their ticks with yours side by side.",
+          "You can see who visited your profile last.",
+        ],
+      },
+      {
+        icon: Tent,
+        title: "Base Camp",
+        to: "/community/basecamp",
+        body: "A 3D camp where every member stands as their own low-poly climber. Tap a figure to open their profile.",
+        how: ["Pan and zoom around camp; quality adapts to your device."],
+      },
+      {
+        icon: Camera,
+        title: "Photo vote",
+        to: "/community/photo-vote",
+        body: "Members vote on summit photos, and the winner becomes the hero image on that peak's page.",
+        how: ["Rounds run for 30 days, then the winning photo is promoted."],
+      },
+    ],
+  },
+  {
+    heading: "Make it yours",
+    blurb: "Settings, imports and the app.",
+    features: [
+      {
+        icon: Palette,
+        title: "Profile & themes",
+        to: "/community/settings",
+        body:
+          "Pin up to four goals to your profile, build a 3D avatar in Avatar Studio and pick a theme — Steampunk, Flower Power, Hobbit, Cyberpunk and more.",
+        how: [
+          "Goals: pick your own, or hit \"Suggest goals for me\".",
+          "Your theme follows you across devices.",
+        ],
+      },
+      {
+        icon: Mountain,
+        title: "Import from Peakbagger",
+        body: "Bring your whole climbing history across in one go, all years included.",
+        how: [
+          "Paste your Peakbagger climber page or ID.",
+          "Optional from/to year range if you only want part of it.",
+        ],
+      },
+      {
+        icon: Bell,
+        title: "Notifications",
+        to: "/community/notifications",
+        body: "Cheers, comments, replies, mentions and new followers, with per-type switches.",
+        how: ["Tune what you get in notification preferences."],
+      },
+      {
+        icon: Smartphone,
+        title: "On your phone",
+        body: "Install Ticklelist as an app. On mobile you can swipe between pages like a 3D cube.",
+        how: ["Use the install prompt, or your browser's \"Add to Home Screen\"."],
+      },
+    ],
+  },
+];
+
+const IntroPage = () => {
+  const { user } = useAuth();
+
+  return (
+    <CommunityLayout>
+      <Seo
+        title="Introduction — how Ticklelist works"
+        description="A guide to every Ticklelist feature: logging ascents and places, XP and levels, badges, tick lists, rankings, the wall, Base Camp, themes and the mobile app."
+      />
+
+      <header className="mb-8">
+        <h1 className="font-display text-2xl sm:text-3xl tracking-wider">Introduction</h1>
+        <p className="mt-2 text-sm text-muted-foreground max-w-2xl">
+          Ticklelist is a tick list for your whole adventuring life — summits, countries, landmarks and oceans. Log what
+          you've done, watch the XP and badges stack up, and see where you stand against everyone else. Here's what's on
+          the site and how each part works.
+        </p>
+        {!user && (
+          <div className="mt-4 flex flex-wrap gap-2">
+            <Link
+              to="/auth"
+              className="rounded-full bg-primary px-4 py-1.5 text-sm font-display tracking-wider text-primary-foreground"
+            >
+              Create an account
+            </Link>
+            <Link
+              to="/community"
+              className="rounded-full border border-border px-4 py-1.5 text-sm font-display tracking-wider hover:text-primary"
+            >
+              Look around first
+            </Link>
+          </div>
+        )}
+      </header>
+
+      <nav aria-label="Sections" className="mb-8 flex flex-wrap gap-2">
+        {sections.map((s) => (
+          <a
+            key={s.heading}
+            href={`#${s.heading.toLowerCase().replace(/\s+/g, "-")}`}
+            className="rounded-full border border-border px-3 py-1 text-xs font-display tracking-wider text-muted-foreground hover:text-primary"
+          >
+            {s.heading}
+          </a>
+        ))}
+      </nav>
+
+      <div className="space-y-10">
+        {sections.map((section) => (
+          <section key={section.heading} id={section.heading.toLowerCase().replace(/\s+/g, "-")}>
+            <h2 className="font-display text-lg tracking-wider">{section.heading}</h2>
+            <p className="text-sm text-muted-foreground">{section.blurb}</p>
+
+            <div className="mt-4 grid gap-3 sm:grid-cols-2">
+              {section.features.map((f) => {
+                const Icon = f.icon;
+                return (
+                  <article key={f.title} className="rounded-lg border border-border bg-card p-4">
+                    <div className="flex items-center gap-2">
+                      <Icon className="h-4 w-4 shrink-0 text-primary" />
+                      <h3 className="font-display text-sm tracking-wider">
+                        {f.to ? (
+                          <Link to={f.to} className="hover:text-primary">
+                            {f.title}
+                          </Link>
+                        ) : (
+                          f.title
+                        )}
+                      </h3>
+                    </div>
+                    <p className="mt-2 text-sm text-muted-foreground">{f.body}</p>
+                    <ul className="mt-2 space-y-1">
+                      {f.how.map((h) => (
+                        <li key={h} className="flex gap-2 text-xs text-muted-foreground">
+                          <span className="text-primary">›</span>
+                          <span>{h}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </article>
+                );
+              })}
+            </div>
+          </section>
+        ))}
+      </div>
+
+      <p className="mt-10 text-sm text-muted-foreground">
+        Still stuck on something? Post it on the{" "}
+        <Link to="/community/wall" className="text-primary hover:underline">
+          Wall
+        </Link>{" "}
+        — someone will know.
+      </p>
+    </CommunityLayout>
+  );
+};
+
+export default IntroPage;

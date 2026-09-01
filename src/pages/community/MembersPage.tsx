@@ -1,1 +1,98 @@
-aW1wb3J0IHsgZnV6enlSYW5rIH0gZnJvbSAiQC9saWIvZnV6enkiOwppbXBvcnQgeyB1c2VNZW1vLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IFNlbyBmcm9tICJAL2NvbXBvbmVudHMvU2VvIjsKaW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBTZWFyY2ggfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgQ29tbXVuaXR5TGF5b3V0IGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvQ29tbXVuaXR5TGF5b3V0IjsKaW1wb3J0IE1lbWJlcnNPbmx5IGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvTWVtYmVyc09ubHkiOwppbXBvcnQgTWVtYmVyQXZhdGFyIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvTWVtYmVyQXZhdGFyIjsKaW1wb3J0IEZvbGxvd0J1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L0ZvbGxvd0J1dHRvbiI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvaG9va3MvdXNlQXV0aCI7CmltcG9ydCB7IHVzZUNvbW11bml0eURhdGEgfSBmcm9tICJAL2hvb2tzL3VzZUNvbW11bml0eURhdGEiOwppbXBvcnQgeyB1c2VGb2xsb3dzIH0gZnJvbSAiQC9ob29rcy91c2VGb2xsb3dzIjsKaW1wb3J0IHsgcmFua0ZvciB9IGZyb20gIkAvbGliL2JhZGdlcyI7Cgpjb25zdCBNZW1iZXJzUGFnZSA9ICgpID0+IHsKICBjb25zdCB7IHVzZXIgfSA9IHVzZUF1dGgoKTsKICBjb25zdCB7IHByb2ZpbGVzLCBhc2NlbnRzLCBmZXRjaGluZyB9ID0gdXNlQ29tbXVuaXR5RGF0YSgpOwogIGNvbnN0IHsgZm9sbG93aW5nLCBmb2xsb3dlckNvdW50cywgdG9nZ2xlRm9sbG93IH0gPSB1c2VGb2xsb3dzKCk7CiAgY29uc3QgW3F1ZXJ5LCBzZXRRdWVyeV0gPSB1c2VTdGF0ZSgiIik7CgogIGNvbnN0IG1lbWJlcnMgPSB1c2VNZW1vKCgpID0+IHsKICAgIGNvbnN0IGNvdW50czogUmVjb3JkPHN0cmluZywgbnVtYmVyPiA9IHt9OwogICAgYXNjZW50cy5mb3JFYWNoKChhKSA9PiB7IGNvdW50c1thLnVzZXJfaWRdID0gKGNvdW50c1thLnVzZXJfaWRdID8/IDApICsgMTsgfSk7CiAgICByZXR1cm4gZnV6enlSYW5rKE9iamVjdC52YWx1ZXMocHJvZmlsZXMpLCBxdWVyeSwgKHApID0+IFtwLmRpc3BsYXlfbmFtZSwgcC5jb3VudHJ5XSkKICAgICAgLm1hcCgocCkgPT4gKHsgLi4ucCwgYXNjZW50Q291bnQ6IGNvdW50c1twLmlkXSA/PyAwIH0pKQogICAgICAuc29ydCgoYSwgYikgPT4gYi5hc2NlbnRDb3VudCAtIGEuYXNjZW50Q291bnQgfHwgYS5kaXNwbGF5X25hbWUubG9jYWxlQ29tcGFyZShiLmRpc3BsYXlfbmFtZSkpOwogIH0sIFtwcm9maWxlcywgYXNjZW50cywgcXVlcnldKTsKCiAgaWYgKCF1c2VyKSB7CiAgICByZXR1cm4gKAogICAgICA8Q29tbXVuaXR5TGF5b3V0PgogICAgICA8U2VvCiAgICAgICAgdGl0bGU9IkZpbmQgQ2xpbWJlcnMg4oCUIFRpY2tsZWxpc3QgTWVtYmVycyIKICAgICAgICBkZXNjcmlwdGlvbj0iU2VhcmNoIFRpY2tsZWxpc3QgbWVtYmVycywgZm9sbG93IGNsaW1iZXJzIHlvdSBsaWtlIGFuZCBzZWUgdGhlIHBlYWtzIHRoZXkgaGF2ZSBsb2dnZWQuIgogICAgICAgIG5vaW5kZXgKICAgICAgLz4KICAgICAgICA8TWVtYmVyc09ubHkgdGl0bGU9Ik1lbWJlciBkaXJlY3RvcnkgaXMgbWVtYmVycyBvbmx5IiBkZXNjcmlwdGlvbj0iU2lnbiBpbiB0byBmaW5kIGNsaW1iZXJzLCBmb2xsb3cgdGhlbSBhbmQgc2VlIHRoZWlyIGxvZ2dlZCBhc2NlbnRzLiIgLz4KICAgICAgPC9Db21tdW5pdHlMYXlvdXQ+CiAgICApOwogIH0KCiAgcmV0dXJuICgKICAgIDxDb21tdW5pdHlMYXlvdXQ+CiAgICAgIDxTZW8KICAgICAgICB0aXRsZT0iRmluZCBDbGltYmVycyDigJQgVGlja2xlbGlzdCBNZW1iZXJzIgogICAgICAgIGRlc2NyaXB0aW9uPSJTZWFyY2ggVGlja2xlbGlzdCBtZW1iZXJzLCBmb2xsb3cgY2xpbWJlcnMgeW91IGxpa2UgYW5kIHNlZSB0aGUgcGVha3MgdGhleSBoYXZlIGxvZ2dlZC4iCiAgICAgICAgbm9pbmRleAogICAgICAvPgoKICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMgbWItNiI+CiAgICAgICAgPGgxIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtMnhsIHRyYWNraW5nLXdpZGVyIj5NZW1iZXJzPC9oMT4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgdy1mdWxsIHNtOnctNzIiPgogICAgICAgICAgPFNlYXJjaCBjbGFzc05hbWU9InctNCBoLTQgYWJzb2x1dGUgbGVmdC0zIHRvcC0xLzIgLXRyYW5zbGF0ZS15LTEvMiB0ZXh0LW11dGVkLWZvcmVncm91bmQiIC8+CiAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgdmFsdWU9e3F1ZXJ5fQogICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFF1ZXJ5KGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgcGxhY2Vob2xkZXI9IlNlYXJjaCBieSBuYW1lIG9yIGNvdW50cnkiCiAgICAgICAgICAgIGNsYXNzTmFtZT0icGwtOSIKICAgICAgICAgICAgYXJpYS1sYWJlbD0iU2VhcmNoIG1lbWJlcnMiCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIHtmZXRjaGluZyA/ICgKICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCB0ZXh0LXNtIj5Mb2FkaW5nIG1lbWJlcnPigKY8L3A+CiAgICAgICkgOiBtZW1iZXJzLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCB0ZXh0LXNtIj5ObyBtZW1iZXJzIG1hdGNoIHRoYXQgc2VhcmNoLjwvcD4KICAgICAgKSA6ICgKICAgICAgICA8dWwgY2xhc3NOYW1lPSJncmlkIHNtOmdyaWQtY29scy0yIGdhcC0zIj4KICAgICAgICAgIHttZW1iZXJzLm1hcCgobSkgPT4gKAogICAgICAgICAgICA8bGkga2V5PXttLmlkfSBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBwLTQgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgICAgICAgIDxMaW5rIHRvPXtgL2NvbW11bml0eS9tZW1iZXJzLyR7bS5pZH1gfSBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0zIG1pbi13LTAgZmxleC0xIj4KICAgICAgICAgICAgICAgIDxNZW1iZXJBdmF0YXIgcGF0aD17bS5hdmF0YXJfdXJsfSBuYW1lPXttLmRpc3BsYXlfbmFtZX0gY2xhc3NOYW1lPSJoLTEwIHctMTAiIC8+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCI+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGVyIHRydW5jYXRlIj57bS5kaXNwbGF5X25hbWV9PC9wPgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRydW5jYXRlIj4KICAgICAgICAgICAgICAgICAgICB7cmFua0ZvcihtLmFzY2VudENvdW50KS5jdXJyZW50Lm5hbWV9IMK3IHttLmFzY2VudENvdW50fSBhc2NlbnR7bS5hc2NlbnRDb3VudCA9PT0gMSA/ICIiIDogInMifQogICAgICAgICAgICAgICAgICAgIHttLmNvdW50cnkgPyBgIMK3ICR7bS5jb3VudHJ5fWAgOiAiIn0KICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgIHt1c2VyICYmIHVzZXIuaWQgIT09IG0uaWQgJiYgKAogICAgICAgICAgICAgICAgPEZvbGxvd0J1dHRvbgogICAgICAgICAgICAgICAgICBpc0ZvbGxvd2luZz17Zm9sbG93aW5nLmhhcyhtLmlkKX0KICAgICAgICAgICAgICAgICAgZm9sbG93ZXJDb3VudD17Zm9sbG93ZXJDb3VudHNbbS5pZF19CiAgICAgICAgICAgICAgICAgIG9uVG9nZ2xlPXsoKSA9PiB0b2dnbGVGb2xsb3cobS5pZCl9CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICApKX0KICAgICAgICA8L3VsPgogICAgICApfQogICAgPC9Db21tdW5pdHlMYXlvdXQ+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IE1lbWJlcnNQYWdlOwo=
+import { fuzzyRank } from "@/lib/fuzzy";
+import { useMemo, useState } from "react";
+import Seo from "@/components/Seo";
+import { Link } from "@/lib/router-compat";
+import { Search } from "lucide-react";
+import CommunityLayout from "@/components/community/CommunityLayout";
+import MembersOnly from "@/components/community/MembersOnly";
+import MemberAvatar from "@/components/community/MemberAvatar";
+import FollowButton from "@/components/community/FollowButton";
+import { Input } from "@/components/ui/input";
+import { useAuth } from "@/hooks/useAuth";
+import { useCommunityData } from "@/hooks/useCommunityData";
+import { useFollows } from "@/hooks/useFollows";
+import { rankFor } from "@/lib/badges";
+
+const MembersPage = () => {
+  const { user } = useAuth();
+  const { profiles, ascents, fetching } = useCommunityData();
+  const { following, followerCounts, toggleFollow } = useFollows();
+  const [query, setQuery] = useState("");
+
+  const members = useMemo(() => {
+    const counts: Record<string, number> = {};
+    ascents.forEach((a) => { counts[a.user_id] = (counts[a.user_id] ?? 0) + 1; });
+    return fuzzyRank(Object.values(profiles), query, (p) => [p.display_name, p.country])
+      .map((p) => ({ ...p, ascentCount: counts[p.id] ?? 0 }))
+      .sort((a, b) => b.ascentCount - a.ascentCount || a.display_name.localeCompare(b.display_name));
+  }, [profiles, ascents, query]);
+
+  if (!user) {
+    return (
+      <CommunityLayout>
+      <Seo
+        title="Find Climbers — Ticklelist Members"
+        description="Search Ticklelist members, follow climbers you like and see the peaks they have logged."
+        noindex
+      />
+        <MembersOnly title="Member directory is members only" description="Sign in to find climbers, follow them and see their logged ascents." />
+      </CommunityLayout>
+    );
+  }
+
+  return (
+    <CommunityLayout>
+      <Seo
+        title="Find Climbers — Ticklelist Members"
+        description="Search Ticklelist members, follow climbers you like and see the peaks they have logged."
+        noindex
+      />
+
+      <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
+        <h1 className="font-display text-2xl tracking-wider">Members</h1>
+        <div className="relative w-full sm:w-72">
+          <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground" />
+          <Input
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search by name or country"
+            className="pl-9"
+            aria-label="Search members"
+          />
+        </div>
+      </div>
+
+      {fetching ? (
+        <p className="text-muted-foreground text-sm">Loading members…</p>
+      ) : members.length === 0 ? (
+        <p className="text-muted-foreground text-sm">No members match that search.</p>
+      ) : (
+        <ul className="grid sm:grid-cols-2 gap-3">
+          {members.map((m) => (
+            <li key={m.id} className="rounded-lg border border-border bg-card p-4 flex items-center gap-3">
+              <Link to={`/community/members/${m.id}`} className="flex items-center gap-3 min-w-0 flex-1">
+                <MemberAvatar path={m.avatar_url} name={m.display_name} className="h-10 w-10" />
+                <div className="min-w-0">
+                  <p className="font-display tracking-wider truncate">{m.display_name}</p>
+                  <p className="text-xs text-muted-foreground truncate">
+                    {rankFor(m.ascentCount).current.name} · {m.ascentCount} ascent{m.ascentCount === 1 ? "" : "s"}
+                    {m.country ? ` · ${m.country}` : ""}
+                  </p>
+                </div>
+              </Link>
+              {user && user.id !== m.id && (
+                <FollowButton
+                  isFollowing={following.has(m.id)}
+                  followerCount={followerCounts[m.id]}
+                  onToggle={() => toggleFollow(m.id)}
+                />
+              )}
+            </li>
+          ))}
+        </ul>
+      )}
+    </CommunityLayout>
+  );
+};
+
+export default MembersPage;

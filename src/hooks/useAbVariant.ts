@@ -1,1 +1,40 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgdHJhY2tFdmVudCB9IGZyb20gIkAvbGliL2FuYWx5dGljcyI7CgovKioKICogTGlnaHR3ZWlnaHQsIGNsaWVudC1zaWRlIEEvQiB0ZXN0IGhhcm5lc3MuCiAqCiAqIEFzc2lnbnMgYSB2aXNpdG9yIHRvIG9uZSBvZiBgdmFyaWFudHNgIChkZWZhdWx0IFsiQSIsICJCIl0pIHRoZSBmaXJzdCB0aW1lCiAqIHRoZXkgaGl0IGEgdGVzdCwgcGVyc2lzdHMgdGhlIGNob2ljZSBpbiBsb2NhbFN0b3JhZ2Ugc28gdGhleSBzdGF5IGluIHRoZQogKiBzYW1lIGJ1Y2tldCBvbiByZXR1cm4gdmlzaXRzLCBhbmQgZmlyZXMgYSBzaW5nbGUgYGFiX2V4cG9zdXJlYCBHQTQgZXZlbnQKICogdGFnZ2VkIHdpdGggdGhlIHRlc3QgbmFtZSBhbmQgY2hvc2VuIHZhcmlhbnQgc28gY29udmVyc2lvbnMgY2FuIGJlCiAqIGNvbXBhcmVkIGluIEdBNC4KICoKICogUmVuZGVycyB0aGUgZmlyc3QgdmFyaWFudCBvbiB0aGUgc2VydmVyIGFuZCBmaXJzdCBjbGllbnQgcGFpbnQgKHNvIHRoZXJlCiAqIGlzIG5vIGh5ZHJhdGlvbiBtaXNtYXRjaCksIHRoZW4gcmVzb2x2ZXMgdGhlIHJlYWwgYnVja2V0IGluIGFuIGVmZmVjdC4KICovCmNvbnN0IFBSRUZJWCA9ICJvbV9hYl8iOwoKZXhwb3J0IGZ1bmN0aW9uIHVzZUFiVmFyaWFudCh0ZXN0OiBzdHJpbmcsIHZhcmlhbnRzOiBzdHJpbmdbXSA9IFsiQSIsICJCIl0pOiBzdHJpbmcgewogIGNvbnN0IFt2YXJpYW50LCBzZXRWYXJpYW50XSA9IHVzZVN0YXRlKHZhcmlhbnRzWzBdISk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBsZXQgdiA9IHZhcmlhbnRzWzBdITsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHN0b3JlZCA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKFBSRUZJWCArIHRlc3QpOwogICAgICBpZiAoc3RvcmVkICYmIHZhcmlhbnRzLmluY2x1ZGVzKHN0b3JlZCkpIHsKICAgICAgICB2ID0gc3RvcmVkOwogICAgICB9IGVsc2UgewogICAgICAgIHYgPSB2YXJpYW50c1tNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiB2YXJpYW50cy5sZW5ndGgpXSE7CiAgICAgICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oUFJFRklYICsgdGVzdCwgdik7CiAgICAgIH0KICAgIH0gY2F0Y2ggewogICAgICAvKiBsb2NhbFN0b3JhZ2UgYmxvY2tlZCDigJQga2VlcCB0aGUgZGVmYXVsdCB2YXJpYW50ICovCiAgICB9CiAgICBzZXRWYXJpYW50KHYpOwogICAgdHJhY2tFdmVudCgiYWJfZXhwb3N1cmUiLCB7IHRlc3QsIHZhcmlhbnQ6IHYgfSk7CiAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgcmVhY3QtaG9va3MvZXhoYXVzdGl2ZS1kZXBzCiAgfSwgW3Rlc3RdKTsKCiAgcmV0dXJuIHZhcmlhbnQ7Cn0K
+import { useEffect, useState } from "react";
+import { trackEvent } from "@/lib/analytics";
+
+/**
+ * Lightweight, client-side A/B test harness.
+ *
+ * Assigns a visitor to one of `variants` (default ["A", "B"]) the first time
+ * they hit a test, persists the choice in localStorage so they stay in the
+ * same bucket on return visits, and fires a single `ab_exposure` GA4 event
+ * tagged with the test name and chosen variant so conversions can be
+ * compared in GA4.
+ *
+ * Renders the first variant on the server and first client paint (so there
+ * is no hydration mismatch), then resolves the real bucket in an effect.
+ */
+const PREFIX = "om_ab_";
+
+export function useAbVariant(test: string, variants: string[] = ["A", "B"]): string {
+  const [variant, setVariant] = useState(variants[0]!);
+
+  useEffect(() => {
+    let v = variants[0]!;
+    try {
+      const stored = localStorage.getItem(PREFIX + test);
+      if (stored && variants.includes(stored)) {
+        v = stored;
+      } else {
+        v = variants[Math.floor(Math.random() * variants.length)]!;
+        localStorage.setItem(PREFIX + test, v);
+      }
+    } catch {
+      /* localStorage blocked — keep the default variant */
+    }
+    setVariant(v);
+    trackEvent("ab_exposure", { test, variant: v });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [test]);
+
+  return variant;
+}

@@ -1,1 +1,274 @@
-aW1wb3J0IHsgdXNlTWVtbywgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IENoZWNrLCBDaXJjbGUsIExpc3RQbHVzLCBNb3VudGFpbiwgVHJvcGh5LCBUcmVuZGluZ1VwIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKCmltcG9ydCBTZW8gZnJvbSAiQC9jb21wb25lbnRzL1NlbyI7CmltcG9ydCB7IExpbmsgfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKaW1wb3J0IENvbW11bml0eUxheW91dCBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L0NvbW11bml0eUxheW91dCI7CmltcG9ydCBNZW1iZXJzT25seSBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L01lbWJlcnNPbmx5IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgUHJvZ3Jlc3MgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvcHJvZ3Jlc3MiOwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAiQC9ob29rcy91c2VBdXRoIjsKaW1wb3J0IHsgdXNlQ29tbXVuaXR5RGF0YSB9IGZyb20gIkAvaG9va3MvdXNlQ29tbXVuaXR5RGF0YSI7CmltcG9ydCB7IHVzZUR5bmFtaWNQZWFrTGlzdCwgdXNlUGVha0NvdW50cmllcywgdHlwZSBEeW5hbWljUGVhayB9IGZyb20gIkAvaG9va3MvdXNlRHluYW1pY1BlYWtMaXN0IjsKaW1wb3J0IHsgdXNlVW5pdHMgfSBmcm9tICJAL2hvb2tzL3VzZVVuaXRzIjsKaW1wb3J0IHsgZm9ybWF0RWxldmF0aW9uIH0gZnJvbSAiQC9saWIvdW5pdHMiOwppbXBvcnQgeyB4cEZvckFzY2VudCwgZm9ybWF0WHAgfSBmcm9tICJAL2xpYi94cCI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiOwoKY29uc3Qgbm9ybSA9IChzOiBzdHJpbmcpID0+CiAgcwogICAgLnRvTG93ZXJDYXNlKCkKICAgIC5ub3JtYWxpemUoIk5GRCIpCiAgICAucmVwbGFjZSgvW1x1MDMwMC1cdTAzNmZdL2csICIiKQogICAgLnJlcGxhY2UoL1teYS16MC05XSsvZywgIiAiKQogICAgLnRyaW0oKTsKCmNvbnN0IHBlYWtYcCA9IChwZWFrOiBEeW5hbWljUGVhaykgPT4KICB4cEZvckFzY2VudCh7CiAgICBwZWFrX3R5cGU6ICJmYW1vdXNfcGVhayIsCiAgICBjb3VudHJ5OiBudWxsLAogICAgcGVha19uYW1lOiBwZWFrLm5hbWUsCiAgICBlbGV2YXRpb246IHBlYWsuZWxldmF0aW9uID8gYCR7cGVhay5lbGV2YXRpb259IG1gIDogbnVsbCwKICB9KS54cDsKCmNvbnN0IHByZXNldHM6IHsgbGFiZWw6IHN0cmluZzsgbWluRWxldmF0aW9uOiBudW1iZXIgfCBudWxsOyBtaW5Qcm9taW5lbmNlOiBudW1iZXIgfCBudWxsIH1bXSA9IFsKICB7IGxhYmVsOiAiUDYwMCB1bHRyYXMtbGl0ZSIsIG1pbkVsZXZhdGlvbjogbnVsbCwgbWluUHJvbWluZW5jZTogNjAwIH0sCiAgeyBsYWJlbDogIlAxNTAwIHVsdHJhcyIsIG1pbkVsZXZhdGlvbjogbnVsbCwgbWluUHJvbWluZW5jZTogMTUwMCB9LAogIHsgbGFiZWw6ICIyMDAwIG0rIiwgbWluRWxldmF0aW9uOiAyMDAwLCBtaW5Qcm9taW5lbmNlOiBudWxsIH0sCiAgeyBsYWJlbDogIjQwMDAgbSsiLCBtaW5FbGV2YXRpb246IDQwMDAsIG1pblByb21pbmVuY2U6IG51bGwgfSwKICB7IGxhYmVsOiAiRXZlcnl0aGluZyBiaWcgKDMwMDAgbSArIFAzMDApIiwgbWluRWxldmF0aW9uOiAzMDAwLCBtaW5Qcm9taW5lbmNlOiAzMDAgfSwKXTsKCmNvbnN0IExpc3RCdWlsZGVyUGFnZSA9ICgpID0+IHsKICBjb25zdCB7IHVzZXIgfSA9IHVzZUF1dGgoKTsKICBjb25zdCB1bml0cyA9IHVzZVVuaXRzKCk7CiAgY29uc3QgY291bnRyaWVzID0gdXNlUGVha0NvdW50cmllcygpOwogIGNvbnN0IHsgYXNjZW50cyB9ID0gdXNlQ29tbXVuaXR5RGF0YSgpOwoKICBjb25zdCBbY291bnRyeSwgc2V0Q291bnRyeV0gPSB1c2VTdGF0ZTxzdHJpbmc+KCIiKTsKICBjb25zdCBbbWluRWxldmF0aW9uLCBzZXRNaW5FbGV2YXRpb25dID0gdXNlU3RhdGU8c3RyaW5nPigiMTAwMCIpOwogIGNvbnN0IFttaW5Qcm9taW5lbmNlLCBzZXRNaW5Qcm9taW5lbmNlXSA9IHVzZVN0YXRlPHN0cmluZz4oIjYwMCIpOwogIGNvbnN0IFtzb3J0LCBzZXRTb3J0XSA9IHVzZVN0YXRlPCJlbGV2YXRpb24iIHwgInByb21pbmVuY2UiPigicHJvbWluZW5jZSIpOwogIGNvbnN0IFtsaW1pdCwgc2V0TGltaXRdID0gdXNlU3RhdGUoNTApOwoKICBjb25zdCBxdWVyeSA9IHVzZU1lbW8oCiAgICAoKSA9PiAoewogICAgICBjb3VudHJ5OiBjb3VudHJ5IHx8IG51bGwsCiAgICAgIG1pbkVsZXZhdGlvbjogTnVtYmVyKG1pbkVsZXZhdGlvbikgPiAwID8gTnVtYmVyKG1pbkVsZXZhdGlvbikgOiBudWxsLAogICAgICBtaW5Qcm9taW5lbmNlOiBOdW1iZXIobWluUHJvbWluZW5jZSkgPiAwID8gTnVtYmVyKG1pblByb21pbmVuY2UpIDogbnVsbCwKICAgICAgc29ydCwKICAgICAgbGltaXQsCiAgICB9KSwKICAgIFtjb3VudHJ5LCBtaW5FbGV2YXRpb24sIG1pblByb21pbmVuY2UsIHNvcnQsIGxpbWl0XSwKICApOwoKICBjb25zdCB7IHBlYWtzLCB0b3RhbCwgbG9hZGluZywgZXJyb3IgfSA9IHVzZUR5bmFtaWNQZWFrTGlzdChxdWVyeSk7CgogIGNvbnN0IGNsaW1iZWROYW1lcyA9IHVzZU1lbW8oKCkgPT4gewogICAgY29uc3Qgc2V0ID0gbmV3IFNldDxzdHJpbmc+KCk7CiAgICBhc2NlbnRzLmZpbHRlcigoYSkgPT4gYS51c2VyX2lkID09PSB1c2VyPy5pZCkuZm9yRWFjaCgoYSkgPT4gc2V0LmFkZChub3JtKGEucGVha19uYW1lKSkpOwogICAgcmV0dXJuIHNldDsKICB9LCBbYXNjZW50cywgdXNlcj8uaWRdKTsKCiAgY29uc3Qgcm93cyA9IHVzZU1lbW8oCiAgICAoKSA9PiBwZWFrcy5tYXAoKHApID0+ICh7IHBlYWs6IHAsIGRvbmU6IGNsaW1iZWROYW1lcy5oYXMobm9ybShwLm5hbWUpKSwgeHA6IHBlYWtYcChwKSB9KSksCiAgICBbcGVha3MsIGNsaW1iZWROYW1lc10sCiAgKTsKCiAgY29uc3QgZG9uZUNvdW50ID0gcm93cy5maWx0ZXIoKHIpID0+IHIuZG9uZSkubGVuZ3RoOwogIGNvbnN0IGVhcm5lZFhwID0gcm93cy5maWx0ZXIoKHIpID0+IHIuZG9uZSkucmVkdWNlKChzdW0sIHIpID0+IHN1bSArIHIueHAsIDApOwogIGNvbnN0IHRvdGFsWHAgPSByb3dzLnJlZHVjZSgoc3VtLCByKSA9PiBzdW0gKyByLnhwLCAwKTsKICBjb25zdCBwY3QgPSByb3dzLmxlbmd0aCA/IE1hdGgucm91bmQoKGRvbmVDb3VudCAvIHJvd3MubGVuZ3RoKSAqIDEwMCkgOiAwOwoKICBjb25zdCBjb3VudHJ5TGFiZWwgPSBjb3VudHJpZXMuZmluZCgoYykgPT4gYy5jb2RlID09PSBjb3VudHJ5KT8ubmFtZSA/PyAidGhlIHdvcmxkIjsKICBjb25zdCBsaXN0VGl0bGUgPSBgJHsKICAgIHF1ZXJ5Lm1pblByb21pbmVuY2UgPyBgUCR7cXVlcnkubWluUHJvbWluZW5jZX0gYCA6ICIiCiAgfSR7cXVlcnkubWluRWxldmF0aW9uID8gYCR7cXVlcnkubWluRWxldmF0aW9ufSBtKyBgIDogIiJ9cGVha3Mgb2YgJHtjb3VudHJ5TGFiZWx9YDsKCiAgcmV0dXJuICgKICAgIDxDb21tdW5pdHlMYXlvdXQ+CiAgICAgIDxTZW8KICAgICAgICB0aXRsZT0iUGVhayBsaXN0IGJ1aWxkZXIgfCBUaWNrbGVsaXN0IgogICAgICAgIGRlc2NyaXB0aW9uPSJCdWlsZCB5b3VyIG93biBsaXZlIHBlYWsgbGlzdCDigJQgcGljayBhIGNvdW50cnksIG1pbmltdW0gaGVpZ2h0IGFuZCBtaW5pbXVtIHByb21pbmVuY2UsIGFuZCB0cmFjayB5b3VyIHByb2dyZXNzIGFuZCBYUCBhZ2FpbnN0IGl0LiIKICAgICAgICBwYXRoPSIvY29tbXVuaXR5L2xpc3QtYnVpbGRlciIKICAgICAgLz4KICAgICAgeyF1c2VyID8gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJweC00IHB5LTEwIj4KICAgICAgICAgIDxNZW1iZXJzT25seSAvPgogICAgICAgIDwvZGl2PgogICAgICApIDogKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTR4bCBweC00IHB5LTgiPgogICAgICAgICAgPGhlYWRlciBjbGFzc05hbWU9Im1iLTYiPgogICAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICA8TGlzdFBsdXMgY2xhc3NOYW1lPSJoLTYgdy02IHRleHQtcHJpbWFyeSIgLz4gTGlzdCBidWlsZGVyCiAgICAgICAgICAgIDwvaDE+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIEdlbmVyYXRlIGFueSBjaGFsbGVuZ2UgeW91IGxpa2UgZnJvbSB0aGUgMS4zIG1pbGxpb24gcGVhayBjYXRhbG9ndWUg4oCUIGNvdW50cnksIGhlaWdodAogICAgICAgICAgICAgIGFuZCBwcm9taW5lbmNlIOKAlCB0aGVuIHRyYWNrIGl0IGxpdmUuIFByb21pbmVuY2UgZGF0YSBpcyBzdGlsbCBiZWluZyBiYWNrZmlsbGVkCiAgICAgICAgICAgICAgd29ybGR3aWRlLCBzbyBoZWlnaHQgZmlsdGVycyBjb3ZlciBtb3JlIHBlYWtzIHJpZ2h0IG5vdy4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9oZWFkZXI+CgogICAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQvNjAgcC00Ij4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ2FwLTMgc206Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTQiPgogICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9InRleHQtc20iPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtYi0xIGJsb2NrIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+Q291bnRyeTwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzZWxlY3QKICAgICAgICAgICAgICAgICAgdmFsdWU9e2NvdW50cnl9CiAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0Q291bnRyeShlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaC0xMCB3LWZ1bGwgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWlucHV0IGJnLWJhY2tncm91bmQgcHgtMyB0ZXh0LXNtIHRleHQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iIj5Xb3JsZHdpZGU8L29wdGlvbj4KICAgICAgICAgICAgICAgICAge2NvdW50cmllcy5tYXAoKGMpID0+ICgKICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIGtleT17Yy5jb2RlfSB2YWx1ZT17Yy5jb2RlfT4KICAgICAgICAgICAgICAgICAgICAgIHtjLm5hbWV9CiAgICAgICAgICAgICAgICAgICAgPC9vcHRpb24+CiAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgICAgICAgPC9sYWJlbD4KCiAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0idGV4dC1zbSI+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1iLTEgYmxvY2sgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5NaW4gZWxldmF0aW9uIChtKTwvc3Bhbj4KICAgICAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgICAgICB0eXBlPSJudW1iZXIiCiAgICAgICAgICAgICAgICAgIG1pbj17MH0KICAgICAgICAgICAgICAgICAgdmFsdWU9e21pbkVsZXZhdGlvbn0KICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRNaW5FbGV2YXRpb24oZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8L2xhYmVsPgoKICAgICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJ0ZXh0LXNtIj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibWItMSBibG9jayB0ZXh0LW11dGVkLWZvcmVncm91bmQiPk1pbiBwcm9taW5lbmNlIChtKTwvc3Bhbj4KICAgICAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgICAgICB0eXBlPSJudW1iZXIiCiAgICAgICAgICAgICAgICAgIG1pbj17MH0KICAgICAgICAgICAgICAgICAgdmFsdWU9e21pblByb21pbmVuY2V9CiAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0TWluUHJvbWluZW5jZShlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvbGFiZWw+CgogICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9InRleHQtc20iPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtYi0xIGJsb2NrIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+UmFuayBieTwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzZWxlY3QKICAgICAgICAgICAgICAgICAgdmFsdWU9e3NvcnR9CiAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0U29ydChlLnRhcmdldC52YWx1ZSBhcyAiZWxldmF0aW9uIiB8ICJwcm9taW5lbmNlIil9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaC0xMCB3LWZ1bGwgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWlucHV0IGJnLWJhY2tncm91bmQgcHgtMyB0ZXh0LXNtIHRleHQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0icHJvbWluZW5jZSI+UHJvbWluZW5jZTwvb3B0aW9uPgogICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJlbGV2YXRpb24iPkVsZXZhdGlvbjwvb3B0aW9uPgogICAgICAgICAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMyBmbGV4IGZsZXgtd3JhcCBnYXAtMiI+CiAgICAgICAgICAgICAge3ByZXNldHMubWFwKChwKSA9PiAoCiAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgIGtleT17cC5sYWJlbH0KICAgICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9InNlY29uZGFyeSIKICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gewogICAgICAgICAgICAgICAgICAgIHNldE1pbkVsZXZhdGlvbihwLm1pbkVsZXZhdGlvbiA/IFN0cmluZyhwLm1pbkVsZXZhdGlvbikgOiAiMCIpOwogICAgICAgICAgICAgICAgICAgIHNldE1pblByb21pbmVuY2UocC5taW5Qcm9taW5lbmNlID8gU3RyaW5nKHAubWluUHJvbWluZW5jZSkgOiAiMCIpOwogICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7cC5sYWJlbH0KICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0zIGZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgPHNwYW4+U2hvdyB0b3A8L3NwYW4+CiAgICAgICAgICAgICAge1syNSwgNTAsIDEwMCwgMjAwLCAzMDBdLm1hcCgobikgPT4gKAogICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICBrZXk9e259CiAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldExpbWl0KG4pfQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2NuKAogICAgICAgICAgICAgICAgICAgICJyb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIHB4LTIgcHktMSIsCiAgICAgICAgICAgICAgICAgICAgbGltaXQgPT09IG4gPyAiYmctcHJpbWFyeSB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCIgOiAiaG92ZXI6Ymctc2Vjb25kYXJ5IiwKICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAge259CiAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJtdC02IHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZC82MCBwLTQiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtYmFzZWxpbmUganVzdGlmeS1iZXR3ZWVuIGdhcC0yIj4KICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtc2VtaWJvbGQgdGV4dC1mb3JlZ3JvdW5kIj57bGlzdFRpdGxlfTwvaDI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICB7bG9hZGluZwogICAgICAgICAgICAgICAgICA/ICJCdWlsZGluZ+KApiIKICAgICAgICAgICAgICAgICAgOiBgJHtyb3dzLmxlbmd0aH0gc2hvd24gb2YgJHt0b3RhbCA+PSA1MDAwID8gIjUsMDAwKyIgOiB0b3RhbC50b0xvY2FsZVN0cmluZygpfSBtYXRjaGluZyBwZWFrc2B9CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPFByb2dyZXNzIHZhbHVlPXtwY3R9IGNsYXNzTmFtZT0ibXQtMyIgLz4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTIgZmxleCBmbGV4LXdyYXAgZ2FwLTQgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEiPgogICAgICAgICAgICAgICAgPENoZWNrIGNsYXNzTmFtZT0iaC00IHctNCB0ZXh0LXByaW1hcnkiIC8+IHtkb25lQ291bnR9L3tyb3dzLmxlbmd0aH0gY2xpbWJlZCAoe3BjdH0lKQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xIj4KICAgICAgICAgICAgICAgIDxUcm9waHkgY2xhc3NOYW1lPSJoLTQgdy00IHRleHQtcHJpbWFyeSIgLz4ge2Zvcm1hdFhwKGVhcm5lZFhwKX0gWFAgZWFybmVkIMK3eyIgIn0KICAgICAgICAgICAgICAgIHtmb3JtYXRYcCh0b3RhbFhwKX0gWFAgb24gdGhlIHRhYmxlCiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgICB7ZXJyb3IgJiYgPHAgY2xhc3NOYW1lPSJtdC00IHRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSI+e2Vycm9yfTwvcD59CgogICAgICAgICAgPHVsIGNsYXNzTmFtZT0ibXQtNCBzcGFjZS15LTIiPgogICAgICAgICAgICB7cm93cy5tYXAoKHsgcGVhaywgZG9uZSwgeHAgfSwgaSkgPT4gKAogICAgICAgICAgICAgIDxsaQogICAgICAgICAgICAgICAga2V5PXtwZWFrLmlkfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAgICAgICAgICAgImZsZXggaXRlbXMtY2VudGVyIGdhcC0zIHJvdW5kZWQtbGcgYm9yZGVyIHAtMyIsCiAgICAgICAgICAgICAgICAgIGRvbmUgPyAiYm9yZGVyLXByaW1hcnkvNDAgYmctcHJpbWFyeS81IiA6ICJib3JkZXItYm9yZGVyIGJnLWNhcmQvNjAiLAogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InctNyBzaHJpbmstMCB0ZXh0LXJpZ2h0IHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAge2kgKyAxfQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAge2RvbmUgPyAoCiAgICAgICAgICAgICAgICAgIDxDaGVjayBjbGFzc05hbWU9ImgtNCB3LTQgc2hyaW5rLTAgdGV4dC1wcmltYXJ5IiAvPgogICAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgICAgPENpcmNsZSBjbGFzc05hbWU9ImgtNCB3LTQgc2hyaW5rLTAgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiAvPgogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4tdy0wIGZsZXgtMSI+CiAgICAgICAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAgICAgICAgdG89e2AvcGVha3MvJHtwZWFrLmlkfWB9CiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmb250LW1lZGl1bSB0ZXh0LWZvcmVncm91bmQgaG92ZXI6dGV4dC1wcmltYXJ5IGhvdmVyOnVuZGVybGluZSIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHtwZWFrLm5hbWV9CiAgICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgICB7W3BlYWsuYWRtaW4xLCBwZWFrLmNvdW50cnlDb2RlXS5maWx0ZXIoQm9vbGVhbikuam9pbigiLCAiKSB8fCAi4oCUIn0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICA8TW91bnRhaW4gY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgICAgICAge2Zvcm1hdEVsZXZhdGlvbihwZWFrLmVsZXZhdGlvbiwgdW5pdHMpID8/ICLigJQifQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJoaWRkZW4gaXRlbXMtY2VudGVyIGdhcC0xIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHNtOmZsZXgiPgogICAgICAgICAgICAgICAgICA8VHJlbmRpbmdVcCBjbGFzc05hbWU9ImgtMy41IHctMy41IiAvPgogICAgICAgICAgICAgICAgICB7Zm9ybWF0RWxldmF0aW9uKHBlYWsucHJvbWluZW5jZSwgdW5pdHMpID8/ICLigJQifQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ3LTE2IHNocmluay0wIHRleHQtcmlnaHQgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICB7Zm9ybWF0WHAoeHApfSBYUAogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC91bD4KCiAgICAgICAgICB7IWxvYWRpbmcgJiYgcm93cy5sZW5ndGggPT09IDAgJiYgKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTYgdGV4dC1jZW50ZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICBObyBwZWFrcyBtYXRjaCB0aG9zZSBmaWx0ZXJzIHlldCDigJQgbG93ZXIgdGhlIHByb21pbmVuY2UgYmFyIG9yIHBpY2sgYW5vdGhlciBjb3VudHJ5LgogICAgICAgICAgICA8L3A+CiAgICAgICAgICApfQogICAgICAgIDwvZGl2PgogICAgICApfQogICAgPC9Db21tdW5pdHlMYXlvdXQ+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IExpc3RCdWlsZGVyUGFnZTsK
+import { useMemo, useState } from "react";
+import { Check, Circle, ListPlus, Mountain, Trophy, TrendingUp } from "lucide-react";
+
+import Seo from "@/components/Seo";
+import { Link } from "@/lib/router-compat";
+import CommunityLayout from "@/components/community/CommunityLayout";
+import MembersOnly from "@/components/community/MembersOnly";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Progress } from "@/components/ui/progress";
+import { useAuth } from "@/hooks/useAuth";
+import { useCommunityData } from "@/hooks/useCommunityData";
+import { useDynamicPeakList, usePeakCountries, type DynamicPeak } from "@/hooks/useDynamicPeakList";
+import { useUnits } from "@/hooks/useUnits";
+import { formatElevation } from "@/lib/units";
+import { xpForAscent, formatXp } from "@/lib/xp";
+import { cn } from "@/lib/utils";
+
+const norm = (s: string) =>
+  s
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+
+const peakXp = (peak: DynamicPeak) =>
+  xpForAscent({
+    peak_type: "famous_peak",
+    country: null,
+    peak_name: peak.name,
+    elevation: peak.elevation ? `${peak.elevation} m` : null,
+  }).xp;
+
+const presets: { label: string; minElevation: number | null; minProminence: number | null }[] = [
+  { label: "P600 ultras-lite", minElevation: null, minProminence: 600 },
+  { label: "P1500 ultras", minElevation: null, minProminence: 1500 },
+  { label: "2000 m+", minElevation: 2000, minProminence: null },
+  { label: "4000 m+", minElevation: 4000, minProminence: null },
+  { label: "Everything big (3000 m + P300)", minElevation: 3000, minProminence: 300 },
+];
+
+const ListBuilderPage = () => {
+  const { user } = useAuth();
+  const units = useUnits();
+  const countries = usePeakCountries();
+  const { ascents } = useCommunityData();
+
+  const [country, setCountry] = useState<string>("");
+  const [minElevation, setMinElevation] = useState<string>("1000");
+  const [minProminence, setMinProminence] = useState<string>("600");
+  const [sort, setSort] = useState<"elevation" | "prominence">("prominence");
+  const [limit, setLimit] = useState(50);
+
+  const query = useMemo(
+    () => ({
+      country: country || null,
+      minElevation: Number(minElevation) > 0 ? Number(minElevation) : null,
+      minProminence: Number(minProminence) > 0 ? Number(minProminence) : null,
+      sort,
+      limit,
+    }),
+    [country, minElevation, minProminence, sort, limit],
+  );
+
+  const { peaks, total, loading, error } = useDynamicPeakList(query);
+
+  const climbedNames = useMemo(() => {
+    const set = new Set<string>();
+    ascents.filter((a) => a.user_id === user?.id).forEach((a) => set.add(norm(a.peak_name)));
+    return set;
+  }, [ascents, user?.id]);
+
+  const rows = useMemo(
+    () => peaks.map((p) => ({ peak: p, done: climbedNames.has(norm(p.name)), xp: peakXp(p) })),
+    [peaks, climbedNames],
+  );
+
+  const doneCount = rows.filter((r) => r.done).length;
+  const earnedXp = rows.filter((r) => r.done).reduce((sum, r) => sum + r.xp, 0);
+  const totalXp = rows.reduce((sum, r) => sum + r.xp, 0);
+  const pct = rows.length ? Math.round((doneCount / rows.length) * 100) : 0;
+
+  const countryLabel = countries.find((c) => c.code === country)?.name ?? "the world";
+  const listTitle = `${
+    query.minProminence ? `P${query.minProminence} ` : ""
+  }${query.minElevation ? `${query.minElevation} m+ ` : ""}peaks of ${countryLabel}`;
+
+  return (
+    <CommunityLayout>
+      <Seo
+        title="Peak list builder | Ticklelist"
+        description="Build your own live peak list — pick a country, minimum height and minimum prominence, and track your progress and XP against it."
+        path="/community/list-builder"
+      />
+      {!user ? (
+        <div className="px-4 py-10">
+          <MembersOnly />
+        </div>
+      ) : (
+        <div className="mx-auto max-w-4xl px-4 py-8">
+          <header className="mb-6">
+            <h1 className="flex items-center gap-2 text-2xl font-bold text-foreground">
+              <ListPlus className="h-6 w-6 text-primary" /> List builder
+            </h1>
+            <p className="mt-1 text-muted-foreground">
+              Generate any challenge you like from the 1.3 million peak catalogue — country, height
+              and prominence — then track it live. Prominence data is still being backfilled
+              worldwide, so height filters cover more peaks right now.
+            </p>
+          </header>
+
+          <section className="rounded-lg border border-border bg-card/60 p-4">
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              <label className="text-sm">
+                <span className="mb-1 block text-muted-foreground">Country</span>
+                <select
+                  value={country}
+                  onChange={(e) => setCountry(e.target.value)}
+                  className="h-10 w-full rounded-md border border-input bg-background px-3 text-sm text-foreground"
+                >
+                  <option value="">Worldwide</option>
+                  {countries.map((c) => (
+                    <option key={c.code} value={c.code}>
+                      {c.name}
+                    </option>
+                  ))}
+                </select>
+              </label>
+
+              <label className="text-sm">
+                <span className="mb-1 block text-muted-foreground">Min elevation (m)</span>
+                <Input
+                  type="number"
+                  min={0}
+                  value={minElevation}
+                  onChange={(e) => setMinElevation(e.target.value)}
+                />
+              </label>
+
+              <label className="text-sm">
+                <span className="mb-1 block text-muted-foreground">Min prominence (m)</span>
+                <Input
+                  type="number"
+                  min={0}
+                  value={minProminence}
+                  onChange={(e) => setMinProminence(e.target.value)}
+                />
+              </label>
+
+              <label className="text-sm">
+                <span className="mb-1 block text-muted-foreground">Rank by</span>
+                <select
+                  value={sort}
+                  onChange={(e) => setSort(e.target.value as "elevation" | "prominence")}
+                  className="h-10 w-full rounded-md border border-input bg-background px-3 text-sm text-foreground"
+                >
+                  <option value="prominence">Prominence</option>
+                  <option value="elevation">Elevation</option>
+                </select>
+              </label>
+            </div>
+
+            <div className="mt-3 flex flex-wrap gap-2">
+              {presets.map((p) => (
+                <Button
+                  key={p.label}
+                  size="sm"
+                  variant="secondary"
+                  onClick={() => {
+                    setMinElevation(p.minElevation ? String(p.minElevation) : "0");
+                    setMinProminence(p.minProminence ? String(p.minProminence) : "0");
+                  }}
+                >
+                  {p.label}
+                </Button>
+              ))}
+            </div>
+
+            <div className="mt-3 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+              <span>Show top</span>
+              {[25, 50, 100, 200, 300].map((n) => (
+                <button
+                  key={n}
+                  onClick={() => setLimit(n)}
+                  className={cn(
+                    "rounded-md border border-border px-2 py-1",
+                    limit === n ? "bg-primary text-primary-foreground" : "hover:bg-secondary",
+                  )}
+                >
+                  {n}
+                </button>
+              ))}
+            </div>
+          </section>
+
+          <section className="mt-6 rounded-lg border border-border bg-card/60 p-4">
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <h2 className="text-lg font-semibold text-foreground">{listTitle}</h2>
+              <span className="text-sm text-muted-foreground">
+                {loading
+                  ? "Building…"
+                  : `${rows.length} shown of ${total >= 5000 ? "5,000+" : total.toLocaleString()} matching peaks`}
+              </span>
+            </div>
+            <Progress value={pct} className="mt-3" />
+            <div className="mt-2 flex flex-wrap gap-4 text-sm text-muted-foreground">
+              <span className="flex items-center gap-1">
+                <Check className="h-4 w-4 text-primary" /> {doneCount}/{rows.length} climbed ({pct}%)
+              </span>
+              <span className="flex items-center gap-1">
+                <Trophy className="h-4 w-4 text-primary" /> {formatXp(earnedXp)} XP earned ·{" "}
+                {formatXp(totalXp)} XP on the table
+              </span>
+            </div>
+          </section>
+
+          {error && <p className="mt-4 text-sm text-destructive">{error}</p>}
+
+          <ul className="mt-4 space-y-2">
+            {rows.map(({ peak, done, xp }, i) => (
+              <li
+                key={peak.id}
+                className={cn(
+                  "flex items-center gap-3 rounded-lg border p-3",
+                  done ? "border-primary/40 bg-primary/5" : "border-border bg-card/60",
+                )}
+              >
+                <span className="w-7 shrink-0 text-right text-xs text-muted-foreground">
+                  {i + 1}
+                </span>
+                {done ? (
+                  <Check className="h-4 w-4 shrink-0 text-primary" />
+                ) : (
+                  <Circle className="h-4 w-4 shrink-0 text-muted-foreground" />
+                )}
+                <div className="min-w-0 flex-1">
+                  <Link
+                    to={`/peaks/${peak.id}`}
+                    className="font-medium text-foreground hover:text-primary hover:underline"
+                  >
+                    {peak.name}
+                  </Link>
+                  <div className="text-xs text-muted-foreground">
+                    {[peak.admin1, peak.countryCode].filter(Boolean).join(", ") || "—"}
+                  </div>
+                </div>
+                <span className="flex items-center gap-1 text-sm text-muted-foreground">
+                  <Mountain className="h-3.5 w-3.5" />
+                  {formatElevation(peak.elevation, units) ?? "—"}
+                </span>
+                <span className="hidden items-center gap-1 text-sm text-muted-foreground sm:flex">
+                  <TrendingUp className="h-3.5 w-3.5" />
+                  {formatElevation(peak.prominence, units) ?? "—"}
+                </span>
+                <span className="w-16 shrink-0 text-right text-xs text-muted-foreground">
+                  {formatXp(xp)} XP
+                </span>
+              </li>
+            ))}
+          </ul>
+
+          {!loading && rows.length === 0 && (
+            <p className="mt-6 text-center text-muted-foreground">
+              No peaks match those filters yet — lower the prominence bar or pick another country.
+            </p>
+          )}
+        </div>
+      )}
+    </CommunityLayout>
+  );
+};
+
+export default ListBuilderPage;

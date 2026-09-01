@@ -1,1 +1,218 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQnVnLCBMaWZlQnVveSwgU2VuZCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CgppbXBvcnQgU2VvIGZyb20gIkAvY29tcG9uZW50cy9TZW8iOwppbXBvcnQgQ29tbXVuaXR5TGF5b3V0IGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvQ29tbXVuaXR5TGF5b3V0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBUZXh0YXJlYSB9IGZyb20gIkAvY29tcG9uZW50cy91aS90ZXh0YXJlYSI7CmltcG9ydCB7IHVzZUF1dGggfSBmcm9tICJAL2hvb2tzL3VzZUF1dGgiOwppbXBvcnQgeyB0b2FzdCB9IGZyb20gIkAvaG9va3MvdXNlLXRvYXN0IjsKaW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwoKdHlwZSBDYXRlZ29yeSA9ICJidWciIHwgImlkZWEiIHwgInF1ZXN0aW9uIiB8ICJvdGhlciI7CgppbnRlcmZhY2UgQnVnUmVwb3J0IHsKICBpZDogc3RyaW5nOwogIHJlcG9ydGVyX2lkOiBzdHJpbmcgfCBudWxsOwogIGNvbnRhY3RfZW1haWw6IHN0cmluZyB8IG51bGw7CiAgcGFnZV9wYXRoOiBzdHJpbmcgfCBudWxsOwogIGNhdGVnb3J5OiBzdHJpbmc7CiAgc3ViamVjdDogc3RyaW5nOwogIGRldGFpbHM6IHN0cmluZzsKICBzdGF0dXM6IHN0cmluZzsKICBjcmVhdGVkX2F0OiBzdHJpbmc7Cn0KCmNvbnN0IENBVEVHT1JJRVM6IHsgdmFsdWU6IENhdGVnb3J5OyBsYWJlbDogc3RyaW5nIH1bXSA9IFsKICB7IHZhbHVlOiAiYnVnIiwgbGFiZWw6ICJCdWciIH0sCiAgeyB2YWx1ZTogImlkZWEiLCBsYWJlbDogIklkZWEiIH0sCiAgeyB2YWx1ZTogInF1ZXN0aW9uIiwgbGFiZWw6ICJRdWVzdGlvbiIgfSwKICB7IHZhbHVlOiAib3RoZXIiLCBsYWJlbDogIk90aGVyIiB9LApdOwoKY29uc3QgU1RBVFVTRVMgPSBbIm9wZW4iLCAiaW5fcHJvZ3Jlc3MiLCAicmVzb2x2ZWQiLCAiY2xvc2VkIl07Cgpjb25zdCB3aGVuID0gKGlzbzogc3RyaW5nKSA9PiBuZXcgRGF0ZShpc28pLnRvTG9jYWxlU3RyaW5nKCk7CgovKiogSGVscCAmIHN1cHBvcnQ6IGZpbGUgYSBidWcgcmVwb3J0IHRoYXQgbGFuZHMgaW4gdGhlIGFkbWluIGluYm94LiAqLwpjb25zdCBIZWxwUGFnZSA9ICgpID0+IHsKICBjb25zdCB7IHVzZXIsIGlzQWRtaW4gfSA9IHVzZUF1dGgoKTsKICBjb25zdCBbY2F0ZWdvcnksIHNldENhdGVnb3J5XSA9IHVzZVN0YXRlPENhdGVnb3J5PigiYnVnIik7CiAgY29uc3QgW3N1YmplY3QsIHNldFN1YmplY3RdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtkZXRhaWxzLCBzZXREZXRhaWxzXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbZW1haWwsIHNldEVtYWlsXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbc2VuZGluZywgc2V0U2VuZGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW3JlcG9ydHMsIHNldFJlcG9ydHNdID0gdXNlU3RhdGU8QnVnUmVwb3J0W10+KFtdKTsKCiAgY29uc3QgbG9hZFJlcG9ydHMgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoIXVzZXIpIHJldHVybjsKICAgIGNvbnN0IHsgZGF0YSB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgLmZyb20oImJ1Z19yZXBvcnRzIikKICAgICAgLnNlbGVjdCgiaWQsIHJlcG9ydGVyX2lkLCBjb250YWN0X2VtYWlsLCBwYWdlX3BhdGgsIGNhdGVnb3J5LCBzdWJqZWN0LCBkZXRhaWxzLCBzdGF0dXMsIGNyZWF0ZWRfYXQiKQogICAgICAub3JkZXIoImNyZWF0ZWRfYXQiLCB7IGFzY2VuZGluZzogZmFsc2UgfSkKICAgICAgLmxpbWl0KDEwMCk7CiAgICBzZXRSZXBvcnRzKChkYXRhIGFzIEJ1Z1JlcG9ydFtdKSA/PyBbXSk7CiAgfTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGxvYWRSZXBvcnRzKCk7CiAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgcmVhY3QtaG9va3MvZXhoYXVzdGl2ZS1kZXBzCiAgfSwgW3VzZXI/LmlkXSk7CgogIGNvbnN0IHN1Ym1pdCA9IGFzeW5jICgpID0+IHsKICAgIGlmICghc3ViamVjdC50cmltKCkgfHwgIWRldGFpbHMudHJpbSgpKSB7CiAgICAgIHRvYXN0KHsgdGl0bGU6ICJBbG1vc3QgdGhlcmUiLCBkZXNjcmlwdGlvbjogIkFkZCBhIHNob3J0IHRpdGxlIGFuZCBhIGRlc2NyaXB0aW9uLiIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHNldFNlbmRpbmcodHJ1ZSk7CiAgICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCJidWdfcmVwb3J0cyIpLmluc2VydCh7CiAgICAgIHJlcG9ydGVyX2lkOiB1c2VyPy5pZCA/PyBudWxsLAogICAgICBjb250YWN0X2VtYWlsOiBlbWFpbC50cmltKCkgfHwgbnVsbCwKICAgICAgcGFnZV9wYXRoOiB0eXBlb2Ygd2luZG93ICE9PSAidW5kZWZpbmVkIiA/IHdpbmRvdy5sb2NhdGlvbi5wYXRobmFtZSA6IG51bGwsCiAgICAgIGNhdGVnb3J5LAogICAgICBzdWJqZWN0OiBzdWJqZWN0LnRyaW0oKS5zbGljZSgwLCAxNDApLAogICAgICBkZXRhaWxzOiBkZXRhaWxzLnRyaW0oKS5zbGljZSgwLCA0MDAwKSwKICAgIH0pOwogICAgc2V0U2VuZGluZyhmYWxzZSk7CiAgICBpZiAoZXJyb3IpIHsKICAgICAgdG9hc3QoeyB0aXRsZTogIkNvdWxkIG5vdCBzZW5kIiwgZGVzY3JpcHRpb246IGVycm9yLm1lc3NhZ2UsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHNldFN1YmplY3QoIiIpOwogICAgc2V0RGV0YWlscygiIik7CiAgICB0b2FzdCh7IHRpdGxlOiAiVGhhbmtzISIsIGRlc2NyaXB0aW9uOiAiWW91ciByZXBvcnQgbGFuZGVkIGluIHRoZSBhZG1pbiBpbmJveC4iIH0pOwogICAgbG9hZFJlcG9ydHMoKTsKICB9OwoKICBjb25zdCBzZXRTdGF0dXMgPSBhc3luYyAoaWQ6IHN0cmluZywgc3RhdHVzOiBzdHJpbmcpID0+IHsKICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oImJ1Z19yZXBvcnRzIikudXBkYXRlKHsgc3RhdHVzIH0pLmVxKCJpZCIsIGlkKTsKICAgIGlmIChlcnJvcikgewogICAgICB0b2FzdCh7IHRpdGxlOiAiQ291bGQgbm90IHVwZGF0ZSIsIGRlc2NyaXB0aW9uOiBlcnJvci5tZXNzYWdlLCB2YXJpYW50OiAiZGVzdHJ1Y3RpdmUiIH0pOwogICAgICByZXR1cm47CiAgICB9CiAgICBzZXRSZXBvcnRzKChycykgPT4gcnMubWFwKChyKSA9PiAoci5pZCA9PT0gaWQgPyB7IC4uLnIsIHN0YXR1cyB9IDogcikpKTsKICB9OwoKICByZXR1cm4gKAogICAgPENvbW11bml0eUxheW91dD4KICAgICAgPFNlbwogICAgICAgIHRpdGxlPSJIZWxwICYgYnVnIHJlcG9ydHMg4oCUIFRpY2tsZWxpc3QiCiAgICAgICAgZGVzY3JpcHRpb249IkZvdW5kIHNvbWV0aGluZyBicm9rZW4gb24gVGlja2xlbGlzdD8gUmVwb3J0IGEgYnVnIG9yIHNlbmQgYW4gaWRlYSBzdHJhaWdodCB0byB0aGUgdGVhbS4iCiAgICAgICAgcGF0aD0iL2NvbW11bml0eS9oZWxwIgogICAgICAvPgoKICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIG1iLTIiPgogICAgICAgIDxMaWZlQnVveSBjbGFzc05hbWU9InctNSBoLTUgdGV4dC1wcmltYXJ5IiAvPgogICAgICAgIDxoMSBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTJ4bCB0cmFja2luZy13aWRlciI+SGVscCAmIGJ1ZyByZXBvcnRzPC9oMT4KICAgICAgPC9kaXY+CiAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbWItNiI+CiAgICAgICAgU29tZXRoaW5nIG5vdCB3b3JraW5nLCBhIHdyb25nIGVsZXZhdGlvbiwgb3IgYW4gaWRlYSBmb3IgdGhlIGFwcD8gU2VuZCBpdCBoZXJlIOKAlCBpdCBnb2VzIHN0cmFpZ2h0IHRvIHRoZSBhZG1pbgogICAgICAgIGluYm94IGluIHRoZSBjb21tdW5pdHkuCiAgICAgIDwvcD4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQgcC01IHNwYWNlLXktNCI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxMYWJlbCBjbGFzc05hbWU9Im1iLTIgYmxvY2siPlR5cGU8L0xhYmVsPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0yIj4KICAgICAgICAgICAge0NBVEVHT1JJRVMubWFwKChjKSA9PiAoCiAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAga2V5PXtjLnZhbHVlfQogICAgICAgICAgICAgICAgc2l6ZT0ic20iCiAgICAgICAgICAgICAgICB2YXJpYW50PXtjYXRlZ29yeSA9PT0gYy52YWx1ZSA/ICJkZWZhdWx0IiA6ICJzZWNvbmRhcnkifQogICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0Q2F0ZWdvcnkoYy52YWx1ZSl9CiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge2MubGFiZWx9CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXY+CiAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0ic3ViamVjdCI+VGl0bGU8L0xhYmVsPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIGlkPSJzdWJqZWN0IgogICAgICAgICAgICB2YWx1ZT17c3ViamVjdH0KICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRTdWJqZWN0KGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgbWF4TGVuZ3RoPXsxNDB9CiAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJIZWlnaHRzIHNob3cgaW4gZmVldCBpbnN0ZWFkIG9mIG1ldHJlcyIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXY+CiAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0iZGV0YWlscyI+V2hhdCBoYXBwZW5lZD88L0xhYmVsPgogICAgICAgICAgPFRleHRhcmVhCiAgICAgICAgICAgIGlkPSJkZXRhaWxzIgogICAgICAgICAgICB2YWx1ZT17ZGV0YWlsc30KICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXREZXRhaWxzKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgcm93cz17Nn0KICAgICAgICAgICAgbWF4TGVuZ3RoPXs0MDAwfQogICAgICAgICAgICBwbGFjZWhvbGRlcj0iV2hlcmUgeW91IHdlcmUsIHdoYXQgeW91IGRpZCwgd2hhdCB5b3UgZXhwZWN0ZWQgYW5kIHdoYXQgaGFwcGVuZWQgaW5zdGVhZC4iCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgoKICAgICAgICB7IXVzZXIgJiYgKAogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPExhYmVsIGh0bWxGb3I9ImVtYWlsIj5Zb3VyIGVtYWlsIChvcHRpb25hbCk8L0xhYmVsPgogICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICBpZD0iZW1haWwiCiAgICAgICAgICAgICAgdHlwZT0iZW1haWwiCiAgICAgICAgICAgICAgdmFsdWU9e2VtYWlsfQogICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0RW1haWwoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgIG1heExlbmd0aD17MTIwfQogICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJzbyB3ZSBjYW4gcmVwbHkiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQoKICAgICAgICA8QnV0dG9uIG9uQ2xpY2s9e3N1Ym1pdH0gZGlzYWJsZWQ9e3NlbmRpbmd9PgogICAgICAgICAgPFNlbmQgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTEiIC8+IHtzZW5kaW5nID8gIlNlbmRpbmfigKYiIDogIlNlbmQgcmVwb3J0In0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CgogICAgICB7dXNlciAmJiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTgiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIG1iLTMiPgogICAgICAgICAgICA8QnVnIGNsYXNzTmFtZT0idy00IGgtNCB0ZXh0LXByaW1hcnkiIC8+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlciB0ZXh0LWxnIj57aXNBZG1pbiA/ICJSZXBvcnQgaW5ib3giIDogIllvdXIgcmVwb3J0cyJ9PC9oMj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAge3JlcG9ydHMubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5Ob3RoaW5nIGhlcmUgeWV0LjwvcD4KICAgICAgICAgICkgOiAoCiAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9InNwYWNlLXktMyI+CiAgICAgICAgICAgICAge3JlcG9ydHMubWFwKChyKSA9PiAoCiAgICAgICAgICAgICAgICA8bGkga2V5PXtyLmlkfSBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBwLTQiPgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy1bMC4yZW1dIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXByaW1hcnkiPntyLmNhdGVnb3J5fTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8c3Bhbj7CtyB7ci5zdGF0dXMucmVwbGFjZSgiXyIsICIgIil9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxzcGFuPsK3IHt3aGVuKHIuY3JlYXRlZF9hdCl9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIHtyLnBhZ2VfcGF0aCAmJiA8c3Bhbj7CtyB7ci5wYWdlX3BhdGh9PC9zcGFuPn0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGUgbXQtMSI+e3Iuc3ViamVjdH08L3A+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgd2hpdGVzcGFjZS1wcmUtd3JhcCBtdC0xIj57ci5kZXRhaWxzfTwvcD4KICAgICAgICAgICAgICAgICAge2lzQWRtaW4gJiYgKAogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiBtdC0zIj4KICAgICAgICAgICAgICAgICAgICAgIHtTVEFUVVNFUy5tYXAoKHMpID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgIGtleT17c30KICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50PXtyLnN0YXR1cyA9PT0gcyA/ICJkZWZhdWx0IiA6ICJzZWNvbmRhcnkifQogICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldFN0YXR1cyhyLmlkLCBzKX0KICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgIHtzLnJlcGxhY2UoIl8iLCAiICIpfQogICAgICAgICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC91bD4KICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CiAgICAgICl9CiAgICA8L0NvbW11bml0eUxheW91dD4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgSGVscFBhZ2U7Cg==
+import { useEffect, useState } from "react";
+import { Bug, LifeBuoy, Send } from "lucide-react";
+
+import Seo from "@/components/Seo";
+import CommunityLayout from "@/components/community/CommunityLayout";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { useAuth } from "@/hooks/useAuth";
+import { toast } from "@/hooks/use-toast";
+import { supabase } from "@/integrations/supabase/client";
+
+type Category = "bug" | "idea" | "question" | "other";
+
+interface BugReport {
+  id: string;
+  reporter_id: string | null;
+  contact_email: string | null;
+  page_path: string | null;
+  category: string;
+  subject: string;
+  details: string;
+  status: string;
+  created_at: string;
+}
+
+const CATEGORIES: { value: Category; label: string }[] = [
+  { value: "bug", label: "Bug" },
+  { value: "idea", label: "Idea" },
+  { value: "question", label: "Question" },
+  { value: "other", label: "Other" },
+];
+
+const STATUSES = ["open", "in_progress", "resolved", "closed"];
+
+const when = (iso: string) => new Date(iso).toLocaleString();
+
+/** Help & support: file a bug report that lands in the admin inbox. */
+const HelpPage = () => {
+  const { user, isAdmin } = useAuth();
+  const [category, setCategory] = useState<Category>("bug");
+  const [subject, setSubject] = useState("");
+  const [details, setDetails] = useState("");
+  const [email, setEmail] = useState("");
+  const [sending, setSending] = useState(false);
+  const [reports, setReports] = useState<BugReport[]>([]);
+
+  const loadReports = async () => {
+    if (!user) return;
+    const { data } = await supabase
+      .from("bug_reports")
+      .select("id, reporter_id, contact_email, page_path, category, subject, details, status, created_at")
+      .order("created_at", { ascending: false })
+      .limit(100);
+    setReports((data as BugReport[]) ?? []);
+  };
+
+  useEffect(() => {
+    loadReports();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [user?.id]);
+
+  const submit = async () => {
+    if (!subject.trim() || !details.trim()) {
+      toast({ title: "Almost there", description: "Add a short title and a description." });
+      return;
+    }
+    setSending(true);
+    const { error } = await supabase.from("bug_reports").insert({
+      reporter_id: user?.id ?? null,
+      contact_email: email.trim() || null,
+      page_path: typeof window !== "undefined" ? window.location.pathname : null,
+      category,
+      subject: subject.trim().slice(0, 140),
+      details: details.trim().slice(0, 4000),
+    });
+    setSending(false);
+    if (error) {
+      toast({ title: "Could not send", description: error.message, variant: "destructive" });
+      return;
+    }
+    setSubject("");
+    setDetails("");
+    toast({ title: "Thanks!", description: "Your report landed in the admin inbox." });
+    loadReports();
+  };
+
+  const setStatus = async (id: string, status: string) => {
+    const { error } = await supabase.from("bug_reports").update({ status }).eq("id", id);
+    if (error) {
+      toast({ title: "Could not update", description: error.message, variant: "destructive" });
+      return;
+    }
+    setReports((rs) => rs.map((r) => (r.id === id ? { ...r, status } : r)));
+  };
+
+  return (
+    <CommunityLayout>
+      <Seo
+        title="Help & bug reports — Ticklelist"
+        description="Found something broken on Ticklelist? Report a bug or send an idea straight to the team."
+        path="/community/help"
+      />
+
+      <div className="flex items-center gap-2 mb-2">
+        <LifeBuoy className="w-5 h-5 text-primary" />
+        <h1 className="font-display text-2xl tracking-wider">Help & bug reports</h1>
+      </div>
+      <p className="text-sm text-muted-foreground mb-6">
+        Something not working, a wrong elevation, or an idea for the app? Send it here — it goes straight to the admin
+        inbox in the community.
+      </p>
+
+      <div className="rounded-lg border border-border bg-card p-5 space-y-4">
+        <div>
+          <Label className="mb-2 block">Type</Label>
+          <div className="flex flex-wrap gap-2">
+            {CATEGORIES.map((c) => (
+              <Button
+                key={c.value}
+                size="sm"
+                variant={category === c.value ? "default" : "secondary"}
+                onClick={() => setCategory(c.value)}
+              >
+                {c.label}
+              </Button>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <Label htmlFor="subject">Title</Label>
+          <Input
+            id="subject"
+            value={subject}
+            onChange={(e) => setSubject(e.target.value)}
+            maxLength={140}
+            placeholder="Heights show in feet instead of metres"
+          />
+        </div>
+
+        <div>
+          <Label htmlFor="details">What happened?</Label>
+          <Textarea
+            id="details"
+            value={details}
+            onChange={(e) => setDetails(e.target.value)}
+            rows={6}
+            maxLength={4000}
+            placeholder="Where you were, what you did, what you expected and what happened instead."
+          />
+        </div>
+
+        {!user && (
+          <div>
+            <Label htmlFor="email">Your email (optional)</Label>
+            <Input
+              id="email"
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              maxLength={120}
+              placeholder="so we can reply"
+            />
+          </div>
+        )}
+
+        <Button onClick={submit} disabled={sending}>
+          <Send className="w-4 h-4 mr-1" /> {sending ? "Sending…" : "Send report"}
+        </Button>
+      </div>
+
+      {user && (
+        <div className="mt-8">
+          <div className="flex items-center gap-2 mb-3">
+            <Bug className="w-4 h-4 text-primary" />
+            <h2 className="font-display tracking-wider text-lg">{isAdmin ? "Report inbox" : "Your reports"}</h2>
+          </div>
+          {reports.length === 0 ? (
+            <p className="text-sm text-muted-foreground">Nothing here yet.</p>
+          ) : (
+            <ul className="space-y-3">
+              {reports.map((r) => (
+                <li key={r.id} className="rounded-lg border border-border bg-card p-4">
+                  <div className="flex flex-wrap items-center gap-2 text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
+                    <span className="text-primary">{r.category}</span>
+                    <span>· {r.status.replace("_", " ")}</span>
+                    <span>· {when(r.created_at)}</span>
+                    {r.page_path && <span>· {r.page_path}</span>}
+                  </div>
+                  <p className="font-display tracking-wide mt-1">{r.subject}</p>
+                  <p className="text-sm text-muted-foreground whitespace-pre-wrap mt-1">{r.details}</p>
+                  {isAdmin && (
+                    <div className="flex flex-wrap gap-2 mt-3">
+                      {STATUSES.map((s) => (
+                        <Button
+                          key={s}
+                          size="sm"
+                          variant={r.status === s ? "default" : "secondary"}
+                          onClick={() => setStatus(r.id, s)}
+                        >
+                          {s.replace("_", " ")}
+                        </Button>
+                      ))}
+                    </div>
+                  )}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
+    </CommunityLayout>
+  );
+};
+
+export default HelpPage;

@@ -1,1 +1,25 @@
-aW1wb3J0IHsgdXNlUXVlcnkgfSBmcm9tICJAdGFuc3RhY2svcmVhY3QtcXVlcnkiOwppbXBvcnQgeyBzdXBhYmFzZSB9IGZyb20gIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudCI7CgpleHBvcnQgaW50ZXJmYWNlIENvdW50cnlXYXJuaW5nIHsKICBjb3VudHJ5X25hbWU6IHN0cmluZzsKICBhZHZpc29yeV9sZXZlbDogbnVtYmVyOwogIGFkdmlzb3J5X3RleHQ6IHN0cmluZyB8IG51bGw7CiAgbGFzdF9jaGVja2VkX2F0OiBzdHJpbmc7Cn0KCmV4cG9ydCBmdW5jdGlvbiB1c2VDb3VudHJ5V2FybmluZ3MoKSB7CiAgcmV0dXJuIHVzZVF1ZXJ5KHsKICAgIHF1ZXJ5S2V5OiBbImNvdW50cnktd2FybmluZ3MiXSwKICAgIHF1ZXJ5Rm46IGFzeW5jICgpOiBQcm9taXNlPENvdW50cnlXYXJuaW5nW10+ID0+IHsKICAgICAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgICAuZnJvbSgiY291bnRyeV93YXJuaW5ncyIpCiAgICAgICAgLnNlbGVjdCgiY291bnRyeV9uYW1lLCBhZHZpc29yeV9sZXZlbCwgYWR2aXNvcnlfdGV4dCwgbGFzdF9jaGVja2VkX2F0IikKICAgICAgICAub3JkZXIoImFkdmlzb3J5X2xldmVsIiwgeyBhc2NlbmRpbmc6IGZhbHNlIH0pOwoKICAgICAgaWYgKGVycm9yKSB0aHJvdyBlcnJvcjsKICAgICAgcmV0dXJuIGRhdGEgPz8gW107CiAgICB9LAogICAgc3RhbGVUaW1lOiAxMDAwICogNjAgKiAzMCwgLy8gMzAgbWluCiAgfSk7Cn0K
+import { useQuery } from "@tanstack/react-query";
+import { supabase } from "@/integrations/supabase/client";
+
+export interface CountryWarning {
+  country_name: string;
+  advisory_level: number;
+  advisory_text: string | null;
+  last_checked_at: string;
+}
+
+export function useCountryWarnings() {
+  return useQuery({
+    queryKey: ["country-warnings"],
+    queryFn: async (): Promise<CountryWarning[]> => {
+      const { data, error } = await supabase
+        .from("country_warnings")
+        .select("country_name, advisory_level, advisory_text, last_checked_at")
+        .order("advisory_level", { ascending: false });
+
+      if (error) throw error;
+      return data ?? [];
+    },
+    staleTime: 1000 * 60 * 30, // 30 min
+  });
+}

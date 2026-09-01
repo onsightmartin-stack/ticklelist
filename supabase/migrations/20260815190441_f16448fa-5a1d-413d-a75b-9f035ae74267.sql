@@ -1,1 +1,58 @@
-Q1JFQVRFIE9SIFJFUExBQ0UgRlVOQ1RJT04gcHVibGljLnNlYXJjaF93b3JsZF9wZWFrcygKICBfcSB0ZXh0LAogIF9saW1pdCBpbnRlZ2VyIERFRkFVTFQgMjAsCiAgX2NvdW50cnkgdGV4dCBERUZBVUxUIE5VTEwsCiAgX21pbl9lbGV2YXRpb24gaW50ZWdlciBERUZBVUxUIE5VTEwsCiAgX21pbl9wcm9taW5lbmNlIGludGVnZXIgREVGQVVMVCBOVUxMCikKUkVUVVJOUyBUQUJMRSgKICBpZCBiaWdpbnQsCiAgbmFtZSB0ZXh0LAogIGxhdCBkb3VibGUgcHJlY2lzaW9uLAogIGxvbiBkb3VibGUgcHJlY2lzaW9uLAogIGZlYXR1cmVfY29kZSB0ZXh0LAogIGNvdW50cnlfY29kZSB0ZXh0LAogIGFkbWluMSB0ZXh0LAogIGVsZXZhdGlvbiBpbnRlZ2VyLAogIHByb21pbmVuY2UgaW50ZWdlcgopCkxBTkdVQUdFIHBscGdzcWwKU1RBQkxFClNFVCBzZWFyY2hfcGF0aCBUTyAncHVibGljJwpBUyAkZnVuY3Rpb24kCkRFQ0xBUkUKICBuIHRleHQgOj0gcHVibGljLnBlYWtfbm9ybShjb2FsZXNjZShfcSwgJycpKTsKQkVHSU4KICBJRiBsZW5ndGgobikgPCAyIFRIRU4KICAgIFJFVFVSTjsKICBFTkQgSUY7CgogIFJFVFVSTiBRVUVSWQogIFNFTEVDVCBwLmlkLCBwLm5hbWUsIHAubGF0LCBwLmxvbiwgcC5mZWF0dXJlX2NvZGUsIHAuY291bnRyeV9jb2RlLCBwLmFkbWluMSwgcC5lbGV2YXRpb24sIHAucHJvbWluZW5jZQogIEZST00gcHVibGljLndvcmxkX3BlYWtzIHAKICBXSEVSRSAoCiAgICAgIHB1YmxpYy5wZWFrX25vcm0ocC5uYW1lKSBMSUtFIG4gfHwgJyUnCiAgICAgIE9SIG4gT1BFUkFUT1IocHVibGljLjwlKSBwdWJsaWMucGVha19ub3JtKHAubmFtZSkKICAgICkKICAgIEFORCAoX2NvdW50cnkgSVMgTlVMTCBPUiBwLmNvdW50cnlfY29kZSA9IF9jb3VudHJ5KQogICAgQU5EIChfbWluX2VsZXZhdGlvbiBJUyBOVUxMIE9SIHAuZWxldmF0aW9uID49IF9taW5fZWxldmF0aW9uKQogICAgQU5EIChfbWluX3Byb21pbmVuY2UgSVMgTlVMTCBPUiBwLnByb21pbmVuY2UgPj0gX21pbl9wcm9taW5lbmNlKQogIE9SREVSIEJZCiAgICAocHVibGljLnBlYWtfbm9ybShwLm5hbWUpID0gbikgREVTQywKICAgIChwdWJsaWMucGVha19ub3JtKHAubmFtZSkgTElLRSBuIHx8ICclJykgREVTQywKICAgIENBU0UgcC5mZWF0dXJlX2NvZGUKICAgICAgV0hFTiAnUEsnIFRIRU4gMAogICAgICBXSEVOICdWTEMnIFRIRU4gMAogICAgICBXSEVOICdNVCcgVEhFTiAxCiAgICAgIFdIRU4gJ01UUycgVEhFTiAyCiAgICAgIFdIRU4gJ0hMTCcgVEhFTiAzCiAgICAgIFdIRU4gJ0hMTFMnIFRIRU4gMwogICAgICBFTFNFIDQKICAgIEVORCwKICAgIHB1YmxpYy5zaW1pbGFyaXR5KHB1YmxpYy5wZWFrX25vcm0ocC5uYW1lKSwgbikgREVTQywKICAgIHAuZWxldmF0aW9uIERFU0MgTlVMTFMgTEFTVAogIExJTUlUIExFQVNUKEdSRUFURVNUKGNvYWxlc2NlKF9saW1pdCwgMjApLCAxKSwgNTApOwpFTkQ7CiRmdW5jdGlvbiQ7CgpHUkFOVCBFWEVDVVRFIE9OIEZVTkNUSU9OIHB1YmxpYy5zZWFyY2hfd29ybGRfcGVha3ModGV4dCwgaW50ZWdlciwgdGV4dCwgaW50ZWdlciwgaW50ZWdlcikgVE8gYW5vbiwgYXV0aGVudGljYXRlZDs=
+CREATE OR REPLACE FUNCTION public.search_world_peaks(
+  _q text,
+  _limit integer DEFAULT 20,
+  _country text DEFAULT NULL,
+  _min_elevation integer DEFAULT NULL,
+  _min_prominence integer DEFAULT NULL
+)
+RETURNS TABLE(
+  id bigint,
+  name text,
+  lat double precision,
+  lon double precision,
+  feature_code text,
+  country_code text,
+  admin1 text,
+  elevation integer,
+  prominence integer
+)
+LANGUAGE plpgsql
+STABLE
+SET search_path TO 'public'
+AS $function$
+DECLARE
+  n text := public.peak_norm(coalesce(_q, ''));
+BEGIN
+  IF length(n) < 2 THEN
+    RETURN;
+  END IF;
+
+  RETURN QUERY
+  SELECT p.id, p.name, p.lat, p.lon, p.feature_code, p.country_code, p.admin1, p.elevation, p.prominence
+  FROM public.world_peaks p
+  WHERE (
+      public.peak_norm(p.name) LIKE n || '%'
+      OR n OPERATOR(public.<%) public.peak_norm(p.name)
+    )
+    AND (_country IS NULL OR p.country_code = _country)
+    AND (_min_elevation IS NULL OR p.elevation >= _min_elevation)
+    AND (_min_prominence IS NULL OR p.prominence >= _min_prominence)
+  ORDER BY
+    (public.peak_norm(p.name) = n) DESC,
+    (public.peak_norm(p.name) LIKE n || '%') DESC,
+    CASE p.feature_code
+      WHEN 'PK' THEN 0
+      WHEN 'VLC' THEN 0
+      WHEN 'MT' THEN 1
+      WHEN 'MTS' THEN 2
+      WHEN 'HLL' THEN 3
+      WHEN 'HLLS' THEN 3
+      ELSE 4
+    END,
+    public.similarity(public.peak_norm(p.name), n) DESC,
+    p.elevation DESC NULLS LAST
+  LIMIT LEAST(GREATEST(coalesce(_limit, 20), 1), 50);
+END;
+$function$;
+
+GRANT EXECUTE ON FUNCTION public.search_world_peaks(text, integer, text, integer, integer) TO anon, authenticated;

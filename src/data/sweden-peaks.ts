@@ -1,1 +1,128 @@
-aW1wb3J0IHR5cGUgeyBGYW1vdXNQZWFrIH0gZnJvbSAiLi9mYW1vdXMtcGVha3MiOwppbXBvcnQgdHlwZSB7IExhdExuZyB9IGZyb20gIi4vcGVhay1jb29yZGluYXRlcyI7CgovKioKICogU3dlZGlzaCBzdW1taXRzIOKAlCB0aGUgc21hbGwgb25lcyBmaXJzdC4KICoKICogU3dlZGVuJ3MgY2xhc3NpYyAidGlueSBtb3VudGFpbnMiIGFyZSB0YWJsZSBtb3VudGFpbnMsIHJpZGdlcyAow6VzYXIpIGFuZAogKiBjb2FzdGFsIGNsaWZmcyB0aGF0IHJhcmVseSBicmVhayA0MDAgbSBidXQgc3RpbGwgZmVlbCBsaWtlIHJlYWwgc3VtbWl0cy4KICogRWxldmF0aW9ucyBmb2xsb3cgTGFudG3DpHRlcmlldCAvIGNvbW1vbmx5IGNpdGVkIGZpZ3VyZXMuCiAqLwoKY29uc3QgdGlueSA9IChuYW1lOiBzdHJpbmcsIGVsZXZhdGlvbjogbnVtYmVyKTogRmFtb3VzUGVhayA9PiAoewogIG5hbWUsCiAgZWxldmF0aW9uOiBgJHtlbGV2YXRpb259IG1gLAogIGNvdW50cnk6ICJTd2VkZW4iLAogIGdyb3VwOiAiU3dlZGVuIOKAlCB0aW55IG1vdW50YWlucyIsCn0pOwoKY29uc3QgZmphbGwgPSAobmFtZTogc3RyaW5nLCBlbGV2YXRpb246IG51bWJlcik6IEZhbW91c1BlYWsgPT4gKHsKICBuYW1lLAogIGVsZXZhdGlvbjogYCR7ZWxldmF0aW9uLnRvTG9jYWxlU3RyaW5nKCJlbi1VUyIpfSBtYCwKICBjb3VudHJ5OiAiU3dlZGVuIiwKICBncm91cDogIlN3ZWRlbiDigJQgZmrDpGxsIGNsYXNzaWNzIiwKfSk7CgpleHBvcnQgY29uc3Qgc3dlZGVuVGlueVBlYWtzOiBGYW1vdXNQZWFrW10gPSBbCiAgLy8g4pSA4pSAIEjDtmdhIEt1c3RlbiAvIMOFbmdlcm1hbmxhbmQg4pSA4pSACiAgdGlueSgiU2t1bGViZXJnZXQiLCAyOTQpLAogIHRpbnkoIlNsw6V0dGRhbHNiZXJnZXQiLCAyODApLAogIHRpbnkoIk1qw6RsdMO2biIsIDIzNiksCiAgdGlueSgiVsOlcmRrYXNiZXJnZXQgKEjDpHJuw7ZzYW5kKSIsIDE3NSksCiAgdGlueSgiVmFydnNiZXJnZXQgKMOWcm5za8O2bGRzdmlrKSIsIDE3NCksCiAgdGlueSgiU8O2ZHJhIGJlcmdldCAoU3VuZHN2YWxsKSIsIDEzMiksCiAgdGlueSgiTm9ycmEgYmVyZ2V0IChTdW5kc3ZhbGwpIiwgMTA4KSwKCiAgLy8g4pSA4pSAIFbDpHN0Z8O2dGFiZXJnZW4gKHRoZSB0YWJsZSBtb3VudGFpbnMpIOKUgOKUgAogIHRpbnkoIktpbm5la3VsbGUiLCAzMDYpLAogIHRpbnkoIkJpbGxpbmdlbiIsIDMwNCksCiAgdGlueSgiTcO2c3NlYmVyZyIsIDMyNSksCiAgdGlueSgiw4VsbGViZXJnIiwgMzMwKSwKICB0aW55KCJIYWxsZWJlcmciLCAxNTgpLAogIHRpbnkoIkh1bm5lYmVyZyIsIDE1NCksCiAgdGlueSgiR2FsdMOlc2VuIiwgMzYyKSwKICB0aW55KCJLcm9wcGVmasOkbGwiLCAyMjApLAoKICAvLyDilIDilIAgw5ZzdGVyZ8O2dGxhbmQgLyBTbcOlbGFuZCDilIDilIAKICB0aW55KCJPbWJlcmciLCAyNjMpLAogIHRpbnkoIlRvbXRhYmFja2VuIiwgMzc3KSwKICB0aW55KCJUYWJlcmciLCAzNDMpLAoKICAvLyDilIDilIAgU2vDpW5lLCBCbGVraW5nZSAmIEhhbGxhbmQg4pSA4pSACiAgdGlueSgiU8O2ZGVyw6VzZW4gKEtvcHBhcmhhdHRlbikiLCAyMTIpLAogIHRpbnkoIkt1bGxhYmVyZyAoSMOla3VsbCkiLCAxODcpLAogIHRpbnkoIkhhbGxhbmRzw6VzZW4gKEjDtmdhbHRla25hbGwpIiwgMjI2KSwKICB0aW55KCJSb21lbGVrbGludCIsIDE3NSksCiAgdGlueSgiTGluZGVyw7Zkc8Olc2VuIiwgMTk2KSwKICB0aW55KCJJdsO2IEtsYWNrIiwgMTQ1KSwKICB0aW55KCJTdGVuc2h1dnVkIiwgOTcpLAogIHRpbnkoIlLDpHZhYmFja2VuIiwgMTg5KSwKCiAgLy8g4pSA4pSAIElzbGFuZHMgJiBjaXR5IGhpbGxzIOKUgOKUgAogIHRpbnkoIkxvanN0YSBoZWQgKEdvdGxhbmQpIiwgODMpLAogIHRpbnkoIkjDtmdzcnVtICjDlmxhbmQpIiwgNTcpLAogIHRpbnkoIlJhbWJlcmdldCAoR8O2dGVib3JnKSIsIDg3KSwKICB0aW55KCJIYW1tYXJieWJhY2tlbiAoU3RvY2tob2xtKSIsIDkzKSwKICB0aW55KCJCasO2cm5lcGlrZW4gKEJvaHVzbMOkbikiLCAyMjIpLAoKICAvLyDilIDilIAgRmrDpGxsIGNsYXNzaWNzLCBmb3Igc2NhbGUg4pSA4pSACiAgZmphbGwoIlN0b3J2w6R0dGVzaMOlZ25hIiwgMTIwNCksCiAgZmphbGwoIkhlbGFnc2Zqw6RsbGV0IiwgMTc5NiksCiAgZmphbGwoIlN0b3JzeWxlbiIsIDE3MjgpLAogIGZqYWxsKCLDhXJlc2t1dGFuIiwgMTQyMCksCiAgZmphbGwoIlNvbmZqw6RsbGV0IiwgMTI3OCksCiAgZmphbGwoIk5pcGZqw6RsbGV0IiwgMTE5MSksCiAgZmphbGwoIlN0w6RkamFuIiwgMTEzMSksCiAgZmphbGwoIkZ1bHVmasOkbGxldCIsIDEwNDQpLAogIGZqYWxsKCJOdW9samEiLCAxMTY5KSwKICBmamFsbCgiR3JhbmJlcmdldCAoVsOkcm1sYW5kKSIsIDcwMSksCl07CgpleHBvcnQgY29uc3Qgc3dlZGVuVGlueVBlYWtDb29yZGluYXRlczogUmVjb3JkPHN0cmluZywgTGF0TG5nPiA9IHsKICAiU2t1bGViZXJnZXQiOiB7IGxhdDogNjMuMTAwMCwgbG5nOiAxOC41MzMzIH0sCiAgIlNsw6V0dGRhbHNiZXJnZXQiOiB7IGxhdDogNjMuMTc1MCwgbG5nOiAxOC41MDAwIH0sCiAgIk1qw6RsdMO2biI6IHsgbGF0OiA2My4wMzMzLCBsbmc6IDE4LjY1MDAgfSwKICAiVsOlcmRrYXNiZXJnZXQgKEjDpHJuw7ZzYW5kKSI6IHsgbGF0OiA2Mi42MzAwLCBsbmc6IDE3LjkyMDAgfSwKICAiVmFydnNiZXJnZXQgKMOWcm5za8O2bGRzdmlrKSI6IHsgbGF0OiA2My4yODMwLCBsbmc6IDE4LjcwODAgfSwKICAiU8O2ZHJhIGJlcmdldCAoU3VuZHN2YWxsKSI6IHsgbGF0OiA2Mi4zNzYwLCBsbmc6IDE3LjMwMDAgfSwKICAiTm9ycmEgYmVyZ2V0IChTdW5kc3ZhbGwpIjogeyBsYXQ6IDYyLjQwMjAsIGxuZzogMTcuMzEyMCB9LAoKICAiS2lubmVrdWxsZSI6IHsgbGF0OiA1OC41ODMzLCBsbmc6IDEzLjQwMDAgfSwKICAiQmlsbGluZ2VuIjogeyBsYXQ6IDU4LjQyMDAsIGxuZzogMTMuNzUwMCB9LAogICJNw7Zzc2ViZXJnIjogeyBsYXQ6IDU4LjE4MDAsIGxuZzogMTMuNTMwMCB9LAogICLDhWxsZWJlcmciOiB7IGxhdDogNTguMTI1MCwgbG5nOiAxMy42NTAwIH0sCiAgIkhhbGxlYmVyZyI6IHsgbGF0OiA1OC4zODAwLCBsbmc6IDEyLjQ1MDAgfSwKICAiSHVubmViZXJnIjogeyBsYXQ6IDU4LjM0MDAsIGxuZzogMTIuNDYwMCB9LAogICJHYWx0w6VzZW4iOiB7IGxhdDogNTcuNTcwMCwgbG5nOiAxMy4zMzAwIH0sCiAgIktyb3BwZWZqw6RsbCI6IHsgbGF0OiA1OC41ODAwLCBsbmc6IDEyLjM4MDAgfSwKCiAgIk9tYmVyZyI6IHsgbGF0OiA1OC4zMzAwLCBsbmc6IDE0LjY0MDAgfSwKICAiVG9tdGFiYWNrZW4iOiB7IGxhdDogNTcuNTAwMCwgbG5nOiAxNC4zMDAwIH0sCiAgIlRhYmVyZyI6IHsgbGF0OiA1Ny42ODAwLCBsbmc6IDE0LjA3MDAgfSwKCiAgIlPDtmRlcsOlc2VuIChLb3BwYXJoYXR0ZW4pIjogeyBsYXQ6IDU2LjAzMDAsIGxuZzogMTMuMjIwMCB9LAogICJLdWxsYWJlcmcgKEjDpWt1bGwpIjogeyBsYXQ6IDU2LjMwMDAsIGxuZzogMTIuNDcwMCB9LAogICJIYWxsYW5kc8Olc2VuIChIw7ZnYWx0ZWtuYWxsKSI6IHsgbGF0OiA1Ni4zNzAwLCBsbmc6IDEzLjA0MDAgfSwKICAiUm9tZWxla2xpbnQiOiB7IGxhdDogNTUuNTYwMCwgbG5nOiAxMy40MzAwIH0sCiAgIkxpbmRlcsO2ZHPDpXNlbiI6IHsgbGF0OiA1NS45MjAwLCBsbmc6IDEzLjgzMDAgfSwKICAiSXbDtiBLbGFjayI6IHsgbGF0OiA1Ni4xMzAwLCBsbmc6IDE0LjQwMDAgfSwKICAiU3RlbnNodXZ1ZCI6IHsgbGF0OiA1NS42NTIwLCBsbmc6IDE0LjI3MDAgfSwKICAiUsOkdmFiYWNrZW4iOiB7IGxhdDogNTYuMzQwMCwgbG5nOiAxNC42NzAwIH0sCgogICJMb2pzdGEgaGVkIChHb3RsYW5kKSI6IHsgbGF0OiA1Ny4zNTAwLCBsbmc6IDE4LjQyMDAgfSwKICAiSMO2Z3NydW0gKMOWbGFuZCkiOiB7IGxhdDogNTYuNjYwMCwgbG5nOiAxNi41MzAwIH0sCiAgIlJhbWJlcmdldCAoR8O2dGVib3JnKSI6IHsgbGF0OiA1Ny43MTUwLCBsbmc6IDExLjk0MjAgfSwKICAiSGFtbWFyYnliYWNrZW4gKFN0b2NraG9sbSkiOiB7IGxhdDogNTkuMjk4MCwgbG5nOiAxOC4wOTMwIH0sCiAgIkJqw7ZybmVwaWtlbiAoQm9odXNsw6RuKSI6IHsgbGF0OiA1OC43ODAwLCBsbmc6IDExLjc1MDAgfSwKCiAgIlN0b3J2w6R0dGVzaMOlZ25hIjogeyBsYXQ6IDYyLjEzMDAsIGxuZzogMTIuNDIwMCB9LAogICJIZWxhZ3NmasOkbGxldCI6IHsgbGF0OiA2Mi45MjAwLCBsbmc6IDEyLjUzMDAgfSwKICAiU3RvcnN5bGVuIjogeyBsYXQ6IDYzLjAzMDAsIGxuZzogMTIuMjIwMCB9LAogICLDhXJlc2t1dGFuIjogeyBsYXQ6IDYzLjQzMDAsIGxuZzogMTMuMDgwMCB9LAogICJTb25masOkbGxldCI6IHsgbGF0OiA2Mi4zMDAwLCBsbmc6IDEzLjMwMDAgfSwKICAiTmlwZmrDpGxsZXQiOiB7IGxhdDogNjEuOTUwMCwgbG5nOiAxMi42ODAwIH0sCiAgIlN0w6RkamFuIjogeyBsYXQ6IDYxLjkyMDAsIGxuZzogMTIuODUwMCB9LAogICJGdWx1ZmrDpGxsZXQiOiB7IGxhdDogNjEuNTcwMCwgbG5nOiAxMi43MjAwIH0sCiAgIk51b2xqYSI6IHsgbGF0OiA2OC4zNjAwLCBsbmc6IDE4LjcwMDAgfSwKICAiR3JhbmJlcmdldCAoVsOkcm1sYW5kKSI6IHsgbGF0OiA2MC41ODAwLCBsbmc6IDEyLjY4MDAgfSwKfTsK
+import type { FamousPeak } from "./famous-peaks";
+import type { LatLng } from "./peak-coordinates";
+
+/**
+ * Swedish summits — the small ones first.
+ *
+ * Sweden's classic "tiny mountains" are table mountains, ridges (åsar) and
+ * coastal cliffs that rarely break 400 m but still feel like real summits.
+ * Elevations follow Lantmäteriet / commonly cited figures.
+ */
+
+const tiny = (name: string, elevation: number): FamousPeak => ({
+  name,
+  elevation: `${elevation} m`,
+  country: "Sweden",
+  group: "Sweden — tiny mountains",
+});
+
+const fjall = (name: string, elevation: number): FamousPeak => ({
+  name,
+  elevation: `${elevation.toLocaleString("en-US")} m`,
+  country: "Sweden",
+  group: "Sweden — fjäll classics",
+});
+
+export const swedenTinyPeaks: FamousPeak[] = [
+  // ── Höga Kusten / Ångermanland ──
+  tiny("Skuleberget", 294),
+  tiny("Slåttdalsberget", 280),
+  tiny("Mjältön", 236),
+  tiny("Vårdkasberget (Härnösand)", 175),
+  tiny("Varvsberget (Örnsköldsvik)", 174),
+  tiny("Södra berget (Sundsvall)", 132),
+  tiny("Norra berget (Sundsvall)", 108),
+
+  // ── Västgötabergen (the table mountains) ──
+  tiny("Kinnekulle", 306),
+  tiny("Billingen", 304),
+  tiny("Mösseberg", 325),
+  tiny("Ålleberg", 330),
+  tiny("Halleberg", 158),
+  tiny("Hunneberg", 154),
+  tiny("Galtåsen", 362),
+  tiny("Kroppefjäll", 220),
+
+  // ── Östergötland / Småland ──
+  tiny("Omberg", 263),
+  tiny("Tomtabacken", 377),
+  tiny("Taberg", 343),
+
+  // ── Skåne, Blekinge & Halland ──
+  tiny("Söderåsen (Kopparhatten)", 212),
+  tiny("Kullaberg (Håkull)", 187),
+  tiny("Hallandsåsen (Högalteknall)", 226),
+  tiny("Romeleklint", 175),
+  tiny("Linderödsåsen", 196),
+  tiny("Ivö Klack", 145),
+  tiny("Stenshuvud", 97),
+  tiny("Rävabacken", 189),
+
+  // ── Islands & city hills ──
+  tiny("Lojsta hed (Gotland)", 83),
+  tiny("Högsrum (Öland)", 57),
+  tiny("Ramberget (Göteborg)", 87),
+  tiny("Hammarbybacken (Stockholm)", 93),
+  tiny("Björnepiken (Bohuslän)", 222),
+
+  // ── Fjäll classics, for scale ──
+  fjall("Storvätteshågna", 1204),
+  fjall("Helagsfjället", 1796),
+  fjall("Storsylen", 1728),
+  fjall("Åreskutan", 1420),
+  fjall("Sonfjället", 1278),
+  fjall("Nipfjället", 1191),
+  fjall("Städjan", 1131),
+  fjall("Fulufjället", 1044),
+  fjall("Nuolja", 1169),
+  fjall("Granberget (Värmland)", 701),
+];
+
+export const swedenTinyPeakCoordinates: Record<string, LatLng> = {
+  "Skuleberget": { lat: 63.1000, lng: 18.5333 },
+  "Slåttdalsberget": { lat: 63.1750, lng: 18.5000 },
+  "Mjältön": { lat: 63.0333, lng: 18.6500 },
+  "Vårdkasberget (Härnösand)": { lat: 62.6300, lng: 17.9200 },
+  "Varvsberget (Örnsköldsvik)": { lat: 63.2830, lng: 18.7080 },
+  "Södra berget (Sundsvall)": { lat: 62.3760, lng: 17.3000 },
+  "Norra berget (Sundsvall)": { lat: 62.4020, lng: 17.3120 },
+
+  "Kinnekulle": { lat: 58.5833, lng: 13.4000 },
+  "Billingen": { lat: 58.4200, lng: 13.7500 },
+  "Mösseberg": { lat: 58.1800, lng: 13.5300 },
+  "Ålleberg": { lat: 58.1250, lng: 13.6500 },
+  "Halleberg": { lat: 58.3800, lng: 12.4500 },
+  "Hunneberg": { lat: 58.3400, lng: 12.4600 },
+  "Galtåsen": { lat: 57.5700, lng: 13.3300 },
+  "Kroppefjäll": { lat: 58.5800, lng: 12.3800 },
+
+  "Omberg": { lat: 58.3300, lng: 14.6400 },
+  "Tomtabacken": { lat: 57.5000, lng: 14.3000 },
+  "Taberg": { lat: 57.6800, lng: 14.0700 },
+
+  "Söderåsen (Kopparhatten)": { lat: 56.0300, lng: 13.2200 },
+  "Kullaberg (Håkull)": { lat: 56.3000, lng: 12.4700 },
+  "Hallandsåsen (Högalteknall)": { lat: 56.3700, lng: 13.0400 },
+  "Romeleklint": { lat: 55.5600, lng: 13.4300 },
+  "Linderödsåsen": { lat: 55.9200, lng: 13.8300 },
+  "Ivö Klack": { lat: 56.1300, lng: 14.4000 },
+  "Stenshuvud": { lat: 55.6520, lng: 14.2700 },
+  "Rävabacken": { lat: 56.3400, lng: 14.6700 },
+
+  "Lojsta hed (Gotland)": { lat: 57.3500, lng: 18.4200 },
+  "Högsrum (Öland)": { lat: 56.6600, lng: 16.5300 },
+  "Ramberget (Göteborg)": { lat: 57.7150, lng: 11.9420 },
+  "Hammarbybacken (Stockholm)": { lat: 59.2980, lng: 18.0930 },
+  "Björnepiken (Bohuslän)": { lat: 58.7800, lng: 11.7500 },
+
+  "Storvätteshågna": { lat: 62.1300, lng: 12.4200 },
+  "Helagsfjället": { lat: 62.9200, lng: 12.5300 },
+  "Storsylen": { lat: 63.0300, lng: 12.2200 },
+  "Åreskutan": { lat: 63.4300, lng: 13.0800 },
+  "Sonfjället": { lat: 62.3000, lng: 13.3000 },
+  "Nipfjället": { lat: 61.9500, lng: 12.6800 },
+  "Städjan": { lat: 61.9200, lng: 12.8500 },
+  "Fulufjället": { lat: 61.5700, lng: 12.7200 },
+  "Nuolja": { lat: 68.3600, lng: 18.7000 },
+  "Granberget (Värmland)": { lat: 60.5800, lng: 12.6800 },
+};

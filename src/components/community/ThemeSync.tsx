@@ -1,1 +1,57 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvaG9va3MvdXNlQXV0aCI7CmltcG9ydCB7IGFwcGx5VGhlbWUsIGdldFN0b3JlZFRoZW1lLCBpc1RoZW1lSWQsIHNldFRoZW1lIH0gZnJvbSAiQC9saWIvdGhlbWVzIjsKCi8qKgogKiBLZWVwcyB0aGUgc2l0ZSB0aGVtZSB0aWVkIHRvIHRoZSBzaWduZWQtaW4gYWNjb3VudCwgbm90IGp1c3QgdGhlIGRldmljZS4KICogbG9jYWxTdG9yYWdlIGlzIHBlci1vcmlnaW4sIHNvIGEgdGhlbWUgcGlja2VkIG9uIHRpY2tsZWxpc3Qub3JnIG5ldmVyIHJlYWNoZWQKICogb25zaWdodG1hcnRpbi5jb20gKGFuZCBuZXZlciBmb2xsb3dlZCB0aGUgbWVtYmVyIHRvIGFub3RoZXIgZGV2aWNlL2Jyb3dzZXIpLgogKiBPbiBzaWduLWluIHdlIHB1bGwgdGhlIHNhdmVkIHByb2ZpbGUgdGhlbWU7IGlmIHRoZSBwcm9maWxlIGhhcyBub25lIHlldCB3ZQogKiBwdXNoIHRoZSBjdXJyZW50IGRldmljZSB0aGVtZSB1cCBzbyBpdCBiZWNvbWVzIHRoZSBhY2NvdW50IGRlZmF1bHQuCiAqLwpjb25zdCBUaGVtZVN5bmMgPSAoKSA9PiB7CiAgY29uc3QgeyB1c2VyIH0gPSB1c2VBdXRoKCk7CiAgY29uc3Qgc3luY2VkRm9yID0gdXNlUmVmPHN0cmluZyB8IG51bGw+KG51bGwpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKCF1c2VyKSByZXR1cm47CiAgICAvLyBPbmx5IHB1bGwgb25jZSBwZXIgYWNjb3VudC4gVG9rZW4gcmVmcmVzaGVzIC8gdGFiIGZvY3VzIHByb2R1Y2UgYSBuZXcKICAgIC8vIHVzZXIgb2JqZWN0OyByZS1wdWxsaW5nIHRoZW4gd291bGQgb3ZlcndyaXRlIGEgdGhlbWUganVzdCBwaWNrZWQgaGVyZS4KICAgIGlmIChzeW5jZWRGb3IuY3VycmVudCA9PT0gdXNlci5pZCkgcmV0dXJuOwogICAgc3luY2VkRm9yLmN1cnJlbnQgPSB1c2VyLmlkOwogICAgbGV0IGNhbmNlbGxlZCA9IGZhbHNlOwoKICAgIChhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IHsgZGF0YSB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgICAuZnJvbSgicHJvZmlsZXMiKQogICAgICAgIC5zZWxlY3QoInRoZW1lIikKICAgICAgICAuZXEoImlkIiwgdXNlci5pZCkKICAgICAgICAubWF5YmVTaW5nbGU8eyB0aGVtZTogc3RyaW5nIHwgbnVsbCB9PigpOwogICAgICBpZiAoY2FuY2VsbGVkKSByZXR1cm47CgogICAgICBjb25zdCByZW1vdGUgPSBkYXRhPy50aGVtZTsKICAgICAgaWYgKGlzVGhlbWVJZChyZW1vdGUpKSB7CiAgICAgICAgYXBwbHlUaGVtZShyZW1vdGUpOwogICAgICAgIHRyeSB7CiAgICAgICAgICB3aW5kb3cubG9jYWxTdG9yYWdlLnNldEl0ZW0oIm9uc2lnaHQtdGhlbWUiLCByZW1vdGUpOwogICAgICAgIH0gY2F0Y2ggewogICAgICAgICAgLyogc3RvcmFnZSB1bmF2YWlsYWJsZSAqLwogICAgICAgIH0KICAgICAgICByZXR1cm47CiAgICAgIH0KCiAgICAgIGNvbnN0IGxvY2FsID0gZ2V0U3RvcmVkVGhlbWUoKTsKICAgICAgc2V0VGhlbWUobG9jYWwpOwogICAgICBhd2FpdCBzdXBhYmFzZS5mcm9tKCJwcm9maWxlcyIpLnVwZGF0ZSh7IHRoZW1lOiBsb2NhbCB9KS5lcSgiaWQiLCB1c2VyLmlkKTsKICAgIH0pKCk7CgogICAgcmV0dXJuICgpID0+IHsKICAgICAgY2FuY2VsbGVkID0gdHJ1ZTsKICAgIH07CiAgfSwgW3VzZXJdKTsKCiAgcmV0dXJuIG51bGw7Cn07CgpleHBvcnQgZGVmYXVsdCBUaGVtZVN5bmM7Cg==
+import { useEffect, useRef } from "react";
+import { supabase } from "@/integrations/supabase/client";
+import { useAuth } from "@/hooks/useAuth";
+import { applyTheme, getStoredTheme, isThemeId, setTheme } from "@/lib/themes";
+
+/**
+ * Keeps the site theme tied to the signed-in account, not just the device.
+ * localStorage is per-origin, so a theme picked on ticklelist.org never reached
+ * onsightmartin.com (and never followed the member to another device/browser).
+ * On sign-in we pull the saved profile theme; if the profile has none yet we
+ * push the current device theme up so it becomes the account default.
+ */
+const ThemeSync = () => {
+  const { user } = useAuth();
+  const syncedFor = useRef<string | null>(null);
+
+  useEffect(() => {
+    if (!user) return;
+    // Only pull once per account. Token refreshes / tab focus produce a new
+    // user object; re-pulling then would overwrite a theme just picked here.
+    if (syncedFor.current === user.id) return;
+    syncedFor.current = user.id;
+    let cancelled = false;
+
+    (async () => {
+      const { data } = await supabase
+        .from("profiles")
+        .select("theme")
+        .eq("id", user.id)
+        .maybeSingle<{ theme: string | null }>();
+      if (cancelled) return;
+
+      const remote = data?.theme;
+      if (isThemeId(remote)) {
+        applyTheme(remote);
+        try {
+          window.localStorage.setItem("onsight-theme", remote);
+        } catch {
+          /* storage unavailable */
+        }
+        return;
+      }
+
+      const local = getStoredTheme();
+      setTheme(local);
+      await supabase.from("profiles").update({ theme: local }).eq("id", user.id);
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [user]);
+
+  return null;
+};
+
+export default ThemeSync;

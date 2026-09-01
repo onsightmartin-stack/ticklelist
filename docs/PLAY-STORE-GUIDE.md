@@ -1,1 +1,142 @@
-IyBMYXVuY2hpbmcgVGlja2xlbGlzdCBvbiBHb29nbGUgUGxheSDigJQgQmVnaW5uZXIgR3VpZGUKCllvdXIgYXBwIGlzIGEgKipDYXBhY2l0b3IqKiBhcHA6IGEgdGhpbiBBbmRyb2lkIHNoZWxsIHRoYXQgb3BlbnMgeW91ciBsaXZlCmNvbW11bml0eSBzaXRlIChgaHR0cHM6Ly90aWNrbGVsaXN0Lm9yZy9jb21tdW5pdHlgKSBpbnNpZGUgYSBuYXRpdmUgd2luZG93LgpUaGF0IG1lYW5zIHlvdSBkbyAqKm5vdCoqIG5lZWQgdG8gYnVpbGQgdGhlIHdlYiBhcHAgc2VwYXJhdGVseSDigJQgeW91IG9ubHkKYnVpbGQgdGhlIEFuZHJvaWQgd3JhcHBlciBvbmNlLCBhbmQgdGhlIHdlYnNpdGUgdXBkYXRlcyBhdXRvbWF0aWNhbGx5LgoKQmVsb3cgaXMgdGhlIGZ1bGwgam91cm5leSwgaW4gb3JkZXIuIFN0ZXBzIG1hcmtlZCAqKltZT1VdKiogaGFwcGVuIGluIHlvdXIKYnJvd3Nlci9jb21wdXRlcjsgc3RlcHMgbWFya2VkICoqW0RPTkVdKiogYXJlIGFscmVhZHkgc2V0IHVwIGluIHRoaXMgcHJvamVjdC4KCi0tLQoKIyMgU3RlcCAxIOKAlCBDcmVhdGUgYSBHb29nbGUgUGxheSBEZXZlbG9wZXIgYWNjb3VudCAgW1lPVV0KCjEuIEdvIHRvIDxodHRwczovL3BsYXkuZ29vZ2xlLmNvbS9jb25zb2xlL3NpZ251cD4KMi4gU2lnbiBpbiB3aXRoIHRoZSBHb29nbGUgYWNjb3VudCB5b3Ugd2FudCB0byBvd24gdGhlIGFwcCAodGhpcyBjYW5ub3QgYmUKICAgY2hhbmdlZCBlYXNpbHkgbGF0ZXIg4oCUIHBpY2sgYSBsb25nLXRlcm0gYWNjb3VudCkuCjMuIFBheSB0aGUgKipvbmUtdGltZSAkMjUgcmVnaXN0cmF0aW9uIGZlZSoqLgo0LiBWZXJpZnkgeW91ciBpZGVudGl0eSAoSUQgKyBhIHNob3J0IGRldmVsb3BlciBwcm9maWxlKS4gVGhpcyBjYW4gdGFrZQogICAx4oCTMyBkYXlzIHRvIHJldmlldywgc28gc3RhcnQgaXQgbm93LgoKIyMgU3RlcCAyIOKAlCBJbnN0YWxsIEFuZHJvaWQgU3R1ZGlvIG9uIHlvdXIgY29tcHV0ZXIgIFtZT1VdCgpZb3UgbmVlZCBKYXZhICsgdGhlIEFuZHJvaWQgU0RLIHRvIGJ1aWxkIHRoZSBgLmFhYmAuIFRoZSBlYXNpZXN0IHdheSBpcwpBbmRyb2lkIFN0dWRpbywgd2hpY2ggYnVuZGxlcyBldmVyeXRoaW5nOgoKMS4gRG93bmxvYWQgZnJvbSA8aHR0cHM6Ly9kZXZlbG9wZXIuYW5kcm9pZC5jb20vc3R1ZGlvPgoyLiBJbnN0YWxsIGl0LCBhbmQgb24gZmlyc3QgbGF1bmNoIGxldCBpdCBkb3dubG9hZCB0aGUgKipBbmRyb2lkIFNESyoqIChpdAogICB3aWxsIG9mZmVyIGF1dG9tYXRpY2FsbHkpLiBBY2NlcHQgdGhlIGRlZmF1bHQgU0RLIGNvbXBvbmVudHMuCjMuIFdoZW4gdGhlIFNESyBNYW5hZ2VyIHNob3dzIHRoZSBTREsgcGF0aCwgbm90ZSBpdCDigJQgeW91J2xsIG5lZWQgaXQgYmVsb3cuCgo+IFlvdSBkbyBOT1QgbmVlZCB0byBvcGVuIG9yIGVkaXQgYW55IGNvZGUuIEFuZHJvaWQgU3R1ZGlvIGlzIGp1c3QgdGhlCj4gImtpdGNoZW4iIHRoYXQgYmFrZXMgdGhlIGAuYWFiYCBmaWxlLgoKIyMgU3RlcCAzIOKAlCBHZW5lcmF0ZSB5b3VyIHJlbGVhc2Uga2V5c3RvcmUgIFtZT1VdCgpUaGUga2V5c3RvcmUgaXMgYSBzbWFsbCBmaWxlIHRoYXQgY3J5cHRvZ3JhcGhpY2FsbHkgc2lnbnMgeW91ciBhcHAuIEdvb2dsZQpQbGF5IHJlcXVpcmVzIGV2ZXJ5IGFwcCB0byBiZSBzaWduZWQuICoqS2VlcCB0aGlzIGZpbGUgZm9yZXZlcioqIOKAlCBsb3NpbmcgaXQKbWVhbnMgeW91IGNhbiBuZXZlciB1cGRhdGUgdGhlIGFwcCB1bmRlciB0aGUgc2FtZSBsaXN0aW5nLgoKT3BlbiBhIHRlcm1pbmFsIG9uIHlvdXIgY29tcHV0ZXIgYW5kIHJ1biAob25lIGxpbmUpOgoKYGBgYmFzaAprZXl0b29sIC1nZW5rZXkgLXYgLWtleXN0b3JlIHRpY2tsZWxpc3QtcmVsZWFzZS5rZXlzdG9yZSAtYWxpYXMgdGlja2xlbGlzdCAta2V5YWxnIFJTQSAta2V5c2l6ZSAyMDQ4IC12YWxpZGl0eSAxMDAwMApgYGAKCkl0IHdpbGwgYXNrIGZvcjoKLSAqKktleXN0b3JlIHBhc3N3b3JkKiog4oaSIGludmVudCBhIHN0cm9uZyBwYXNzd29yZCwgc2F2ZSBpdCBzb21ld2hlcmUgc2FmZS4KLSAqKktleSBhbGlhcyoqIOKGkiBqdXN0IHByZXNzIEVudGVyIHRvIHVzZSBgdGlja2xlbGlzdGAuCi0gKipLZXkgcGFzc3dvcmQqKiDihpIgcHJlc3MgRW50ZXIgdG8gcmV1c2UgdGhlIGtleXN0b3JlIHBhc3N3b3JkLCBvciBzZXQgYSBkaWZmZXJlbnQgb25lLgotIFlvdXIgbmFtZSwgb3JnYW5pemF0aW9uLCBldGMuIOKGkiBmaWxsIGluIGFueXRoaW5nIChlLmcuICJNYXJ0aW4gR8OlcmRsaW5nIikuCgpUaGlzIGNyZWF0ZXMgYSBmaWxlIGNhbGxlZCBgdGlja2xlbGlzdC1yZWxlYXNlLmtleXN0b3JlYCBpbiB5b3VyIGN1cnJlbnQKZm9sZGVyLiBNb3ZlIGl0IHRvIHRoZSAqKnByb2plY3Qgcm9vdCoqIChuZXh0IHRvIGBwYWNrYWdlLmpzb25gKS4KCiMjIFN0ZXAgNCDigJQgQnVpbGQgdGhlIEFuZHJvaWQgQXBwIEJ1bmRsZSAoLmFhYikgIFtZT1VdCgpPcGVuIEFuZHJvaWQgU3R1ZGlvIOKGkiAqKk9wZW4qKiDihpIgc2VsZWN0IHRoZSBgYW5kcm9pZC9gIGZvbGRlciBpbnNpZGUgdGhpcwpwcm9qZWN0LiBXYWl0IGZvciBHcmFkbGUgdG8gc3luYyAodGhlIGZpcnN0IHRpbWUgaXQgZG93bmxvYWRzIGRlcGVuZGVuY2llcyDigJQKY2FuIHRha2UgYSBmZXcgbWludXRlcykuCgpUaGVuIGJ1aWxkIHRoZSByZWxlYXNlIGJ1bmRsZToKCioqTWVudToqKiBCdWlsZCDihpIgR2VuZXJhdGUgU2lnbmVkIEJ1bmRsZSAvIEFQSyDihpIgY2hvb3NlICoqQW5kcm9pZCBBcHAgQnVuZGxlKiog4oaSCi0gS2V5c3RvcmU6IGJyb3dzZSB0byBgdGlja2xlbGlzdC1yZWxlYXNlLmtleXN0b3JlYAotIGVudGVyIHRoZSBrZXlzdG9yZSArIGtleSBwYXNzd29yZHMgeW91IHNldCBpbiBTdGVwIDMKLSBhbGlhczogYHRpY2tsZWxpc3RgCgpPciwgZnJvbSB0aGUgdGVybWluYWwgaW5zaWRlIEFuZHJvaWQgU3R1ZGlvOgoKYGBgYmFzaAojIFNldCB0aGUgcGFzc3dvcmRzIGFzIGVudmlyb25tZW50IHZhcmlhYmxlcyAoV2luZG93czogdXNlIHNldCBpbnN0ZWFkIG9mIGV4cG9ydCkKZXhwb3J0IEtTVE9SRV9QVz0neW91cl9rZXlzdG9yZV9wYXNzd29yZCcKZXhwb3J0IEtFWV9QVz0neW91cl9rZXlfcGFzc3dvcmQnCgpjZCBhbmRyb2lkCi4vZ3JhZGxldyBidW5kbGVSZWxlYXNlCmBgYAoKV2hlbiBpdCBmaW5pc2hlcywgdGhlIGZpbGUgaXMgYXQ6CgpgYGAKYW5kcm9pZC9hcHAvYnVpbGQvb3V0cHV0cy9idW5kbGUvcmVsZWFzZS9hcHAtcmVsZWFzZS5hYWIKYGBgCgpUaGF0IHNpbmdsZSBgLmFhYmAgaXMgd2hhdCB5b3UgdXBsb2FkIHRvIEdvb2dsZSBQbGF5LgoKIyMgU3RlcCA1IOKAlCBTZXQgdXAgeW91ciBzdG9yZSBsaXN0aW5nICBbWU9VXQoKSW4gdGhlIFBsYXkgQ29uc29sZSAoPGh0dHBzOi8vcGxheS5nb29nbGUuY29tL2NvbnNvbGU+KToKCjEuICoqQ3JlYXRlIGFwcCoqIOKGkiBuYW1lOiAiVGlja2xlbGlzdCIg4oaSIEZyZWUgYXBwIOKGkiBkZWNsYXJhdGlvbnMuCjIuICoqU3RvcmUgbGlzdGluZyoqIHRhYiDigJQgZmlsbCBpbjoKICAgLSBTaG9ydCBkZXNjcmlwdGlvbiAoODAgY2hhcnMpIGFuZCBmdWxsIGRlc2NyaXB0aW9uCiAgIC0gQXBwIGljb24gKDUxMsOXNTEyIFBORykKICAgLSBGZWF0dXJlIGdyYXBoaWMgKDEwMjTDlzUwMCBQTkcpCiAgIC0gUGhvbmUgc2NyZWVuc2hvdHMgKGF0IGxlYXN0IDIsIDEwODDDlzE5MjAgb3IgbGFyZ2VyKQozLiAqKkFwcCBjb250ZW50KiogdGFiIOKAlCBhbnN3ZXIgdGhlOgogICAtICoqRGF0YSBzYWZldHkqKiBmb3JtICh3aGF0IGRhdGEgeW91IGNvbGxlY3Qg4oCUIGZvciBUaWNrbGVsaXN0LCBtb3N0bHkKICAgICAiUGhvdG9zIG9yIHZpZGVvcyIgYW5kICJBcHByb3hpbWF0ZSBsb2NhdGlvbiIgc2luY2UgdXNlcnMgdXBsb2FkIGFzY2VudHMpCiAgIC0gKipDb250ZW50IHJhdGluZyoqIHF1ZXN0aW9ubmFpcmUgKGFuc3dlciBob25lc3RseTsgaXQncyBtb3N0bHkgIk5vIikKICAgLSAqKlRhcmdldCBhdWRpZW5jZSoqICgxMyspCiAgIC0gKipQcml2YWN5IFBvbGljeSoqIFVSTCDihpIgcG9pbnQgdG8gYGh0dHBzOi8vb25zaWdodG1hcnRpbi5jb20vcHJpdmFjeWAKCiMjIFN0ZXAgNiDigJQgVXBsb2FkIGFuZCByZWxlYXNlICBbWU9VXQoKMS4gUGxheSBDb25zb2xlIOKGkiAqKlByb2R1Y3Rpb24qKiDihpIgKipDcmVhdGUgcmVsZWFzZSoqLgoyLiBVcGxvYWQgYGFwcC1yZWxlYXNlLmFhYmAuCjMuIEFkZCByZWxlYXNlIG5vdGVzIChlLmcuICJGaXJzdCByZWxlYXNlIG9mIFRpY2tsZWxpc3QhIikuCjQuIFJldmlldyB0aGUgcmVsZWFzZSDihpIgKipTdGFydCByb2xsb3V0IHRvIFByb2R1Y3Rpb24qKi4KCiMjIFN0ZXAgNyDigJQgV2FpdCBmb3IgcmV2aWV3CgpOZXcgYXBwcyBnbyB0aHJvdWdoIEdvb2dsZSdzIHJldmlldy4gSXQgdXN1YWxseSB0YWtlcyAqKjHigJM3IGRheXMqKi4gWW91J2xsCmdldCBhbiBlbWFpbCB3aGVuIGl0J3MgbGl2ZS4gQWZ0ZXIgdGhhdCwgdXBkYXRlcyB5b3UgcHVzaCBhcmUgbXVjaCBmYXN0ZXIuCgotLS0KCiMjIFF1aWNrIHJlZmVyZW5jZQoKfCBUaGluZyB8IFZhbHVlIHwKfC0tLS0tLS18LS0tLS0tLXwKfCBBcHAgbmFtZSB8IFRpY2tsZWxpc3QgfAp8IEFwcGxpY2F0aW9uIElEIHwgYGNvbS5vbnNpZ2h0bWFydGluLnRpY2tsZWxpc3RgIHwKfCBWZXJzaW9uIHwgMS4wIChjb2RlIDEpIHwKfCBNaW4gQW5kcm9pZCB8IHNldCBpbiBgYW5kcm9pZC92YXJpYWJsZXMuZ3JhZGxlYCB8CnwgTG9hZHMgfCBgaHR0cHM6Ly90aWNrbGVsaXN0Lm9yZy9jb21tdW5pdHlgIChsaXZlIGNvbW11bml0eSBzaXRlKSB8CnwgS2V5c3RvcmUgfCBgdGlja2xlbGlzdC1yZWxlYXNlLmtleXN0b3JlYCAocHJvamVjdCByb290KSB8CnwgU2lnbmluZyB8IGNvbmZpZ3VyZWQgaW4gYGFuZHJvaWQvYXBwL2J1aWxkLmdyYWRsZWAgfAp8IE91dHB1dCB8IGBhbmRyb2lkL2FwcC9idWlsZC9vdXRwdXRzL2J1bmRsZS9yZWxlYXNlL2FwcC1yZWxlYXNlLmFhYmAgfAoKIyMgVGlwcyBmb3IgYmVnaW5uZXJzCgotICoqRG9uJ3QgbG9zZSB0aGUga2V5c3RvcmUuKiogQmFjayBpdCB1cCB0byBhIHNhZmUgcGxhY2UgKGNsb3VkICsgVVNCKS4KICBHb29nbGUgb2ZmZXJzICJQbGF5IEFwcCBTaWduaW5nIiB3aGljaCBjYW4gaGVscCwgYnV0IGVucm9sbCBkdXJpbmcgeW91cgogIGZpcnN0IHVwbG9hZCB0byBiZSBzYWZlLgotICoqVmVyc2lvbmluZzoqKiBiZWZvcmUgZWFjaCB1cGRhdGUsIGJ1bXAgYHZlcnNpb25Db2RlYCBhbmQgYHZlcnNpb25OYW1lYAogIGluIGBhbmRyb2lkL2FwcC9idWlsZC5ncmFkbGVgIChlLmcuIGNvZGUgMiwgbmFtZSAiMS4xIikuIEdvb2dsZSByZWplY3RzCiAgdXBsb2FkcyB3aXRoIGEgdmVyc2lvbiBjb2RlIHlvdSd2ZSBhbHJlYWR5IHVzZWQuCi0gVGhlIHdlYnNpdGUgdXBkYXRlcyBpbnN0YW50bHkgd2l0aG91dCBhbnkgYXBwIHVwZGF0ZSDigJQgb25seSBidW1wIHRoZSBhcHAKICB2ZXJzaW9uIHdoZW4geW91IGNoYW5nZSBzb21ldGhpbmcgbmF0aXZlIChwZXJtaXNzaW9ucywgaWNvbnMsIHNwbGFzaAogIHNjcmVlbiwgdGFyZ2V0IFNESykuCg==
+# Launching Ticklelist on Google Play — Beginner Guide
+
+Your app is a **Capacitor** app: a thin Android shell that opens your live
+community site (`https://ticklelist.org/community`) inside a native window.
+That means you do **not** need to build the web app separately — you only
+build the Android wrapper once, and the website updates automatically.
+
+Below is the full journey, in order. Steps marked **[YOU]** happen in your
+browser/computer; steps marked **[DONE]** are already set up in this project.
+
+---
+
+## Step 1 — Create a Google Play Developer account  [YOU]
+
+1. Go to <https://play.google.com/console/signup>
+2. Sign in with the Google account you want to own the app (this cannot be
+   changed easily later — pick a long-term account).
+3. Pay the **one-time $25 registration fee**.
+4. Verify your identity (ID + a short developer profile). This can take
+   1–3 days to review, so start it now.
+
+## Step 2 — Install Android Studio on your computer  [YOU]
+
+You need Java + the Android SDK to build the `.aab`. The easiest way is
+Android Studio, which bundles everything:
+
+1. Download from <https://developer.android.com/studio>
+2. Install it, and on first launch let it download the **Android SDK** (it
+   will offer automatically). Accept the default SDK components.
+3. When the SDK Manager shows the SDK path, note it — you'll need it below.
+
+> You do NOT need to open or edit any code. Android Studio is just the
+> "kitchen" that bakes the `.aab` file.
+
+## Step 3 — Generate your release keystore  [YOU]
+
+The keystore is a small file that cryptographically signs your app. Google
+Play requires every app to be signed. **Keep this file forever** — losing it
+means you can never update the app under the same listing.
+
+Open a terminal on your computer and run (one line):
+
+```bash
+keytool -genkey -v -keystore ticklelist-release.keystore -alias ticklelist -keyalg RSA -keysize 2048 -validity 10000
+```
+
+It will ask for:
+- **Keystore password** → invent a strong password, save it somewhere safe.
+- **Key alias** → just press Enter to use `ticklelist`.
+- **Key password** → press Enter to reuse the keystore password, or set a different one.
+- Your name, organization, etc. → fill in anything (e.g. "Martin Gårdling").
+
+This creates a file called `ticklelist-release.keystore` in your current
+folder. Move it to the **project root** (next to `package.json`).
+
+## Step 4 — Build the Android App Bundle (.aab)  [YOU]
+
+Open Android Studio → **Open** → select the `android/` folder inside this
+project. Wait for Gradle to sync (the first time it downloads dependencies —
+can take a few minutes).
+
+Then build the release bundle:
+
+**Menu:** Build → Generate Signed Bundle / APK → choose **Android App Bundle** →
+- Keystore: browse to `ticklelist-release.keystore`
+- enter the keystore + key passwords you set in Step 3
+- alias: `ticklelist`
+
+Or, from the terminal inside Android Studio:
+
+```bash
+# Set the passwords as environment variables (Windows: use set instead of export)
+export KSTORE_PW='your_keystore_password'
+export KEY_PW='your_key_password'
+
+cd android
+./gradlew bundleRelease
+```
+
+When it finishes, the file is at:
+
+```
+android/app/build/outputs/bundle/release/app-release.aab
+```
+
+That single `.aab` is what you upload to Google Play.
+
+## Step 5 — Set up your store listing  [YOU]
+
+In the Play Console (<https://play.google.com/console>):
+
+1. **Create app** → name: "Ticklelist" → Free app → declarations.
+2. **Store listing** tab — fill in:
+   - Short description (80 chars) and full description
+   - App icon (512×512 PNG)
+   - Feature graphic (1024×500 PNG)
+   - Phone screenshots (at least 2, 1080×1920 or larger)
+3. **App content** tab — answer the:
+   - **Data safety** form (what data you collect — for Ticklelist, mostly
+     "Photos or videos" and "Approximate location" since users upload ascents)
+   - **Content rating** questionnaire (answer honestly; it's mostly "No")
+   - **Target audience** (13+)
+   - **Privacy Policy** URL → point to `https://onsightmartin.com/privacy`
+
+## Step 6 — Upload and release  [YOU]
+
+1. Play Console → **Production** → **Create release**.
+2. Upload `app-release.aab`.
+3. Add release notes (e.g. "First release of Ticklelist!").
+4. Review the release → **Start rollout to Production**.
+
+## Step 7 — Wait for review
+
+New apps go through Google's review. It usually takes **1–7 days**. You'll
+get an email when it's live. After that, updates you push are much faster.
+
+---
+
+## Quick reference
+
+| Thing | Value |
+|-------|-------|
+| App name | Ticklelist |
+| Application ID | `com.onsightmartin.ticklelist` |
+| Version | 1.0 (code 1) |
+| Min Android | set in `android/variables.gradle` |
+| Loads | `https://ticklelist.org/community` (live community site) |
+| Keystore | `ticklelist-release.keystore` (project root) |
+| Signing | configured in `android/app/build.gradle` |
+| Output | `android/app/build/outputs/bundle/release/app-release.aab` |
+
+## Tips for beginners
+
+- **Don't lose the keystore.** Back it up to a safe place (cloud + USB).
+  Google offers "Play App Signing" which can help, but enroll during your
+  first upload to be safe.
+- **Versioning:** before each update, bump `versionCode` and `versionName`
+  in `android/app/build.gradle` (e.g. code 2, name "1.1"). Google rejects
+  uploads with a version code you've already used.
+- The website updates instantly without any app update — only bump the app
+  version when you change something native (permissions, icons, splash
+  screen, target SDK).

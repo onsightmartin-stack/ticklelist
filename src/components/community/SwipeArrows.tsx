@@ -1,1 +1,92 @@
-aW1wb3J0IHsgQ2hldnJvbkxlZnQsIENoZXZyb25SaWdodCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CgppbXBvcnQgdHlwZSB7IENvbW11bml0eVBhZ2UgfSBmcm9tICJAL2xpYi9jb21tdW5pdHktcGFnZXMiOwoKaW50ZXJmYWNlIFByb3BzIHsKICBwcmV2PzogQ29tbXVuaXR5UGFnZSB8IHVuZGVmaW5lZDsKICBuZXh0PzogQ29tbXVuaXR5UGFnZSB8IHVuZGVmaW5lZDsKICAvKiogQ3VycmVudCBob3Jpem9udGFsIGRyYWcgb2Zmc2V0IGluIHB4IChuZWdhdGl2ZSA9IHN3aXBpbmcgbGVmdCkuICovCiAgZHJhZzogbnVtYmVyOwogIC8qKiBEaXJlY3Rpb24gd2hvc2UgY29tbWl0IHRocmVzaG9sZCBpcyBhcm1lZC4gKi8KICBhcm1lZDogImxlZnQiIHwgInJpZ2h0IiB8IG51bGw7CiAgLyoqIFdoZXRoZXIgdGhlIGVudHJ5IGdsaWRlIGFuaW1hdGlvbiBzaG91bGQgcGxheS4gKi8KICBhbmltYXRlOiBib29sZWFuOwp9CgovKioKICogQ2h1bmt5IDNEIGNoZXZyb25zIHBhcmtlZCBvbiB0aGUgc2NyZWVuIGVkZ2VzIHNvIGl0IGlzIG9idmlvdXMgdGhlIHBhZ2UgY2FuCiAqIGJlIHN3aXBlZCBsZWZ0IGFuZCByaWdodC4gVGhleSB0aWx0IGluIHBlcnNwZWN0aXZlLCBsaWdodCB1cCB3aGlsZSBhIHN3aXBlCiAqIGlzIGFybWVkLCBhbmQgbGVhbiB3aXRoIHRoZSBkcmFnIGxpa2UgYSBwaHlzaWNhbCBjb250cm9sLgogKi8KY29uc3QgQXJyb3cgPSAoewogIHNpZGUsCiAgcGFnZSwKICBkcmFnLAogIGFybWVkLAogIGFuaW1hdGUsCn06IHsKICBzaWRlOiAibGVmdCIgfCAicmlnaHQiOwogIHBhZ2U6IENvbW11bml0eVBhZ2U7CiAgZHJhZzogbnVtYmVyOwogIGFybWVkOiBib29sZWFuOwogIGFuaW1hdGU6IGJvb2xlYW47Cn0pID0+IHsKICBjb25zdCBkaXIgPSBzaWRlID09PSAibGVmdCIgPyAxIDogLTE7CiAgLy8gTGVhbiBpbnRvIHRoZSBzd2lwZTogdGhlIGFycm93IHlvdSdyZSBoZWFkaW5nIHRvd2FyZCBwdXNoZXMgb3V0LgogIGNvbnN0IGxlYW4gPSBNYXRoLm1heCgtMTAsIE1hdGgubWluKDEwLCBkcmFnICogMC4xOCkpICogLWRpcjsKICBjb25zdCBJY29uID0gc2lkZSA9PT0gImxlZnQiID8gQ2hldnJvbkxlZnQgOiBDaGV2cm9uUmlnaHQ7CgogIHJldHVybiAoCiAgICA8ZGl2CiAgICAgIGFyaWEtaGlkZGVuPSJ0cnVlIgogICAgICBjbGFzc05hbWU9e2Bwb2ludGVyLWV2ZW50cy1ub25lIGZpeGVkIHRvcC0xLzIgei0zMCAtdHJhbnNsYXRlLXktMS8yIG1kOmhpZGRlbiAkewogICAgICAgIHNpZGUgPT09ICJsZWZ0IiA/ICJsZWZ0LTEiIDogInJpZ2h0LTEiCiAgICAgIH1gfQogICAgICBzdHlsZT17eyBwZXJzcGVjdGl2ZTogIjQyMHB4IiB9fQogICAgPgogICAgICA8ZGl2CiAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBnYXAtMSIKICAgICAgICBzdHlsZT17ewogICAgICAgICAgdHJhbnNmb3JtU3R5bGU6ICJwcmVzZXJ2ZS0zZCIsCiAgICAgICAgICB0cmFuc2Zvcm06IGByb3RhdGVZKCR7ZGlyICogMzIgKyBsZWFufWRlZykgdHJhbnNsYXRlWigwKWAsCiAgICAgICAgICB0cmFuc2l0aW9uOiAidHJhbnNmb3JtIDAuMThzIGVhc2Utb3V0IiwKICAgICAgICAgIGFuaW1hdGlvbjogYW5pbWF0ZQogICAgICAgICAgICA/IGBhcnJvdy1mbG9hdC0ke3NpZGV9IDIuNnMgZWFzZS1pbi1vdXQgaW5maW5pdGVgCiAgICAgICAgICAgIDogdW5kZWZpbmVkLAogICAgICAgIH19CiAgICAgID4KICAgICAgICA8c3BhbgogICAgICAgICAgY2xhc3NOYW1lPXtgcmVsYXRpdmUgZ3JpZCBoLTExIHctMTEgcGxhY2UtaXRlbXMtY2VudGVyIHJvdW5kZWQtMnhsIGJvcmRlciB0cmFuc2l0aW9uLWNvbG9ycyBkdXJhdGlvbi0yMDAgJHsKICAgICAgICAgICAgYXJtZWQKICAgICAgICAgICAgICA/ICJib3JkZXItcHJpbWFyeSBiZy1wcmltYXJ5LzMwIHRleHQtcHJpbWFyeSIKICAgICAgICAgICAgICA6ICJib3JkZXItcHJpbWFyeS80MCBiZy1jYXJkLzcwIHRleHQtcHJpbWFyeS84MCIKICAgICAgICAgIH1gfQogICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgYm94U2hhZG93OiBhcm1lZAogICAgICAgICAgICAgID8gYCR7ZGlyICogLTZ9cHggNnB4IDAgMCBoc2wodmFyKC0tcHJpbWFyeSkgLyAwLjM1KSwgMCAxMHB4IDI0cHggLThweCBoc2wodmFyKC0tcHJpbWFyeSkgLyAwLjcpYAogICAgICAgICAgICAgIDogYCR7ZGlyICogLTV9cHggNXB4IDAgMCBoc2wodmFyKC0tcHJpbWFyeSkgLyAwLjE4KSwgMCA4cHggMThweCAtMTBweCByZ2IoMCAwIDAgLyAwLjgpYCwKICAgICAgICAgICAgYmFja2Ryb3BGaWx0ZXI6ICJibHVyKDRweCkiLAogICAgICAgICAgfX0KICAgICAgICA+CiAgICAgICAgICA8SWNvbiBjbGFzc05hbWU9ImgtNiB3LTYiIHN0cm9rZVdpZHRoPXszfSAvPgogICAgICAgIDwvc3Bhbj4KICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1heC13LVs3NHB4XSB0cnVuY2F0ZSByb3VuZGVkLWZ1bGwgYmctYmFja2dyb3VuZC83MCBweC0yIHB5LVsycHhdIHRleHQtY2VudGVyIHRleHQtWzlweF0gdXBwZXJjYXNlIHRyYWNraW5nLVswLjE0ZW1dIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7cGFnZS5sYWJlbH0KICAgICAgICA8L3NwYW4+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfTsKCmNvbnN0IFN3aXBlQXJyb3dzID0gKHsgcHJldiwgbmV4dCwgZHJhZywgYXJtZWQsIGFuaW1hdGUgfTogUHJvcHMpID0+ICgKICA8PgogICAge3ByZXYgJiYgKAogICAgICA8QXJyb3cgc2lkZT0ibGVmdCIgcGFnZT17cHJldn0gZHJhZz17ZHJhZ30gYXJtZWQ9e2FybWVkID09PSAicmlnaHQifSBhbmltYXRlPXthbmltYXRlfSAvPgogICAgKX0KICAgIHtuZXh0ICYmICgKICAgICAgPEFycm93IHNpZGU9InJpZ2h0IiBwYWdlPXtuZXh0fSBkcmFnPXtkcmFnfSBhcm1lZD17YXJtZWQgPT09ICJsZWZ0In0gYW5pbWF0ZT17YW5pbWF0ZX0gLz4KICAgICl9CiAgPC8+Cik7CgpleHBvcnQgZGVmYXVsdCBTd2lwZUFycm93czsK
+import { ChevronLeft, ChevronRight } from "lucide-react";
+
+import type { CommunityPage } from "@/lib/community-pages";
+
+interface Props {
+  prev?: CommunityPage | undefined;
+  next?: CommunityPage | undefined;
+  /** Current horizontal drag offset in px (negative = swiping left). */
+  drag: number;
+  /** Direction whose commit threshold is armed. */
+  armed: "left" | "right" | null;
+  /** Whether the entry glide animation should play. */
+  animate: boolean;
+}
+
+/**
+ * Chunky 3D chevrons parked on the screen edges so it is obvious the page can
+ * be swiped left and right. They tilt in perspective, light up while a swipe
+ * is armed, and lean with the drag like a physical control.
+ */
+const Arrow = ({
+  side,
+  page,
+  drag,
+  armed,
+  animate,
+}: {
+  side: "left" | "right";
+  page: CommunityPage;
+  drag: number;
+  armed: boolean;
+  animate: boolean;
+}) => {
+  const dir = side === "left" ? 1 : -1;
+  // Lean into the swipe: the arrow you're heading toward pushes out.
+  const lean = Math.max(-10, Math.min(10, drag * 0.18)) * -dir;
+  const Icon = side === "left" ? ChevronLeft : ChevronRight;
+
+  return (
+    <div
+      aria-hidden="true"
+      className={`pointer-events-none fixed top-1/2 z-30 -translate-y-1/2 md:hidden ${
+        side === "left" ? "left-1" : "right-1"
+      }`}
+      style={{ perspective: "420px" }}
+    >
+      <div
+        className="flex flex-col items-center gap-1"
+        style={{
+          transformStyle: "preserve-3d",
+          transform: `rotateY(${dir * 32 + lean}deg) translateZ(0)`,
+          transition: "transform 0.18s ease-out",
+          animation: animate
+            ? `arrow-float-${side} 2.6s ease-in-out infinite`
+            : undefined,
+        }}
+      >
+        <span
+          className={`relative grid h-11 w-11 place-items-center rounded-2xl border transition-colors duration-200 ${
+            armed
+              ? "border-primary bg-primary/30 text-primary"
+              : "border-primary/40 bg-card/70 text-primary/80"
+          }`}
+          style={{
+            boxShadow: armed
+              ? `${dir * -6}px 6px 0 0 hsl(var(--primary) / 0.35), 0 10px 24px -8px hsl(var(--primary) / 0.7)`
+              : `${dir * -5}px 5px 0 0 hsl(var(--primary) / 0.18), 0 8px 18px -10px rgb(0 0 0 / 0.8)`,
+            backdropFilter: "blur(4px)",
+          }}
+        >
+          <Icon className="h-6 w-6" strokeWidth={3} />
+        </span>
+        <span className="max-w-[74px] truncate rounded-full bg-background/70 px-2 py-[2px] text-center text-[9px] uppercase tracking-[0.14em] text-muted-foreground">
+          {page.label}
+        </span>
+      </div>
+    </div>
+  );
+};
+
+const SwipeArrows = ({ prev, next, drag, armed, animate }: Props) => (
+  <>
+    {prev && (
+      <Arrow side="left" page={prev} drag={drag} armed={armed === "right"} animate={animate} />
+    )}
+    {next && (
+      <Arrow side="right" page={next} drag={drag} armed={armed === "left"} animate={animate} />
+    )}
+  </>
+);
+
+export default SwipeArrows;

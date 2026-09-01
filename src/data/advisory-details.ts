@@ -1,1 +1,155 @@
-LyoqIENhdXRpb24gbm90ZXMgYW5kIG5ld3MgbGlua3MgZm9yIGNvdW50cmllcyB3aXRoIGFjdGl2ZSBjb25mbGljdHMgb3IgaW5zdGFiaWxpdHkuCiAqICBTb3VyY2VzOiBBQ0xFRCwgSW50ZXJuYXRpb25hbCBDcmlzaXMgR3JvdXAsIFdvcmxkIFBvcHVsYXRpb24gUmV2aWV3IChNYXJjaCAyMDI2KS4gKi8KCmV4cG9ydCBpbnRlcmZhY2UgQWR2aXNvcnlEZXRhaWwgewogIHJlYXNvbjogc3RyaW5nOwogIGNhdXRpb246IHN0cmluZzsKICBuZXdzUXVlcnk6IHN0cmluZzsKfQoKLyoqIENvdW50cmllcyB3aXRoIGFjdGl2ZSB3YXJzIOKAlCBzaG93biB3aXRoIHN0cmlwZXMgb24gdGhlIG1hcC4gKi8KZXhwb3J0IGNvbnN0IGFkdmlzb3J5RGV0YWlsczogUmVjb3JkPHN0cmluZywgQWR2aXNvcnlEZXRhaWw+ID0gewogIFVrcmFpbmU6IHsKICAgIHJlYXNvbjogIkZ1bGwtc2NhbGUgd2FyIHdpdGggUnVzc2lhIHNpbmNlIEZlYiAyMDIyLiBEYWlseSBtaXNzaWxlIGFuZCBkcm9uZSBzdHJpa2VzIG9uIGNpdmlsaWFuIGluZnJhc3RydWN0dXJlLiIsCiAgICBjYXV0aW9uOiAiRnJvbnQtbGluZSByZWdpb25zIHNoaWZ0IGNvbnN0YW50bHk7IG1pbmUgYW5kIFVYTyBjb250YW1pbmF0aW9uIGlzIGV4dGVuc2l2ZSBhY3Jvc3MgZWFzdGVybiBhbmQgc291dGhlcm4gb2JsYXN0cy4iLAogICAgbmV3c1F1ZXJ5OiAiVWtyYWluZSB3YXIgZnJvbnRsaW5lIDIwMjYiLAogIH0sCiAgUnVzc2lhOiB7CiAgICByZWFzb246ICJPbmdvaW5nIHdhciBpbiBVa3JhaW5lIGFuZCBpbnZvbHZlbWVudCBpbiB0aGUgVVMtSXNyYWVsLUlyYW4gY29uZmxpY3QuIFJpc2sgb2YgZGV0ZW50aW9uIG9mIFdlc3Rlcm4gbmF0aW9uYWxzLiIsCiAgICBjYXV0aW9uOiAiU2V2ZXJhbCBXZXN0ZXJuIGNpdGl6ZW5zIGhhdmUgYmVlbiBkZXRhaW5lZCBvbiBwb2xpdGljYWxseSBtb3RpdmF0ZWQgY2hhcmdlcy4iLAogICAgbmV3c1F1ZXJ5OiAiUnVzc2lhIHdhciAyMDI2IiwKICB9LAogIFN1ZGFuOiB7CiAgICByZWFzb246ICJDaXZpbCB3YXIgYmV0d2VlbiBTQUYgYW5kIFJTRiBzaW5jZSBBcHJpbCAyMDIzLiBNYXNzaXZlIGZhbWluZSBhbmQgZGlzcGxhY2VtZW50IGFjcm9zcyBEYXJmdXIgYW5kIEtoYXJ0b3VtLiIsCiAgICBjYXV0aW9uOiAiS2hhcnRvdW0gYW5kIERhcmZ1ciBhcmUgYWN0aXZlIGNvbWJhdCB6b25lcy4gSHVtYW5pdGFyaWFuIGFjY2VzcyBzZXZlcmVseSByZXN0cmljdGVkLiIsCiAgICBuZXdzUXVlcnk6ICJTdWRhbiBjaXZpbCB3YXIgMjAyNiIsCiAgfSwKICBNeWFubWFyOiB7CiAgICByZWFzb246ICJDaXZpbCB3YXIgYmV0d2VlbiB0aGUgbWlsaXRhcnkganVudGEgYW5kIHJlc2lzdGFuY2UgZm9yY2VzIHNpbmNlIHRoZSAyMDIxIGNvdXAuIEp1bnRhIGxvc2luZyB0ZXJyaXRvcnkuIiwKICAgIGNhdXRpb246ICJCb3JkZXIgcmVnaW9ucyBhcmUgYWN0aXZlIGNvbWJhdCB6b25lcy4gQWlyIHN0cmlrZXMgb24gY2l2aWxpYW4gYXJlYXMgYW5kIGludGVybmV0IGJsYWNrb3V0cyBhcmUgY29tbW9uLiIsCiAgICBuZXdzUXVlcnk6ICJNeWFubWFyIGNpdmlsIHdhciAyMDI2IiwKICB9LAogIElyYW46IHsKICAgIHJlYXNvbjogIkFjdGl2ZSB3YXIgd2l0aCBVUyBhbmQgSXNyYWVsIHNpbmNlIGxhdGUgRmVicnVhcnkgMjAyNi4gTWlzc2lsZSBzdHJpa2VzIG9uIGNpdGllcy4gU3RyYWl0IG9mIEhvcm11eiB0ZW5zaW9ucy4iLAogICAgY2F1dGlvbjogIlRlaHJhbiBhbmQgbWFqb3IgY2l0aWVzIHVuZGVyIGJvbWJhcmRtZW50LiBBbGwgY29tbWVyY2lhbCBmbGlnaHRzIHN1c3BlbmRlZC4gUmVnaW9uYWwgc3BpbGxvdmVyIGFjcm9zcyB0aGUgTWlkZGxlIEVhc3QuIiwKICAgIG5ld3NRdWVyeTogIklyYW4gd2FyIFVTIElzcmFlbCAyMDI2IiwKICB9LAogIElzcmFlbDogewogICAgcmVhc29uOiAiT25nb2luZyBtaWxpdGFyeSBvcGVyYXRpb25zIGluIEdhemEgc2luY2UgT2N0IDIwMjMsIHBsdXMgYWN0aXZlIHdhciB3aXRoIElyYW4gc2luY2UgRmViIDIwMjYuIE11bHRpLWZyb250IGF0dGFja3MuIiwKICAgIGNhdXRpb246ICJSb2NrZXQgc2lyZW5zIGZyZXF1ZW50LiBBaXJwb3J0IGRpc3J1cHRpb25zLiBCb3JkZXIgYXJlYXMgd2l0aCBMZWJhbm9uIHJlbWFpbiB2b2xhdGlsZS4iLAogICAgbmV3c1F1ZXJ5OiAiSXNyYWVsIElyYW4gd2FyIEdhemEgMjAyNiIsCiAgfSwKICBQYWxlc3RpbmU6IHsKICAgIHJlYXNvbjogIkRldmFzdGF0ZWQgYnkgdGhlIElzcmFlbC1HYXphIHdhciBzaW5jZSBPY3QgMjAyMy4gRnJhZ2lsZSBjZWFzZWZpcmUgYnV0IG9uZ29pbmcgbWlsaXRhcnkgb3BlcmF0aW9ucy4iLAogICAgY2F1dGlvbjogIkdhemEgaXMgbGFyZ2VseSBkZXN0cm95ZWQuIFdlc3QgQmFuayBoYXMgbWlsaXRhcnkgY2hlY2twb2ludHMgYW5kIGZyZXF1ZW50IHJhaWRzLiIsCiAgICBuZXdzUXVlcnk6ICJQYWxlc3RpbmUgR2F6YSAyMDI2IiwKICB9LAogIFllbWVuOiB7CiAgICByZWFzb246ICJDaXZpbCB3YXIgYmV0d2VlbiBnb3Zlcm5tZW50IGFuZCBIb3V0aGkgZm9yY2VzLiBIb3V0aGkgYXR0YWNrcyBvbiBSZWQgU2VhIHNoaXBwaW5nIGRyYXcgaW50ZXJuYXRpb25hbCByZXNwb25zZXMuIiwKICAgIGNhdXRpb246ICJIdW1hbml0YXJpYW4gY3Jpc2lzIGFtb25nIHRoZSB3b3JzdCBnbG9iYWxseS4gSG91dGhpLWNvbnRyb2xsZWQgYXJlYXMgZmFjZSByZWd1bGFyIGFpciBzdHJpa2VzLiIsCiAgICBuZXdzUXVlcnk6ICJZZW1lbiBIb3V0aGkgd2FyIDIwMjYiLAogIH0sCiAgU3lyaWE6IHsKICAgIHJlYXNvbjogIk11bHRpLWZhY3Rpb24gY2l2aWwgd2FyIG9uZ29pbmcgc2luY2UgMjAxMS4gSVNJUyByZW1uYW50cywgVHVya2lzaCBvcGVyYXRpb25zLCBhbmQgSXNyYWVsaSBzdHJpa2VzIGNvbnRpbnVlLiIsCiAgICBjYXV0aW9uOiAiTm8gc3RhYmxlIGdvdmVybmFuY2UgaW4gbW9zdCByZWdpb25zLiBVbmV4cGxvZGVkIG9yZG5hbmNlIGlzIHdpZGVzcHJlYWQuIiwKICAgIG5ld3NRdWVyeTogIlN5cmlhIGNvbmZsaWN0IDIwMjYiLAogIH0sCiAgU29tYWxpYTogewogICAgcmVhc29uOiAiQWwtU2hhYmFhYiBpbnN1cmdlbmN5IHdpdGggZnJlcXVlbnQgYm9tYmluZ3MuIEdvdmVybm1lbnQgY29udHJvbHMgbGltaXRlZCB0ZXJyaXRvcnkgb3V0c2lkZSBNb2dhZGlzaHUuIiwKICAgIGNhdXRpb246ICJWZXJ5IGxpbWl0ZWQgaW5mcmFzdHJ1Y3R1cmUuIENsYW4gdmlvbGVuY2UgYW5kIHBpcmFjeSByZW1haW4gdGhyZWF0cy4iLAogICAgbmV3c1F1ZXJ5OiAiU29tYWxpYSBBbC1TaGFiYWFiIDIwMjYiLAogIH0sCiAgQWZnaGFuaXN0YW46IHsKICAgIHJlYXNvbjogIlRhbGliYW4gZ292ZXJuYW5jZSB3aXRoIGFjdGl2ZSBJU0lTLUsgdGVycm9yaXNtLiBQYWtpc3Rhbi1BZmdoYW5pc3RhbiBib3JkZXIgY29uZmxpY3QgZXNjYWxhdGVkIGluIGVhcmx5IDIwMjYuIiwKICAgIGNhdXRpb246ICJObyBXZXN0ZXJuIGVtYmFzc2llcyBvcGVyYXRlLiBTZXZlcmUgcmVzdHJpY3Rpb25zIG9uIG1vdmVtZW50LiIsCiAgICBuZXdzUXVlcnk6ICJBZmdoYW5pc3RhbiBjb25mbGljdCAyMDI2IiwKICB9LAogIEhhaXRpOiB7CiAgICByZWFzb246ICJHYW5nIHdhcmZhcmUgaGFzIGVmZmVjdGl2ZWx5IGNvbGxhcHNlZCB0aGUgc3RhdGUuIEFybWVkIGdyb3VwcyBjb250cm9sIG1vc3Qgb2YgUG9ydC1hdS1QcmluY2UuIiwKICAgIGNhdXRpb246ICJBaXJwb3J0IGFuZCByb2FkcyBmcmVxdWVudGx5IGJsb2NrZWQuIEtpZG5hcHBpbmctZm9yLXJhbnNvbSBpcyBlbmRlbWljLiIsCiAgICBuZXdzUXVlcnk6ICJIYWl0aSBnYW5nIHdhciAyMDI2IiwKICB9LAogICJEUiBDb25nbyI6IHsKICAgIHJlYXNvbjogIk0yMyByZWJlbCBvZmZlbnNpdmUgaW4gZWFzdGVybiBDb25nby4gUmVjb3JkIGFpciBzdHJpa2VzIHJlY29yZGVkIGluIGVhcmx5IDIwMjYuIiwKICAgIGNhdXRpb246ICJFYXN0ZXJuIHByb3ZpbmNlcyAoS2l2dSwgSXR1cmkpIGFyZSBleHRyZW1lbHkgZGFuZ2Vyb3VzLiIsCiAgICBuZXdzUXVlcnk6ICJEUiBDb25nbyBNMjMgMjAyNiIsCiAgfSwKICBFdGhpb3BpYTogewogICAgcmVhc29uOiAiUG9zdC1UaWdyYXkgd2FyIGluc3RhYmlsaXR5IHdpdGggb25nb2luZyBldGhuaWMgdmlvbGVuY2UgaW4gQW1oYXJhIGFuZCBPcm9taWEgcmVnaW9ucy4iLAogICAgY2F1dGlvbjogIkludGVyLWV0aG5pYyBjbGFzaGVzIGNhbiBibG9jayByb2FkcyB3aXRob3V0IHdhcm5pbmcuIiwKICAgIG5ld3NRdWVyeTogIkV0aGlvcGlhIGNvbmZsaWN0IDIwMjYiLAogIH0sCn07CgovKiogQ2F1dGlvbiBub3RlcyBmb3IgY291bnRyaWVzIHRoYXQgYXJlbid0IGluIGFjdGl2ZSB3YXIgYnV0IGhhdmUgaW5zdGFiaWxpdHkuCiAqICBUaGVzZSBhcmUgc2hvd24gYXMgbm90ZXMgaW4gaW5mbyBib3hlcywgTk9UIGFzIHN0cmlwZXMgb24gdGhlIG1hcC4gKi8KZXhwb3J0IGNvbnN0IGNhdXRpb25Ob3RlczogUmVjb3JkPHN0cmluZywgeyBub3RlOiBzdHJpbmc7IG5ld3NRdWVyeTogc3RyaW5nIH0+ID0gewogIElyYXE6IHsKICAgIG5vdGU6ICJJU0lTIHJlbW5hbnRzIGFuZCBtaWxpdGlhIHZpb2xlbmNlIGluIGRpc3B1dGVkIHRlcnJpdG9yaWVzLiBLdXJkaXN0YW4gUmVnaW9uIGlzIHJlbGF0aXZlbHkgc2FmZXIuIiwKICAgIG5ld3NRdWVyeTogIklyYXEgc2VjdXJpdHkgMjAyNiIsCiAgfSwKICBOaWdlcmlhOiB7CiAgICBub3RlOiAiQm9rbyBIYXJhbSBpbiBub3J0aGVhc3QsIG1hc3MgYmFuZGl0cnkgYW5kIGtpZG5hcHBpbmcgaW4gbm9ydGh3ZXN0LiBMYWdvcyBhbmQgQWJ1amEgYXJlIHNhZmVyIGJ1dCByb2FkIHRyYXZlbCBpbiB0aGUgbm9ydGggaXMgcmlza3kuIiwKICAgIG5ld3NRdWVyeTogIk5pZ2VyaWEgc2VjdXJpdHkgMjAyNiIsCiAgfSwKICBQYWtpc3RhbjogewogICAgbm90ZTogIlRUUCB0ZXJyb3Jpc20gc3VyZ2luZyBpbiBCYWxvY2hpc3RhbiBhbmQgS1BLLiBDcm9zcy1ib3JkZXIgdGVuc2lvbnMgd2l0aCBBZmdoYW5pc3Rhbi4gTWFqb3IgY2l0aWVzIGFyZSByZWxhdGl2ZWx5IHNhZmVyLiIsCiAgICBuZXdzUXVlcnk6ICJQYWtpc3RhbiB0ZXJyb3Jpc20gMjAyNiIsCiAgfSwKICAiQnVya2luYSBGYXNvIjogewogICAgbm90ZTogIkppaGFkaXN0IGluc3VyZ2VuY3kgY29udHJvbHMgbGFyZ2UgYXJlYXMuIE1pbGl0YXJ5IGp1bnRhIHN0cnVnZ2xpbmcgd2l0aCBzZWN1cml0eS4gT3ZlcmxhbmQgdHJhdmVsIGlzIHZlcnkgZGFuZ2Vyb3VzLiIsCiAgICBuZXdzUXVlcnk6ICJCdXJraW5hIEZhc28gaW5zdXJnZW5jeSAyMDI2IiwKICB9LAogIE1hbGk6IHsKICAgIG5vdGU6ICJKaWhhZGlzdCBpbnN1cmdlbmN5IGluIHRoZSBub3J0aCBhbmQgY2VudHJlLiBXYWduZXIvQWZyaWNhIENvcnBzIHByZXNlbmNlLiBVTiBwZWFjZWtlZXBlcnMgaGF2ZSB3aXRoZHJhd24uIiwKICAgIG5ld3NRdWVyeTogIk1hbGkgc2VjdXJpdHkgMjAyNiIsCiAgfSwKICBOaWdlcjogewogICAgbm90ZTogIlBvc3QtY291cCBpbnN0YWJpbGl0eSB3aXRoIGppaGFkaSBhdHRhY2tzIGFuZCBzcGlsbG92ZXIgZnJvbSBNYWxpIGFuZCBCdXJraW5hIEZhc28uIFdlc3Rlcm4gbWlsaXRhcnkgcGFydG5lcnMgZGVwYXJ0ZWQuIiwKICAgIG5ld3NRdWVyeTogIk5pZ2VyIHNlY3VyaXR5IDIwMjYiLAogIH0sCiAgQ2hhZDogewogICAgbm90ZTogIlRlcnJvcmlzbSBhbG9uZyB0aGUgTGFrZSBDaGFkIEJhc2luIGFuZCBhcm1lZCBiYW5kaXRyeSBpbiBydXJhbCBhcmVhcy4gTm9ydGhlcm4gYm9yZGVyIGlzIGRhbmdlcm91cy4iLAogICAgbmV3c1F1ZXJ5OiAiQ2hhZCBzZWN1cml0eSAyMDI2IiwKICB9LAogICJDZW50cmFsIEFmcmljYW4gUmVwdWJsaWMiOiB7CiAgICBub3RlOiAiQXJtZWQgZ3JvdXBzIG9wZXJhdGUgb3V0c2lkZSBnb3Zlcm5tZW50IGNvbnRyb2wuIFJvYWRzIGFyZSBkYW5nZXJvdXMuIEh1bWFuaXRhcmlhbiBhY2Nlc3MgcmVzdHJpY3RlZC4iLAogICAgbmV3c1F1ZXJ5OiAiQ2VudHJhbCBBZnJpY2FuIFJlcHVibGljIDIwMjYiLAogIH0sCiAgTW96YW1iaXF1ZTogewogICAgbm90ZTogIklTSVMtbGlua2VkIGluc3VyZ2VuY3kgaW4gQ2FibyBEZWxnYWRvIHByb3ZpbmNlLiBFbGVjdG9yYWwgdmlvbGVuY2UgZGVzdGFiaWxpemVkIHBhcnRzIG9mIHRoZSBzb3V0aC4iLAogICAgbmV3c1F1ZXJ5OiAiTW96YW1iaXF1ZSBDYWJvIERlbGdhZG8gMjAyNiIsCiAgfSwKICBDb2xvbWJpYTogewogICAgbm90ZTogIkVMTiBhbmQgRkFSQyBkaXNzaWRlbnQgZ3JvdXBzIGluIHJ1cmFsIGFyZWFzLiBNYWpvciBjaXRpZXMgYXJlIGdlbmVyYWxseSBzYWZlIGJ1dCBydXJhbCB0cmF2ZWwgcmVxdWlyZXMgcGxhbm5pbmcuIiwKICAgIG5ld3NRdWVyeTogIkNvbG9tYmlhIEVMTiAyMDI2IiwKICB9LAogIEVjdWFkb3I6IHsKICAgIG5vdGU6ICJEcnVnIHdhciBlc2NhbGF0aW9uIHdpdGggZ2FuZyB2aW9sZW5jZS4gQ29hc3RhbCBjaXRpZXMgbW9zdCBhZmZlY3RlZC4gUXVpdG8gaXMgc2FmZXIuIiwKICAgIG5ld3NRdWVyeTogIkVjdWFkb3IgZ2FuZyB2aW9sZW5jZSAyMDI2IiwKICB9LAogIE1leGljbzogewogICAgbm90ZTogIkNhcnRlbCB2aW9sZW5jZSBpbiBTaW5hbG9hLCBUYW1hdWxpcGFzLCBhbmQgR3VlcnJlcm8uIFRvdXJpc3QgY29ycmlkb3JzIGFyZSBwb2xpY2VkIGJ1dCB2aW9sZW5jZSBjYW4gZXJ1cHQuIiwKICAgIG5ld3NRdWVyeTogIk1leGljbyBjYXJ0ZWwgdmlvbGVuY2UgMjAyNiIsCiAgfSwKICAiU291dGggU3VkYW4iOiB7CiAgICBub3RlOiAiRXRobmljIHZpb2xlbmNlIGFuZCBpbnRlci1jb21tdW5hbCBmaWdodGluZy4gRmFtaW5lIGNvbmRpdGlvbnMgcGVyc2lzdC4gSW5mcmFzdHJ1Y3R1cmUgbmVhcmx5IG5vbmV4aXN0ZW50IG91dHNpZGUgSnViYS4iLAogICAgbmV3c1F1ZXJ5OiAiU291dGggU3VkYW4gdmlvbGVuY2UgMjAyNiIsCiAgfSwKICBMaWJ5YTogewogICAgbm90ZTogIkRpdmlkZWQgYmV0d2VlbiByaXZhbCBnb3Zlcm5tZW50cy4gTWlsaXRpYSBjbGFzaGVzIGVydXB0IHdpdGhvdXQgd2FybmluZy4gTm8gc3RhYmxlIGdvdmVybmFuY2UuIiwKICAgIG5ld3NRdWVyeTogIkxpYnlhIGNvbmZsaWN0IDIwMjYiLAogIH0sCiAgTGViYW5vbjogewogICAgbm90ZTogIlNwaWxsb3ZlciBmcm9tIElyYW4tSXNyYWVsIHdhci4gSGV6Ym9sbGFoIGludm9sdmVtZW50LiBFY29ub21pYyBjb2xsYXBzZSB3aXRoIGRlZ3JhZGVkIGVzc2VudGlhbCBzZXJ2aWNlcy4iLAogICAgbmV3c1F1ZXJ5OiAiTGViYW5vbiBjcmlzaXMgMjAyNiIsCiAgfSwKICBBbGdlcmlhOiB7CiAgICBub3RlOiAiTW91bnQgVGFoYXQgKEhvZ2dhciBNb3VudGFpbnMpIGlzIGNsb3NlZCBmb3IgY2xpbWJpbmcgdW50aWwgZnVydGhlciBub3RpY2UuIEFsZ2VyaWFuIGF1dGhvcml0aWVzIGhhdmUgcmVzdHJpY3RlZCBhY2Nlc3MgdG8gdGhlIEF0YWtvciBwbGF0ZWF1IHJlZ2lvbi4iLAogICAgbmV3c1F1ZXJ5OiAiQWxnZXJpYSBIb2dnYXIgVGFoYXQgY2xpbWJpbmcgMjAyNiIsCiAgfSwKfTsKLyoqIEJ1aWxkIGEgR29vZ2xlIE5ld3Mgc2VhcmNoIFVSTC4gKi8KZXhwb3J0IGZ1bmN0aW9uIGdldE5ld3NVcmwocXVlcnk6IHN0cmluZyk6IHN0cmluZyB7CiAgcmV0dXJuIGBodHRwczovL25ld3MuZ29vZ2xlLmNvbS9zZWFyY2g/cT0ke2VuY29kZVVSSUNvbXBvbmVudChxdWVyeSl9JmhsPWVuYDsKfQo=
+/** Caution notes and news links for countries with active conflicts or instability.
+ *  Sources: ACLED, International Crisis Group, World Population Review (March 2026). */
+
+export interface AdvisoryDetail {
+  reason: string;
+  caution: string;
+  newsQuery: string;
+}
+
+/** Countries with active wars — shown with stripes on the map. */
+export const advisoryDetails: Record<string, AdvisoryDetail> = {
+  Ukraine: {
+    reason: "Full-scale war with Russia since Feb 2022. Daily missile and drone strikes on civilian infrastructure.",
+    caution: "Front-line regions shift constantly; mine and UXO contamination is extensive across eastern and southern oblasts.",
+    newsQuery: "Ukraine war frontline 2026",
+  },
+  Russia: {
+    reason: "Ongoing war in Ukraine and involvement in the US-Israel-Iran conflict. Risk of detention of Western nationals.",
+    caution: "Several Western citizens have been detained on politically motivated charges.",
+    newsQuery: "Russia war 2026",
+  },
+  Sudan: {
+    reason: "Civil war between SAF and RSF since April 2023. Massive famine and displacement across Darfur and Khartoum.",
+    caution: "Khartoum and Darfur are active combat zones. Humanitarian access severely restricted.",
+    newsQuery: "Sudan civil war 2026",
+  },
+  Myanmar: {
+    reason: "Civil war between the military junta and resistance forces since the 2021 coup. Junta losing territory.",
+    caution: "Border regions are active combat zones. Air strikes on civilian areas and internet blackouts are common.",
+    newsQuery: "Myanmar civil war 2026",
+  },
+  Iran: {
+    reason: "Active war with US and Israel since late February 2026. Missile strikes on cities. Strait of Hormuz tensions.",
+    caution: "Tehran and major cities under bombardment. All commercial flights suspended. Regional spillover across the Middle East.",
+    newsQuery: "Iran war US Israel 2026",
+  },
+  Israel: {
+    reason: "Ongoing military operations in Gaza since Oct 2023, plus active war with Iran since Feb 2026. Multi-front attacks.",
+    caution: "Rocket sirens frequent. Airport disruptions. Border areas with Lebanon remain volatile.",
+    newsQuery: "Israel Iran war Gaza 2026",
+  },
+  Palestine: {
+    reason: "Devastated by the Israel-Gaza war since Oct 2023. Fragile ceasefire but ongoing military operations.",
+    caution: "Gaza is largely destroyed. West Bank has military checkpoints and frequent raids.",
+    newsQuery: "Palestine Gaza 2026",
+  },
+  Yemen: {
+    reason: "Civil war between government and Houthi forces. Houthi attacks on Red Sea shipping draw international responses.",
+    caution: "Humanitarian crisis among the worst globally. Houthi-controlled areas face regular air strikes.",
+    newsQuery: "Yemen Houthi war 2026",
+  },
+  Syria: {
+    reason: "Multi-faction civil war ongoing since 2011. ISIS remnants, Turkish operations, and Israeli strikes continue.",
+    caution: "No stable governance in most regions. Unexploded ordnance is widespread.",
+    newsQuery: "Syria conflict 2026",
+  },
+  Somalia: {
+    reason: "Al-Shabaab insurgency with frequent bombings. Government controls limited territory outside Mogadishu.",
+    caution: "Very limited infrastructure. Clan violence and piracy remain threats.",
+    newsQuery: "Somalia Al-Shabaab 2026",
+  },
+  Afghanistan: {
+    reason: "Taliban governance with active ISIS-K terrorism. Pakistan-Afghanistan border conflict escalated in early 2026.",
+    caution: "No Western embassies operate. Severe restrictions on movement.",
+    newsQuery: "Afghanistan conflict 2026",
+  },
+  Haiti: {
+    reason: "Gang warfare has effectively collapsed the state. Armed groups control most of Port-au-Prince.",
+    caution: "Airport and roads frequently blocked. Kidnapping-for-ransom is endemic.",
+    newsQuery: "Haiti gang war 2026",
+  },
+  "DR Congo": {
+    reason: "M23 rebel offensive in eastern Congo. Record air strikes recorded in early 2026.",
+    caution: "Eastern provinces (Kivu, Ituri) are extremely dangerous.",
+    newsQuery: "DR Congo M23 2026",
+  },
+  Ethiopia: {
+    reason: "Post-Tigray war instability with ongoing ethnic violence in Amhara and Oromia regions.",
+    caution: "Inter-ethnic clashes can block roads without warning.",
+    newsQuery: "Ethiopia conflict 2026",
+  },
+};
+
+/** Caution notes for countries that aren't in active war but have instability.
+ *  These are shown as notes in info boxes, NOT as stripes on the map. */
+export const cautionNotes: Record<string, { note: string; newsQuery: string }> = {
+  Iraq: {
+    note: "ISIS remnants and militia violence in disputed territories. Kurdistan Region is relatively safer.",
+    newsQuery: "Iraq security 2026",
+  },
+  Nigeria: {
+    note: "Boko Haram in northeast, mass banditry and kidnapping in northwest. Lagos and Abuja are safer but road travel in the north is risky.",
+    newsQuery: "Nigeria security 2026",
+  },
+  Pakistan: {
+    note: "TTP terrorism surging in Balochistan and KPK. Cross-border tensions with Afghanistan. Major cities are relatively safer.",
+    newsQuery: "Pakistan terrorism 2026",
+  },
+  "Burkina Faso": {
+    note: "Jihadist insurgency controls large areas. Military junta struggling with security. Overland travel is very dangerous.",
+    newsQuery: "Burkina Faso insurgency 2026",
+  },
+  Mali: {
+    note: "Jihadist insurgency in the north and centre. Wagner/Africa Corps presence. UN peacekeepers have withdrawn.",
+    newsQuery: "Mali security 2026",
+  },
+  Niger: {
+    note: "Post-coup instability with jihadi attacks and spillover from Mali and Burkina Faso. Western military partners departed.",
+    newsQuery: "Niger security 2026",
+  },
+  Chad: {
+    note: "Terrorism along the Lake Chad Basin and armed banditry in rural areas. Northern border is dangerous.",
+    newsQuery: "Chad security 2026",
+  },
+  "Central African Republic": {
+    note: "Armed groups operate outside government control. Roads are dangerous. Humanitarian access restricted.",
+    newsQuery: "Central African Republic 2026",
+  },
+  Mozambique: {
+    note: "ISIS-linked insurgency in Cabo Delgado province. Electoral violence destabilized parts of the south.",
+    newsQuery: "Mozambique Cabo Delgado 2026",
+  },
+  Colombia: {
+    note: "ELN and FARC dissident groups in rural areas. Major cities are generally safe but rural travel requires planning.",
+    newsQuery: "Colombia ELN 2026",
+  },
+  Ecuador: {
+    note: "Drug war escalation with gang violence. Coastal cities most affected. Quito is safer.",
+    newsQuery: "Ecuador gang violence 2026",
+  },
+  Mexico: {
+    note: "Cartel violence in Sinaloa, Tamaulipas, and Guerrero. Tourist corridors are policed but violence can erupt.",
+    newsQuery: "Mexico cartel violence 2026",
+  },
+  "South Sudan": {
+    note: "Ethnic violence and inter-communal fighting. Famine conditions persist. Infrastructure nearly nonexistent outside Juba.",
+    newsQuery: "South Sudan violence 2026",
+  },
+  Libya: {
+    note: "Divided between rival governments. Militia clashes erupt without warning. No stable governance.",
+    newsQuery: "Libya conflict 2026",
+  },
+  Lebanon: {
+    note: "Spillover from Iran-Israel war. Hezbollah involvement. Economic collapse with degraded essential services.",
+    newsQuery: "Lebanon crisis 2026",
+  },
+  Algeria: {
+    note: "Mount Tahat (Hoggar Mountains) is closed for climbing until further notice. Algerian authorities have restricted access to the Atakor plateau region.",
+    newsQuery: "Algeria Hoggar Tahat climbing 2026",
+  },
+};
+/** Build a Google News search URL. */
+export function getNewsUrl(query: string): string {
+  return `https://news.google.com/search?q=${encodeURIComponent(query)}&hl=en`;
+}

@@ -1,1 +1,35 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQXZhdGFyLCBBdmF0YXJGYWxsYmFjaywgQXZhdGFySW1hZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYXZhdGFyIjsKaW1wb3J0IHsgcmVzb2x2ZUF2YXRhclVybCB9IGZyb20gIkAvbGliL2NvbW11bml0eSI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiOwoKaW50ZXJmYWNlIE1lbWJlckF2YXRhclByb3BzIHsKICBwYXRoOiBzdHJpbmcgfCBudWxsOwogIG5hbWU6IHN0cmluZzsKICBjbGFzc05hbWU/OiBzdHJpbmc7Cn0KCmNvbnN0IE1lbWJlckF2YXRhciA9ICh7IHBhdGgsIG5hbWUsIGNsYXNzTmFtZSB9OiBNZW1iZXJBdmF0YXJQcm9wcykgPT4gewogIGNvbnN0IFt1cmwsIHNldFVybF0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGxldCBhY3RpdmUgPSB0cnVlOwogICAgcmVzb2x2ZUF2YXRhclVybChwYXRoKS50aGVuKCh1KSA9PiB7CiAgICAgIGlmIChhY3RpdmUpIHNldFVybCh1KTsKICAgIH0pOwogICAgcmV0dXJuICgpID0+IHsKICAgICAgYWN0aXZlID0gZmFsc2U7CiAgICB9OwogIH0sIFtwYXRoXSk7CgogIHJldHVybiAoCiAgICA8QXZhdGFyIGNsYXNzTmFtZT17Y24oImgtOSB3LTkgYm9yZGVyIGJvcmRlci1ib3JkZXIiLCBjbGFzc05hbWUpfT4KICAgICAge3VybCAmJiA8QXZhdGFySW1hZ2Ugc3JjPXt1cmx9IGFsdD17YCR7bmFtZX0gcHJvZmlsZSBwaWN0dXJlYH0gLz59CiAgICAgIDxBdmF0YXJGYWxsYmFjayBjbGFzc05hbWU9ImJnLXNlY29uZGFyeSB0ZXh0LXhzIGZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlciI+CiAgICAgICAge25hbWUuc2xpY2UoMCwgMikudG9VcHBlckNhc2UoKX0KICAgICAgPC9BdmF0YXJGYWxsYmFjaz4KICAgIDwvQXZhdGFyPgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBNZW1iZXJBdmF0YXI7Cg==
+import { useEffect, useState } from "react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { resolveAvatarUrl } from "@/lib/community";
+import { cn } from "@/lib/utils";
+
+interface MemberAvatarProps {
+  path: string | null;
+  name: string;
+  className?: string;
+}
+
+const MemberAvatar = ({ path, name, className }: MemberAvatarProps) => {
+  const [url, setUrl] = useState<string | null>(null);
+
+  useEffect(() => {
+    let active = true;
+    resolveAvatarUrl(path).then((u) => {
+      if (active) setUrl(u);
+    });
+    return () => {
+      active = false;
+    };
+  }, [path]);
+
+  return (
+    <Avatar className={cn("h-9 w-9 border border-border", className)}>
+      {url && <AvatarImage src={url} alt={`${name} profile picture`} />}
+      <AvatarFallback className="bg-secondary text-xs font-display tracking-wider">
+        {name.slice(0, 2).toUpperCase()}
+      </AvatarFallback>
+    </Avatar>
+  );
+};
+
+export default MemberAvatar;

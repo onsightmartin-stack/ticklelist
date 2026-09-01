@@ -1,1 +1,318 @@
-aW1wb3J0IHsgdXNlTWVtbywgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IExpbmsgfSBmcm9tICJAL2xpYi9yb3V0ZXItY29tcGF0IjsKaW1wb3J0IHsgTW91bnRhaW4sIFRyb3BoeSwgVXNlcnMsIEZsYWcsIFBhcnR5UG9wcGVyIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IE1lbWJlckF2YXRhciBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L01lbWJlckF2YXRhciI7CmltcG9ydCBBdmF0YXJGaWd1cmUgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9BdmF0YXJGaWd1cmUiOwoKaW1wb3J0IEZvbGxvd0J1dHRvbiBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L0ZvbGxvd0J1dHRvbiI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyB1c2VGb2xsb3dzIH0gZnJvbSAiQC9ob29rcy91c2VGb2xsb3dzIjsKaW1wb3J0IHsgdXNlQXNjZW50Q2hlZXJzIH0gZnJvbSAiQC9ob29rcy91c2VBc2NlbnRDaGVlcnMiOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB7IHBlYWtMaXN0cyB9IGZyb20gIkAvZGF0YS9wZWFrLWxpc3RzIjsKaW1wb3J0IHR5cGUgeyBBc2NlbnQgfSBmcm9tICJAL2xpYi9wZWFrLWNhdGFsb2ciOwppbXBvcnQgdHlwZSB7IEFkdmVudHVyZSwgUHVibGljUHJvZmlsZSwgU2lnbnVwIH0gZnJvbSAiQC9saWIvY29tbXVuaXR5IjsKCmludGVyZmFjZSBQcm9wcyB7CiAgYXNjZW50czogQXNjZW50W107CiAgYWR2ZW50dXJlczogQWR2ZW50dXJlW107CiAgc2lnbnVwczogU2lnbnVwW107CiAgcHJvZmlsZXM6IFJlY29yZDxzdHJpbmcsIFB1YmxpY1Byb2ZpbGU+OwogIGN1cnJlbnRVc2VySWQ/OiBzdHJpbmcgfCBudWxsOwogIGxpbWl0PzogbnVtYmVyOwp9Cgp0eXBlIEV2ZW50S2luZCA9ICJhc2NlbnQiIHwgImxpc3QiIHwgImFkdmVudHVyZSIgfCAic2lnbnVwIjsKCmludGVyZmFjZSBGZWVkRXZlbnQgewogIGlkOiBzdHJpbmc7CiAga2luZDogRXZlbnRLaW5kOwogIHVzZXJJZDogc3RyaW5nOwogIGF0OiBzdHJpbmc7CiAgdGV4dDogc3RyaW5nOwogIGRldGFpbD86IHN0cmluZyB8IHVuZGVmaW5lZDsKICBoaWdobGlnaHQ/OiBib29sZWFuIHwgdW5kZWZpbmVkOwogIGFzY2VudD86IEFzY2VudCB8IHVuZGVmaW5lZDsKICBocmVmPzogc3RyaW5nIHwgdW5kZWZpbmVkOwp9Cgpjb25zdCBrZXlGb3IgPSAoYTogQXNjZW50KSA9PgogIGEucGVha190eXBlID09PSAiY291bnRyeV9oaWdocG9pbnQiID8gYGhwOiR7YS5jb3VudHJ5ID8/IGEucGVha19uYW1lfWAgOiBgZnA6JHthLnBlYWtfbmFtZX1gOwoKY29uc3QgcmVsYXRpdmUgPSAoaXNvOiBzdHJpbmcpID0+IHsKICBjb25zdCBkaWZmID0gRGF0ZS5ub3coKSAtIG5ldyBEYXRlKGlzbykuZ2V0VGltZSgpOwogIGNvbnN0IG1pbnMgPSBNYXRoLnJvdW5kKGRpZmYgLyA2MDAwMCk7CiAgaWYgKG1pbnMgPCAxKSByZXR1cm4gImp1c3Qgbm93IjsKICBpZiAobWlucyA8IDYwKSByZXR1cm4gYCR7bWluc31tIGFnb2A7CiAgY29uc3QgaG91cnMgPSBNYXRoLnJvdW5kKG1pbnMgLyA2MCk7CiAgaWYgKGhvdXJzIDwgMjQpIHJldHVybiBgJHtob3Vyc31oIGFnb2A7CiAgY29uc3QgZGF5cyA9IE1hdGgucm91bmQoaG91cnMgLyAyNCk7CiAgaWYgKGRheXMgPCAzMCkgcmV0dXJuIGAke2RheXN9ZCBhZ29gOwogIHJldHVybiBuZXcgRGF0ZShpc28pLnRvTG9jYWxlRGF0ZVN0cmluZyh1bmRlZmluZWQsIHsgZGF5OiAibnVtZXJpYyIsIG1vbnRoOiAic2hvcnQiLCB5ZWFyOiAibnVtZXJpYyIgfSk7Cn07Cgpjb25zdCBJQ09OUzogUmVjb3JkPEV2ZW50S2luZCwgdHlwZW9mIE1vdW50YWluPiA9IHsKICBhc2NlbnQ6IE1vdW50YWluLAogIGxpc3Q6IFRyb3BoeSwKICBhZHZlbnR1cmU6IEZsYWcsCiAgc2lnbnVwOiBVc2VycywKfTsKCi8qKgogKiBCdWlsZHMgYSBjaHJvbm9sb2dpY2FsIGZlZWQgb3V0IG9mIHRoZSBkYXRhIHRoZSBjb21tdW5pdHkgcGFnZSBhbHJlYWR5CiAqIGxvYWRzIOKAlCBubyBleHRyYSB0YWJsZXMsIG5vIHBvbGxpbmcuCiAqLwpjb25zdCBidWlsZEV2ZW50cyA9ICgKICBhc2NlbnRzOiBBc2NlbnRbXSwKICBhZHZlbnR1cmVzOiBBZHZlbnR1cmVbXSwKICBzaWdudXBzOiBTaWdudXBbXSwKICBhZHZlbnR1cmVCeUlkOiBNYXA8c3RyaW5nLCBBZHZlbnR1cmU+LAopOiBGZWVkRXZlbnRbXSA9PiB7CiAgY29uc3QgZXZlbnRzOiBGZWVkRXZlbnRbXSA9IFtdOwoKICBmb3IgKGNvbnN0IGEgb2YgYXNjZW50cykgewogICAgZXZlbnRzLnB1c2goewogICAgICBpZDogYGFzY2VudC0ke2EuaWR9YCwKICAgICAga2luZDogImFzY2VudCIsCiAgICAgIHVzZXJJZDogYS51c2VyX2lkLAogICAgICBhdDogYS5jcmVhdGVkX2F0LAogICAgICB0ZXh0OiBgbG9nZ2VkICR7YS5wZWFrX25hbWV9YCwKICAgICAgZGV0YWlsOiBbYS5jb3VudHJ5LCBhLmVsZXZhdGlvbl0uZmlsdGVyKEJvb2xlYW4pLmpvaW4oIiDCtyAiKSB8fCB1bmRlZmluZWQsCiAgICAgIGFzY2VudDogYSwKICAgICAgaHJlZjogYC9jb21tdW5pdHkvYXNjZW50cyNhc2NlbnQtJHthLmlkfWAsCiAgICB9KTsKICB9CgoKICAvLyBSZXBsYXkgZWFjaCBjbGltYmVyJ3MgYXNjZW50cyBpbiB0aGUgb3JkZXIgdGhleSB3ZXJlIGxvZ2dlZCBhbmQgZmxhZyB0aGUKICAvLyBhc2NlbnQgdGhhdCB0aXBwZWQgdGhlbSBvdmVyIHRoZSBmaW5pc2ggbGluZSBvZiBhIGNoYWxsZW5nZSBsaXN0LgogIGNvbnN0IGJ5VXNlciA9IG5ldyBNYXA8c3RyaW5nLCBBc2NlbnRbXT4oKTsKICBmb3IgKGNvbnN0IGEgb2YgYXNjZW50cykgewogICAgaWYgKCFieVVzZXIuaGFzKGEudXNlcl9pZCkpIGJ5VXNlci5zZXQoYS51c2VyX2lkLCBbXSk7CiAgICBieVVzZXIuZ2V0KGEudXNlcl9pZCkhLnB1c2goYSk7CiAgfQoKICBmb3IgKGNvbnN0IFt1c2VySWQsIHVzZXJBc2NlbnRzXSBvZiBieVVzZXIpIHsKICAgIGNvbnN0IG9yZGVyZWQgPSBbLi4udXNlckFzY2VudHNdLnNvcnQoCiAgICAgICh4LCB5KSA9PiBuZXcgRGF0ZSh4LmNyZWF0ZWRfYXQpLmdldFRpbWUoKSAtIG5ldyBEYXRlKHkuY3JlYXRlZF9hdCkuZ2V0VGltZSgpLAogICAgKTsKICAgIGNvbnN0IGtleXMgPSBuZXcgU2V0PHN0cmluZz4oKTsKICAgIGNvbnN0IGNvbXBsZXRlZCA9IG5ldyBTZXQ8c3RyaW5nPigpOwoKICAgIGZvciAoY29uc3QgYSBvZiBvcmRlcmVkKSB7CiAgICAgIGtleXMuYWRkKGtleUZvcihhKSk7CiAgICAgIGZvciAoY29uc3QgbGlzdCBvZiBwZWFrTGlzdHMpIHsKICAgICAgICBpZiAoY29tcGxldGVkLmhhcyhsaXN0LmlkKSkgY29udGludWU7CiAgICAgICAgY29uc3QgZG9uZSA9IGxpc3QuZW50cmllcy5ldmVyeSgKICAgICAgICAgIChlKSA9PiBrZXlzLmhhcyhlLmtleSkgfHwgKGUuYWx0ID8/IFtdKS5zb21lKChrKSA9PiBrZXlzLmhhcyhrKSksCiAgICAgICAgKTsKICAgICAgICBpZiAoZG9uZSkgewogICAgICAgICAgY29tcGxldGVkLmFkZChsaXN0LmlkKTsKICAgICAgICAgIGV2ZW50cy5wdXNoKHsKICAgICAgICAgICAgaWQ6IGBsaXN0LSR7dXNlcklkfS0ke2xpc3QuaWR9YCwKICAgICAgICAgICAga2luZDogImxpc3QiLAogICAgICAgICAgICB1c2VySWQsCiAgICAgICAgICAgIGF0OiBhLmNyZWF0ZWRfYXQsCiAgICAgICAgICAgIHRleHQ6IGBjb21wbGV0ZWQgJHtsaXN0Lm5hbWV9YCwKICAgICAgICAgICAgZGV0YWlsOiBgJHtsaXN0LmVudHJpZXMubGVuZ3RofSBwZWFrcyDCtyBmaW5pc2hlZCBvbiAke2EucGVha19uYW1lfWAsCiAgICAgICAgICAgIGhpZ2hsaWdodDogdHJ1ZSwKICAgICAgICAgIH0pOwogICAgICAgIH0KICAgICAgfQogICAgfQogIH0KCiAgZm9yIChjb25zdCBhZHYgb2YgYWR2ZW50dXJlcykgewogICAgZXZlbnRzLnB1c2goewogICAgICBpZDogYGFkdmVudHVyZS0ke2Fkdi5pZH1gLAogICAgICBraW5kOiAiYWR2ZW50dXJlIiwKICAgICAgdXNlcklkOiBhZHYuY3JlYXRvcl9pZCwKICAgICAgYXQ6IGFkdi5jcmVhdGVkX2F0LAogICAgICB0ZXh0OiBgcG9zdGVkIGFuIGFkdmVudHVyZSB0byAke2Fkdi5wZWFrX25hbWV9YCwKICAgICAgZGV0YWlsOiBhZHYuY291bnRyeSA/PyB1bmRlZmluZWQsCiAgICAgIGhyZWY6IGAvY29tbXVuaXR5L2FkdmVudHVyZXMjYWR2ZW50dXJlLSR7YWR2LmlkfWAsCiAgICB9KTsKICB9CgogIGZvciAoY29uc3QgcyBvZiBzaWdudXBzKSB7CiAgICBjb25zdCBhZHYgPSBhZHZlbnR1cmVCeUlkLmdldChzLmFkdmVudHVyZV9pZCk7CiAgICBpZiAoIWFkdikgY29udGludWU7CiAgICBldmVudHMucHVzaCh7CiAgICAgIGlkOiBgc2lnbnVwLSR7cy5pZH1gLAogICAgICBraW5kOiAic2lnbnVwIiwKICAgICAgdXNlcklkOiBzLnVzZXJfaWQsCiAgICAgIGF0OiBhZHYuY3JlYXRlZF9hdCwKICAgICAgdGV4dDogYCR7cy5zdGF0dXMgPT09ICJqb2luaW5nIiA/ICJqb2luZWQiIDogImlzIGludGVyZXN0ZWQgaW4ifSAke2Fkdi5wZWFrX25hbWV9YCwKICAgICAgaHJlZjogYC9jb21tdW5pdHkvYWR2ZW50dXJlcyNhZHZlbnR1cmUtJHthZHYuaWR9YCwKICAgIH0pOwogIH0KCgogIHJldHVybiBldmVudHMuc29ydCgoYSwgYikgPT4gbmV3IERhdGUoYi5hdCkuZ2V0VGltZSgpIC0gbmV3IERhdGUoYS5hdCkuZ2V0VGltZSgpKTsKfTsKCmNvbnN0IEFjdGl2aXR5RmVlZCA9ICh7CiAgYXNjZW50cywKICBhZHZlbnR1cmVzLAogIHNpZ251cHMsCiAgcHJvZmlsZXMsCiAgY3VycmVudFVzZXJJZCA9IG51bGwsCiAgbGltaXQgPSAyNSwKfTogUHJvcHMpID0+IHsKICBjb25zdCB7IGZvbGxvd2luZywgZm9sbG93ZXJDb3VudHMsIHRvZ2dsZUZvbGxvdyB9ID0gdXNlRm9sbG93cygpOwogIGNvbnN0IHsgY291bnRzOiBjaGVlckNvdW50cywgbWluZTogbXlDaGVlcnMsIHRvZ2dsZUNoZWVyIH0gPSB1c2VBc2NlbnRDaGVlcnMoKTsKICBjb25zdCBbc2NvcGUsIHNldFNjb3BlXSA9IHVzZVN0YXRlPCJhbGwiIHwgImZvbGxvd2luZyI+KCJhbGwiKTsKCiAgY29uc3QgYWR2ZW50dXJlQnlJZCA9IHVzZU1lbW8oCiAgICAoKSA9PiBuZXcgTWFwKGFkdmVudHVyZXMubWFwKChhKSA9PiBbYS5pZCwgYV0pKSwKICAgIFthZHZlbnR1cmVzXSwKICApOwoKICBjb25zdCBhbGxFdmVudHMgPSB1c2VNZW1vKAogICAgKCkgPT4gYnVpbGRFdmVudHMoYXNjZW50cywgYWR2ZW50dXJlcywgc2lnbnVwcywgYWR2ZW50dXJlQnlJZCksCiAgICBbYXNjZW50cywgYWR2ZW50dXJlcywgc2lnbnVwcywgYWR2ZW50dXJlQnlJZF0sCiAgKTsKCiAgY29uc3QgZXZlbnRzID0gdXNlTWVtbygoKSA9PiB7CiAgICBjb25zdCBzY29wZWQgPQogICAgICBzY29wZSA9PT0gImZvbGxvd2luZyIKICAgICAgICA/IGFsbEV2ZW50cy5maWx0ZXIoKGUpID0+IGZvbGxvd2luZy5oYXMoZS51c2VySWQpIHx8IGUudXNlcklkID09PSBjdXJyZW50VXNlcklkKQogICAgICAgIDogYWxsRXZlbnRzOwogICAgcmV0dXJuIHNjb3BlZC5zbGljZSgwLCBsaW1pdCk7CiAgfSwgW2FsbEV2ZW50cywgc2NvcGUsIGZvbGxvd2luZywgY3VycmVudFVzZXJJZCwgbGltaXRdKTsKCiAgY29uc3QgdG9nZ2xlID0gKAogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTEgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlciBwLTAuNSB3LWZpdCI+CiAgICAgIHsoWyJhbGwiLCAiZm9sbG93aW5nIl0gYXMgY29uc3QpLm1hcCgocykgPT4gKAogICAgICAgIDxCdXR0b24KICAgICAgICAgIGtleT17c30KICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgdmFyaWFudD17c2NvcGUgPT09IHMgPyAic2Vjb25kYXJ5IiA6ICJnaG9zdCJ9CiAgICAgICAgICBjbGFzc05hbWU9ImgtNyB0ZXh0LVsxMXB4XSB0cmFja2luZy13aWRlIgogICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0U2NvcGUocyl9CiAgICAgICAgPgogICAgICAgICAge3MgPT09ICJhbGwiID8gIkV2ZXJ5b25lIiA6IGBGb2xsb3dpbmcke2ZvbGxvd2luZy5zaXplID8gYCDCtyAke2ZvbGxvd2luZy5zaXplfWAgOiAiIn1gfQogICAgICAgIDwvQnV0dG9uPgogICAgICApKX0KICAgIDwvZGl2PgogICk7CgogIGlmIChhbGxFdmVudHMubGVuZ3RoID09PSAwKSB7CiAgICByZXR1cm4gKAogICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICBOb3RoaW5nIGhlcmUgeWV0IOKAlCA8TGluayB0bz0iL2F1dGgiIGNsYXNzTmFtZT0idGV4dC1wcmltYXJ5IHVuZGVybGluZSI+am9pbiBUaWNrbGVsaXN0PC9MaW5rPiBhbmQgbG9nCiAgICAgICAgdGhlIGZpcnN0IGFzY2VudC4KICAgICAgPC9wPgogICAgKTsKICB9CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0zIj4KICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgRXZlcnl0aGluZyBoYXBwZW5pbmcgaW4gVGlja2xlbGlzdCDigJQgbmV3IGFzY2VudHMsIGNoYWxsZW5nZSBsaXN0cyB0aWNrZWQgb2ZmLCBhbmQgYWR2ZW50dXJlcyBwb3N0ZWQuCiAgICAgICAgRm9sbG93IGEgY2xpbWJlciB0byBrZWVwIHRoZWlyIHVwZGF0ZXMgaW4gb25lIHBsYWNlLgogICAgICA8L3A+CgogICAgICB7dG9nZ2xlfQoKICAgICAge2V2ZW50cy5sZW5ndGggPT09IDAgJiYgKAogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgcHktNiI+CiAgICAgICAgICB7Y3VycmVudFVzZXJJZAogICAgICAgICAgICA/ICJZb3UncmUgbm90IGZvbGxvd2luZyBhbnlvbmUgeWV0IOKAlCBoaXQgRm9sbG93IG9uIGEgY2xpbWJlciB0byBzZWUgdGhlaXIgYXNjZW50cyBoZXJlLiIKICAgICAgICAgICAgOiAiU2lnbiBpbiB0byBmb2xsb3cgY2xpbWJlcnMgYW5kIGJ1aWxkIHlvdXIgb3duIGZlZWQuIn0KICAgICAgICA8L3A+CiAgICAgICl9CgogICAgICA8b2wgY2xhc3NOYW1lPSJyZWxhdGl2ZSBzcGFjZS15LTMiPgogICAgICAgIHtldmVudHMubWFwKChlKSA9PiB7CiAgICAgICAgICBjb25zdCBwZXJzb24gPSBwcm9maWxlc1tlLnVzZXJJZF07CiAgICAgICAgICBjb25zdCBuYW1lID0gcGVyc29uPy5kaXNwbGF5X25hbWUgPz8gIkEgY2xpbWJlciI7CiAgICAgICAgICBjb25zdCBJY29uID0gSUNPTlNbZS5raW5kXTsKCiAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICA8bGkKICAgICAgICAgICAgICBrZXk9e2UuaWR9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgZmxleCBpdGVtcy1zdGFydCBnYXAtMyByb3VuZGVkLWxnIGJvcmRlciBwLTMgJHsKICAgICAgICAgICAgICAgIGUuaGlnaGxpZ2h0ID8gImJvcmRlci1wcmltYXJ5LzUwIGJnLXByaW1hcnkvNSIgOiAiYm9yZGVyLWJvcmRlciBiZy1jYXJkIgogICAgICAgICAgICAgIH1gfQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPExpbmsgdG89e2AvY29tbXVuaXR5L21lbWJlcnMvJHtlLnVzZXJJZH1gfSBjbGFzc05hbWU9InNocmluay0wIiBhcmlhLWxhYmVsPXtgVmlldyAke25hbWV9J3MgcHJvZmlsZWB9PgogICAgICAgICAgICAgICAgey8qIE5ldyBhc2NlbnRzIGdldCB0aGUgZnVsbC1ib2R5IDNEIGNsaW1iZXIgc3RhbmRpbmcgYmVzaWRlIHRoZSBlbnRyeS4gKi99CiAgICAgICAgICAgICAgICB7ZS5raW5kID09PSAiYXNjZW50IiAmJiBwZXJzb24/LmF2YXRhcl91cmw/LnN0YXJ0c1dpdGgoImdlbjoiKSA/ICgKICAgICAgICAgICAgICAgICAgPEF2YXRhckZpZ3VyZQogICAgICAgICAgICAgICAgICAgIHBhdGg9e3BlcnNvbi5hdmF0YXJfdXJsfQogICAgICAgICAgICAgICAgICAgIG5hbWU9e25hbWV9CiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJoLTIwIHctMTQgLW10LTEgLW1iLTIgZHJvcC1zaGFkb3ctbWQgdHJhbnNpdGlvbi10cmFuc2Zvcm0gaG92ZXI6LXRyYW5zbGF0ZS15LTAuNSIKICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgIDxNZW1iZXJBdmF0YXIgcGF0aD17cGVyc29uPy5hdmF0YXJfdXJsID8/IG51bGx9IG5hbWU9e25hbWV9IGNsYXNzTmFtZT0iaC05IHctOSIgLz4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPC9MaW5rPgoKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCBmbGV4LTEiPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIj4KICAgICAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgICAgICB0bz17YC9jb21tdW5pdHkvbWVtYmVycy8ke2UudXNlcklkfWB9CiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdHJhY2tpbmctd2lkZSBob3Zlcjp0ZXh0LXByaW1hcnkgaG92ZXI6dW5kZXJsaW5lIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAge25hbWV9CiAgICAgICAgICAgICAgICAgIDwvTGluaz57IiAifQogICAgICAgICAgICAgICAgICB7ZS5ocmVmID8gKAogICAgICAgICAgICAgICAgICAgIDxMaW5rIHRvPXtlLmhyZWZ9IGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGhvdmVyOnRleHQtZm9yZWdyb3VuZCBob3Zlcjp1bmRlcmxpbmUiPgogICAgICAgICAgICAgICAgICAgICAge2UudGV4dH0KICAgICAgICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPntlLnRleHR9PC9zcGFuPgogICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAge2UuZGV0YWlsICYmIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMC41IHRydW5jYXRlIj57ZS5kZXRhaWx9PC9wPn0KICAgICAgICAgICAgICAgIHtlLmFzY2VudCAmJiAoCiAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICAgICAgdmFyaWFudD17bXlDaGVlcnMuaGFzKGUuYXNjZW50LmlkKSA/ICJzZWNvbmRhcnkiIDogImdob3N0In0KICAgICAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZD17ZS5hc2NlbnQudXNlcl9pZCA9PT0gY3VycmVudFVzZXJJZH0KICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB0b2dnbGVDaGVlcihlLmFzY2VudCEpfQogICAgICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9e215Q2hlZXJzLmhhcyhlLmFzY2VudC5pZCkgPyAiUmVtb3ZlIHlvdXIgY2hlZXIiIDogYENoZWVyICR7bmFtZX0ncyBhc2NlbnRgfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YG10LTIgaC03IGdhcC0xLjUgcHgtMiB0ZXh0LXhzICR7bXlDaGVlcnMuaGFzKGUuYXNjZW50LmlkKSA/ICJ0ZXh0LXByaW1hcnkiIDogIiJ9YH0KICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxQYXJ0eVBvcHBlciBjbGFzc05hbWU9e2B3LTMuNSBoLTMuNSAke215Q2hlZXJzLmhhcyhlLmFzY2VudC5pZCkgPyAiZmlsbC1jdXJyZW50IiA6ICIifWB9IC8+CiAgICAgICAgICAgICAgICAgICAge2UuYXNjZW50LnVzZXJfaWQgPT09IGN1cnJlbnRVc2VySWQKICAgICAgICAgICAgICAgICAgICAgID8gIkNoZWVycyIKICAgICAgICAgICAgICAgICAgICAgIDogbXlDaGVlcnMuaGFzKGUuYXNjZW50LmlkKQogICAgICAgICAgICAgICAgICAgICAgICA/ICJDaGVlcmVkIgogICAgICAgICAgICAgICAgICAgICAgICA6ICJDaGVlciJ9CiAgICAgICAgICAgICAgICAgICAgeyhjaGVlckNvdW50c1tlLmFzY2VudC5pZF0gPz8gMCkgPiAwICYmICgKICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGFidWxhci1udW1zIj57Y2hlZXJDb3VudHNbZS5hc2NlbnQuaWRdfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAge2N1cnJlbnRVc2VySWQgJiYgZS51c2VySWQgIT09IGN1cnJlbnRVc2VySWQgJiYgKAogICAgICAgICAgICAgICAgPEZvbGxvd0J1dHRvbgogICAgICAgICAgICAgICAgICBpc0ZvbGxvd2luZz17Zm9sbG93aW5nLmhhcyhlLnVzZXJJZCl9CiAgICAgICAgICAgICAgICAgIGZvbGxvd2VyQ291bnQ9e2ZvbGxvd2VyQ291bnRzW2UudXNlcklkXX0KICAgICAgICAgICAgICAgICAgb25Ub2dnbGU9eygpID0+IHRvZ2dsZUZvbGxvdyhlLnVzZXJJZCl9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaGlkZGVuIHNtOmlubGluZS1mbGV4IHNlbGYtY2VudGVyIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIGl0ZW1zLWVuZCBnYXAtMSBzaHJpbmstMCI+CiAgICAgICAgICAgICAgICA8SWNvbiBjbGFzc05hbWU9e2B3LTQgaC00ICR7ZS5oaWdobGlnaHQgPyAidGV4dC1wcmltYXJ5IiA6ICJ0ZXh0LW11dGVkLWZvcmVncm91bmQifWB9IC8+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCB3aGl0ZXNwYWNlLW5vd3JhcCI+e3JlbGF0aXZlKGUuYXQpfTwvc3Bhbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICB7ZS5oaWdobGlnaHQgJiYgKAogICAgICAgICAgICAgICAgPEJhZGdlIHZhcmlhbnQ9InNlY29uZGFyeSIgY2xhc3NOYW1lPSJoaWRkZW4gc206aW5saW5lLWZsZXggdGV4dC1bMTBweF0gc2VsZi1jZW50ZXIiPgogICAgICAgICAgICAgICAgICBMaXN0IGNvbXBsZXRlCiAgICAgICAgICAgICAgICA8L0JhZGdlPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICApOwoKICAgICAgICB9KX0KICAgICAgPC9vbD4KICAgIDwvZGl2PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBBY3Rpdml0eUZlZWQ7Cg==
+import { useMemo, useState } from "react";
+import { Link } from "@/lib/router-compat";
+import { Mountain, Trophy, Users, Flag, PartyPopper } from "lucide-react";
+import MemberAvatar from "@/components/community/MemberAvatar";
+import AvatarFigure from "@/components/community/AvatarFigure";
+
+import FollowButton from "@/components/community/FollowButton";
+import { Button } from "@/components/ui/button";
+import { useFollows } from "@/hooks/useFollows";
+import { useAscentCheers } from "@/hooks/useAscentCheers";
+import { Badge } from "@/components/ui/badge";
+import { peakLists } from "@/data/peak-lists";
+import type { Ascent } from "@/lib/peak-catalog";
+import type { Adventure, PublicProfile, Signup } from "@/lib/community";
+
+interface Props {
+  ascents: Ascent[];
+  adventures: Adventure[];
+  signups: Signup[];
+  profiles: Record<string, PublicProfile>;
+  currentUserId?: string | null;
+  limit?: number;
+}
+
+type EventKind = "ascent" | "list" | "adventure" | "signup";
+
+interface FeedEvent {
+  id: string;
+  kind: EventKind;
+  userId: string;
+  at: string;
+  text: string;
+  detail?: string | undefined;
+  highlight?: boolean | undefined;
+  ascent?: Ascent | undefined;
+  href?: string | undefined;
+}
+
+const keyFor = (a: Ascent) =>
+  a.peak_type === "country_highpoint" ? `hp:${a.country ?? a.peak_name}` : `fp:${a.peak_name}`;
+
+const relative = (iso: string) => {
+  const diff = Date.now() - new Date(iso).getTime();
+  const mins = Math.round(diff / 60000);
+  if (mins < 1) return "just now";
+  if (mins < 60) return `${mins}m ago`;
+  const hours = Math.round(mins / 60);
+  if (hours < 24) return `${hours}h ago`;
+  const days = Math.round(hours / 24);
+  if (days < 30) return `${days}d ago`;
+  return new Date(iso).toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" });
+};
+
+const ICONS: Record<EventKind, typeof Mountain> = {
+  ascent: Mountain,
+  list: Trophy,
+  adventure: Flag,
+  signup: Users,
+};
+
+/**
+ * Builds a chronological feed out of the data the community page already
+ * loads — no extra tables, no polling.
+ */
+const buildEvents = (
+  ascents: Ascent[],
+  adventures: Adventure[],
+  signups: Signup[],
+  adventureById: Map<string, Adventure>,
+): FeedEvent[] => {
+  const events: FeedEvent[] = [];
+
+  for (const a of ascents) {
+    events.push({
+      id: `ascent-${a.id}`,
+      kind: "ascent",
+      userId: a.user_id,
+      at: a.created_at,
+      text: `logged ${a.peak_name}`,
+      detail: [a.country, a.elevation].filter(Boolean).join(" · ") || undefined,
+      ascent: a,
+      href: `/community/ascents#ascent-${a.id}`,
+    });
+  }
+
+
+  // Replay each climber's ascents in the order they were logged and flag the
+  // ascent that tipped them over the finish line of a challenge list.
+  const byUser = new Map<string, Ascent[]>();
+  for (const a of ascents) {
+    if (!byUser.has(a.user_id)) byUser.set(a.user_id, []);
+    byUser.get(a.user_id)!.push(a);
+  }
+
+  for (const [userId, userAscents] of byUser) {
+    const ordered = [...userAscents].sort(
+      (x, y) => new Date(x.created_at).getTime() - new Date(y.created_at).getTime(),
+    );
+    const keys = new Set<string>();
+    const completed = new Set<string>();
+
+    for (const a of ordered) {
+      keys.add(keyFor(a));
+      for (const list of peakLists) {
+        if (completed.has(list.id)) continue;
+        const done = list.entries.every(
+          (e) => keys.has(e.key) || (e.alt ?? []).some((k) => keys.has(k)),
+        );
+        if (done) {
+          completed.add(list.id);
+          events.push({
+            id: `list-${userId}-${list.id}`,
+            kind: "list",
+            userId,
+            at: a.created_at,
+            text: `completed ${list.name}`,
+            detail: `${list.entries.length} peaks · finished on ${a.peak_name}`,
+            highlight: true,
+          });
+        }
+      }
+    }
+  }
+
+  for (const adv of adventures) {
+    events.push({
+      id: `adventure-${adv.id}`,
+      kind: "adventure",
+      userId: adv.creator_id,
+      at: adv.created_at,
+      text: `posted an adventure to ${adv.peak_name}`,
+      detail: adv.country ?? undefined,
+      href: `/community/adventures#adventure-${adv.id}`,
+    });
+  }
+
+  for (const s of signups) {
+    const adv = adventureById.get(s.adventure_id);
+    if (!adv) continue;
+    events.push({
+      id: `signup-${s.id}`,
+      kind: "signup",
+      userId: s.user_id,
+      at: adv.created_at,
+      text: `${s.status === "joining" ? "joined" : "is interested in"} ${adv.peak_name}`,
+      href: `/community/adventures#adventure-${adv.id}`,
+    });
+  }
+
+
+  return events.sort((a, b) => new Date(b.at).getTime() - new Date(a.at).getTime());
+};
+
+const ActivityFeed = ({
+  ascents,
+  adventures,
+  signups,
+  profiles,
+  currentUserId = null,
+  limit = 25,
+}: Props) => {
+  const { following, followerCounts, toggleFollow } = useFollows();
+  const { counts: cheerCounts, mine: myCheers, toggleCheer } = useAscentCheers();
+  const [scope, setScope] = useState<"all" | "following">("all");
+
+  const adventureById = useMemo(
+    () => new Map(adventures.map((a) => [a.id, a])),
+    [adventures],
+  );
+
+  const allEvents = useMemo(
+    () => buildEvents(ascents, adventures, signups, adventureById),
+    [ascents, adventures, signups, adventureById],
+  );
+
+  const events = useMemo(() => {
+    const scoped =
+      scope === "following"
+        ? allEvents.filter((e) => following.has(e.userId) || e.userId === currentUserId)
+        : allEvents;
+    return scoped.slice(0, limit);
+  }, [allEvents, scope, following, currentUserId, limit]);
+
+  const toggle = (
+    <div className="flex gap-1 rounded-md border border-border p-0.5 w-fit">
+      {(["all", "following"] as const).map((s) => (
+        <Button
+          key={s}
+          type="button"
+          size="sm"
+          variant={scope === s ? "secondary" : "ghost"}
+          className="h-7 text-[11px] tracking-wide"
+          onClick={() => setScope(s)}
+        >
+          {s === "all" ? "Everyone" : `Following${following.size ? ` · ${following.size}` : ""}`}
+        </Button>
+      ))}
+    </div>
+  );
+
+  if (allEvents.length === 0) {
+    return (
+      <p className="text-sm text-muted-foreground">
+        Nothing here yet — <Link to="/auth" className="text-primary underline">join Ticklelist</Link> and log
+        the first ascent.
+      </p>
+    );
+  }
+
+  return (
+    <div className="space-y-3">
+      <p className="text-sm text-muted-foreground">
+        Everything happening in Ticklelist — new ascents, challenge lists ticked off, and adventures posted.
+        Follow a climber to keep their updates in one place.
+      </p>
+
+      {toggle}
+
+      {events.length === 0 && (
+        <p className="text-sm text-muted-foreground py-6">
+          {currentUserId
+            ? "You're not following anyone yet — hit Follow on a climber to see their ascents here."
+            : "Sign in to follow climbers and build your own feed."}
+        </p>
+      )}
+
+      <ol className="relative space-y-3">
+        {events.map((e) => {
+          const person = profiles[e.userId];
+          const name = person?.display_name ?? "A climber";
+          const Icon = ICONS[e.kind];
+
+          return (
+            <li
+              key={e.id}
+              className={`flex items-start gap-3 rounded-lg border p-3 ${
+                e.highlight ? "border-primary/50 bg-primary/5" : "border-border bg-card"
+              }`}
+            >
+              <Link to={`/community/members/${e.userId}`} className="shrink-0" aria-label={`View ${name}'s profile`}>
+                {/* New ascents get the full-body 3D climber standing beside the entry. */}
+                {e.kind === "ascent" && person?.avatar_url?.startsWith("gen:") ? (
+                  <AvatarFigure
+                    path={person.avatar_url}
+                    name={name}
+                    className="h-20 w-14 -mt-1 -mb-2 drop-shadow-md transition-transform hover:-translate-y-0.5"
+                  />
+                ) : (
+                  <MemberAvatar path={person?.avatar_url ?? null} name={name} className="h-9 w-9" />
+                )}
+              </Link>
+
+              <div className="min-w-0 flex-1">
+                <p className="text-sm">
+                  <Link
+                    to={`/community/members/${e.userId}`}
+                    className="font-display tracking-wide hover:text-primary hover:underline"
+                  >
+                    {name}
+                  </Link>{" "}
+                  {e.href ? (
+                    <Link to={e.href} className="text-muted-foreground hover:text-foreground hover:underline">
+                      {e.text}
+                    </Link>
+                  ) : (
+                    <span className="text-muted-foreground">{e.text}</span>
+                  )}
+                </p>
+                {e.detail && <p className="text-xs text-muted-foreground mt-0.5 truncate">{e.detail}</p>}
+                {e.ascent && (
+                  <Button
+                    type="button"
+                    variant={myCheers.has(e.ascent.id) ? "secondary" : "ghost"}
+                    size="sm"
+                    disabled={e.ascent.user_id === currentUserId}
+                    onClick={() => toggleCheer(e.ascent!)}
+                    aria-label={myCheers.has(e.ascent.id) ? "Remove your cheer" : `Cheer ${name}'s ascent`}
+                    className={`mt-2 h-7 gap-1.5 px-2 text-xs ${myCheers.has(e.ascent.id) ? "text-primary" : ""}`}
+                  >
+                    <PartyPopper className={`w-3.5 h-3.5 ${myCheers.has(e.ascent.id) ? "fill-current" : ""}`} />
+                    {e.ascent.user_id === currentUserId
+                      ? "Cheers"
+                      : myCheers.has(e.ascent.id)
+                        ? "Cheered"
+                        : "Cheer"}
+                    {(cheerCounts[e.ascent.id] ?? 0) > 0 && (
+                      <span className="tabular-nums">{cheerCounts[e.ascent.id]}</span>
+                    )}
+                  </Button>
+                )}
+              </div>
+              {currentUserId && e.userId !== currentUserId && (
+                <FollowButton
+                  isFollowing={following.has(e.userId)}
+                  followerCount={followerCounts[e.userId]}
+                  onToggle={() => toggleFollow(e.userId)}
+                  className="hidden sm:inline-flex self-center"
+                />
+              )}
+              <div className="flex flex-col items-end gap-1 shrink-0">
+                <Icon className={`w-4 h-4 ${e.highlight ? "text-primary" : "text-muted-foreground"}`} />
+                <span className="text-[10px] text-muted-foreground whitespace-nowrap">{relative(e.at)}</span>
+              </div>
+              {e.highlight && (
+                <Badge variant="secondary" className="hidden sm:inline-flex text-[10px] self-center">
+                  List complete
+                </Badge>
+              )}
+            </li>
+          );
+
+        })}
+      </ol>
+    </div>
+  );
+};
+
+export default ActivityFeed;

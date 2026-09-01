@@ -1,1 +1,22 @@
-LyoqIERvd25zY2FsZSBhbiBpbWFnZSBmaWxlIHRvIGEgY29tcGFjdCBKUEVHIGRhdGEgVVJMIChicm93c2VyIG9ubHkpLiAqLwpleHBvcnQgY29uc3QgZmlsZVRvRGF0YVVybCA9IChmaWxlOiBGaWxlLCBtYXhTaXplID0gNTEyLCBxdWFsaXR5ID0gMC44KTogUHJvbWlzZTxzdHJpbmc+ID0+CiAgbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgY29uc3QgcmVhZGVyID0gbmV3IEZpbGVSZWFkZXIoKTsKICAgIHJlYWRlci5vbmVycm9yID0gKCkgPT4gcmVqZWN0KG5ldyBFcnJvcigiQ291bGQgbm90IHJlYWQgdGhhdCBmaWxlIikpOwogICAgcmVhZGVyLm9ubG9hZCA9ICgpID0+IHsKICAgICAgY29uc3QgaW1nID0gbmV3IEltYWdlKCk7CiAgICAgIGltZy5vbmVycm9yID0gKCkgPT4gcmVqZWN0KG5ldyBFcnJvcigiVGhhdCBmaWxlIGlzIG5vdCBhIHJlYWRhYmxlIGltYWdlIikpOwogICAgICBpbWcub25sb2FkID0gKCkgPT4gewogICAgICAgIGNvbnN0IHNjYWxlID0gTWF0aC5taW4oMSwgbWF4U2l6ZSAvIE1hdGgubWF4KGltZy53aWR0aCwgaW1nLmhlaWdodCkpOwogICAgICAgIGNvbnN0IGNhbnZhcyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoImNhbnZhcyIpOwogICAgICAgIGNhbnZhcy53aWR0aCA9IE1hdGgubWF4KDEsIE1hdGgucm91bmQoaW1nLndpZHRoICogc2NhbGUpKTsKICAgICAgICBjYW52YXMuaGVpZ2h0ID0gTWF0aC5tYXgoMSwgTWF0aC5yb3VuZChpbWcuaGVpZ2h0ICogc2NhbGUpKTsKICAgICAgICBjb25zdCBjdHggPSBjYW52YXMuZ2V0Q29udGV4dCgiMmQiKTsKICAgICAgICBpZiAoIWN0eCkgcmV0dXJuIHJlamVjdChuZXcgRXJyb3IoIkNhbnZhcyB1bmF2YWlsYWJsZSIpKTsKICAgICAgICBjdHguZHJhd0ltYWdlKGltZywgMCwgMCwgY2FudmFzLndpZHRoLCBjYW52YXMuaGVpZ2h0KTsKICAgICAgICByZXNvbHZlKGNhbnZhcy50b0RhdGFVUkwoImltYWdlL2pwZWciLCBxdWFsaXR5KSk7CiAgICAgIH07CiAgICAgIGltZy5zcmMgPSBTdHJpbmcocmVhZGVyLnJlc3VsdCk7CiAgICB9OwogICAgcmVhZGVyLnJlYWRBc0RhdGFVUkwoZmlsZSk7CiAgfSk7Cg==
+/** Downscale an image file to a compact JPEG data URL (browser only). */
+export const fileToDataUrl = (file: File, maxSize = 512, quality = 0.8): Promise<string> =>
+  new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onerror = () => reject(new Error("Could not read that file"));
+    reader.onload = () => {
+      const img = new Image();
+      img.onerror = () => reject(new Error("That file is not a readable image"));
+      img.onload = () => {
+        const scale = Math.min(1, maxSize / Math.max(img.width, img.height));
+        const canvas = document.createElement("canvas");
+        canvas.width = Math.max(1, Math.round(img.width * scale));
+        canvas.height = Math.max(1, Math.round(img.height * scale));
+        const ctx = canvas.getContext("2d");
+        if (!ctx) return reject(new Error("Canvas unavailable"));
+        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+        resolve(canvas.toDataURL("image/jpeg", quality));
+      };
+      img.src = String(reader.result);
+    };
+    reader.readAsDataURL(file);
+  });

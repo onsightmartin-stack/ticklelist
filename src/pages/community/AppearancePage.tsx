@@ -1,1 +1,59 @@
-aW1wb3J0IFNlbyBmcm9tICJAL2NvbXBvbmVudHMvU2VvIjsKaW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBBcnJvd0xlZnQsIEdhdWdlLCBQYWxldHRlLCBaYXAgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgQ29tbXVuaXR5TGF5b3V0IGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvQ29tbXVuaXR5TGF5b3V0IjsKaW1wb3J0IFRoZW1lUGlja2VyIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvVGhlbWVQaWNrZXIiOwppbXBvcnQgTW90aW9uUGlja2VyIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvTW90aW9uUGlja2VyIjsKaW1wb3J0IFF1YWxpdHlQaWNrZXIgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9RdWFsaXR5UGlja2VyIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7Cgpjb25zdCBBcHBlYXJhbmNlUGFnZSA9ICgpID0+ICgKICA8Q29tbXVuaXR5TGF5b3V0PgogICAgPFNlbwogICAgICB0aXRsZT0iQXBwZWFyYW5jZSAmIFRoZW1lcyDigJQgVGlja2xlbGlzdCIKICAgICAgZGVzY3JpcHRpb249IlBpY2sgdGhlIGxvb2sgb2YgT25zaWdodCBNYXJ0aW46IGRhcmsgYWxwaW5lLCBtaWRuaWdodCBibGFjaywgc25vd2xpbmUgd2hpdGUsIGdyYW5pdGUgZ3JleSwgc3RlYW1wdW5rIG9yIGZsb3dlciBwb3dlci4iCiAgICAgIG5vaW5kZXgKICAgIC8+CgogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIG1iLTIiPgogICAgICA8UGFsZXR0ZSBjbGFzc05hbWU9InctNSBoLTUgdGV4dC1wcmltYXJ5IiAvPgogICAgICA8aDEgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0yeGwgdHJhY2tpbmctd2lkZXIiPkFwcGVhcmFuY2U8L2gxPgogICAgPC9kaXY+CiAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1iLTYiPgogICAgICBDaG9vc2UgYSB0aGVtZSBmb3IgdGhlIHdob2xlIHNpdGUuIFlvdXIgcGljayBpcyBzYXZlZCBvbiB0aGlzIGRldmljZSBhbmQgYXBwbGllcyBldmVyeXdoZXJlIOKAlAogICAgICBub3QganVzdCB0aGUgY29tbXVuaXR5LgogICAgPC9wPgoKICAgIDxUaGVtZVBpY2tlciAvPgoKICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBtdC0xMCBtYi0yIj4KICAgICAgPEdhdWdlIGNsYXNzTmFtZT0idy01IGgtNSB0ZXh0LXByaW1hcnkiIGFyaWEtaGlkZGVuPSJ0cnVlIiAvPgogICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC14bCB0cmFja2luZy13aWRlciI+TW90aW9uIHNlbnNpdGl2aXR5PC9oMj4KICAgIDwvZGl2PgogICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtYi00Ij4KICAgICAgQ29udHJvbCBhbmltYXRpb25zIGV4cGxpY2l0bHkg4oCUIG92ZXJyaWRlIHlvdXIgZGV2aWNlJ3MgcmVkdWNlZC1tb3Rpb24gc2V0dGluZyBpbiBlaXRoZXIKICAgICAgZGlyZWN0aW9uLiBTYXZlZCBvbiB0aGlzIGRldmljZS4KICAgIDwvcD4KCiAgICA8TW90aW9uUGlja2VyIC8+CgogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIG10LTEwIG1iLTIiPgogICAgICA8WmFwIGNsYXNzTmFtZT0idy01IGgtNSB0ZXh0LXByaW1hcnkiIGFyaWEtaGlkZGVuPSJ0cnVlIiAvPgogICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC14bCB0cmFja2luZy13aWRlciI+UGVyZm9ybWFuY2UgcXVhbGl0eTwvaDI+CiAgICA8L2Rpdj4KICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbWItNCI+CiAgICAgIENvbnRyb2xzIGhvdyBzaGFycGx5IHRoZSAzRCBjbGltYmVyIGF2YXRhcnMgcmVuZGVyIGFuZCB3aGV0aGVyIHRoZWlyIHN0YWdlIGJhY2tkcm9wIGlzIGRyYXduLgogICAgICBMb3dlciBzZXR0aW5ncyBtZWFuIHNtb290aGVyIG1vdGlvbiBvbiBzbG93ZXIgZGV2aWNlcy4gU2F2ZWQgb24gdGhpcyBkZXZpY2UuCiAgICA8L3A+CgogICAgPFF1YWxpdHlQaWNrZXIgLz4KCiAgICA8QnV0dG9uIGFzQ2hpbGQgdmFyaWFudD0iZ2hvc3QiIHNpemU9InNtIiBjbGFzc05hbWU9Im10LTYiPgogICAgICA8TGluayB0bz0iL2NvbW11bml0eS9zZXR0aW5ncyI+CiAgICAgICAgPEFycm93TGVmdCBjbGFzc05hbWU9InctNCBoLTQgbXItMSIgLz4gQmFjayB0byBzZXR0aW5ncwogICAgICA8L0xpbms+CiAgICA8L0J1dHRvbj4KICA8L0NvbW11bml0eUxheW91dD4KKTsKCmV4cG9ydCBkZWZhdWx0IEFwcGVhcmFuY2VQYWdlOwo=
+import Seo from "@/components/Seo";
+import { Link } from "@/lib/router-compat";
+import { ArrowLeft, Gauge, Palette, Zap } from "lucide-react";
+import CommunityLayout from "@/components/community/CommunityLayout";
+import ThemePicker from "@/components/community/ThemePicker";
+import MotionPicker from "@/components/community/MotionPicker";
+import QualityPicker from "@/components/community/QualityPicker";
+import { Button } from "@/components/ui/button";
+
+const AppearancePage = () => (
+  <CommunityLayout>
+    <Seo
+      title="Appearance & Themes — Ticklelist"
+      description="Pick the look of Onsight Martin: dark alpine, midnight black, snowline white, granite grey, steampunk or flower power."
+      noindex
+    />
+
+    <div className="flex items-center gap-2 mb-2">
+      <Palette className="w-5 h-5 text-primary" />
+      <h1 className="font-display text-2xl tracking-wider">Appearance</h1>
+    </div>
+    <p className="text-sm text-muted-foreground mb-6">
+      Choose a theme for the whole site. Your pick is saved on this device and applies everywhere —
+      not just the community.
+    </p>
+
+    <ThemePicker />
+
+    <div className="flex items-center gap-2 mt-10 mb-2">
+      <Gauge className="w-5 h-5 text-primary" aria-hidden="true" />
+      <h2 className="font-display text-xl tracking-wider">Motion sensitivity</h2>
+    </div>
+    <p className="text-sm text-muted-foreground mb-4">
+      Control animations explicitly — override your device's reduced-motion setting in either
+      direction. Saved on this device.
+    </p>
+
+    <MotionPicker />
+
+    <div className="flex items-center gap-2 mt-10 mb-2">
+      <Zap className="w-5 h-5 text-primary" aria-hidden="true" />
+      <h2 className="font-display text-xl tracking-wider">Performance quality</h2>
+    </div>
+    <p className="text-sm text-muted-foreground mb-4">
+      Controls how sharply the 3D climber avatars render and whether their stage backdrop is drawn.
+      Lower settings mean smoother motion on slower devices. Saved on this device.
+    </p>
+
+    <QualityPicker />
+
+    <Button asChild variant="ghost" size="sm" className="mt-6">
+      <Link to="/community/settings">
+        <ArrowLeft className="w-4 h-4 mr-1" /> Back to settings
+      </Link>
+    </Button>
+  </CommunityLayout>
+);
+
+export default AppearancePage;

@@ -1,1 +1,68 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKCmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IHR5cGUgeyBDYXRhbG9nUGxhY2UgfSBmcm9tICJAL2RhdGEvcGxhY2VzIjsKCmNvbnN0IENBVEVHT1JZX0xBQkVMOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogIGNhc3RsZTogIkNhc3RsZSIsCiAgbXVzZXVtOiAiTXVzZXVtIiwKICBtb251bWVudDogIk1vbnVtZW50IiwKICByZWxpZ2lvdXM6ICJDaHVyY2gsIHRlbXBsZSBvciBzaHJpbmUiLAogIHBhbGFjZTogIlBhbGFjZSIsCiAgYXJjaGFlb2xvZ3k6ICJBcmNoYWVvbG9naWNhbCBzaXRlIiwKICBydWluczogIlJ1aW5zIiwKICB6b286ICJab28iLAogIGxpZ2h0aG91c2U6ICJMaWdodGhvdXNlIiwKICBoaXN0b3JpYzogIkhpc3RvcmljIHNpdGUiLAogIHRoZWF0cmU6ICJUaGVhdHJlIiwKICBzcXVhcmU6ICJTcXVhcmUiLAogIG5hdHVyYWw6ICJOYXR1cmFsIGxhbmRtYXJrIiwKICB3YXRlcmZhbGw6ICJXYXRlcmZhbGwiLAogIHBhcms6ICJQYXJrIG9yIHJlc2VydmUiLAogIGdhcmRlbjogIkdhcmRlbiIsCiAgdG93ZXI6ICJUb3dlciIsCiAgdmlld3BvaW50OiAiVmlld3BvaW50IiwKICBiZWFjaDogIkJlYWNoIiwKICBpc2xhbmQ6ICJJc2xhbmQiLAogIGJyaWRnZTogIkJyaWRnZSIsCn07CgovKioKICogU2VhcmNoZXMgdGhlIHdvcmxkd2lkZSBzaWdodHNlZWluZyBjYXRhbG9ndWUgKGNhc3RsZXMsIG11c2V1bXMsIHdhdGVyZmFsbHMsCiAqIHRlbXBsZXMsIHBhcmtzIGFuZCBtb3JlKSBzZXJ2ZXItc2lkZSwgZGVib3VuY2VkLiBDb21wbGVtZW50cyB0aGUgY3VyYXRlZCBsaXN0LgogKi8KZXhwb3J0IGNvbnN0IHVzZVJlbW90ZVBsYWNlU2VhcmNoID0gKHF1ZXJ5OiBzdHJpbmcsIGxpbWl0ID0gNik6IENhdGFsb2dQbGFjZVtdID0+IHsKICBjb25zdCBbcm93cywgc2V0Um93c10gPSB1c2VTdGF0ZTxDYXRhbG9nUGxhY2VbXT4oW10pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgY29uc3QgcSA9IHF1ZXJ5LnRyaW0oKTsKICAgIGlmIChxLmxlbmd0aCA8IDIpIHsKICAgICAgc2V0Um93cyhbXSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGxldCBjYW5jZWxsZWQgPSBmYWxzZTsKICAgIGNvbnN0IHQgPSBzZXRUaW1lb3V0KGFzeW5jICgpID0+IHsKICAgICAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UucnBjKCJzZWFyY2hfd29ybGRfcGxhY2VzIiwgeyBfcTogcSwgX2xpbWl0OiBsaW1pdCB9KTsKICAgICAgaWYgKGNhbmNlbGxlZCB8fCBlcnJvciB8fCAhZGF0YSkgcmV0dXJuOwogICAgICBzZXRSb3dzKAogICAgICAgIChkYXRhIGFzIEFycmF5PFJlY29yZDxzdHJpbmcsIHVua25vd24+PikubWFwKChyKSA9PiB7CiAgICAgICAgICBjb25zdCBjYXRlZ29yeSA9IFN0cmluZyhyWyJjYXRlZ29yeSJdID8/ICJzaWdodHNlZWluZyIpOwogICAgICAgICAgY29uc3QgY2MgPSAoclsiY291bnRyeV9jb2RlIl0gYXMgc3RyaW5nIHwgbnVsbCkgPz8gbnVsbDsKICAgICAgICAgIHJldHVybiB7CiAgICAgICAgICAgIGtleTogYHdwbDoke1N0cmluZyhyWyJpZCJdKX1gLAogICAgICAgICAgICBuYW1lOiBTdHJpbmcoclsibmFtZSJdKSwKICAgICAgICAgICAgY291bnRyeTogY2MsCiAgICAgICAgICAgIHR5cGU6ICJsYW5kbWFyayIgYXMgY29uc3QsCiAgICAgICAgICAgIGdyb3VwOiBgJHtDQVRFR09SWV9MQUJFTFtjYXRlZ29yeV0gPz8gIlNpZ2h0c2VlaW5nIn0ke2NjID8gYCDCtyAke2NjfWAgOiAiIn1gLAogICAgICAgICAgfTsKICAgICAgICB9KSwKICAgICAgKTsKICAgIH0sIDIyMCk7CiAgICByZXR1cm4gKCkgPT4gewogICAgICBjYW5jZWxsZWQgPSB0cnVlOwogICAgICBjbGVhclRpbWVvdXQodCk7CiAgICB9OwogIH0sIFtxdWVyeSwgbGltaXRdKTsKCiAgcmV0dXJuIHJvd3M7Cn07Cg==
+import { useEffect, useState } from "react";
+
+import { supabase } from "@/integrations/supabase/client";
+import type { CatalogPlace } from "@/data/places";
+
+const CATEGORY_LABEL: Record<string, string> = {
+  castle: "Castle",
+  museum: "Museum",
+  monument: "Monument",
+  religious: "Church, temple or shrine",
+  palace: "Palace",
+  archaeology: "Archaeological site",
+  ruins: "Ruins",
+  zoo: "Zoo",
+  lighthouse: "Lighthouse",
+  historic: "Historic site",
+  theatre: "Theatre",
+  square: "Square",
+  natural: "Natural landmark",
+  waterfall: "Waterfall",
+  park: "Park or reserve",
+  garden: "Garden",
+  tower: "Tower",
+  viewpoint: "Viewpoint",
+  beach: "Beach",
+  island: "Island",
+  bridge: "Bridge",
+};
+
+/**
+ * Searches the worldwide sightseeing catalogue (castles, museums, waterfalls,
+ * temples, parks and more) server-side, debounced. Complements the curated list.
+ */
+export const useRemotePlaceSearch = (query: string, limit = 6): CatalogPlace[] => {
+  const [rows, setRows] = useState<CatalogPlace[]>([]);
+
+  useEffect(() => {
+    const q = query.trim();
+    if (q.length < 2) {
+      setRows([]);
+      return;
+    }
+    let cancelled = false;
+    const t = setTimeout(async () => {
+      const { data, error } = await supabase.rpc("search_world_places", { _q: q, _limit: limit });
+      if (cancelled || error || !data) return;
+      setRows(
+        (data as Array<Record<string, unknown>>).map((r) => {
+          const category = String(r["category"] ?? "sightseeing");
+          const cc = (r["country_code"] as string | null) ?? null;
+          return {
+            key: `wpl:${String(r["id"])}`,
+            name: String(r["name"]),
+            country: cc,
+            type: "landmark" as const,
+            group: `${CATEGORY_LABEL[category] ?? "Sightseeing"}${cc ? ` · ${cc}` : ""}`,
+          };
+        }),
+      );
+    }, 220);
+    return () => {
+      cancelled = true;
+      clearTimeout(t);
+    };
+  }, [query, limit]);
+
+  return rows;
+};

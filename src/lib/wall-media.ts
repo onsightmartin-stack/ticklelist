@@ -1,1 +1,38 @@
-aW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwoKZXhwb3J0IHR5cGUgTWVkaWFUeXBlID0gImltYWdlIiB8ICJ2aWRlbyIgfCAieW91dHViZSI7CgpleHBvcnQgY29uc3QgTUVESUFfTUFYX0JZVEVTID0gNTAgKiAxMDI0ICogMTAyNDsgLy8gNTAgTUIKCi8qKiBFeHRyYWN0IGEgWW91VHViZSB2aWRlbyBpZCBmcm9tIGFueSBjb21tb24gVVJMIHNoYXBlLiAqLwpleHBvcnQgY29uc3QgeW91dHViZUlkID0gKHVybDogc3RyaW5nKTogc3RyaW5nIHwgbnVsbCA9PiB7CiAgY29uc3QgbSA9IHVybC5tYXRjaCgKICAgIC8oPzp5b3V0dWJlXC5jb21cLyg/OndhdGNoXD8oPzouKiYpP3Y9fGVtYmVkXC98c2hvcnRzXC98bGl2ZVwvKXx5b3V0dVwuYmVcLykoW1x3LV17MTF9KS8sCiAgKTsKICByZXR1cm4gbSA/IG1bMV0hIDogbnVsbDsKfTsKCi8qKiBVcGxvYWQgYSBwaWN0dXJlIG9yIHZpZGVvIHRvIHRoZSBwcml2YXRlIHdhbGwgYnVja2V0IGFuZCByZXR1cm4gYSBsb25nLWxpdmVkIHNpZ25lZCBVUkwuICovCmV4cG9ydCBjb25zdCB1cGxvYWRXYWxsTWVkaWEgPSBhc3luYyAoCiAgZmlsZTogRmlsZSwKICB1c2VySWQ6IHN0cmluZywKKTogUHJvbWlzZTx7IHVybDogc3RyaW5nOyB0eXBlOiBNZWRpYVR5cGUgfSB8IHsgZXJyb3I6IHN0cmluZyB9PiA9PiB7CiAgaWYgKGZpbGUuc2l6ZSA+IE1FRElBX01BWF9CWVRFUykgcmV0dXJuIHsgZXJyb3I6ICJGaWxlIGlzIHRvbyBsYXJnZSAobWF4IDUwIE1CKSIgfTsKICBjb25zdCBpc1ZpZGVvID0gZmlsZS50eXBlLnN0YXJ0c1dpdGgoInZpZGVvLyIpOwogIGNvbnN0IGlzSW1hZ2UgPSBmaWxlLnR5cGUuc3RhcnRzV2l0aCgiaW1hZ2UvIik7CiAgaWYgKCFpc1ZpZGVvICYmICFpc0ltYWdlKSByZXR1cm4geyBlcnJvcjogIk9ubHkgcGljdHVyZXMgYW5kIHZpZGVvcyBjYW4gYmUgYXR0YWNoZWQiIH07CgogIGNvbnN0IGV4dCA9IGZpbGUubmFtZS5zcGxpdCgiLiIpLnBvcCgpPy50b0xvd2VyQ2FzZSgpID8/IChpc1ZpZGVvID8gIm1wNCIgOiAianBnIik7CiAgY29uc3QgcGF0aCA9IGAke3VzZXJJZH0vJHtEYXRlLm5vdygpfS0ke01hdGgucmFuZG9tKCkudG9TdHJpbmcoMzYpLnNsaWNlKDIsIDgpfS4ke2V4dH1gOwogIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLnN0b3JhZ2UKICAgIC5mcm9tKCJ3YWxsLW1lZGlhIikKICAgIC51cGxvYWQocGF0aCwgZmlsZSwgeyBjb250ZW50VHlwZTogZmlsZS50eXBlLCB1cHNlcnQ6IGZhbHNlIH0pOwogIGlmIChlcnJvcikgcmV0dXJuIHsgZXJyb3I6IGVycm9yLm1lc3NhZ2UgfTsKCiAgY29uc3QgeyBkYXRhLCBlcnJvcjogc2lnbkVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5zdG9yYWdlCiAgICAuZnJvbSgid2FsbC1tZWRpYSIpCiAgICAuY3JlYXRlU2lnbmVkVXJsKHBhdGgsIDYwICogNjAgKiAyNCAqIDM2NSAqIDEwKTsKICBpZiAoc2lnbkVycm9yIHx8ICFkYXRhPy5zaWduZWRVcmwpIHJldHVybiB7IGVycm9yOiBzaWduRXJyb3I/Lm1lc3NhZ2UgPz8gIkNvdWxkIG5vdCBsaW5rIHRoZSBmaWxlIiB9OwoKICByZXR1cm4geyB1cmw6IGRhdGEuc2lnbmVkVXJsLCB0eXBlOiBpc1ZpZGVvID8gInZpZGVvIiA6ICJpbWFnZSIgfTsKfTsK
+import { supabase } from "@/integrations/supabase/client";
+
+export type MediaType = "image" | "video" | "youtube";
+
+export const MEDIA_MAX_BYTES = 50 * 1024 * 1024; // 50 MB
+
+/** Extract a YouTube video id from any common URL shape. */
+export const youtubeId = (url: string): string | null => {
+  const m = url.match(
+    /(?:youtube\.com\/(?:watch\?(?:.*&)?v=|embed\/|shorts\/|live\/)|youtu\.be\/)([\w-]{11})/,
+  );
+  return m ? m[1]! : null;
+};
+
+/** Upload a picture or video to the private wall bucket and return a long-lived signed URL. */
+export const uploadWallMedia = async (
+  file: File,
+  userId: string,
+): Promise<{ url: string; type: MediaType } | { error: string }> => {
+  if (file.size > MEDIA_MAX_BYTES) return { error: "File is too large (max 50 MB)" };
+  const isVideo = file.type.startsWith("video/");
+  const isImage = file.type.startsWith("image/");
+  if (!isVideo && !isImage) return { error: "Only pictures and videos can be attached" };
+
+  const ext = file.name.split(".").pop()?.toLowerCase() ?? (isVideo ? "mp4" : "jpg");
+  const path = `${userId}/${Date.now()}-${Math.random().toString(36).slice(2, 8)}.${ext}`;
+  const { error } = await supabase.storage
+    .from("wall-media")
+    .upload(path, file, { contentType: file.type, upsert: false });
+  if (error) return { error: error.message };
+
+  const { data, error: signError } = await supabase.storage
+    .from("wall-media")
+    .createSignedUrl(path, 60 * 60 * 24 * 365 * 10);
+  if (signError || !data?.signedUrl) return { error: signError?.message ?? "Could not link the file" };
+
+  return { url: data.signedUrl, type: isVideo ? "video" : "image" };
+};

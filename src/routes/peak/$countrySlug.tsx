@@ -1,1 +1,47 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBQZWFrUGFnZSBmcm9tICJAL3BhZ2VzL1BlYWtQYWdlIjsKaW1wb3J0IHsgcGVha0RldGFpbHMgfSBmcm9tICJAL2RhdGEvcGVhay1kZXRhaWxzIjsKaW1wb3J0IHsgcGVha1NlbyB9IGZyb20gIkAvZGF0YS9wZWFrLXNlbyI7CmltcG9ydCB7IHBlcnNvbmFsTm90ZXMgfSBmcm9tICJAL2RhdGEvcGVyc29uYWwtbm90ZXMiOwppbXBvcnQgeyBjb3VudHJpZXMgfSBmcm9tICJAL2RhdGEvY291bnRyaWVzIjsKaW1wb3J0IHsgZmluZENvdW50cnlCeVNsdWcgfSBmcm9tICJAL2xpYi9zbHVnIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL3BlYWsvJGNvdW50cnlTbHVnIikoewogIGhlYWQ6ICh7IHBhcmFtcyB9KSA9PiB7CiAgICBjb25zdCBjb3VudHJ5ID0gZmluZENvdW50cnlCeVNsdWcocGFyYW1zLmNvdW50cnlTbHVnLCBjb3VudHJpZXMpOwogICAgY29uc3QgZGV0YWlsID0gY291bnRyeSA/IHBlYWtEZXRhaWxzW2NvdW50cnldIDogdW5kZWZpbmVkOwogICAgaWYgKCFjb3VudHJ5IHx8ICFkZXRhaWwpIHsKICAgICAgcmV0dXJuIHsKICAgICAgICBtZXRhOiBbCiAgICAgICAgICB7IHRpdGxlOiAiQ291bnRyeSBIaWdocG9pbnQg4oCUIE9uc2lnaHQgTWFydGluIiB9LAogICAgICAgICAgeyBuYW1lOiAiZGVzY3JpcHRpb24iLCBjb250ZW50OiAiQ291bnRyeSBoaWdocG9pbnQgcm91dGUgbm90ZXMsIHBob3RvcyBhbmQgc3VtbWl0IHZpZGVvcy4iIH0sCiAgICAgICAgXSwKICAgICAgfTsKICAgIH0KICAgIGNvbnN0IG92ZXJyaWRlID0gcGVha1Nlb1tjb3VudHJ5XTsKICAgIGNvbnN0IHJhd1RpdGxlID0gYCR7ZGV0YWlsLnBlYWt9IOKAlCAke2NvdW50cnl9YDsKICAgIGNvbnN0IHRpdGxlID0KICAgICAgb3ZlcnJpZGU/LnRpdGxlID8/CiAgICAgIChyYXdUaXRsZS5sZW5ndGggPiA1MiA/IGAke3Jhd1RpdGxlLnNsaWNlKDAsIDQ5KX3igKYgfCBPbnNpZ2h0IE1hcnRpbmAgOiBgJHtyYXdUaXRsZX0gfCBPbnNpZ2h0IE1hcnRpbmApOwogICAgY29uc3Qgbm90ZSA9IHBlcnNvbmFsTm90ZXNbY291bnRyeV07CiAgICBjb25zdCByYXdEZXNjcmlwdGlvbiA9IG5vdGUKICAgICAgPyBgJHtkZXRhaWwucGVha30gKCR7ZGV0YWlsLmVsZXZhdGlvbi50b0xvY2FsZVN0cmluZygpfSBtKSBpcyB0aGUgaGlnaGVzdCBtb3VudGFpbiBvZiAke2NvdW50cnl9LiAke25vdGV9YAogICAgICA6IGAke2RldGFpbC5wZWFrfSAoJHtkZXRhaWwuZWxldmF0aW9uLnRvTG9jYWxlU3RyaW5nKCl9IG0pIGlzIHRoZSBoaWdoZXN0IG1vdW50YWluIG9mICR7Y291bnRyeX0uIFJvdXRlLCBzZWFzb24sIGRpZmZpY3VsdHkgYW5kIHN1bW1pdCB2aWRlby5gOwogICAgY29uc3QgZGVzY3JpcHRpb24gPQogICAgICBvdmVycmlkZT8uZGVzY3JpcHRpb24gPz8KICAgICAgKHJhd0Rlc2NyaXB0aW9uLmxlbmd0aCA+IDE1NSA/IGAke3Jhd0Rlc2NyaXB0aW9uLnNsaWNlKDAsIDE1Mil94oCmYCA6IHJhd0Rlc2NyaXB0aW9uKTsKICAgIHJldHVybiB7CiAgICAgIG1ldGE6IFsKICAgICAgICB7IHRpdGxlIH0sCiAgICAgICAgeyBuYW1lOiAiZGVzY3JpcHRpb24iLCBjb250ZW50OiBkZXNjcmlwdGlvbiB9LAogICAgICAgIHsgcHJvcGVydHk6ICJvZzp0aXRsZSIsIGNvbnRlbnQ6IHRpdGxlIH0sCiAgICAgICAgeyBwcm9wZXJ0eTogIm9nOmRlc2NyaXB0aW9uIiwgY29udGVudDogZGVzY3JpcHRpb24gfSwKICAgICAgICB7IHByb3BlcnR5OiAib2c6dHlwZSIsIGNvbnRlbnQ6ICJhcnRpY2xlIiB9LAogICAgICAgIHsgcHJvcGVydHk6ICJvZzppbWFnZSIsIGNvbnRlbnQ6IGRldGFpbC5waG90b1VybCB9LAogICAgICAgIHsgbmFtZTogInR3aXR0ZXI6Y2FyZCIsIGNvbnRlbnQ6ICJzdW1tYXJ5X2xhcmdlX2ltYWdlIiB9LAogICAgICAgIHsgbmFtZTogInR3aXR0ZXI6aW1hZ2UiLCBjb250ZW50OiBkZXRhaWwucGhvdG9VcmwgfSwKICAgICAgXSwKICAgIH07CiAgfSwKICBjb21wb25lbnQ6IFBlYWtQYWdlLAp9KTsK
+import { createFileRoute } from "@tanstack/react-router";
+import PeakPage from "@/pages/PeakPage";
+import { peakDetails } from "@/data/peak-details";
+import { peakSeo } from "@/data/peak-seo";
+import { personalNotes } from "@/data/personal-notes";
+import { countries } from "@/data/countries";
+import { findCountryBySlug } from "@/lib/slug";
+
+export const Route = createFileRoute("/peak/$countrySlug")({
+  head: ({ params }) => {
+    const country = findCountryBySlug(params.countrySlug, countries);
+    const detail = country ? peakDetails[country] : undefined;
+    if (!country || !detail) {
+      return {
+        meta: [
+          { title: "Country Highpoint — Onsight Martin" },
+          { name: "description", content: "Country highpoint route notes, photos and summit videos." },
+        ],
+      };
+    }
+    const override = peakSeo[country];
+    const rawTitle = `${detail.peak} — ${country}`;
+    const title =
+      override?.title ??
+      (rawTitle.length > 52 ? `${rawTitle.slice(0, 49)}… | Onsight Martin` : `${rawTitle} | Onsight Martin`);
+    const note = personalNotes[country];
+    const rawDescription = note
+      ? `${detail.peak} (${detail.elevation.toLocaleString()} m) is the highest mountain of ${country}. ${note}`
+      : `${detail.peak} (${detail.elevation.toLocaleString()} m) is the highest mountain of ${country}. Route, season, difficulty and summit video.`;
+    const description =
+      override?.description ??
+      (rawDescription.length > 155 ? `${rawDescription.slice(0, 152)}…` : rawDescription);
+    return {
+      meta: [
+        { title },
+        { name: "description", content: description },
+        { property: "og:title", content: title },
+        { property: "og:description", content: description },
+        { property: "og:type", content: "article" },
+        { property: "og:image", content: detail.photoUrl },
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:image", content: detail.photoUrl },
+      ],
+    };
+  },
+  component: PeakPage,
+});

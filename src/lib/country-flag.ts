@@ -1,1 +1,65 @@
-LyoqCiAqIFR1cm5zIGEgcHJvZmlsZSdzIGZyZWUtdGV4dCBjb3VudHJ5ICgiTm9yd2F5IiwgIlNFIiwgIlN3ZWRlbiIpIGludG8gYSBmbGFnCiAqIGVtb2ppLiBUaGUgbmFtZeKGkmNvZGUgbG9va3VwIGlzIGJ1aWx0IG9uY2UgZnJvbSB0aGUgYnJvd3NlcidzIG93biBsb2NhbGUgZGF0YQogKiBzbyB3ZSBkb24ndCBoYXZlIHRvIHNoaXAgYSBjb3VudHJ5IHRhYmxlLgogKi8KCmxldCBuYW1lVG9Db2RlOiBNYXA8c3RyaW5nLCBzdHJpbmc+IHwgbnVsbCA9IG51bGw7Cgpjb25zdCBidWlsZExvb2t1cCA9ICgpID0+IHsKICBjb25zdCBtYXAgPSBuZXcgTWFwPHN0cmluZywgc3RyaW5nPigpOwogIGxldCBkaXNwbGF5OiBJbnRsLkRpc3BsYXlOYW1lcyB8IG51bGwgPSBudWxsOwogIHRyeSB7CiAgICBkaXNwbGF5ID0gbmV3IEludGwuRGlzcGxheU5hbWVzKFsiZW4iXSwgeyB0eXBlOiAicmVnaW9uIiB9KTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBtYXA7CiAgfQogIGNvbnN0IEEgPSA2NTsKICBmb3IgKGxldCBpID0gMDsgaSA8IDI2OyBpKyspIHsKICAgIGZvciAobGV0IGogPSAwOyBqIDwgMjY7IGorKykgewogICAgICBjb25zdCBjb2RlID0gU3RyaW5nLmZyb21DaGFyQ29kZShBICsgaSkgKyBTdHJpbmcuZnJvbUNoYXJDb2RlKEEgKyBqKTsKICAgICAgbGV0IG5hbWU6IHN0cmluZyB8IHVuZGVmaW5lZDsKICAgICAgdHJ5IHsKICAgICAgICBuYW1lID0gZGlzcGxheS5vZihjb2RlKTsKICAgICAgfSBjYXRjaCB7CiAgICAgICAgY29udGludWU7CiAgICAgIH0KICAgICAgaWYgKCFuYW1lIHx8IG5hbWUgPT09IGNvZGUpIGNvbnRpbnVlOwogICAgICBtYXAuc2V0KG5hbWUudG9Mb3dlckNhc2UoKSwgY29kZSk7CiAgICB9CiAgfQogIC8vIEEgZmV3IGNvbW1vbiBpbmZvcm1hbCBzcGVsbGluZ3MuCiAgbWFwLnNldCgidXNhIiwgIlVTIik7CiAgbWFwLnNldCgidW5pdGVkIHN0YXRlcyBvZiBhbWVyaWNhIiwgIlVTIik7CiAgbWFwLnNldCgidWsiLCAiR0IiKTsKICBtYXAuc2V0KCJncmVhdCBicml0YWluIiwgIkdCIik7CiAgbWFwLnNldCgiZW5nbGFuZCIsICJHQiIpOwogIG1hcC5zZXQoInNjb3RsYW5kIiwgIkdCIik7CiAgbWFwLnNldCgid2FsZXMiLCAiR0IiKTsKICBtYXAuc2V0KCJob2xsYW5kIiwgIk5MIik7CiAgbWFwLnNldCgiY3plY2hpYSIsICJDWiIpOwogIG1hcC5zZXQoImN6ZWNoIHJlcHVibGljIiwgIkNaIik7CiAgbWFwLnNldCgic291dGgga29yZWEiLCAiS1IiKTsKICBtYXAuc2V0KCJub3J0aCBrb3JlYSIsICJLUCIpOwogIG1hcC5zZXQoInJ1c3NpYSIsICJSVSIpOwogIHJldHVybiBtYXA7Cn07CgovKiogSVNPIDMxNjYtMSBhbHBoYS0yIGNvZGUgZm9yIGEgY291bnRyeSBuYW1lLCBvciBudWxsIHdoZW4gdW5rbm93bi4gKi8KZXhwb3J0IGNvbnN0IGNvdW50cnlDb2RlID0gKGlucHV0OiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkKTogc3RyaW5nIHwgbnVsbCA9PiB7CiAgaWYgKCFpbnB1dCkgcmV0dXJuIG51bGw7CiAgY29uc3QgdmFsdWUgPSBpbnB1dC50cmltKCk7CiAgaWYgKCF2YWx1ZSkgcmV0dXJuIG51bGw7CiAgaWYgKC9eW0EtWmEtel17Mn0kLy50ZXN0KHZhbHVlKSkgcmV0dXJuIHZhbHVlLnRvVXBwZXJDYXNlKCk7CiAgaWYgKCFuYW1lVG9Db2RlKSBuYW1lVG9Db2RlID0gYnVpbGRMb29rdXAoKTsKICByZXR1cm4gbmFtZVRvQ29kZS5nZXQodmFsdWUudG9Mb3dlckNhc2UoKSkgPz8gbnVsbDsKfTsKCi8qKiBSZWdpb25hbC1pbmRpY2F0b3IgZmxhZyBlbW9qaSBmb3IgYSBjb3VudHJ5IG5hbWUvY29kZSwgb3IgbnVsbC4gKi8KZXhwb3J0IGNvbnN0IGNvdW50cnlGbGFnID0gKGlucHV0OiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkKTogc3RyaW5nIHwgbnVsbCA9PiB7CiAgY29uc3QgY29kZSA9IGNvdW50cnlDb2RlKGlucHV0KTsKICBpZiAoIWNvZGUpIHJldHVybiBudWxsOwogIHJldHVybiBTdHJpbmcuZnJvbUNvZGVQb2ludCgKICAgIC4uLmNvZGUuc3BsaXQoIiIpLm1hcCgoYykgPT4gMHgxZjFlNiArIGMuY2hhckNvZGVBdCgwKSAtIDY1KSwKICApOwp9Owo=
+/**
+ * Turns a profile's free-text country ("Norway", "SE", "Sweden") into a flag
+ * emoji. The name→code lookup is built once from the browser's own locale data
+ * so we don't have to ship a country table.
+ */
+
+let nameToCode: Map<string, string> | null = null;
+
+const buildLookup = () => {
+  const map = new Map<string, string>();
+  let display: Intl.DisplayNames | null = null;
+  try {
+    display = new Intl.DisplayNames(["en"], { type: "region" });
+  } catch {
+    return map;
+  }
+  const A = 65;
+  for (let i = 0; i < 26; i++) {
+    for (let j = 0; j < 26; j++) {
+      const code = String.fromCharCode(A + i) + String.fromCharCode(A + j);
+      let name: string | undefined;
+      try {
+        name = display.of(code);
+      } catch {
+        continue;
+      }
+      if (!name || name === code) continue;
+      map.set(name.toLowerCase(), code);
+    }
+  }
+  // A few common informal spellings.
+  map.set("usa", "US");
+  map.set("united states of america", "US");
+  map.set("uk", "GB");
+  map.set("great britain", "GB");
+  map.set("england", "GB");
+  map.set("scotland", "GB");
+  map.set("wales", "GB");
+  map.set("holland", "NL");
+  map.set("czechia", "CZ");
+  map.set("czech republic", "CZ");
+  map.set("south korea", "KR");
+  map.set("north korea", "KP");
+  map.set("russia", "RU");
+  return map;
+};
+
+/** ISO 3166-1 alpha-2 code for a country name, or null when unknown. */
+export const countryCode = (input: string | null | undefined): string | null => {
+  if (!input) return null;
+  const value = input.trim();
+  if (!value) return null;
+  if (/^[A-Za-z]{2}$/.test(value)) return value.toUpperCase();
+  if (!nameToCode) nameToCode = buildLookup();
+  return nameToCode.get(value.toLowerCase()) ?? null;
+};
+
+/** Regional-indicator flag emoji for a country name/code, or null. */
+export const countryFlag = (input: string | null | undefined): string | null => {
+  const code = countryCode(input);
+  if (!code) return null;
+  return String.fromCodePoint(
+    ...code.split("").map((c) => 0x1f1e6 + c.charCodeAt(0) - 65),
+  );
+};

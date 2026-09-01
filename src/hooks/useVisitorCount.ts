@@ -1,1 +1,53 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgcmVhZFZpc2l0b3JDb3VudCwgdmlzaXRvckNvdW50IH0gZnJvbSAiQC9saWIvdmlzaXRvci1jb3VudC5mdW5jdGlvbnMiOwoKLyoqIFBlcnNpc3RlZCBwZXIgZGV2aWNlIOKAlCBhIHJldHVybmluZyB2aXNpdG9yIG5ldmVyIGluY3JlbWVudHMgYWdhaW4uICovCmNvbnN0IFZJU0lUT1JfS0VZID0gIm9tX3Zpc2l0b3JfY291bnRlZCI7CgovKiogQ3Jhd2xlcnMgYW5kIGhlYWRsZXNzIGFnZW50cyBzaG91bGRuJ3QgaW5mbGF0ZSB0aGUgcHVibGljIHZpc2l0b3IgY291bnRlci4gKi8KY29uc3QgaXNCb3QgPSAoKSA9PgogIHR5cGVvZiBuYXZpZ2F0b3IgIT09ICJ1bmRlZmluZWQiICYmCiAgKC9ib3R8Y3Jhd2x8c3BpZGVyfHNsdXJwfGhlYWRsZXNzfGxpZ2h0aG91c2V8cHJldmlld3xtb25pdG9yfGN1cmx8d2dldC9pLnRlc3QobmF2aWdhdG9yLnVzZXJBZ2VudCkgfHwKICAgIChuYXZpZ2F0b3IgYXMgTmF2aWdhdG9yICYgeyB3ZWJkcml2ZXI/OiBib29sZWFuIH0pLndlYmRyaXZlciA9PT0gdHJ1ZSk7CgpleHBvcnQgY29uc3QgdXNlVmlzaXRvckNvdW50ID0gKCkgPT4gewogIGNvbnN0IFtjb3VudCwgc2V0Q291bnRdID0gdXNlU3RhdGU8bnVtYmVyIHwgbnVsbD4obnVsbCk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBsZXQgY2FuY2VsbGVkID0gZmFsc2U7CgogICAgY29uc3QgcnVuID0gYXN5bmMgKCkgPT4gewogICAgICB0cnkgewogICAgICAgIGxldCBhbHJlYWR5Q291bnRlZCA9IHRydWU7CiAgICAgICAgdHJ5IHsKICAgICAgICAgIGFscmVhZHlDb3VudGVkID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oVklTSVRPUl9LRVkpID09PSAiMSI7CiAgICAgICAgfSBjYXRjaCB7CiAgICAgICAgICAvLyBzdG9yYWdlIGJsb2NrZWQg4oCUIHRyZWF0IGFzIGNvdW50ZWQgc28gd2UgbmV2ZXIgb3Zlci1jb3VudAogICAgICAgIH0KCiAgICAgICAgaWYgKGFscmVhZHlDb3VudGVkIHx8IGlzQm90KCkpIHsKICAgICAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZWFkVmlzaXRvckNvdW50KCk7CiAgICAgICAgICBpZiAoIWNhbmNlbGxlZCAmJiBkYXRhPy5jb3VudCAhPSBudWxsKSBzZXRDb3VudChkYXRhLmNvdW50KTsKICAgICAgICAgIHJldHVybjsKICAgICAgICB9CgogICAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCB2aXNpdG9yQ291bnQoKTsKICAgICAgICB0cnkgewogICAgICAgICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oVklTSVRPUl9LRVksICIxIik7CiAgICAgICAgfSBjYXRjaCB7CiAgICAgICAgICAvKiBpZ25vcmUgKi8KICAgICAgICB9CiAgICAgICAgaWYgKCFjYW5jZWxsZWQgJiYgZGF0YT8uY291bnQgIT0gbnVsbCkgc2V0Q291bnQoZGF0YS5jb3VudCk7CiAgICAgIH0gY2F0Y2ggewogICAgICAgIC8vIGNvdW50ZXIgaXMgZGVjb3JhdGl2ZSDigJQgaWdub3JlIGZhaWx1cmVzCiAgICAgIH0KICAgIH07CgogICAgcnVuKCk7CiAgICByZXR1cm4gKCkgPT4gewogICAgICBjYW5jZWxsZWQgPSB0cnVlOwogICAgfTsKICB9LCBbXSk7CgogIHJldHVybiBjb3VudDsKfTsK
+import { useEffect, useState } from "react";
+import { readVisitorCount, visitorCount } from "@/lib/visitor-count.functions";
+
+/** Persisted per device — a returning visitor never increments again. */
+const VISITOR_KEY = "om_visitor_counted";
+
+/** Crawlers and headless agents shouldn't inflate the public visitor counter. */
+const isBot = () =>
+  typeof navigator !== "undefined" &&
+  (/bot|crawl|spider|slurp|headless|lighthouse|preview|monitor|curl|wget/i.test(navigator.userAgent) ||
+    (navigator as Navigator & { webdriver?: boolean }).webdriver === true);
+
+export const useVisitorCount = () => {
+  const [count, setCount] = useState<number | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const run = async () => {
+      try {
+        let alreadyCounted = true;
+        try {
+          alreadyCounted = localStorage.getItem(VISITOR_KEY) === "1";
+        } catch {
+          // storage blocked — treat as counted so we never over-count
+        }
+
+        if (alreadyCounted || isBot()) {
+          const data = await readVisitorCount();
+          if (!cancelled && data?.count != null) setCount(data.count);
+          return;
+        }
+
+        const data = await visitorCount();
+        try {
+          localStorage.setItem(VISITOR_KEY, "1");
+        } catch {
+          /* ignore */
+        }
+        if (!cancelled && data?.count != null) setCount(data.count);
+      } catch {
+        // counter is decorative — ignore failures
+      }
+    };
+
+    run();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  return count;
+};

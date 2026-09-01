@@ -1,1 +1,80 @@
-aW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwoKZXhwb3J0IHR5cGUgTm90aWZpY2F0aW9uS2luZCA9ICJmb2xsb3ciIHwgImxpa2UiIHwgImNvbW1lbnQiIHwgIm1lbnRpb24iIHwgImNoZWVyIiB8ICJidWciOwoKZXhwb3J0IGludGVyZmFjZSBBcHBOb3RpZmljYXRpb24gewogIGlkOiBzdHJpbmc7CiAgcmVjaXBpZW50X2lkOiBzdHJpbmc7CiAgYWN0b3JfaWQ6IHN0cmluZzsKICBraW5kOiBOb3RpZmljYXRpb25LaW5kOwogIGJvZHk6IHN0cmluZzsKICBsaW5rOiBzdHJpbmcgfCBudWxsOwogIHJlYWRfYXQ6IHN0cmluZyB8IG51bGw7CiAgY3JlYXRlZF9hdDogc3RyaW5nOwp9CgppbnRlcmZhY2UgTm90aWZ5SW5wdXQgewogIHJlY2lwaWVudElkOiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkOwogIGFjdG9ySWQ6IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQ7CiAga2luZDogTm90aWZpY2F0aW9uS2luZDsKICBib2R5OiBzdHJpbmc7CiAgbGluaz86IHN0cmluZyB8IG51bGw7Cn0KCi8qKgogKiBGaXJlLWFuZC1mb3JnZXQgbm90aWZpY2F0aW9uLiBSb3V0ZWQgdGhyb3VnaCB0aGUgc2VydmVyLXNpZGUKICogYHNlbmRfbm90aWZpY2F0aW9uYCByb3V0aW5lLCB3aGljaCB2ZXJpZmllcyBhIHJlYWwgaW50ZXJhY3Rpb24gdG9vayBwbGFjZQogKiBhbmQgaG9ub3VycyB0aGUgcmVjaXBpZW50J3MgcHJlZmVyZW5jZXMuIE5ldmVyIGJsb2NrcyBvciBicmVha3MgdGhlIGNhbGxlci4KICovCmV4cG9ydCBjb25zdCBub3RpZnkgPSBhc3luYyAoeyByZWNpcGllbnRJZCwgYWN0b3JJZCwga2luZCwgYm9keSwgbGluayB9OiBOb3RpZnlJbnB1dCkgPT4gewogIGlmICghcmVjaXBpZW50SWQgfHwgIWFjdG9ySWQgfHwgcmVjaXBpZW50SWQgPT09IGFjdG9ySWQpIHJldHVybjsKICB0cnkgewogICAgYXdhaXQgc3VwYWJhc2UucnBjKCJzZW5kX25vdGlmaWNhdGlvbiIsIHsKICAgICAgX3JlY2lwaWVudF9pZDogcmVjaXBpZW50SWQsCiAgICAgIF9raW5kOiBraW5kLAogICAgICBfYm9keTogYm9keS5zbGljZSgwLCAyODApLAogICAgICAuLi4obGluayA/IHsgX2xpbms6IGxpbmsgfSA6IHt9KSwKICAgIH0pOwoKICB9IGNhdGNoIHsKICAgIC8qIG5vdGlmaWNhdGlvbnMgYXJlIGJlc3QtZWZmb3J0ICovCiAgfQp9OwoKCmNvbnN0IE1FTlRJT05fUkUgPSAvQChbYS16QS1aMC05Xy4tXXsyLDQwfSkvZzsKCmNvbnN0IG5vcm1hbGlzZSA9ICh2OiBzdHJpbmcpID0+IHYudG9Mb3dlckNhc2UoKS5yZXBsYWNlKC9bXmEtejAtOV0vZywgIiIpOwoKLyoqCiAqIEZpbmRzIEBoYW5kbGVzIGluIGEgdGV4dCBhbmQgcmVzb2x2ZXMgdGhlbSB0byBtZW1iZXIgaWRzIGJ5IG1hdGNoaW5nCiAqIGVpdGhlciB0aGUgdXNlcm5hbWUgb3IgdGhlIGRpc3BsYXkgbmFtZSAoaWdub3JpbmcgY2FzZSBhbmQgc3BhY2luZykuCiAqLwpleHBvcnQgY29uc3QgcmVzb2x2ZU1lbnRpb25zID0gYXN5bmMgKHRleHQ6IHN0cmluZyk6IFByb21pc2U8c3RyaW5nW10+ID0+IHsKICBjb25zdCBoYW5kbGVzID0gQXJyYXkuZnJvbSh0ZXh0Lm1hdGNoQWxsKE1FTlRJT05fUkUpKS5tYXAoKG0pID0+IG5vcm1hbGlzZShtWzFdID8/ICIiKSk7CiAgaWYgKGhhbmRsZXMubGVuZ3RoID09PSAwKSByZXR1cm4gW107CgogIGNvbnN0IHsgZGF0YSB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgicHJvZmlsZXMiKS5zZWxlY3QoImlkLCBkaXNwbGF5X25hbWUsIHVzZXJuYW1lIik7CiAgY29uc3QgaWRzID0gbmV3IFNldDxzdHJpbmc+KCk7CiAgZm9yIChjb25zdCBwIG9mIGRhdGEgPz8gW10pIHsKICAgIGNvbnN0IGNhbmRpZGF0ZXMgPSBbcC51c2VybmFtZSA/PyAiIiwgcC5kaXNwbGF5X25hbWUgPz8gIiJdLm1hcChub3JtYWxpc2UpLmZpbHRlcihCb29sZWFuKTsKICAgIGlmIChoYW5kbGVzLnNvbWUoKGgpID0+IGNhbmRpZGF0ZXMuaW5jbHVkZXMoaCkpKSBpZHMuYWRkKHAuaWQpOwogIH0KICByZXR1cm4gQXJyYXkuZnJvbShpZHMpOwp9OwoKLyoqIE5vdGlmaWVzIGV2ZXJ5IG1lbWJlciBtZW50aW9uZWQgaW4gYSBwaWVjZSBvZiB0ZXh0LiAqLwpleHBvcnQgY29uc3Qgbm90aWZ5TWVudGlvbnMgPSBhc3luYyAoCiAgdGV4dDogc3RyaW5nLAogIGFjdG9ySWQ6IHN0cmluZywKICBib2R5OiBzdHJpbmcsCiAgbGluazogc3RyaW5nLAogIHNraXA6IHN0cmluZ1tdID0gW10sCikgPT4gewogIGNvbnN0IGlkcyA9IGF3YWl0IHJlc29sdmVNZW50aW9ucyh0ZXh0KTsKICBhd2FpdCBQcm9taXNlLmFsbCgKICAgIGlkcwogICAgICAuZmlsdGVyKChpZCkgPT4gIXNraXAuaW5jbHVkZXMoaWQpKQogICAgICAubWFwKChpZCkgPT4gbm90aWZ5KHsgcmVjaXBpZW50SWQ6IGlkLCBhY3RvcklkLCBraW5kOiAibWVudGlvbiIsIGJvZHksIGxpbmsgfSkpLAogICk7Cn07Cg==
+import { supabase } from "@/integrations/supabase/client";
+
+export type NotificationKind = "follow" | "like" | "comment" | "mention" | "cheer" | "bug";
+
+export interface AppNotification {
+  id: string;
+  recipient_id: string;
+  actor_id: string;
+  kind: NotificationKind;
+  body: string;
+  link: string | null;
+  read_at: string | null;
+  created_at: string;
+}
+
+interface NotifyInput {
+  recipientId: string | null | undefined;
+  actorId: string | null | undefined;
+  kind: NotificationKind;
+  body: string;
+  link?: string | null;
+}
+
+/**
+ * Fire-and-forget notification. Routed through the server-side
+ * `send_notification` routine, which verifies a real interaction took place
+ * and honours the recipient's preferences. Never blocks or breaks the caller.
+ */
+export const notify = async ({ recipientId, actorId, kind, body, link }: NotifyInput) => {
+  if (!recipientId || !actorId || recipientId === actorId) return;
+  try {
+    await supabase.rpc("send_notification", {
+      _recipient_id: recipientId,
+      _kind: kind,
+      _body: body.slice(0, 280),
+      ...(link ? { _link: link } : {}),
+    });
+
+  } catch {
+    /* notifications are best-effort */
+  }
+};
+
+
+const MENTION_RE = /@([a-zA-Z0-9_.-]{2,40})/g;
+
+const normalise = (v: string) => v.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+/**
+ * Finds @handles in a text and resolves them to member ids by matching
+ * either the username or the display name (ignoring case and spacing).
+ */
+export const resolveMentions = async (text: string): Promise<string[]> => {
+  const handles = Array.from(text.matchAll(MENTION_RE)).map((m) => normalise(m[1] ?? ""));
+  if (handles.length === 0) return [];
+
+  const { data } = await supabase.from("profiles").select("id, display_name, username");
+  const ids = new Set<string>();
+  for (const p of data ?? []) {
+    const candidates = [p.username ?? "", p.display_name ?? ""].map(normalise).filter(Boolean);
+    if (handles.some((h) => candidates.includes(h))) ids.add(p.id);
+  }
+  return Array.from(ids);
+};
+
+/** Notifies every member mentioned in a piece of text. */
+export const notifyMentions = async (
+  text: string,
+  actorId: string,
+  body: string,
+  link: string,
+  skip: string[] = [],
+) => {
+  const ids = await resolveMentions(text);
+  await Promise.all(
+    ids
+      .filter((id) => !skip.includes(id))
+      .map((id) => notify({ recipientId: id, actorId, kind: "mention", body, link })),
+  );
+};

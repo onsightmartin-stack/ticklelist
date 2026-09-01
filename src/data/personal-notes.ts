@@ -1,1 +1,113 @@
-LyoqCiAqIFBlcnNvbmFsIGNsaW1iaW5nIG5vdGVzIGFuZCBhbmVjZG90ZXMgZm9yIHN1bW1pdGVkIGhpZ2hwb2ludHMuCiAqIEVhY2gga2V5IG1hdGNoZXMgdGhlIGNvdW50cnkgbmFtZSB1c2VkIGluIHBlYWtEZXRhaWxzLgogKi8KZXhwb3J0IGNvbnN0IHBlcnNvbmFsTm90ZXM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgVWtyYWluZToKICAgICJIb3ZlcmxhLCAyMiBBdWd1c3QgMjAyNiDigJQgVWtyYWluZSdzIGhpZ2hwb2ludCBpbiB0aGUgQ2hvcm5vaG9yYSByaWRnZSBvZiB0aGUgQ2FycGF0aGlhbnMuIEEgbG9uZyB3YWxrLXVwIG9uIG1hcmtlZCB0cmFpbHMsIHN1bW1pdCByaWRnZSBvcGVuIGFuZCB3aW5keSwgd2l0aCB0aGUgd2hvbGUgQ2hvcm5vaG9yYSByYW5nZSByb2xsaW5nIGF3YXkgdG93YXJkcyBSb21hbmlhLiBBbiBhYnVuZGFuY2Ugb2YgYmVhdXRpZnVsIG5hdHVyZSwgYmx1ZWJlcnJpZXMsIHJhc3BiZXJyaWVzIGFuZCBhIHNtYWxsIHdhdGVyZmFsbCBtYWtlcyBIb3ZlcmxhIGEgdHJ1bHkgZW5qb3lhYmxlIGhpa2UgYW5kIG9uZSBvZiBFdXJvcGUncyBtb3N0IGJlYXV0aWZ1bCBtb3VudGFpbnMuIiwKCiAgSXJlbGFuZDoKICAgICJDb3VudHJ5IGhpZ2hwb2ludCAjMzchIENsaW1iZWQgQ2FycmF1bnRvb2hpbCBpbiBKdWx5IDIwMjYgZnJvbSBDcm9uaW4ncyBZYXJkLCB1cCB0aGUgY2xhc3NpYyBEZXZpbCdzIExhZGRlciDigJQgYSBzdGVlcCwgbG9vc2Ugc2NyZWUgZ3VsbHkuIEkgZGVzY2VuZGVkIHRoZSBnZW50bGVyIFppZyBaYWcgdHJhY2sgaW5zdGVhZC4gUmV3YXJkaW5nIHN1bW1pdCBjcm9zcyBhbmQgc3dlZXBpbmcgdmlld3Mgb3ZlciB0aGUgTWFjR2lsbHljdWRkeSdzIFJlZWtzIGFuZCBLZXJyeS4iLAoKICAiVW5pdGVkIEtpbmdkb20iOgogICAgIkJlbiBOZXZpcywgSnVseSAyMDI2IOKAlCBtYWlubGFuZCBCcml0YWluJ3MgaGlnaHBvaW50LCBzdHJhaWdodCBhZnRlciBJcmVsYW5kLiBVcCB0aGUgTW91bnRhaW4gVHJhY2sgZnJvbSBHbGVuIE5ldmlzIGluIGNsYXNzaWMgU2NvdHRpc2ggd2VhdGhlcjogbWlzdCwgd2luZCBhbmQgemVybyBzdW1taXQgdmlldyBvdmVyIHRoZSBjbGlmZnMuIEkgY291bnQgQmVuIE5ldmlzIGFzIHRoZSBVSyBoaWdoIHBvaW50OyBNb3VudCBQYWdldCBvbiBTb3V0aCBHZW9yZ2lhIGlzIGFuIG92ZXJzZWFzIHRlcnJpdG9yeSBhbmQgc2l0cyBvdXRzaWRlIG15IGRlZmluaXRpb24uIiwKCgogIEZpbmxhbmQ6CiAgICAiV2F0Y2ggb3V0IGZvciBtb3NxdWl0b2VzIGluIHN1bW1lciEgV2UgZHJvdmUgdXAgZnJvbSBHb3RoZW5idXJnIGFuZCBoaWtlZCBpbiB0aGUgMjQtaG91ciBzdW4gZnJvbSB0aGUgTm9yd2VnaWFuIHNpZGUuIiwKCgogIE5vcndheToKICAgICJIaWtlZCB3aXRoIGZhbW91cyBwYXJrb3VyIFlvdVR1YmVyIE9saXZlciBOb3JkaW4uIEkgZm9yZ290IHN1bnNjcmVlbiBhbmQgZ290IGEgcmVhbGx5IGJhZCBidXJuIOKAlCB3b24ndCBtYWtlIHRoYXQgbWlzdGFrZSBhZ2FpbiEg8J+ltfCfmK0gWW91IGNhbiBidXkgYSBDb2NhLUNvbGEgb24gdGhlIHRvcCBpbiBzdW1tZXIsIGFsdGhvdWdoIGl0J3MgZXhwZW5zaXZlLiIsCgogIFBvbGFuZDoKICAgICJNeSBmaXJzdCBldmVyIGhpZ2hwb2ludCEgMjAxOS4gSSB3ZW50IGFsb25lLCBoaWtlZCB1cCBpbiBib290cywgZG93biBpbiBzYW5kYWxzISBJIHdhcyBzbyB1bnVzZWQgdG8gaGlraW5nIHRoYXQgYm90aCBteSBhbmtsZXMgd2VyZSBzd29sbGVuIHdpdGggd2F0ZXIgZm9yIGRheXMgYWZ0ZXIg4oCUIG5ldmVyIG1pbmQsIEkgd2FzIGhvb2tlZCEgT25seSBhIHdlZWsgbGF0ZXIgSSBib29rZWQgYW5kIHdlbnQgdG8gWnVnc3BpdHplLCBHZXJtYW55ISIsCgogIEdlcm1hbnk6CiAgICAiRGFzIGlzdCBlaW5lIGdyb8OfZSBLYXJ0b2ZmZWwhIFRoZSBadWdzcGl0emUgdmlhIHRoZSBub3JtYWwgcm91dGUgaXMgYSBzdHJhaWdodGZvcndhcmQsIGVhc3kgd2FsaywgYnV0IHRoZSBIw7ZsbGVudGFsIHJvdXRlIGlzIGEgZGlmZmVyZW50IGJlYXN0IOKAlCBtb3JlIGRpZmZpY3VsdCBhbmQgdGVjaG5pY2FsLCB3aXRoIGEgZ2xhY2llciBjcm9zc2luZyBhbmQgdmlhIGZlcnJhdGEgc2VjdGlvbnMuIE15IGZpcnN0IGFzY2VudCBpbiAyMDE5IHdhcyB2aWEgSMO2bGxlbnRhbC4gSSB3YXMgc3RpbGwgdmVyeSBpbmV4cGVyaWVuY2VkIOKAlCB3YWxrZWQgb24gdGhlIHRpbnkgZ2xhY2llciB3aXRob3V0IGNyYW1wb25zLCBnb3Qgc3VuYnVybmVkLCBhbmQgZGlkbid0IGRyaW5rIGVub3VnaCB3YXRlcuKApiBJIGxpa2VkIHRoZSB2aWEgZmVycmF0YSB0aG91Z2ghIEZyb20gdGhlIHRvcCB0aGUgY2FibGUgY2FyIHJpZGUgZG93biB3YXMgd2VsY29tZWQsIGFsdGhvdWdoIEkndmUgZ3Jvd24gdG8gZGVzcGlzZSBjYWJsZSBjYXJzIG9uIG1vdW50YWludG9wcyEg4puw77iPIFJlcGVhdCBhc2NlbnQgMyBBdWd1c3QgMjAyNjogSSBjbGltYmVkIHRoZSBIw7ZsbGVudGFsIHJvdXRlIGFnYWluLCB0aGlzIHRpbWUgZnJlZSBzb2xvIGFuZCBpbiBhIHNpbmdsZSBkYXkg4oCUIGEgYmlnIGltcHJvdmVtZW50IG9uIHRoYXQgZmlyc3QgYXR0ZW1wdCBzaXggeWVhcnMgZWFybGllci4gU2FtZSBtb3VudGFpbiwgY29tcGxldGVseSBkaWZmZXJlbnQgY2xpbWJlci4iLAoKICBWaWV0bmFtOgogICAgIldoYXQgYSBqdW5nbGUgYWR2ZW50dXJlISBJIG1ldCBzb21lIEJyaXRzIGFuZCB3ZSBnb3QgZGVuaWVkIGFjY2VzcyB2aWEgdGhlIG1haW4gZW50cmFuY2Ug4oCUIHZlcnkgc3RyaWN0IG1pbGl0YXJ5IGd1YXJkcy4gV2Ugc251Y2sgaW4gNTAwIG0gYmVsb3cgdGhyb3VnaCB0aGUganVuZ2xlLiBJIGFza2VkOiBcIkFueW9uZSB3YW50IHRvIHdhbGsgZmlyc3Q/IFRoZXJlIG1pZ2h0IGJlIHNuYWtlcy5cIiBUaGUgeW91bmcgQnJpdHM6IFwiVGhlcmUncyBhIHNuYWtlPz8hXCIgTWU6IFwiTm8sIHRoZXJlIGNvdWxkIGJlIVwiIFRoZW06IFwi4oCmXCIgQW5kIEkga2VwdCB3YWxraW5nIGZpcnN0IOKAlCBiZWluZyB0aGUgb2xkZXN0IGFuZCBtb3JlIGV4cGVyaWVuY2VkLCBoYWhhLiBEaWRuJ3Qgc2VlIGFueSBzbmFrZXMsIHRob3VnaCBJIGhhZCB0byB3cmVzdGxlIHRoZSBiYW5hbmEgdHJlZXMuIEFtYXppbmcgdGVtcGxlIG9uIHRoZSB0b3AgYW5kIHRoZSB2aWV3cyB3ZXJlIHJld2FyZGluZyEiLAoKICBUaGFpbGFuZDoKICAgICJTdXBlciBlYXN5IGhpa2Ug4oCUIHJlbnRpbmcgYW5kIGRyaXZpbmcgYSBtb3RvcmJpa2Ugb24gdGhlIGxlZnQgc2lkZSBvZiB0aGUgcm9hZCBmcm9tIENoaWFuZyBNYWkgd2FzIHRoZSByZWFsIGNoYWxsZW5nZSBoZXJlLiBBIGd1aWRlIHdhcyBtYW5kYXRvcnkgYnV0IGNoZWFwLCBhbmQgaXQncyBqdXN0IGEgMTXigJMyMCBtaW51dGUgaGlrZSBmcm9tIHRoZSBwYXJraW5nLiDwn5iEIiwKCiAgQXVzdHJpYToKICAgICJHcm/Dn2dsb2NrbmVyLCBBdWd1c3QgMjAyMSDigJQgY2xpbWJlZCB2aWEgdGhlIFN0w7xkbGdyYXQgcmlkZ2UsIGdyYWRlZCBBRCAoYW5kIGNsb3NlciB0byBBRCsgd2l0aCB0aGUgZnJlc2ggc25vdyB0aGF0IGNhbWUgaW4pLiBFcGlzb2RlIDMgb2YgdGhlIHNlcmllcyBhbmQgbXkgZmlyc3QgcHJvcGVyIGFscGluZSByaWRnZSBvbiB0aGUgcHJvamVjdC4iLAoKICBTbG92ZW5pYToKICAgICJUcmlnbGF2IHdpdGggQW5uZW1ldHRlIOKAlCBoaWdocG9pbnQgIzIyIG9mIHRoZSBwcm9qZWN0LiBTbG92ZW5pYSdzIG5hdGlvbmFsIHN5bWJvbCwgYW5kIGEgbW91bnRhaW4geW91J3JlIHN1cHBvc2VkbHkgbm90IGEgcmVhbCBTbG92ZW5lIHVudGlsIHlvdSd2ZSBjbGltYmVkLiIsCgogIFBvcnR1Z2FsOgogICAgIk1vdW50IFBpY28gaW4gdGhlIEF6b3Jlcywgb3V0IGluIHRoZSBtaWRkbGUgb2YgdGhlIEF0bGFudGljLiAyLDM1MSBtIG9mIHZvbGNhbm8gcmlzaW5nIHN0cmFpZ2h0IG91dCBvZiB0aGUgb2NlYW4g4oCUIG9uZSBvZiB0aGUgbW9zdCBhdG1vc3BoZXJpYyBoaWdocG9pbnRzIG9mIHRoZSB3aG9sZSBwcm9qZWN0LiIsCgogIENyb2F0aWE6CiAgICAiRGluYXJhIGluIGEgZnVsbCBzdG9ybS4gR290IGhhbW1lcmVkIGJ5IHdlYXRoZXIgb24gdGhlIHdheSB1cCwgYW5kIHN0aWxsIG1hbmFnZWQgc29tZSBwYXJrb3VyIG9uIHRoZSB3YXkgZG93bi4gVGhpcyB3YXMgYWN0dWFsbHkgcGVhayAjMjAgb25jZSBJIGRlZHVjdGVkIERlbm1hcmsgYW5kIHRoZSBOZXRoZXJsYW5kcyBmcm9tIHRoZSBjb3VudCAodGhlaXIgdHJ1ZSBoaWdocG9pbnRzIHNpdCBpbiBHcmVlbmxhbmQgYW5kIHRoZSBDYXJpYmJlYW4pLiIsCgogIFNsb3Zha2lhOgogICAgIkdlcmxhY2hvdnNrw70gxaF0w610IOKAlCBlcGlzb2RlIDQgb2YgdGhlIHNlcmllcywgbGF0ZXIgcmUtZWRpdGVkLiBTbG92YWtpYSdzIGhpZ2hlc3QsIGFuZCB5b3UgbGVnYWxseSBuZWVkIGEgZ3VpZGUgdG8gc3RhbmQgb24gdG9wIG9mIGl0LiIsCgogIEh1bmdhcnk6CiAgICAiS8Opa2VzLCBwZWFrICMxMS4gT25lIG9mIHRoZSBnZW50bGUgb25lczogeW91IGNhbiBwcmFjdGljYWxseSBkcml2ZSB0byB0aGUgdG9wLCBzbyBpdCBiZWNhbWUgYSBxdWljayB0aWNrIG9uIGEgcm9hZCB0cmlwLiIsCgogICJTYW4gTWFyaW5vIjoKICAgICJNb250ZSBUaXRhbm8sIDczOSBtIOKAlCBwZWFrIDI1IG9mIDE5NS4gQSBoaWdocG9pbnQgeW91IGNsaW1iIHRocm91Z2ggYSBtZWRpZXZhbCBmb3J0cmVzcyB0b3duIHJhdGhlciB0aGFuIHVwIGEgbW91bnRhaW4uIiwKCiAgQmVsZ2l1bToKICAgICJTaWduYWwgZGUgQm90cmFuZ2Ug4oCUIGRvbmUgaW4gb25lIGRheSB0b2dldGhlciB3aXRoIHRoZSBOZXRoZXJsYW5kcyBhbmQgTHV4ZW1ib3VyZyBpbiBlcGlzb2RlIDIgb2YgdGhlIHNlcmllcy4gVGhyZWUgY291bnRyeSBoaWdocG9pbnRzLCBvbmUgdmVyeSBmbGF0IHJvYWQgdHJpcC4iLAoKICBOZXRoZXJsYW5kczoKICAgICJWYWFsc2VyYmVyZywgb24gdGhlIHRocmVlLWNvdW50cnkgYm9yZGVyIOKAlCBrbm9ja2VkIG9mZiBpbiB0aGUgc2FtZSBkYXkgYXMgQmVsZ2l1bSBhbmQgTHV4ZW1ib3VyZy4gV29ydGggbm90aW5nOiB0aGUgdHJ1ZSBEdXRjaCBoaWdocG9pbnQgaXMgTW91bnQgU2NlbmVyeSBvbiBTYWJhIGluIHRoZSBDYXJpYmJlYW4sIHNvIHRoaXMgb25lIGNvdW50cyBhcyBtYWlubGFuZCBvbmx5LiIsCgogIEx1eGVtYm91cmc6CiAgICAiS25laWZmIOKAlCB0aGUgZmxhdHRlc3QgJ3N1bW1pdCcgb2YgdGhlIHRyaXAsIGFuZCBob25lc3RseSBvbmUgb2YgdGhlIGZ1bm5pZXN0LiBQZWFrICM1LCBkb25lIGFsb25nc2lkZSBCZWxnaXVtIGFuZCB0aGUgTmV0aGVybGFuZHMuIiwKCiAgRGVubWFyazoKICAgICJNw7hsbGVow7hqIOKAlCB0aGUgdmVyeSBmaXJzdCBlcGlzb2RlIG9mIHRoZSB3aG9sZSBwcm9qZWN0LiAxNzAgbSBvZiBEYW5pc2ggZmFybWxhbmQuIFRoZSByZWFsIERhbmlzaCBoaWdocG9pbnQgaXMgR3VubmJqw7hybiBGamVsZCBpbiBHcmVlbmxhbmQsIHNvIHRoaXMgc3RheXMgaW4gdGhlIG1haW5sYW5kIGNvbHVtbi4iLAoKICBFc3RvbmlhOgogICAgIlN1dXIgTXVuYW3DpGdpLCAzMTggbSDigJQgTWF5IDIwMjIsIHBlYWsgIzEzLiBUaGVyZSdzIGFuIG9ic2VydmF0aW9uIHRvd2VyIG9uIHRvcCwgc28gdGhlIGhpZ2hlc3QgcG9pbnQgeW91IGNhbiBhY3R1YWxseSBzdGFuZCBvbiBpcyBpbmRvb3JzLiIsCgogIExhdHZpYToKICAgICJHYWl6acWGa2FsbnMsIDMxMSBtIOKAlCAxMCBNYXkgMjAyMiwgcGVhayAjMTQuIEkgY2VsZWJyYXRlZCB3aXRoIGEgaGFuZHN0YW5kIGNoYWxsZW5nZSBvbiB0aGUgc3VtbWl0LCB3aGljaCBpcyBhYm91dCBhcyBtdWNoIGRyYW1hIGFzIHRoZSBCYWx0aWNzIG9mZmVyLiIsCgogIExpdGh1YW5pYToKICAgICJBdWvFoXRvamFzIEhpbGwsIDI5NCBtIOKAlCBBdWd1c3QgMjAyMi4gQSBnZW51aW5lIGNsb3NlIGNhbGwgb24gdGhpcyB0cmlwLCBhbmQgSSBwYWlyZWQgaXQgd2l0aCB0aGUgQ3plY2ggaGlnaHBvaW50IG9uIHRoZSBzYW1lIGRyaXZlLiIsCgogICJDemVjaCBSZXB1YmxpYyI6CiAgICAiU27Em8W+a2EsIDEsNjAzIG0g4oCUIEF1Z3VzdCAyMDIyLCBkb25lIG9uIHRoZSBzYW1lIHJvYWQgdHJpcCBhcyBMaXRodWFuaWEuIEJvcmRlciBzdW1taXQgd2l0aCBQb2xhbmQsIHdpdGggYSBjaGFwZWwgYW5kIGEgdmVyeSB3aW5keSB0b3AuIiwKCiAgTWFsdGE6CiAgICAiVGEnIERtZWpyZWsgb24gdGhlIERpbmdsaSBDbGlmZnMg4oCUIHRvcCBvZiAzMCBVTiBjb3VudHJpZXMuIE1vcmUgY29hc3RhbCB3YWxrIHRoYW4gY2xpbWIsIHdpdGggdGhlIE1lZGl0ZXJyYW5lYW4gc3RyYWlnaHQgYmVsb3cuIiwKCiAgTW9uYWNvOgogICAgIkNoZW1pbiBkZXMgUsOpdm9pcmVzIOKAlCB0aGUgYmlnZ2VzdCBtb3VudGFpbiBpbiB0aGUgc21hbGxlc3QgVU4gY291bnRyeS4gMTYxIG0gb2YgcGF2ZW1lbnQgYW5kIGhpbGxzaWRlIGFib3ZlIHRoZSBoYXJib3VyLiIsCgogIFRhaXdhbjoKICAgICJZdXNoYW4gLyBKYWRlIE1vdW50YWluIOeOieWxsSwgMyw5NTIgbSDigJQgcGVybWl0cywgYW4gYWxwaW5lIHN0YXJ0IGFuZCBvbmUgb2YgbXkgZmF2b3VyaXRlIGhpZ2hwb2ludHMgaW4gQXNpYSwgYWx0aG91Z2ggbm90IGEgVU4gY291bnRyeS4gSSBhbHNvIHRyaWVkIHRvIGhpa2UgMjAwIGttIGFjcm9zcyBUYWl3YW4gb24gdGhlIHNhbWUgdHJpcC4iLAoKICBNYWxheXNpYToKICAgICJNb3VudCBLaW5hYmFsdSwgNCwwOTUgbSDigJQgRmVicnVhcnkgMjAyMywgZXBpc29kZSAxMy4gSHVnZSBncmFuaXRlIHNsYWJzIGFuZCBhIHByZS1kYXduIHN1bW1pdCBwdXNoIHdpdGggaGVhZHRvcmNoZXMuIiwKCiAgSmFwYW46CiAgICAiTW91bnQgRnVqaSDigJQgSSBlbmRlZCB1cCBjbGltYmluZyBpdCB0aHJlZSB0aW1lcywgdHdpY2UgaW4gYSBzaW5nbGUgd2Vlay4gT25jZSB5b3Uga25vdyB0aGUgcm91dGUgaXQncyBoYXJkIHRvIHJlc2lzdCBnb2luZyBiYWNrIHVwIGZvciBhIGJldHRlciBzdW5yaXNlLiIsCgogIEN5cHJ1czoKICAgICJNb3VudCBPbHltcHVzIChDaGlvbmlzdHJhKSDigJQgaG9tZSBvZiB0aGUgZ29kcy4gVGhlIHRydWUgc3VtbWl0IGlzIGluc2lkZSB0aGUgZmVuY2VkIFJBRiBUcm9vZG9zIHJhZGFyIHN0YXRpb24sIHdoaWNoIGlzIHVuZGVyc3Rvb2QgdG8gYmUgVUsgU292ZXJlaWduIEJhc2UgdGVycml0b3J5IChwZXIgRXJpYyBHaWxiZXJ0c29uKSwgc28gdGhlIGhpZ2hlc3QgcG9pbnQgb2YgQ3lwcnVzIGl0c2VsZiBpcyB0aGUgZ3JvdW5kIGp1c3Qgb3V0c2lkZSB0aGUgZmVuY2Ug4oCUIHRoYXQncyB3aGF0IEkgd2Fsa2VkLCBhbmQgd2hhdCBjb3VudHMgYXMgdGhlIGxlZ2FsIGhpZ2ggcG9pbnQuIiwKCiAgIlNvdXRoIEtvcmVhIjoKICAgICJIYWxsYXNhbiDtlZzrnbzsgrAgb24gSmVqdSwgcGVhayAjMjYg4oCUIGNsaW1iZWQgaW4gQ3JvY3MuIE5vdCByZWNvbW1lbmRlZCBmb290d2VhciwgYnV0IGl0IHdvcmtlZCwgYW5kIHRoZSBjcmF0ZXIgYXQgdGhlIHRvcCB3YXMgd29ydGggaXQuIiwKCiAgSm9yZGFuOgogICAgIkphYmFsIFVtbSBhZCBEYW1pLCAxLDg1NCBtIOKAlCBwZWFrICMxMiwgb3V0IGluIHRoZSBkZXNlcnQgbmVhciBXYWRpIFJ1bS4gUmVkIHNhbmQsIHNpbGVuY2UsIGFuZCBhIHZpZXcgaW50byBTYXVkaSBBcmFiaWEgZnJvbSB0aGUgdG9wLiIsCgogIENhbWJvZGlhOgogICAgIlBobm9tIEF1cmFsIOKAlCBkb25lIGJhY2sgdG8gYmFjayB3aXRoIFNpbmdhcG9yZSBpbiBlcGlzb2RlIDEyLiBIb3QsIGh1bWlkIGp1bmdsZSBhbmQgd2lsZCBib2FyLiBBY3R1YWwgcGVha3MgIzE5IGFuZCAjMjAuIiwKCiAgU2luZ2Fwb3JlOgogICAgIkJ1a2l0IFRpbWFoIEhpbGwsIDE2NCBtIOKAlCBtb25rZXlzIG9uIHRoZSB0cmFpbCBhbmQgYSBoaWdocG9pbnQgaW4gdGhlIG1pZGRsZSBvZiBhIGNpdHkgc3RhdGUuIFNhbWUgZXBpc29kZSBhcyBDYW1ib2RpYS4iLAoKICAiQ2FwZSBWZXJkZSI6CiAgICAiUGljbyBkbyBGb2dvIOKAlCBhbiBhY3RpdmUgdm9sY2FubyBpbiB0aGUgQXRsYW50aWMsIHdpdGggdmlsbGFnZXMgYnVpbHQgaW5zaWRlIHRoZSBjYWxkZXJhLiBPbmUgb2YgdGhlIG1vc3Qgc3RyaWtpbmcgQWZyaWNhbiBoaWdocG9pbnRzLiIsCgp9Owo=
+/**
+ * Personal climbing notes and anecdotes for summited highpoints.
+ * Each key matches the country name used in peakDetails.
+ */
+export const personalNotes: Record<string, string> = {
+  Ukraine:
+    "Hoverla, 22 August 2026 — Ukraine's highpoint in the Chornohora ridge of the Carpathians. A long walk-up on marked trails, summit ridge open and windy, with the whole Chornohora range rolling away towards Romania. An abundance of beautiful nature, blueberries, raspberries and a small waterfall makes Hoverla a truly enjoyable hike and one of Europe's most beautiful mountains.",
+
+  Ireland:
+    "Country highpoint #37! Climbed Carrauntoohil in July 2026 from Cronin's Yard, up the classic Devil's Ladder — a steep, loose scree gully. I descended the gentler Zig Zag track instead. Rewarding summit cross and sweeping views over the MacGillycuddy's Reeks and Kerry.",
+
+  "United Kingdom":
+    "Ben Nevis, July 2026 — mainland Britain's highpoint, straight after Ireland. Up the Mountain Track from Glen Nevis in classic Scottish weather: mist, wind and zero summit view over the cliffs. I count Ben Nevis as the UK high point; Mount Paget on South Georgia is an overseas territory and sits outside my definition.",
+
+
+  Finland:
+    "Watch out for mosquitoes in summer! We drove up from Gothenburg and hiked in the 24-hour sun from the Norwegian side.",
+
+
+  Norway:
+    "Hiked with famous parkour YouTuber Oliver Nordin. I forgot sunscreen and got a really bad burn — won't make that mistake again! 🥵😭 You can buy a Coca-Cola on the top in summer, although it's expensive.",
+
+  Poland:
+    "My first ever highpoint! 2019. I went alone, hiked up in boots, down in sandals! I was so unused to hiking that both my ankles were swollen with water for days after — never mind, I was hooked! Only a week later I booked and went to Zugspitze, Germany!",
+
+  Germany:
+    "Das ist eine große Kartoffel! The Zugspitze via the normal route is a straightforward, easy walk, but the Höllental route is a different beast — more difficult and technical, with a glacier crossing and via ferrata sections. My first ascent in 2019 was via Höllental. I was still very inexperienced — walked on the tiny glacier without crampons, got sunburned, and didn't drink enough water… I liked the via ferrata though! From the top the cable car ride down was welcomed, although I've grown to despise cable cars on mountaintops! ⛰️ Repeat ascent 3 August 2026: I climbed the Höllental route again, this time free solo and in a single day — a big improvement on that first attempt six years earlier. Same mountain, completely different climber.",
+
+  Vietnam:
+    "What a jungle adventure! I met some Brits and we got denied access via the main entrance — very strict military guards. We snuck in 500 m below through the jungle. I asked: \"Anyone want to walk first? There might be snakes.\" The young Brits: \"There's a snake??!\" Me: \"No, there could be!\" Them: \"…\" And I kept walking first — being the oldest and more experienced, haha. Didn't see any snakes, though I had to wrestle the banana trees. Amazing temple on the top and the views were rewarding!",
+
+  Thailand:
+    "Super easy hike — renting and driving a motorbike on the left side of the road from Chiang Mai was the real challenge here. A guide was mandatory but cheap, and it's just a 15–20 minute hike from the parking. 😄",
+
+  Austria:
+    "Großglockner, August 2021 — climbed via the Stüdlgrat ridge, graded AD (and closer to AD+ with the fresh snow that came in). Episode 3 of the series and my first proper alpine ridge on the project.",
+
+  Slovenia:
+    "Triglav with Annemette — highpoint #22 of the project. Slovenia's national symbol, and a mountain you're supposedly not a real Slovene until you've climbed.",
+
+  Portugal:
+    "Mount Pico in the Azores, out in the middle of the Atlantic. 2,351 m of volcano rising straight out of the ocean — one of the most atmospheric highpoints of the whole project.",
+
+  Croatia:
+    "Dinara in a full storm. Got hammered by weather on the way up, and still managed some parkour on the way down. This was actually peak #20 once I deducted Denmark and the Netherlands from the count (their true highpoints sit in Greenland and the Caribbean).",
+
+  Slovakia:
+    "Gerlachovský štít — episode 4 of the series, later re-edited. Slovakia's highest, and you legally need a guide to stand on top of it.",
+
+  Hungary:
+    "Kékes, peak #11. One of the gentle ones: you can practically drive to the top, so it became a quick tick on a road trip.",
+
+  "San Marino":
+    "Monte Titano, 739 m — peak 25 of 195. A highpoint you climb through a medieval fortress town rather than up a mountain.",
+
+  Belgium:
+    "Signal de Botrange — done in one day together with the Netherlands and Luxembourg in episode 2 of the series. Three country highpoints, one very flat road trip.",
+
+  Netherlands:
+    "Vaalserberg, on the three-country border — knocked off in the same day as Belgium and Luxembourg. Worth noting: the true Dutch highpoint is Mount Scenery on Saba in the Caribbean, so this one counts as mainland only.",
+
+  Luxembourg:
+    "Kneiff — the flattest 'summit' of the trip, and honestly one of the funniest. Peak #5, done alongside Belgium and the Netherlands.",
+
+  Denmark:
+    "Møllehøj — the very first episode of the whole project. 170 m of Danish farmland. The real Danish highpoint is Gunnbjørn Fjeld in Greenland, so this stays in the mainland column.",
+
+  Estonia:
+    "Suur Munamägi, 318 m — May 2022, peak #13. There's an observation tower on top, so the highest point you can actually stand on is indoors.",
+
+  Latvia:
+    "Gaiziņkalns, 311 m — 10 May 2022, peak #14. I celebrated with a handstand challenge on the summit, which is about as much drama as the Baltics offer.",
+
+  Lithuania:
+    "Aukštojas Hill, 294 m — August 2022. A genuine close call on this trip, and I paired it with the Czech highpoint on the same drive.",
+
+  "Czech Republic":
+    "Sněžka, 1,603 m — August 2022, done on the same road trip as Lithuania. Border summit with Poland, with a chapel and a very windy top.",
+
+  Malta:
+    "Ta' Dmejrek on the Dingli Cliffs — top of 30 UN countries. More coastal walk than climb, with the Mediterranean straight below.",
+
+  Monaco:
+    "Chemin des Révoires — the biggest mountain in the smallest UN country. 161 m of pavement and hillside above the harbour.",
+
+  Taiwan:
+    "Yushan / Jade Mountain 玉山, 3,952 m — permits, an alpine start and one of my favourite highpoints in Asia, although not a UN country. I also tried to hike 200 km across Taiwan on the same trip.",
+
+  Malaysia:
+    "Mount Kinabalu, 4,095 m — February 2023, episode 13. Huge granite slabs and a pre-dawn summit push with headtorches.",
+
+  Japan:
+    "Mount Fuji — I ended up climbing it three times, twice in a single week. Once you know the route it's hard to resist going back up for a better sunrise.",
+
+  Cyprus:
+    "Mount Olympus (Chionistra) — home of the gods. The true summit is inside the fenced RAF Troodos radar station, which is understood to be UK Sovereign Base territory (per Eric Gilbertson), so the highest point of Cyprus itself is the ground just outside the fence — that's what I walked, and what counts as the legal high point.",
+
+  "South Korea":
+    "Hallasan 한라산 on Jeju, peak #26 — climbed in Crocs. Not recommended footwear, but it worked, and the crater at the top was worth it.",
+
+  Jordan:
+    "Jabal Umm ad Dami, 1,854 m — peak #12, out in the desert near Wadi Rum. Red sand, silence, and a view into Saudi Arabia from the top.",
+
+  Cambodia:
+    "Phnom Aural — done back to back with Singapore in episode 12. Hot, humid jungle and wild boar. Actual peaks #19 and #20.",
+
+  Singapore:
+    "Bukit Timah Hill, 164 m — monkeys on the trail and a highpoint in the middle of a city state. Same episode as Cambodia.",
+
+  "Cape Verde":
+    "Pico do Fogo — an active volcano in the Atlantic, with villages built inside the caldera. One of the most striking African highpoints.",
+
+};

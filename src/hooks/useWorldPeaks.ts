@@ -1,1 +1,23 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKCmltcG9ydCB7IGxvYWRXb3JsZFBlYWtzLCBvbldvcmxkUGVha3NMb2FkZWQsIHdvcmxkUGVha3NMb2FkZWQgfSBmcm9tICJAL2xpYi9wZWFrLWNhdGFsb2ciOwoKLyoqCiAqIExhemlseSBwdWxsIHRoZSB+NiwwMDAtcGVhayB3b3JsZCBkYXRhc2V0IGludG8gdGhlIGNhdGFsb2cgYW5kIHJlLXJlbmRlcgogKiBvbmNlIGl0IGxhbmRzLiBSZXR1cm5zIGEgdG9rZW4gdG8gaW5jbHVkZSBpbiBzZWFyY2ggbWVtbyBkZXBlbmRlbmNpZXMuCiAqLwpleHBvcnQgY29uc3QgdXNlV29ybGRQZWFrcyA9ICgpOiBudW1iZXIgPT4gewogIGNvbnN0IFt2ZXJzaW9uLCBzZXRWZXJzaW9uXSA9IHVzZVN0YXRlKCgpID0+ICh3b3JsZFBlYWtzTG9hZGVkKCkgPyAxIDogMCkpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKHdvcmxkUGVha3NMb2FkZWQoKSkgewogICAgICBzZXRWZXJzaW9uKDEpOwogICAgICByZXR1cm47CiAgICB9CiAgICBjb25zdCBvZmYgPSBvbldvcmxkUGVha3NMb2FkZWQoKCkgPT4gc2V0VmVyc2lvbigodikgPT4gdiArIDEpKTsKICAgIHZvaWQgbG9hZFdvcmxkUGVha3MoKTsKICAgIHJldHVybiBvZmY7CiAgfSwgW10pOwoKICByZXR1cm4gdmVyc2lvbjsKfTsK
+import { useEffect, useState } from "react";
+
+import { loadWorldPeaks, onWorldPeaksLoaded, worldPeaksLoaded } from "@/lib/peak-catalog";
+
+/**
+ * Lazily pull the ~6,000-peak world dataset into the catalog and re-render
+ * once it lands. Returns a token to include in search memo dependencies.
+ */
+export const useWorldPeaks = (): number => {
+  const [version, setVersion] = useState(() => (worldPeaksLoaded() ? 1 : 0));
+
+  useEffect(() => {
+    if (worldPeaksLoaded()) {
+      setVersion(1);
+      return;
+    }
+    const off = onWorldPeaksLoaded(() => setVersion((v) => v + 1));
+    void loadWorldPeaks();
+    return off;
+  }, []);
+
+  return version;
+};

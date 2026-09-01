@@ -1,1 +1,92 @@
-LyoqCiAqIEhpc3RvcmljIGNvdW50cnkgaGlnaCBwb2ludHMg4oCUIHN1bW1pdHMgdGhhdCBXRVJFIHRoZSBoaWdoZXN0IHBvaW50IG9mIGEKICogY291bnRyeSB1bnRpbCBhIGRvY3VtZW50ZWQgZGF0ZSwgYW5kIHdlcmUgdGhlbiBvdmVydGFrZW4gKGdsYWNpZXIgbWVsdCwKICogcmVzdXJ2ZXksIGJvcmRlciBjaGFuZ2UpLgogKgogKiBSdWxlIG9uIFRpY2tsZWxpc3Q6IGFuIGFzY2VudCBvZiBhIGhpc3RvcmljIGhpZ2ggcG9pbnQgY291bnRzIGFzIHRoYXQKICogY291bnRyeSdzIGhpZ2ggcG9pbnQgKipvbmx5IGlmIGl0IHdhcyBjbGltYmVkIG9uIG9yIGJlZm9yZSBgaGVsZFVudGlsYCoqLgogKiBMYXRlciBhc2NlbnRzIGFyZSBzdGlsbCBsb2dnZWQgYW5kIHN0aWxsIGVhcm4gWFAsIHRoZXkganVzdCBkb24ndCB0aWNrIHRoZQogKiBjb3VudHJ5IG9mZiB0aGUgaGlnaC1wb2ludCBsaXN0cyDigJQgdGhlIGN1cnJlbnQgc3VtbWl0IGRvZXMuCiAqLwpleHBvcnQgaW50ZXJmYWNlIEhpc3RvcmljSGlnaHBvaW50IHsKICBjb3VudHJ5OiBzdHJpbmc7CiAgLyoqIENhbm9uaWNhbCBuYW1lIHVzZWQgaW4gdGhlIHBlYWsgY2F0YWxvZy4gKi8KICBwZWFrOiBzdHJpbmc7CiAgLyoqIE90aGVyIHNwZWxsaW5ncyBwZW9wbGUgbWF5IGhhdmUgbG9nZ2VkIGl0IHVuZGVyLiAqLwogIGFsaWFzZXM6IHN0cmluZ1tdOwogIGVsZXZhdGlvbjogc3RyaW5nOwogIGVsZXZhdGlvbk06IG51bWJlcjsKICAvKiogTGFzdCBkYXRlIG9uIHdoaWNoIHRoaXMgc3VtbWl0IGNvdW50ZWQgYXMgdGhlIGNvdW50cnkgaGlnaCBwb2ludCAoSVNPKS4gKi8KICBoZWxkVW50aWw6IHN0cmluZzsKICAvKiogUGVhayB0aGF0IHRvb2sgb3ZlciBhcyB0aGUgY291bnRyeSBoaWdoIHBvaW50LiAqLwogIHN1cGVyc2VkZWRCeTogc3RyaW5nOwogIGNvb3JkaW5hdGVzOiB7IGxhdDogbnVtYmVyOyBsbmc6IG51bWJlciB9OwogIG5vdGU6IHN0cmluZzsKfQoKZXhwb3J0IGNvbnN0IGhpc3RvcmljSGlnaHBvaW50czogSGlzdG9yaWNIaWdocG9pbnRbXSA9IFsKICB7CiAgICBjb3VudHJ5OiAiU3dlZGVuIiwKICAgIHBlYWs6ICJLZWJuZWthaXNlIFN5ZHRvcHBlbiIsCiAgICBhbGlhc2VzOiBbCiAgICAgICJLZWJuZWthaXNlIC0gU3lkdG9wcGVuIiwKICAgICAgIktlYm5la2Fpc2UgKFN5ZHRvcHBlbikiLAogICAgICAiS2VibmVrYWlzZSBTb3V0aCBQZWFrIiwKICAgICAgIlN5ZHRvcHBlbiIsCiAgICBdLAogICAgZWxldmF0aW9uOiAiMiwwOTcgbSIsCiAgICBlbGV2YXRpb25NOiAyMDk3LAogICAgaGVsZFVudGlsOiAiMjAxOC0wOC0wNSIsCiAgICBzdXBlcnNlZGVkQnk6ICJLZWJuZWthaXNlIChOb3JkdG9wcGVuKSIsCiAgICBjb29yZGluYXRlczogeyBsYXQ6IDY3LjkwMSwgbG5nOiAxOC41MTY5IH0sCiAgICBub3RlOgogICAgICAiU3dlZGVuJ3MgaGlnaGVzdCBwb2ludCB1bnRpbCA1IEF1Z3VzdCAyMDE4LCB3aGVuIFN0b2NraG9sbSBVbml2ZXJzaXR5J3MgVGFyZmFsYSByZXNlYXJjaGVycyBtZWFzdXJlZCB0aGUgZ2xhY2llci1jYXBwZWQgU3lkdG9wcGVuIGF0IDIsMDk2LjUgbSDigJQgMC4zIG0gYmVsb3cgdGhlIGJlZHJvY2sgTm9yZHRvcHBlbiAoMiwwOTYuOCBtKS4gSXQgbWVsdGVkIH4xNCBjbSBwZXIgZGF5IHRoYXQgSnVseSBhbmQgaGFzIHN0YXllZCBsb3dlciBldmVyeSB5ZWFyIHNpbmNlLiBBc2NlbnRzIG9uIG9yIGJlZm9yZSA1IEF1Z3VzdCAyMDE4IGNvdW50IGFzIHRoZSBoaWdoIHBvaW50IG9mIFN3ZWRlbjsgbGF0ZXIgb25lcyBhcmUgbG9nZ2VkIGFzIGFuIGFzY2VudCBvZiB0aGUgc291dGggc3VtbWl0IG9ubHkuIiwKICB9LApdOwoKY29uc3Qgbm9ybSA9IChzOiBzdHJpbmcpID0+CiAgcwogICAgLnRvTG93ZXJDYXNlKCkKICAgIC5ub3JtYWxpemUoIk5GRCIpCiAgICAucmVwbGFjZSgvW1x1MDMwMC1cdTAzNmZdL2csICIiKQogICAgLnJlcGxhY2UoL1teYS16MC05XS9nLCAiIik7Cgpjb25zdCBieU5hbWUgPSBuZXcgTWFwPHN0cmluZywgSGlzdG9yaWNIaWdocG9pbnQ+KCk7CmZvciAoY29uc3QgaCBvZiBoaXN0b3JpY0hpZ2hwb2ludHMpIHsKICBieU5hbWUuc2V0KG5vcm0oaC5wZWFrKSwgaCk7CiAgaC5hbGlhc2VzLmZvckVhY2goKGEpID0+IGJ5TmFtZS5zZXQobm9ybShhKSwgaCkpOwp9CgovKiogSGlzdG9yaWMtaGlnaC1wb2ludCByZWNvcmQgZm9yIGEgbG9nZ2VkIHBlYWsgbmFtZSwgaWYgYW55LiAqLwpleHBvcnQgY29uc3QgaGlzdG9yaWNIaWdocG9pbnRGb3IgPSAoCiAgcGVha05hbWU6IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQsCiAgY291bnRyeT86IHN0cmluZyB8IG51bGwsCik6IEhpc3RvcmljSGlnaHBvaW50IHwgbnVsbCA9PiB7CiAgaWYgKCFwZWFrTmFtZSkgcmV0dXJuIG51bGw7CiAgY29uc3QgaGl0ID0gYnlOYW1lLmdldChub3JtKHBlYWtOYW1lKSk7CiAgaWYgKCFoaXQpIHJldHVybiBudWxsOwogIGlmIChjb3VudHJ5ICYmIG5vcm0oY291bnRyeSkgIT09IG5vcm0oaGl0LmNvdW50cnkpKSByZXR1cm4gbnVsbDsKICByZXR1cm4gaGl0Owp9OwoKaW50ZXJmYWNlIEFzY2VudExpa2UgewogIHBlYWtfdHlwZTogc3RyaW5nOwogIHBlYWtfbmFtZTogc3RyaW5nOwogIGNvdW50cnk/OiBzdHJpbmcgfCBudWxsOwogIGFzY2VudF9kYXRlPzogc3RyaW5nIHwgbnVsbDsKfQoKLyoqCiAqIERvZXMgdGhpcyBhc2NlbnQgdGljayB0aGUgY291bnRyeSBoaWdoIHBvaW50PyBIaXN0b3JpYyBoaWdoIHBvaW50cyBvbmx5IGRvCiAqIHNvIHdoZW4gY2xpbWJlZCBvbiBvciBiZWZvcmUgdGhlIGRhdGUgdGhleSBsb3N0IHRoZSB0aXRsZS4KICovCmV4cG9ydCBjb25zdCBjb3VudHNBc0NvdW50cnlIaWdocG9pbnQgPSAoYTogQXNjZW50TGlrZSk6IGJvb2xlYW4gPT4gewogIGlmIChhLnBlYWtfdHlwZSAhPT0gImNvdW50cnlfaGlnaHBvaW50IikgcmV0dXJuIGZhbHNlOwogIGNvbnN0IGhpc3RvcmljID0gaGlzdG9yaWNIaWdocG9pbnRGb3IoYS5wZWFrX25hbWUsIGEuY291bnRyeSk7CiAgaWYgKCFoaXN0b3JpYykgcmV0dXJuIHRydWU7CiAgcmV0dXJuIEJvb2xlYW4oYS5hc2NlbnRfZGF0ZSkgJiYgYS5hc2NlbnRfZGF0ZSEgPD0gaGlzdG9yaWMuaGVsZFVudGlsOwp9OwoKLyoqIENhdGFsb2cga2V5IGFuIGFzY2VudCBzaG91bGQgY3JlZGl0IOKAlCBgaHA6Q291bnRyeWAgb3IgYGZwOlBlYWtgLiAqLwpleHBvcnQgY29uc3QgaGlnaHBvaW50Q3JlZGl0S2V5ID0gKGE6IEFzY2VudExpa2UpOiBzdHJpbmcgPT4KICBjb3VudHNBc0NvdW50cnlIaWdocG9pbnQoYSkgPyBgaHA6JHthLmNvdW50cnkgPz8gYS5wZWFrX25hbWV9YCA6IGBmcDoke2EucGVha19uYW1lfWA7Cg==
+/**
+ * Historic country high points — summits that WERE the highest point of a
+ * country until a documented date, and were then overtaken (glacier melt,
+ * resurvey, border change).
+ *
+ * Rule on Ticklelist: an ascent of a historic high point counts as that
+ * country's high point **only if it was climbed on or before `heldUntil`**.
+ * Later ascents are still logged and still earn XP, they just don't tick the
+ * country off the high-point lists — the current summit does.
+ */
+export interface HistoricHighpoint {
+  country: string;
+  /** Canonical name used in the peak catalog. */
+  peak: string;
+  /** Other spellings people may have logged it under. */
+  aliases: string[];
+  elevation: string;
+  elevationM: number;
+  /** Last date on which this summit counted as the country high point (ISO). */
+  heldUntil: string;
+  /** Peak that took over as the country high point. */
+  supersededBy: string;
+  coordinates: { lat: number; lng: number };
+  note: string;
+}
+
+export const historicHighpoints: HistoricHighpoint[] = [
+  {
+    country: "Sweden",
+    peak: "Kebnekaise Sydtoppen",
+    aliases: [
+      "Kebnekaise - Sydtoppen",
+      "Kebnekaise (Sydtoppen)",
+      "Kebnekaise South Peak",
+      "Sydtoppen",
+    ],
+    elevation: "2,097 m",
+    elevationM: 2097,
+    heldUntil: "2018-08-05",
+    supersededBy: "Kebnekaise (Nordtoppen)",
+    coordinates: { lat: 67.901, lng: 18.5169 },
+    note:
+      "Sweden's highest point until 5 August 2018, when Stockholm University's Tarfala researchers measured the glacier-capped Sydtoppen at 2,096.5 m — 0.3 m below the bedrock Nordtoppen (2,096.8 m). It melted ~14 cm per day that July and has stayed lower every year since. Ascents on or before 5 August 2018 count as the high point of Sweden; later ones are logged as an ascent of the south summit only.",
+  },
+];
+
+const norm = (s: string) =>
+  s
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]/g, "");
+
+const byName = new Map<string, HistoricHighpoint>();
+for (const h of historicHighpoints) {
+  byName.set(norm(h.peak), h);
+  h.aliases.forEach((a) => byName.set(norm(a), h));
+}
+
+/** Historic-high-point record for a logged peak name, if any. */
+export const historicHighpointFor = (
+  peakName: string | null | undefined,
+  country?: string | null,
+): HistoricHighpoint | null => {
+  if (!peakName) return null;
+  const hit = byName.get(norm(peakName));
+  if (!hit) return null;
+  if (country && norm(country) !== norm(hit.country)) return null;
+  return hit;
+};
+
+interface AscentLike {
+  peak_type: string;
+  peak_name: string;
+  country?: string | null;
+  ascent_date?: string | null;
+}
+
+/**
+ * Does this ascent tick the country high point? Historic high points only do
+ * so when climbed on or before the date they lost the title.
+ */
+export const countsAsCountryHighpoint = (a: AscentLike): boolean => {
+  if (a.peak_type !== "country_highpoint") return false;
+  const historic = historicHighpointFor(a.peak_name, a.country);
+  if (!historic) return true;
+  return Boolean(a.ascent_date) && a.ascent_date! <= historic.heldUntil;
+};
+
+/** Catalog key an ascent should credit — `hp:Country` or `fp:Peak`. */
+export const highpointCreditKey = (a: AscentLike): string =>
+  countsAsCountryHighpoint(a) ? `hp:${a.country ?? a.peak_name}` : `fp:${a.peak_name}`;

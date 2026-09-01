@@ -1,1 +1,154 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAL2hvb2tzL3VzZS10b2FzdCI7CmltcG9ydCB7IHVzZUF1dGggfSBmcm9tICJAL2hvb2tzL3VzZUF1dGgiOwoKZXhwb3J0IHR5cGUgUmVwb3J0VGFyZ2V0ID0gInBvc3QiIHwgImNvbW1lbnQiOwpleHBvcnQgdHlwZSBSZXBvcnRTdGF0dXMgPSAib3BlbiIgfCAicmV2aWV3ZWQiIHwgImRpc21pc3NlZCIgfCAicmVtb3ZlZCI7CgpleHBvcnQgY29uc3QgUkVQT1JUX1JFQVNPTlMgPSBbCiAgeyB2YWx1ZTogInNwYW0iLCBsYWJlbDogIlNwYW0gb3IgYWR2ZXJ0aXNpbmciIH0sCiAgeyB2YWx1ZTogImhhcmFzc21lbnQiLCBsYWJlbDogIkhhcmFzc21lbnQgb3IgaGF0ZSIgfSwKICB7IHZhbHVlOiAibnVkaXR5IiwgbGFiZWw6ICJOdWRpdHkgb3Igc2V4dWFsIGNvbnRlbnQiIH0sCiAgeyB2YWx1ZTogInZpb2xlbmNlIiwgbGFiZWw6ICJWaW9sZW5jZSBvciBkYW5nZXJvdXMgY29udGVudCIgfSwKICB7IHZhbHVlOiAibWlzaW5mb3JtYXRpb24iLCBsYWJlbDogIk1pc2xlYWRpbmcgaW5mb3JtYXRpb24iIH0sCiAgeyB2YWx1ZTogIm90aGVyIiwgbGFiZWw6ICJTb21ldGhpbmcgZWxzZSIgfSwKXSBhcyBjb25zdDsKCmV4cG9ydCBpbnRlcmZhY2UgQ29udGVudFJlcG9ydCB7CiAgaWQ6IHN0cmluZzsKICByZXBvcnRlcl9pZDogc3RyaW5nOwogIHRhcmdldF90eXBlOiBSZXBvcnRUYXJnZXQ7CiAgdGFyZ2V0X2lkOiBzdHJpbmc7CiAgcmVhc29uOiBzdHJpbmc7CiAgZGV0YWlsczogc3RyaW5nIHwgbnVsbDsKICBzdGF0dXM6IFJlcG9ydFN0YXR1czsKICByZXZpZXdlZF9ieTogc3RyaW5nIHwgbnVsbDsKICByZXZpZXdlZF9hdDogc3RyaW5nIHwgbnVsbDsKICBjcmVhdGVkX2F0OiBzdHJpbmc7Cn0KCmV4cG9ydCBjb25zdCByZWFzb25MYWJlbCA9ICh2YWx1ZTogc3RyaW5nKSA9PgogIFJFUE9SVF9SRUFTT05TLmZpbmQoKHIpID0+IHIudmFsdWUgPT09IHZhbHVlKT8ubGFiZWwgPz8gdmFsdWU7CgovKiogRmxhZ2dpbmcgY29udGVudCBhcyBhIG1lbWJlci4gKi8KZXhwb3J0IGNvbnN0IHVzZVJlcG9ydGluZyA9ICgpID0+IHsKICBjb25zdCB7IHVzZXIgfSA9IHVzZUF1dGgoKTsKCiAgY29uc3QgcmVwb3J0ID0gYXN5bmMgKAogICAgdGFyZ2V0VHlwZTogUmVwb3J0VGFyZ2V0LAogICAgdGFyZ2V0SWQ6IHN0cmluZywKICAgIHJlYXNvbjogc3RyaW5nLAogICAgZGV0YWlsczogc3RyaW5nLAogICkgPT4gewogICAgaWYgKCF1c2VyKSB7CiAgICAgIHRvYXN0KHsgdGl0bGU6ICJTaWduIGluIHRvIHJlcG9ydCBjb250ZW50IiB9KTsKICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQogICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgiY29udGVudF9yZXBvcnRzIikuaW5zZXJ0KHsKICAgICAgcmVwb3J0ZXJfaWQ6IHVzZXIuaWQsCiAgICAgIHRhcmdldF90eXBlOiB0YXJnZXRUeXBlLAogICAgICB0YXJnZXRfaWQ6IHRhcmdldElkLAogICAgICByZWFzb24sCiAgICAgIGRldGFpbHM6IGRldGFpbHMudHJpbSgpLnNsaWNlKDAsIDUwMCkgfHwgbnVsbCwKICAgIH0pOwogICAgaWYgKGVycm9yKSB7CiAgICAgIGNvbnN0IGR1cGUgPSBlcnJvci5jb2RlID09PSAiMjM1MDUiOwogICAgICB0b2FzdCh7CiAgICAgICAgdGl0bGU6IGR1cGUgPyAiWW91IGFscmVhZHkgcmVwb3J0ZWQgdGhpcyIgOiAiQ291bGQgbm90IHNlbmQgcmVwb3J0IiwKICAgICAgICBkZXNjcmlwdGlvbjogZHVwZSA/ICJBIG1vZGVyYXRvciBpcyBsb29raW5nIGludG8gaXQuIiA6IGVycm9yLm1lc3NhZ2UsCiAgICAgICAgdmFyaWFudDogZHVwZSA/IHVuZGVmaW5lZCA6ICJkZXN0cnVjdGl2ZSIsCiAgICAgIH0pOwogICAgICByZXR1cm4gZHVwZTsKICAgIH0KICAgIHRvYXN0KHsgdGl0bGU6ICJSZXBvcnQgc2VudCIsIGRlc2NyaXB0aW9uOiAiVGhhbmtzIOKAlCBhIG1vZGVyYXRvciB3aWxsIHJldmlldyBpdC4iIH0pOwogICAgcmV0dXJuIHRydWU7CiAgfTsKCiAgcmV0dXJuIHsgcmVwb3J0LCBjYW5SZXBvcnQ6ICEhdXNlciB9Owp9OwoKaW50ZXJmYWNlIFJlcG9ydGVkQ29udGVudCB7CiAgcG9zdHM6IFJlY29yZDxzdHJpbmcsIHsgYm9keTogc3RyaW5nOyB1c2VyX2lkOiBzdHJpbmc7IG1lZGlhX3VybDogc3RyaW5nIHwgbnVsbDsgbWVkaWFfdHlwZTogc3RyaW5nIHwgbnVsbCB9PjsKICBjb21tZW50czogUmVjb3JkPHN0cmluZywgeyBib2R5OiBzdHJpbmc7IHVzZXJfaWQ6IHN0cmluZzsgcG9zdF9pZDogc3RyaW5nIH0+Owp9CgovKiogQWRtaW4gbW9kZXJhdGlvbiBxdWV1ZS4gKi8KZXhwb3J0IGNvbnN0IHVzZU1vZGVyYXRpb24gPSAoKSA9PiB7CiAgY29uc3QgeyBpc0FkbWluIH0gPSB1c2VBdXRoKCk7CiAgY29uc3QgW3JlcG9ydHMsIHNldFJlcG9ydHNdID0gdXNlU3RhdGU8Q29udGVudFJlcG9ydFtdPihbXSk7CiAgY29uc3QgW2NvbnRlbnQsIHNldENvbnRlbnRdID0gdXNlU3RhdGU8UmVwb3J0ZWRDb250ZW50Pih7IHBvc3RzOiB7fSwgY29tbWVudHM6IHt9IH0pOwogIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IHVzZVN0YXRlKHRydWUpOwoKICBjb25zdCBsb2FkID0gdXNlQ2FsbGJhY2soYXN5bmMgKCkgPT4gewogICAgaWYgKCFpc0FkbWluKSB7CiAgICAgIHNldExvYWRpbmcoZmFsc2UpOwogICAgICByZXR1cm47CiAgICB9CiAgICBzZXRMb2FkaW5nKHRydWUpOwogICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAuZnJvbSgiY29udGVudF9yZXBvcnRzIikKICAgICAgLnNlbGVjdCgiKiIpCiAgICAgIC5vcmRlcigiY3JlYXRlZF9hdCIsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KQogICAgICAubGltaXQoMzAwKTsKICAgIGNvbnN0IHJvd3MgPSAoZGF0YSBhcyBDb250ZW50UmVwb3J0W10pID8/IFtdOwogICAgc2V0UmVwb3J0cyhyb3dzKTsKCiAgICBjb25zdCBwb3N0SWRzID0gcm93cy5maWx0ZXIoKHIpID0+IHIudGFyZ2V0X3R5cGUgPT09ICJwb3N0IikubWFwKChyKSA9PiByLnRhcmdldF9pZCk7CiAgICBjb25zdCBjb21tZW50SWRzID0gcm93cy5maWx0ZXIoKHIpID0+IHIudGFyZ2V0X3R5cGUgPT09ICJjb21tZW50IikubWFwKChyKSA9PiByLnRhcmdldF9pZCk7CiAgICBjb25zdCBbeyBkYXRhOiBwIH0sIHsgZGF0YTogYyB9XSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICAgICAgcG9zdElkcy5sZW5ndGgKICAgICAgICA/IHN1cGFiYXNlLmZyb20oInBvc3RzIikuc2VsZWN0KCJpZCwgYm9keSwgdXNlcl9pZCwgbWVkaWFfdXJsLCBtZWRpYV90eXBlIikuaW4oImlkIiwgcG9zdElkcykKICAgICAgICA6IFByb21pc2UucmVzb2x2ZSh7IGRhdGE6IFtdIGFzIG5ldmVyW10gfSksCiAgICAgIGNvbW1lbnRJZHMubGVuZ3RoCiAgICAgICAgPyBzdXBhYmFzZS5mcm9tKCJwb3N0X2NvbW1lbnRzIikuc2VsZWN0KCJpZCwgYm9keSwgdXNlcl9pZCwgcG9zdF9pZCIpLmluKCJpZCIsIGNvbW1lbnRJZHMpCiAgICAgICAgOiBQcm9taXNlLnJlc29sdmUoeyBkYXRhOiBbXSBhcyBuZXZlcltdIH0pLAogICAgXSk7CiAgICBjb25zdCBwb3N0czogUmVwb3J0ZWRDb250ZW50WyJwb3N0cyJdID0ge307CiAgICAocCA/PyBbXSkuZm9yRWFjaCgocm93OiBhbnkpID0+IHsKICAgICAgcG9zdHNbcm93LmlkXSA9IHsgYm9keTogcm93LmJvZHksIHVzZXJfaWQ6IHJvdy51c2VyX2lkLCBtZWRpYV91cmw6IHJvdy5tZWRpYV91cmwsIG1lZGlhX3R5cGU6IHJvdy5tZWRpYV90eXBlIH07CiAgICB9KTsKICAgIGNvbnN0IGNvbW1lbnRzOiBSZXBvcnRlZENvbnRlbnRbImNvbW1lbnRzIl0gPSB7fTsKICAgIChjID8/IFtdKS5mb3JFYWNoKChyb3c6IGFueSkgPT4gewogICAgICBjb21tZW50c1tyb3cuaWRdID0geyBib2R5OiByb3cuYm9keSwgdXNlcl9pZDogcm93LnVzZXJfaWQsIHBvc3RfaWQ6IHJvdy5wb3N0X2lkIH07CiAgICB9KTsKICAgIHNldENvbnRlbnQoeyBwb3N0cywgY29tbWVudHMgfSk7CiAgICBzZXRMb2FkaW5nKGZhbHNlKTsKICB9LCBbaXNBZG1pbl0pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgbG9hZCgpOwogIH0sIFtsb2FkXSk7CgogIGNvbnN0IHNldFN0YXR1cyA9IGFzeW5jIChyZXBvcnQ6IENvbnRlbnRSZXBvcnQsIHN0YXR1czogUmVwb3J0U3RhdHVzKSA9PiB7CiAgICBjb25zdCB7IGRhdGE6IG1lIH0gPSBhd2FpdCBzdXBhYmFzZS5hdXRoLmdldFVzZXIoKTsKICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlCiAgICAgIC5mcm9tKCJjb250ZW50X3JlcG9ydHMiKQogICAgICAudXBkYXRlKHsgc3RhdHVzLCByZXZpZXdlZF9ieTogbWUudXNlcj8uaWQgPz8gbnVsbCwgcmV2aWV3ZWRfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSB9KQogICAgICAuZXEoImlkIiwgcmVwb3J0LmlkKTsKICAgIGlmIChlcnJvcikgewogICAgICB0b2FzdCh7IHRpdGxlOiAiQ291bGQgbm90IHVwZGF0ZSByZXBvcnQiLCBkZXNjcmlwdGlvbjogZXJyb3IubWVzc2FnZSwgdmFyaWFudDogImRlc3RydWN0aXZlIiB9KTsKICAgICAgcmV0dXJuOwogICAgfQogICAgYXdhaXQgbG9hZCgpOwogIH07CgogIGNvbnN0IHJlbW92ZUNvbnRlbnQgPSBhc3luYyAocmVwb3J0OiBDb250ZW50UmVwb3J0KSA9PiB7CiAgICBjb25zdCB0YWJsZSA9IHJlcG9ydC50YXJnZXRfdHlwZSA9PT0gInBvc3QiID8gInBvc3RzIiA6ICJwb3N0X2NvbW1lbnRzIjsKICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20odGFibGUpLmRlbGV0ZSgpLmVxKCJpZCIsIHJlcG9ydC50YXJnZXRfaWQpOwogICAgaWYgKGVycm9yKSB7CiAgICAgIHRvYXN0KHsgdGl0bGU6ICJDb3VsZCBub3QgcmVtb3ZlIGNvbnRlbnQiLCBkZXNjcmlwdGlvbjogZXJyb3IubWVzc2FnZSwgdmFyaWFudDogImRlc3RydWN0aXZlIiB9KTsKICAgICAgcmV0dXJuOwogICAgfQogICAgLy8gQ2xvc2UgZXZlcnkgcmVwb3J0IHBvaW50aW5nIGF0IHRoZSBzYW1lIHBpZWNlIG9mIGNvbnRlbnQuCiAgICBhd2FpdCBzdXBhYmFzZQogICAgICAuZnJvbSgiY29udGVudF9yZXBvcnRzIikKICAgICAgLnVwZGF0ZSh7IHN0YXR1czogInJlbW92ZWQiLCByZXZpZXdlZF9hdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpIH0pCiAgICAgIC5lcSgidGFyZ2V0X3R5cGUiLCByZXBvcnQudGFyZ2V0X3R5cGUpCiAgICAgIC5lcSgidGFyZ2V0X2lkIiwgcmVwb3J0LnRhcmdldF9pZCk7CiAgICB0b2FzdCh7IHRpdGxlOiAiQ29udGVudCByZW1vdmVkIiB9KTsKICAgIGF3YWl0IGxvYWQoKTsKICB9OwoKICByZXR1cm4geyByZXBvcnRzLCBjb250ZW50LCBsb2FkaW5nLCBpc0FkbWluLCBzZXRTdGF0dXMsIHJlbW92ZUNvbnRlbnQsIHJlbG9hZDogbG9hZCB9Owp9Owo=
+import { useCallback, useEffect, useState } from "react";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "@/hooks/use-toast";
+import { useAuth } from "@/hooks/useAuth";
+
+export type ReportTarget = "post" | "comment";
+export type ReportStatus = "open" | "reviewed" | "dismissed" | "removed";
+
+export const REPORT_REASONS = [
+  { value: "spam", label: "Spam or advertising" },
+  { value: "harassment", label: "Harassment or hate" },
+  { value: "nudity", label: "Nudity or sexual content" },
+  { value: "violence", label: "Violence or dangerous content" },
+  { value: "misinformation", label: "Misleading information" },
+  { value: "other", label: "Something else" },
+] as const;
+
+export interface ContentReport {
+  id: string;
+  reporter_id: string;
+  target_type: ReportTarget;
+  target_id: string;
+  reason: string;
+  details: string | null;
+  status: ReportStatus;
+  reviewed_by: string | null;
+  reviewed_at: string | null;
+  created_at: string;
+}
+
+export const reasonLabel = (value: string) =>
+  REPORT_REASONS.find((r) => r.value === value)?.label ?? value;
+
+/** Flagging content as a member. */
+export const useReporting = () => {
+  const { user } = useAuth();
+
+  const report = async (
+    targetType: ReportTarget,
+    targetId: string,
+    reason: string,
+    details: string,
+  ) => {
+    if (!user) {
+      toast({ title: "Sign in to report content" });
+      return false;
+    }
+    const { error } = await supabase.from("content_reports").insert({
+      reporter_id: user.id,
+      target_type: targetType,
+      target_id: targetId,
+      reason,
+      details: details.trim().slice(0, 500) || null,
+    });
+    if (error) {
+      const dupe = error.code === "23505";
+      toast({
+        title: dupe ? "You already reported this" : "Could not send report",
+        description: dupe ? "A moderator is looking into it." : error.message,
+        variant: dupe ? undefined : "destructive",
+      });
+      return dupe;
+    }
+    toast({ title: "Report sent", description: "Thanks — a moderator will review it." });
+    return true;
+  };
+
+  return { report, canReport: !!user };
+};
+
+interface ReportedContent {
+  posts: Record<string, { body: string; user_id: string; media_url: string | null; media_type: string | null }>;
+  comments: Record<string, { body: string; user_id: string; post_id: string }>;
+}
+
+/** Admin moderation queue. */
+export const useModeration = () => {
+  const { isAdmin } = useAuth();
+  const [reports, setReports] = useState<ContentReport[]>([]);
+  const [content, setContent] = useState<ReportedContent>({ posts: {}, comments: {} });
+  const [loading, setLoading] = useState(true);
+
+  const load = useCallback(async () => {
+    if (!isAdmin) {
+      setLoading(false);
+      return;
+    }
+    setLoading(true);
+    const { data } = await supabase
+      .from("content_reports")
+      .select("*")
+      .order("created_at", { ascending: false })
+      .limit(300);
+    const rows = (data as ContentReport[]) ?? [];
+    setReports(rows);
+
+    const postIds = rows.filter((r) => r.target_type === "post").map((r) => r.target_id);
+    const commentIds = rows.filter((r) => r.target_type === "comment").map((r) => r.target_id);
+    const [{ data: p }, { data: c }] = await Promise.all([
+      postIds.length
+        ? supabase.from("posts").select("id, body, user_id, media_url, media_type").in("id", postIds)
+        : Promise.resolve({ data: [] as never[] }),
+      commentIds.length
+        ? supabase.from("post_comments").select("id, body, user_id, post_id").in("id", commentIds)
+        : Promise.resolve({ data: [] as never[] }),
+    ]);
+    const posts: ReportedContent["posts"] = {};
+    (p ?? []).forEach((row: any) => {
+      posts[row.id] = { body: row.body, user_id: row.user_id, media_url: row.media_url, media_type: row.media_type };
+    });
+    const comments: ReportedContent["comments"] = {};
+    (c ?? []).forEach((row: any) => {
+      comments[row.id] = { body: row.body, user_id: row.user_id, post_id: row.post_id };
+    });
+    setContent({ posts, comments });
+    setLoading(false);
+  }, [isAdmin]);
+
+  useEffect(() => {
+    load();
+  }, [load]);
+
+  const setStatus = async (report: ContentReport, status: ReportStatus) => {
+    const { data: me } = await supabase.auth.getUser();
+    const { error } = await supabase
+      .from("content_reports")
+      .update({ status, reviewed_by: me.user?.id ?? null, reviewed_at: new Date().toISOString() })
+      .eq("id", report.id);
+    if (error) {
+      toast({ title: "Could not update report", description: error.message, variant: "destructive" });
+      return;
+    }
+    await load();
+  };
+
+  const removeContent = async (report: ContentReport) => {
+    const table = report.target_type === "post" ? "posts" : "post_comments";
+    const { error } = await supabase.from(table).delete().eq("id", report.target_id);
+    if (error) {
+      toast({ title: "Could not remove content", description: error.message, variant: "destructive" });
+      return;
+    }
+    // Close every report pointing at the same piece of content.
+    await supabase
+      .from("content_reports")
+      .update({ status: "removed", reviewed_at: new Date().toISOString() })
+      .eq("target_type", report.target_type)
+      .eq("target_id", report.target_id);
+    toast({ title: "Content removed" });
+    await load();
+  };
+
+  return { reports, content, loading, isAdmin, setStatus, removeContent, reload: load };
+};

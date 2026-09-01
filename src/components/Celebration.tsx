@@ -1,1 +1,241 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYgfSBmcm9tICJyZWFjdCI7CgovKioKICogR2xvYmFsIGNvbmZldHRpICsgZmlyZXdvcmtzIGNlbGVicmF0aW9uIG92ZXJsYXkuCiAqCiAqIE1vdW50IDxDZWxlYnJhdGlvbiAvPiBvbmNlIChpbiBfX3Jvb3QpLiBBbnkgY29kZSBjYW4gY2FsbCB0aGUKICogZXhwb3J0ZWQgYGNlbGVicmF0ZSgpYCBmdW5jdGlvbiB0byBmaXJlIGEgYnVyc3Qg4oCUIGUuZy4gb24gYQogKiBzdWNjZXNzZnVsIGFzY2VudCAvIGFkdmVudHVyZSAvIHBvc3QgLyB2aXNpdCBzdWJtaXNzaW9uLgogKi8KCnR5cGUgTGlzdGVuZXIgPSAoKSA9PiB2b2lkOwpjb25zdCBsaXN0ZW5lcnMgPSBuZXcgU2V0PExpc3RlbmVyPigpOwoKLyoqIEZpcmUgYSBjb25mZXR0aSArIGZpcmV3b3JrcyBidXJzdCBhY3Jvc3MgdGhlIHNjcmVlbi4gKi8KZXhwb3J0IGZ1bmN0aW9uIGNlbGVicmF0ZSgpIHsKICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHJldHVybjsKICBsaXN0ZW5lcnMuZm9yRWFjaCgobCkgPT4gbCgpKTsKfQoKLy8gLS0tLSBwYXJ0aWNsZSBlbmdpbmUgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKaW50ZXJmYWNlIFBhcnRpY2xlIHsKICB4OiBudW1iZXI7CiAgeTogbnVtYmVyOwogIHZ4OiBudW1iZXI7CiAgdnk6IG51bWJlcjsKICBsaWZlOiBudW1iZXI7CiAgbWF4TGlmZTogbnVtYmVyOwogIHNpemU6IG51bWJlcjsKICBjb2xvcjogc3RyaW5nOwogIHJvdDogbnVtYmVyOwogIHZyOiBudW1iZXI7CiAgc2hhcGU6ICJyZWN0IiB8ICJjaXJjbGUiOwogIGdyYXZpdHk6IG51bWJlcjsKICBkcmFnOiBudW1iZXI7Cn0KCmNvbnN0IENPTE9SUyA9IFsKICAiI2Y1OWUwYiIsIC8vIHN1bW1pdCBnb2xkIC8gb3JhbmdlCiAgIiMyMmQzZWUiLCAvLyBjeWFuIGFjY2VudAogICIjZjhmYWZjIiwgLy8gaWNlIHdoaXRlCiAgIiNmOTczMTYiLCAvLyBlbWJlciBvcmFuZ2UKICAiI2E4NTVmNyIsIC8vIGxlZ2FsIHZpb2xldAogICIjODRjYzE2IiwgLy8gZm9yZXN0IGxpbWUKICAiI2ZiNzE4NSIsIC8vIHJvc2UKICAiI2ZkZTA0NyIsIC8vIGdvbGQKXTsKCmNvbnN0IHJhbmQgPSAoYTogbnVtYmVyLCBiOiBudW1iZXIpID0+IGEgKyBNYXRoLnJhbmRvbSgpICogKGIgLSBhKTsKY29uc3QgcGlja0NvbG9yID0gKCkgPT4gQ09MT1JTW01hdGguZmxvb3IoTWF0aC5yYW5kb20oKSAqIENPTE9SUy5sZW5ndGgpXSA/PyBDT0xPUlNbMF0hOwoKZnVuY3Rpb24gc3Bhd25Db25mZXR0aShwYXJ0aWNsZXM6IFBhcnRpY2xlW10sIHc6IG51bWJlciwgaDogbnVtYmVyLCBjb3VudDogbnVtYmVyKSB7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBjb3VudDsgaSsrKSB7CiAgICBjb25zdCBmcm9tTGVmdCA9IE1hdGgucmFuZG9tKCkgPCAwLjU7CiAgICBjb25zdCB4ID0gZnJvbUxlZnQgPyByYW5kKDAsIHcgKiAwLjIpIDogcmFuZCh3ICogMC44LCB3KTsKICAgIHBhcnRpY2xlcy5wdXNoKHsKICAgICAgeCwKICAgICAgeTogcmFuZCgtNDAsIGggKiAwLjI1KSwKICAgICAgdng6IGZyb21MZWZ0ID8gcmFuZCgyLCA3KSA6IHJhbmQoLTcsIC0yKSwKICAgICAgdnk6IHJhbmQoMiwgNiksCiAgICAgIGxpZmU6IDAsCiAgICAgIG1heExpZmU6IHJhbmQoOTAsIDE1MCksCiAgICAgIHNpemU6IHJhbmQoNiwgMTIpLAogICAgICBjb2xvcjogcGlja0NvbG9yKCksCiAgICAgIHJvdDogcmFuZCgwLCBNYXRoLlBJICogMiksCiAgICAgIHZyOiByYW5kKC0wLjMsIDAuMyksCiAgICAgIHNoYXBlOiBNYXRoLnJhbmRvbSgpIDwgMC43ID8gInJlY3QiIDogImNpcmNsZSIsCiAgICAgIGdyYXZpdHk6IDAuMTIsCiAgICAgIGRyYWc6IDAuOTkyLAogICAgfSk7CiAgfQp9CgpmdW5jdGlvbiBzcGF3bkZpcmV3b3JrKAogIHBhcnRpY2xlczogUGFydGljbGVbXSwKICB4OiBudW1iZXIsCiAgeTogbnVtYmVyLAogIGNvdW50OiBudW1iZXIsCikgewogIGNvbnN0IGNvbG9yID0gcGlja0NvbG9yKCk7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBjb3VudDsgaSsrKSB7CiAgICBjb25zdCBhbmdsZSA9IChNYXRoLlBJICogMiAqIGkpIC8gY291bnQgKyByYW5kKC0wLjEsIDAuMSk7CiAgICBjb25zdCBzcGVlZCA9IHJhbmQoMiwgNi41KTsKICAgIHBhcnRpY2xlcy5wdXNoKHsKICAgICAgeCwKICAgICAgeSwKICAgICAgdng6IE1hdGguY29zKGFuZ2xlKSAqIHNwZWVkLAogICAgICB2eTogTWF0aC5zaW4oYW5nbGUpICogc3BlZWQsCiAgICAgIGxpZmU6IDAsCiAgICAgIG1heExpZmU6IHJhbmQoNDUsIDgwKSwKICAgICAgc2l6ZTogcmFuZCgyLCA0KSwKICAgICAgY29sb3IsCiAgICAgIHJvdDogMCwKICAgICAgdnI6IDAsCiAgICAgIHNoYXBlOiAiY2lyY2xlIiwKICAgICAgZ3Jhdml0eTogMC4wNSwKICAgICAgZHJhZzogMC45NiwKICAgIH0pOwogIH0KICAvLyBicmlnaHQgY29yZSBmbGFzaAogIHBhcnRpY2xlcy5wdXNoKHsKICAgIHgsCiAgICB5LAogICAgdng6IDAsCiAgICB2eTogMCwKICAgIGxpZmU6IDAsCiAgICBtYXhMaWZlOiAxMiwKICAgIHNpemU6IDI2LAogICAgY29sb3IsCiAgICByb3Q6IDAsCiAgICB2cjogMCwKICAgIHNoYXBlOiAiY2lyY2xlIiwKICAgIGdyYXZpdHk6IDAsCiAgICBkcmFnOiAxLAogIH0pOwp9CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBDZWxlYnJhdGlvbigpIHsKICBjb25zdCBjYW52YXNSZWYgPSB1c2VSZWY8SFRNTENhbnZhc0VsZW1lbnQgfCBudWxsPihudWxsKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnN0IGNhbnZhcyA9IGNhbnZhc1JlZi5jdXJyZW50OwogICAgaWYgKCFjYW52YXMpIHJldHVybjsKICAgIGNvbnN0IGN0eCA9IGNhbnZhcy5nZXRDb250ZXh0KCIyZCIpOwogICAgaWYgKCFjdHgpIHJldHVybjsKCiAgICBsZXQgdyA9IHdpbmRvdy5pbm5lcldpZHRoOwogICAgbGV0IGggPSB3aW5kb3cuaW5uZXJIZWlnaHQ7CiAgICBjb25zdCBkcHIgPSBNYXRoLm1pbih3aW5kb3cuZGV2aWNlUGl4ZWxSYXRpbyB8fCAxLCAyKTsKICAgIGNvbnN0IHJlc2l6ZSA9ICgpID0+IHsKICAgICAgdyA9IHdpbmRvdy5pbm5lcldpZHRoOwogICAgICBoID0gd2luZG93LmlubmVySGVpZ2h0OwogICAgICBjYW52YXMud2lkdGggPSB3ICogZHByOwogICAgICBjYW52YXMuaGVpZ2h0ID0gaCAqIGRwcjsKICAgICAgY2FudmFzLnN0eWxlLndpZHRoID0gYCR7d31weGA7CiAgICAgIGNhbnZhcy5zdHlsZS5oZWlnaHQgPSBgJHtofXB4YDsKICAgICAgY3R4LnNldFRyYW5zZm9ybShkcHIsIDAsIDAsIGRwciwgMCwgMCk7CiAgICB9OwogICAgcmVzaXplKCk7CiAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcigicmVzaXplIiwgcmVzaXplKTsKCiAgICBsZXQgcGFydGljbGVzOiBQYXJ0aWNsZVtdID0gW107CiAgICBsZXQgcmFmID0gMDsKICAgIGxldCBydW5uaW5nID0gZmFsc2U7CiAgICBsZXQgbGFzdEZyYW1lID0gMDsKCiAgICBjb25zdCBzdGVwID0gKHRzOiBudW1iZXIpID0+IHsKICAgICAgaWYgKCFydW5uaW5nKSByZXR1cm47CiAgICAgIGNvbnN0IGR0ID0gbGFzdEZyYW1lID8gTWF0aC5taW4oMzIsIHRzIC0gbGFzdEZyYW1lKSA6IDE2OwogICAgICBsYXN0RnJhbWUgPSB0czsKICAgICAgY3R4LmNsZWFyUmVjdCgwLCAwLCB3LCBoKTsKCiAgICAgIGZvciAobGV0IGkgPSBwYXJ0aWNsZXMubGVuZ3RoIC0gMTsgaSA+PSAwOyBpLS0pIHsKICAgICAgICBjb25zdCBwID0gcGFydGljbGVzW2ldITsKICAgICAgICBwLmxpZmUgKz0gZHQgKiAwLjA2OwogICAgICAgIHAudnggKj0gcC5kcmFnOwogICAgICAgIHAudnkgPSBwLnZ5ICogcC5kcmFnICsgcC5ncmF2aXR5OwogICAgICAgIHAueCArPSBwLnZ4OwogICAgICAgIHAueSArPSBwLnZ5OwogICAgICAgIHAucm90ICs9IHAudnI7CgogICAgICAgIGNvbnN0IHQgPSBwLmxpZmUgLyBwLm1heExpZmU7CiAgICAgICAgaWYgKHQgPj0gMSkgewogICAgICAgICAgcGFydGljbGVzLnNwbGljZShpLCAxKTsKICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBjb25zdCBhbHBoYSA9IHQgPCAwLjEgPyB0IC8gMC4xIDogMSAtIHQ7CiAgICAgICAgY3R4Lmdsb2JhbEFscGhhID0gTWF0aC5tYXgoMCwgYWxwaGEpOwogICAgICAgIGN0eC5maWxsU3R5bGUgPSBwLmNvbG9yOwogICAgICAgIGlmIChwLnNoYXBlID09PSAicmVjdCIpIHsKICAgICAgICAgIGN0eC5zYXZlKCk7CiAgICAgICAgICBjdHgudHJhbnNsYXRlKHAueCwgcC55KTsKICAgICAgICAgIGN0eC5yb3RhdGUocC5yb3QpOwogICAgICAgICAgY3R4LmZpbGxSZWN0KC1wLnNpemUgLyAyLCAtcC5zaXplIC8gMiwgcC5zaXplLCBwLnNpemUgKiAwLjYpOwogICAgICAgICAgY3R4LnJlc3RvcmUoKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgY3R4LmJlZ2luUGF0aCgpOwogICAgICAgICAgY3R4LmFyYyhwLngsIHAueSwgcC5zaXplLCAwLCBNYXRoLlBJICogMik7CiAgICAgICAgICBjdHguZmlsbCgpOwogICAgICAgIH0KICAgICAgfQogICAgICBjdHguZ2xvYmFsQWxwaGEgPSAxOwoKICAgICAgaWYgKHBhcnRpY2xlcy5sZW5ndGggPT09IDApIHsKICAgICAgICBydW5uaW5nID0gZmFsc2U7CiAgICAgICAgY2FudmFzLnN0eWxlLmRpc3BsYXkgPSAibm9uZSI7CiAgICAgICAgcmV0dXJuOwogICAgICB9CiAgICAgIHJhZiA9IHJlcXVlc3RBbmltYXRpb25GcmFtZShzdGVwKTsKICAgIH07CgogICAgY29uc3QgZmlyZSA9ICgpID0+IHsKICAgICAgLy8gY29uZmV0dGkgcmFpbgogICAgICBzcGF3bkNvbmZldHRpKHBhcnRpY2xlcywgdywgaCwgNzApOwogICAgICAvLyAzIGZpcmV3b3JrIGJ1cnN0cyBhdCB2YXJpZWQgcG9zaXRpb25zCiAgICAgIGNvbnN0IGZ3ID0gWwogICAgICAgIFt3ICogMC4zLCBoICogMC4zNV0sCiAgICAgICAgW3cgKiAwLjcsIGggKiAwLjNdLAogICAgICAgIFt3ICogMC41LCBoICogMC4yMl0sCiAgICAgIF0gYXMgY29uc3Q7CiAgICAgIGZ3LmZvckVhY2goKFtmeCwgZnldLCBpZHgpID0+IHsKICAgICAgICB3aW5kb3cuc2V0VGltZW91dCgoKSA9PiB7CiAgICAgICAgICBzcGF3bkZpcmV3b3JrKHBhcnRpY2xlcywgZngsIGZ5LCAyOCk7CiAgICAgICAgICBpZiAoIXJ1bm5pbmcpIHsKICAgICAgICAgICAgcnVubmluZyA9IHRydWU7CiAgICAgICAgICAgIGNhbnZhcy5zdHlsZS5kaXNwbGF5ID0gImJsb2NrIjsKICAgICAgICAgICAgbGFzdEZyYW1lID0gMDsKICAgICAgICAgICAgcmFmID0gcmVxdWVzdEFuaW1hdGlvbkZyYW1lKHN0ZXApOwogICAgICAgICAgfQogICAgICAgIH0sIGlkeCAqIDIyMCk7CiAgICAgIH0pOwogICAgICBpZiAoIXJ1bm5pbmcpIHsKICAgICAgICBydW5uaW5nID0gdHJ1ZTsKICAgICAgICBjYW52YXMuc3R5bGUuZGlzcGxheSA9ICJibG9jayI7CiAgICAgICAgbGFzdEZyYW1lID0gMDsKICAgICAgICByYWYgPSByZXF1ZXN0QW5pbWF0aW9uRnJhbWUoc3RlcCk7CiAgICAgIH0KICAgIH07CgogICAgbGlzdGVuZXJzLmFkZChmaXJlKTsKICAgIHJldHVybiAoKSA9PiB7CiAgICAgIGxpc3RlbmVycy5kZWxldGUoZmlyZSk7CiAgICAgIHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKCJyZXNpemUiLCByZXNpemUpOwogICAgICBjYW5jZWxBbmltYXRpb25GcmFtZShyYWYpOwogICAgfTsKICB9LCBbXSk7CgogIHJldHVybiAoCiAgICA8Y2FudmFzCiAgICAgIHJlZj17Y2FudmFzUmVmfQogICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgICAgc3R5bGU9e3sKICAgICAgICBwb3NpdGlvbjogImZpeGVkIiwKICAgICAgICBpbnNldDogMCwKICAgICAgICB6SW5kZXg6IDk5OTksCiAgICAgICAgcG9pbnRlckV2ZW50czogIm5vbmUiLAogICAgICAgIGRpc3BsYXk6ICJub25lIiwKICAgICAgfX0KICAgIC8+CiAgKTsKfQo=
+import { useEffect, useRef } from "react";
+
+/**
+ * Global confetti + fireworks celebration overlay.
+ *
+ * Mount <Celebration /> once (in __root). Any code can call the
+ * exported `celebrate()` function to fire a burst — e.g. on a
+ * successful ascent / adventure / post / visit submission.
+ */
+
+type Listener = () => void;
+const listeners = new Set<Listener>();
+
+/** Fire a confetti + fireworks burst across the screen. */
+export function celebrate() {
+  if (typeof window === "undefined") return;
+  listeners.forEach((l) => l());
+}
+
+// ---- particle engine -------------------------------------------------------
+
+interface Particle {
+  x: number;
+  y: number;
+  vx: number;
+  vy: number;
+  life: number;
+  maxLife: number;
+  size: number;
+  color: string;
+  rot: number;
+  vr: number;
+  shape: "rect" | "circle";
+  gravity: number;
+  drag: number;
+}
+
+const COLORS = [
+  "#f59e0b", // summit gold / orange
+  "#22d3ee", // cyan accent
+  "#f8fafc", // ice white
+  "#f97316", // ember orange
+  "#a855f7", // legal violet
+  "#84cc16", // forest lime
+  "#fb7185", // rose
+  "#fde047", // gold
+];
+
+const rand = (a: number, b: number) => a + Math.random() * (b - a);
+const pickColor = () => COLORS[Math.floor(Math.random() * COLORS.length)] ?? COLORS[0]!;
+
+function spawnConfetti(particles: Particle[], w: number, h: number, count: number) {
+  for (let i = 0; i < count; i++) {
+    const fromLeft = Math.random() < 0.5;
+    const x = fromLeft ? rand(0, w * 0.2) : rand(w * 0.8, w);
+    particles.push({
+      x,
+      y: rand(-40, h * 0.25),
+      vx: fromLeft ? rand(2, 7) : rand(-7, -2),
+      vy: rand(2, 6),
+      life: 0,
+      maxLife: rand(90, 150),
+      size: rand(6, 12),
+      color: pickColor(),
+      rot: rand(0, Math.PI * 2),
+      vr: rand(-0.3, 0.3),
+      shape: Math.random() < 0.7 ? "rect" : "circle",
+      gravity: 0.12,
+      drag: 0.992,
+    });
+  }
+}
+
+function spawnFirework(
+  particles: Particle[],
+  x: number,
+  y: number,
+  count: number,
+) {
+  const color = pickColor();
+  for (let i = 0; i < count; i++) {
+    const angle = (Math.PI * 2 * i) / count + rand(-0.1, 0.1);
+    const speed = rand(2, 6.5);
+    particles.push({
+      x,
+      y,
+      vx: Math.cos(angle) * speed,
+      vy: Math.sin(angle) * speed,
+      life: 0,
+      maxLife: rand(45, 80),
+      size: rand(2, 4),
+      color,
+      rot: 0,
+      vr: 0,
+      shape: "circle",
+      gravity: 0.05,
+      drag: 0.96,
+    });
+  }
+  // bright core flash
+  particles.push({
+    x,
+    y,
+    vx: 0,
+    vy: 0,
+    life: 0,
+    maxLife: 12,
+    size: 26,
+    color,
+    rot: 0,
+    vr: 0,
+    shape: "circle",
+    gravity: 0,
+    drag: 1,
+  });
+}
+
+export default function Celebration() {
+  const canvasRef = useRef<HTMLCanvasElement | null>(null);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+
+    let w = window.innerWidth;
+    let h = window.innerHeight;
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const resize = () => {
+      w = window.innerWidth;
+      h = window.innerHeight;
+      canvas.width = w * dpr;
+      canvas.height = h * dpr;
+      canvas.style.width = `${w}px`;
+      canvas.style.height = `${h}px`;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    };
+    resize();
+    window.addEventListener("resize", resize);
+
+    let particles: Particle[] = [];
+    let raf = 0;
+    let running = false;
+    let lastFrame = 0;
+
+    const step = (ts: number) => {
+      if (!running) return;
+      const dt = lastFrame ? Math.min(32, ts - lastFrame) : 16;
+      lastFrame = ts;
+      ctx.clearRect(0, 0, w, h);
+
+      for (let i = particles.length - 1; i >= 0; i--) {
+        const p = particles[i]!;
+        p.life += dt * 0.06;
+        p.vx *= p.drag;
+        p.vy = p.vy * p.drag + p.gravity;
+        p.x += p.vx;
+        p.y += p.vy;
+        p.rot += p.vr;
+
+        const t = p.life / p.maxLife;
+        if (t >= 1) {
+          particles.splice(i, 1);
+          continue;
+        }
+        const alpha = t < 0.1 ? t / 0.1 : 1 - t;
+        ctx.globalAlpha = Math.max(0, alpha);
+        ctx.fillStyle = p.color;
+        if (p.shape === "rect") {
+          ctx.save();
+          ctx.translate(p.x, p.y);
+          ctx.rotate(p.rot);
+          ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.6);
+          ctx.restore();
+        } else {
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+          ctx.fill();
+        }
+      }
+      ctx.globalAlpha = 1;
+
+      if (particles.length === 0) {
+        running = false;
+        canvas.style.display = "none";
+        return;
+      }
+      raf = requestAnimationFrame(step);
+    };
+
+    const fire = () => {
+      // confetti rain
+      spawnConfetti(particles, w, h, 70);
+      // 3 firework bursts at varied positions
+      const fw = [
+        [w * 0.3, h * 0.35],
+        [w * 0.7, h * 0.3],
+        [w * 0.5, h * 0.22],
+      ] as const;
+      fw.forEach(([fx, fy], idx) => {
+        window.setTimeout(() => {
+          spawnFirework(particles, fx, fy, 28);
+          if (!running) {
+            running = true;
+            canvas.style.display = "block";
+            lastFrame = 0;
+            raf = requestAnimationFrame(step);
+          }
+        }, idx * 220);
+      });
+      if (!running) {
+        running = true;
+        canvas.style.display = "block";
+        lastFrame = 0;
+        raf = requestAnimationFrame(step);
+      }
+    };
+
+    listeners.add(fire);
+    return () => {
+      listeners.delete(fire);
+      window.removeEventListener("resize", resize);
+      cancelAnimationFrame(raf);
+    };
+  }, []);
+
+  return (
+    <canvas
+      ref={canvasRef}
+      aria-hidden="true"
+      style={{
+        position: "fixed",
+        inset: 0,
+        zIndex: 9999,
+        pointerEvents: "none",
+        display: "none",
+      }}
+    />
+  );
+}

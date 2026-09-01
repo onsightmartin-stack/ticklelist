@@ -1,1 +1,65 @@
-aW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwoKZXhwb3J0IGludGVyZmFjZSBQZWFrQ29vcmRzIHsKICBsYXQ6IG51bWJlcjsKICBsb246IG51bWJlcjsKICAvKiogV2hlcmUgdGhlIGNvb3JkaW5hdGVzIGNhbWUgZnJvbSDigJQgUGVha2JhZ2dlciBmaXJzdCwgd29ybGQgY2F0YWxvZ3VlIHNlY29uZC4gKi8KICBzb3VyY2U6ICJwZWFrYmFnZ2VyIiB8ICJjYXRhbG9nIjsKfQoKY29uc3QgY2FjaGUgPSBuZXcgTWFwPHN0cmluZywgUHJvbWlzZTxQZWFrQ29vcmRzIHwgbnVsbD4+KCk7Cgpjb25zdCBrZXkgPSAobmFtZTogc3RyaW5nKSA9PiBuYW1lLnRyaW0oKS50b0xvd2VyQ2FzZSgpOwoKLyoqIEdvb2dsZSBNYXBzIGRlZXAgbGluayBmb3IgYSBzdW1taXQg4oCUIGV4YWN0IHBpbiB3aGVuIGNvb3JkaW5hdGVzIGFyZSBrbm93bi4gKi8KZXhwb3J0IGNvbnN0IGdvb2dsZU1hcHNVcmwgPSAoCiAgY29vcmRzOiBQZWFrQ29vcmRzIHwgbnVsbCB8IHVuZGVmaW5lZCwKICBuYW1lOiBzdHJpbmcsCiAgY291bnRyeT86IHN0cmluZyB8IG51bGwsCikgPT4KICBjb29yZHMKICAgID8gYGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9zZWFyY2gvP2FwaT0xJnF1ZXJ5PSR7Y29vcmRzLmxhdH0sJHtjb29yZHMubG9ufWAKICAgIDogYGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9zZWFyY2gvP2FwaT0xJnF1ZXJ5PSR7ZW5jb2RlVVJJQ29tcG9uZW50KAogICAgICAgIGAke25hbWV9JHtjb3VudHJ5ID8gYCAke2NvdW50cnl9YCA6ICIifSBtb3VudGFpbmAsCiAgICAgICl9YDsKCi8qKgogKiBMb29rIHVwIGEgc3VtbWl0J3MgY29vcmRpbmF0ZXMuIFBlYWtiYWdnZXIgaXMgdGhlIHNvdXJjZSBvZiByZWNvcmQsIHNvIGl0cwogKiBjYXRhbG9ndWUgaXMgY2hlY2tlZCBmaXJzdDsgdGhlIHdpZGVyIHdvcmxkLXBlYWsgdGFibGUgaXMgdGhlIGZhbGxiYWNrLgogKi8KZXhwb3J0IGNvbnN0IGxvb2t1cFBlYWtDb29yZHMgPSAobmFtZTogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCk6IFByb21pc2U8UGVha0Nvb3JkcyB8IG51bGw+ID0+IHsKICBjb25zdCBjbGVhbiA9IChuYW1lID8/ICIiKS50cmltKCk7CiAgaWYgKCFjbGVhbikgcmV0dXJuIFByb21pc2UucmVzb2x2ZShudWxsKTsKICBjb25zdCBrID0ga2V5KGNsZWFuKTsKICBjb25zdCBoaXQgPSBjYWNoZS5nZXQoayk7CiAgaWYgKGhpdCkgcmV0dXJuIGhpdDsKCiAgY29uc3QgcHJvbWlzZSA9IChhc3luYyAoKTogUHJvbWlzZTxQZWFrQ29vcmRzIHwgbnVsbD4gPT4gewogICAgY29uc3QgeyBkYXRhOiBwYiB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgLmZyb20oInBlYWtiYWdnZXJfcGVha3MiKQogICAgICAuc2VsZWN0KCJsYXQsIGxvbiIpCiAgICAgIC5pbGlrZSgibmFtZSIsIGNsZWFuKQogICAgICAubm90KCJsYXQiLCAiaXMiLCBudWxsKQogICAgICAubGltaXQoMSkKICAgICAgLm1heWJlU2luZ2xlKCk7CiAgICBpZiAocGI/LmxhdCAhPSBudWxsICYmIHBiLmxvbiAhPSBudWxsKSB7CiAgICAgIHJldHVybiB7IGxhdDogcGIubGF0LCBsb246IHBiLmxvbiwgc291cmNlOiAicGVha2JhZ2dlciIgfTsKICAgIH0KCiAgICBjb25zdCB7IGRhdGE6IHdwIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAuZnJvbSgid29ybGRfcGVha3MiKQogICAgICAuc2VsZWN0KCJsYXQsIGxvbiIpCiAgICAgIC5pbGlrZSgibmFtZSIsIGNsZWFuKQogICAgICAubm90KCJsYXQiLCAiaXMiLCBudWxsKQogICAgICAub3JkZXIoInByb21pbmVuY2UiLCB7IGFzY2VuZGluZzogZmFsc2UsIG51bGxzRmlyc3Q6IGZhbHNlIH0pCiAgICAgIC5saW1pdCgxKQogICAgICAubWF5YmVTaW5nbGUoKTsKICAgIGlmICh3cD8ubGF0ICE9IG51bGwgJiYgd3AubG9uICE9IG51bGwpIHsKICAgICAgcmV0dXJuIHsgbGF0OiB3cC5sYXQsIGxvbjogd3AubG9uLCBzb3VyY2U6ICJjYXRhbG9nIiB9OwogICAgfQogICAgcmV0dXJuIG51bGw7CiAgfSkoKS5jYXRjaCgoKSA9PiBudWxsKTsKCiAgY2FjaGUuc2V0KGssIHByb21pc2UpOwogIHJldHVybiBwcm9taXNlOwp9Owo=
+import { supabase } from "@/integrations/supabase/client";
+
+export interface PeakCoords {
+  lat: number;
+  lon: number;
+  /** Where the coordinates came from — Peakbagger first, world catalogue second. */
+  source: "peakbagger" | "catalog";
+}
+
+const cache = new Map<string, Promise<PeakCoords | null>>();
+
+const key = (name: string) => name.trim().toLowerCase();
+
+/** Google Maps deep link for a summit — exact pin when coordinates are known. */
+export const googleMapsUrl = (
+  coords: PeakCoords | null | undefined,
+  name: string,
+  country?: string | null,
+) =>
+  coords
+    ? `https://www.google.com/maps/search/?api=1&query=${coords.lat},${coords.lon}`
+    : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+        `${name}${country ? ` ${country}` : ""} mountain`,
+      )}`;
+
+/**
+ * Look up a summit's coordinates. Peakbagger is the source of record, so its
+ * catalogue is checked first; the wider world-peak table is the fallback.
+ */
+export const lookupPeakCoords = (name: string | null | undefined): Promise<PeakCoords | null> => {
+  const clean = (name ?? "").trim();
+  if (!clean) return Promise.resolve(null);
+  const k = key(clean);
+  const hit = cache.get(k);
+  if (hit) return hit;
+
+  const promise = (async (): Promise<PeakCoords | null> => {
+    const { data: pb } = await supabase
+      .from("peakbagger_peaks")
+      .select("lat, lon")
+      .ilike("name", clean)
+      .not("lat", "is", null)
+      .limit(1)
+      .maybeSingle();
+    if (pb?.lat != null && pb.lon != null) {
+      return { lat: pb.lat, lon: pb.lon, source: "peakbagger" };
+    }
+
+    const { data: wp } = await supabase
+      .from("world_peaks")
+      .select("lat, lon")
+      .ilike("name", clean)
+      .not("lat", "is", null)
+      .order("prominence", { ascending: false, nullsFirst: false })
+      .limit(1)
+      .maybeSingle();
+    if (wp?.lat != null && wp.lon != null) {
+      return { lat: wp.lat, lon: wp.lon, source: "catalog" };
+    }
+    return null;
+  })().catch(() => null);
+
+  cache.set(k, promise);
+  return promise;
+};

@@ -1,1 +1,36 @@
-aW1wb3J0IFNlbyBmcm9tICJAL2NvbXBvbmVudHMvU2VvIjsKaW1wb3J0IHsgQXJyb3dMZWZ0LCBTY2FsZSB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CgppbXBvcnQgeyBMaW5rIH0gZnJvbSAiQC9saWIvcm91dGVyLWNvbXBhdCI7CmltcG9ydCBDb21tdW5pdHlMYXlvdXQgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9Db21tdW5pdHlMYXlvdXQiOwppbXBvcnQgRGVmaW5pdGlvbnNQaWNrZXIgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9EZWZpbml0aW9uc1BpY2tlciI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwoKY29uc3QgRGVmaW5pdGlvbnNQYWdlID0gKCkgPT4gKAogIDxDb21tdW5pdHlMYXlvdXQ+CiAgICA8U2VvCiAgICAgIHRpdGxlPSJDaGFsbGVuZ2UgZGVmaW5pdGlvbnMg4oCUIFRpY2tsZWxpc3QiCiAgICAgIGRlc2NyaXB0aW9uPSJDaG9vc2Ugd2hpY2ggZGVmaW5pdGlvbiBvZiB0aGUgY291bnRyeSBoaWdoIHBvaW50cyBhbmQgdGhlIFNldmVuIFN1bW1pdHMgeW91ciBwcm9ncmVzcyBpcyBjb3VudGVkIGJ5LiIKICAgICAgbm9pbmRleAogICAgLz4KCiAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgbWItMiI+CiAgICAgIDxTY2FsZSBjbGFzc05hbWU9InctNSBoLTUgdGV4dC1wcmltYXJ5IiBhcmlhLWhpZGRlbj0idHJ1ZSIgLz4KICAgICAgPGgxIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtMnhsIHRyYWNraW5nLXdpZGVyIj5EZWZpbml0aW9uczwvaDE+CiAgICA8L2Rpdj4KICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbWItNiI+CiAgICAgIE5vYm9keSBhZ3JlZXMgb24gaG93IG1hbnkgY291bnRyaWVzIHRoZXJlIGFyZSwgb3Igd2hpY2ggcGVhayBpcyBPY2VhbmlhJ3MuIFBpY2sgdGhlIGRlZmluaXRpb25zCiAgICAgIHlvdSBjb3VudCBieSDigJQgeW91ciBnb2FscywgYmFkZ2VzIGFuZCBwcm9maWxlIGJveGVzIGZvbGxvdyB0aGVtLiBTYXZlZCBvbiB0aGlzIGRldmljZS4KICAgIDwvcD4KCiAgICA8RGVmaW5pdGlvbnNQaWNrZXIgLz4KCiAgICA8QnV0dG9uIGFzQ2hpbGQgdmFyaWFudD0iZ2hvc3QiIHNpemU9InNtIiBjbGFzc05hbWU9Im10LTYiPgogICAgICA8TGluayB0bz0iL2NvbW11bml0eS9zZXR0aW5ncyI+CiAgICAgICAgPEFycm93TGVmdCBjbGFzc05hbWU9InctNCBoLTQgbXItMSIgLz4gQmFjayB0byBzZXR0aW5ncwogICAgICA8L0xpbms+CiAgICA8L0J1dHRvbj4KICA8L0NvbW11bml0eUxheW91dD4KKTsKCmV4cG9ydCBkZWZhdWx0IERlZmluaXRpb25zUGFnZTsK
+import Seo from "@/components/Seo";
+import { ArrowLeft, Scale } from "lucide-react";
+
+import { Link } from "@/lib/router-compat";
+import CommunityLayout from "@/components/community/CommunityLayout";
+import DefinitionsPicker from "@/components/community/DefinitionsPicker";
+import { Button } from "@/components/ui/button";
+
+const DefinitionsPage = () => (
+  <CommunityLayout>
+    <Seo
+      title="Challenge definitions — Ticklelist"
+      description="Choose which definition of the country high points and the Seven Summits your progress is counted by."
+      noindex
+    />
+
+    <div className="flex items-center gap-2 mb-2">
+      <Scale className="w-5 h-5 text-primary" aria-hidden="true" />
+      <h1 className="font-display text-2xl tracking-wider">Definitions</h1>
+    </div>
+    <p className="text-sm text-muted-foreground mb-6">
+      Nobody agrees on how many countries there are, or which peak is Oceania's. Pick the definitions
+      you count by — your goals, badges and profile boxes follow them. Saved on this device.
+    </p>
+
+    <DefinitionsPicker />
+
+    <Button asChild variant="ghost" size="sm" className="mt-6">
+      <Link to="/community/settings">
+        <ArrowLeft className="w-4 h-4 mr-1" /> Back to settings
+      </Link>
+    </Button>
+  </CommunityLayout>
+);
+
+export default DefinitionsPage;

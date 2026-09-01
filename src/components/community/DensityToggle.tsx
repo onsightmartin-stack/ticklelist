@@ -1,1 +1,36 @@
-aW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiOwppbXBvcnQgdHlwZSB7IExpc3REZW5zaXR5IH0gZnJvbSAiQC9ob29rcy91c2VMaXN0RGVuc2l0eSI7Cgpjb25zdCBPUFRJT05TOiB7IHZhbHVlOiBMaXN0RGVuc2l0eTsgbGFiZWw6IHN0cmluZzsgZnVsbDogc3RyaW5nIH1bXSA9IFsKICB7IHZhbHVlOiAic21hbGwiLCBsYWJlbDogIlMiLCBmdWxsOiAiU21hbGwgbGlzdCIgfSwKICB7IHZhbHVlOiAibWVkaXVtIiwgbGFiZWw6ICJNIiwgZnVsbDogIk1lZGl1bSBsaXN0IiB9LAogIHsgdmFsdWU6ICJsYXJnZSIsIGxhYmVsOiAiTCIsIGZ1bGw6ICJCaWcgbGlzdCIgfSwKXTsKCmludGVyZmFjZSBEZW5zaXR5VG9nZ2xlUHJvcHMgewogIHZhbHVlOiBMaXN0RGVuc2l0eTsKICBvbkNoYW5nZTogKG5leHQ6IExpc3REZW5zaXR5KSA9PiB2b2lkOwogIGNsYXNzTmFtZT86IHN0cmluZzsKfQoKY29uc3QgRGVuc2l0eVRvZ2dsZSA9ICh7IHZhbHVlLCBvbkNoYW5nZSwgY2xhc3NOYW1lIH06IERlbnNpdHlUb2dnbGVQcm9wcykgPT4gKAogIDxkaXYgY2xhc3NOYW1lPXtjbigiaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0xIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgcC0wLjUiLCBjbGFzc05hbWUpfSByb2xlPSJncm91cCIgYXJpYS1sYWJlbD0iTGlzdCBzaXplIj4KICAgIHtPUFRJT05TLm1hcCgobykgPT4gKAogICAgICA8QnV0dG9uCiAgICAgICAga2V5PXtvLnZhbHVlfQogICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICBzaXplPSJzbSIKICAgICAgICB2YXJpYW50PXt2YWx1ZSA9PT0gby52YWx1ZSA/ICJzZWNvbmRhcnkiIDogImdob3N0In0KICAgICAgICBhcmlhLWxhYmVsPXtvLmZ1bGx9CiAgICAgICAgYXJpYS1wcmVzc2VkPXt2YWx1ZSA9PT0gby52YWx1ZX0KICAgICAgICBvbkNsaWNrPXsoKSA9PiBvbkNoYW5nZShvLnZhbHVlKX0KICAgICAgICBjbGFzc05hbWU9ImgtNyBweC0yIHRleHQteHMiCiAgICAgID4KICAgICAgICB7by5sYWJlbH0KICAgICAgPC9CdXR0b24+CiAgICApKX0KICA8L2Rpdj4KKTsKCmV4cG9ydCBkZWZhdWx0IERlbnNpdHlUb2dnbGU7Cg==
+import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
+import type { ListDensity } from "@/hooks/useListDensity";
+
+const OPTIONS: { value: ListDensity; label: string; full: string }[] = [
+  { value: "small", label: "S", full: "Small list" },
+  { value: "medium", label: "M", full: "Medium list" },
+  { value: "large", label: "L", full: "Big list" },
+];
+
+interface DensityToggleProps {
+  value: ListDensity;
+  onChange: (next: ListDensity) => void;
+  className?: string;
+}
+
+const DensityToggle = ({ value, onChange, className }: DensityToggleProps) => (
+  <div className={cn("inline-flex items-center gap-1 rounded-md border border-border p-0.5", className)} role="group" aria-label="List size">
+    {OPTIONS.map((o) => (
+      <Button
+        key={o.value}
+        type="button"
+        size="sm"
+        variant={value === o.value ? "secondary" : "ghost"}
+        aria-label={o.full}
+        aria-pressed={value === o.value}
+        onClick={() => onChange(o.value)}
+        className="h-7 px-2 text-xs"
+      >
+        {o.label}
+      </Button>
+    ))}
+  </div>
+);
+
+export default DensityToggle;

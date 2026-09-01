@@ -1,1 +1,1 @@
-VVBEQVRFIHB1YmxpYy5wcm9maWxlcyBTRVQgYmlvID0gJ0NoZWNrIG91dCBteSB3ZWJzaXRlOiBodHRwczovL2NvdW50cnloaWdocG9pbnRzLmNvbScgV0hFUkUgaWQgPSAnZDYxYzJmMDgtYTg4Mi00ZDYwLTgxZWItYzgyOGJlNjdkYzIwJzs=
+UPDATE public.profiles SET bio = 'Check out my website: https://countryhighpoints.com' WHERE id = 'd61c2f08-a882-4d60-81eb-c828be67dc20';

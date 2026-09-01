@@ -1,1 +1,211 @@
-aW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCBTZW8gZnJvbSAiQC9jb21wb25lbnRzL1NlbyI7CmltcG9ydCB7IExpbmssIHVzZU5hdmlnYXRlIH0gZnJvbSAiQC9saWIvcm91dGVyLWNvbXBhdCI7CmltcG9ydCB7IEtleVJvdW5kLCBMb2FkZXIyLCBTaGllbGRDaGVjayB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IHogfSBmcm9tICJ6b2QiOwppbXBvcnQgTmF2YmFyIGZyb20gIkAvY29tcG9uZW50cy9OYXZiYXIiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgQ2FyZCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAL2hvb2tzL3VzZS10b2FzdCI7CmltcG9ydCB7IHVzZUF1dGggfSBmcm9tICJAL2hvb2tzL3VzZUF1dGgiOwppbXBvcnQgeyBpc05hdGl2ZUFwcCB9IGZyb20gIkAvbGliL25hdGl2ZSI7Cgpjb25zdCBzY2hlbWEgPSB6CiAgLm9iamVjdCh7CiAgICBjdXJyZW50OiB6LnN0cmluZygpLm1pbigxLCB7IG1lc3NhZ2U6ICJFbnRlciB5b3VyIGN1cnJlbnQgcGFzc3dvcmQiIH0pLAogICAgbmV4dDogegogICAgICAuc3RyaW5nKCkKICAgICAgLm1pbigxMCwgeyBtZXNzYWdlOiAiVXNlIGF0IGxlYXN0IDEwIGNoYXJhY3RlcnMiIH0pCiAgICAgIC5tYXgoNzIsIHsgbWVzc2FnZTogIlBhc3N3b3JkcyBtdXN0IGJlIDcyIGNoYXJhY3RlcnMgb3IgZmV3ZXIiIH0pCiAgICAgIC5yZWdleCgvW2Etel0vLCB7IG1lc3NhZ2U6ICJJbmNsdWRlIGEgbG93ZXJjYXNlIGxldHRlciIgfSkKICAgICAgLnJlZ2V4KC9bQS1aXS8sIHsgbWVzc2FnZTogIkluY2x1ZGUgYW4gdXBwZXJjYXNlIGxldHRlciIgfSkKICAgICAgLnJlZ2V4KC9bMC05XS8sIHsgbWVzc2FnZTogIkluY2x1ZGUgYSBudW1iZXIiIH0pLAogICAgY29uZmlybTogei5zdHJpbmcoKSwKICB9KQogIC5yZWZpbmUoKHYpID0+IHYubmV4dCA9PT0gdi5jb25maXJtLCB7CiAgICBwYXRoOiBbImNvbmZpcm0iXSwKICAgIG1lc3NhZ2U6ICJQYXNzd29yZHMgZG8gbm90IG1hdGNoIiwKICB9KQogIC5yZWZpbmUoKHYpID0+IHYubmV4dCAhPT0gdi5jdXJyZW50LCB7CiAgICBwYXRoOiBbIm5leHQiXSwKICAgIG1lc3NhZ2U6ICJDaG9vc2UgYSBwYXNzd29yZCBkaWZmZXJlbnQgZnJvbSB0aGUgY3VycmVudCBvbmUiLAogIH0pOwoKY29uc3Qgc3RyZW5ndGhPZiA9IChwdzogc3RyaW5nKSA9PiB7CiAgbGV0IHNjb3JlID0gMDsKICBpZiAocHcubGVuZ3RoID49IDEwKSBzY29yZSsrOwogIGlmIChwdy5sZW5ndGggPj0gMTYpIHNjb3JlKys7CiAgaWYgKC9bYS16XS8udGVzdChwdykgJiYgL1tBLVpdLy50ZXN0KHB3KSkgc2NvcmUrKzsKICBpZiAoL1swLTldLy50ZXN0KHB3KSkgc2NvcmUrKzsKICBpZiAoL1teQS1aYS16MC05XS8udGVzdChwdykpIHNjb3JlKys7CiAgcmV0dXJuIHNjb3JlOwp9OwoKY29uc3QgTEFCRUxTID0gWyJWZXJ5IHdlYWsiLCAiV2VhayIsICJGYWlyIiwgIkdvb2QiLCAiU3Ryb25nIiwgIlZlcnkgc3Ryb25nIl07Cgpjb25zdCBDaGFuZ2VQYXNzd29yZCA9ICgpID0+IHsKICBjb25zdCB7IHVzZXIsIGxvYWRpbmcgfSA9IHVzZUF1dGgoKTsKICBjb25zdCBuYXZpZ2F0ZSA9IHVzZU5hdmlnYXRlKCk7CiAgY29uc3QgW2N1cnJlbnQsIHNldEN1cnJlbnRdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtuZXh0LCBzZXROZXh0XSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbY29uZmlybSwgc2V0Q29uZmlybV0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2Vycm9ycywgc2V0RXJyb3JzXSA9IHVzZVN0YXRlPFJlY29yZDxzdHJpbmcsIHN0cmluZz4+KHt9KTsKICBjb25zdCBbc2F2aW5nLCBzZXRTYXZpbmddID0gdXNlU3RhdGUoZmFsc2UpOwoKICBjb25zdCBzY29yZSA9IHN0cmVuZ3RoT2YobmV4dCk7CgogIGNvbnN0IGhhbmRsZVN1Ym1pdCA9IGFzeW5jIChlOiBSZWFjdC5Gb3JtRXZlbnQpID0+IHsKICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgIHNldEVycm9ycyh7fSk7CgogICAgY29uc3QgcGFyc2VkID0gc2NoZW1hLnNhZmVQYXJzZSh7IGN1cnJlbnQsIG5leHQsIGNvbmZpcm0gfSk7CiAgICBpZiAoIXBhcnNlZC5zdWNjZXNzKSB7CiAgICAgIGNvbnN0IGZsYXQgPSBwYXJzZWQuZXJyb3IuZmxhdHRlbigpLmZpZWxkRXJyb3JzOwogICAgICBzZXRFcnJvcnMoewogICAgICAgIGN1cnJlbnQ6IGZsYXQuY3VycmVudD8uWzBdID8/ICIiLAogICAgICAgIG5leHQ6IGZsYXQubmV4dD8uWzBdID8/ICIiLAogICAgICAgIGNvbmZpcm06IGZsYXQuY29uZmlybT8uWzBdID8/ICIiLAogICAgICB9KTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGlmICghdXNlcj8uZW1haWwpIHsKICAgICAgdG9hc3QoeyB0aXRsZTogIk5vIGVtYWlsIG9uIHRoaXMgYWNjb3VudCIsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBzZXRTYXZpbmcodHJ1ZSk7CgogICAgLy8gUmUtYXV0aGVudGljYXRlIGZpcnN0IHNvIGEgc3RvbGVuIG9wZW4gc2Vzc2lvbiBjYW4ndCBzaWxlbnRseSB0YWtlIG92ZXIgdGhlIGFjY291bnQuCiAgICBjb25zdCB7IGVycm9yOiByZWF1dGhFcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UuYXV0aC5zaWduSW5XaXRoUGFzc3dvcmQoewogICAgICBlbWFpbDogdXNlci5lbWFpbCwKICAgICAgcGFzc3dvcmQ6IGN1cnJlbnQsCiAgICB9KTsKCiAgICBpZiAocmVhdXRoRXJyb3IpIHsKICAgICAgc2V0U2F2aW5nKGZhbHNlKTsKICAgICAgc2V0RXJyb3JzKHsgY3VycmVudDogIlRoYXQgY3VycmVudCBwYXNzd29yZCBpcyBub3QgY29ycmVjdCIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5hdXRoLnVwZGF0ZVVzZXIoeyBwYXNzd29yZDogbmV4dCB9KTsKICAgIHNldFNhdmluZyhmYWxzZSk7CgogICAgaWYgKGVycm9yKSB7CiAgICAgIHRvYXN0KHsgdGl0bGU6ICJDb3VsZCBub3QgY2hhbmdlIHBhc3N3b3JkIiwgZGVzY3JpcHRpb246IGVycm9yLm1lc3NhZ2UsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBzZXRDdXJyZW50KCIiKTsKICAgIHNldE5leHQoIiIpOwogICAgc2V0Q29uZmlybSgiIik7CiAgICB0b2FzdCh7CiAgICAgIHRpdGxlOiAiUGFzc3dvcmQgdXBkYXRlZCIsCiAgICAgIGRlc2NyaXB0aW9uOiAiVXNlIHlvdXIgbmV3IHBhc3N3b3JkIHRoZSBuZXh0IHRpbWUgeW91IHNpZ24gaW4uIiwKICAgIH0pOwogICAgbmF2aWdhdGUoIi9jb21tdW5pdHkiKTsKICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy1iYWNrZ3JvdW5kIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgIDxTZW8KICAgICAgICB0aXRsZT0iQ2hhbmdlIFBhc3N3b3JkIOKAlCBUaWNrbGVsaXN0IgogICAgICAgIGRlc2NyaXB0aW9uPSJVcGRhdGUgeW91ciBUaWNrbGVsaXN0IGFjY291bnQgcGFzc3dvcmQuIgogICAgICAgIG5vaW5kZXgKICAgICAgLz4KICAgICAgeyFpc05hdGl2ZUFwcCgpICYmIDxOYXZiYXIgLz59CgogICAgICA8bWFpbiBjbGFzc05hbWU9e2BtYXgtdy1tZCBteC1hdXRvIHB4LTQgcGItMjQgJHtpc05hdGl2ZUFwcCgpID8gInB0LTEwIiA6ICJwdC0yOCJ9YH0+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0zIG1iLTYiPgogICAgICAgICAgPEtleVJvdW5kIGNsYXNzTmFtZT0idy02IGgtNiB0ZXh0LXByaW1hcnkiIC8+CiAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0yeGwgdHJhY2tpbmctd2lkZXIiPkNoYW5nZSBwYXNzd29yZDwvaDE+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHtsb2FkaW5nID8gKAogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+TG9hZGluZ+KApjwvcD4KICAgICAgICApIDogIXVzZXIgPyAoCiAgICAgICAgICA8Q2FyZCBjbGFzc05hbWU9InAtNiBzcGFjZS15LTMiPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5Zb3UgbmVlZCB0byBiZSBzaWduZWQgaW4gdG8gY2hhbmdlIHlvdXIgcGFzc3dvcmQuPC9wPgogICAgICAgICAgICA8QnV0dG9uIGFzQ2hpbGQ+CiAgICAgICAgICAgICAgPExpbmsgdG89Ii9hdXRoIj5TaWduIGluPC9MaW5rPgogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvQ2FyZD4KICAgICAgICApIDogKAogICAgICAgICAgPENhcmQgY2xhc3NOYW1lPSJwLTYiPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1iLTUiPgogICAgICAgICAgICAgIFNpZ25lZCBpbiBhcyA8c3BhbiBjbGFzc05hbWU9InRleHQtZm9yZWdyb3VuZCI+e3VzZXIuZW1haWx9PC9zcGFuPgogICAgICAgICAgICA8L3A+CgogICAgICAgICAgICA8Zm9ybSBvblN1Ym1pdD17aGFuZGxlU3VibWl0fSBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMS41Ij4KICAgICAgICAgICAgICAgIDxMYWJlbCBodG1sRm9yPSJjdXJyZW50Ij5DdXJyZW50IHBhc3N3b3JkPC9MYWJlbD4KICAgICAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgICAgICBpZD0iY3VycmVudCIKICAgICAgICAgICAgICAgICAgdHlwZT0icGFzc3dvcmQiCiAgICAgICAgICAgICAgICAgIGF1dG9Db21wbGV0ZT0iY3VycmVudC1wYXNzd29yZCIKICAgICAgICAgICAgICAgICAgdmFsdWU9e2N1cnJlbnR9CiAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0Q3VycmVudChlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICAgIG1heExlbmd0aD17NzJ9CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAge2Vycm9yc1siY3VycmVudCJdICYmIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LWRlc3RydWN0aXZlIj57ZXJyb3JzWyJjdXJyZW50Il19PC9wPn0KICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMS41Ij4KICAgICAgICAgICAgICAgIDxMYWJlbCBodG1sRm9yPSJuZXh0Ij5OZXcgcGFzc3dvcmQ8L0xhYmVsPgogICAgICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgICAgIGlkPSJuZXh0IgogICAgICAgICAgICAgICAgICB0eXBlPSJwYXNzd29yZCIKICAgICAgICAgICAgICAgICAgYXV0b0NvbXBsZXRlPSJuZXctcGFzc3dvcmQiCiAgICAgICAgICAgICAgICAgIHZhbHVlPXtuZXh0fQogICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldE5leHQoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgICAgICBtYXhMZW5ndGg9ezcyfQogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBwdC0xIj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImgtMSBmbGV4LTEgcm91bmRlZC1zbSBiZy1zZWNvbmRhcnkgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2BoLWZ1bGwgdHJhbnNpdGlvbi1hbGwgJHtzY29yZSA+PSA0ID8gImJnLXByaW1hcnkiIDogImJnLW11dGVkLWZvcmVncm91bmQifWB9CiAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyB3aWR0aDogYCR7KHNjb3JlIC8gNSkgKiAxMDB9JWAgfX0KICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQgdy0yMCB0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAgICAgICAgICB7bmV4dCA/IExBQkVMU1tzY29yZV0gOiAiIn0KICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICB7ZXJyb3JzWyJuZXh0Il0gJiYgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtZGVzdHJ1Y3RpdmUiPntlcnJvcnNbIm5leHQiXX08L3A+fQogICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0xLjUiPgogICAgICAgICAgICAgICAgPExhYmVsIGh0bWxGb3I9ImNvbmZpcm0iPkNvbmZpcm0gbmV3IHBhc3N3b3JkPC9MYWJlbD4KICAgICAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgICAgICBpZD0iY29uZmlybSIKICAgICAgICAgICAgICAgICAgdHlwZT0icGFzc3dvcmQiCiAgICAgICAgICAgICAgICAgIGF1dG9Db21wbGV0ZT0ibmV3LXBhc3N3b3JkIgogICAgICAgICAgICAgICAgICB2YWx1ZT17Y29uZmlybX0KICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRDb25maXJtKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgICAgbWF4TGVuZ3RoPXs3Mn0KICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICB7ZXJyb3JzWyJjb25maXJtIl0gJiYgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtZGVzdHJ1Y3RpdmUiPntlcnJvcnNbImNvbmZpcm0iXX08L3A+fQogICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICA8QnV0dG9uIHR5cGU9InN1Ym1pdCIgZGlzYWJsZWQ9e3NhdmluZ30gY2xhc3NOYW1lPSJ3LWZ1bGwiPgogICAgICAgICAgICAgICAge3NhdmluZyAmJiA8TG9hZGVyMiBjbGFzc05hbWU9InctNCBoLTQgbXItMiBhbmltYXRlLXNwaW4iIC8+fQogICAgICAgICAgICAgICAgVXBkYXRlIHBhc3N3b3JkCiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDwvZm9ybT4KCiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBnYXAtMiB0ZXh0LVsxMXB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtNSI+CiAgICAgICAgICAgICAgPFNoaWVsZENoZWNrIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUgc2hyaW5rLTAgbXQtMC41IHRleHQtcHJpbWFyeSIgLz4KICAgICAgICAgICAgICBZb3VyIGN1cnJlbnQgcGFzc3dvcmQgaXMgcmUtY2hlY2tlZCBiZWZvcmUgdGhlIGNoYW5nZSwgYW5kIG5ldyBwYXNzd29yZHMgYXJlIHNjcmVlbmVkIGFnYWluc3QKICAgICAgICAgICAgICBrbm93biBicmVhY2hlZC1wYXNzd29yZCBsaXN0cy4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9DYXJkPgogICAgICAgICl9CiAgICAgIDwvbWFpbj4KICAgIDwvZGl2PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBDaGFuZ2VQYXNzd29yZDsK
+import { useState } from "react";
+import Seo from "@/components/Seo";
+import { Link, useNavigate } from "@/lib/router-compat";
+import { KeyRound, Loader2, ShieldCheck } from "lucide-react";
+import { z } from "zod";
+import Navbar from "@/components/Navbar";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "@/hooks/use-toast";
+import { useAuth } from "@/hooks/useAuth";
+import { isNativeApp } from "@/lib/native";
+
+const schema = z
+  .object({
+    current: z.string().min(1, { message: "Enter your current password" }),
+    next: z
+      .string()
+      .min(10, { message: "Use at least 10 characters" })
+      .max(72, { message: "Passwords must be 72 characters or fewer" })
+      .regex(/[a-z]/, { message: "Include a lowercase letter" })
+      .regex(/[A-Z]/, { message: "Include an uppercase letter" })
+      .regex(/[0-9]/, { message: "Include a number" }),
+    confirm: z.string(),
+  })
+  .refine((v) => v.next === v.confirm, {
+    path: ["confirm"],
+    message: "Passwords do not match",
+  })
+  .refine((v) => v.next !== v.current, {
+    path: ["next"],
+    message: "Choose a password different from the current one",
+  });
+
+const strengthOf = (pw: string) => {
+  let score = 0;
+  if (pw.length >= 10) score++;
+  if (pw.length >= 16) score++;
+  if (/[a-z]/.test(pw) && /[A-Z]/.test(pw)) score++;
+  if (/[0-9]/.test(pw)) score++;
+  if (/[^A-Za-z0-9]/.test(pw)) score++;
+  return score;
+};
+
+const LABELS = ["Very weak", "Weak", "Fair", "Good", "Strong", "Very strong"];
+
+const ChangePassword = () => {
+  const { user, loading } = useAuth();
+  const navigate = useNavigate();
+  const [current, setCurrent] = useState("");
+  const [next, setNext] = useState("");
+  const [confirm, setConfirm] = useState("");
+  const [errors, setErrors] = useState<Record<string, string>>({});
+  const [saving, setSaving] = useState(false);
+
+  const score = strengthOf(next);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setErrors({});
+
+    const parsed = schema.safeParse({ current, next, confirm });
+    if (!parsed.success) {
+      const flat = parsed.error.flatten().fieldErrors;
+      setErrors({
+        current: flat.current?.[0] ?? "",
+        next: flat.next?.[0] ?? "",
+        confirm: flat.confirm?.[0] ?? "",
+      });
+      return;
+    }
+
+    if (!user?.email) {
+      toast({ title: "No email on this account", variant: "destructive" });
+      return;
+    }
+
+    setSaving(true);
+
+    // Re-authenticate first so a stolen open session can't silently take over the account.
+    const { error: reauthError } = await supabase.auth.signInWithPassword({
+      email: user.email,
+      password: current,
+    });
+
+    if (reauthError) {
+      setSaving(false);
+      setErrors({ current: "That current password is not correct" });
+      return;
+    }
+
+    const { error } = await supabase.auth.updateUser({ password: next });
+    setSaving(false);
+
+    if (error) {
+      toast({ title: "Could not change password", description: error.message, variant: "destructive" });
+      return;
+    }
+
+    setCurrent("");
+    setNext("");
+    setConfirm("");
+    toast({
+      title: "Password updated",
+      description: "Use your new password the next time you sign in.",
+    });
+    navigate("/community");
+  };
+
+  return (
+    <div className="min-h-screen bg-background text-foreground">
+      <Seo
+        title="Change Password — Ticklelist"
+        description="Update your Ticklelist account password."
+        noindex
+      />
+      {!isNativeApp() && <Navbar />}
+
+      <main className={`max-w-md mx-auto px-4 pb-24 ${isNativeApp() ? "pt-10" : "pt-28"}`}>
+        <div className="flex items-center gap-3 mb-6">
+          <KeyRound className="w-6 h-6 text-primary" />
+          <h1 className="font-display text-2xl tracking-wider">Change password</h1>
+        </div>
+
+        {loading ? (
+          <p className="text-sm text-muted-foreground">Loading…</p>
+        ) : !user ? (
+          <Card className="p-6 space-y-3">
+            <p className="text-sm text-muted-foreground">You need to be signed in to change your password.</p>
+            <Button asChild>
+              <Link to="/auth">Sign in</Link>
+            </Button>
+          </Card>
+        ) : (
+          <Card className="p-6">
+            <p className="text-xs text-muted-foreground mb-5">
+              Signed in as <span className="text-foreground">{user.email}</span>
+            </p>
+
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <div className="space-y-1.5">
+                <Label htmlFor="current">Current password</Label>
+                <Input
+                  id="current"
+                  type="password"
+                  autoComplete="current-password"
+                  value={current}
+                  onChange={(e) => setCurrent(e.target.value)}
+                  maxLength={72}
+                />
+                {errors["current"] && <p className="text-xs text-destructive">{errors["current"]}</p>}
+              </div>
+
+              <div className="space-y-1.5">
+                <Label htmlFor="next">New password</Label>
+                <Input
+                  id="next"
+                  type="password"
+                  autoComplete="new-password"
+                  value={next}
+                  onChange={(e) => setNext(e.target.value)}
+                  maxLength={72}
+                />
+                <div className="flex items-center gap-2 pt-1">
+                  <div className="h-1 flex-1 rounded-sm bg-secondary overflow-hidden">
+                    <div
+                      className={`h-full transition-all ${score >= 4 ? "bg-primary" : "bg-muted-foreground"}`}
+                      style={{ width: `${(score / 5) * 100}%` }}
+                    />
+                  </div>
+                  <span className="text-[10px] text-muted-foreground w-20 text-right">
+                    {next ? LABELS[score] : ""}
+                  </span>
+                </div>
+                {errors["next"] && <p className="text-xs text-destructive">{errors["next"]}</p>}
+              </div>
+
+              <div className="space-y-1.5">
+                <Label htmlFor="confirm">Confirm new password</Label>
+                <Input
+                  id="confirm"
+                  type="password"
+                  autoComplete="new-password"
+                  value={confirm}
+                  onChange={(e) => setConfirm(e.target.value)}
+                  maxLength={72}
+                />
+                {errors["confirm"] && <p className="text-xs text-destructive">{errors["confirm"]}</p>}
+              </div>
+
+              <Button type="submit" disabled={saving} className="w-full">
+                {saving && <Loader2 className="w-4 h-4 mr-2 animate-spin" />}
+                Update password
+              </Button>
+            </form>
+
+            <p className="flex items-start gap-2 text-[11px] text-muted-foreground mt-5">
+              <ShieldCheck className="w-3.5 h-3.5 shrink-0 mt-0.5 text-primary" />
+              Your current password is re-checked before the change, and new passwords are screened against
+              known breached-password lists.
+            </p>
+          </Card>
+        )}
+      </main>
+    </div>
+  );
+};
+
+export default ChangePassword;

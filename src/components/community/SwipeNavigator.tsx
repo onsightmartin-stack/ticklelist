@@ -1,1 +1,618 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlUmVmLCB1c2VTdGF0ZSwgdHlwZSBSZWFjdE5vZGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IENoZXZyb25MZWZ0LCBDaGV2cm9uUmlnaHQgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtcm91dGVyIjsKaW1wb3J0IHsgdXNlTG9jYXRpb24sIHVzZU5hdmlnYXRlIH0gZnJvbSAiQC9saWIvcm91dGVyLWNvbXBhdCI7CgppbXBvcnQgUGFnZVN3aXRjaGVyIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvUGFnZVN3aXRjaGVyIjsKaW1wb3J0IFBhZ2VQcm9ncmVzcyBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L1BhZ2VQcm9ncmVzcyI7CmltcG9ydCBTd2lwZUFycm93cyBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L1N3aXBlQXJyb3dzIjsKaW1wb3J0IHsgcGFnZUluZGV4LCB2aXNpYmxlUGFnZXMsIHdyYXBJbmRleCwgdHlwZSBDb21tdW5pdHlQYWdlIH0gZnJvbSAiQC9saWIvY29tbXVuaXR5LXBhZ2VzIjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvaG9va3MvdXNlQXV0aCI7CmltcG9ydCB7IG1vdGlvbkFsbG93ZWQgfSBmcm9tICJAL2xpYi9tb3Rpb24iOwppbXBvcnQgeyB1c2VNb3Rpb25BbGxvd2VkIH0gZnJvbSAiQC9ob29rcy91c2VNb3Rpb25BbGxvd2VkIjsKaW1wb3J0IHsgaGFwdGljIH0gZnJvbSAiQC9saWIvaGFwdGljcyI7CmltcG9ydCB7IHVzZUdhbWVwYWQsIHJ1bWJsZSwgdHlwZSBHYW1lcGFkQWN0aW9uIH0gZnJvbSAiQC9ob29rcy91c2VHYW1lcGFkIjsKCi8qKiBIb3Jpem9udGFsIGRpc3RhbmNlIChweCkgdGhhdCBjb3VudHMgYXMgYSBwYWdlIHN3aXBlLiAqLwpjb25zdCBTV0lQRV9ESVNUQU5DRSA9IDcwOwovKiogTWF4IHRpbWUgYmV0d2VlbiB0d28gdGFwcyBmb3IgYSBkb3VibGUtdGFwIChtcykuICovCmNvbnN0IERPVUJMRV9UQVBfTVMgPSAzMjA7Ci8qKiBNYXggbW92ZW1lbnQgZm9yIGEgdG91Y2ggdG8gc3RpbGwgY291bnQgYXMgYSB0YXAgKHB4KS4gKi8KY29uc3QgVEFQX1NMT1AgPSAxMjsKY29uc3QgSElOVF9LRVkgPSAib25zaWdodC1zd2lwZS1oaW50IjsKCi8qKiBFbGVtZW50cyB3aG9zZSBvd24gZ2VzdHVyZXMgbXVzdCB3aW4gb3ZlciBwYWdlIHN3aXBpbmcuICovCmNvbnN0IE5PX1NXSVBFID0gWwogICJpbnB1dCIsCiAgInRleHRhcmVhIiwKICAic2VsZWN0IiwKICAiY2FudmFzIiwKICAiaWZyYW1lIiwKICAidmlkZW8iLAogICJbY29udGVudGVkaXRhYmxlPSd0cnVlJ10iLAogICJbZHJhZ2dhYmxlPSd0cnVlJ10iLAogICJbZGF0YS1uby1zd2lwZV0iLAogICJbcm9sZT0nc2xpZGVyJ10iLAogICJbcm9sZT0nZGlhbG9nJ10iLAogICJbcm9sZT0ndGFibGlzdCddIiwKICAiW2RhdGEtcmFkaXgtc2Nyb2xsLWFyZWEtdmlld3BvcnRdIiwKICAiLmxlYWZsZXQtY29udGFpbmVyIiwKICAiLm1hcGxpYnJlZ2wtbWFwIiwKICAiLm1hcGJveGdsLW1hcCIsCiAgIi5uby1zd2lwZSIsCl0uam9pbigiLCAiKTsKCi8qKiBBIHN3aXBlIG11c3QgYmUgdGhpcyBtdWNoIG1vcmUgaG9yaXpvbnRhbCB0aGFuIHZlcnRpY2FsIHRvIGNvdW50LiAqLwpjb25zdCBBWElTX1JBVElPID0gMS42OwovKiogTW92ZW1lbnQgYmVmb3JlIHRoZSBheGlzIGlzIGRlY2lkZWQgKHB4KS4gKi8KY29uc3QgQVhJU19MT0NLID0gMTQ7CgovKioKICogVHJ1ZSB3aGVuIGFuIGFuY2VzdG9yIGNsYWltcyBob3Jpem9udGFsIGdlc3R1cmVzIGZvciBpdHNlbGYg4oCUIGVpdGhlciBpdAogKiBzY3JvbGxzIHNpZGV3YXlzLCBvciBpdCBvcHRzIG91dCB2aWEgdG91Y2gtYWN0aW9uIChwYW4teCAvIG5vbmUgLyBwaW5jaC16b29tKS4KICovCmNvbnN0IG93bnNIb3Jpem9udGFsR2VzdHVyZSA9IChzdGFydDogRXZlbnRUYXJnZXQgfCBudWxsLCByb290OiBIVE1MRWxlbWVudCkgPT4gewogIGxldCBlbCA9IHN0YXJ0IGluc3RhbmNlb2YgRWxlbWVudCA/IHN0YXJ0IDogbnVsbDsKICB3aGlsZSAoZWwgJiYgZWwgIT09IHJvb3QpIHsKICAgIGNvbnN0IHN0eWxlID0gZ2V0Q29tcHV0ZWRTdHlsZShlbCk7CiAgICBpZiAoZWwuc2Nyb2xsV2lkdGggPiBlbC5jbGllbnRXaWR0aCArIDQpIHsKICAgICAgY29uc3Qgb3ZlcmZsb3cgPSBzdHlsZS5vdmVyZmxvd1g7CiAgICAgIGlmIChvdmVyZmxvdyA9PT0gImF1dG8iIHx8IG92ZXJmbG93ID09PSAic2Nyb2xsIikgcmV0dXJuIHRydWU7CiAgICB9CiAgICBjb25zdCB0b3VjaCA9IHN0eWxlLnRvdWNoQWN0aW9uOwogICAgaWYgKHRvdWNoICYmIHRvdWNoICE9PSAiYXV0byIgJiYgdG91Y2ggIT09ICJwYW4teSIgJiYgdG91Y2ggIT09ICJtYW5pcHVsYXRpb24iKSByZXR1cm4gdHJ1ZTsKICAgIGVsID0gZWwucGFyZW50RWxlbWVudDsKICB9CiAgcmV0dXJuIGZhbHNlOwp9OwoKLyoqIFBhZ2UgaXMgcGluY2gtem9vbWVkLCBvciBhIG1vZGFsL3NoZWV0IGlzIG9wZW4g4oCUIGxlYXZlIGdlc3R1cmVzIGFsb25lLiAqLwpjb25zdCBnZXN0dXJlc0Jsb2NrZWQgPSAoKSA9PiB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm4gdHJ1ZTsKICBjb25zdCBzY2FsZSA9IHdpbmRvdy52aXN1YWxWaWV3cG9ydD8uc2NhbGUgPz8gMTsKICBpZiAoc2NhbGUgPiAxLjA1KSByZXR1cm4gdHJ1ZTsKICByZXR1cm4gISFkb2N1bWVudC5xdWVyeVNlbGVjdG9yKAogICAgIltyb2xlPSdkaWFsb2cnXVtkYXRhLXN0YXRlPSdvcGVuJ10sIFtyb2xlPSdhbGVydGRpYWxvZyddW2RhdGEtc3RhdGU9J29wZW4nXSwgW2RhdGEtc3dpcGUtYmxvY2tdIiwKICApOwp9OwoKLyoqCiAqIFN0YXRpYyBwcmV2aWV3IG9mIGEgbmVpZ2hib3VyaW5nIHBhZ2UsIHNob3duIG9uIHRoZSB0dXJuaW5nIGN1YmUncyBzaWRlLgogKiBJdCBtaW1pY3MgdGhlIHJlYWwgcGFnZSBjaHJvbWUg4oCUIHRpbnRlZCBoZWFkZXIgd2l0aCB0aGUgcGFnZSBpZGVudGl0eSwgdGhlbgogKiBhIGNhbG0gY29udGVudCBza2VsZXRvbiDigJQgc28gdGhlIHR1cm4gcmVhZHMgYXMgYSBwYWdlLCBub3QgYSBwbGFjZWhvbGRlci4KICovCmNvbnN0IFBhZ2VGYWNlID0gKHsgcGFnZSB9OiB7IHBhZ2U6IENvbW11bml0eVBhZ2UgfSkgPT4gewogIGNvbnN0IEljb24gPSBwYWdlLmljb247CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGgtZnVsbCB3LWZ1bGwgZmxleC1jb2wgYmctYmFja2dyb3VuZCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPXtgYmctZ3JhZGllbnQtdG8tYnIgJHtwYWdlLnRpbnR9IHB4LTUgcGItNiBwdC04YH0+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZ3JpZCBoLTExIHctMTEgcGxhY2UtaXRlbXMtY2VudGVyIHJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1ib3JkZXIvNTAgYmctYmFja2dyb3VuZC82MCBiYWNrZHJvcC1ibHVyLXNtIj4KICAgICAgICAgICAgPEljb24gY2xhc3NOYW1lPSJoLTUgdy01IHRleHQtZm9yZWdyb3VuZCIgLz4KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4tdy0wIj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB1cHBlcmNhc2UgdHJhY2tpbmctWzAuM2VtXSB0ZXh0LWZvcmVncm91bmQvNjAiPlRpY2tsZWxpc3Q8L3A+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQteGwgdHJhY2tpbmctd2lkZXIgdGV4dC1mb3JlZ3JvdW5kIj57cGFnZS5sYWJlbH08L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtMSBmbGV4LWNvbCBnYXAtMyBweC01IHB0LTUiPgogICAgICAgIHtbMCwgMSwgMiwgM10ubWFwKChpKSA9PiAoCiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGtleT17aX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyLzUwIGJnLWNhcmQvNzAgcC0zIgogICAgICAgICAgICBzdHlsZT17eyBvcGFjaXR5OiAxIC0gaSAqIDAuMjIgfX0KICAgICAgICAgID4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImgtMi41IHctMS8zIHJvdW5kZWQtZnVsbCBiZy1mb3JlZ3JvdW5kLzIwIiAvPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMiBoLTIgdy00LzUgcm91bmRlZC1mdWxsIGJnLWZvcmVncm91bmQvMTAiIC8+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xLjUgaC0yIHctMi8zIHJvdW5kZWQtZnVsbCBiZy1mb3JlZ3JvdW5kLzEwIiAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKSl9CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfTsKCgovKioKICogUGhvbmUtc3R5bGUgbmF2aWdhdGlvbiBmb3IgdGhlIGNvbW11bml0eTogc3dpcGUgbGVmdC9yaWdodCB0byBtb3ZlIGJldHdlZW4KICogcGFnZXMsIGRvdWJsZS10YXAgdG8gem9vbSBvdXQgdG8gYSAzRCBncmlkIG9mIGV2ZXJ5IHBhZ2UsIHRhcCBhbiBpY29uIHRvCiAqIHpvb20gYmFjayBpbi4gVG91Y2ggb25seSDigJQgbW91c2UgYW5kIGtleWJvYXJkIGtlZXAgdGhlIG5vcm1hbCBuYXYuCiAqLwpjb25zdCBTd2lwZU5hdmlnYXRvciA9ICh7IGNoaWxkcmVuIH06IHsgY2hpbGRyZW46IFJlYWN0Tm9kZSB9KSA9PiB7CgogIGNvbnN0IHsgdXNlciB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IG5hdmlnYXRlID0gdXNlTmF2aWdhdGUoKTsKICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTsKICBjb25zdCBsb2NhdGlvbiA9IHVzZUxvY2F0aW9uKCk7CgogIGNvbnN0IHBhZ2VzID0gdmlzaWJsZVBhZ2VzKCEhdXNlcik7CiAgY29uc3QgaW5kZXggPSBwYWdlSW5kZXgocGFnZXMsIGxvY2F0aW9uLnBhdGhuYW1lKTsKCiAgY29uc3QgW3pvb21lZE91dCwgc2V0Wm9vbWVkT3V0XSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbZW50ZXIsIHNldEVudGVyXSA9IHVzZVN0YXRlPCJsZWZ0IiB8ICJyaWdodCIgfCAiem9vbSIgfCBudWxsPihudWxsKTsKICBjb25zdCBbZHJhZywgc2V0RHJhZ10gPSB1c2VTdGF0ZSgwKTsKICAvKiogVHJ1ZSB3aGlsZSBhIGNvbW1pdHRlZCBzd2lwZSBhbmltYXRlcyBvdXQgdG8gdGhlIHBhZ2UgYm91bmRhcnkuICovCiAgY29uc3QgW3NuYXBwaW5nLCBzZXRTbmFwcGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgLyoqIE9uZSBmcmFtZSB3aXRoIHRyYW5zaXRpb25zIG9mZiwgdXNlZCB0byByZXNldCB0aGUgY3ViZSBhZnRlciBhIGNvbW1pdC4gKi8KICBjb25zdCBbaW5zdGFudCwgc2V0SW5zdGFudF0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2hpbnQsIHNldEhpbnRdID0gdXNlU3RhdGUoZmFsc2UpOwogIC8qKiBEaXJlY3Rpb24gd2hvc2Ugc3dpcGUgdGhyZXNob2xkIGlzIGN1cnJlbnRseSBhcm1lZCAoZHJpdmVzIHRoZSBlZGdlIGdsb3cpLiAqLwogIGNvbnN0IFthcm1lZCwgc2V0QXJtZWRdID0gdXNlU3RhdGU8ImxlZnQiIHwgInJpZ2h0IiB8IG51bGw+KG51bGwpOwogIC8qKiBXaGVyZSB0aGUgZG91YmxlLXRhcCBsYW5kZWQsIGZvciB0aGUgem9vbS1vdXQgcmlwcGxlLiAqLwogIGNvbnN0IFtyaXBwbGUsIHNldFJpcHBsZV0gPSB1c2VTdGF0ZTx7IHg6IG51bWJlcjsgeTogbnVtYmVyOyBpZDogbnVtYmVyIH0gfCBudWxsPihudWxsKTsKICAvKiogU3RhZ2Ugd2lkdGgsIHVzZWQgdG8gc2l6ZSB0aGUgY3ViZSBzbyBmYWNlcyBtZWV0IHdpdGggbm8gZ2FwLiAqLwogIGNvbnN0IFtzdGFnZVdpZHRoLCBzZXRTdGFnZVdpZHRoXSA9IHVzZVN0YXRlKDM2MCk7CgogIGNvbnN0IGhvc3RSZWYgPSB1c2VSZWY8SFRNTERpdkVsZW1lbnQgfCBudWxsPihudWxsKTsKCiAgY29uc3Qgc3RhcnQgPSB1c2VSZWY8eyB4OiBudW1iZXI7IHk6IG51bWJlcjsgdDogbnVtYmVyIH0gfCBudWxsPihudWxsKTsKICBjb25zdCBheGlzID0gdXNlUmVmPCJub25lIiB8ICJ4IiB8ICJ5Ij4oIm5vbmUiKTsKICBjb25zdCBsYXN0VGFwID0gdXNlUmVmKDApOwogIGNvbnN0IGFybWVkUmVmID0gdXNlUmVmPCJsZWZ0IiB8ICJyaWdodCIgfCBudWxsPihudWxsKTsKICAvKiogTGFzdCBtb3ZlIHNhbXBsZSwgZm9yIGZsaWNrIHZlbG9jaXR5LiAqLwogIGNvbnN0IHNhbXBsZSA9IHVzZVJlZjx7IHg6IG51bWJlcjsgdDogbnVtYmVyIH0gfCBudWxsPihudWxsKTsKCgogIC8vIEtlZXAgdGhlIGN1YmUgZ2VvbWV0cnkgaW4gc3luYyB3aXRoIHRoZSB2aWV3cG9ydCB3aWR0aC4KICB1c2VFZmZlY3QoKCkgPT4gewogICAgY29uc3QgZWwgPSBob3N0UmVmLmN1cnJlbnQ7CiAgICBpZiAoIWVsIHx8IHR5cGVvZiBSZXNpemVPYnNlcnZlciA9PT0gInVuZGVmaW5lZCIpIHJldHVybjsKICAgIGNvbnN0IG1lYXN1cmUgPSAoKSA9PiBzZXRTdGFnZVdpZHRoKGVsLmdldEJvdW5kaW5nQ2xpZW50UmVjdCgpLndpZHRoIHx8IDM2MCk7CiAgICBtZWFzdXJlKCk7CiAgICBjb25zdCBybyA9IG5ldyBSZXNpemVPYnNlcnZlcihtZWFzdXJlKTsKICAgIHJvLm9ic2VydmUoZWwpOwogICAgcmV0dXJuICgpID0+IHJvLmRpc2Nvbm5lY3QoKTsKICB9LCBbXSk7CgogIC8vIE9uZS10aW1lIGNvYWNoIG1hcmsgZm9yIHRvdWNoIHZpc2l0b3JzIOKAlCBvbmx5IG9uIHRoZSB3ZWxjb21lIChmZWVkKSBwYWdlLgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHJldHVybjsKICAgIGlmIChsb2NhdGlvbi5wYXRobmFtZSAhPT0gIi9jb21tdW5pdHkiKSByZXR1cm47CiAgICBpZiAoIXdpbmRvdy5tYXRjaE1lZGlhPy4oIihwb2ludGVyOiBjb2Fyc2UpIikubWF0Y2hlcykgcmV0dXJuOwogICAgdHJ5IHsKICAgICAgaWYgKHdpbmRvdy5sb2NhbFN0b3JhZ2UuZ2V0SXRlbShISU5UX0tFWSkpIHJldHVybjsKICAgICAgd2luZG93LmxvY2FsU3RvcmFnZS5zZXRJdGVtKEhJTlRfS0VZLCAiMSIpOwogICAgfSBjYXRjaCB7CiAgICAgIC8qIHN0b3JhZ2UgdW5hdmFpbGFibGUg4oCUIHNob3cgaXQgb25jZSBmb3IgdGhpcyBzZXNzaW9uICovCiAgICB9CiAgICBzZXRIaW50KHRydWUpOwogICAgY29uc3QgaWQgPSB3aW5kb3cuc2V0VGltZW91dCgoKSA9PiBzZXRIaW50KGZhbHNlKSwgODAwMCk7CiAgICByZXR1cm4gKCkgPT4gd2luZG93LmNsZWFyVGltZW91dChpZCk7CiAgfSwgW2xvY2F0aW9uLnBhdGhuYW1lXSk7CgogIGNvbnN0IGdvID0gdXNlQ2FsbGJhY2soCiAgICAodGFyZ2V0OiBudW1iZXIsIGRpcmVjdGlvbjogImxlZnQiIHwgInJpZ2h0IiB8ICJ6b29tIikgPT4gewogICAgICBjb25zdCBwYWdlID0gcGFnZXNbdGFyZ2V0XTsKICAgICAgaWYgKCFwYWdlKSByZXR1cm47CiAgICAgIHNldEVudGVyKG1vdGlvbkFsbG93ZWQoKSA/IGRpcmVjdGlvbiA6IG51bGwpOwogICAgICBuYXZpZ2F0ZShwYWdlLnRvKTsKICAgIH0sCiAgICBbbmF2aWdhdGUsIHBhZ2VzXSwKICApOwoKICAvKioKICAgKiBGaW5pc2ggYSBjb21taXR0ZWQgc3dpcGUgYnkgY2FycnlpbmcgdGhlIGN1YmUgYWxsIHRoZSB3YXkgcm91bmQgdG8gdGhlCiAgICogbmVpZ2hib3VyaW5nIGZhY2UsIHRoZW4gc3dhcHBpbmcgaW4gdGhlIHJlYWwgcGFnZSB3aXRoIHRyYW5zaXRpb25zIG9mZiBzbwogICAqIHRoZXJlIGlzIG5vIHZpc2libGUgc25hcC1iYWNrLgogICAqLwogIGNvbnN0IHNuYXBUbyA9IHVzZUNhbGxiYWNrKAogICAgKHRhcmdldDogbnVtYmVyLCBkaXJlY3Rpb246ICJsZWZ0IiB8ICJyaWdodCIpID0+IHsKICAgICAgY29uc3QgcGFnZSA9IHBhZ2VzW3RhcmdldF07CiAgICAgIGlmICghcGFnZSkgcmV0dXJuOwogICAgICBpZiAoIW1vdGlvbkFsbG93ZWQoKSkgewogICAgICAgIGdvKHRhcmdldCwgZGlyZWN0aW9uKTsKICAgICAgICByZXR1cm47CiAgICAgIH0KICAgICAgY29uc3Qgd2lkdGggPSBzdGFnZVdpZHRoIHx8IDM2MDsKICAgICAgc2V0U25hcHBpbmcodHJ1ZSk7CiAgICAgIHNldERyYWcoZGlyZWN0aW9uID09PSAibGVmdCIgPyAtd2lkdGggOiB3aWR0aCk7CiAgICAgIHdpbmRvdy5zZXRUaW1lb3V0KCgpID0+IHsKICAgICAgICBzZXRFbnRlcihudWxsKTsKICAgICAgICBzZXRJbnN0YW50KHRydWUpOwogICAgICAgIHNldFNuYXBwaW5nKGZhbHNlKTsKICAgICAgICBzZXREcmFnKDApOwogICAgICAgIG5hdmlnYXRlKHBhZ2UudG8pOwogICAgICAgIHJlcXVlc3RBbmltYXRpb25GcmFtZSgoKSA9PiBzZXRJbnN0YW50KGZhbHNlKSk7CiAgICAgIH0sIDIzMCk7CiAgICB9LAogICAgW2dvLCBuYXZpZ2F0ZSwgcGFnZXMsIHN0YWdlV2lkdGhdLAogICk7CgoKICBjb25zdCBjYW5jZWxHZXN0dXJlID0gdXNlQ2FsbGJhY2soKCkgPT4gewogICAgc3RhcnQuY3VycmVudCA9IG51bGw7CiAgICBheGlzLmN1cnJlbnQgPSAibm9uZSI7CiAgICBhcm1lZFJlZi5jdXJyZW50ID0gbnVsbDsKICAgIHNldEFybWVkKG51bGwpOwogICAgc2V0RHJhZygwKTsKICB9LCBbXSk7CgogIC8vIEFueSB2ZXJ0aWNhbCBwYWdlIHNjcm9sbCBkdXJpbmcgYSBnZXN0dXJlIG1lYW5zIHRoZSB1c2VyIGlzIHJlYWRpbmcsIG5vdAogIC8vIHN3aXBpbmcg4oCUIGRyb3AgdGhlIGdlc3R1cmUgaW1tZWRpYXRlbHkuCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnN0IG9uU2Nyb2xsID0gKCkgPT4gewogICAgICBpZiAoc3RhcnQuY3VycmVudCAmJiBheGlzLmN1cnJlbnQgIT09ICJ4IikgY2FuY2VsR2VzdHVyZSgpOwogICAgfTsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJzY3JvbGwiLCBvblNjcm9sbCwgeyBwYXNzaXZlOiB0cnVlLCBjYXB0dXJlOiB0cnVlIH0pOwogICAgcmV0dXJuICgpID0+IHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKCJzY3JvbGwiLCBvblNjcm9sbCwgdHJ1ZSk7CiAgfSwgW2NhbmNlbEdlc3R1cmVdKTsKCiAgY29uc3Qgb25Ub3VjaFN0YXJ0ID0gKGU6IFJlYWN0LlRvdWNoRXZlbnQpID0+IHsKICAgIGlmICh6b29tZWRPdXQpIHJldHVybjsKICAgIC8vIE11bHRpLXRvdWNoIChwaW5jaC16b29tLCB0d28tZmluZ2VyIHBhbikgaXMgbmV2ZXIgYSBwYWdlIHN3aXBlLgogICAgaWYgKGUudG91Y2hlcy5sZW5ndGggIT09IDEpIHsKICAgICAgY2FuY2VsR2VzdHVyZSgpOwogICAgICByZXR1cm47CiAgICB9CiAgICBpZiAoZ2VzdHVyZXNCbG9ja2VkKCkpIHsKICAgICAgc3RhcnQuY3VycmVudCA9IG51bGw7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGNvbnN0IHRvdWNoID0gZS50b3VjaGVzWzBdOwogICAgaWYgKCF0b3VjaCkgcmV0dXJuOwogICAgY29uc3QgdGFyZ2V0ID0gZS50YXJnZXQgYXMgRWxlbWVudCB8IG51bGw7CiAgICBpZiAodGFyZ2V0Py5jbG9zZXN0KE5PX1NXSVBFKSkgewogICAgICBzdGFydC5jdXJyZW50ID0gbnVsbDsKICAgICAgcmV0dXJuOwogICAgfQogICAgc3RhcnQuY3VycmVudCA9IHsgeDogdG91Y2guY2xpZW50WCwgeTogdG91Y2guY2xpZW50WSwgdDogcGVyZm9ybWFuY2Uubm93KCkgfTsKICAgIHNhbXBsZS5jdXJyZW50ID0geyB4OiB0b3VjaC5jbGllbnRYLCB0OiBwZXJmb3JtYW5jZS5ub3coKSB9OwogICAgYXhpcy5jdXJyZW50ID0gIm5vbmUiOwogIH07CgogIGNvbnN0IG9uVG91Y2hNb3ZlID0gKGU6IFJlYWN0LlRvdWNoRXZlbnQpID0+IHsKICAgIC8vIEEgc2Vjb25kIGZpbmdlciBsYW5kZWQgbWlkLWdlc3R1cmU6IGhhbmQgaXQgYmFjayB0byB0aGUgYnJvd3NlciAocGluY2gpLgogICAgaWYgKGUudG91Y2hlcy5sZW5ndGggPiAxKSB7CiAgICAgIGNhbmNlbEdlc3R1cmUoKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgY29uc3QgcyA9IHN0YXJ0LmN1cnJlbnQ7CiAgICBjb25zdCB0b3VjaCA9IGUudG91Y2hlc1swXTsKICAgIGlmICghcyB8fCAhdG91Y2gpIHJldHVybjsKICAgIGNvbnN0IGR4ID0gdG91Y2guY2xpZW50WCAtIHMueDsKICAgIGNvbnN0IGR5ID0gdG91Y2guY2xpZW50WSAtIHMueTsKCiAgICBpZiAoYXhpcy5jdXJyZW50ID09PSAibm9uZSIpIHsKICAgICAgaWYgKE1hdGguYWJzKGR4KSA8IEFYSVNfTE9DSyAmJiBNYXRoLmFicyhkeSkgPCBBWElTX0xPQ0spIHJldHVybjsKICAgICAgLy8gTmVlZHMgdG8gYmUgY2xlYXJseSBob3Jpem9udGFsLCBhbmQgbm90aGluZyBpbiBiZXR3ZWVuIG1heSBjbGFpbSB0aGUKICAgICAgLy8gZ2VzdHVyZSAoc2lkZXdheXMgc2Nyb2xsZXJzLCBtYXBzLCBzbGlkZXJzLCBjdXN0b20gdG91Y2gtYWN0aW9uKS4KICAgICAgY29uc3QgY2xlYXJseUhvcml6b250YWwgPSBNYXRoLmFicyhkeCkgPiBNYXRoLmFicyhkeSkgKiBBWElTX1JBVElPOwogICAgICBjb25zdCBob3N0ID0gaG9zdFJlZi5jdXJyZW50OwogICAgICBpZiAoIWNsZWFybHlIb3Jpem9udGFsIHx8IChob3N0ICYmIG93bnNIb3Jpem9udGFsR2VzdHVyZShlLnRhcmdldCwgaG9zdCkpKSB7CiAgICAgICAgYXhpcy5jdXJyZW50ID0gInkiOwogICAgICAgIHN0YXJ0LmN1cnJlbnQgPSBudWxsOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBheGlzLmN1cnJlbnQgPSAieCI7CiAgICB9CgogICAgaWYgKGF4aXMuY3VycmVudCA9PT0gIngiKSB7CiAgICAgIHNhbXBsZS5jdXJyZW50ID0geyB4OiB0b3VjaC5jbGllbnRYLCB0OiBwZXJmb3JtYW5jZS5ub3coKSB9OwogICAgICBjb25zdCBjYW5UdXJuID0gaW5kZXggPj0gMCAmJiBwYWdlcy5sZW5ndGggPiAxOwogICAgICBjb25zdCB3aWR0aCA9IHN0YWdlV2lkdGggfHwgMzYwOwogICAgICAvLyBUcmFjayB0aGUgZmluZ2VyIDE6MSBzbyB0aGUgY3ViZSBmYWNlIHN0YXlzIHVuZGVyIHRoZSB0aHVtYi4KICAgICAgY29uc3Qgb2Zmc2V0ID0gY2FuVHVybiA/IGR4IDogZHggKiAwLjE2OwogICAgICBzZXREcmFnKE1hdGgubWF4KC13aWR0aCwgTWF0aC5taW4od2lkdGgsIG9mZnNldCkpKTsKCiAgICAgIC8vIEFybS9kaXNhcm0gdGhlIGNvbW1pdCB0aHJlc2hvbGQsIHdpdGggYSBoYXB0aWMgdGljayB0aGUgbW9tZW50IGl0IGFybXMuCiAgICAgIGxldCBuZXh0OiAibGVmdCIgfCAicmlnaHQiIHwgbnVsbCA9IG51bGw7CiAgICAgIGlmIChjYW5UdXJuICYmIE1hdGguYWJzKGR4KSA+IFNXSVBFX0RJU1RBTkNFKSB7CiAgICAgICAgbmV4dCA9IGR4IDwgMCA/ICJsZWZ0IiA6ICJyaWdodCI7CiAgICAgIH0KICAgICAgaWYgKG5leHQgIT09IGFybWVkUmVmLmN1cnJlbnQpIHsKICAgICAgICBhcm1lZFJlZi5jdXJyZW50ID0gbmV4dDsKICAgICAgICBzZXRBcm1lZChuZXh0KTsKICAgICAgICBpZiAobmV4dCkgaGFwdGljKCJ0aWNrIik7CiAgICAgIH0KICAgIH0KICB9OwoKICBjb25zdCBvblRvdWNoRW5kID0gKGU6IFJlYWN0LlRvdWNoRXZlbnQpID0+IHsKICAgIGNvbnN0IHMgPSBzdGFydC5jdXJyZW50OwogICAgY29uc3QgbGFzdCA9IHNhbXBsZS5jdXJyZW50OwogICAgc3RhcnQuY3VycmVudCA9IG51bGw7CiAgICBzYW1wbGUuY3VycmVudCA9IG51bGw7CiAgICBpZiAoIXMpIHsKICAgICAgc2V0RHJhZygwKTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGNvbnN0IHRvdWNoID0gZS5jaGFuZ2VkVG91Y2hlc1swXTsKICAgIGlmICghdG91Y2gpIHJldHVybjsKICAgIGNvbnN0IGR4ID0gdG91Y2guY2xpZW50WCAtIHMueDsKICAgIGNvbnN0IGR5ID0gdG91Y2guY2xpZW50WSAtIHMueTsKICAgIGNvbnN0IGVsYXBzZWQgPSBwZXJmb3JtYW5jZS5ub3coKSAtIHMudDsKCiAgICBhcm1lZFJlZi5jdXJyZW50ID0gbnVsbDsKICAgIHNldEFybWVkKG51bGwpOwoKICAgIC8vIEEgcXVpY2sgZmxpY2sgY291bnRzIGV2ZW4gd2hlbiBpdCBkaWQgbm90IHRyYXZlbCB0aGUgZnVsbCBkaXN0YW5jZS4KICAgIGNvbnN0IGZsaWNrID0KICAgICAgISFsYXN0ICYmIHBlcmZvcm1hbmNlLm5vdygpIC0gbGFzdC50IDwgMTIwICYmIE1hdGguYWJzKGR4KSA+IFRBUF9TTE9QICogMyAmJiBNYXRoLmFicyhkeCkgLyBNYXRoLm1heChlbGFwc2VkLCAxKSA+IDAuNTsKICAgIGNvbnN0IGNvbW1pdHRlZCA9IE1hdGguYWJzKGR4KSA+IFNXSVBFX0RJU1RBTkNFIHx8IGZsaWNrOwoKICAgIGlmIChheGlzLmN1cnJlbnQgPT09ICJ4IiAmJiBjb21taXR0ZWQgJiYgTWF0aC5hYnMoZHgpID4gTWF0aC5hYnMoZHkpKSB7CiAgICAgIGlmIChpbmRleCA+PSAwICYmIHBhZ2VzLmxlbmd0aCA+IDEpIHsKICAgICAgICBoYXB0aWMoInNlbGVjdCIpOwogICAgICAgIGlmIChkeCA8IDApIHNuYXBUbyh3cmFwSW5kZXgocGFnZXMubGVuZ3RoLCBpbmRleCArIDEpLCAibGVmdCIpOwogICAgICAgIGVsc2Ugc25hcFRvKHdyYXBJbmRleChwYWdlcy5sZW5ndGgsIGluZGV4IC0gMSksICJyaWdodCIpOwogICAgICB9IGVsc2UgewogICAgICAgIHNldERyYWcoMCk7CiAgICAgIH0KICAgICAgYXhpcy5jdXJyZW50ID0gIm5vbmUiOwogICAgICBsYXN0VGFwLmN1cnJlbnQgPSAwOwogICAgICByZXR1cm47CiAgICB9CgogICAgYXhpcy5jdXJyZW50ID0gIm5vbmUiOwogICAgc2V0RHJhZygwKTsKCiAgICAvLyBEb3VibGUgdGFwIG9uIHRoZSBwYWdlIGJhY2tncm91bmQgem9vbXMgb3V0IHRvIHRoZSBhcHAgZ3JpZC4KICAgIGNvbnN0IGlzVGFwID0gTWF0aC5hYnMoZHgpIDwgVEFQX1NMT1AgJiYgTWF0aC5hYnMoZHkpIDwgVEFQX1NMT1AgJiYgZWxhcHNlZCA8IDMwMDsKICAgIGlmICghaXNUYXApIHJldHVybjsKICAgIGNvbnN0IHRhcmdldCA9IGUudGFyZ2V0IGFzIEVsZW1lbnQgfCBudWxsOwogICAgaWYgKHRhcmdldD8uY2xvc2VzdCgiYSwgYnV0dG9uLCBpbnB1dCwgdGV4dGFyZWEsIHNlbGVjdCwgbGFiZWwsIFtyb2xlPSdidXR0b24nXSwgY2FudmFzIikpIHsKICAgICAgbGFzdFRhcC5jdXJyZW50ID0gMDsKICAgICAgcmV0dXJuOwogICAgfQogICAgY29uc3Qgbm93ID0gcGVyZm9ybWFuY2Uubm93KCk7CiAgICBpZiAobm93IC0gbGFzdFRhcC5jdXJyZW50IDwgRE9VQkxFX1RBUF9NUykgewogICAgICBsYXN0VGFwLmN1cnJlbnQgPSAwOwogICAgICBzZXRIaW50KGZhbHNlKTsKICAgICAgaGFwdGljKCJ6b29tIik7CiAgICAgIHNldFJpcHBsZSh7IHg6IHRvdWNoLmNsaWVudFgsIHk6IHRvdWNoLmNsaWVudFksIGlkOiBub3cgfSk7CiAgICAgIHNldFpvb21lZE91dCh0cnVlKTsKICAgIH0gZWxzZSB7CiAgICAgIGxhc3RUYXAuY3VycmVudCA9IG5vdzsKICAgIH0KICB9OwoKICAvLyBDb250cm9sbGVyIG5hdmlnYXRpb24gd2hpbGUgdGhlIHBhZ2UgaXMgb3BlbjogYnVtcGVycy9ELXBhZCBtb3ZlIGJldHdlZW4KICAvLyBwYWdlcywgWS9NZW51IChvciBBIG9uIGEgcGFnZSkgb3BlbnMgdGhlIGRhc2hib2FyZCBncmlkLgogIGNvbnN0IG9uUGFkQWN0aW9uID0gdXNlQ2FsbGJhY2soCiAgICAoYWN0aW9uOiBHYW1lcGFkQWN0aW9uKSA9PiB7CiAgICAgIGlmIChhY3Rpb24gPT09ICJsZWZ0IiAmJiBpbmRleCA+PSAwICYmIHBhZ2VzLmxlbmd0aCA+IDEpIHsKICAgICAgICBoYXB0aWMoInNlbGVjdCIpOwogICAgICAgIHJ1bWJsZSg0NSwgMC4zKTsKICAgICAgICBnbyh3cmFwSW5kZXgocGFnZXMubGVuZ3RoLCBpbmRleCAtIDEpLCAicmlnaHQiKTsKICAgICAgfSBlbHNlIGlmIChhY3Rpb24gPT09ICJyaWdodCIgJiYgaW5kZXggPj0gMCAmJiBwYWdlcy5sZW5ndGggPiAxKSB7CiAgICAgICAgaGFwdGljKCJzZWxlY3QiKTsKICAgICAgICBydW1ibGUoNDUsIDAuMyk7CiAgICAgICAgZ28od3JhcEluZGV4KHBhZ2VzLmxlbmd0aCwgaW5kZXggKyAxKSwgImxlZnQiKTsKICAgICAgfSBlbHNlIGlmIChhY3Rpb24gPT09ICJtZW51IiB8fCBhY3Rpb24gPT09ICJ1cCIpIHsKICAgICAgICBoYXB0aWMoInpvb20iKTsKICAgICAgICBydW1ibGUoNzAsIDAuNCk7CiAgICAgICAgc2V0Wm9vbWVkT3V0KHRydWUpOwogICAgICB9CiAgICB9LAogICAgW2dvLCBpbmRleCwgcGFnZXMubGVuZ3RoXSwKICApOwoKICB1c2VHYW1lcGFkKHsgb25BY3Rpb246IG9uUGFkQWN0aW9uLCBlbmFibGVkOiAhem9vbWVkT3V0IH0pOwoKICAvLyBDbGVhciB0aGUgZW50cnkgYW5pbWF0aW9uIG9uY2UgaXQgaGFzIHBsYXllZC4KICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKCFlbnRlcikgcmV0dXJuOwogICAgY29uc3QgaWQgPSB3aW5kb3cuc2V0VGltZW91dCgoKSA9PiBzZXRFbnRlcihudWxsKSwgMzIwKTsKICAgIHJldHVybiAoKSA9PiB3aW5kb3cuY2xlYXJUaW1lb3V0KGlkKTsKICB9LCBbZW50ZXIsIGxvY2F0aW9uLnBhdGhuYW1lXSk7CgoKICBjb25zdCBwaWNrID0gKHBhZ2U6IENvbW11bml0eVBhZ2UsIGk6IG51bWJlcikgPT4gewogICAgc2V0Wm9vbWVkT3V0KGZhbHNlKTsKICAgIGlmIChpICE9PSBpbmRleCkgZ28oaSwgInpvb20iKTsKICB9OwoKICBjb25zdCBtb3Rpb25PayA9IHVzZU1vdGlvbkFsbG93ZWQoKTsKCiAgLy8gUmVkdWNlZCBtb3Rpb246IG5vIHBlcnNwZWN0aXZlIGNhcmQtdHVybiwganVzdCBhIHBsYWluIHNsaWRlL2ZhZGUuCiAgY29uc3QgYW5pbWF0aW9uID0gIW1vdGlvbk9rCiAgICA/IHVuZGVmaW5lZAogICAgOiBlbnRlciA9PT0gImxlZnQiCiAgICAgID8gInN3aXBlLWluLWxlZnQgMC40MnMgY3ViaWMtYmV6aWVyKDAuMjIsIDEsIDAuMzYsIDEpIgogICAgICA6IGVudGVyID09PSAicmlnaHQiCiAgICAgICAgPyAic3dpcGUtaW4tcmlnaHQgMC40MnMgY3ViaWMtYmV6aWVyKDAuMjIsIDEsIDAuMzYsIDEpIgogICAgICAgIDogZW50ZXIgPT09ICJ6b29tIgogICAgICAgICAgPyAiem9vbS1pbi1wYWdlIDAuMzZzIGN1YmljLWJlemllcigwLjIyLCAxLCAwLjM2LCAxKSIKICAgICAgICAgIDogdW5kZWZpbmVkOwoKICAvLyBXaGlsZSBkcmFnZ2luZywgdGhlIHdob2xlIHN0YWdlIHR1cm5zIGxpa2UgYSBjdWJlOiB0aGUgcGFnZSByb3RhdGVzIHRoZQogIC8vIHNhbWUgd2F5IHRoZSBmaW5nZXIgbW92ZXMsIGFuZCB0aGUgbmVpZ2hib3VyaW5nIHBhZ2UgZmFjZSBpcyBhbHJlYWR5IHRoZXJlCiAgLy8gb24gdGhlIHNpZGUgdGhhdCBpcyBjb21pbmcgYXJvdW5kIOKAlCBubyBibGFuayBnYXAgYmV0d2VlbiBwYWdlcy4KICBjb25zdCB3aWR0aCA9IHN0YWdlV2lkdGggfHwgMzYwOwogIGNvbnN0IGhhbGYgPSBNYXRoLm1heCgxNjAsIHdpZHRoIC8gMik7CiAgY29uc3QgdHVybmluZyA9IG1vdGlvbk9rICYmIChkcmFnICE9PSAwIHx8IHNuYXBwaW5nKTsKICAvLyAxOjEgbWFwcGluZyDigJQgZHJhZ2dpbmcgYSBmdWxsIHNjcmVlbiB3aWR0aCB0dXJucyB0aGUgY3ViZSBhIGZ1bGwgcXVhcnRlci4KICBjb25zdCByb2xsQW5nbGUgPSBtb3Rpb25PayA/IE1hdGgubWF4KC05MCwgTWF0aC5taW4oOTAsIChkcmFnIC8gd2lkdGgpICogOTApKSA6IDA7CiAgY29uc3QgcHJvZ3Jlc3MgPSBNYXRoLm1pbihNYXRoLmFicyhyb2xsQW5nbGUpIC8gOTAsIDEpOwogIGNvbnN0IHN0YWdlVHJhbnNmb3JtID0gdHVybmluZwogICAgPyBgdHJhbnNsYXRlWigtJHtoYWxmfXB4KSByb3RhdGVZKCR7cm9sbEFuZ2xlfWRlZylgCiAgICA6ICFtb3Rpb25PayAmJiBkcmFnCiAgICAgID8gYHRyYW5zbGF0ZVgoJHtNYXRoLm1heCgtNDAsIE1hdGgubWluKDQwLCBkcmFnKSl9cHgpYAogICAgICA6IHVuZGVmaW5lZDsKCiAgLy8gVGhlIGRlY2sgd3JhcHM6IHRoZSBmaXJzdCBwYWdlJ3MgbGVmdCBuZWlnaGJvdXIgaXMgdGhlIGxhc3QgcGFnZSwgc28geW91CiAgLy8gY2FuIHN3aXBlIGJvdGggd2F5cyBmcm9tIHRoZSB2ZXJ5IHN0YXJ0LgogIGNvbnN0IGNhbldyYXAgPSBpbmRleCA+PSAwICYmIHBhZ2VzLmxlbmd0aCA+IDE7CiAgY29uc3QgcHJldkluZGV4ID0gY2FuV3JhcCA/IHdyYXBJbmRleChwYWdlcy5sZW5ndGgsIGluZGV4IC0gMSkgOiAtMTsKICBjb25zdCBuZXh0SW5kZXggPSBjYW5XcmFwID8gd3JhcEluZGV4KHBhZ2VzLmxlbmd0aCwgaW5kZXggKyAxKSA6IC0xOwogIGNvbnN0IHByZXZQYWdlID0gY2FuV3JhcCA/IHBhZ2VzW3ByZXZJbmRleF0gOiB1bmRlZmluZWQ7CiAgY29uc3QgbmV4dFBhZ2UgPSBjYW5XcmFwID8gcGFnZXNbbmV4dEluZGV4XSA6IHVuZGVmaW5lZDsKCiAgLy8gV2FybSB0aGUgbmVpZ2hib3VyaW5nIHJvdXRlcyAobG9hZGVycyArIGNvZGUpIHNvIHRoZSBzd2lwZSBsYW5kcyBvbiBhCiAgLy8gcGFpbnRlZCBwYWdlIGluc3RlYWQgb2YgYSBzcGlubmVyLgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBsZXQgY2FuY2VsbGVkID0gZmFsc2U7CiAgICBjb25zdCB3YXJtID0gKCkgPT4gewogICAgICBpZiAoY2FuY2VsbGVkKSByZXR1cm47CiAgICAgIFtwcmV2UGFnZT8udG8sIG5leHRQYWdlPy50b10uZm9yRWFjaCgodG8pID0+IHsKICAgICAgICBpZiAoIXRvKSByZXR1cm47CiAgICAgICAgdHJ5IHsKICAgICAgICAgIHZvaWQgUHJvbWlzZS5yZXNvbHZlKHJvdXRlci5wcmVsb2FkUm91dGUoeyB0bzogdG8gYXMgbmV2ZXIgfSkpLmNhdGNoKCgpID0+IHVuZGVmaW5lZCk7CiAgICAgICAgfSBjYXRjaCB7CiAgICAgICAgICAvKiBwcmVsb2FkaW5nIGlzIGJlc3QtZWZmb3J0ICovCiAgICAgICAgfQogICAgICB9KTsKICAgIH07CiAgICBjb25zdCBpZCA9IHdpbmRvdy5zZXRUaW1lb3V0KHdhcm0sIDI1MCk7CiAgICByZXR1cm4gKCkgPT4gewogICAgICBjYW5jZWxsZWQgPSB0cnVlOwogICAgICB3aW5kb3cuY2xlYXJUaW1lb3V0KGlkKTsKICAgIH07CiAgfSwgW3JvdXRlciwgcHJldlBhZ2U/LnRvLCBuZXh0UGFnZT8udG9dKTsKCiAgY29uc3QgdHJhbnNpdGlvbkN1cnZlID0gaW5zdGFudAogICAgPyAibm9uZSIKICAgIDogc25hcHBpbmcKICAgICAgPyAidHJhbnNmb3JtIDAuMjNzIGN1YmljLWJlemllcigwLjMyLCAwLjcyLCAwLCAxKSIKICAgICAgOiBkcmFnCiAgICAgICAgPyAibm9uZSIKICAgICAgICA6ICJ0cmFuc2Zvcm0gMC4zMnMgY3ViaWMtYmV6aWVyKDAuMjIsIDEsIDAuMzYsIDEpIjsKCiAgY29uc3QgZmFjZVN0eWxlID0gKHNpZGU6ICJsZWZ0IiB8ICJyaWdodCIpOiBSZWFjdC5DU1NQcm9wZXJ0aWVzID0+ICh7CiAgICBwb3NpdGlvbjogImFic29sdXRlIiwKICAgIGluc2V0OiAwLAogICAgb3ZlcmZsb3c6ICJoaWRkZW4iLAogICAgdHJhbnNmb3JtOiBgcm90YXRlWSgke3NpZGUgPT09ICJsZWZ0IiA/IC05MCA6IDkwfWRlZykgdHJhbnNsYXRlWigke2hhbGZ9cHgpYCwKICAgIGJhY2tmYWNlVmlzaWJpbGl0eTogImhpZGRlbiIsCiAgICBXZWJraXRCYWNrZmFjZVZpc2liaWxpdHk6ICJoaWRkZW4iLAogICAgLy8gVGhlIGluY29taW5nIGZhY2UgbGlmdHMgb3V0IG9mIHNoYWRvdyBhcyBpdCB0dXJucyB0b3dhcmRzIHRoZSB2aWV3ZXIuCiAgICBmaWx0ZXI6IGBicmlnaHRuZXNzKCR7MC41NSArIHByb2dyZXNzICogMC40NX0pYCwKICB9KTsKCiAgcmV0dXJuICgKICAgIDw+CiAgICAgIDxkaXYKICAgICAgICBjbGFzc05hbWU9ImZsZXgtMSBmbGV4IGZsZXgtY29sIgogICAgICAgIHN0eWxlPXttb3Rpb25PayA/IHsgcGVyc3BlY3RpdmU6IGAke01hdGgubWF4KDkwMCwgaGFsZiAqIDIuNCl9cHhgLCBwZXJzcGVjdGl2ZU9yaWdpbjogIjUwJSA0NSUiIH0gOiB1bmRlZmluZWR9CiAgICAgID4KICAgICAgICA8ZGl2CiAgICAgICAgICByZWY9e2hvc3RSZWZ9CiAgICAgICAgICBvblRvdWNoU3RhcnQ9e29uVG91Y2hTdGFydH0KICAgICAgICAgIG9uVG91Y2hNb3ZlPXtvblRvdWNoTW92ZX0KICAgICAgICAgIG9uVG91Y2hFbmQ9e29uVG91Y2hFbmR9CiAgICAgICAgICBvblRvdWNoQ2FuY2VsPXtjYW5jZWxHZXN0dXJlfQogICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgdG91Y2hBY3Rpb246ICJwYW4teSIsCiAgICAgICAgICAgIHRyYW5zZm9ybVN0eWxlOiBtb3Rpb25PayA/ICJwcmVzZXJ2ZS0zZCIgOiAiZmxhdCIsCiAgICAgICAgICAgIHRyYW5zZm9ybU9yaWdpbjogImNlbnRlciBjZW50ZXIiLAogICAgICAgICAgICB0cmFuc2Zvcm06IHN0YWdlVHJhbnNmb3JtLAogICAgICAgICAgICB0cmFuc2l0aW9uOiB0cmFuc2l0aW9uQ3VydmUsCiAgICAgICAgICAgIHdpbGxDaGFuZ2U6IHR1cm5pbmcgPyAidHJhbnNmb3JtIiA6IHVuZGVmaW5lZCwKICAgICAgICAgICAgcG9zaXRpb246ICJyZWxhdGl2ZSIsCiAgICAgICAgICB9fQogICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgZmxleCBmbGV4LWNvbCIKICAgICAgICA+CiAgICAgICAgICB7LyogRnJvbnQgZmFjZTogdGhlIGxpdmUgcGFnZS4gKi99CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgdHJhbnNmb3JtOiB0dXJuaW5nID8gYHRyYW5zbGF0ZVooJHtoYWxmfXB4KWAgOiB1bmRlZmluZWQsCiAgICAgICAgICAgICAgZmlsdGVyOiB0dXJuaW5nID8gYGJyaWdodG5lc3MoJHsxIC0gcHJvZ3Jlc3MgKiAwLjQ1fSlgIDogdW5kZWZpbmVkLAogICAgICAgICAgICAgIHRyYW5zaXRpb246IGluc3RhbnQgPyAibm9uZSIgOiAiZmlsdGVyIDAuMjNzIGVhc2UiLAogICAgICAgICAgICAgIGFuaW1hdGlvbjogZHJhZyB8fCBzbmFwcGluZyA/IHVuZGVmaW5lZCA6IGFuaW1hdGlvbiwKICAgICAgICAgICAgfX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgZmxleCBmbGV4LWNvbCIKICAgICAgICAgID4KICAgICAgICAgICAge2NoaWxkcmVufQogICAgICAgICAgPC9kaXY+CgoKICAgICAgICAgIHsvKiBTaWRlIGZhY2VzOiBhIHByZXZpZXcgb2YgdGhlIHBhZ2VzIGVpdGhlciBzaWRlLCBzbyB0aGUgY3ViZSBuZXZlcgogICAgICAgICAgICAgIHNob3dzIGFuIGVtcHR5IGVkZ2Ugd2hpbGUgdHVybmluZy4gKi99CiAgICAgICAgICB7bW90aW9uT2sgJiYgdHVybmluZyAmJiAoCiAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAge3ByZXZQYWdlICYmIGRyYWcgPiAwICYmICgKICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e2ZhY2VTdHlsZSgibGVmdCIpfSBhcmlhLWhpZGRlbj0idHJ1ZSI+CiAgICAgICAgICAgICAgICAgIDxQYWdlRmFjZSBwYWdlPXtwcmV2UGFnZX0gLz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAge25leHRQYWdlICYmIGRyYWcgPCAwICYmICgKICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e2ZhY2VTdHlsZSgicmlnaHQiKX0gYXJpYS1oaWRkZW49InRydWUiPgogICAgICAgICAgICAgICAgICA8UGFnZUZhY2UgcGFnZT17bmV4dFBhZ2V9IC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApfQogICAgICAgICAgICA8Lz4KCiAgICAgICAgICApfQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCgogICAgICB7LyogM0QgZWRnZSBhcnJvd3Mgc2hvd2luZyB0aGUgcGFnZXMgZWl0aGVyIHNpZGUgb2YgdGhpcyBvbmUuICovfQogICAgICB7IXpvb21lZE91dCAmJiAoCiAgICAgICAgPFN3aXBlQXJyb3dzCiAgICAgICAgICBwcmV2PXtwcmV2UGFnZX0KICAgICAgICAgIG5leHQ9e25leHRQYWdlfQogICAgICAgICAgZHJhZz17ZHJhZ30KICAgICAgICAgIGFybWVkPXthcm1lZH0KICAgICAgICAgIGFuaW1hdGU9e21vdGlvbk9rfQogICAgICAgIC8+CiAgICAgICl9CgoKICAgICAgey8qIEVkZ2UgZ2xvdyArIG5leHQtcGFnZSBsYWJlbCB3aGlsZSBhIHN3aXBlIGlzIGFybWVkLiAqL30KICAgICAge2FybWVkICYmICgKICAgICAgICA8ZGl2CiAgICAgICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgICAgICAgIGNsYXNzTmFtZT17YG1kOmhpZGRlbiBwb2ludGVyLWV2ZW50cy1ub25lIGZpeGVkIGluc2V0LXktMCB6LTMwIHctMjQgYW5pbWF0ZS1mYWRlLWluICR7CiAgICAgICAgICAgIGFybWVkID09PSAibGVmdCIKICAgICAgICAgICAgICA/ICJyaWdodC0wIGJnLWdyYWRpZW50LXRvLWwgZnJvbS1wcmltYXJ5LzM1IHRvLXRyYW5zcGFyZW50IgogICAgICAgICAgICAgIDogImxlZnQtMCBiZy1ncmFkaWVudC10by1yIGZyb20tcHJpbWFyeS8zNSB0by10cmFuc3BhcmVudCIKICAgICAgICAgIH1gfQogICAgICAgID4KICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIGNsYXNzTmFtZT17YGFic29sdXRlIHRvcC0xLzIgLXRyYW5zbGF0ZS15LTEvMiB3aGl0ZXNwYWNlLW5vd3JhcCByb3VuZGVkLWZ1bGwgYm9yZGVyIGJvcmRlci1wcmltYXJ5LzYwIGJnLWNhcmQvOTUgcHgtMyBweS0xIHRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy1bMC4yZW1dIHRleHQtcHJpbWFyeSBzaGFkb3ctbGcgJHsKICAgICAgICAgICAgICBhcm1lZCA9PT0gImxlZnQiID8gInJpZ2h0LTMiIDogImxlZnQtMyIKICAgICAgICAgICAgfWB9CiAgICAgICAgICA+CiAgICAgICAgICAgIHsoYXJtZWQgPT09ICJsZWZ0IiA/IG5leHRQYWdlIDogcHJldlBhZ2UpPy5sYWJlbH0KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICA8L2Rpdj4KICAgICAgKX0KCiAgICAgIHsvKiBSaXBwbGUgZnJvbSB0aGUgZG91YmxlLXRhcCBwb2ludCBhcyB0aGUgZGFzaGJvYXJkIG9wZW5zLiAqL30KICAgICAge3JpcHBsZSAmJiAoCiAgICAgICAgPHNwYW4KICAgICAgICAgIGtleT17cmlwcGxlLmlkfQogICAgICAgICAgYXJpYS1oaWRkZW49InRydWUiCiAgICAgICAgICBvbkFuaW1hdGlvbkVuZD17KCkgPT4gc2V0UmlwcGxlKG51bGwpfQogICAgICAgICAgY2xhc3NOYW1lPSJwb2ludGVyLWV2ZW50cy1ub25lIGZpeGVkIHotWzY1XSBoLTEwIHctMTAgLXRyYW5zbGF0ZS14LTEvMiAtdHJhbnNsYXRlLXktMS8yIHJvdW5kZWQtZnVsbCBib3JkZXItMiBib3JkZXItcHJpbWFyeS83MCBbYW5pbWF0aW9uOnRhcC1yaXBwbGVfMC40NXNfZWFzZS1vdXRfZm9yd2FyZHNdIgogICAgICAgICAgc3R5bGU9e3sgbGVmdDogcmlwcGxlLngsIHRvcDogcmlwcGxlLnkgfX0KICAgICAgICAvPgogICAgICApfQoKICAgICAge2hpbnQgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtZDpoaWRkZW4gZml4ZWQgaW5zZXQteC0wIGJvdHRvbS0yNCB6LVs2MF0gZmxleCBqdXN0aWZ5LWNlbnRlciBweC02Ij4KICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRIaW50KGZhbHNlKX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLXByaW1hcnkvNDAgYmctY2FyZC85NSBweC00IHB5LTMgdGV4dC1sZWZ0IHNoYWRvdy1sZyBhbmltYXRlLWZhZGUtaW4gYmFja2Ryb3AtYmx1ciIKICAgICAgICAgID4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IHNocmluay0wIGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgICA8Q2hldnJvbkxlZnQgY2xhc3NOYW1lPSJoLTUgdy01IHRleHQtcHJpbWFyeSIgc3Ryb2tlV2lkdGg9ezN9IC8+CiAgICAgICAgICAgICAgPENoZXZyb25SaWdodCBjbGFzc05hbWU9ImgtNSB3LTUgdGV4dC1wcmltYXJ5IiBzdHJva2VXaWR0aD17M30gLz4KICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzExcHhdIGxlYWRpbmctdGlnaHQgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlIHRleHQtZm9yZWdyb3VuZCI+U3dpcGUgdG8gbmF2aWdhdGU8L3NwYW4+CiAgICAgICAgICAgICAgPGJyIC8+CiAgICAgICAgICAgICAgVXNlIHRoZSAzRCBhcnJvd3Mgb24gdGhlIGVkZ2VzIHRvIHN3aXBlIGJldHdlZW4gcGFnZXMgwrcgZG91YmxlLXRhcCB0byBzZWUgYWxsCiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICApfQoKICAgICAgeyF6b29tZWRPdXQgJiYgPFBhZ2VQcm9ncmVzcyBwYWdlcz17cGFnZXN9IGluZGV4PXtpbmRleH0gYXJtZWQ9e2FybWVkfSAvPn0KCiAgICAgIDxQYWdlU3dpdGNoZXIKICAgICAgICBwYWdlcz17cGFnZXN9CiAgICAgICAgYWN0aXZlSW5kZXg9e2luZGV4fQogICAgICAgIG9wZW49e3pvb21lZE91dH0KICAgICAgICBvbkNsb3NlPXsoKSA9PiBzZXRab29tZWRPdXQoZmFsc2UpfQogICAgICAgIG9uUGljaz17cGlja30KICAgICAgLz4KICAgIDwvPgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBTd2lwZU5hdmlnYXRvcjsK
+import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useRouter } from "@tanstack/react-router";
+import { useLocation, useNavigate } from "@/lib/router-compat";
+
+import PageSwitcher from "@/components/community/PageSwitcher";
+import PageProgress from "@/components/community/PageProgress";
+import SwipeArrows from "@/components/community/SwipeArrows";
+import { pageIndex, visiblePages, wrapIndex, type CommunityPage } from "@/lib/community-pages";
+import { useAuth } from "@/hooks/useAuth";
+import { motionAllowed } from "@/lib/motion";
+import { useMotionAllowed } from "@/hooks/useMotionAllowed";
+import { haptic } from "@/lib/haptics";
+import { useGamepad, rumble, type GamepadAction } from "@/hooks/useGamepad";
+
+/** Horizontal distance (px) that counts as a page swipe. */
+const SWIPE_DISTANCE = 70;
+/** Max time between two taps for a double-tap (ms). */
+const DOUBLE_TAP_MS = 320;
+/** Max movement for a touch to still count as a tap (px). */
+const TAP_SLOP = 12;
+const HINT_KEY = "onsight-swipe-hint";
+
+/** Elements whose own gestures must win over page swiping. */
+const NO_SWIPE = [
+  "input",
+  "textarea",
+  "select",
+  "canvas",
+  "iframe",
+  "video",
+  "[contenteditable='true']",
+  "[draggable='true']",
+  "[data-no-swipe]",
+  "[role='slider']",
+  "[role='dialog']",
+  "[role='tablist']",
+  "[data-radix-scroll-area-viewport]",
+  ".leaflet-container",
+  ".maplibregl-map",
+  ".mapboxgl-map",
+  ".no-swipe",
+].join(", ");
+
+/** A swipe must be this much more horizontal than vertical to count. */
+const AXIS_RATIO = 1.6;
+/** Movement before the axis is decided (px). */
+const AXIS_LOCK = 14;
+
+/**
+ * True when an ancestor claims horizontal gestures for itself — either it
+ * scrolls sideways, or it opts out via touch-action (pan-x / none / pinch-zoom).
+ */
+const ownsHorizontalGesture = (start: EventTarget | null, root: HTMLElement) => {
+  let el = start instanceof Element ? start : null;
+  while (el && el !== root) {
+    const style = getComputedStyle(el);
+    if (el.scrollWidth > el.clientWidth + 4) {
+      const overflow = style.overflowX;
+      if (overflow === "auto" || overflow === "scroll") return true;
+    }
+    const touch = style.touchAction;
+    if (touch && touch !== "auto" && touch !== "pan-y" && touch !== "manipulation") return true;
+    el = el.parentElement;
+  }
+  return false;
+};
+
+/** Page is pinch-zoomed, or a modal/sheet is open — leave gestures alone. */
+const gesturesBlocked = () => {
+  if (typeof window === "undefined") return true;
+  const scale = window.visualViewport?.scale ?? 1;
+  if (scale > 1.05) return true;
+  return !!document.querySelector(
+    "[role='dialog'][data-state='open'], [role='alertdialog'][data-state='open'], [data-swipe-block]",
+  );
+};
+
+/**
+ * Static preview of a neighbouring page, shown on the turning cube's side.
+ * It mimics the real page chrome — tinted header with the page identity, then
+ * a calm content skeleton — so the turn reads as a page, not a placeholder.
+ */
+const PageFace = ({ page }: { page: CommunityPage }) => {
+  const Icon = page.icon;
+  return (
+    <div className="flex h-full w-full flex-col bg-background">
+      <div className={`bg-gradient-to-br ${page.tint} px-5 pb-6 pt-8`}>
+        <div className="flex items-center gap-3">
+          <span className="grid h-11 w-11 place-items-center rounded-xl border border-border/50 bg-background/60 backdrop-blur-sm">
+            <Icon className="h-5 w-5 text-foreground" />
+          </span>
+          <div className="min-w-0">
+            <p className="text-[10px] uppercase tracking-[0.3em] text-foreground/60">Ticklelist</p>
+            <p className="font-display text-xl tracking-wider text-foreground">{page.label}</p>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-1 flex-col gap-3 px-5 pt-5">
+        {[0, 1, 2, 3].map((i) => (
+          <div
+            key={i}
+            className="rounded-lg border border-border/50 bg-card/70 p-3"
+            style={{ opacity: 1 - i * 0.22 }}
+          >
+            <div className="h-2.5 w-1/3 rounded-full bg-foreground/20" />
+            <div className="mt-2 h-2 w-4/5 rounded-full bg-foreground/10" />
+            <div className="mt-1.5 h-2 w-2/3 rounded-full bg-foreground/10" />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+
+/**
+ * Phone-style navigation for the community: swipe left/right to move between
+ * pages, double-tap to zoom out to a 3D grid of every page, tap an icon to
+ * zoom back in. Touch only — mouse and keyboard keep the normal nav.
+ */
+const SwipeNavigator = ({ children }: { children: ReactNode }) => {
+
+  const { user } = useAuth();
+  const navigate = useNavigate();
+  const router = useRouter();
+  const location = useLocation();
+
+  const pages = visiblePages(!!user);
+  const index = pageIndex(pages, location.pathname);
+
+  const [zoomedOut, setZoomedOut] = useState(false);
+  const [enter, setEnter] = useState<"left" | "right" | "zoom" | null>(null);
+  const [drag, setDrag] = useState(0);
+  /** True while a committed swipe animates out to the page boundary. */
+  const [snapping, setSnapping] = useState(false);
+  /** One frame with transitions off, used to reset the cube after a commit. */
+  const [instant, setInstant] = useState(false);
+  const [hint, setHint] = useState(false);
+  /** Direction whose swipe threshold is currently armed (drives the edge glow). */
+  const [armed, setArmed] = useState<"left" | "right" | null>(null);
+  /** Where the double-tap landed, for the zoom-out ripple. */
+  const [ripple, setRipple] = useState<{ x: number; y: number; id: number } | null>(null);
+  /** Stage width, used to size the cube so faces meet with no gap. */
+  const [stageWidth, setStageWidth] = useState(360);
+
+  const hostRef = useRef<HTMLDivElement | null>(null);
+
+  const start = useRef<{ x: number; y: number; t: number } | null>(null);
+  const axis = useRef<"none" | "x" | "y">("none");
+  const lastTap = useRef(0);
+  const armedRef = useRef<"left" | "right" | null>(null);
+  /** Last move sample, for flick velocity. */
+  const sample = useRef<{ x: number; t: number } | null>(null);
+
+
+  // Keep the cube geometry in sync with the viewport width.
+  useEffect(() => {
+    const el = hostRef.current;
+    if (!el || typeof ResizeObserver === "undefined") return;
+    const measure = () => setStageWidth(el.getBoundingClientRect().width || 360);
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
+  // One-time coach mark for touch visitors — only on the welcome (feed) page.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (location.pathname !== "/community") return;
+    if (!window.matchMedia?.("(pointer: coarse)").matches) return;
+    try {
+      if (window.localStorage.getItem(HINT_KEY)) return;
+      window.localStorage.setItem(HINT_KEY, "1");
+    } catch {
+      /* storage unavailable — show it once for this session */
+    }
+    setHint(true);
+    const id = window.setTimeout(() => setHint(false), 8000);
+    return () => window.clearTimeout(id);
+  }, [location.pathname]);
+
+  const go = useCallback(
+    (target: number, direction: "left" | "right" | "zoom") => {
+      const page = pages[target];
+      if (!page) return;
+      setEnter(motionAllowed() ? direction : null);
+      navigate(page.to);
+    },
+    [navigate, pages],
+  );
+
+  /**
+   * Finish a committed swipe by carrying the cube all the way round to the
+   * neighbouring face, then swapping in the real page with transitions off so
+   * there is no visible snap-back.
+   */
+  const snapTo = useCallback(
+    (target: number, direction: "left" | "right") => {
+      const page = pages[target];
+      if (!page) return;
+      if (!motionAllowed()) {
+        go(target, direction);
+        return;
+      }
+      const width = stageWidth || 360;
+      setSnapping(true);
+      setDrag(direction === "left" ? -width : width);
+      window.setTimeout(() => {
+        setEnter(null);
+        setInstant(true);
+        setSnapping(false);
+        setDrag(0);
+        navigate(page.to);
+        requestAnimationFrame(() => setInstant(false));
+      }, 230);
+    },
+    [go, navigate, pages, stageWidth],
+  );
+
+
+  const cancelGesture = useCallback(() => {
+    start.current = null;
+    axis.current = "none";
+    armedRef.current = null;
+    setArmed(null);
+    setDrag(0);
+  }, []);
+
+  // Any vertical page scroll during a gesture means the user is reading, not
+  // swiping — drop the gesture immediately.
+  useEffect(() => {
+    const onScroll = () => {
+      if (start.current && axis.current !== "x") cancelGesture();
+    };
+    window.addEventListener("scroll", onScroll, { passive: true, capture: true });
+    return () => window.removeEventListener("scroll", onScroll, true);
+  }, [cancelGesture]);
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    if (zoomedOut) return;
+    // Multi-touch (pinch-zoom, two-finger pan) is never a page swipe.
+    if (e.touches.length !== 1) {
+      cancelGesture();
+      return;
+    }
+    if (gesturesBlocked()) {
+      start.current = null;
+      return;
+    }
+    const touch = e.touches[0];
+    if (!touch) return;
+    const target = e.target as Element | null;
+    if (target?.closest(NO_SWIPE)) {
+      start.current = null;
+      return;
+    }
+    start.current = { x: touch.clientX, y: touch.clientY, t: performance.now() };
+    sample.current = { x: touch.clientX, t: performance.now() };
+    axis.current = "none";
+  };
+
+  const onTouchMove = (e: React.TouchEvent) => {
+    // A second finger landed mid-gesture: hand it back to the browser (pinch).
+    if (e.touches.length > 1) {
+      cancelGesture();
+      return;
+    }
+    const s = start.current;
+    const touch = e.touches[0];
+    if (!s || !touch) return;
+    const dx = touch.clientX - s.x;
+    const dy = touch.clientY - s.y;
+
+    if (axis.current === "none") {
+      if (Math.abs(dx) < AXIS_LOCK && Math.abs(dy) < AXIS_LOCK) return;
+      // Needs to be clearly horizontal, and nothing in between may claim the
+      // gesture (sideways scrollers, maps, sliders, custom touch-action).
+      const clearlyHorizontal = Math.abs(dx) > Math.abs(dy) * AXIS_RATIO;
+      const host = hostRef.current;
+      if (!clearlyHorizontal || (host && ownsHorizontalGesture(e.target, host))) {
+        axis.current = "y";
+        start.current = null;
+        return;
+      }
+      axis.current = "x";
+    }
+
+    if (axis.current === "x") {
+      sample.current = { x: touch.clientX, t: performance.now() };
+      const canTurn = index >= 0 && pages.length > 1;
+      const width = stageWidth || 360;
+      // Track the finger 1:1 so the cube face stays under the thumb.
+      const offset = canTurn ? dx : dx * 0.16;
+      setDrag(Math.max(-width, Math.min(width, offset)));
+
+      // Arm/disarm the commit threshold, with a haptic tick the moment it arms.
+      let next: "left" | "right" | null = null;
+      if (canTurn && Math.abs(dx) > SWIPE_DISTANCE) {
+        next = dx < 0 ? "left" : "right";
+      }
+      if (next !== armedRef.current) {
+        armedRef.current = next;
+        setArmed(next);
+        if (next) haptic("tick");
+      }
+    }
+  };
+
+  const onTouchEnd = (e: React.TouchEvent) => {
+    const s = start.current;
+    const last = sample.current;
+    start.current = null;
+    sample.current = null;
+    if (!s) {
+      setDrag(0);
+      return;
+    }
+
+    const touch = e.changedTouches[0];
+    if (!touch) return;
+    const dx = touch.clientX - s.x;
+    const dy = touch.clientY - s.y;
+    const elapsed = performance.now() - s.t;
+
+    armedRef.current = null;
+    setArmed(null);
+
+    // A quick flick counts even when it did not travel the full distance.
+    const flick =
+      !!last && performance.now() - last.t < 120 && Math.abs(dx) > TAP_SLOP * 3 && Math.abs(dx) / Math.max(elapsed, 1) > 0.5;
+    const committed = Math.abs(dx) > SWIPE_DISTANCE || flick;
+
+    if (axis.current === "x" && committed && Math.abs(dx) > Math.abs(dy)) {
+      if (index >= 0 && pages.length > 1) {
+        haptic("select");
+        if (dx < 0) snapTo(wrapIndex(pages.length, index + 1), "left");
+        else snapTo(wrapIndex(pages.length, index - 1), "right");
+      } else {
+        setDrag(0);
+      }
+      axis.current = "none";
+      lastTap.current = 0;
+      return;
+    }
+
+    axis.current = "none";
+    setDrag(0);
+
+    // Double tap on the page background zooms out to the app grid.
+    const isTap = Math.abs(dx) < TAP_SLOP && Math.abs(dy) < TAP_SLOP && elapsed < 300;
+    if (!isTap) return;
+    const target = e.target as Element | null;
+    if (target?.closest("a, button, input, textarea, select, label, [role='button'], canvas")) {
+      lastTap.current = 0;
+      return;
+    }
+    const now = performance.now();
+    if (now - lastTap.current < DOUBLE_TAP_MS) {
+      lastTap.current = 0;
+      setHint(false);
+      haptic("zoom");
+      setRipple({ x: touch.clientX, y: touch.clientY, id: now });
+      setZoomedOut(true);
+    } else {
+      lastTap.current = now;
+    }
+  };
+
+  // Controller navigation while the page is open: bumpers/D-pad move between
+  // pages, Y/Menu (or A on a page) opens the dashboard grid.
+  const onPadAction = useCallback(
+    (action: GamepadAction) => {
+      if (action === "left" && index >= 0 && pages.length > 1) {
+        haptic("select");
+        rumble(45, 0.3);
+        go(wrapIndex(pages.length, index - 1), "right");
+      } else if (action === "right" && index >= 0 && pages.length > 1) {
+        haptic("select");
+        rumble(45, 0.3);
+        go(wrapIndex(pages.length, index + 1), "left");
+      } else if (action === "menu" || action === "up") {
+        haptic("zoom");
+        rumble(70, 0.4);
+        setZoomedOut(true);
+      }
+    },
+    [go, index, pages.length],
+  );
+
+  useGamepad({ onAction: onPadAction, enabled: !zoomedOut });
+
+  // Clear the entry animation once it has played.
+  useEffect(() => {
+    if (!enter) return;
+    const id = window.setTimeout(() => setEnter(null), 320);
+    return () => window.clearTimeout(id);
+  }, [enter, location.pathname]);
+
+
+  const pick = (page: CommunityPage, i: number) => {
+    setZoomedOut(false);
+    if (i !== index) go(i, "zoom");
+  };
+
+  const motionOk = useMotionAllowed();
+
+  // Reduced motion: no perspective card-turn, just a plain slide/fade.
+  const animation = !motionOk
+    ? undefined
+    : enter === "left"
+      ? "swipe-in-left 0.42s cubic-bezier(0.22, 1, 0.36, 1)"
+      : enter === "right"
+        ? "swipe-in-right 0.42s cubic-bezier(0.22, 1, 0.36, 1)"
+        : enter === "zoom"
+          ? "zoom-in-page 0.36s cubic-bezier(0.22, 1, 0.36, 1)"
+          : undefined;
+
+  // While dragging, the whole stage turns like a cube: the page rotates the
+  // same way the finger moves, and the neighbouring page face is already there
+  // on the side that is coming around — no blank gap between pages.
+  const width = stageWidth || 360;
+  const half = Math.max(160, width / 2);
+  const turning = motionOk && (drag !== 0 || snapping);
+  // 1:1 mapping — dragging a full screen width turns the cube a full quarter.
+  const rollAngle = motionOk ? Math.max(-90, Math.min(90, (drag / width) * 90)) : 0;
+  const progress = Math.min(Math.abs(rollAngle) / 90, 1);
+  const stageTransform = turning
+    ? `translateZ(-${half}px) rotateY(${rollAngle}deg)`
+    : !motionOk && drag
+      ? `translateX(${Math.max(-40, Math.min(40, drag))}px)`
+      : undefined;
+
+  // The deck wraps: the first page's left neighbour is the last page, so you
+  // can swipe both ways from the very start.
+  const canWrap = index >= 0 && pages.length > 1;
+  const prevIndex = canWrap ? wrapIndex(pages.length, index - 1) : -1;
+  const nextIndex = canWrap ? wrapIndex(pages.length, index + 1) : -1;
+  const prevPage = canWrap ? pages[prevIndex] : undefined;
+  const nextPage = canWrap ? pages[nextIndex] : undefined;
+
+  // Warm the neighbouring routes (loaders + code) so the swipe lands on a
+  // painted page instead of a spinner.
+  useEffect(() => {
+    let cancelled = false;
+    const warm = () => {
+      if (cancelled) return;
+      [prevPage?.to, nextPage?.to].forEach((to) => {
+        if (!to) return;
+        try {
+          void Promise.resolve(router.preloadRoute({ to: to as never })).catch(() => undefined);
+        } catch {
+          /* preloading is best-effort */
+        }
+      });
+    };
+    const id = window.setTimeout(warm, 250);
+    return () => {
+      cancelled = true;
+      window.clearTimeout(id);
+    };
+  }, [router, prevPage?.to, nextPage?.to]);
+
+  const transitionCurve = instant
+    ? "none"
+    : snapping
+      ? "transform 0.23s cubic-bezier(0.32, 0.72, 0, 1)"
+      : drag
+        ? "none"
+        : "transform 0.32s cubic-bezier(0.22, 1, 0.36, 1)";
+
+  const faceStyle = (side: "left" | "right"): React.CSSProperties => ({
+    position: "absolute",
+    inset: 0,
+    overflow: "hidden",
+    transform: `rotateY(${side === "left" ? -90 : 90}deg) translateZ(${half}px)`,
+    backfaceVisibility: "hidden",
+    WebkitBackfaceVisibility: "hidden",
+    // The incoming face lifts out of shadow as it turns towards the viewer.
+    filter: `brightness(${0.55 + progress * 0.45})`,
+  });
+
+  return (
+    <>
+      <div
+        className="flex-1 flex flex-col"
+        style={motionOk ? { perspective: `${Math.max(900, half * 2.4)}px`, perspectiveOrigin: "50% 45%" } : undefined}
+      >
+        <div
+          ref={hostRef}
+          onTouchStart={onTouchStart}
+          onTouchMove={onTouchMove}
+          onTouchEnd={onTouchEnd}
+          onTouchCancel={cancelGesture}
+          style={{
+            touchAction: "pan-y",
+            transformStyle: motionOk ? "preserve-3d" : "flat",
+            transformOrigin: "center center",
+            transform: stageTransform,
+            transition: transitionCurve,
+            willChange: turning ? "transform" : undefined,
+            position: "relative",
+          }}
+          className="flex-1 flex flex-col"
+        >
+          {/* Front face: the live page. */}
+          <div
+            style={{
+              transform: turning ? `translateZ(${half}px)` : undefined,
+              filter: turning ? `brightness(${1 - progress * 0.45})` : undefined,
+              transition: instant ? "none" : "filter 0.23s ease",
+              animation: drag || snapping ? undefined : animation,
+            }}
+            className="flex-1 flex flex-col"
+          >
+            {children}
+          </div>
+
+
+          {/* Side faces: a preview of the pages either side, so the cube never
+              shows an empty edge while turning. */}
+          {motionOk && turning && (
+            <>
+              {prevPage && drag > 0 && (
+                <div style={faceStyle("left")} aria-hidden="true">
+                  <PageFace page={prevPage} />
+                </div>
+              )}
+              {nextPage && drag < 0 && (
+                <div style={faceStyle("right")} aria-hidden="true">
+                  <PageFace page={nextPage} />
+                </div>
+              )}
+            </>
+
+          )}
+        </div>
+      </div>
+
+
+      {/* 3D edge arrows showing the pages either side of this one. */}
+      {!zoomedOut && (
+        <SwipeArrows
+          prev={prevPage}
+          next={nextPage}
+          drag={drag}
+          armed={armed}
+          animate={motionOk}
+        />
+      )}
+
+
+      {/* Edge glow + next-page label while a swipe is armed. */}
+      {armed && (
+        <div
+          aria-hidden="true"
+          className={`md:hidden pointer-events-none fixed inset-y-0 z-30 w-24 animate-fade-in ${
+            armed === "left"
+              ? "right-0 bg-gradient-to-l from-primary/35 to-transparent"
+              : "left-0 bg-gradient-to-r from-primary/35 to-transparent"
+          }`}
+        >
+          <span
+            className={`absolute top-1/2 -translate-y-1/2 whitespace-nowrap rounded-full border border-primary/60 bg-card/95 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-primary shadow-lg ${
+              armed === "left" ? "right-3" : "left-3"
+            }`}
+          >
+            {(armed === "left" ? nextPage : prevPage)?.label}
+          </span>
+        </div>
+      )}
+
+      {/* Ripple from the double-tap point as the dashboard opens. */}
+      {ripple && (
+        <span
+          key={ripple.id}
+          aria-hidden="true"
+          onAnimationEnd={() => setRipple(null)}
+          className="pointer-events-none fixed z-[65] h-10 w-10 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-primary/70 [animation:tap-ripple_0.45s_ease-out_forwards]"
+          style={{ left: ripple.x, top: ripple.y }}
+        />
+      )}
+
+      {hint && (
+        <div className="md:hidden fixed inset-x-0 bottom-24 z-[60] flex justify-center px-6">
+          <button
+            type="button"
+            onClick={() => setHint(false)}
+            className="flex items-center gap-3 rounded-2xl border border-primary/40 bg-card/95 px-4 py-3 text-left shadow-lg animate-fade-in backdrop-blur"
+          >
+            <span className="flex shrink-0 items-center gap-1.5">
+              <ChevronLeft className="h-5 w-5 text-primary" strokeWidth={3} />
+              <ChevronRight className="h-5 w-5 text-primary" strokeWidth={3} />
+            </span>
+            <span className="text-[11px] leading-tight text-muted-foreground">
+              <span className="font-display tracking-wide text-foreground">Swipe to navigate</span>
+              <br />
+              Use the 3D arrows on the edges to swipe between pages · double-tap to see all
+            </span>
+          </button>
+        </div>
+      )}
+
+      {!zoomedOut && <PageProgress pages={pages} index={index} armed={armed} />}
+
+      <PageSwitcher
+        pages={pages}
+        activeIndex={index}
+        open={zoomedOut}
+        onClose={() => setZoomedOut(false)}
+        onPick={pick}
+      />
+    </>
+  );
+};
+
+export default SwipeNavigator;

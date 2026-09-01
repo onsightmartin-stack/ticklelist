@@ -1,1 +1,43 @@
-aW1wb3J0IFNlbyBmcm9tICJAL2NvbXBvbmVudHMvU2VvIjsKaW1wb3J0IENvbW11bml0eUxheW91dCBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L0NvbW11bml0eUxheW91dCI7CmltcG9ydCBNZW1iZXJzT25seSBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L01lbWJlcnNPbmx5IjsKaW1wb3J0IExlYWRlcmJvYXJkIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvTGVhZGVyYm9hcmQiOwppbXBvcnQgeyBMaW5rIH0gZnJvbSAiQC9saWIvcm91dGVyLWNvbXBhdCI7CmltcG9ydCB7IHVzZUF1dGggfSBmcm9tICJAL2hvb2tzL3VzZUF1dGgiOwppbXBvcnQgeyB1c2VDb21tdW5pdHlEYXRhIH0gZnJvbSAiQC9ob29rcy91c2VDb21tdW5pdHlEYXRhIjsKCmNvbnN0IExlYWRlcmJvYXJkUGFnZSA9ICgpID0+IHsKICBjb25zdCB7IHVzZXIgfSA9IHVzZUF1dGgoKTsKICBjb25zdCB7IGFzY2VudHMsIHZpc2l0cywgcHJvZmlsZXMgfSA9IHVzZUNvbW11bml0eURhdGEoKTsKCiAgaWYgKCF1c2VyKSB7CiAgICByZXR1cm4gKAogICAgICA8Q29tbXVuaXR5TGF5b3V0PgogICAgICA8U2VvCiAgICAgICAgdGl0bGU9IkNsaW1iZXIgTGVhZGVyYm9hcmQg4oCUIFRpY2tsZWxpc3QiCiAgICAgICAgZGVzY3JpcHRpb249IlNlZSB3aGljaCBUaWNrbGVsaXN0IGNsaW1iZXJzIGhhdmUgbG9nZ2VkIHRoZSBtb3N0IGNvdW50cnkgaGlnaCBwb2ludHMgYW5kIGZhbW91cyBwZWFrcywgd2l0aCByYW5rcyBhbmQgYmFkZ2VzLiIKICAgICAgICBub2luZGV4CiAgICAgIC8+CiAgICAgICAgPE1lbWJlcnNPbmx5IHRpdGxlPSJMZWFkZXJib2FyZCBpcyBtZW1iZXJzIG9ubHkiIGRlc2NyaXB0aW9uPSJTaWduIGluIHRvIHNlZSBob3cgY2xpbWJlcnMgcmFuayBhY3Jvc3MgY291bnRyeSBoaWdoIHBvaW50cyBhbmQgZmFtb3VzIHBlYWtzLiIgLz4KICAgICAgPC9Db21tdW5pdHlMYXlvdXQ+CiAgICApOwogIH0KCiAgcmV0dXJuICgKICAgIDxDb21tdW5pdHlMYXlvdXQ+CiAgICAgIDxTZW8KICAgICAgICB0aXRsZT0iQ2xpbWJlciBMZWFkZXJib2FyZCDigJQgVGlja2xlbGlzdCIKICAgICAgICBkZXNjcmlwdGlvbj0iU2VlIHdoaWNoIFRpY2tsZWxpc3QgY2xpbWJlcnMgaGF2ZSBsb2dnZWQgdGhlIG1vc3QgY291bnRyeSBoaWdoIHBvaW50cyBhbmQgZmFtb3VzIHBlYWtzLCB3aXRoIHJhbmtzIGFuZCBiYWRnZXMuIgogICAgICAgIG5vaW5kZXgKICAgICAgLz4KICAgICAgPGgxIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtMnhsIHRyYWNraW5nLXdpZGVyIG1iLTIiPkxlYWRlcmJvYXJkPC9oMT4KICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtYi02Ij4KICAgICAgICBXYW50IGEgcmFua2luZyBmb3Igb25lIHNwZWNpZmljIGxpc3Qg4oCUIFVOIGhpZ2ggcG9pbnRzLCBtYWlubGFuZCBoaWdoIHBvaW50cywgY291bnRyaWVzIHZpc2l0ZWQ/eyIgIn0KICAgICAgICA8TGluayB0bz0iL2NvbW11bml0eS9mcm9udHJ1bm5lcnMiIGNsYXNzTmFtZT0idGV4dC1wcmltYXJ5IGhvdmVyOnVuZGVybGluZSI+U2VlIHRoZSBmcm9udCBydW5uZXJzPC9MaW5rPi4KICAgICAgPC9wPgogICAgICA8TGVhZGVyYm9hcmQgYXNjZW50cz17YXNjZW50c30gdmlzaXRzPXt2aXNpdHN9IHByb2ZpbGVzPXtwcm9maWxlc30gY3VycmVudFVzZXJJZD17dXNlcj8uaWQgPz8gbnVsbH0gLz4KICAgIDwvQ29tbXVuaXR5TGF5b3V0PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBMZWFkZXJib2FyZFBhZ2U7Cg==
+import Seo from "@/components/Seo";
+import CommunityLayout from "@/components/community/CommunityLayout";
+import MembersOnly from "@/components/community/MembersOnly";
+import Leaderboard from "@/components/community/Leaderboard";
+import { Link } from "@/lib/router-compat";
+import { useAuth } from "@/hooks/useAuth";
+import { useCommunityData } from "@/hooks/useCommunityData";
+
+const LeaderboardPage = () => {
+  const { user } = useAuth();
+  const { ascents, visits, profiles } = useCommunityData();
+
+  if (!user) {
+    return (
+      <CommunityLayout>
+      <Seo
+        title="Climber Leaderboard — Ticklelist"
+        description="See which Ticklelist climbers have logged the most country high points and famous peaks, with ranks and badges."
+        noindex
+      />
+        <MembersOnly title="Leaderboard is members only" description="Sign in to see how climbers rank across country high points and famous peaks." />
+      </CommunityLayout>
+    );
+  }
+
+  return (
+    <CommunityLayout>
+      <Seo
+        title="Climber Leaderboard — Ticklelist"
+        description="See which Ticklelist climbers have logged the most country high points and famous peaks, with ranks and badges."
+        noindex
+      />
+      <h1 className="font-display text-2xl tracking-wider mb-2">Leaderboard</h1>
+      <p className="text-sm text-muted-foreground mb-6">
+        Want a ranking for one specific list — UN high points, mainland high points, countries visited?{" "}
+        <Link to="/community/frontrunners" className="text-primary hover:underline">See the front runners</Link>.
+      </p>
+      <Leaderboard ascents={ascents} visits={visits} profiles={profiles} currentUserId={user?.id ?? null} />
+    </CommunityLayout>
+  );
+};
+
+export default LeaderboardPage;

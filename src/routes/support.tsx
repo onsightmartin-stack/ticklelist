@@ -1,1 +1,22 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBTdXBwb3J0IGZyb20gIkAvcGFnZXMvU3VwcG9ydCI7Cgpjb25zdCB0aXRsZSA9ICJTdXBwb3J0IHRoZSBFeHBlZGl0aW9uIOKAlCBPbnNpZ2h0IE1hcnRpbiI7CmNvbnN0IGRlc2NyaXB0aW9uID0KICAiSGVscCBmdW5kIHRoZSBjbGltYiBvZiBldmVyeSBjb3VudHJ5J3MgaGlnaGVzdCBtb3VudGFpbjogb25lLW9mZiB0aXBzLCBQYXlQYWwsIG9yIGZyZWUgd2F5cyB0byBzdXBwb3J0IHRoZSBleHBlZGl0aW9uLiI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9zdXBwb3J0IikoewogIGhlYWQ6ICgpID0+ICh7CiAgICBtZXRhOiBbCiAgICAgIHsgdGl0bGUgfSwKICAgICAgeyBuYW1lOiAiZGVzY3JpcHRpb24iLCBjb250ZW50OiBkZXNjcmlwdGlvbiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6dGl0bGUiLCBjb250ZW50OiB0aXRsZSB9LAogICAgICB7IHByb3BlcnR5OiAib2c6ZGVzY3JpcHRpb24iLCBjb250ZW50OiBkZXNjcmlwdGlvbiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6dHlwZSIsIGNvbnRlbnQ6ICJ3ZWJzaXRlIiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6dXJsIiwgY29udGVudDogImh0dHBzOi8vb25zaWdodG1hcnRpbi5jb20vc3VwcG9ydCIgfSwKICAgICAgeyBuYW1lOiAidHdpdHRlcjpjYXJkIiwgY29udGVudDogInN1bW1hcnlfbGFyZ2VfaW1hZ2UiIH0sCiAgICBdLAogICAgbGlua3M6IFt7IHJlbDogImNhbm9uaWNhbCIsIGhyZWY6ICJodHRwczovL29uc2lnaHRtYXJ0aW4uY29tL3N1cHBvcnQiIH1dLAogIH0pLAogIGNvbXBvbmVudDogU3VwcG9ydCwKfSk7Cg==
+import { createFileRoute } from "@tanstack/react-router";
+import Support from "@/pages/Support";
+
+const title = "Support the Expedition — Onsight Martin";
+const description =
+  "Help fund the climb of every country's highest mountain: one-off tips, PayPal, or free ways to support the expedition.";
+
+export const Route = createFileRoute("/support")({
+  head: () => ({
+    meta: [
+      { title },
+      { name: "description", content: description },
+      { property: "og:title", content: title },
+      { property: "og:description", content: description },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://onsightmartin.com/support" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [{ rel: "canonical", href: "https://onsightmartin.com/support" }],
+  }),
+  component: Support,
+});

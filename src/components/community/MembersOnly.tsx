@@ -1,1 +1,32 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBMb2NrIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CgppbnRlcmZhY2UgUHJvcHMgewogIHRpdGxlPzogc3RyaW5nOwogIGRlc2NyaXB0aW9uPzogc3RyaW5nOwp9CgovKiogU2lnbi1pbiB3YWxsIHNob3duIHRvIHNpZ25lZC1vdXQgdmlzaXRvcnMgb24gbWVtYmVyLW9ubHkgc2NyZWVucy4gKi8KY29uc3QgTWVtYmVyc09ubHkgPSAoewogIHRpdGxlID0gIk1lbWJlcnMgb25seSIsCiAgZGVzY3JpcHRpb24gPSAiU2lnbiBpbiB0byBUaWNrbGVsaXN0IHRvIHNlZSB0aGlzIOKAlCBpdCdzIGZyZWUgYW5kIHRha2VzIGEgZmV3IHNlY29uZHMuIiwKfTogUHJvcHMpID0+ICgKICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkIHAtOCB0ZXh0LWNlbnRlciBtYXgtdy1sZyBteC1hdXRvIj4KICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIHctMTEgaC0xMSByb3VuZGVkLWZ1bGwgYmctc2Vjb25kYXJ5IGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIj4KICAgICAgPExvY2sgY2xhc3NOYW1lPSJ3LTUgaC01IHRleHQtcHJpbWFyeSIgLz4KICAgIDwvZGl2PgogICAgPGgyIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQteGwgdHJhY2tpbmctd2lkZXIgbXQtNCI+e3RpdGxlfTwvaDI+CiAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG10LTIiPntkZXNjcmlwdGlvbn08L3A+CiAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNSBmbGV4IGZsZXgtd3JhcCBnYXAtMiBqdXN0aWZ5LWNlbnRlciI+CiAgICAgIDxCdXR0b24gYXNDaGlsZD4KICAgICAgICA8TGluayB0bz0iL2F1dGgiPlNpZ24gaW48L0xpbms+CiAgICAgIDwvQnV0dG9uPgogICAgICA8QnV0dG9uIGFzQ2hpbGQgdmFyaWFudD0ib3V0bGluZSI+CiAgICAgICAgPExpbmsgdG89Ii9hdXRoIj5DcmVhdGUgYW4gYWNjb3VudDwvTGluaz4KICAgICAgPC9CdXR0b24+CiAgICA8L2Rpdj4KICA8L2Rpdj4KKTsKCmV4cG9ydCBkZWZhdWx0IE1lbWJlcnNPbmx5Owo=
+import { Link } from "@/lib/router-compat";
+import { Lock } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+/** Sign-in wall shown to signed-out visitors on member-only screens. */
+const MembersOnly = ({
+  title = "Members only",
+  description = "Sign in to Ticklelist to see this — it's free and takes a few seconds.",
+}: Props) => (
+  <div className="rounded-lg border border-border bg-card p-8 text-center max-w-lg mx-auto">
+    <div className="mx-auto w-11 h-11 rounded-full bg-secondary flex items-center justify-center">
+      <Lock className="w-5 h-5 text-primary" />
+    </div>
+    <h2 className="font-display text-xl tracking-wider mt-4">{title}</h2>
+    <p className="text-sm text-muted-foreground mt-2">{description}</p>
+    <div className="mt-5 flex flex-wrap gap-2 justify-center">
+      <Button asChild>
+        <Link to="/auth">Sign in</Link>
+      </Button>
+      <Button asChild variant="outline">
+        <Link to="/auth">Create an account</Link>
+      </Button>
+    </div>
+  </div>
+);
+
+export default MembersOnly;

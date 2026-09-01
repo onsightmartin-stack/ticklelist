@@ -1,1 +1,56 @@
-aW1wb3J0IFNlbyBmcm9tICJAL2NvbXBvbmVudHMvU2VvIjsKaW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBTbGlkZXJzSG9yaXpvbnRhbCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCBDb21tdW5pdHlMYXlvdXQgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9Db21tdW5pdHlMYXlvdXQiOwppbXBvcnQgTm90aWZpY2F0aW9uTGlzdCBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L05vdGlmaWNhdGlvbkxpc3QiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvaG9va3MvdXNlQXV0aCI7CmltcG9ydCB7IHVzZU5vdGlmaWNhdGlvbnMgfSBmcm9tICJAL2hvb2tzL3VzZU5vdGlmaWNhdGlvbnMiOwoKY29uc3QgTm90aWZpY2F0aW9uc1BhZ2UgPSAoKSA9PiB7CiAgY29uc3QgeyB1c2VyIH0gPSB1c2VBdXRoKCk7CiAgY29uc3QgeyBpdGVtcywgdW5yZWFkLCBsb2FkaW5nLCBtYXJrUmVhZCwgbWFya0FsbFJlYWQsIHJlbW92ZSB9ID0gdXNlTm90aWZpY2F0aW9ucygpOwoKICByZXR1cm4gKAogICAgPENvbW11bml0eUxheW91dD4KICAgICAgPFNlbwogICAgICAgIHRpdGxlPSJOb3RpZmljYXRpb25zIOKAlCBUaWNrbGVsaXN0IgogICAgICAgIGRlc2NyaXB0aW9uPSJGb2xsb3dzLCBsaWtlcywgY29tbWVudHMgYW5kIG1lbnRpb25zIGZyb20gdGhlIFRpY2tsZWxpc3QgY2xpbWJpbmcgY29tbXVuaXR5LiIKICAgICAgICBub2luZGV4CiAgICAgIC8+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1lbmQganVzdGlmeS1iZXR3ZWVuIGdhcC0zIG1iLTYiPgogICAgICAgIDxkaXY+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy1bMC4zZW1dIHRleHQtcHJpbWFyeSI+VGlja2xlbGlzdDwvcD4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlciB0ZXh0LTJ4bCBtdC0xIj5Ob3RpZmljYXRpb25zPC9oMT4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAge3VucmVhZCA+IDAgJiYgKAogICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIHNpemU9InNtIiBvbkNsaWNrPXttYXJrQWxsUmVhZH0+CiAgICAgICAgICAgICAgTWFyayBhbGwgcmVhZAogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICl9CiAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9InNlY29uZGFyeSIgc2l6ZT0ic20iIGFzQ2hpbGQ+CiAgICAgICAgICAgIDxMaW5rIHRvPSIvY29tbXVuaXR5L25vdGlmaWNhdGlvbnMvc2V0dGluZ3MiPgogICAgICAgICAgICAgIDxTbGlkZXJzSG9yaXpvbnRhbCBjbGFzc05hbWU9InctNCBoLTQgbXItMSIgLz4gUHJlZmVyZW5jZXMKICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgeyF1c2VyID8gKAogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgPExpbmsgdG89Ii9hdXRoIiBjbGFzc05hbWU9InRleHQtcHJpbWFyeSBob3Zlcjp1bmRlcmxpbmUiPlNpZ24gaW48L0xpbms+IHRvIHNlZSB5b3VyIG5vdGlmaWNhdGlvbnMuCiAgICAgICAgPC9wPgogICAgICApIDogbG9hZGluZyA/ICgKICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5Mb2FkaW5n4oCmPC9wPgogICAgICApIDogKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgIDxOb3RpZmljYXRpb25MaXN0IGl0ZW1zPXtpdGVtc30gb25SZWFkPXttYXJrUmVhZH0gb25SZW1vdmU9e3JlbW92ZX0gLz4KICAgICAgICA8L2Rpdj4KICAgICAgKX0KICAgIDwvQ29tbXVuaXR5TGF5b3V0PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBOb3RpZmljYXRpb25zUGFnZTsK
+import Seo from "@/components/Seo";
+import { Link } from "@/lib/router-compat";
+import { SlidersHorizontal } from "lucide-react";
+import CommunityLayout from "@/components/community/CommunityLayout";
+import NotificationList from "@/components/community/NotificationList";
+import { Button } from "@/components/ui/button";
+import { useAuth } from "@/hooks/useAuth";
+import { useNotifications } from "@/hooks/useNotifications";
+
+const NotificationsPage = () => {
+  const { user } = useAuth();
+  const { items, unread, loading, markRead, markAllRead, remove } = useNotifications();
+
+  return (
+    <CommunityLayout>
+      <Seo
+        title="Notifications — Ticklelist"
+        description="Follows, likes, comments and mentions from the Ticklelist climbing community."
+        noindex
+      />
+
+      <div className="flex items-end justify-between gap-3 mb-6">
+        <div>
+          <p className="text-[10px] uppercase tracking-[0.3em] text-primary">Ticklelist</p>
+          <h1 className="font-display tracking-wider text-2xl mt-1">Notifications</h1>
+        </div>
+        <div className="flex items-center gap-2">
+          {unread > 0 && (
+            <Button variant="outline" size="sm" onClick={markAllRead}>
+              Mark all read
+            </Button>
+          )}
+          <Button variant="secondary" size="sm" asChild>
+            <Link to="/community/notifications/settings">
+              <SlidersHorizontal className="w-4 h-4 mr-1" /> Preferences
+            </Link>
+          </Button>
+        </div>
+      </div>
+
+      {!user ? (
+        <p className="text-sm text-muted-foreground">
+          <Link to="/auth" className="text-primary hover:underline">Sign in</Link> to see your notifications.
+        </p>
+      ) : loading ? (
+        <p className="text-sm text-muted-foreground">Loading…</p>
+      ) : (
+        <div className="rounded-lg border border-border bg-card overflow-hidden">
+          <NotificationList items={items} onRead={markRead} onRemove={remove} />
+        </div>
+      )}
+    </CommunityLayout>
+  );
+};
+
+export default NotificationsPage;

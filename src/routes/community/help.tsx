@@ -1,1 +1,16 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBIZWxwUGFnZSBmcm9tICJAL3BhZ2VzL2NvbW11bml0eS9IZWxwUGFnZSI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9jb21tdW5pdHkvaGVscCIpKHsKICBoZWFkOiAoKSA9PiAoewogICAgbWV0YTogWwogICAgICB7IHRpdGxlOiAiSGVscCAmIGJ1ZyByZXBvcnRzIOKAlCBUaWNrbGVsaXN0IiB9LAogICAgICB7IG5hbWU6ICJkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6ICJSZXBvcnQgYSBidWcgb3Igc2VuZCBhbiBpZGVhIHRvIHRoZSBUaWNrbGVsaXN0IHRlYW0uIiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6dGl0bGUiLCBjb250ZW50OiAiSGVscCAmIGJ1ZyByZXBvcnRzIOKAlCBUaWNrbGVsaXN0IiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6ZGVzY3JpcHRpb24iLCBjb250ZW50OiAiUmVwb3J0IGEgYnVnIG9yIHNlbmQgYW4gaWRlYSB0byB0aGUgVGlja2xlbGlzdCB0ZWFtLiIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnR5cGUiLCBjb250ZW50OiAid2Vic2l0ZSIgfSwKICAgICAgeyBuYW1lOiAidHdpdHRlcjpjYXJkIiwgY29udGVudDogInN1bW1hcnkiIH0sCiAgICBdLAogIH0pLAogIGNvbXBvbmVudDogSGVscFBhZ2UsCn0pOwo=
+import { createFileRoute } from "@tanstack/react-router";
+import HelpPage from "@/pages/community/HelpPage";
+
+export const Route = createFileRoute("/community/help")({
+  head: () => ({
+    meta: [
+      { title: "Help & bug reports — Ticklelist" },
+      { name: "description", content: "Report a bug or send an idea to the Ticklelist team." },
+      { property: "og:title", content: "Help & bug reports — Ticklelist" },
+      { property: "og:description", content: "Report a bug or send an idea to the Ticklelist team." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
+  component: HelpPage,
+});

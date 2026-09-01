@@ -1,1 +1,3 @@
-IyBXZWxjb21lIHRvIHlvdXIgTG92YWJsZSBwcm9qZWN0CgpUT0RPOiBEb2N1bWVudCB5b3VyIHByb2plY3QgaGVyZQo=
+# Welcome to your Lovable project
+
+TODO: Document your project here

@@ -1,1 +1,33 @@
-LS0gaW1tdXRhYmxlIGRlZHVwZSBrZXk6IHN0cmlwIHBhcmVudGhlc2VzLCBhY2NlbnRzL2xpZ2F0dXJlcywgbm9uLWFscGhhbnVtZXJpY3MKQ1JFQVRFIE9SIFJFUExBQ0UgRlVOQ1RJT04gcHVibGljLmFzY2VudF9kZWR1cGVfa2V5KF9uYW1lIHRleHQpClJFVFVSTlMgdGV4dApMQU5HVUFHRSBzcWwKSU1NVVRBQkxFClNFVCBzZWFyY2hfcGF0aCA9IHB1YmxpYwpBUyAkJAogIFNFTEVDVCByZWdleHBfcmVwbGFjZSgKICAgIHRyYW5zbGF0ZSgKICAgICAgbG93ZXIocmVnZXhwX3JlcGxhY2UoY29hbGVzY2UoX25hbWUsJycpLCAnXHMqXChbXildKlwpJywgJycsICdnJykpLAogICAgICAnw6HDoMOiw6TDo8Olw6nDqMOqw6vDrcOsw67Dr8Ozw7LDtMO2w7XDusO5w7vDvMOxw6fDvcO/xaHFvsSfxLHFk8Omw7gnLAogICAgICAnYWFhYWFhZWVlZWlpaWlvb29vb3V1dXVuY3l5c3pnaW9lYW8nCiAgICApLAogICAgJ1teYS16MC05XScsICcnLCAnZycpCiQkOwoKLS0gb25lLW9mZiBjbGVhbnVwOiBrZWVwIHRoZSByaWNoZXN0IHJvdyBwZXIgKHVzZXIsIHBlYWsga2V5LCBkYXRlKQpXSVRIIHJhbmtlZCBBUyAoCiAgU0VMRUNUIGlkLAogICAgICAgICByb3dfbnVtYmVyKCkgT1ZFUiAoCiAgICAgICAgICAgUEFSVElUSU9OIEJZIHVzZXJfaWQsIHB1YmxpYy5hc2NlbnRfZGVkdXBlX2tleShwZWFrX25hbWUpLCBhc2NlbnRfZGF0ZQogICAgICAgICAgIE9SREVSIEJZIChwaG90b191cmwgSVMgTk9UIE5VTEwpOjppbnQgKyAodHJpcF9yZXBvcnQgSVMgTk9UIE5VTEwpOjppbnQgKyAocm91dGUgSVMgTk9UIE5VTEwpOjppbnQgREVTQywKICAgICAgICAgICAgICAgICAgICBsZW5ndGgocGVha19uYW1lKSBERVNDLAogICAgICAgICAgICAgICAgICAgIGNyZWF0ZWRfYXQgQVNDCiAgICAgICAgICkgQVMgcm4KICBGUk9NIHB1YmxpYy5hc2NlbnRzCikKREVMRVRFIEZST00gcHVibGljLmFzY2VudHMgYSBVU0lORyByYW5rZWQgciBXSEVSRSBhLmlkID0gci5pZCBBTkQgci5ybiA+IDE7CgpDUkVBVEUgVU5JUVVFIElOREVYIElGIE5PVCBFWElTVFMgYXNjZW50c191bmlxdWVfcGVyX2RheQogIE9OIHB1YmxpYy5hc2NlbnRzICh1c2VyX2lkLCBwdWJsaWMuYXNjZW50X2RlZHVwZV9rZXkocGVha19uYW1lKSwgYXNjZW50X2RhdGUpOwoKUkVWT0tFIEVYRUNVVEUgT04gRlVOQ1RJT04gcHVibGljLmFzY2VudF9kZWR1cGVfa2V5KHRleHQpIEZST00gYW5vbiwgYXV0aGVudGljYXRlZDs=
+-- immutable dedupe key: strip parentheses, accents/ligatures, non-alphanumerics
+CREATE OR REPLACE FUNCTION public.ascent_dedupe_key(_name text)
+RETURNS text
+LANGUAGE sql
+IMMUTABLE
+SET search_path = public
+AS $$
+  SELECT regexp_replace(
+    translate(
+      lower(regexp_replace(coalesce(_name,''), '\s*\([^)]*\)', '', 'g')),
+      'áàâäãåéèêëíìîïóòôöõúùûüñçýÿšžğıœæø',
+      'aaaaaaeeeeiiiiooooouuuuncyyszgioeao'
+    ),
+    '[^a-z0-9]', '', 'g')
+$$;
+
+-- one-off cleanup: keep the richest row per (user, peak key, date)
+WITH ranked AS (
+  SELECT id,
+         row_number() OVER (
+           PARTITION BY user_id, public.ascent_dedupe_key(peak_name), ascent_date
+           ORDER BY (photo_url IS NOT NULL)::int + (trip_report IS NOT NULL)::int + (route IS NOT NULL)::int DESC,
+                    length(peak_name) DESC,
+                    created_at ASC
+         ) AS rn
+  FROM public.ascents
+)
+DELETE FROM public.ascents a USING ranked r WHERE a.id = r.id AND r.rn > 1;
+
+CREATE UNIQUE INDEX IF NOT EXISTS ascents_unique_per_day
+  ON public.ascents (user_id, public.ascent_dedupe_key(peak_name), ascent_date);
+
+REVOKE EXECUTE ON FUNCTION public.ascent_dedupe_key(text) FROM anon, authenticated;

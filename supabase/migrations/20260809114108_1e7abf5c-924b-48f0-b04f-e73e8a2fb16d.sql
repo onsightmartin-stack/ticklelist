@@ -1,1 +1,45 @@
-LS0gUm9sZXMKQ1JFQVRFIFRZUEUgcHVibGljLmFwcF9yb2xlIEFTIEVOVU0gKCdhZG1pbicsICdtb2RlcmF0b3InLCAndXNlcicpOwoKQ1JFQVRFIFRBQkxFIHB1YmxpYy51c2VyX3JvbGVzICgKICBpZCB1dWlkIFBSSU1BUlkgS0VZIERFRkFVTFQgZ2VuX3JhbmRvbV91dWlkKCksCiAgdXNlcl9pZCB1dWlkIE5PVCBOVUxMIFJFRkVSRU5DRVMgYXV0aC51c2VycyhpZCkgT04gREVMRVRFIENBU0NBREUsCiAgcm9sZSBwdWJsaWMuYXBwX3JvbGUgTk9UIE5VTEwsCiAgY3JlYXRlZF9hdCB0aW1lc3RhbXB0eiBOT1QgTlVMTCBERUZBVUxUIG5vdygpLAogIFVOSVFVRSAodXNlcl9pZCwgcm9sZSkKKTsKCkdSQU5UIFNFTEVDVCBPTiBwdWJsaWMudXNlcl9yb2xlcyBUTyBhdXRoZW50aWNhdGVkOwpHUkFOVCBBTEwgT04gcHVibGljLnVzZXJfcm9sZXMgVE8gc2VydmljZV9yb2xlOwoKQUxURVIgVEFCTEUgcHVibGljLnVzZXJfcm9sZXMgRU5BQkxFIFJPVyBMRVZFTCBTRUNVUklUWTsKCkNSRUFURSBPUiBSRVBMQUNFIEZVTkNUSU9OIHB1YmxpYy5oYXNfcm9sZShfdXNlcl9pZCB1dWlkLCBfcm9sZSBwdWJsaWMuYXBwX3JvbGUpClJFVFVSTlMgYm9vbGVhbgpMQU5HVUFHRSBzcWwKU1RBQkxFClNFQ1VSSVRZIERFRklORVIKU0VUIHNlYXJjaF9wYXRoID0gcHVibGljCkFTICQkCiAgU0VMRUNUIEVYSVNUUyAoCiAgICBTRUxFQ1QgMSBGUk9NIHB1YmxpYy51c2VyX3JvbGVzCiAgICBXSEVSRSB1c2VyX2lkID0gX3VzZXJfaWQgQU5EIHJvbGUgPSBfcm9sZQogICkKJCQ7CgpDUkVBVEUgUE9MSUNZICJVc2VycyBjYW4gdmlldyB0aGVpciBvd24gcm9sZXMiCk9OIHB1YmxpYy51c2VyX3JvbGVzIEZPUiBTRUxFQ1QgVE8gYXV0aGVudGljYXRlZApVU0lORyAoYXV0aC51aWQoKSA9IHVzZXJfaWQpOwoKQ1JFQVRFIFBPTElDWSAiQWRtaW5zIGNhbiB2aWV3IGFsbCByb2xlcyIKT04gcHVibGljLnVzZXJfcm9sZXMgRk9SIFNFTEVDVCBUTyBhdXRoZW50aWNhdGVkClVTSU5HIChwdWJsaWMuaGFzX3JvbGUoYXV0aC51aWQoKSwgJ2FkbWluJykpOwoKQ1JFQVRFIFBPTElDWSAiQWRtaW5zIGNhbiBtYW5hZ2Ugcm9sZXMiCk9OIHB1YmxpYy51c2VyX3JvbGVzIEZPUiBBTEwgVE8gYXV0aGVudGljYXRlZApVU0lORyAocHVibGljLmhhc19yb2xlKGF1dGgudWlkKCksICdhZG1pbicpKQpXSVRIIENIRUNLIChwdWJsaWMuaGFzX3JvbGUoYXV0aC51aWQoKSwgJ2FkbWluJykpOwoKLS0gVXNlcm5hbWVzIG9uIHByb2ZpbGVzIChjYXNlLWluc2Vuc2l0aXZlIHVuaXF1ZSkKQUxURVIgVEFCTEUgcHVibGljLnByb2ZpbGVzIEFERCBDT0xVTU4gSUYgTk9UIEVYSVNUUyB1c2VybmFtZSB0ZXh0OwpDUkVBVEUgVU5JUVVFIElOREVYIElGIE5PVCBFWElTVFMgcHJvZmlsZXNfdXNlcm5hbWVfbG93ZXJfaWR4IE9OIHB1YmxpYy5wcm9maWxlcyAobG93ZXIodXNlcm5hbWUpKTs=
+-- Roles
+CREATE TYPE public.app_role AS ENUM ('admin', 'moderator', 'user');
+
+CREATE TABLE public.user_roles (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id uuid NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
+  role public.app_role NOT NULL,
+  created_at timestamptz NOT NULL DEFAULT now(),
+  UNIQUE (user_id, role)
+);
+
+GRANT SELECT ON public.user_roles TO authenticated;
+GRANT ALL ON public.user_roles TO service_role;
+
+ALTER TABLE public.user_roles ENABLE ROW LEVEL SECURITY;
+
+CREATE OR REPLACE FUNCTION public.has_role(_user_id uuid, _role public.app_role)
+RETURNS boolean
+LANGUAGE sql
+STABLE
+SECURITY DEFINER
+SET search_path = public
+AS $$
+  SELECT EXISTS (
+    SELECT 1 FROM public.user_roles
+    WHERE user_id = _user_id AND role = _role
+  )
+$$;
+
+CREATE POLICY "Users can view their own roles"
+ON public.user_roles FOR SELECT TO authenticated
+USING (auth.uid() = user_id);
+
+CREATE POLICY "Admins can view all roles"
+ON public.user_roles FOR SELECT TO authenticated
+USING (public.has_role(auth.uid(), 'admin'));
+
+CREATE POLICY "Admins can manage roles"
+ON public.user_roles FOR ALL TO authenticated
+USING (public.has_role(auth.uid(), 'admin'))
+WITH CHECK (public.has_role(auth.uid(), 'admin'));
+
+-- Usernames on profiles (case-insensitive unique)
+ALTER TABLE public.profiles ADD COLUMN IF NOT EXISTS username text;
+CREATE UNIQUE INDEX IF NOT EXISTS profiles_username_lower_idx ON public.profiles (lower(username));

@@ -1,1 +1,10 @@
-aW1wb3J0IHsgY3JlYXRlTG92YWJsZUNvbmZpZyB9IGZyb20gImxvdmFibGUtYWdlbnQtcGxheXdyaWdodC1jb25maWcvY29uZmlnIjsKCmV4cG9ydCBkZWZhdWx0IGNyZWF0ZUxvdmFibGVDb25maWcoewogIC8vIEFkZCB5b3VyIGN1c3RvbSBwbGF5d3JpZ2h0IGNvbmZpZ3VyYXRpb24gb3ZlcnJpZGVzIGhlcmUKICAvLyBFeGFtcGxlOgogIC8vIHRpbWVvdXQ6IDYwMDAwLAogIC8vIHVzZTogewogIC8vICAgYmFzZVVSTDogJ2h0dHA6Ly9sb2NhbGhvc3Q6MzAwMCcsCiAgLy8gfSwKfSk7Cg==
+import { createLovableConfig } from "lovable-agent-playwright-config/config";
+
+export default createLovableConfig({
+  // Add your custom playwright configuration overrides here
+  // Example:
+  // timeout: 60000,
+  // use: {
+  //   baseURL: 'http://localhost:3000',
+  // },
+});

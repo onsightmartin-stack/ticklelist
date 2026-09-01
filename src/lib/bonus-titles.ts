@@ -1,1 +1,88 @@
-aW1wb3J0IHR5cGUgeyBCYWRnZSB9IGZyb20gIkAvbGliL2JhZGdlcyI7CgovKioKICogSG9ub3VyIGJhZGdlcyDigJQgZWFybmVkIGZvciB0aGUgc3RvcmllcyBubyBjb3VudGVyIGNhbiBtZWFzdXJlOiByZXNjdWVzLAogKiBkYW5nZXJvdXMgZ3JvdW5kLCBhbmQgaGFyZC13b24gZXBpY3MuIE1lbWJlcnMgY2xhaW0gdGhlbSB0aGVtc2VsdmVzCiAqIChob25vdXIgc3lzdGVtKSBhbmQgYW4gYWRtaW4gY2FuIHZlcmlmeSB0aGVtIGxhdGVyLgogKi8KZXhwb3J0IGludGVyZmFjZSBCb251c1RpdGxlRGVmIHsKICBpZDogc3RyaW5nOwogIHRpdGxlOiBzdHJpbmc7CiAgLyoqIFdoYXQgeW91IGhhdmUgdG8gaGF2ZSBkb25lIHRvIHdlYXIgaXQuICovCiAgY3JpdGVyaWE6IHN0cmluZzsKICBncm91cDogc3RyaW5nOwogIC8qKiBFbW9qaSBzaG93biBvbiB0aGUgYmFkZ2UuICovCiAgaWNvbjogc3RyaW5nOwogIC8qKiBSYXJpdHkgZHJpdmVzIHRoZSBiYWRnZSBjb2xvdXIuICovCiAgcmFyaXR5OiAicmFyZSIgfCAiZXBpYyIgfCAibGVnZW5kYXJ5IjsKfQoKZXhwb3J0IGNvbnN0IGJvbnVzVGl0bGVEZWZzOiBCb251c1RpdGxlRGVmW10gPSBbCiAgLy8gUmVzY3VlICYgZ29vZCBkZWVkcwogIHsgaWQ6ICJtb3VudGFpbi1yZXNjdWVyIiwgdGl0bGU6ICJSZXNjdWUgSGVybyIsIGNyaXRlcmlhOiAiSGVscGVkIHNhdmUgc29tZW9uZSdzIGxpZmUgb24gYSBtb3VudGFpbi4iLCBncm91cDogIlJlc2N1ZSAmIGdvb2QgZGVlZHMiLCBpY29uOiAi8J+agSIsIHJhcml0eTogImxlZ2VuZGFyeSIgfSwKICB7IGlkOiAiZmlyc3QtcmVzcG9uZGVyIiwgdGl0bGU6ICJGaXJzdCBSZXNwb25kZXIiLCBjcml0ZXJpYTogIkdhdmUgZmlyc3QgYWlkIG9yIHNoZWx0ZXIgdG8gYSBzdHJhbmdlciBpbiB0aGUgZmllbGQuIiwgZ3JvdXA6ICJSZXNjdWUgJiBnb29kIGRlZWRzIiwgaWNvbjogIuKbke+4jyIsIHJhcml0eTogImVwaWMiIH0sCiAgeyBpZDogInR1cm5hcm91bmQtaGVybyIsIHRpdGxlOiAiU2VsZmxlc3MgU3VtbWl0IiwgY3JpdGVyaWE6ICJBYmFuZG9uZWQgeW91ciBvd24gc3VtbWl0IHRvIGhlbHAgc29tZW9uZSBkb3duLiIsIGdyb3VwOiAiUmVzY3VlICYgZ29vZCBkZWVkcyIsIGljb246ICLwn5SBIiwgcmFyaXR5OiAiZXBpYyIgfSwKICB7IGlkOiAidHJhc2gtaGF1bGVyIiwgdGl0bGU6ICJUcmFzaCBIYXVsZXIiLCBjcml0ZXJpYTogIkNhcnJpZWQgb3RoZXIgcGVvcGxlJ3MgcnViYmlzaCBvZmYgYSBtb3VudGFpbi4iLCBncm91cDogIlJlc2N1ZSAmIGdvb2QgZGVlZHMiLCBpY29uOiAi8J+Xke+4jyIsIHJhcml0eTogInJhcmUiIH0sCiAgeyBpZDogInRyYWlsLWJ1aWxkZXIiLCB0aXRsZTogIlRyYWlsIEFuZ2VsIiwgY3JpdGVyaWE6ICJWb2x1bnRlZXJlZCBvbiB0cmFpbCB3b3JrLCBhIGh1dCBvciBhIGxvY2FsIHJlc2N1ZSB0ZWFtLiIsIGdyb3VwOiAiUmVzY3VlICYgZ29vZCBkZWVkcyIsIGljb246ICLwn5iHIiwgcmFyaXR5OiAicmFyZSIgfSwKCiAgLy8gRGFuZ2Vyb3VzIGdyb3VuZAogIHsgaWQ6ICJjb25mbGljdC16b25lIiwgdGl0bGU6ICJEYXJlZGV2aWwiLCBjcml0ZXJpYTogIlRyYXZlbGxlZCB0aHJvdWdoIGFuIGFjdGl2ZSBjb25mbGljdCB6b25lIG9yIGxldmVsLTQgYWR2aXNvcnkgY291bnRyeS4iLCBncm91cDogIkRhbmdlcm91cyBncm91bmQiLCBpY29uOiAi4pii77iPIiwgcmFyaXR5OiAibGVnZW5kYXJ5IiB9LAogIHsgaWQ6ICJtaW5lZmllbGQtbWFyZ2luIiwgdGl0bGU6ICJNaW5lZmllbGQgTWFyZ2lucyIsIGNyaXRlcmlhOiAiQ2xpbWJlZCBhIHBlYWsgaW4gYSBtaW5lZCBvciBkaXNwdXRlZCBib3JkZXIgYXJlYSDigJQgd2l0aCBsb2NhbCBndWlkYW5jZS4iLCBncm91cDogIkRhbmdlcm91cyBncm91bmQiLCBpY29uOiAi8J+apyIsIHJhcml0eTogImxlZ2VuZGFyeSIgfSwKICB7IGlkOiAiY2xvc2VkLWJvcmRlciIsIHRpdGxlOiAiQm9yZGVyIFJ1bm5lciIsIGNyaXRlcmlhOiAiUmVhY2hlZCBhIGhpZ2ggcG9pbnQgdGhhdCByZXF1aXJlZCBhIHJhcmUgcGVybWl0IG9yIGEgY2xvc2VkIGJvcmRlciBjcm9zc2luZy4iLCBncm91cDogIkRhbmdlcm91cyBncm91bmQiLCBpY29uOiAi8J+bgiIsIHJhcml0eTogImVwaWMiIH0sCiAgeyBpZDogInZvbGNhbm8tYWN0aXZlIiwgdGl0bGU6ICJBc2ggQnJlYXRoZXIiLCBjcml0ZXJpYTogIlN0b29kIG9uIGFuIGFjdGl2ZWx5IGVydXB0aW5nIG9yIGRlZ2Fzc2luZyB2b2xjYW5vLiIsIGdyb3VwOiAiRGFuZ2Vyb3VzIGdyb3VuZCIsIGljb246ICLwn4yLIiwgcmFyaXR5OiAiZXBpYyIgfSwKICB7IGlkOiAicG9sYXItbmlnaHQiLCB0aXRsZTogIlBvbGFyIE5pZ2h0IFdhbGtlciIsIGNyaXRlcmlhOiAiVHJhdmVsbGVkIG9yIGNsaW1iZWQgYWJvdmUgdGhlIHBvbGFyIGNpcmNsZSBpbiBmdWxsIHdpbnRlciBkYXJrbmVzcy4iLCBncm91cDogIkRhbmdlcm91cyBncm91bmQiLCBpY29uOiAi8J+MjCIsIHJhcml0eTogImVwaWMiIH0sCiAgeyBpZDogInNoYXJrLWFsbGV5IiwgdGl0bGU6ICJCZWFzdCBXaGlzcGVyZXIiLCBjcml0ZXJpYTogIlN1cnZpdmVkIGEgY2xvc2UgZW5jb3VudGVyIHdpdGggYSBiZWFyLCBiaWcgY2F0LCBzaGFyayBvciBzaW1pbGFyLiIsIGdyb3VwOiAiRGFuZ2Vyb3VzIGdyb3VuZCIsIGljb246ICLwn5C7IiwgcmFyaXR5OiAicmFyZSIgfSwKCiAgLy8gU3VmZmVyaW5nICYgc3R5bGUKICB7IGlkOiAic3Rvcm0tYml2dnkiLCB0aXRsZTogIlN0b3JtIEJpdm91YWMiLCBjcml0ZXJpYTogIlNwZW50IGFuIHVucGxhbm5lZCBuaWdodCBvdXQgaW4gYSBzZXJpb3VzIHN0b3JtLiIsIGdyb3VwOiAiU3VmZmVyaW5nICYgc3R5bGUiLCBpY29uOiAi4pu6IiwgcmFyaXR5OiAiZXBpYyIgfSwKICB7IGlkOiAic2VsZi1yZXNjdWUiLCB0aXRsZTogIlNlbGYtUmVzY3VlIiwgY3JpdGVyaWE6ICJHb3QgeW91cnNlbGYgb3V0IG9mIGEgY3JldmFzc2UsIHdoaXRlb3V0IG9yIGJlbmlnaHRtZW50IHVuYWlkZWQuIiwgZ3JvdXA6ICJTdWZmZXJpbmcgJiBzdHlsZSIsIGljb246ICLwn6qiIiwgcmFyaXR5OiAiZXBpYyIgfSwKICB7IGlkOiAic29sby1zdW1taXQiLCB0aXRsZTogIkxvbmUgV29sZiIsIGNyaXRlcmlhOiAiQ29tcGxldGVkIGEgc2VyaW91cyBzdW1taXQgZW50aXJlbHkgc29sby4iLCBncm91cDogIlN1ZmZlcmluZyAmIHN0eWxlIiwgaWNvbjogIvCfkLoiLCByYXJpdHk6ICJyYXJlIiB9LAogIHsgaWQ6ICJ3aW50ZXItYXNjZW50IiwgdGl0bGU6ICJXaW50ZXIgV2FycmlvciIsIGNyaXRlcmlhOiAiQSBmdWxsIHdpbnRlciBhc2NlbnQgb2YgYSBzZXJpb3VzIHBlYWsuIiwgZ3JvdXA6ICJTdWZmZXJpbmcgJiBzdHlsZSIsIGljb246ICLinYTvuI8iLCByYXJpdHk6ICJyYXJlIiB9LAogIHsgaWQ6ICJuby1veHlnZW4iLCB0aXRsZTogIlRoaW4gQWlyIFB1cmlzdCIsIGNyaXRlcmlhOiAiQWJvdmUgNzAwMCBtIHdpdGhvdXQgc3VwcGxlbWVudGFyeSBveHlnZW4uIiwgZ3JvdXA6ICJTdWZmZXJpbmcgJiBzdHlsZSIsIGljb246ICLwn6uBIiwgcmFyaXR5OiAibGVnZW5kYXJ5IiB9LAogIHsgaWQ6ICJodW1hbi1wb3dlcmVkIiwgdGl0bGU6ICJIdW1hbiBQb3dlcmVkIiwgY3JpdGVyaWE6ICJSZWFjaGVkIGEgc3VtbWl0IGZyb20geW91ciBvd24gZnJvbnQgZG9vciB3aXRob3V0IG1vdG9ycy4iLCBncm91cDogIlN1ZmZlcmluZyAmIHN0eWxlIiwgaWNvbjogIvCfmrIiLCByYXJpdHk6ICJlcGljIiB9LAogIHsgaWQ6ICJvbnNpZ2h0LXNvbG8iLCB0aXRsZTogIk9uc2lnaHQgRnJlZSBTb2xvIiwgY3JpdGVyaWE6ICJGcmVlIHNvbG9lZCBhIHJvdXRlIG9uc2lnaHQuIiwgZ3JvdXA6ICJTdWZmZXJpbmcgJiBzdHlsZSIsIGljb246ICLwn6eXIiwgcmFyaXR5OiAibGVnZW5kYXJ5IiB9LAogIHsgaWQ6ICJlcGljLWZhaWwiLCB0aXRsZTogIkdsb3Jpb3VzIEZhaWx1cmUiLCBjcml0ZXJpYTogIlR1cm5lZCBhcm91bmQgbWV0cmVzIGZyb20gdGhlIHRvcCBiZWNhdXNlIGl0IHdhcyB0aGUgcmlnaHQgY2FsbC4iLCBncm91cDogIlN1ZmZlcmluZyAmIHN0eWxlIiwgaWNvbjogIvCfjpfvuI8iLCByYXJpdHk6ICJyYXJlIiB9LAogIHsgaWQ6ICJ0eXBlLXR3by1mdW4iLCB0aXRsZTogIlR5cGUgVHdvIEZ1biIsIGNyaXRlcmlhOiAiQW4gYWR2ZW50dXJlIHRoYXQgd2FzIG9ubHkgZW5qb3lhYmxlIGluIGhpbmRzaWdodC4iLCBncm91cDogIlN1ZmZlcmluZyAmIHN0eWxlIiwgaWNvbjogIvCfpKMiLCByYXJpdHk6ICJyYXJlIiB9LApdOwoKZXhwb3J0IGNvbnN0IGJvbnVzVGl0bGVCeUlkID0gKGlkOiBzdHJpbmcpID0+IGJvbnVzVGl0bGVEZWZzLmZpbmQoKHQpID0+IHQuaWQgPT09IGlkKTsKCmV4cG9ydCBjb25zdCByYXJpdHlDbGFzczogUmVjb3JkPEJvbnVzVGl0bGVEZWZbInJhcml0eSJdLCBzdHJpbmc+ID0gewogIHJhcmU6ICJib3JkZXItcHJpbWFyeS80MCBiZy1wcmltYXJ5LzUiLAogIGVwaWM6ICJib3JkZXItYWNjZW50LzUwIGJnLWFjY2VudC8xMCIsCiAgbGVnZW5kYXJ5OiAiYm9yZGVyLWRlc3RydWN0aXZlLzUwIGJnLWRlc3RydWN0aXZlLzEwIiwKfTsKCmV4cG9ydCBpbnRlcmZhY2UgQm9udXNUaXRsZVJvdyB7CiAgaWQ6IHN0cmluZzsKICB1c2VyX2lkOiBzdHJpbmc7CiAgdGl0bGVfaWQ6IHN0cmluZzsKICBzdG9yeTogc3RyaW5nIHwgbnVsbDsKICBoYXBwZW5lZF9vbjogc3RyaW5nIHwgbnVsbDsKICB2ZXJpZmllZDogYm9vbGVhbjsKICBjcmVhdGVkX2F0OiBzdHJpbmc7Cn0KCi8qKiBUdXJucyBjbGFpbWVkIGhvbm91ciByb3dzIGludG8gYmFkZ2VzIGZvciB0aGUgYmFkZ2UgZ3JpZC4gKi8KZXhwb3J0IHR5cGUgSG9ub3VyQmFkZ2UgPSBCYWRnZSAmIHsgcmFyaXR5OiBCb251c1RpdGxlRGVmWyJyYXJpdHkiXTsgdmVyaWZpZWQ6IGJvb2xlYW47IHJvd0lkOiBzdHJpbmcgfTsKCmV4cG9ydCBjb25zdCBob25vdXJCYWRnZXMgPSAocm93czogQm9udXNUaXRsZVJvd1tdKTogSG9ub3VyQmFkZ2VbXSA9PgogIHJvd3MuZmxhdE1hcCgocm93KSA9PiB7CiAgICBjb25zdCBkZWYgPSBib251c1RpdGxlQnlJZChyb3cudGl0bGVfaWQpOwogICAgaWYgKCFkZWYpIHJldHVybiBbXTsKICAgIGNvbnN0IHdoZW4gPSByb3cuaGFwcGVuZWRfb24gPyBgIMK3ICR7cm93LmhhcHBlbmVkX29ufWAgOiAiIjsKICAgIHJldHVybiBbCiAgICAgIHsKICAgICAgICBpZDogYGhvbm91cjoke2RlZi5pZH1gLAogICAgICAgIHJvd0lkOiByb3cuaWQsCiAgICAgICAgbmFtZTogZGVmLnRpdGxlLAogICAgICAgIGRlc2NyaXB0aW9uOiAocm93LnN0b3J5Py50cmltKCkgfHwgZGVmLmNyaXRlcmlhKSArIHdoZW4sCiAgICAgICAgaWNvbjogZGVmLmljb24sCiAgICAgICAgZWFybmVkOiB0cnVlLAogICAgICAgIHByb2dyZXNzOiAxLAogICAgICAgIHRhcmdldDogMSwKICAgICAgICByYXJpdHk6IGRlZi5yYXJpdHksCiAgICAgICAgdmVyaWZpZWQ6IHJvdy52ZXJpZmllZCwKICAgICAgfSwKICAgIF07CiAgfSk7Cg==
+import type { Badge } from "@/lib/badges";
+
+/**
+ * Honour badges — earned for the stories no counter can measure: rescues,
+ * dangerous ground, and hard-won epics. Members claim them themselves
+ * (honour system) and an admin can verify them later.
+ */
+export interface BonusTitleDef {
+  id: string;
+  title: string;
+  /** What you have to have done to wear it. */
+  criteria: string;
+  group: string;
+  /** Emoji shown on the badge. */
+  icon: string;
+  /** Rarity drives the badge colour. */
+  rarity: "rare" | "epic" | "legendary";
+}
+
+export const bonusTitleDefs: BonusTitleDef[] = [
+  // Rescue & good deeds
+  { id: "mountain-rescuer", title: "Rescue Hero", criteria: "Helped save someone's life on a mountain.", group: "Rescue & good deeds", icon: "🚁", rarity: "legendary" },
+  { id: "first-responder", title: "First Responder", criteria: "Gave first aid or shelter to a stranger in the field.", group: "Rescue & good deeds", icon: "⛑️", rarity: "epic" },
+  { id: "turnaround-hero", title: "Selfless Summit", criteria: "Abandoned your own summit to help someone down.", group: "Rescue & good deeds", icon: "🔁", rarity: "epic" },
+  { id: "trash-hauler", title: "Trash Hauler", criteria: "Carried other people's rubbish off a mountain.", group: "Rescue & good deeds", icon: "🗑️", rarity: "rare" },
+  { id: "trail-builder", title: "Trail Angel", criteria: "Volunteered on trail work, a hut or a local rescue team.", group: "Rescue & good deeds", icon: "😇", rarity: "rare" },
+
+  // Dangerous ground
+  { id: "conflict-zone", title: "Daredevil", criteria: "Travelled through an active conflict zone or level-4 advisory country.", group: "Dangerous ground", icon: "☢️", rarity: "legendary" },
+  { id: "minefield-margin", title: "Minefield Margins", criteria: "Climbed a peak in a mined or disputed border area — with local guidance.", group: "Dangerous ground", icon: "🚧", rarity: "legendary" },
+  { id: "closed-border", title: "Border Runner", criteria: "Reached a high point that required a rare permit or a closed border crossing.", group: "Dangerous ground", icon: "🛂", rarity: "epic" },
+  { id: "volcano-active", title: "Ash Breather", criteria: "Stood on an actively erupting or degassing volcano.", group: "Dangerous ground", icon: "🌋", rarity: "epic" },
+  { id: "polar-night", title: "Polar Night Walker", criteria: "Travelled or climbed above the polar circle in full winter darkness.", group: "Dangerous ground", icon: "🌌", rarity: "epic" },
+  { id: "shark-alley", title: "Beast Whisperer", criteria: "Survived a close encounter with a bear, big cat, shark or similar.", group: "Dangerous ground", icon: "🐻", rarity: "rare" },
+
+  // Suffering & style
+  { id: "storm-bivvy", title: "Storm Bivouac", criteria: "Spent an unplanned night out in a serious storm.", group: "Suffering & style", icon: "⛺", rarity: "epic" },
+  { id: "self-rescue", title: "Self-Rescue", criteria: "Got yourself out of a crevasse, whiteout or benightment unaided.", group: "Suffering & style", icon: "🪢", rarity: "epic" },
+  { id: "solo-summit", title: "Lone Wolf", criteria: "Completed a serious summit entirely solo.", group: "Suffering & style", icon: "🐺", rarity: "rare" },
+  { id: "winter-ascent", title: "Winter Warrior", criteria: "A full winter ascent of a serious peak.", group: "Suffering & style", icon: "❄️", rarity: "rare" },
+  { id: "no-oxygen", title: "Thin Air Purist", criteria: "Above 7000 m without supplementary oxygen.", group: "Suffering & style", icon: "🫁", rarity: "legendary" },
+  { id: "human-powered", title: "Human Powered", criteria: "Reached a summit from your own front door without motors.", group: "Suffering & style", icon: "🚲", rarity: "epic" },
+  { id: "onsight-solo", title: "Onsight Free Solo", criteria: "Free soloed a route onsight.", group: "Suffering & style", icon: "🧗", rarity: "legendary" },
+  { id: "epic-fail", title: "Glorious Failure", criteria: "Turned around metres from the top because it was the right call.", group: "Suffering & style", icon: "🎗️", rarity: "rare" },
+  { id: "type-two-fun", title: "Type Two Fun", criteria: "An adventure that was only enjoyable in hindsight.", group: "Suffering & style", icon: "🤣", rarity: "rare" },
+];
+
+export const bonusTitleById = (id: string) => bonusTitleDefs.find((t) => t.id === id);
+
+export const rarityClass: Record<BonusTitleDef["rarity"], string> = {
+  rare: "border-primary/40 bg-primary/5",
+  epic: "border-accent/50 bg-accent/10",
+  legendary: "border-destructive/50 bg-destructive/10",
+};
+
+export interface BonusTitleRow {
+  id: string;
+  user_id: string;
+  title_id: string;
+  story: string | null;
+  happened_on: string | null;
+  verified: boolean;
+  created_at: string;
+}
+
+/** Turns claimed honour rows into badges for the badge grid. */
+export type HonourBadge = Badge & { rarity: BonusTitleDef["rarity"]; verified: boolean; rowId: string };
+
+export const honourBadges = (rows: BonusTitleRow[]): HonourBadge[] =>
+  rows.flatMap((row) => {
+    const def = bonusTitleById(row.title_id);
+    if (!def) return [];
+    const when = row.happened_on ? ` · ${row.happened_on}` : "";
+    return [
+      {
+        id: `honour:${def.id}`,
+        rowId: row.id,
+        name: def.title,
+        description: (row.story?.trim() || def.criteria) + when,
+        icon: def.icon,
+        earned: true,
+        progress: 1,
+        target: 1,
+        rarity: def.rarity,
+        verified: row.verified,
+      },
+    ];
+  });

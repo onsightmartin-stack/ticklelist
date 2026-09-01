@@ -1,1 +1,29 @@
-aW1wb3J0IHsgdXNlUXVlcnkgfSBmcm9tICJAdGFuc3RhY2svcmVhY3QtcXVlcnkiOwppbXBvcnQgeyBnZXRMb2NhdGlvbiB9IGZyb20gIkAvbGliL2dldC1sb2NhdGlvbi5mdW5jdGlvbnMiOwoKZXhwb3J0IGludGVyZmFjZSBMb2NhdGlvbkRhdGEgewogIGxhdDogbnVtYmVyOwogIGxuZzogbnVtYmVyOwogIHJlY29yZGVkX2F0OiBzdHJpbmc7Cn0KCmNvbnN0IGZhbGxiYWNrOiBMb2NhdGlvbkRhdGEgPSB7CiAgbGF0OiA1Ny42OTc4LAogIGxuZzogMTIuMDMzLAogIHJlY29yZGVkX2F0OiAiMjAyNi0wNC0xNSIsCn07CgpleHBvcnQgZnVuY3Rpb24gdXNlQ3VycmVudExvY2F0aW9uKCkgewogIHJldHVybiB1c2VRdWVyeSh7CiAgICBxdWVyeUtleTogWyJjdXJyZW50LWxvY2F0aW9uIl0sCiAgICBxdWVyeUZuOiBhc3luYyAoKTogUHJvbWlzZTxMb2NhdGlvbkRhdGE+ID0+IHsKICAgICAgdHJ5IHsKICAgICAgICBjb25zdCBkYXRhID0gYXdhaXQgZ2V0TG9jYXRpb24oKTsKICAgICAgICByZXR1cm4gKGRhdGEuY3VycmVudCBhcyBMb2NhdGlvbkRhdGEgfCBudWxsKSA/PyBmYWxsYmFjazsKICAgICAgfSBjYXRjaCB7CiAgICAgICAgcmV0dXJuIGZhbGxiYWNrOwogICAgICB9CiAgICB9LAogICAgcmVmZXRjaEludGVydmFsOiAxMDAwICogNjAgKiA2MCwKICB9KTsKfQo=
+import { useQuery } from "@tanstack/react-query";
+import { getLocation } from "@/lib/get-location.functions";
+
+export interface LocationData {
+  lat: number;
+  lng: number;
+  recorded_at: string;
+}
+
+const fallback: LocationData = {
+  lat: 57.6978,
+  lng: 12.033,
+  recorded_at: "2026-04-15",
+};
+
+export function useCurrentLocation() {
+  return useQuery({
+    queryKey: ["current-location"],
+    queryFn: async (): Promise<LocationData> => {
+      try {
+        const data = await getLocation();
+        return (data.current as LocationData | null) ?? fallback;
+      } catch {
+        return fallback;
+      }
+    },
+    refetchInterval: 1000 * 60 * 60,
+  });
+}

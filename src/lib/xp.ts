@@ -1,1 +1,216 @@
-aW1wb3J0IHsgY291bnRyeURpZmZpY3VsdHksIHR5cGUgRGlmZmljdWx0eSB9IGZyb20gIkAvZGF0YS9kaWZmaWN1bHR5IjsKaW1wb3J0IHsgZmFtb3VzUGVha3MgfSBmcm9tICJAL2RhdGEvZmFtb3VzLXBlYWtzIjsKaW1wb3J0IHsgcGVha0xpc3RzIH0gZnJvbSAiQC9kYXRhL3BlYWstbGlzdHMiOwppbXBvcnQgdHlwZSB7IEFzY2VudCB9IGZyb20gIkAvbGliL3BlYWstY2F0YWxvZyI7CmltcG9ydCB7IHJlc29sdmVMZXZlbCB9IGZyb20gIkAvbGliL2xldmVsLWxhZGRlciI7CmltcG9ydCB7IGNvdW50c0FzQ291bnRyeUhpZ2hwb2ludCwgaGlnaHBvaW50Q3JlZGl0S2V5IH0gZnJvbSAiQC9saWIvaGlzdG9yaWMtaGlnaHBvaW50cyI7CgoKLyoqCiAqIFN1bW1pdCBYUCDigJQgYSBjbGltYmVyIHdobyB0aWNrcyB0aGUgMTQgZWlnaHQtdGhvdXNhbmRlcnMgc2hvdWxkIG91dC1zY29yZSBhCiAqIGNsaW1iZXIgd2hvIHN3ZWVwcyB0aGUgRXVyb3BlYW4gaGlnaCBwb2ludHMuIFhQIHNjYWxlcyBzdGVlcGx5IHdpdGggYWx0aXR1ZGUKICogYW5kIGlzIG11bHRpcGxpZWQgYnkgaG93IGhhcmQgdGhlIG1vdW50YWluIGlzLgogKi8KCmV4cG9ydCBjb25zdCBkaWZmaWN1bHR5TXVsdGlwbGllcjogUmVjb3JkPERpZmZpY3VsdHksIG51bWJlcj4gPSB7CiAgdmVyeV9lYXN5OiAxLAogIGVhc3k6IDEuMTUsCiAgbW9kZXJhdGU6IDEuNCwKICBoYXJkOiAxLjgsCiAgZXhwZXJ0OiAyLjMsCn07CgovKiogUmVwZWF0cyBvZiBhIHBlYWsgYWxyZWFkeSBsb2dnZWQgc3RpbGwgY291bnQsIGJ1dCBvbmx5IGF0IGEgZnJhY3Rpb24uICovCmV4cG9ydCBjb25zdCBSRVBFQVRfRkFDVE9SID0gMC4yNTsKY29uc3QgTUlOX1hQID0gMjU7CgovKiogTm90aGluZyBvbiBFYXJ0aCBpcyBoaWdoZXIgdGhhbiBFdmVyZXN0IOKAlCBhbnl0aGluZyBhYm92ZSBpcyBhIGZlZXQvbWV0cmUgbWl4LXVwLiAqLwpjb25zdCBFVkVSRVNUX00gPSA4ODQ5OwoKZXhwb3J0IGNvbnN0IHBhcnNlRWxldmF0aW9uID0gKHZhbHVlOiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkKTogbnVtYmVyID0+IHsKICBpZiAoIXZhbHVlKSByZXR1cm4gMDsKICBjb25zdCBuID0gTnVtYmVyKFN0cmluZyh2YWx1ZSkucmVwbGFjZSgvW14wLTkuXS9nLCAiIikpOwogIGlmICghTnVtYmVyLmlzRmluaXRlKG4pKSByZXR1cm4gMDsKICAvLyBBIHN0cmF5ICIxMyw4NjQgbSIgaXMgZmVldCBtaXNsYWJlbGxlZCBhcyBtZXRyZXM7IHNjb3JlIGl0IGFzIGZlZXQuCiAgcmV0dXJuIG4gPiBFVkVSRVNUX00gPyBNYXRoLnJvdW5kKG4gKiAwLjMwNDgpIDogbjsKfTsKCi8qKiBEaWZmaWN1bHR5IGZvciBwZWFrcyBvdXRzaWRlIHRoZSBjb3VudHJ5IGhpZ2ggcG9pbnQgbGlzdCwgYnkgY3VyYXRlZCBncm91cC4gKi8KY29uc3QgZ3JvdXBEaWZmaWN1bHR5OiBSZWNvcmQ8c3RyaW5nLCBEaWZmaWN1bHR5PiA9IHsKICAiODAwMGVycyI6ICJleHBlcnQiLAogICJIaW1hbGF5YSAmIEthcmFrb3JhbSI6ICJleHBlcnQiLAogICJTZXZlbiBTdW1taXRzIjogImhhcmQiLAogICJBbWVyaWNhcyI6ICJoYXJkIiwKICAiQWxwcyI6ICJoYXJkIiwKICAiVm9sY2Fub2VzIjogIm1vZGVyYXRlIiwKICAiTm9yZGljICYgVUsiOiAiZWFzeSIsCiAgIkFmcmljYSAmIE9jZWFuaWEiOiAibW9kZXJhdGUiLAogICJOb24tVU4gc3RhdGVzIjogImVhc3kiLAogICJVUyBzdGF0ZSBoaWdoIHBvaW50cyI6ICJlYXN5IiwKICAiUG9sYW5kIHZvaXZvZGVzaGlwcyI6ICJlYXN5IiwKfTsKCmNvbnN0IGJ5RWxldmF0aW9uID0gKG06IG51bWJlcik6IERpZmZpY3VsdHkgPT4KICBtID49IDcwMDAgPyAiZXhwZXJ0IiA6IG0gPj0gNTAwMCA/ICJoYXJkIiA6IG0gPj0gMjUwMCA/ICJtb2RlcmF0ZSIgOiBtID49IDEwMDAgPyAiZWFzeSIgOiAidmVyeV9lYXN5IjsKCmV4cG9ydCBjb25zdCBkaWZmaWN1bHR5Rm9yID0gKGFzY2VudDogUGljazxBc2NlbnQsICJwZWFrX3R5cGUiIHwgImNvdW50cnkiIHwgInBlYWtfbmFtZSIgfCAiZWxldmF0aW9uIj4pOiBEaWZmaWN1bHR5ID0+IHsKICBjb25zdCBtZXRyZXMgPSBwYXJzZUVsZXZhdGlvbihhc2NlbnQuZWxldmF0aW9uKTsKICBpZiAoYXNjZW50LnBlYWtfdHlwZSA9PT0gImNvdW50cnlfaGlnaHBvaW50IiAmJiBhc2NlbnQuY291bnRyeSkgewogICAgY29uc3QgZCA9IGNvdW50cnlEaWZmaWN1bHR5W2FzY2VudC5jb3VudHJ5XT8uZGlmZmljdWx0eTsKICAgIGlmIChkKSByZXR1cm4gZDsKICB9CiAgY29uc3QgZnAgPSBmYW1vdXNQZWFrcy5maW5kKChwKSA9PiBwLm5hbWUgPT09IGFzY2VudC5wZWFrX25hbWUpOwogIGNvbnN0IGZyb21Hcm91cCA9IGZwID8gZ3JvdXBEaWZmaWN1bHR5W2ZwLmdyb3VwXSA6IHVuZGVmaW5lZDsKICBpZiAoZnJvbUdyb3VwKSB7CiAgICAvLyBOZXZlciByYXRlIGEgZ2lhbnQgYXMgZWFzeSBqdXN0IGJlY2F1c2UgaXRzIGdyb3VwIGlzIG1pbGQuCiAgICBjb25zdCBhbHQgPSBieUVsZXZhdGlvbihtZXRyZXMpOwogICAgcmV0dXJuIGRpZmZpY3VsdHlNdWx0aXBsaWVyW2FsdF0gPiBkaWZmaWN1bHR5TXVsdGlwbGllcltmcm9tR3JvdXBdID8gYWx0IDogZnJvbUdyb3VwOwogIH0KICByZXR1cm4gYnlFbGV2YXRpb24obWV0cmVzKTsKfTsKCi8qKiBBbHRpdHVkZSBjdXJ2ZTogZG91YmxpbmcgdGhlIGhlaWdodCBnaXZlcyByb3VnaGx5IDQuNXggdGhlIFhQLiAqLwpleHBvcnQgY29uc3QgYmFzZVhwID0gKG1ldHJlczogbnVtYmVyKSA9PiBNYXRoLnJvdW5kKE1hdGgucG93KE1hdGgubWF4KG1ldHJlcywgMCkgLyAxMDAwLCAyLjIpICogMTAwKTsKCmV4cG9ydCBpbnRlcmZhY2UgQXNjZW50WHAgewogIHhwOiBudW1iZXI7CiAgYmFzZTogbnVtYmVyOwogIGRpZmZpY3VsdHk6IERpZmZpY3VsdHk7CiAgbXVsdGlwbGllcjogbnVtYmVyOwogIHJlcGVhdDogYm9vbGVhbjsKfQoKZXhwb3J0IGNvbnN0IHhwRm9yQXNjZW50ID0gKAogIGFzY2VudDogUGljazxBc2NlbnQsICJwZWFrX3R5cGUiIHwgImNvdW50cnkiIHwgInBlYWtfbmFtZSIgfCAiZWxldmF0aW9uIj4sCiAgcmVwZWF0ID0gZmFsc2UsCik6IEFzY2VudFhwID0+IHsKICBjb25zdCBkaWZmaWN1bHR5ID0gZGlmZmljdWx0eUZvcihhc2NlbnQpOwogIGNvbnN0IG11bHRpcGxpZXIgPSBkaWZmaWN1bHR5TXVsdGlwbGllcltkaWZmaWN1bHR5XTsKICBjb25zdCBiYXNlID0gYmFzZVhwKHBhcnNlRWxldmF0aW9uKGFzY2VudC5lbGV2YXRpb24pKTsKICBjb25zdCByYXcgPSBNYXRoLm1heChNYXRoLnJvdW5kKGJhc2UgKiBtdWx0aXBsaWVyKSwgTUlOX1hQKTsKICByZXR1cm4geyB4cDogcmVwZWF0ID8gTWF0aC5yb3VuZChyYXcgKiBSRVBFQVRfRkFDVE9SKSA6IHJhdywgYmFzZSwgZGlmZmljdWx0eSwgbXVsdGlwbGllciwgcmVwZWF0IH07Cn07CgpleHBvcnQgaW50ZXJmYWNlIExldmVsIHsKICBsZXZlbDogbnVtYmVyOwogIHRpdGxlOiBzdHJpbmc7CiAgbWluOiBudW1iZXI7Cn0KCmNvbnN0IGxldmVsVGl0bGVzID0gWwogICJUcmFpbGhlYWQiLCAiUmFtYmxlciIsICJIaWtlciIsICJIaWxsd2Fsa2VyIiwgIlNjcmFtYmxlciIsCiAgIlRyZWtrZXIiLCAiUmlkZ2UgUnVubmVyIiwgIkJvdGh5IER3ZWxsZXIiLCAiQ2Fpcm4gQnVpbGRlciIsICJIaWdocG9pbnRlciIsCiAgIkZlbGwgUnVubmVyIiwgIlZpYSBGZXJyYXRhIEZhbiIsICJHbGFjaWVyIFdhbGtlciIsICJSb3BlIFJvb2tpZSIsICJDcmFtcG9uIENvbnZlcnQiLAogICJBbHBpbmlzdCIsICJJY2UgQ2xpbWJlciIsICJDb3Vsb2lyIEh1bnRlciIsICJOb3J0aCBGYWNlIE5vdmljZSIsICJBcsOqdGUgQXJ0aXN0IiwKICAiTW91bnRhaW5lZXIiLCAiRmFjZSBDbGltYmVyIiwgIk1peGVkIEdyb3VuZCBNYXN0ZXIiLCAiQml2dnkgVmV0ZXJhbiIsICJTdG9ybSBSaWRlciIsCiAgIkJpZyBXYWxsIiwgIlNvbG8gV2FuZGVyZXIiLCAiVHJhdmVyc2UgVGFjdGljaWFuIiwgIldpbnRlciBXYXJyaW9yIiwgIkNvcm5pY2UgUmVhZGVyIiwKICAiRXhwZWRpdGlvbiBMZWFkZXIiLCAiQmFzZWNhbXAgQm9zcyIsICJBY2NsaW1hdGlzYXRpb24gQWNlIiwgIkFsdGl0dWRlIEh1bnRlciIsICJUaGluIEFpciBSZWd1bGFyIiwKICAiU2hlcnBhJ3MgRXF1YWwiLCAiUm9wZSBGaXhlciIsICJTZXJhYyBEb2RnZXIiLCAiQXZhbGFuY2hlIFdoaXNwZXJlciIsICJTdW1taXQgUHVzaGVyIiwKICAiU2V2ZW4gU3VtbWl0ZWVyIiwgIlNlY29uZCBTdW1taXRzIFNsYXllciIsICJWb2xjYW5vIFN3ZWVwZXIiLCAiUmFuZ2UgQ29sbGVjdG9yIiwgIkNvbnRpbmVudGFsIENyb3duZWQiLAogICJBbHBpbmUgUHVyaXN0IiwgIlNwZWVkIEFzY2VudGlvbmlzdCIsICJFbmNoYWlubWVudCBBZGRpY3QiLCAiUmlkZ2UgTGluZSBSb3lhbHR5IiwgIkdyYW5pdGUgU292ZXJlaWduIiwKICAiRGVhdGggWm9uZSIsICI2MDAwZXIgUmVndWxhciIsICI3MDAwZXIgUmVndWxhciIsICI4MDAwZXIgUm9va2llIiwgIjgwMDBlciBDb2xsZWN0b3IiLAogICJOby1PeHlnZW4gQ29udGVuZGVyIiwgIkthcmFrb3JhbSBSZWd1bGFyIiwgIkhpbWFsYXlhIEhhYml0dcOpIiwgIldpbnRlciBIaW1hbGF5YW4iLCAiSzIgQ2xhc3MiLAogICJHcmFuZCBTbGFtIiwgIkV4cGxvcmVycyBHcmFuZCBTbGFtIiwgIlBvbGFyIEhhdWxlciIsICJVbmNsaW1iZWQgTGluZSBTZWVrZXIiLCAiRmlyc3QgQXNjZW50aW9uaXN0IiwKICAiQ2FydG9ncmFwaGVyIG9mIFN1bW1pdHMiLCAiTW91bnRhaW4gSGlzdG9yaWFuIiwgIkd1aWRlYm9vayBBdXRob3IiLCAiTGVnZW5kIG9mIHRoZSBWYWxsZXkiLCAiSWNlZmFsbCBEb2N0b3IiLAogICJTa3kgUnVubmVyIFN1cHJlbWUiLCAiVGhpbiBBaXIgU292ZXJlaWduIiwgIkpldCBTdHJlYW0gUmlkZXIiLCAiQ2xvdWQgTGluZSBEd2VsbGVyIiwgIlN0cmF0b3NwaGVyZSBTY3JhbWJsZXIiLAogICJQZWFrIFdoaXNwZXJlciIsICJTdG9ybSBTdW1tb25lciIsICJNb3VudGFpbiBPcmFjbGUiLCAiS2VlcGVyIG9mIHRoZSBDYWlybnMiLCAiV2FuZGVyZXIgb2YgUmFuZ2VzIiwKICAiVGl0YW4gb2YgdGhlIFRyYXZlcnNlIiwgIk1hc3RlciBvZiB0aGUgTWFzc2lmIiwgIkxvcmQgb2YgdGhlIExlZGdlcyIsICJTb3ZlcmVpZ24gb2YgU2VyYWNzIiwgIkVtcGVyb3Igb2YgRXZlcmVzdCIsCiAgIk15dGhpYyBNb3VudGFpbmVlciIsICJMZWdlbmQgVW5yb3BlZCIsICJJbW1vcnRhbCBBbHBpbmlzdCIsICJBc2NlbmRhbnQiLCAiU2t5Ym9ybmUiLAogICJCZXlvbmQgdGhlIFN1bW1pdCIsICJNb3VudGFpbiBNYWRlIEZsZXNoIiwgIlRoZSBVbmZhbGxpbmciLCAiRXRlcm5hbCBDbGltYmVyIiwgIlN1bW1pdCBMZWdlbmQiLAogICJaZW5pdGgiLCAiQXBleCBBYnNvbHV0ZSIsICJUaGUgTGFzdCBSaWRnZSIsICJDcm93biBvZiB0aGUgV29ybGQiLCAiU3VtbWl0IG9mIFN1bW1pdHMiLApdOwoKLyoqCiAqIExldmVsIHRocmVzaG9sZHMgZ3JvdyBzdGVlcGx5IHRocm91Z2ggdGhlIDEwMCBjdXJhdGVkIHRpdGxlcywgYW5kIHRoZW4ga2VlcAogKiBnb2luZyBmb3JldmVyIOKAlCBwYXN0ICJTdW1taXQgb2YgU3VtbWl0cyIgdGhlIGxhZGRlciBleHRlbmRzIGVuZGxlc3NseQogKiAoU3VtbWl0IG9mIFN1bW1pdHMgSUksIElJSSwgLi4uKSwgc28gdGhlcmUgaXMgbm8gWFAgb3IgbGV2ZWwgY2FwLgogKi8KY29uc3QgTUFYX0xFVkVMX1hQID0gMV8wMDBfMDAwOwpleHBvcnQgY29uc3QgbGV2ZWxzOiBMZXZlbFtdID0gbGV2ZWxUaXRsZXMubWFwKCh0aXRsZSwgaSkgPT4gKHsKICBsZXZlbDogaSArIDEsCiAgdGl0bGUsCiAgbWluOgogICAgaSA9PT0gMAogICAgICA/IDAKICAgICAgOiBNYXRoLm1heCgKICAgICAgICAgIDUwLAogICAgICAgICAgTWF0aC5yb3VuZCgoTUFYX0xFVkVMX1hQICogTWF0aC5wb3coaSAvIChsZXZlbFRpdGxlcy5sZW5ndGggLSAxKSwgMi4yKSkgLyA1MCkgKiA1MCwKICAgICAgICApLAp9KSk7CgoKCmV4cG9ydCBpbnRlcmZhY2UgWHBTdW1tYXJ5IHsKICB0b3RhbDogbnVtYmVyOwogIGxldmVsOiBMZXZlbDsKICBuZXh0OiBMZXZlbCB8IG51bGw7CiAgaW50b0xldmVsOiBudW1iZXI7CiAgbGV2ZWxTcGFuOiBudW1iZXI7CiAgcGN0OiBudW1iZXI7CiAgLyoqIEhpZ2hlc3Qtc2NvcmluZyBzaW5nbGUgYXNjZW50LiAqLwogIGJlc3Q6IHsgbmFtZTogc3RyaW5nOyB4cDogbnVtYmVyIH0gfCBudWxsOwogIC8qKiBYUCBlYXJuZWQgZnJvbSBmaW5pc2hpbmcgd2hvbGUgdGljayBsaXN0cy4gKi8KICBsaXN0Qm9udXM6IG51bWJlcjsKICAvKiogTmFtZXMgb2YgdGhlIGxpc3RzIGNvbXBsZXRlZC4gKi8KICBjb21wbGV0ZWRMaXN0czogc3RyaW5nW107Cn0KCi8qKiBGbGF0IGJvbnVzIGZvciBjb21wbGV0aW5nIGV2ZXJ5IHBlYWsgb24gYSBjdXJhdGVkIHRpY2sgbGlzdC4gKi8KZXhwb3J0IGNvbnN0IExJU1RfQ09NUExFVElPTl9CT05VUyA9IDEwMDA7Cgpjb25zdCBjYXRhbG9nS2V5ID0gKGE6IFBpY2s8QXNjZW50LCAicGVha190eXBlIiB8ICJjb3VudHJ5IiB8ICJwZWFrX25hbWUiIHwgImFzY2VudF9kYXRlIj4pID0+CiAgaGlnaHBvaW50Q3JlZGl0S2V5KGEpOwoKLyoqIExpc3RzIGZ1bGx5IHRpY2tlZCBieSB0aGVzZSBhc2NlbnRzLiAqLwpleHBvcnQgY29uc3QgY29tcGxldGVkTGlzdHNGb3IgPSAoYXNjZW50czogQXNjZW50W10pOiBzdHJpbmdbXSA9PiB7CiAgY29uc3Qga2V5cyA9IG5ldyBTZXQoYXNjZW50cy5tYXAoY2F0YWxvZ0tleSkpOwogIHJldHVybiBwZWFrTGlzdHMKICAgIC5maWx0ZXIoCiAgICAgIChsKSA9PgogICAgICAgIGwuZW50cmllcy5sZW5ndGggPiAwICYmCiAgICAgICAgbC5lbnRyaWVzLmV2ZXJ5KChlKSA9PiBrZXlzLmhhcyhlLmtleSkgfHwgKGUuYWx0ID8/IFtdKS5zb21lKChrKSA9PiBrZXlzLmhhcyhrKSkpLAogICAgKQogICAgLm1hcCgobCkgPT4gbC5uYW1lKTsKfTsKCmV4cG9ydCBjb25zdCBjb21wdXRlWHAgPSAoYXNjZW50czogQXNjZW50W10pOiBYcFN1bW1hcnkgPT4gewogIGNvbnN0IHNlZW4gPSBuZXcgU2V0PHN0cmluZz4oKTsKICBsZXQgdG90YWwgPSAwOwogIGxldCBiZXN0OiB7IG5hbWU6IHN0cmluZzsgeHA6IG51bWJlciB9IHwgbnVsbCA9IG51bGw7CgogIGNvbnN0IG9yZGVyZWQgPSBbLi4uYXNjZW50c10uc29ydCgKICAgIChhLCBiKSA9PiBwYXJzZUVsZXZhdGlvbihiLmVsZXZhdGlvbikgLSBwYXJzZUVsZXZhdGlvbihhLmVsZXZhdGlvbiksCiAgKTsKCiAgZm9yIChjb25zdCBhIG9mIG9yZGVyZWQpIHsKICAgIGNvbnN0IGtleSA9IGAke2EucGVha190eXBlfToke2EucGVha19uYW1lfWA7CiAgICBjb25zdCByZXBlYXQgPSBzZWVuLmhhcyhrZXkpOwogICAgc2Vlbi5hZGQoa2V5KTsKICAgIGNvbnN0IHsgeHAgfSA9IHhwRm9yQXNjZW50KGEsIHJlcGVhdCk7CiAgICB0b3RhbCArPSB4cDsKICAgIGlmICghcmVwZWF0ICYmICghYmVzdCB8fCB4cCA+IGJlc3QueHApKSBiZXN0ID0geyBuYW1lOiBhLnBlYWtfbmFtZSwgeHAgfTsKICB9CgogIGNvbnN0IGNvbXBsZXRlZExpc3RzID0gY29tcGxldGVkTGlzdHNGb3IoYXNjZW50cyk7CiAgY29uc3QgbGlzdEJvbnVzID0gY29tcGxldGVkTGlzdHMubGVuZ3RoICogTElTVF9DT01QTEVUSU9OX0JPTlVTOwogIHRvdGFsICs9IGxpc3RCb251czsKCiAgY29uc3QgeyBsZXZlbCwgbmV4dCB9ID0gcmVzb2x2ZUxldmVsKGxldmVscywgdG90YWwpOwogIGNvbnN0IGxldmVsU3BhbiA9IE1hdGgubWF4KDEsIG5leHQubWluIC0gbGV2ZWwubWluKTsKICBjb25zdCBpbnRvTGV2ZWwgPSB0b3RhbCAtIGxldmVsLm1pbjsKCiAgcmV0dXJuIHsKICAgIHRvdGFsLAogICAgbGV2ZWwsCiAgICBuZXh0LAogICAgaW50b0xldmVsLAogICAgbGV2ZWxTcGFuLAogICAgcGN0OiBNYXRoLm1pbigxMDAsIE1hdGgucm91bmQoKGludG9MZXZlbCAvIGxldmVsU3BhbikgKiAxMDApKSwKICAgIGJlc3QsCiAgICBsaXN0Qm9udXMsCiAgICBjb21wbGV0ZWRMaXN0cywKICB9Owp9OwoKCmV4cG9ydCBjb25zdCBmb3JtYXRYcCA9ICh4cDogbnVtYmVyKSA9PiB4cC50b0xvY2FsZVN0cmluZygpOwo=
+import { countryDifficulty, type Difficulty } from "@/data/difficulty";
+import { famousPeaks } from "@/data/famous-peaks";
+import { peakLists } from "@/data/peak-lists";
+import type { Ascent } from "@/lib/peak-catalog";
+import { resolveLevel } from "@/lib/level-ladder";
+import { countsAsCountryHighpoint, highpointCreditKey } from "@/lib/historic-highpoints";
+
+
+/**
+ * Summit XP — a climber who ticks the 14 eight-thousanders should out-score a
+ * climber who sweeps the European high points. XP scales steeply with altitude
+ * and is multiplied by how hard the mountain is.
+ */
+
+export const difficultyMultiplier: Record<Difficulty, number> = {
+  very_easy: 1,
+  easy: 1.15,
+  moderate: 1.4,
+  hard: 1.8,
+  expert: 2.3,
+};
+
+/** Repeats of a peak already logged still count, but only at a fraction. */
+export const REPEAT_FACTOR = 0.25;
+const MIN_XP = 25;
+
+/** Nothing on Earth is higher than Everest — anything above is a feet/metre mix-up. */
+const EVEREST_M = 8849;
+
+export const parseElevation = (value: string | null | undefined): number => {
+  if (!value) return 0;
+  const n = Number(String(value).replace(/[^0-9.]/g, ""));
+  if (!Number.isFinite(n)) return 0;
+  // A stray "13,864 m" is feet mislabelled as metres; score it as feet.
+  return n > EVEREST_M ? Math.round(n * 0.3048) : n;
+};
+
+/** Difficulty for peaks outside the country high point list, by curated group. */
+const groupDifficulty: Record<string, Difficulty> = {
+  "8000ers": "expert",
+  "Himalaya & Karakoram": "expert",
+  "Seven Summits": "hard",
+  "Americas": "hard",
+  "Alps": "hard",
+  "Volcanoes": "moderate",
+  "Nordic & UK": "easy",
+  "Africa & Oceania": "moderate",
+  "Non-UN states": "easy",
+  "US state high points": "easy",
+  "Poland voivodeships": "easy",
+};
+
+const byElevation = (m: number): Difficulty =>
+  m >= 7000 ? "expert" : m >= 5000 ? "hard" : m >= 2500 ? "moderate" : m >= 1000 ? "easy" : "very_easy";
+
+export const difficultyFor = (ascent: Pick<Ascent, "peak_type" | "country" | "peak_name" | "elevation">): Difficulty => {
+  const metres = parseElevation(ascent.elevation);
+  if (ascent.peak_type === "country_highpoint" && ascent.country) {
+    const d = countryDifficulty[ascent.country]?.difficulty;
+    if (d) return d;
+  }
+  const fp = famousPeaks.find((p) => p.name === ascent.peak_name);
+  const fromGroup = fp ? groupDifficulty[fp.group] : undefined;
+  if (fromGroup) {
+    // Never rate a giant as easy just because its group is mild.
+    const alt = byElevation(metres);
+    return difficultyMultiplier[alt] > difficultyMultiplier[fromGroup] ? alt : fromGroup;
+  }
+  return byElevation(metres);
+};
+
+/** Altitude curve: doubling the height gives roughly 4.5x the XP. */
+export const baseXp = (metres: number) => Math.round(Math.pow(Math.max(metres, 0) / 1000, 2.2) * 100);
+
+export interface AscentXp {
+  xp: number;
+  base: number;
+  difficulty: Difficulty;
+  multiplier: number;
+  repeat: boolean;
+}
+
+export const xpForAscent = (
+  ascent: Pick<Ascent, "peak_type" | "country" | "peak_name" | "elevation">,
+  repeat = false,
+): AscentXp => {
+  const difficulty = difficultyFor(ascent);
+  const multiplier = difficultyMultiplier[difficulty];
+  const base = baseXp(parseElevation(ascent.elevation));
+  const raw = Math.max(Math.round(base * multiplier), MIN_XP);
+  return { xp: repeat ? Math.round(raw * REPEAT_FACTOR) : raw, base, difficulty, multiplier, repeat };
+};
+
+export interface Level {
+  level: number;
+  title: string;
+  min: number;
+}
+
+const levelTitles = [
+  "Trailhead", "Rambler", "Hiker", "Hillwalker", "Scrambler",
+  "Trekker", "Ridge Runner", "Bothy Dweller", "Cairn Builder", "Highpointer",
+  "Fell Runner", "Via Ferrata Fan", "Glacier Walker", "Rope Rookie", "Crampon Convert",
+  "Alpinist", "Ice Climber", "Couloir Hunter", "North Face Novice", "Arête Artist",
+  "Mountaineer", "Face Climber", "Mixed Ground Master", "Bivvy Veteran", "Storm Rider",
+  "Big Wall", "Solo Wanderer", "Traverse Tactician", "Winter Warrior", "Cornice Reader",
+  "Expedition Leader", "Basecamp Boss", "Acclimatisation Ace", "Altitude Hunter", "Thin Air Regular",
+  "Sherpa's Equal", "Rope Fixer", "Serac Dodger", "Avalanche Whisperer", "Summit Pusher",
+  "Seven Summiteer", "Second Summits Slayer", "Volcano Sweeper", "Range Collector", "Continental Crowned",
+  "Alpine Purist", "Speed Ascentionist", "Enchainment Addict", "Ridge Line Royalty", "Granite Sovereign",
+  "Death Zone", "6000er Regular", "7000er Regular", "8000er Rookie", "8000er Collector",
+  "No-Oxygen Contender", "Karakoram Regular", "Himalaya Habitué", "Winter Himalayan", "K2 Class",
+  "Grand Slam", "Explorers Grand Slam", "Polar Hauler", "Unclimbed Line Seeker", "First Ascentionist",
+  "Cartographer of Summits", "Mountain Historian", "Guidebook Author", "Legend of the Valley", "Icefall Doctor",
+  "Sky Runner Supreme", "Thin Air Sovereign", "Jet Stream Rider", "Cloud Line Dweller", "Stratosphere Scrambler",
+  "Peak Whisperer", "Storm Summoner", "Mountain Oracle", "Keeper of the Cairns", "Wanderer of Ranges",
+  "Titan of the Traverse", "Master of the Massif", "Lord of the Ledges", "Sovereign of Seracs", "Emperor of Everest",
+  "Mythic Mountaineer", "Legend Unroped", "Immortal Alpinist", "Ascendant", "Skyborne",
+  "Beyond the Summit", "Mountain Made Flesh", "The Unfalling", "Eternal Climber", "Summit Legend",
+  "Zenith", "Apex Absolute", "The Last Ridge", "Crown of the World", "Summit of Summits",
+];
+
+/**
+ * Level thresholds grow steeply through the 100 curated titles, and then keep
+ * going forever — past "Summit of Summits" the ladder extends endlessly
+ * (Summit of Summits II, III, ...), so there is no XP or level cap.
+ */
+const MAX_LEVEL_XP = 1_000_000;
+export const levels: Level[] = levelTitles.map((title, i) => ({
+  level: i + 1,
+  title,
+  min:
+    i === 0
+      ? 0
+      : Math.max(
+          50,
+          Math.round((MAX_LEVEL_XP * Math.pow(i / (levelTitles.length - 1), 2.2)) / 50) * 50,
+        ),
+}));
+
+
+
+export interface XpSummary {
+  total: number;
+  level: Level;
+  next: Level | null;
+  intoLevel: number;
+  levelSpan: number;
+  pct: number;
+  /** Highest-scoring single ascent. */
+  best: { name: string; xp: number } | null;
+  /** XP earned from finishing whole tick lists. */
+  listBonus: number;
+  /** Names of the lists completed. */
+  completedLists: string[];
+}
+
+/** Flat bonus for completing every peak on a curated tick list. */
+export const LIST_COMPLETION_BONUS = 1000;
+
+const catalogKey = (a: Pick<Ascent, "peak_type" | "country" | "peak_name" | "ascent_date">) =>
+  highpointCreditKey(a);
+
+/** Lists fully ticked by these ascents. */
+export const completedListsFor = (ascents: Ascent[]): string[] => {
+  const keys = new Set(ascents.map(catalogKey));
+  return peakLists
+    .filter(
+      (l) =>
+        l.entries.length > 0 &&
+        l.entries.every((e) => keys.has(e.key) || (e.alt ?? []).some((k) => keys.has(k))),
+    )
+    .map((l) => l.name);
+};
+
+export const computeXp = (ascents: Ascent[]): XpSummary => {
+  const seen = new Set<string>();
+  let total = 0;
+  let best: { name: string; xp: number } | null = null;
+
+  const ordered = [...ascents].sort(
+    (a, b) => parseElevation(b.elevation) - parseElevation(a.elevation),
+  );
+
+  for (const a of ordered) {
+    const key = `${a.peak_type}:${a.peak_name}`;
+    const repeat = seen.has(key);
+    seen.add(key);
+    const { xp } = xpForAscent(a, repeat);
+    total += xp;
+    if (!repeat && (!best || xp > best.xp)) best = { name: a.peak_name, xp };
+  }
+
+  const completedLists = completedListsFor(ascents);
+  const listBonus = completedLists.length * LIST_COMPLETION_BONUS;
+  total += listBonus;
+
+  const { level, next } = resolveLevel(levels, total);
+  const levelSpan = Math.max(1, next.min - level.min);
+  const intoLevel = total - level.min;
+
+  return {
+    total,
+    level,
+    next,
+    intoLevel,
+    levelSpan,
+    pct: Math.min(100, Math.round((intoLevel / levelSpan) * 100)),
+    best,
+    listBonus,
+    completedLists,
+  };
+};
+
+
+export const formatXp = (xp: number) => xp.toLocaleString();

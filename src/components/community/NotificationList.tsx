@@ -1,1 +1,133 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBIZWFydCwgTWVzc2FnZUNpcmNsZSwgQXRTaWduLCBVc2VyUGx1cywgVHJhc2gyLCBQYXJ0eVBvcHBlciwgQnVnIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwppbXBvcnQgTWVtYmVyQXZhdGFyIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvTWVtYmVyQXZhdGFyIjsKaW1wb3J0IHR5cGUgeyBBcHBOb3RpZmljYXRpb24sIE5vdGlmaWNhdGlvbktpbmQgfSBmcm9tICJAL2xpYi9ub3RpZnkiOwppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIjsKCmNvbnN0IGljb25zOiBSZWNvcmQ8Tm90aWZpY2F0aW9uS2luZCwgdHlwZW9mIEhlYXJ0PiA9IHsKICBmb2xsb3c6IFVzZXJQbHVzLAogIGxpa2U6IEhlYXJ0LAogIGNvbW1lbnQ6IE1lc3NhZ2VDaXJjbGUsCiAgbWVudGlvbjogQXRTaWduLAogIGNoZWVyOiBQYXJ0eVBvcHBlciwKICBidWc6IEJ1ZywKfTsKCmNvbnN0IHdoZW4gPSAoaXNvOiBzdHJpbmcpID0+IHsKICBjb25zdCBkaWZmID0gRGF0ZS5ub3coKSAtIG5ldyBEYXRlKGlzbykuZ2V0VGltZSgpOwogIGNvbnN0IG1pbnMgPSBNYXRoLnJvdW5kKGRpZmYgLyA2MDAwMCk7CiAgaWYgKG1pbnMgPCAxKSByZXR1cm4gImp1c3Qgbm93IjsKICBpZiAobWlucyA8IDYwKSByZXR1cm4gYCR7bWluc31tIGFnb2A7CiAgY29uc3QgaHJzID0gTWF0aC5yb3VuZChtaW5zIC8gNjApOwogIGlmIChocnMgPCAyNCkgcmV0dXJuIGAke2hyc31oIGFnb2A7CiAgY29uc3QgZGF5cyA9IE1hdGgucm91bmQoaHJzIC8gMjQpOwogIGlmIChkYXlzIDwgNykgcmV0dXJuIGAke2RheXN9ZCBhZ29gOwogIHJldHVybiBuZXcgRGF0ZShpc28pLnRvTG9jYWxlRGF0ZVN0cmluZyh1bmRlZmluZWQsIHsgZGF5OiAibnVtZXJpYyIsIG1vbnRoOiAic2hvcnQiIH0pOwp9OwoKaW50ZXJmYWNlIEFjdG9yIHsKICBpZDogc3RyaW5nOwogIGRpc3BsYXlfbmFtZTogc3RyaW5nIHwgbnVsbDsKICBhdmF0YXJfdXJsOiBzdHJpbmcgfCBudWxsOwp9CgpleHBvcnQgY29uc3QgdXNlQWN0b3JzID0gKGlkczogc3RyaW5nW10pID0+IHsKICBjb25zdCBrZXkgPSBBcnJheS5mcm9tKG5ldyBTZXQoaWRzKSkuc29ydCgpLmpvaW4oIiwiKTsKICBjb25zdCBbYWN0b3JzLCBzZXRBY3RvcnNdID0gdXNlU3RhdGU8UmVjb3JkPHN0cmluZywgQWN0b3I+Pih7fSk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCBsaXN0ID0ga2V5ID8ga2V5LnNwbGl0KCIsIikgOiBbXTsKICAgIGlmIChsaXN0Lmxlbmd0aCA9PT0gMCkgcmV0dXJuOwogICAgbGV0IGFjdGl2ZSA9IHRydWU7CiAgICBzdXBhYmFzZQogICAgICAuZnJvbSgicHJvZmlsZXMiKQogICAgICAuc2VsZWN0KCJpZCwgZGlzcGxheV9uYW1lLCBhdmF0YXJfdXJsIikKICAgICAgLmluKCJpZCIsIGxpc3QpCiAgICAgIC50aGVuKCh7IGRhdGEgfSkgPT4gewogICAgICAgIGlmICghYWN0aXZlKSByZXR1cm47CiAgICAgICAgY29uc3QgbWFwOiBSZWNvcmQ8c3RyaW5nLCBBY3Rvcj4gPSB7fTsKICAgICAgICAoZGF0YSA/PyBbXSkuZm9yRWFjaCgocCkgPT4gewogICAgICAgICAgbWFwW3AuaWRdID0gcCBhcyBBY3RvcjsKICAgICAgICB9KTsKICAgICAgICBzZXRBY3RvcnMobWFwKTsKICAgICAgfSk7CiAgICByZXR1cm4gKCkgPT4gewogICAgICBhY3RpdmUgPSBmYWxzZTsKICAgIH07CiAgfSwgW2tleV0pOwoKICByZXR1cm4gYWN0b3JzOwp9OwoKaW50ZXJmYWNlIFByb3BzIHsKICBpdGVtczogQXBwTm90aWZpY2F0aW9uW107CiAgY29tcGFjdD86IGJvb2xlYW47CiAgb25SZWFkOiAoaWQ6IHN0cmluZykgPT4gdm9pZDsKICBvblJlbW92ZT86IChpZDogc3RyaW5nKSA9PiB2b2lkOwp9Cgpjb25zdCBOb3RpZmljYXRpb25MaXN0ID0gKHsgaXRlbXMsIGNvbXBhY3QgPSBmYWxzZSwgb25SZWFkLCBvblJlbW92ZSB9OiBQcm9wcykgPT4gewogIGNvbnN0IGFjdG9ycyA9IHVzZUFjdG9ycyhpdGVtcy5tYXAoKG4pID0+IG4uYWN0b3JfaWQpKTsKCiAgaWYgKGl0ZW1zLmxlbmd0aCA9PT0gMCkgewogICAgcmV0dXJuICgKICAgICAgPHAgY2xhc3NOYW1lPXtjbigidGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiLCBjb21wYWN0ID8gInB4LTMgcHktNiB0ZXh0LWNlbnRlciIgOiAicHktMTAgdGV4dC1jZW50ZXIiKX0+CiAgICAgICAgTm90aGluZyB5ZXQg4oCUIGZvbGxvd3MsIGxpa2VzLCBjb21tZW50cywgY2hlZXJzIGFuZCBtZW50aW9ucyB3aWxsIHNob3cgdXAgaGVyZS4KICAgICAgPC9wPgogICAgKTsKICB9CgogIHJldHVybiAoCiAgICA8dWwgY2xhc3NOYW1lPSJkaXZpZGUteSBkaXZpZGUtYm9yZGVyIj4KICAgICAge2l0ZW1zLm1hcCgobikgPT4gewogICAgICAgIGNvbnN0IEljb24gPSBpY29uc1tuLmtpbmRdID8/IEhlYXJ0OwogICAgICAgIGNvbnN0IGFjdG9yID0gYWN0b3JzW24uYWN0b3JfaWRdOwogICAgICAgIGNvbnN0IG5hbWUgPSBhY3Rvcj8uZGlzcGxheV9uYW1lID8/ICJBIGNsaW1iZXIiOwogICAgICAgIGNvbnN0IHJvdyA9ICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0zIG1pbi13LTAiPgogICAgICAgICAgICA8TWVtYmVyQXZhdGFyIHBhdGg9e2FjdG9yPy5hdmF0YXJfdXJsID8/IG51bGx9IG5hbWU9e25hbWV9IGNsYXNzTmFtZT0iaC04IHctOCBzaHJpbmstMCIgLz4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1pbi13LTAgZmxleC0xIj4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gbGVhZGluZy1zbnVnIj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGVyIj57bmFtZX08L3NwYW4+eyIgIn0KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57bi5ib2R5fTwvc3Bhbj4KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMC41IGZsZXggaXRlbXMtY2VudGVyIGdhcC0xIj4KICAgICAgICAgICAgICAgIDxJY29uIGNsYXNzTmFtZT0idy0zIGgtMyB0ZXh0LXByaW1hcnkiIC8+IHt3aGVuKG4uY3JlYXRlZF9hdCl9CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgeyFuLnJlYWRfYXQgJiYgPHNwYW4gY2xhc3NOYW1lPSJtdC0xIGgtMiB3LTIgcm91bmRlZC1mdWxsIGJnLXByaW1hcnkgc2hyaW5rLTAiIGFyaWEtbGFiZWw9IlVucmVhZCIgLz59CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApOwoKICAgICAgICByZXR1cm4gKAogICAgICAgICAgPGxpIGtleT17bi5pZH0gY2xhc3NOYW1lPXtjbigiZmxleCBpdGVtcy1zdGFydCBnYXAtMiBweC0zIHB5LTMiLCAhbi5yZWFkX2F0ICYmICJiZy1zZWNvbmRhcnkvNDAiKX0+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgbWluLXctMCI+CiAgICAgICAgICAgICAge24ubGluayA/ICgKICAgICAgICAgICAgICAgIDxMaW5rIHRvPXtuLmxpbmt9IG9uQ2xpY2s9eygpID0+IG9uUmVhZChuLmlkKX0gY2xhc3NOYW1lPSJibG9jayBob3ZlcjpvcGFjaXR5LTkwIj4KICAgICAgICAgICAgICAgICAge3Jvd30KICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBvblJlYWQobi5pZCl9IGNsYXNzTmFtZT0iYmxvY2sgdy1mdWxsIHRleHQtbGVmdCI+CiAgICAgICAgICAgICAgICAgIHtyb3d9CiAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICApfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAge29uUmVtb3ZlICYmICgKICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBvblJlbW92ZShuLmlkKX0KICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9IkRpc21pc3Mgbm90aWZpY2F0aW9uIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQgaG92ZXI6dGV4dC1kZXN0cnVjdGl2ZSBtdC0xIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxUcmFzaDIgY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSIgLz4KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvbGk+CiAgICAgICAgKTsKICAgICAgfSl9CiAgICA8L3VsPgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBOb3RpZmljYXRpb25MaXN0Owo=
+import { useEffect, useState } from "react";
+import { Link } from "@/lib/router-compat";
+import { Heart, MessageCircle, AtSign, UserPlus, Trash2, PartyPopper, Bug } from "lucide-react";
+import { supabase } from "@/integrations/supabase/client";
+import MemberAvatar from "@/components/community/MemberAvatar";
+import type { AppNotification, NotificationKind } from "@/lib/notify";
+import { cn } from "@/lib/utils";
+
+const icons: Record<NotificationKind, typeof Heart> = {
+  follow: UserPlus,
+  like: Heart,
+  comment: MessageCircle,
+  mention: AtSign,
+  cheer: PartyPopper,
+  bug: Bug,
+};
+
+const when = (iso: string) => {
+  const diff = Date.now() - new Date(iso).getTime();
+  const mins = Math.round(diff / 60000);
+  if (mins < 1) return "just now";
+  if (mins < 60) return `${mins}m ago`;
+  const hrs = Math.round(mins / 60);
+  if (hrs < 24) return `${hrs}h ago`;
+  const days = Math.round(hrs / 24);
+  if (days < 7) return `${days}d ago`;
+  return new Date(iso).toLocaleDateString(undefined, { day: "numeric", month: "short" });
+};
+
+interface Actor {
+  id: string;
+  display_name: string | null;
+  avatar_url: string | null;
+}
+
+export const useActors = (ids: string[]) => {
+  const key = Array.from(new Set(ids)).sort().join(",");
+  const [actors, setActors] = useState<Record<string, Actor>>({});
+
+  useEffect(() => {
+    const list = key ? key.split(",") : [];
+    if (list.length === 0) return;
+    let active = true;
+    supabase
+      .from("profiles")
+      .select("id, display_name, avatar_url")
+      .in("id", list)
+      .then(({ data }) => {
+        if (!active) return;
+        const map: Record<string, Actor> = {};
+        (data ?? []).forEach((p) => {
+          map[p.id] = p as Actor;
+        });
+        setActors(map);
+      });
+    return () => {
+      active = false;
+    };
+  }, [key]);
+
+  return actors;
+};
+
+interface Props {
+  items: AppNotification[];
+  compact?: boolean;
+  onRead: (id: string) => void;
+  onRemove?: (id: string) => void;
+}
+
+const NotificationList = ({ items, compact = false, onRead, onRemove }: Props) => {
+  const actors = useActors(items.map((n) => n.actor_id));
+
+  if (items.length === 0) {
+    return (
+      <p className={cn("text-sm text-muted-foreground", compact ? "px-3 py-6 text-center" : "py-10 text-center")}>
+        Nothing yet — follows, likes, comments, cheers and mentions will show up here.
+      </p>
+    );
+  }
+
+  return (
+    <ul className="divide-y divide-border">
+      {items.map((n) => {
+        const Icon = icons[n.kind] ?? Heart;
+        const actor = actors[n.actor_id];
+        const name = actor?.display_name ?? "A climber";
+        const row = (
+          <div className="flex items-start gap-3 min-w-0">
+            <MemberAvatar path={actor?.avatar_url ?? null} name={name} className="h-8 w-8 shrink-0" />
+            <div className="min-w-0 flex-1">
+              <p className="text-sm leading-snug">
+                <span className="font-display tracking-wider">{name}</span>{" "}
+                <span className="text-muted-foreground">{n.body}</span>
+              </p>
+              <p className="text-[11px] text-muted-foreground mt-0.5 flex items-center gap-1">
+                <Icon className="w-3 h-3 text-primary" /> {when(n.created_at)}
+              </p>
+            </div>
+            {!n.read_at && <span className="mt-1 h-2 w-2 rounded-full bg-primary shrink-0" aria-label="Unread" />}
+          </div>
+        );
+
+        return (
+          <li key={n.id} className={cn("flex items-start gap-2 px-3 py-3", !n.read_at && "bg-secondary/40")}>
+            <div className="flex-1 min-w-0">
+              {n.link ? (
+                <Link to={n.link} onClick={() => onRead(n.id)} className="block hover:opacity-90">
+                  {row}
+                </Link>
+              ) : (
+                <button onClick={() => onRead(n.id)} className="block w-full text-left">
+                  {row}
+                </button>
+              )}
+            </div>
+            {onRemove && (
+              <button
+                onClick={() => onRemove(n.id)}
+                aria-label="Dismiss notification"
+                className="text-muted-foreground hover:text-destructive mt-1"
+              >
+                <Trash2 className="w-3.5 h-3.5" />
+              </button>
+            )}
+          </li>
+        );
+      })}
+    </ul>
+  );
+};
+
+export default NotificationList;

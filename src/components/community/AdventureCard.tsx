@@ -1,1 +1,172 @@
-aW1wb3J0IHsgQ2FsZW5kYXJEYXlzLCBNYXBQaW4sIE1vdW50YWluLCBUcmFzaDIsIFVzZXJzIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IE1lbWJlckF2YXRhciBmcm9tICIuL01lbWJlckF2YXRhciI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiOwppbXBvcnQgeyBmb3JtYXRFbGV2YXRpb24sIGZvcm1hdEVsZXZhdGlvblNob3J0IH0gZnJvbSAiQC9saWIvdW5pdHMiOwppbXBvcnQgeyB1c2VVbml0cyB9IGZyb20gIkAvaG9va3MvdXNlVW5pdHMiOwppbXBvcnQgdHlwZSB7IExpc3REZW5zaXR5IH0gZnJvbSAiQC9ob29rcy91c2VMaXN0RGVuc2l0eSI7CmltcG9ydCB7IGZvcm1hdFRpbWluZywgdHlwZSBBZHZlbnR1cmUsIHR5cGUgUHVibGljUHJvZmlsZSwgdHlwZSBTaWdudXAgfSBmcm9tICJAL2xpYi9jb21tdW5pdHkiOwoKaW50ZXJmYWNlIEFkdmVudHVyZUNhcmRQcm9wcyB7CiAgYWR2ZW50dXJlOiBBZHZlbnR1cmU7CiAgc2lnbnVwczogU2lnbnVwW107CiAgcHJvZmlsZXM6IFJlY29yZDxzdHJpbmcsIFB1YmxpY1Byb2ZpbGU+OwogIGN1cnJlbnRVc2VySWQ6IHN0cmluZyB8IG51bGw7CiAgb25TaWduVXA6IChhZHZlbnR1cmVJZDogc3RyaW5nLCBzdGF0dXM6ICJpbnRlcmVzdGVkIiB8ICJqb2luaW5nIikgPT4gdm9pZDsKICBvbldpdGhkcmF3OiAoYWR2ZW50dXJlSWQ6IHN0cmluZykgPT4gdm9pZDsKICBvbkRlbGV0ZTogKGFkdmVudHVyZUlkOiBzdHJpbmcpID0+IHZvaWQ7CiAgY29tcGFjdD86IGJvb2xlYW47CiAgLyoqIEV4cGxpY2l0IHJvdyBzaXplOyBvdmVycmlkZXMgYGNvbXBhY3RgLiAqLwogIGRlbnNpdHk/OiBMaXN0RGVuc2l0eTsKfQoKY29uc3QgQWR2ZW50dXJlQ2FyZCA9ICh7CiAgYWR2ZW50dXJlLCBzaWdudXBzLCBwcm9maWxlcywgY3VycmVudFVzZXJJZCwgb25TaWduVXAsIG9uV2l0aGRyYXcsIG9uRGVsZXRlLCBjb21wYWN0ID0gZmFsc2UsIGRlbnNpdHksCn06IEFkdmVudHVyZUNhcmRQcm9wcykgPT4gewogIGNvbnN0IHVuaXRzID0gdXNlVW5pdHMoKTsKICBjb25zdCBqb2luaW5nID0gc2lnbnVwcy5maWx0ZXIoKHMpID0+IHMuc3RhdHVzID09PSAiam9pbmluZyIpOwogIGNvbnN0IGludGVyZXN0ZWQgPSBzaWdudXBzLmZpbHRlcigocykgPT4gcy5zdGF0dXMgPT09ICJpbnRlcmVzdGVkIik7CiAgY29uc3QgbWluZSA9IGN1cnJlbnRVc2VySWQgPyBzaWdudXBzLmZpbmQoKHMpID0+IHMudXNlcl9pZCA9PT0gY3VycmVudFVzZXJJZCkgOiB1bmRlZmluZWQ7CiAgY29uc3QgY3JlYXRvciA9IHByb2ZpbGVzW2FkdmVudHVyZS5jcmVhdG9yX2lkXTsKICBjb25zdCBzaXplOiBMaXN0RGVuc2l0eSA9IGRlbnNpdHkgPz8gKGNvbXBhY3QgPyAibWVkaXVtIiA6ICJsYXJnZSIpOwoKICBpZiAoc2l6ZSAhPT0gImxhcmdlIikgewogICAgY29uc3Qgc21hbGwgPSBzaXplID09PSAic21hbGwiOwogICAgcmV0dXJuICgKICAgICAgPGFydGljbGUKICAgICAgICBjbGFzc05hbWU9e2NuKAogICAgICAgICAgInJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBncmlkIGdyaWQtY29scy1bbWlubWF4KDAsMWZyKV9hdXRvXSBpdGVtcy1jZW50ZXIgZ2FwLTIgb3ZlcmZsb3ctaGlkZGVuIiwKICAgICAgICAgIHNtYWxsID8gInB4LTIgcHktMSIgOiAicC0yLjUiLAogICAgICAgICl9CiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBtaW4tdy0wIGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICB7IXNtYWxsICYmICgKICAgICAgICAgICAgPE1lbWJlckF2YXRhciBwYXRoPXtjcmVhdG9yPy5hdmF0YXJfdXJsID8/IG51bGx9IG5hbWU9e2NyZWF0b3I/LmRpc3BsYXlfbmFtZSA/PyAiQ2xpbWJlciJ9IGNsYXNzTmFtZT0iaC04IHctOCBzaHJpbmstMCIgLz4KICAgICAgICAgICl9CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCI+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT17Y24oImZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlIHRydW5jYXRlIGZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUiLCBzbWFsbCA/ICJ0ZXh0LVsxM3B4XSBsZWFkaW5nLXRpZ2h0IiA6ICJ0ZXh0LXNtIil9PgogICAgICAgICAgICAgIDxNb3VudGFpbiBjbGFzc05hbWU9e2NuKCJ0ZXh0LXByaW1hcnkgc2hyaW5rLTAiLCBzbWFsbCA/ICJ3LTMgaC0zIiA6ICJ3LTMuNSBoLTMuNSIpfSAvPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idHJ1bmNhdGUiPnthZHZlbnR1cmUucGVha19uYW1lfTwvc3Bhbj4KICAgICAgICAgICAgICB7c21hbGwgJiYgKGFkdmVudHVyZS5jb3VudHJ5IHx8IGFkdmVudHVyZS5lbGV2YXRpb24pICYmICgKICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGZvbnQtbm9ybWFsIHRleHQtWzExcHhdIHNocmluay0wIj4KICAgICAgICAgICAgICAgICAge2FkdmVudHVyZS5jb3VudHJ5fQogICAgICAgICAgICAgICAgICB7YWR2ZW50dXJlLmNvdW50cnkgJiYgYWR2ZW50dXJlLmVsZXZhdGlvbiAmJiAiIMK3ICJ9CiAgICAgICAgICAgICAgICAgIHthZHZlbnR1cmUuZWxldmF0aW9uICYmIGZvcm1hdEVsZXZhdGlvblNob3J0KGFkdmVudHVyZS5lbGV2YXRpb24sIHVuaXRzKX0KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICApfQogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT17Y24oInRleHQtbXV0ZWQtZm9yZWdyb3VuZCB0cnVuY2F0ZSIsIHNtYWxsID8gInRleHQtWzEwcHhdIGxlYWRpbmctdGlnaHQiIDogInRleHQteHMiKX0+CiAgICAgICAgICAgICAge3NtYWxsCiAgICAgICAgICAgICAgICA/IGAke2Zvcm1hdFRpbWluZyhhZHZlbnR1cmUpfSDCtyAke2pvaW5pbmcubGVuZ3RofSBqb2luaW5nJHthZHZlbnR1cmUubWF4X2dyb3VwX3NpemUgPyBgLyR7YWR2ZW50dXJlLm1heF9ncm91cF9zaXplfWAgOiAiIn0gwrcgJHtpbnRlcmVzdGVkLmxlbmd0aH0gaW50LmAKICAgICAgICAgICAgICAgIDogYCR7W2FkdmVudHVyZS5jb3VudHJ5LCBmb3JtYXRFbGV2YXRpb24oYWR2ZW50dXJlLmVsZXZhdGlvbiwgdW5pdHMpXS5maWx0ZXIoQm9vbGVhbikuam9pbigiIMK3ICIpIHx8ICJMb2NhdGlvbiBub3Qgc3BlY2lmaWVkIn0gwrcgJHtqb2luaW5nLmxlbmd0aH0gam9pbmluZyR7YWR2ZW50dXJlLm1heF9ncm91cF9zaXplID8gYCAvICR7YWR2ZW50dXJlLm1heF9ncm91cF9zaXplfWAgOiAiIn0gwrcgJHtpbnRlcmVzdGVkLmxlbmd0aH0gaW50ZXJlc3RlZGB9CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMC41IHNocmluay0wIj4KICAgICAgICAgIHthZHZlbnR1cmUuZGlmZmljdWx0eSAmJiAhc21hbGwgJiYgPEJhZGdlIHZhcmlhbnQ9InNlY29uZGFyeSIgY2xhc3NOYW1lPSJoaWRkZW4gbWQ6aW5saW5lLWZsZXgiPnthZHZlbnR1cmUuZGlmZmljdWx0eX08L0JhZGdlPn0KICAgICAgICAgIHtjdXJyZW50VXNlcklkICYmICgKICAgICAgICAgICAgPEJ1dHRvbiBzaXplPSJzbSIgdmFyaWFudD17bWluZT8uc3RhdHVzID09PSAiam9pbmluZyIgPyAiZGVmYXVsdCIgOiAib3V0bGluZSJ9IG9uQ2xpY2s9eygpID0+IG9uU2lnblVwKGFkdmVudHVyZS5pZCwgImpvaW5pbmciKX0gY2xhc3NOYW1lPSJoLTggcHgtMiB0ZXh0LXhzIj4KICAgICAgICAgICAgICBKb2luCiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgKX0KICAgICAgICAgIHtjdXJyZW50VXNlcklkID09PSBhZHZlbnR1cmUuY3JlYXRvcl9pZCAmJiAoCiAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIHNpemU9Imljb24iIGFyaWEtbGFiZWw9IkRlbGV0ZSBhZHZlbnR1cmUiIG9uQ2xpY2s9eygpID0+IG9uRGVsZXRlKGFkdmVudHVyZS5pZCl9IGNsYXNzTmFtZT0iaC04IHctOCI+CiAgICAgICAgICAgICAgPFRyYXNoMiBjbGFzc05hbWU9InctMy41IGgtMy41IiAvPgogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvYXJ0aWNsZT4KICAgICk7CiAgfQoKCiAgcmV0dXJuICgKICAgIDxhcnRpY2xlIGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkIHAtNSI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxoMyBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LXhsIHRyYWNraW5nLXdpZGUgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICA8TW91bnRhaW4gY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtcHJpbWFyeSBzaHJpbmstMCIgLz4KICAgICAgICAgICAge2FkdmVudHVyZS5wZWFrX25hbWV9CiAgICAgICAgICA8L2gzPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC0xIj4KICAgICAgICAgICAge1thZHZlbnR1cmUuY291bnRyeSwgZm9ybWF0RWxldmF0aW9uKGFkdmVudHVyZS5lbGV2YXRpb24sIHVuaXRzKV0uZmlsdGVyKEJvb2xlYW4pLmpvaW4oIiDCtyAiKSB8fCAiTG9jYXRpb24gbm90IHNwZWNpZmllZCJ9CiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAge2FkdmVudHVyZS5kaWZmaWN1bHR5ICYmIDxCYWRnZSB2YXJpYW50PSJzZWNvbmRhcnkiPnthZHZlbnR1cmUuZGlmZmljdWx0eX08L0JhZGdlPn0KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNCBmbGV4IGZsZXgtd3JhcCBnYXAteC01IGdhcC15LTIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUiPjxDYWxlbmRhckRheXMgY2xhc3NOYW1lPSJ3LTQgaC00IiAvPntmb3JtYXRUaW1pbmcoYWR2ZW50dXJlKX08L3NwYW4+CiAgICAgICAge2FkdmVudHVyZS5tZWV0aW5nX3BvaW50ICYmICgKICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUiPjxNYXBQaW4gY2xhc3NOYW1lPSJ3LTQgaC00IiAvPnthZHZlbnR1cmUubWVldGluZ19wb2ludH08L3NwYW4+CiAgICAgICAgKX0KICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgIDxVc2VycyBjbGFzc05hbWU9InctNCBoLTQiIC8+CiAgICAgICAgICB7am9pbmluZy5sZW5ndGh9IGpvaW5pbmd7YWR2ZW50dXJlLm1heF9ncm91cF9zaXplID8gYCAvICR7YWR2ZW50dXJlLm1heF9ncm91cF9zaXplfWAgOiAiIn0gwrcge2ludGVyZXN0ZWQubGVuZ3RofSBpbnRlcmVzdGVkCiAgICAgICAgPC9zcGFuPgogICAgICA8L2Rpdj4KCiAgICAgIHthZHZlbnR1cmUubm90ZXMgJiYgPHAgY2xhc3NOYW1lPSJtdC00IHRleHQtc20gdGV4dC1mb3JlZ3JvdW5kLzgwIHdoaXRlc3BhY2UtcHJlLWxpbmUiPnthZHZlbnR1cmUubm90ZXN9PC9wPn0KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC01IGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICA8TWVtYmVyQXZhdGFyIHBhdGg9e2NyZWF0b3I/LmF2YXRhcl91cmwgPz8gbnVsbH0gbmFtZT17Y3JlYXRvcj8uZGlzcGxheV9uYW1lID8/ICJDbGltYmVyIn0gY2xhc3NOYW1lPSJoLTcgdy03IiAvPgogICAgICAgIFBvc3RlZCBieSB7Y3JlYXRvcj8uZGlzcGxheV9uYW1lID8/ICJhIGNsaW1iZXIifQogICAgICAgIHtjcmVhdG9yPy5jb3VudHJ5ID8gYCDCtyAke2NyZWF0b3IuY291bnRyeX1gIDogIiJ9CiAgICAgIDwvZGl2PgoKICAgICAge3NpZ251cHMubGVuZ3RoID4gMCAmJiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTQgZmxleCBmbGV4LXdyYXAgZ2FwLTIiPgogICAgICAgICAge3NpZ251cHMubWFwKChzKSA9PiB7CiAgICAgICAgICAgIGNvbnN0IHAgPSBwcm9maWxlc1tzLnVzZXJfaWRdOwogICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICBrZXk9e3MuaWR9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2BpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1mdWxsIGJvcmRlciBweC0yLjUgcHktMSB0ZXh0LXhzICR7CiAgICAgICAgICAgICAgICAgIHMuc3RhdHVzID09PSAiam9pbmluZyIgPyAiYm9yZGVyLXByaW1hcnkvNjAgdGV4dC1wcmltYXJ5IiA6ICJib3JkZXItYm9yZGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgIH1gfQogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxNZW1iZXJBdmF0YXIgcGF0aD17cD8uYXZhdGFyX3VybCA/PyBudWxsfSBuYW1lPXtwPy5kaXNwbGF5X25hbWUgPz8gIkNsaW1iZXIifSBjbGFzc05hbWU9ImgtNSB3LTUiIC8+CiAgICAgICAgICAgICAgICB7cD8uZGlzcGxheV9uYW1lID8/ICJDbGltYmVyIn0gwrd7IiAifQogICAgICAgICAgICAgICAge3Muc3RhdHVzID09PSAiam9pbmluZyIgPyAiSm9pbmluZyIgOiBzLnN0YXR1cyA9PT0gImludml0ZWQiID8gIkludml0ZWQiIDogIkludGVyZXN0ZWQifQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgKTsKICAgICAgICAgIH0pfQogICAgICAgIDwvZGl2PgogICAgICApfQoKICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTUgZmxleCBmbGV4LXdyYXAgZ2FwLTIiPgogICAgICAgIHtjdXJyZW50VXNlcklkICYmICgKICAgICAgICAgIDw+CiAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICB2YXJpYW50PXttaW5lPy5zdGF0dXMgPT09ICJqb2luaW5nIiA/ICJkZWZhdWx0IiA6ICJvdXRsaW5lIn0KICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBvblNpZ25VcChhZHZlbnR1cmUuaWQsICJqb2luaW5nIil9CiAgICAgICAgICAgID4KICAgICAgICAgICAgICBJJ20gam9pbmluZwogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgIHZhcmlhbnQ9e21pbmU/LnN0YXR1cyA9PT0gImludGVyZXN0ZWQiID8gImRlZmF1bHQiIDogIm91dGxpbmUifQogICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IG9uU2lnblVwKGFkdmVudHVyZS5pZCwgImludGVyZXN0ZWQiKX0KICAgICAgICAgICAgPgogICAgICAgICAgICAgIEludGVyZXN0ZWQKICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIHttaW5lICYmICgKICAgICAgICAgICAgICA8QnV0dG9uIHNpemU9InNtIiB2YXJpYW50PSJnaG9zdCIgb25DbGljaz17KCkgPT4gb25XaXRoZHJhdyhhZHZlbnR1cmUuaWQpfT4KICAgICAgICAgICAgICAgIFdpdGhkcmF3CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICl9CiAgICAgICAgICA8Lz4KICAgICAgICApfQogICAgICAgIHtjdXJyZW50VXNlcklkID09PSBhZHZlbnR1cmUuY3JlYXRvcl9pZCAmJiAoCiAgICAgICAgICA8QnV0dG9uIHNpemU9InNtIiB2YXJpYW50PSJnaG9zdCIgY2xhc3NOYW1lPSJtbC1hdXRvIHRleHQtZGVzdHJ1Y3RpdmUiIG9uQ2xpY2s9eygpID0+IG9uRGVsZXRlKGFkdmVudHVyZS5pZCl9PgogICAgICAgICAgICA8VHJhc2gyIGNsYXNzTmFtZT0idy00IGgtNCBtci0xIiAvPiBEZWxldGUKICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICl9CiAgICAgIDwvZGl2PgogICAgPC9hcnRpY2xlPgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBBZHZlbnR1cmVDYXJkOwo=
+import { CalendarDays, MapPin, Mountain, Trash2, Users } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import MemberAvatar from "./MemberAvatar";
+import { cn } from "@/lib/utils";
+import { formatElevation, formatElevationShort } from "@/lib/units";
+import { useUnits } from "@/hooks/useUnits";
+import type { ListDensity } from "@/hooks/useListDensity";
+import { formatTiming, type Adventure, type PublicProfile, type Signup } from "@/lib/community";
+
+interface AdventureCardProps {
+  adventure: Adventure;
+  signups: Signup[];
+  profiles: Record<string, PublicProfile>;
+  currentUserId: string | null;
+  onSignUp: (adventureId: string, status: "interested" | "joining") => void;
+  onWithdraw: (adventureId: string) => void;
+  onDelete: (adventureId: string) => void;
+  compact?: boolean;
+  /** Explicit row size; overrides `compact`. */
+  density?: ListDensity;
+}
+
+const AdventureCard = ({
+  adventure, signups, profiles, currentUserId, onSignUp, onWithdraw, onDelete, compact = false, density,
+}: AdventureCardProps) => {
+  const units = useUnits();
+  const joining = signups.filter((s) => s.status === "joining");
+  const interested = signups.filter((s) => s.status === "interested");
+  const mine = currentUserId ? signups.find((s) => s.user_id === currentUserId) : undefined;
+  const creator = profiles[adventure.creator_id];
+  const size: ListDensity = density ?? (compact ? "medium" : "large");
+
+  if (size !== "large") {
+    const small = size === "small";
+    return (
+      <article
+        className={cn(
+          "rounded-lg border border-border bg-card grid grid-cols-[minmax(0,1fr)_auto] items-center gap-2 overflow-hidden",
+          small ? "px-2 py-1" : "p-2.5",
+        )}
+      >
+        <div className="flex min-w-0 items-center gap-2">
+          {!small && (
+            <MemberAvatar path={creator?.avatar_url ?? null} name={creator?.display_name ?? "Climber"} className="h-8 w-8 shrink-0" />
+          )}
+          <div className="min-w-0">
+            <p className={cn("font-display tracking-wide truncate flex items-center gap-1.5", small ? "text-[13px] leading-tight" : "text-sm")}>
+              <Mountain className={cn("text-primary shrink-0", small ? "w-3 h-3" : "w-3.5 h-3.5")} />
+              <span className="truncate">{adventure.peak_name}</span>
+              {small && (adventure.country || adventure.elevation) && (
+                <span className="text-muted-foreground font-normal text-[11px] shrink-0">
+                  {adventure.country}
+                  {adventure.country && adventure.elevation && " · "}
+                  {adventure.elevation && formatElevationShort(adventure.elevation, units)}
+                </span>
+              )}
+            </p>
+            <p className={cn("text-muted-foreground truncate", small ? "text-[10px] leading-tight" : "text-xs")}>
+              {small
+                ? `${formatTiming(adventure)} · ${joining.length} joining${adventure.max_group_size ? `/${adventure.max_group_size}` : ""} · ${interested.length} int.`
+                : `${[adventure.country, formatElevation(adventure.elevation, units)].filter(Boolean).join(" · ") || "Location not specified"} · ${joining.length} joining${adventure.max_group_size ? ` / ${adventure.max_group_size}` : ""} · ${interested.length} interested`}
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center gap-0.5 shrink-0">
+          {adventure.difficulty && !small && <Badge variant="secondary" className="hidden md:inline-flex">{adventure.difficulty}</Badge>}
+          {currentUserId && (
+            <Button size="sm" variant={mine?.status === "joining" ? "default" : "outline"} onClick={() => onSignUp(adventure.id, "joining")} className="h-8 px-2 text-xs">
+              Join
+            </Button>
+          )}
+          {currentUserId === adventure.creator_id && (
+            <Button variant="ghost" size="icon" aria-label="Delete adventure" onClick={() => onDelete(adventure.id)} className="h-8 w-8">
+              <Trash2 className="w-3.5 h-3.5" />
+            </Button>
+          )}
+        </div>
+      </article>
+    );
+  }
+
+
+  return (
+    <article className="rounded-lg border border-border bg-card p-5">
+      <div className="flex items-start justify-between gap-4">
+        <div>
+          <h3 className="font-display text-xl tracking-wide flex items-center gap-2">
+            <Mountain className="w-4 h-4 text-primary shrink-0" />
+            {adventure.peak_name}
+          </h3>
+          <p className="text-sm text-muted-foreground mt-1">
+            {[adventure.country, formatElevation(adventure.elevation, units)].filter(Boolean).join(" · ") || "Location not specified"}
+          </p>
+        </div>
+        {adventure.difficulty && <Badge variant="secondary">{adventure.difficulty}</Badge>}
+      </div>
+
+      <div className="mt-4 flex flex-wrap gap-x-5 gap-y-2 text-sm text-muted-foreground">
+        <span className="inline-flex items-center gap-1.5"><CalendarDays className="w-4 h-4" />{formatTiming(adventure)}</span>
+        {adventure.meeting_point && (
+          <span className="inline-flex items-center gap-1.5"><MapPin className="w-4 h-4" />{adventure.meeting_point}</span>
+        )}
+        <span className="inline-flex items-center gap-1.5">
+          <Users className="w-4 h-4" />
+          {joining.length} joining{adventure.max_group_size ? ` / ${adventure.max_group_size}` : ""} · {interested.length} interested
+        </span>
+      </div>
+
+      {adventure.notes && <p className="mt-4 text-sm text-foreground/80 whitespace-pre-line">{adventure.notes}</p>}
+
+      <div className="mt-5 flex items-center gap-2 text-xs text-muted-foreground">
+        <MemberAvatar path={creator?.avatar_url ?? null} name={creator?.display_name ?? "Climber"} className="h-7 w-7" />
+        Posted by {creator?.display_name ?? "a climber"}
+        {creator?.country ? ` · ${creator.country}` : ""}
+      </div>
+
+      {signups.length > 0 && (
+        <div className="mt-4 flex flex-wrap gap-2">
+          {signups.map((s) => {
+            const p = profiles[s.user_id];
+            return (
+              <span
+                key={s.id}
+                className={`inline-flex items-center gap-2 rounded-full border px-2.5 py-1 text-xs ${
+                  s.status === "joining" ? "border-primary/60 text-primary" : "border-border text-muted-foreground"
+                }`}
+              >
+                <MemberAvatar path={p?.avatar_url ?? null} name={p?.display_name ?? "Climber"} className="h-5 w-5" />
+                {p?.display_name ?? "Climber"} ·{" "}
+                {s.status === "joining" ? "Joining" : s.status === "invited" ? "Invited" : "Interested"}
+              </span>
+            );
+          })}
+        </div>
+      )}
+
+      <div className="mt-5 flex flex-wrap gap-2">
+        {currentUserId && (
+          <>
+            <Button
+              size="sm"
+              variant={mine?.status === "joining" ? "default" : "outline"}
+              onClick={() => onSignUp(adventure.id, "joining")}
+            >
+              I'm joining
+            </Button>
+            <Button
+              size="sm"
+              variant={mine?.status === "interested" ? "default" : "outline"}
+              onClick={() => onSignUp(adventure.id, "interested")}
+            >
+              Interested
+            </Button>
+            {mine && (
+              <Button size="sm" variant="ghost" onClick={() => onWithdraw(adventure.id)}>
+                Withdraw
+              </Button>
+            )}
+          </>
+        )}
+        {currentUserId === adventure.creator_id && (
+          <Button size="sm" variant="ghost" className="ml-auto text-destructive" onClick={() => onDelete(adventure.id)}>
+            <Trash2 className="w-4 h-4 mr-1" /> Delete
+          </Button>
+        )}
+      </div>
+    </article>
+  );
+};
+
+export default AdventureCard;

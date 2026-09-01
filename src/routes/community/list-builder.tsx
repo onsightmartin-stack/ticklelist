@@ -1,1 +1,24 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBMaXN0QnVpbGRlclBhZ2UgZnJvbSAiQC9wYWdlcy9jb21tdW5pdHkvTGlzdEJ1aWxkZXJQYWdlIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL2NvbW11bml0eS9saXN0LWJ1aWxkZXIiKSh7CiAgaGVhZDogKCkgPT4gKHsKICAgIG1ldGE6IFsKICAgICAgeyB0aXRsZTogIlBlYWsgTGlzdCBCdWlsZGVyIHwgVGlja2xlbGlzdCIgfSwKICAgICAgewogICAgICAgIG5hbWU6ICJkZXNjcmlwdGlvbiIsCiAgICAgICAgY29udGVudDoKICAgICAgICAgICJCdWlsZCBhIGxpdmUgcGVhayBjaGFsbGVuZ2UgZnJvbSAxLjMgbWlsbGlvbiBzdW1taXRzIOKAlCBmaWx0ZXIgYnkgY291bnRyeSwgZWxldmF0aW9uIGFuZCBwcm9taW5lbmNlLCB0aGVuIHRyYWNrIHlvdXIgdGlja3MgYW5kIFhQLiIsCiAgICAgIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0aXRsZSIsIGNvbnRlbnQ6ICJQZWFrIExpc3QgQnVpbGRlciB8IFRpY2tsZWxpc3QiIH0sCiAgICAgIHsKICAgICAgICBwcm9wZXJ0eTogIm9nOmRlc2NyaXB0aW9uIiwKICAgICAgICBjb250ZW50OgogICAgICAgICAgIkZpbHRlciB0aGUgd29ybGQgcGVhayBjYXRhbG9ndWUgYnkgY291bnRyeSwgaGVpZ2h0IGFuZCBwcm9taW5lbmNlIGFuZCB0cmFjayB5b3VyIHByb2dyZXNzIGFnYWluc3QgeW91ciBvd24gbGlzdC4iLAogICAgICB9LAogICAgICB7IHByb3BlcnR5OiAib2c6dHlwZSIsIGNvbnRlbnQ6ICJ3ZWJzaXRlIiB9LAogICAgICB7IG5hbWU6ICJ0d2l0dGVyOmNhcmQiLCBjb250ZW50OiAic3VtbWFyeSIgfSwKICAgIF0sCiAgfSksCiAgY29tcG9uZW50OiBMaXN0QnVpbGRlclBhZ2UsCn0pOwo=
+import { createFileRoute } from "@tanstack/react-router";
+import ListBuilderPage from "@/pages/community/ListBuilderPage";
+
+export const Route = createFileRoute("/community/list-builder")({
+  head: () => ({
+    meta: [
+      { title: "Peak List Builder | Ticklelist" },
+      {
+        name: "description",
+        content:
+          "Build a live peak challenge from 1.3 million summits — filter by country, elevation and prominence, then track your ticks and XP.",
+      },
+      { property: "og:title", content: "Peak List Builder | Ticklelist" },
+      {
+        property: "og:description",
+        content:
+          "Filter the world peak catalogue by country, height and prominence and track your progress against your own list.",
+      },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
+  component: ListBuilderPage,
+});

@@ -1,1 +1,129 @@
-aW1wb3J0IHsgY3JlYXRlU2VydmVyRm4gfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtc3RhcnQiOwppbXBvcnQgeyBmZXRjaFBlYWtiYWdnZXIsIHNlYXJjaFBlYWtiYWdnZXJQaWQgfSBmcm9tICIuL3BlYWtiYWdnZXItZmV0Y2guc2VydmVyIjsKCmV4cG9ydCBpbnRlcmZhY2UgUGVha2JhZ2dlclBlYWtJbmZvIHsKICBmb3VuZDogYm9vbGVhbjsKICBibG9ja2VkPzogYm9vbGVhbjsKICBlcnJvcj86IHN0cmluZzsKICBwaWQ/OiBzdHJpbmc7CiAgbmFtZT86IHN0cmluZyB8IHVuZGVmaW5lZDsKICBlbGV2YXRpb24/OiBudW1iZXIgfCBudWxsOwogIHByb21pbmVuY2U/OiBudW1iZXIgfCBudWxsOwogIGxhdD86IG51bWJlciB8IG51bGw7CiAgbG9uPzogbnVtYmVyIHwgbnVsbDsKICBjb3VudHJ5Q29kZT86IHN0cmluZyB8IG51bGw7CiAgYWRtaW4xPzogc3RyaW5nIHwgbnVsbDsKICBmaXJzdEFzY2VudERhdGU/OiBzdHJpbmcgfCBudWxsOwogIGZpcnN0QXNjZW50Qnk/OiBzdHJpbmcgfCBudWxsOwogIHVybD86IHN0cmluZzsKfQoKY29uc3Qgc3RyaXBUYWdzID0gKHM6IHN0cmluZykgPT4KICBzCiAgICAucmVwbGFjZSgvPFtePl0qPi9nLCAiICIpCiAgICAucmVwbGFjZSgvJm5ic3A7L2csICIgIikKICAgIC5yZXBsYWNlKC8mYW1wOy9nLCAiJiIpCiAgICAucmVwbGFjZSgvJiMzOTsvZywgIiciKQogICAgLnJlcGxhY2UoLyZxdW90Oy9nLCAnIicpCiAgICAucmVwbGFjZSgvXHMrL2csICIgIikKICAgIC50cmltKCk7CgovKiogQWxsIFBlYWtiYWdnZXIgdHJhZmZpYyBnb2VzIHRocm91Z2ggdGhlIHByb3h5IGluIHBlYWtiYWdnZXItZmV0Y2guc2VydmVyLiAqLwpjb25zdCBmZXRjaFBhZ2UgPSBhc3luYyAodXJsOiBzdHJpbmcpID0+IHsKICBjb25zdCBwYWdlID0gYXdhaXQgZmV0Y2hQZWFrYmFnZ2VyKHVybCk7CiAgcmV0dXJuIHsKICAgIHN0YXR1czogcGFnZS5zdGF0dXMsCiAgICBodG1sOiBwYWdlLm1hcmtkb3duIHx8IHBhZ2UuaHRtbCwKICAgIGJsb2NrZWQ6IHBhZ2UuYmxvY2tlZCwKICB9Owp9OwoKY29uc3QgbnVtID0gKHY6IHN0cmluZyB8IHVuZGVmaW5lZCk6IG51bWJlciB8IG51bGwgPT4gewogIGlmICghdikgcmV0dXJuIG51bGw7CiAgY29uc3QgbiA9IE51bWJlcih2LnJlcGxhY2UoL1ssXHNdL2csICIiKSk7CiAgcmV0dXJuIE51bWJlci5pc0Zpbml0ZShuKSA/IG4gOiBudWxsOwp9OwoKLyoqIFBlYWtiYWdnZXIgcHJpbnRzICJFbGV2YXRpb246IDIwLDMxMCBmZWV0LCA2MTkwLjUgbWV0ZXJzIiDigJQga2VlcCBtZXRyZXMuICovCmNvbnN0IG1ldHJlcyA9ICh0ZXh0OiBzdHJpbmcsIGxhYmVsOiBzdHJpbmcpOiBudW1iZXIgfCBudWxsID0+IHsKICBjb25zdCBhdCA9IHRleHQuc2VhcmNoKG5ldyBSZWdFeHAobGFiZWwsICJpIikpOwogIGlmIChhdCA8IDApIHJldHVybiBudWxsOwogIGNvbnN0IHdpbmRvdyA9IHRleHQuc2xpY2UoYXQsIGF0ICsgMTQwKTsKICBjb25zdCBtID0gd2luZG93Lm1hdGNoKC8oLT9bXGQsXSsoPzpcLlxkKyk/KVxzKig/Om1ldGVycz98bWV0cmVzP3xtXGIpL2kpOwogIGlmIChtKSByZXR1cm4gbnVtKG1bMV0pOwogIGNvbnN0IGZ0ID0gd2luZG93Lm1hdGNoKC8oLT9bXGQsXSsoPzpcLlxkKyk/KVxzKig/OmZlZXR8ZnQpXGIvaSk7CiAgY29uc3QgZiA9IG51bShmdD8uWzFdKTsKICByZXR1cm4gZiA9PT0gbnVsbCA/IG51bGwgOiBNYXRoLnJvdW5kKGYgKiAwLjMwNDgpOwp9OwoKY29uc3QgcGFyc2VQZWFrUGFnZSA9IChodG1sOiBzdHJpbmcsIHBpZDogc3RyaW5nKTogUGVha2JhZ2dlclBlYWtJbmZvID0+IHsKICBjb25zdCB0ZXh0ID0gc3RyaXBUYWdzKGh0bWwpOwogIGNvbnN0IG5hbWVNYXRjaCA9IGh0bWwubWF0Y2goLzxoMVtePl0qPihbXHNcU10qPyk8XC9oMT4vaSk7CiAgY29uc3QgbmFtZSA9IG5hbWVNYXRjaCA/IHN0cmlwVGFncyhuYW1lTWF0Y2hbMV0hKSA6IHVuZGVmaW5lZDsKCiAgY29uc3QgY29vcmRzID0gdGV4dC5tYXRjaCgvKC0/XGR7MSwyfVwuXGQrKSxccyooLT9cZHsxLDN9XC5cZCspLyk7CiAgY29uc3QgY291bnRyeSA9CiAgICB0ZXh0Lm1hdGNoKC8oPzpOYXRpb258Q291bnRyeSlbOnxcc10rKFtBLVphLXogLictXXszLDQwfSkvaSk/LlsxXT8udHJpbSgpID8/IG51bGw7CiAgY29uc3Qgc3RhdGUgPQogICAgdGV4dAogICAgICAubWF0Y2goLyg/OlN0YXRlXC9Qcm92aW5jZXxTdGF0ZXxQcm92aW5jZXxSZWdpb24pWzp8XHNdKyhbQS1aYS16IC4nLV17Miw0MH0pL2kpPy5bMV0KICAgICAgPy50cmltKCkgPz8gbnVsbDsKCiAgY29uc3QgZmFCbG9jayA9IHRleHQubWF0Y2goL0ZpcnN0IEFzY2VudFteQS1aYS16MC05XXswLDV9KFtefF17MCwxMjB9KS9pKT8uWzFdID8/ICIiOwogIGNvbnN0IGZhWWVhciA9IGZhQmxvY2subWF0Y2goL1xiKDFbMC05XXszfXwyMFswLTldezJ9KVxiLyk/LlsxXSA/PyBudWxsOwogIGNvbnN0IGZhRGF0ZSA9IGZhQmxvY2subWF0Y2goLyhcZHs0fS1cZHsyfS1cZHsyfSkvKT8uWzFdID8/IGZhWWVhcjsKICBjb25zdCBmYUJ5ID0KICAgIGZhQmxvY2sKICAgICAgLnJlcGxhY2UoLyhcZHs0fS1cZHsyfS1cZHsyfSl8XGIoMVswLTldezN9fDIwWzAtOV17Mn0pXGIvZywgIiAiKQogICAgICAucmVwbGFjZSgvXHMrL2csICIgIikKICAgICAgLnRyaW0oKQogICAgICAuc2xpY2UoMCwgMTIwKSB8fCBudWxsOwoKICByZXR1cm4gewogICAgZm91bmQ6IHRydWUsCiAgICBwaWQsCiAgICBuYW1lLAogICAgZWxldmF0aW9uOiBtZXRyZXModGV4dCwgIkVsZXZhdGlvbiIpLAogICAgcHJvbWluZW5jZTogbWV0cmVzKHRleHQsICJQcm9taW5lbmNlIiksCiAgICBsYXQ6IGNvb3JkcyA/IE51bWJlcihjb29yZHNbMV0pIDogbnVsbCwKICAgIGxvbjogY29vcmRzID8gTnVtYmVyKGNvb3Jkc1syXSkgOiBudWxsLAogICAgY291bnRyeUNvZGU6IGNvdW50cnksCiAgICBhZG1pbjE6IHN0YXRlLAogICAgZmlyc3RBc2NlbnREYXRlOiBmYURhdGUsCiAgICBmaXJzdEFzY2VudEJ5OiBmYUJ5LAogICAgdXJsOiBgaHR0cHM6Ly9wZWFrYmFnZ2VyLmNvbS9wZWFrLmFzcHg/cGlkPSR7cGlkfWAsCiAgfTsKfTsKCi8qKgogKiBMb29rcyBhIHBlYWsgdXAgb24gUGVha2JhZ2dlciBieSBwZWFrIFVSTC9JRCBvciBieSBuYW1lIGFuZCByZXR1cm5zIHRoZQogKiBmYWN0cyB3ZSBjYW4gcHJlLWZpbGwgYW4gImFkZCBhIHBlYWsiIGZvcm0gd2l0aC4gTmV2ZXIgdGhyb3dzOiBQZWFrYmFnZ2VyCiAqIHNpdHMgYmVoaW5kIENsb3VkZmxhcmUgYW5kIGNhbiByZWZ1c2UgdGhlIHJlcXVlc3QuCiAqLwpleHBvcnQgY29uc3QgbG9va3VwUGVha2JhZ2dlclBlYWsgPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLmlucHV0VmFsaWRhdG9yKChpbnB1dDogeyBxdWVyeTogc3RyaW5nIH0pID0+IHsKICAgIGNvbnN0IHF1ZXJ5ID0gKGlucHV0Py5xdWVyeSA/PyAiIikudHJpbSgpOwogICAgaWYgKHF1ZXJ5Lmxlbmd0aCA8IDIpIHRocm93IG5ldyBFcnJvcigiRW50ZXIgYSBwZWFrIG5hbWUgb3IgUGVha2JhZ2dlciBsaW5rIik7CiAgICByZXR1cm4geyBxdWVyeTogcXVlcnkuc2xpY2UoMCwgMTYwKSB9OwogIH0pCiAgLmhhbmRsZXIoYXN5bmMgKHsgZGF0YSB9KTogUHJvbWlzZTxQZWFrYmFnZ2VyUGVha0luZm8+ID0+IHsKICAgIHRyeSB7CiAgICAgIGxldCBwaWQgPSBkYXRhLnF1ZXJ5Lm1hdGNoKC9waWQ9KFxkKykvaSk/LlsxXSA/PyAoL15cZCskLy50ZXN0KGRhdGEucXVlcnkpID8gZGF0YS5xdWVyeSA6IG51bGwpOwoKICAgICAgaWYgKCFwaWQpIHsKICAgICAgICAvLyBQZWFrYmFnZ2VyJ3Mgb3duIHNlYXJjaCBpcyBhIHBvc3RiYWNrIGZvcm0sIHNvIHJlc29sdmUgdGhlIGlkIHdpdGggYQogICAgICAgIC8vIHNpdGUtc2NvcGVkIHdlYiBzZWFyY2ggdGhyb3VnaCB0aGUgcHJveHkgaW5zdGVhZC4KICAgICAgICBwaWQgPSAoYXdhaXQgc2VhcmNoUGVha2JhZ2dlclBpZChkYXRhLnF1ZXJ5KSkucGlkOwogICAgICAgIGlmICghcGlkKSByZXR1cm4geyBmb3VuZDogZmFsc2UsIGVycm9yOiAiTm8gbWF0Y2hpbmcgcGVhayBvbiBQZWFrYmFnZ2VyLiIgfTsKICAgICAgfQoKICAgICAgY29uc3QgcGFnZSA9IGF3YWl0IGZldGNoUGFnZShgaHR0cHM6Ly9wZWFrYmFnZ2VyLmNvbS9wZWFrLmFzcHg/cGlkPSR7cGlkfWApOwogICAgICBpZiAocGFnZS5ibG9ja2VkKSByZXR1cm4geyBmb3VuZDogZmFsc2UsIGJsb2NrZWQ6IHRydWUgfTsKICAgICAgaWYgKHBhZ2Uuc3RhdHVzICE9PSAyMDApIHJldHVybiB7IGZvdW5kOiBmYWxzZSwgZXJyb3I6IGBQZWFrYmFnZ2VyIHJldHVybmVkICR7cGFnZS5zdGF0dXN9LmAgfTsKCiAgICAgIHJldHVybiBwYXJzZVBlYWtQYWdlKHBhZ2UuaHRtbCwgcGlkKTsKICAgIH0gY2F0Y2ggKGVycikgewogICAgICBjb25zb2xlLmVycm9yKCJbcGVha2JhZ2dlcl0gbG9va3VwIGZhaWxlZCIsIGVycik7CiAgICAgIHJldHVybiB7IGZvdW5kOiBmYWxzZSwgZXJyb3I6ICJDb3VsZCBub3QgcmVhY2ggUGVha2JhZ2dlciByaWdodCBub3cuIiB9OwogICAgfQogIH0pOwo=
+import { createServerFn } from "@tanstack/react-start";
+import { fetchPeakbagger, searchPeakbaggerPid } from "./peakbagger-fetch.server";
+
+export interface PeakbaggerPeakInfo {
+  found: boolean;
+  blocked?: boolean;
+  error?: string;
+  pid?: string;
+  name?: string | undefined;
+  elevation?: number | null;
+  prominence?: number | null;
+  lat?: number | null;
+  lon?: number | null;
+  countryCode?: string | null;
+  admin1?: string | null;
+  firstAscentDate?: string | null;
+  firstAscentBy?: string | null;
+  url?: string;
+}
+
+const stripTags = (s: string) =>
+  s
+    .replace(/<[^>]*>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&#39;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/\s+/g, " ")
+    .trim();
+
+/** All Peakbagger traffic goes through the proxy in peakbagger-fetch.server. */
+const fetchPage = async (url: string) => {
+  const page = await fetchPeakbagger(url);
+  return {
+    status: page.status,
+    html: page.markdown || page.html,
+    blocked: page.blocked,
+  };
+};
+
+const num = (v: string | undefined): number | null => {
+  if (!v) return null;
+  const n = Number(v.replace(/[,\s]/g, ""));
+  return Number.isFinite(n) ? n : null;
+};
+
+/** Peakbagger prints "Elevation: 20,310 feet, 6190.5 meters" — keep metres. */
+const metres = (text: string, label: string): number | null => {
+  const at = text.search(new RegExp(label, "i"));
+  if (at < 0) return null;
+  const window = text.slice(at, at + 140);
+  const m = window.match(/(-?[\d,]+(?:\.\d+)?)\s*(?:meters?|metres?|m\b)/i);
+  if (m) return num(m[1]);
+  const ft = window.match(/(-?[\d,]+(?:\.\d+)?)\s*(?:feet|ft)\b/i);
+  const f = num(ft?.[1]);
+  return f === null ? null : Math.round(f * 0.3048);
+};
+
+const parsePeakPage = (html: string, pid: string): PeakbaggerPeakInfo => {
+  const text = stripTags(html);
+  const nameMatch = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
+  const name = nameMatch ? stripTags(nameMatch[1]!) : undefined;
+
+  const coords = text.match(/(-?\d{1,2}\.\d+),\s*(-?\d{1,3}\.\d+)/);
+  const country =
+    text.match(/(?:Nation|Country)[:|\s]+([A-Za-z .'-]{3,40})/i)?.[1]?.trim() ?? null;
+  const state =
+    text
+      .match(/(?:State\/Province|State|Province|Region)[:|\s]+([A-Za-z .'-]{2,40})/i)?.[1]
+      ?.trim() ?? null;
+
+  const faBlock = text.match(/First Ascent[^A-Za-z0-9]{0,5}([^|]{0,120})/i)?.[1] ?? "";
+  const faYear = faBlock.match(/\b(1[0-9]{3}|20[0-9]{2})\b/)?.[1] ?? null;
+  const faDate = faBlock.match(/(\d{4}-\d{2}-\d{2})/)?.[1] ?? faYear;
+  const faBy =
+    faBlock
+      .replace(/(\d{4}-\d{2}-\d{2})|\b(1[0-9]{3}|20[0-9]{2})\b/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+      .slice(0, 120) || null;
+
+  return {
+    found: true,
+    pid,
+    name,
+    elevation: metres(text, "Elevation"),
+    prominence: metres(text, "Prominence"),
+    lat: coords ? Number(coords[1]) : null,
+    lon: coords ? Number(coords[2]) : null,
+    countryCode: country,
+    admin1: state,
+    firstAscentDate: faDate,
+    firstAscentBy: faBy,
+    url: `https://peakbagger.com/peak.aspx?pid=${pid}`,
+  };
+};
+
+/**
+ * Looks a peak up on Peakbagger by peak URL/ID or by name and returns the
+ * facts we can pre-fill an "add a peak" form with. Never throws: Peakbagger
+ * sits behind Cloudflare and can refuse the request.
+ */
+export const lookupPeakbaggerPeak = createServerFn({ method: "POST" })
+  .inputValidator((input: { query: string }) => {
+    const query = (input?.query ?? "").trim();
+    if (query.length < 2) throw new Error("Enter a peak name or Peakbagger link");
+    return { query: query.slice(0, 160) };
+  })
+  .handler(async ({ data }): Promise<PeakbaggerPeakInfo> => {
+    try {
+      let pid = data.query.match(/pid=(\d+)/i)?.[1] ?? (/^\d+$/.test(data.query) ? data.query : null);
+
+      if (!pid) {
+        // Peakbagger's own search is a postback form, so resolve the id with a
+        // site-scoped web search through the proxy instead.
+        pid = (await searchPeakbaggerPid(data.query)).pid;
+        if (!pid) return { found: false, error: "No matching peak on Peakbagger." };
+      }
+
+      const page = await fetchPage(`https://peakbagger.com/peak.aspx?pid=${pid}`);
+      if (page.blocked) return { found: false, blocked: true };
+      if (page.status !== 200) return { found: false, error: `Peakbagger returned ${page.status}.` };
+
+      return parsePeakPage(page.html, pid);
+    } catch (err) {
+      console.error("[peakbagger] lookup failed", err);
+      return { found: false, error: "Could not reach Peakbagger right now." };
+    }
+  });

@@ -1,1 +1,80 @@
-aW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IFggfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgdHlwZSB7IEludmVudG9yeUl0ZW0gfSBmcm9tICJAL2xpYi9jYW1wLWludmVudG9yeSI7CgppbnRlcmZhY2UgUHJvcHMgewogIGl0ZW1zOiBJbnZlbnRvcnlJdGVtW107CiAgb25DbG9zZTogKCkgPT4gdm9pZDsKfQoKLyoqCiAqIE1pbmVjcmFmdC1zdHlsZSBpbnZlbnRvcnk6IGEgZ3JpZCBvZiBjaHVua3kgc2xvdHMuIEVhcm5lZCBsb290IHNob3dzIGl0cwogKiBzcHJpdGUsIGV2ZXJ5dGhpbmcgZWxzZSBpcyBhIHNoYWRvd2VkIHNpbGhvdWV0dGUgd2l0aCBpdHMgcHJvZ3Jlc3MuCiAqLwpjb25zdCBDYW1wSW52ZW50b3J5ID0gKHsgaXRlbXMsIG9uQ2xvc2UgfTogUHJvcHMpID0+IHsKICBjb25zdCBbcGlja2VkLCBzZXRQaWNrZWRdID0gdXNlU3RhdGU8SW52ZW50b3J5SXRlbSB8IG51bGw+KG51bGwpOwogIGNvbnN0IGVhcm5lZCA9IGl0ZW1zLmZpbHRlcigoaSkgPT4gaS5lYXJuZWQpLmxlbmd0aDsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIHotNDAgZmxleCBpdGVtcy1lbmQganVzdGlmeS1jZW50ZXIgYmctc2xhdGUtOTUwLzcwIHAtMiBiYWNrZHJvcC1ibHVyLXNtIHNtOml0ZW1zLWNlbnRlciI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LWZ1bGwgbWF4LXcteGwgcm91bmRlZC14bCBib3JkZXItNCBib3JkZXItc2xhdGUtNjAwIGJnLXNsYXRlLTgwMC85NSBwLTMgc2hhZG93LTJ4bCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTIgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0yIj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LXNtIHRyYWNraW5nLVswLjJlbV0gdGV4dC1zbGF0ZS0xMDAgdXBwZXJjYXNlIj4KICAgICAgICAgICAgSW52ZW50b3J5IMK3IHtlYXJuZWR9L3tpdGVtcy5sZW5ndGh9CiAgICAgICAgICA8L2gyPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIG9uQ2xpY2s9e29uQ2xvc2V9CiAgICAgICAgICAgIGFyaWEtbGFiZWw9IkNsb3NlIGludmVudG9yeSIKICAgICAgICAgICAgY2xhc3NOYW1lPSJncmlkIGgtOCB3LTggcGxhY2UtaXRlbXMtY2VudGVyIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1zbGF0ZS01MDAgYmctc2xhdGUtNzAwIHRleHQtc2xhdGUtMTAwIgogICAgICAgICAgPgogICAgICAgICAgICA8WCBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgbWF4LWgtWzQydmhdIGdyaWQtY29scy02IGdhcC0xLjUgb3ZlcmZsb3cteS1hdXRvIHByLTEgc206Z3JpZC1jb2xzLTgiPgogICAgICAgICAge2l0ZW1zLm1hcCgoaXQpID0+ICgKICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgIGtleT17aXQuaWR9CiAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldFBpY2tlZChpdCl9CiAgICAgICAgICAgICAgdGl0bGU9e2Ake2l0Lm5hbWV9IOKAlCAke2l0LmhpbnR9YH0KICAgICAgICAgICAgICBhcmlhLWxhYmVsPXtgJHtpdC5uYW1lfSwgJHtpdC5oaW50fWB9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgcmVsYXRpdmUgZ3JpZCBhc3BlY3Qtc3F1YXJlIHBsYWNlLWl0ZW1zLWNlbnRlciByb3VuZGVkLW1kIGJvcmRlci0yIHRleHQteGwgdHJhbnNpdGlvbi1jb2xvcnMgJHsKICAgICAgICAgICAgICAgIGl0LmVhcm5lZAogICAgICAgICAgICAgICAgICA/ICJib3JkZXItYW1iZXItMzAwLzcwIGJnLXNsYXRlLTcwMCBob3ZlcjpiZy1zbGF0ZS02MDAiCiAgICAgICAgICAgICAgICAgIDogImJvcmRlci1zbGF0ZS02MDAgYmctc2xhdGUtOTAwLzcwIGhvdmVyOmJnLXNsYXRlLTgwMCIKICAgICAgICAgICAgICB9YH0KICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT17aXQuZWFybmVkID8gIiIgOiAib3BhY2l0eS0yNSBncmF5c2NhbGUifT57aXQuZW1vaml9PC9zcGFuPgogICAgICAgICAgICAgIHshaXQuZWFybmVkICYmIGl0LnRvdGFsID4gMCAmJiAoCiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LXgtMCBib3R0b20tMCBoLTEgcm91bmRlZC1iIGJnLXNsYXRlLTcwMCI+CiAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJibG9jayBoLTEgcm91bmRlZC1iIGJnLXByaW1hcnkiCiAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgd2lkdGg6IGAke01hdGgubWluKDEwMCwgKGl0LmRvbmUgLyBpdC50b3RhbCkgKiAxMDApfSVgIH19CiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICApKX0KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTIgbWluLWgtWzIuNXJlbV0gcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLXNsYXRlLTYwMCBiZy1zbGF0ZS05MDAvODAgcC0yIHRleHQteHMgdGV4dC1zbGF0ZS0yMDAiPgogICAgICAgICAge3BpY2tlZCA/ICgKICAgICAgICAgICAgPD4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0cmFja2luZy13aWRlciI+e3BpY2tlZC5lbW9qaX0ge3BpY2tlZC5uYW1lfTwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1sLTIgdGV4dC1zbGF0ZS00MDAiPntwaWNrZWQuaGludH08L3NwYW4+CiAgICAgICAgICAgIDwvPgogICAgICAgICAgKSA6ICgKICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNsYXRlLTQwMCI+CiAgICAgICAgICAgICAgVGFwIGEgc2xvdCB0byBpbnNwZWN0IGl0LiBMb290IHVubG9ja3Mgd2hlbiB5b3UgZmluaXNoIGNoYWxsZW5nZSBsaXN0cyBhbmQgY2FyZWVyCiAgICAgICAgICAgICAgbWlsZXN0b25lcy4KICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgQ2FtcEludmVudG9yeTsK
+import { useState } from "react";
+import { X } from "lucide-react";
+import type { InventoryItem } from "@/lib/camp-inventory";
+
+interface Props {
+  items: InventoryItem[];
+  onClose: () => void;
+}
+
+/**
+ * Minecraft-style inventory: a grid of chunky slots. Earned loot shows its
+ * sprite, everything else is a shadowed silhouette with its progress.
+ */
+const CampInventory = ({ items, onClose }: Props) => {
+  const [picked, setPicked] = useState<InventoryItem | null>(null);
+  const earned = items.filter((i) => i.earned).length;
+
+  return (
+    <div className="absolute inset-0 z-40 flex items-end justify-center bg-slate-950/70 p-2 backdrop-blur-sm sm:items-center">
+      <div className="w-full max-w-xl rounded-xl border-4 border-slate-600 bg-slate-800/95 p-3 shadow-2xl">
+        <div className="mb-2 flex items-center justify-between gap-2">
+          <h2 className="font-display text-sm tracking-[0.2em] text-slate-100 uppercase">
+            Inventory · {earned}/{items.length}
+          </h2>
+          <button
+            type="button"
+            onClick={onClose}
+            aria-label="Close inventory"
+            className="grid h-8 w-8 place-items-center rounded-md border border-slate-500 bg-slate-700 text-slate-100"
+          >
+            <X className="h-4 w-4" />
+          </button>
+        </div>
+
+        <div className="grid max-h-[42vh] grid-cols-6 gap-1.5 overflow-y-auto pr-1 sm:grid-cols-8">
+          {items.map((it) => (
+            <button
+              key={it.id}
+              type="button"
+              onClick={() => setPicked(it)}
+              title={`${it.name} — ${it.hint}`}
+              aria-label={`${it.name}, ${it.hint}`}
+              className={`relative grid aspect-square place-items-center rounded-md border-2 text-xl transition-colors ${
+                it.earned
+                  ? "border-amber-300/70 bg-slate-700 hover:bg-slate-600"
+                  : "border-slate-600 bg-slate-900/70 hover:bg-slate-800"
+              }`}
+            >
+              <span className={it.earned ? "" : "opacity-25 grayscale"}>{it.emoji}</span>
+              {!it.earned && it.total > 0 && (
+                <span className="absolute inset-x-0 bottom-0 h-1 rounded-b bg-slate-700">
+                  <span
+                    className="block h-1 rounded-b bg-primary"
+                    style={{ width: `${Math.min(100, (it.done / it.total) * 100)}%` }}
+                  />
+                </span>
+              )}
+            </button>
+          ))}
+        </div>
+
+        <div className="mt-2 min-h-[2.5rem] rounded-md border border-slate-600 bg-slate-900/80 p-2 text-xs text-slate-200">
+          {picked ? (
+            <>
+              <span className="font-display tracking-wider">{picked.emoji} {picked.name}</span>
+              <span className="ml-2 text-slate-400">{picked.hint}</span>
+            </>
+          ) : (
+            <span className="text-slate-400">
+              Tap a slot to inspect it. Loot unlocks when you finish challenge lists and career
+              milestones.
+            </span>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default CampInventory;

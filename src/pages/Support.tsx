@@ -1,1 +1,76 @@
-aW1wb3J0IFNlbyBmcm9tICJAL2NvbXBvbmVudHMvU2VvIjsKaW1wb3J0IHsgSGVhcnQsIEV4dGVybmFsTGluayB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCBOYXZiYXIgZnJvbSAiQC9jb21wb25lbnRzL05hdmJhciI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDYXJkIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgeyBTVVBQT1JUX0xJTktTIH0gZnJvbSAiQC9jb25maWcvc3VwcG9ydCI7CmltcG9ydCB7IG9wZW5FeHRlcm5hbCwgaXNOYXRpdmVBcHAgfSBmcm9tICJAL2xpYi9uYXRpdmUiOwppbXBvcnQgdGlja2xlbGlzdExvZ28gZnJvbSAiQC9hc3NldHMvdGlja2xlbGlzdC1sb2dvLnBuZyI7Cgpjb25zdCBTdXBwb3J0ID0gKCkgPT4gKAogIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctYmFja2dyb3VuZCB0ZXh0LWZvcmVncm91bmQiPgogICAgPFNlbwogICAgICB0aXRsZT0iU3VwcG9ydCB0aGUgRXhwZWRpdGlvbiDigJQgT25zaWdodCBNYXJ0aW4iCiAgICAgIGRlc2NyaXB0aW9uPSJIZWxwIGZ1bmQgdGhlIGNsaW1iIG9mIGV2ZXJ5IGNvdW50cnkncyBoaWdoZXN0IG1vdW50YWluOiBvbmUtb2ZmIHRpcHMsIFBheVBhbCwgb3IgZnJlZSB3YXlzIHRvIHN1cHBvcnQgdGhlIGV4cGVkaXRpb24uIgogICAgICBwYXRoPSIvc3VwcG9ydCIKICAgIC8+CiAgICB7IWlzTmF0aXZlQXBwKCkgJiYgPE5hdmJhciAvPn0KCiAgICA8bWFpbiBjbGFzc05hbWU9e2BtYXgtdy0yeGwgbXgtYXV0byBweC00IHBiLTI0ICR7aXNOYXRpdmVBcHAoKSA/ICJwdC0xMCIgOiAicHQtMjgifWB9PgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTQiPgogICAgICAgIDxpbWcKICAgICAgICAgIHNyYz17dGlja2xlbGlzdExvZ299CiAgICAgICAgICBhbHQ9IlRpY2tsZWxpc3QgbG9nbyIKICAgICAgICAgIHdpZHRoPXs4MTZ9CiAgICAgICAgICBoZWlnaHQ9ezgxNn0KICAgICAgICAgIGxvYWRpbmc9ImxhenkiCiAgICAgICAgICBjbGFzc05hbWU9InctMTQgaC0xNCBzaHJpbmstMCIKICAgICAgICAvPgogICAgICAgIDxkaXY+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRyYWNraW5nLVswLjNlbV0gdXBwZXJjYXNlIHRleHQtcHJpbWFyeSBmb250LWRpc3BsYXkgbWItMSI+VGlja2xlbGlzdDwvcD4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTJ4bCBtZDp0ZXh0LTN4bCB0cmFja2luZy13aWRlciI+U3VwcG9ydCB0aGUgZXhwZWRpdGlvbjwvaDE+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPHAgY2xhc3NOYW1lPSJtdC00IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgMTk1IGNvdW50cmllcywgb25lIGhpZ2hwb2ludCBlYWNoIOKAlCBzZWxmLWZ1bmRlZCwgbW9zdGx5IGZyb20gYSB2YW4uIFRoaXMKICAgICAgICBwYWdlIGlzIGFib3V0IGZ1bmRpbmcgdGhlIGNsaW1iIGl0c2VsZjogcGVybWl0cywgZmVycmllcywgZnVlbCBhbmQgdGhlCiAgICAgICAgb2NjYXNpb25hbCBtb3VudGFpbiBodXQuIEV2ZXJ5IGNvbnRyaWJ1dGlvbiBnb2VzIHN0cmFpZ2h0IGludG8gZ2V0dGluZwogICAgICAgIHRvIHRoZSBuZXh0IHN1bW1pdC4gVGhhbmsgeW91IPCfj5TvuI8KICAgICAgPC9wPgoKICAgICAgPHAgY2xhc3NOYW1lPSJtdC0zIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICBXYW50IHRvIHN1cHBvcnQgdGhlIDxzdHJvbmc+VGlja2xlbGlzdDwvc3Ryb25nPiBjb21tdW5pdHkgYW5kIGtlZXAgdGhlCiAgICAgICAgYXBwIGZyZWUgaW5zdGVhZD97IiAifQogICAgICAgIDxhCiAgICAgICAgICBocmVmPSJodHRwczovL3RpY2tsZWxpc3Qub3JnL2NvbW11bml0eS9zdXBwb3J0IgogICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LXByaW1hcnkgaG92ZXI6dW5kZXJsaW5lIgogICAgICAgID4KICAgICAgICAgIFN1cHBvcnQgdGhlIGNvbW11bml0eSDihpIKICAgICAgICA8L2E+CiAgICAgIDwvcD4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC04IHNwYWNlLXktMyI+CiAgICAgICAge1NVUFBPUlRfTElOS1MubWFwKChsaW5rKSA9PiAoCiAgICAgICAgICA8Q2FyZCBrZXk9e2xpbmsuaWR9IGNsYXNzTmFtZT0icC00IGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdHJhY2tpbmctd2lkZSI+e2xpbmsubGFiZWx9PC9wPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPntsaW5rLmRlc2NyaXB0aW9ufTwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxCdXR0b24gb25DbGljaz17KCkgPT4gb3BlbkV4dGVybmFsKGxpbmsudXJsKX0gY2xhc3NOYW1lPSJzaHJpbmstMCI+CiAgICAgICAgICAgICAgPEhlYXJ0IGNsYXNzTmFtZT0idy00IGgtNCBtci0xIiAvPiBTdXBwb3J0CiAgICAgICAgICAgICAgPEV4dGVybmFsTGluayBjbGFzc05hbWU9InctMyBoLTMgbWwtMSBvcGFjaXR5LTcwIiAvPgogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvQ2FyZD4KICAgICAgICApKX0KICAgICAgPC9kaXY+CgogICAgICA8cCBjbGFzc05hbWU9Im10LTggdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIENvbnRyaWJ1dGlvbnMgYXJlIHZvbHVudGFyeSBkb25hdGlvbnMgdG8gYW4gaW5kZXBlbmRlbnQgY2xpbWJlci4gVGhleSBhcmUgbm90IGEgcHVyY2hhc2UgYW5kIHVubG9jayBubwogICAgICAgIHBhaWQgZmVhdHVyZXMgaW4gdGhlIGFwcC4KICAgICAgPC9wPgogICAgPC9tYWluPgogIDwvZGl2PgopOwoKZXhwb3J0IGRlZmF1bHQgU3VwcG9ydDsK
+import Seo from "@/components/Seo";
+import { Heart, ExternalLink } from "lucide-react";
+import Navbar from "@/components/Navbar";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import { SUPPORT_LINKS } from "@/config/support";
+import { openExternal, isNativeApp } from "@/lib/native";
+import ticklelistLogo from "@/assets/ticklelist-logo.png";
+
+const Support = () => (
+  <div className="min-h-screen bg-background text-foreground">
+    <Seo
+      title="Support the Expedition — Onsight Martin"
+      description="Help fund the climb of every country's highest mountain: one-off tips, PayPal, or free ways to support the expedition."
+      path="/support"
+    />
+    {!isNativeApp() && <Navbar />}
+
+    <main className={`max-w-2xl mx-auto px-4 pb-24 ${isNativeApp() ? "pt-10" : "pt-28"}`}>
+      <div className="flex items-center gap-4">
+        <img
+          src={ticklelistLogo}
+          alt="Ticklelist logo"
+          width={816}
+          height={816}
+          loading="lazy"
+          className="w-14 h-14 shrink-0"
+        />
+        <div>
+          <p className="text-[10px] tracking-[0.3em] uppercase text-primary font-display mb-1">Ticklelist</p>
+          <h1 className="font-display text-2xl md:text-3xl tracking-wider">Support the expedition</h1>
+        </div>
+      </div>
+
+      <p className="mt-4 text-muted-foreground">
+        195 countries, one highpoint each — self-funded, mostly from a van. This
+        page is about funding the climb itself: permits, ferries, fuel and the
+        occasional mountain hut. Every contribution goes straight into getting
+        to the next summit. Thank you 🏔️
+      </p>
+
+      <p className="mt-3 text-sm text-muted-foreground">
+        Want to support the <strong>Ticklelist</strong> community and keep the
+        app free instead?{" "}
+        <a
+          href="https://ticklelist.org/community/support"
+          className="text-primary hover:underline"
+        >
+          Support the community →
+        </a>
+      </p>
+
+      <div className="mt-8 space-y-3">
+        {SUPPORT_LINKS.map((link) => (
+          <Card key={link.id} className="p-4 flex items-center justify-between gap-4">
+            <div>
+              <p className="font-display tracking-wide">{link.label}</p>
+              <p className="text-sm text-muted-foreground">{link.description}</p>
+            </div>
+            <Button onClick={() => openExternal(link.url)} className="shrink-0">
+              <Heart className="w-4 h-4 mr-1" /> Support
+              <ExternalLink className="w-3 h-3 ml-1 opacity-70" />
+            </Button>
+          </Card>
+        ))}
+      </div>
+
+      <p className="mt-8 text-xs text-muted-foreground">
+        Contributions are voluntary donations to an independent climber. They are not a purchase and unlock no
+        paid features in the app.
+      </p>
+    </main>
+  </div>
+);
+
+export default Support;

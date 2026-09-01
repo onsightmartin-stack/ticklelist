@@ -1,1 +1,399 @@
-aW1wb3J0IHsgdXNlTWVtbywgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQ2FtZXJhLCBDcm93biwgSW1hZ2VQbHVzLCBMb2FkZXIyLCBQZW5jaWwsIFRyYXNoMiwgVHJvcGh5LCBWb3RlLCBYIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKCmltcG9ydCBTZW8gZnJvbSAiQC9jb21wb25lbnRzL1NlbyI7CmltcG9ydCBDb21tdW5pdHlMYXlvdXQgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9Db21tdW5pdHlMYXlvdXQiOwppbXBvcnQgTWVtYmVyc09ubHkgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9NZW1iZXJzT25seSI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJAL2hvb2tzL3VzZS10b2FzdCI7CmltcG9ydCB7IHVzZUF1dGggfSBmcm9tICJAL2hvb2tzL3VzZUF1dGgiOwppbXBvcnQgeyB1c2VDb21tdW5pdHlEYXRhIH0gZnJvbSAiQC9ob29rcy91c2VDb21tdW5pdHlEYXRhIjsKaW1wb3J0IHsgdXNlUGhvdG9Db250ZXN0IH0gZnJvbSAiQC9ob29rcy91c2VQaG90b0NvbnRlc3QiOwppbXBvcnQgeyBjb3VudHJpZXMgfSBmcm9tICJAL2RhdGEvY291bnRyaWVzIjsKaW1wb3J0IHsgc2x1Z2lmeSB9IGZyb20gIkAvbGliL3NsdWciOwppbXBvcnQgeyB1cGxvYWRXYWxsTWVkaWEgfSBmcm9tICJAL2xpYi93YWxsLW1lZGlhIjsKaW1wb3J0IHsgZGF5c0xlZnQsIGxlYWRlciwgcm91bmRDbG9zZWQsIFJPVU5EX0RBWVMsIHR5cGUgUGhvdG9FbnRyeSB9IGZyb20gIkAvbGliL3Bob3RvLWNvbnRlc3QiOwoKLyoqCiAqIFN1bW1pdCBwaG90byBjb250ZXN0IOKAlCBtZW1iZXJzIHN1Ym1pdCBhIHBob3RvIHBlciBjb3VudHJ5IGhpZ2ggcG9pbnQgYW5kCiAqIHZvdGUgZm9yIHRoZWlyIGZhdm91cml0ZS4gRWFjaCBwZWFrJ3Mgcm91bmQgcnVucyB7Uk9VTkRfREFZU30gZGF5cyBmcm9tIGl0cwogKiBmaXJzdCB2b3RlOyB0aGUgd2lubmVyIGJlY29tZXMgdGhhdCBwZWFrIHBhZ2UncyBtYWluIGltYWdlLgogKi8KY29uc3QgUGhvdG9Wb3RlUGFnZSA9ICgpID0+IHsKICBjb25zdCB7IHVzZXIgfSA9IHVzZUF1dGgoKTsKICBjb25zdCB7IHByb2ZpbGVzIH0gPSB1c2VDb21tdW5pdHlEYXRhKCk7CiAgY29uc3QgeyBlbnRyaWVzLCByb3VuZHMsIG15Vm90ZXMsIGxvYWRpbmcsIHN1Ym1pdEVudHJ5LCB2b3RlLCB1cGRhdGVFbnRyeSwgcmVtb3ZlRW50cnkgfSA9IHVzZVBob3RvQ29udGVzdCgpOwoKICBjb25zdCBmaWxlUmVmID0gdXNlUmVmPEhUTUxJbnB1dEVsZW1lbnQ+KG51bGwpOwogIGNvbnN0IFtmaWxlLCBzZXRGaWxlXSA9IHVzZVN0YXRlPEZpbGUgfCBudWxsPihudWxsKTsKICBjb25zdCBbcHJldmlldywgc2V0UHJldmlld10gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2NvdW50cnksIHNldENvdW50cnldID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtjYXB0aW9uLCBzZXRDYXB0aW9uXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbYnVzeSwgc2V0QnVzeV0gPSB1c2VTdGF0ZShmYWxzZSk7CgogIC8qKiBJbmxpbmUgZWRpdCBzdGF0ZSBmb3Igb25lIG9mIG15IG93biBlbnRyaWVzLiAqLwogIGNvbnN0IFtlZGl0aW5nSWQsIHNldEVkaXRpbmdJZF0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBbZWRpdENhcHRpb24sIHNldEVkaXRDYXB0aW9uXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbZWRpdEJ1c3ksIHNldEVkaXRCdXN5XSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbY29uZmlybURlbGV0ZUlkLCBzZXRDb25maXJtRGVsZXRlSWRdID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCk7CgogIGNvbnN0IHN0YXJ0RWRpdCA9IChlbnRyeTogUGhvdG9FbnRyeSkgPT4gewogICAgc2V0RWRpdGluZ0lkKGVudHJ5LmlkKTsKICAgIHNldEVkaXRDYXB0aW9uKGVudHJ5LmNhcHRpb24gPz8gIiIpOwogICAgc2V0Q29uZmlybURlbGV0ZUlkKG51bGwpOwogIH07CgogIGNvbnN0IHNhdmVFZGl0ID0gYXN5bmMgKGVudHJ5OiBQaG90b0VudHJ5LCByZXBsYWNlbWVudD86IEZpbGUgfCBudWxsKSA9PiB7CiAgICBpZiAoIXVzZXIpIHJldHVybjsKICAgIHNldEVkaXRCdXN5KHRydWUpOwogICAgbGV0IHBob3RvVXJsOiBzdHJpbmcgfCB1bmRlZmluZWQ7CiAgICBpZiAocmVwbGFjZW1lbnQpIHsKICAgICAgY29uc3QgdXAgPSBhd2FpdCB1cGxvYWRXYWxsTWVkaWEocmVwbGFjZW1lbnQsIHVzZXIuaWQpOwogICAgICBpZiAoImVycm9yIiBpbiB1cCkgewogICAgICAgIHRvYXN0KHsgdGl0bGU6ICJVcGxvYWQgZmFpbGVkIiwgZGVzY3JpcHRpb246IHVwLmVycm9yLCB2YXJpYW50OiAiZGVzdHJ1Y3RpdmUiIH0pOwogICAgICAgIHNldEVkaXRCdXN5KGZhbHNlKTsKICAgICAgICByZXR1cm47CiAgICAgIH0KICAgICAgcGhvdG9VcmwgPSB1cC51cmw7CiAgICB9CiAgICBjb25zdCBvayA9IGF3YWl0IHVwZGF0ZUVudHJ5KGVudHJ5LCB7IGNhcHRpb246IGVkaXRDYXB0aW9uLCAuLi4ocGhvdG9VcmwgPyB7IHBob3RvVXJsIH0gOiB7fSkgfSk7CiAgICBzZXRFZGl0QnVzeShmYWxzZSk7CiAgICBpZiAob2spIHNldEVkaXRpbmdJZChudWxsKTsKICB9OwoKCiAgY29uc3Qgc29ydGVkQ291bnRyaWVzID0gdXNlTWVtbygKICAgICgpID0+IFsuLi5jb3VudHJpZXNdLnNvcnQoKGEsIGIpID0+IGEuY291bnRyeS5sb2NhbGVDb21wYXJlKGIuY291bnRyeSkpLAogICAgW10sCiAgKTsKCiAgLyoqIEVudHJpZXMgZ3JvdXBlZCBwZXIgcGVhaywgbW9zdC12b3RlZCBmaXJzdC4gKi8KICBjb25zdCBncm91cHMgPSB1c2VNZW1vKCgpID0+IHsKICAgIGNvbnN0IG1hcCA9IG5ldyBNYXA8c3RyaW5nLCBQaG90b0VudHJ5W10+KCk7CiAgICBlbnRyaWVzLmZvckVhY2goKGUpID0+IHsKICAgICAgY29uc3QgbGlzdCA9IG1hcC5nZXQoZS5jb3VudHJ5X3NsdWcpID8/IFtdOwogICAgICBsaXN0LnB1c2goZSk7CiAgICAgIG1hcC5zZXQoZS5jb3VudHJ5X3NsdWcsIGxpc3QpOwogICAgfSk7CiAgICByZXR1cm4gWy4uLm1hcC5lbnRyaWVzKCldCiAgICAgIC5tYXAoKFtzbHVnLCBsaXN0XSkgPT4gKHsKICAgICAgICBzbHVnLAogICAgICAgIGxpc3Q6IFsuLi5saXN0XS5zb3J0KChhLCBiKSA9PiBiLnZvdGVzIC0gYS52b3RlcyB8fCBhLmNyZWF0ZWRfYXQubG9jYWxlQ29tcGFyZShiLmNyZWF0ZWRfYXQpKSwKICAgICAgICByb3VuZDogcm91bmRzW3NsdWddLAogICAgICB9KSkKICAgICAgLnNvcnQoKGEsIGIpID0+IGIubGlzdC5sZW5ndGggLSBhLmxpc3QubGVuZ3RoIHx8IGEuc2x1Zy5sb2NhbGVDb21wYXJlKGIuc2x1ZykpOwogIH0sIFtlbnRyaWVzLCByb3VuZHNdKTsKCiAgY29uc3QgcGlja0ZpbGUgPSAocGlja2VkOiBGaWxlIHwgbnVsbCkgPT4gewogICAgaWYgKCFwaWNrZWQpIHJldHVybjsKICAgIGlmICghcGlja2VkLnR5cGUuc3RhcnRzV2l0aCgiaW1hZ2UvIikpIHsKICAgICAgdG9hc3QoeyB0aXRsZTogIlBpY2sgYW4gaW1hZ2UgZmlsZSIsIHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHNldEZpbGUocGlja2VkKTsKICAgIHNldFByZXZpZXcoKG9sZCkgPT4gewogICAgICBpZiAob2xkKSBVUkwucmV2b2tlT2JqZWN0VVJMKG9sZCk7CiAgICAgIHJldHVybiBVUkwuY3JlYXRlT2JqZWN0VVJMKHBpY2tlZCk7CiAgICB9KTsKICB9OwoKICBjb25zdCBjbGVhckZpbGUgPSAoKSA9PiB7CiAgICBzZXRGaWxlKG51bGwpOwogICAgc2V0UHJldmlldygob2xkKSA9PiB7CiAgICAgIGlmIChvbGQpIFVSTC5yZXZva2VPYmplY3RVUkwob2xkKTsKICAgICAgcmV0dXJuICIiOwogICAgfSk7CiAgICBpZiAoZmlsZVJlZi5jdXJyZW50KSBmaWxlUmVmLmN1cnJlbnQudmFsdWUgPSAiIjsKICB9OwoKICBjb25zdCBzdWJtaXQgPSBhc3luYyAoZTogUmVhY3QuRm9ybUV2ZW50KSA9PiB7CiAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICBpZiAoIXVzZXIpIHJldHVybjsKICAgIGlmICghZmlsZSkgewogICAgICB0b2FzdCh7IHRpdGxlOiAiQ2hvb3NlIGEgc3VtbWl0IHBob3RvIGZpcnN0IiwgdmFyaWFudDogImRlc3RydWN0aXZlIiB9KTsKICAgICAgcmV0dXJuOwogICAgfQogICAgY29uc3QgZW50cnlDb3VudHJ5ID0gY291bnRyaWVzLmZpbmQoKGMpID0+IGMuY291bnRyeSA9PT0gY291bnRyeSk7CiAgICBpZiAoIWVudHJ5Q291bnRyeSkgewogICAgICB0b2FzdCh7IHRpdGxlOiAiUGljayB0aGUgY291bnRyeSBoaWdoIHBvaW50IiwgdmFyaWFudDogImRlc3RydWN0aXZlIiB9KTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIHNldEJ1c3kodHJ1ZSk7CiAgICBjb25zdCB1cGxvYWRlZCA9IGF3YWl0IHVwbG9hZFdhbGxNZWRpYShmaWxlLCB1c2VyLmlkKTsKICAgIGlmICgiZXJyb3IiIGluIHVwbG9hZGVkKSB7CiAgICAgIHNldEJ1c3koZmFsc2UpOwogICAgICB0b2FzdCh7IHRpdGxlOiAiVXBsb2FkIGZhaWxlZCIsIGRlc2NyaXB0aW9uOiB1cGxvYWRlZC5lcnJvciwgdmFyaWFudDogImRlc3RydWN0aXZlIiB9KTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGNvbnN0IG9rID0gYXdhaXQgc3VibWl0RW50cnkoewogICAgICBjb3VudHJ5U2x1Zzogc2x1Z2lmeShlbnRyeUNvdW50cnkuY291bnRyeSksCiAgICAgIGNvdW50cnk6IGVudHJ5Q291bnRyeS5jb3VudHJ5LAogICAgICBwZWFrTmFtZTogZW50cnlDb3VudHJ5LmhpZ2hQb2ludCwKICAgICAgcGhvdG9Vcmw6IHVwbG9hZGVkLnVybCwKICAgICAgY2FwdGlvbiwKICAgIH0pOwogICAgc2V0QnVzeShmYWxzZSk7CiAgICBpZiAob2spIHsKICAgICAgY2xlYXJGaWxlKCk7CiAgICAgIHNldENhcHRpb24oIiIpOwogICAgICB0b2FzdCh7IHRpdGxlOiAiUGhvdG8gZW50ZXJlZCBpbnRvIHRoZSB2b3RlIPCfk7ciIH0pOwogICAgfQogIH07CgogIHJldHVybiAoCiAgICA8Q29tbXVuaXR5TGF5b3V0PgogICAgICA8U2VvCiAgICAgICAgdGl0bGU9IlN1bW1pdCBQaG90byBWb3RlIOKAlCBUaWNrbGVsaXN0IgogICAgICAgIGRlc2NyaXB0aW9uPSJWb3RlIG9uIG1lbWJlciBzdW1taXQgcGhvdG9zLiBFdmVyeSBwZWFrJ3Mgcm91bmQgcnVucyAzMCBkYXlzIGZyb20gdGhlIGZpcnN0IHZvdGUsIGFuZCB0aGUgd2lubmluZyBzaG90IGJlY29tZXMgdGhlIG1haW4gaW1hZ2Ugb24gdGhhdCBoaWdoIHBvaW50J3MgcGFnZS4iCiAgICAgICAgcGF0aD0iL2NvbW11bml0eS9waG90by12b3RlIgogICAgICAgIG5vaW5kZXg9eyEhdXNlcn0KICAgICAgLz4KCiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJtYi02Ij4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRyYWNraW5nLVswLjNlbV0gdXBwZXJjYXNlIHRleHQtcHJpbWFyeSBmb250LWRpc3BsYXkiPlRpY2tsZWxpc3Q8L3A+CiAgICAgICAgPGgxIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtM3hsIG1kOnRleHQtNHhsIHRyYWNraW5nLXdpZGVyIG10LTIiPlBob3RvIFZvdGU8L2gxPgogICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMyB0ZXh0LW11dGVkLWZvcmVncm91bmQgbWF4LXctMnhsIj4KICAgICAgICAgIEVudGVyIHlvdXIgYmVzdCBzaG90IG9mIGEgY291bnRyeSBoaWdoIHBvaW50IGFuZCB2b3RlIG9uIGV2ZXJ5b25lIGVsc2Uncy4gRWFjaCBwZWFrJ3Mgcm91bmQgcnVuc3siICJ9CiAgICAgICAgICB7Uk9VTkRfREFZU30gZGF5cyBmcm9tIHRoZSBtb21lbnQgaXRzIGZpcnN0IHZvdGUgaXMgY2FzdCDigJQgd2hlbiB0aGUgY2xvY2sgcnVucyBvdXQsIHRoZSB3aW5uaW5nIHBob3RvCiAgICAgICAgICBiZWNvbWVzIHRoZSBtYWluIGltYWdlIG9uIHRoYXQgcGVhaydzIHBhZ2UuIPCfj5TvuI8KICAgICAgICA8L3A+CiAgICAgIDwvaGVhZGVyPgoKICAgICAgeyF1c2VyICYmIDxNZW1iZXJzT25seSBkZXNjcmlwdGlvbj0iU2lnbiBpbiB0byBlbnRlciBhbmQgdm90ZSBvbiBzdW1taXQgcGhvdG9zLiIgLz59CiAgICAgIHt1c2VyICYmICgKICAgICAgICA8Zm9ybSBvblN1Ym1pdD17c3VibWl0fSBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBwLTQgc3BhY2UteS00IG1iLTgiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgIDxDYW1lcmEgY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtcHJpbWFyeSIgLz4KICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdHJhY2tpbmctd2lkZXIgdGV4dC1zbSI+RW50ZXIgYSBwaG90bzwvaDI+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgcmVmPXtmaWxlUmVmfQogICAgICAgICAgICAgIHR5cGU9ImZpbGUiCiAgICAgICAgICAgICAgYWNjZXB0PSJpbWFnZS8qIgogICAgICAgICAgICAgIGNsYXNzTmFtZT0iaGlkZGVuIgogICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gcGlja0ZpbGUoZS50YXJnZXQuZmlsZXM/LlswXSA/PyBudWxsKX0KICAgICAgICAgICAgLz4KCiAgICAgICAgICAgIHtwcmV2aWV3ID8gKAogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSI+CiAgICAgICAgICAgICAgICA8aW1nIHNyYz17cHJldmlld30gYWx0PSJTZWxlY3RlZCBjb250ZXN0IHBob3RvIHByZXZpZXciIGNsYXNzTmFtZT0idy1mdWxsIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIiIC8+CiAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgb25DbGljaz17Y2xlYXJGaWxlfQogICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsPSJSZW1vdmUgcGhvdG8iCiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYWJzb2x1dGUgdG9wLTIgcmlnaHQtMiByb3VuZGVkLWZ1bGwgYmctYmFja2dyb3VuZC84MCBib3JkZXIgYm9yZGVyLWJvcmRlciBwLTEuNSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPFggY2xhc3NOYW1lPSJ3LTQgaC00IiAvPgogICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gZmlsZVJlZi5jdXJyZW50Py5jbGljaygpfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWRhc2hlZCBib3JkZXItYm9yZGVyIHB5LTggZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGhvdmVyOnRleHQtZm9yZWdyb3VuZCBob3Zlcjpib3JkZXItcHJpbWFyeS82MCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8SW1hZ2VQbHVzIGNsYXNzTmFtZT0idy02IGgtNiIgLz4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbSI+Q2hvb3NlIGEgcGhvdG8gKG1heCA1MCBNQik8L3NwYW4+CiAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICl9CgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBzbTpncmlkLWNvbHMtMiBnYXAtMyI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMS41Ij4KICAgICAgICAgICAgICAgIDxMYWJlbCBodG1sRm9yPSJjb250ZXN0LWNvdW50cnkiPkNvdW50cnkgaGlnaCBwb2ludDwvTGFiZWw+CiAgICAgICAgICAgICAgICA8c2VsZWN0CiAgICAgICAgICAgICAgICAgIGlkPSJjb250ZXN0LWNvdW50cnkiCiAgICAgICAgICAgICAgICAgIHZhbHVlPXtjb3VudHJ5fQogICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldENvdW50cnkoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBoLTEwIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1pbnB1dCBiZy1iYWNrZ3JvdW5kIHB4LTMgdGV4dC1zbSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iIj5TZWxlY3QgYSBjb3VudHJ54oCmPC9vcHRpb24+CiAgICAgICAgICAgICAgICAgIHtzb3J0ZWRDb3VudHJpZXMubWFwKChjKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiBrZXk9e2MuY291bnRyeX0gdmFsdWU9e2MuY291bnRyeX0+CiAgICAgICAgICAgICAgICAgICAgICB7Yy5jb3VudHJ5fSDigJQge2MuaGlnaFBvaW50fQogICAgICAgICAgICAgICAgICAgIDwvb3B0aW9uPgogICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgIDwvc2VsZWN0PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTEuNSI+CiAgICAgICAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0iY29udGVzdC1jYXB0aW9uIj5DYXB0aW9uIChvcHRpb25hbCk8L0xhYmVsPgogICAgICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgICAgIGlkPSJjb250ZXN0LWNhcHRpb24iCiAgICAgICAgICAgICAgICAgIHZhbHVlPXtjYXB0aW9ufQogICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldENhcHRpb24oZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iU3VtbWl0IHJpZGdlIGF0IHN1bnJpc2XigKYiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxCdXR0b24gdHlwZT0ic3VibWl0IiBkaXNhYmxlZD17YnVzeX0+CiAgICAgICAgICAgICAge2J1c3kgPyA8TG9hZGVyMiBjbGFzc05hbWU9InctNCBoLTQgYW5pbWF0ZS1zcGluIiAvPiA6IDxJbWFnZVBsdXMgY2xhc3NOYW1lPSJ3LTQgaC00IiAvPn0KICAgICAgICAgICAgICBFbnRlciBwaG90bwogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8L2Zvcm0+CiAgICAgICl9CgogICAgICB7bG9hZGluZyA/ICgKICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCB0ZXh0LXNtIj5Mb2FkaW5nIGVudHJpZXPigKY8L3A+CiAgICAgICkgOiBncm91cHMubGVuZ3RoID09PSAwID8gKAogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRleHQtc20iPk5vIHBob3RvcyBlbnRlcmVkIHlldCDigJQgYmUgdGhlIGZpcnN0LjwvcD4KICAgICAgKSA6ICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0xMCI+CiAgICAgICAgICB7Z3JvdXBzLm1hcCgoeyBzbHVnLCBsaXN0LCByb3VuZCB9KSA9PiB7CiAgICAgICAgICAgIGNvbnN0IGNsb3NlZCA9IHJvdW5kQ2xvc2VkKHJvdW5kKTsKICAgICAgICAgICAgY29uc3QgdG9wID0gbGVhZGVyKGxpc3QpOwogICAgICAgICAgICBjb25zdCBsZWZ0ID0gZGF5c0xlZnQocm91bmQpOwogICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgIDxzZWN0aW9uIGtleT17c2x1Z30+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtYmFzZWxpbmUganVzdGlmeS1iZXR3ZWVuIGdhcC0yIG1iLTMiPgogICAgICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdHJhY2tpbmctd2lkZXIgdGV4dC1sZyI+CiAgICAgICAgICAgICAgICAgICAge2xpc3RbMF0hLnBlYWtfbmFtZX0gPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPsK3IHtsaXN0WzBdIS5jb3VudHJ5fTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgeyFyb3VuZAogICAgICAgICAgICAgICAgICAgICAgPyAiVm90aW5nIG9wZW5zIHdpdGggdGhlIGZpcnN0IHZvdGUiCiAgICAgICAgICAgICAgICAgICAgICA6IGNsb3NlZAogICAgICAgICAgICAgICAgICAgICAgICA/ICJSb3VuZCBjbG9zZWQg4oCUIHdpbm5lciBsb2NrZWQgaW4iCiAgICAgICAgICAgICAgICAgICAgICAgIDogYCR7bGVmdH0gZGF5JHtsZWZ0ID09PSAxID8gIiIgOiAicyJ9IGxlZnRgfQogICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBzbTpncmlkLWNvbHMtMiBsZzpncmlkLWNvbHMtMyBnYXAtNCI+CiAgICAgICAgICAgICAgICAgIHtsaXN0Lm1hcCgoZW50cnkpID0+IHsKICAgICAgICAgICAgICAgICAgICBjb25zdCBtaW5lID0gbXlWb3Rlc1tlbnRyeS5jb3VudHJ5X3NsdWddID09PSBlbnRyeS5pZDsKICAgICAgICAgICAgICAgICAgICBjb25zdCB3b24gPSBjbG9zZWQgJiYgdG9wPy5pZCA9PT0gZW50cnkuaWQ7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgICAgIDxhcnRpY2xlCiAgICAgICAgICAgICAgICAgICAgICAgIGtleT17ZW50cnkuaWR9CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHJvdW5kZWQtbGcgYm9yZGVyIGJnLWNhcmQgb3ZlcmZsb3ctaGlkZGVuICR7d29uID8gImJvcmRlci1wcmltYXJ5IiA6ICJib3JkZXItYm9yZGVyIn1gfQogICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUiPgogICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNyYz17ZW50cnkucGhvdG9fdXJsfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgYWx0PXtgJHtlbnRyeS5wZWFrX25hbWV9IHN1bW1pdCBwaG90byBieSAke3Byb2ZpbGVzW2VudHJ5LnVzZXJfaWRdPy5kaXNwbGF5X25hbWUgPz8gImEgbWVtYmVyIn1gfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9hZGluZz0ibGF6eSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGFzcGVjdC1bNC8zXSBvYmplY3QtY292ZXIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICB7d29uICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYWJzb2x1dGUgdG9wLTIgbGVmdC0yIGlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSByb3VuZGVkLWZ1bGwgYmctcHJpbWFyeSB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCB0ZXh0LVsxMHB4XSBweC0yIHB5LTEgZm9udC1kaXNwbGF5IHRyYWNraW5nLXdpZGVyIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPENyb3duIGNsYXNzTmFtZT0idy0zIGgtMyIgLz4gV2lubmVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJwLTMgc3BhY2UteS0yIj4KICAgICAgICAgICAgICAgICAgICAgICAgICB7ZWRpdGluZ0lkID09PSBlbnRyeS5pZCA/ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8TGFiZWwgaHRtbEZvcj17YGNhcHRpb24tJHtlbnRyeS5pZH1gfSBjbGFzc05hbWU9InRleHQteHMiPkNhcHRpb248L0xhYmVsPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZD17YGNhcHRpb24tJHtlbnRyeS5pZH1gfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXtlZGl0Q2FwdGlvbn0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldEVkaXRDYXB0aW9uKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iU2F5IHNvbWV0aGluZyBhYm91dCB0aGUgc2hvdCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPExhYmVsIGh0bWxGb3I9e2ByZXBsYWNlLSR7ZW50cnkuaWR9YH0gY2xhc3NOYW1lPSJ0ZXh0LXhzIj5SZXBsYWNlIHBob3RvIChvcHRpb25hbCk8L0xhYmVsPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZD17YHJlcGxhY2UtJHtlbnRyeS5pZH1gfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9ImZpbGUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWNjZXB0PSJpbWFnZS8qIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gdm9pZCBzYXZlRWRpdChlbnRyeSwgZS50YXJnZXQuZmlsZXM/LlswXSA/PyBudWxsKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZD17ZWRpdEJ1c3l9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbiB0eXBlPSJidXR0b24iIHNpemU9InNtIiBkaXNhYmxlZD17ZWRpdEJ1c3l9IG9uQ2xpY2s9eygpID0+IHZvaWQgc2F2ZUVkaXQoZW50cnkpfT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtlZGl0QnVzeSA/IDxMb2FkZXIyIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUgYW5pbWF0ZS1zcGluIiAvPiA6IG51bGx9IFNhdmUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWQ9e2VkaXRCdXN5fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0RWRpdGluZ0lkKG51bGwpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIENhbmNlbAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20iPntlbnRyeS5jYXB0aW9uIHx8ICLigJQifTwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnkge3Byb2ZpbGVzW2VudHJ5LnVzZXJfaWRdPy5kaXNwbGF5X25hbWUgPz8gIk1lbWJlciJ9CiAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8VHJvcGh5IGNsYXNzTmFtZT0idy0zLjUgaC0zLjUiIC8+IHtlbnRyeS52b3Rlc30gdm90ZXtlbnRyeS52b3RlcyA9PT0gMSA/ICIiIDogInMifQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge3VzZXIgJiYgZW50cnkudXNlcl9pZCA9PT0gdXNlci5pZCAmJiBlZGl0aW5nSWQgIT09IGVudHJ5LmlkICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbD0iRWRpdCBteSBwaG90byIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHN0YXJ0RWRpdChlbnRyeSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFBlbmNpbCBjbGFzc05hbWU9InctMy41IGgtMy41IiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7dXNlciAmJiBlbnRyeS51c2VyX2lkID09PSB1c2VyLmlkICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25maXJtRGVsZXRlSWQgPT09IGVudHJ5LmlkID8gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50PSJkZXN0cnVjdGl2ZSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZXRDb25maXJtRGVsZXRlSWQobnVsbCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2b2lkIHJlbW92ZUVudHJ5KGVudHJ5KTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRGVsZXRlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8QnV0dG9uIHR5cGU9ImJ1dHRvbiIgc2l6ZT0ic20iIHZhcmlhbnQ9Imdob3N0IiBvbkNsaWNrPXsoKSA9PiBzZXRDb25maXJtRGVsZXRlSWQobnVsbCl9PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxYIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUiIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9IlJlbW92ZSBteSBwaG90byIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0Q29uZmlybURlbGV0ZUlkKGVudHJ5LmlkKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFRyYXNoMiBjbGFzc05hbWU9InctMy41IGgtMy41IiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50PXttaW5lID8gImRlZmF1bHQiIDogIm91dGxpbmUifQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkPXshdXNlciB8fCBjbG9zZWQgfHwgbWluZX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB2b3RlKGVudHJ5KX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxWb3RlIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUiIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge21pbmUgPyAiWW91ciB2b3RlIiA6IGNsb3NlZCA/ICJDbG9zZWQiIDogIlZvdGUifQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgIDwvYXJ0aWNsZT4KICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgICB9KX0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvc2VjdGlvbj4KICAgICAgICAgICAgKTsKICAgICAgICAgIH0pfQogICAgICAgIDwvZGl2PgogICAgICApfQogICAgPC9Db21tdW5pdHlMYXlvdXQ+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IFBob3RvVm90ZVBhZ2U7Cg==
+import { useMemo, useRef, useState } from "react";
+import { Camera, Crown, ImagePlus, Loader2, Pencil, Trash2, Trophy, Vote, X } from "lucide-react";
+
+import Seo from "@/components/Seo";
+import CommunityLayout from "@/components/community/CommunityLayout";
+import MembersOnly from "@/components/community/MembersOnly";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { toast } from "@/hooks/use-toast";
+import { useAuth } from "@/hooks/useAuth";
+import { useCommunityData } from "@/hooks/useCommunityData";
+import { usePhotoContest } from "@/hooks/usePhotoContest";
+import { countries } from "@/data/countries";
+import { slugify } from "@/lib/slug";
+import { uploadWallMedia } from "@/lib/wall-media";
+import { daysLeft, leader, roundClosed, ROUND_DAYS, type PhotoEntry } from "@/lib/photo-contest";
+
+/**
+ * Summit photo contest — members submit a photo per country high point and
+ * vote for their favourite. Each peak's round runs {ROUND_DAYS} days from its
+ * first vote; the winner becomes that peak page's main image.
+ */
+const PhotoVotePage = () => {
+  const { user } = useAuth();
+  const { profiles } = useCommunityData();
+  const { entries, rounds, myVotes, loading, submitEntry, vote, updateEntry, removeEntry } = usePhotoContest();
+
+  const fileRef = useRef<HTMLInputElement>(null);
+  const [file, setFile] = useState<File | null>(null);
+  const [preview, setPreview] = useState("");
+  const [country, setCountry] = useState("");
+  const [caption, setCaption] = useState("");
+  const [busy, setBusy] = useState(false);
+
+  /** Inline edit state for one of my own entries. */
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [editCaption, setEditCaption] = useState("");
+  const [editBusy, setEditBusy] = useState(false);
+  const [confirmDeleteId, setConfirmDeleteId] = useState<string | null>(null);
+
+  const startEdit = (entry: PhotoEntry) => {
+    setEditingId(entry.id);
+    setEditCaption(entry.caption ?? "");
+    setConfirmDeleteId(null);
+  };
+
+  const saveEdit = async (entry: PhotoEntry, replacement?: File | null) => {
+    if (!user) return;
+    setEditBusy(true);
+    let photoUrl: string | undefined;
+    if (replacement) {
+      const up = await uploadWallMedia(replacement, user.id);
+      if ("error" in up) {
+        toast({ title: "Upload failed", description: up.error, variant: "destructive" });
+        setEditBusy(false);
+        return;
+      }
+      photoUrl = up.url;
+    }
+    const ok = await updateEntry(entry, { caption: editCaption, ...(photoUrl ? { photoUrl } : {}) });
+    setEditBusy(false);
+    if (ok) setEditingId(null);
+  };
+
+
+  const sortedCountries = useMemo(
+    () => [...countries].sort((a, b) => a.country.localeCompare(b.country)),
+    [],
+  );
+
+  /** Entries grouped per peak, most-voted first. */
+  const groups = useMemo(() => {
+    const map = new Map<string, PhotoEntry[]>();
+    entries.forEach((e) => {
+      const list = map.get(e.country_slug) ?? [];
+      list.push(e);
+      map.set(e.country_slug, list);
+    });
+    return [...map.entries()]
+      .map(([slug, list]) => ({
+        slug,
+        list: [...list].sort((a, b) => b.votes - a.votes || a.created_at.localeCompare(b.created_at)),
+        round: rounds[slug],
+      }))
+      .sort((a, b) => b.list.length - a.list.length || a.slug.localeCompare(b.slug));
+  }, [entries, rounds]);
+
+  const pickFile = (picked: File | null) => {
+    if (!picked) return;
+    if (!picked.type.startsWith("image/")) {
+      toast({ title: "Pick an image file", variant: "destructive" });
+      return;
+    }
+    setFile(picked);
+    setPreview((old) => {
+      if (old) URL.revokeObjectURL(old);
+      return URL.createObjectURL(picked);
+    });
+  };
+
+  const clearFile = () => {
+    setFile(null);
+    setPreview((old) => {
+      if (old) URL.revokeObjectURL(old);
+      return "";
+    });
+    if (fileRef.current) fileRef.current.value = "";
+  };
+
+  const submit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!user) return;
+    if (!file) {
+      toast({ title: "Choose a summit photo first", variant: "destructive" });
+      return;
+    }
+    const entryCountry = countries.find((c) => c.country === country);
+    if (!entryCountry) {
+      toast({ title: "Pick the country high point", variant: "destructive" });
+      return;
+    }
+
+    setBusy(true);
+    const uploaded = await uploadWallMedia(file, user.id);
+    if ("error" in uploaded) {
+      setBusy(false);
+      toast({ title: "Upload failed", description: uploaded.error, variant: "destructive" });
+      return;
+    }
+
+    const ok = await submitEntry({
+      countrySlug: slugify(entryCountry.country),
+      country: entryCountry.country,
+      peakName: entryCountry.highPoint,
+      photoUrl: uploaded.url,
+      caption,
+    });
+    setBusy(false);
+    if (ok) {
+      clearFile();
+      setCaption("");
+      toast({ title: "Photo entered into the vote 📷" });
+    }
+  };
+
+  return (
+    <CommunityLayout>
+      <Seo
+        title="Summit Photo Vote — Ticklelist"
+        description="Vote on member summit photos. Every peak's round runs 30 days from the first vote, and the winning shot becomes the main image on that high point's page."
+        path="/community/photo-vote"
+        noindex={!!user}
+      />
+
+      <header className="mb-6">
+        <p className="text-[10px] tracking-[0.3em] uppercase text-primary font-display">Ticklelist</p>
+        <h1 className="font-display text-3xl md:text-4xl tracking-wider mt-2">Photo Vote</h1>
+        <p className="mt-3 text-muted-foreground max-w-2xl">
+          Enter your best shot of a country high point and vote on everyone else's. Each peak's round runs{" "}
+          {ROUND_DAYS} days from the moment its first vote is cast — when the clock runs out, the winning photo
+          becomes the main image on that peak's page. 🏔️
+        </p>
+      </header>
+
+      {!user && <MembersOnly description="Sign in to enter and vote on summit photos." />}
+      {user && (
+        <form onSubmit={submit} className="rounded-lg border border-border bg-card p-4 space-y-4 mb-8">
+            <div className="flex items-center gap-2">
+              <Camera className="w-4 h-4 text-primary" />
+              <h2 className="font-display tracking-wider text-sm">Enter a photo</h2>
+            </div>
+
+            <input
+              ref={fileRef}
+              type="file"
+              accept="image/*"
+              className="hidden"
+              onChange={(e) => pickFile(e.target.files?.[0] ?? null)}
+            />
+
+            {preview ? (
+              <div className="relative">
+                <img src={preview} alt="Selected contest photo preview" className="w-full rounded-md border border-border" />
+                <button
+                  type="button"
+                  onClick={clearFile}
+                  aria-label="Remove photo"
+                  className="absolute top-2 right-2 rounded-full bg-background/80 border border-border p-1.5"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+            ) : (
+              <button
+                type="button"
+                onClick={() => fileRef.current?.click()}
+                className="w-full rounded-md border border-dashed border-border py-8 flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground hover:border-primary/60 transition-colors"
+              >
+                <ImagePlus className="w-6 h-6" />
+                <span className="text-sm">Choose a photo (max 50 MB)</span>
+              </button>
+            )}
+
+            <div className="grid sm:grid-cols-2 gap-3">
+              <div className="space-y-1.5">
+                <Label htmlFor="contest-country">Country high point</Label>
+                <select
+                  id="contest-country"
+                  value={country}
+                  onChange={(e) => setCountry(e.target.value)}
+                  className="w-full h-10 rounded-md border border-input bg-background px-3 text-sm"
+                >
+                  <option value="">Select a country…</option>
+                  {sortedCountries.map((c) => (
+                    <option key={c.country} value={c.country}>
+                      {c.country} — {c.highPoint}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <div className="space-y-1.5">
+                <Label htmlFor="contest-caption">Caption (optional)</Label>
+                <Input
+                  id="contest-caption"
+                  value={caption}
+                  onChange={(e) => setCaption(e.target.value)}
+                  placeholder="Summit ridge at sunrise…"
+                />
+              </div>
+            </div>
+
+            <Button type="submit" disabled={busy}>
+              {busy ? <Loader2 className="w-4 h-4 animate-spin" /> : <ImagePlus className="w-4 h-4" />}
+              Enter photo
+            </Button>
+        </form>
+      )}
+
+      {loading ? (
+        <p className="text-muted-foreground text-sm">Loading entries…</p>
+      ) : groups.length === 0 ? (
+        <p className="text-muted-foreground text-sm">No photos entered yet — be the first.</p>
+      ) : (
+        <div className="space-y-10">
+          {groups.map(({ slug, list, round }) => {
+            const closed = roundClosed(round);
+            const top = leader(list);
+            const left = daysLeft(round);
+            return (
+              <section key={slug}>
+                <div className="flex flex-wrap items-baseline justify-between gap-2 mb-3">
+                  <h2 className="font-display tracking-wider text-lg">
+                    {list[0]!.peak_name} <span className="text-muted-foreground">· {list[0]!.country}</span>
+                  </h2>
+                  <p className="text-xs text-muted-foreground">
+                    {!round
+                      ? "Voting opens with the first vote"
+                      : closed
+                        ? "Round closed — winner locked in"
+                        : `${left} day${left === 1 ? "" : "s"} left`}
+                  </p>
+                </div>
+
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {list.map((entry) => {
+                    const mine = myVotes[entry.country_slug] === entry.id;
+                    const won = closed && top?.id === entry.id;
+                    return (
+                      <article
+                        key={entry.id}
+                        className={`rounded-lg border bg-card overflow-hidden ${won ? "border-primary" : "border-border"}`}
+                      >
+                        <div className="relative">
+                          <img
+                            src={entry.photo_url}
+                            alt={`${entry.peak_name} summit photo by ${profiles[entry.user_id]?.display_name ?? "a member"}`}
+                            loading="lazy"
+                            className="w-full aspect-[4/3] object-cover"
+                          />
+                          {won && (
+                            <span className="absolute top-2 left-2 inline-flex items-center gap-1 rounded-full bg-primary text-primary-foreground text-[10px] px-2 py-1 font-display tracking-wider">
+                              <Crown className="w-3 h-3" /> Winner
+                            </span>
+                          )}
+                        </div>
+                        <div className="p-3 space-y-2">
+                          {editingId === entry.id ? (
+                            <div className="space-y-2">
+                              <Label htmlFor={`caption-${entry.id}`} className="text-xs">Caption</Label>
+                              <Input
+                                id={`caption-${entry.id}`}
+                                value={editCaption}
+                                onChange={(e) => setEditCaption(e.target.value)}
+                                placeholder="Say something about the shot"
+                              />
+                              <Label htmlFor={`replace-${entry.id}`} className="text-xs">Replace photo (optional)</Label>
+                              <Input
+                                id={`replace-${entry.id}`}
+                                type="file"
+                                accept="image/*"
+                                onChange={(e) => void saveEdit(entry, e.target.files?.[0] ?? null)}
+                                disabled={editBusy}
+                              />
+                              <div className="flex items-center gap-2">
+                                <Button type="button" size="sm" disabled={editBusy} onClick={() => void saveEdit(entry)}>
+                                  {editBusy ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : null} Save
+                                </Button>
+                                <Button
+                                  type="button"
+                                  size="sm"
+                                  variant="ghost"
+                                  disabled={editBusy}
+                                  onClick={() => setEditingId(null)}
+                                >
+                                  Cancel
+                                </Button>
+                              </div>
+                            </div>
+                          ) : (
+                            <p className="text-sm">{entry.caption || "—"}</p>
+                          )}
+                          <p className="text-xs text-muted-foreground">
+                            by {profiles[entry.user_id]?.display_name ?? "Member"}
+                          </p>
+                          <div className="flex items-center justify-between gap-2">
+                            <span className="inline-flex items-center gap-1 text-xs text-muted-foreground">
+                              <Trophy className="w-3.5 h-3.5" /> {entry.votes} vote{entry.votes === 1 ? "" : "s"}
+                            </span>
+                            <div className="flex items-center gap-1">
+                              {user && entry.user_id === user.id && editingId !== entry.id && (
+                                <Button
+                                  type="button"
+                                  size="sm"
+                                  variant="ghost"
+                                  aria-label="Edit my photo"
+                                  onClick={() => startEdit(entry)}
+                                >
+                                  <Pencil className="w-3.5 h-3.5" />
+                                </Button>
+                              )}
+                              {user && entry.user_id === user.id && (
+                                confirmDeleteId === entry.id ? (
+                                  <>
+                                    <Button
+                                      type="button"
+                                      size="sm"
+                                      variant="destructive"
+                                      onClick={() => {
+                                        setConfirmDeleteId(null);
+                                        void removeEntry(entry);
+                                      }}
+                                    >
+                                      Delete
+                                    </Button>
+                                    <Button type="button" size="sm" variant="ghost" onClick={() => setConfirmDeleteId(null)}>
+                                      <X className="w-3.5 h-3.5" />
+                                    </Button>
+                                  </>
+                                ) : (
+                                  <Button
+                                    type="button"
+                                    size="sm"
+                                    variant="ghost"
+                                    aria-label="Remove my photo"
+                                    onClick={() => setConfirmDeleteId(entry.id)}
+                                  >
+                                    <Trash2 className="w-3.5 h-3.5" />
+                                  </Button>
+                                )
+                              )}
+
+                              <Button
+                                type="button"
+                                size="sm"
+                                variant={mine ? "default" : "outline"}
+                                disabled={!user || closed || mine}
+                                onClick={() => vote(entry)}
+                              >
+                                <Vote className="w-3.5 h-3.5" />
+                                {mine ? "Your vote" : closed ? "Closed" : "Vote"}
+                              </Button>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    );
+                  })}
+                </div>
+              </section>
+            );
+          })}
+        </div>
+      )}
+    </CommunityLayout>
+  );
+};
+
+export default PhotoVotePage;

@@ -1,1 +1,26 @@
-aW1wb3J0IEF2YXRhcjNEIGZyb20gIkAvY29tcG9uZW50cy9jb21tdW5pdHkvQXZhdGFyM0QiOwppbXBvcnQgdHlwZSB7IEF2YXRhckNvbmZpZyB9IGZyb20gIkAvbGliL2F2YXRhci1idWlsZGVyIjsKCmludGVyZmFjZSBBdmF0YXJUdXJudGFibGVQcm9wcyB7CiAgLyoqIEVuY29kZWQgYXZhdGFyIHBhdGggKGBnZW46Li4uYCkgb3IgYSBkZWNvZGVkIGNvbmZpZy4gKi8KICBwYXRoPzogc3RyaW5nIHwgbnVsbDsKICBjb25maWc/OiBBdmF0YXJDb25maWcgfCBudWxsOwogIG5hbWU6IHN0cmluZzsKICBjbGFzc05hbWU/OiBzdHJpbmc7CiAgLyoqIElkbGUgYXV0by1yb3RhdGlvbiBzcGVlZCBpbiBkZWdyZWVzIHBlciBzZWNvbmQgKDAgZGlzYWJsZXMpLiAqLwogIHNwaW5TcGVlZD86IG51bWJlcjsKICAvKiogU2hvdyB0aGUgcm90YXRlIGhpbnQgLyBjb250cm9sIGJ1dHRvbnMuICovCiAgY29udHJvbHM/OiBib29sZWFuOwogIGFuaW1hdGVkPzogYm9vbGVhbjsKICAvKiogUmVuZGVyIHRoZSBtZW1iZXIncyBiYWNrZHJvcCBhcyBhIDNEIHN0YWdlIGluc3RlYWQgb2YgYSB0cmFuc3BhcmVudCBvbmUuICovCiAgc3RhZ2U/OiBib29sZWFuOwp9CgovKioKICogQ2hhcmFjdGVyLXNlbGVjdCB0dXJudGFibGUuIE5vdyBhIHJlYWwtdGltZSBsb3ctcG9seSAzRCBtb2RlbCAoc2VlCiAqIGBBdmF0YXIzRGApOyB0aGlzIHRoaW4gd3JhcHBlciBrZWVwcyB0aGUgb3JpZ2luYWwgQVBJIHNvIGV2ZXJ5IGNhbGwgc2l0ZQogKiBzdGF5cyB1bmNoYW5nZWQuCiAqLwpjb25zdCBBdmF0YXJUdXJudGFibGUgPSAocHJvcHM6IEF2YXRhclR1cm50YWJsZVByb3BzKSA9PiA8QXZhdGFyM0Qgey4uLnByb3BzfSAvPjsKCmV4cG9ydCBkZWZhdWx0IEF2YXRhclR1cm50YWJsZTsK
+import Avatar3D from "@/components/community/Avatar3D";
+import type { AvatarConfig } from "@/lib/avatar-builder";
+
+interface AvatarTurntableProps {
+  /** Encoded avatar path (`gen:...`) or a decoded config. */
+  path?: string | null;
+  config?: AvatarConfig | null;
+  name: string;
+  className?: string;
+  /** Idle auto-rotation speed in degrees per second (0 disables). */
+  spinSpeed?: number;
+  /** Show the rotate hint / control buttons. */
+  controls?: boolean;
+  animated?: boolean;
+  /** Render the member's backdrop as a 3D stage instead of a transparent one. */
+  stage?: boolean;
+}
+
+/**
+ * Character-select turntable. Now a real-time low-poly 3D model (see
+ * `Avatar3D`); this thin wrapper keeps the original API so every call site
+ * stays unchanged.
+ */
+const AvatarTurntable = (props: AvatarTurntableProps) => <Avatar3D {...props} />;
+
+export default AvatarTurntable;

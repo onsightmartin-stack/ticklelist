@@ -1,1 +1,52 @@
-LS0gMS4gYWR2ZW50dXJlX3NpZ251cHM6IHNpZ25lZC1pbiBtZW1iZXJzIG9ubHksIGFuZCBoaWRlIHByaXZhdGUgbWVzc2FnZXMKRFJPUCBQT0xJQ1kgSUYgRVhJU1RTICJTaWdudXBzIGFyZSB2aWV3YWJsZSBieSBldmVyeW9uZSIgT04gcHVibGljLmFkdmVudHVyZV9zaWdudXBzOwpDUkVBVEUgUE9MSUNZICJTaWdudXBzIGFyZSB2aWV3YWJsZSBieSBtZW1iZXJzIgogIE9OIHB1YmxpYy5hZHZlbnR1cmVfc2lnbnVwcyBGT1IgU0VMRUNUIFRPIGF1dGhlbnRpY2F0ZWQgVVNJTkcgKHRydWUpOwoKUkVWT0tFIFNFTEVDVCBPTiBwdWJsaWMuYWR2ZW50dXJlX3NpZ251cHMgRlJPTSBhbm9uOwpSRVZPS0UgU0VMRUNUIE9OIHB1YmxpYy5hZHZlbnR1cmVfc2lnbnVwcyBGUk9NIGF1dGhlbnRpY2F0ZWQ7CkdSQU5UIFNFTEVDVCAoaWQsIGFkdmVudHVyZV9pZCwgdXNlcl9pZCwgc3RhdHVzLCBjcmVhdGVkX2F0LCB1cGRhdGVkX2F0KQogIE9OIHB1YmxpYy5hZHZlbnR1cmVfc2lnbnVwcyBUTyBhdXRoZW50aWNhdGVkOwpHUkFOVCBJTlNFUlQsIFVQREFURSwgREVMRVRFIE9OIHB1YmxpYy5hZHZlbnR1cmVfc2lnbnVwcyBUTyBhdXRoZW50aWNhdGVkOwpHUkFOVCBBTEwgT04gcHVibGljLmFkdmVudHVyZV9zaWdudXBzIFRPIHNlcnZpY2Vfcm9sZTsKCi0tIDIuIG5vdGlmaWNhdGlvbl9wcmVmczogb3duZXItb25seSB2aXNpYmlsaXR5CkRST1AgUE9MSUNZIElGIEVYSVNUUyAiUHJlZnMgYXJlIHZpZXdhYmxlIGJ5IGV2ZXJ5b25lIiBPTiBwdWJsaWMubm90aWZpY2F0aW9uX3ByZWZzOwpDUkVBVEUgUE9MSUNZICJNZW1iZXJzIHZpZXcgdGhlaXIgb3duIHByZWZzIgogIE9OIHB1YmxpYy5ub3RpZmljYXRpb25fcHJlZnMgRk9SIFNFTEVDVCBUTyBhdXRoZW50aWNhdGVkIFVTSU5HIChhdXRoLnVpZCgpID0gdXNlcl9pZCk7ClJFVk9LRSBTRUxFQ1QgT04gcHVibGljLm5vdGlmaWNhdGlvbl9wcmVmcyBGUk9NIGFub247CgotLSBTYWZlIGhlbHBlciBzbyB0aGUgYXBwIGNhbiBjaGVjayBhIHJlY2lwaWVudCdzIHByZWZlcmVuY2Ugd2l0aG91dCByZWFkaW5nIHRoZWlyIHJvdwpDUkVBVEUgT1IgUkVQTEFDRSBGVU5DVElPTiBwdWJsaWMud2FudHNfbm90aWZpY2F0aW9uKF91c2VyX2lkIHV1aWQsIF9raW5kIHRleHQpClJFVFVSTlMgYm9vbGVhbgpMQU5HVUFHRSBzcWwKU1RBQkxFClNFQ1VSSVRZIERFRklORVIKU0VUIHNlYXJjaF9wYXRoID0gcHVibGljCkFTICQkCiAgU0VMRUNUIENPQUxFU0NFKAogICAgKFNFTEVDVCBDQVNFIF9raW5kCiAgICAgICBXSEVOICdmb2xsb3cnIFRIRU4gbnAuZm9sbG93CiAgICAgICBXSEVOICdsaWtlJyBUSEVOIG5wLiJsaWtlIgogICAgICAgV0hFTiAnY29tbWVudCcgVEhFTiBucC5jb21tZW50CiAgICAgICBXSEVOICdtZW50aW9uJyBUSEVOIG5wLm1lbnRpb24KICAgICAgIEVMU0UgdHJ1ZQogICAgIEVORAogICAgIEZST00gcHVibGljLm5vdGlmaWNhdGlvbl9wcmVmcyBucAogICAgIFdIRVJFIG5wLnVzZXJfaWQgPSBfdXNlcl9pZCksCiAgICB0cnVlCiAgKQokJDsKClJFVk9LRSBFWEVDVVRFIE9OIEZVTkNUSU9OIHB1YmxpYy53YW50c19ub3RpZmljYXRpb24odXVpZCwgdGV4dCkgRlJPTSBQVUJMSUMsIGFub247CkdSQU5UIEVYRUNVVEUgT04gRlVOQ1RJT04gcHVibGljLndhbnRzX25vdGlmaWNhdGlvbih1dWlkLCB0ZXh0KSBUTyBhdXRoZW50aWNhdGVkLCBzZXJ2aWNlX3JvbGU7CgotLSAzLiBMb2NrIGRvd24gU0VDVVJJVFkgREVGSU5FUiAvIGludGVybmFsIGhlbHBlcnMKUkVWT0tFIEVYRUNVVEUgT04gRlVOQ1RJT04gcHVibGljLmluY3JlbWVudF92aXNpdG9yX2NvdW50KCkgRlJPTSBQVUJMSUMsIGFub24sIGF1dGhlbnRpY2F0ZWQ7CkdSQU5UIEVYRUNVVEUgT04gRlVOQ1RJT04gcHVibGljLmluY3JlbWVudF92aXNpdG9yX2NvdW50KCkgVE8gc2VydmljZV9yb2xlOwoKUkVWT0tFIEVYRUNVVEUgT04gRlVOQ1RJT04gcHVibGljLmhhbmRsZV9uZXdfdXNlcigpIEZST00gUFVCTElDLCBhbm9uLCBhdXRoZW50aWNhdGVkOwpSRVZPS0UgRVhFQ1VURSBPTiBGVU5DVElPTiBwdWJsaWMudXBkYXRlX3VwZGF0ZWRfYXRfY29sdW1uKCkgRlJPTSBQVUJMSUMsIGFub24sIGF1dGhlbnRpY2F0ZWQ7CgpSRVZPS0UgRVhFQ1VURSBPTiBGVU5DVElPTiBwdWJsaWMuaGFzX3JvbGUodXVpZCwgYXBwX3JvbGUpIEZST00gUFVCTElDLCBhbm9uOwpHUkFOVCBFWEVDVVRFIE9OIEZVTkNUSU9OIHB1YmxpYy5oYXNfcm9sZSh1dWlkLCBhcHBfcm9sZSkgVE8gYXV0aGVudGljYXRlZCwgc2VydmljZV9yb2xlOw==
+-- 1. adventure_signups: signed-in members only, and hide private messages
+DROP POLICY IF EXISTS "Signups are viewable by everyone" ON public.adventure_signups;
+CREATE POLICY "Signups are viewable by members"
+  ON public.adventure_signups FOR SELECT TO authenticated USING (true);
+
+REVOKE SELECT ON public.adventure_signups FROM anon;
+REVOKE SELECT ON public.adventure_signups FROM authenticated;
+GRANT SELECT (id, adventure_id, user_id, status, created_at, updated_at)
+  ON public.adventure_signups TO authenticated;
+GRANT INSERT, UPDATE, DELETE ON public.adventure_signups TO authenticated;
+GRANT ALL ON public.adventure_signups TO service_role;
+
+-- 2. notification_prefs: owner-only visibility
+DROP POLICY IF EXISTS "Prefs are viewable by everyone" ON public.notification_prefs;
+CREATE POLICY "Members view their own prefs"
+  ON public.notification_prefs FOR SELECT TO authenticated USING (auth.uid() = user_id);
+REVOKE SELECT ON public.notification_prefs FROM anon;
+
+-- Safe helper so the app can check a recipient's preference without reading their row
+CREATE OR REPLACE FUNCTION public.wants_notification(_user_id uuid, _kind text)
+RETURNS boolean
+LANGUAGE sql
+STABLE
+SECURITY DEFINER
+SET search_path = public
+AS $$
+  SELECT COALESCE(
+    (SELECT CASE _kind
+       WHEN 'follow' THEN np.follow
+       WHEN 'like' THEN np."like"
+       WHEN 'comment' THEN np.comment
+       WHEN 'mention' THEN np.mention
+       ELSE true
+     END
+     FROM public.notification_prefs np
+     WHERE np.user_id = _user_id),
+    true
+  )
+$$;
+
+REVOKE EXECUTE ON FUNCTION public.wants_notification(uuid, text) FROM PUBLIC, anon;
+GRANT EXECUTE ON FUNCTION public.wants_notification(uuid, text) TO authenticated, service_role;
+
+-- 3. Lock down SECURITY DEFINER / internal helpers
+REVOKE EXECUTE ON FUNCTION public.increment_visitor_count() FROM PUBLIC, anon, authenticated;
+GRANT EXECUTE ON FUNCTION public.increment_visitor_count() TO service_role;
+
+REVOKE EXECUTE ON FUNCTION public.handle_new_user() FROM PUBLIC, anon, authenticated;
+REVOKE EXECUTE ON FUNCTION public.update_updated_at_column() FROM PUBLIC, anon, authenticated;
+
+REVOKE EXECUTE ON FUNCTION public.has_role(uuid, app_role) FROM PUBLIC, anon;
+GRANT EXECUTE ON FUNCTION public.has_role(uuid, app_role) TO authenticated, service_role;

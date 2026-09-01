@@ -1,1 +1,25 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCBTY2FmZWxsUGlrZVBhZ2UgZnJvbSAiQC9wYWdlcy9TY2FmZWxsUGlrZVBhZ2UiOwppbXBvcnQgc2NhZmVsbFN1bW1pdCBmcm9tICJAL2Fzc2V0cy9zY2FmZWxsLXBpa2Utc3VtbWl0LmpwZy5hc3NldC5qc29uIjsKCmNvbnN0IFRJVExFID0gIlNjYWZlbGwgUGlrZSAoOTc4IG0pOiBIaWdoZXN0IE1vdW50YWluIGluIEVuZ2xhbmQiOwpjb25zdCBERVNDUklQVElPTiA9CiAgIlNjYWZlbGwgUGlrZSwgOTc4IG0sIGlzIEVuZ2xhbmQncyBoaWdoZXN0IG1vdW50YWluLiBSb3V0ZXMgZnJvbSBXYXNkYWxlLCBTZWF0aHdhaXRlIGFuZCBMYW5nZGFsZSwgdGltaW5ncywgY29uZGl0aW9ucywgcGhvdG9zIGFuZCBhIHN1bW1pdCB2aWRlby4iOwpjb25zdCBJTUFHRSA9IGBodHRwczovL29uc2lnaHRtYXJ0aW4uY29tJHtzY2FmZWxsU3VtbWl0LnVybH1gOwoKZXhwb3J0IGNvbnN0IFJvdXRlID0gY3JlYXRlRmlsZVJvdXRlKCIvcGVhay9zY2FmZWxsLXBpa2UiKSh7CiAgaGVhZDogKCkgPT4gKHsKICAgIG1ldGE6IFsKICAgICAgeyB0aXRsZTogVElUTEUgfSwKICAgICAgeyBuYW1lOiAiZGVzY3JpcHRpb24iLCBjb250ZW50OiBERVNDUklQVElPTiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6dGl0bGUiLCBjb250ZW50OiBUSVRMRSB9LAogICAgICB7IHByb3BlcnR5OiAib2c6ZGVzY3JpcHRpb24iLCBjb250ZW50OiBERVNDUklQVElPTiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6dHlwZSIsIGNvbnRlbnQ6ICJhcnRpY2xlIiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6dXJsIiwgY29udGVudDogImh0dHBzOi8vb25zaWdodG1hcnRpbi5jb20vcGVhay9zY2FmZWxsLXBpa2UiIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzppbWFnZSIsIGNvbnRlbnQ6IElNQUdFIH0sCiAgICAgIHsgbmFtZTogInR3aXR0ZXI6Y2FyZCIsIGNvbnRlbnQ6ICJzdW1tYXJ5X2xhcmdlX2ltYWdlIiB9LAogICAgICB7IG5hbWU6ICJ0d2l0dGVyOmltYWdlIiwgY29udGVudDogSU1BR0UgfSwKICAgIF0sCiAgfSksCiAgY29tcG9uZW50OiBTY2FmZWxsUGlrZVBhZ2UsCn0pOwo=
+import { createFileRoute } from "@tanstack/react-router";
+import ScafellPikePage from "@/pages/ScafellPikePage";
+import scafellSummit from "@/assets/scafell-pike-summit.jpg.asset.json";
+
+const TITLE = "Scafell Pike (978 m): Highest Mountain in England";
+const DESCRIPTION =
+  "Scafell Pike, 978 m, is England's highest mountain. Routes from Wasdale, Seathwaite and Langdale, timings, conditions, photos and a summit video.";
+const IMAGE = `https://onsightmartin.com${scafellSummit.url}`;
+
+export const Route = createFileRoute("/peak/scafell-pike")({
+  head: () => ({
+    meta: [
+      { title: TITLE },
+      { name: "description", content: DESCRIPTION },
+      { property: "og:title", content: TITLE },
+      { property: "og:description", content: DESCRIPTION },
+      { property: "og:type", content: "article" },
+      { property: "og:url", content: "https://onsightmartin.com/peak/scafell-pike" },
+      { property: "og:image", content: IMAGE },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: IMAGE },
+    ],
+  }),
+  component: ScafellPikePage,
+});

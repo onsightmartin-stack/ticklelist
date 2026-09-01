@@ -1,1 +1,31 @@
-IyBHb29nbGUgZGlzYXZvdyBmaWxlIOKAlCBvbnNpZ2h0bWFydGluLmNvbQojCiMgSE9XIFRPIFVTRQojIDEuIEdvIHRvIGh0dHBzOi8vc2VhcmNoLmdvb2dsZS5jb20vc2VhcmNoLWNvbnNvbGUvZGlzYXZvdy1saW5rcwojIDIuIFNlbGVjdCB0aGUgcHJvcGVydHkgb25zaWdodG1hcnRpbi5jb20KIyAzLiBVcGxvYWQgdGhpcyBmaWxlICh1cGxvYWQgcmVwbGFjZXMgYW55IHByZXZpb3VzIGxpc3QpCiMKIyBSYXRpb25hbGU6IHRoZSBiYWNrbGluayBwcm9maWxlIChwZXIgU2VtcnVzaCwgQXVnIDIwMjYpIGlzIGRvbWluYXRlZCBieQojIGxvdy1xdWFsaXR5LCBwYWlkLWxvb2tpbmcgbm9mb2xsb3cgbGlua3Mg4oCUIEZpdmVyciBsaW5rLWZhcm0gZm9vdHByaW50cyBhbmQKIyBnZW5lcmljIGNvbnRlbnQtYWdncmVnYXRvciBkb21haW5zIHRoYXQgYWRkIG5vIHZhbHVlIGFuZCByaXNrIGJlaW5nIHJlYWQgYXMKIyBhIG1hbmlwdWxhdGl2ZSBsaW5rIHNjaGVtZS4gRGlzYXZvd2luZyB0aGVtIGNsZWFucyB0aGUgcHJvZmlsZSBzbyBnZW51aW5lCiMgY2xpbWJpbmcvb3V0ZG9vciBsaW5rcyBjYXJyeSB0aGUgd2VpZ2h0LgojCiMgQWRkIGFueSBmdXJ0aGVyIHNwYW0gZG9tYWlucyBiZWxvdyBhcyB0aGV5IGFwcGVhciBpbiBTZWFyY2ggQ29uc29sZSA+CiMgTGlua3MgPiBUb3AgbGlua2luZyBzaXRlcy4gVXNlICJkb21haW46IiB0byBjb3ZlciB0aGUgd2hvbGUgc2l0ZS4KCiMgLS0tIEZpdmVyciBsaW5rLWZhcm0gc3BhbSAocGFpZCBiYWNrbGluayBzY2hlbWVzKSAtLS0KZG9tYWluOmZpdmVyci1hZmZvcmRhYmxlLXNlby1zZXJ2aWNlcy5zaXRlCmRvbWFpbjpmaXZlcnItY29zdC1lZmZlY3RpdmUtc2VvLnNpdGUKZG9tYWluOmZpdmVyci1xdWFsaXR5LXNlby1hdC1hZmZvcmRhYmxlLXJhdGVzLnNpdGUKCiMgLS0tIExvdy1xdWFsaXR5IGNvbnRlbnQtYWdncmVnYXRvciAvIGxpbmstZmFybSBmb290cHJpbnRzIC0tLQpkb21haW46YnV6enNocmluay53ZWJzaXRlCmRvbWFpbjphbmFseXRpY3NoYXZlbi50b3AKZG9tYWluOmJ5dGVzaG9ydC54eXoKZG9tYWluOmNyZWF0aXZlcG9zdHMudG9wCmRvbWFpbjpkYWlseW11c2luZ3MudG9wCgojIC0tLSBEb21haW4tcGFya2luZyAvIHBsYWNlaG9sZGVyIHJlZmVycmVycyAoMCBhdXRob3JpdHksIDAgdHJ1c3QpIC0tLQpkb21haW46ZG9tcmFpZGVyLmV1LmNvbQpkb21haW46ZG9tcmFpZGVyLmdiLm5ldAo=
+# Google disavow file — onsightmartin.com
+#
+# HOW TO USE
+# 1. Go to https://search.google.com/search-console/disavow-links
+# 2. Select the property onsightmartin.com
+# 3. Upload this file (upload replaces any previous list)
+#
+# Rationale: the backlink profile (per Semrush, Aug 2026) is dominated by
+# low-quality, paid-looking nofollow links — Fiverr link-farm footprints and
+# generic content-aggregator domains that add no value and risk being read as
+# a manipulative link scheme. Disavowing them cleans the profile so genuine
+# climbing/outdoor links carry the weight.
+#
+# Add any further spam domains below as they appear in Search Console >
+# Links > Top linking sites. Use "domain:" to cover the whole site.
+
+# --- Fiverr link-farm spam (paid backlink schemes) ---
+domain:fiverr-affordable-seo-services.site
+domain:fiverr-cost-effective-seo.site
+domain:fiverr-quality-seo-at-affordable-rates.site
+
+# --- Low-quality content-aggregator / link-farm footprints ---
+domain:buzzshrink.website
+domain:analyticshaven.top
+domain:byteshort.xyz
+domain:creativeposts.top
+domain:dailymusings.top
+
+# --- Domain-parking / placeholder referrers (0 authority, 0 trust) ---
+domain:domraider.eu.com
+domain:domraider.gb.net

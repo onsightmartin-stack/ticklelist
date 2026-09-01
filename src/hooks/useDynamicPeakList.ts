@@ -1,1 +1,126 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwoKZXhwb3J0IGludGVyZmFjZSBEeW5hbWljUGVhayB7CiAgaWQ6IG51bWJlcjsKICBuYW1lOiBzdHJpbmc7CiAgbGF0OiBudW1iZXIgfCBudWxsOwogIGxvbjogbnVtYmVyIHwgbnVsbDsKICBjb3VudHJ5Q29kZTogc3RyaW5nIHwgbnVsbDsKICBhZG1pbjE6IHN0cmluZyB8IG51bGw7CiAgZWxldmF0aW9uOiBudW1iZXIgfCBudWxsOwogIHByb21pbmVuY2U6IG51bWJlciB8IG51bGw7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgRHluYW1pY0xpc3RRdWVyeSB7CiAgY291bnRyeTogc3RyaW5nIHwgbnVsbDsKICBtaW5FbGV2YXRpb246IG51bWJlciB8IG51bGw7CiAgbWluUHJvbWluZW5jZTogbnVtYmVyIHwgbnVsbDsKICBzb3J0OiAiZWxldmF0aW9uIiB8ICJwcm9taW5lbmNlIjsKICBsaW1pdDogbnVtYmVyOwp9CgpleHBvcnQgaW50ZXJmYWNlIER5bmFtaWNMaXN0UmVzdWx0IHsKICBwZWFrczogRHluYW1pY1BlYWtbXTsKICB0b3RhbDogbnVtYmVyOwogIGxvYWRpbmc6IGJvb2xlYW47CiAgZXJyb3I6IHN0cmluZyB8IG51bGw7Cn0KCi8qKiBMaXZlIGxpc3Qgb2YgY2F0YWxvZ3VlIHBlYWtzIG1hdGNoaW5nIGEgbWVtYmVyLWJ1aWx0IHF1ZXJ5LiAqLwpleHBvcnQgY29uc3QgdXNlRHluYW1pY1BlYWtMaXN0ID0gKHF1ZXJ5OiBEeW5hbWljTGlzdFF1ZXJ5LCBlbmFibGVkID0gdHJ1ZSk6IER5bmFtaWNMaXN0UmVzdWx0ID0+IHsKICBjb25zdCBbcGVha3MsIHNldFBlYWtzXSA9IHVzZVN0YXRlPER5bmFtaWNQZWFrW10+KFtdKTsKICBjb25zdCBbdG90YWwsIHNldFRvdGFsXSA9IHVzZVN0YXRlKDApOwogIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbZXJyb3IsIHNldEVycm9yXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpOwoKICBjb25zdCB7IGNvdW50cnksIG1pbkVsZXZhdGlvbiwgbWluUHJvbWluZW5jZSwgc29ydCwgbGltaXQgfSA9IHF1ZXJ5OwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKCFlbmFibGVkKSByZXR1cm47CiAgICBsZXQgY2FuY2VsbGVkID0gZmFsc2U7CiAgICBzZXRMb2FkaW5nKHRydWUpOwogICAgc2V0RXJyb3IobnVsbCk7CgogICAgY29uc3QgcnVuID0gYXN5bmMgKCkgPT4gewogICAgICBjb25zdCBhcmdzOiB7CiAgICAgICAgX3NvcnQ6IHN0cmluZzsKICAgICAgICBfbGltaXQ6IG51bWJlcjsKICAgICAgICBfY291bnRyeT86IHN0cmluZzsKICAgICAgICBfbWluX2VsZXZhdGlvbj86IG51bWJlcjsKICAgICAgICBfbWluX3Byb21pbmVuY2U/OiBudW1iZXI7CiAgICAgIH0gPSB7IF9zb3J0OiBzb3J0LCBfbGltaXQ6IGxpbWl0IH07CiAgICAgIGlmIChjb3VudHJ5KSBhcmdzLl9jb3VudHJ5ID0gY291bnRyeTsKICAgICAgaWYgKG1pbkVsZXZhdGlvbikgYXJncy5fbWluX2VsZXZhdGlvbiA9IG1pbkVsZXZhdGlvbjsKICAgICAgaWYgKG1pblByb21pbmVuY2UpIGFyZ3MuX21pbl9wcm9taW5lbmNlID0gbWluUHJvbWluZW5jZTsKICAgICAgY29uc3QgeyBkYXRhLCBlcnJvcjogZXJyIH0gPSBhd2FpdCBzdXBhYmFzZS5ycGMoImJ1aWxkX3BlYWtfbGlzdCIsIGFyZ3MpOwogICAgICBpZiAoY2FuY2VsbGVkKSByZXR1cm47CiAgICAgIGlmIChlcnIpIHsKICAgICAgICBzZXRFcnJvcigiQ291bGQgbm90IGJ1aWxkIHRoYXQgbGlzdCDigJQgdHJ5IG5hcnJvd2luZyB0aGUgZmlsdGVycy4iKTsKICAgICAgICBzZXRQZWFrcyhbXSk7CiAgICAgICAgc2V0VG90YWwoMCk7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgY29uc3Qgcm93cyA9IChkYXRhIGFzIEFycmF5PFJlY29yZDxzdHJpbmcsIHVua25vd24+PikgPz8gW107CiAgICAgICAgc2V0UGVha3MoCiAgICAgICAgICByb3dzLm1hcCgocikgPT4gKHsKICAgICAgICAgICAgaWQ6IE51bWJlcihyWyJpZCJdKSwKICAgICAgICAgICAgbmFtZTogU3RyaW5nKHJbIm5hbWUiXSksCiAgICAgICAgICAgIGxhdDogclsibGF0Il0gPT0gbnVsbCA/IG51bGwgOiBOdW1iZXIoclsibGF0Il0pLAogICAgICAgICAgICBsb246IHJbImxvbiJdID09IG51bGwgPyBudWxsIDogTnVtYmVyKHJbImxvbiJdKSwKICAgICAgICAgICAgY291bnRyeUNvZGU6IChyWyJjb3VudHJ5X2NvZGUiXSBhcyBzdHJpbmcgfCBudWxsKSA/PyBudWxsLAogICAgICAgICAgICBhZG1pbjE6IChyWyJhZG1pbjEiXSBhcyBzdHJpbmcgfCBudWxsKSA/PyBudWxsLAogICAgICAgICAgICBlbGV2YXRpb246IHJbImVsZXZhdGlvbiJdID09IG51bGwgPyBudWxsIDogTnVtYmVyKHJbImVsZXZhdGlvbiJdKSwKICAgICAgICAgICAgcHJvbWluZW5jZTogclsicHJvbWluZW5jZSJdID09IG51bGwgPyBudWxsIDogTnVtYmVyKHJbInByb21pbmVuY2UiXSksCiAgICAgICAgICB9KSksCiAgICAgICAgKTsKICAgICAgICBzZXRUb3RhbChyb3dzWzBdID8gTnVtYmVyKHJvd3NbMF1bInRvdGFsX21hdGNoZXMiXSkgOiAwKTsKICAgICAgfQogICAgICBzZXRMb2FkaW5nKGZhbHNlKTsKICAgIH07CgogICAgY29uc3QgdCA9IHNldFRpbWVvdXQocnVuLCAyNTApOwogICAgcmV0dXJuICgpID0+IHsKICAgICAgY2FuY2VsbGVkID0gdHJ1ZTsKICAgICAgY2xlYXJUaW1lb3V0KHQpOwogICAgfTsKICB9LCBbY291bnRyeSwgbWluRWxldmF0aW9uLCBtaW5Qcm9taW5lbmNlLCBzb3J0LCBsaW1pdCwgZW5hYmxlZF0pOwoKICByZXR1cm4geyBwZWFrcywgdG90YWwsIGxvYWRpbmcsIGVycm9yIH07Cn07CgpleHBvcnQgaW50ZXJmYWNlIFBlYWtDb3VudHJ5IHsKICBjb2RlOiBzdHJpbmc7CiAgbmFtZTogc3RyaW5nOwogIHBlYWtzOiBudW1iZXI7Cn0KCmNvbnN0IHJlZ2lvbk5hbWUgPSAoY29kZTogc3RyaW5nKSA9PiB7CiAgdHJ5IHsKICAgIHJldHVybiBuZXcgSW50bC5EaXNwbGF5TmFtZXMoWyJlbiJdLCB7IHR5cGU6ICJyZWdpb24iIH0pLm9mKGNvZGUpID8/IGNvZGU7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gY29kZTsKICB9Cn07CgovKiogQ291bnRyaWVzIHRoYXQgaGF2ZSBwZWFrcyBpbiB0aGUgY2F0YWxvZ3VlLCBmb3IgdGhlIGJ1aWxkZXIncyBjb3VudHJ5IHBpY2tlci4gKi8KZXhwb3J0IGNvbnN0IHVzZVBlYWtDb3VudHJpZXMgPSAoKTogUGVha0NvdW50cnlbXSA9PiB7CiAgY29uc3QgW3Jvd3MsIHNldFJvd3NdID0gdXNlU3RhdGU8UGVha0NvdW50cnlbXT4oW10pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgbGV0IGNhbmNlbGxlZCA9IGZhbHNlOwogICAgdm9pZCBzdXBhYmFzZS5ycGMoIndvcmxkX3BlYWtfY291bnRyaWVzIikudGhlbigoeyBkYXRhLCBlcnJvciB9KSA9PiB7CiAgICAgIGlmIChjYW5jZWxsZWQgfHwgZXJyb3IgfHwgIWRhdGEpIHJldHVybjsKICAgICAgY29uc3QgbGlzdCA9IChkYXRhIGFzIEFycmF5PFJlY29yZDxzdHJpbmcsIHVua25vd24+PikubWFwKChyKSA9PiB7CiAgICAgICAgY29uc3QgY29kZSA9IFN0cmluZyhyWyJjb3VudHJ5X2NvZGUiXSk7CiAgICAgICAgcmV0dXJuIHsgY29kZSwgbmFtZTogcmVnaW9uTmFtZShjb2RlKSwgcGVha3M6IE51bWJlcihyWyJwZWFrcyJdKSB9OwogICAgICB9KTsKICAgICAgbGlzdC5zb3J0KChhLCBiKSA9PiBhLm5hbWUubG9jYWxlQ29tcGFyZShiLm5hbWUpKTsKICAgICAgc2V0Um93cyhsaXN0KTsKICAgIH0pOwogICAgcmV0dXJuICgpID0+IHsKICAgICAgY2FuY2VsbGVkID0gdHJ1ZTsKICAgIH07CiAgfSwgW10pOwoKICByZXR1cm4gcm93czsKfTsK
+import { useEffect, useState } from "react";
+import { supabase } from "@/integrations/supabase/client";
+
+export interface DynamicPeak {
+  id: number;
+  name: string;
+  lat: number | null;
+  lon: number | null;
+  countryCode: string | null;
+  admin1: string | null;
+  elevation: number | null;
+  prominence: number | null;
+}
+
+export interface DynamicListQuery {
+  country: string | null;
+  minElevation: number | null;
+  minProminence: number | null;
+  sort: "elevation" | "prominence";
+  limit: number;
+}
+
+export interface DynamicListResult {
+  peaks: DynamicPeak[];
+  total: number;
+  loading: boolean;
+  error: string | null;
+}
+
+/** Live list of catalogue peaks matching a member-built query. */
+export const useDynamicPeakList = (query: DynamicListQuery, enabled = true): DynamicListResult => {
+  const [peaks, setPeaks] = useState<DynamicPeak[]>([]);
+  const [total, setTotal] = useState(0);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const { country, minElevation, minProminence, sort, limit } = query;
+
+  useEffect(() => {
+    if (!enabled) return;
+    let cancelled = false;
+    setLoading(true);
+    setError(null);
+
+    const run = async () => {
+      const args: {
+        _sort: string;
+        _limit: number;
+        _country?: string;
+        _min_elevation?: number;
+        _min_prominence?: number;
+      } = { _sort: sort, _limit: limit };
+      if (country) args._country = country;
+      if (minElevation) args._min_elevation = minElevation;
+      if (minProminence) args._min_prominence = minProminence;
+      const { data, error: err } = await supabase.rpc("build_peak_list", args);
+      if (cancelled) return;
+      if (err) {
+        setError("Could not build that list — try narrowing the filters.");
+        setPeaks([]);
+        setTotal(0);
+      } else {
+        const rows = (data as Array<Record<string, unknown>>) ?? [];
+        setPeaks(
+          rows.map((r) => ({
+            id: Number(r["id"]),
+            name: String(r["name"]),
+            lat: r["lat"] == null ? null : Number(r["lat"]),
+            lon: r["lon"] == null ? null : Number(r["lon"]),
+            countryCode: (r["country_code"] as string | null) ?? null,
+            admin1: (r["admin1"] as string | null) ?? null,
+            elevation: r["elevation"] == null ? null : Number(r["elevation"]),
+            prominence: r["prominence"] == null ? null : Number(r["prominence"]),
+          })),
+        );
+        setTotal(rows[0] ? Number(rows[0]["total_matches"]) : 0);
+      }
+      setLoading(false);
+    };
+
+    const t = setTimeout(run, 250);
+    return () => {
+      cancelled = true;
+      clearTimeout(t);
+    };
+  }, [country, minElevation, minProminence, sort, limit, enabled]);
+
+  return { peaks, total, loading, error };
+};
+
+export interface PeakCountry {
+  code: string;
+  name: string;
+  peaks: number;
+}
+
+const regionName = (code: string) => {
+  try {
+    return new Intl.DisplayNames(["en"], { type: "region" }).of(code) ?? code;
+  } catch {
+    return code;
+  }
+};
+
+/** Countries that have peaks in the catalogue, for the builder's country picker. */
+export const usePeakCountries = (): PeakCountry[] => {
+  const [rows, setRows] = useState<PeakCountry[]>([]);
+
+  useEffect(() => {
+    let cancelled = false;
+    void supabase.rpc("world_peak_countries").then(({ data, error }) => {
+      if (cancelled || error || !data) return;
+      const list = (data as Array<Record<string, unknown>>).map((r) => {
+        const code = String(r["country_code"]);
+        return { code, name: regionName(code), peaks: Number(r["peaks"]) };
+      });
+      list.sort((a, b) => a.name.localeCompare(b.name));
+      setRows(list);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  return rows;
+};

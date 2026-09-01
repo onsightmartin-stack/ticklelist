@@ -1,1 +1,37 @@
-Y29uc3QgU1RPUkFHRV9LRVkgPSAic2M6cmVjZW50LXBlYWtzIjsKY29uc3QgTUFYX1JFQ0VOVCA9IDY7CgovKiogUmVhZHMgdGhlIHJlY2VudGx5IHVzZWQgcGVhayBrZXlzIChtb3N0IHJlY2VudCBmaXJzdCkuIFNTUi1zYWZlLiAqLwpleHBvcnQgY29uc3QgZ2V0UmVjZW50UGVha0tleXMgPSAoKTogc3RyaW5nW10gPT4gewogIGlmICh0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIikgcmV0dXJuIFtdOwogIHRyeSB7CiAgICBjb25zdCByYXcgPSB3aW5kb3cubG9jYWxTdG9yYWdlLmdldEl0ZW0oU1RPUkFHRV9LRVkpOwogICAgaWYgKCFyYXcpIHJldHVybiBbXTsKICAgIGNvbnN0IHBhcnNlZDogdW5rbm93biA9IEpTT04ucGFyc2UocmF3KTsKICAgIGlmICghQXJyYXkuaXNBcnJheShwYXJzZWQpKSByZXR1cm4gW107CiAgICByZXR1cm4gcGFyc2VkLmZpbHRlcigodik6IHYgaXMgc3RyaW5nID0+IHR5cGVvZiB2ID09PSAic3RyaW5nIikuc2xpY2UoMCwgTUFYX1JFQ0VOVCk7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gW107CiAgfQp9OwoKLyoqIFB1c2hlcyBhIHBlYWsga2V5IHRvIHRoZSBmcm9udCBvZiB0aGUgcmVjZW50cyBsaXN0LiAqLwpleHBvcnQgY29uc3QgcmVtZW1iZXJQZWFrS2V5ID0gKGtleTogc3RyaW5nKTogc3RyaW5nW10gPT4gewogIGlmICh0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIiB8fCAha2V5KSByZXR1cm4gW107CiAgY29uc3QgbmV4dCA9IFtrZXksIC4uLmdldFJlY2VudFBlYWtLZXlzKCkuZmlsdGVyKChrKSA9PiBrICE9PSBrZXkpXS5zbGljZSgwLCBNQVhfUkVDRU5UKTsKICB0cnkgewogICAgd2luZG93LmxvY2FsU3RvcmFnZS5zZXRJdGVtKFNUT1JBR0VfS0VZLCBKU09OLnN0cmluZ2lmeShuZXh0KSk7CiAgfSBjYXRjaCB7CiAgICAvKiBzdG9yYWdlIHVuYXZhaWxhYmxlIOKAlCByZWNlbnRzIGFyZSBhIGNvbnZlbmllbmNlIG9ubHkgKi8KICB9CiAgcmV0dXJuIG5leHQ7Cn07CgpleHBvcnQgY29uc3QgY2xlYXJSZWNlbnRQZWFrS2V5cyA9ICgpID0+IHsKICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHJldHVybjsKICB0cnkgewogICAgd2luZG93LmxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKFNUT1JBR0VfS0VZKTsKICB9IGNhdGNoIHsKICAgIC8qIGlnbm9yZSAqLwogIH0KfTsK
+const STORAGE_KEY = "sc:recent-peaks";
+const MAX_RECENT = 6;
+
+/** Reads the recently used peak keys (most recent first). SSR-safe. */
+export const getRecentPeakKeys = (): string[] => {
+  if (typeof window === "undefined") return [];
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEY);
+    if (!raw) return [];
+    const parsed: unknown = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed.filter((v): v is string => typeof v === "string").slice(0, MAX_RECENT);
+  } catch {
+    return [];
+  }
+};
+
+/** Pushes a peak key to the front of the recents list. */
+export const rememberPeakKey = (key: string): string[] => {
+  if (typeof window === "undefined" || !key) return [];
+  const next = [key, ...getRecentPeakKeys().filter((k) => k !== key)].slice(0, MAX_RECENT);
+  try {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+  } catch {
+    /* storage unavailable — recents are a convenience only */
+  }
+  return next;
+};
+
+export const clearRecentPeakKeys = () => {
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.removeItem(STORAGE_KEY);
+  } catch {
+    /* ignore */
+  }
+};

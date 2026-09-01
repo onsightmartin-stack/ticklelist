@@ -1,1 +1,29 @@
-Q1JFQVRFIE9SIFJFUExBQ0UgRlVOQ1RJT04gcHVibGljLnBlYWtfYXNjZW50X3JlZ2lzdHJ5KF9uYW1lIHRleHQsIF9saW1pdCBpbnRlZ2VyIERFRkFVTFQgNTApClJFVFVSTlMgVEFCTEUgKAogIGlkIHV1aWQsCiAgdXNlcl9pZCB1dWlkLAogIGRpc3BsYXlfbmFtZSB0ZXh0LAogIGF2YXRhcl91cmwgdGV4dCwKICBhc2NlbnRfZGF0ZSBkYXRlLAogIGRhdGVfcHJlY2lzaW9uIHRleHQsCiAgcm91dGUgdGV4dCwKICB0cmlwX3JlcG9ydCB0ZXh0LAogIHBob3RvX3VybCB0ZXh0LAogIGNvdW50cnkgdGV4dAopCkxBTkdVQUdFIHNxbApTVEFCTEUKU0VDVVJJVFkgREVGSU5FUgpTRVQgc2VhcmNoX3BhdGggPSBwdWJsaWMKQVMgJCQKICBTRUxFQ1QgYS5pZCwgYS51c2VyX2lkLCBwLmRpc3BsYXlfbmFtZSwgcC5hdmF0YXJfdXJsLCBhLmFzY2VudF9kYXRlLCBhLmRhdGVfcHJlY2lzaW9uLAogICAgICAgICBhLnJvdXRlLCBhLnRyaXBfcmVwb3J0LCBhLnBob3RvX3VybCwgYS5jb3VudHJ5CiAgRlJPTSBwdWJsaWMuYXNjZW50cyBhCiAgTEVGVCBKT0lOIHB1YmxpYy5wcm9maWxlcyBwIE9OIHAuaWQgPSBhLnVzZXJfaWQKICBXSEVSRSBhLmlzX3B1YmxpYyA9IHRydWUKICAgIEFORCBwdWJsaWMucGVha19ub3JtKGEucGVha19uYW1lKSA9IHB1YmxpYy5wZWFrX25vcm0oX25hbWUpCiAgT1JERVIgQlkgYS5hc2NlbnRfZGF0ZSBERVNDCiAgTElNSVQgTEVBU1QoQ09BTEVTQ0UoX2xpbWl0LCA1MCksIDIwMCk7CiQkOwoKR1JBTlQgRVhFQ1VURSBPTiBGVU5DVElPTiBwdWJsaWMucGVha19hc2NlbnRfcmVnaXN0cnkodGV4dCwgaW50ZWdlcikgVE8gYW5vbiwgYXV0aGVudGljYXRlZCwgc2VydmljZV9yb2xlOw==
+CREATE OR REPLACE FUNCTION public.peak_ascent_registry(_name text, _limit integer DEFAULT 50)
+RETURNS TABLE (
+  id uuid,
+  user_id uuid,
+  display_name text,
+  avatar_url text,
+  ascent_date date,
+  date_precision text,
+  route text,
+  trip_report text,
+  photo_url text,
+  country text
+)
+LANGUAGE sql
+STABLE
+SECURITY DEFINER
+SET search_path = public
+AS $$
+  SELECT a.id, a.user_id, p.display_name, p.avatar_url, a.ascent_date, a.date_precision,
+         a.route, a.trip_report, a.photo_url, a.country
+  FROM public.ascents a
+  LEFT JOIN public.profiles p ON p.id = a.user_id
+  WHERE a.is_public = true
+    AND public.peak_norm(a.peak_name) = public.peak_norm(_name)
+  ORDER BY a.ascent_date DESC
+  LIMIT LEAST(COALESCE(_limit, 50), 200);
+$$;
+
+GRANT EXECUTE ON FUNCTION public.peak_ascent_registry(text, integer) TO anon, authenticated, service_role;

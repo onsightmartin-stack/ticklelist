@@ -1,1 +1,21 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgbG9va3VwUGVha0Nvb3JkcywgdHlwZSBQZWFrQ29vcmRzIH0gZnJvbSAiQC9saWIvcGVhay1jb29yZHMiOwoKLyoqIFJlc29sdmUgYSBzdW1taXQncyBjb29yZGluYXRlcyAoUGVha2JhZ2dlciBmaXJzdCkgZm9yIG1hcCBsaW5rcy4gKi8KZXhwb3J0IGNvbnN0IHVzZVBlYWtDb29yZHMgPSAobmFtZTogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCkgPT4gewogIGNvbnN0IFtjb29yZHMsIHNldENvb3Jkc10gPSB1c2VTdGF0ZTxQZWFrQ29vcmRzIHwgbnVsbD4obnVsbCk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBsZXQgYWxpdmUgPSB0cnVlOwogICAgc2V0Q29vcmRzKG51bGwpOwogICAgaWYgKCFuYW1lKSByZXR1cm47CiAgICBsb29rdXBQZWFrQ29vcmRzKG5hbWUpLnRoZW4oKGMpID0+IHsKICAgICAgaWYgKGFsaXZlKSBzZXRDb29yZHMoYyk7CiAgICB9KTsKICAgIHJldHVybiAoKSA9PiB7CiAgICAgIGFsaXZlID0gZmFsc2U7CiAgICB9OwogIH0sIFtuYW1lXSk7CgogIHJldHVybiBjb29yZHM7Cn07Cg==
+import { useEffect, useState } from "react";
+import { lookupPeakCoords, type PeakCoords } from "@/lib/peak-coords";
+
+/** Resolve a summit's coordinates (Peakbagger first) for map links. */
+export const usePeakCoords = (name: string | null | undefined) => {
+  const [coords, setCoords] = useState<PeakCoords | null>(null);
+
+  useEffect(() => {
+    let alive = true;
+    setCoords(null);
+    if (!name) return;
+    lookupPeakCoords(name).then((c) => {
+      if (alive) setCoords(c);
+    });
+    return () => {
+      alive = false;
+    };
+  }, [name]);
+
+  return coords;
+};

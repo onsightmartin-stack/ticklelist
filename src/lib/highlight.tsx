@@ -1,1 +1,33 @@
-aW1wb3J0IHsgRnJhZ21lbnQsIHR5cGUgUmVhY3ROb2RlIH0gZnJvbSAicmVhY3QiOwoKLyoqCiAqIFNwbGl0IGB0ZXh0YCBvbiBlYWNoIG9jY3VycmVuY2Ugb2YgYHF1ZXJ5YCAoY2FzZS1pbnNlbnNpdGl2ZSkgYW5kIHdyYXAgdGhlCiAqIG1hdGNoaW5nIHN1YnN0cmluZ3MgaW4gYDxtYXJrPmAgc28gdGhlIHVzZXIgY2FuIHNlZSAqd2h5KiBhIHN1Z2dlc3Rpb24KICogbWF0Y2hlZCB0aGVpciBpbnB1dC4KICoKICogUmV0dXJucyB0aGUgb3JpZ2luYWwgdGV4dCB1bnRvdWNoZWQgd2hlbiB0aGUgcXVlcnkgaXMgZW1wdHkuCiAqLwpleHBvcnQgZnVuY3Rpb24gaGlnaGxpZ2h0TWF0Y2godGV4dDogc3RyaW5nLCBxdWVyeTogc3RyaW5nKTogUmVhY3ROb2RlIHsKICBjb25zdCBxID0gcXVlcnkudHJpbSgpOwogIGlmICghcSkgcmV0dXJuIHRleHQ7CgogIC8vIEVzY2FwZSByZWdleCBzcGVjaWFsIGNoYXJhY3RlcnMgaW4gdGhlIHVzZXIgcXVlcnkuCiAgY29uc3QgZXNjYXBlZCA9IHEucmVwbGFjZSgvWy4qKz9eJHt9KCl8W1xdXFxdL2csICJcXCQmIik7CiAgY29uc3QgcmUgPSBuZXcgUmVnRXhwKGAoJHtlc2NhcGVkfSlgLCAiZ2kiKTsKICBjb25zdCBwYXJ0cyA9IHRleHQuc3BsaXQocmUpOwogIGNvbnN0IG5lZWRsZSA9IHEudG9Mb3dlckNhc2UoKTsKCiAgcmV0dXJuICgKICAgIDw+CiAgICAgIHtwYXJ0cy5tYXAoKHBhcnQsIGkpID0+CiAgICAgICAgcGFydC50b0xvd2VyQ2FzZSgpID09PSBuZWVkbGUgPyAoCiAgICAgICAgICA8bWFyayBrZXk9e2l9IGNsYXNzTmFtZT0iYmctdHJhbnNwYXJlbnQgdGV4dC1mb3JlZ3JvdW5kIGZvbnQtc2VtaWJvbGQgdW5kZXJsaW5lIGRlY29yYXRpb24tY3lhbi00MDAgZGVjb3JhdGlvbi0yIHVuZGVybGluZS1vZmZzZXQtMiI+CiAgICAgICAgICAgIHtwYXJ0fQogICAgICAgICAgPC9tYXJrPgogICAgICAgICkgOiAoCiAgICAgICAgICA8RnJhZ21lbnQga2V5PXtpfT57cGFydH08L0ZyYWdtZW50PgogICAgICAgICksCiAgICAgICl9CiAgICA8Lz4KICApOwp9Cg==
+import { Fragment, type ReactNode } from "react";
+
+/**
+ * Split `text` on each occurrence of `query` (case-insensitive) and wrap the
+ * matching substrings in `<mark>` so the user can see *why* a suggestion
+ * matched their input.
+ *
+ * Returns the original text untouched when the query is empty.
+ */
+export function highlightMatch(text: string, query: string): ReactNode {
+  const q = query.trim();
+  if (!q) return text;
+
+  // Escape regex special characters in the user query.
+  const escaped = q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const re = new RegExp(`(${escaped})`, "gi");
+  const parts = text.split(re);
+  const needle = q.toLowerCase();
+
+  return (
+    <>
+      {parts.map((part, i) =>
+        part.toLowerCase() === needle ? (
+          <mark key={i} className="bg-transparent text-foreground font-semibold underline decoration-cyan-400 decoration-2 underline-offset-2">
+            {part}
+          </mark>
+        ) : (
+          <Fragment key={i}>{part}</Fragment>
+        ),
+      )}
+    </>
+  );
+}

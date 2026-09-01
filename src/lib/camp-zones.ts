@@ -1,1 +1,93 @@
-LyoqCiAqIEJhc2UgQ2FtcCBpcyBubyBsb25nZXIgYSBzaW5nbGUgdmFsbGV5OiB0aGUgd29ybGQgaXMgYSByaW5nIG9mIHNjcmVlbnMgeW91CiAqIGNhbiB3YWxrIGFyb3VuZCBmb3JldmVyLiBTdGVwIG9mZiB0aGUgbGVmdCBlZGdlIGFuZCB5b3UgYXJyaXZlIG9uIHRoZSByaWdodAogKiBlZGdlIG9mIHRoZSBwcmV2aW91cyB6b25lLCBhbmQgdmljZSB2ZXJzYSDigJQgbGlrZSB3YWxraW5nIGFyb3VuZCBhIHBsYW5ldC4KICovCgpleHBvcnQgdHlwZSBDYW1wWm9uZUlkID0KICB8ICJ2YWxsZXkiCiAgfCAiZ2xhY2llciIKICB8ICJkZWF0aFpvbmUiCiAgfCAiZGVzZXJ0IgogIHwgIm11c2hyb29tIgogIHwgImNvbGREZXNlcnQiCiAgfCAidm9sY2FubyIKICB8ICJpc2xhbmQiOwoKZXhwb3J0IGludGVyZmFjZSBDYW1wWm9uZSB7CiAgaWQ6IENhbXBab25lSWQ7CiAgLyoqIFNob3J0IG5hbWUgc2hvd24gaW4gdGhlIEhVRC4gKi8KICBuYW1lOiBzdHJpbmc7CiAgLyoqIE9uZS1saW5lIGZsYXZvdXIgc2hvd24gd2hlbiB5b3UgYXJyaXZlLiAqLwogIGJsdXJiOiBzdHJpbmc7CiAgLyoqIEVtb2ppIG1hcmtlciBmb3IgdGhlIGNvbXBhc3Mgc3RyaXAuICovCiAgaWNvbjogc3RyaW5nOwogIC8qKiBPbmx5IHRoZSBob21lIHZhbGxleSBob2xkcyB0aGUgY29tbXVuaXR5J3MgY2xpbWJlcnMgYW5kIHNoZWx0ZXJzLiAqLwogIHNvY2lhbDogYm9vbGVhbjsKfQoKZXhwb3J0IGNvbnN0IGNhbXBab25lczogQ2FtcFpvbmVbXSA9IFsKICB7CiAgICBpZDogInZhbGxleSIsCiAgICBuYW1lOiAiSG9tZSBWYWxsZXkiLAogICAgYmx1cmI6ICJUZW50cywgY2FtcGZpcmUgYW5kIGV2ZXJ5IFRpY2tsZWxpc3QgY2xpbWJlci4iLAogICAgaWNvbjogIvCfj5XvuI8iLAogICAgc29jaWFsOiB0cnVlLAogIH0sCiAgewogICAgaWQ6ICJnbGFjaWVyIiwKICAgIG5hbWU6ICJHbGFjaWVyIEJhc2luIiwKICAgIGJsdXJiOiAiQmx1ZSBpY2UsIHNlcmFjcyBhbmQgYSBmcm96ZW4gbGFrZS4gTWluZCB0aGUgY3JldmFzc2VzLiIsCiAgICBpY29uOiAi8J+niiIsCiAgICBzb2NpYWw6IGZhbHNlLAogIH0sCiAgewogICAgaWQ6ICJkZWF0aFpvbmUiLAogICAgbmFtZTogIlRoZSBEZWF0aCBab25lIiwKICAgIGJsdXJiOiAiOCwwMDAgbSBvbiBhIHdpbmQtc2NvdXJlZCBjb2wuIEFsdGl0dWRlIHNpY2tuZXNzIGlzIGtpbGxpbmcgeW91IOKAlCBkZXNjZW5kLCBvciBmaW5kIG94eWdlbi4iLAogICAgaWNvbjogIuKYoO+4jyIsCiAgICBzb2NpYWw6IGZhbHNlLAogIH0sCiAgewogICAgaWQ6ICJkZXNlcnQiLAogICAgbmFtZTogIkRlc2VydCBSYW5nZSIsCiAgICBibHVyYjogIlJlZCByb2NrLCBkdW5lcyBhbmQgYSBwYWxtLXJpbmdlZCBvYXNpcy4iLAogICAgaWNvbjogIvCfj5zvuI8iLAogICAgc29jaWFsOiBmYWxzZSwKICB9LAogIHsKICAgIGlkOiAibXVzaHJvb20iLAogICAgbmFtZTogIkZ1bmdhbCBIb2xsb3ciLAogICAgYmx1cmI6ICJHaWFudCBnbG93aW5nIHRvYWRzdG9vbHMsIGZhaXJ5IHJpbmdzIGFuZCBkcmlmdGluZyBzcG9yZXMuIiwKICAgIGljb246ICLwn42EIiwKICAgIHNvY2lhbDogZmFsc2UsCiAgfSwKICB7CiAgICBpZDogImNvbGREZXNlcnQiLAogICAgbmFtZTogIkdyZXkgV2FzdGVzIiwKICAgIGJsdXJiOiAiQSBjb2xkIGhpZ2ggZGVzZXJ0IG9mIGdyZXkgZ3JhdmVsIHVuZGVyIHJ1Z2dlZCBEb2xvbWl0ZSB0b3dlcnMuIiwKICAgIGljb246ICLwn6qoIiwKICAgIHNvY2lhbDogZmFsc2UsCiAgfSwKICB7CiAgICBpZDogInZvbGNhbm8iLAogICAgbmFtZTogIkFzaGZhbGwgQ2FsZGVyYSIsCiAgICBibHVyYjogIkJsYWNrIGFzaCwgZ2xvd2luZyBsYXZhIHJpdmVycyBhbmQgYSBjb25lIHRoYXQgbmV2ZXIgc3RvcHMgc21va2luZy4iLAogICAgaWNvbjogIvCfjIsiLAogICAgc29jaWFsOiBmYWxzZSwKICB9LAogIHsKICAgIGlkOiAiaXNsYW5kIiwKICAgIG5hbWU6ICJDb3JhbCBDYXkiLAogICAgYmx1cmI6ICJBIENhcmliYmVhbiBpc2xldDogdHVycXVvaXNlIHNoYWxsb3dzLCB3aGl0ZSBzYW5kIGFuZCBsZWFuaW5nIHBhbG1zLiIsCiAgICBpY29uOiAi8J+Pne+4jyIsCiAgICBzb2NpYWw6IGZhbHNlLAogIH0sCl07CgpleHBvcnQgY29uc3Qgem9uZUF0ID0gKGluZGV4OiBudW1iZXIpOiBDYW1wWm9uZSA9PgogIGNhbXBab25lc1soKGluZGV4ICUgY2FtcFpvbmVzLmxlbmd0aCkgKyBjYW1wWm9uZXMubGVuZ3RoKSAlIGNhbXBab25lcy5sZW5ndGhdITsKCi8qKiBXcmFwIGEgem9uZSBpbmRleCBvbnRvIHRoZSByaW5nLiAqLwpleHBvcnQgY29uc3Qgd3JhcFpvbmUgPSAoaW5kZXg6IG51bWJlcikgPT4KICAoKGluZGV4ICUgY2FtcFpvbmVzLmxlbmd0aCkgKyBjYW1wWm9uZXMubGVuZ3RoKSAlIGNhbXBab25lcy5sZW5ndGg7Cg==
+/**
+ * Base Camp is no longer a single valley: the world is a ring of screens you
+ * can walk around forever. Step off the left edge and you arrive on the right
+ * edge of the previous zone, and vice versa — like walking around a planet.
+ */
+
+export type CampZoneId =
+  | "valley"
+  | "glacier"
+  | "deathZone"
+  | "desert"
+  | "mushroom"
+  | "coldDesert"
+  | "volcano"
+  | "island";
+
+export interface CampZone {
+  id: CampZoneId;
+  /** Short name shown in the HUD. */
+  name: string;
+  /** One-line flavour shown when you arrive. */
+  blurb: string;
+  /** Emoji marker for the compass strip. */
+  icon: string;
+  /** Only the home valley holds the community's climbers and shelters. */
+  social: boolean;
+}
+
+export const campZones: CampZone[] = [
+  {
+    id: "valley",
+    name: "Home Valley",
+    blurb: "Tents, campfire and every Ticklelist climber.",
+    icon: "🏕️",
+    social: true,
+  },
+  {
+    id: "glacier",
+    name: "Glacier Basin",
+    blurb: "Blue ice, seracs and a frozen lake. Mind the crevasses.",
+    icon: "🧊",
+    social: false,
+  },
+  {
+    id: "deathZone",
+    name: "The Death Zone",
+    blurb: "8,000 m on a wind-scoured col. Altitude sickness is killing you — descend, or find oxygen.",
+    icon: "☠️",
+    social: false,
+  },
+  {
+    id: "desert",
+    name: "Desert Range",
+    blurb: "Red rock, dunes and a palm-ringed oasis.",
+    icon: "🏜️",
+    social: false,
+  },
+  {
+    id: "mushroom",
+    name: "Fungal Hollow",
+    blurb: "Giant glowing toadstools, fairy rings and drifting spores.",
+    icon: "🍄",
+    social: false,
+  },
+  {
+    id: "coldDesert",
+    name: "Grey Wastes",
+    blurb: "A cold high desert of grey gravel under rugged Dolomite towers.",
+    icon: "🪨",
+    social: false,
+  },
+  {
+    id: "volcano",
+    name: "Ashfall Caldera",
+    blurb: "Black ash, glowing lava rivers and a cone that never stops smoking.",
+    icon: "🌋",
+    social: false,
+  },
+  {
+    id: "island",
+    name: "Coral Cay",
+    blurb: "A Caribbean islet: turquoise shallows, white sand and leaning palms.",
+    icon: "🏝️",
+    social: false,
+  },
+];
+
+export const zoneAt = (index: number): CampZone =>
+  campZones[((index % campZones.length) + campZones.length) % campZones.length]!;
+
+/** Wrap a zone index onto the ring. */
+export const wrapZone = (index: number) =>
+  ((index % campZones.length) + campZones.length) % campZones.length;

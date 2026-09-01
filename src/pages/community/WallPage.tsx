@@ -1,1 +1,56 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gIkAvbGliL3JvdXRlci1jb21wYXQiOwppbXBvcnQgeyBTaGllbGRDaGVjayB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCBTZW8gZnJvbSAiQC9jb21wb25lbnRzL1NlbyI7CmltcG9ydCBDb21tdW5pdHlMYXlvdXQgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9Db21tdW5pdHlMYXlvdXQiOwppbXBvcnQgTWVtYmVyc09ubHkgZnJvbSAiQC9jb21wb25lbnRzL2NvbW11bml0eS9NZW1iZXJzT25seSI7CmltcG9ydCBQb3N0RmVlZCBmcm9tICJAL2NvbXBvbmVudHMvY29tbXVuaXR5L1Bvc3RGZWVkIjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvaG9va3MvdXNlQXV0aCI7CmltcG9ydCB7IHVzZUNvbW11bml0eURhdGEgfSBmcm9tICJAL2hvb2tzL3VzZUNvbW11bml0eURhdGEiOwoKLyoqIFRoZSBXYWxsIOKAlCBtZW1iZXIgcG9zdHMgd2l0aCBwaWN0dXJlcywgdmlkZW9zIGFuZCBjb21tZW50cy4gKi8KY29uc3QgV2FsbFBhZ2UgPSAoKSA9PiB7CiAgY29uc3QgeyB1c2VyLCBpc0FkbWluIH0gPSB1c2VBdXRoKCk7CiAgY29uc3QgeyBwcm9maWxlcyB9ID0gdXNlQ29tbXVuaXR5RGF0YSgpOwoKICByZXR1cm4gKAogICAgPENvbW11bml0eUxheW91dD4KICAgICAgPFNlbwogICAgICAgIHRpdGxlPSJUaGUgV2FsbCDigJQgVGlja2xlbGlzdCIKICAgICAgICBkZXNjcmlwdGlvbj0iU2hhcmUgcGhvdG9zLCB2aWRlb3MgYW5kIHN0b3JpZXMgZnJvbSB0aGUgbW91bnRhaW5zIHdpdGggdGhlIFRpY2tsZWxpc3QgY29tbXVuaXR5LCBhbmQgY29tbWVudCBvbiBvdGhlciBtZW1iZXJzJyBwb3N0cy4iCiAgICAgICAgcGF0aD0iL2NvbW11bml0eS93YWxsIgogICAgICAgIG5vaW5kZXg9eyEhdXNlcn0KICAgICAgLz4KCiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJtYi02Ij4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRyYWNraW5nLVswLjNlbV0gdXBwZXJjYXNlIHRleHQtcHJpbWFyeSBmb250LWRpc3BsYXkiPlRpY2tsZWxpc3Q8L3A+CiAgICAgICAgPGgxIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtM3hsIG1kOnRleHQtNHhsIHRyYWNraW5nLXdpZGVyIG10LTIiPlRoZSBXYWxsPC9oMT4KICAgICAgICA8cCBjbGFzc05hbWU9Im10LTMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1heC13LTJ4bCI+CiAgICAgICAgICBQb3N0IGFueXRoaW5nIOKAlCBhIHN1bW1pdCBwaG90bywgYSB2aWRlbywgYSB0cmlwIHJlcG9ydCBvciBhIHF1ZXN0aW9uLiBFdmVyeW9uZSBpbiB0aGUgY29tbXVuaXR5IGNhbiBsaWtlIGFuZAogICAgICAgICAgY29tbWVudC4g8J+PlO+4jwogICAgICAgIDwvcD4KICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgU2VlIHNvbWV0aGluZyB3cm9uZz8gVXNlIHRoZSBmbGFnIGljb24gb24gYSBwb3N0IG9yIGNvbW1lbnQgdG8gcmVwb3J0IGl0LgogICAgICAgIDwvcD4KICAgICAgICB7aXNBZG1pbiAmJiAoCiAgICAgICAgICA8TGluawogICAgICAgICAgICB0bz0iL2NvbW11bml0eS9tb2RlcmF0aW9uIgogICAgICAgICAgICBjbGFzc05hbWU9Im10LTMgaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgdGV4dC14cyB0ZXh0LXByaW1hcnkgdW5kZXJsaW5lIgogICAgICAgICAgPgogICAgICAgICAgICA8U2hpZWxkQ2hlY2sgY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSIgLz4gTW9kZXJhdGlvbiBxdWV1ZQogICAgICAgICAgPC9MaW5rPgogICAgICAgICl9CiAgICAgIDwvaGVhZGVyPgoKICAgICAge3VzZXIgPyAoCiAgICAgICAgPFBvc3RGZWVkIHByb2ZpbGVzPXtwcm9maWxlc30gLz4KICAgICAgKSA6ICgKICAgICAgICA8TWVtYmVyc09ubHkKICAgICAgICAgIHRpdGxlPSJUaGUgV2FsbCBpcyBmb3IgbWVtYmVycyIKICAgICAgICAgIGRlc2NyaXB0aW9uPSJTaWduIGluIHRvIHBvc3QgcGhvdG9zLCB2aWRlb3MgYW5kIHN0b3JpZXMsIGFuZCB0byBjb21tZW50IG9uIG90aGVyIGNsaW1iZXJzJyBwb3N0cy4iCiAgICAgICAgLz4KICAgICAgKX0KICAgIDwvQ29tbXVuaXR5TGF5b3V0PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBXYWxsUGFnZTsK
+import { Link } from "@/lib/router-compat";
+import { ShieldCheck } from "lucide-react";
+import Seo from "@/components/Seo";
+import CommunityLayout from "@/components/community/CommunityLayout";
+import MembersOnly from "@/components/community/MembersOnly";
+import PostFeed from "@/components/community/PostFeed";
+import { useAuth } from "@/hooks/useAuth";
+import { useCommunityData } from "@/hooks/useCommunityData";
+
+/** The Wall — member posts with pictures, videos and comments. */
+const WallPage = () => {
+  const { user, isAdmin } = useAuth();
+  const { profiles } = useCommunityData();
+
+  return (
+    <CommunityLayout>
+      <Seo
+        title="The Wall — Ticklelist"
+        description="Share photos, videos and stories from the mountains with the Ticklelist community, and comment on other members' posts."
+        path="/community/wall"
+        noindex={!!user}
+      />
+
+      <header className="mb-6">
+        <p className="text-[10px] tracking-[0.3em] uppercase text-primary font-display">Ticklelist</p>
+        <h1 className="font-display text-3xl md:text-4xl tracking-wider mt-2">The Wall</h1>
+        <p className="mt-3 text-muted-foreground max-w-2xl">
+          Post anything — a summit photo, a video, a trip report or a question. Everyone in the community can like and
+          comment. 🏔️
+        </p>
+        <p className="mt-2 text-xs text-muted-foreground">
+          See something wrong? Use the flag icon on a post or comment to report it.
+        </p>
+        {isAdmin && (
+          <Link
+            to="/community/moderation"
+            className="mt-3 inline-flex items-center gap-1.5 text-xs text-primary underline"
+          >
+            <ShieldCheck className="w-3.5 h-3.5" /> Moderation queue
+          </Link>
+        )}
+      </header>
+
+      {user ? (
+        <PostFeed profiles={profiles} />
+      ) : (
+        <MembersOnly
+          title="The Wall is for members"
+          description="Sign in to post photos, videos and stories, and to comment on other climbers' posts."
+        />
+      )}
+    </CommunityLayout>
+  );
+};
+
+export default WallPage;
