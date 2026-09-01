@@ -3,7 +3,7 @@
     @android.webkit.JavascriptInterface <methods>;
 }
 -keep class com.getcapacitor.** { *; }
--keep class com.onsightmartin.** { *; }
+-keep class ticklelist.org.** { *; }
 
 # Preserve WebView and WebSettings
 -keep class android.webkit.** { *; }
